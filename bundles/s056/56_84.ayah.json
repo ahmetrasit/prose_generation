@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.411326+00:00",
+  "generated_at": "2026-08-04T22:30:02.159939+00:00",
   "surah": 56,
   "ayah": 84,
   "ayahRef": "56:84",
@@ -1238,7 +1238,8 @@
       "morpheme_ids": [
         "m-w-s056-a084-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:84:1"
+      "aligned_qac_word_ref_upstream": "56:84:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1252,7 +1253,8 @@
       "morpheme_ids": [
         "m-w-s056-a084-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:84:2"
+      "aligned_qac_word_ref_upstream": "56:84:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1266,7 +1268,8 @@
       "morpheme_ids": [
         "m-w-s056-a084-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:84:3"
+      "aligned_qac_word_ref_upstream": "56:84:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1282,7 +1285,8 @@
         "m-w-s056-a084-w003-01",
         "m-w-s056-a084-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:84:4"
+      "aligned_qac_word_ref_upstream": "56:84:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1663,7 +1667,551 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_84.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:84",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:84",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_fixed_collective_witness",
+            "confidence": "strong",
+            "focus_anchor": "The temporal deictic حِينَئِذٍ and the second-person plural تَنظُرُونَ.",
+            "mechanism": "A specifically marked instant synchronizes a plurality of observers and directs their sight or attention toward an event present to them.",
+            "activation_trace": [
+              {
+                "source_ref": "56:84",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B001",
+                "role": "The branch supplies the definite occasion that temporally pins the collective act."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "The branch supplies directed visual or reflective attention as the group's activity."
+              }
+            ],
+            "changed_reading": {
+              "before": "A loose connective followed by a generic statement that the addressees look.",
+              "after": "The clause stages a collective act of attention at one sharply indicated instant."
+            }
+          },
+          {
+            "model_id": "baseline_suspended_expectation",
+            "confidence": "medium",
+            "focus_anchor": "The shared waiting potential of حِينَئِذٍ and تَنظُرُونَ.",
+            "mechanism": "The time-word can evoke awaiting an appointed occasion while the looking-root can evoke waiting or deferral, producing a held interval rather than a completed glance.",
+            "activation_trace": [
+              {
+                "source_ref": "56:84",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B005",
+                "role": "The branch contributes anticipation of the moment and makes the deictic time feel awaited."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B002",
+                "role": "The branch contributes expectant waiting and turns the ongoing look into temporal suspension."
+              }
+            ],
+            "changed_reading": {
+              "before": "The addressees simply see something at that time.",
+              "after": "The addressees are held at the awaited moment, watching and waiting for what they cannot yet resolve."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_gaze_without_full_access",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "ك ن ن",
+              "م س س",
+              "ب ص ر"
+            ],
+            "mechanism": "The surrounding sequence separates knowledge, protective concealment, touch, looking, and seeing. The focus gaze therefore registers real attention without guaranteeing access to the event's hidden layer.",
+            "activation_trace": [
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight or reflection supplies the genuine but bounded act performed in the focus."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower establishes knowledge as a distinct level beyond mere looking."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment supplies a hidden layer that ordinary observation need not penetrate."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Tactile contact adds another access mode and shows that access is differentiated rather than automatic."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Explicit ocular seeing, negated in its source construction, caps the sequence by marking the observers' visual limit."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from knowing in 56:76 through concealment and restricted touch in 56:78-79 to looking in 56:84 and explicit non-seeing in 56:85."
+            ],
+            "reader_inference": "The packet supplies distinct knowledge, concealment, touch, gaze, and negated sight; I infer a graded access sequence in which looking is real but insufficient. A live alternative is that each access term remains local to its own object.",
+            "changed_reading": {
+              "before": "Looking is equivalent to apprehending what is happening.",
+              "after": "The observers attend to the visible crisis while its decisive dimension remains outside their sensory and epistemic reach."
+            }
+          },
+          {
+            "model_id": "delta_terminal_bodily_threshold",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل غ",
+              "ح ل ق"
+            ],
+            "mechanism": "Arrival at a limit is localized in the throat, the conduit of breath and food. This gives حِينَئِذٍ an exact bodily threshold and activates its death-calamity branch, while تَنظُرُونَ positions the plural addressees as present observers.",
+            "activation_trace": [
+              {
+                "source_ref": "56:84",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B002",
+                "role": "The death or calamity branch makes the indicated instant specifically terminal rather than merely sequential."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed gaze places the addressed group at the threshold as immediate witnesses."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Reaching the endpoint supplies the terminal movement that defines when 'then' occurs."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as the passage of breath and food gives that endpoint a precise bodily location."
+              }
+            ],
+            "structural_cues": [
+              "The focus follows 56:83 without a new named event, so its temporal deictic points directly back to the reaching-throat construction."
+            ],
+            "reader_inference": "The packet supplies endpoint arrival and the throat conduit; I infer a terminal bodily passage and assign the plural addressees the role of onlookers rather than controllers. The narrower alternative is an unspecified acute bodily crisis.",
+            "changed_reading": {
+              "before": "The addressees look at some event at a marked time.",
+              "after": "At the instant the crisis reaches its bodily endpoint in the throat, the addressees stand present and watch."
+            }
+          },
+          {
+            "model_id": "delta_near_presence_beyond_sight",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ب",
+              "ب ص ر"
+            ],
+            "mechanism": "The human group is near enough to direct its gaze, yet the next ayah asserts a still nearer presence that the group does not see. Spatial nearness and perceptual access are uncoupled.",
+            "activation_trace": [
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "The focus branch supplies the observers' active gaze and establishes the human side of the contrast."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness contrary to distance introduces a presence closer than the visibly gathered observers."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Ocular sight, negated in the source, blocks the observers from converting physical proximity into perception."
+              }
+            ],
+            "structural_cues": [
+              "The adjacent second-person plurals 'you look' and 'you do not see' form an immediate contrast across 56:84-85."
+            ],
+            "reader_inference": "The packet supplies human gaze, greater nearness, and negated sight; I infer that the decisive nearest presence is outside the group's visible field. Alternatively, the two sight verbs may differ only by local object rather than by depth of access.",
+            "changed_reading": {
+              "before": "The nearest witnesses are those visibly watching the scene.",
+              "after": "The watching group discovers that physical attendance does not make it nearest or let it see the presence closest to the event."
+            }
+          },
+          {
+            "model_id": "delta_spectatorship_as_control_test",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ي ن",
+              "ر ج ع",
+              "ص د ق"
+            ],
+            "mechanism": "The following challenge links freedom from reckoning to the ability to return what has reached the threshold and demands truth in action. Watching becomes evidence of non-sovereignty: the group can attend but cannot reverse.",
+            "activation_trace": [
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed attention supplies the passive capability that is contrasted with the demanded intervention."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and requital frame the scene as a test of the claim to be beyond imposed consequence."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Restoration to the prior state supplies the concrete action the observers are challenged to perform."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Truth realized in deed makes successful reversal the proposed verification rather than verbal assertion."
+              }
+            ],
+            "structural_cues": [
+              "The repeated challenge form in 56:83 and 56:86 encloses the looking clause, and the second-person plural continues into the return-command of 56:87."
+            ],
+            "reader_inference": "The packet supplies reckoning, a demand for restoration, and truth verified by action; I infer that the unanswered challenge exposes inability and recasts watching as enforced passivity. Alternatively, the challenge tests a claim without semantically redefining the gaze.",
+            "changed_reading": {
+              "before": "The group happens to be passive while it observes.",
+              "after": "Its very spectatorship demonstrates the boundary of its power: it can watch the threshold but cannot restore what is passing beyond it."
+            }
+          },
+          {
+            "model_id": "delta_common_moment_divergent_aftermaths",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ب",
+              "ي م ن",
+              "ض ل ل",
+              "ن ز ل",
+              "ح ق ق"
+            ],
+            "mechanism": "The single marked moment is followed by three alternative classifications and contrasting receptions. حِينَئِذٍ becomes a common threshold before divergent social and consequential paths, without implying that the human observers can see those paths.",
+            "activation_trace": [
+              {
+                "source_ref": "56:84",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B001",
+                "role": "The definite occasion supplies the shared temporal hinge from which the later alternatives unfold."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Privileged nearness supplies one classified relation on the far side of the threshold."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessed fortune supplies the positive quality of a second classified group."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from the intended path supplies the negative quality of the third classified group."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared reception turns classification into an ensuing consequence rather than a bare label."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality fixed against falsehood seals the alternatives as consequential rather than hypothetical scenery."
+              }
+            ],
+            "structural_cues": [
+              "The repeated alternative openings in 56:88, 56:90, and 56:92 divide the aftermath into three cases immediately after the challenge sequence."
+            ],
+            "reader_inference": "The packet supplies a marked focus time followed by three classified outcomes; I infer that the time functions as their common threshold. A live alternative is that the classifications concern only the person at the center and add no semantic load to the focus deictic.",
+            "changed_reading": {
+              "before": "The focus marks one undifferentiated moment of watching.",
+              "after": "It marks the shared threshold at which one visible crisis opens into sharply divergent aftermaths that the watchers themselves do not necessarily perceive."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_displaced_human_watchers",
+            "confidence": "medium",
+            "containment": "The custodial branch is form-distant from the finite verb, so this is not a grammatical claim that the addressees are official guards. It remains anchored in the focus looking-root and gains a coherent spatial contrast from the nearer unseen presence; downstream prose should present it only as an exploratory role-image.",
+            "focus_anchor": "تَنظُرُونَ can activate the looking-root's image of a watcher who observes and guards.",
+            "activation_trace": [
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B009",
+                "role": "The branch recasts the gathered observers as would-be custodians who can watch but not preserve the passage."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Greater nearness displaces the human watchers from the position of closest attendance."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Negated ocular sight limits even the would-be custodians' knowledge of what they attend."
+              }
+            ],
+            "changed_reading": {
+              "before": "The addressees are emotionally neutral spectators.",
+              "after": "They resemble displaced watchers: physically attending and perhaps trying to guard the person, yet neither closest to nor perceptually master of the passage."
+            }
+          },
+          {
+            "outlier_id": "outlier_terminal_time_looks_back",
+            "confidence": "exploratory",
+            "containment": "Reversing the gaze's agency is syntactically surprising because the second-person plural remains the explicit actor. The image is still anchored in the death branches of both focus roots and in the reached-throat context; downstream prose must keep the humans' literal looking primary and label the counter-gaze as poetic branch resonance.",
+            "focus_anchor": "حِينَئِذٍ carries a death-calamity branch while تَنظُرُونَ carries the image of time's destructive glance.",
+            "activation_trace": [
+              {
+                "source_ref": "56:84",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B002",
+                "role": "The branch loads the indicated time with the arrival of death or calamity."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B005",
+                "role": "The branch supplies the startling counter-image of time looking upon people and overtaking them."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at the endpoint gives the counter-image an event boundary rather than leaving it free-floating."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat conduit bodily anchors the terminal event that seems to look back at its observers."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only the human group directs a gaze at the terminal scene.",
+              "after": "Alongside that literal gaze, a contained poetic counter-image lets the death-marked time itself seem to have looked upon and overtaken the scene."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The preceding reached-throat construction turns a generic 'then' into an exact terminal bodily threshold.",
+            "The adjacent contrast between looking and not seeing makes human observation genuine but radically incomplete.",
+            "The demand to restore what has reached the threshold converts passive watching into evidence of limited control and exposure to reckoning.",
+            "The later three-way outcomes make the one witnessed moment a common hinge before divergent aftermaths."
+          ],
+          "what_was_special": "The focus ayah couples two roots that each contain both ordinary and terminal or expectant branches. Context activates those latent edges while preserving the plain scene: a gathered group truly looks, yet its gaze neither reaches the nearest presence nor grants power to reverse the event.",
+          "remaining_uncertainties": [
+            "The waiting senses of both focus roots may be resonance rather than active meaning in the finite construction.",
+            "The later classifications may sharpen the temporal threshold without belonging to what the observers themselves witness.",
+            "The custodial and counter-gaze outliers are useful role-images but should not be promoted to direct lexical glosses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Direct sight becomes powerless observation at the due moment.** `ح ي ن` **B001** supplies the due occasion of a thing; `ن ظ ر` **B001** supplies directing sight or insight to apprehend. The observers see the throat-limit but 56:85 says they do not perceive the nearer agency. **Abductive move:** I infer a distinction between seeing the visible body and apprehending the event’s causal depth. **Reading change:** observation is exposed as incomplete knowledge.\n\n2. **Watching for time without receiving respite.** `ح ي ن` **B005** supplies awaiting the right time, while `ن ظ ر` **B002** supplies watching for time and granting respite. **Abductive move:** I infer that the observers can wait and watch but cannot extend the appointed moment. **Reading change:** their gaze measures helpless duration rather than intervention.",
@@ -2593,18 +3141,23 @@
   "root_lexicon": {
     "root_000382": {
       "root_ar": "ح ي ن",
+      "qac_roots_ar": [
+        "ح ي ن"
+      ],
       "root_id": "root_000382",
-      "root_mapping": {
-        "root_id": "root_000382",
-        "root_norm": "ح ي ن",
-        "source_root_norm": "ح ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "d1f9e5fd7306cea265e9dad63965b1890600553869b67a6f3a10fb5b79d9c13b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4292,18 +4845,23 @@
     },
     "root_001520": {
       "root_ar": "ن ظ ر",
+      "qac_roots_ar": [
+        "ن ظ ر"
+      ],
       "root_id": "root_001520",
-      "root_mapping": {
-        "root_id": "root_001520",
-        "root_norm": "ن ظ ر",
-        "source_root_norm": "ن ظ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 106,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ظ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 106
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "480977a3c523fce7b184b86e2c842998090c7167ff38da9040e5de4e8aaf7d22",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8291,14 +8849,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8571,11 +9135,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_84.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_84.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 93128,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8648,19 +9225,37 @@
           "root_ids": [
             "root_000382"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000382",
+            "targets": [
+              {
+                "qac_root_norm": "ح ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000382",
+                "furuq_root_norm": "ح ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000382",
-              "root_norm": "ح ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8685,19 +9280,37 @@
           "root_ids": [
             "root_001520"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ظ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001520",
+            "targets": [
+              {
+                "qac_root_norm": "ن ظ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001520",
+                "furuq_root_norm": "ن ظ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 106,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001520",
-              "root_norm": "ن ظ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ظ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 106,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8724,10 +9337,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 18,
+        "dictionary_branches_kept": 18,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 18,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

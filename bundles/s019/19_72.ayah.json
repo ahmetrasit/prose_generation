@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:15.369027+00:00",
+  "generated_at": "2026-08-04T22:29:40.021095+00:00",
   "surah": 19,
   "ayah": 72,
   "ayahRef": "19:72",
@@ -2452,16 +2452,105 @@
       "morpheme_ids": [
         "m-w-s019-a072-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:72:1"
+      "aligned_qac_word_ref_upstream": "19:72:1",
+      "morpheme_skip_count": 0
     },
     null,
+    {
+      "word_index": 2,
+      "surface_ar": "الَّذِينَ",
+      "word_ids": [
+        "w-s019-a072-w003"
+      ],
+      "qac_refs": [
+        "19:72:3:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a072-w003-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:72:3",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 3,
+      "surface_ar": "اتَّقَوْا",
+      "word_ids": [
+        "w-s019-a072-w004"
+      ],
+      "qac_refs": [
+        "19:72:4:1",
+        "19:72:4:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a072-w004-01",
+        "m-w-s019-a072-w004-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:72:4",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s019-a072-w005"
+      ],
+      "qac_refs": [
+        "19:72:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a072-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:72:5",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "نَذَرُ",
+      "word_ids": [
+        "w-s019-a072-w005"
+      ],
+      "qac_refs": [
+        "19:72:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a072-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:72:6",
+      "morpheme_skip_count": 0
+    },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 7,
+      "surface_ar": "فِيهَا",
+      "word_ids": [
+        "w-s019-a072-w007"
+      ],
+      "qac_refs": [
+        "19:72:7:1",
+        "19:72:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a072-w007-01",
+        "m-w-s019-a072-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:72:8",
+      "morpheme_skip_count": 2
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "جِثِيًّا",
+      "word_ids": [
+        "w-s019-a072-w008"
+      ],
+      "qac_refs": [
+        "19:72:8:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a072-w008-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:72:9",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3163,7 +3252,835 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_72.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:72",
+      "window": [
+        "19:59",
+        "19:60",
+        "19:61",
+        "19:62",
+        "19:63",
+        "19:64",
+        "19:65",
+        "19:66",
+        "19:67",
+        "19:68",
+        "19:69",
+        "19:70",
+        "19:71",
+        "19:72",
+        "19:73",
+        "19:74",
+        "19:75",
+        "19:76"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:72",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_sorted_extraction",
+            "confidence": "strong",
+            "focus_anchor": "The paired first-person plurals in \"نُنَجِّى\" and \"نَذَرُ,\" joined by \"و,\" divide people within the same \"فِيهَا.\"",
+            "mechanism": "Rescue works as separation from a shared field: self-protective guarding supplies the criterion, one group is extracted, and the other is deliberately left immobilized.",
+            "activation_trace": [
+              {
+                "source_ref": "19:72",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Rescue by separation supplies the extracting operation."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Putting oneself within protection supplies the differentiating disposition."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "Leaving something in place supplies the retained side of the sorting."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ج ث و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000223",
+                "branch_id": "B001",
+                "role": "Kneeling supplies the bodily constraint of those who remain."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah states two unrelated outcomes: salvation for one class and punishment for another.",
+              "after": "The ayah depicts one differential operation inside a shared danger: extract the guarded, retain the wrongdoers."
+            }
+          },
+          {
+            "model_id": "baseline_spatial_reversal",
+            "confidence": "medium",
+            "focus_anchor": "\"ٱلظَّٰلِمِينَ\" is immediately governed by \"نَذَرُ\" and completed by the locative-predicative \"فِيهَا جِثِيًّا.\"",
+            "mechanism": "Those characterized by putting things outside their proper place or withholding what is due undergo a reversal: they are themselves left fixed in an imposed place and posture.",
+            "activation_trace": [
+              {
+                "source_ref": "19:72",
+                "root": "ظ ل م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000967",
+                "branch_id": "B004",
+                "role": "Misplacing a thing supplies the spatial offense reversed by imposed placement."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ظ ل م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000967",
+                "branch_id": "B008",
+                "role": "Withholding from a right supplies the social detention reversed upon the wrongdoers."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "Deliberate leaving supplies their imposed retention."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ج ث و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000223",
+                "branch_id": "B001",
+                "role": "Kneeling makes the reversal bodily and spatially visible."
+              }
+            ],
+            "changed_reading": {
+              "before": "\"Wrongdoers\" is only a broad moral label, and kneeling is generic humiliation.",
+              "after": "The clause enacts measure-for-measure placement: agents of displacement or withheld right are left unable to choose place or posture."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_corrupted_trajectory",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ف",
+              "ض ي ع",
+              "ت ب ع",
+              "غ و ي"
+            ],
+            "mechanism": "The earlier chain makes the final division path-dependent: a successor-state deteriorates, prayer is let slip, desire is tracked, and the path terminates in a ruinous encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "19:59",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B007",
+                "role": "A state changing toward corruption supplies the trajectory's degraded starting condition."
+              },
+              {
+                "source_ref": "19:59",
+                "root": "ض ي ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000923",
+                "branch_id": "B001",
+                "role": "Loss and disappearance supply the failed maintenance of prayer."
+              },
+              {
+                "source_ref": "19:59",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following in another's track supplies directional persistence toward desire."
+              },
+              {
+                "source_ref": "19:59",
+                "root": "غ و ي",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001116",
+                "branch_id": "B004",
+                "role": "A hunter's ruinous pit supplies the terminal image of the pursued course."
+              }
+            ],
+            "structural_cues": [
+              "19:59 orders deterioration, squandering, following, and encounter as a verbal sequence."
+            ],
+            "reader_inference": "The packet supplies the ordered losses and pursuit; I read the order as a formative arrow toward being left in 19:72. A live alternative is accumulation without strict causation.",
+            "changed_reading": {
+              "before": "The two classes in 19:72 appear as static identities.",
+              "after": "At least the wrongdoer-class is shown as the endpoint of maintained direction: what one keeps following determines where one is finally left."
+            }
+          },
+          {
+            "model_id": "delta_repairable_boundary",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ل ح",
+              "د خ ل",
+              "و ر ث",
+              "و ق ي"
+            ],
+            "mechanism": "The exception and repair sequence before the focus turns the boundary from hereditary essence into a traversable moral process, culminating in entry, inheritance, and the same protective root used in 19:72.",
+            "activation_trace": [
+              {
+                "source_ref": "19:60",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B001",
+                "role": "Repair opposed to corruption supplies the reversible turn in the trajectory."
+              },
+              {
+                "source_ref": "19:60",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B001",
+                "role": "Entry into an interior supplies movement across the outcome boundary."
+              },
+              {
+                "source_ref": "19:63",
+                "root": "و ر ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001639",
+                "branch_id": "B002",
+                "role": "Bestowal without contract supplies the positive allocation reached after repair."
+              },
+              {
+                "source_ref": "19:63",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "The protective state names the inheritor before becoming the rescued class in 19:72."
+              }
+            ],
+            "structural_cues": [
+              "19:60 opens with an exception and sequences turning, faith, and reparative action.",
+              "19:63 identifies the inheritor by the same و ق ي root that identifies the rescued in 19:72."
+            ],
+            "reader_inference": "The packet supplies exception, repair, entry, inheritance, and repeated و ق ي; I infer a traversable category boundary. The live alternative is that the passage lists correlated marks without specifying formation.",
+            "changed_reading": {
+              "before": "Those guarded and those wronging are fixed populations disclosed only at judgment.",
+              "after": "The rescued designation is the matured state of a repairable trajectory, while the final separation remains exact."
+            }
+          },
+          {
+            "model_id": "delta_deliberate_retention",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ع د",
+              "ء ت ي",
+              "ء م ر",
+              "ن س ي"
+            ],
+            "mechanism": "A promised event comes, action descends by command, and the Lord is explicitly not neglectful; this constrains \"نَذَرُ\" to purposeful retention rather than accidental abandonment.",
+            "activation_trace": [
+              {
+                "source_ref": "19:61",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "4",
+                  "10"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "A promise fixed to an occasion supplies scheduled fulfillment."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Arrival supplies fulfillment rather than indefinite deferral."
+              },
+              {
+                "source_ref": "19:64",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Binding command supplies governed execution."
+              },
+              {
+                "source_ref": "19:64",
+                "root": "ن س ي",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_001501",
+                "branch_id": "B002",
+                "role": "Neglectful leaving is explicitly negated, distinguishing it from deliberate retention."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "The focus verb supplies the leaving whose agency is sharpened by the context."
+              }
+            ],
+            "structural_cues": [
+              "19:61 predicates actual arrival of the promise; 19:64 pairs command-governed descent with denial of forgetfulness."
+            ],
+            "reader_inference": "The packet supplies fulfillment, command, and negated neglect; I infer that the focus leaving is an adjudicated placement. The live alternative is that 19:64's denial of forgetting has only local scope.",
+            "changed_reading": {
+              "before": "\"We leave\" can sound like mere non-rescue or abandonment.",
+              "after": "\"We leave\" is an intentional, remembered component of the same administered sorting as rescue."
+            }
+          },
+          {
+            "model_id": "delta_shared_kneeling",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ش ر",
+              "ح ض ر",
+              "ح و ل",
+              "ج ث و"
+            ],
+            "mechanism": "The exact kneeling root and form already accompany collective gathering and presentation around the destination in 19:68; 19:72 then removes one class while the other remains in that prior posture.",
+            "activation_trace": [
+              {
+                "source_ref": "19:68",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Driving and collecting a group supplies the common assembly stage."
+              },
+              {
+                "source_ref": "19:68",
+                "root": "ح ض ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000333",
+                "branch_id": "B001",
+                "role": "Near, witnessed presence supplies formal presentation at that stage."
+              },
+              {
+                "source_ref": "19:68",
+                "root": "ح و ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000373",
+                "branch_id": "B004",
+                "role": "The surrounding relation locates the gathered field."
+              },
+              {
+                "source_ref": "19:68",
+                "root": "ج ث و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000223",
+                "branch_id": "B001",
+                "role": "The same kneeling image establishes posture before the focus differentiation."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Separation-based rescue supplies removal from the already assembled field."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ج ث و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000223",
+                "branch_id": "B001",
+                "role": "Repeated kneeling marks continuity for those not removed."
+              }
+            ],
+            "structural_cues": [
+              "19:66-68 moves from the resurrection question to collective gathering, presentation, and kneeling.",
+              "19:68 and 19:72 repeat جِثِيًّا exactly."
+            ],
+            "reader_inference": "The packet supplies collective gathering plus repeated kneeling; I infer a shared pre-sort posture carried forward for those left. A live alternative is that 19:68's pronoun has a narrower group than 19:71's universal wording.",
+            "changed_reading": {
+              "before": "Kneeling is first imposed in 19:72 as the wrongdoers' exclusive final punishment.",
+              "after": "Kneeling is already the assembly posture; the decisive penalty in 19:72 is remaining there after others are extracted."
+            }
+          },
+          {
+            "model_id": "delta_opposed_extractions",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ز ع",
+              "ش ي ع",
+              "ع ت و",
+              "و ل ي",
+              "ص ل ي"
+            ],
+            "mechanism": "The sequence first pulls the most defiant from each faction and identifies those most entitled to the fire, then 19:72 rescues the guarded; the scene behaves like successive opposed selections rather than one undifferentiated split.",
+            "activation_trace": [
+              {
+                "source_ref": "19:69",
+                "root": "ن ز ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001489",
+                "branch_id": "B001",
+                "role": "Pulling something from its settled place supplies the first extraction operation."
+              },
+              {
+                "source_ref": "19:69",
+                "root": "ش ي ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000836",
+                "branch_id": "B002",
+                "role": "A mutually supporting faction supplies the groups from which exemplars are drawn."
+              },
+              {
+                "source_ref": "19:69",
+                "root": "ع ت و",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000981",
+                "branch_id": "B001",
+                "role": "Defiance from obedience supplies the negative selection criterion."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B008",
+                "role": "Priority and entitlement supply rank within exposure."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting the fire's heat supplies the ranked destination."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Rescue by separation supplies the opposed extraction of the guarded."
+              }
+            ],
+            "structural_cues": [
+              "19:69-70 uses \"from every faction,\" two superlatives, and then 19:72's rescue-leave contrast."
+            ],
+            "reader_inference": "The packet supplies pulling, factional distribution, ranked entitlement, and later rescue; I infer sequential triage with opposite selection criteria. The live alternative is rhetorical ranking without a literal multi-pass procedure.",
+            "changed_reading": {
+              "before": "19:72 performs a single flat binary separation.",
+              "after": "19:72 completes a layered sorting process: defiance is first exposed from within factions, then protective disposition governs extraction from the common field."
+            }
+          },
+          {
+            "model_id": "delta_mandatory_arrival",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ر د",
+              "ح ت م",
+              "ق ض ي"
+            ],
+            "mechanism": "Universal arrival is made binding and decisively enacted immediately before \"then We rescue\"; rescue therefore follows common approach or exposure rather than preventing it.",
+            "activation_trace": [
+              {
+                "source_ref": "19:71",
+                "root": "و ر د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001640",
+                "branch_id": "B001",
+                "role": "Arrival at a thing supplies the universally shared approach."
+              },
+              {
+                "source_ref": "19:71",
+                "root": "ح ت م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000292",
+                "branch_id": "B001",
+                "role": "Binding, settled judgment removes an avoidance reading."
+              },
+              {
+                "source_ref": "19:71",
+                "root": "ق ض ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001237",
+                "branch_id": "B001",
+                "role": "A decisive enacted ruling supplies completion of the universal condition."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Separation-based rescue follows rather than cancels the shared arrival."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "Leaving distinguishes continued exposure from extraction."
+              }
+            ],
+            "structural_cues": [
+              "19:71's universal construction is followed directly by 19:72's \"ثُمَّ\"."
+            ],
+            "reader_inference": "The packet supplies universal arrival, binding decree, and subsequent rescue; I infer rescue after shared exposure. The live alternative is that arrival need not specify entry, duration, or identical intensity.",
+            "changed_reading": {
+              "before": "Rescue means the guarded never approach the danger.",
+              "after": "Rescue is separation after a universally mandated approach; the contrast is not encounter versus no encounter but removal versus remaining."
+            }
+          },
+          {
+            "model_id": "delta_status_reversal",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و م",
+              "ن د و",
+              "ه ل ك",
+              "ء ث ث",
+              "ر ء ي",
+              "م د د"
+            ],
+            "mechanism": "Claims of better station and assembly are answered by destroyed predecessors with superior furnishings and appearance, while extension only delays disclosure; kneeling becomes a public reversal of social placement, not merely private pain.",
+            "activation_trace": [
+              {
+                "source_ref": "19:73",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B006",
+                "role": "Established residence or station supplies the prestige claim reversed by being left in place."
+              },
+              {
+                "source_ref": "19:73",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_001486",
+                "branch_id": "B001",
+                "role": "The assembled social club supplies the public arena of comparison."
+              },
+              {
+                "source_ref": "19:74",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B001",
+                "role": "Falling into destruction breaks the inference from visible prestige to final standing."
+              },
+              {
+                "source_ref": "19:74",
+                "root": "ء ث ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000010",
+                "branch_id": "B002",
+                "role": "Abundant furnishings supply the material status that proves non-protective."
+              },
+              {
+                "source_ref": "19:74",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Visible appearance supplies the outward metric overturned by the focus posture."
+              },
+              {
+                "source_ref": "19:75",
+                "root": "م د د",
+                "source_word_indices": [
+                  "6",
+                  "9"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "Extended time supplies a provisional interval in which false status can persist."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ج ث و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000223",
+                "branch_id": "B001",
+                "role": "Kneeling supplies the final bodily inversion of claimed standing."
+              }
+            ],
+            "structural_cues": [
+              "19:73 compares two groups by station and assembly; 19:74 counters with destroyed groups once superior in furnishings and appearance.",
+              "19:75 treats apparent advantage as an extension ending when the promised event is seen."
+            ],
+            "reader_inference": "The packet supplies comparative status, public assembly, superior display, destruction, and extension; I infer that kneeling stages their social reversal. The live alternative is that the comparisons criticize evidence rather than define the posture.",
+            "changed_reading": {
+              "before": "\"جِثِيًّا\" describes only fear or physical subjection.",
+              "after": "Kneeling visibly reverses the boast of superior station and assembly: those who claimed the better place are the ones left without standing."
+            }
+          },
+          {
+            "model_id": "delta_increasing_guidance",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز ي د",
+              "ه د ي",
+              "ب ق ي",
+              "ص ل ح",
+              "ث و ب",
+              "ر د د"
+            ],
+            "mechanism": "Guidance increases, reparative deeds endure, and recompense returns to the agent; the focus designation \"those who guarded\" is thus the accumulated orientation whose consequence returns as rescue.",
+            "activation_trace": [
+              {
+                "source_ref": "19:76",
+                "root": "ز ي د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000657",
+                "branch_id": "B001",
+                "role": "Increase and growth supply a non-static moral trajectory."
+              },
+              {
+                "source_ref": "19:76",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle direction toward the path supplies the trajectory's orientation."
+              },
+              {
+                "source_ref": "19:76",
+                "root": "ب ق ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000142",
+                "branch_id": "B001",
+                "role": "Endurance supplies continuity of reparative action beyond immediate display."
+              },
+              {
+                "source_ref": "19:76",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B001",
+                "role": "Repair opposed to corruption identifies what endures."
+              },
+              {
+                "source_ref": "19:76",
+                "root": "ث و ب",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000209",
+                "branch_id": "B002",
+                "role": "A deed's consequence returning to its worker supplies outcome reciprocity."
+              },
+              {
+                "source_ref": "19:76",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B001",
+                "role": "Return to a place or condition supplies the passage's final consequence frame."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "The self-protective disposition anchors the cumulative trajectory back in the focus."
+              }
+            ],
+            "structural_cues": [
+              "19:76 coordinates increased guidance with enduring reparative acts and evaluates both reward and return."
+            ],
+            "reader_inference": "The packet supplies increase, guidance, endurance, repair, and returning recompense; I infer that taqwa is cumulative orientation rather than a bare label. A live alternative is that 19:76 describes only continued confirmation after guidance.",
+            "changed_reading": {
+              "before": "Protection in 19:72 is a one-time qualification unrelated to temporal development.",
+              "after": "Protection is the durable result of increasing guidance and repair, returning to its bearer as extraction when the common field is sorted."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_topographic_heap",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates terrain and aggregate senses inside an eschatological judgment clause. It remains anchored in the exact rescue, leaving, and kneeling roots and preserves their syntax; downstream prose should present it only as a spatial-material analogy, not as literal geology or a claim that \"جِثِيًّا\" ceases to mean kneeling.",
+            "focus_anchor": "\"نُنَجِّى ... وَنَذَرُ ... فِيهَا جِثِيًّا\" juxtaposes extraction, retention, location, and a root that can image either kneeling bodies or an accumulated mound.",
+            "activation_trace": [
+              {
+                "source_ref": "19:72",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B004",
+                "role": "High ground beyond a flood supplies an exploratory image of refuge above a common engulfing field."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B001",
+                "role": "A separated piece supplies the residual side of material sorting."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ج ث و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000223",
+                "branch_id": "B002",
+                "role": "An accumulated mound or bodily mass supplies the clustered remainder."
+              }
+            ],
+            "changed_reading": {
+              "before": "Rescue and leaving are only abstract judicial verbs.",
+              "after": "As a contained analogy, the ayah resembles lifting one class onto refuge while the retained class remains accumulated in the engulfed field."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The exact repetition of kneeling in 19:68 makes it a shared assembly posture; 19:72's decisive contrast is extraction versus remaining.",
+            "The mandatory arrival of 19:71 makes rescue subsequent to common approach or exposure, not simple avoidance.",
+            "The status comparisons of 19:73-75 turn kneeling into a public reversal of claimed station, assembly, furnishings, and appearance."
+          ],
+          "what_was_special": "The focus becomes procedural rather than merely distributive: repeated focus roots, tightly ordered verbs, and contrasting spatial branches expose a staged sorting in which trajectories remain repairable, arrival is shared, and only retention is differential.",
+          "remaining_uncertainties": [
+            "The packet supports arrival for \"وَارِدُهَا\" but does not settle precise entry, duration, or intensity.",
+            "The shared-posture model depends on how broadly the pronoun group in 19:68 is carried into the universal wording of 19:71.",
+            "The topographic-and-heap model is branch-distant and should remain an analogy rather than control the plain kneeling sense."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -4478,18 +5395,23 @@
   "root_lexicon": {
     "root_001476": {
       "root_ar": "ن ج و",
+      "qac_roots_ar": [
+        "ن ج و"
+      ],
       "root_id": "root_001476",
-      "root_mapping": {
-        "root_id": "root_001476",
-        "root_norm": "ن ج و",
-        "source_root_norm": "ن ج و",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 60,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ج و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 60
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "688caf606399262cddc423e5e9ccf2c5580ab6c40ff3648c2dc928776fa33e9d",
         "branches": [
@@ -6074,18 +6996,23 @@
     },
     "root_001677": {
       "root_ar": "و ق ي",
+      "qac_roots_ar": [
+        "و ق ي"
+      ],
       "root_id": "root_001677",
-      "root_mapping": {
-        "root_id": "root_001677",
-        "root_norm": "و ق ي",
-        "source_root_norm": "و ق ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 149,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ق ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 149
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "760979c4494e6d17cdea17d0a7f09d461d4668e643db239ab7b57ecaa64fa14e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7430,18 +8357,23 @@
     },
     "root_001638": {
       "root_ar": "و ذ ر",
+      "qac_roots_ar": [
+        "و ذ ر"
+      ],
       "root_id": "root_001638",
-      "root_mapping": {
-        "root_id": "root_001638",
-        "root_norm": "و ذ ر",
-        "source_root_norm": "و ذ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b5622c37350034902fe69a2d3601cca15d6f1a15a1cfb9c774f0a240715ffe52",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8636,20 +9568,49 @@
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_001638.json"
     },
+    "root_000525": {
+      "root_ar": "و ذ ر",
+      "qac_roots_ar": [
+        "و ذ ر"
+      ],
+      "root_id": "root_000525",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ذ ر",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
+      "dictionary_entry": null,
+      "dictionary_source_file": null,
+      "gloss": null,
+      "gloss_source_file": null
+    },
     "root_000967": {
       "root_ar": "ظ ل م",
+      "qac_roots_ar": [
+        "ظ ل م"
+      ],
       "root_id": "root_000967",
-      "root_mapping": {
-        "root_id": "root_000967",
-        "root_norm": "ظ ل م",
-        "source_root_norm": "ظ ل م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 294,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ظ ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 294
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a601a859f2b2586ed65e94bdbb154c8347409b1af05396694338a774e0dbc407",
         "branches": [
@@ -10014,18 +10975,23 @@
     },
     "root_000223": {
       "root_ar": "ج ث و",
+      "qac_roots_ar": [
+        "ج ث و"
+      ],
       "root_id": "root_000223",
-      "root_mapping": {
-        "root_id": "root_000223",
-        "root_norm": "ج ث و",
-        "source_root_norm": "ج ث و",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ث و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b6218e0c2485bcfd7ab965d3d843186d01000691de899e5734514cec9c9570b5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11270,8 +12236,15 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
       "words_total": 9,
-      "words_resolved": 1,
-      "words_unresolved": 8,
+      "words_resolved": 7,
+      "words_unresolved": 2,
+      "morpheme_skip_total": 3,
+      "morpheme_skip_max": 2,
+      "morpheme_skip_histogram": {
+        "0": 5,
+        "1": 1,
+        "2": 1
+      },
       "unresolved": [
         {
           "word_index": 1,
@@ -11279,48 +12252,19 @@
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         },
         {
-          "word_index": 2,
-          "surface_ar": "الَّذِينَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "اتَّقَوْا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "نَذَرُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
           "word_index": 6,
           "surface_ar": "الظَّالِمِينَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "فِيهَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "جِثِيًّا",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11797,11 +12741,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_72.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_72.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 159931,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -11876,19 +12833,37 @@
           "root_ids": [
             "root_001476"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ج و",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001476",
+            "targets": [
+              {
+                "qac_root_norm": "ن ج و",
+                "target_rank": 1,
+                "furuq_root_id": "root_001476",
+                "furuq_root_norm": "ن ج و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 60,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001476",
-              "root_norm": "ن ج و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ج و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 60,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -11900,19 +12875,37 @@
           "root_ids": [
             "root_001677"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ق ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001677",
+            "targets": [
+              {
+                "qac_root_norm": "و ق ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001677",
+                "furuq_root_norm": "و ق ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 149,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001677",
-              "root_norm": "و ق ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ق ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 149,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11938,19 +12931,46 @@
             "root_001638",
             "root_000525"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ذ ر",
+            "mapping_status": "split",
+            "primary_root_id": "root_001638",
+            "targets": [
+              {
+                "qac_root_norm": "و ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001638",
+                "furuq_root_norm": "و ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 28,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "و ذ ر",
+                "target_rank": 2,
+                "furuq_root_id": "root_000525",
+                "furuq_root_norm": "ذ و ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": true,
           "targets": [
             {
               "root_id": "root_001638",
-              "root_norm": "و ذ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 28,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11969,37 +12989,57 @@
             },
             {
               "root_id": "root_000525",
-              "root_norm": "ذ و ر",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "ذ و ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "note": "no Turkish dictionary entry found for this root_id"
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ظ ل م": {
           "root_id": "root_000967",
           "root_ids": [
             "root_000967"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ظ ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000967",
+            "targets": [
+              {
+                "qac_root_norm": "ظ ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000967",
+                "furuq_root_norm": "ظ ل م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 294,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000967",
-              "root_norm": "ظ ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ظ ل م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 294,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -12011,19 +13051,37 @@
           "root_ids": [
             "root_000223"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ث و",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000223",
+            "targets": [
+              {
+                "qac_root_norm": "ج ث و",
+                "target_rank": 1,
+                "furuq_root_id": "root_000223",
+                "furuq_root_norm": "ج ث و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000223",
-              "root_norm": "ج ث و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ث و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 2,
+              "gloss_branch_count": 2,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12050,10 +13108,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 6,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

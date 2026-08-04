@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.495570+00:00",
+  "generated_at": "2026-08-04T22:30:00.597141+00:00",
   "surah": 56,
   "ayah": 56,
   "ayahRef": "56:56",
@@ -1392,7 +1392,8 @@
       "morpheme_ids": [
         "m-w-s056-a056-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:56:1"
+      "aligned_qac_word_ref_upstream": "56:56:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1408,7 +1409,8 @@
         "m-w-s056-a056-w002-01",
         "m-w-s056-a056-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:56:2"
+      "aligned_qac_word_ref_upstream": "56:56:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1422,7 +1424,8 @@
       "morpheme_ids": [
         "m-w-s056-a056-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:56:3"
+      "aligned_qac_word_ref_upstream": "56:56:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1438,7 +1441,8 @@
         "m-w-s056-a056-w004-01",
         "m-w-s056-a056-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:56:4"
+      "aligned_qac_word_ref_upstream": "56:56:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2031,7 +2035,446 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_56.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:56",
+      "window": [
+        "56:41",
+        "56:42",
+        "56:43",
+        "56:44",
+        "56:45",
+        "56:46",
+        "56:47",
+        "56:48",
+        "56:49",
+        "56:50",
+        "56:51",
+        "56:52",
+        "56:53",
+        "56:54",
+        "56:55",
+        "56:56"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:56",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_assigned_reception",
+            "confidence": "strong",
+            "focus_anchor": "Focus word 2 names what is prepared for an arriving guest, while words 3-4 place it at the bounded occasion of reckoning.",
+            "mechanism": "The demonstrative identifies a prepared reception; the temporal-genitive construction assigns that reception to the occasion when accounts and recompense are decided.",
+            "activation_trace": [
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared fare for a guest supplies the hospitality frame and makes the demonstrative point to a designated reception."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B001",
+                "role": "A bounded day supplies the temporal container in which the reception becomes due."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense turn hospitality into an assigned return rather than a neutral welcome."
+              }
+            ],
+            "changed_reading": {
+              "before": "This is merely something they receive on a named future day.",
+              "after": "This is their deliberately prepared reception at the bounded occasion when recompense is assigned."
+            }
+          },
+          {
+            "model_id": "baseline_maturity_settlement",
+            "confidence": "exploratory",
+            "focus_anchor": "The same construction joins an ordered placement or provision at word 2 to the debt range of word 4 on a specified day.",
+            "mechanism": "A prepared allotment is placed at its proper temporal station, while the financial branch of د ي ن lets the day function like maturity or settlement rather than time alone.",
+            "activation_trace": [
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B004",
+                "role": "Putting something in its proper station supplies the ordered allotment side of the model."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B001",
+                "role": "The bounded day functions as the allotment's maturity point."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt supplies the live settlement image beneath the broader judicial sense."
+              }
+            ],
+            "changed_reading": {
+              "before": "The day marks only a generic future judgment.",
+              "after": "The day can also be heard as a maturity date when an ordered due is settled through their assigned reception."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_inverted_hospitality",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ظ ل ل",
+              "ب ر د",
+              "ك ر م"
+            ],
+            "mechanism": "The preceding scene offers the service-forms of reception and then empties them: apparent shelter neither cools nor honors. The focus noun therefore closes the catalogue as anti-hospitality, not merely as a label for painful food.",
+            "activation_trace": [
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared guest-fare establishes the hospitality template that the context reverses."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "Sheltering shade supplies an expected guest-service whose protective function is immediately frustrated."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Cooling supplies the relief explicitly denied, turning shelter into failed refreshment."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Nobility and generosity supply honored treatment explicitly denied, completing the inversion of welcome."
+              }
+            ],
+            "structural_cues": [
+              "56:43 presents a nominal shelter, and 56:44 coordinates two negations that remove both physical relief and social honor.",
+              "The focus demonstrative retrospectively gathers the preceding catalogue into one named reception."
+            ],
+            "reader_inference": "The packet supplies prepared guest-fare plus shelter, cooling, and honor branches under explicit negation; I infer deliberate inversion of hospitality, while a live alternative is a torment list with no ironic reception-frame.",
+            "changed_reading": {
+              "before": "Their reception is severe but still structurally ordinary hospitality.",
+              "after": "The demonstrative names an anti-banquet in which shelter, refreshment, and honored-guest treatment appear only as systematically reversed functions."
+            }
+          },
+          {
+            "model_id": "delta_fixed_due_settlement",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ر ف",
+              "ص ر ر",
+              "ح ن ث",
+              "ج م ع",
+              "و ق ت"
+            ],
+            "mechanism": "Prior unrestrained ease is followed by persistent culpability, then universal collection at a fixed appointment. That sequence strengthens the debt branch of the focus construction: conduct accumulates before a due date at which its prepared return is delivered.",
+            "activation_trace": [
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared provision supplies the concrete form in which the due settlement is delivered."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt supplies the accrual-and-settlement model beneath the judicial occasion."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Expansive ease that releases restraint supplies the prior condition from which liability is inferred to accrue."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Persistence supplies repeated continuation rather than an isolated charge."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B001",
+                "role": "Culpable burden supplies what the settlement model treats as accumulated liability."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Collecting the dispersed supplies compulsory consolidation of all liable parties."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "A fixed appointment supplies the maturity date at which the accumulated account is settled."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from a prior habitual condition through persistence and denial to total gathering at one known appointment.",
+              "56:50 repeats the focus root ي و م before 56:56 names that day by د ي ن."
+            ],
+            "reader_inference": "The packet supplies prior ease, persistent culpability, total gathering, and a fixed appointment; I assign the arrow from repeated conduct to accrued liability and from appointment to maturity, while ordinary judicial accounting remains a fully live alternative.",
+            "changed_reading": {
+              "before": "The financial resonance of the focus construction is an isolated lexical possibility.",
+              "after": "The known appointment and behavior-chain make the day behave like a maturity date: their prepared reception is the due settlement of what has accumulated."
+            }
+          },
+          {
+            "model_id": "delta_failed_provision_cycle",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ك ل",
+              "ز ق م",
+              "م ل ء",
+              "ب ط ن",
+              "ش ر ب",
+              "ه ي م"
+            ],
+            "mechanism": "The ordered intake fills bodily capacity but does not satisfy need: eating becomes gulping, fullness leads to aversive drinking, and drinking culminates in thirst that cannot be quenched. The prepared fare is thus a designed failure of provision.",
+            "activation_trace": [
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared guest-fare supplies the provisioning function whose failure organizes the sequence."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B003",
+                "role": "An edible share or provision links the commanded eating directly to the reception's fare."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ز ق م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000636",
+                "branch_id": "B002",
+                "role": "Gulping and swallowing turn provision into compelled incorporation."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling to the measure of a container supplies bodily capacity reached without nourishment."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B001",
+                "role": "The body's interior supplies the container occupied by the failed provision."
+              },
+              {
+                "source_ref": "56:54",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B005",
+                "role": "Drinking with aversion supplies intake that necessity drives despite its hostility."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Unquenchable thirst supplies the terminal non-satisfaction that converts a meal into a punitive cycle."
+              }
+            ],
+            "structural_cues": [
+              "Consecutive participial clauses linked by ف move from eating to filling to drinking, while 56:54-55 repeat the drinking root.",
+              "Capacity increases and need persists, so the sequence opposes fullness to satisfaction."
+            ],
+            "reader_inference": "The packet supplies ordered intake, bodily fullness, aversive drink, and unquenchable thirst; I infer a feedback mechanism in which intake fails to resolve and may perpetuate need, while a linear sequence of repeated compulsion remains possible.",
+            "changed_reading": {
+              "before": "The reception consists of painful food and drink.",
+              "after": "The reception is a systematically failed provision: it occupies capacity while perpetuating the need that provision should end."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_reversed_descent",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it reverses ordinary guest movement: the served reception becomes what descends into and takes up residence in the recipients. It remains anchored in the descent range of ن ز ل and the explicit penetration-and-filling sequence; downstream prose should present it as a spatial-material activation, not as a claim that the focus noun lexically means bodily invasion.",
+            "focus_anchor": "Focus word 2 permits both prepared reception and downward arrival or settling, allowing the context's inward movement to reverse who occupies whom.",
+            "activation_trace": [
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B001",
+                "role": "Downward arrival and settling supply the vector re-read from guests entering a lodging to punitive material entering recipients."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "Penetrating hot wind begins the inward vector before the explicit ingestion sequence."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling a container to capacity supplies occupation rather than external accompaniment."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B001",
+                "role": "The bodily interior supplies the occupied lodging in the reversed spatial model."
+              }
+            ],
+            "changed_reading": {
+              "before": "They descend upon a punitive lodging and consume what it offers.",
+              "after": "Exploratorily, the punitive reception descends into them and makes their interiors its occupied lodging."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The denied cooling and honor recast prepared guest-fare as a precise inversion of hospitality.",
+            "The fixed gathering after persistent culpability strengthens a maturity-date reading of the day of settlement.",
+            "The eating-filling-drinking sequence turns fare into failed provision that fills capacity without satisfying need."
+          ],
+          "what_was_special": "The focus line acts as a retrospective naming device: one compact hospitality term gathers spatial shelter, social honor, temporal settlement, and bodily intake, then lets the context reverse each normal service.",
+          "remaining_uncertainties": [
+            "The debt-settlement model is branch-supported but may remain subordinate to the broader judicial-recompense sense.",
+            "The reversed-descent outlier depends on a reader-supplied spatial reversal and should not be lexicalized."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Guest-provision inverted at the event of recompense.** `ن ز ل` **B005** supplies guest-provision; `ي و م` **B003** supplies a severe event-day; `د ي ن` **B002** supplies reckoning and recompense. The demonstrative gathers 56:52–55 into a hospitality package. **Abductive move:** I infer that the group is hosted according to its reckoned condition, in direct contrast to the garden provisions. **Reading change:** `نزل` becomes a bitter parody of welcome.\n\n2. **A descending calamity under subjugation.** `ن ز ل` **B006** supplies descending calamity and `د ي ن` **B004** subjugation and possession. **Abductive move:** I infer that what “comes down” upon them manifests the authority they denied. **Reading change:** the provision is also the event’s imposed descent.",
@@ -3026,18 +3469,23 @@
   "root_lexicon": {
     "root_001492": {
       "root_ar": "ن ز ل",
+      "qac_roots_ar": [
+        "ن ز ل"
+      ],
       "root_id": "root_001492",
-      "root_mapping": {
-        "root_id": "root_001492",
-        "root_norm": "ن ز ل",
-        "source_root_norm": "ن ز ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 290,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ز ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 290
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5dbdaf2c3388278774634594211df0962a92f772611c61b9a5b8cf7cf042a91b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6497,18 +6945,23 @@
     },
     "root_001700": {
       "root_ar": "ي و م",
+      "qac_roots_ar": [
+        "ي و م"
+      ],
       "root_id": "root_001700",
-      "root_mapping": {
-        "root_id": "root_001700",
-        "root_norm": "ي و م",
-        "source_root_norm": "ي و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 414,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 414
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e76145ff9db215c969fb749d8f4011fa704b398c30ebc90862161f0e4604a786",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7827,18 +8280,23 @@
     },
     "root_000504": {
       "root_ar": "د ي ن",
+      "qac_roots_ar": [
+        "د ي ن"
+      ],
       "root_id": "root_000504",
-      "root_mapping": {
-        "root_id": "root_000504",
-        "root_norm": "د ي ن",
-        "source_root_norm": "د ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 101,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "د ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 101
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e6b372682ad6cfd46e77b85e3c635c6e039fe1bf2ee85ac21953834f898cf00d",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10383,14 +10841,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10708,11 +11172,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_56.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_56.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 3,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 79841,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10786,19 +11263,37 @@
           "root_ids": [
             "root_001492"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ز ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001492",
+            "targets": [
+              {
+                "qac_root_norm": "ن ز ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001492",
+                "furuq_root_norm": "ن ز ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 290,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001492",
-              "root_norm": "ن ز ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ز ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 290,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10823,19 +11318,37 @@
           "root_ids": [
             "root_001700"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001700",
+            "targets": [
+              {
+                "qac_root_norm": "ي و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001700",
+                "furuq_root_norm": "ي و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 414,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001700",
-              "root_norm": "ي و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 414,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10860,19 +11373,37 @@
           "root_ids": [
             "root_000504"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "د ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000504",
+            "targets": [
+              {
+                "qac_root_norm": "د ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000504",
+                "furuq_root_norm": "د ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 101,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000504",
-              "root_norm": "د ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "د ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 101,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10899,10 +11430,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 23,
+        "dictionary_branches_kept": 23,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 23,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.680078+00:00",
+  "generated_at": "2026-08-04T22:29:45.530745+00:00",
   "surah": 51,
   "ayah": 13,
   "ayahRef": "51:13",
@@ -1310,7 +1310,8 @@
       "morpheme_ids": [
         "m-w-s051-a013-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:13:1"
+      "aligned_qac_word_ref_upstream": "51:13:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1324,7 +1325,8 @@
       "morpheme_ids": [
         "m-w-s051-a013-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:13:2"
+      "aligned_qac_word_ref_upstream": "51:13:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1338,7 +1340,8 @@
       "morpheme_ids": [
         "m-w-s051-a013-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:13:3"
+      "aligned_qac_word_ref_upstream": "51:13:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1354,7 +1357,8 @@
         "m-w-s051-a013-w004-01",
         "m-w-s051-a013-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:13:4"
+      "aligned_qac_word_ref_upstream": "51:13:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1370,7 +1374,8 @@
         "m-w-s051-a013-w005-01",
         "m-w-s051-a013-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:13:5"
+      "aligned_qac_word_ref_upstream": "51:13:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1724,7 +1729,943 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_13.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:13",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:13",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-punitive-combustion",
+            "confidence": "strong",
+            "focus_anchor": "The event-day, the phrase `ala al-nar, and the passive yuftanun.",
+            "mechanism": "The severe event-day places the subjects over or on kindled fire, while passive fitna supplies burning and fire-induced alteration. The scene is an inflicted process, not mere proximity to fire.",
+            "activation_trace": [
+              {
+                "source_ref": "51:13",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The branch's severe happening makes the day an overwhelming event and frames the punishment temporally."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The kindled-fire branch supplies the material agent on which the passive action occurs."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B002",
+                "role": "Burning, blackening, and fire-driven change give yuftanun its directly punitive operation."
+              }
+            ],
+            "changed_reading": {
+              "before": "They undergo a test associated with fire.",
+              "after": "On the catastrophic event-day they are made to undergo the fire's burning and altering action."
+            }
+          },
+          {
+            "model_id": "baseline-fire-assay",
+            "confidence": "strong",
+            "focus_anchor": "Yuftanun in immediate construction with al-nar and a passive human subject.",
+            "mechanism": "Fitna can assay metal or a person, and fire can illuminate. The passive positions the people as material placed at an apparatus: heat does not only hurt but exposes quality and separates what had been indistinguishable.",
+            "activation_trace": [
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "The assay of metal and person supplies the evaluative process and the separation of sound from unsound."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination supplies the disclosure function of the same fire that performs the assay."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The great-event branch makes the assay a decisive occurrence rather than a routine test."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire is only an instrument of pain.",
+              "after": "The fire is also an assay that forces hidden quality into visibility."
+            }
+          },
+          {
+            "model_id": "baseline-coerced-reorientation",
+            "confidence": "exploratory",
+            "focus_anchor": "The passive yuftanun over a fire whose root inventory includes instability and flight.",
+            "mechanism": "The deviation branch of fitna and the flight or instability branch activated by al-nar allow a kinetic reading: the subjects do not retain their stance but are forcibly unsettled and turned by the fiery condition.",
+            "activation_trace": [
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B003",
+                "role": "Diversion from a prior direction supplies the coerced change of orientation."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B006",
+                "role": "Flight and lack of stability make the fire a destabilizing field rather than a static backdrop."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe-event sense concentrates this loss of stability into the focus day."
+              }
+            ],
+            "changed_reading": {
+              "before": "They remain stationary while suffering near fire.",
+              "after": "They are passively driven out of their former orientation by a destabilizing fiery event."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-ordered-arrival-assay",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ر و",
+              "ح م ل",
+              "ق س م",
+              "ص د ق",
+              "و ق ع"
+            ],
+            "mechanism": "The opening progression scatters, carries, runs, and distributes before asserting fulfillment and occurrence. Read beside the focus assay, it activates an ordered material process: separation, conveyance, allocation, then the promised event in which the human material is tested.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-winnowing and airborne separation supply an initial sorting operation."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Bearing a visible load supplies conveyance of material through the sequence."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separation into allotted portions supplies the sequence's discriminating distribution."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment in act turns the sequence from imagery into a guaranteed arrival."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B002",
+                "role": "A severe event that descends supplies the terminal occurrence toward which the sequence moves."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "The focus assay converts the prior operations into a possible sorting-and-testing process."
+              }
+            ],
+            "structural_cues": [
+              "51:1-4 forms a tightly ordered oath sequence with repeated participles and sequential conjunctions.",
+              "51:5-6 shifts from process images to emphatic assertions of truth and occurrence.",
+              "The focus passive keeps the tested people, rather than the contextual images, as the model's endpoint."
+            ],
+            "reader_inference": "The packet supplies ordered operations, fulfillment, occurrence, and the focus assay; I supply the arrow that these operations culminate in a human sorting process. A live alternative is that the opening images only guarantee the event without modeling its mechanics.",
+            "changed_reading": {
+              "before": "The fire-test erupts as an isolated punitive scene.",
+              "after": "The focus day is the terminal assay in an ordered process of separation, conveyance, and allocation."
+            }
+          },
+          {
+            "model_id": "delta-epistemic-reversal-assay",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "خ ل ف",
+              "ء ف ك",
+              "غ م ر",
+              "س ه و"
+            ],
+            "mechanism": "Differing conjectural speech branches into divergent paths, turns away from truth, and persists under a veil of heedlessness. The focus passive reverses this motion: those who were turned and generated unstable claims become the material turned over and assayed by fire, which exposes what their discourse concealed.",
+            "activation_trace": [
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B011",
+                "role": "Speech operating as conjecture supplies the epistemic material later subjected to verification."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Taking mutually different paths gives the disputed speech a directional divergence."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Turning a thing away from its proper face supplies the lead-in motion that the focus passive reverses."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "A covering of falsehood and ignorance supplies the concealment that fire-assay removes."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness of the heart explains persistence inside the covering."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assay supplies the verification that discriminates the unstable claims."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B003",
+                "role": "Diversion from a prior direction echoes the lead-in turning but transfers it onto the passive subjects."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "Illumination gives the fire an unveiling function within the epistemic reversal."
+              }
+            ],
+            "structural_cues": [
+              "51:8-11 moves from disputed saying to turning, conjecturers, immersion, and heedlessness.",
+              "51:9 and 51:13 both use passive plural actions, allowing agency to reverse onto the people.",
+              "The uncited خ ر ص occurrence in 51:10 structurally sharpens the conjecture motif without supplying a branch."
+            ],
+            "reader_inference": "The packet supplies conjectural speech, divergence, passive turning, concealment, and focus assay; I infer that the fire verifies and reverses their epistemic posture. The live alternative is a simpler sequence in which false speech merely identifies those punished.",
+            "changed_reading": {
+              "before": "Fire punishes a group already labeled wrong.",
+              "after": "Fire turns the turners into assayed material and makes their divergent conjectures collapse under disclosure."
+            }
+          },
+          {
+            "model_id": "delta-question-becomes-scene",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ء ل",
+              "ي و م",
+              "د ي ن"
+            ],
+            "mechanism": "The question about when the day of accounting will be is answered by the focus opening with the same day-word. Interrogative distance is replaced by a scene in which the questioners are grammatically present as the passive subjects over the fire.",
+            "activation_trace": [
+              {
+                "source_ref": "51:12",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning and requesting supply the temporal challenge that the focus answers."
+              },
+              {
+                "source_ref": "51:12",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe-event day names what the question tries to hold at a distance."
+              },
+              {
+                "source_ref": "51:12",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense specify the questioned day's function."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The repeated day-word converts the requested date into the answer's enacted event."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B002",
+                "role": "The burning operation supplies the content of the answer rather than a calendar coordinate."
+              }
+            ],
+            "structural_cues": [
+              "51:12 ends with `when the day`; 51:13 begins directly with `day`.",
+              "The pronoun hum in 51:13 places the questioners inside the answer instead of addressing their chronology abstractly."
+            ],
+            "reader_inference": "The packet supplies a when-question, repeated yawm, accounting, and the passive fire scene; I infer a performative answer that collapses distance. A live alternative is a conventional temporal subordinate clause with no rhetorical reversal.",
+            "changed_reading": {
+              "before": "The verse supplies information about a future date.",
+              "after": "The question `when?` is answered by putting its speakers inside the event they treated as distant."
+            }
+          },
+          {
+            "model_id": "delta-tasted-owned-trial",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ و ق",
+              "ف ت ن",
+              "ع ج ل"
+            ],
+            "mechanism": "The next verse glosses the passive process through sensory experience, calls the fitna theirs, points to it as `this`, and links it to their demand for haste. The focus therefore moves from remote external punishment to immediate appropriation of a condition they challenged to arrive.",
+            "activation_trace": [
+              {
+                "source_ref": "51:14",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiencing and undergoing a thing turns the fire-process into embodied knowledge."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B004",
+                "role": "Affliction, ordeal, and punishment supply the possessed content named as their fitna."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Hastening and bringing forward reverse their temporal challenge into realized arrival."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B002",
+                "role": "The focus burning supplies the bodily process that the sequel commands them to experience."
+              }
+            ],
+            "structural_cues": [
+              "The imperative in 51:14 follows the descriptive passive in 51:13.",
+              "The possessive suffix in fitnatakum and the demonstrative `this` identify the focus process as their own present object.",
+              "The earlier `when?` and later `you sought to hasten` form a temporal reversal around the focus."
+            ],
+            "reader_inference": "The packet supplies taste-as-experience, possessed fitna, demonstrative identification, and haste; I infer that 51:14 interprets 51:13 as forced experiential knowledge. A live alternative is that `taste` is only a conventional punishment idiom without an epistemic function.",
+            "changed_reading": {
+              "before": "They are externally exposed to an impersonal punishment.",
+              "after": "They must sensorially recognize and possess as `their trial` the very arrival they demanded."
+            }
+          },
+          {
+            "model_id": "delta-assay-sorts-two-conditions",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق ي",
+              "ج ن ن",
+              "ع ي ن",
+              "ح س ن"
+            ],
+            "mechanism": "The immediate contrast places protected people in enclosed gardens and flowing sources, then recalls their prior beneficence. This activates both the discriminating assay and fitna's odd two-condition branch: fire exposure and sheltered watered life appear as sharply separated outcomes.",
+            "activation_trace": [
+              {
+                "source_ref": "51:15",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Putting oneself under protection supplies the contrasting condition of guarded rather than exposed subjects."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden sheltered by growth supplies an enclosed counterpart to exposure over fire."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing water source supplies the material opposite of the focus fire."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "Prior beneficent action supplies an antecedent quality that the assay can disclose."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assay supplies the separation of qualities into distinguishable outcomes."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B009",
+                "role": "The rare two-colored or two-conditioned life branch supplies a lexical image for the adjacent bifurcation."
+              }
+            ],
+            "structural_cues": [
+              "51:15 begins with a contrastive new cohort immediately after `taste your trial`.",
+              "Fire in 51:13 and gardens with springs in 51:15 create a material opposition.",
+              "The phrase `before that` in 51:16 links the contrasted outcome to an earlier mode of action."
+            ],
+            "reader_inference": "The packet supplies adjacent opposed cohorts, protection, fire versus water, prior beneficence, and assay; I infer a sorting relation between antecedent quality and outcome. A live alternative is simple juxtaposition without specifying the causal criterion.",
+            "changed_reading": {
+              "before": "The focus reports only one cohort's punishment.",
+              "after": "The fire scene is one side of an assay that discloses and separates two lived conditions."
+            }
+          },
+          {
+            "model_id": "delta-night-practice-before-day",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ق ل ل",
+              "ل ي ل",
+              "س ح ر",
+              "غ ف ر"
+            ],
+            "mechanism": "The protected cohort makes little of sleep, practices through night, and seeks protective covering at dawn. Against that disciplined night-to-dawn sequence, the focus day becomes the culmination of temporal habits, not a neutral calendar unit.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Littleness supplies deliberate compression of sleep within the night."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B002",
+                "role": "Undertaking an affair at night turns time into practiced conduct."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The last part of night supplies the transition from nocturnal practice toward day."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Covering wrongdoing and shielding its bearer supplies sought protection before exposure."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe event-day becomes the endpoint against which prior uses of time matter."
+              }
+            ],
+            "structural_cues": [
+              "51:16 says they acted well `before that`, then 51:17-18 unfolds night followed by dawn.",
+              "The focus names day, while the contrasted cohort's preparation is organized through night and dawn."
+            ],
+            "reader_inference": "The packet supplies event-day, prior conduct, little sleep, night practice, dawn, and protective covering; I infer that temporal practice prepares the contrastive outcome. A live alternative is that these are independent virtues listed after the focus.",
+            "changed_reading": {
+              "before": "The day is merely the scheduled time of punishment.",
+              "after": "The day culminates opposed ways of inhabiting time: heedless postponement versus vigilant night-and-dawn preparation."
+            }
+          },
+          {
+            "model_id": "delta-final-evidentiary-illumination",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ي ي",
+              "ي ق ن",
+              "ن ف س",
+              "ب ص ر",
+              "ح ق ق",
+              "م ث ل",
+              "ن ط ق"
+            ],
+            "mechanism": "The later sequence locates visible signs in the world and self, calls for insight, and closes by matching truth to one's own speaking. This strengthens the illuminated assay: the fire is not only suffered but forces disputed truth into self-involving evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the later context's mode of externally legible evidence."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge with doubt removed supplies the endpoint of disclosure."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B012",
+                "role": "The thing or self itself makes the evidence self-involving rather than merely observed at a distance."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight of the heart supplies recognition beyond bare optical sight."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Truth fixed in correspondence with reality supplies what the assay reveals."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Matching one thing to its counterpart supplies the comparison between promised reality and immediate speech."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "Self-evidencing indication through speech supplies the closing standard of palpable certainty."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B001",
+                "role": "The illumination branch makes fire disclose rather than only consume."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "The assay branch supplies the operation that converts hidden quality into evidence."
+              }
+            ],
+            "structural_cues": [
+              "After the sensory imperative `taste`, 51:20-23 accumulates signs, certainty, self, seeing, truth, likeness, and speaking.",
+              "The context moves from disputed speech before the focus to truth likened to one's own speech after it."
+            ],
+            "reader_inference": "The packet supplies illumination, assay, manifest signs, self-inspection, stable knowledge, and speech-like truth; I infer that the focus fire is a climactic evidentiary disclosure. A live alternative is that 51:20-23 only reassures about provision and promise without explaining the fire.",
+            "changed_reading": {
+              "before": "The fire has no function beyond inflicting pain.",
+              "after": "The fire-assay is a terminal disclosure in which contested truth becomes as self-involving and undeniable as one's own speaking."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-fire-as-brand",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the branding edge of the fire branch and moves from combustion to inscription. It remains anchored in al-nar and is sharpened by the later manifest-sign and sight cues; downstream prose should present it as a material analogy, not a claim that the verse lexically says `brand`.",
+            "focus_anchor": "Al-nar through the fire-and-branding branch of ن و ر.",
+            "activation_trace": [
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The branch joins kindled fire with marking by fire, allowing punishment to leave a legible material sign."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A visible sign activates the possible legibility of the fire's mark."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Literal seeing supplies the reception of a condition made visibly marked."
+              }
+            ],
+            "changed_reading": {
+              "before": "Fire consumes or torments the subjects.",
+              "after": "Fire may also function analogically as a brand that makes their assayed condition publicly legible."
+            }
+          },
+          {
+            "outlier_id": "outlier-two-colored-life",
+            "confidence": "exploratory",
+            "containment": "The two-condition branch of fitna is lexically remote and would be lost in a conservative rendering, but the immediate fire-versus-garden-and-water contrast visibly activates it. It should be carried only as a bifurcation metaphor, not as a replacement translation for yuftanun.",
+            "focus_anchor": "Yuftanun through the rare `life in two colors or conditions` branch.",
+            "activation_trace": [
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B009",
+                "role": "Two colors or conditions of life supply the unusual image of a decisive bifurcation."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire materially defines the exposed side of the bifurcation."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The sheltered garden materially defines the contrasting condition."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "Flowing water intensifies the contrast with fire without erasing either reading."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus is a self-contained scene of one punishment.",
+              "after": "The focus is also the exposed half of a two-conditioned life disclosed at a threshold."
+            }
+          },
+          {
+            "outlier_id": "outlier-kinetic-fire-field",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the flight and instability branch behind the fire lexeme and links it to distant scattering and nearer turning. It remains anchored in al-nar and the passive yuftanun, but downstream prose should qualify it as a kinetic overlay rather than substitute `flight` for `fire`.",
+            "focus_anchor": "Al-nar as a possible instability activator beside passive yuftanun.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven scattering supplies a remote kinetic pattern of destabilized material."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Being turned from a proper face brings the kinetic pattern close to the focus subjects."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B006",
+                "role": "Flight and lack of stability allow the fire to act as a field that drives motion."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B003",
+                "role": "Diversion from a prior direction keeps the motion attached to what happens to the passive subjects."
+              }
+            ],
+            "changed_reading": {
+              "before": "The fire is a stationary location beneath stationary sufferers.",
+              "after": "The fire can carry a contained kinetic overlay: a field in which the already-turned are forcibly destabilized and scattered."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus moved from undifferentiated burning to a coexisting metallurgical assay that exposes hidden quality.",
+            "51:8-11 revised the assay into an epistemic reversal: divergent speakers and the passively turned become the objects of verification.",
+            "51:12-14 collapses a mocking `when?` into an enacted scene and then into sensory possession of `your trial`.",
+            "51:15-23 preserves a second axis in which the assay separates opposed conditions and turns disputed truth into visible, self-involving evidence."
+          ],
+          "what_was_special": "One compact passive scene sustained punitive, material, epistemic, temporal, and sensory mechanisms without requiring them to collapse into one final reading; the rare branding, two-condition, and instability branches remained live under explicit containment.",
+          "remaining_uncertainties": [
+            "Whether the metallurgical assay is an operative image here or only a strong lexical resonance beside direct burning.",
+            "Whether the post-focus contrast licenses a causal sorting model or only juxtaposes already distinct outcomes.",
+            "Whether the branding and instability edges of ن و ر add productive latent detail or overactivate form-distant branches.",
+            "Whether the night-to-dawn practices explain preparedness for the focus day or function only as independent praise."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Fire as assay and exposure.** `ن و ر/B002` supplies burning fire; `ف ت ن/B001` supplies assaying by trial, explicitly including metals tested by fire. The conjecturers of 51:10 are thus moved from unverifiable claims into an assay that proves quality. The packet supplies fire and testing; I infer **exposure to fire -> hidden quality made manifest**. The verse reads as evidentiary disclosure as well as punishment.\n2. **Actual burning remains distinct.** `ف ت ن/B002` directly supplies burning or fiery torment. The preposition *ʿalā* and next verse's “taste” support bodily exposure. I infer **placement upon fire -> experienced burning**. The assay reading does not dilute this material one.",
@@ -3349,18 +4290,23 @@
   "root_lexicon": {
     "root_001700": {
       "root_ar": "ي و م",
+      "qac_roots_ar": [
+        "ي و م"
+      ],
       "root_id": "root_001700",
-      "root_mapping": {
-        "root_id": "root_001700",
-        "root_norm": "ي و م",
-        "source_root_norm": "ي و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 414,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 414
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e76145ff9db215c969fb749d8f4011fa704b398c30ebc90862161f0e4604a786",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4679,18 +5625,23 @@
     },
     "root_001564": {
       "root_ar": "ن و ر",
+      "qac_roots_ar": [
+        "ن و ر"
+      ],
       "root_id": "root_001564",
-      "root_mapping": {
-        "root_id": "root_001564",
-        "root_norm": "ن و ر",
-        "source_root_norm": "ن و ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 194,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن و ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 194
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a790f899441962609b1667f18185556ad5a6d687441a3c1e14a20ff22b2c36eb",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6626,18 +7577,23 @@
     },
     "root_001128": {
       "root_ar": "ف ت ن",
+      "qac_roots_ar": [
+        "ف ت ن"
+      ],
       "root_id": "root_001128",
-      "root_mapping": {
-        "root_id": "root_001128",
-        "root_norm": "ف ت ن",
-        "source_root_norm": "ف ت ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 49,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف ت ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 49
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3281de8601e4fee470443006c5c65dbd5c80d7851f810a31ac6443857a065a0e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8732,14 +9688,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8982,11 +9944,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_13.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_13.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 105099,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9059,19 +10034,37 @@
           "root_ids": [
             "root_001700"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001700",
+            "targets": [
+              {
+                "qac_root_norm": "ي و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001700",
+                "furuq_root_norm": "ي و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 414,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001700",
-              "root_norm": "ي و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 414,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9096,19 +10089,37 @@
           "root_ids": [
             "root_001564"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن و ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001564",
+            "targets": [
+              {
+                "qac_root_norm": "ن و ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001564",
+                "furuq_root_norm": "ن و ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 194,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001564",
-              "root_norm": "ن و ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن و ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 194,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9133,19 +10144,37 @@
           "root_ids": [
             "root_001128"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف ت ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001128",
+            "targets": [
+              {
+                "qac_root_norm": "ف ت ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001128",
+                "furuq_root_norm": "ف ت ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 49,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001128",
-              "root_norm": "ف ت ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف ت ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 49,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9172,10 +10201,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 25,
+        "dictionary_branches_kept": 25,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 14,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.811977+00:00",
+  "generated_at": "2026-08-04T22:29:55.006316+00:00",
   "surah": 54,
   "ayah": 54,
   "ayahRef": "54:54",
@@ -1357,7 +1357,8 @@
       "morpheme_ids": [
         "m-w-s054-a054-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:54:1"
+      "aligned_qac_word_ref_upstream": "54:54:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1373,12 +1374,55 @@
         "m-w-s054-a054-w002-01",
         "m-w-s054-a054-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:54:2"
+      "aligned_qac_word_ref_upstream": "54:54:2",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null
+    {
+      "word_index": 3,
+      "surface_ar": "جَنَّٰتٍۢ",
+      "word_ids": [
+        "w-s054-a054-w004"
+      ],
+      "qac_refs": [
+        "54:54:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a054-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "54:54:4",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s054-a054-w005"
+      ],
+      "qac_refs": [
+        "54:54:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a054-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "54:54:5",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "نَهَرٍۢ",
+      "word_ids": [
+        "w-s054-a054-w005"
+      ],
+      "qac_refs": [
+        "54:54:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a054-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "54:54:6",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -1862,7 +1906,776 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_54.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:54",
+      "window": [
+        "54:46",
+        "54:47",
+        "54:48",
+        "54:49",
+        "54:50",
+        "54:51",
+        "54:52",
+        "54:53",
+        "54:54",
+        "54:55"
+      ],
+      "ayah_count": 10,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:54",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_guarded_habitat",
+            "confidence": "strong",
+            "focus_anchor": "مُتَّقِينَ (2), جَنَّاتٍ (4), and نَهَرٍ (5)",
+            "mechanism": "Active self-guarding is answered by habitation inside tree-screened growth traversed by a living watercourse; ethical protection becomes environmental protection and provision.",
+            "activation_trace": [
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Making oneself protected supplies the inhabitants' active guarded posture."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden screened by dense trees turns protection into a habitable enclosure."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "A river cutting the earth with abundant flow makes the enclosure living and traversable."
+              }
+            ],
+            "changed_reading": {
+              "before": "The guarded are rewarded with gardens and a river.",
+              "after": "Those who made themselves guarded inhabit a tree-screened, life-bearing refuge articulated by flowing water."
+            }
+          },
+          {
+            "model_id": "b_shelter_with_opening",
+            "confidence": "medium",
+            "focus_anchor": "The pairing جَنَّاتٍ وَنَهَرٍ joins the covering force of ج ن ن to the opening force of ن ه ر.",
+            "mechanism": "The scene balances concealment with release: the gardens cover and shelter, while the river opens, widens, and flows. Protection is therefore spacious refuge rather than sealed withdrawal.",
+            "activation_trace": [
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Self-placement in protection makes refuge the governing relation."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Covering and concealment supply a protected interior."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B003",
+                "role": "Opening and widening until flow occurs keeps that interior expansive."
+              }
+            ],
+            "changed_reading": {
+              "before": "Gardens and river are two adjacent abundance images.",
+              "after": "The paired nouns construct one refuge whose screened interior opens into unblocked breadth and flow."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_mirrored_inhabitation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ر م",
+              "ض ل ل",
+              "س ع ر",
+              "س ح ب",
+              "ن و ر",
+              "و ج ه",
+              "ذ و ق",
+              "م س س"
+            ],
+            "mechanism": "The exact human-group and paired-fī pattern of 54:47 is reversed in 54:54. The intervening dragging, frontal exposure, tasting, and contact make the negative enclosure forcibly embodied, so the focus becomes an embodied counter-placement in shelter and flow.",
+            "activation_trace": [
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Self-guarding supplies the positive human posture opposed to culpable exposure."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The screened garden supplies protective inhabitation on the positive side."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "Abundant current supplies free life-bearing motion instead of coercive dragging."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B004",
+                "role": "Culpability defines the opposing human class in the mirrored syntax."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from the intended course supplies the negative counterpart to directed refuge."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B001",
+                "role": "Ignited fire fills the second member of the negative paired enclosure."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging and extension turn negative placement into a coerced bodily trajectory."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the destination into which the bodies are dragged."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face and front make the exposure direct and bodily."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential tasting makes the enclosing condition lived rather than merely seen."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "Impact and contact complete the negative scene's bodily immediacy."
+              }
+            ],
+            "structural_cues": [
+              "54:47 and 54:54 share إِنَّ + human plural + فِي + two coordinated indefinite complements; 54:48 expands only the negative side into motion and contact."
+            ],
+            "reader_inference": "The packet supplies the mirrored syntax and the drag-fire-contact sequence; I infer a directional contrast between coerced exposure and protective emplacement. A live alternative is a static contrast of destinies without process correspondence.",
+            "changed_reading": {
+              "before": "54:54 is an isolated picture of reward.",
+              "after": "54:54 reverses the preceding embodied sentence: disoriented offenders are forced into burning contact, while the guarded are placed within shelter and freely moving life."
+            }
+          },
+          {
+            "model_id": "d_measured_habitat",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل",
+              "خ ل ق",
+              "ق د ر",
+              "ء م ر",
+              "و ح د",
+              "ل م ح",
+              "ب ص ر"
+            ],
+            "mechanism": "Universal creation by measured determination, followed by a single command realized like a glance, recasts the focus landscape as calibrated habitat: enclosure, breadth, and current are an ordered arrangement rather than undifferentiated luxury.",
+            "activation_trace": [
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The tree-screened garden supplies the bounded living units being ordered."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B003",
+                "role": "Opening, widening, and flow supply the habitat's distributed connective space."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Comprehensive totality extends measured order to every element of the scene."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning make creation an act of calibrated formation."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A measure by which a thing reaches its limit supplies exact bounds and sufficiency."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "An efficacious command supplies the transition from measured design to realization."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "Numerical oneness makes that realization singular and undivided."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B002",
+                "role": "A fleeting glance supplies the scale of immediate execution."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Ocular sight completes the glance image and makes realization perceptually instantaneous."
+              }
+            ],
+            "structural_cues": [
+              "54:49-50 move from comprehensive measure to instantaneous execution before the sequence reaches the fully inscribed record and then the focus habitat."
+            ],
+            "reader_inference": "The packet supplies universal measuring, command, and glance; I apply those predicates to the later habitat and read its cover-flow relation as designed. The alternative is that 54:49-50 remain a general power claim with no specific ecological implication.",
+            "changed_reading": {
+              "before": "The gardens and river signify generic abundance.",
+              "after": "Their shelter and flow form a precisely proportioned ecology, fully determined and effortlessly realized."
+            }
+          },
+          {
+            "model_id": "d_recorded_threshold",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل",
+              "ف ع ل",
+              "ز ب ر",
+              "ص غ ر",
+              "ك ب ر",
+              "س ط ر"
+            ],
+            "mechanism": "The exhaustive written accounting immediately before the focus makes مُتَّقِينَ readable as a disclosed pattern of enacted guarding rather than an unexplained label; the habitat appears beyond a threshold established by the complete record.",
+            "activation_trace": [
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Making oneself protected supplies the repeated conduct whose outcome the class-name condenses."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Comprehensive inclusion prevents acts from dropping out of the accounting."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "The production of acts makes conduct, not an abstract identity, the record's material."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and book-form give those acts durable registration."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ص غ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000865",
+                "branch_id": "B001",
+                "role": "Smallness extends registration to apparently minor acts."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B001",
+                "role": "Magnitude completes the scale from minor to major."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "The written line supplies the final visible fixation immediately before the focus."
+              }
+            ],
+            "structural_cues": [
+              "54:52-53 repeat كُلّ, span small and great, and culminate in مُّسْتَطَر immediately before 54:54 introduces الْمُتَّقِينَ."
+            ],
+            "reader_inference": "The packet supplies total written acts followed by the guarded class; I infer that the class is legible through that record and that placement follows disclosure. The live alternative is that the record closes only the offenders' dossier and the positive class is introduced independently.",
+            "changed_reading": {
+              "before": "The guarded are a pre-given category who then receive a destination.",
+              "after": "The guarded emerge at the far side of exhaustive inscription as people whose enacted protection is fully legible, and their habitat is the corresponding placement."
+            }
+          },
+          {
+            "model_id": "d_counter_appointment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ع د",
+              "د ه ي",
+              "م ر ر",
+              "ق ع د",
+              "ص د ق",
+              "ع ن د"
+            ],
+            "mechanism": "The window begins with the offenders' harmful, bitter appointed time or place and ends with a fixed seat whose truth is fulfilled in nearness. The focus landscape becomes the positive arrival within this pair of opposed appointments.",
+            "activation_trace": [
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The screened garden gives the positive appointment a habitable setting."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "The abundant watercourse gives that arrival living continuity."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment fixed by time or place establishes the negative destination frame."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "د ه ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000498",
+                "branch_id": "B001",
+                "role": "Being struck by what harms gives that appointment its afflictive quality."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B003",
+                "role": "Bitterness supplies the negative appointment's tasted quality."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001244",
+                "branch_id": "B001",
+                "role": "Sitting fixed in a place supplies the positive destination's settled form."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment of promise and act makes the positive appointment reliable and realized."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Nearness and presence locate the fulfilled destination relationally."
+              }
+            ],
+            "structural_cues": [
+              "مَوْعِدُهُمْ in 54:46 and مَقْعَدِ صِدْقٍ in 54:55 frame the intervening paired-fī scenes with destination language."
+            ],
+            "reader_inference": "The packet supplies a harmful appointment at one edge and a truthful settled presence at the other; I infer that they function as counter-destinations and that 54:54 is the positive arrival. They may instead be unrelated temporal and spatial descriptions.",
+            "changed_reading": {
+              "before": "The focus names a pleasant location after punishment.",
+              "after": "The gardens and river are the fulfilled counter-appointment to the bitter موعد: a living arrival that resolves into settled presence."
+            }
+          },
+          {
+            "model_id": "d_nested_proximity",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ع د",
+              "ص د ق",
+              "ع ن د",
+              "م ل ك",
+              "ق د ر"
+            ],
+            "mechanism": "The uninterrupted locative chain فِي ... فِي ... عِندَ nests the garden-river environment inside stable truthful seating and then inside sovereign nearness. Ecological refuge is therefore the outer layer of a relational and political placement.",
+            "activation_trace": [
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The screened garden supplies the outer habitable layer."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "The flowing watercourse gives that outer layer living movement."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001244",
+                "branch_id": "B001",
+                "role": "Fixed sitting in a place converts landscape into stable occupancy."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Complete soundness and stability qualify the seat as non-precarious."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Nearness and presence shift the center of the scene from scenery to relation."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Sovereignty supplies the court-like order within which proximity is granted."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effective capacity guarantees that the sovereign placement can be maintained."
+              }
+            ],
+            "structural_cues": [
+              "The syntax continues directly from فِي جَنَّاتٍ وَنَهَرٍ in 54:54 to فِي مَقْعَدِ صِدْقٍ عِندَ in 54:55 without resetting the human subject."
+            ],
+            "reader_inference": "The packet supplies the continuous subject and locative sequence; I read 54:55 as an inward specification of 54:54. A live alternative is additive ranking: landscape first, courtly nearness as a separate second privilege.",
+            "changed_reading": {
+              "before": "Gardens and river exhaust the promised good.",
+              "after": "The landscape is only the outer register of a deeper placement: stable truthfulness, presence, and nearness within effective sovereignty."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_guarding_becomes_shield",
+            "confidence": "exploratory",
+            "containment": "Reading جَنَّات as shield-like is surprising because its immediate vocalized form strongly favors gardens, but the ج ن ن shield branch and the adjacent و ق ي protection root create a visible focus-only echo, sharpened by the preceding bodily impact. Render this only as a structural resonance within the garden sense, never as its lexical replacement.",
+            "focus_anchor": "مُتَّقِينَ and جَنَّاتٍ place protection and a cognate shield branch inside one short clause.",
+            "activation_trace": [
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Driving harm away by protection supplies the human side of the shield relation."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "The protective shield branch lets the garden resonate as protection made spatial."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "Harmful impact supplies the contact from which the shielded spatial reading protects."
+              }
+            ],
+            "changed_reading": {
+              "before": "The people's guarding and their gardens are semantically separate.",
+              "after": "Exploratorily, the garden is their guarding externalized: not merely a reward object but a shield-like habitat against damaging contact."
+            }
+          },
+          {
+            "outlier_id": "o_daylit_concealment",
+            "confidence": "exploratory",
+            "containment": "The daylight branch of ن ه ر is branch-valid but form-distant from the ordinary river construal in this pairing. The concealment/daylight polarity and the nearby flash-and-sight sequence keep it live; downstream prose should present illumination as a secondary resonance alongside, not instead of, the watercourse.",
+            "focus_anchor": "جَنَّاتٍ can foreground cover while نَهَرٍ can activate the branch of daylight opening into brightness.",
+            "activation_trace": [
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Covering and concealment create the sheltered pole of the polarity."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B002",
+                "role": "Daylight opening in brightness supplies an illuminated pole within the refuge."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B001",
+                "role": "A sudden flash activates brightness as a contextual feature rather than a free association."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Ocular seeing gives that brightness a functional perceptual role."
+              }
+            ],
+            "changed_reading": {
+              "before": "The final noun contributes water alone.",
+              "after": "Secondarily, the refuge joins screened interiority to open daylight: protected without being dark or occluded."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The mirrored grammar of 54:47-48 turns the focus from isolated reward into an embodied reversal of forced exposure.",
+            "The measure-command sequence of 54:49-50 makes the garden-current relation read as calibrated habitat.",
+            "The exhaustive inscription of 54:52-53 makes مُتَّقِينَ readable as an enacted and disclosed pattern rather than a bare label.",
+            "The continuing locatives of 54:55 nest ecological refuge inside stable truthful nearness to effective sovereignty."
+          ],
+          "what_was_special": "The focus's three roots form an unusually tight mechanism: guarding, screened habitation, and flowing or widening release. Context then converts that mechanism into counter-placement, measured ecology, recorded outcome, and sovereign proximity, while shield and daylight branches preserve two controlled lexical surprises.",
+          "remaining_uncertainties": [
+            "Whether the daylight branch of ن ه ر should remain a faint resonance or materially affect translation.",
+            "Whether the exhaustive record in 54:52-53 classifies the guarded or only closes the offenders' account before a fresh contrast.",
+            "Whether 54:55 specifies the same scene inwardly or adds a distinct higher privilege.",
+            "How strongly the shield branch of ج ن ن can color the vocalized garden form without over-lexicalizing a cognate echo."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Protective caution culminates inside living cover and flowing water.** `و ق ي` B002 is placing the self in protective caution and B001 warding harm with a barrier; `ج ن ن` B003 is a tree-covered garden and B001 covering/concealment; `ن ه ر` B001 is a river cutting ground with abundant flowing water. The preposition places the protected inside gardens and river. I infer a fit between practiced guarding and an environment that shelters while sustaining. The ayah reads the reward as inhabited protection, not only attractive scenery.\n\n2. **`نَهَرٍ` can preserve opened spacious brightness alongside river.** `ن ه ر` B003 includes opening/widening until something flows, with spaciousness or brightness; B002 is day opening with light. The singular coordinated with plural gardens makes a broad environmental reading possible. I infer an exploratory coexistence: they are amid gardens and a river, and amid an opened, bright expanse. The water reading remains concrete; brightness adds an atmospheric scope activated by the root inventory.",
@@ -2907,18 +3720,23 @@
   "root_lexicon": {
     "root_001677": {
       "root_ar": "و ق ي",
+      "qac_roots_ar": [
+        "و ق ي"
+      ],
       "root_id": "root_001677",
-      "root_mapping": {
-        "root_id": "root_001677",
-        "root_norm": "و ق ي",
-        "source_root_norm": "و ق ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 149,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ق ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 149
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "760979c4494e6d17cdea17d0a7f09d461d4668e643db239ab7b57ecaa64fa14e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4263,18 +5081,23 @@
     },
     "root_000266": {
       "root_ar": "ج ن ن",
+      "qac_roots_ar": [
+        "ج ن ن"
+      ],
       "root_id": "root_000266",
-      "root_mapping": {
-        "root_id": "root_000266",
-        "root_norm": "ج ن ن",
-        "source_root_norm": "ج ن ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 131,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ن ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 131
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3fa03ab37401f450fbe272d8d86e5a9a5f7d648bfa0d7af8b95b7b61c8e80407",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7931,18 +8754,23 @@
     },
     "root_001559": {
       "root_ar": "ن ه ر",
+      "qac_roots_ar": [
+        "ن ه ر"
+      ],
       "root_id": "root_001559",
-      "root_mapping": {
-        "root_id": "root_001559",
-        "root_norm": "ن ه ر",
-        "source_root_norm": "ن ه ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 64,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ه ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 64
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ed9a52813ee2798a255b65a83809ae259a8656aad0f1c33074ac9356b262a263",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10115,37 +10943,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
       "words_total": 6,
-      "words_resolved": 2,
-      "words_unresolved": 4,
+      "words_resolved": 5,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 4,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 2,
           "surface_ar": "فِي",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "جَنَّٰتٍۢ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "نَهَرٍۢ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10394,11 +11214,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_54.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_54.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 73695,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10472,19 +11305,37 @@
           "root_ids": [
             "root_001677"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ق ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001677",
+            "targets": [
+              {
+                "qac_root_norm": "و ق ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001677",
+                "furuq_root_norm": "و ق ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 149,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001677",
-              "root_norm": "و ق ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ق ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 149,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10509,19 +11360,37 @@
           "root_ids": [
             "root_000266"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ن ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000266",
+            "targets": [
+              {
+                "qac_root_norm": "ج ن ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000266",
+                "furuq_root_norm": "ج ن ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 131,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000266",
-              "root_norm": "ج ن ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ن ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 131,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10546,19 +11415,37 @@
           "root_ids": [
             "root_001559"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ه ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001559",
+            "targets": [
+              {
+                "qac_root_norm": "ن ه ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001559",
+                "furuq_root_norm": "ن ه ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 64,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001559",
-              "root_norm": "ن ه ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ه ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 64,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10585,10 +11472,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 30,
+        "dictionary_branches_kept": 30,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 25,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

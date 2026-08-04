@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T07:26:03.585360+00:00",
+  "generated_at": "2026-08-04T22:29:23.947864+00:00",
   "surah": 18,
   "ayah": 91,
   "ayahRef": "18:91",
@@ -1891,7 +1891,8 @@
       "morpheme_ids": [
         "m-w-s018-a091-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:91:1"
+      "aligned_qac_word_ref_upstream": "18:91:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1905,7 +1906,8 @@
       "morpheme_ids": [
         "m-w-s018-a091-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:91:2"
+      "aligned_qac_word_ref_upstream": "18:91:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1919,7 +1921,8 @@
       "morpheme_ids": [
         "m-w-s018-a091-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:91:3"
+      "aligned_qac_word_ref_upstream": "18:91:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1933,7 +1936,8 @@
       "morpheme_ids": [
         "m-w-s018-a091-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:91:4"
+      "aligned_qac_word_ref_upstream": "18:91:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1949,7 +1953,8 @@
         "m-w-s018-a091-w003-01",
         "m-w-s018-a091-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:91:5"
+      "aligned_qac_word_ref_upstream": "18:91:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1963,7 +1968,8 @@
       "morpheme_ids": [
         "m-w-s018-a091-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:91:6"
+      "aligned_qac_word_ref_upstream": "18:91:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1977,7 +1983,8 @@
       "morpheme_ids": [
         "m-w-s018-a091-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:91:7"
+      "aligned_qac_word_ref_upstream": "18:91:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -1993,7 +2000,8 @@
         "m-w-s018-a091-w005-01",
         "m-w-s018-a091-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:91:8"
+      "aligned_qac_word_ref_upstream": "18:91:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2007,7 +2015,8 @@
       "morpheme_ids": [
         "m-w-s018-a091-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:91:9"
+      "aligned_qac_word_ref_upstream": "18:91:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2249,7 +2258,893 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s18/packets/18_91.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "18:91",
+      "window": [
+        "18:83",
+        "18:84",
+        "18:85",
+        "18:86",
+        "18:87",
+        "18:88",
+        "18:89",
+        "18:90",
+        "18:91",
+        "18:92",
+        "18:93",
+        "18:94",
+        "18:95",
+        "18:96",
+        "18:97",
+        "18:98"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "18:91",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_total_interior_knowledge",
+            "confidence": "strong",
+            "focus_anchor": "The pairing of word 3 (ahata) with word 6 (khubran).",
+            "mechanism": "All-sided enclosure combines with knowledge of an affair's interior, so the clause asserts exhaustive depth rather than receipt of a report.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Complete enclosure in knowledge supplies the mechanism's all-sided epistemic scope."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of news and an affair's interior supplies depth beyond outward report."
+              }
+            ],
+            "changed_reading": {
+              "before": "God knew what was with him.",
+              "after": "God's prior knowledge completely surrounds every side and inward reality of what was present to him."
+            }
+          },
+          {
+            "model_id": "baseline_informed_custody",
+            "confidence": "medium",
+            "focus_anchor": "Word 3's preserving branch acts on the open referent 'what was with him,' while word 6 supplies informed inward awareness.",
+            "mechanism": "Enclosure can be protective custody as well as perimeter; joined to khubr, it yields watchful care that knows what it preserves.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B002",
+                "role": "Preservation, care, and precaution turn encompassing into active custody."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Interior knowledge makes the proposed custody informed rather than merely defensive."
+              }
+            ],
+            "changed_reading": {
+              "before": "The clause reports detached awareness of his circumstances.",
+              "after": "The clause can also place him and what attended him under informed, preserving oversight."
+            }
+          },
+          {
+            "model_id": "baseline_embodied_station_survey",
+            "confidence": "exploratory",
+            "focus_anchor": "The physical branches available at focus words 3 and 6 permit a terrain-level model without leaving the clause.",
+            "mechanism": "Sensory enclosure combines with kh-b-r's low, soft, watered ground to picture knowledge as an all-around survey of the material station.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B001",
+                "role": "Physical surrounding or fencing supplies a surveyed perimeter."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B002",
+                "role": "Soft or low ground with water supplies the exploratory terrain content inside that perimeter."
+              }
+            ],
+            "changed_reading": {
+              "before": "Khubr is treated as purely propositional knowledge.",
+              "after": "Exploratorily, the knowledge is embodied as a complete survey of the ground and conditions at his station."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_linked_itinerary_account",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ل و",
+              "ذ ك ر",
+              "س ب ب",
+              "ت ب ع",
+              "ب ل غ"
+            ],
+            "mechanism": "Recital, preserved recollection, linked means, trace-following, and arrivals at limits turn the focus clause into an epistemic checkpoint within an ordered itinerary.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Complete epistemic enclosure gives the ordered account a scope larger than any one disclosed station."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of the inner affair makes the sequence an informed account, not a bare travel list."
+              },
+              {
+                "source_ref": "18:83",
+                "root": "ت ل و",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000186",
+                "branch_id": "B001",
+                "role": "Following and succession make the promised recital an ordered trace."
+              },
+              {
+                "source_ref": "18:83",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Preserved recollection supplies continuity across the narrated stations."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "The rope or connecting-link image joins otherwise separate stages into one itinerary."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B003",
+                "role": "Tracing mark after mark makes movement evidence-bearing and sequential."
+              },
+              {
+                "source_ref": "18:89",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B003",
+                "role": "The repeated trace-following renews the same ordered mechanism after the first station."
+              },
+              {
+                "source_ref": "18:92",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B003",
+                "role": "Trace-following immediately after the focus marks its clause as a checkpoint rather than an ending."
+              },
+              {
+                "source_ref": "18:93",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at a limit supplies the next bounded station in the traced sequence."
+              }
+            ],
+            "structural_cues": [
+              "The route formula recurs at 18:85, 18:89, and immediately after the focus at 18:92.",
+              "The focus begins with a sealing 'thus' but the linked itinerary continues."
+            ],
+            "reader_inference": "The packet supplies ordered recital, links, repeated following, and bounded arrivals; I infer that the focus clause calibrates the account's epistemic completeness at a midpoint. A live alternative is that it merely closes the eastern episode.",
+            "changed_reading": {
+              "before": "The clause is a free-standing assertion of omniscience.",
+              "after": "The clause is also a checkpoint saying that the already-complete account surrounds each locally disclosed stage while the traveler proceeds link by link."
+            }
+          },
+          {
+            "model_id": "delta_endowment_and_accountable_use",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ك ن",
+              "ء ت ي",
+              "ك ل ل",
+              "ش ي ء",
+              "س ب ب",
+              "ع م ل",
+              "ج ز ي"
+            ],
+            "mechanism": "The total grant of power and connected means is followed by intended action and recompense; this broadens 'what was with him' from inventory to endowed capacities and their use.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Complete enclosure gathers capacities, choices, and consequences into one known field."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of the inward affair reaches intention and use, not only visible possession."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "م ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001439",
+                "branch_id": "B005",
+                "role": "Empowerment supplies operative capacity among the things present to him."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving marks those capacities as an endowment rather than self-originating property."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Totality and enclosure expand the endowment across the available field."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The knowable, reportable thing makes the broad grant available for epistemic accounting."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "A connecting rope or means turns possession into usable access."
+              },
+              {
+                "source_ref": "18:88",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intended action supplies the morally legible use of endowed capacity."
+              },
+              {
+                "source_ref": "18:88",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Recompense links the use of capacity to an answering consequence."
+              }
+            ],
+            "structural_cues": [
+              "18:84 grants power and every means before the ruler chooses between punishment and good at 18:86-88.",
+              "The focus's open phrase 'what was with him' follows another deployment of a route or means."
+            ],
+            "reader_inference": "The packet supplies granted power, total means, intended work, and recompense; I infer an accountability relation between endowment and use. The live narrower alternative is that the focus referent denotes only his immediate circumstances or retinue.",
+            "changed_reading": {
+              "before": "'What was with him' means belongings, retinue, or current circumstances.",
+              "after": "It can include the full endowment of power, accessible means, intended uses, and consequences present to his agency."
+            }
+          },
+          {
+            "model_id": "delta_encounter_beneath_interior_knowledge",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ج د",
+              "ف ق ه"
+            ],
+            "mechanism": "Repeated finding gives the traveler episodic contact with surfaces, while later near-failure to understand speech exposes a limit that the focus's all-sided interior khubr exceeds.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Complete enclosure supplies an epistemic field not limited to successive encounters."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of an affair's interior supplies the depth missing from mere finding."
+              },
+              {
+                "source_ref": "18:86",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "6",
+                  "11"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding at the western station supplies discrete encounter with a scene and a people."
+              },
+              {
+                "source_ref": "18:90",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "A second finding repeats the traveler's station-bound mode of access."
+              },
+              {
+                "source_ref": "18:93",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "The third finding continues episodic contact immediately before a comprehension limit appears."
+              },
+              {
+                "source_ref": "18:93",
+                "root": "ف ق ه",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001171",
+                "branch_id": "B001",
+                "role": "Understanding marks an inward-semantic threshold that the encountered people scarcely cross."
+              }
+            ],
+            "structural_cues": [
+              "Three station clauses repeat 'reached ... found'; the focus follows the second.",
+              "The third station couples finding people with their near-failure to understand speech."
+            ],
+            "reader_inference": "The packet supplies recurring finding, later failed comprehension, and a focus branch for inward knowledge; I infer an epistemic hierarchy from encounter to interior understanding. A live alternative is a neutral omniscient narrator marker with no implied limit on the traveler.",
+            "changed_reading": {
+              "before": "The ruler's discoveries and God's knowledge lie on the same descriptive plane.",
+              "after": "The traveler's repeated findings are local surface encounters already nested beneath God's complete knowledge of both him and the inward reality of what he meets."
+            }
+          },
+          {
+            "model_id": "delta_exposure_does_not_equal_transparency",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ت ر",
+              "ف ق ه"
+            ],
+            "mechanism": "The eastern people lack material covering, yet the next people are difficult to understand; physical exposure is therefore a foil, not a cause, for the focus's interior knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B001",
+                "role": "Physical surrounding supplies the spatial model whose limits the context tests."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of the inner affair distinguishes genuine transparency from mere visibility."
+              },
+              {
+                "source_ref": "18:90",
+                "root": "س ت ر",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000674",
+                "branch_id": "B001",
+                "role": "The explicit absence of covering makes the eastern group materially exposed."
+              },
+              {
+                "source_ref": "18:93",
+                "root": "ف ق ه",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001171",
+                "branch_id": "B001",
+                "role": "The later difficulty of understanding supplies semantic opacity despite bodily encounter."
+              }
+            ],
+            "structural_cues": [
+              "The focus stands between a people described by lack of cover and a people described by difficulty of comprehension.",
+              "The first description concerns exposure; the second concerns intelligibility."
+            ],
+            "reader_inference": "The packet supplies physical uncovering and later semantic opacity; I infer a deliberate contrast across the hinge. They may instead be independent descriptions, and divine knowledge need not depend on either visibility or speech.",
+            "changed_reading": {
+              "before": "An all-around survey could imply that visible, uncovered conditions make the station knowable.",
+              "after": "Exposure does not yield interior transparency: what remains opaque to human encounter is nevertheless completely encompassed as khubr."
+            }
+          },
+          {
+            "model_id": "delta_nested_and_temporary_enclosure",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س د د",
+              "ر د م",
+              "ح د د",
+              "ن ق ب",
+              "د ك ك"
+            ],
+            "mechanism": "After God epistemically encompasses the ruler, the ruler builds a bounded enclosure that blocks crossing and piercing but is later leveled; the encloser and his finite enclosure remain nested inside prior divine knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B001",
+                "role": "Physical surrounding supplies the lexical bridge from epistemic encompassing to the later barrier."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Complete encompassing in knowledge establishes the larger enclosure that contains the builder and wall."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Interior knowledge makes the larger enclosure epistemic rather than another material wall."
+              },
+              {
+                "source_ref": "18:93",
+                "root": "س د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000687",
+                "branch_id": "B001",
+                "role": "The two existing barriers introduce blockage of a gap as the next episode's material problem."
+              },
+              {
+                "source_ref": "18:94",
+                "root": "س د د",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_000687",
+                "branch_id": "B001",
+                "role": "The requested barrier makes physical gap-closing an intentional protective project."
+              },
+              {
+                "source_ref": "18:95",
+                "root": "ر د م",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000557",
+                "branch_id": "B001",
+                "role": "Filling a breach supplies the constructed enclosure's operative form."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B001",
+                "role": "A distinguishing boundary gives the enclosure a hard material limit."
+              },
+              {
+                "source_ref": "18:97",
+                "root": "ن ق ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001539",
+                "branch_id": "B001",
+                "role": "Failure to pierce through demonstrates the wall's temporary closure."
+              },
+              {
+                "source_ref": "18:98",
+                "root": "د ك ك",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000482",
+                "branch_id": "B001",
+                "role": "Demolition to level ground exposes the finite enclosure's destined endpoint."
+              }
+            ],
+            "structural_cues": [
+              "The focus immediately precedes the route that culminates in construction of the barrier.",
+              "The wall defeats both going over and piercing through at 18:97, then is promised leveling at 18:98."
+            ],
+            "reader_inference": "The packet supplies a focus enclosure branch, a barrier sequence, blocked penetration, and eventual leveling; I infer a nested-enclosure analogy. A live alternative is simple narrative juxtaposition, with the later wall illustrating sovereignty rather than activating the focus lexeme.",
+            "changed_reading": {
+              "before": "God completely knows the ruler's present circumstances.",
+              "after": "The One whose knowledge encloses the ruler also encloses the ruler's enclosure, its successful limits, and its appointed ending."
+            }
+          },
+          {
+            "model_id": "delta_custody_becomes_collective_protection",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و م",
+              "ف س د",
+              "ع و ن",
+              "ق و ي",
+              "ز ب ر",
+              "س و ي"
+            ],
+            "mechanism": "The preserving branch of encompassing is activated as informed protection: threatened people, diagnosed corruption, cooperative force, gathered blocks, and equalization convert oversight into coordinated shelter.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B002",
+                "role": "Preservation, care, and precaution supply the focus-side model of custody."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Interior knowledge makes protective action responsive to actual condition."
+              },
+              {
+                "source_ref": "18:90",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Care, preservation, and governance make an encountered people a responsibility rather than scenery."
+              },
+              {
+                "source_ref": "18:94",
+                "root": "ف س د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001154",
+                "branch_id": "B001",
+                "role": "Departure from sound order supplies the harm that informed protection answers."
+              },
+              {
+                "source_ref": "18:95",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Mutual aid turns protective governance into a collective operation."
+              },
+              {
+                "source_ref": "18:95",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Strength gathered like rope strands supplies coordinated communal force."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B002",
+                "role": "Gathered pieces or blocks give collective force a material protective body."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "س و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000766",
+                "branch_id": "B001",
+                "role": "Equalization between two sides converts assembled material into a completed closure."
+              }
+            ],
+            "structural_cues": [
+              "The unshielded people before the focus are followed by people requesting a protective barrier.",
+              "The builder refuses payment, requests shared strength, and organizes supplied material."
+            ],
+            "reader_inference": "The packet supplies a divine care branch and the ruler's later protective engineering; I infer that informed custody frames his delegated action without identifying the two subjects. The live alternative is that preservation is only a dormant focus branch and the wall is unrelated.",
+            "changed_reading": {
+              "before": "Preserving oversight remains an abstract secondary sense of encompassing.",
+              "after": "It becomes a model of informed custody under which available people, force, and matter can be coordinated into protection."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_distributed_shares_assembled",
+            "confidence": "exploratory",
+            "containment": "The shared-portion sense of kh-b-r is distant from the noun's ordinary epistemic sense here, but it remains anchored at focus word 6 and converges with gathering at word 3 plus later cooperative block assembly; render it only as a material-social analogy, not as a lexical translation.",
+            "focus_anchor": "Focus word 3 can gather dispersed elements, while focus word 6 has a branch for a jointly divided share.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B003",
+                "role": "Gathering dispersed members supplies the assembly operation."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B006",
+                "role": "A divided share in common property supplies distributed holdings as what is known."
+              },
+              {
+                "source_ref": "18:95",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Mutual aid activates distributed capacities as a joint contribution."
+              },
+              {
+                "source_ref": "18:95",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Strength gathered like strands supplies the integration of separate contributions."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B002",
+                "role": "Collected pieces or blocks materialize the assembly of distributed shares."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "س و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000766",
+                "branch_id": "B001",
+                "role": "Equalization supplies the operation that fits separate contributions into one barrier."
+              }
+            ],
+            "changed_reading": {
+              "before": "What was with him is a single undifferentiated inventory.",
+              "after": "Exploratorily, the clause knows each distributed share or capacity and the possibility of gathering them into coordinated work."
+            }
+          },
+          {
+            "outlier_id": "outlier_knowledge_as_capacious_container",
+            "confidence": "exploratory",
+            "containment": "The waterskin and soft-ground branches are homonymous and highly form-distant, yet the model remains anchored in both focus roots and is reactivated by the western spring and later pouring of molten metal; render it as a contained material image for knowledge, never as the clause's direct lexical sense.",
+            "focus_anchor": "Focus word 3 supplies a containing perimeter, while focus word 6 can image either watered low ground or a capacious vessel.",
+            "activation_trace": [
+              {
+                "source_ref": "18:91",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B001",
+                "role": "Physical enclosure supplies the containing boundary of the image."
+              },
+              {
+                "source_ref": "18:91",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B004",
+                "role": "The capacious waterskin supplies abundant contents held within a container."
+              },
+              {
+                "source_ref": "18:86",
+                "root": "غ ر ب",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_001077",
+                "branch_id": "B002",
+                "role": "The great bucket or waterskin image gives the western station a vessel-like material echo."
+              },
+              {
+                "source_ref": "18:86",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing spring supplies liquid content at the journey's first boundary."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Pouring by emptying a vessel reactivates containment as a deliberate transfer."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "ق ط ر",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_001238",
+                "branch_id": "B006",
+                "role": "Molten copper supplies the dense poured content that seals the later enclosure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Knowledge is represented only as an abstract proposition.",
+              "after": "As a contained image, divine khubr is capacious enough to hold the overflowing material reality of every station and transformation."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Repeated finding and later failed comprehension recast the focus as a contrast between episodic encounter and all-sided interior knowledge.",
+            "Granted means, intended action, and recompense broaden what was 'with him' from possessions to capacities and accountable use.",
+            "The later barrier turns encompassing into nested enclosure: divine knowledge contains the builder, the wall, its limits, and its expiry."
+          ],
+          "what_was_special": "The focus clause works as a hinge: it closes the exposed eastern station, calibrates the traveler's limited viewpoint, and prefigures a physical enclosure whose temporary strength remains inside complete epistemic enclosure.",
+          "remaining_uncertainties": [
+            "Whether the later physical enclosure is intentional lexical prefiguration or a retrospective analogy.",
+            "Whether preserving custody should color ahata here or remain secondary to complete epistemic enclosure.",
+            "The distributed-share and capacious-vessel readings are branch-valid analogies but unlikely contextual lexical senses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The empowered ruler remains epistemically encompassed.** `ح و ط` B004 (“complete grasp in knowledge or possession”) assigns God complete report of what is with him, directly reversing Moses’ inability to encompass report (18:68). I infer that Dhul-Qarnayn’s extensive means never place his resources outside divine knowledge. His wide reach is itself locally bounded inside a wider informational field.",
@@ -3371,18 +4266,23 @@
   "root_lexicon": {
     "root_000372": {
       "root_ar": "ح و ط",
+      "qac_roots_ar": [
+        "ح و ط"
+      ],
       "root_id": "root_000372",
-      "root_mapping": {
-        "root_id": "root_000372",
-        "root_norm": "ح و ط",
-        "source_root_norm": "ح و ط",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 24,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح و ط",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 24
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c0ae37c6e68ec285065bc19a5facac2a86ad3ee232a82724e5dbf9f12046c1b6",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5725,18 +6625,23 @@
     },
     "root_000387": {
       "root_ar": "خ ب ر",
+      "qac_roots_ar": [
+        "خ ب ر"
+      ],
       "root_id": "root_000387",
-      "root_mapping": {
-        "root_id": "root_000387",
-        "root_norm": "خ ب ر",
-        "source_root_norm": "خ ب ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 52,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ب ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 52
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5cfec43ffc22468dcb2e0c45911a7b8a3525e223d9f118228310cd06d18a4459",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7627,14 +8532,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s018/linguistic/morphemes.tsv",
-        "ayah_count": 111,
-        "row_count": 2582,
+        "ayah_count": 110,
+        "row_count": 2575,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8107,11 +9018,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s018"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s18/packets/18_91.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s18/readers/reader_hft_a/18_91.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 157838,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8183,19 +9107,37 @@
           "root_ids": [
             "root_000372"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح و ط",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000372",
+            "targets": [
+              {
+                "qac_root_norm": "ح و ط",
+                "target_rank": 1,
+                "furuq_root_id": "root_000372",
+                "furuq_root_norm": "ح و ط",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 24,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000372",
-              "root_norm": "ح و ط",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح و ط",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 24,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8220,19 +9162,37 @@
           "root_ids": [
             "root_000387"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ب ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000387",
+            "targets": [
+              {
+                "qac_root_norm": "خ ب ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000387",
+                "furuq_root_norm": "خ ب ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 52,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000387",
-              "root_norm": "خ ب ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ب ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 52,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8259,10 +9219,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 14,
+        "dictionary_branches_kept": 14,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 14,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

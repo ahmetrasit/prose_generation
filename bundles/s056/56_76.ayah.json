@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:36.904540+00:00",
+  "generated_at": "2026-08-04T22:30:01.718011+00:00",
   "surah": 56,
   "ayah": 76,
   "ayahRef": "56:76",
@@ -2097,7 +2097,8 @@
       "morpheme_ids": [
         "m-w-s056-a076-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:76:1"
+      "aligned_qac_word_ref_upstream": "56:76:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2113,7 +2114,8 @@
         "m-w-s056-a076-w001-02",
         "m-w-s056-a076-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:76:2"
+      "aligned_qac_word_ref_upstream": "56:76:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2127,7 +2129,8 @@
       "morpheme_ids": [
         "m-w-s056-a076-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:76:3"
+      "aligned_qac_word_ref_upstream": "56:76:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2141,7 +2144,8 @@
       "morpheme_ids": [
         "m-w-s056-a076-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:76:4"
+      "aligned_qac_word_ref_upstream": "56:76:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2155,7 +2159,8 @@
       "morpheme_ids": [
         "m-w-s056-a076-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:76:5"
+      "aligned_qac_word_ref_upstream": "56:76:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2171,7 +2176,8 @@
         "m-w-s056-a076-w004-01",
         "m-w-s056-a076-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:76:6"
+      "aligned_qac_word_ref_upstream": "56:76:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2185,7 +2191,8 @@
       "morpheme_ids": [
         "m-w-s056-a076-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:76:7"
+      "aligned_qac_word_ref_upstream": "56:76:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2790,7 +2797,987 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_76.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:76",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:76",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_oath_epistemic_weight",
+            "confidence": "strong",
+            "focus_anchor": "The construction لَقَسَمٌ ... عَظِيمٌ names an oath and predicates greatness of it, while لَوْ تَعْلَمُونَ inserts the hearers' knowing between noun and predicate.",
+            "mechanism": "The oath is already objectively weighty, but the conditional makes recognition of that weight depend on disclosure to the hearer. Greatness is therefore not mere rhetorical volume; it is a consequential magnitude that knowledge would uncover.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "The oath branch supplies solemn attestation and gives qasam its binding force."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower makes the intervening condition epistemic rather than ornamental."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B001",
+                "role": "Magnitude and force supply the predicate's scale and consequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "This is simply an emphatic statement that the oath is very important.",
+              "after": "The oath bears a magnitude that is already real but only becomes experientially weighty when knowledge discloses what the attestation entails."
+            }
+          },
+          {
+            "model_id": "baseline_apportioned_magnitude",
+            "confidence": "exploratory",
+            "focus_anchor": "قَسَمٌ can retain a distributive underside beside its immediate oath sense, and the clause places knowing before the declaration of its عظَم.",
+            "mechanism": "The same root that yields an oath also marks off a share. Read as resonance rather than replacement, the utterance solemnly delineates a weighty portion, verdict, or domain whose extent the hearers do not yet recognize.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separation and allotment give the oath a secondary image of marking out a consequential share."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing mark supplies the image by which an allotted domain becomes recognizable."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B002",
+                "role": "The major or greater part turns the marked-off share into something extensive rather than trivial."
+              }
+            ],
+            "changed_reading": {
+              "before": "Qasam contributes only the act of swearing.",
+              "after": "The oath also faintly marks out a great allotment or decisive domain, awaiting context to show what is being distributed."
+            }
+          },
+          {
+            "model_id": "baseline_attention_recollected",
+            "confidence": "medium",
+            "focus_anchor": "The compact interruption لَوْ تَعْلَمُونَ addresses minds that have not adequately registered the قَسَم as عَظِيم.",
+            "mechanism": "A qasam can stand against a mind divided among possible concerns. Disclosure gathers attention, and apprehended greatness produces awe. The utterance functions as an attentional intervention as well as an assertion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B006",
+                "role": "A mind apportioned among alternatives supplies the hearer's initial state of distracted appraisal."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Knowledge discloses the object strongly enough to recollect divided attention."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B007",
+                "role": "Awe and felt enormity describe the response that adequate apprehension should produce."
+              }
+            ],
+            "changed_reading": {
+              "before": "The parenthetical merely reports ignorance.",
+              "after": "The parenthetical diagnoses scattered appraisal and calls the hearer to a concentrated apprehension proportionate to the oath's awe."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_celestial_placements",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق س م",
+              "و ق ع",
+              "ن ج م"
+            ],
+            "mechanism": "The preceding oath verb attaches the focus qasam to stellar مواقع. Falling-and-fixing and the appearance of stars turn abstract magnitude into an ordered field of placements or events: the oath is great because its warrant is distributed across stable, observable loci.",
+            "activation_trace": [
+              {
+                "source_ref": "56:75",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "The explicit act of swearing identifies the adjacent focus noun as the oath being evaluated."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling followed by fixation makes each mawqi a settled event-site rather than empty coordinate."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ن ج م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001475",
+                "branch_id": "B001",
+                "role": "The rising star supplies the recurring celestial object whose arrivals and settings populate those sites."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B001",
+                "role": "Magnitude now measures the ordered reach of the cited placements."
+              }
+            ],
+            "structural_cues": [
+              "56:75 immediately supplies the first-person oath verb and its object, while 56:76 resumes with a pronoun and evaluates that oath.",
+              "The plural مَوَاقِع makes the warrant a distributed set rather than one isolated sign."
+            ],
+            "reader_inference": "The packet supplies swearing, placements, and stars; I infer that recurrent fixed celestial events function as a network of warrant. A live alternative is that the phrase invokes celestial locations without assigning them an evidentiary mechanism.",
+            "changed_reading": {
+              "before": "The oath is great by unspecified intensity.",
+              "after": "The oath is great through the ordered multiplicity of stellar fallings, fixations, or event-sites that furnish its warrant."
+            }
+          },
+          {
+            "model_id": "delta_protected_transmission",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ء",
+              "ك ر م",
+              "ك ت ب",
+              "ك ن ن",
+              "م س س",
+              "ط ه ر",
+              "ن ز ل",
+              "ر ب ب"
+            ],
+            "mechanism": "The next verses unfold a controlled transmission chain: gathered recitation, honored status, inscription, protective concealment, restricted contact, purification, delivery, and lordly completion. The oath's greatness shifts from sheer scale to the inviolability and authority of what it introduces.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "The oath supplies the attesting act that authorizes the transmission claim."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B010",
+                "role": "Honor and inviolable standing recast greatness as rank, not merely size."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering supplies the coherent recitation that the oath attests."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Nobility and generosity give the recitation the honored status echoed by عظِيم."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Ordered letters and written record give the gathered recitation durable form."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective covering makes preservation an active part of the chain."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "Contact as reception of an effect makes access consequential rather than casual."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Removal of impurity supplies the stated qualification for contact."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Delivery from above supplies direction and source to the protected transmission."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Cultivation, repair, and completion make the source responsible for bringing the message to integrity."
+              }
+            ],
+            "structural_cues": [
+              "56:77 repeats إِنَّهُ لَـ immediately after 56:76 and changes the predicate from قَسَم to قُرْآن.",
+              "56:77-80 forms a compact succession of nominal descriptions ending in source."
+            ],
+            "reader_inference": "The packet supplies the repeated emphatic syntax and the transmission sequence; I infer that the parallel pronouns let the oath's greatness derive from the status of the recitation it introduces. The live alternative is two adjacent emphatic assertions whose pronouns need not form a single chain.",
+            "changed_reading": {
+              "before": "Greatness is an unqualified scalar property of the oath.",
+              "after": "The oath is great as an authoritative seal upon an honored, preserved, purity-governed transmission from its completing Lord."
+            }
+          },
+          {
+            "model_id": "delta_allotment_moral_conversion",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح د ث",
+              "د ه ن",
+              "ج ع ل",
+              "ر ز ق",
+              "ك ذ ب"
+            ],
+            "mechanism": "The distributive resonance of qasam is activated when an allotted provision is deliberately made into denial. Soft accommodation to the renewed discourse is followed by an inversion: what is received as a share becomes the occasion for falsification. Knowing is thus tested as response, not possession of information.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Allotment supplies the latent relation between qasam and the hearers' assigned provision."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure defines the knowledge that should govern the response to what is received."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed speech supplies the communicative event toward which the hearers take a stance."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "Smooth accommodation supplies an evasive response that blunts the discourse without meeting it."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Deliberate transformation provides the arrow by which provision is converted into denial."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "A apportioned gift directly activates qasam's secondary image of an assigned share."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth names the resulting misuse of the allotted gift."
+              }
+            ],
+            "structural_cues": [
+              "The second-person challenge in 56:81 flows directly into the coordinated accusation in 56:82.",
+              "56:82 grammatically places provision and denial inside one act of making."
+            ],
+            "reader_inference": "The packet supplies renewed speech, accommodation, transformation, apportioned gift, and denial; I infer a moral conversion from reception to falsification. A live alternative is that provision names gratitude or livelihood metonymically rather than an allotted share of discourse.",
+            "changed_reading": {
+              "before": "If you knew describes a deficit that could be cured by more information.",
+              "after": "If you knew exposes a failure to receive an allotted gift truthfully: the great oath measures whether disclosure becomes acknowledgment or is converted into denial."
+            }
+          },
+          {
+            "model_id": "delta_deathbed_epistemic_limit",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل غ",
+              "ح ل ق",
+              "ح ي ن",
+              "ن ظ ر",
+              "ق ر ب",
+              "ب ص ر",
+              "ك و ن",
+              "غ ي ر",
+              "د ي ن",
+              "ر ج ع",
+              "ص د ق"
+            ],
+            "mechanism": "At the terminal bodily limit, witnesses look but do not see the nearer agency and cannot return what has reached the throat. The focus condition on knowledge becomes a test at the boundary where sight, control, exemption from accounting, and truth claims all fail together.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "The oath supplies testimony capable of addressing what the witnesses cannot verify by control."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure anchors the contrast between knowing and merely watching."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at an endpoint supplies the irreversible threshold of the scene."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The conduit of breath locates that threshold in the body's life-bearing passage."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B001",
+                "role": "The appointed instant compresses the epistemic test into a decisive time."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight or reflection supplies the witnesses' active but insufficient observation."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness without distance supplies the unseen presence that exceeds the witnesses' access."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Physical seeing is explicitly negated, separating proximity from perceptibility."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Actual presence in a state frames the hearers' claim to be outside the governing order."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Negation and exception formulate the attempted exemption from accountability."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and requital identify the order from which exemption is claimed."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return to a prior state supplies the demanded demonstration of control."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfilling a claim in action turns asserted truth into a practical test."
+              }
+            ],
+            "structural_cues": [
+              "56:83-87 advances as one temporal scene from reaching the throat, through looking and failed sight, to a conditional challenge to return it.",
+              "The repeated second-person plural links لَوْ تَعْلَمُونَ to the later limits of what the same hearers can see and do."
+            ],
+            "reader_inference": "The packet supplies a terminal limit, observers, unseen nearness, accounting, and the failed return challenge; I infer that the oath supplies warranted knowledge where sensory control fails. The exact identity of the nearer agency remains open in the packet.",
+            "changed_reading": {
+              "before": "Knowledge would merely make the hearers appreciate the oath more.",
+              "after": "The great oath bears witness at the death boundary that knowing exceeds looking: the decisive reality is nearest precisely where the observers cannot see or reverse it."
+            }
+          },
+          {
+            "model_id": "delta_outcome_apportionment",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ب",
+              "ر و ح",
+              "ص ح ب",
+              "ي م ن",
+              "س ل م",
+              "ك ذ ب",
+              "ض ل ل",
+              "ن ز ل",
+              "ح م م",
+              "ص ل ي",
+              "ج ح م"
+            ],
+            "mechanism": "The three repeated outcome clauses sort persons into differentiated receptions: intimate nearness and rest, blessed companionship and safety, or deniers' lodging in heat and flame. This sequence strongly activates qasam as apportionment beneath qasam as oath.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Division into assigned shares supplies the focus anchor for the later differentiated outcomes."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The privileged rank of intimates identifies the first recipient class."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B007",
+                "role": "Rest and relief supply the first class's reception."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Enduring companionship defines the second recipient class relationally."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing marks the favorable side of the second allotment."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety from harm supplies the second class's assigned greeting or state."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth identifies the third class by its response to disclosure."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from the intended way characterizes the third class's orientation."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared lodging turns consequence into a deliberately assigned reception."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water supplies the hostile substance of that reception."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B001",
+                "role": "Meeting fire supplies direct exposure as the third class's assigned end."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Blazing intensity completes the negative allotment."
+              }
+            ],
+            "structural_cues": [
+              "56:88, 56:90, and 56:92 open parallel alternatives with فَأَمَّا or وَأَمَّا.",
+              "Each alternative is followed by a compact nominal statement of reception, making the sequence distributive in form."
+            ],
+            "reader_inference": "The packet supplies three parallel classes and sharply differentiated receptions; I infer that this outcome distribution activates the allotment branch within qasam. A live alternative keeps qasam exclusively as oath and treats the later division as consequence without lexical resonance.",
+            "changed_reading": {
+              "before": "The oath attests an important proposition without itself organizing the hearers.",
+              "after": "The oath also sounds like a solemn apportioning declaration whose greatness lies in the radically different shares disclosed for different responses."
+            }
+          },
+          {
+            "model_id": "delta_certainty_to_magnification",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ق ق",
+              "ي ق ن",
+              "س ب ح",
+              "س م و",
+              "ر ب ب",
+              "ع ظ م"
+            ],
+            "mechanism": "The focus's conditional knowing closes as fixed reality and stable certainty, then becomes an imperative to clear the Lord's name of defect. The repeated عظيم shifts the oath's greatness toward its referent and source: the oath is great as a sign that terminates in magnification of the Lord.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Knowledge begins as the unrealized disclosure condition."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B001",
+                "role": "Magnitude initially qualifies the oath and establishes the word echoed at the close."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Stable correspondence to reality converts the oath's claim into an ontological endpoint."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Knowledge fixed beyond doubt answers the focus's unrealized if-you-knew."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Clearing from defect turns recognized truth into an enacted response."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "The name as designation gives praise a specific verbal and referential object."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and sovereignty identify the source toward whom the oath's authority points."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B001",
+                "role": "The repeated magnitude now qualifies the Lord, redirecting the focus adjective toward its ultimate ground."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from لَوْ تَعْلَمُونَ in 56:76 to حَقُّ الْيَقِينِ in 56:95.",
+              "عَظِيم closes both 56:76 and 56:96, first modifying the oath and then the Lord."
+            ],
+            "reader_inference": "The packet supplies the epistemic progression, final imperative, and repeated adjective; I infer that the closing echo redirects the oath's greatness toward its source. A live alternative treats the two uses of عظيم as independent descriptions without transfer.",
+            "changed_reading": {
+              "before": "The oath's greatness is self-contained and the knowledge condition remains hypothetical.",
+              "after": "The great oath is a path from unrealized knowing to certainty and then to magnification of the great Lord whose name grounds the attestation."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_stellar_signature",
+            "confidence": "exploratory",
+            "containment": "This is surprising because مَوَاقِع most directly evokes locations or events, not signatures. It remains anchored in the focus oath through the packet's signing branch for و ق ع, the prominent-mark branch for ن ج م, and the written record that follows. Render only as a secondary scribal metaphor, never as the lexical translation of the phrase.",
+            "focus_anchor": "The solemn قَسَم in 56:76 can function like an authenticated instrument whose authority is marked or signed.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "The oath supplies the binding instrument that could bear authentication."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B011",
+                "role": "Signing a document supplies the exploratory image of celestial placements as signatures."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ن ج م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001475",
+                "branch_id": "B006",
+                "role": "A prominent mark lets each star function metaphorically as a visible authentication point."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "The written record gives the signature metaphor a textual destination."
+              }
+            ],
+            "changed_reading": {
+              "before": "The oath cites stellar locations as its external object.",
+              "after": "Exploratorily, the stellar مواقع are signature marks authenticating the great oath that seals the written recitation."
+            }
+          },
+          {
+            "outlier_id": "outlier_load_bearing_greatness",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because عظيم in the clause is scalar, not a direct reference to bone. It remains anchored through the packet's solid-bone branch and is activated by joining in ك ت ب and joint-like fit in ح ق ق. Downstream prose should present it only as a structural wordplay: greatness as load-bearing coherence, not as a translation.",
+            "focus_anchor": "The final word عَظِيم can carry a remote image of solid bone beneath its ordinary force of greatness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:76",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B005",
+                "role": "Solid bone supplies the load-bearing image hidden beneath scalar greatness."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "Joining one thing to another makes the oath a possible structural connector in the sequence."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B011",
+                "role": "A part fitting its proper joint supplies the image of the oath locking celestial sign, recitation, and certainty together."
+              }
+            ],
+            "changed_reading": {
+              "before": "Greatness only increases the oath's rhetorical scale.",
+              "after": "As contained wordplay, greatness is also structural solidity: the oath acts like a load-bearing joint holding the sign-to-recitation-to-certainty sequence together."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The stellar مواقع turn unspecified greatness into the ordered reach of fixed celestial event-sites.",
+            "The recitation, protected book, qualified contact, and descent recast greatness as inviolable transmission and authority.",
+            "The deathbed challenge transforms if-you-knew into a boundary between sight and warranted knowledge where human control fails.",
+            "The three outcome clauses activate qasam's allotment branch as a solemn distribution of radically different receptions.",
+            "حق اليقين and the repeated عظيم redirect the oath from hypothetical recognition toward certainty and magnification of the Lord."
+          ],
+          "what_was_special": "Only three focus roots generate several mechanisms: ق س م moves among oath, allotment, and divided attention; ع ل م moves among disclosure and recognizable marking; ع ظ م moves among magnitude, awe, honor, and remotely structural solidity. The local sequence successively spatializes, textualizes, moralizes, tests, distributes, and finally redirects the oath's greatness.",
+          "remaining_uncertainties": [
+            "The repeated إِنَّهُ لَـ permits a strong oath-to-recitation linkage, but the packet alone does not force a single pronoun relation.",
+            "The allotment reading of ق س م, the signature reading of و ق ع, and the bone reading of ع ظ م are branch resonances rather than primary contextual glosses.",
+            "The exact identity of the nearer agency in 56:85 is not fixed by the supplied root and syntax."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The oath’s greatness depends on apprehending its order.** `ق س م` **B004** supplies oath, `ع ل م` **B001** knowing as clear, and `ع ظ م` **B001** greatness and strength. The conditional inserts the hearers’ knowledge between oath and greatness. **Abductive move:** I infer that greatness is objectively asserted but only functionally activated for those who understand the positional system of 56:75. **Reading change:** the ayah calls for informed perception of the oath’s mechanism.\n\n2. **A divided sign gathered into one overwhelming claim.** `ق س م` **B003** supplies apportioned shares and **B006** a mind divided between courses; `ع ظ م` **B007** supplies finding something overwhelming. **Abductive move:** I infer that many stellar locations converge into a single claim capable of resolving divided judgment. **Reading change:** the oath gathers distributed evidence against hesitation.",
@@ -4007,18 +4994,23 @@
   "root_lexicon": {
     "root_001226": {
       "root_ar": "ق س م",
+      "qac_roots_ar": [
+        "ق س م"
+      ],
       "root_id": "root_001226",
-      "root_mapping": {
-        "root_id": "root_001226",
-        "root_norm": "ق س م",
-        "source_root_norm": "ق س م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 26,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق س م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 26
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cf8058e6b73f3c1dcf11051bf3bd0f112883eb76cfb2139cf2383046834b1b4a",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6213,18 +7205,23 @@
     },
     "root_001040": {
       "root_ar": "ع ل م",
+      "qac_roots_ar": [
+        "ع ل م"
+      ],
       "root_id": "root_001040",
-      "root_mapping": {
-        "root_id": "root_001040",
-        "root_norm": "ع ل م",
-        "source_root_norm": "ع ل م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 771,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 771
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8cfacfe87682b0ea79a8459f834938bbff910f60c9504afde93dae299ea41d5e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9253,18 +10250,23 @@
     },
     "root_001029": {
       "root_ar": "ع ظ م",
+      "qac_roots_ar": [
+        "ع ظ م"
+      ],
       "root_id": "root_001029",
-      "root_mapping": {
-        "root_id": "root_001029",
-        "root_norm": "ع ظ م",
-        "source_root_norm": "ع ظ م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 124,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ظ م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 124
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "faa86afc7e86256cd5286d75ffc5d44719b6afd05ee67eec2a3109809deb9f3f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11890,14 +12892,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12210,11 +13218,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_76.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_76.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 93529,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -12288,19 +13309,37 @@
           "root_ids": [
             "root_001226"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق س م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001226",
+            "targets": [
+              {
+                "qac_root_norm": "ق س م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001226",
+                "furuq_root_norm": "ق س م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 26,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001226",
-              "root_norm": "ق س م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق س م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 26,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12325,19 +13364,37 @@
           "root_ids": [
             "root_001040"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001040",
+            "targets": [
+              {
+                "qac_root_norm": "ع ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001040",
+                "furuq_root_norm": "ع ل م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 771,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001040",
-              "root_norm": "ع ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ل م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 771,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12362,19 +13419,37 @@
           "root_ids": [
             "root_001029"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ظ م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001029",
+            "targets": [
+              {
+                "qac_root_norm": "ع ظ م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001029",
+                "furuq_root_norm": "ع ظ م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 124,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001029",
-              "root_norm": "ع ظ م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ظ م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 124,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12401,10 +13476,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 25,
+        "dictionary_branches_kept": 25,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 25,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

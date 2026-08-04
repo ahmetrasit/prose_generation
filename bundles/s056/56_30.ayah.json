@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.912174+00:00",
+  "generated_at": "2026-08-04T22:29:59.215250+00:00",
   "surah": 56,
   "ayah": 30,
   "ayahRef": "56:30",
@@ -1113,7 +1113,8 @@
       "morpheme_ids": [
         "m-w-s056-a030-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:30:1"
+      "aligned_qac_word_ref_upstream": "56:30:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1127,7 +1128,8 @@
       "morpheme_ids": [
         "m-w-s056-a030-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:30:2"
+      "aligned_qac_word_ref_upstream": "56:30:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1141,7 +1143,8 @@
       "morpheme_ids": [
         "m-w-s056-a030-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:30:3"
+      "aligned_qac_word_ref_upstream": "56:30:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1595,7 +1598,816 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_30.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:30",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:30",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B_SPATIAL_CANOPY",
+            "confidence": "strong",
+            "focus_anchor": "ظِلٍّ مَّمْدُودٍ joins a covering noun to a passive adjective of connected extension.",
+            "mechanism": "Known shade and overhead covering are drawn out continuously, turning a local patch of relief into a broad canopy.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "Known shade as covering supplies the sheltered field that is enlarged."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B003",
+                "role": "Overhead cover fixes the shade above the beneficiary rather than as an abstract darkness."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Connected length supplies the continuous spatial enlargement of the cover."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic patch of shade.",
+              "after": "A continuous overhead canopy drawn out beyond a local patch."
+            }
+          },
+          {
+            "model_id": "B_DURABLE_REFUGE",
+            "confidence": "medium",
+            "focus_anchor": "ظِلٍّ can denote protective custody and مَّمْدُودٍ can extend an allotted time.",
+            "mechanism": "The phrase couples protection with duration, so the benefit is sustained refuge rather than only reduced sunlight.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B004",
+                "role": "Protective custody and ease make the shade a condition of safeguarded dwelling."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "Prolonged time makes that refuge durable rather than momentary."
+              }
+            ],
+            "changed_reading": {
+              "before": "A physically long shadow.",
+              "after": "A prolonged state of protected ease."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D_COMMUNAL_SHELTER",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن"
+            ],
+            "mechanism": "The repeated companions-of-the-right frame gives the extended refuge a collective beneficiary and a favorable, empowered valence: the shelter reaches a company and accompanies it through the whole unit.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B004",
+                "role": "Protective custody supplies the social shelter distributed to the group."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Connected extension supplies the reach of that shelter across the beneficiary body."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship as sustained association identifies a shared rather than solitary beneficiary."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing gives the communal shelter its favorable valence."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B002",
+                "role": "Preservation through accompaniment closes the unit with the same protected company."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "Right as force and entitlement sharpens shelter into secured standing."
+              }
+            ],
+            "structural_cues": [
+              "56:27 and 56:38 frame the amenities with the same beneficiary formula.",
+              "The focus phrase is one coordinated item inside that framed plural allotment."
+            ],
+            "reader_inference": "The packet supplies companionship, preservation, blessing, and force; I assign the arrow from those group qualities to the shade's social reach. A live alternative is that the frame names recipients without changing shade internally.",
+            "changed_reading": {
+              "before": "A prolonged refuge considered as an individual environmental benefit.",
+              "after": "A shared protective ambit extended across a blessed and secured company."
+            }
+          },
+          {
+            "model_id": "D_LAYERED_CANOPY",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س د ر",
+              "خ ض د",
+              "ط ل ح",
+              "ن ض د"
+            ],
+            "mechanism": "Draping, de-sharpening, tree growth, and stacked natural bodies provide a material production model for the shade: a softened, dense vegetal canopy forms a continuous underside.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B003",
+                "role": "Overhead covering identifies the lower face produced by the vegetation."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Connected length turns separate growth into an unbroken canopy."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "س د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000688",
+                "branch_id": "B004",
+                "role": "The form-distant image of hair or cloth hanging freely contributes a draping canopy behavior."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Removal of thorns and sharpness makes the overhead structure hospitable."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The tree image supplies the material body from which shade can be generated."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B004",
+                "role": "Layered natural bodies supply density and continuity to the canopy."
+              }
+            ],
+            "structural_cues": [
+              "56:28-30 proceeds from vegetation to vegetation to shade.",
+              "Each verse uses a coordinated indefinite noun followed by a passive adjective."
+            ],
+            "reader_inference": "The packet supplies draping, de-thorning, tree material, and natural layering; I infer a canopy-to-shadow causal arrow. The live alternative is a list of adjacent amenities with no production relation.",
+            "changed_reading": {
+              "before": "An extended shade whose physical source remains unspecified.",
+              "after": "The continuous underside of a softened, draping, densely layered vegetal canopy."
+            }
+          },
+          {
+            "model_id": "D_WATER_FED_MICROCLIMATE",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ه",
+              "س ك ب"
+            ],
+            "mechanism": "The focus branches can make shade a retained water-zone and extension a flow replenished by other water; the immediately poured, continuing water activates a coupled cool microclimate rather than two isolated amenities.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B008",
+                "role": "Water remaining beneath trees supplies a shaded reservoir within the focus noun's branch range."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B003",
+                "role": "Water fed by other water recasts extension as replenished flow."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Delivery by watering supplies the incoming water that can maintain the shaded zone."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B001",
+                "role": "Pouring supplies active movement rather than a static pool."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Continuance makes the water supply durative and matches the focus extension."
+              }
+            ],
+            "structural_cues": [
+              "56:30 and 56:31 are adjacent coordinated noun-plus-passive-adjective pairs.",
+              "Water follows shade without an intervening topic shift."
+            ],
+            "reader_inference": "The packet supplies shaded residual water, replenished flow, delivery, pouring, and continuity; I infer that water sustains vegetation while cover preserves cool water. Either causal direction could be absent, leaving simple adjacency.",
+            "changed_reading": {
+              "before": "A dry optical shadow beside a separate water feature.",
+              "after": "A water-fed canopy and retained cool-water zone operating as one microclimate."
+            }
+          },
+          {
+            "model_id": "D_UNINTERRUPTED_PROVISION",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ك ه",
+              "ك ث ر",
+              "ق ط ع",
+              "م ن ع"
+            ],
+            "mechanism": "Abundant fruit followed by explicit non-cessation and non-obstruction gives مَّمْدُودٍ an availability aspect: the shade belongs to hospitality that neither runs out nor excludes, while still protecting.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B004",
+                "role": "Protective refuge supplies beneficial shelter without requiring exclusion."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "Extended time supplies continuity of access."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Desirable fruit supplies the provision whose access pattern clarifies the surrounding amenities."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Numerical growth supplies abundance rather than bare persistence."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Negated ending supplies freedom from temporal cessation."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "Negated barrier supplies freedom from blocked access."
+              }
+            ],
+            "structural_cues": [
+              "56:30-34 forms one coordinated amenity series.",
+              "The paired negations in 56:33 specify both temporal and access failures."
+            ],
+            "reader_inference": "The packet directly applies non-cutting and non-withholding to fruit; I extend that availability logic backward across the coordinated series to shade. The live alternative restricts both negations to fruit alone.",
+            "changed_reading": {
+              "before": "Shade that lasts for a long time.",
+              "after": "Shelter continuously available within a provision system that neither ceases nor bars access."
+            }
+          },
+          {
+            "model_id": "D_VERTICAL_HABITAT",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ر ش",
+              "ر ف ع"
+            ],
+            "mechanism": "Overhead cover and a broadly extended plane are answered by spread and elevated resting surfaces, organizing the sequence as inhabitable vertical space rather than scenery viewed from outside.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B003",
+                "role": "The overhead cover supplies the upper boundary of the habitat."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Broad connected extension supplies a stable horizontal span."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and preparation supplies the inhabitable lower surface."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Elevation introduces a vertical relation among the prepared surfaces and cover."
+              }
+            ],
+            "structural_cues": [
+              "Shade, water, provision, and raised resting surfaces occur in one uninterrupted coordinated list.",
+              "The focus's overhead image and 56:34's elevation mark complementary spatial levels."
+            ],
+            "reader_inference": "The packet supplies overheadness, spreading, and elevation; I arrange them into a vertical habitat. The alternative is that raised furnishings have no spatial relation to the shade.",
+            "changed_reading": {
+              "before": "A long shadow as one object in a landscape.",
+              "after": "The upper plane of a layered dwelling whose lower surfaces are spread and raised for habitation."
+            }
+          },
+          {
+            "model_id": "D_RECREATED_CONTINUITY",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ش ء",
+              "ج ع ل",
+              "ب ك ر",
+              "ع ر ب",
+              "ت ر ب"
+            ],
+            "mechanism": "Creation anew, transformation into firstness, affection, and peer equality transpose duration from mere length into maintained freshness and relational fit: extension need not entail aging, depletion, or drift.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B004",
+                "role": "Protective ease supplies the environmental condition whose duration is being reconsidered."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "Extended time supplies the tension between duration and freshness."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Bringing into being supplies active renewal rather than passive survival."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Transformation into a state supplies maintained condition as an effected order."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B002",
+                "role": "Firstness supplies freshness within that transformed order."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B005",
+                "role": "Loving affection gives the prolonged environment a relational rather than merely climatic quality."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "Equality in age and companionship supplies durable social fit."
+              }
+            ],
+            "structural_cues": [
+              "56:35-37 shifts from created environment to effected personal and relational states.",
+              "The whole passage remains governed by the beneficiary frame closed at 56:38."
+            ],
+            "reader_inference": "The packet supplies renewal, transformation, firstness, affection, and peer equality; I infer analogous non-decaying continuity for the extended shade. The live alternative treats the later states as separate recipients or amenities with no backward effect.",
+            "changed_reading": {
+              "before": "Environmental duration measured only by how long shade remains.",
+              "after": "A prolonged protected order whose continuity is compatible with renewed freshness and stable companionship."
+            }
+          },
+          {
+            "model_id": "D_COHORT_SPAN",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ل ل",
+              "ء و ل",
+              "ء خ ر"
+            ],
+            "mechanism": "Gathered groups at the beginning and the later end convert extension into historical and distributive reach: one protected ambit spans successive cohorts rather than terminating with a single company.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B004",
+                "role": "Protective custody supplies the shared ambit whose historical reach is tested."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "Extended time permits the shelter to reach beyond one cohort."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "A gathered company supplies the first collective endpoint of distribution."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence supplies the earlier temporal pole."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The split-root image of one thing following another supplies succession between cohorts."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "A second gathered company shows repeated collective inclusion."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the opposite temporal pole and completes the span."
+              }
+            ],
+            "structural_cues": [
+              "56:39 and 56:40 repeat the same group construction while changing earlier to later.",
+              "The paired verses follow the closure of the beneficiary frame at 56:38."
+            ],
+            "reader_inference": "The packet supplies gathered cohorts, beginning, succession, and laterness; I transfer their temporal distribution to the focus extension. The live alternative is demographic description with no effect on the shade's scope.",
+            "changed_reading": {
+              "before": "A refuge prolonged within one setting and moment.",
+              "after": "A protective reach extended across gathered earlier and later cohorts."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O_SHADE_AS_RETAINED_WATER",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it shifts ظِلّ from optical cover toward the packet's branch of water retained under trees. It remains anchored by that exact focus branch, the focus root's replenished-water branch, and the immediately poured water; downstream prose should present it as an ecological or metonymic resonance, not replace the ordinary sense of shade.",
+            "focus_anchor": "ظِلٍّ activates the branch of water sheltered beneath trees, while مَّمْدُودٍ activates water continuously fed by other water.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B008",
+                "role": "Retained water under trees permits the focus noun to foreground the shaded water-zone itself."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B003",
+                "role": "Water replenished by water gives that zone continuing supply."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Delivered water provides the adjacent source that activates replenishment."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Continuing outpour keeps the retained zone from becoming stagnant or exhausted."
+              }
+            ],
+            "changed_reading": {
+              "before": "Shade cast over or beside water.",
+              "after": "Shade metonymically foregrounds a retained, continually supplied water-zone beneath vegetation."
+            }
+          },
+          {
+            "outlier_id": "O_EXTENDED_COLLECTIVE_PRESENCE",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it uses the lexicographic image of a standing person as a shade and moves from environmental cover to social presence. It remains anchored in ظِلٍّ, connected extension, and the repeated companion and cohort frames; downstream prose should mark it as a social figure layered over, not substituted for, the physical canopy.",
+            "focus_anchor": "ظِلٍّ has a branch in which the standing person is called a shade, and مَّمْدُودٍ can draw that presence into connected reach.",
+            "activation_trace": [
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B009",
+                "role": "The person-as-shade image permits an embodied social reading of the focus noun."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Connected extension turns one standing presence into a widened collective field."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Sustained companionship supplies the persons whose presence can become collective."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The gathered company supplies an embodied earlier extension of that presence."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The repeated gathered company carries the collective presence into a later cohort."
+              }
+            ],
+            "changed_reading": {
+              "before": "An extended canopy covering a company.",
+              "after": "The company's own gathered presence figures as an extended protective field."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The beneficiary frame turns durable shade into a shared protective ambit.",
+            "Layered vegetation gives the spatial extension a material canopy mechanism.",
+            "The focus water branches and 56:31 activate a replenished cool microclimate.",
+            "Non-cessation, non-obstruction, and earlier/later cohorts make extension functional and transgenerational."
+          ],
+          "what_was_special": "The two focus roots jointly opened spatial, temporal, protective, hydrological, and person-metonymic readings; the context made extension a mode of continuous access and collective reach rather than mere geometry.",
+          "remaining_uncertainties": [
+            "The causal loop between poured water, vegetation, and retained cool water is reader-supplied.",
+            "The availability logic of 56:33 may apply only to fruit rather than backward across the coordinated series.",
+            "The renewal and person-as-shade readings are form-distant and should remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Protective cover extended without lapse.** `ظ ل ل` **B001** supplies shade as covering and **B004** protective shelter; `م د د` **B001** supplies lengthwise extension and **B004** extended time. The contrastive shade of 56:43–44 is neither cool nor generous. **Abductive move:** I infer that extension is both spatial reach and temporal continuity. **Reading change:** the shade is enduring protection, not a brief patch of darkness.\n\n2. **A canopy continually supplied.** `ظ ل ل` **B003** supplies overhead canopy and `م د د` **B002** connected increase that supplies another. The nearby poured water and abundant fruit form a sustained ecological system. **Abductive move:** I infer that one provision feeds the persistence of another. **Reading change:** the shade reads as maintained output within a living network.",
@@ -2358,18 +3170,23 @@
   "root_lexicon": {
     "root_000966": {
       "root_ar": "ظ ل ل",
+      "qac_roots_ar": [
+        "ظ ل ل"
+      ],
       "root_id": "root_000966",
-      "root_mapping": {
-        "root_id": "root_000966",
-        "root_norm": "ظ ل ل",
-        "source_root_norm": "ظ ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ظ ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "dae2e3c2aeb5e24603c4f74e1986d5fe0f744f113bc15c820b6494a290cd5be5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4019,18 +4836,23 @@
     },
     "root_001407": {
       "root_ar": "م د د",
+      "qac_roots_ar": [
+        "م د د"
+      ],
       "root_id": "root_001407",
-      "root_mapping": {
-        "root_id": "root_001407",
-        "root_norm": "م د د",
-        "source_root_norm": "م د د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 24,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م د د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 24
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c3874088599fc93c7291d7008cec44024d30507df22282672ac17dcd180c535a",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6653,14 +7475,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6945,11 +7773,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_30.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_30.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 68770,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7022,19 +7863,37 @@
           "root_ids": [
             "root_000966"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ظ ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000966",
+            "targets": [
+              {
+                "qac_root_norm": "ظ ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000966",
+                "furuq_root_norm": "ظ ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000966",
-              "root_norm": "ظ ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ظ ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 28,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7059,19 +7918,37 @@
           "root_ids": [
             "root_001407"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م د د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001407",
+            "targets": [
+              {
+                "qac_root_norm": "م د د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001407",
+                "furuq_root_norm": "م د د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 24,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001407",
-              "root_norm": "م د د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م د د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 24,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7098,10 +7975,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 18,
+        "dictionary_branches_kept": 18,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 9,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

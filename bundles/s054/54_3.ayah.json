@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.614992+00:00",
+  "generated_at": "2026-08-04T22:29:51.591282+00:00",
   "surah": 54,
   "ayah": 3,
   "ayahRef": "54:3",
@@ -2209,7 +2209,8 @@
       "morpheme_ids": [
         "m-w-s054-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:3:1"
+      "aligned_qac_word_ref_upstream": "54:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2225,7 +2226,8 @@
         "m-w-s054-a003-w001-02",
         "m-w-s054-a003-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:3:2"
+      "aligned_qac_word_ref_upstream": "54:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2239,7 +2241,8 @@
       "morpheme_ids": [
         "m-w-s054-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:3:3"
+      "aligned_qac_word_ref_upstream": "54:3:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2255,7 +2258,8 @@
         "m-w-s054-a003-w002-02",
         "m-w-s054-a003-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:3:4"
+      "aligned_qac_word_ref_upstream": "54:3:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2271,7 +2275,8 @@
         "m-w-s054-a003-w003-01",
         "m-w-s054-a003-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:3:5"
+      "aligned_qac_word_ref_upstream": "54:3:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2285,7 +2290,8 @@
       "morpheme_ids": [
         "m-w-s054-a003-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:3:6"
+      "aligned_qac_word_ref_upstream": "54:3:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2299,7 +2305,8 @@
       "morpheme_ids": [
         "m-w-s054-a003-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:3:7"
+      "aligned_qac_word_ref_upstream": "54:3:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2313,7 +2320,8 @@
       "morpheme_ids": [
         "m-w-s054-a003-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:3:8"
+      "aligned_qac_word_ref_upstream": "54:3:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2327,7 +2335,8 @@
       "morpheme_ids": [
         "m-w-s054-a003-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:3:9"
+      "aligned_qac_word_ref_upstream": "54:3:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3478,7 +3487,943 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_3.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:3",
+      "window": [
+        "54:1",
+        "54:2",
+        "54:3",
+        "54:4",
+        "54:5",
+        "54:6",
+        "54:7",
+        "54:8",
+        "54:9",
+        "54:10",
+        "54:11",
+        "54:12",
+        "54:13",
+        "54:14",
+        "54:15",
+        "54:16",
+        "54:17"
+      ],
+      "ayah_count": 17,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1_choice_architecture",
+            "confidence": "strong",
+            "focus_anchor": "The coordinated verbs كذبوا and اتبعوا, the possessed object أهواءهم, and the universal nominal clause وكل أمر مستقر.",
+            "mechanism": "Attributing falsehood clears the governing position, private inclination takes it, and the closing nominal clause places every affair under eventual fixity.",
+            "activation_trace": [
+              {
+                "source_ref": "54:3",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing a thing or speaker to falsehood supplies the initial act of rejection."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Trailing and taking a lead supplies the transfer of guidance."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B004",
+                "role": "The self's inclining desire names the guide they choose."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Comprehensive totality extends the closing claim without exception."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "An affair, state, or case supplies what undergoes resolution."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement supply the terminal condition."
+              }
+            ],
+            "changed_reading": {
+              "before": "They reject, follow desires, and all matters are settled.",
+              "after": "Denial is a change of guide: attributed falsehood clears the way for private inclination to lead, while no affair escapes a settled state."
+            }
+          },
+          {
+            "model_id": "B2_liability_survives_denial",
+            "confidence": "medium",
+            "focus_anchor": "اتبعوا and أمر can carry pursuit and obligation, while مستقر can carry confirmed acknowledgment.",
+            "mechanism": "The root of following also supplies a liability that follows a person; read with command and acknowledgment, rejection cannot extinguish the claim it refuses.",
+            "activation_trace": [
+              {
+                "source_ref": "54:3",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution to falsehood supplies the attempted cancellation of a claim."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B006",
+                "role": "A consequence or liability that follows supplies the pursuing claim."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Command and obligation make the affair normatively binding."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B007",
+                "role": "Confirmation and acknowledgment supply the claim's eventual fixed recognition."
+              }
+            ],
+            "changed_reading": {
+              "before": "Following desire is only present conduct.",
+              "after": "Following desire also generates a pursuing liability: a denied obligation can return as a fixed and acknowledged claim."
+            }
+          },
+          {
+            "model_id": "B3_descent_to_basin",
+            "confidence": "exploratory",
+            "focus_anchor": "The sequence اتبعوا أهواءهم ends in مستقر, allowing motion in هوي to meet the low resting image in قرر.",
+            "mechanism": "Pursuit acquires a downward vector through the fall latent in هوي, while settlement becomes the basin in which the trajectory finally collects.",
+            "activation_trace": [
+              {
+                "source_ref": "54:3",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B002",
+                "role": "Catching up with what goes ahead supplies active pursuit."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B002",
+                "role": "Falling toward a depth gives the pursued inclinations a downward vector."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total inclusion makes the trajectory apply to every affair."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The affair supplies the moving process whose course is tracked."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B006",
+                "role": "A low collecting place supplies the terminal basin."
+              }
+            ],
+            "changed_reading": {
+              "before": "Desire and settlement are separate moral and eschatological statements.",
+              "after": "The verse maps desire as descent: people pursue a downward inclination, yet every course eventually reaches a collecting bottom."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_passing_label_settled_event",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ب",
+              "ش ق ق",
+              "ر ء ي",
+              "ء ي ي",
+              "ع ر ض",
+              "ق و ل",
+              "س ح ر",
+              "م ر ر"
+            ],
+            "mechanism": "A visible rupture is perceived, bodily evaded, and verbally recoded as deceptive and passing; مستقر answers that recoding by making the event move toward a limit that cannot remain merely passable.",
+            "activation_trace": [
+              {
+                "source_ref": "54:3",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution to falsehood names the final verdict in the recoding sequence."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Settlement supplies the counter-state to indefinite evasion or passage."
+              },
+              {
+                "source_ref": "54:1",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B002",
+                "role": "Temporal nearness and expiration frame settlement as an approaching limit."
+              },
+              {
+                "source_ref": "54:1",
+                "root": "ش ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000807",
+                "branch_id": "B001",
+                "role": "Splitting open supplies the disruptive event presented to perception."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies admitted perception before denial."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest marker identifies the perceived object as evidentiary."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Turning one's side supplies the bodily rerouting between sight and verdict."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Spoken utterance makes the replacement classification public."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B002",
+                "role": "Deflection and deception supply the replacement category imposed on the sign."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B001",
+                "role": "Passing and traversing supply the immediate counter-image to قرر's settlement."
+              }
+            ],
+            "structural_cues": [
+              "54:2 orders seeing, turning aside, and saying before 54:3 names denial.",
+              "The adjacent participles مستمر and مستقر place passage or continuity beside settlement."
+            ],
+            "reader_inference": "The packet supplies seen sign, lateral turning, deceptive naming, temporal nearness, passage, and settlement; I infer a processing contrast in which recoding delays but cannot prevent arrival. A live alternative takes مستمر as enduring, yielding duration versus final fixation rather than transit versus rest.",
+            "changed_reading": {
+              "before": "They deny because desire defeats assent.",
+              "after": "Denial is an observable recoding pipeline: they see a sign, turn away, and call it passing deception, while the denied event continues toward settlement."
+            }
+          },
+          {
+            "model_id": "D2_message_reaches_without_uptake",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ي ء",
+              "ن ب ء",
+              "ز ج ر",
+              "ح ك م",
+              "ب ل غ",
+              "غ ن ي",
+              "ن ذ ر"
+            ],
+            "mechanism": "Reports arrive with restraining force and wisdom reaches its communicative limit, yet warnings fail to avail; settlement therefore can mark completed delivery even where desire blocks uptake.",
+            "activation_trace": [
+              {
+                "source_ref": "54:3",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Taking inclination as leader locates the blockage on the recipient side."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Settlement supplies completion independent of persuasion."
+              },
+              {
+                "source_ref": "54:4",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Arrival supplies completed movement toward the addressees."
+              },
+              {
+                "source_ref": "54:4",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B002",
+                "role": "A delivered report supplies the content that reaches them."
+              },
+              {
+                "source_ref": "54:4",
+                "root": "ز ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000624",
+                "branch_id": "B001",
+                "role": "Vocal restraint supplies the report's intended corrective force."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "Well-made firmness characterizes the message as internally complete."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Reaching the limit makes communicative completion explicit."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency, here negated, separates complete warning from effective uptake."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "A warning meant to awaken caution supplies the unaccepted intervention."
+              }
+            ],
+            "structural_cues": [
+              "54:4-5 move from arrival and restraining content to consummate wisdom and then negate the warnings' efficacy."
+            ],
+            "reader_inference": "The packet supplies arrived reports, restraint, wisdom reaching a limit, and warnings that do not avail; I infer that an affair may settle on the transmission side despite failed reception. Alternatively, مستقر may refer only to the later consequence, not completed communication.",
+            "changed_reading": {
+              "before": "Settlement means only the final outcome despite denial.",
+              "after": "An affair can first settle as fully delivered communication: the warning reaches its limit even when desire prevents it from becoming effective in its hearers."
+            }
+          },
+          {
+            "model_id": "D3_following_reversed_by_call",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ل ي",
+              "د ع و",
+              "ن ك ر",
+              "خ ش ع",
+              "خ ر ج",
+              "ه ط ع"
+            ],
+            "mechanism": "Chosen following of plural private inclinations is reversed into humbled, rapid orientation toward a single caller; settlement includes the loss of control over what one follows and where one goes.",
+            "activation_trace": [
+              {
+                "source_ref": "54:3",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Voluntary trailing supplies the initial self-selected direction."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B004",
+                "role": "Plural private inclinations supply the chosen leaders."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Settlement supplies the eventual fixing of direction."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the present refusal that precedes forced reorientation."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "A call that draws by speech supplies the new directional center."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B003",
+                "role": "The difficult and strange object supplies the destination they did not choose."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and submission mark the reversal of their former posture."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Passage outward supplies irreversible movement into the new scene."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "ه ط ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001594",
+                "branch_id": "B003",
+                "role": "Rapid forward approach supplies compelled-looking convergence on the caller."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The repeated caller fixes the endpoint of their movement."
+              }
+            ],
+            "structural_cues": [
+              "The sequence turns away, caller calls, eyes lower, they emerge, then they rush toward the caller.",
+              "The plural possessed inclinations of 54:3 contrast with the singular caller of 54:6-8."
+            ],
+            "reader_inference": "The packet supplies voluntary following, later calling, lowered posture, emergence, and rapid approach; I infer a reversal from chosen to imposed orientation. The live alternative is that the later scene exemplifies consequence without defining the lexical force of مستقر.",
+            "changed_reading": {
+              "before": "They freely follow desires until an unspecified outcome arrives.",
+              "after": "Their freedom concerns the first guide, not the final direction: those who now trail private inclinations later converge rapidly on a caller they had not chosen."
+            }
+          },
+          {
+            "model_id": "D4_measured_convergence",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "د ع و",
+              "ف ت ح",
+              "ه م ر",
+              "ف ج ر",
+              "ل ق ي",
+              "ء م ر",
+              "ق د ر",
+              "ج ر ي",
+              "ج ز ي"
+            ],
+            "mechanism": "Repeated denial enters a causal sequence in which a call is answered by opened channels, opposed flows meet upon a measured affair, and protected motion becomes recompense; settlement is concretized as bounded convergence and moral return.",
+            "activation_trace": [
+              {
+                "source_ref": "54:3",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The affair supplies the general process later repeated in the material sequence."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B006",
+                "role": "A low collecting place supplies the spatial image of convergence and rest."
+              },
+              {
+                "source_ref": "54:9",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Repeated attribution to falsehood establishes the historical recurrence of the focus act."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling supplies the initiating appeal in the response sequence."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B005",
+                "role": "Water issuing through an opened passage supplies the upper inflow."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ه م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001599",
+                "branch_id": "B001",
+                "role": "Pouring and outflow supply sustained movement toward convergence."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B003",
+                "role": "Sudden abundant emission supplies the lower counterflow."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B004",
+                "role": "Two opposed things arriving together supply the convergence point."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The repeated affair explicitly identifies the convergence as an instance of the focus category."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Measured planning supplies the boundary and directed fit of the event."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing motion shows that settlement fixes a course without requiring static immobility."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Corresponding recompense supplies the moral return generated by the settled process."
+              }
+            ],
+            "structural_cues": [
+              "The chain runs from repeated denial through calling, opening, bursting, meeting, carrying, flowing, and recompense.",
+              "54:12 repeats أمر and qualifies the event with passive قدر, directly coupling affair and measure."
+            ],
+            "reader_inference": "The packet supplies the ordered event chain, two water sources meeting, the repeated أمر, measure, motion, and recompense; I infer that the sequence instantiates قرار as convergence into bounded consequence. Alternatively, the episode may illustrate the maxim without unpacking its wording.",
+            "changed_reading": {
+              "before": "Every affair simply ends at an appointed outcome.",
+              "after": "An affair settles by assembly: separate forces are opened, meet at a measured bound, and continue on a fixed course that returns action as recompense."
+            }
+          },
+          {
+            "model_id": "D5_event_settles_as_reminder",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ر ك",
+              "ء ي ي",
+              "ذ ك ر",
+              "ن ذ ر",
+              "ي س ر",
+              "ق ر ء"
+            ],
+            "mechanism": "The completed event leaves an evidentiary remainder that can be recalled, voiced, and made accessible; settlement therefore includes stabilization into a repeatable sign, not only termination.",
+            "activation_trace": [
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B007",
+                "role": "Fixing a report until it is established supplies durable intelligibility."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "Leaving an effect behind supplies persistence after the event."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest marker turns the remainder into evidence."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder supplies the remainder's mnemonic function."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that awakens caution supplies the retained event's present force."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opened ease after difficulty supplies accessibility to the stabilized trace."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and recitation supply repeatable reactivation."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall after or against forgetting supplies renewed uptake."
+              }
+            ],
+            "structural_cues": [
+              "The repeated question about remembering at 54:15 and 54:17 encloses the retrospective warning of 54:16."
+            ],
+            "reader_inference": "The packet supplies a left-behind sign, warning, ease, recitation, and repeated remembrance; I infer that an affair can settle into a durable mnemonic form. Alternatively, these verses may preserve an example of settlement without making preservation part of مستقر.",
+            "changed_reading": {
+              "before": "Settlement is the point at which an event stops.",
+              "after": "Settlement can be the point at which an event becomes a stable, accessible sign that keeps re-entering speech and memory."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_hollow_desire_filled_basin",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the air or hollow branch of هوي rather than replacing the ordinary sense of desire. It remains anchored in أهواءهم and مستقر and is materially echoed by opening, pouring, bursting, and meeting; downstream prose should present it only as a cross-domain analogy, not as a lexical gloss.",
+            "focus_anchor": "أهواءهم can retain desire while activating inner vacancy, and مستقر can activate a low place where material collects.",
+            "activation_trace": [
+              {
+                "source_ref": "54:3",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B001",
+                "role": "Air and emptiness make private desires materially legible as an inner vacancy."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B006",
+                "role": "A low collecting place supplies the basin where the process comes to rest."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "Opening what was closed externalizes exposure of a sealed system."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ه م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001599",
+                "branch_id": "B001",
+                "role": "Pouring supplies the flow that fills exposed space."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide splitting and emission supply a second opening from below."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B004",
+                "role": "The meeting of opposed flows supplies convergence that fills and settles."
+              }
+            ],
+            "changed_reading": {
+              "before": "They follow subjective inclinations until affairs settle.",
+              "after": "They follow an inner vacancy, while the context's opened channels and converging flows image every affair finding the basin that fills and fixes it."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Seeing becomes a recoding pipeline: sign, lateral turn, passing-magic label, then settlement.",
+            "Chosen following of private inclinations reverses into rapid convergence on a single caller.",
+            "The flood sequence makes settlement a measured assembly of forces that returns as recompense.",
+            "A completed event can settle into a durable sign repeatedly reactivated by recitation and memory."
+          ],
+          "what_was_special": "The adjacent مستمر and مستقر, the reversal of following, and the basin and report branches of قرر let one short maxim connect perception, agency, material convergence, and memory without collapsing those readings.",
+          "remaining_uncertainties": [
+            "مستمر may stress continuity rather than passage, changing the exact contrast with مستقر.",
+            "كل أمر مستقر may point to an appointed outcome, present establishment, eventual recognition, or more than one of these.",
+            "The vacancy-and-filling outlier is a material analogy and should not displace the ordinary desire sense of أهواء."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Following desire is given a hidden downward vector.** `ت ب ع` B001 is following after; `ه و ي` B004 is the self’s desire, while B002 is falling into an abyss; `ك ذ ب` B002 is declaring false. The grammar explicitly supplies following but not a destination. Later peoples repeat denial and fall into material ruin, so I infer that the falling branch gives desire’s “following” an unstated trajectory. The ayah reads both as preference-following and as self-directed descent.\n\n2. **Every affair moves from flux to settlement.** `ء م ر` B001 is an affair and `ق ر ر` B003 is settling and remaining fixed. Its placement directly after 54:2’s `مُّسْتَمِرٌّ` (`م ر ر` B001/B002) contrasts passing or recurrence with eventual fixation. I infer that repeated events do not remain indefinite motion: each acquires a settled outcome. `مُّسْتَقِرٌّ` therefore reads as outcome, terminus, and durable placement at once.",
@@ -4396,18 +5341,23 @@
   "root_lexicon": {
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6167,18 +7117,23 @@
     },
     "root_000175": {
       "root_ar": "ت ب ع",
+      "qac_roots_ar": [
+        "ت ب ع"
+      ],
       "root_id": "root_000175",
-      "root_mapping": {
-        "root_id": "root_000175",
-        "root_norm": "ت ب ع",
-        "source_root_norm": "ت ب ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 137,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ت ب ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 137
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "36685374e39c44b32bee7a253f22cc3514b9dc2bc8a511da18a9a8dbf2adc83c",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10034,18 +10989,23 @@
     },
     "root_001609": {
       "root_ar": "ه و ي",
+      "qac_roots_ar": [
+        "ه و ي"
+      ],
       "root_id": "root_001609",
-      "root_mapping": {
-        "root_id": "root_001609",
-        "root_norm": "ه و ي",
-        "source_root_norm": "ه و ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 31,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ه و ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 31
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "fd2da977914d86f5c88dbc60ba34e5661b394ef3d2f9edda80b803db8f312e66",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11716,18 +12676,23 @@
     },
     "root_001315": {
       "root_ar": "ك ل ل",
+      "qac_roots_ar": [
+        "ك ل ل"
+      ],
       "root_id": "root_001315",
-      "root_mapping": {
-        "root_id": "root_001315",
-        "root_norm": "ك ل ل",
-        "source_root_norm": "ك ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 373,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 373
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1b62652dd08706d73c357e6fbeca545210dd48618694d4690482d32c5e16a02f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14203,18 +15168,23 @@
     },
     "root_000051": {
       "root_ar": "ء م ر",
+      "qac_roots_ar": [
+        "ء م ر"
+      ],
       "root_id": "root_000051",
-      "root_mapping": {
-        "root_id": "root_000051",
-        "root_norm": "ء م ر",
-        "source_root_norm": "أ م ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 241,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء م ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 241
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6619cf1a09b74b544841a95a3f0fa585c87e19e212506a4f4a9c9ff534a6a4b9",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -17098,18 +18068,23 @@
     },
     "root_001215": {
       "root_ar": "ق ر ر",
+      "qac_roots_ar": [
+        "ق ر ر"
+      ],
       "root_id": "root_001215",
-      "root_mapping": {
-        "root_id": "root_001215",
-        "root_norm": "ق ر ر",
-        "source_root_norm": "ق ر ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 38,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ر ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 38
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "84a44cfebfb30b5cc9890d9d391d1c01cff93fa86915f28349f4786138ca6eeb",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -21033,14 +22008,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -21325,11 +22306,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 127881,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -21406,19 +22400,37 @@
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21443,19 +22455,37 @@
           "root_ids": [
             "root_000175"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ت ب ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000175",
+            "targets": [
+              {
+                "qac_root_norm": "ت ب ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000175",
+                "furuq_root_norm": "ت ب ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 137,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000175",
-              "root_norm": "ت ب ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ت ب ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 137,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21480,19 +22510,37 @@
           "root_ids": [
             "root_001609"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ه و ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001609",
+            "targets": [
+              {
+                "qac_root_norm": "ه و ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001609",
+                "furuq_root_norm": "ه و ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 31,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001609",
-              "root_norm": "ه و ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ه و ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 31,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21517,19 +22565,37 @@
           "root_ids": [
             "root_001315"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001315",
+            "targets": [
+              {
+                "qac_root_norm": "ك ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001315",
+                "furuq_root_norm": "ك ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 373,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001315",
-              "root_norm": "ك ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 373,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21554,19 +22620,37 @@
           "root_ids": [
             "root_000051"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء م ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000051",
+            "targets": [
+              {
+                "qac_root_norm": "ء م ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000051",
+                "furuq_root_norm": "ء م ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 241,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000051",
-              "root_norm": "ء م ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء م ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 241,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21591,19 +22675,37 @@
           "root_ids": [
             "root_001215"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ر ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001215",
+            "targets": [
+              {
+                "qac_root_norm": "ق ر ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001215",
+                "furuq_root_norm": "ق ر ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 38,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001215",
-              "root_norm": "ق ر ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ر ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 38,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 15,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21630,10 +22732,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 68,
+        "dictionary_branches_kept": 68,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 49,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

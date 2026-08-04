@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.279319+00:00",
+  "generated_at": "2026-08-04T22:29:54.547371+00:00",
   "surah": 54,
   "ayah": 47,
   "ayahRef": "54:47",
@@ -1741,7 +1741,8 @@
       "morpheme_ids": [
         "m-w-s054-a047-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:47:1"
+      "aligned_qac_word_ref_upstream": "54:47:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1757,7 +1758,8 @@
         "m-w-s054-a047-w002-01",
         "m-w-s054-a047-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:47:2"
+      "aligned_qac_word_ref_upstream": "54:47:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1771,7 +1773,8 @@
       "morpheme_ids": [
         "m-w-s054-a047-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:47:3"
+      "aligned_qac_word_ref_upstream": "54:47:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1785,7 +1788,8 @@
       "morpheme_ids": [
         "m-w-s054-a047-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:47:4"
+      "aligned_qac_word_ref_upstream": "54:47:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1799,7 +1803,8 @@
       "morpheme_ids": [
         "m-w-s054-a047-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:47:5"
+      "aligned_qac_word_ref_upstream": "54:47:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1813,7 +1818,8 @@
       "morpheme_ids": [
         "m-w-s054-a047-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:47:6"
+      "aligned_qac_word_ref_upstream": "54:47:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2325,7 +2331,745 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_47.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:47",
+      "window": [
+        "54:46",
+        "54:47",
+        "54:48",
+        "54:49",
+        "54:50",
+        "54:51",
+        "54:52",
+        "54:53",
+        "54:54",
+        "54:55"
+      ],
+      "ayah_count": 10,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:47",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_culpable_enclosure",
+            "confidence": "strong",
+            "focus_anchor": "The agent noun at word 2 and the construction fi + two coordinated indefinite nouns at words 4-5.",
+            "mechanism": "Culpable agency is placed inside a coupled condition: departure from aim and an ignited or fevered consequence reinforce one another rather than functioning as two unrelated labels.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B004",
+                "role": "Offense and transgression identify the plural subjects as culpable agents."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from guidance or aim supplies the first enclosing condition."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B001",
+                "role": "Ignition and burning supply the second condition and make the pairing consequential."
+              }
+            ],
+            "changed_reading": {
+              "before": "Criminals are simply described as astray and in fire.",
+              "after": "Culpable agents already inhabit a compound field in which loss of aim and ignition belong to one mechanism."
+            }
+          },
+          {
+            "model_id": "b_self_kindling_deviation",
+            "confidence": "medium",
+            "focus_anchor": "The acquisitive sense available to the agent noun at word 2 and the deviation and frenzy senses at words 4-5.",
+            "mechanism": "Wrongdoing is something acquired and also induced; once inhabited, deviation excites further evil or inner fever, producing a self-amplifying cycle.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B003",
+                "role": "Acquiring or causing supplies an active input rather than a merely imposed label."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Loss of the intended course is the cycle's directional failure."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B002",
+                "role": "The stirring of conflict or evil turns directional failure into an escalating process."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B004",
+                "role": "Inner heat, frenzy, and distress locate that escalation within the subjects as well as around them."
+              }
+            ],
+            "changed_reading": {
+              "before": "The two states are static punishments assigned to a named group.",
+              "after": "Acquired wrongdoing generates a feedback loop in which deviation kindles further frenzy and harmful action."
+            }
+          },
+          {
+            "model_id": "b_severed_roaming",
+            "confidence": "exploratory",
+            "focus_anchor": "The cutting sense behind word 2, lost-being imagery at word 4, and rapid roaming at word 5.",
+            "mechanism": "Severance removes an orienting attachment; what is cut loose becomes a lost being in an exposed waste and moves urgently in every direction without arriving.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B001",
+                "role": "Cutting and severance supply the loss of attachment that begins the spatial model."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B005",
+                "role": "A stray left in a place of loss gives deviation the form of exposed homelessness."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B007",
+                "role": "Rapid roaming and dispersal turn homelessness into restless, misdirected motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "Deviation is an abstract doctrinal error paired with flames.",
+              "after": "The offenders are cut loose into a lived condition of exposed loss and compulsive, directionless movement."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_appointed_culmination",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ع د",
+              "م ر ر"
+            ],
+            "mechanism": "The preceding appointment and bitter severity activate the focus as a reached phase: completed time closes, and the sharp onset of the named condition begins.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B006",
+                "role": "Completed and elapsed time lets the subject label carry a secondary image of a period reaching closure."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B010",
+                "role": "The first sharp edge of an event supplies the onset that follows temporal closure."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment fixed to a time or place makes the transition into 54:47 temporally bounded."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B004",
+                "role": "Severe calamity gives the appointed transition its threatening intensity."
+              }
+            ],
+            "structural_cues": [
+              "The immediately preceding ayah repeats the Hour around their appointment and closes with two comparative intensifiers."
+            ],
+            "reader_inference": "The packet supplies appointed timing, severe bitterness, completed-time imagery, and sharp onset; I infer a boundary crossing into the focus condition. A live alternative is that 54:46 only dates a later punishment while 54:47 remains atemporal.",
+            "changed_reading": {
+              "before": "The verse states a timeless character judgment.",
+              "after": "The verse also names the condition entered when an appointed period closes and its severe phase begins."
+            }
+          },
+          {
+            "model_id": "d_face_first_enactment",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ح ب",
+              "ن و ر",
+              "و ج ه",
+              "ذ و ق",
+              "م س س"
+            ],
+            "mechanism": "The following sequence converts nominal conditions into bodily process: forced dragging removes control of direction, the face becomes the leading surface, and fire is made an experienced contact.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Loss of aim becomes physically enacted when the subjects cannot direct their own movement."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B001",
+                "role": "Ignited fire is the focus image concretized by the next ayah."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging and extending supply coerced motion with no self-chosen heading."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Burning fire gives the focus ignition a concrete medium."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face as forward aspect is inverted into the surface on which they are dragged."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential testing changes the fire from spectacle into personally verified condition."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "Impacting contact makes the consequence immediate at the body."
+              }
+            ],
+            "structural_cues": [
+              "The nominal statement is followed by a temporal scene of passive dragging, a body part, an imperative of experience, and contact."
+            ],
+            "reader_inference": "The packet supplies coerced movement, face-first orientation, burning, experience, and contact; I infer that 54:48 stages the two focus nouns as one embodied sequence. They may alternatively remain independent moral and punitive predicates.",
+            "changed_reading": {
+              "before": "Deviation and fire are abstract states listed side by side.",
+              "after": "Deviation is enacted as loss of bodily orientation, while ignition becomes forced, face-first, directly experienced contact."
+            }
+          },
+          {
+            "model_id": "d_measured_sudden_ignition",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ق د ر",
+              "ء م ر",
+              "ل م ح"
+            ],
+            "mechanism": "Universal measuring bounds the apparently uncontrolled fire or frenzy, while the single command and flash-like transition preserve its sudden onset: precision and abruptness coexist.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B001",
+                "role": "Ignition supplies the event whose extent is newly read as measured."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B010",
+                "role": "A sharp beginning links the focus condition to the next ayah's flash-like execution."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Estimating and proportioning supply design rather than uncontrolled eruption."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A measure that brings a thing to its limit bounds the focus condition."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Binding command supplies the efficient trigger for enactment."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B001",
+                "role": "A momentary flash supplies the speed of transition without implying disorder."
+              }
+            ],
+            "structural_cues": [
+              "54:49 universalizes created things under measure; 54:50 reduces enactment to one command compared with a visual instant."
+            ],
+            "reader_inference": "The packet supplies measurement, command, and flash speed; I infer that these govern the focus ignition and frenzy. The live alternative is that 54:49-50 assert general power without specifying the internal dynamics of 54:47.",
+            "changed_reading": {
+              "before": "Frenzy or flame suggests an uncontrolled and open-ended outbreak.",
+              "after": "The condition is fiercely sudden yet exactly bounded and enacted, not autonomous chaos."
+            }
+          },
+          {
+            "model_id": "d_recurring_social_pattern",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ه ل ك",
+              "ش ي ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "Destroyed counterparts and an appeal to recollection turn the plural subject from an isolated set into a repeatable social type whose outcome can be recognized through precedent.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B004",
+                "role": "The offender category supplies the class whose recurrence is being tested."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B001",
+                "role": "Falling into destruction supplies the already realized outcome of prior instances."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ش ي ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000836",
+                "branch_id": "B007",
+                "role": "Counterpart or analogue makes earlier groups comparable to the present plural subject."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recovering something after forgetfulness makes precedent cognitively available."
+              }
+            ],
+            "structural_cues": [
+              "After the universal command statement, 54:51 addresses the hearers through their counterparts and closes with a remembrance challenge."
+            ],
+            "reader_inference": "The packet supplies destroyed analogues and recalled precedent; I infer a recurring class mechanism behind the plural label. The analogues could instead serve only as warning examples without defining the focus group.",
+            "changed_reading": {
+              "before": "The criminals are a locally named group in one scene.",
+              "after": "They instantiate a recurring social pattern whose prior outcomes make the present condition recognizable."
+            }
+          },
+          {
+            "model_id": "d_recorded_accrual",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ع ل",
+              "ز ب ر",
+              "س ط ر"
+            ],
+            "mechanism": "The agent noun's acquisition and offense senses are supplied an evidentiary substrate: enacted work is comprehensively written, down to scale, so the focus state follows an accumulated record rather than an unsupported classification.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B003",
+                "role": "Acquisition makes culpability an accrual built through what the subjects gain or cause."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B004",
+                "role": "Offense names the juridical quality of the accumulated acts."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "Produced action supplies the concrete units from which culpability accrues."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and book imagery give those actions a durable evidentiary register."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Ordered written lines sharpen the register into an itemized inscription."
+              }
+            ],
+            "structural_cues": [
+              "54:52-53 repeat totalizing language and move from what they did to every small and large item being inscribed."
+            ],
+            "reader_inference": "The packet supplies action, comprehensive writing, and itemized inscription; I infer that this record warrants the focus classification and condition. A live alternative is that the record confirms omniscience without specifying a causal route into deviation or fire.",
+            "changed_reading": {
+              "before": "Criminality is a fixed identity followed by punishment.",
+              "after": "The label compresses an accrued and inspectable history of action, with the paired condition read as its recorded consequence."
+            }
+          },
+          {
+            "model_id": "d_counter_habitats",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ن ن",
+              "ن ه ر",
+              "ق ع د",
+              "ع ن د"
+            ],
+            "mechanism": "The closing syntactic parallel creates counter-habitats. Lost and rapid roaming on one side are answered by sheltered cultivation, directed flow, settled sitting, and nearness on the other.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B005",
+                "role": "The stray in an exposed place supplies the first habitat's lack of home and orientation."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B007",
+                "role": "Fast roaming in every direction supplies restless motion within that habitat."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden sheltered by growth supplies an inhabited and protected counter-space."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "A river cutting a stable course supplies directed movement instead of frantic dispersion."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001244",
+                "branch_id": "B001",
+                "role": "Sitting fixed in a place answers the focus image of restless wandering."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Near presence gives the settled place a secure relational center."
+              }
+            ],
+            "structural_cues": [
+              "54:47 and 54:54 share the frame emphatic particle + plural group + fi + two coordinated indefinite nouns.",
+              "54:55 extends the second frame with a seat and near presence."
+            ],
+            "reader_inference": "The packet supplies matched syntax plus roaming, garden, river, sitting, and proximity branches; I infer a designed kinetic and spatial contrast. The final pair may alternatively be a general reward contrast without one-to-one mapping to the focus nouns.",
+            "changed_reading": {
+              "before": "The verse gives two abstract negative predicates.",
+              "after": "It locates the offenders in a counter-habitat of exposed, centerless motion, opposite sheltered flow, settled place, and nearness."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_two_concealments",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the hiddenness branch of deviation rather than its dominant guidance sense and compares it with the concealment field of the closing garden. It remains anchored in word 4 and the exact closing parallel; downstream prose should present it as a lexical-spatial experiment, not as a replacement translation.",
+            "focus_anchor": "Word 4 can image disappearance within something, while the parallel habitat at 54:54 is built from protective concealment.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Disappearance and hiddenness cast the focus enclosure as loss of visibility and recoverability."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protection from harm gives the contrasting group a guarded mode of enclosure."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment and shelter supply a positive counterpart to being hidden through loss."
+              }
+            ],
+            "changed_reading": {
+              "before": "Hiddenness is uniformly negative or irrelevant to the final contrast.",
+              "after": "The passage distinguishes being hidden because one is lost from being enclosed because one is protected."
+            }
+          },
+          {
+            "outlier_id": "o_valuation_ledger",
+            "confidence": "exploratory",
+            "containment": "This is branch- and form-distant because the focus surface more readily carries fire or frenzy than commercial rates. It remains worth carrying because the exact root inventory supplies valuation, the subject root supplies acquisition, and the next verses supply measure and written accounts; downstream prose should qualify it as an economic-juridical analogy, not a lexical disambiguation.",
+            "focus_anchor": "The valuation branch at word 5 can interact with the acquisitive agent noun at word 2 without leaving the focus construction.",
+            "activation_trace": [
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B003",
+                "role": "Acquisition supplies what can accrue to the subjects' account."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B003",
+                "role": "Pricing and assessed value let the second focus noun momentarily image assigned costs or rates."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "Measured limit supplies the principle by which an assessment is bounded."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Written-book imagery supplies the account in which acquired deeds are retained."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Inscribed lines make the account itemized and reviewable."
+              }
+            ],
+            "changed_reading": {
+              "before": "The offenders undergo only disorientation and burning or frenzy.",
+              "after": "Their acquired acts can also be imagined as measured, entered, and assessed, with the fire/frenzy term carrying a contained echo of rates or cost."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The next ayah turns deviation and ignition into one face-first bodily sequence of coerced directionlessness and contact.",
+            "Measure, command, and flash revise apparent frenzy into a condition that is sudden but exactly bounded.",
+            "The written record makes the offender label an accrual of inspectable actions rather than an unsupported identity.",
+            "The closing syntactic parallel recasts the focus as a counter-habitat of restless displacement opposite sheltered flow, settled place, and nearness."
+          ],
+          "what_was_special": "A seven-word nominal statement opened into temporal, bodily, evidentiary, and spatial mechanisms without losing its three focus roots. The most unusual live activations distinguish lost concealment from protective enclosure and let pricing briefly echo through a measured deed-ledger.",
+          "remaining_uncertainties": [
+            "The causal arrows from acquired wrongdoing to self-kindling deviation and from context measure to bounded ignition are reader-supplied.",
+            "The severance, hiddenness, roaming, and valuation branches are visibly anchored but more distant than offense, deviation, fire, and frenzy.",
+            "The final parallel strongly supports contrastive habitats, but exact one-to-one correspondence between each coordinated noun remains uncertain."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Guilt is an incurred state that contains both disorientation and burning agitation.** `ج ر م` B003 is earning/causing to incur and B004 guilt/offense; `ض ل ل` B001 is straying from guidance; `س ع ر` B004 is burning agitation/madness. The preposition `فِى` places the guilty inside both conditions. I infer that offense is not merely a label but an earned environment of failed orientation and inflamed disturbance. The ayah reassigns the exact pair that Thamud’s speakers projected onto followers in 54:24.\n\n2. **`سُعُرٍ` also anticipates literal blaze.** `س ع ر` B001 is fire kindling and blazing. The next ayah supplies `ٱلنَّارِ` and bodily dragging. I infer a retrospective concretization: agitation remains available, but the later fire prevents it from exhausting the word’s scope. The criminals are in madness-like burning and in fires.",
@@ -3414,18 +4158,23 @@
   "root_lexicon": {
     "root_000239": {
       "root_ar": "ج ر م",
+      "qac_roots_ar": [
+        "ج ر م"
+      ],
       "root_id": "root_000239",
-      "root_mapping": {
-        "root_id": "root_000239",
-        "root_norm": "ج ر م",
-        "source_root_norm": "ج ر م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 62,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ر م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 62
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8e863b0da14d3b8e2984cca909b6dcefcd8e0274eb8c40b251b9fe33a4740ca2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6833,18 +7582,23 @@
     },
     "root_000913": {
       "root_ar": "ض ل ل",
+      "qac_roots_ar": [
+        "ض ل ل"
+      ],
       "root_id": "root_000913",
-      "root_mapping": {
-        "root_id": "root_000913",
-        "root_norm": "ض ل ل",
-        "source_root_norm": "ض ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 153,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ض ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 153
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "830cbc3e12d9740d071db1050eb7b44ba7cfd9859c773d390c1a6330701137e2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9092,18 +9846,23 @@
     },
     "root_000708": {
       "root_ar": "س ع ر",
+      "qac_roots_ar": [
+        "س ع ر"
+      ],
       "root_id": "root_000708",
-      "root_mapping": {
-        "root_id": "root_000708",
-        "root_norm": "س ع ر",
-        "source_root_norm": "س ع ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 19,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ع ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 19
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9c2bfcf8fa37a2f07009948e5ec98146b0a11dd784ba9d2a200d8ccf8275c7b5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11775,14 +12534,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12051,11 +12816,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_47.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_47.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 85902,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -12128,19 +12906,37 @@
           "root_ids": [
             "root_000239"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ر م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000239",
+            "targets": [
+              {
+                "qac_root_norm": "ج ر م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000239",
+                "furuq_root_norm": "ج ر م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 62,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000239",
-              "root_norm": "ج ر م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ر م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 62,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12165,19 +12961,37 @@
           "root_ids": [
             "root_000913"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ض ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000913",
+            "targets": [
+              {
+                "qac_root_norm": "ض ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000913",
+                "furuq_root_norm": "ض ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 153,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000913",
-              "root_norm": "ض ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ض ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 153,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12202,19 +13016,37 @@
           "root_ids": [
             "root_000708"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ع ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000708",
+            "targets": [
+              {
+                "qac_root_norm": "س ع ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000708",
+                "furuq_root_norm": "س ع ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 19,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000708",
-              "root_norm": "س ع ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ع ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 19,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12241,10 +13073,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 27,
+        "dictionary_branches_kept": 27,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 27,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

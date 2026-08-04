@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T07:25:48.445056+00:00",
+  "generated_at": "2026-08-04T22:29:09.381694+00:00",
   "surah": 18,
   "ayah": 12,
   "ayahRef": "18:12",
@@ -2194,7 +2194,8 @@
       "morpheme_ids": [
         "m-w-s018-a012-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:1"
+      "aligned_qac_word_ref_upstream": "18:12:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2212,7 +2213,8 @@
         "m-w-s018-a012-w002-02",
         "m-w-s018-a012-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:2"
+      "aligned_qac_word_ref_upstream": "18:12:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2226,7 +2228,8 @@
       "morpheme_ids": [
         "m-w-s018-a012-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:3"
+      "aligned_qac_word_ref_upstream": "18:12:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2240,7 +2243,8 @@
       "morpheme_ids": [
         "m-w-s018-a012-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:4"
+      "aligned_qac_word_ref_upstream": "18:12:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2254,7 +2258,8 @@
       "morpheme_ids": [
         "m-w-s018-a012-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:5"
+      "aligned_qac_word_ref_upstream": "18:12:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2270,7 +2275,8 @@
         "m-w-s018-a012-w005-01",
         "m-w-s018-a012-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:6"
+      "aligned_qac_word_ref_upstream": "18:12:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2284,7 +2290,8 @@
       "morpheme_ids": [
         "m-w-s018-a012-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:7"
+      "aligned_qac_word_ref_upstream": "18:12:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2300,7 +2307,8 @@
         "m-w-s018-a012-w007-01",
         "m-w-s018-a012-w007-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:8"
+      "aligned_qac_word_ref_upstream": "18:12:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2316,7 +2324,8 @@
         "m-w-s018-a012-w008-01",
         "m-w-s018-a012-w008-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:9"
+      "aligned_qac_word_ref_upstream": "18:12:9",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 9,
@@ -2330,7 +2339,8 @@
       "morpheme_ids": [
         "m-w-s018-a012-w009-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:12:10"
+      "aligned_qac_word_ref_upstream": "18:12:10",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2830,7 +2840,630 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s18/packets/18_12.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "18:12",
+      "window": [
+        "18:1",
+        "18:2",
+        "18:3",
+        "18:4",
+        "18:5",
+        "18:6",
+        "18:7",
+        "18:8",
+        "18:9",
+        "18:10",
+        "18:11",
+        "18:12",
+        "18:13",
+        "18:14",
+        "18:15",
+        "18:16",
+        "18:17",
+        "18:18",
+        "18:19",
+        "18:20",
+        "18:21",
+        "18:22",
+        "18:23",
+        "18:24",
+        "18:25",
+        "18:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "18:12",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_interval_readout",
+            "confidence": "strong",
+            "focus_anchor": "بَعَثْنَاهُمْ / أَحْصَىٰ / لَبِثُوا / أَمَدًا",
+            "mechanism": "Stirring the stationary group creates an observable stop-point; exhaustive counting converts its continued stay into an interval bounded by an endpoint.",
+            "activation_trace": [
+              {
+                "source_ref": "18:12",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Stirring what was still supplies the transition that ends concealment and starts the readout."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B002",
+                "role": "Exhaustive enumeration supplies the operation applied to the hidden duration."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ل ب ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001339",
+                "branch_id": "B001",
+                "role": "Remaining in one place supplies the continuous interval to be measured."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ء م د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000050",
+                "branch_id": "B001",
+                "role": "A limit or terminus supplies the boundary against which the stay becomes measurable."
+              }
+            ],
+            "changed_reading": {
+              "before": "They are awakened so their duration can be known.",
+              "after": "Awakening is the readout boundary that makes a concealed stay exhaustively countable to its endpoint."
+            }
+          },
+          {
+            "model_id": "baseline_factional_adjudication",
+            "confidence": "medium",
+            "focus_anchor": "لِنَعْلَمَ أَيُّ الْحِزْبَيْنِ أَحْصَىٰ",
+            "mechanism": "The raising mobilizes two aligned positions into comparison; disclosed and disciplined reckoning becomes the evidence that distinguishes them.",
+            "activation_trace": [
+              {
+                "source_ref": "18:12",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B004",
+                "role": "A group's movement from rest supplies the mobilization that makes comparison possible."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies the manifest result of the comparison."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ح ز ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000315",
+                "branch_id": "B001",
+                "role": "Groups aligned around a view supply the two competing positions."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B003",
+                "role": "Mental gravity and sound judgment qualify the winning reckoning as competence, not merely a numeral."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two groups are compared after the awakening.",
+              "after": "The raising stages a contest between aligned positions, with disciplined temporal reckoning serving as the visible discriminator."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_finite_against_forever",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ك ث",
+              "ء ب د"
+            ],
+            "mechanism": "The earlier pairing of settled remaining with unbounded duration calibrates the focus pairing of staying with a terminus: this stay is presented for bounded reckoning rather than as undifferentiated permanence.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "م ك ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001437",
+                "branch_id": "B001",
+                "role": "Stable remaining with expectation supplies the contextual comparator for the focus stay."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B001",
+                "role": "Long duration and permanence supply the unbounded pole against which a terminus is salient."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ل ب ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001339",
+                "branch_id": "B001",
+                "role": "Residence supplies the focus interval that is reclassified by its paired endpoint."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ء م د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000050",
+                "branch_id": "B001",
+                "role": "The explicit terminus makes the focus interval finite and reckonable."
+              }
+            ],
+            "structural_cues": [
+              "18:3 couples remaining with forever; 18:12 couples staying with an endpoint."
+            ],
+            "reader_inference": "The packet supplies two duration pairings; I infer a deliberate bounded/unbounded calibration, while ordinary lexical variation remains possible.",
+            "changed_reading": {
+              "before": "The focus asks generally how long they stayed.",
+              "after": "The focus isolates a stay whose defining feature is its countable endpoint, in contrast to contextually unbounded remaining."
+            }
+          },
+          {
+            "model_id": "delta_controlled_interval",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ض ر ب",
+              "ع د د"
+            ],
+            "mechanism": "A sensory closure is imposed for counted years, then the focus opens with 'then' and raises them; the raising therefore functions as release and readout of a deliberately delimited interval.",
+            "activation_trace": [
+              {
+                "source_ref": "18:11",
+                "root": "ض ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000906",
+                "branch_id": "B004",
+                "role": "Withholding or arrest supplies the imposed closure that begins the interval."
+              },
+              {
+                "source_ref": "18:11",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Counting the years preloads the interval with a numerical structure."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Stirring from stillness releases the subjects and closes the measured interval."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B002",
+                "role": "Exhaustive counting turns the released interval into a comparative readout."
+              }
+            ],
+            "structural_cues": [
+              "18:11 immediately precedes the focus with counted years under closure.",
+              "18:12 begins with ثُمَّ and reverses the prior arrest by raising them."
+            ],
+            "reader_inference": "The packet supplies closure, counted years, sequence, and release; I supply the start-stop/readout arrow, while a merely protective sleep remains a live alternative.",
+            "changed_reading": {
+              "before": "Awakening simply permits a later duration question.",
+              "after": "Awakening terminates a counted suspension and exposes which reckoning can recover its full span."
+            }
+          },
+          {
+            "model_id": "delta_appearance_versus_verified_state",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح س ب",
+              "ي ق ظ",
+              "ر ق د"
+            ],
+            "mechanism": "The context makes visual reckoning misclassify sleepers as awake; actual raising followed by exhaustive reckoning therefore distinguishes apparent state from event-verified disclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "18:18",
+                "root": "ح س ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000318",
+                "branch_id": "B002",
+                "role": "Reckoning as conjecture supplies the observer's fallible classification."
+              },
+              {
+                "source_ref": "18:18",
+                "root": "ي ق ظ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001695",
+                "branch_id": "B001",
+                "role": "Wakefulness supplies the state falsely attributed from appearance."
+              },
+              {
+                "source_ref": "18:18",
+                "root": "ر ق د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000585",
+                "branch_id": "B001",
+                "role": "Sleep and stillness supply the concealed state that contradicts the visual estimate."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure supplies a stronger epistemic mode than appearance-based conjecture."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B002",
+                "role": "Exhaustive reckoning supplies the verification demanded after actual raising."
+              }
+            ],
+            "structural_cues": [
+              "18:18 explicitly opposes 'you reckon them awake' to 'they are asleep'.",
+              "18:19 repeats the actual raising before their duration dialogue."
+            ],
+            "reader_inference": "The packet supplies a false appearance and a later actual raising; I infer an epistemic foil for 18:12, while 18:18 may remain only a visual description.",
+            "changed_reading": {
+              "before": "The focus compares two estimates of elapsed time.",
+              "after": "The focus tests a mode of knowing able to pass beyond misleading appearance and account for the actual concealed state."
+            }
+          },
+          {
+            "model_id": "delta_awakening_to_delegation_relay",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ع ث",
+              "س ء ل",
+              "ن ظ ر"
+            ],
+            "mechanism": "The later verse uses the same root first for their raising and then for sending one member, with mutual questioning between them; the focus raising becomes the first movement in an activation-inquiry-delegation relay.",
+            "activation_trace": [
+              {
+                "source_ref": "18:12",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B002",
+                "role": "Dispatch and directed sending expose a mission-bearing potential within the focus raising."
+              },
+              {
+                "source_ref": "18:19",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "2",
+                  "21"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "The paired occurrences include stirring from stillness, supplying the relay's activation stage."
+              },
+              {
+                "source_ref": "18:19",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "2",
+                  "21"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B002",
+                "role": "The paired occurrences include sending a member toward a need, supplying the relay's delegation stage."
+              },
+              {
+                "source_ref": "18:19",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B004",
+                "role": "Mutual questioning supplies the communal inquiry linking activation to mission."
+              },
+              {
+                "source_ref": "18:19",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "27"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed perception supplies the envoy's concrete investigative task."
+              }
+            ],
+            "structural_cues": [
+              "18:19 repeats ب ع ث at the raising and the command to send, with duration questioning between the two uses."
+            ],
+            "reader_inference": "The packet supplies the repeated root, questioning, and inspection mission; I infer a relay latent in 18:12, while the focus occurrence alone can still denote only awakening.",
+            "changed_reading": {
+              "before": "The group is restored to wakefulness for a comparison.",
+              "after": "The raising restores agency: it generates inquiry and culminates in a delegated investigation."
+            }
+          },
+          {
+            "model_id": "delta_public_contestation_under_judgment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ث ر",
+              "ر ج م",
+              "ع د د",
+              "ع ل م",
+              "ح ك م"
+            ],
+            "mechanism": "Discovery turns hidden duration into public knowledge, but public parties then dispute and throw conjectures about number; the closing claim of superior knowledge and sole judgment contains the focus comparison without resolving it into an autonomous human verdict.",
+            "activation_trace": [
+              {
+                "source_ref": "18:12",
+                "root": "ح ز ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000315",
+                "branch_id": "B001",
+                "role": "Alignment around a view supplies the social form taken by competing reckonings."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B002",
+                "role": "Exhaustive enumeration supplies the criterion around which the parties form."
+              },
+              {
+                "source_ref": "18:21",
+                "root": "ع ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000982",
+                "branch_id": "B001",
+                "role": "Uncovering what was hidden supplies the transition from sealed event to public evidence."
+              },
+              {
+                "source_ref": "18:22",
+                "root": "ر ج م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000547",
+                "branch_id": "B004",
+                "role": "Casting an opinion about the unseen supplies the defective mode of numerical claim."
+              },
+              {
+                "source_ref": "18:22",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration supplies the explicit public object of disagreement."
+              },
+              {
+                "source_ref": "18:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Superior disclosure relocates final knowledge beyond the competing public claims."
+              },
+              {
+                "source_ref": "18:26",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "22"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Sole judgment supplies the adjudicative boundary around all party reckoning."
+              }
+            ],
+            "structural_cues": [
+              "18:21 makes their discovery produce knowledge and social dispute.",
+              "18:22 presents rival headcounts, labels one mode conjecture about the unseen, and says only a few know.",
+              "18:25 states a duration total; 18:26 immediately says God knows best how long they stayed and admits no partner in judgment."
+            ],
+            "reader_inference": "The packet supplies discovery, disputed counts, a duration statement, and final judgment; I infer that party identity crystallizes around modes of reckoning, while the two focus parties could instead be a fixed pair internal to the sleepers.",
+            "changed_reading": {
+              "before": "The event identifies which of two groups has the correct elapsed-time answer.",
+              "after": "The event exposes how parties form around count claims, while decisive knowledge and adjudication remain outside their contest."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_pebble_granulation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it imports the material pebble branch into an arithmetic construction; it remains anchored in the packet's paired branches for ح ص ي and the endpoint branch for ء م د, and should be rendered only as a material analogy for counting, not as a replacement translation.",
+            "focus_anchor": "أَحْصَىٰ لِمَا لَبِثُوا أَمَدًا",
+            "activation_trace": [
+              {
+                "source_ref": "18:12",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B001",
+                "role": "Small stones supply a granular material image for discrete units of an otherwise continuous stay."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B002",
+                "role": "Exhaustive enumeration turns the granular image into a complete tally."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ء م د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000050",
+                "branch_id": "B001",
+                "role": "The terminus stops the tally and gives the temporal granules a final bound."
+              }
+            ],
+            "changed_reading": {
+              "before": "One party knows the abstract duration more accurately.",
+              "after": "One party can granulate concealed continuity into a complete tally that reaches the interval's boundary."
+            }
+          },
+          {
+            "outlier_id": "outlier_trial_surface",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain analogy between the earth's displayed test surface and the sleepers' disclosed state; it remains anchored in لِنَعْلَمَ and the context's explicit test-to-exposure sequence, but downstream prose should mark it as an experimental analogy rather than a direct lexical equivalence.",
+            "focus_anchor": "بَعَثْنَاهُمْ لِنَعْلَمَ",
+            "activation_trace": [
+              {
+                "source_ref": "18:12",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to the knower supplies the focus outcome that the trial analogy seeks to explain."
+              },
+              {
+                "source_ref": "18:7",
+                "root": "ز ي ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000660",
+                "branch_id": "B002",
+                "role": "Displayed adornment supplies an observable surface on which a hidden quality can be tested."
+              },
+              {
+                "source_ref": "18:7",
+                "root": "ب ل و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000154",
+                "branch_id": "B002",
+                "role": "A trial that makes the state appear supplies the causal analogue for لِنَعْلَمَ."
+              },
+              {
+                "source_ref": "18:8",
+                "root": "ج ر ز",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000236",
+                "branch_id": "B001",
+                "role": "Cutting and stripping the surface supplies the revealing reversal that makes the tested condition legible."
+              }
+            ],
+            "changed_reading": {
+              "before": "Raising them allows their duration to become known.",
+              "after": "Raising them functions like a trial transition that strips a concealed condition into an inspectable outcome."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The 18:11 closure and counted years make 18:12 the release and readout of a delimited interval.",
+            "The 18:18 appearance error distinguishes conjectured wakefulness from event-verified disclosure.",
+            "The paired uses of ب ع ث in 18:19 extend awakening into inquiry and delegated investigation.",
+            "The 18:21-26 sequence expands the two-party count into public contestation bounded by final judgment."
+          ],
+          "what_was_special": "The focus compresses temporal measurement, epistemic disclosure, faction formation, and restored agency into one transition; nearby repetitions unpack those operations without forcing a single final interpretation.",
+          "remaining_uncertainties": [
+            "The identities of the two parties remain unresolved; the retained models describe how they function rather than naming them.",
+            "أَحْصَىٰ can foreground exhaustive number, disciplined judgment, or the material granularity behind counting; the latter two remain less certain.",
+            "The trial-surface outlier is structurally productive but depends on a reader-supplied cross-domain analogy."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Awakening converts duration into disclosed difference.** `ع ل م` B001 (“knowing a thing as it becomes clear”) follows resurrection and precedes competition in reckoning. Their later guesses collapse into “your Lord knows best” (18:19), while 18:25–26 separates counted years from divine knowledge. I infer that being raised stages and reveals the parties’ differing epistemic capacities. The purpose clause reads as manifested distinction, not information extracted from ignorance.",
@@ -3696,18 +4329,23 @@
   "root_lexicon": {
     "root_000129": {
       "root_ar": "ب ع ث",
+      "qac_roots_ar": [
+        "ب ع ث"
+      ],
       "root_id": "root_000129",
-      "root_mapping": {
-        "root_id": "root_000129",
-        "root_norm": "ب ع ث",
-        "source_root_norm": "ب ع ث",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 67,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ع ث",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 67
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ee9fd19de9e0fd77f13bfce2d863938447ecc8937bd21f2ed19fe1a67c16b0c5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5091,18 +5729,23 @@
     },
     "root_001040": {
       "root_ar": "ع ل م",
+      "qac_roots_ar": [
+        "ع ل م"
+      ],
       "root_id": "root_001040",
-      "root_mapping": {
-        "root_id": "root_001040",
-        "root_norm": "ع ل م",
-        "source_root_norm": "ع ل م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 771,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 771
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8cfacfe87682b0ea79a8459f834938bbff910f60c9504afde93dae299ea41d5e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8131,18 +8774,23 @@
     },
     "root_000315": {
       "root_ar": "ح ز ب",
+      "qac_roots_ar": [
+        "ح ز ب"
+      ],
       "root_id": "root_000315",
-      "root_mapping": {
-        "root_id": "root_000315",
-        "root_norm": "ح ز ب",
-        "source_root_norm": "ح ز ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 19,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ز ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 19
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3b3427d42fac2757fe07e28529308fa02a92b4c743dc38efadac751ede1a4fad",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9884,18 +10532,23 @@
     },
     "root_000332": {
       "root_ar": "ح ص ي",
+      "qac_roots_ar": [
+        "ح ص ي"
+      ],
       "root_id": "root_000332",
-      "root_mapping": {
-        "root_id": "root_000332",
-        "root_norm": "ح ص ي",
-        "source_root_norm": "ح ص ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 5,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ص ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 5
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "00af930318f720763c411e1d5a568c27a628a603651fcb6e9a2106a327c49ed2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11891,18 +12544,23 @@
     },
     "root_001339": {
       "root_ar": "ل ب ث",
+      "qac_roots_ar": [
+        "ل ب ث"
+      ],
       "root_id": "root_001339",
-      "root_mapping": {
-        "root_id": "root_001339",
-        "root_norm": "ل ب ث",
-        "source_root_norm": "ل ب ث",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 31,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل ب ث",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 31
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "29378274b36cc8cda5ecdff0c3b2d45bb1e34bb255bef885a763e0faec165f62",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12918,18 +13576,23 @@
     },
     "root_000050": {
       "root_ar": "ء م د",
+      "qac_roots_ar": [
+        "ء م د"
+      ],
       "root_id": "root_000050",
-      "root_mapping": {
-        "root_id": "root_000050",
-        "root_norm": "ء م د",
-        "source_root_norm": "أ م د",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 4,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء م د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "332740738066c0a880cca6eb1b76f007735b0735ba8ed587c569c8502dcd97c8",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14092,14 +14755,20 @@
       "words_total": 10,
       "words_resolved": 10,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 10
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s018/linguistic/morphemes.tsv",
-        "ayah_count": 111,
-        "row_count": 2582,
+        "ayah_count": 110,
+        "row_count": 2575,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14602,11 +15271,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s018"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s18/packets/18_12.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s18/readers/reader_hft_a/18_12.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 235236,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -14682,19 +15364,37 @@
           "root_ids": [
             "root_000129"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ع ث",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000129",
+            "targets": [
+              {
+                "qac_root_norm": "ب ع ث",
+                "target_rank": 1,
+                "furuq_root_id": "root_000129",
+                "furuq_root_norm": "ب ع ث",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 67,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000129",
-              "root_norm": "ب ع ث",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ع ث",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 67,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14719,19 +15419,37 @@
           "root_ids": [
             "root_001040"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001040",
+            "targets": [
+              {
+                "qac_root_norm": "ع ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001040",
+                "furuq_root_norm": "ع ل م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 771,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001040",
-              "root_norm": "ع ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ل م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 771,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14756,19 +15474,37 @@
           "root_ids": [
             "root_000315"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ز ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000315",
+            "targets": [
+              {
+                "qac_root_norm": "ح ز ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000315",
+                "furuq_root_norm": "ح ز ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 19,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000315",
-              "root_norm": "ح ز ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ز ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 19,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14793,19 +15529,37 @@
           "root_ids": [
             "root_000332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ص ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000332",
+            "targets": [
+              {
+                "qac_root_norm": "ح ص ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000332",
+                "furuq_root_norm": "ح ص ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 5,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000332",
-              "root_norm": "ح ص ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ص ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 5,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14830,19 +15584,37 @@
           "root_ids": [
             "root_001339"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ل ب ث",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001339",
+            "targets": [
+              {
+                "qac_root_norm": "ل ب ث",
+                "target_rank": 1,
+                "furuq_root_id": "root_001339",
+                "furuq_root_norm": "ل ب ث",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 31,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001339",
-              "root_norm": "ل ب ث",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ل ب ث",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 31,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 2,
+              "gloss_branch_count": 2,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14867,19 +15639,37 @@
           "root_ids": [
             "root_000050"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء م د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000050",
+            "targets": [
+              {
+                "qac_root_norm": "ء م د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000050",
+                "furuq_root_norm": "ء م د",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 4,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000050",
-              "root_norm": "ء م د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء م د",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 4,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14906,10 +15696,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 28,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

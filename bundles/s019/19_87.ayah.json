@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:17.567807+00:00",
+  "generated_at": "2026-08-04T22:29:41.994479+00:00",
   "surah": 19,
   "ayah": 87,
   "ayahRef": "19:87",
@@ -2304,7 +2304,8 @@
       "morpheme_ids": [
         "m-w-s019-a087-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:87:1"
+      "aligned_qac_word_ref_upstream": "19:87:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2320,15 +2321,102 @@
         "m-w-s019-a087-w002-01",
         "m-w-s019-a087-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:87:2"
+      "aligned_qac_word_ref_upstream": "19:87:2",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 3,
+      "surface_ar": "إِلَّا",
+      "word_ids": [
+        "w-s019-a087-w004"
+      ],
+      "qac_refs": [
+        "19:87:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a087-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:87:4",
+      "morpheme_skip_count": 2
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "مَنِ",
+      "word_ids": [
+        "w-s019-a087-w005"
+      ],
+      "qac_refs": [
+        "19:87:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a087-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:87:5",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "اتَّخَذَ",
+      "word_ids": [
+        "w-s019-a087-w006"
+      ],
+      "qac_refs": [
+        "19:87:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a087-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:87:6",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 6,
+      "surface_ar": "عِنْدَ",
+      "word_ids": [
+        "w-s019-a087-w007"
+      ],
+      "qac_refs": [
+        "19:87:7:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a087-w007-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:87:7",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "الرَّحْمَٰنِ",
+      "word_ids": [
+        "w-s019-a087-w008"
+      ],
+      "qac_refs": [
+        "19:87:8:1",
+        "19:87:8:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a087-w008-01",
+        "m-w-s019-a087-w008-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:87:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "عَهْدَاً",
+      "word_ids": [
+        "w-s019-a087-w009"
+      ],
+      "qac_refs": [
+        "19:87:9:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a087-w009-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:87:9",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3099,7 +3187,1245 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_87.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:87",
+      "window": [
+        "19:77",
+        "19:78",
+        "19:79",
+        "19:80",
+        "19:81",
+        "19:82",
+        "19:83",
+        "19:84",
+        "19:85",
+        "19:86",
+        "19:87",
+        "19:88",
+        "19:89",
+        "19:90",
+        "19:91",
+        "19:92",
+        "19:93",
+        "19:94",
+        "19:95",
+        "19:96",
+        "19:97",
+        "19:98"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:87",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_authorized_disposition",
+            "confidence": "strong",
+            "focus_anchor": "The negated possession of intercession is immediately limited by the singular covenant-taker exception.",
+            "mechanism": "Ownership/disposal is denied at the same point that advocacy is pictured as joining oneself to another. Taking a preserved compact in the presence of Mercy therefore supplies standing without turning advocacy into an independently owned power.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Literal ownership and disposal make the negation deny autonomous control of the act."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B002",
+                "role": "An advocate joins another through request or speech, supplying the interpersonal act being regulated."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Making or acquiring something for oneself makes the exception an acquired standing rather than an innate capacity."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Nearness and presence supply the locus and recognized status in which the standing holds."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Mercy and tender beneficence characterize the relation without making it private leverage."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "A preserved pact, security, or protected obligation supplies the authorization."
+              }
+            ],
+            "changed_reading": {
+              "before": "Intercession is an influence that certain agents possess.",
+              "after": "No agent controls advocacy as property; any effective joining rests on covenantal standing recognized in the presence of Mercy."
+            }
+          },
+          {
+            "model_id": "baseline_maintained_joinder",
+            "confidence": "medium",
+            "focus_anchor": "The focus line combines possession, pairing, nearness, mercy, and covenant in one exception construction.",
+            "mechanism": "The cohesion branch of possession and the elementary joining branch of intercession meet the repeated-care branch of covenant. The resulting relation is not a one-time permission slip but a bond kept coherent through renewed care near Mercy.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Strength and cohesion supply the capacity of a relation to remain held together."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B001",
+                "role": "Joining one thing to another supplies the minimal geometry of intercession."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Nearness makes the maintained bond one of continuing presence rather than remote entitlement."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful care supplies the relational field in which maintenance occurs."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B001",
+                "role": "Repeated preservation and inspection make covenant an ongoing practice of care."
+              }
+            ],
+            "changed_reading": {
+              "before": "A covenant is a static credential attached to a detached plea.",
+              "after": "The exception can name a continuously tended bond whose cohesion permits one party to be joined to another near Mercy."
+            }
+          },
+          {
+            "model_id": "baseline_two_slot_exception",
+            "confidence": "medium",
+            "focus_anchor": "Intercession inherently has an advocate and another party, while the singular relative in the exception does not itself name which relational slot it fills.",
+            "mechanism": "The joining and advocacy branches keep two directions live: the covenant-taker may be authorized to speak, or may be the party eligible to receive another's joined speech. In either direction, the possession negation prevents independent control.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Denied disposal blocks either participant from treating intercession as self-owned power."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B002",
+                "role": "Advocacy for another supplies two relational positions that the exception may qualify."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "Protected covenantal standing can qualify either licensed speech or eligibility for its benefit."
+              }
+            ],
+            "changed_reading": {
+              "before": "The covenant-taker must unambiguously be the intercessing speaker.",
+              "after": "The focus wording can carry either licensed advocate or covenant-qualified beneficiary while preserving the same denial of autonomous power."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_echo_warrant_not_hidden_access",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ل ع",
+              "غ ي ب",
+              "ء خ ذ",
+              "ع ن د",
+              "ر ح م",
+              "ع ه د"
+            ],
+            "mechanism": "The earlier exact covenant construction is one side of a question whose other side is direct inspection of the hidden. Its return in the focus ayah recasts covenant as a recognized warrant for future-facing speech, not private penetration of inaccessible knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Denied disposal prevents the speaker from owning the future effect claimed for intercession."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B002",
+                "role": "Speech joined to another's need is the act whose warrant must be explained."
+              },
+              {
+                "source_ref": "19:78",
+                "root": "ط ل ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000945",
+                "branch_id": "B003",
+                "role": "Inspection and disclosure supply the rejected route of direct access."
+              },
+              {
+                "source_ref": "19:78",
+                "root": "غ ي ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001117",
+                "branch_id": "B001",
+                "role": "Hiddenness from sight identifies the inaccessible domain about which the claimant speaks."
+              },
+              {
+                "source_ref": "19:78",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Acquiring for oneself supplies the alternative basis of standing posed by the question."
+              },
+              {
+                "source_ref": "19:78",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Recognized nearness supplies public relational standing in place of hidden access."
+              },
+              {
+                "source_ref": "19:78",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful beneficence locates the warrant in relationship rather than information control."
+              },
+              {
+                "source_ref": "19:78",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "A protected compact supplies the explicit alternative credential."
+              }
+            ],
+            "structural_cues": [
+              "The covenant phrase in 19:78 recurs nearly verbatim in 19:87 after the claimant's future claim has been denied.",
+              "The interrogative disjunction in 19:78 contrasts hidden inspection with covenantal standing."
+            ],
+            "reader_inference": "The packet supplies two proposed warrants, hidden inspection and covenant, then later denies ownership of intercession; I infer that the recurrence selects relational authorization over private knowledge. A live alternative is that 19:78 rebukes only one claimant without defining all intercession.",
+            "changed_reading": {
+              "before": "Covenant merely grants permission to intercede.",
+              "after": "Covenant is the legitimate warrant for consequential speech precisely where direct access to the hidden is unavailable."
+            }
+          },
+          {
+            "model_id": "delta_failed_protective_capital",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ل",
+              "و ل د",
+              "و ر ث",
+              "ف ر د",
+              "ء خ ذ",
+              "ع ز ز",
+              "ك ف ر",
+              "ض د د"
+            ],
+            "mechanism": "Wealth, offspring, and acquired gods form an attempted portfolio of portable strength. Inheritance removes the claimed assets, the claimant arrives alone, and the supposed patrons disavow service and reverse into opponents. The focus negation therefore dismantles intercession as protective capital; covenant is the non-transferable relation that remains.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership and disposal supply the asset model explicitly negated in the focus."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B002",
+                "role": "Joining as an advocate supplies the protective service falsely treated as an asset."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "Protected compact supplies the surviving relation that is unlike alienable capital."
+              },
+              {
+                "source_ref": "19:77",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies one form of the claimant's expected future capital."
+              },
+              {
+                "source_ref": "19:77",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Offspring supplies a second imagined extension of personal power."
+              },
+              {
+                "source_ref": "19:80",
+                "root": "و ر ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001639",
+                "branch_id": "B001",
+                "role": "Transfer of inheritance removes the claimed holdings from their claimant."
+              },
+              {
+                "source_ref": "19:80",
+                "root": "ف ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001141",
+                "branch_id": "B001",
+                "role": "Arrival as one isolated person strips away the supporting portfolio."
+              },
+              {
+                "source_ref": "19:81",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Acquisition for oneself frames the gods as deliberately obtained protective instruments."
+              },
+              {
+                "source_ref": "19:81",
+                "root": "ع ز ز",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001008",
+                "branch_id": "B004",
+                "role": "Reinforcement names the intended payoff of those acquired patrons."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal supplies the patrons' repudiation of the relation built around them."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Contrary opposition turns the expected support into an adverse force."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from a claim to wealth and offspring, through dispossession and solitary arrival, to acquired gods sought as strength.",
+              "The expected patrons do not merely fail; they reverse into opponents immediately before the focus ayah."
+            ],
+            "reader_inference": "The packet supplies claimed assets, intended reinforcement, dispossession, isolation, disavowal, and opposition; I infer a tested model of intercession as accumulated protection. Alternatively, the asset claim and idol sequence may be parallel errors rather than one portfolio.",
+            "changed_reading": {
+              "before": "Intercession is covenant-authorized protection among other possible supports.",
+              "after": "Intercession cannot be banked in wealth, descendants, or patrons: those supports transfer, disappear, or reverse, while covenant names a relation that cannot be owned as capital."
+            }
+          },
+          {
+            "model_id": "delta_delegation_credentials",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ش ر",
+              "ر ح م",
+              "و ف د",
+              "س و ق",
+              "و ر د"
+            ],
+            "mechanism": "The two immediately preceding processions approach opposed destinations by opposed modes: one group is assembled as a delegation before Mercy, while another is driven to an arrival. Placed between procession and audience, the focus covenant functions like recognized access or safe-conduct for advocacy at the sovereign presence.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Sovereignty and rule supply the court before which access is regulated."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B002",
+                "role": "Speaking for another supplies the delegate's possible court function."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Presence and recognized nearness supply the audience position."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "Security and compact supply the credential for that position."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Collecting and conducting a group to one destination supplies an organized procession."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful beneficence identifies the destination as a favorable relational audience."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ف د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001665",
+                "branch_id": "B001",
+                "role": "Arrival as a delegation before authority supplies the embassy image."
+              },
+              {
+                "source_ref": "19:86",
+                "root": "س و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B001",
+                "role": "Driving or herding supplies the coercive counter-procession."
+              },
+              {
+                "source_ref": "19:86",
+                "root": "و ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001640",
+                "branch_id": "B001",
+                "role": "Arrival at a destination supplies the terminal movement opposed to delegated audience."
+              }
+            ],
+            "structural_cues": [
+              "The focus ayah directly follows parallel movements toward Mercy and toward Hell.",
+              "The favorable group arrives in delegation form; the adverse group is driven."
+            ],
+            "reader_inference": "The packet supplies sovereign imagery, delegation, coercive driving, arrival, nearness, and compact; I infer that covenant regulates audience standing and advocacy. The alternative is that the procession contrast classifies groups without specifying courtroom credentials.",
+            "changed_reading": {
+              "before": "The covenant is an abstract authorization possessed before judgment.",
+              "after": "The covenant can operate as the credential of a delegate admitted to recognized proximity, while uncredentialed arrival is coercive rather than advocative."
+            }
+          },
+          {
+            "model_id": "delta_nonfilial_covenant",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ ذ",
+              "و ل د",
+              "ب غ ي",
+              "ك ل ل",
+              "ء ت ي",
+              "ر ح م",
+              "ع ب د"
+            ],
+            "mechanism": "The same acquisition verb is assigned opposite relational objects: a person may take a covenant near Mercy, but attributing the taking of offspring to Mercy is declared unfit. Universal arrival as owned servants fixes the direction of possession. Covenant grants proximity without converting it into descent, inherited rank, or reciprocal ownership.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Possession supplies the directionality later corrected by universal servanthood."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B001",
+                "role": "Joining supplies real relation while leaving its kind open for contextual correction."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B002",
+                "role": "Kinship is a latent relational branch that makes the following filial claim a tempting but rejected construal."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "Protected covenant supplies the valid non-genealogical relation."
+              },
+              {
+                "source_ref": "19:88",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Taking something for oneself supplies the disputed divine acquisition claim."
+              },
+              {
+                "source_ref": "19:88",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Biological descent supplies the relation asserted immediately after the focus."
+              },
+              {
+                "source_ref": "19:92",
+                "root": "ب غ ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000138",
+                "branch_id": "B002",
+                "role": "Fitness and appropriateness supply the explicit rejection of that relational category."
+              },
+              {
+                "source_ref": "19:92",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Repeated acquisition sharpens the contrast between taking covenant and taking offspring."
+              },
+              {
+                "source_ref": "19:92",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Repeated descent marks the specific relation excluded."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total encompassing scope prevents a privileged lineage from escaping the rule."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Universal coming supplies the movement of every creature into the same audience."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful beneficence remains the destination even while filial kinship is denied."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Servitude and ownership reverse the fantasy that creatures own access or share filial rank."
+              }
+            ],
+            "structural_cues": [
+              "The focus's human taking of covenant is followed immediately by the condemned claim that Mercy takes offspring.",
+              "The sequence concludes that every inhabitant comes to Mercy as a servant."
+            ],
+            "reader_inference": "The packet supplies a repeated acquisition verb, two different objects, an explicit unfitness judgment, and universal servanthood; I infer a deliberate correction of relationship type and ownership direction. Alternatively, the offspring polemic may reject only divine genealogy without further defining covenant.",
+            "changed_reading": {
+              "before": "Covenant establishes an exceptional closeness that could resemble privileged kinship.",
+              "after": "Covenant establishes non-filial, non-hereditary standing within universal servanthood; closeness does not become shared ownership or descent."
+            }
+          },
+          {
+            "model_id": "delta_repairing_after_individuation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ص ي",
+              "ع د د",
+              "ك ل ل",
+              "ء ت ي",
+              "ق و م",
+              "ف ر د"
+            ],
+            "mechanism": "Complete enumeration and solitary arrival separate every person for accountability. Against that de-pairing, the elementary joining sense of intercession becomes a narrowly permitted recomposition: covenant does not evade individual count but authorizes relation after each party has been individually presented.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Denied disposal keeps the later joining from undoing accountability by private control."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B001",
+                "role": "Adding one to one supplies the recomposition opposed to solitary arrival."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "Protected compact supplies the condition under which relation may persist across individuation."
+              },
+              {
+                "source_ref": "19:94",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B002",
+                "role": "Exhaustive counting supplies complete individual registration."
+              },
+              {
+                "source_ref": "19:94",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumerating the counted reinforces exact, itemized accountability."
+              },
+              {
+                "source_ref": "19:95",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Totality extends solitary presentation to everyone without remainder."
+              },
+              {
+                "source_ref": "19:95",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming supplies each person's actual presentation rather than an abstract record."
+              },
+              {
+                "source_ref": "19:95",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B013",
+                "role": "Resurrection and standing locate the presentation at the final rising."
+              },
+              {
+                "source_ref": "19:95",
+                "root": "ف ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001141",
+                "branch_id": "B001",
+                "role": "The isolated one supplies the de-paired state from which any joining must be licensed."
+              }
+            ],
+            "structural_cues": [
+              "Universal enumeration in 19:94 is followed by universal arrival one by one in 19:95.",
+              "The focus root for intercession literally offers pairing within a sequence dominated by isolation."
+            ],
+            "reader_inference": "The packet supplies exhaustive counting, solitary arrival, literal joining, and covenant; I infer a permitted re-pairing after accountability rather than exemption from it. A live alternative is that solitary arrival describes only entry and places no constraint on later advocacy.",
+            "changed_reading": {
+              "before": "Intercession is simply one person's plea for another.",
+              "after": "Intercession becomes the only covenant-bounded re-pairing visible after every person has first been fully counted and presented alone."
+            }
+          },
+          {
+            "model_id": "delta_affection_not_leverage",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ن",
+              "ع م ل",
+              "ص ل ح",
+              "ج ع ل",
+              "ر ح م",
+              "و د د"
+            ],
+            "mechanism": "Faith, intended action, and relational repair precede Mercy's making of affection. This gives the maintained-covenant baseline a generated social effect: the joining force is made by Mercy in response to a lived relation, not stored and deployed by its holder.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Denied ownership blocks affection or advocacy from becoming the holder's leverage."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B001",
+                "role": "Joining supplies the relational outcome that affection can support."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B001",
+                "role": "Repeated care supplies the covenant as a practiced relation rather than a token."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settling trust supplies the inward side of the lived relation."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action supplies its enacted side."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B002",
+                "role": "Removal of estrangement supplies a relational repair image within the good works."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Causing something to become a state assigns production of the outcome to Mercy."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful beneficence is the agentive source of the relational outcome."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "و د د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001634",
+                "branch_id": "B001",
+                "role": "Love and affection supply the bond that joins without coercive ownership."
+              }
+            ],
+            "structural_cues": [
+              "After universal solitary arrival, 19:96 introduces a relation that Mercy actively makes for those who trust and act.",
+              "The causative sequence assigns affection to divine making, not human possession."
+            ],
+            "reader_inference": "The packet supplies trust, action, repair, divine making, and affection; I infer that such affection can be one social realization of maintained covenantal joining. The live alternative is that the affection concerns worldly reception and does not mediate intercession.",
+            "changed_reading": {
+              "before": "The covenant itself functions as a holder-controlled credential.",
+              "after": "Its efficacy may appear as Mercy-produced affection emerging from trusted action, so relational joining remains gift and response rather than leverage."
+            }
+          },
+          {
+            "model_id": "delta_commissioned_speech",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ك ت ب",
+              "ل س ن",
+              "ب ش ر",
+              "ن ذ ر"
+            ],
+            "mechanism": "Unsupported future speech is exposed and entered into a binding record, while the closing proclamation is made easy on a tongue to deliver good news and warning. Since intercession includes speech for another and covenant includes a prior entrusted instruction, the focus can distinguish accountable, commissioned speech from self-authorized claims.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B002",
+                "role": "Request and speech on another's behalf supply intercession as a consequential utterance."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B002",
+                "role": "A prior instruction entrusted for preservation supplies the commission governing that utterance."
+              },
+              {
+                "source_ref": "19:77",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "Saying or attributing what is not established supplies the unsupported claim."
+              },
+              {
+                "source_ref": "19:79",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "An inscription that fixes judgment makes the claimant's words answerable."
+              },
+              {
+                "source_ref": "19:79",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "The repeated ungrounded saying is the object placed under record."
+              },
+              {
+                "source_ref": "19:97",
+                "root": "ل س ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001355",
+                "branch_id": "B008",
+                "role": "Delivery of a message supplies the authorized speech channel."
+              },
+              {
+                "source_ref": "19:97",
+                "root": "ب ش ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000120",
+                "branch_id": "B005",
+                "role": "News that opens the hearer to joy supplies one commissioned speech function."
+              },
+              {
+                "source_ref": "19:97",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that awakens caution supplies the complementary commissioned function."
+              }
+            ],
+            "structural_cues": [
+              "The opening claim about future wealth and offspring is followed by its inscription for judgment.",
+              "The window closes with speech explicitly facilitated for proclamation, promise, and warning."
+            ],
+            "reader_inference": "The packet supplies false saying, binding inscription, message delivery, announcement, and warning; I infer a contrast between self-authorized and commissioned consequential speech. Alternatively, prophetic proclamation and intercession may remain separate speech genres.",
+            "changed_reading": {
+              "before": "Intercession is generic pleading backed by covenantal status.",
+              "after": "Intercession may be covenant-governed commissioned speech: its speaker does not own the outcome and must speak within an entrusted warrant."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_property_recourse",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines specialized property-law branches rather than the ordinary senses of intercession and covenant. It remains anchored in the focus's ownership, joinder, taking, proximity, and warranty branches, with the nearby wealth-and-inheritance sequence supplying a live property frame. Downstream prose should label it a legal analogy, not a lexical replacement or settled ruling.",
+            "focus_anchor": "The focus places denied ownership beside a joinder term and a covenant term that can carry purchase warranty and recourse.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Property and disposal supply the legal domain whose control is denied."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B003",
+                "role": "A neighbor's priority to join a sold share supplies a concrete right-of-joinder analogy."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B001",
+                "role": "Taking and holding supply acquisition of the relation under examination."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Recognized presence supplies the forum in which a claim of recourse stands."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B006",
+                "role": "Warranty, written condition, and recourse supply protection for a joinder claim."
+              },
+              {
+                "source_ref": "19:77",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the nearby property frame."
+              },
+              {
+                "source_ref": "19:80",
+                "root": "و ر ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001639",
+                "branch_id": "B001",
+                "role": "Inheritance transfer tests whether any claimed right is merely alienable property."
+              }
+            ],
+            "changed_reading": {
+              "before": "Covenant authorizes a patron to plead as a favor.",
+              "after": "As a contained legal analogy, covenant resembles protected recourse for a valid joinder claim, while the joinder itself remains unowned."
+            }
+          },
+          {
+            "outlier_id": "outlier_life_support_reservoir",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it combines water, womb, recurring rain, and elementary joining into a material analogy. It remains anchored in five focus roots and gains limited support from the adjacent arrival sequence. Downstream prose must present it only as an ecological image of dependence and renewal, never as the lexical translation of the ayah or as a claim that the destination imagery denotes water.",
+            "focus_anchor": "The focus inventories allow possession as life-sustaining water, taking as a water-holding basin, mercy as womb, covenant as recurrent rain, and intercession as joining.",
+            "activation_trace": [
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B007",
+                "role": "Water by which travelers or a camp can manage their affairs supplies dependent life-support rather than sovereign ownership."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B001",
+                "role": "Adding one to another supplies extension of sustaining provision across a relation."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B006",
+                "role": "A depression that catches and retains water supplies the holding mechanism."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb supplies an enclosed site of merciful formation and sustenance."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B007",
+                "role": "Rain that revisits and tends already wetted ground supplies recurrent renewal."
+              },
+              {
+                "source_ref": "19:86",
+                "root": "و ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001640",
+                "branch_id": "B001",
+                "role": "Arrival at a destination supplies the adjacent movement toward an assigned endpoint."
+              }
+            ],
+            "changed_reading": {
+              "before": "Covenant is only a juridical document authorizing speech.",
+              "after": "As a contained material analogy, covenant is retained and recurrent merciful provision that can sustain the joining of another without becoming anyone's owned resource."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The exact 19:78 echo makes covenant a relational warrant that replaces illicit access to the hidden.",
+            "The wealth, offspring, inheritance, idol, disavowal, and opposition sequence dismantles intercession as accumulated protective capital.",
+            "The delegation and driven-arrival contrast turns covenant into recognized audience standing before sovereign Mercy.",
+            "The offspring polemic and universal servanthood make covenantal proximity explicitly non-filial, non-hereditary, and non-possessive.",
+            "Enumeration and solitary arrival sharpen intercession into covenant-bounded re-pairing after individual accountability."
+          ],
+          "what_was_special": "The focus roots do more than oppose possession to permission. Their branches support coexisting models of authorized advocacy, maintained relational cohesion, credentialed audience, commissioned speech, and carefully contained legal or ecological analogies; the context repeatedly tests false forms of acquisition and reverses the direction of ownership.",
+          "remaining_uncertainties": [
+            "The exception's singular relative can still qualify the advocate or the beneficiary; the packet does not force one relational slot.",
+            "The affection made in 19:96 may concern worldly reception rather than the mechanics of intercession.",
+            "The property-recourse and life-support models are deliberately exploratory analogies built from specialized branches, not primary lexical readings."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -3931,18 +5257,23 @@
   "root_lexicon": {
     "root_001444": {
       "root_ar": "م ل ك",
+      "qac_roots_ar": [
+        "م ل ك"
+      ],
       "root_id": "root_001444",
-      "root_mapping": {
-        "root_id": "root_001444",
-        "root_norm": "م ل ك",
-        "source_root_norm": "م ل ك",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 123,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م ل ك",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 123
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4b7e72775b1c866d406e0fd8a0f322906cc69a84808e4f0b7a0a9a2f366f0f42",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7330,18 +8661,23 @@
     },
     "root_000802": {
       "root_ar": "ش ف ع",
+      "qac_roots_ar": [
+        "ش ف ع"
+      ],
       "root_id": "root_000802",
-      "root_mapping": {
-        "root_id": "root_000802",
-        "root_norm": "ش ف ع",
-        "source_root_norm": "ش ف ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 18,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ف ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 18
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "69fe77aad6fb836998f1c625039ec244d52fb2e08198407ec4602e60fecd8ea7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9290,18 +10626,23 @@
     },
     "root_000018": {
       "root_ar": "ء خ ذ",
+      "qac_roots_ar": [
+        "ء خ ذ"
+      ],
       "root_id": "root_000018",
-      "root_mapping": {
-        "root_id": "root_000018",
-        "root_norm": "ء خ ذ",
-        "source_root_norm": "أ خ ذ",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 232,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء خ ذ",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 232
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4e3c8c5c92d1931ae1b35cc696dde9cb98dadf78a7e7e9ac9653f4d5751c84bd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12536,18 +13877,23 @@
     },
     "root_001052": {
       "root_ar": "ع ن د",
+      "qac_roots_ar": [
+        "ع ن د"
+      ],
       "root_id": "root_001052",
-      "root_mapping": {
-        "root_id": "root_001052",
-        "root_norm": "ع ن د",
-        "source_root_norm": "ع ن د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 183,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ن د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 183
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5ab0584f6d2d08d080f8dcba4e12559c5a17384c577ee7c040e938a2e7d3a998",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14267,18 +15613,23 @@
     },
     "root_000552": {
       "root_ar": "ر ح م",
+      "qac_roots_ar": [
+        "ر ح م"
+      ],
       "root_id": "root_000552",
-      "root_mapping": {
-        "root_id": "root_000552",
-        "root_norm": "ر ح م",
-        "source_root_norm": "ر ح م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 292,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ح م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 292
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8f792e5527519fc8f34fe53c958c29b393a4955606ab4bbb6a3d3404ff68ce8c",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -16347,18 +17698,23 @@
     },
     "root_001055": {
       "root_ar": "ع ه د",
+      "qac_roots_ar": [
+        "ع ه د"
+      ],
       "root_id": "root_001055",
-      "root_mapping": {
-        "root_id": "root_001055",
-        "root_norm": "ع ه د",
-        "source_root_norm": "ع ه د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 36,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ه د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 36
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "0ed138329feb60930f00fa58eb71d953b6b06edc1e28acec5239dd7ae2ccab89",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -18525,52 +19881,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
       "words_total": 9,
-      "words_resolved": 2,
-      "words_unresolved": 7,
+      "words_resolved": 8,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 2,
+      "morpheme_skip_max": 2,
+      "morpheme_skip_histogram": {
+        "0": 7,
+        "2": 1
+      },
       "unresolved": [
         {
           "word_index": 2,
           "surface_ar": "الشَّفَاعَةَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "إِلَّا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "مَنِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "اتَّخَذَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "عِنْدَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "الرَّحْمَٰنِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "عَهْدَاً",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -18937,11 +20270,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_87.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_87.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 133349,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -19017,19 +20363,37 @@
           "root_ids": [
             "root_001444"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م ل ك",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001444",
+            "targets": [
+              {
+                "qac_root_norm": "م ل ك",
+                "target_rank": 1,
+                "furuq_root_id": "root_001444",
+                "furuq_root_norm": "م ل ك",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 123,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001444",
-              "root_norm": "م ل ك",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م ل ك",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 123,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -19054,19 +20418,37 @@
           "root_ids": [
             "root_000802"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ف ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000802",
+            "targets": [
+              {
+                "qac_root_norm": "ش ف ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000802",
+                "furuq_root_norm": "ش ف ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 18,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000802",
-              "root_norm": "ش ف ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ف ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 18,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -19091,19 +20473,37 @@
           "root_ids": [
             "root_000018"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء خ ذ",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000018",
+            "targets": [
+              {
+                "qac_root_norm": "ء خ ذ",
+                "target_rank": 1,
+                "furuq_root_id": "root_000018",
+                "furuq_root_norm": "ء خ ذ",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 232,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000018",
-              "root_norm": "ء خ ذ",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء خ ذ",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 232,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -19128,19 +20528,37 @@
           "root_ids": [
             "root_001052"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ن د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001052",
+            "targets": [
+              {
+                "qac_root_norm": "ع ن د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001052",
+                "furuq_root_norm": "ع ن د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 183,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001052",
-              "root_norm": "ع ن د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ن د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 183,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -19165,19 +20583,37 @@
           "root_ids": [
             "root_000552"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر ح م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000552",
+            "targets": [
+              {
+                "qac_root_norm": "ر ح م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000552",
+                "furuq_root_norm": "ر ح م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 292,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000552",
-              "root_norm": "ر ح م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر ح م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 292,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -19202,19 +20638,37 @@
           "root_ids": [
             "root_001055"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ه د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001055",
+            "targets": [
+              {
+                "qac_root_norm": "ع ه د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001055",
+                "furuq_root_norm": "ع ه د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 36,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001055",
-              "root_norm": "ع ه د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ه د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 36,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -19241,10 +20695,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 44,
+        "dictionary_branches_kept": 44,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 44,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

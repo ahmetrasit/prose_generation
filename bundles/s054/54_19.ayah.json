@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.120708+00:00",
+  "generated_at": "2026-08-04T22:29:52.788580+00:00",
   "surah": 54,
   "ayah": 19,
   "ayahRef": "54:19",
@@ -2145,7 +2145,8 @@
         "m-w-s054-a019-w001-01",
         "m-w-s054-a019-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:19:1"
+      "aligned_qac_word_ref_upstream": "54:19:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2161,7 +2162,8 @@
         "m-w-s054-a019-w002-01",
         "m-w-s054-a019-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:19:2"
+      "aligned_qac_word_ref_upstream": "54:19:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2177,7 +2179,8 @@
         "m-w-s054-a019-w003-01",
         "m-w-s054-a019-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:19:3"
+      "aligned_qac_word_ref_upstream": "54:19:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2191,7 +2194,8 @@
       "morpheme_ids": [
         "m-w-s054-a019-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:19:4"
+      "aligned_qac_word_ref_upstream": "54:19:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2205,7 +2209,8 @@
       "morpheme_ids": [
         "m-w-s054-a019-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:19:5"
+      "aligned_qac_word_ref_upstream": "54:19:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2219,7 +2224,8 @@
       "morpheme_ids": [
         "m-w-s054-a019-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:19:6"
+      "aligned_qac_word_ref_upstream": "54:19:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2233,7 +2239,8 @@
       "morpheme_ids": [
         "m-w-s054-a019-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:19:7"
+      "aligned_qac_word_ref_upstream": "54:19:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2247,7 +2254,8 @@
       "morpheme_ids": [
         "m-w-s054-a019-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:19:8"
+      "aligned_qac_word_ref_upstream": "54:19:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2261,7 +2269,8 @@
       "morpheme_ids": [
         "m-w-s054-a019-w009-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:19:9"
+      "aligned_qac_word_ref_upstream": "54:19:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3350,7 +3359,624 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_19.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:19",
+      "window": [
+        "54:18",
+        "54:19",
+        "54:20",
+        "54:21",
+        "54:22",
+        "54:23",
+        "54:24",
+        "54:25",
+        "54:26",
+        "54:27",
+        "54:28",
+        "54:29",
+        "54:30",
+        "54:31",
+        "54:32"
+      ],
+      "ayah_count": 15,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:19",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B_FORCE_PASSAGE",
+            "confidence": "strong",
+            "focus_anchor": "أَرْسَلْنَا ... رِيحًا صَرْصَرًا ... يَوْمِ نَحْسٍ مُّسْتَمِرٍّ",
+            "mechanism": "Release is coupled to air as an overpowering medium, doubled cold and sounding qualities, a day construed as the descended crisis, and continued passage: this is a directed force operating through time, not weather merely present.",
+            "activation_trace": [
+              {
+                "source_ref": "54:19",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Sending and release, explicitly including winds, supplies the directed launch rather than a weather state."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "Wind, breeze, and moving air supply the event's physical carrier."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B011",
+                "role": "Wind as force and dominance turns the carrier into an overpowering agent."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ص ر ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000857",
+                "branch_id": "B002",
+                "role": "Stridulating sound gives the wind an abrasive acoustic edge."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ص ر ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000857",
+                "branch_id": "B004",
+                "role": "A cold ṣarṣar wind supplies the immediate thermal violence."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "A day as a severe descending event makes time itself the catastrophe's frame."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ن ح س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001480",
+                "branch_id": "B002",
+                "role": "Severe cold and cold wind reinforce the thermal reading beyond abstract ill fortune."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B001",
+                "role": "Proceeding, passing, and penetrating supply the event's continuing traversal."
+              }
+            ],
+            "changed_reading": {
+              "before": "A harsh wind happened throughout an unlucky day.",
+              "after": "A deliberately released force of cold, sounding air keeps traversing and penetrating its victims through a day that has itself become the calamity."
+            }
+          },
+          {
+            "model_id": "B_SERIAL_BARRAGE",
+            "confidence": "exploratory",
+            "focus_anchor": "أَرْسَلْنَا ... فِى يَوْمِ ... مُّسْتَمِرٍّ",
+            "mechanism": "Succession in dispatch, recurrence within time, and the image of a tightly twisted cord make continuity dynamically composite: repeated passes can be bound into one sustained duration.",
+            "activation_trace": [
+              {
+                "source_ref": "54:19",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Successive groups or cuts supply a serial pulse to the dispatch."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "A duration of time contains the serial action without requiring a single instant."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B002",
+                "role": "Occurrence by times and repetitions supplies recurrent strokes within the duration."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B005",
+                "role": "A tightly twisted cord supplies the exploratory image of gusts coupled into one barrage."
+              }
+            ],
+            "changed_reading": {
+              "before": "Continuous means one undifferentiated long interval.",
+              "after": "Continuity can be heard as successive, tightly coupled passes: a barrage whose repeated strokes are held inside one duration."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D_WARNING_DELIVERED",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ذ ب",
+              "ن ذ ر"
+            ],
+            "mechanism": "The immediately preceding punishment-and-warning refrain activates the message branch of sending: the wind does penal work while also becoming the delivered warning itself.",
+            "activation_trace": [
+              {
+                "source_ref": "54:19",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message give the sending communicative force in addition to transport."
+              },
+              {
+                "source_ref": "54:18",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful punishment supplies the sent event's penal function."
+              },
+              {
+                "source_ref": "54:18",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that awakens caution supplies the communicative function embodied by the wind."
+              }
+            ],
+            "structural_cues": [
+              "54:18's refrain directly precedes 54:19, whose emphatic opening answers it with a transitive dispatch."
+            ],
+            "reader_inference": "The packet supplies punishment, warning, and the message branch of sending; I infer that one physical event performs both functions. A live alternative is that the warning names prior speech while the wind only executes punishment.",
+            "changed_reading": {
+              "before": "The wind is only the instrument that implements a punishment.",
+              "after": "The wind is also a dispatched, bodily legible warning: message and penalty arrive in the same medium."
+            }
+          },
+          {
+            "model_id": "D_UPROOTING_ENGINE",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ز ع",
+              "ع ج ز",
+              "ن خ ل",
+              "ق ع ر"
+            ],
+            "mechanism": "The next ayah exposes the wind's continuous operation as extraction from emplacement: it plucks people out and leaves body-bases comparable to palms torn from their roots.",
+            "activation_trace": [
+              {
+                "source_ref": "54:19",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B011",
+                "role": "Wind as force and dominance supplies the causal power behind the extraction."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B001",
+                "role": "Continued passage becomes an ongoing operation through bodies and terrain."
+              },
+              {
+                "source_ref": "54:20",
+                "root": "ن ز ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001489",
+                "branch_id": "B001",
+                "role": "Plucking a thing from its settled place states the wind's operative action."
+              },
+              {
+                "source_ref": "54:20",
+                "root": "ع ج ز",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000985",
+                "branch_id": "B004",
+                "role": "The rear or base of a thing supplies the bodily remnant and trunk orientation."
+              },
+              {
+                "source_ref": "54:20",
+                "root": "ن خ ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001483",
+                "branch_id": "B001",
+                "role": "The palm tree supplies the upright organic substrate of the comparison."
+              },
+              {
+                "source_ref": "54:20",
+                "root": "ق ع ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001245",
+                "branch_id": "B004",
+                "role": "Removal from the root completes the extraction mechanism and its terminal state."
+              }
+            ],
+            "structural_cues": [
+              "54:20 opens with present-tense تَنزِعُ and no newly named agent; the nearest available agent is the wind in 54:19."
+            ],
+            "reader_inference": "The packet supplies force, continued passage, active plucking, body-bases, palms, and uprooting; I assign the wind as the omitted subject and read continuity as its ongoing operation. A live alternative is that مُّسْتَمِرٍّ qualifies only the ill fortune or day.",
+            "changed_reading": {
+              "before": "The wind persists around the people.",
+              "after": "The wind persists by working through them, repeatedly overcoming emplacement until upright bodies become uprooted bases."
+            }
+          },
+          {
+            "model_id": "D_COLD_ENDURANCE_ASSAY",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ف ت ن",
+              "ص ب ر"
+            ],
+            "mechanism": "The later pairing of assay and endurance activates a side branch in ص ب ر for severe winter cold, joining the focus ayah's two independent cold branches and recasting cold as pressure that tests bodily holding.",
+            "activation_trace": [
+              {
+                "source_ref": "54:19",
+                "root": "ص ر ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000857",
+                "branch_id": "B004",
+                "role": "The explicitly cold ṣarṣar wind supplies the first thermal anchor."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ن ح س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001480",
+                "branch_id": "B002",
+                "role": "Severe cold and cold wind supply a second, independent thermal anchor."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying metal or a person supplies the testing function assigned to the cold pressure."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B007",
+                "role": "Severe winter cold links endurance lexically to the focus ayah's doubled cold."
+              }
+            ],
+            "structural_cues": [
+              "54:27 places a declared trial and a command to endure within one sequence in the packet's next narrative cycle."
+            ],
+            "reader_inference": "The packet supplies two focus-cold branches plus assay and winter-cold branches in the later trial; I infer a cross-episode image of cold testing the capacity to hold. The live alternative is that the winter-cold branch is irrelevant to the imperative's contextual sense.",
+            "changed_reading": {
+              "before": "Cold is one descriptive property of the punishing wind.",
+              "after": "Cold becomes the ordeal's testing pressure, probing whether embodied stance can hold before the wind extracts it."
+            }
+          },
+          {
+            "model_id": "D_DISPATCH_MODALITY",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ص ي ح",
+              "و ح د",
+              "ه ش م"
+            ],
+            "mechanism": "A later repetition of the dispatch formula substitutes one terrifying cry for the ṣarṣar wind. This makes the focus wind's sound branch functional and distinguishes a sustained acoustic-air traversal from a single acoustic impulse, both ending in organic fragmentation.",
+            "activation_trace": [
+              {
+                "source_ref": "54:19",
+                "root": "ص ر ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000857",
+                "branch_id": "B002",
+                "role": "Stridulating sound supplies an acoustic component inside the wind."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B001",
+                "role": "Ongoing passage gives the focus event its sustained temporal profile."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "The repeated release-and-dispatch image establishes the same action frame with a different payload."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ص ي ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000895",
+                "branch_id": "B002",
+                "role": "A terrifying cry supplies the comparison event's explicitly acoustic payload."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "One in number marks the comparison event as a single impulse against sustained passage."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ه ش م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001592",
+                "branch_id": "B002",
+                "role": "Dry broken vegetation supplies the later dispatch's fragmented organic residue."
+              }
+            ],
+            "structural_cues": [
+              "54:31 repeats إِنَّا أَرْسَلْنَا عَلَيْهِمْ, substitutes صَيْحَةً وَاحِدَةً for رِيحًا صَرْصَرًا, and states a broken-material result."
+            ],
+            "reader_inference": "The packet supplies the repeated dispatch frame, sound branches, singularity, sustained passage, and broken vegetation; I infer a deliberate modality and duration comparison. A live alternative is that the episodes merely reuse formulaic diction without making ṣarṣar acoustically functional.",
+            "changed_reading": {
+              "before": "Ṣarṣar only intensifies the wind's harshness or cold.",
+              "after": "The wind is both cold and acoustically weaponized; unlike the later single cry, its destructive sound travels continuously with moving air."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O_LETHAL_RELIEF",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it reverses the usual comfort field of ر و ح; it remains anchored in رِيحًا and in packet branches for rest and death phrased as relief, with نَحْسٍ blocking a benign result. Render only as lexical irony, not as a replacement gloss for wind.",
+            "focus_anchor": "رِيحًا ... نَحْسٍ",
+            "activation_trace": [
+              {
+                "source_ref": "54:19",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B007",
+                "role": "Rest and regained breath supply the comfort field that the verse reverses."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B016",
+                "role": "Death expressed as giving relief supplies the lethal endpoint of that reversal."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ن ح س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001480",
+                "branch_id": "B001",
+                "role": "Ill fortune turns the expected relief field toward its adverse extreme."
+              }
+            ],
+            "changed_reading": {
+              "before": "The wind belongs only to a meteorological vocabulary.",
+              "after": "The life-and-relief root field is inverted: what could restore breath becomes the medium of final relief through death."
+            }
+          },
+          {
+            "outlier_id": "O_AAD_RETURN_CYCLE",
+            "confidence": "exploratory",
+            "containment": "This is surprising and form-distant because عَادٌ is a proper name, not an assertion of return; it remains packet-licensed through the ع و د mapping and anchored by مُّسْتَمِرٍّ branches of recurrence. Render only as a name-triggered pattern resonance, never as the lexical translation of the name.",
+            "focus_anchor": "مُّسْتَمِرٍّ",
+            "activation_trace": [
+              {
+                "source_ref": "54:18",
+                "root": "ع و د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001058",
+                "branch_id": "B001",
+                "role": "Return after departure supplies a cycle image activated by the named subject."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B002",
+                "role": "Repeated occurrence anchors the return image in the focus ayah's temporal descriptor."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Successive dispatch supplies the mechanism by which a punitive pattern can recur."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah reports one isolated historical dispatch.",
+              "after": "The proper name activates an exploratory return-pattern: dispatch and calamity recur in successive instantiations rather than remaining a sealed event."
+            }
+          },
+          {
+            "outlier_id": "O_TIME_AS_SHARE",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it imports water apportionment from the next episode into the focus ayah's time phrase; it remains anchored in يَوْمِ and مُّسْتَمِرٍّ and supported by explicit branches for partition, water-share, and attendance. Render as an analogy of administered timing, not as a claim that the day literally is a ration.",
+            "focus_anchor": "فِى يَوْمِ ... مُّسْتَمِرٍّ",
+            "activation_trace": [
+              {
+                "source_ref": "54:19",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "A duration of time supplies the interval available for apportionment."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B002",
+                "role": "Repeated temporal occurrence supplies the returning-turn structure."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating and assigning a portion supplies the administrative mechanism."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "An allotted water-share supplies the concrete model of a scheduled turn."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ح ض ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000333",
+                "branch_id": "B001",
+                "role": "Presence and attendance make each allotted turn an appointed, realized interval."
+              }
+            ],
+            "changed_reading": {
+              "before": "The day is merely the date or container of the event.",
+              "after": "The day can be imagined as an allotted turn in an administered sequence, with recurrence governed rather than accidental."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Sending becomes communicative: the wind delivers the warning while executing punishment.",
+            "Continuation becomes an extraction process, clarified by the active uprooting of people into palm-like bases.",
+            "The doubled cold field becomes an exploratory assay of bodily endurance.",
+            "The later single cry makes ṣarṣar's acoustic branch functional and sharpens sustained versus impulsive dispatch."
+          ],
+          "what_was_special": "The focus ayah binds agency, medium, sound, cold, temporal crisis, and passage unusually tightly; nearby roots then expose the wind as message, extraction engine, endurance pressure, and one member of a medium-switching dispatch pattern.",
+          "remaining_uncertainties": [
+            "مُّسْتَمِرٍّ may grammatically characterize the ill fortune or day rather than the wind's operation.",
+            "The relative weight of ṣarṣar's sound and cold branches remains unresolved; the trace carries both.",
+            "The cold-endurance, proper-name return, and apportioned-time readings are cross-episode activations, not secure contextual glosses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The wind is released as a cold, force-bearing agent.** `ر س ل` B001 is being sent forth/released; `ر و ح` B003 is wind and moving air, while B011 is force and dominance; `ص ر ص ر` B004 is a bitterly cold wind; `ن ح س` B002 is ill cold. The packet layers cold and adverse force onto the same dispatched medium. I infer that the wind is not scenery but an agent whose temperature and momentum jointly produce the next ayah’s extraction. The ayah reads as a specified physical mechanism of punishment.\n\n2. **`مُّسْتَمِرٍّ` again preserves passage and recurrence, now sharpened by bitterness.** `م ر ر` B001 is passing through, B002 repeated occurrence, B003 bitter taste, and B004 bitter severity/calamity. The day contains a moving wind yet is itself marked by continuing misfortune. I infer that motion through time, sustained recurrence, and severe bitterness overlap without becoming identical. The word can mark an unbroken adverse span while echoing the wind’s bitter cold.",
@@ -4269,18 +4895,23 @@
   "root_lexicon": {
     "root_000563": {
       "root_ar": "ر س ل",
+      "qac_roots_ar": [
+        "ر س ل"
+      ],
       "root_id": "root_000563",
-      "root_mapping": {
-        "root_id": "root_000563",
-        "root_norm": "ر س ل",
-        "source_root_norm": "ر س ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 505,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر س ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 505
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "74b9e1fa6006c7eb411428c8961ef30679db99390f9a1d7d529f4aa62e5b2556",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7755,18 +8386,23 @@
     },
     "root_000609": {
       "root_ar": "ر و ح",
+      "qac_roots_ar": [
+        "ر و ح"
+      ],
       "root_id": "root_000609",
-      "root_mapping": {
-        "root_id": "root_000609",
-        "root_norm": "ر و ح",
-        "source_root_norm": "ر و ح",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 47,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر و ح",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 47
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f09e6e2e43fb64f8e1cb1ba4b64b5524d9229ef8019a89c8c9a8bf3809f90a08",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11703,18 +12339,23 @@
     },
     "root_000857": {
       "root_ar": "ص ر ص ر",
+      "qac_roots_ar": [
+        "ص ر ص ر"
+      ],
       "root_id": "root_000857",
-      "root_mapping": {
-        "root_id": "root_000857",
-        "root_norm": "ص ر ص ر",
-        "source_root_norm": "ص ر ص ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ر ص ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3afecdcc7d8169ac27837b62814d65f1110181ce2310427043e5d863559d3684",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12635,18 +13276,23 @@
     },
     "root_001700": {
       "root_ar": "ي و م",
+      "qac_roots_ar": [
+        "ي و م"
+      ],
       "root_id": "root_001700",
-      "root_mapping": {
-        "root_id": "root_001700",
-        "root_norm": "ي و م",
-        "source_root_norm": "ي و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 414,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 414
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e76145ff9db215c969fb749d8f4011fa704b398c30ebc90862161f0e4604a786",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -13965,18 +14611,23 @@
     },
     "root_001480": {
       "root_ar": "ن ح س",
+      "qac_roots_ar": [
+        "ن ح س"
+      ],
       "root_id": "root_001480",
-      "root_mapping": {
-        "root_id": "root_001480",
-        "root_norm": "ن ح س",
-        "source_root_norm": "ن ح س",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ح س",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4a270bf92e2f7c6e14d67a57bb63dbeff6e06e771d7c5e372d3af745ca69daa7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -16034,18 +16685,23 @@
     },
     "root_001414": {
       "root_ar": "م ر ر",
+      "qac_roots_ar": [
+        "م ر ر"
+      ],
       "root_id": "root_001414",
-      "root_mapping": {
-        "root_id": "root_001414",
-        "root_norm": "م ر ر",
-        "source_root_norm": "م ر ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 34,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م ر ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 34
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "0c6d8f6d31c864168eb34e79aa04073af5955eae8972cc6d9daed424b5fd2a09",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -18113,14 +18769,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -18478,11 +19140,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_19.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_19.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 108150,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -18560,19 +19235,37 @@
           "root_ids": [
             "root_000563"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر س ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000563",
+            "targets": [
+              {
+                "qac_root_norm": "ر س ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000563",
+                "furuq_root_norm": "ر س ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 505,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000563",
-              "root_norm": "ر س ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر س ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 505,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18597,19 +19290,37 @@
           "root_ids": [
             "root_000609"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر و ح",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000609",
+            "targets": [
+              {
+                "qac_root_norm": "ر و ح",
+                "target_rank": 1,
+                "furuq_root_id": "root_000609",
+                "furuq_root_norm": "ر و ح",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 47,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000609",
-              "root_norm": "ر و ح",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر و ح",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 47,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 19,
+              "gloss_branch_count": 19,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18634,19 +19345,37 @@
           "root_ids": [
             "root_000857"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ر ص ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000857",
+            "targets": [
+              {
+                "qac_root_norm": "ص ر ص ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000857",
+                "furuq_root_norm": "ص ر ص ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000857",
-              "root_norm": "ص ر ص ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ر ص ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18671,19 +19400,37 @@
           "root_ids": [
             "root_001700"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001700",
+            "targets": [
+              {
+                "qac_root_norm": "ي و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001700",
+                "furuq_root_norm": "ي و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 414,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001700",
-              "root_norm": "ي و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 414,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18708,19 +19455,37 @@
           "root_ids": [
             "root_001480"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ح س",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001480",
+            "targets": [
+              {
+                "qac_root_norm": "ن ح س",
+                "target_rank": 1,
+                "furuq_root_id": "root_001480",
+                "furuq_root_norm": "ن ح س",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001480",
-              "root_norm": "ن ح س",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ح س",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18745,19 +19510,37 @@
           "root_ids": [
             "root_001414"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م ر ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001414",
+            "targets": [
+              {
+                "qac_root_norm": "م ر ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001414",
+                "furuq_root_norm": "م ر ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 34,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001414",
-              "root_norm": "م ر ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م ر ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 34,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18784,10 +19567,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 56,
+        "dictionary_branches_kept": 56,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 56,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

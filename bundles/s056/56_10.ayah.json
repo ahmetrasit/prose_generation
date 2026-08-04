@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.675439+00:00",
+  "generated_at": "2026-08-04T22:29:58.299534+00:00",
   "surah": 56,
   "ayah": 10,
   "ayahRef": "56:10",
@@ -1003,7 +1003,8 @@
       "morpheme_ids": [
         "m-w-s056-a010-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:10:1"
+      "aligned_qac_word_ref_upstream": "56:10:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1019,7 +1020,8 @@
         "m-w-s056-a010-w001-02",
         "m-w-s056-a010-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:10:2"
+      "aligned_qac_word_ref_upstream": "56:10:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1035,7 +1037,8 @@
         "m-w-s056-a010-w002-01",
         "m-w-s056-a010-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:10:3"
+      "aligned_qac_word_ref_upstream": "56:10:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1324,7 +1327,637 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_10.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:10",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:10",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01_initiative_as_identity",
+            "confidence": "strong",
+            "focus_anchor": "Both focus words are repeated active participles from س ب ق with no overt predicate.",
+            "mechanism": "The forward initiative of B001 is doubled into a self-confirming class: repeated preceding is not merely something they did but what they are.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Advancing, racing, and initiating supply the literal motion and make reiterated initiative constitutive of the group's identity."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic label for people who happen to be earlier or ahead.",
+              "after": "An emphatically self-defining vanguard whose identity consists in repeatedly initiating and moving ahead."
+            }
+          },
+          {
+            "model_id": "b02_lead_as_uncatchability",
+            "confidence": "medium",
+            "focus_anchor": "The doubled س ب ق participle can carry both forward precedence and the root's pursuit relation.",
+            "mechanism": "B004 changes a relative lead into failed pursuit: the first token presents outstripping, while the second can seal the result as being beyond recovery by the pursuer.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Forward movement supplies the initial comparative lead."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B004",
+                "role": "Escaping a seeker who cannot catch the sought turns the repeated lead into an irreversible separation."
+              }
+            ],
+            "changed_reading": {
+              "before": "They are in front but remain part of an open contest.",
+              "after": "They are the outstrippers whose lead has become non-recoverable: advance repeated as accomplished escape."
+            }
+          },
+          {
+            "model_id": "b03_consequential_contest",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus repeats س ب ق, whose inventory includes both racing and the stake named for a race.",
+            "mechanism": "B002 makes precedence triangular rather than merely ordinal: competitors move, something is at stake, and precedence adjudicates who receives it.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Competition supplies the moving contestants and their ordering."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B002",
+                "role": "The race-stake supplies consequence and lets the second occurrence sound like an adjudicated outcome, though the nominal branch is form-distant."
+              }
+            ],
+            "changed_reading": {
+              "before": "Precedence is a bare position on a timeline.",
+              "after": "Precedence belongs to a consequential contest in which initiative determines an outcome with something genuinely at stake."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_order_disclosed_by_upheaval",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ع",
+              "خ ف ض",
+              "ر ف ع",
+              "ز و ج"
+            ],
+            "mechanism": "The event destroys ordinary vertical and terrestrial rankings, then sorts people into kinds; precedence becomes an order disclosed by upheaval rather than speed measured on stable ground.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Advancing and racing provide the focus's initial linear ordering."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B002",
+                "role": "A severe descending event supplies the crisis in which the focus ranking is revealed."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Lowering what was high destabilizes inherited rank."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising supplies the inverse motion and makes the event a wholesale reorder."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B004",
+                "role": "Kinds or classes convert the preceding physical inversion into a disclosed human classification."
+              }
+            ],
+            "structural_cues": [
+              "56:3 lowers and raises, 56:4-6 removes stable earth and mountain scale, and 56:7 then makes the addressees three classes before the focus label appears."
+            ],
+            "reader_inference": "The packet supplies collapse, vertical reversal, and subsequent classification; I infer that the catastrophe reveals the criterion of precedence. A live alternative is that these are adjacent fixed groups with no causal relation to the upheaval.",
+            "changed_reading": {
+              "before": "The foremost win a race conducted within the world's existing order.",
+              "after": "The foremost are the order that becomes visible when the world's normal measures of height, solidity, and status are overturned."
+            }
+          },
+          {
+            "model_id": "d02_initiative_answered_by_proximity",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن",
+              "ش ء م",
+              "ق ر ب"
+            ],
+            "mechanism": "The two side-groups are defined by companionship with directions, but the focus group is defined by an act; its active advance is immediately answered by passive bestowal of privileged nearness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Initiative and forward movement make this group agentive rather than merely locative."
+              },
+              {
+                "source_ref": "56:8",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and adherence define the neighboring group through affiliation."
+              },
+              {
+                "source_ref": "56:8",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B002",
+                "role": "The right hand or rightward side supplies one external directional classification."
+              },
+              {
+                "source_ref": "56:9",
+                "root": "ش ء م",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000772",
+                "branch_id": "B001",
+                "role": "The left side supplies the opposed external directional classification."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Favored intimates of a sovereign give the passive nearness its social force as bestowed access."
+              }
+            ],
+            "structural_cues": [
+              "56:8-9 repeat أصحاب plus a side-label, 56:10 instead repeats the bare active participle, and 56:11 identifies that group with a passive participle."
+            ],
+            "reader_inference": "The packet supplies directional affiliation, active precedence, and bestowed nearness; I infer an answer relation in which initiative is met by admission to proximity. Alternatively, 56:11 may only rename the group without explaining its precedence.",
+            "changed_reading": {
+              "before": "The foremost are self-advancing winners who secure the highest place.",
+              "after": "They initiate movement but do not manufacture the endpoint: their precedence is answered by being made privileged intimates."
+            }
+          },
+          {
+            "model_id": "d03_precedence_as_diachronic_relay",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ل ل",
+              "ء و ل",
+              "ق ل ل",
+              "ء خ ر"
+            ],
+            "mechanism": "The focus's doubled agent can be distributed across time: a gathered vanguard at the beginning is followed by a thinner later continuation, so precedence is repeatedly instantiated rather than exhausted by one cohort.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Repeated advance supplies the relay-like action that can recur across cohorts."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "A gathered company turns precedence from an isolated winner into a cohort phenomenon."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and temporal advance locate the abundant cohort at the head of the sequence."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The split root's image of one thing following another supplies continuity from one vanguard to the next."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Numerical smallness narrows, but does not erase, the relay's later continuation."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the second temporal station against which repeated precedence is measured."
+              }
+            ],
+            "structural_cues": [
+              "The singular sequence 56:13-14 contrasts a company from the first with a few from the later immediately after identifying the foremost."
+            ],
+            "reader_inference": "The packet supplies grouped first people, fewer later people, and both beginning and succession images for ء و ل; I infer that the focus repetition can span cohorts. Alternatively, the verses may report only proportions, leaving the repetition purely emphatic.",
+            "changed_reading": {
+              "before": "Precedence is a single synchronic ranking among contemporaries.",
+              "after": "Precedence is a diachronic relay: abundant at the beginning, sparsely but genuinely re-instantiated later."
+            }
+          },
+          {
+            "model_id": "d04_linear_race_to_mutual_space",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ض ن",
+              "ق ب ل",
+              "ط و ف"
+            ],
+            "mechanism": "A linear race with front and back resolves into an interwoven environment of mutual facing and circulation; precedence grants entry without reproducing winner-ahead-of-loser as the final social geometry.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Racing and forward advance supply the initial linear geometry."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tight interweaving supplies the material setting in which separate linear tracks give way to connected placement."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Thing facing thing makes mutual presence, rather than one-way precedence, the group's settled posture."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Circulation around the group replaces a finish-line axis with an encompassing service motion."
+              }
+            ],
+            "structural_cues": [
+              "56:15-17 moves from woven couches to reciprocal facing and then to attendants circulating around the seated group."
+            ],
+            "reader_inference": "The packet supplies interweaving, face-to-face posture, and circulation; I infer that this endpoint transforms the race's geometry from line to mutual field. Alternatively, these may be amenities that leave rank fully intact.",
+            "changed_reading": {
+              "before": "The winner remains permanently in front of others.",
+              "after": "The forerunner crosses into a shared space without front or back, where mutual facing replaces competitive posture."
+            }
+          },
+          {
+            "model_id": "d05_race_stake_as_action_matched_reward",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ي ر",
+              "ش ه و",
+              "ج ز ي",
+              "ع م ل"
+            ],
+            "mechanism": "The form-distant race-stake branch gains local structure: chosen and desired goods culminate in recompense corresponding to deliberate action, so the contest's consequence is earned reciprocity rather than an arbitrary wager.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B002",
+                "role": "The stake placed for a race supplies the exploratory consequence awaiting adjudication."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Seeking and making a choice turns the outcome into exercised agency rather than passive possession."
+              },
+              {
+                "source_ref": "56:21",
+                "root": "ش ه و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000825",
+                "branch_id": "B001",
+                "role": "The soul's movement toward what it desires makes the awarded good responsive to the recipient."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Answering an act with its recompense converts the race-stake into measured reciprocity."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action supplies the conduct to which the recompense corresponds."
+              }
+            ],
+            "structural_cues": [
+              "56:20-21 repeats مما with choosing and desiring, while 56:24 closes the provision sequence as recompense for what they used to do."
+            ],
+            "reader_inference": "The packet supplies choice, desire, recompense, and intentional work; I infer that they clarify the focus root's race-stake branch as earned and responsive. Alternatively, the reward sequence need not activate that form-distant branch at all.",
+            "changed_reading": {
+              "before": "The foremost merely arrive before others and receive a generic prize.",
+              "after": "Their race has a morally structured stake: initiative culminates in action-matched recompense experienced as restored choice and fulfilled desire."
+            }
+          },
+          {
+            "model_id": "d06_repetition_as_finish_language",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ل غ و",
+              "ء ث م",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "The focus's doubled name is echoed by doubled peace after empty and injurious speech is excluded; repetition shifts from possible redundancy to a pure reciprocal recognition that already speaks the destination's language.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Repeated precedence supplies the compact identity formula whose discourse value is being revised."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "Speech discarded as carrying no account marks the kind of empty repetition excluded from the endpoint."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Loading another with fault excludes accusatory speech and sharpens the harmlessness of the final echo."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Articulated utterance establishes that the doubled closing noun is an enacted speech exchange."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from harm gives the repeated utterance substantive safety rather than empty emphasis."
+              }
+            ],
+            "structural_cues": [
+              "The doubled nominal focus formula in 56:10 is answered at the pericope's end by the doubled nominal utterance سلاما سلاما in 56:26."
+            ],
+            "reader_inference": "The packet supplies two doubled formulas and an explicit purge of empty or blaming speech; I infer that the closing speech teaches how to hear the focus repetition as recognition. A live alternative is formal coincidence with ordinary emphatic repetition.",
+            "changed_reading": {
+              "before": "The second السابقون merely intensifies the first.",
+              "after": "The doubled title acts like a reciprocal acclamation: a non-empty recognition of identity that anticipates the repeated language of safety."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_bird_jesses_counterimage",
+            "confidence": "exploratory",
+            "containment": "This is surprising because B003 names the leg-jesses of a hunting bird while the focus forms are active participles, and 56:21 names bird as food rather than a racer. It remains packet-anchored through the focus root inventory and the local bird root; render only as a counter-image in which competition marks or constrains its agents, never as a translation of السابقون.",
+            "focus_anchor": "B003 is an attested branch under the root repeated in both focus words.",
+            "activation_trace": [
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B003",
+                "role": "A hunting bird's leg-jesses supply the root-internal counter-image of a moving agent marked and constrained by the apparatus around its movement."
+              },
+              {
+                "source_ref": "56:21",
+                "root": "ط ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000962",
+                "branch_id": "B001",
+                "role": "The explicit bird domain and its light flight keep the obscure focus branch faintly active within the local sequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The foremost are imagined only as freely moving agents.",
+              "after": "Exploratorily, precedence carries the shadow of the bird's jesses: a race can mark and constrain the very agents whose movement it ranks."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Upheaval changes precedence from speed on stable ground into the human order disclosed when ordinary measures collapse.",
+            "Active initiative is answered, rather than self-completed, by passive admission to privileged nearness.",
+            "The linear race resolves into mutual facing and circulation instead of preserving front-versus-back as the final social geometry.",
+            "The closing doubled peace recasts the focus repetition as substantive recognition rather than empty emphasis."
+          ],
+          "what_was_special": "The same doubled root sustained initiative, uncatchability, and a consequential contest, while context changed its agency, temporal scale, spatial geometry, and speech value without forcing those readings into one.",
+          "remaining_uncertainties": [
+            "The wager/stake branch is morphologically distant from the active participles and remains exploratory even after the reward sequence.",
+            "The diachronic relay depends on reading the first/later distribution back into the focus repetition.",
+            "The line-to-circle transformation and bird-jesses counter-image may be local resonances rather than intended lexical activations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Precedence that recursively identifies its bearers.** The exact repetition activates `س ب ق` **B001**, preceding and racing ahead. Later, “وَمَا نَحْنُ بِمَسْبُوقِينَ” (56:60) uses **B004**, outstripping or escaping another, to set a limit: created beings may precede one another but cannot outstrip the creator’s measured death and replacement. **Abductive move:** I infer that the repetition marks precedence as their constitutive relation, while 56:60 bounds its scope. **Reading change:** they are “the preceders precisely by their preceding,” a rank established within, not beyond, divine measure.\n\n2. **Racing without a material stake.** `س ب ق` **B002** supplies the racing stake, but the next ayah names nearness rather than a prize-object. **Abductive move:** I infer that privileged proximity functions as the outcome replacing an external stake. **Reading change:** the race culminates in relation and access, not possession.",
@@ -2225,18 +2858,23 @@
   "root_lexicon": {
     "root_000671": {
       "root_ar": "س ب ق",
+      "qac_roots_ar": [
+        "س ب ق"
+      ],
       "root_id": "root_000671",
-      "root_mapping": {
-        "root_id": "root_000671",
-        "root_norm": "س ب ق",
-        "source_root_norm": "س ب ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 34,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ب ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 34
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c5098900f976384a085d675c0d623dec9b07d96800781f7120d7e0aa790e0788",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -3310,14 +3948,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -3614,11 +4258,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_10.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_10.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 96757,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -3690,19 +4347,37 @@
           "root_ids": [
             "root_000671"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ب ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000671",
+            "targets": [
+              {
+                "qac_root_norm": "س ب ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000671",
+                "furuq_root_norm": "س ب ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 34,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000671",
-              "root_norm": "س ب ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ب ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 34,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -3729,10 +4404,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 4,
+        "dictionary_branches_kept": 4,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 0,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T05:42:31.832665+00:00",
+  "generated_at": "2026-08-04T22:28:36.124058+00:00",
   "surah": 12,
   "ayah": 106,
   "ayahRef": "12:106",
@@ -2215,7 +2215,8 @@
       "morpheme_ids": [
         "m-w-s012-a106-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:1"
+      "aligned_qac_word_ref_upstream": "12:106:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2229,7 +2230,8 @@
       "morpheme_ids": [
         "m-w-s012-a106-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:2"
+      "aligned_qac_word_ref_upstream": "12:106:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2243,7 +2245,8 @@
       "morpheme_ids": [
         "m-w-s012-a106-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:3"
+      "aligned_qac_word_ref_upstream": "12:106:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2259,7 +2262,8 @@
         "m-w-s012-a106-w003-01",
         "m-w-s012-a106-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:4"
+      "aligned_qac_word_ref_upstream": "12:106:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2273,7 +2277,8 @@
       "morpheme_ids": [
         "m-w-s012-a106-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:5"
+      "aligned_qac_word_ref_upstream": "12:106:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2287,7 +2292,8 @@
       "morpheme_ids": [
         "m-w-s012-a106-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:6"
+      "aligned_qac_word_ref_upstream": "12:106:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2301,7 +2307,8 @@
       "morpheme_ids": [
         "m-w-s012-a106-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:7"
+      "aligned_qac_word_ref_upstream": "12:106:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2315,7 +2322,8 @@
       "morpheme_ids": [
         "m-w-s012-a106-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:8"
+      "aligned_qac_word_ref_upstream": "12:106:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2329,7 +2337,8 @@
       "morpheme_ids": [
         "m-w-s012-a106-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:9"
+      "aligned_qac_word_ref_upstream": "12:106:9",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 9,
@@ -2343,7 +2352,8 @@
       "morpheme_ids": [
         "m-w-s012-a106-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:106:10"
+      "aligned_qac_word_ref_upstream": "12:106:10",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2807,7 +2817,856 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s12/packets/12_106.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "12:106",
+      "window": [
+        "12:94",
+        "12:95",
+        "12:96",
+        "12:97",
+        "12:98",
+        "12:99",
+        "12:100",
+        "12:101",
+        "12:102",
+        "12:103",
+        "12:104",
+        "12:105",
+        "12:106",
+        "12:107",
+        "12:108",
+        "12:109",
+        "12:110",
+        "12:111"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "12:106",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-partitioned-assent",
+            "confidence": "strong",
+            "focus_anchor": "The exception construction holds God-directed belief at word 2 and association at word 7 together as concurrent states.",
+            "mechanism": "Heart-settling assent is present, but the divine relation is organized as shared participation. The focus diagnoses partitioned allegiance rather than simple absence of acknowledgment.",
+            "activation_trace": [
+              {
+                "source_ref": "12:106",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settling assent supplies a genuinely affirmative component rather than total unbelief."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worship-and-object relation fixes God as the acknowledged divine referent."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B001",
+                "role": "Participation in a jointly held matter supplies the functional split of allegiance."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B002",
+                "role": "The theological branch bounds the sharing mechanism within association with God."
+              }
+            ],
+            "changed_reading": {
+              "before": "Most simply lack belief in God because they are associators.",
+              "after": "Most retain real God-directed assent, but it operates inside a concurrently shared allocation of worship, reliance, or agency."
+            }
+          },
+          {
+            "model_id": "baseline-distributed-security",
+            "confidence": "medium",
+            "focus_anchor": "The belief verb at word 2 also carries security and trust, while word 7 names participation with another.",
+            "mechanism": "The focus can be heard as a trust arrangement: God is a source of safety, but not the sole source. Association keeps supplementary guarantors inside the security system.",
+            "activation_trace": [
+              {
+                "source_ref": "12:106",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled safety and trust turn belief into an operative placement of security."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B001",
+                "role": "Joint participation distributes that security relation among multiple claimants."
+              }
+            ],
+            "changed_reading": {
+              "before": "Belief is only propositional acknowledgment, with association added as a separate doctrine.",
+              "after": "Belief is also entrusted safety, and its defect is diversification across God and retained backups."
+            }
+          },
+          {
+            "model_id": "baseline-majority-mirrors-multiplicity",
+            "confidence": "exploratory",
+            "focus_anchor": "The majority quantifier at word 3 stands in the same clause as the shared-allegiance predicate at word 7.",
+            "mechanism": "External numerical plurality and internal plurality of authority echo one another. Mass can stabilize a non-unitary judgment instead of evidencing truth.",
+            "activation_trace": [
+              {
+                "source_ref": "12:106",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Numerical overpowering makes majority status capable of functioning as social proof."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B008",
+                "role": "A judgment that is not one supplies the internal analogue to the external multitude."
+              }
+            ],
+            "changed_reading": {
+              "before": "The majority expression is only a statistic about how many associate.",
+              "after": "Numerical mass can itself become a co-authority that keeps judgment divided."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-attentional-sideways",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ي ي",
+              "م ر ر",
+              "ع ر ض"
+            ],
+            "mechanism": "The immediately preceding scene supplies visible signs, bodily passage, and a turned side. Its circumstantial posture repeats in the focus, converting association into an attentional mechanics: acknowledgment occurs without gaining the person's whole orientation.",
+            "activation_trace": [
+              {
+                "source_ref": "12:105",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "An outwardly legible mark supplies evidence that can be encountered yet fail to govern attention."
+              },
+              {
+                "source_ref": "12:105",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B001",
+                "role": "Passing across something without stopping supplies the motion of incomplete uptake."
+              },
+              {
+                "source_ref": "12:105",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Turning one's side supplies the literal divided orientation internalized by the focus."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Affirmative assent explains how a sign may register without total reorientation."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B001",
+                "role": "Shared participation assigns the remaining orientation to competing claims."
+              }
+            ],
+            "structural_cues": [
+              "12:105 and 12:106 are adjacent and repeat a circumstantial frame in which an action coexists with an enduring plural state.",
+              "The sequence moves from passing while turned away to believing while associating, preserving simultaneity."
+            ],
+            "reader_inference": "The packet supplies parallel posture, signs, passage, side-turning, assent, and sharing; I infer that the bodily orientation models divided allegiance. Alternatively, the syntactic parallel may only accumulate charges.",
+            "changed_reading": {
+              "before": "Association adds another object to otherwise intact belief.",
+              "after": "Association is also side-on belief: God and signs are acknowledged, yet competing orientations keep that acknowledgment from commanding the whole person."
+            }
+          },
+          {
+            "model_id": "delta-security-portfolio",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ن",
+              "غ ش و",
+              "ب غ ت",
+              "ش ع ر"
+            ],
+            "mechanism": "One root moves from experienced safety, through the focus belief verb, to challenged safety before an overwhelming sudden arrival. This activates the focus as a critique of insured belief whose supplementary protections generate misplaced security.",
+            "activation_trace": [
+              {
+                "source_ref": "12:99",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Concrete safety establishes the root's lived-security pole before the focus."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Settled security lets belief carry trust placement as well as assent."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B001",
+                "role": "Joint holding turns trust into a portfolio rather than exclusive entrustment."
+              },
+              {
+                "source_ref": "12:107",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "The interrogated feeling of safety tests whether preceding belief actually secures."
+              },
+              {
+                "source_ref": "12:107",
+                "root": "غ ش و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001088",
+                "branch_id": "B002",
+                "role": "An all-enveloping cover supplies the event that defeats partial protections."
+              },
+              {
+                "source_ref": "12:107",
+                "root": "ب غ ت",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000135",
+                "branch_id": "B001",
+                "role": "Sudden onset removes time to recruit secondary safeguards."
+              },
+              {
+                "source_ref": "12:107",
+                "root": "ش ع ر",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000798",
+                "branch_id": "B005",
+                "role": "Absent fine perception explains why felt security persists until surprise."
+              }
+            ],
+            "structural_cues": [
+              "The security-belief root recurs at 12:99, 12:106, and 12:107 as safety, belief, and challenged safety.",
+              "The focus directly precedes a question exposing unperceived vulnerability."
+            ],
+            "reader_inference": "The packet supplies the root chain, sharing, cover, surprise, and non-perception; I add that retained partners function as risk hedges. Simple root polysemy without a portfolio relation remains live.",
+            "changed_reading": {
+              "before": "The focus only contrasts correct and incorrect propositions.",
+              "after": "It may expose a security economy in which God is trusted while supplementary guarantors are retained, until sudden exposure overturns confidence."
+            }
+          },
+          {
+            "model_id": "delta-single-path-alignment",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ب ل",
+              "د ع و",
+              "ب ص ر",
+              "ت ب ع",
+              "س ب ح",
+              "ش ر ك"
+            ],
+            "mechanism": "The next configuration is directional: one path, a Godward call, inward sight, and followers tracing behind. Transcendence and explicit non-association close it, making undivided belief aligned movement rather than isolated opinion.",
+            "activation_trace": [
+              {
+                "source_ref": "12:106",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Assent is the focus element converted by the next scene into directed practice."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B001",
+                "role": "Joint participation supplies the divided alternative to one directed course."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "س ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000672",
+                "branch_id": "B001",
+                "role": "A traversable extended way gives exclusive belief a practical vector."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling and verbally inclining others supplies active Godward direction."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Inner sight makes the path knowingly oriented rather than inherited motion."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B003",
+                "role": "Tracing an effect step by step supplies coherent continuity for the followers."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Declaring transcendence removes divine agency from comparison with partners."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B002",
+                "role": "Explicitly negated partnership names this path as the focus countermodel."
+              }
+            ],
+            "structural_cues": [
+              "12:108 directly follows the focus and repeats its association root under first-person negation.",
+              "A singular path accommodates multiple followers without multiplying destination or authority."
+            ],
+            "reader_inference": "The packet supplies path, call, insight, following, transcendence, and non-association; I infer that they unpack the positive opposite of divided belief. Alternatively, they may describe only the messenger's commission.",
+            "changed_reading": {
+              "before": "Non-association merely subtracts extra objects from a creed.",
+              "after": "Non-association positively aligns perception, speech, movement, and communal following on one Godward course."
+            }
+          },
+          {
+            "model_id": "delta-evidential-practice",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ظ ر",
+              "ع ق ل",
+              "ق ص ص",
+              "ع ب ر",
+              "ص د ق",
+              "ه د ي",
+              "ء م ن"
+            ],
+            "mechanism": "The close opposes passing signs with looking, disciplined reasoning, trace-following story, case transfer, confirmation, and guidance. Belief becomes integrative evidence practice; association can include rival authorities fragmenting what evidence would join.",
+            "activation_trace": [
+              {
+                "source_ref": "12:106",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Settled assent is the focus outcome whose evidential formation is displayed later."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B008",
+                "role": "A non-unitary judgment supplies the failure mode of fragmented authority."
+              },
+              {
+                "source_ref": "12:109",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directing outer or inner sight supplies deliberate inspection."
+              },
+              {
+                "source_ref": "12:109",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "29"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "A faculty restraining ignorance turns observation into disciplined inference."
+              },
+              {
+                "source_ref": "12:111",
+                "root": "ق ص ص",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001232",
+                "branch_id": "B001",
+                "role": "Following a footprint makes narrative evidence a traceable sequence."
+              },
+              {
+                "source_ref": "12:111",
+                "root": "ع ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000974",
+                "branch_id": "B004",
+                "role": "Making one condition instruct another transfers story into present judgment."
+              },
+              {
+                "source_ref": "12:111",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Truth realized in promise and event supplies confirmation rather than bare assertion."
+              },
+              {
+                "source_ref": "12:111",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a way makes assembled evidence directional."
+              },
+              {
+                "source_ref": "12:111",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "23"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "The returning belief root marks those for whom the evidence becomes operative."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from passing and turning at 12:105 to traveling, looking, and reasoning at 12:109.",
+              "12:111 closes with story, lesson, confirmation, detail, guidance, and mercy for a believing people."
+            ],
+            "reader_inference": "The packet supplies ordered cognitive and narrative operations; I infer that belief names their integrated uptake and association can name divided interpretive authority. They may instead be benefits received after belief.",
+            "changed_reading": {
+              "before": "Belief is a static proposition beside an added partner.",
+              "after": "Belief also joins signs, aftermaths, and narrative traces into guidance; association leaves that integration answerable to competing authorities."
+            }
+          },
+          {
+            "model_id": "delta-strain-is-not-association",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ك",
+              "ي ء س",
+              "ظ ن ن",
+              "ك ذ ب",
+              "ن ص ر"
+            ],
+            "mechanism": "After explicit exclusion from association, messengers are placed under exhausted hope and contested supposition before aid. Association therefore cannot collapse into every episode of epistemic or affective strain.",
+            "activation_trace": [
+              {
+                "source_ref": "12:106",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Settled assent supplies the state distinguished from temporary strain."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B002",
+                "role": "The theological branch defines the charge as assigning partnership."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B002",
+                "role": "Explicit non-association establishes status before the pressure scene."
+              },
+              {
+                "source_ref": "12:110",
+                "root": "ي ء س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001690",
+                "branch_id": "B001",
+                "role": "Severed hope supplies severe affective pressure without adding a partner."
+              },
+              {
+                "source_ref": "12:110",
+                "root": "ظ ن ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000969",
+                "branch_id": "B003",
+                "role": "Doubt or conjecture supplies epistemic instability."
+              },
+              {
+                "source_ref": "12:110",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution of falsehood intensifies the crisis of reception."
+              },
+              {
+                "source_ref": "12:110",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Manifesting aid resolves pressure without making prior strain association."
+              }
+            ],
+            "structural_cues": [
+              "12:108 rejects association, while 12:110 soon stages messengers at the limit of hope and amid disputed cognition.",
+              "Aid arrives after the pressure, preserving an interval of strained confidence."
+            ],
+            "reader_inference": "The packet supplies non-association, exhausted hope, supposition, falsehood, and aid; I infer that divided allegiance differs from faith under pressure. Pronoun and passive relations remain live, but either broad construal preserves strain before aid.",
+            "changed_reading": {
+              "before": "Any uncertainty inside belief is already the divided state condemned.",
+              "after": "The condemned coexistence is divided allegiance or agency, not every passage through doubt, exhausted hope, or delayed confirmation."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-majority-as-coauthority",
+            "confidence": "medium",
+            "containment": "Surprising because a demographic quantifier becomes causal; valid through the focus majority and association words, numerical overpowering, and prior collective resolve. Render only as an exploratory social-authority layer, not lexical translation.",
+            "focus_anchor": "The focus couples its majority quantifier at word 3 with association at word 7.",
+            "activation_trace": [
+              {
+                "source_ref": "12:102",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B013",
+                "role": "Joining others upon a matter supplies coalition as a producer of settled judgment."
+              },
+              {
+                "source_ref": "12:103",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "Overpowering by number lets majority act as evidential pressure."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B002",
+                "role": "The same numerical force places social mass inside the diagnosis."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B001",
+                "role": "Joint participation lets the collective become a shareholding authority."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B008",
+                "role": "A judgment that is not one supplies the internal result of social coauthority."
+              }
+            ],
+            "changed_reading": {
+              "before": "Most individuals happen to hold an associating doctrine.",
+              "after": "The majority may itself become a partner whose collective weight co-authors what counts as trustworthy."
+            }
+          },
+          {
+            "outlier_id": "outlier-belief-caught-in-routing",
+            "confidence": "exploratory",
+            "containment": "Branch-distant because it activates road-groove and hunter-net senses inside a theological predicate; valid because association is flanked by passing, path, and trace-following. Mark it as spatial-material analogy, never an ordinary lexical substitute.",
+            "focus_anchor": "The association predicate at word 7 carries routing and entanglement branches while belief at word 2 is the redirected motion.",
+            "activation_trace": [
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B005",
+                "role": "Road grooves supply competing channels through which assent can be routed."
+              },
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B006",
+                "role": "A hunter's device supplies belief caught before exclusive alignment."
+              },
+              {
+                "source_ref": "12:105",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B001",
+                "role": "Passing onward gives the routing image movement."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "س ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000672",
+                "branch_id": "B001",
+                "role": "A traversable path supplies the unbranched counter-route."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B003",
+                "role": "Stepwise trace-following supplies disciplined movement beyond competing tracks."
+              }
+            ],
+            "changed_reading": {
+              "before": "Association is only conscious addition of another divine object.",
+              "after": "At image level, Godward assent can enter inherited tracks and become caught or rerouted before reorganizing conduct."
+            }
+          },
+          {
+            "outlier_id": "outlier-gesture-versus-allocation",
+            "confidence": "exploratory",
+            "containment": "Surprising because a human-directed bow appears near rejection of association; valid through the partnership charge and later allocation of guardianship, surrender, transcendence, and non-association. Use only as caution against classification by gesture alone; the bow's ritual status remains unresolved.",
+            "focus_anchor": "The theological-association branch at word 7 asks where ultimate worship and agency are allocated, not only which gesture is visible.",
+            "activation_trace": [
+              {
+                "source_ref": "12:106",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B002",
+                "role": "Assigning a divine partner supplies the category a gesture alone cannot settle."
+              },
+              {
+                "source_ref": "12:100",
+                "root": "س ج د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000675",
+                "branch_id": "B004",
+                "role": "Lowering the head supplies an embodied act whose theological allocation remains inferred."
+              },
+              {
+                "source_ref": "12:101",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "Taking charge of an affair locates ultimate guardianship in the address to God."
+              },
+              {
+                "source_ref": "12:101",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B012",
+                "role": "Handing over supplies self-entrustment as deeper commitment."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Declaring God free of comparison supplies the theological boundary."
+              },
+              {
+                "source_ref": "12:108",
+                "root": "ش ر ك",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000791",
+                "branch_id": "B002",
+                "role": "Explicit rejection of partnership shows that honor and divine association need not be mechanically identical."
+              }
+            ],
+            "changed_reading": {
+              "before": "Any lowered gesture toward another being mechanically proves association.",
+              "after": "The deeper diagnostic is allocation of ultimate worship, guardianship, and agency; a social gesture may remain ambiguous."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Adjacent circumstantial clauses recast association as divided orientation: signs register while the person remains turned elsewhere.",
+            "The safety-belief root chain activates belief as trust and association as protective backups exposed by sudden vulnerability.",
+            "The single-path configuration makes non-association an aligned practice of insight, call, and trace-following.",
+            "The closing evidence sequence distinguishes integrated belief from fragmented authority and temporary faith under strain."
+          ],
+          "what_was_special": "The exception preserves coexistence. Context spatializes it as side-turning and path choice, temporalizes it as security before surprise, socializes it as majority pressure, and tests it against strained but non-associating trust.",
+          "remaining_uncertainties": [
+            "The safety sense is strongly activated by recurrence, but the portfolio-of-guarantors arrow remains abductive.",
+            "Majority-as-coauthority and routing-trap are live branch analogies, not lexical substitutions.",
+            "The 12:110 pronoun and passive relations remain unresolved, though strain still differs from partnership.",
+            "The nearby bow supports a gesture-versus-allocation distinction, but the packet does not settle its ritual classification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Assent can coexist with divided participation.** ء م ن B002 and ش ر ك B001/B002 (sharing; associating a partner with God) are joined by the exception construction. The ayah preserves two concurrent states rather than treating belief and association as simple chronological opposites. I infer that acknowledgment may be real yet structurally partitioned.",
@@ -4054,18 +4913,23 @@
   "root_lexicon": {
     "root_000054": {
       "root_ar": "ء م ن",
+      "qac_roots_ar": [
+        "ء م ن"
+      ],
       "root_id": "root_000054",
-      "root_mapping": {
-        "root_id": "root_000054",
-        "root_norm": "ء م ن",
-        "source_root_norm": "أ م ن",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 365,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء م ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 365
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "46a1073a81403723f1ed8217c48f1f17374b0aa980e74f97a87ee94406ba5a2b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6522,18 +7386,23 @@
     },
     "root_001286": {
       "root_ar": "ك ث ر",
+      "qac_roots_ar": [
+        "ك ث ر"
+      ],
       "root_id": "root_001286",
-      "root_mapping": {
-        "root_id": "root_001286",
-        "root_norm": "ك ث ر",
-        "source_root_norm": "ك ث ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 166,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ث ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 166
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a55764fab8e62c9b1d1c1cc3f32fbe06355f59a1e9c4bb4984cb6d79a4b27444",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7969,18 +8838,23 @@
     },
     "root_000047": {
       "root_ar": "ء ل ه",
+      "qac_roots_ar": [
+        "ء ل ه"
+      ],
       "root_id": "root_000047",
-      "root_mapping": {
-        "root_id": "root_000047",
-        "root_norm": "ء ل ه",
-        "source_root_norm": "أ ل ه",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 2849,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ل ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 2849
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cddc3fb013629dbf62551cacd0717511b2ef7f01105f035350a417ade740cf38",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9308,18 +10182,23 @@
     },
     "root_000791": {
       "root_ar": "ش ر ك",
+      "qac_roots_ar": [
+        "ش ر ك"
+      ],
       "root_id": "root_000791",
-      "root_mapping": {
-        "root_id": "root_000791",
-        "root_norm": "ش ر ك",
-        "source_root_norm": "ش ر ك",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 130,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ر ك",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 130
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "de4db803f7cc254e98c94320b9200bc4744613a91120be8a446db6a9605bbb87",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11872,14 +12751,20 @@
       "words_total": 10,
       "words_resolved": 10,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 10
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2932,
+        "ayah_count": 111,
+        "row_count": 2925,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12385,11 +13270,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s012"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s12/packets/12_106.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s12/readers/reader_hft_a/12_106.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 196909,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -12463,19 +13361,37 @@
           "root_ids": [
             "root_000054"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء م ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000054",
+            "targets": [
+              {
+                "qac_root_norm": "ء م ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000054",
+                "furuq_root_norm": "ء م ن",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 365,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000054",
-              "root_norm": "ء م ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء م ن",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 365,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12500,19 +13416,37 @@
           "root_ids": [
             "root_001286"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ث ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001286",
+            "targets": [
+              {
+                "qac_root_norm": "ك ث ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001286",
+                "furuq_root_norm": "ك ث ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 166,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001286",
-              "root_norm": "ك ث ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ث ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 166,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12537,19 +13471,37 @@
           "root_ids": [
             "root_000047"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ل ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000047",
+            "targets": [
+              {
+                "qac_root_norm": "ء ل ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_000047",
+                "furuq_root_norm": "ء ل ه",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 2849,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000047",
-              "root_norm": "ء ل ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ل ه",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 2849,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 2,
+              "gloss_branch_count": 2,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12574,19 +13526,37 @@
           "root_ids": [
             "root_000791"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ر ك",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000791",
+            "targets": [
+              {
+                "qac_root_norm": "ش ر ك",
+                "target_rank": 1,
+                "furuq_root_id": "root_000791",
+                "furuq_root_norm": "ش ر ك",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 130,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000791",
-              "root_norm": "ش ر ك",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ر ك",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 130,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12613,10 +13583,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 20,
+        "dictionary_branches_kept": 20,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 13,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

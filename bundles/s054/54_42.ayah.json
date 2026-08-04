@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.897865+00:00",
+  "generated_at": "2026-08-04T22:29:54.213528+00:00",
   "surah": 54,
   "ayah": 42,
   "ayahRef": "54:42",
@@ -2463,7 +2463,8 @@
         "m-w-s054-a042-w001-01",
         "m-w-s054-a042-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:42:1"
+      "aligned_qac_word_ref_upstream": "54:42:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2477,7 +2478,8 @@
       "morpheme_ids": [
         "m-w-s054-a042-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:42:2"
+      "aligned_qac_word_ref_upstream": "54:42:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2493,7 +2495,8 @@
         "m-w-s054-a042-w002-02",
         "m-w-s054-a042-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:42:3"
+      "aligned_qac_word_ref_upstream": "54:42:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2509,7 +2512,8 @@
         "m-w-s054-a042-w003-01",
         "m-w-s054-a042-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:42:4"
+      "aligned_qac_word_ref_upstream": "54:42:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2523,7 +2527,8 @@
       "morpheme_ids": [
         "m-w-s054-a042-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:42:5"
+      "aligned_qac_word_ref_upstream": "54:42:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2541,7 +2546,8 @@
         "m-w-s054-a042-w004-03",
         "m-w-s054-a042-w004-04"
       ],
-      "aligned_qac_word_ref_upstream": "54:42:6"
+      "aligned_qac_word_ref_upstream": "54:42:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2555,7 +2561,8 @@
       "morpheme_ids": [
         "m-w-s054-a042-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:42:7"
+      "aligned_qac_word_ref_upstream": "54:42:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2569,7 +2576,8 @@
       "morpheme_ids": [
         "m-w-s054-a042-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:42:8"
+      "aligned_qac_word_ref_upstream": "54:42:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2583,7 +2591,8 @@
       "morpheme_ids": [
         "m-w-s054-a042-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:42:9"
+      "aligned_qac_word_ref_upstream": "54:42:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3676,7 +3685,851 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_42.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:42",
+      "window": [
+        "54:33",
+        "54:34",
+        "54:35",
+        "54:36",
+        "54:37",
+        "54:38",
+        "54:39",
+        "54:40",
+        "54:41",
+        "54:42",
+        "54:43",
+        "54:44",
+        "54:45"
+      ],
+      "ayah_count": 13,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:42",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-evidentiary-apprehension",
+            "confidence": "strong",
+            "focus_anchor": "The sequence \"denied Our signs, all of them, so We seized them\" joins an evidentiary act to repeated taking, then qualifies the taker as overpowering and fully able.",
+            "mechanism": "Takdhib actively impeaches every visible mark as false; the doubled taking construction answers that total accusation as culpability-bearing apprehension, while might defeats resistance and capacity completes the act.",
+            "activation_trace": [
+              {
+                "source_ref": "54:42",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution to falsehood makes the opening act an active impeachment of the signs rather than mere failure to notice them."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The visible-mark image supplies an evidentiary object that can be recognized and then repudiated."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Taking someone to account for a fault turns the cognate verb-noun repetition into answerable apprehension."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ع ز ز",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001008",
+                "branch_id": "B002",
+                "role": "Overpowering supplies the force that defeats attempted resistance to the apprehension."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effectual capability supplies completion, so the seizure is not merely threatened."
+              }
+            ],
+            "changed_reading": {
+              "before": "They disbelieved, so an overwhelmingly powerful punishment struck them.",
+              "after": "They charged every manifest sign with falsehood, so a fully executable apprehension answered that exhaustive evidentiary offense."
+            }
+          },
+          {
+            "model_id": "baseline-complete-measured-enclosure",
+            "confidence": "medium",
+            "focus_anchor": "Kulliha totalizes the rejected signs; the verb plus cognate noun closes the clause around taking; Muqtadir retains senses of measure and deliberate calibration.",
+            "mechanism": "Totality belongs first to the signs, then the repeated taking construction encloses the deniers. Aziz makes the enclosure unbreakable, but qadar gives it a determined extent and plan, distinguishing completeness from indiscriminate excess.",
+            "activation_trace": [
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Comprehensive enclosure makes the denial exhaustive and gives the mechanism its totalizing geometry."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B001",
+                "role": "Taking into possession supplies the closing grasp, intensified by the verb-noun repetition."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ع ز ز",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001008",
+                "branch_id": "B001",
+                "role": "Strength and unassailability make the grasp impossible for its objects to break."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A quantity reaching its proper limit bounds the seizure even while it is complete."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberate estimation and preparation make the bounded grasp designed rather than uncontrolled."
+              }
+            ],
+            "changed_reading": {
+              "before": "The paired epithets merely amplify unlimited force.",
+              "after": "Unanswerable force executes an enclosure exactly fitted to an exhaustive rejection; total does not mean unmeasured."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-exhausted-warning-access",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ر س ل",
+              "ي س ر",
+              "ق ر ء",
+              "ذ ك ر",
+              "ج ي ء"
+            ],
+            "mechanism": "The surrounding sequence repeatedly dispatches and delivers warning, then names the recitation opened for recollection. This turns \"all Our signs\" into an accessible, reiterated warning system whose channels were exhausted before apprehension.",
+            "activation_trace": [
+              {
+                "source_ref": "54:42",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "Visible marks anchor the warning system in the focus rather than letting context become an independent theme."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution to falsehood identifies the response made to the repeatedly available evidence."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that awakens caution gives the signs a preventive function before they become grounds for seizure."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Message and messenger imagery supplies an intentional delivery channel rather than accidental exposure."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease remove difficulty of access as the main explanation for rejection."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies a repeatable mode by which the warning signs are presented."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that causes recollection supplies the intended cognitive effect of repeated presentation."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Arrival confirms that warning reached its addressees before the focus reports total denial."
+              }
+            ],
+            "structural_cues": [
+              "The warning root recurs in 54:33, 54:36, 54:37, 54:39, and 54:41; 54:40 interrupts the cases with the ease-and-remembrance refrain."
+            ],
+            "reader_inference": "The packet supplies repeated warning, delivery, ease, recitation, recollection, and arrival; I infer that repetition plus accessibility increases answerability. Alternatively, the repetition may intensify rhetoric without marking procedural exhaustion.",
+            "changed_reading": {
+              "before": "The seizure answers one undifferentiated act of disbelief.",
+              "after": "The seizure closes a warning process repeatedly delivered, made accessible, and aimed at recollection, yet answered by total falsification."
+            }
+          },
+          {
+            "model_id": "delta-selective-calibrated-sovereignty",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ص ب",
+              "ن ج و",
+              "ج ز ي",
+              "ب ط ش"
+            ],
+            "mechanism": "The same local sequence sends a pelting storm, extracts a household, names reciprocal recompense, and warns of forceful taking. Against that bifurcation, Muqtadir reads as the capacity to sort outcomes exactly: comprehensive rejection receives seizure, but power does not erase distinctions among persons.",
+            "activation_trace": [
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Fault-linked taking anchors the differentiated outcomes in answerability."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberate estimation supplies the focus-side capacity for exact sorting."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ح ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000325",
+                "branch_id": "B003",
+                "role": "The pelting wind supplies the destructive stream from which a distinct group is extracted."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Salvation by separation provides the decisive counterimage to indiscriminate force."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Reciprocal recompense makes the two outcomes responsive to conduct rather than random allocation."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000242",
+                "branch_id": "B001",
+                "role": "The split mapped image of cutting gives recompense a separating edge that sharpens the sorting mechanism."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ب ط ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000126",
+                "branch_id": "B001",
+                "role": "Taking with overpowering force links the prior warning directly to the focus seizure without making force indiscriminate."
+              }
+            ],
+            "structural_cues": [
+              "The exception in 54:34 separates Lot's household from the same event; 54:35 generalizes recompense before 54:36 names the warned blow."
+            ],
+            "reader_inference": "The packet supplies one destructive event, explicit extraction, recompense, and warned force; I infer that qadar governs their differential allocation. Alternatively, rescue and seizure may be parallel acts without specifying one shared sorting operation.",
+            "changed_reading": {
+              "before": "Mighty capability means maximal undifferentiated impact.",
+              "after": "Mighty capability is exact sovereignty: it can extract, repay, and seize within one scene according to a measured distinction."
+            }
+          },
+          {
+            "model_id": "delta-visible-to-embodied-proof",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ر ي",
+              "ط م س",
+              "ع ي ن",
+              "ذ و ق",
+              "ع ذ ب"
+            ],
+            "mechanism": "Disputation rejects visible signs; the next scene erases eyes and commands bodily tasting of punishment. The focus seizure can therefore be read as an epistemic conversion: evidence refused at the level of sight returns as an overtaking condition that must be experienced.",
+            "activation_trace": [
+              {
+                "source_ref": "54:42",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The visible-mark branch establishes the rejected sensory mode in the focus."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B007",
+                "role": "A condition taking hold in the body lets the focus seizure become embodied rather than only externally coercive."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001416",
+                "branch_id": "B005",
+                "role": "Denial of truth through disputation supplies the active resistance to warning."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ط م س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000950",
+                "branch_id": "B002",
+                "role": "Loss of light and sight reverses the capacity by which visible marks would have been received."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The seeing eye identifies the sensory faculty erased in the reversal."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential tasting shifts knowledge from a disputable sign to an undergone state."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful punishment supplies the content that becomes unavoidable experience."
+              }
+            ],
+            "structural_cues": [
+              "54:36 moves from warning to disputation; 54:37 immediately moves from erased eyes to the imperative to taste, repeated again in 54:39."
+            ],
+            "reader_inference": "The packet supplies visible signs, truth-denying dispute, erased sight, and experiential tasting; I infer a reversal from refused perception to compelled embodiment. Alternatively, the sensory sequence may describe punishment without intentionally answering the epistemology of denial.",
+            "changed_reading": {
+              "before": "Seizure is an external overpowering that follows intellectual denial.",
+              "after": "Seizure converts rejected visible evidence into an overtaking bodily proof that can no longer be held at argumentative distance."
+            }
+          },
+          {
+            "model_id": "delta-appointed-threshold",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ح ر",
+              "ص ب ح",
+              "ب ك ر",
+              "ق ر ر"
+            ],
+            "mechanism": "Predawn marks extraction, while morning and first light mark the arrival of punishment that becomes settled. These adjacent temporal thresholds activate qadar's limit and planning in Muqtadir: the seizure is a scheduled transition whose timing separates escape from fixation.",
+            "activation_trace": [
+              {
+                "source_ref": "54:42",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A determined limit or term anchors the temporal reading in Muqtadir."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberate preparation supplies scheduling rather than accidental coincidence."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The predawn interval supplies the exit side of the temporal boundary."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B002",
+                "role": "Coming in the morning supplies the arrival side of the boundary."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B002",
+                "role": "The first part of a thing sharpens morning into a precise threshold rather than a vague period."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement make the arrived punishment persist beyond an instant of impact."
+              }
+            ],
+            "structural_cues": [
+              "Rescue is located at predawn in 54:34, while punishment reaches its objects at morning and is called settled in 54:38."
+            ],
+            "reader_inference": "The packet supplies contrasted time markers and settlement; I infer that Muqtadir's measure includes an appointed transition separating rescue from fixed punishment. Alternatively, the time words may only timestamp the prior episode without coloring the focus epithet.",
+            "changed_reading": {
+              "before": "The seizure is a sudden display of power with no internal temporal profile.",
+              "after": "The seizure arrives at a determined threshold and settles, while the same timetable has already opened a narrow interval for extraction."
+            }
+          },
+          {
+            "model_id": "delta-documentary-liability",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ء",
+              "ذ ك ر",
+              "ك ف ر",
+              "ب ر ء",
+              "ز ب ر"
+            ],
+            "mechanism": "A collected recitation and a reminder capable of functioning as a rights-document precede the focus; immediately after it, concealment or disavowal is challenged to produce a discharge in written records. This activates \"all Our signs\" as a complete evidentiary dossier and the seizure as enforcement where no exemption is recorded.",
+            "activation_trace": [
+              {
+                "source_ref": "54:42",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The sign as manifest mark, including a gathered unit of letters, anchors the documentary expansion in the focus object."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Completeness turns the signs into an exhaustive record rather than one isolated exhibit."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Fault-based accountability supplies the enforcement side of the documentary mechanism."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering and collection supplies dossier-like coherence to the signs."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B008",
+                "role": "A written instrument of right supplies the legal-documentary image."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal supplies the posture that would need a valid release from liability."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B004",
+                "role": "Release of a right supplies the exact counterfactual exemption the post-focus question demands."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and book imagery identifies the record in which a discharge would have to appear."
+              }
+            ],
+            "structural_cues": [
+              "The recitation-and-remembrance line at 54:40 precedes the focus, while 54:43 follows it with an explicit alternative asking whether an exemption exists in the records."
+            ],
+            "reader_inference": "The packet supplies collection, a rights-instrument branch, disavowal, release, and books; I infer a dossier-to-enforcement relation around the focus. Alternatively, 54:43 may only refute privilege without turning the signs themselves into a legal record.",
+            "changed_reading": {
+              "before": "The signs are separate wonders whose rejection triggers punishment.",
+              "after": "The signs form a complete, accessible evidentiary record; seizure enforces the resulting liability when no documentary discharge exists."
+            }
+          },
+          {
+            "model_id": "delta-corporate-shield-broken",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ج م ع",
+              "ن ص ر",
+              "ه ز م",
+              "و ل ي",
+              "د ب ر"
+            ],
+            "mechanism": "The post-focus group voices a belief in gathered strength and aid; the next line breaks the rank and turns it into exposed backs. The plural object of seizure is therefore not merely many individuals: the taking dismantles the corporate arrangement imagined as their shield.",
+            "activation_trace": [
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Comprehensive totality anchors the contrast with the group's claim to be a complete gathered whole."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B003",
+                "role": "Capture supplies the operation performed on the plural corporate object."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ع ز ز",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001008",
+                "branch_id": "B002",
+                "role": "Overpowering answers the coalition's projected superiority."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Speech as belief or doctrine makes the victory statement the group's operating confidence, not idle sound."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B010",
+                "role": "Gathering strength supplies the coalition's proposed mechanism of immunity."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid and manifested support name the outcome the coalition expects from its cohesion."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "Breaking and driving back a battle line converts collective integrity into fragmentation."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the reversal from confident advance to retreat."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B003",
+                "role": "Showing the back gives the broken coalition a concrete final posture."
+              }
+            ],
+            "structural_cues": [
+              "54:44 voices the collective victory claim; 54:45 answers it with passive defeat followed by a plural turning of the back."
+            ],
+            "reader_inference": "The packet supplies claimed cohesion, expected aid, rank-breaking, and retreat; I infer that the focus seizure names destruction of the group's protective organization. Alternatively, 54:45 may predict a separate battle without expanding the semantic object of 54:42.",
+            "changed_reading": {
+              "before": "The pronoun in \"We seized them\" denotes an aggregate of punished individuals.",
+              "after": "The seizure captures and dismantles the very collective formation by which the group imagines itself untouchable."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-denial-charge-caught",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates remote charge, animal-motion, and wrestling branches rather than the ordinary attribution-to-falsehood sense. It remains anchored in the focus roots, cognate taking, and the nearby broken-rank image; downstream prose should present it only as a kinetic analogy for denial's failed momentum, not as a replacement translation.",
+            "focus_anchor": "Alternative branches of k-dh-b picture a charge that proves false or motion that stops; k-l-l can picture advance versus recoil, while repeated taking can become a wrestling hold.",
+            "activation_trace": [
+              {
+                "source_ref": "54:42",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "The truth or failure of a charge turns denial into a launched campaign whose claim is tested in motion."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "Running and then stopping contributes the abrupt loss of momentum."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B010",
+                "role": "Advance versus recoil supplies the campaign's unstable directional choice."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B011",
+                "role": "A wrestling hold converts stopped momentum into bodily capture."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ع ز ز",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001008",
+                "branch_id": "B002",
+                "role": "Overpowering determines which side controls the final hold."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "The nearby broken-rank image gives contextual visibility to the otherwise remote kinetic analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "Denial is a static proposition followed by an unrelated overpowering event.",
+              "after": "Exploratorily, denial is a campaign that commits itself forward, loses truth and momentum, and is caught in the stronger party's hold."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Muqtadir changed raw force into calibrated sorting: the same power extracts, repays, and seizes without confusing the objects.",
+            "Visible signs changed into embodied proof when disputation, erased sight, and tasting formed a sensory reversal.",
+            "Recitation, remembrance as rights-document, and the question of exemption in records activated a documentary-liability reading.",
+            "The post-focus victory boast made the seizure a dismantling of collective protection, not only punishment of separate persons."
+          ],
+          "what_was_special": "The doubled taking construction and the Aziz-Muqtadir pair sustained force, accountability, exact measure, timing, and capture at once; the context then activated sensory, legal, temporal, and corporate mechanisms without requiring one final harmonized reading.",
+          "remaining_uncertainties": [
+            "The dawn-to-morning sequence may timestamp the Lot episode without semantically coloring Muqtadir.",
+            "The documentary branches of remembrance and written records may support a dossier analogy more strongly than a direct juridical reading of the focus.",
+            "The kinetic denial outlier depends on remote lexical branches and should remain an analogy rather than a lexical substitution."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Total rejection is answered by a doubled taking.** `ك ذ ب` B002 is declaring false; `ء ي ي` B003 is visible signs; `ك ل ل` B003 is totality/completeness; both verbal and cognate-object occurrences of `ء خ ذ` activate B001 taking into possession, B002 taking to account, and B003 capture. The sequence repeats the taking root after “all” signs were rejected. I infer that the cognate object makes seizure as comprehensive and undeniable as their denial was comprehensive. The ayah reads as capture, accounting, and possession converging in one act.\n\n2. **Might and measured capacity explain the taking’s efficacy.** `ع ز ز` B001 is might/honor and B002 overcoming/subduing; `ق د ر` B003 is capacity reaching effective control. The packet supplies attributes after the act. I infer that `عَزِيزٍ` supplies resistance-overcoming force while `مُّقْتَدِرٍ` supplies exact ability to effect the result. The taking is not undirected violence but force under complete capacity.",
@@ -4772,18 +5625,23 @@
   "root_lexicon": {
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6543,18 +7401,23 @@
     },
     "root_000074": {
       "root_ar": "ء ي ي",
+      "qac_roots_ar": [
+        "ء ي ي"
+      ],
       "root_id": "root_000074",
-      "root_mapping": {
-        "root_id": "root_000074",
-        "root_norm": "ء ي ي",
-        "source_root_norm": "أ ي ي",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 159,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ي ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 159
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4b1ba46e164304530f91e793757db75e6eb436887eae53bef8ad91e28c7c14a7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9350,18 +10213,23 @@
     },
     "root_001315": {
       "root_ar": "ك ل ل",
+      "qac_roots_ar": [
+        "ك ل ل"
+      ],
       "root_id": "root_001315",
-      "root_mapping": {
-        "root_id": "root_001315",
-        "root_norm": "ك ل ل",
-        "source_root_norm": "ك ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 373,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 373
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1b62652dd08706d73c357e6fbeca545210dd48618694d4690482d32c5e16a02f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11837,18 +12705,23 @@
     },
     "root_000018": {
       "root_ar": "ء خ ذ",
+      "qac_roots_ar": [
+        "ء خ ذ"
+      ],
       "root_id": "root_000018",
-      "root_mapping": {
-        "root_id": "root_000018",
-        "root_norm": "ء خ ذ",
-        "source_root_norm": "أ خ ذ",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 232,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء خ ذ",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 232
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4e3c8c5c92d1931ae1b35cc696dde9cb98dadf78a7e7e9ac9653f4d5751c84bd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15083,18 +15956,23 @@
     },
     "root_001008": {
       "root_ar": "ع ز ز",
+      "qac_roots_ar": [
+        "ع ز ز"
+      ],
       "root_id": "root_001008",
-      "root_mapping": {
-        "root_id": "root_001008",
-        "root_norm": "ع ز ز",
-        "source_root_norm": "ع ز ز",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 110,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ز ز",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 110
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cea2dca54d2237fb4a8d52a942f47335108f23fa6d81b75265f2d6f6f6387de3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -18025,18 +18903,23 @@
     },
     "root_001205": {
       "root_ar": "ق د ر",
+      "qac_roots_ar": [
+        "ق د ر"
+      ],
       "root_id": "root_001205",
-      "root_mapping": {
-        "root_id": "root_001205",
-        "root_norm": "ق د ر",
-        "source_root_norm": "ق د ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 132,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق د ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 132
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b89054c1610798545d83bc0daa9270b52d3b752c826b0f87740065314061fa27",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -20389,14 +21272,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -20700,11 +21589,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_42.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_42.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 104046,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -20780,19 +21682,37 @@
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20817,19 +21737,37 @@
           "root_ids": [
             "root_000074"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ي ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000074",
+            "targets": [
+              {
+                "qac_root_norm": "ء ي ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000074",
+                "furuq_root_norm": "ء ي ي",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 159,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000074",
-              "root_norm": "ء ي ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ي ي",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 159,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20854,19 +21792,37 @@
           "root_ids": [
             "root_001315"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001315",
+            "targets": [
+              {
+                "qac_root_norm": "ك ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001315",
+                "furuq_root_norm": "ك ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 373,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001315",
-              "root_norm": "ك ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 373,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20891,19 +21847,37 @@
           "root_ids": [
             "root_000018"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء خ ذ",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000018",
+            "targets": [
+              {
+                "qac_root_norm": "ء خ ذ",
+                "target_rank": 1,
+                "furuq_root_id": "root_000018",
+                "furuq_root_norm": "ء خ ذ",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 232,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000018",
-              "root_norm": "ء خ ذ",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء خ ذ",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 232,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20928,19 +21902,37 @@
           "root_ids": [
             "root_001008"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ز ز",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001008",
+            "targets": [
+              {
+                "qac_root_norm": "ع ز ز",
+                "target_rank": 1,
+                "furuq_root_id": "root_001008",
+                "furuq_root_norm": "ع ز ز",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 110,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001008",
-              "root_norm": "ع ز ز",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ز ز",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 110,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20965,19 +21957,37 @@
           "root_ids": [
             "root_001205"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق د ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001205",
+            "targets": [
+              {
+                "qac_root_norm": "ق د ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001205",
+                "furuq_root_norm": "ق د ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 132,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001205",
-              "root_norm": "ق د ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق د ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 132,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21004,10 +22014,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 61,
+        "dictionary_branches_kept": 61,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 52,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.329416+00:00",
+  "generated_at": "2026-08-04T22:29:59.552456+00:00",
   "surah": 56,
   "ayah": 38,
   "ayahRef": "56:38",
@@ -1386,7 +1386,8 @@
       "morpheme_ids": [
         "m-w-s056-a038-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:38:1"
+      "aligned_qac_word_ref_upstream": "56:38:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1400,7 +1401,8 @@
       "morpheme_ids": [
         "m-w-s056-a038-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:38:2"
+      "aligned_qac_word_ref_upstream": "56:38:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1416,7 +1418,8 @@
         "m-w-s056-a038-w002-01",
         "m-w-s056-a038-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:38:3"
+      "aligned_qac_word_ref_upstream": "56:38:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1785,7 +1788,715 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_38.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:38",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:38",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_blessed_company",
+            "confidence": "strong",
+            "focus_anchor": "The beneficiary lam governs ashab, whose genitive complement is al-yamin.",
+            "mechanism": "The phrase assigns an unstated good to a cohort constituted by sustained association with blessing and felicity.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Abiding companionship supplies the relation that constitutes the cohort."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing and felicity supply the favorable quality with which the cohort abides."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare label: the companions of the right.",
+              "after": "A beneficiary class constituted by abiding association with blessedness."
+            }
+          },
+          {
+            "model_id": "baseline_right_side_alignment",
+            "confidence": "strong",
+            "focus_anchor": "Ashab and yamin form a relational phrase after the beneficiary lam.",
+            "mechanism": "Companionship becomes spatial alignment: the group keeps to or occupies the right-hand side and is the destination of what is assigned there.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and habitual association make right-sidedness a stable alignment."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B002",
+                "role": "The right hand, right side, and what is given by the right supply the spatial and receptive axis."
+              }
+            ],
+            "changed_reading": {
+              "before": "Right is only an evaluative epithet.",
+              "after": "The group is held in a concrete right-side alignment and positioned to receive."
+            }
+          },
+          {
+            "model_id": "baseline_protected_right",
+            "confidence": "medium",
+            "focus_anchor": "The roots of ashab and yamin can jointly express preserving accompaniment and effective right.",
+            "mechanism": "The cohort belongs under an accompanying power that preserves it; yamin is both rightful claim and the strength able to secure that claim.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B002",
+                "role": "Preservation through accompaniment supplies the mode by which the cohort is kept."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "Strength, defense, and the side from which right proceeds supply protective jurisdiction."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase merely names fortunate people.",
+              "after": "It names people kept within the effective protection of a rightful power."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_refrain_becomes_closure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن"
+            ],
+            "mechanism": "The designation is doubled as an exclamatory heading at 56:27, then returns once with a beneficiary lam at 56:38. The return closes the intervening inventory by assigning it to the announced cohort.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "The focus occurrence supplies the companion cohort that receives the backward-reaching allocation."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Repeated companionship establishes the cohort as the section's announced subject."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Repeated blessedness marks the heading whose benefits the focus clause finally allocates."
+              }
+            ],
+            "structural_cues": [
+              "56:27 repeats the complete designation twice; 56:38 repeats it once after 56:28-37 and prefixes the beneficiary lam."
+            ],
+            "reader_inference": "The packet supplies a doubled heading and a later lam-clause; I infer a heading-to-closure bracket whose contents flow to the named beneficiaries. A live alternative is simple resumption of the class label.",
+            "changed_reading": {
+              "before": "A self-contained class name.",
+              "after": "The closing recipient clause for the whole descriptive sequence opened by the doubled refrain."
+            }
+          },
+          {
+            "model_id": "delta_roughness_righted_into_order",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س د ر",
+              "خ ض د",
+              "ط ل ح",
+              "ن ض د"
+            ],
+            "mechanism": "Images of visual confusion and weariness are paired with de-thorning, blunting, and orderly joining. Yamin therefore activates not only good fortune but a righting operation that makes difficult material safely inhabitable for the cohort.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing anchors the favorable result of the contextual transformations."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "س د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000688",
+                "branch_id": "B003",
+                "role": "A film over sight and resulting confusion supply one latent impediment in the scene."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Removing thorns and breaking their edge supplies the operation that disarms harm."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B003",
+                "role": "Weariness and wasting supply the second latent hardship pole."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Joining item to item in ordered arrangement turns difficult matter into accessible abundance."
+              }
+            ],
+            "structural_cues": [
+              "56:28-29 present two parallel noun-modifier pairs, placing khadid after sidr and mandud after talh."
+            ],
+            "reader_inference": "The packet supplies impediment, de-thorning, weariness, and ordered joining; I infer that the paired modifiers enact accommodation for the beneficiaries. The alternative is a static botanical catalogue with no transformational arrow.",
+            "changed_reading": {
+              "before": "The right-companions are fortunate by fixed status.",
+              "after": "They are those for whom rough or confusing matter has been righted into safe, usable order."
+            }
+          },
+          {
+            "model_id": "delta_continuous_maintenance",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ظ ل ل",
+              "م د د",
+              "م و ه",
+              "س ك ب"
+            ],
+            "mechanism": "Shelter is extended and water is delivered in continuing outpour. This turns preservation-by-accompaniment from a possible root image into the operating infrastructure of the cohort's condition.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B002",
+                "role": "Preserving accompaniment anchors the focus as a condition of being continuously kept."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B004",
+                "role": "Protective shelter supplies the covering component of maintenance."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "Connected increase that supports another supplies replenishing extension."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Conveying water by irrigation and pouring supplies active delivery."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Adherence and continuance make the outpour a sustained condition rather than an event."
+              }
+            ],
+            "structural_cues": [
+              "56:30-31 coordinate extended shade and poured water in adjacent parallel phrases."
+            ],
+            "reader_inference": "The packet supplies cover, connected support, water delivery, and continuance; I infer a maintenance system that keeps the beneficiaries. A live alternative is that these are independent static luxuries.",
+            "changed_reading": {
+              "before": "The companions are simply located amid pleasant objects.",
+              "after": "Their companionship with blessing is an actively maintained state of shelter and replenishment."
+            }
+          },
+          {
+            "model_id": "delta_unblocked_receipt",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ك ه",
+              "ك ث ر",
+              "ق ط ع",
+              "م ن ع"
+            ],
+            "mechanism": "Pleasant fruit grows numerous while ending, severance, and barriers are explicitly negated. Yamin shifts from mere side to the receiving hand and rightful claim through which provision reaches its beneficiary without interruption.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B002",
+                "role": "The right hand and what is given by it anchor the cohort at the point of receipt."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "Right and effective power supply the protected claim that prevents interception."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Pleasant fruit supplies the concrete good being received."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Numerical increase makes the provision abundant rather than token."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Ending and cessation supply what the first negation cancels."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "A barrier between a person and the desired thing supplies what the second negation removes."
+              }
+            ],
+            "structural_cues": [
+              "56:32 names abundant fruit; 56:33 follows with the paired negation 'not ended and not withheld.'"
+            ],
+            "reader_inference": "The packet supplies abundance plus canceled cessation and obstruction; I infer that the beneficiary lam marks durable access and yamin the receiving or rightful side. The alternative limits the pair to qualities of fruit.",
+            "changed_reading": {
+              "before": "Right denotes where the cohort stands.",
+              "after": "Right is also the receiving side of a provision stream that cannot be cut off or blocked."
+            }
+          },
+          {
+            "model_id": "delta_created_peer_companionship",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ر ش",
+              "ر ف ع",
+              "ن ش ء",
+              "ج ع ل",
+              "ب ك ر",
+              "ع ر ب",
+              "ت ر ب"
+            ],
+            "mechanism": "A raised furnishing is followed by emphatic creation, transformation into first-state freshness, loving relation, and equality in age and companionship; the final lam assigns that constructed relational setting to the right-companions. Ashab now echoes the companionship prepared for them.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship anchors both the beneficiary cohort and the reciprocal social form prepared for it."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "Furnishings and bedding supply the prepared relational setting."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising supplies the setting's elevation into a prepared state."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Repeated creating and bringing into being supply emphatic new constitution."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making a thing into a state supplies the directional transformation."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B004",
+                "role": "Virginity and untouchedness specify the fresh state produced."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B005",
+                "role": "The loving woman supplies affection rather than merely co-location."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "Equality in age and companionship supplies peer reciprocity and directly reactivates ashab."
+              }
+            ],
+            "structural_cues": [
+              "56:35-36 use feminine plural objects in a creation-and-making chain; 56:37 gives two accusative descriptors; 56:38 follows as a beneficiary lam-clause."
+            ],
+            "reader_inference": "The packet supplies furnishing, elevation, creation, transformation, loving relation, equality, and the terminal lam; I infer that the lam scopes backward over the chain and that tirb's companionship echoes ashab. A live alternative gives the lam only narrow attachment to the nearest descriptors.",
+            "changed_reading": {
+              "before": "A self-sufficient label for one social group.",
+              "after": "The endpoint of a production and allocation chain: newly constituted loving peer-companionship is prepared for this cohort."
+            }
+          },
+          {
+            "model_id": "delta_cross_temporal_assembly",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ث ل ل",
+              "ء و ل",
+              "ء خ ر"
+            ],
+            "mechanism": "Two assembled multitudes, one from the first and one from the later, unfold the singular class name across temporal partitions. The split mapping of awwal adds both beginning and succession without a gap.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Abiding company anchors the one relation shared by temporally distinct groups."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "An assembled multitude supplies the first concrete population of the class."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence locate that multitude at the opening temporal pole."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "One thing following another supplies temporal succession across the split root mapping."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The repeated assembled multitude gives the later population equal structural weight."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness after the first supplies the opposite temporal pole."
+              }
+            ],
+            "structural_cues": [
+              "56:39-40 are parallel clauses repeating thulla and min while contrasting the first with the later."
+            ],
+            "reader_inference": "The packet supplies two assembled groups, beginning, succession, and laterness; I infer that the focus designation spans historical sequence while preserving one relation. The alternative treats the two populations as fixed counts with no continuity claim.",
+            "changed_reading": {
+              "before": "A single undifferentiated company.",
+              "after": "One right-associated company instantiated as substantial cohorts across both early and later time."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_attachment_survives_transformation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the material hide-with-hair sense of sahiba rather than ordinary social company. It remains anchored through the focus root and the nearby bend-without-breaking and negated severance images; downstream prose should present it only as a material analogy of retained attachment, never as the phrase's lexical gloss.",
+            "focus_anchor": "Ashab activates a branch in which a hide remains accompanied by its hair through processing.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B006",
+                "role": "A hide retaining hair during skinning or tanning supplies attachment that survives transformation."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B001",
+                "role": "Soft bending without a clean break supplies nonsevering modification."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B001",
+                "role": "Severance supplies the operation explicitly negated by the local construction."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Continuance supplies the positive state preserved when severance is refused."
+              }
+            ],
+            "changed_reading": {
+              "before": "Companionship is only a relation among persons.",
+              "after": "Exploratorily, the phrase participates in a material logic where beneficial transformation removes harm while preserving attachment and continuity."
+            }
+          },
+          {
+            "outlier_id": "outlier_right_side_death_reopened",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates yamin's marginal death-by-right-side-laying branch, not the phrase's ordinary class sense. It remains anchored through that exact focus branch and the adjacent emphatic creation sequence; downstream prose should qualify it as a possible resurrectional undertone, not identify the right-companions with corpses.",
+            "focus_anchor": "Yamin carries a branch in which death is named from laying the dead person on the right side.",
+            "activation_trace": [
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B007",
+                "role": "Death associated with right-side repose supplies a terminal-state undertone in the focus word."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Emphatic creation supplies the reversal from terminal repose to newly constituted existence."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B002",
+                "role": "The first state or beginning supplies renewed outset after the terminal image."
+              }
+            ],
+            "changed_reading": {
+              "before": "The right-companions are only a present social class.",
+              "after": "Exploratorily, right-side terminal repose is answered by a newly initiated creation made for this company."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The doubled heading at 56:27 and terminal lam at 56:38 turn a class label into the closing allocation of the intervening catalogue.",
+            "The 56:34-38 chain makes newly created, loving, equal companionship the prepared relational good assigned to the cohort.",
+            "Extended maintenance and the negation of both cessation and obstruction make right-sidedness a condition of continuous, protected receipt.",
+            "The two following multitudes distribute one companion identity across first and later populations."
+          ],
+          "what_was_special": "The focus ayah is only a recipient phrase, yet its roots and terminal position convert a static name into several mechanisms at once: blessed association, maintained access, reciprocal companionship, rightful receipt, and cross-temporal assembly.",
+          "remaining_uncertainties": [
+            "The beneficiary lam may scope narrowly over 56:37, over the 56:34-37 creation chain, or over the full 56:28-37 catalogue.",
+            "Yamin's blessed, spatial, receptive, and rightful-force branches coexist without the focus phrase selecting only one.",
+            "The material-retention and death-recreation outliers are branch-backed analogies, not proposed lexical replacements."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The preceding created state is assigned to a companion-group.** `ص ح ب` **B001** supplies close association and `ي م ن` **B001** blessing. The dative `لـ` attaches 56:35–37 to the right-side group, giving those details a beneficiary. **Abductive move:** I infer that origination serves the group’s relational life rather than standing as an isolated display. **Reading change:** this short ayah retroactively turns the preceding descriptions into directed provision.\n\n2. **Protective accompaniment for the right side.** `ص ح ب` **B002** supplies protective accompaniment and `ي م ن` **B002** the right side. **Abductive move:** I infer that companionship itself is among the group’s protections, consistent with the absence of harmful speech and withholding. **Reading change:** the phrase marks not only ownership but an accompanying social safeguard.",
@@ -2531,18 +3242,23 @@
   "root_lexicon": {
     "root_000844": {
       "root_ar": "ص ح ب",
+      "qac_roots_ar": [
+        "ص ح ب"
+      ],
       "root_id": "root_000844",
-      "root_mapping": {
-        "root_id": "root_000844",
-        "root_norm": "ص ح ب",
-        "source_root_norm": "ص ح ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 79,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ح ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 79
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7c7a3478ca99842d1e405bd2bdea8b2b46a3abba3aac7be50cedd19384a0edbd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4849,18 +5565,23 @@
     },
     "root_001698": {
       "root_ar": "ي م ن",
+      "qac_roots_ar": [
+        "ي م ن"
+      ],
       "root_id": "root_001698",
-      "root_mapping": {
-        "root_id": "root_001698",
-        "root_norm": "ي م ن",
-        "source_root_norm": "ي م ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 30,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي م ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 30
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "bf0c6ae98b92d8d6b6a37cf7d40ca761d5fabe1e6f7f525e5293bd57e493012c",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6124,14 +6845,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6413,11 +7140,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_38.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_38.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 64250,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6490,19 +7230,37 @@
           "root_ids": [
             "root_000844"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ح ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000844",
+            "targets": [
+              {
+                "qac_root_norm": "ص ح ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000844",
+                "furuq_root_norm": "ص ح ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 79,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000844",
-              "root_norm": "ص ح ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ح ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 79,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6527,19 +7285,37 @@
           "root_ids": [
             "root_001698"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي م ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001698",
+            "targets": [
+              {
+                "qac_root_norm": "ي م ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001698",
+                "furuq_root_norm": "ي م ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 30,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001698",
-              "root_norm": "ي م ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي م ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 30,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6566,10 +7342,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 15,
+        "dictionary_branches_kept": 15,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 8,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

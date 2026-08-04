@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.795080+00:00",
+  "generated_at": "2026-08-04T22:29:58.382201+00:00",
   "surah": 56,
   "ayah": 12,
   "ayahRef": "56:12",
@@ -951,7 +951,8 @@
       "morpheme_ids": [
         "m-w-s056-a012-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:12:1"
+      "aligned_qac_word_ref_upstream": "56:12:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -965,7 +966,8 @@
       "morpheme_ids": [
         "m-w-s056-a012-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:12:2"
+      "aligned_qac_word_ref_upstream": "56:12:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -981,7 +983,8 @@
         "m-w-s056-a012-w003-01",
         "m-w-s056-a012-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:12:3"
+      "aligned_qac_word_ref_upstream": "56:12:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1676,7 +1679,906 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_12.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:12",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:12",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_bounded_benefit",
+            "confidence": "strong",
+            "focus_anchor": "The construct phrase joins جَنّات, a tree-covered enclosure, to النعيم, a state of beneficent well-being.",
+            "mechanism": "Vegetative cover bounds a habitable interior, while نعيم names the favorable condition delivered within it; place and benefit are mutually specifying.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden hidden by its own trees supplies the bounded, vegetative interior."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and benefaction supply the quality and benefit filling that interior."
+              }
+            ],
+            "changed_reading": {
+              "before": "They are in pleasant gardens.",
+              "after": "They inhabit tree-bounded interiors whose defining content is a beneficent condition."
+            }
+          },
+          {
+            "model_id": "base_protected_ease",
+            "confidence": "medium",
+            "focus_anchor": "جَنّات can activate protective covering, while النعيم can activate softness and unstrained living.",
+            "mechanism": "The enclosure removes exposure and the نعيم removes friction; bliss is therefore an operative condition of protected ease, not decoration alone.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "The protective shield image turns the garden's cover into active insulation from harm."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease of life make the protected interior low-friction and restful."
+              }
+            ],
+            "changed_reading": {
+              "before": "Bliss is an elevated feeling located in gardens.",
+              "after": "Bliss is a shielded mode of living in which exposure and strain have been removed."
+            }
+          },
+          {
+            "model_id": "base_ecology_of_fit",
+            "confidence": "medium",
+            "focus_anchor": "The focus roots permit dense plant growth and a place that agrees with its inhabitant and makes settlement pleasant.",
+            "mechanism": "Flourishing cover creates a microenvironment fitted to dwelling; نعيم is the successful fit between habitat and inhabitant.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B011",
+                "role": "Dense, vigorous plant growth supplies the self-thickening ecology of the gardens."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A place agreeing with its occupant supplies the relation of environmental fit and pleasant settlement."
+              }
+            ],
+            "changed_reading": {
+              "before": "The gardens contain generic luxury.",
+              "after": "The gardens are flourishing habitats precisely fitted to those who settle in them."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_after_dissolution",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق ع",
+              "ر ج ج",
+              "ج ب ل",
+              "ه ب و",
+              "ب ث ث"
+            ],
+            "mechanism": "The preceding sequence removes stability from the exposed world: the severe event lands, the ground oscillates, hard elevations lose cohesion, and their matter disperses. Against that process, the focus enclosure reads as a counter-domain that preserves coherent, favorable inhabitation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective covering anchors the garden as an enclosure resistant to exposure."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition names the viability retained inside the enclosure."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B002",
+                "role": "A severe descending event supplies the initiating pressure from which protection matters."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Agitation until instability supplies the loss of a dependable ground."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The hard elevated mass supplies the strongest prior image of exposed solidity."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine scattered dust supplies the terminal loss of that solidity."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Dispersion supplies the outward movement opposed by a containing garden."
+              }
+            ],
+            "structural_cues": [
+              "56:1-6 forms a material sequence from occurrence through shaking and pulverization to dispersion before the focus."
+            ],
+            "reader_inference": "The packet supplies collapse and dispersion followed by a covered, favorable place; I supply the contrastive arrow that makes the garden a preserving counter-domain. A live alternative is simple temporal replacement rather than functional protection.",
+            "changed_reading": {
+              "before": "The garden is a pleasant destination.",
+              "after": "The garden is the coherent protected interior disclosed after exposed structures lose all coherence."
+            }
+          },
+          {
+            "model_id": "delta_ranked_habitation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز و ج",
+              "س ب ق",
+              "ق ر ب",
+              "ث ل ل",
+              "ء و ل",
+              "ق ل ل",
+              "ء خ ر"
+            ],
+            "mechanism": "Sorting into classes is followed by precedence, privileged nearness, and cohorts distributed asymmetrically across earlier and later people. The focus gardens consequently become an allocated social station, not an undifferentiated landscape.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The bounded garden supplies the inhabitable station into which a class can be placed."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "Pleasant settlement in a fitting place makes the station a matched habitation."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B004",
+                "role": "A class or kind supplies the social partition preceding the garden assignment."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Repeated precedence supplies the defining movement of the focus group."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Privileged nearness supplies the group's relational rank immediately before its location is named."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "An assembled company makes garden inhabitation collective rather than solitary."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Priority and beginning supply one temporal cohort of the assembled residents."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Small number supplies the asymmetry in the garden's cross-temporal population."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Later succession supplies the second temporal cohort."
+              }
+            ],
+            "structural_cues": [
+              "56:10-12 is a tight identity-rank-location sequence, followed in 56:13-14 by the residents' temporal distribution."
+            ],
+            "reader_inference": "The packet supplies classing, precedence, nearness, location, and cohort counts; I infer that these relations organize access to the garden as a station. Alternatively, the garden may remain a neutral location merely listed after rank.",
+            "changed_reading": {
+              "before": "Gardens of bliss are available as a generic reward-space.",
+              "after": "Gardens of bliss are the fitted collective station of those defined by precedence and nearness across generations."
+            }
+          },
+          {
+            "model_id": "delta_relational_hospitality",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ر ر",
+              "و ض ن",
+              "و ك ء",
+              "ق ب ل",
+              "ط و ف",
+              "خ ل د",
+              "ع ي ن"
+            ],
+            "mechanism": "Interwoven supports hold reclining bodies in mutual visibility while service circulates from a continuing source. The garden's bliss becomes a durable hospitality system whose spatial design joins rest, relation, and replenishment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The enclosed garden supplies the room within which hospitality is spatially organized."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A place fitted to pleasant settlement names the success of the whole arrangement."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "A place of settled reclining supplies bodily rest as an installed feature."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tightly interwoven construction supplies durable material support."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B004",
+                "role": "Leaning on a support makes ease bodily and dependent on the prepared setting."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Face-to-face orientation makes the setting relational rather than privately consumptive."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Circulation around the residents turns provision into a continuous service loop."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Persistence without rapid decay makes that service structurally durable."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing source supplies replenishment rather than a finite stock."
+              }
+            ],
+            "structural_cues": [
+              "56:15-18 moves from support and posture to mutual orientation, circulating attendants, vessels, and a source."
+            ],
+            "reader_inference": "The packet supplies furniture, posture, facing, circulation, persistence, and a spring; I connect them as one hospitality infrastructure that realizes نعيم. They could instead remain an additive inventory of luxuries.",
+            "changed_reading": {
+              "before": "The garden is a container holding comforts.",
+              "after": "The garden is an engineered social habitat that continually supports rest, mutual presence, and replenishment."
+            }
+          },
+          {
+            "model_id": "delta_choice_without_cost",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص د ع",
+              "ف ك ه",
+              "خ ي ر",
+              "ش ه و"
+            ],
+            "mechanism": "Pleasure is selected in response to desire, yet consumption does not fracture or drain the consumer. نعيم is sharpened into agency without aftercost: appetite, provision, and bodily integrity remain aligned.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Soft, easy living anchors bliss as freedom from bodily friction."
+              },
+              {
+                "source_ref": "56:19",
+                "root": "ص د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000850",
+                "branch_id": "B007",
+                "role": "The headache image, explicitly negated in the source, defines ease by excluding a consumptive aftereffect."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B001",
+                "role": "Pleasant well-being joins the offered fruit to the focus term's experiential quality."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Active choosing supplies resident agency within abundance."
+              },
+              {
+                "source_ref": "56:21",
+                "root": "ش ه و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000825",
+                "branch_id": "B001",
+                "role": "The soul's inclination supplies desire as the demand to which provision responds."
+              }
+            ],
+            "structural_cues": [
+              "56:19 coordinates two negated harms; the branchless root ن ز ف at word 5 adds a second explicit non-depletion cue.",
+              "56:20-21 repeats the relative construction linking provisions to what residents choose and desire."
+            ],
+            "reader_inference": "The packet supplies negated harm, choice, desire, and provision; I infer a feedback system in which satisfaction preserves agency and integrity. A weaker alternative is that the lines list independent benefits.",
+            "changed_reading": {
+              "before": "Bliss means having abundant desirable objects.",
+              "after": "Bliss means desire-responsive abundance whose enjoyment neither overrides choice nor exacts bodily depletion."
+            }
+          },
+          {
+            "model_id": "delta_preserved_radiance",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ث ل",
+              "ل ء ل ء",
+              "ك ن ن"
+            ],
+            "mechanism": "The comparison to a shining pearl kept under protecting cover echoes the focus root's concealed garden. Cover is recoded from mere visual occlusion into preservation: the interior stays radiant because it is sheltered.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment in the focus root supplies the covered interior awaiting contextual reinterpretation."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B013",
+                "role": "Delight of the eye links the protected interior to a visual value that cover need not extinguish."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Explicit similitude licenses transfer of the pearl-cover relation without equating its objects."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ل ء ل ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001337",
+                "branch_id": "B002",
+                "role": "Radiant gleaming supplies the value preserved beneath cover."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment supplies the preserving function that sharpens the garden's own cover."
+              }
+            ],
+            "structural_cues": [
+              "56:23 places the pearl and its protected state inside one explicit comparison immediately after the garden's social and material contents."
+            ],
+            "reader_inference": "The packet supplies two distinct roots with convergent covering images plus protected brilliance; I infer that the later image retroactively specifies garden-cover as preservation. The comparison may apply only to the immediately named companions and leave جَنّات unchanged.",
+            "changed_reading": {
+              "before": "The garden is hidden because foliage blocks sight.",
+              "after": "The garden's hiddenness is preservative cover under which vulnerable radiance remains intact."
+            }
+          },
+          {
+            "model_id": "delta_recompensed_habitat",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ز ي",
+              "ع م ل"
+            ],
+            "mechanism": "Recompense makes prior action correspond to the favorable habitat. The garden is not only bestowed surplus; it is a realized return in which benefaction takes spatial and ecological form.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Benefaction delivered to another anchors the garden's bliss as a conferred good."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The concrete garden gives the conferred good a habitable material form."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Answering an act with its recompense supplies the return relation."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B004",
+                "role": "The worker's wage supplies a concrete branch analogy for benefit corresponding to work."
+              }
+            ],
+            "structural_cues": [
+              "56:24 grammatically presents recompense for what they had been doing after the garden's contents have been unfolded."
+            ],
+            "reader_inference": "The packet supplies recompense, work, and a beneficent habitat; I infer that the habitat embodies the return rather than merely accompanying it. An alternative is that 56:24 states entitlement without describing the garden's internal mechanism.",
+            "changed_reading": {
+              "before": "The garden is an unstructured gift.",
+              "after": "The garden is benefaction materialized as a corresponding return for purposeful action."
+            }
+          },
+          {
+            "model_id": "delta_acoustic_safety",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و",
+              "ء ث م",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "The habitat regulates what reaches its residents: useless, noisy, and incriminating discourse is absent, while spoken peace repeats. The garden's cover and softness therefore include an acoustic-social membrane that admits safety-producing speech.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective covering anchors the garden as a membrane against social as well as physical harm."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Soft ease names the unabrasive condition created by the speech environment."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory reception makes environmental speech part of what residents physically undergo."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed noisy clamor, explicitly excluded, supplies the acoustic friction removed from bliss."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Loading guilt onto another, also excluded, supplies the social-moral injury filtered out."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Uttered speech supplies the positive content that replaces excluded noise and accusation."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Repeated freedom from harm makes speech actively reproduce the garden's safety."
+              }
+            ],
+            "structural_cues": [
+              "56:25-26 uses exclusion followed by exception, then repeats سلاما, creating an acoustic filter and replacement pattern."
+            ],
+            "reader_inference": "The packet supplies hearing, excluded harmful discourse, and repeated safety-speech; I infer that speech causally maintains the habitat's نعيم. A live alternative is a narrower etiquette description with no membrane-like function.",
+            "changed_reading": {
+              "before": "The garden protects bodies and supplies pleasant objects.",
+              "after": "The garden also protects attention and relation by excluding injurious speech and circulating verbal safety."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_regenerative_chamber",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the fetus sense of ج ن ن beneath the ordinary plural gardens and links it across distant verses to generation and protective cover. It remains anchored by explicit packet branches for the focus root and both contextual roots, but downstream prose should present it only as a regenerative spatial analogy, not as a lexical replacement for gardens.",
+            "focus_anchor": "The focus garden can, at branch distance, resemble a protected interior in which life or form is carried toward durable emergence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B007",
+                "role": "The fetus hidden in the womb supplies a form-distant image of protected development inside the garden."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A place fitted to its occupant supplies the supportive environment required by the chamber analogy."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B005",
+                "role": "Something generated from another supplies emergence without requiring literal childbirth in the scene."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment supplies preservation during the imagined process of formation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The garden is a completed external reward.",
+              "after": "Exploratorily, the garden is also a fitted regenerative chamber that protects beings while a renewed form of life becomes durable."
+            }
+          },
+          {
+            "outlier_id": "outlier_consent_commons",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading is surprising because it uses the human-collective sense of ج ن ن and the affirmative نعم rather than the surface nouns' dominant senses. Face-to-face grouping, mutual speech, and peace keep it contextually anchored, but it should be rendered as an exploratory social analogy for bliss, never as a claim that the phrase literally means an assembly of consent.",
+            "focus_anchor": "Form-distant focus branches allow جَنّات النعيم to evoke a gathered body whose characteristic response is affirmative rather than coercive.",
+            "activation_trace": [
+              {
+                "source_ref": "56:12",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B013",
+                "role": "A mass or community of people shifts the garden image toward a sheltered commons."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B004",
+                "role": "Affirmative yes supplies consent as the commons' unusual bliss mechanism."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B009",
+                "role": "A group turning toward one another supplies the assembly's reciprocal orientation."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Mutual discussion supplies a deliberative rather than merely decorative speech relation."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Reconciliation opposed to conflict supplies the stable outcome of affirmative mutuality."
+              }
+            ],
+            "changed_reading": {
+              "before": "Bliss is privately possessed comfort inside a garden.",
+              "after": "Exploratorily, bliss is a sheltered face-to-face commons sustained by affirmation, deliberation, and peace."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The collapse sequence turns garden-cover into a coherence-preserving counter-domain.",
+            "The post-focus furniture, orientation, circulation, and spring turn bliss into durable relational infrastructure.",
+            "Choice without depletion and speech without injury define نعيم as an actively maintained low-friction ecology.",
+            "The protected pearl recodes concealment as preservation of radiance rather than mere invisibility."
+          ],
+          "what_was_special": "The terse locative phrase became a functional habitat model: cover preserves, fitted space supports, circulation replenishes, resident choice remains intact, and filtered speech reproduces safety. The packet also sustained two contained cross-domain readings, regenerative enclosure and consensual commons, without displacing the ordinary garden sense.",
+          "remaining_uncertainties": [
+            "The counter-domain relation between cosmic dissolution and garden protection is reader-supplied rather than grammatically marked.",
+            "The dominant surface forms favor ordinary gardens and well-being; shield, womb, human-collective, and affirmative-response branches remain deliberately exploratory.",
+            "Recompense and peaceful speech may describe why the residents are there and what occurs there rather than the internal mechanism of النعيم itself."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Concealment functioning as protection and ease.** `ج ن ن` **B003** supplies tree-covered garden, while **B008** supplies protective cover; `ن ع م` **B001** supplies bestowed favor and **B002** softness and easeful living. The later shade, covered pearl, protected book, and hidden divine proximity create a recurring cover-without-exclusion pattern. **Abductive move:** I infer that garden-cover shields and sustains rather than hides by deprivation. **Reading change:** the gardens are mechanisms of preserved well-being.\n\n2. **A place agreeing with its inhabitants.** `ن ع م` **B011** supplies a place agreeing with someone. The mutual facing and desire-matched food of 56:16–21 provide structural fit. **Abductive move:** I infer that bliss includes correspondence between place, body, company, and desire. **Reading change:** the phrase names an environment precisely fitted to those brought near.",
@@ -3106,18 +4008,23 @@
   "root_lexicon": {
     "root_000266": {
       "root_ar": "ج ن ن",
+      "qac_roots_ar": [
+        "ج ن ن"
+      ],
       "root_id": "root_000266",
-      "root_mapping": {
-        "root_id": "root_000266",
-        "root_norm": "ج ن ن",
-        "source_root_norm": "ج ن ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 131,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ن ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 131
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3fa03ab37401f450fbe272d8d86e5a9a5f7d648bfa0d7af8b95b7b61c8e80407",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6774,18 +7681,23 @@
     },
     "root_001525": {
       "root_ar": "ن ع م",
+      "qac_roots_ar": [
+        "ن ع م"
+      ],
       "root_id": "root_001525",
-      "root_mapping": {
-        "root_id": "root_001525",
-        "root_norm": "ن ع م",
-        "source_root_norm": "ن ع م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 98,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ع م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 98
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3f7b26053363b06c9558dc2ae22bf1f4d513c5e3b12e79ad6c24e28624db2622",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10202,14 +11114,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10525,11 +11443,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_12.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_12.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 103310,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10602,19 +11533,37 @@
           "root_ids": [
             "root_000266"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ن ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000266",
+            "targets": [
+              {
+                "qac_root_norm": "ج ن ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000266",
+                "furuq_root_norm": "ج ن ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 131,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000266",
-              "root_norm": "ج ن ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ن ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 131,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10639,19 +11588,37 @@
           "root_ids": [
             "root_001525"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ع م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001525",
+            "targets": [
+              {
+                "qac_root_norm": "ن ع م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001525",
+                "furuq_root_norm": "ن ع م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 98,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001525",
-              "root_norm": "ن ع م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ع م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 98,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10678,10 +11645,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 30,
+        "dictionary_branches_kept": 30,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 30,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

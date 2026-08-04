@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T06:36:55.344819+00:00",
+  "generated_at": "2026-08-04T22:28:48.516328+00:00",
   "surah": 17,
   "ayah": 38,
   "ayahRef": "17:38",
@@ -1643,7 +1643,8 @@
       "morpheme_ids": [
         "m-w-s017-a038-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "17:38:1"
+      "aligned_qac_word_ref_upstream": "17:38:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1657,7 +1658,8 @@
       "morpheme_ids": [
         "m-w-s017-a038-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "17:38:2"
+      "aligned_qac_word_ref_upstream": "17:38:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1671,7 +1673,8 @@
       "morpheme_ids": [
         "m-w-s017-a038-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "17:38:3"
+      "aligned_qac_word_ref_upstream": "17:38:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1687,7 +1690,8 @@
         "m-w-s017-a038-w004-01",
         "m-w-s017-a038-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "17:38:4"
+      "aligned_qac_word_ref_upstream": "17:38:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1701,7 +1705,8 @@
       "morpheme_ids": [
         "m-w-s017-a038-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "17:38:5"
+      "aligned_qac_word_ref_upstream": "17:38:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1717,7 +1722,8 @@
         "m-w-s017-a038-w006-01",
         "m-w-s017-a038-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "17:38:6"
+      "aligned_qac_word_ref_upstream": "17:38:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1731,7 +1737,8 @@
       "morpheme_ids": [
         "m-w-s017-a038-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "17:38:7"
+      "aligned_qac_word_ref_upstream": "17:38:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2656,7 +2663,1199 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s17/packets/17_38.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "17:38",
+      "window": [
+        "17:23",
+        "17:24",
+        "17:25",
+        "17:26",
+        "17:27",
+        "17:28",
+        "17:29",
+        "17:30",
+        "17:31",
+        "17:32",
+        "17:33",
+        "17:34",
+        "17:35",
+        "17:36",
+        "17:37",
+        "17:38",
+        "17:39"
+      ],
+      "ayah_count": 17,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "17:38",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_totality_qualified",
+            "confidence": "strong",
+            "focus_anchor": "The all-that / its-bad / repellent predication at words 1, 4, and 7.",
+            "mechanism": "Total inclusion gathers the deictic field, while the possessive in 'its bad' selects the defective aspect within that field; repulsion is predicated of that aspect rather than indiscriminately of every member.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total inclusion gathers the deictic field as a whole composed of distinguishable parts."
+              },
+              {
+                "source_ref": "17:38",
+                "root": "س و ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000755",
+                "branch_id": "B001",
+                "role": "Qualitative badness identifies the defective component picked out by the possessive."
+              },
+              {
+                "source_ref": "17:38",
+                "root": "ك ر ه",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001295",
+                "branch_id": "B001",
+                "role": "Repulsion from approval supplies the verdict on that defective component."
+              }
+            ],
+            "changed_reading": {
+              "before": "Every item denoted by 'that' is itself called bad.",
+              "after": "The whole denoted field is reviewed, and what is bad within it is what stands rejected."
+            }
+          },
+          {
+            "model_id": "b_diagnosis_then_verdict",
+            "confidence": "strong",
+            "focus_anchor": "The paired predicates of badness and repugnance.",
+            "mechanism": "The two evaluative terms are not redundant: the first diagnoses a fault in the object, and the second records the governing relation of non-approval toward that fault.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "س و ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000755",
+                "branch_id": "B005",
+                "role": "Fault-finding makes the first predicate an assessment of what has been done."
+              },
+              {
+                "source_ref": "17:38",
+                "root": "ك ر ه",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001295",
+                "branch_id": "B001",
+                "role": "Non-approval turns the diagnosed defect into a relational verdict."
+              }
+            ],
+            "changed_reading": {
+              "before": "The final adjective merely repeats that the conduct is bad.",
+              "after": "The clause moves from diagnosis to verdict: a fault is identified and then placed outside approval."
+            }
+          },
+          {
+            "model_id": "b_proximate_governance",
+            "confidence": "strong",
+            "focus_anchor": "The construction 'with/at your Lord' at words 5-6.",
+            "mechanism": "Evaluative proximity places the conduct before a governing and cultivating Lord, so the verdict is neither an impersonal label nor a free-floating emotion.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Nearness and presence create the forum in which the conduct is assessed."
+              },
+              {
+                "source_ref": "17:38",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Ownership and rule identify the authority whose standard governs the assessment."
+              },
+              {
+                "source_ref": "17:38",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Cultivation and completion add a formative purpose to that authority."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse reports a generic divine dislike.",
+              "after": "The conduct stands present before the addressee's sovereign-cultivator for a purposive judgment."
+            }
+          },
+          {
+            "model_id": "b_settled_evaluative_status",
+            "confidence": "medium",
+            "focus_anchor": "The temporal copula at word 3 governing the final predicate.",
+            "mechanism": "Occurrence and presence in time make the aversive judgment a standing evaluative condition rather than a passing reaction.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Temporal presence gives the predicate an established status."
+              },
+              {
+                "source_ref": "17:38",
+                "root": "ك ر ه",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001295",
+                "branch_id": "B001",
+                "role": "Aversion supplies the stable evaluative content of that status."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse voices a momentary affective reaction.",
+              "after": "The verse registers an established status of non-approval."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_decree_wisdom_frame",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ض ي",
+              "و ح ي",
+              "ح ك م",
+              "ل ق ي",
+              "د ح ر"
+            ],
+            "mechanism": "A decisive Lord-attributed opening and a revelation-wisdom close turn the focus verdict into the evaluative seal of a bounded instruction sequence; the following consequence gives that seal directive force.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereign rule anchors the focus judgment in governing authority."
+              },
+              {
+                "source_ref": "17:23",
+                "root": "ق ض ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001237",
+                "branch_id": "B001",
+                "role": "A conclusive ruling opens the unit as ordered judgment rather than loose advice."
+              },
+              {
+                "source_ref": "17:39",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B004",
+                "role": "Divine imparting identifies the source of the material immediately after the focus seal."
+              },
+              {
+                "source_ref": "17:39",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B003",
+                "role": "Sound practical knowledge frames the sequence as reasoned governance."
+              },
+              {
+                "source_ref": "17:39",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B007",
+                "role": "An encountered outcome makes the evaluative seal operational rather than merely descriptive."
+              },
+              {
+                "source_ref": "17:39",
+                "root": "د ح ر",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_000460",
+                "branch_id": "B001",
+                "role": "Terminal exclusion supplies the consequence at the unit's far edge."
+              }
+            ],
+            "structural_cues": [
+              "17:23 opens the window with a decisive directive attributed to the Lord; 17:39 repeats the deictic summary and identifies the material as revelation and wisdom.",
+              "The consequence clause in 17:39 follows immediately after the focus verdict."
+            ],
+            "reader_inference": "The packet supplies a decisive opening, a revelation-wisdom close, and an immediate consequence; I infer that 17:38 seals the intervening unit, while a live alternative is that it summarizes only the nearest prohibitions.",
+            "changed_reading": {
+              "before": "The verse is a local statement of dislike.",
+              "after": "The verse is a formal evaluative seal within a decree-to-wisdom frame, with practical consequence."
+            }
+          },
+          {
+            "model_id": "d_positive_negative_partition",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح س ن",
+              "ك ر م",
+              "خ ي ر"
+            ],
+            "mechanism": "Positive valuations occur inside the same gathered field, forcing the possessive 'its bad' to partition that field: constructive goods remain approved while the bad configurations are rejected.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Comprehensive gathering supplies the larger field whose members can differ in value."
+              },
+              {
+                "source_ref": "17:38",
+                "root": "س و ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000755",
+                "branch_id": "B001",
+                "role": "Bad quality marks the selected negative partition within that field."
+              },
+              {
+                "source_ref": "17:23",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "Beneficent action supplies a positively valued member within the gathered sequence."
+              },
+              {
+                "source_ref": "17:23",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "25"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Noble generosity supplies a positive mode of speech opposed to the rejected modes."
+              },
+              {
+                "source_ref": "17:35",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good explicitly confirms that the preceding field is not uniformly negative."
+              }
+            ],
+            "structural_cues": [
+              "Positive commands and positive evaluations are interleaved with prohibitions throughout 17:23-37.",
+              "The focus uses a totalizing demonstrative but predicates badness through a possessive component."
+            ],
+            "reader_inference": "The packet supplies both approved and rejected conduct under the same deictic reach; I infer that the possessive performs an internal valuation split, while the alternative is a narrower antecedent containing prohibitions only.",
+            "changed_reading": {
+              "before": "The summary flattens the entire preceding unit into a list of evils.",
+              "after": "The summary gathers the full instruction field but rejects specifically its bad configurations, preserving its constructive goods."
+            }
+          },
+          {
+            "model_id": "d_formative_governance",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ح م",
+              "ر ب و"
+            ],
+            "mechanism": "Mercy and the growth of a dependent activate the cultivating branch of Lordship, so aversion functions as protection of formation and relationship, not arbitrary sovereign taste.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Cultivation and completion make the focus authority formative."
+              },
+              {
+                "source_ref": "17:24",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "6",
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tender mercy supplies the relational atmosphere in which authority protects rather than merely commands."
+              },
+              {
+                "source_ref": "17:24",
+                "root": "ر ب و",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "Nourished growth supplies the concrete developmental pattern activated in Lordship."
+              }
+            ],
+            "structural_cues": [
+              "The parental-care scene immediately joins mercy, prayer to the Lord, and remembered upbringing."
+            ],
+            "reader_inference": "The packet supplies mercy and upbringing beside the repeated Lord-address; I infer an analogy from dependent formation to divine governance, while sovereign adjudication remains a live alternative rather than disappearing.",
+            "changed_reading": {
+              "before": "Wrong is rejected solely because an external ruler forbids it.",
+              "after": "Wrong is rejected by a ruler-cultivator because it damages persons and relations under formation."
+            }
+          },
+          {
+            "model_id": "d_act_not_fixed_identity",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "ن ف س",
+              "ص ل ح",
+              "ء و ب",
+              "غ ف ر"
+            ],
+            "mechanism": "Knowledge of inward life, possible rectification, return, and protective forgiveness place the focus censure on a bad quality or deed rather than fixing the agent as an irredeemably bad identity.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "س و ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000755",
+                "branch_id": "B005",
+                "role": "Assessment of a fault keeps the evaluative object at the level of conduct or quality."
+              },
+              {
+                "source_ref": "17:25",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to the knower places unseen moral state within the assessment."
+              },
+              {
+                "source_ref": "17:25",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B013",
+                "role": "Inner understanding and disposition distinguish inward orientation from outward fault."
+              },
+              {
+                "source_ref": "17:25",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B001",
+                "role": "Repair opposed to corruption supplies a live transition rather than a fixed identity."
+              },
+              {
+                "source_ref": "17:25",
+                "root": "ء و ب",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000065",
+                "branch_id": "B001",
+                "role": "Return supplies the directional movement away from the censured state."
+              },
+              {
+                "source_ref": "17:25",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Protective covering of fault supplies the possibility that its effect need not define the agent."
+              }
+            ],
+            "structural_cues": [
+              "17:25 conditions its assessment on inward state and explicitly links return with forgiveness.",
+              "The focus says 'its bad' rather than naming a class of bad persons."
+            ],
+            "reader_inference": "The packet supplies inward knowledge, repair, return, and forgiveness; I infer that the focus isolates a revisable bad quality from personal essence, while the alternative is that these assurances apply only to the parental command.",
+            "changed_reading": {
+              "before": "The verdict marks transgressors themselves as objects of aversion.",
+              "after": "The verdict rejects the bad in conduct while leaving the inward agent answerable, repairable, and able to return."
+            }
+          },
+          {
+            "model_id": "d_scatter_to_affiliation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ذ ر",
+              "ء خ و",
+              "ش ط ن",
+              "ك ف ر"
+            ],
+            "mechanism": "Resource-scattering is repeated and then converted into social kinship with estrangement and covered gratitude; the focus totality therefore includes propagation and affiliation effects, not only isolated expenditures.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Whole-field inclusion allows an act, its repetition, and its social consequence to be assessed together."
+              },
+              {
+                "source_ref": "17:26",
+                "root": "ب ذ ر",
+                "source_word_indices": [
+                  "9",
+                  "10"
+                ],
+                "mapped_root_id": "root_000098",
+                "branch_id": "B001",
+                "role": "Dispersal supplies the material action from which wider effects can spread."
+              },
+              {
+                "source_ref": "17:27",
+                "root": "ء خ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000020",
+                "branch_id": "B001",
+                "role": "Kin relation converts repeated conduct into belonging and resemblance."
+              },
+              {
+                "source_ref": "17:27",
+                "root": "ش ط ن",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000796",
+                "branch_id": "B001",
+                "role": "Distance and severance characterize the affiliation produced by the conduct."
+              },
+              {
+                "source_ref": "17:27",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B004",
+                "role": "Covered gratitude identifies the relational loss beneath material dissipation."
+              }
+            ],
+            "structural_cues": [
+              "The same dispersal root moves from a doubled verbal warning in 17:26 to a plural agent class in 17:27.",
+              "17:27 then assigns that class a kin relation and a Lord-facing posture."
+            ],
+            "reader_inference": "The packet supplies dispersal, repeated agents, kinship, distance, and covered gratitude; I infer a causal arrow from repeated resource practice to formed affiliation, while the alternative is purely rhetorical comparison.",
+            "changed_reading": {
+              "before": "The focus inventories discrete forbidden expenditures.",
+              "after": "The focus also judges how repeated practices diffuse loss, form affiliation, and estrange the agent from gratitude."
+            }
+          },
+          {
+            "model_id": "d_calibrated_extremes",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ل ل",
+              "ب س ط",
+              "ك ل ل",
+              "ق د ر"
+            ],
+            "mechanism": "Bound restraint and total extension form opposed poles, while divine constriction supplies a fitting measure; the rejected badness is therefore a misconfiguration of resources at either extreme, not restraint or extension as such.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "س و ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000755",
+                "branch_id": "B001",
+                "role": "Bad quality attaches to a configuration rather than automatically to either operation."
+              },
+              {
+                "source_ref": "17:29",
+                "root": "غ ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001102",
+                "branch_id": "B006",
+                "role": "Binding the acting limb fixes the closed pole of the mechanism."
+              },
+              {
+                "source_ref": "17:29",
+                "root": "ب س ط",
+                "source_word_indices": [
+                  "8",
+                  "10"
+                ],
+                "mapped_root_id": "root_000116",
+                "branch_id": "B004",
+                "role": "Release and extension of the hand fix the open pole."
+              },
+              {
+                "source_ref": "17:29",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total extent marks the point at which opening becomes exhaustive overextension."
+              },
+              {
+                "source_ref": "17:30",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B006",
+                "role": "Fitness to measure supplies calibration between the two poles."
+              }
+            ],
+            "structural_cues": [
+              "17:29 sets a bound hand against exhaustive extension and names disabling outcomes from both.",
+              "17:30 repeats extension under the Lord's agency and pairs it with measured restriction."
+            ],
+            "reader_inference": "The packet supplies two bodily poles and a following divine measure; I infer that relational fit, not either motion alone, determines badness, while the alternative is that the two ayat address unrelated human and divine actions.",
+            "changed_reading": {
+              "before": "The summary rejects a flat series of acts in absolute isolation.",
+              "after": "The summary rejects harmful configurations of force and provision, especially closure or release that loses proportion."
+            }
+          },
+          {
+            "model_id": "d_trajectory_and_feedback_limits",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ب",
+              "س ب ل",
+              "س و ء",
+              "ق ت ل",
+              "ح ق ق",
+              "س ر ف"
+            ],
+            "mechanism": "Approach, path, lethal completion, legitimate claim, and retaliatory excess distribute moral evaluation across a trajectory: intervention begins upstream of an act and continues downstream to prevent a justified response from becoming a new wrong.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Comprehensive gathering permits stages of one trajectory to be judged together."
+              },
+              {
+                "source_ref": "17:32",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B007",
+                "role": "Incipient contact moves evaluation upstream from completion to approach."
+              },
+              {
+                "source_ref": "17:32",
+                "root": "س ب ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000672",
+                "branch_id": "B001",
+                "role": "A traversed route extends the assessment from a point act to a course of action."
+              },
+              {
+                "source_ref": "17:32",
+                "root": "س و ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000755",
+                "branch_id": "B002",
+                "role": "Harmful outcome links the route to what it causes or culminates in."
+              },
+              {
+                "source_ref": "17:33",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "2",
+                  "10",
+                  "19"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B001",
+                "role": "Loss of life supplies the completed harm and the retaliatory setting."
+              },
+              {
+                "source_ref": "17:33",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "A binding entitlement creates the legitimate channel for response."
+              },
+              {
+                "source_ref": "17:33",
+                "root": "س ر ف",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000699",
+                "branch_id": "B001",
+                "role": "Crossing the limit prevents legitimate response from becoming recursively harmful."
+              }
+            ],
+            "structural_cues": [
+              "17:32 prohibits approach and evaluates a path, not only a completed act.",
+              "17:33 recognizes a response-right but immediately limits excess within that response."
+            ],
+            "reader_inference": "The packet supplies upstream approach, a path, completed harm, a right, and a downstream limit; I infer one prevention-feedback mechanism, while the alternative is a sequence of independent legal rules.",
+            "changed_reading": {
+              "before": "The focus condemns only completed prohibited acts.",
+              "after": "The focus judges whole harmful trajectories, including approach conditions and second-order excess after injury."
+            }
+          },
+          {
+            "model_id": "d_measured_accountability",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ه د",
+              "س ء ل",
+              "و ف ي",
+              "ك ي ل",
+              "و ز ن",
+              "ق س ط س",
+              "ق و م"
+            ],
+            "mechanism": "Preserved covenant, questioning, full delivery, measurement, just balance, and straightness turn presence before the Lord into an audit forum where claims and quantities must answer to a stable standard.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Evaluative presence supplies the forum in which an account is rendered."
+              },
+              {
+                "source_ref": "17:34",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "13",
+                  "15"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "A secured commitment supplies an obligation carried forward for review."
+              },
+              {
+                "source_ref": "17:34",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning converts obligation into answerability."
+              },
+              {
+                "source_ref": "17:35",
+                "root": "و ف ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001669",
+                "branch_id": "B001",
+                "role": "Completion without deficiency supplies the required performance standard."
+              },
+              {
+                "source_ref": "17:35",
+                "root": "ك ي ل",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001335",
+                "branch_id": "B001",
+                "role": "Quantification makes fairness inspectable rather than merely intended."
+              },
+              {
+                "source_ref": "17:35",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B002",
+                "role": "Balanced justice supplies the norm against which measured conduct is tested."
+              },
+              {
+                "source_ref": "17:35",
+                "root": "ق س ط س",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001225",
+                "branch_id": "B001",
+                "role": "A concrete standardizing instrument gives the audit mechanism an external check."
+              },
+              {
+                "source_ref": "17:35",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Upright equilibrium specifies how the standard must stand."
+              }
+            ],
+            "structural_cues": [
+              "17:34 moves from custodial property to preserved covenant and explicit questioning.",
+              "17:35 follows with completed measure, balance, an external standard, and straightness."
+            ],
+            "reader_inference": "The packet supplies obligations, questioning, quantities, and standards; I infer that the focus's Lord-facing proximity is an audit relation, while the alternative is that the commercial imagery remains confined to trade.",
+            "changed_reading": {
+              "before": "Divine dislike is chiefly an affective moral reaction.",
+              "after": "The rejected bad is what fails a Lord-facing audit of claims, fulfillment, proportion, and answerability."
+            }
+          },
+          {
+            "model_id": "d_faculty_formula_echo",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ف و",
+              "ع ل م",
+              "س م ع",
+              "ب ص ر",
+              "ف ء د",
+              "ك ل ل",
+              "ك و ن",
+              "س ء ل"
+            ],
+            "mechanism": "The preceding ayah gathers hearing, sight, and heart into an all-those + temporal-predicate + questioning formula; the focus reuses the aggregate and temporal frame, transferring faculty accountability into an audit of the conduct those faculties feed.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The focus aggregate receives the accountability resonance of the preceding aggregate."
+              },
+              {
+                "source_ref": "17:38",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "The focus temporal predicate repeats the established-status slot of the preceding formula."
+              },
+              {
+                "source_ref": "17:36",
+                "root": "ق ف و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001247",
+                "branch_id": "B001",
+                "role": "Following a trace supplies the upstream epistemic behavior placed under review."
+              },
+              {
+                "source_ref": "17:36",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to knowledge provides the threshold that responsible following must meet."
+              },
+              {
+                "source_ref": "17:36",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Responsive understanding makes hearing a morally active faculty rather than a passive intake."
+              },
+              {
+                "source_ref": "17:36",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Inner discernment makes sight answerable for judgment as well as sensation."
+              },
+              {
+                "source_ref": "17:36",
+                "root": "ف ء د",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001122",
+                "branch_id": "B002",
+                "role": "The inwardly heated heart supplies the affective-cognitive center joining perception to action."
+              },
+              {
+                "source_ref": "17:36",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The first aggregate explicitly gathers the faculties into one accountable set."
+              },
+              {
+                "source_ref": "17:36",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Established temporal predication supplies the shared grammatical hinge."
+              },
+              {
+                "source_ref": "17:36",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning names the accountability relation that the focus formula inherits."
+              }
+            ],
+            "structural_cues": [
+              "17:36 and 17:38 share an aggregate + demonstrative + temporal copula + predicative complement frame.",
+              "17:37 places embodied gait between the faculty-accountability formula and the focus summary."
+            ],
+            "reader_inference": "The packet supplies the repeated aggregate and copular frame plus accountable faculties; I infer a deliberate formula echo that carries accountability into 17:38, while the alternative is ordinary grammatical recurrence without transfer.",
+            "changed_reading": {
+              "before": "The focus merely sums a list of external behaviors.",
+              "after": "The focus echoes an accountability formula, joining perception, knowledge, affect, and embodied conduct in one review."
+            }
+          },
+          {
+            "model_id": "d_creature_scale_check",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ر ح",
+              "خ ر ق",
+              "ج ب ل",
+              "ط و ل"
+            ],
+            "mechanism": "Excessive self-display is checked against the body's inability to breach the ground or attain mountain scale; the focus's Lord-facing vantage then exposes bad conduct as a failure to measure creaturely agency.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Presence before a higher evaluative vantage supplies the scale comparison."
+              },
+              {
+                "source_ref": "17:38",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereign ownership fixes the creature's action within a larger order."
+              },
+              {
+                "source_ref": "17:37",
+                "root": "م ر ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001412",
+                "branch_id": "B001",
+                "role": "Joy exceeding its measure supplies the inflated inner posture."
+              },
+              {
+                "source_ref": "17:37",
+                "root": "خ ر ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000405",
+                "branch_id": "B004",
+                "role": "Action without gentleness or estimation translates that posture into miscalibrated force."
+              },
+              {
+                "source_ref": "17:37",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Massive elevated solidity supplies the unattainable comparison scale."
+              },
+              {
+                "source_ref": "17:37",
+                "root": "ط و ل",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000959",
+                "branch_id": "B006",
+                "role": "Competitive overreaching turns physical height into a social-moral claim."
+              }
+            ],
+            "structural_cues": [
+              "17:37 moves from an affective gait to two impossible physical comparisons, then 17:38 immediately totalizes and evaluates."
+            ],
+            "reader_inference": "The packet supplies overfull joy, unmeasured force, and failed earth-mountain comparisons; I infer a creature-scale correction, while the alternative is a narrow rebuke of one walking style.",
+            "changed_reading": {
+              "before": "The preceding walking prohibition is an isolated rule of etiquette.",
+              "after": "The focus includes a scale test: bad conduct projects agency beyond its creaturely measure before the Lord."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_rough_moral_topography",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a terrain branch of the focus's final root rather than its ordinary evaluative branch. It remains anchored in that focus root and is reinforced by path, walking, ground, breach, and mountain cues; downstream prose should present it only as a spatial-material analogy, never as the lexical claim that the focus adjective literally means rough ground here.",
+            "focus_anchor": "The final focus adjective, read through its hard-ground branch and contained as analogy.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ك ر ه",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001295",
+                "branch_id": "B007",
+                "role": "Hard resistant terrain supplies an exploratory material image for what conduct makes difficult to traverse."
+              },
+              {
+                "source_ref": "17:32",
+                "root": "س ب ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000672",
+                "branch_id": "B001",
+                "role": "A traversed route gives the material image a moral course to qualify."
+              },
+              {
+                "source_ref": "17:37",
+                "root": "م ش ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001427",
+                "branch_id": "B001",
+                "role": "Bodily movement places the agent concretely on that course."
+              },
+              {
+                "source_ref": "17:37",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "4",
+                  "9"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "Ground supplies the lower surface against which overreaching movement is tested."
+              },
+              {
+                "source_ref": "17:37",
+                "root": "خ ر ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000405",
+                "branch_id": "B001",
+                "role": "Attempted rupture supplies the failed passage through resistant matter."
+              },
+              {
+                "source_ref": "17:37",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B005",
+                "role": "Solidity that halts penetration completes the resistant-terrain analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The final adjective is only an abstract label of dislike.",
+              "after": "Exploratorily, rejected conduct can be pictured as a moral route made rough and resistant by misdirected steps."
+            }
+          },
+          {
+            "outlier_id": "o_coerced_burden",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the causative-coercive branch of the final root although the focus form itself is passive and naturally carries simple repugnance. It remains connected through restraint, authority, excess, and corrective governance in the context; downstream prose should mark it as a social consequence model, not a morphological gloss of the focus word.",
+            "focus_anchor": "The final focus root's branch of making another bear what is hated.",
+            "activation_trace": [
+              {
+                "source_ref": "17:38",
+                "root": "ك ر ه",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001295",
+                "branch_id": "B003",
+                "role": "Imposed unwillingness raises an exploratory question about burdens that wrongdoing transfers to others."
+              },
+              {
+                "source_ref": "17:29",
+                "root": "غ ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001102",
+                "branch_id": "B006",
+                "role": "A bound limb supplies the concrete image of captured agency."
+              },
+              {
+                "source_ref": "17:33",
+                "root": "س ل ط",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000732",
+                "branch_id": "B001",
+                "role": "Overpowering authority supplies the capacity by which burdens may be imposed."
+              },
+              {
+                "source_ref": "17:33",
+                "root": "س ر ف",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000699",
+                "branch_id": "B001",
+                "role": "Limit-crossing identifies when authorized force becomes a renewed imposition."
+              },
+              {
+                "source_ref": "17:39",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Corrective restraint supplies the counter-function that legitimate governance should perform."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus classifies acts only by the Lord's dislike of them.",
+              "after": "Exploratorily, their evil also lies in making other wills bear unwanted burdens, which even authorized force must not reproduce."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The possessive 'its bad' partitions a mixed instruction field instead of condemning every antecedent member.",
+            "The aggregate-copula formula in 17:36 makes 17:38 read as an accountability ledger joining faculties and conduct.",
+            "The hand, path, right, and measure sequences shift the verdict from isolated acts to calibrated trajectories with upstream and downstream limits.",
+            "The decree-to-wisdom frame makes Lord-facing aversion a formative and auditable governing judgment."
+          ],
+          "what_was_special": "The focus is unusually compressed: it gathers a mixed normative field, isolates its bad configurations, and seals them through a formula already charged with faculty accountability.",
+          "remaining_uncertainties": [
+            "The exact antecedent range of the singular demonstrative may be the whole 17:23-37 unit or a narrower cluster of prohibitions.",
+            "The temporal copula may signal settled status, but ordinary predicative grammar could account for part of that force.",
+            "The scattering, rough-terrain, and coerced-burden models are productive analogies whose branch distance requires explicit qualification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The list is gathered into one resisted deformation.** `ك ل ل:B003` gives totality, `س و ء:B001/B005` badness and blame, `ع ن د:B004` proximity in divine presence, and `ك ر ه:B001/B005` aversion and hard resistance. The deictic “all that” compresses diverse acts into a single evaluated pattern. I infer their common mechanism is resistance to right proportion and relation. The summary reads as diagnostic unification, not a flat tally.",
@@ -3695,18 +4894,23 @@
   "root_lexicon": {
     "root_001315": {
       "root_ar": "ك ل ل",
+      "qac_roots_ar": [
+        "ك ل ل"
+      ],
       "root_id": "root_001315",
-      "root_mapping": {
-        "root_id": "root_001315",
-        "root_norm": "ك ل ل",
-        "source_root_norm": "ك ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 373,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 373
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1b62652dd08706d73c357e6fbeca545210dd48618694d4690482d32c5e16a02f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6182,18 +7386,23 @@
     },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -7313,18 +8522,23 @@
     },
     "root_000755": {
       "root_ar": "س و ء",
+      "qac_roots_ar": [
+        "س و ء"
+      ],
       "root_id": "root_000755",
-      "root_mapping": {
-        "root_id": "root_000755",
-        "root_norm": "س و ء",
-        "source_root_norm": "س و أ",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 118,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س و ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 118
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f52be2bc15c3f6ce09dd74993e84b17a50b8a75dc4b512cd06ed9a78f3c03710",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9872,18 +11086,23 @@
     },
     "root_001052": {
       "root_ar": "ع ن د",
+      "qac_roots_ar": [
+        "ع ن د"
+      ],
       "root_id": "root_001052",
-      "root_mapping": {
-        "root_id": "root_001052",
-        "root_norm": "ع ن د",
-        "source_root_norm": "ع ن د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 183,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ن د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 183
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5ab0584f6d2d08d080f8dcba4e12559c5a17384c577ee7c040e938a2e7d3a998",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11603,18 +12822,23 @@
     },
     "root_000532": {
       "root_ar": "ر ب ب",
+      "qac_roots_ar": [
+        "ر ب ب"
+      ],
       "root_id": "root_000532",
-      "root_mapping": {
-        "root_id": "root_000532",
-        "root_norm": "ر ب ب",
-        "source_root_norm": "ر ب ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 970,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ب ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 970
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "98a9c7f9cc04ee8da3ef4640f8a5f3c29a6558b7830f330813c892eda960d528",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15670,20 +16894,2386 @@
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000532.json"
     },
+    "root_000537": {
+      "root_ar": "ر ب ب",
+      "qac_roots_ar": [
+        "ر ب ب"
+      ],
+      "root_id": "root_000537",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ب ب",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "23282d4959ac7e3c6af7c468964d2ada65c5a1eba55f8a9494cb13c0be669123",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000537",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000537/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, bir şeyin önceki durumuna göre nicelikçe artmasını veya düzeyce yükselmesini ortak çekirdek olarak verir. Yaranın, toprağın ve malın artması ile birinin üzerinde bulunma örnekleri bu çekirdeğin farklı gerçekleşmeleridir.",
+              "boundary_note": "Bu dal genel artma ve yükselmeyi kapsar; belirli bir yer biçimini, alışveriş hükmünü veya solunum rahatsızlığını kendi başına tanımlamaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Genel artma ve yükselme çekirdeği ile belirli yapılardaki köpük, şiddet ve birinin üstünde bulunma kullanımları ayrı tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin miktar, hacim, düzey veya konum bakımından önceki durumunun üstüne çıkmasıdır. Bu yükseliş büyüme, kabarma, şiddetlenme ya da başka bir şeyin üzerinde bulunma biçiminde gerçekleşebilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şey nicelikçe artar veya düzeyce yükselir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Toprak ve benzeri şeylerde artış, şişme veya kabarma olarak görünür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Belirli yapılarda köpüğün yukarı çıkmasını veya bir etkinin olağandan güçlü olmasını anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "extension",
+                  "statement": "Birinin ya da bir şeyin ötekinden daha yukarıda bulunmasına uzanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtların ortak noktası, artma ile yükselmeyi tek bir yukarı yönlü değişim çekirdeğinde birleştirmeleridir; değişen yalnızca artan şey ve artışın görünüşüdür.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "artmak veya yükselmek",
+              "applicability": "Miktar, hacim, düzey ya da konumun önceki durumun üstüne çıktığı genel kullanımlara uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Hem niceliksel artışı hem de düzey veya konum bakımından yükselmeyi korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kabarıp çoğalmak",
+                "usage_role": "contextual",
+                "applicability": "Toprağın suyla şişmesi veya hacmi görülebilir biçimde artan bir şey için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Hacimce artma ve yukarı doğru kabarma görünümünü korur.",
+                  "loses": "Başka artış türlerini ve yalnızca konumsal yükselmeyi kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "üzerine çıkmak",
+                "usage_role": "contextual",
+                "applicability": "Bir şeyin başka bir şeyden daha yüksek bir konuma eriştiği karşılaştırmalı kullanıma uygundur.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Karşılaştırmalı yükseklik ve üstte bulunma ilişkisini korur.",
+                  "loses": "Niceliksel artışı ve kabarma biçimindeki değişimi dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F004"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şey arttı veya yükseldi"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "toprak suyla kabarıp arttı"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yükselen veya fazla köpük"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "olağandan daha şiddetli yakalayış"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "onun üzerine çıktı veya üstünde bulundu"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "büyümek",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Zaman içinde nicelik veya hacim artışını korur.",
+                  "loses": "Konumsal yükselmeyi, üstün gelmeyi ve şiddetlenmeyi karşılamaz.",
+                  "adds": null,
+                  "collision": null
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000603/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Artış, başka bir miktarı veya sınırı aşma koşulu olmadan da gerçekleşebilir.",
+                "neighbor_only": "Komşu dal değişimi özellikle bir sayı, miktar veya şeyin ötesine geçme olarak kurar.",
+                "gloss": "artmak ile aşarak çoğalmak",
+                "shared_zone": "Her iki dal da niceliğin önceki düzeyin üstüne çıkmasını anlatır.",
+                "distinction": "Odak dalın çekirdeği yalın artış veya yükseliştir; komşu dalda ise bir ölçüyü ya da karşılaştırılan şeyi geçme ilişkisi belirleyicidir."
+              },
+              {
+                "neighbor_ref": "root_000618/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Fiziksel konumun yükselmesi, büyüme veya verimlilik bulunmadan da bu dala girer.",
+                "neighbor_only": "Komşu dal büyüme, ürün verme, bereket ve elde kalan fazlalık alanlarını öne çıkarır.",
+                "gloss": "artış ile büyüyüp ürün verme",
+                "shared_zone": "İki dal da önceki miktarın çoğalması ve bir fazlalık oluşması alanında buluşur.",
+                "distinction": "Odak dal hem artışı hem yüksekliği kapsayan daha genel bir değişimdir; komşu dal artışı büyüme, verim ve artık değer görünümünde özelleştirir."
+              },
+              {
+                "neighbor_ref": "root_000426/B001",
+                "relation_type": "antonym",
+                "boundary_match": "opposed",
+                "focus_only": "Odak dal düzeyin artmasını, yükselmesini veya üstte bulunmayı anlatır.",
+                "neighbor_only": "Komşu dal yüksek bir düzeyden aşağı inmeyi, düşürmeyi veya alçak konumu anlatır.",
+                "gloss": "yükselmek ile alçalmak",
+                "shared_zone": "İki dal aynı dikey veya dereceli değişim ekseninin karşıt yönlerini gösterir.",
+                "distinction": "Odakta hareket ya da değişim yukarı ve artış yönündedir; komşuda aynı eksen aşağı ve azalış yönünde kurulur."
+              },
+              {
+                "neighbor_ref": "root_000537/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal herhangi bir şeydeki artma veya yükselme sürecini ve durumunu anlatır.",
+                "neighbor_only": "Komşu dal yükselmiş bir arazi parçasını adlandıran yerleşik bir yer anlamıdır.",
+                "gloss": "yükselme ile yükselti",
+                "shared_zone": "Her ikisinde de çevresine veya önceki düzeye göre yukarıda olma düşüncesi vardır.",
+                "distinction": "Odak değişimi veya göreli yüksekliği bildirir; komşu ise bu özelliği taşıyan belirli türde bir araziyi adlandırır."
+              },
+              {
+                "neighbor_ref": "root_000537/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Genel artış, herhangi bir alışveriş veya borç ilişkisi olmadan da gerçekleşebilir.",
+                "neighbor_only": "Komşu dal anaparaya eklenen fazlalığı belirli alışveriş ve borç sınırları içinde ele alır.",
+                "gloss": "genel artış ile işlem fazlası",
+                "shared_zone": "İki dalın ortak alanı, başlangıçtaki miktarın üstünde bir fazlalığın ortaya çıkmasıdır.",
+                "distinction": "Odak dal doğal ve genel artışı anlatır; komşu dal aynı artış görüntüsünü işlem, anapara ve hukuki sınırlarla özelleştirir."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; en açıklayıcı beş karşıtlık seçildi. Kalan adaylar ya seçilen artış ve yükseklik karşılaştırmalarını yineliyor ya da yalnızca uzak bir ortak konu taşıyordu.",
+            "branch_image_ar": "زيادة وعلو",
+            "what_is_ar": "يدخل فيه ربا الشيء إذا زاد أو ارتفع، وربت الأرض إذا انتفخت وزادت، والرابي الزائد أو العالي، وأربى عليه إذا أشرف أو زاد عليه.",
+            "what_is_not_ar": "ليس هو ربوة الأرض المخصوصة، ولا الربا في البيع، ولا الربو في النفس إلا من جهة صورة التصعد.",
+            "source_phrase_ar": "ربا الجرح والأرض والمال وكل شيء يربو إذا زاد (ayn)؛ ربا الشيء يربو ربوا إذا ارتفع (jamhara)؛ ربا الشيء يربو ربوا أي زاد (sihah;tahdhib)؛ ربت أي زادت، وزبدا رابيا، وأخذة رابية (tahdhib;mufradat)؛ أربى عليه أي أشرف عليه (mufradat)",
+            "sources": [
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, farklı söz biçimlerini çevresindeki araziden yükselen yer anlamında birleştirir. Dalın kimliği genel yükselme eylemi değil, yükselmiş arazi parçasıdır.",
+              "boundary_note": "Bu dal arazi üzerindeki yükseltiyle sınırlıdır; her türlü artışa, mali fazlalığa veya soluk sıkışmasına genişletilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım doğrudan yükselmiş arazi anlamını verir; başka dallardaki işlem veya yapı bağımlı anlamlar buraya taşınmaz."
+            },
+            "concept_map": {
+              "definition": "Çevresindeki yer yüzeyinden daha yukarıda bulunan arazi parçasıdır. Biçiminin yuvarlak, sarp ya da geniş olması anlamın zorunlu bir parçası değildir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Arazi parçası çevresindeki yerden daha yüksekte bulunur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Aynı yükselmiş arazi anlamı birden çok söz biçimiyle adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar, söz biçimlerindeki değişikliğe rağmen anlamı çevresinden yükselen arazi olarak ortaklaştırır; belirli bir tepe biçimi veya büyüklüğü zorunlu tutulmaz.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yükselmiş arazi",
+              "applicability": "Çevresindeki yer yüzeyinden daha yüksek olan arazi parçasını genel olarak adlandırır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Arazinin çevresine göre yüksek olmasını biçim veya boyut eklemeden korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yüksekçe yer",
+                "usage_role": "general",
+                "applicability": "Arazi biçiminin ayrıntısı önemli olmadığında doğal bir genel karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yerin çevresine göre daha yüksek oluşunu yalın biçimde korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yükselmiş arazi"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çevresinden yüksek yer"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "arazideki yükselti"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "tepe",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Arazinin çevresine göre yükselmiş olmasını korur.",
+                  "loses": "Ayrı ve belirgin bir tepe oluşturmayan yüksekçe araziyi dışarıda bırakabilir.",
+                  "adds": null,
+                  "collision": null
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000185/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal ayrı bir tepe biçimi veya küçük bir yükselti olma koşulu koymaz.",
+                "neighbor_only": "Komşu dal tepeyi, küçük tümsekleri ve bu tür belirgin arazi biçimlerini öne çıkarır.",
+                "gloss": "yükselmiş arazi ile tepe",
+                "shared_zone": "İki dal da çevresindeki yerden daha yüksek araziyi adlandırır.",
+                "distinction": "Odak dal yüksek araziyi biçimden bağımsız verir; komşu dal belirgin tepe ve küçük yükselti türlerini daha güçlü biçimde çağrıştırır."
+              },
+              {
+                "neighbor_ref": "root_000298/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kabarıklığın biçimini, sertliğini veya kumdan oluşmasını şart koşmaz.",
+                "neighbor_only": "Komşu dal kamburlaşmış, tümseklenmiş ya da daha sert yükselti türlerini de kapsar.",
+                "gloss": "yüksek yer ile tümsekli yer",
+                "shared_zone": "Her iki dal yer yüzeyinden yukarı çıkan arazi kesimini anlatır.",
+                "distinction": "Odak yalnızca göreli yüksekliği kurar; komşu yükseltinin tümsek, sertlik veya belirgin kabarıklık görünümünü de öne çıkarır."
+              },
+              {
+                "neighbor_ref": "root_000254/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Yükselmiş yerin kaba, sert veya belirli bir bölge türü olması gerekmez.",
+                "neighbor_only": "Komşu dal yükseltiye kalın, sert arazi niteliği ve belirli bir yüksek bölge çağrışımı ekler.",
+                "gloss": "yüksek arazi ile sert yüksek arazi",
+                "shared_zone": "Her iki anlamda da çevresine göre yüksek bir yer parçası vardır.",
+                "distinction": "Odak dal yalın yüksekliği belirtir; komşu dal arazi dokusunu ve bölgesel yer türünü anlam sınırına katar."
+              },
+              {
+                "neighbor_ref": "root_001177/B004",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal yükseltinin yuvarlak olmasını veya küçük bir tümsek oluşturmasını gerektirmez.",
+                "neighbor_only": "Komşu dal çevresinden yükselen parçayı özellikle yuvarlak bir tümsek veya tepe olarak sınırlar.",
+                "gloss": "yükselti ile yuvarlak tümsek",
+                "shared_zone": "İki dal da çevresindeki araziden yukarı çıkan bir yer biçimini gösterir.",
+                "distinction": "Odak biçim ve büyüklük bakımından geneldir; komşu dal yuvarlaklık ve tümsek görünümüyle daha dardır."
+              },
+              {
+                "neighbor_ref": "root_000537/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal yükselmiş bir arazi parçasını kalıcı bir yer türü olarak adlandırır.",
+                "neighbor_only": "Komşu dal yer dışında kalan şeylerde de artma veya yükselme sürecini anlatır.",
+                "gloss": "yükselti ile yükselme",
+                "shared_zone": "İki dal çevresine veya önceki durumuna göre daha yukarıda olma düşüncesini paylaşır.",
+                "distinction": "Odak, yüksekliğin taşıyıcısı olan araziyi adlandırır; komşu, yüksekliğe doğru değişimi ve genel artışı bildirir."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; biçim, doku ve süreç sınırlarını en iyi gösteren beş karşılaştırma seçildi. Diğer arazi adayları aynı ayrımları tekrarlıyor, kardeş dalların çoğu ise yalnızca söz biçimi bakımından yakın duruyordu.",
+            "branch_image_ar": "أرض مرتفعة",
+            "what_is_ar": "يدخل فيه الربوة والرابية والرباوة والرباة وما ارتفع من الأرض، مع اختلاف لغات الكلمة.",
+            "what_is_not_ar": "ليس هو مطلق الزيادة في المال أو البيع، ولا الربو الذي هو ضيق النفس.",
+            "source_phrase_ar": "الرابية ما ارتفع من الأرض، والربوة لغات أرض مرتفعة (ayn)؛ الربو والربوة والرباوة واحد وهو العلو من الأرض (jamhara)؛ الرابية الربو وهو ما ارتفع من الأرض، وكذلك الربوة (sihah)؛ الرباوة والرابية والرباة كل ذلك ما ارتفع من الأرض (tahdhib)؛ ربوة وربوة وربوة ورباوة، وسميت الربوة رابية (mufradat)",
+            "sources": [
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B003",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kanıt, alışverişte veya borçta anaparayı aşan fazlalığı merkeze alır ve özellikle verilen borçtan daha çoğunun alınmasını belirtir. Bununla birlikte her nicelik artışı bu dala girmez; fazlalığın belirli işlem ve kural sınırları içinde olması gerekir.",
+              "boundary_note": "Dal, belirli işlem biçimlerinde anaparaya eklenen fazlalıkla sınırlıdır; doğal büyüme, sıradan kazanç veya her fiyat farkı bu anlamı taşımaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "İşlem fazlasını adlandıran biçimler ile malın bu yolla artması ve kişinin böyle bir işleme girmesi ayrı gerçekleşmeler olarak korunur."
+            },
+            "concept_map": {
+              "definition": "Bir alışverişte veya borç ilişkisinde anaparanın üstüne eklenen, kapsamı işlemin belirli kuruluş biçimi ve kurallarıyla sınırlı fazlalıktır. Verilen borçtan daha çoğunun alınması belirgin bir gerçekleşmedir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "İşlemde anaparanın üstüne bir fazlalık eklenir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Borç verenin verdiğinden daha çoğunu geri alması belirgin bir gerçekleşmedir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Fazlalığın anlamı ve hükmü, alışveriş veya borcun belirli kuruluş biçimine bağlıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "associated_use",
+                  "statement": "Kişinin bu tür fazlalık içeren bir işleme girmesi ayrıca anlatılabilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar, anaparayı aşan artışı işlem alanına bağlar; borçta daha çoğunu geri alma örneğini belirginleştirirken kapsamın her artışı değil, özel biçimde kurulan fazlalığı içerdiğini gösterir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "belirli işlem biçimleriyle sınırlı anapara fazlalığı",
+              "applicability": "Alışveriş veya borç ilişkisinde anaparayı aşan ve kapsamı işlemin belirli biçimiyle sınırlı miktar için kullanılır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Fazlalığı, anaparayı ve belirli işlem biçimleriyle sınırlı olmayı birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "borçtan daha çoğunu geri almak",
+                "usage_role": "contextual",
+                "applicability": "Verilen borçtan daha yüksek bir miktarın alındığı bağlama uygundur.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Borçta verilen miktarı aşan geri almayı korur.",
+                  "loses": "Borç dışındaki alışveriş biçimlerinde görülen işlem fazlalığını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "anapara üstüne eklenen işlem fazlası",
+                "usage_role": "explanatory",
+                "applicability": "İşlem türünün ayrıntısı verilmeden fazlalığın yapısını açıklamak gerektiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Anapara, eklenen fazlalık ve işlem bağlantısını açıkça korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "belirli alışveriş veya borç biçimlerinde anaparayı aşan fazlalık"
+              },
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "işlemdeki anapara fazlalığının özel adı veya bir söyleyiş biçimi"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "mal bu işlemde fazlalıkla arttı"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "anaparaya fazlalık eklenen işleme girdi"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "kâr",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Bir işlem sonunda başlangıç miktarını aşan kazanç görüntüsünü kısmen korur.",
+                  "loses": "Anaparaya işlem koşulu olarak eklenen belirli fazlalık yapısını kaybeder.",
+                  "adds": "Üretim veya alışverişten doğan olağan kazanç anlamını ekler.",
+                  "collision": "Sıradan ticari kazançla karışarak dalın işlem ve borç sınırını bozar."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000537/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal fazlalığı alışveriş, borç, anapara ve işlem kuralıyla sınırlar.",
+                "neighbor_only": "Komşu dal işlem bulunmadan gerçekleşen doğal artışı ve fiziksel yükselmeyi de kapsar.",
+                "gloss": "işlem fazlası ile genel artış",
+                "shared_zone": "Her iki dal başlangıçtaki miktarın üstüne çıkan bir artışı içerir.",
+                "distinction": "Odak dalda fazlalığın işlem içindeki kuruluşu anlamın parçasıdır; komşu dalda artış böyle bir ilişkiye bağlı değildir."
+              },
+              {
+                "neighbor_ref": "root_001069/B012",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal anaparayı aşan koşullu fazlalığın kendisini ve bu fazlalığı içeren işlemi anlatır.",
+                "neighbor_only": "Komşu dal vadeli alım ve nakit elde etmeye yönelik belirli satış düzeneklerini anlatır.",
+                "gloss": "koşullu fazlalık ile vadeli satış düzeneği",
+                "shared_zone": "İki dal borç, vadeli alışveriş ve para sağlama alanında karşılaşabilir.",
+                "distinction": "Odak, işlemdeki fazla miktara göre tanımlanır; komşu, nakit sağlamaya yarayan satış biçiminin kuruluşuna göre tanımlanır."
+              },
+              {
+                "neighbor_ref": "root_000737/B005",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal geri ödemede veya alışverişte anaparaya eklenen fazlalığı gerektirir.",
+                "neighbor_only": "Komşu dal bedelin önceden verilmesini veya malın sonradan teslim edildiği avanslı işlemi anlatır.",
+                "gloss": "fazlalıklı işlem ile ön ödemeli işlem",
+                "shared_zone": "Her iki dal alışveriş, borç verme ve ödeme zamanlaması alanında yer alır.",
+                "distinction": "Odakta belirleyici unsur fazla miktardır; komşuda belirleyici unsur ödemenin veya teslimin öne alınmasıdır."
+              },
+              {
+                "neighbor_ref": "root_000092/B004",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal alışverişte anaparanın üstüne eklenen özel fazlalığı belirtir.",
+                "neighbor_only": "Komşu dal mal veya bedellerin karşılıklı değiştirilmesi olarak satışın genel yapısını anlatır.",
+                "gloss": "işlem fazlası ile karşılıklı satış",
+                "shared_zone": "İki dal alışverişte taraflar arasında değer aktarımı bulunması bakımından aynı alandadır.",
+                "distinction": "Odak satışın içindeki fazla miktarla sınırlıdır; komşu herhangi bir böyle fazlalık gerektirmeden karşılıklı değişimi tanımlar."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; genel artışla sınırı ve üç farklı işlem türüyle ayrımı gösteren dört aday yayımlandı. Diğerleri borç tahsili, zarar, güvence, adalet veya uzak kardeş anlamlar üzerinden aynı sınırı daha az doğrudan açıklıyordu.",
+            "branch_image_ar": "زيادة الربا في المعاملة",
+            "what_is_ar": "يدخل فيه الربا في البيع أو القرض، والزيادة على رأس المال، والربية لغة أو اسم خاص للربا.",
+            "what_is_not_ar": "ليس كل زيادة حسية أو علو مكاني ربا في المعاملة.",
+            "source_phrase_ar": "ربا المال يربو في الربا أي يزداد، والربا في كتاب الله حرام، والربية هي الربا خاصة (ayn)؛ الربا في البيع، والربية لغة في الربا (sihah)؛ الربا ربوان، فالحرام كل قرض يؤخذ به أكثر منه (tahdhib)؛ الربا الزيادة على رأس المال، لكن خص في الشرع بالزيادة على وجه دون وجه (mufradat)",
+            "sources": [
+              "AY",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, insan veya hayvanda yüksek ve zor solumayı ortaklaştırır. Yürüyüş veya koşu sonrasında insanın soluğunun yükselmesi ile atın koşu ya da korku sonucu şişmesi bu çekirdeğin farklı gerçekleşmeleridir. Dal bir arazi yüksekliğini değil, solunumun zorlanmış durumunu anlatır.",
+              "boundary_note": "Bu dal yüksek, hızlı veya tıkanmış soluk durumuyla sınırlıdır; tek başına genel yorgunluğu ya da süreğen bir hastalık tanısını zorunlu kılmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Soluk sıkışmasını adlandıran biçimler ile kişinin veya hayvanın koşu, yürüyüş ya da korku sonucu bu duruma girmesi ayrı tutulur."
+            },
+            "concept_map": {
+              "definition": "İnsan veya hayvanın yürüyüş ya da koşu gibi bir nedenle soluğunun yükselmesi ve zorlaşmasıdır. Atın koşu veya korku sonucu şişmesi bu solunum durumunun hayvandaki özel bir görünümüdür.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Soluk olağandan yüksek, hızlı ve sıkışık duruma gelir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Durum yürüyüş veya koşu sonrasında insanı ya da hayvanı etkileyebilir; korku sonrası görünüm at için tanıklanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "example",
+                  "statement": "Atın koşu veya korku sonucu şişmesi zorlanan solumanın özel bir görünümüdür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar yüksek ve zor solumayı ortak çekirdek olarak verir; yürüyüş veya koşu bu durumu tetikleyebilir, şişme görünümü ise atın koşu veya korku sonrasındaki özel gerçekleşmesidir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "soluğu yükselip sıkışmak",
+              "applicability": "İnsan veya hayvanın hareket ya da korku nedeniyle yüksek, hızlı ve zor soluduğu duruma uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Soluğun hem yükselmesini hem de zorlaşıp sıkışmasını birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "soluk soluğa kalmak",
+                "usage_role": "contextual",
+                "applicability": "Yürüme veya koşma sonrasında soluğun hızlanıp zorlaştığı geçici durum için doğaldır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Hareket sonrasındaki hızlı ve zor soluma durumunu korur.",
+                  "loses": "Korku sonucu oluşan şişme görünümünü ve daha genel soluk tıkanmasını tam karşılamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "nefesi tıkanmak",
+                "usage_role": "contextual",
+                "applicability": "Zorlanmış solunumun yükseklikten çok sıkışma yönünün öne çıktığı bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Soluğun güçleşmesi ve göğüste sıkışma duygusunu korur.",
+                  "loses": "Soluğun yükselmesi ve bedenin şişer görünmesi ayrıntısını azaltır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yüksek ve sıkışık soluma"
+              },
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "soluğu sıkıştı"
+              },
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "at koşu ya da ürkme yüzünden şişip soluksuz kaldı"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "soluğu yükselip tıkanmış"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "astım",
+                "category": "common_loanword",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Zor ve sıkışık soluma belirtisini kısmen korur.",
+                  "loses": "Koşu, yürüyüş veya korku sonrasında oluşan geçici yüksek soluk durumunu daraltır.",
+                  "adds": "Belirli ve süreğen bir hastalık tanısı çağrışımını ekler.",
+                  "collision": "Geçici soluk zorlanmasını çağdaş hastalık adıyla karıştırabilir."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001558/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal korku sonucu şişme görünümünü ve genel yüksek soluk durumunu da kapsar.",
+                "neighbor_only": "Komşu dal çaba yüzünden soluğun kesilmesini, art arda gelmesini ve başkasını bu duruma sokmayı da kapsar.",
+                "gloss": "soluğu yükselmek ile çabadan soluğu kesilmek",
+                "shared_zone": "İki dal hareket ve çaba sonrasında hızlı, zor ve kesintili solumayı anlatır.",
+                "distinction": "Odak solunum durumunun yükselip şişer görünmesine dayanır; komşu çabaya bağlı kesilme, sürekli soluma ve ettirgen kullanımlarla genişler."
+              },
+              {
+                "neighbor_ref": "root_001380/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal insanın yanında hayvanı ve korkuyla tetiklenen soluk yükselmesini de içerir.",
+                "neighbor_only": "Komşu dal soluma belirtisini özellikle yorgunluk ve bitkinlik durumunun parçası olarak kurar.",
+                "gloss": "soluğu sıkışmak ile yorgunluktan solumak",
+                "shared_zone": "Her ikisi de zorlanma sonrasında kişinin hızlı ve güçlükle solumasını içerir.",
+                "distinction": "Odakta yüksek ve sıkışık soluk başlı başına çekirdektir; komşuda bu soluma daha geniş yorgunluk durumunun belirtisidir."
+              },
+              {
+                "neighbor_ref": "root_000824/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal hareket veya korku sonucu oluşan zorlanmış ve sıkışmış soluğu gerektirir.",
+                "neighbor_only": "Komşu dal sıradan içe soluma, geri çekilen soluk, inleme ve yüksek ses gibi kullanımlara da uzanır.",
+                "gloss": "zor soluma ile içe çekilen yüksek soluk",
+                "shared_zone": "İki dal yüksek, belirgin veya güçlükle çıkan soluk alanında örtüşür.",
+                "distinction": "Odak fizyolojik zorlanma durumudur; komşu soluğun yönünü ve bazı yüksek sesleri de kapsayan daha geniş bir ses-soluk alanıdır."
+              },
+              {
+                "neighbor_ref": "root_001284/B006",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal soluğun yükselip sıkışması durumunu, belirli bir anatomik neden aramadan anlatır.",
+                "neighbor_only": "Komşu dal hayvanda burun deliğinin darlığını ve bunun soluğu tutmasını özel neden olarak verir.",
+                "gloss": "soluk sıkışması ile dar burun deliği",
+                "shared_zone": "Her iki dal özellikle hayvanda havanın rahat geçmemesi ve zor soluma alanında buluşur.",
+                "distinction": "Odak belirtinin kendisidir; komşu ise bu belirtiyi doğuran burun yapısındaki darlıkla tanımlanır."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; belirti, yorgunluk, soluk türü ve anatomik neden sınırlarını gösteren dört aday seçildi. Diğer adaylar genel beden durumu, ürperme, yorma veya uzak kardeş anlamlar olarak daha zayıf karşılaştırmalar sundu.",
+            "branch_image_ar": "تصعد النفس وانتفاخه",
+            "what_is_ar": "يدخل فيه الربو بمعنى النفس العالي أو البهر أو الانبهار، وما يصيب الإنسان أو الدابة من علو النفس أو الانتفاخ من مشي أو عدو أو فزع.",
+            "what_is_not_ar": "ليس هو الربوة المرتفعة من الأرض، ولا الربا في المال.",
+            "source_phrase_ar": "ربا فلان أي أصابه نفس في جوفه ودابة بها ربو (ayn)؛ أصابه ربو من مشي أو عدو إذا علت أنفاسه (jamhara)؛ الربو النفس العالي، وربا الفرس إذا انتفخ من عدو أو فزع (sihah)؛ أخذها الربو وهو البهر (tahdhib)؛ الربو الانبهار سمي بذلك تصورا لتصعده (mufradat)",
+            "sources": [
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, çocuk veya ürün gibi büyüyen bir varlığı besleyerek gelişmesini sağlama ile bir topluluk içinde yetişip gelişme yönlerini aynı büyüme sürecinde birleştirir. Ettirgen bakım ile yetişenin kendi gelişimi katılımcı bakımından ayrıdır.",
+              "boundary_note": "Dal, besleme ve yetişme yoluyla gelişmeyi kapsar; yalnızca boyca artma, eğitme veya genel bakım verme anlamına indirgenmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Besleyip büyütme, bunun sonucu gelişme ve bir topluluk içinde yetişme kullanımları katılımcı değişimleri korunarak ayrı gösterilir."
+            },
+            "concept_map": {
+              "definition": "Çocuk ya da ürün gibi büyüyen bir varlığı besleyerek gelişmesini sağlamak veya bu bakımın etkisiyle büyümektir. Kişinin bir topluluğun içinde yetişip gelişmesi de bu sürecin toplumsal yönüdür.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Büyüyen varlık beslenir ve gelişmesi sağlanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Beslenen çocuk veya ürün bakımın sonucu olarak büyür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Kişi belirli bir topluluğun içinde yetişip gelişebilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar beslemeyi büyümenin nedeni, büyümeyi de bakımın sonucu olarak ilişkilendirir; çocuk ve ürün bu yapının örnekleridir, topluluk içinde yetişme ise katılımcı yönünü değiştirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "besleyip büyütmek ve yetişmek",
+              "applicability": "Bir varlığın beslenerek geliştirilmesini ve yetişenin bu süreçte büyümesini birlikte anlatan genel karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Besleyen kişinin etkisini, büyüyenin gelişimini ve yetişme sonucunu korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "besleyerek büyütmek",
+                "usage_role": "contextual",
+                "applicability": "Çocuk veya ürün gibi büyüyen bir varlığın bakım ve besin yoluyla geliştirildiği bağlama uygundur.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Besleyen öznenin büyümeyi sağlama etkisini ve gelişme sonucunu korur.",
+                  "loses": "Kişinin bir topluluk içinde kendiliğinden yetişmesi yönünü kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "aralarında yetişmek",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin belirli bir aile veya topluluğun içinde büyüyüp biçimlendiği bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Topluluk içinde büyüme ve yetişme ilişkisini korur.",
+                  "loses": "Başkasını besleyerek büyütme eylemini ve ürün örneğini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "onu besleyip büyüttü"
+              },
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "onların arasında yetişti"
+              },
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çocuğu besleyip büyüttü, çocuk gelişti"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "eğitmek",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bir başkasının gelişmesine etkin biçimde katkıda bulunmayı kısmen korur.",
+                  "loses": "Besleme, bedensel büyüme, ürünün gelişmesi ve topluluk içinde yetişme yönlerini kaybeder.",
+                  "adds": null,
+                  "collision": "Öğretim ve davranış kazandırma alanına kayarak doğal büyüme çekirdeğini örtebilir."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001465/B006",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal ürünün büyütülmesini ve kişinin bir topluluk içinde yetişmesini de kapsar.",
+                "neighbor_only": "Komşu dal insanın çocukluktan olgunlaşmasına ve bedensel olgunluk belirtilerine özellikle yer verir.",
+                "gloss": "besleyip büyütmek ile çocuğun olgunlaşması",
+                "shared_zone": "İki dal çocuğun bakım görerek büyümesi ve yetişkinliğe doğru gelişmesi alanında örtüşür.",
+                "distinction": "Odak besleme ile büyütme ilişkisini canlı ve ürün için geneller; komşu insan yavrusunun ortaya çıkan olgunluk belirtilerine daha dardır."
+              },
+              {
+                "neighbor_ref": "root_000532/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal beslenme, organik büyüme ve bir topluluk içinde yetişme sonucunu öne çıkarır.",
+                "neighbor_only": "Komşu dal düzeltme, tamamlama, gözetme ve işi aşama aşama iyi duruma getirmeyi de kapsar.",
+                "gloss": "besleyip büyütmek ile gözetip geliştirmek",
+                "shared_zone": "Her iki dal bir çocuk veya başka bir varlıkla ilgilenip gelişmesini sağlama alanında buluşur.",
+                "distinction": "Odakta beslenmeye bağlı büyüme çekirdektir; komşu bakımın yanında düzeltme, tamamlama ve yönetme yönlerini de içerir."
+              },
+              {
+                "neighbor_ref": "root_001502/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal başkasını besleyip büyütmeyi ve ürün gelişimini de içerir.",
+                "neighbor_only": "Komşu dal genç kişinin büyümesini ve belirli bir çevrede yetişmesini yaşam evresi olarak öne çıkarır.",
+                "gloss": "büyütmek ile genç olarak yetişmek",
+                "shared_zone": "İki dal kişinin bir topluluğun içinde büyüyüp gelişmesini anlatabilir.",
+                "distinction": "Odak ettirgen besleme ile yetişenin gelişimini birlikte taşır; komşu genç kişinin büyüme evresine ve çevresine odaklanır."
+              },
+              {
+                "neighbor_ref": "root_000630/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal çocuk ve ürünün beslenmesini aynı büyütme ilişkisi içinde kapsar.",
+                "neighbor_only": "Komşu dal tohum atma, ekili alan ve bitki yetiştirme işlemlerini tarımsal ayrıntılarıyla içerir.",
+                "gloss": "besleyerek büyütmek ile ekin yetiştirmek",
+                "shared_zone": "İki dal bitkinin veya ürünün insan etkisiyle büyüyüp gelişmesi alanında örtüşür.",
+                "distinction": "Odak besleme ve büyüme ilişkisini geneller; komşu bu ilişkiyi ekme, tarla ve ürün yetiştirme eylemleriyle özelleştirir."
+              },
+              {
+                "neighbor_ref": "root_000537/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal büyümenin besleyen bir katılımcı veya yetişilen bir toplulukla ilişkisini kurar.",
+                "neighbor_only": "Komşu dal herhangi bir şeyin kendiliğinden artmasını veya konumca yükselmesini de kapsar.",
+                "gloss": "besleyip büyütmek ile genel olarak artmak",
+                "shared_zone": "Her iki dal canlı veya ürünün önceki durumuna göre büyüyüp çoğalmasını içerebilir.",
+                "distinction": "Odakta besleme, yetiştirme ve toplumsal çevre ilişkisi vardır; komşuda yalın artış bu katılımcılar olmadan da gerçekleşir."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; insan yetişmesi, gözetimli gelişme, gençlik, tarımsal büyüme ve genel artış sınırlarını gösteren beş aday seçildi. Kalanlar ebeveynlik, besinin etkisi veya kolay semirme gibi daha dolaylı ilişkilerdi.",
+            "branch_image_ar": "تغذية ونشوء",
+            "what_is_ar": "يدخل فيه ربيت الولد أو تربيته بمعنى غذوته، وربا الولد أو الزرع بالنماء، وربوت أو ربيت في القوم بمعنى نشأت فيهم.",
+            "what_is_not_ar": "ليس هو الربا في البيع، ولا مجرد ارتفاع أرض.",
+            "source_phrase_ar": "ربيته وتربيته أي غذوته (ayn)؛ ربوت في بني فلان وربيت أي نشأت فيهم، وربيته تربية وتربيته أي غذوته، هذا لكل ما ينمي كالولد والزرع (sihah)؛ ربيت الولد فربا من هذا (mufradat)",
+            "sources": [
+              "AY",
+              "SI",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B006",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kanıtın bir yönü uyluğun gövdeye bağlandığı kök bölgesini, diğer yönü ise iki tarafta içten çıkıntı yapan et parçalarını belirtir. Bu nedenle dal korunabilir, fakat yalnızca çıkıntı diye daraltılmadan bölge ile çift et parçası birlikte gösterilmelidir.",
+              "boundary_note": "Dal kasık ve uyluk kökü anatomisiyle sınırlıdır; bütün uyluğu, baldır kasını veya aynı sesli akrabalık ifadesini kapsamaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım, uyluk kökü bölgesi ile bu bölgenin iki yanındaki içten çıkıntılı et parçalarını doğrudan kapsar."
+            },
+            "concept_map": {
+              "definition": "Uyluğun gövdeye bağlandığı kök bölgesi veya uyluk köklerinin iç yanlarında çıkıntı yapan iki et parçasıdır. Tekil kullanım bölgeyi ya da etli kısmı, ikil kullanım iki iç yandaki parçaları gösterebilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Anatomik yer uyluğun gövdeye bağlandığı kök ve kasık bölgesidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Uyluk köklerinin iç yanlarında çıkıntı yapan et parçaları çift olarak adlandırılabilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar aynı anatomik alanı biri uyluk kökü, diğeri uyluk köklerinin iç yanlarındaki iki çıkıntılı et parçası üzerinden betimler; bunlar ayrı organlar değil, bölge ile belirgin kısımları arasındaki anlatım farkıdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "uyluk kökü ve iç yanlardaki iki çıkıntılı et parçası",
+              "applicability": "Hem uyluk kökü bölgesini hem de uyluk köklerinin iç yanındaki iki belirgin et parçasını kapsayan açıklayıcı karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Anatomik bölgeyi, uylukla ilişkisini ve iç yanlardaki iki çıkıntılı et parçasını birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kasık",
+                "usage_role": "general",
+                "applicability": "Uyluğun gövdeye bağlandığı bölgenin genel adı gerektiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Uyluk kökü ile gövdenin birleştiği anatomik bölgeyi korur.",
+                  "loses": "İki yandaki çıkıntılı et parçalarının çift olarak belirtilmesini görünmez kılar.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "uyluk köklerinin iç yanlarındaki iki et çıkıntısı",
+                "usage_role": "explanatory",
+                "applicability": "İkili biçimin uyluk köklerinin iç yanlarındaki belirgin et parçalarını anlattığı bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "İki taraflılığı, uyluk köklerinin iç yanındaki konumu ve çıkıntılı et yapısını korur.",
+                  "loses": "Tekil kullanımın genel kasık bölgesini gösterebilmesini kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_020",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uyluk kökü veya kasık eti"
+              },
+              {
+                "lexical_unit_id": "lu_021",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uyluk köklerinin iç yanlarındaki iki çıkıntılı et parçası"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "uyluk",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Anatomik yerin üst bacakla bağlantısını kısmen korur.",
+                  "loses": "Kök bölgesini ve iki yandaki çıkıntılı et parçalarını ayırt etmez.",
+                  "adds": "Diz ile kalça arasındaki bütün üst bacak bölümünü anlama katar.",
+                  "collision": "Bölgesel kasık anlamını bütün uzuvla karıştırır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000589/B006",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal uyluk kökünü ve iki iç yanındaki belirgin et parçalarını birlikte tanımlar.",
+                "neighbor_only": "Komşu dal kasık kemiği çevresini, cinsel bölge etini ve bazı kullanımlarda kadın cinsel organına örtülü göndermeyi kapsar.",
+                "gloss": "uyluk kökü ile cinsel bölge çevresi",
+                "shared_zone": "İki dal gövdenin alt kısmıyla uylukların birleştiği kasık çevresini adlandırır.",
+                "distinction": "Odak uyluk kökü ve iki et çıkıntısıyla sınırlıdır; komşu cinsel bölgeyi ve örtülü adlandırmaları da içeren daha geniş bir anatomik alana uzanır."
+              },
+              {
+                "neighbor_ref": "root_001193/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal her iki uyluk kökündeki kasık bölgesini ve çıkıntılı et parçalarını anlatır.",
+                "neighbor_only": "Komşu dal kalça oyuğu üzerindeki belirli bir et parçasını veya uyluktaki bir damarı anlatır.",
+                "gloss": "kasık eti ile kalça-uyluk dokusu",
+                "shared_zone": "Her iki dal kalça ile uyluk çevresindeki sınırlı bir anatomik dokuyu adlandırır.",
+                "distinction": "Odak gövde-uyluk birleşimindedir ve çift olabilir; komşu kalça üzerindeki et ya da uyluktaki damar olarak başka bir yapıya yönelir."
+              },
+              {
+                "neighbor_ref": "root_000358/B009",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal üst bacağın gövdeye bağlandığı kasık bölgesindeki eti gösterir.",
+                "neighbor_only": "Komşu dal alt bacağın içindeki veya yanındaki belirgin baldır kasını gösterir.",
+                "gloss": "kasık eti ile baldır kası",
+                "shared_zone": "İki dal bacak çevresindeki belirgin et veya kas yapılarını adlandırır.",
+                "distinction": "Odak uyluk kökü ve kasıktadır; komşu dizin altındaki baldır bölgesinde yer alan farklı bir kas parçasıdır."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; kasık çevresi, yakın uyluk dokusu ve baldır kasıyla sınırı gösteren üç aday seçildi. Kalanlar genel temel düşüncesi, başka beden biçimleri veya yalnızca aynı söz biçimini taşıyan ilgisiz kardeş anlamlardı.",
+            "branch_image_ar": "نتوء أصل الفخذ",
+            "what_is_ar": "يدخل فيه الأربية أو الأربيتان بمعنى أصل الفخذ أو لحمتين ناتئتين في أصول الفخذين من باطن.",
+            "what_is_not_ar": "ليس هو أربية القوم بمعنى أهل البيت، ولا الربا في المعاملة.",
+            "source_phrase_ar": "الأربية أصل الفخذ، وهما أربيتان (sihah)؛ الأربيتان لحمتان ناتئتان في أصول الفخذين من باطن (mufradat)",
+            "sources": [
+              "SI",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B007",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, yalnızca belirli bir gelme ifadesi içinde kişinin kendi topluluğundaki hane halkı arasına, özellikle baba tarafından kuzenler ve benzeri yakınlar arasına gelmesini belirtir. Başka bir topluluk veya genel akrabalık adı bu yapının yerini tutmaz.",
+              "boundary_note": "Anlam belirli gelme ifadesine ve baba tarafından yakın hane halkına bağlıdır; bağımsız bir aile, kabile veya bütün akrabalar adı değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Tanım yalnızca kişinin kendi topluluğundaki baba tarafından yakın hane halkı arasına gelmesini bildiren sabit yapıya bağlanır."
+            },
+            "concept_map": {
+              "definition": "Belirli bir gelme ifadesi içinde, kişinin kendi topluluğundaki hane halkı arasına, özellikle baba tarafından kuzenleri ve benzeri yakınları arasına gelmesidir. Anlam bu yakınlık çevresi ve söz yapısı dışında genelleştirilemez.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kişi kendi topluluğundaki yakın hane halkının arasına gelir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Yakınlık çevresi özellikle baba tarafından kuzenler ve onlara benzer yakınlardan oluşur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Anlam, başka kişilere uygulanmayan belirli bir gelme yapısıyla sınırlıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortaklaştırılacak ikinci bir tanıklık yoktur; anlam, tek tanıklığın verdiği hane halkı, baba tarafı yakınlığı ve belirli gelme yapısı sınırlarıyla korunur.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Tek tanıklık, ifadeyi kişinin kendi topluluğundaki baba tarafından yakın hane halkına bağlar ve yabancılara genişletilmesini açıkça engeller."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "baba tarafından yakın hane halkının arasına gelmek",
+              "applicability": "Kişinin kendi topluluğunda özellikle baba tarafından kuzenleri ve benzeri yakınları arasına gelişi için kullanılır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Gelme eylemini, hane halkını ve baba tarafından yakınlık sınırını birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "baba soyu yakınlarının yanına gelmek",
+                "usage_role": "contextual",
+                "applicability": "Hane halkı içinde baba tarafından kuzenlerin ve benzeri yakınların öne çıktığı anlatımda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Baba tarafı yakınlık çevresini ve onların yanına gelme eylemini korur.",
+                  "loses": "Hane halkı niteliğini ve yapının başka kişilere uygulanmama kısıtını daha az açık verir.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_022",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kendi topluluğundaki baba tarafından yakın hane halkının arasına geldi"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "aile",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Kişinin yakın hane halkıyla ilişkisini genel düzeyde korur.",
+                  "loses": "Gelme yapısını ve baba tarafından kuzenler sınırını belirtmez.",
+                  "adds": "Anne tarafı dahil bütün yakınları ve farklı aile ilişkilerini kapsama ekler.",
+                  "collision": "Sabit ifadenin dar yakınlık çevresini genel aile adıyla karıştırır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000166/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal belirli gelme yapısını ve baba tarafından kuzenler gibi yakınları gerektirir.",
+                "neighbor_only": "Komşu dal ev halkını, bakmakla yükümlü olunan kişileri ve eve bağlanan daha geniş topluluğu adlandırır.",
+                "gloss": "baba tarafı hane halkı ile genel ev halkı",
+                "shared_zone": "İki dal kişinin aynı eve veya yakın aile çevresine bağlı insanlarını gösterebilir.",
+                "distinction": "Odak, gelme eylemi içinde baba tarafı yakınlarına daralır; komşu, böyle bir yapı ve soy yönü olmadan bütün ev halkını kapsar."
+              },
+              {
+                "neighbor_ref": "root_000030/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal hane içindeki baba tarafı kuzenleri ve belirli gelme eylemini öne çıkarır.",
+                "neighbor_only": "Komşu dal kişinin güç aldığı aile, yakın topluluk veya daha geniş akraba kümesini adlandırır.",
+                "gloss": "yakın hane halkı ile destek veren aile çevresi",
+                "shared_zone": "İki dal kişinin bağlı olduğu yakın akraba ve aile topluluğu alanında örtüşür.",
+                "distinction": "Odak yapı bağımlı ve baba tarafına dar bir kullanımdır; komşu, kişiye dayanak olan akraba topluluğunu daha geniş ve bağımsız biçimde adlandırır."
+              },
+              {
+                "neighbor_ref": "root_001159/B009",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kişinin hane halkı arasına gelmesini ve baba tarafı kuzenleri özellikle belirtir.",
+                "neighbor_only": "Komşu dal kişinin topluluğu içindeki en yakın alt akraba kolunu bağımsız bir grup adı olarak verir.",
+                "gloss": "hane halkına gelmek ile yakın soy kolu",
+                "shared_zone": "Her iki dal kişinin kendi topluluğu içindeki yakın baba soyu akrabalarını gösterebilir.",
+                "distinction": "Odak bir gelme ifadesinin yakınlık çevresidir; komşu, eylemden bağımsız olarak akraba topluluğunun alt kolunu adlandırır."
+              },
+              {
+                "neighbor_ref": "root_001423/B005",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal hane halkı, baba tarafı ve belirli gelme yapısı sınırlarını birlikte taşır.",
+                "neighbor_only": "Komşu dal yakın kan bağını soy yönü, hane veya belirli bir eylem şartı koymadan anlatır.",
+                "gloss": "baba tarafı hane çevresi ile yakın akrabalık",
+                "shared_zone": "İki dal kişinin yakın kan bağı bulunan akrabalarıyla ilişkisini içerir.",
+                "distinction": "Odak somut bir yakınlar çevresine gelişi anlatır; komşu ise bu çevreyi oluşturan yakınlık derecesini soyut olarak belirtir."
+              },
+              {
+                "neighbor_ref": "root_001010/B008",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal baba tarafından yakın hane halkı arasına gelme yapısıyla sınırlıdır.",
+                "neighbor_only": "Komşu dal aileyi ve kabileyi daha geniş, bağımsız bir topluluk adı olarak kapsar.",
+                "gloss": "yakın hane çevresi ile aile-kabile",
+                "shared_zone": "İki dal kişinin soy ve aile bağıyla bağlı olduğu topluluğu gösterebilir.",
+                "distinction": "Odak dar ve yapı bağımlı bir yakınlık çevresidir; komşu küçük aileden kabileye uzanan daha geniş bir grup adıdır."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; ev halkı, destek veren aile, yakın soy kolu, yakın akrabalık ve geniş aile-kabile sınırlarını gösteren beş aday seçildi. Kalanlar kabile adı, genel akrabalık veya ilgisiz kardeş anlamlarıydı.",
+            "branch_image_ar": "أهل البيت من بني الأعمام",
+            "what_is_ar": "يدخل فيه قولهم جاء في أربية قومه أي في أهل بيته من بني الأعمام ونحوهم.",
+            "what_is_not_ar": "ليس هو الأربية بمعنى أصل الفخذ، ولا مطلق القوم أو العشيرة من غير هذا التعبير.",
+            "source_phrase_ar": "جاء فلان في أربية قومه، أي في أهل بيته من بني الأعمام ونحوهم، ولا تكون الأربية من غيرهم (sihah)",
+            "sources": [
+              "SI"
+            ],
+            "source_note": {
+              "SI": "Tek tanıklık, ifadeyi kişinin kendi topluluğundaki baba tarafından yakın hane halkına bağlar ve yabancılara genişletilmesini açıkça engeller."
+            }
+          }
+        ],
+        "root_profile": {
+          "summary": "Kökün merkezinde artma ve yükselme bulunur; bu çekirdek yükselmiş araziye, işlemde anaparayı aşan koşullu fazlalığa, yükselip sıkışan soluğa ve beslenerek büyümeye uzanır. Ayrıca uyluk kökü anatomisi ile baba tarafından yakın hane halkını anlatan dar bir ifade, merkezden ayrı sözlüksel dallar oluşturur.",
+          "polysemy": "polysemic",
+          "organization": "mixed"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 20,
+            "word_count": 20,
+            "ayah_count": 15,
+            "surah_count": 12
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "رَبْوَة",
+              "stem_ar": "رَبْوَةٍ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:rabowap|ROOT:rbw|F|INDEF|GEN",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "رِّبَوٰا",
+              "stem_ar": "رِّبَوٰا۟",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ibaw`A|ROOT:rbw|M|ACC",
+              "occurrence_count": 3
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "رِّبَوٰا",
+              "stem_ar": "رِّبَوٰا۟",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ibaw`A|ROOT:rbw|M|GEN",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F004",
+              "lemma_ar": "أَرْبَىٰ",
+              "stem_ar": "يُرْبِى",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|IMPF|(IV)|LEM:>arobaY`|ROOT:rbw|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F005",
+              "lemma_ar": "رِّبَوٰا",
+              "stem_ar": "رِّبَوٰٓا۟",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ibaw`A|ROOT:rbw|M|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F006",
+              "lemma_ar": "رِّبَوٰا",
+              "stem_ar": "رِّبَوٰٓا۟",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ibaw`A|ROOT:rbw|M|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F007",
+              "lemma_ar": "رَّابِي",
+              "stem_ar": "رَّابِيًا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|ACT|PCPL|LEM:r~aAbiy|ROOT:rbw|M|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F008",
+              "lemma_ar": "أَرْبَىٰ",
+              "stem_ar": "أَرْبَىٰ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|PERF|(IV)|LEM:>arobaY`|ROOT:rbw|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F009",
+              "lemma_ar": "رَبَّيَ",
+              "stem_ar": "رَبَّيَ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|PERF|(II)|LEM:rab~aya|ROOT:rbw|3MD",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F010",
+              "lemma_ar": "رَبَتْ",
+              "stem_ar": "رَبَتْ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|PERF|LEM:rabato|ROOT:rbw|3FS",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F011",
+              "lemma_ar": "رَبَّيَ",
+              "stem_ar": "نُرَبِّ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|IMPF|(II)|LEM:rab~aya|ROOT:rbw|1P|MOOD:JUS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F012",
+              "lemma_ar": "رِّب",
+              "stem_ar": "رِّبًا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ib|ROOT:rbw|M|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F013",
+              "lemma_ar": "رَبَتْ",
+              "stem_ar": "يَرْبُوَا۟",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:rabato|ROOT:rbw|3MS|MOOD:SUBJ",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F014",
+              "lemma_ar": "رَبَتْ",
+              "stem_ar": "يَرْبُوا۟",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:rabato|ROOT:rbw|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F015",
+              "lemma_ar": "رَّابِيَة",
+              "stem_ar": "رَّابِيَةً",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|ACT|PCPL|LEM:r~aAbiyap|ROOT:rbw|F|INDEF|ACC",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000537_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000537",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "initial",
+        "inputs_sha256": "f8e14e00d20c592b5bd71c5bb7327f75209ff87f4abefa8eed1be3e03bd227cb",
+        "review_inputs_sha256": "04ec4b7186b30cc0b029e67bfacb23e0408a66d70c3a4b769718d53aacfe3888",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000537/tr/output/root_000537_entry.json",
+          "sha256": "842f2d6b28847e45bd1d2d26a689ac08cb6b805d8fb1d2bbef5a79ca0a0473b5",
+          "entry_id": "root_000537/tr",
+          "status": "reviewed",
+          "review_verdict": "pass",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000537.json",
+          "sha256": "b190f4fc9a8b22446d94b5b563a6839d3c9c800b8a6c9f060bdfc79c2f99cb74"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000537/tr/input/task.json",
+          "sha256": "60d74fb085f960632f00119de9970f6b7f1c172573530cd0b404485eb53f7d46"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000537/tr/review/input/task.json",
+          "sha256": "fc5a29aa843dda2643c6fe72abdba1a405768bca0dc786cec3e7e01d0bd0a799"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000537/tr/review/output/review.json",
+          "sha256": "3196eb3583f482f5798213b36f5f53dd8841d1c577182e0ddba5ab834b12def0"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000537/B001",
+            "concept_gloss": {
+              "text": "artma, kabarma veya yükselme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003",
+                "F004"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "miktarca artmak veya düzeyce yükselmek",
+                "facet_ids": [
+                  "F001",
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Toprakta kabarma ve özel şiddetlenme kullanımları bu bağlamda görünmez.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "toprağın suyla kabarıp çoğalması",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Köpük, şiddet ve bir şeyin üstünde bulunma kullanımları dışarıda kalır.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "yukarı çıkan köpük veya olağanı aşan şiddet",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_003",
+                  "lu_004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Toprak kabarması ve göreli üstte bulunma anlamları bu bağlamda aktarılmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "birinin üzerine çıkmak veya üstünde bulunmak",
+                "facet_ids": [
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_005"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": "yükselmiş arazi anlamıyla karışabilir",
+                  "reason": "Genel artış ve kabarma yerine yalnızca göreli üstün konum verilir.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "arttı veya yükseldi",
+                "facet_ids": [
+                  "F001",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Toprak kabarması, köpük ve şiddetlenme örnekleri bu kısa fiilde açık değildir.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_002": {
+                "text": "toprak suyla kabardı",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Köpük, şiddet ve üstte bulunma kullanımları bu arazi bağlamına girmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_003": {
+                "text": "yükselen köpük",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Toprak kabarması ve başka birinin üstünde bulunma anlamları aktarılmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_004": {
+                "text": "çok şiddetli yakalayış",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Kabarma ve konumca üstte bulunma değil, derecenin artması öne çıkar.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_005": {
+                "text": "üzerine çıktı",
+                "facet_ids": [
+                  "F004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": "salt yüksek arazi adlandırmasıyla karışabilir",
+                  "reason": "Genel artma ve kabarma alanı yerine yalnızca üst konuma geçme verilir.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B002",
+            "concept_gloss": {
+              "text": "çevresinden yüksek arazi",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "yüksek yer veya arazi yükseltisi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_006",
+                  "lu_007",
+                  "lu_008"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_006": {
+                "text": "yüksek arazi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_007": {
+                "text": "çevresinden yüksek yer",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_008": {
+                "text": "arazi yükseltisi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B003",
+            "concept_gloss": {
+              "text": "borç veya alışverişte anapara fazlası",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "narrowing",
+                "loses_facet_ids": [
+                  "F004"
+                ],
+                "adds": null,
+                "collision": "genel artış anlamıyla karışabilir",
+                "reason": "Kişinin bu tür işleme girmesi değil, işlemdeki fazla miktar adlandırılır.",
+                "loses_core_concept": true
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "anaparayı aşan işlem fazlası",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_009",
+                  "lu_010"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": "faiz terimi modern kurumsal anlamlara çekebilir",
+                  "reason": "Borçtan fazlasını geri alma ve böyle işleme girme yönleri açık değildir.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "malın işlem fazlasıyla artması",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_011"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": "genel mal artışıyla karışabilir",
+                  "reason": "Borçtan fazlasını geri alma ve işleme girme yönleri bağlam dışı kalır.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "anapara fazlalığı içeren işleme girmek",
+                "facet_ids": [
+                  "F001",
+                  "F003",
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_012"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Borç verenin verdiğinden fazlasını alması özellikle belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_009": {
+                "text": "anapara fazlası",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": "genel fazla miktar anlamıyla karışabilir",
+                  "reason": "Borçtan fazlasını geri alma ve işleme girme yönleri bu kısa adta görünmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_010": {
+                "text": "işlem fazlası adı",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Borç ilişkisindeki fazla geri alma ve işleme girme kullanımı açık değildir.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_011": {
+                "text": "mal işlem fazlasıyla arttı",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": "genel mal artışıyla karışabilir",
+                  "reason": "Borçtan fazlasını geri alma ve failin işleme girmesi belirtilmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_012": {
+                "text": "anapara fazlalıklı işleme girdi",
+                "facet_ids": [
+                  "F001",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Verdiğinden fazlasını geri alma özel durumu ayrı söylenmez.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B004",
+            "concept_gloss": {
+              "text": "zorlanmış soluk sıkışması",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "yürüyüş veya koşudan sonra soluğun sıkışması",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_013",
+                  "lu_014"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Atın koşu veya korkuyla şişmesi örneği bu insan odaklı bağlamda görünmez.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "atın koşu veya ürkmeden şişip soluksuz kalması",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_015"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "soluğu yükselip tıkanmış durumda olmak",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_016"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "At örneği ve şişme görünümü doğrudan belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_013": {
+                "text": "sıkışık soluma",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": "modern astım hastalığı anlamına kayabilir",
+                  "reason": "Hareket veya korku nedeni ve at örneği bu kısa adta yer almaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_014": {
+                "text": "soluğu sıkıştı",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Atın koşu veya korkuyla şişmesi örneği aktarılmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_015": {
+                "text": "at koşu ya da ürkmeden şişip soluksuz kaldı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_016": {
+                "text": "soluğu yükselip tıkanmış",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Atın şişmesi özel örnek olarak belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B005",
+            "concept_gloss": {
+              "text": "besleyip yetiştirme ve gelişme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "çocuk veya ürünü besleyip büyütmek",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_017",
+                  "lu_019"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bir topluluk içinde yetişme kullanımı bu ettirgen bakım bağlamında yoktur.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "bir topluluk içinde yetişmek",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_018"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": "genel yetişme anlamıyla karışabilir",
+                  "reason": "Besleyenin varlığı ve ürün veya çocuğun bakım sonucu büyümesi belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_017": {
+                "text": "besleyip büyüttü",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bir topluluk içinde yetişme kullanımı bu fiilde bulunmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_018": {
+                "text": "onların arasında yetişti",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": "genel sosyal yetişme anlamıyla karışabilir",
+                  "reason": "Besleyip büyütme ve bakım sonucu gelişme yönleri bu bağlamda aktarılmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_019": {
+                "text": "çocuğu besleyip büyüttü, çocuk gelişti",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Topluluk içinde yetişme kullanımı ayrıca belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B006",
+            "concept_gloss": {
+              "text": "uyluk kökü veya kasık eti",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "uyluğun gövdeye bağlandığı kasık bölgesi",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_020"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": "daha geniş cinsel bölge adlarıyla karışabilir",
+                  "reason": "İki iç yandaki çıkıntılı et parçası ayrıca belirtilmez.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "uyluk köklerinin içindeki iki çıkıntılı et parçası",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_021"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_020": {
+                "text": "uyluk kökü veya kasık eti",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_021": {
+                "text": "uyluk köklerindeki iki çıkıntılı iç et",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B007",
+            "concept_gloss": {
+              "text": "baba tarafı yakınların arasına gelme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "kendi hane yakınlarının, özellikle baba tarafı kuzenlerinin arasına gelmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_022"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_022": {
+                "text": "baba tarafı hane yakınlarının arasına geldi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000537.json"
+    },
     "root_001295": {
       "root_ar": "ك ر ه",
+      "qac_roots_ar": [
+        "ك ر ه"
+      ],
       "root_id": "root_001295",
-      "root_mapping": {
-        "root_id": "root_001295",
-        "root_norm": "ك ر ه",
-        "source_root_norm": "ك ر ه",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 38,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ر ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 38
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "410d84b4811e34d60a635315756aebbe67722bf416136d4c1653816496112e62",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -17998,14 +21588,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s017/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2582,
+        "ayah_count": 111,
+        "row_count": 2575,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -18470,11 +22066,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s017"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s17/packets/17_38.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s17/readers/reader_hft_a/17_38.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 10,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 173614,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -18550,19 +22159,37 @@
           "root_ids": [
             "root_001315"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001315",
+            "targets": [
+              {
+                "qac_root_norm": "ك ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001315",
+                "furuq_root_norm": "ك ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 373,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001315",
-              "root_norm": "ك ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 373,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18587,19 +22214,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -18611,19 +22256,37 @@
           "root_ids": [
             "root_000755"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س و ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000755",
+            "targets": [
+              {
+                "qac_root_norm": "س و ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000755",
+                "furuq_root_norm": "س و ء",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 118,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000755",
-              "root_norm": "س و ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س و ء",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 118,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18648,19 +22311,37 @@
           "root_ids": [
             "root_001052"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ن د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001052",
+            "targets": [
+              {
+                "qac_root_norm": "ع ن د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001052",
+                "furuq_root_norm": "ع ن د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 183,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001052",
-              "root_norm": "ع ن د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ن د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 183,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18686,19 +22367,46 @@
             "root_000532",
             "root_000537"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر ب ب",
+            "mapping_status": "split",
+            "primary_root_id": "root_000532",
+            "targets": [
+              {
+                "qac_root_norm": "ر ب ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000532",
+                "furuq_root_norm": "ر ب ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 970,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ر ب ب",
+                "target_rank": 2,
+                "furuq_root_id": "root_000537",
+                "furuq_root_norm": "ر ب و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": true,
           "targets": [
             {
               "root_id": "root_000532",
-              "root_norm": "ر ب ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 970,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18717,37 +22425,70 @@
             },
             {
               "root_id": "root_000537",
-              "root_norm": "ر ب و",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 20,
+                  "ayahs": 15
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ك ر ه": {
           "root_id": "root_001295",
           "root_ids": [
             "root_001295"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ر ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001295",
+            "targets": [
+              {
+                "qac_root_norm": "ك ر ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_001295",
+                "furuq_root_norm": "ك ر ه",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 38,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001295",
-              "root_norm": "ك ر ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ر ه",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 38,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18774,10 +22515,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 60,
+        "dictionary_branches_kept": 60,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 54,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

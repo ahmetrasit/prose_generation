@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.444112+00:00",
+  "generated_at": "2026-08-04T22:29:54.729602+00:00",
   "surah": 54,
   "ayah": 49,
   "ayahRef": "54:49",
@@ -1821,7 +1821,8 @@
         "m-w-s054-a049-w001-01",
         "m-w-s054-a049-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:49:1"
+      "aligned_qac_word_ref_upstream": "54:49:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1835,7 +1836,8 @@
       "morpheme_ids": [
         "m-w-s054-a049-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:49:2"
+      "aligned_qac_word_ref_upstream": "54:49:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1849,7 +1851,8 @@
       "morpheme_ids": [
         "m-w-s054-a049-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:49:3"
+      "aligned_qac_word_ref_upstream": "54:49:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1867,7 +1870,8 @@
         "m-w-s054-a049-w004-02",
         "m-w-s054-a049-w004-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:49:4"
+      "aligned_qac_word_ref_upstream": "54:49:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1881,7 +1885,8 @@
       "morpheme_ids": [
         "m-w-s054-a049-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:49:5"
+      "aligned_qac_word_ref_upstream": "54:49:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1895,7 +1900,8 @@
       "morpheme_ids": [
         "m-w-s054-a049-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:49:6"
+      "aligned_qac_word_ref_upstream": "54:49:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2682,7 +2688,787 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_49.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:49",
+      "window": [
+        "54:46",
+        "54:47",
+        "54:48",
+        "54:49",
+        "54:50",
+        "54:51",
+        "54:52",
+        "54:53",
+        "54:54",
+        "54:55"
+      ],
+      "ayah_count": 10,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:49",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_comprehensive_specification",
+            "confidence": "strong",
+            "focus_anchor": "كُلَّ شَىْءٍ خَلَقْنَاهُ بِقَدَرٍ",
+            "mechanism": "The object-fronted totality gathers every identifiable thing, while creation and qadar jointly present each member as originated with a bounded specification.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Encompassing completion makes kull gather the created field without remainder."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The knowable and reportable thing supplies an individuated object within that totality."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination supplies the transition by which each specified object is brought into existence."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A quantity reaching its limit supplies each created thing with magnitude, boundary, and term."
+              }
+            ],
+            "changed_reading": {
+              "before": "Everything was created by an undifferentiated decree.",
+              "after": "Every identifiable thing is brought into being with its own bounded magnitude, limit, and term inside an exhaustive whole."
+            }
+          },
+          {
+            "model_id": "baseline_measured_fitting",
+            "confidence": "strong",
+            "focus_anchor": "خَلَقْنَاهُ بِقَدَرٍ",
+            "mechanism": "The measuring branch inside khalaqa is followed by the deliberative and congruent branches of qadar, producing a doubled design sequence: lay out the measure, then realize a form that fits it.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Estimating and measuring before cutting casts creation as prior layout rather than unshaped production."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberative estimation, preparation, and precise adjustment turn bi-qadar into executed design."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B006",
+                "role": "Congruence with a proper measure supplies the fit between intended layout and realized form."
+              }
+            ],
+            "changed_reading": {
+              "before": "Creation occurs first and an arbitrary quantity is assigned afterward.",
+              "after": "Creation is the fitting of a thing to a considered proportion, with qadar naming the congruence between design and realized form."
+            }
+          },
+          {
+            "model_id": "baseline_capacity_within_constraint",
+            "confidence": "exploratory",
+            "focus_anchor": "شَىْءٍ خَلَقْنَاهُ بِقَدَرٍ",
+            "mechanism": "Qadar holds capacity and constriction in tension, while khalaqa can mark preparedness; the created thing can therefore be read as equipped for action inside constitutive limits.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B005",
+                "role": "Readiness and fitness for something supply the created entity with a prepared field of action."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effective capability supplies what the thing can enact within its created constitution."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B004",
+                "role": "Constriction to a narrow allotment supplies the limiting edge of that capability."
+              }
+            ],
+            "changed_reading": {
+              "before": "Qadar is only a fixed external fate imposed on things.",
+              "after": "Each thing is created with both an operative capacity and a bounded range in which that capacity can unfold."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_temporal_appointment",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ع د"
+            ],
+            "mechanism": "The appointed time sharpens the term already latent in qadar: measure can specify not only how much a thing is, but when its course reaches its assigned boundary.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "Magnitude, limit, and term provide the focus anchor for a temporally bounded measure."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment bounded by time or place turns qadar's abstract term into a scheduled terminus."
+              }
+            ],
+            "structural_cues": [
+              "54:46 repeats ٱلسَّاعَةُ at words 2 and 4 around مَوْعِدُهُمْ."
+            ],
+            "reader_inference": "The packet supplies a bounded appointment and qadar's limit or term; I infer that a created course can include its appointed completion. The live alternative is that the appointment specifies judgment alone rather than creation generally.",
+            "changed_reading": {
+              "before": "Qadar specifies static quantity or form.",
+              "after": "Qadar can also include a temporal allotment, the point at which a created course reaches its due boundary."
+            }
+          },
+          {
+            "model_id": "delta_embodied_requital",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ر م",
+              "ذ و ق",
+              "م س س"
+            ],
+            "mechanism": "Acquired offense is followed by tasting and direct impact, activating proper measure as an embodied correspondence between what is earned and what reaches the responsible subject.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B006",
+                "role": "Congruence with a proper measure supplies the fitting relation between conduct and consequence."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B003",
+                "role": "Acquisition and earning make the named condition attributable to what its subjects have gained."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiencing and undergoing make the consequence personally known rather than merely announced."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "The arrival of an effect makes the fitted consequence bodily immediate."
+              }
+            ],
+            "structural_cues": [
+              "54:47 names the criminals, and 54:48 moves from their being dragged on their faces to the imperatives of tasting and touch."
+            ],
+            "reader_inference": "The packet supplies earning, undergone experience, and arriving impact; I infer a directional fit from acquired conduct to embodied consequence. Alternatively, these verses may only exemplify a measured order without asserting proportional requital as the sense of qadar.",
+            "changed_reading": {
+              "before": "Universal measure is morally neutral description.",
+              "after": "Within this judgment sequence, measure can be read as a fitted, experientially delivered consequence for what a subject has acquired."
+            }
+          },
+          {
+            "model_id": "delta_instant_execution",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م ر",
+              "و ح د",
+              "ل م ح",
+              "ب ص ر"
+            ],
+            "mechanism": "A single command realized like a visual flash separates logical specification from temporal delay: complete measuring can be conceptually prior while execution is effectively instantaneous.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Pre-action estimation supplies the logical specification that might otherwise be mistaken for a slow process."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberative ordering supplies a complete and precise plan available for immediate execution."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "An obligating command supplies the operative transition from specification to event."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "Numerical oneness compresses the operative transition into a single act."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B001",
+                "role": "A passing flash supplies the near-zero duration of realization."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Visual perception furnishes the concrete timescale for the flash comparison."
+              }
+            ],
+            "structural_cues": [
+              "54:50 immediately follows the focus and restricts the divine command to one, comparing it to a glance."
+            ],
+            "reader_inference": "The packet supplies a single command and a flash of sight; I infer that design-order and execution-order need not be elapsed stages. The alternative is that 54:50 describes only the execution of judgment, leaving other creation processes open.",
+            "changed_reading": {
+              "before": "Measured creation implies a prolonged sequence of planning and manufacture.",
+              "after": "The measure may be completely specified yet realized through one undivided command with the speed of a visual flash."
+            }
+          },
+          {
+            "model_id": "delta_patterned_precedent",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ه ل ك",
+              "ش ي ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "Destruction of comparable predecessors followed by a demand to remember turns qadar from isolated specification into a repeatable historical pattern recognizable across analogous groups.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Ordered preparation supplies a stable pattern capable of recurring across comparable cases."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B001",
+                "role": "Falling into destruction supplies the repeated outcome whose pattern is at issue."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ش ي ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000836",
+                "branch_id": "B007",
+                "role": "Likeness and analogy connect the addressed group to prior comparable cases."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Retrieval after forgetfulness makes the recurring pattern cognitively recoverable."
+              }
+            ],
+            "structural_cues": [
+              "54:51 addresses the audience through their comparable predecessors and closes with a question demanding recollection."
+            ],
+            "reader_inference": "The packet supplies destruction, analogical predecessors, and recollection; I infer that their sequence exposes a reusable historical rule. A live alternative is that analogy serves warning rhetoric without extending qadar beyond individual specification.",
+            "changed_reading": {
+              "before": "Each thing has a measure considered only in isolation.",
+              "after": "Measured order can appear historically as a reproducible pattern across analogous communities, available for recognition and warning."
+            }
+          },
+          {
+            "model_id": "delta_auditable_resolution",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ل ل",
+              "ش ي ء",
+              "ف ع ل",
+              "ز ب ر",
+              "ص غ ر",
+              "ك ب ر",
+              "س ط ر"
+            ],
+            "mechanism": "The focus phrase every thing returns with human action as its predicate; writing and the small-large merism then convert exhaustive measure from aggregate coverage into itemized, scale-independent resolution.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "Determinate amount and limit anchor the idea that each item has resolvable specification."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Encompassing completion repeats the focus totality in the domain of deeds."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "A knowable, reportable item makes each deed available as a distinct object of account."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "The production of an act relocates every thing from created entities to accountable human events."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and book turn comprehensive inclusion into durable registration."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "A second encompassing kull denies any remainder after the shift to registration."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ص غ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000865",
+                "branch_id": "B001",
+                "role": "Smallness supplies the lower end of the record's scale resolution."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B001",
+                "role": "Magnitude supplies the upper end, making the pair exhaustive across scale."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "The aligned written line gives every scale-defined item an inspectable place in the record."
+              }
+            ],
+            "structural_cues": [
+              "54:52 repeats كُلُّ شَىْءٍ from the focus with the new predicate فَعَلُوهُ; 54:53 distributes that totality across small and large and makes it inscribed."
+            ],
+            "reader_inference": "The packet supplies the lexical echo, enacted deeds, writing, and the small-large totality; I infer that cosmic comprehensiveness and accountable registration share item-level resolution. The alternative is that the record concerns deeds only and illustrates, rather than defines, qadar.",
+            "changed_reading": {
+              "before": "Every thing names a total aggregate measured only in bulk.",
+              "after": "The totality is resolved item by item and at every scale, extending from created entities to actions that remain durably auditable."
+            }
+          },
+          {
+            "model_id": "delta_protective_habitat",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق ي",
+              "ج ن ن",
+              "ن ه ر"
+            ],
+            "mechanism": "Protection, a tree-covered enclosure, and flowing water activate proper measure as ecological fit: bounded shelter and open circulation cooperate to make a sustaining habitat.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Complete and balanced form supplies the designed arrangement of the created environment."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B006",
+                "role": "Congruence with proper measure supplies the fit among inhabitants, enclosure, and flow."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protection from harm supplies the beneficiary-side need answered by the habitat."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden covered by trees supplies sheltering enclosure rather than mere restriction."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "A river cutting the earth with flowing water supplies circulation through the protected setting."
+              }
+            ],
+            "structural_cues": [
+              "54:54 places the protected people inside gardens and a river, pairing enclosure with flow."
+            ],
+            "reader_inference": "The packet supplies protection, covered garden, and flowing water; I infer that their complementary functions instantiate fitting measure as a life-supporting arrangement. Alternatively, the verse may depict reward without offering an ecological specification of qadar.",
+            "changed_reading": {
+              "before": "Measure is chiefly a restrictive boundary placed on a thing.",
+              "after": "Proper measure can be enabling design: shelter and circulation are proportioned together into a habitat fitted to its recipients."
+            }
+          },
+          {
+            "model_id": "delta_sovereign_placement",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ع د",
+              "ص د ق",
+              "ع ن د",
+              "م ل ك",
+              "ق د ر"
+            ],
+            "mechanism": "The closing seat, stability, proximity, sovereignty, and capability give qadar an agent and an endpoint: measure is an executable disposition that can place recipients securely in relation to the sovereign measurer.",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A thing's bounded measure supplies the disposition whose source and endpoint the closing verse clarifies."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001244",
+                "branch_id": "B001",
+                "role": "Sitting with stability in a place supplies a settled endpoint rather than an abstract quantity."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Complete soundness and stability qualify that placement as reliable and fully realized."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Nearness and presence make the endpoint relational, located with the sovereign."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Kingship and sovereignty identify the authority behind the disposition."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Capability reaching effective action closes the sequence by guaranteeing that the measured disposition can be executed."
+              }
+            ],
+            "structural_cues": [
+              "54:55 closes the pericope by moving from a seat of truth through proximity and kingship to the cognate مُقْتَدِرٍ."
+            ],
+            "reader_inference": "The packet supplies settled place, reliable stability, proximity, sovereignty, and effective capability; I infer that the qadar of 54:49 is agentive and purposive rather than impersonal. The live alternative is that 54:55 guarantees one rewarded endpoint without defining the measure of every created thing.",
+            "changed_reading": {
+              "before": "Qadar is an impersonal metric attached to created objects.",
+              "after": "Qadar is a sovereignly executable disposition capable of bringing a measured course to a stable and relationally located endpoint."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_willed_possibility",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the will branch behind shay rather than the ordinary noun alone; it remains anchored in the focus root and in the adjacent estimating branches of khalaqa and qadar. Downstream prose should present it as a root-level possibility-to-actuality resonance, not as the lexical claim that شَىْءٍ means will here.",
+            "focus_anchor": "شَىْءٍ خَلَقْنَاهُ بِقَدَرٍ",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "Will directed toward a thing supplies a field of possible objects prior to realization."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Estimating before action supplies the transition from possible object to laid-out form."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberate specification supplies the precise determination by which possibility becomes realizable."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse concerns only already constituted objects.",
+              "after": "At root-resonance level, it can also picture willable possibilities becoming determinate created particulars through specification."
+            }
+          },
+          {
+            "outlier_id": "outlier_oriented_trajectory",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries qadar's congruent-measure branch into bodily alignment and trajectory; it remains anchored in بِقَدَرٍ and is activated by the concrete dragging and face-first orientation of 54:48. Downstream prose should qualify it as a spatial-material analogy, not claim that qadar lexically means path or posture.",
+            "focus_anchor": "خَلَقْنَاهُ بِقَدَرٍ",
+            "activation_trace": [
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B006",
+                "role": "Proper congruence, including aligned bodily placement in motion, supplies a spatial dimension to measured fit."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging and extending a body supplies an imposed trajectory through space."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face as bodily front supplies the inverted orientation of that trajectory."
+              }
+            ],
+            "changed_reading": {
+              "before": "Measure concerns quantity, timing, or decree but not spatial disposition.",
+              "after": "Measured creation may analogically include assigned orientation and trajectory, even the way a body is fitted to the path it undergoes."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The measuring branches of both خ ل ق and ق د ر recast creation as specification realized in a fitting form.",
+            "54:50 removes the need for slow fabrication: complete specification can be executed as one command in a visual instant.",
+            "54:52-53 convert universal totality into itemized, scale-independent, and auditable resolution.",
+            "The cognate مُقْتَدِرٍ in 54:55 turns measure from an impersonal metric into a sovereignly executable disposition."
+          ],
+          "what_was_special": "The focus contains a double measurement mechanism before context arrives. The ordered context then stretches that mechanism across appointed time, embodied consequence, instantaneous command, historical recurrence, written granularity, fitted habitat, and finally stable placement under effective sovereignty without forcing those readings into one synthesis.",
+          "remaining_uncertainties": [
+            "The context may illustrate measured creation through judgment and reward without making those local mechanisms universal senses of qadar.",
+            "The requital, historical-pattern, and habitat models depend on reader-supplied directional links rather than explicit causal grammar.",
+            "The possibility-to-actuality and oriented-trajectory outliers are deliberately branch-distant and should remain qualified."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Creation is universal proportioning.** `ك ل ل` B003 is totality; `ش ي ء` B001 a knowable thing; `خ ل ق` B001 measuring/proportioning and B002 originating; `ق د ر` B001 measure reaching a thing’s extent and B006 fitting proportion. Object fronting places every thing under the act. I infer that origination and assignment of extent are one coordinated process. The ayah reads creation as bringing forth through proportion, not producing first and measuring afterward.\n\n2. **`بِقَدَرٍ` can also mark effective capacity and deliberate arrangement.** `ق د ر` B003 is capacity reaching effective control and B005 arranging by estimate/deliberation. The preceding `مُّقْتَدِرٍ` in 54:42 and following `مُّقْتَدِرٍ` in 54:55 frame this ayah with capacity-language. I infer a second reading in which every created thing exists by efficacious power and ordered determination. This coexists with quantitative measure rather than replacing it.",
@@ -3582,18 +4368,23 @@
   "root_lexicon": {
     "root_001315": {
       "root_ar": "ك ل ل",
+      "qac_roots_ar": [
+        "ك ل ل"
+      ],
       "root_id": "root_001315",
-      "root_mapping": {
-        "root_id": "root_001315",
-        "root_norm": "ك ل ل",
-        "source_root_norm": "ك ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 373,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 373
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1b62652dd08706d73c357e6fbeca545210dd48618694d4690482d32c5e16a02f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6069,18 +6860,23 @@
     },
     "root_000831": {
       "root_ar": "ش ي ء",
+      "qac_roots_ar": [
+        "ش ي ء"
+      ],
       "root_id": "root_000831",
-      "root_mapping": {
-        "root_id": "root_000831",
-        "root_norm": "ش ي ء",
-        "source_root_norm": "ش ي ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 509,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ي ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 509
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -6088,18 +6884,23 @@
     },
     "root_000434": {
       "root_ar": "خ ل ق",
+      "qac_roots_ar": [
+        "خ ل ق"
+      ],
       "root_id": "root_000434",
-      "root_mapping": {
-        "root_id": "root_000434",
-        "root_norm": "خ ل ق",
-        "source_root_norm": "خ ل ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 250,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ل ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 250
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "54ab2053cb6b55a96d87f5b4410d36c8efbb346396818f0835218322730f6af4",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9861,18 +10662,23 @@
     },
     "root_001205": {
       "root_ar": "ق د ر",
+      "qac_roots_ar": [
+        "ق د ر"
+      ],
       "root_id": "root_001205",
-      "root_mapping": {
-        "root_id": "root_001205",
-        "root_norm": "ق د ر",
-        "source_root_norm": "ق د ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 132,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق د ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 132
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b89054c1610798545d83bc0daa9270b52d3b752c826b0f87740065314061fa27",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12225,14 +13031,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12529,11 +13341,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_49.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_49.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 79838,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -12607,19 +13432,37 @@
           "root_ids": [
             "root_001315"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001315",
+            "targets": [
+              {
+                "qac_root_norm": "ك ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001315",
+                "furuq_root_norm": "ك ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 373,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001315",
-              "root_norm": "ك ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 373,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12644,19 +13487,37 @@
           "root_ids": [
             "root_000831"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ي ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000831",
+            "targets": [
+              {
+                "qac_root_norm": "ش ي ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000831",
+                "furuq_root_norm": "ش ي ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 509,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000831",
-              "root_norm": "ش ي ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ي ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 509,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -12668,19 +13529,37 @@
           "root_ids": [
             "root_000434"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ل ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000434",
+            "targets": [
+              {
+                "qac_root_norm": "خ ل ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000434",
+                "furuq_root_norm": "خ ل ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 250,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000434",
-              "root_norm": "خ ل ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ل ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 250,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12705,19 +13584,37 @@
           "root_ids": [
             "root_001205"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق د ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001205",
+            "targets": [
+              {
+                "qac_root_norm": "ق د ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001205",
+                "furuq_root_norm": "ق د ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 132,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001205",
-              "root_norm": "ق د ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق د ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 132,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12744,10 +13641,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 30,
+        "dictionary_branches_kept": 30,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 30,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.567602+00:00",
+  "generated_at": "2026-08-04T22:29:52.356601+00:00",
   "surah": 54,
   "ayah": 12,
   "ayahRef": "54:12",
@@ -2457,7 +2457,8 @@
       "morpheme_ids": [
         "m-w-s054-a012-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:1"
+      "aligned_qac_word_ref_upstream": "54:12:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2473,7 +2474,8 @@
         "m-w-s054-a012-w001-02",
         "m-w-s054-a012-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:2"
+      "aligned_qac_word_ref_upstream": "54:12:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2489,7 +2491,8 @@
         "m-w-s054-a012-w002-01",
         "m-w-s054-a012-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:3"
+      "aligned_qac_word_ref_upstream": "54:12:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2503,7 +2506,8 @@
       "morpheme_ids": [
         "m-w-s054-a012-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:4"
+      "aligned_qac_word_ref_upstream": "54:12:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2517,7 +2521,8 @@
       "morpheme_ids": [
         "m-w-s054-a012-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:5"
+      "aligned_qac_word_ref_upstream": "54:12:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2531,7 +2536,8 @@
       "morpheme_ids": [
         "m-w-s054-a012-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:6"
+      "aligned_qac_word_ref_upstream": "54:12:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2547,7 +2553,8 @@
         "m-w-s054-a012-w005-01",
         "m-w-s054-a012-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:7"
+      "aligned_qac_word_ref_upstream": "54:12:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2561,7 +2568,8 @@
       "morpheme_ids": [
         "m-w-s054-a012-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:8"
+      "aligned_qac_word_ref_upstream": "54:12:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2575,7 +2583,8 @@
       "morpheme_ids": [
         "m-w-s054-a012-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:9"
+      "aligned_qac_word_ref_upstream": "54:12:9",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 9,
@@ -2589,7 +2598,8 @@
       "morpheme_ids": [
         "m-w-s054-a012-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:10"
+      "aligned_qac_word_ref_upstream": "54:12:10",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 10,
@@ -2603,7 +2613,8 @@
       "morpheme_ids": [
         "m-w-s054-a012-w009-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:12:11"
+      "aligned_qac_word_ref_upstream": "54:12:11",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -4081,7 +4092,895 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_12.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:12",
+      "window": [
+        "54:1",
+        "54:2",
+        "54:3",
+        "54:4",
+        "54:5",
+        "54:6",
+        "54:7",
+        "54:8",
+        "54:9",
+        "54:10",
+        "54:11",
+        "54:12",
+        "54:13",
+        "54:14",
+        "54:15",
+        "54:16",
+        "54:17"
+      ],
+      "ayah_count": 17,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:12",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_lower_outlet_network",
+            "confidence": "strong",
+            "focus_anchor": "54:12 words 1-5 turn the earth into plural springs and then present their water as one meeting subject.",
+            "mechanism": "A wide rupture converts the lower boundary from passive ground into a distributed outlet network; multiple running sources feed an accumulating, unitary water mass.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide rupture with emission makes the ground an opened outlet rather than a passive surface."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower domain opposite the sky fixes the emitting boundary at the bottom of the scene."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The water-source sense supplies the many running outlets created in the earth."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B002",
+                "role": "Appearance and increase of water turns the plural outlets into an accumulating mass."
+              }
+            ],
+            "changed_reading": {
+              "before": "Springs appear in the earth during a flood.",
+              "after": "The earth itself is converted into a distributed emitting system whose many outlets produce one mobilized water mass."
+            }
+          },
+          {
+            "model_id": "baseline_measured_rendezvous",
+            "confidence": "strong",
+            "focus_anchor": "54:12 words 4, 7, and 9 bind the waters' meeting to an affair already measured.",
+            "mechanism": "Mutual encounter and the joining of ends are constrained by an affair carrying appointment and by prior specification of amount, limit, and arrangement.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B004",
+                "role": "Reciprocal encounter makes convergence a meeting between streams rather than mere standing water."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B010",
+                "role": "The joining of opposed ends gives the meeting a fitted junction."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B005",
+                "role": "The marker or appointed-time image makes the affair a scheduled condition of encounter."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "Specified amount and limit bound the scale and endpoint of the convergence."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Prior planning and adjustment supply the organizing specification behind the meeting."
+              }
+            ],
+            "changed_reading": {
+              "before": "Floodwater happens to collect under a prior decree.",
+              "after": "Separate flows are brought to a scheduled junction whose scale, fit, and endpoint have been specified in advance."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_bilateral_boundary_release",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ق ق",
+              "ف ت ح",
+              "ب و ب",
+              "س م و",
+              "م و ه",
+              "ه م ر"
+            ],
+            "mechanism": "The focus's lower outlet network becomes one half of a coordinated vertical system: an upper boundary opens through gates and pours downward while the lower boundary ruptures upward, so the meeting is produced by opposed releases.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide rupture and emission provide the lower release."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "Multiple water sources distribute the lower release across the earth."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B010",
+                "role": "Joining opposed ends supplies the hinge between upper and lower flows."
+              },
+              {
+                "source_ref": "54:1",
+                "root": "ش ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000807",
+                "branch_id": "B001",
+                "role": "Cosmic splitting establishes boundary rupture as an earlier scale of the same sequence."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B005",
+                "role": "Opening as water issuing from an outlet supplies the upper release mechanism."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ب و ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000163",
+                "branch_id": "B002",
+                "role": "Plural gates partition the upper boundary into controlled apertures."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "س م و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The over-arching sky locates those apertures above the earth's outlets."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B002",
+                "role": "Abundant appearing water identifies the same material supplied from above."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ه م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001599",
+                "branch_id": "B001",
+                "role": "Continuous pouring gives the upper flow its downward force."
+              }
+            ],
+            "structural_cues": [
+              "54:11 immediately precedes 54:12; consecutive first-person plural actions and the linking fa particles make the two releases one operation.",
+              "The sequence moves from sky gates to earth outlets to a single meeting water."
+            ],
+            "reader_inference": "The packet supplies cosmic splitting, sky gates opening with pouring water, earth bursting, and water meeting. I infer a coordinated upper-lower release system; alternatively, 54:1 may be only an omen parallel, while the hydraulic pairing itself rests on 54:11-12.",
+            "changed_reading": {
+              "before": "The earth independently produces floodwater.",
+              "after": "The earth's eruption is the lower half of a vertically coordinated boundary release in which descending and ascending supplies are made to meet."
+            }
+          },
+          {
+            "model_id": "delta_affair_reaches_settlement",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م ر",
+              "ق ر ر"
+            ],
+            "mechanism": "The earlier statement that every affair reaches stability turns the focus's measured affair into a material arrival: the waters meet where a previously announced affair comes to its fixed station.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B004",
+                "role": "Mutual encounter gives the affair a concrete point of arrival in the waters."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The affair or case links the hydraulic event to the earlier general statement."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B006",
+                "role": "Arrival in a fitting measure supports the event reaching its assigned condition."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The repeated affair term supplies the explicit lexical bridge to the focus."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement give that repeated affair an eventual stable destination."
+              }
+            ],
+            "structural_cues": [
+              "The same affair root occurs in 54:3 and 54:12.",
+              "The earlier universal formulation is realized later through a particular measured convergence."
+            ],
+            "reader_inference": "The packet supplies a repeated affair term, an earlier predicate of settlement, and a later measured meeting. I infer that the convergence materially enacts the affair's arrival at stability; alternatively, the earlier settlement may denote outcome in general rather than a spatial rendezvous.",
+            "changed_reading": {
+              "before": "A decree authorizes the flood.",
+              "after": "The waters' fitted meeting is the visible settlement of an affair whose arrival had already been announced as a general rule."
+            }
+          },
+          {
+            "model_id": "delta_petition_becomes_hydraulic_vindication",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ع و",
+              "ر ب ب",
+              "غ ل ب",
+              "ن ص ر"
+            ],
+            "mechanism": "A dominated servant calls to the sovereign for vindication; the requested aid has a rain-relief branch, and the following measured water release converts social imbalance into a calibrated material counterforce.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B003",
+                "role": "A sudden abundant onrush supplies the material force of the answer."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B002",
+                "role": "Water's rapid appearance and increase provide the answering medium."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The affair becomes the case resolved by the response."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Prior arrangement keeps the answer calibrated rather than reactive or accidental."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "A directed call initiates the petition-response sequence."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereign mastery identifies the addressee able to reverse the imbalance."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "غ ل ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001098",
+                "branch_id": "B001",
+                "role": "Overpowering force supplies the social asymmetry that the response reverses."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B004",
+                "role": "The rain-as-aid branch directly couples requested vindication to the coming water."
+              }
+            ],
+            "structural_cues": [
+              "The plea in 54:10 is followed by fa-linked opening in 54:11 and earth-bursting in 54:12.",
+              "The narrative moves without a new human agent from reported overpowering to a measured environmental reversal."
+            ],
+            "reader_inference": "The packet supplies a call from one overpowered, a request for aid, a rain-relief branch, and the immediate water sequence. I infer petition-to-material-response causality; alternatively, the flood can remain a prior punitive decree whose timing, rather than design, answers the petition.",
+            "changed_reading": {
+              "before": "The measured affair is an impersonal catastrophic decree.",
+              "after": "The measured convergence is also a calibrated act of vindication, translating a plea against overpowering into hydraulic counterforce."
+            }
+          },
+          {
+            "model_id": "delta_release_and_muster_pattern",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ع و",
+              "خ ر ج",
+              "ج د ث",
+              "ن ش ر",
+              "ه ط ع"
+            ],
+            "mechanism": "The preceding resurrection scene releases many units from enclosed sites, spreads them, and then directs their rapid movement toward one call; the focus repeats that motion as many terrestrial outlets yielding water that converges on one measured affair.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Rupture and emission begin the focus's release phase."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "Plural water sources distribute what is released across many points."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B010",
+                "role": "Joining separated ends supplies the focus's convergence phase."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Passage from enclosure to outside supplies the parallel release motion."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "ج د ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000226",
+                "branch_id": "B001",
+                "role": "Graves provide the many bounded source-sites from which the released units emerge."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "ن ش ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001503",
+                "branch_id": "B001",
+                "role": "Opening, spreading, and branching establish a dispersed intermediate phase."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "ه ط ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001594",
+                "branch_id": "B003",
+                "role": "Rapid directed approach turns dispersion into compelled convergence."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The single summons supplies the destination organizing the many movers."
+              }
+            ],
+            "structural_cues": [
+              "54:7-8 move from plural emergence and spread to motion toward one caller.",
+              "54:12 moves from plural springs to singular water and a measured meeting."
+            ],
+            "reader_inference": "The packet supplies two release-dispersion-convergence sequences. I infer a shared mustering pattern that changes how the focus's hydrology is perceived; alternatively, the similarity may be rhetorical choreography without implying one semantic mechanism.",
+            "changed_reading": {
+              "before": "Many springs simply feed a flood.",
+              "after": "The hydraulic scene instantiates a broader mustering pattern: distributed emergence is gathered into one compelled destination."
+            }
+          },
+          {
+            "model_id": "delta_water_as_differential_medium",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح م ل",
+              "ل و ح",
+              "د س ر",
+              "ج ر ي",
+              "ع ي ن",
+              "ج ز ي",
+              "ع ذ ب"
+            ],
+            "mechanism": "Within the boundary-destroying water, fastened boards form a bounded carrier that runs under care as recompense; the same environmental force therefore punishes at large while becoming an ordered transport surface for the preserved passenger.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B002",
+                "role": "The increasing water mass supplies the common medium in which opposite outcomes occur."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Planned adjustment allows the common medium to have differentiated functions."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B006",
+                "role": "A carrying vehicle introduces protected transport within the flood."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "Broad construction boards provide the vessel's bounded surface."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B002",
+                "role": "Fastenings hold the boards together against the surrounding release."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing motion turns destructive water into the vessel's transport path."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "The care-and-guarding sense specifies supervision of the protected trajectory."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Corresponding recompense makes preservation a relational outcome rather than a mechanical accident."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive pain names the contrary large-scale function of the same event."
+              }
+            ],
+            "structural_cues": [
+              "54:13-14 immediately follow the waters' meeting and place a constructed carrier on the resulting flow.",
+              "54:14 marks the voyage as recompense, while 54:16 names punishment."
+            ],
+            "reader_inference": "The packet supplies increasing water, a fastened carrier, supervised flow, recompense, and punishment. I infer that one measured medium is functionally differentiated by relation; alternatively, the focus may describe only water assembly, with selection introduced solely by the following vessel scene.",
+            "changed_reading": {
+              "before": "The meeting waters form an indiscriminate destructive mass.",
+              "after": "The measured water is a differential medium: unbounded judgment around the vessel and an ordered route of carriage beneath it."
+            }
+          },
+          {
+            "model_id": "delta_event_engineered_for_retrieval",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ر ك",
+              "ء ي ي",
+              "ذ ك ر",
+              "ي س ر",
+              "ق ر ء"
+            ],
+            "mechanism": "The measured event is not exhausted by execution: an effect is deliberately left as a visible sign, then gathered into facilitated recitation and repeated remembrance, giving the flood a designed mnemonic afterlife.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B005",
+                "role": "The marker and appointment sense lets the measured affair point beyond its immediate occurrence."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Prior design opens the possibility that later retrievability belongs to the event's arrangement."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "Leaving an enduring trace gives the completed event a preserved residue."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign turns that residue into inspectable evidence."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder gives the sign an intended cognitive function."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ease after difficulty makes repeated access to the event available."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies the repeatable medium that carries the event forward."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall after absence completes the transfer from physical event to recoverable memory."
+              }
+            ],
+            "structural_cues": [
+              "54:15 and 54:17 repeat the same question about one who will remember.",
+              "The sequence moves from measured occurrence to retained sign to facilitated recitation."
+            ],
+            "reader_inference": "The packet supplies a deliberately retained sign and facilitated recitation for remembrance. I infer that the focus's prior measuring includes a mnemonic afterlife; alternatively, the retained pronoun may point specifically to the vessel or sign, not to every hydraulic detail.",
+            "changed_reading": {
+              "before": "The measured affair ends when the waters complete their destructive meeting.",
+              "after": "The affair is arranged to remain retrievable after the water recedes, first as retained evidence and then as repeatable memory."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_earth_eyes_and_guarding_eyes",
+            "confidence": "medium",
+            "containment": "This is surprising because it superimposes vision on the ordinary spring sense. It remains valid as a lexical double exposure: the exact eye root names the earth's springs in 54:12 and guarded oversight in 54:14. Downstream prose should present a mirrored image, not claim that the springs literally see.",
+            "focus_anchor": "54:12 word 3 calls the earth's water sources by the same eye root reused for the vessel's supervision in 54:14.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The source sense grounds the ordinary reading as water issuing from earth-eyes."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The seeing-organ branch keeps a visual resonance latent inside the source term."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "Guarding sight activates the latent visual resonance as supervision of the vessel."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth's eyes are only springs, and the later eyes are only an idiom of care.",
+              "after": "A contained double exposure appears: earthly eyes discharge the measured water while guarding eyes oversee the preserved vessel within it."
+            }
+          },
+          {
+            "outlier_id": "outlier_nested_container_reversal",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it activates the skin-aperture and cooking-vessel branches rather than treating them as direct senses of the focus forms. It remains anchored in the focus's rupture, eye, and measure roots and is reinforced by sky gates and fastened ship boards. Downstream prose should label it a material analogy, not a translation.",
+            "focus_anchor": "54:12 words 1-3 open the earth through spring-like apertures, while word 9 can activate a container-and-proportion image.",
+            "activation_trace": [
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide rupture supplies failure of the large containing boundary."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B007",
+                "role": "A thin aperture in a water skin supplies the analogy of a leaking macro-container."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B007",
+                "role": "The cooking-container branch adds bounded capacity and proportion to the material analogy."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ب و ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000163",
+                "branch_id": "B001",
+                "role": "Upper entrances reinforce the image of a larger enclosure deliberately opened."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B002",
+                "role": "Ship fastenings supply the inverse operation: a smaller container is kept closed and coherent."
+              }
+            ],
+            "changed_reading": {
+              "before": "The flood merely breaks boundaries while the ship happens to float.",
+              "after": "The scene becomes a nested containment reversal: the world-sized enclosure is opened and emptied, while a small crafted enclosure is tightly fastened to preserve life inside the release."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "54:11 turns the earth's eruption into the lower half of a paired sky-earth release system.",
+            "54:3 makes the measured meeting a concrete settlement of an affair rather than a generic decree.",
+            "54:10 activates the water as calibrated vindication, especially through the aid-as-rain branch.",
+            "54:13-17 differentiate the same water into punishment, protected transport, retained sign, and recoverable memory."
+          ],
+          "what_was_special": "The focus compresses a large mechanism into plural outlets, singular water, mutual meeting, and prior measure. Nearby branch recurrences unfold that compression into boundary release, answered petition, selective carriage, and mnemonic preservation without forcing those readings into one final interpretation.",
+          "remaining_uncertainties": [
+            "The moon's splitting may be a thematic omen rather than a direct component of the hydraulic system.",
+            "The release-and-muster parallel may be formal choreography rather than a shared semantic mechanism.",
+            "The settlement reading depends on linking the earlier fixed affair to the later water junction.",
+            "The eye double exposure and nested-container model are controlled analogies, not direct lexical translations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Upper and lower waters are made to meet as paired systems.** `ف ج ر` B001 is wide splitting with outflow, `ء ر ض` B001 lower ground opposite the sky, `ع ي ن` B006 a springing water-eye, and `ل ق ي` B004 two things coming face to face. The previous ayah supplies downward water; this ayah supplies upward or outward earth-water, then singularizes them as `ٱلْمَآءُ`. I infer that their meeting is coordinated convergence, not accidental accumulation. The earth reads as a many-eyed emitting surface answering the opened sky.\n\n2. **Measure may be prior arrangement or exact extent.** `ء م ر` B001 is an affair and B002 a directive; `ق د ر` B001 is measure reaching a thing’s extent and B005 arranging by estimate and deliberation. The passive perfect `قَدْ قُدِرَ` places measure before the narrated meeting. I infer either a pre-arranged event or a command whose extent has been fixed; the packet does not require choosing. The flood is both governed in plan and bounded by an assigned measure, even while experientially overwhelming.",
@@ -5084,18 +5983,23 @@
   "root_lexicon": {
     "root_001132": {
       "root_ar": "ف ج ر",
+      "qac_roots_ar": [
+        "ف ج ر"
+      ],
       "root_id": "root_001132",
-      "root_mapping": {
-        "root_id": "root_001132",
-        "root_norm": "ف ج ر",
-        "source_root_norm": "ف ج ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 22,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف ج ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 22
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a3b46701e12aaf0fa9e80fd4458d9377521e8d7d61e3ad1075bcfb43fd4270dd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6834,18 +7738,23 @@
     },
     "root_000025": {
       "root_ar": "ء ر ض",
+      "qac_roots_ar": [
+        "ء ر ض"
+      ],
       "root_id": "root_000025",
-      "root_mapping": {
-        "root_id": "root_000025",
-        "root_norm": "ء ر ض",
-        "source_root_norm": "أ ر ض",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 461,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ر ض",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 461
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "aab7ab48f17d86fce2536c56fa77fe65c9bf879cb1a54ad2f6bac9c11adc09a2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9076,18 +9985,23 @@
     },
     "root_001069": {
       "root_ar": "ع ي ن",
+      "qac_roots_ar": [
+        "ع ي ن"
+      ],
       "root_id": "root_001069",
-      "root_mapping": {
-        "root_id": "root_001069",
-        "root_norm": "ع ي ن",
-        "source_root_norm": "ع ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 65,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 65
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4c2f337f0d2166ddb2358f22dd5b333c3ed084e0834b862965ed58fa323a8dc1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12098,18 +13012,23 @@
     },
     "root_001372": {
       "root_ar": "ل ق ي",
+      "qac_roots_ar": [
+        "ل ق ي"
+      ],
       "root_id": "root_001372",
-      "root_mapping": {
-        "root_id": "root_001372",
-        "root_norm": "ل ق ي",
-        "source_root_norm": "ل ق ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل ق ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ef8927f2812cb6df9c4e986d2f9e8229e10d23036e877f73f2227613b4cf4e2f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15234,18 +16153,23 @@
     },
     "root_001458": {
       "root_ar": "م و ه",
+      "qac_roots_ar": [
+        "م و ه"
+      ],
       "root_id": "root_001458",
-      "root_mapping": {
-        "root_id": "root_001458",
-        "root_norm": "م و ه",
-        "source_root_norm": "م و ه",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 63,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م و ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 63
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cad7af3d34cfbd12fe6a51cc0b90a6688a1581021ddc42a2e01b3f4a6c8c0ef1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -17937,18 +18861,23 @@
     },
     "root_000051": {
       "root_ar": "ء م ر",
+      "qac_roots_ar": [
+        "ء م ر"
+      ],
       "root_id": "root_000051",
-      "root_mapping": {
-        "root_id": "root_000051",
-        "root_norm": "ء م ر",
-        "source_root_norm": "أ م ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 241,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء م ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 241
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6619cf1a09b74b544841a95a3f0fa585c87e19e212506a4f4a9c9ff534a6a4b9",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -20832,18 +21761,23 @@
     },
     "root_001205": {
       "root_ar": "ق د ر",
+      "qac_roots_ar": [
+        "ق د ر"
+      ],
       "root_id": "root_001205",
-      "root_mapping": {
-        "root_id": "root_001205",
-        "root_norm": "ق د ر",
-        "source_root_norm": "ق د ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 132,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق د ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 132
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b89054c1610798545d83bc0daa9270b52d3b752c826b0f87740065314061fa27",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -23196,14 +24130,20 @@
       "words_total": 11,
       "words_resolved": 11,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 11
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -23596,11 +24536,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_12.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_12.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 131041,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -23677,19 +24630,37 @@
           "root_ids": [
             "root_001132"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف ج ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001132",
+            "targets": [
+              {
+                "qac_root_norm": "ف ج ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001132",
+                "furuq_root_norm": "ف ج ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 22,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001132",
-              "root_norm": "ف ج ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف ج ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 22,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -23714,19 +24685,37 @@
           "root_ids": [
             "root_000025"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ر ض",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000025",
+            "targets": [
+              {
+                "qac_root_norm": "ء ر ض",
+                "target_rank": 1,
+                "furuq_root_id": "root_000025",
+                "furuq_root_norm": "ء ر ض",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 461,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000025",
-              "root_norm": "ء ر ض",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ر ض",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 461,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -23751,19 +24740,37 @@
           "root_ids": [
             "root_001069"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001069",
+            "targets": [
+              {
+                "qac_root_norm": "ع ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001069",
+                "furuq_root_norm": "ع ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 65,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001069",
-              "root_norm": "ع ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 65,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -23788,19 +24795,37 @@
           "root_ids": [
             "root_001372"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ل ق ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001372",
+            "targets": [
+              {
+                "qac_root_norm": "ل ق ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001372",
+                "furuq_root_norm": "ل ق ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001372",
-              "root_norm": "ل ق ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ل ق ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -23825,19 +24850,37 @@
           "root_ids": [
             "root_001458"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م و ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001458",
+            "targets": [
+              {
+                "qac_root_norm": "م و ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_001458",
+                "furuq_root_norm": "م و ه",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 63,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001458",
-              "root_norm": "م و ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م و ه",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 63,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -23862,19 +24905,37 @@
           "root_ids": [
             "root_000051"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء م ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000051",
+            "targets": [
+              {
+                "qac_root_norm": "ء م ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000051",
+                "furuq_root_norm": "ء م ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 241,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000051",
-              "root_norm": "ء م ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء م ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 241,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -23899,19 +24960,37 @@
           "root_ids": [
             "root_001205"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق د ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001205",
+            "targets": [
+              {
+                "qac_root_norm": "ق د ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001205",
+                "furuq_root_norm": "ق د ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 132,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001205",
-              "root_norm": "ق د ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق د ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 132,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -23938,10 +25017,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 73,
+        "dictionary_branches_kept": 73,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 73,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

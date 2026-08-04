@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.424634+00:00",
+  "generated_at": "2026-08-04T22:29:47.811603+00:00",
   "surah": 51,
   "ayah": 42,
   "ayahRef": "51:42",
@@ -2274,7 +2274,8 @@
       "morpheme_ids": [
         "m-w-s051-a042-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:1"
+      "aligned_qac_word_ref_upstream": "51:42:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2288,7 +2289,8 @@
       "morpheme_ids": [
         "m-w-s051-a042-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:2"
+      "aligned_qac_word_ref_upstream": "51:42:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2302,7 +2304,8 @@
       "morpheme_ids": [
         "m-w-s051-a042-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:3"
+      "aligned_qac_word_ref_upstream": "51:42:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2316,7 +2319,8 @@
       "morpheme_ids": [
         "m-w-s051-a042-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:4"
+      "aligned_qac_word_ref_upstream": "51:42:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2330,7 +2334,8 @@
       "morpheme_ids": [
         "m-w-s051-a042-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:5"
+      "aligned_qac_word_ref_upstream": "51:42:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2346,7 +2351,8 @@
         "m-w-s051-a042-w006-01",
         "m-w-s051-a042-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:6"
+      "aligned_qac_word_ref_upstream": "51:42:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2360,7 +2366,8 @@
       "morpheme_ids": [
         "m-w-s051-a042-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:7"
+      "aligned_qac_word_ref_upstream": "51:42:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2376,7 +2383,8 @@
         "m-w-s051-a042-w008-01",
         "m-w-s051-a042-w008-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:8"
+      "aligned_qac_word_ref_upstream": "51:42:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2390,7 +2398,8 @@
       "morpheme_ids": [
         "m-w-s051-a042-w009-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:9"
+      "aligned_qac_word_ref_upstream": "51:42:9",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 9,
@@ -2406,7 +2415,8 @@
         "m-w-s051-a042-w009-02",
         "m-w-s051-a042-w009-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:42:10"
+      "aligned_qac_word_ref_upstream": "51:42:10",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3329,7 +3339,940 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_42.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:42",
+      "window": [
+        "51:38",
+        "51:39",
+        "51:40",
+        "51:41",
+        "51:42",
+        "51:43",
+        "51:44",
+        "51:45",
+        "51:46",
+        "51:47",
+        "51:48",
+        "51:49",
+        "51:50",
+        "51:51",
+        "51:52",
+        "51:53",
+        "51:54",
+        "51:55",
+        "51:56",
+        "51:57",
+        "51:58",
+        "51:59",
+        "51:60"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:42",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_exhaustive_contact_conversion",
+            "confidence": "strong",
+            "focus_anchor": "The negative ma...min construction, the relative clause atat alayhi, and the illa result clause jointly scope the claim over every encountered entity.",
+            "mechanism": "Arrival defines a contact set; the exception then assigns every member of that set one transformed output state, leaving no unchanged survivor.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "Literal leaving supplies the excluded outcome: nothing within the contact set is left as it was."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The general knowable or reportable entity gives the quantifier its maximally broad object domain."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming and reaching delimit the domain by actual encounter rather than unrestricted cosmic totality."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-transformation supplies the causal operation applied uniformly after contact."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "Decay and what remains after breaking define the common terminal state."
+              }
+            ],
+            "changed_reading": {
+              "before": "The wind destroys whatever it hits.",
+              "after": "Every entity admitted to the wind's contact set is exhaustively converted into one residue-state; none exits the encounter unchanged."
+            }
+          },
+          {
+            "model_id": "base_disassembly_to_remainder",
+            "confidence": "medium",
+            "focus_anchor": "Tadharu and ramim carry branch images of detached pieces, cutting, crumbs, and remnants after rupture.",
+            "mechanism": "The clause can be tracked as a material sequence: coherent object, separation or cutting, then friable remainder; destruction is loss of internal joining, not mere disappearance.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B001",
+                "role": "A detached piece literalizes the intermediate fragments that the negated verb refuses to spare."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B002",
+                "role": "Cutting supplies the loss-of-cohesion operation behind the resulting fragments."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Transformation orders disassembly toward a resultant condition rather than random scattering."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B003",
+                "role": "Earthy crumbs and surface litter supply the fine-grained endpoint of disassembly."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "What remains after breakage keeps the endpoint materially present rather than annihilated."
+              }
+            ],
+            "changed_reading": {
+              "before": "Whole objects become generically ruined.",
+              "after": "The wind unjoins coherent things through a piece-and-cut phase until only friable remnants remain."
+            }
+          },
+          {
+            "model_id": "base_path_wake_deposition",
+            "confidence": "exploratory",
+            "focus_anchor": "Atat alayhi presents traversal over a contacted surface, while the ati and ramim inventories admit channel, incoming-flow, and surface-detritus images.",
+            "mechanism": "A moving force traces a route whose wake is diagnosed by deposited crumbs; universality is intensive along the route, not necessarily spatially unrestricted.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B004",
+                "role": "A directed channel supplies the path geometry through which the arriving force is imagined to move."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B005",
+                "role": "An incoming flow from elsewhere supplies a mobile front entering the affected zone."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "Leaving marks what the moving front deposits behind itself."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B003",
+                "role": "Surface crumbs make the wake materially visible as a trail of detritus."
+              }
+            ],
+            "changed_reading": {
+              "before": "A blast ruins objects at isolated impact points.",
+              "after": "A moving front writes its route onto the terrain as a continuous wake of deposited detritus."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx_collective_support_collapse",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ك ن",
+              "ج ن د",
+              "ء خ ذ",
+              "ن ب ذ"
+            ],
+            "mechanism": "The preceding movement from relied-on support and a mutually reinforcing host to seizure and casting widens shay beyond isolated bodies: organized power itself can be unjoined and reduced to remainder.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The broad entity category can include a formation or support-system, not only a discrete object."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B001",
+                "role": "Detached pieces supply the post-collapse condition of an unjoined collective."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "Remainder after rupture supplies the terminal state of the collapsed assemblage."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "ر ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000596",
+                "branch_id": "B001",
+                "role": "A strong side relied upon supplies the load-bearing support that can fail."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ج ن د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000264",
+                "branch_id": "B001",
+                "role": "A mutually supporting host supplies collective organization as an object of collapse."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B003",
+                "role": "Seizure and capture remove the collective's freedom to remain structurally intact."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Casting supplies the outward dispersal that follows loss of support."
+              }
+            ],
+            "structural_cues": [
+              "51:39-40 moves from reliance on a strong side through army-scale seizure to collective casting."
+            ],
+            "reader_inference": "Packet: support, a mutually reinforcing host, seizure, and casting occur in sequence. Reader: I treat that sequence as a collapse arrow and admit organized power into shay. Alternative: shay may denote only the individual material bodies struck by the wind.",
+            "changed_reading": {
+              "before": "The clause inventories ruined individual objects.",
+              "after": "The clause also models the teardown of supporting relations and collective power, which end as disconnected remainder."
+            }
+          },
+          {
+            "model_id": "ctx_sterile_no_regrowth",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ر و ح",
+              "ع ق م"
+            ],
+            "mechanism": "The immediately identified actor is a dispatched wind marked by sterility; against ati's latent yield branch, ramim becomes not just damage but residue from which no productive continuation emerges.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B007",
+                "role": "Yield and emerging growth supply the productive possibility that this arrival reverses."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Transformation fixes the encountered thing in the nonproductive output state."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "Decayed post-breakage remainder supplies a state with no visible continuity of growth."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch gives the wind's arrival a directed source-to-target trajectory."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "Moving air identifies the feminine agent whose effects the focus clause enumerates."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B001",
+                "role": "Reproductive sterility supplies the absence of issue or successor as a result-level image."
+              }
+            ],
+            "structural_cues": [
+              "51:41 names the feminine wind and qualifies it as aqim immediately before 51:42 continues with feminine verbs."
+            ],
+            "reader_inference": "Packet: a dispatched wind is called sterile, while the focus branches juxtapose yield with decay. Reader: I project sterility through the contact-to-result arrow as suppression of renewal. Alternative: aqim may characterize only what the wind fails to carry, without describing the struck things' future.",
+            "changed_reading": {
+              "before": "The wind leaves things looking decayed after impact.",
+              "after": "The wind converts productive entities into terminal residue, cancelling not only present form but the possibility of regrowth or issue."
+            }
+          },
+          {
+            "model_id": "ctx_timed_terminal_no_recovery",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ت ع",
+              "ح ي ن",
+              "ق و م",
+              "ن ص ر"
+            ],
+            "mechanism": "A bounded interval of continued use closes into a state from which neither standing nor aid is possible; ramim therefore names terminal incapacity after a timed threshold, not only a damaged appearance.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-transformation supplies the threshold crossing into terminal incapacity."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "Post-breakage remainder supplies the state from which recovery would have to occur."
+              },
+              {
+                "source_ref": "51:43",
+                "root": "م ت ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001395",
+                "branch_id": "B007",
+                "role": "Extended retention for enjoyment supplies a temporary pre-impact continuation."
+              },
+              {
+                "source_ref": "51:43",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B001",
+                "role": "An appointed occasion bounds that continuation and marks the closing threshold."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily rising supplies the minimal recovery operation that the aftermath blocks."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid supplies the external recovery path that is likewise unavailable."
+              }
+            ],
+            "structural_cues": [
+              "51:43 grants continuation until a time; 51:44-45 then narrates seizure followed by inability to rise or obtain aid."
+            ],
+            "reader_inference": "Packet: reprieve is bounded, then both self-rising and external aid fail. Reader: I read jaalat-hu as the irreversible threshold connecting those states. Alternative: the recovery failure belongs only to the Thamud episode and need not define ramim.",
+            "changed_reading": {
+              "before": "Ruin is an instantaneous visual endpoint.",
+              "after": "Ruin is the terminal side of a timed threshold: continued use ends, and neither internal recovery nor external restoration remains available."
+            }
+          },
+          {
+            "model_id": "ctx_decreation_reversal",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ن ي",
+              "ش ي ء",
+              "خ ل ق",
+              "ز و ج"
+            ],
+            "mechanism": "The surrounding construction and pairing sequence activates an inverse material grammar: what is built by joining and created in pairs is met by separation, cutting, and crumbs.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B001",
+                "role": "A separated piece supplies the inverse of joined construction."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B002",
+                "role": "Cutting supplies the operation that reverses compositional joining."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Transformation carries the object from composed form into decomposed condition."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B003",
+                "role": "Crumbs and surface litter supply the decomposed endpoint."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ب ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000156",
+                "branch_id": "B001",
+                "role": "Building by joining parts supplies the constructive process that the focus mechanism reverses."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The repeated general entity term links the creation inventory back to the focus clause's exhaustive object domain."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured formation supplies ordered structure before its destructive reversal."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B001",
+                "role": "Joining one counterpart to another supplies relation and pairing as additional structure to be unmade."
+              }
+            ],
+            "structural_cues": [
+              "51:47-49 follows the ruin clause with build, spread, create, and pair language, and repeats shay at 51:49."
+            ],
+            "reader_inference": "Packet: building joins parts, creation measures form, pairing joins counterparts, and shay recurs. Reader: I reverse those supplied arrows through the focus branches of cutting and crumbs. Alternative: the constructive sequence may contrast with ruin without specifying an exact inverse operation.",
+            "changed_reading": {
+              "before": "The wind applies undifferentiated destruction to existing things.",
+              "after": "The wind performs a precise decreation: joined, measured, paired structure is run backward into separated, friable remainder."
+            }
+          },
+          {
+            "model_id": "ctx_strength_to_friability",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ق و ي",
+              "م ت ن"
+            ],
+            "mechanism": "The later coupling of gathered rope-like strength with extended solidity activates a mechanical reading of the focus: tensile coherence and hard continuity are both cut down into friable matter.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B002",
+                "role": "Cutting supplies failure across bundled or tensile coherence."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-conversion maps resistant structure into a materially opposite condition."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B003",
+                "role": "Crumbs supply friability as the opposite of coherent strength and solidity."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Strength gathered like rope strands supplies a tensile resistance class for the material analogy."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "م ت ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001396",
+                "branch_id": "B001",
+                "role": "Extended solidity supplies continuous hardness as a second resistance class."
+              }
+            ],
+            "structural_cues": [
+              "51:58 couples qawiyy and matin in one predication after the creation and provision sequence."
+            ],
+            "reader_inference": "Packet: the branch inventories supply bundled strength and extended solidity. Reader: I use them only as resistance analogies that the focus's cutting-to-crumbs process defeats. Alternative: in 51:58 they are divine predicates and may contribute no victim-material mechanics at all.",
+            "changed_reading": {
+              "before": "The wind is simply stronger than whatever it encounters.",
+              "after": "The wind converts two kinds of integrity, bundled tensile strength and extended solidity, into the same friable output."
+            }
+          },
+          {
+            "model_id": "ctx_allotted_result_template",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ن ب",
+              "م ث ل",
+              "ص ح ب",
+              "ع ج ل",
+              "ي و م",
+              "و ع د"
+            ],
+            "mechanism": "The closing sequence of allotted share, equivalence with companions, delayed timing, and appointed event turns ka-al-ramim into a repeatable result-template within a succession of peoples, not merely one local aftermath.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The general entity domain supplies repeatable inputs rather than one named object."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Uniform state-conversion supplies a standardized output operation."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "The recognizable post-breakage remainder supplies the common result-template."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B006",
+                "role": "An allotted share supplies measured distribution of an outcome across recipients."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Equivalence supplies the rule by which one group's share matches another's."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies the comparison class of prior recipients."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Hastening supplies the premature timing explicitly denied to the recipients."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe event of a day supplies the eventual realization point."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment fixed by time supplies scheduling for the repeated outcome."
+              }
+            ],
+            "structural_cues": [
+              "51:59-60 closes the sequence by comparing shares with predecessors, refusing haste, and naming an appointed day."
+            ],
+            "reader_inference": "Packet: a share is made equivalent to companions' shares and assigned an unhurried appointment. Reader: I let that recurrence sharpen the focus simile into a standardized result-pattern. Alternative: the comparison may concern punishment generally, while ramim remains unique to the wind episode.",
+            "changed_reading": {
+              "before": "Like ramim describes the appearance left by one historical wind.",
+              "after": "Like ramim functions as one instantiation of a repeatable, measured outcome-pattern allotted across a sequence of comparable recipients."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "out_hydraulic_scour",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it imports hydraulic mechanics into a wind clause. It remains anchored in ati's own channel and incoming-flow branches, ramim's surface detritus, and the nearby casting into the great water. Render it only as a cross-medium flow analogy, never as an identification of the wind with water.",
+            "focus_anchor": "Atat alayhi can activate a directed channel or incoming flood, while ramim can denote crumbs lying on the surface.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B004",
+                "role": "A watercourse and its directed passage supply channelized motion for the analogy."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B005",
+                "role": "A flood arriving from elsewhere supplies the advancing front that enters an unaffected zone."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B001",
+                "role": "Separated pieces supply transported fragments in the flow's wake."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B003",
+                "role": "Surface crumbs supply the deposited load after scouring."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Casting supplies displacement into a receiving medium rather than decay in place."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ي م م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001697",
+                "branch_id": "B003",
+                "role": "The great body of water activates the otherwise latent hydraulic register of ati."
+              }
+            ],
+            "changed_reading": {
+              "before": "An airborne blast decays objects where they stand.",
+              "after": "The wind can be pictured, by analogy, as an incoming channelized flow that scours its route, transports fragments, and deposits a detrital wake."
+            }
+          },
+          {
+            "outlier_id": "out_silenced_speech_loop",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because ramim ordinarily foregrounds decay, yet its inventory explicitly includes silence, lip movement without articulated speech, and silencing calamities; repeated qawl around the focus and a severe sound keep the activation anchored. Render it as a secondary rhetorical effect of physical ruin, not a replacement for the decay reading.",
+            "focus_anchor": "Jaalat-hu fixes an output state, and the ramim inventory permits that state to resonate with enforced silence or speech reduced to unarticulated mouth movement.",
+            "activation_trace": [
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "State-transformation supplies the forced passage from speaking agency to mute remainder."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B007",
+                "role": "Collective or individual silence supplies the speechless endpoint."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B008",
+                "role": "Mouth movement without articulated words supplies a residue of speech-form after voice has failed."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B011",
+                "role": "A calamity that silences supplies the causal bridge between destruction and muteness."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Overt utterance supplies the active speech-state before destructive closure."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ص ع ق",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000864",
+                "branch_id": "B001",
+                "role": "A severe overwhelming sound supplies an acoustic force that paradoxically ends in silence."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Speech spreading among people supplies the recurring accusation-loop that the mute remainder interrupts."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ramim names only the physical remains of destroyed bodies and structures.",
+              "after": "Physical ruin also becomes forced muteness: a repeated social speech-loop terminates in bodies that can no longer articulate a reply."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The immediate aqim cue changes decay into generative termination: nothing struck carries renewal forward.",
+            "The build-create-pair sequence changes generic destruction into a directional decreation from joined structure to crumbs.",
+            "The reprieve, standing, and aid sequence changes a visual aftermath into a timed terminal state with no recovery path.",
+            "The final share-equivalence-appointment sequence changes one wind episode into an instance of a repeatable result-pattern."
+          ],
+          "what_was_special": "The focus branches exposed a piece-cut-crumb material sequence, while context preserved two easily lost activations: wind as hydraulic scour by analogy and ramim as a physically ruined, forcibly silenced endpoint.",
+          "remaining_uncertainties": [
+            "Aqim may describe only the wind's lack of benefit rather than the victims' inability to regenerate.",
+            "The decreation mechanism may be a reader-supplied reversal across juxtaposed passages rather than an encoded causal inverse.",
+            "The hydraulic, mechanical-resistance, and silence readings should remain exploratory analogies rather than replacements for decay."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Arrival converts formed things into worn remains.** `و ذ ر/B003` supplies leaving/letting be; `ش ي ء/B001` a knowable thing; `ء ت ي/B001` arrival; `ج ع ل/B002` turning into a state; `ر م م/B004` crumbling remains. The exception construction gives the wind a universal conversion rule. I infer **wind reaches entity -> cohesion stripped -> remnant-state**. The line reads as systematic material unmaking.\n2. **The wind leaves nothing, yet leaves a trace.** The negated `و ذ ر/B003` says it spares no encountered thing, while *ramīm* means remains. In relation to the deliberately left sign of 51:37, I infer **living form erased -> decayed residue remains as evidence**. Non-preservation of the object coexists with preservation of its warning trace.",
@@ -4318,18 +5261,23 @@
   "root_lexicon": {
     "root_001638": {
       "root_ar": "و ذ ر",
+      "qac_roots_ar": [
+        "و ذ ر"
+      ],
       "root_id": "root_001638",
-      "root_mapping": {
-        "root_id": "root_001638",
-        "root_norm": "و ذ ر",
-        "source_root_norm": "و ذ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b5622c37350034902fe69a2d3601cca15d6f1a15a1cfb9c774f0a240715ffe52",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5524,20 +6472,49 @@
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_001638.json"
     },
+    "root_000525": {
+      "root_ar": "و ذ ر",
+      "qac_roots_ar": [
+        "و ذ ر"
+      ],
+      "root_id": "root_000525",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ذ ر",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
+      "dictionary_entry": null,
+      "dictionary_source_file": null,
+      "gloss": null,
+      "gloss_source_file": null
+    },
     "root_000831": {
       "root_ar": "ش ي ء",
+      "qac_roots_ar": [
+        "ش ي ء"
+      ],
       "root_id": "root_000831",
-      "root_mapping": {
-        "root_id": "root_000831",
-        "root_norm": "ش ي ء",
-        "source_root_norm": "ش ي ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 509,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ي ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 509
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -5545,18 +6522,23 @@
     },
     "root_000009": {
       "root_ar": "ء ت ي",
+      "qac_roots_ar": [
+        "ء ت ي"
+      ],
       "root_id": "root_000009",
-      "root_mapping": {
-        "root_id": "root_000009",
-        "root_norm": "ء ت ي",
-        "source_root_norm": "أ ت ي",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 362,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ت ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 362
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1b60652566fc89c76f9f42198dcec07e0f8abfc31edee8ec512bb789f83bbfb5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9256,18 +10238,23 @@
     },
     "root_000248": {
       "root_ar": "ج ع ل",
+      "qac_roots_ar": [
+        "ج ع ل"
+      ],
       "root_id": "root_000248",
-      "root_mapping": {
-        "root_id": "root_000248",
-        "root_norm": "ج ع ل",
-        "source_root_norm": "ج ع ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 346,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ع ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 346
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "966d4806f02b8a66710b781d944f2e815c2a6355d0191d529b692bf231f846b3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11849,18 +12836,23 @@
     },
     "root_000601": {
       "root_ar": "ر م م",
+      "qac_roots_ar": [
+        "ر م م"
+      ],
       "root_id": "root_000601",
-      "root_mapping": {
-        "root_id": "root_000601",
-        "root_norm": "ر م م",
-        "source_root_norm": "ر م م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر م م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "21fa3c119251c0dde52e0f7b4cc290704d12e9a19eb979380e37c33660c19fdc",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14302,14 +15294,20 @@
       "words_total": 10,
       "words_resolved": 10,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 10
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14594,11 +15592,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_42.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_42.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 128852,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -14675,19 +15686,46 @@
             "root_001638",
             "root_000525"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ذ ر",
+            "mapping_status": "split",
+            "primary_root_id": "root_001638",
+            "targets": [
+              {
+                "qac_root_norm": "و ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001638",
+                "furuq_root_norm": "و ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 28,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "و ذ ر",
+                "target_rank": 2,
+                "furuq_root_id": "root_000525",
+                "furuq_root_norm": "ذ و ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": true,
           "targets": [
             {
               "root_id": "root_001638",
-              "root_norm": "و ذ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 28,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14706,37 +15744,57 @@
             },
             {
               "root_id": "root_000525",
-              "root_norm": "ذ و ر",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "ذ و ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "note": "no Turkish dictionary entry found for this root_id"
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ش ي ء": {
           "root_id": "root_000831",
           "root_ids": [
             "root_000831"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ي ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000831",
+            "targets": [
+              {
+                "qac_root_norm": "ش ي ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000831",
+                "furuq_root_norm": "ش ي ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 509,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000831",
-              "root_norm": "ش ي ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ي ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 509,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -14748,19 +15806,37 @@
           "root_ids": [
             "root_000009"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ت ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000009",
+            "targets": [
+              {
+                "qac_root_norm": "ء ت ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000009",
+                "furuq_root_norm": "ء ت ي",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 362,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000009",
-              "root_norm": "ء ت ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ت ي",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 362,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14785,19 +15861,37 @@
           "root_ids": [
             "root_000248"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ع ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000248",
+            "targets": [
+              {
+                "qac_root_norm": "ج ع ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000248",
+                "furuq_root_norm": "ج ع ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 346,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000248",
-              "root_norm": "ج ع ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ع ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 346,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14822,19 +15916,37 @@
           "root_ids": [
             "root_000601"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر م م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000601",
+            "targets": [
+              {
+                "qac_root_norm": "ر م م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000601",
+                "furuq_root_norm": "ر م م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000601",
-              "root_norm": "ر م م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر م م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14861,10 +15973,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 40,
+        "dictionary_branches_kept": 40,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 40,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

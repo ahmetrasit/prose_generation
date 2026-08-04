@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.236828+00:00",
+  "generated_at": "2026-08-04T22:30:02.009376+00:00",
   "surah": 56,
   "ayah": 81,
   "ayahRef": "56:81",
@@ -1456,12 +1456,98 @@
     ]
   },
   "word_morpheme_spans": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 0,
+      "surface_ar": "فَ",
+      "word_ids": [
+        "w-s056-a081-w001"
+      ],
+      "qac_refs": [
+        "56:81:1:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a081-w001-02"
+      ],
+      "aligned_qac_word_ref_upstream": "56:81:1",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 1,
+      "surface_ar": "بِ",
+      "word_ids": [
+        "w-s056-a081-w001"
+      ],
+      "qac_refs": [
+        "56:81:1:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a081-w001-03"
+      ],
+      "aligned_qac_word_ref_upstream": "56:81:2",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 2,
+      "surface_ar": "هَٰذَا",
+      "word_ids": [
+        "w-s056-a081-w001"
+      ],
+      "qac_refs": [
+        "56:81:1:4"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a081-w001-04"
+      ],
+      "aligned_qac_word_ref_upstream": "56:81:3",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 3,
+      "surface_ar": "ٱلْحَدِيثِ",
+      "word_ids": [
+        "w-s056-a081-w002"
+      ],
+      "qac_refs": [
+        "56:81:2:1",
+        "56:81:2:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a081-w002-01",
+        "m-w-s056-a081-w002-02"
+      ],
+      "aligned_qac_word_ref_upstream": "56:81:4",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "أَنتُم",
+      "word_ids": [
+        "w-s056-a081-w003"
+      ],
+      "qac_refs": [
+        "56:81:3:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a081-w003-01"
+      ],
+      "aligned_qac_word_ref_upstream": "56:81:5",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "مُّدْهِنُونَ",
+      "word_ids": [
+        "w-s056-a081-w004"
+      ],
+      "qac_refs": [
+        "56:81:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a081-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "56:81:6",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -1853,7 +1939,765 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_81.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:81",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:81",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_social_surface",
+            "confidence": "strong",
+            "focus_anchor": "The object is al-hadith at word 2 and the second-person predicate is mudhinun at word 4.",
+            "mechanism": "Speech or news that keeps becoming present is met with soft accommodation: the addressees maintain a pliant public surface while showing something other than what they hold inwardly.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed speech and report supplies the utterance being socially managed."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "Soft dealing and displaying other than the inward state supplies the addressees' evasive posture."
+              }
+            ],
+            "changed_reading": {
+              "before": "Are you merely dismissive of this discourse?",
+              "after": "Are you handling this ever-renewed report with a compliant public manner that conceals inward refusal?"
+            }
+          },
+          {
+            "model_id": "baseline_surface_coating",
+            "confidence": "medium",
+            "focus_anchor": "The root image behind al-hadith permits something newly brought forth, while mudhinun permits literal oiling or coating.",
+            "mechanism": "What has newly appeared is not confronted at its exposed surface; it is coated so that its texture and friction are changed. The material image makes accommodation an act of surface management rather than simple inattention.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Bringing something forth and making it manifest supplies the exposed object."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B001",
+                "role": "Oil or applied coating supplies the surface-altering response."
+              }
+            ],
+            "changed_reading": {
+              "before": "Are you being easygoing about this discourse?",
+              "after": "Are you coating over what has been made manifest, smoothing its surface instead of meeting it directly?"
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_arrival_with_trajectory",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق ع",
+              "ن ج م",
+              "ق ر ء",
+              "ن ز ل"
+            ],
+            "mechanism": "Falling into a fixed site, becoming visibly emergent, being gathered as recitation, and being delivered downward form an arrival chain. That chain activates the eventive side of al-hadith: this is not loose talk but an occurrence with source, trajectory, and landing.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B001",
+                "role": "Coming to be after not being supplies the eventive force of the focus noun."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "Soft accommodation supplies the attempt to reduce the force of that arrival."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed gives the announced occurrence a landing."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ن ج م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001475",
+                "branch_id": "B002",
+                "role": "Emergence into visibility gives the arrival a marked appearance."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering and assembling gives the arriving speech coherent collected form."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Delivery downward supplies the directed movement into the hearers' sphere."
+              }
+            ],
+            "structural_cues": [
+              "The prefocus sequence moves from the locations of stars in 56:75 through named recitation in 56:77 to descent in 56:80, immediately before the focus question."
+            ],
+            "reader_inference": "The packet supplies landing, emergence, gathering, and delivery; I connect them as one trajectory that eventivizes al-hadith. They may alternatively remain separate images establishing the recitation's authority.",
+            "changed_reading": {
+              "before": "You soften your response to a piece of discourse.",
+              "after": "You try to domesticate as mere talk an occurrence that has arrived along a marked trajectory and taken effect among you."
+            }
+          },
+          {
+            "model_id": "delta_rival_surface_treatment",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ت ب",
+              "ك ن ن",
+              "م س س",
+              "ط ه ر"
+            ],
+            "mechanism": "The written object is joined and ordered, protectively enclosed, and approached through regulated touch and purification. Against that sequence, oiling becomes a rival interface: an applied film substitutes cosmetic surface treatment for the kind of contact the object calls for.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech or report identifies what the preceding book sequence carries."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B001",
+                "role": "Applied oil supplies a merely external mode of handling the focus object."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Ordered writing supplies the materially articulated object being handled."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment gives that object an intact, guarded surface."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Contact by hand makes mode of access, rather than mere observation, part of the mechanism."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Removal of impurity supplies the positive condition for contact, contrasting with added coating."
+              }
+            ],
+            "structural_cues": [
+              "Book, enclosure, touch, and purification occupy the four clauses directly before the descent and focus question."
+            ],
+            "reader_inference": "The packet supplies a protected writing, touch, purity, and oil coating; I treat coating as a competing mode of contact. The live alternative is the nonmaterial branch of social accommodation, with no claim that oil is lexically called impurity.",
+            "changed_reading": {
+              "before": "You coat over a newly manifest thing.",
+              "after": "You replace purified contact with a cosmetic film, managing the exterior of a protected articulation without admitting its contents."
+            }
+          },
+          {
+            "model_id": "delta_provision_recoded_as_denial",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ر ز ق",
+              "ك ذ ب"
+            ],
+            "mechanism": "The very next line combines transformation, an allotted gift, and attribution of falsehood. It exposes where the soft public posture leads: what is received as one's share is actively recoded into denial, so mudahanah is a conversion mechanism rather than neutral politeness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "The report supplies the received content toward which the response is directed."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "A compliant exterior hiding another inward stance supplies the first stage of denial."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making something become a state supplies the active recoding operation."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "An apportioned gift supplies what the addressees receive and then misuse."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies the disclosed inward result of the soft exterior."
+              }
+            ],
+            "structural_cues": [
+              "The same second-person plural continues without a scene break from the interrogative in 56:81 into the making-and-denying clause of 56:82."
+            ],
+            "reader_inference": "The packet supplies immediate sequence, transformation, allotment, and false attribution; I read 56:82 as exposing the operational result of 56:81. It could instead be a distinct but adjacent indictment concerning provision.",
+            "changed_reading": {
+              "before": "Mudahanah is polite evasiveness toward a report.",
+              "after": "The polite surface is how a received share is converted into an assertion of falsehood."
+            }
+          },
+          {
+            "model_id": "delta_deathbed_stress_test",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل غ",
+              "ح ل ق",
+              "ن ظ ر",
+              "ق ر ب",
+              "ب ص ر",
+              "د ي ن",
+              "ر ج ع",
+              "ص د ق"
+            ],
+            "mechanism": "The report becomes an embodied stress test. Life reaches its terminal passage while the addressees look but fail to see a nearer agency; the challenge to return it if they are beyond reckoning turns verbal posture into a test of power and truth. Smooth management of the report cannot manage the event it announces.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B005",
+                "role": "A time-borne event or calamity lets the focus report open onto the terminal event that follows."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "Verbal accommodation supplies the posture placed under embodied testing."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at an endpoint supplies irreversibility and terminus."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as the passage of breath and food locates the test in the body."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed looking supplies active witness at the limit of what can be grasped."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness without distance supplies the unseen agency present at the event."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Ocular perception, explicitly negated in the source line, marks the witnesses' epistemic limit."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and requital supply the authority the addressees implicitly claim to escape."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Returning something to its prior state supplies the demanded demonstration of control."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Making a claim true in action supplies the criterion that replaces verbal maneuver."
+              }
+            ],
+            "structural_cues": [
+              "The repeated falawla challenge in 56:83 and 56:86 encloses a deathbed scene and ends with an if-you-are-truthful demand.",
+              "Second-person witnesses look in 56:84, are denied sight in 56:85, and are challenged to act in 56:87."
+            ],
+            "reader_inference": "The packet supplies terminal arrival, bodily passage, limited sight, unseen nearness, reckoning, return, and enacted truth; I make the death scene a practical audit of the focus posture. The alternative is a topic shift that illustrates the larger discourse without specifically defining mudahanah.",
+            "changed_reading": {
+              "before": "You manage an uncomfortable claim with soft words.",
+              "after": "You verbally manage the announced reality until the body reaches a boundary where your sight, authority, and claimed truth can no longer manage it."
+            }
+          },
+          {
+            "model_id": "delta_evasion_under_sorting",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ب",
+              "ص ح ب",
+              "ك ذ ب",
+              "ض ل ل",
+              "ن ز ل",
+              "ح م م",
+              "ص ل ي"
+            ],
+            "mechanism": "Mudahanah can function as attempted nonalignment: a socially smooth stance avoids declaring where one belongs. The following triage assigns proximity, companionship, denial, loss of direction, and sharply opposed forms of reception. The evasive middle is therefore temporary; the discourse classifies its hearers.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "Social accommodation that hides an inward position supplies attempted nonalignment."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The favored standing of those brought near supplies one explicit placement."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and sustained association supplies a second group identity."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Being assigned to false attribution makes the concealed refusal an overt class."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from guidance and intended direction supplies the trajectory of that class."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Reception prepared for an arriving guest turns classification into an assigned welcome."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water gives the hostile welcome concrete material content."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Encountering fire and its heat completes the consequence of the assigned direction."
+              }
+            ],
+            "structural_cues": [
+              "The repeated amma conditionals in 56:88, 56:90, and 56:92 sort the deathbed subject into explicit outcome groups."
+            ],
+            "reader_inference": "The packet supplies concealed social posture followed by exhaustive-looking group assignments; I infer that accommodation tries to defer alignment and that death ends the deferral. The alternatives are that mudahanah already names firm denial, or that the later sorting is not exhaustive.",
+            "changed_reading": {
+              "before": "You preserve social flexibility by neither receiving nor openly rejecting the report.",
+              "after": "You try to remain unclassified before a discourse whose announced outcomes eventually make proximity, association, or denial explicit."
+            }
+          },
+          {
+            "model_id": "delta_demonstrative_closed_by_certainty",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ق ق",
+              "ي ق ن",
+              "س ب ح",
+              "س م و"
+            ],
+            "mechanism": "The closing demonstrative identifies 'this' with fixed reality and doubt-free knowledge, then moves to an imperative of declaring transcendence by name. The ending replaces a split between outward softness and inward refusal with congruent recognition in speech and act.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "The focus speech supplies the referent whose status is closed by the later demonstrative."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "Displaying a position contrary to the inward state supplies the incongruence answered at the close."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality fixed in correspondence against falsehood removes the report from negotiable rhetoric."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge with doubt removed supplies the epistemic closure."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Declaring freedom from defect supplies an overt response aligned with the asserted reality."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "A name as public indication supplies the voiced marker of that aligned response."
+              }
+            ],
+            "structural_cues": [
+              "The demonstrative hadha in 56:95 echoes bi-hadha al-hadith in 56:81 after the intervening test and outcomes.",
+              "The unit closes by shifting from the addressees' predicate to a direct imperative in 56:96."
+            ],
+            "reader_inference": "The packet supplies the repeated demonstrative, fixed truth, certainty, and a naming imperative; I read the ending as closing the referential loop and prescribing the opposite of split display. The demonstrative in 56:95 may more narrowly point to the death outcomes rather than only to the focus discourse.",
+            "changed_reading": {
+              "before": "The discourse can be kept in a zone of tactful ambiguity.",
+              "after": "The same 'this' is closed as reality without doubt and calls for an outward declaration congruent with inward recognition."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_inner_polish_vs_outer_oil",
+            "confidence": "medium",
+            "containment": "This is surprising because it activates the specialized polishing image of the hadith root and opposes it to literal oiling. It remains anchored in both focus roots and is sharpened by the packet's purification cue; downstream prose should mark it as a material-spiritual analogy, not as the lexical gloss of mudhinun.",
+            "focus_anchor": "The focus juxtaposes a root branch in which admonitory speech polishes a heart with a root branch of applying oil to an exterior.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B007",
+                "role": "Polishing a sword or a heart by admonition makes the discourse an agent of inner scouring."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B001",
+                "role": "External oiling supplies a shine-producing treatment that need not alter what lies beneath."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Removal of defilement supports the contrast between inner cleaning and added surface sheen."
+              }
+            ],
+            "changed_reading": {
+              "before": "Are you coating the discourse to soften its impact?",
+              "after": "Are you substituting exterior shine for the inner polishing that this discourse is capable of performing?"
+            }
+          },
+          {
+            "outlier_id": "outlier_descent_reduced_to_drizzle",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because mudhinun activates the image of weak rain barely wetting the ground. It remains anchored in the focus predicate and is connected to adjacent descent and rain-as-provision branches; downstream prose should present it only as an exploratory minimization metaphor, not as a direct translation.",
+            "focus_anchor": "Mudhinun at word 4 carries a branch image of slight rain producing only surface wetness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B003",
+                "role": "A weak rain that only wets the face of the earth supplies superficial reception."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B001",
+                "role": "Descent and arrival supplies the larger downward movement being minimized."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "Rain descending as provision joins revelation's descent to the nourishing rain domain."
+              }
+            ],
+            "changed_reading": {
+              "before": "You weakly acknowledge the descended discourse.",
+              "after": "You reduce a provision-bearing descent to a slight drizzle that wets only your surface and produces no inward uptake."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus report becomes an arrival-event with source, trajectory, and landing rather than detachable talk.",
+            "The immediately following transformation of allotted provision into denial exposes soft accommodation as an active recoding operation.",
+            "The deathbed sequence tests verbal management against irreversible embodied arrival, limited sight, reckoning, and enacted truth.",
+            "The repeated demonstrative closes the discourse as fixed, doubt-free reality and contrasts split display with congruent declaration."
+          ],
+          "what_was_special": "The context repeatedly converts surface response into consequence: protected contact contrasts with coating, provision becomes denial, speech becomes an event at the throat, and tactical ambiguity gives way to classification and certainty.",
+          "remaining_uncertainties": [
+            "The literal oiling model may be only an image underneath the stronger social sense of mudahanah.",
+            "The death and outcome sequence may audit the discourse generally without directly defining the predicate in 56:81.",
+            "The inner-polish and weak-rain activations are packet-anchored but depend on distant branches and should remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Fresh report met with softening compromise.** `ح د ث` **B003** supplies speech arising as report or conversation and **B002** youthful freshness; `د ه ن` **B002** supplies softening into compromise and dissembling. The demonstrative points back to the protected descending recitation. **Abductive move:** I infer that hearers reduce the report’s force to avoid its claim. **Reading change:** `مدهنون` names strategic accommodation, not neutral indifference.\n\n2. **A binding event treated as a superficial smear.** `ح د ث` **B005** supplies event or calamity; `د ه ن` **B003** supplies slight wetting on the surface and **B001** oil or smearing. **Abductive move:** I infer that they let the event touch only the surface rather than penetrate conduct. **Reading change:** the ayah contrasts the report’s depth with shallow reception.",
@@ -2828,18 +3672,23 @@
   "root_lexicon": {
     "root_000299": {
       "root_ar": "ح د ث",
+      "qac_roots_ar": [
+        "ح د ث"
+      ],
       "root_id": "root_000299",
-      "root_mapping": {
-        "root_id": "root_000299",
-        "root_norm": "ح د ث",
-        "source_root_norm": "ح د ث",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 35,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح د ث",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 35
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "908e2d4353070d5d759bb35b736cb000bbafdb91026fbc23aff00066a903b946",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5506,18 +6355,23 @@
     },
     "root_000497": {
       "root_ar": "د ه ن",
+      "qac_roots_ar": [
+        "د ه ن"
+      ],
       "root_id": "root_000497",
-      "root_mapping": {
-        "root_id": "root_000497",
-        "root_norm": "د ه ن",
-        "source_root_norm": "د ه ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 4,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "د ه ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6b7a458e8de090d2a1883e10b2ff0b0a760bc550b206825a3960537c632ef273",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7893,50 +8747,26 @@
       "word_count": 6
     },
     "word_morpheme_spans": {
-      "present": false,
+      "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
       "words_total": 6,
-      "words_resolved": 0,
-      "words_unresolved": 6,
-      "unresolved": [
-        {
-          "word_index": 0,
-          "surface_ar": "فَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 1,
-          "surface_ar": "بِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 2,
-          "surface_ar": "هَٰذَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "ٱلْحَدِيثِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "أَنتُم",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "مُّدْهِنُونَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "words_resolved": 6,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "1": 1,
+        "0": 5
+      },
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8200,11 +9030,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_81.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_81.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 86084,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8277,19 +9120,37 @@
           "root_ids": [
             "root_000299"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح د ث",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000299",
+            "targets": [
+              {
+                "qac_root_norm": "ح د ث",
+                "target_rank": 1,
+                "furuq_root_id": "root_000299",
+                "furuq_root_norm": "ح د ث",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 35,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000299",
-              "root_norm": "ح د ث",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح د ث",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 35,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8314,19 +9175,37 @@
           "root_ids": [
             "root_000497"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "د ه ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000497",
+            "targets": [
+              {
+                "qac_root_norm": "د ه ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000497",
+                "furuq_root_norm": "د ه ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 4,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000497",
-              "root_norm": "د ه ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "د ه ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 4,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8353,10 +9232,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 19,
+        "dictionary_branches_kept": 19,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 19,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

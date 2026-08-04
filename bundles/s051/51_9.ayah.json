@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.485189+00:00",
+  "generated_at": "2026-08-04T22:29:45.370709+00:00",
   "surah": 51,
   "ayah": 9,
   "ayahRef": "51:9",
@@ -1209,7 +1209,8 @@
       "morpheme_ids": [
         "m-w-s051-a009-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:9:1"
+      "aligned_qac_word_ref_upstream": "51:9:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1225,7 +1226,8 @@
         "m-w-s051-a009-w002-01",
         "m-w-s051-a009-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:9:2"
+      "aligned_qac_word_ref_upstream": "51:9:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1239,7 +1241,8 @@
       "morpheme_ids": [
         "m-w-s051-a009-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:9:3"
+      "aligned_qac_word_ref_upstream": "51:9:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1253,7 +1256,8 @@
       "morpheme_ids": [
         "m-w-s051-a009-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:9:4"
+      "aligned_qac_word_ref_upstream": "51:9:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1476,7 +1480,711 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_9.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:9",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:9",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_recursive_diversion",
+            "confidence": "strong",
+            "focus_anchor": "The same passive root occurs at words 1 and 4 around the relational phrase at words 2-3.",
+            "mechanism": "The doubled passive makes diversion recursive: the person selected by the second turning is the one already characterized by turning. The sentence therefore presents orientation as a self-reinforcing condition while withholding both the agent and the antecedent of the pronoun.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Turning a thing away from its direction supplies both the repeated motion and the recursive selection rule."
+              }
+            ],
+            "changed_reading": {
+              "before": "A person simply rejects an unnamed claim.",
+              "after": "Only one already set into a turned orientation is further turned from it; rejection is staged as an enacted trajectory rather than a bare conclusion."
+            }
+          },
+          {
+            "model_id": "baseline_falsehood_as_medium",
+            "confidence": "medium",
+            "focus_anchor": "The two passive forms of the same root allow the root's falsehood sense to describe both what happens and what has formed the person.",
+            "mechanism": "Falsehood is not only an alternative proposition. Because it is itself speech bent away from truth, it can operate as the medium that bends its bearer, making content and causal process coincide.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B002",
+                "role": "Falsehood as speech diverted from truth lets bent content become the instrument that diverts its bearer."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified force causes someone to believe a lie.",
+              "after": "The lie's own bent form becomes a habitat and causal medium: one is turned by becoming formed through turned speech."
+            }
+          },
+          {
+            "model_id": "baseline_compromised_capacity",
+            "confidence": "medium",
+            "focus_anchor": "Both verbs are passive, and the second describes the selected person as already affected before the first predicate completes.",
+            "mechanism": "The construction foregrounds prior deformation of judgment or strategy rather than a fully intact chooser making one isolated refusal. It leaves open whether that deformation is self-produced, socially induced, or externally imposed.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B006",
+                "role": "A diverted mind or frustrated stratagem makes impaired orientation the condition under which the further turning occurs."
+              }
+            ],
+            "changed_reading": {
+              "before": "The passive merely omits the persuader.",
+              "after": "The passive exposes damaged epistemic capacity: the apparent choice arrives after judgment or strategy has already been rerouted."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_flow_becomes_sorting",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ر و",
+              "ح م ل",
+              "ج ر ي",
+              "ق س م"
+            ],
+            "mechanism": "The opening sequence supplies dispersal, load-bearing transport, flow, and apportionment. Activated against the wind branch of the focus root, the focus becomes the human sorting point of a larger transport process: trajectories do not merely wander but arrive at different allotments.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B004",
+                "role": "Winds that vary or leave their courses literalize the repeated passive as directional deflection."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven winnowing supplies the dispersive first movement of the process."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Bearing a visible load makes the motion transport consequential content rather than drift empty."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing onward supplies the continuous course from which deflection can be measured."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating shares turns divergent movement into an allotting or sorting operation."
+              }
+            ],
+            "structural_cues": [
+              "The four opening clauses progress with linked particles from dispersal through transport and flow to distribution.",
+              "In 51:9, the preposition marks departure from a course while the relative subject selects the affected person."
+            ],
+            "reader_inference": "The packet supplies four ordered motions and a wind-like focus branch; I infer that they form a process chain whose human-scale sorting point is 51:9. A live alternative is that the opening images remain parallel oaths and do not causally feed the focus.",
+            "changed_reading": {
+              "before": "Diversion is an isolated mistake inside one person's mind.",
+              "after": "Diversion is a sorting event within a loaded flow: a person exits one course as trajectories are dispersed and allotted."
+            }
+          },
+          {
+            "model_id": "delta_inhabited_divergent_speech",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص د ق",
+              "و ق ع",
+              "ح ب ك",
+              "ق و ل",
+              "خ ل ف"
+            ],
+            "mechanism": "The promised matter is presented as fulfilled and fixed, while the audience is located inside speech whose members take different paths. The woven-path cue makes those sayings more than opinions: they become structured routes. The focus root's falsehood branch then names how an inhabited discourse turns its own inhabitant.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B002",
+                "role": "Bent speech supplies the causal medium by which a bearer is bent away from truth."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment of promise moves truth from verbal assertion toward realized action."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed gives the promised matter event-like solidity."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B002",
+                "role": "Tightly wrought paths provide a spatial analogue for structured routes of discourse."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Speech as belief or doctrine makes the enclosing saying a lived orientation."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Each party taking a different road converts disagreement into path divergence."
+              }
+            ],
+            "structural_cues": [
+              "51:8 places the audience inside differing speech immediately before the doubled passive of 51:9.",
+              "The sequence contrasts realized promise with plural verbal routes rather than merely contrasting two propositions."
+            ],
+            "reader_inference": "The packet supplies fixed fulfillment, wrought paths, and residence inside divergent speech; I infer that discourse can route its inhabitant and thus cause the focus diversion. The live alternative is a simple contrast in which speech evidences diversion but does not produce it.",
+            "changed_reading": {
+              "before": "A person independently chooses a false proposition over a true one.",
+              "after": "A person inhabits a divergent speech-route that recursively carries its speaker away; discourse is both the symptom and machinery of turning."
+            }
+          },
+          {
+            "model_id": "delta_evasion_returns_as_assay",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ م ر",
+              "س ه و",
+              "ف ت ن",
+              "ذ و ق",
+              "ع ج ل"
+            ],
+            "mechanism": "After the focus, enveloping heedlessness becomes questioning about timing, then the delayed object returns as assay and tasted experience. Diversion therefore acquires a temporal mechanism: displaced judgment buys apparent distance, but the object of evasion reappears as an embodied test.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B006",
+                "role": "A diverted mind or frustrated strategy supplies the attempted cognitive escape from what is coming."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "An enveloping film of falsehood or ignorance supplies the medium that hides the event."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness stabilizes the concealment as a condition of the heart."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying metal or a person turns the evaded claim into a test that exposes quality."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential tasting replaces distant speculation with direct encounter."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Hastening supplies the temporal pressure that makes postponing disbelief recoil into immediacy."
+              }
+            ],
+            "structural_cues": [
+              "51:12 asks when, and 51:13-14 answer with a day and an imperative of tasting.",
+              "51:10 names conjecturers immediately after the focus, but its uncued root is used only as structural placement."
+            ],
+            "reader_inference": "The packet supplies concealment, heedlessness, temporal questioning, assay, tasting, and haste; I infer a reversal from deferred cognition to forced experience. A live alternative is that the later scene is only consequence, not the return of the same diverted epistemic process.",
+            "changed_reading": {
+              "before": "Diversion is a static state of mistaken belief.",
+              "after": "Diversion is temporal evasion: it pushes an event away in thought until that event returns as an assay that must be tasted."
+            }
+          },
+          {
+            "model_id": "delta_broken_reception_circuit",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ي ن",
+              "ء خ ذ",
+              "ء ت ي",
+              "ح ر م"
+            ],
+            "mechanism": "Springs, taking, giving, and deprivation activate the focus root's rain-withheld land image. The passive person can be modeled as a failed receiving site within a gift circuit: what should arrive, be taken up, and fruit is deflected, while successful recipients continue the circuit toward the deprived.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B005",
+                "role": "Land from which rain is diverted makes non-reception and failed fruiting a material model for the passive person."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing spring supplies the water source that a receptive site can receive."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B001",
+                "role": "Taking possession models successful uptake rather than mere exposure."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving establishes the inbound movement that reception completes."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation names the blocked endpoint and extends reception failure into an ethical relation."
+              }
+            ],
+            "structural_cues": [
+              "The post-assay contrast moves to gardens and springs, then to receiving a gift and recognizing the deprived within one's possessions.",
+              "Both focus verbs remain passive, so the text does not reduce failed reception to a transparent single cause."
+            ],
+            "reader_inference": "The packet supplies water, reception, gift, and deprivation; I infer a circulation in which received good should fruit and pass onward, with focus diversion as blockage. A live alternative is that these are contrasting destinies without a shared transfer mechanism.",
+            "changed_reading": {
+              "before": "The verse diagnoses only an intellectual refusal.",
+              "after": "The verse can diagnose a blocked capacity to receive and transmit: the person resembles a site from which life-bearing input has been diverted."
+            }
+          },
+          {
+            "model_id": "delta_attention_rerouted_from_immediacy",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ي ي",
+              "ن ف س",
+              "ب ص ر",
+              "ح ق ق",
+              "ن ط ق"
+            ],
+            "mechanism": "The later sequence relocates evidence from earth to the observers' own selves and finally to their act of speaking. The focus mind is therefore not empty of evidence but turned away from what is already immediate; diverted attention fails to convert visible sign, inward self-presence, and speaking indication into settled recognition.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B006",
+                "role": "A diverted mind makes misorientation of an existing faculty, rather than absence of evidence, the focus mechanism."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies evidence placed openly before attention."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B012",
+                "role": "The thing's own self relocates evidence inside the observer rather than at a remote object."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight of the heart makes the challenged failure one of inward discernment, not eyesight alone."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality fixed against falsehood supplies the stable object from which attention is deflected."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "Speaking as an indicating act makes the audience's own performance part of the available evidence."
+              }
+            ],
+            "structural_cues": [
+              "51:20-23 moves through earth, selves, sky, and the audience's own speech.",
+              "The interrogative in 51:21 challenges non-seeing even though the evidence is located within the addressees."
+            ],
+            "reader_inference": "The packet supplies manifest signs, self-presence, inward sight, fixed reality, and indicative speech; I infer that the focus turning reroutes attention away from already immediate evidence. A live alternative is that the final speech comparison intensifies certainty without making speaking evidentiary.",
+            "changed_reading": {
+              "before": "The affected person lacks enough evidence or intellectual power.",
+              "after": "The affected person has evidence at earth, self, and tongue, but attention has been rerouted so that immediacy does not become recognition."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_person_as_wind_sorted_trajectory",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it treats a person grammatically as a trajectory inside an atmospheric topology. It remains anchored in the focus root's differing-winds branch, the preposition of departure, and packet-backed scattering, woven paths, and divergent roads. Downstream prose should present it as a material-spatial analogy, not as a lexical replacement for ordinary human diversion.",
+            "focus_anchor": "The doubled passive root and the departure preposition can stage two changes of course around the selected person.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B004",
+                "role": "Variable wind courses make the selected person readable as a repeatedly deflected trajectory."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-winnowing supplies particles whose destinations depend on moving currents."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B002",
+                "role": "Wrought broken paths provide the topology through which the trajectory moves."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Different parties taking different roads transfers atmospheric divergence into human orientation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse labels a person who holds the wrong view.",
+              "after": "The verse briefly images a person as mobile matter sorted by intersecting currents and paths, with differing speech functioning like directional shear."
+            }
+          },
+          {
+            "outlier_id": "outlier_rain_shadow_reception",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it carries the rain-withheld-land image into a statement about a person. It remains valid as an analogy because the packet surrounds the focus with fertile earth, springs, rain-provision, and deprivation. Downstream prose should retain causal uncertainty and must not claim that the focus lexically means rainfall.",
+            "focus_anchor": "The passive selected person can analogically occupy the focus root's position of land from which rain and growth have been turned.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B005",
+                "role": "Rain-deprived land supplies the focus analogy of a receptive surface left unfruited."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing source shows the contrasting condition in which water reaches and sustains a site."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft fertile earth supplies the receptive ground on which signs can become growth."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "Rain descending as provision locates the life-bearing input above the still-unreceptive site."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation keeps open the possibility that non-reception names loss as well as culpable refusal."
+              }
+            ],
+            "changed_reading": {
+              "before": "Turning away is entirely an internally authored act of rejection.",
+              "after": "Turning away can also be carried as a rain-shadow condition: provision is present, but the person-site remains deprived of reception and fruiting."
+            }
+          },
+          {
+            "outlier_id": "outlier_counter_speech_enacts_evidence",
+            "confidence": "medium",
+            "containment": "This reading is surprising because it makes the addressee's counter-speech perform evidence against its own diversion. It remains anchored in falsehood as bent speech, residence inside differing discourse, and speech as an indicating act compared with fixed reality. Downstream prose should call this a performative activation of the sequence, not insist that the comparison's sole function is self-refutation.",
+            "focus_anchor": "The falsehood branch of the repeated focus root permits speech to be both the turned content and the act that turns the speaker.",
+            "activation_trace": [
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B002",
+                "role": "Bent speech binds the speaker's utterance to the mechanism of the speaker's own diversion."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Speech as doctrine makes the counterclaim an inhabited commitment rather than a passing sound."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Fixed correspondence to reality supplies the standard that bent speech fails to displace."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "Speech as indication lets the act of voicing divergence simultaneously display the immediacy used to affirm reality."
+              }
+            ],
+            "changed_reading": {
+              "before": "Divergent speech merely reports a prior false belief.",
+              "after": "The speaker's divergent utterance both continues the turning and performs the very faculty invoked as an indication of the reality being resisted."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The immediate move from being inside divergent speech to the doubled passive turns discourse from a symptom into a plausible routing mechanism.",
+            "The opening chain of scattering, carrying, flowing, and apportioning activates a spatial sorting model alongside the epistemic one.",
+            "The earth-self-sky-speech sequence revises compromised capacity into redirected attention away from evidence already present in the observer and the observer's speech.",
+            "Springs, giving and taking, deprivation, fertile earth, and rain-provision keep alive a reception ecology in which diversion is blockage as well as rejection."
+          ],
+          "what_was_special": "The two passive occurrences of one root form a recursive hinge. Around that hinge, material flows and speech acts repeatedly exchange roles, allowing directional, discursive, cognitive, temporal, and receptive readings to coexist without collapsing into one cause.",
+          "remaining_uncertainties": [
+            "The focus-only antecedent of the pronoun remains unstated, so promised event, fixed truth, discourse-route, and provision-like input remain competing referents.",
+            "The passive construction does not settle whether the turning is self-conditioned, socially induced, externally imposed, or distributed across those causes.",
+            "The wind and rain models are strongly packet-activated but remain material analogies rather than secure lexical substitutions."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Diversion recursively reproduces diversion.** Both verbs are anchored in `ء ف ك/B001`, turning from a proper direction. Their passive repetition, following divergent speech in 51:8, creates a feedback structure. The packet supplies repetition; I infer **prior turning -> further turning from the referent**. The line reads as self-propagating displacement rather than a single mistaken conclusion.\n2. **Falsehood as the turning instrument.** `ء ف ك/B002` supplies a lie diverted from truth. Later formulaic accusations in 51:39 and 52 provide the speech mechanism. I infer **false attribution -> attention redirected away**. This retains a distinct linguistic cause alongside the spatial turning image.",
@@ -2271,18 +2979,23 @@
   "root_lexicon": {
     "root_000041": {
       "root_ar": "ء ف ك",
+      "qac_roots_ar": [
+        "ء ف ك"
+      ],
       "root_id": "root_000041",
-      "root_mapping": {
-        "root_id": "root_000041",
-        "root_norm": "ء ف ك",
-        "source_root_norm": "أ ف ك",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 16,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ف ك",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 16
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "528436c9d8ff85b454c11ba48eded09932be665ba63851742633c18e67c70e4b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -3883,14 +4596,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -4149,11 +4868,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_9.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_9.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 101159,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -4225,19 +4957,37 @@
           "root_ids": [
             "root_000041"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ف ك",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000041",
+            "targets": [
+              {
+                "qac_root_norm": "ء ف ك",
+                "target_rank": 1,
+                "furuq_root_id": "root_000041",
+                "furuq_root_norm": "ء ف ك",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 16,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000041",
-              "root_norm": "ء ف ك",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ف ك",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 16,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -4264,10 +5014,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 6,
+        "dictionary_branches_kept": 6,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 6,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

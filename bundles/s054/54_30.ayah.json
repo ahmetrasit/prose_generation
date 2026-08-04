@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.038809+00:00",
+  "generated_at": "2026-08-04T22:29:53.524118+00:00",
   "surah": 54,
   "ayah": 30,
   "ayahRef": "54:30",
@@ -1426,7 +1426,8 @@
       "morpheme_ids": [
         "m-w-s054-a030-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:30:1"
+      "aligned_qac_word_ref_upstream": "54:30:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1440,7 +1441,8 @@
       "morpheme_ids": [
         "m-w-s054-a030-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:30:2"
+      "aligned_qac_word_ref_upstream": "54:30:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1454,7 +1456,8 @@
       "morpheme_ids": [
         "m-w-s054-a030-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:30:3"
+      "aligned_qac_word_ref_upstream": "54:30:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1470,7 +1473,8 @@
         "m-w-s054-a030-w003-01",
         "m-w-s054-a030-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:30:4"
+      "aligned_qac_word_ref_upstream": "54:30:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1484,7 +1488,8 @@
       "morpheme_ids": [
         "m-w-s054-a030-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:30:5"
+      "aligned_qac_word_ref_upstream": "54:30:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1498,7 +1503,8 @@
       "morpheme_ids": [
         "m-w-s054-a030-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:30:6"
+      "aligned_qac_word_ref_upstream": "54:30:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1813,7 +1819,794 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_30.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:30",
+      "window": [
+        "54:18",
+        "54:19",
+        "54:20",
+        "54:21",
+        "54:22",
+        "54:23",
+        "54:24",
+        "54:25",
+        "54:26",
+        "54:27",
+        "54:28",
+        "54:29",
+        "54:30",
+        "54:31",
+        "54:32"
+      ],
+      "ayah_count": 15,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:30",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_experiential_verdict",
+            "confidence": "strong",
+            "focus_anchor": "The fa-kayfa interrogative joins past kana to the first-person possessives in adhabi wa-nudhuri.",
+            "mechanism": "A completed occurrence is put before the hearer for inspection: experienced penalty tests the adequacy of the fear-bearing notice that preceded it.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in past time give the question retrospective, event-inspecting force."
+              },
+              {
+                "source_ref": "54:30",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Pain and penalty supply the experienced event placed under review."
+              },
+              {
+                "source_ref": "54:30",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "A fear-bearing notice that awakens caution supplies the prior alert against which the event is judged."
+              }
+            ],
+            "changed_reading": {
+              "before": "A report that punishment and warnings occurred.",
+              "after": "A demand to inspect how a foretold penalty became experientially present and verified its warning."
+            }
+          },
+          {
+            "model_id": "baseline_preventive_restraint",
+            "confidence": "medium",
+            "focus_anchor": "The coordinated adhabi wa-nudhuri permits punishment and warning to be heard as interacting operations.",
+            "mechanism": "The restraint branch of ع ذ ب lets punishment begin as an imposed check or weaning; warning names the alarm whose ignored limit turns restraint into pain.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B003",
+                "role": "Checking, withholding, and weaning make punishment function first as an enforced limit."
+              },
+              {
+                "source_ref": "54:30",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The alert supplies the preventive signal whose limit can be heeded before painful enforcement."
+              }
+            ],
+            "changed_reading": {
+              "before": "Punishment is pain after an ignored warning.",
+              "after": "Punishment includes the imposed boundary that enforces the warning, not only pain after it."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_paired_dispatches",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ف ت ن",
+              "ص ي ح"
+            ],
+            "mechanism": "The same sending frame dispatches a living test before the focus and a terrifying cry after it, so warning and punishment become two phases of one directed operation.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The caution-awakening notice names the first phase of the paired operation."
+              },
+              {
+                "source_ref": "54:30",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful penalty names the answering phase of the paired operation."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch supplies the outward movement that installs the prior test."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying a human or metal makes the sent sign a conduct-revealing trial."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Repeated dispatch carries the consequence through the same channel as the test."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ص ي ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000895",
+                "branch_id": "B002",
+                "role": "The terrifying cry is the punitive payload of the second dispatch."
+              }
+            ],
+            "structural_cues": [
+              "54:27 and 54:31 repeat the first-person-plural sending construction on opposite sides of 54:30."
+            ],
+            "reader_inference": "The packet supplies a dispatched trial, the focus pair, and a dispatched cry; I infer a sign-to-sanction arrow between the sendings. A live alternative is that the camel is only a test-sign, not itself a warning.",
+            "changed_reading": {
+              "before": "Warnings precede a separately administered punishment.",
+              "after": "Warning and punishment are paired dispatches: first a test that reveals conduct, then a cry that answers it."
+            }
+          },
+          {
+            "model_id": "delta_allocated_boundary_enforced",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ه",
+              "ق س م",
+              "ش ر ب",
+              "ع ق ر",
+              "ه ش م",
+              "ح ظ ر"
+            ],
+            "mechanism": "Water is apportioned into attended drinking turns; hamstringing breaches that managed boundary, and the offenders become broken dry material associated with an enclosure. The restraint branch of punishment therefore becomes materially exact.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B003",
+                "role": "Withholding and restraint anchor punishment as enforcement of a violated limit."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "Actual water supplies the scarce material governed by the warning."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separation into assigned shares supplies the rule's distributive boundary."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "A share of water makes each drinking turn an entitlement with a limit."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B002",
+                "role": "Hamstringing the animal is the concrete breach that crosses the allocated boundary."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ه ش م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001592",
+                "branch_id": "B002",
+                "role": "Dry broken vegetation supplies the transformed material condition of the offenders."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ح ظ ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000338",
+                "branch_id": "B001",
+                "role": "An enclosure that confines and gathers turns the result into an image of boundary-making."
+              }
+            ],
+            "structural_cues": [
+              "The sequence is rule in 54:28, breach in 54:29, evaluative focus in 54:30, and material result in 54:31."
+            ],
+            "reader_inference": "The packet supplies allocation, hamstringing, and enclosure debris; I infer measure-for-measure enforcement from their sequence. A live alternative is that the enclosure image marks devastation only, without recalling the water limit.",
+            "changed_reading": {
+              "before": "My punishment is a generic penalty for disobedience.",
+              "after": "My punishment is the violated share-boundary returning as an enclosing, desiccating consequence."
+            }
+          },
+          {
+            "model_id": "delta_representative_singularity",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ح د",
+              "ت ب ع",
+              "ن د و",
+              "ص ح ب",
+              "ع ط و",
+              "ص ي ح"
+            ],
+            "mechanism": "The group rejects following one human, gathers and calls one companion to undertake the breach, and is answered by one cry. Singular agency is first mocked, then delegated, then returned as concentrated consequence.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Penalty anchors the final singular reply as punitive rather than merely numerical."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "Numerical oneness marks the messenger-status the group rejects."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following behind makes their objection explicitly about submitting to singular guidance."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001486",
+                "branch_id": "B001",
+                "role": "Assembly in a gathering makes the call an act of collective authorization."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B001",
+                "role": "The raised call transfers the gathered group's will to its acting companion."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship binds the single actor socially to those who called him."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B004",
+                "role": "Undertaking what one reaches makes the companion the group's operative hand."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "Numerical oneness concentrates the answering event."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ص ي ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000895",
+                "branch_id": "B002",
+                "role": "The terrifying cry supplies the single counter-act that reaches the whole group."
+              }
+            ],
+            "structural_cues": [
+              "A plural speaker in 54:24 becomes a collectively summoned companion in 54:29 and a single cry affecting all in 54:31."
+            ],
+            "reader_inference": "The packet supplies rejected oneness, collective calling, one operative companion, and one cry; I infer representative symmetry across them. A live alternative is that the two instances of 'one' only emphasize simplicity and suddenness.",
+            "changed_reading": {
+              "before": "The question asks how severe the punishment was.",
+              "after": "The question asks the hearer to notice a measured symmetry: one rejected guide, one delegated violator, and one answering cry."
+            }
+          },
+          {
+            "model_id": "delta_proleptic_adjudication",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ذ ك ر",
+              "ع ل م",
+              "غ د و"
+            ],
+            "mechanism": "Accusations of lying contest the reminder, a promised tomorrow will disclose the liar, yet the focus uses past kana before the narrated cry. The question voices the future disclosure as an already settled verdict.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Past occurrence presents the still-to-be-narrated result as completed and inspectable."
+              },
+              {
+                "source_ref": "54:30",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The warning is the disputed communication whose truth the result adjudicates."
+              },
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood establishes the contested truth claim."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The reminder is the specific communication they dispute and personalize."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to the knower frames the consequence as epistemic resolution."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "غ د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001076",
+                "branch_id": "B002",
+                "role": "Tomorrow supplies the future horizon that the focus's past tense overtakes."
+              }
+            ],
+            "structural_cues": [
+              "54:26 promises future knowledge, while 54:30 asks in past form before 54:31 narrates the consequence."
+            ],
+            "reader_inference": "The packet supplies the future promise, past-form focus, and later consequence; I infer proleptic certainty and a truth-verdict arrow. A live alternative is a rhetorical flash-forward that stresses terror without primarily adjudicating speech.",
+            "changed_reading": {
+              "before": "A retrospective question follows a completed punishment.",
+              "after": "A proleptic verdict makes the coming consequence already answer who lied about the warning."
+            }
+          },
+          {
+            "model_id": "delta_mnemonic_refrain",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك و ن",
+              "ن ذ ر",
+              "ي س ر",
+              "ق ر ء",
+              "ذ ك ر"
+            ],
+            "mechanism": "The recurring punishment question is followed in both cycles by the same ease-and-remembrance summons. Its compact interrogative form turns the event into a retrieval prompt rather than leaving warning as information heard once.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning supplies the content that the refrain is designed to keep caution-active."
+              },
+              {
+                "source_ref": "54:21",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "The earlier identical past-event question establishes recurrence of the retrieval form."
+              },
+              {
+                "source_ref": "54:21",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The repeated caution-bearing noun links the prior episode to the focus as reusable warning."
+              },
+              {
+                "source_ref": "54:22",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ease after difficulty makes retrieval an intentionally opened path."
+              },
+              {
+                "source_ref": "54:22",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies the repeatable medium that carries the warning cycle."
+              },
+              {
+                "source_ref": "54:22",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Bringing something back to mind makes the refrain function as active recollection."
+              },
+              {
+                "source_ref": "54:32",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The repeated opening to ease closes the second cycle with the same access point."
+              },
+              {
+                "source_ref": "54:32",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder and reminder-agent make the focus question a portable caution device."
+              }
+            ],
+            "structural_cues": [
+              "The identical 54:22 and 54:32 remembrance verses follow the 54:21 and 54:30 refrain positions."
+            ],
+            "reader_inference": "The packet supplies repeated refrains and repeated ease/remembrance summons; I infer that the question is engineered as a mnemonic retrieval cue. A live alternative is that the remembrance verses concern the Quran generally, not the refrain's form specifically.",
+            "changed_reading": {
+              "before": "The focus recalls one episode's punishment and warnings.",
+              "after": "The focus is a reusable memory interface that repeatedly reactivates warning through an event-question."
+            }
+          },
+          {
+            "model_id": "delta_material_unmaking",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ز ع",
+              "ق ع ر",
+              "ه ش م",
+              "ح ظ ر"
+            ],
+            "mechanism": "The prior cycle figures people as palm remainders pulled from their roots; the current cycle ends with people as broken enclosure material. The refrain gathers distinct events under a shared process of removing structural integrity.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive pain anchors the cross-episode material process as punishment."
+              },
+              {
+                "source_ref": "54:20",
+                "root": "ن ز ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001489",
+                "branch_id": "B001",
+                "role": "Pulling a thing from its settled place supplies loss of attachment and support."
+              },
+              {
+                "source_ref": "54:20",
+                "root": "ق ع ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001245",
+                "branch_id": "B004",
+                "role": "Uprooting from the origin sharpens the prior cycle as structural extraction."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ه ش م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001592",
+                "branch_id": "B001",
+                "role": "Breaking and crushing supply structural disintegration in the current cycle."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ح ظ ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000338",
+                "branch_id": "B001",
+                "role": "The enclosure gathers the fragments only after their prior living structure is lost."
+              }
+            ],
+            "structural_cues": [
+              "54:20 and 54:31 occupy consequence positions adjacent to repeated forms of the focus refrain."
+            ],
+            "reader_inference": "The packet supplies uprooted palm remnants and crushed enclosure material; I infer one cross-episode unmaking mechanism. A live alternative is that the two plant images independently intensify devastation without defining punishment's operation.",
+            "changed_reading": {
+              "before": "Punishment is measured mainly by severity.",
+              "after": "Punishment is also measured by what it does to structure: attachment, uprightness, and social form are reduced to displaced material."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_sweetness_thirst_reversal",
+            "confidence": "exploratory",
+            "containment": "This is surprising because adhabi conventionally activates the explicit penalty branch and mustamirr denotes continuation here; it remains anchored in the same ع ذ ب inventory and is sharpened by actual water and drinking shares. Render only as a sensory or paronomastic undertone, never as a replacement translation.",
+            "focus_anchor": "The ع ذ ب root of adhabi carries sweet-water and thirst-abstention branches beside punishment.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B001",
+                "role": "Sweet, palatable water supplies the positive sensory state that punishment can invert."
+              },
+              {
+                "source_ref": "54:30",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B002",
+                "role": "Abstention from food or drink under severe thirst supplies the privative edge of the inversion."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B003",
+                "role": "Bitterness as sweetness's opposite gives the earlier punishment cycle a branch-distant sensory counterpole."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "Actual water makes the sweet-water branch locally concrete rather than free association."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "An apportioned drink turns access to drinkability into the contested material condition."
+              }
+            ],
+            "changed_reading": {
+              "before": "Adhabi denotes inflicted pain.",
+              "after": "With qualification, adhabi also reverberates as the loss or inversion of sweet drinkability in a water-governed trial."
+            }
+          },
+          {
+            "outlier_id": "outlier_wound_liability",
+            "confidence": "exploratory",
+            "containment": "This is surprising because nudhuri is read as warnings, while the wound-compensation branch is juridical and form-distant. The immediately adjacent hamstringing keeps the echo anchored; downstream prose should call it a possible liability resonance, not a lexical gloss.",
+            "focus_anchor": "The ن ذ ر inventory includes a wound carrying a due compensation, and nudhuri immediately follows the hamstringing act.",
+            "activation_trace": [
+              {
+                "source_ref": "54:30",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B003",
+                "role": "A wound with an obligatory compensation lets warning acquire a forensic liability echo."
+              },
+              {
+                "source_ref": "54:30",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Penalty supplies the collection or enforcement side of that possible liability."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B001",
+                "role": "Wounding and defeating supply the adjacent injury that activates the juridical branch."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B002",
+                "role": "Hamstringing specifies the injury whose consequence is placed under the focus question."
+              }
+            ],
+            "changed_reading": {
+              "before": "Nudhuri names prior alerts that were ignored.",
+              "after": "As a contained echo, nudhuri also suggests liability crystallizing at the wound, with punishment enforcing what has become due."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The warning and punishment become paired dispatches: a sent test and a sent cry.",
+            "The allocated water boundary is breached and returns as an enclosing, desiccating consequence.",
+            "Past kana before the narrated cry turns future disclosure into an already settled adjudication."
+          ],
+          "what_was_special": "54:30 stands between the collective breach and its consequence while repeating an earlier refrain; this placement lets one short question act simultaneously as verdict, hinge, warning-memory, and measure-for-measure audit.",
+          "remaining_uncertainties": [
+            "The sweetness-thirst and wound-liability activations are packet-anchored but branch-distant and may be only sound-level resonances.",
+            "The one-human, one-companion, one-cry symmetry may be a designed representative mechanism or a local rhetorical concentration."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The audit asks how one delegated cut became communal consequence.** `ع ذ ب` B005 is torment, `ن ذ ر` B001 warning, and `ك و ن` B001 realized occurrence; no accepted inventory is supplied for `ك ي ف`. The refrain follows plural summons, singular slaughter, and then anticipates collective punishment. I infer that the question exposes the relation between social complicity and shared outcome. The warning is evaluated not only for severity but for the scale at which responsibility settles.",
@@ -2706,18 +3499,23 @@
   "root_lexicon": {
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -3837,18 +4635,23 @@
     },
     "root_000994": {
       "root_ar": "ع ذ ب",
+      "qac_roots_ar": [
+        "ع ذ ب"
+      ],
       "root_id": "root_000994",
-      "root_mapping": {
-        "root_id": "root_000994",
-        "root_norm": "ع ذ ب",
-        "source_root_norm": "ع ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 372,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 372
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "51108e6a196357bcef2fb095a8013cd0b5662aeca84ff34a23472408615bc073",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6934,18 +7737,23 @@
     },
     "root_001488": {
       "root_ar": "ن ذ ر",
+      "qac_roots_ar": [
+        "ن ذ ر"
+      ],
       "root_id": "root_001488",
-      "root_mapping": {
-        "root_id": "root_001488",
-        "root_norm": "ن ذ ر",
-        "source_root_norm": "ن ذ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9b8307ef70c2b201e5cde104a00eae217e678983e73b9dde34cef1bec9a54997",
         "branches": [
@@ -7655,14 +8463,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7913,11 +8727,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_30.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_30.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 101778,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7991,9 +8818,15 @@
         "ك ي ف": {
           "root_id": null,
           "root_ids": [],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ي ف",
+            "mapping_status": "no_frozen_rooted_surface_match",
+            "primary_root_id": "",
+            "targets": []
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "targets": [],
           "note": "no root_id mapping found for this QAC root"
         },
         "ك و ن": {
@@ -8001,19 +8834,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -8025,19 +8876,37 @@
           "root_ids": [
             "root_000994"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000994",
+            "targets": [
+              {
+                "qac_root_norm": "ع ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000994",
+                "furuq_root_norm": "ع ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 372,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000994",
-              "root_norm": "ع ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 372,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8062,19 +8931,37 @@
           "root_ids": [
             "root_001488"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ذ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001488",
+            "targets": [
+              {
+                "qac_root_norm": "ن ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001488",
+                "furuq_root_norm": "ن ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001488",
-              "root_norm": "ن ذ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -8088,10 +8975,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 18,
+        "dictionary_branches_kept": 18,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 9,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

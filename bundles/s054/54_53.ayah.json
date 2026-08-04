@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.739350+00:00",
+  "generated_at": "2026-08-04T22:29:54.950499+00:00",
   "surah": 54,
   "ayah": 53,
   "ayahRef": "54:53",
@@ -1654,7 +1654,8 @@
       "morpheme_ids": [
         "m-w-s054-a053-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:53:1"
+      "aligned_qac_word_ref_upstream": "54:53:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1668,7 +1669,8 @@
       "morpheme_ids": [
         "m-w-s054-a053-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:53:2"
+      "aligned_qac_word_ref_upstream": "54:53:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1682,7 +1684,8 @@
       "morpheme_ids": [
         "m-w-s054-a053-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:53:3"
+      "aligned_qac_word_ref_upstream": "54:53:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1696,7 +1699,8 @@
       "morpheme_ids": [
         "m-w-s054-a053-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:53:4"
+      "aligned_qac_word_ref_upstream": "54:53:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1710,7 +1714,8 @@
       "morpheme_ids": [
         "m-w-s054-a053-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:53:5"
+      "aligned_qac_word_ref_upstream": "54:53:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1724,7 +1729,8 @@
       "morpheme_ids": [
         "m-w-s054-a053-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:53:6"
+      "aligned_qac_word_ref_upstream": "54:53:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2348,7 +2354,791 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_53.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:53",
+      "window": [
+        "54:46",
+        "54:47",
+        "54:48",
+        "54:49",
+        "54:50",
+        "54:51",
+        "54:52",
+        "54:53",
+        "54:54",
+        "54:55"
+      ],
+      "ayah_count": 10,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:53",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_exhaustive_scale_register",
+            "confidence": "strong",
+            "focus_anchor": "كُلُّ صَغِيرٍ وَكَبِيرٍ مُّسْتَطَرٌ",
+            "mechanism": "كُلّ gathers a complete whole, the small/great opposition spans a magnitude axis, and سطر fixes that whole into ordered written rows. The endpoint pair therefore includes the intervening scale rather than naming only two sizes.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Complete enclosure gathers all parts and makes the scale pair exhaustive."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ص غ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000865",
+                "branch_id": "B001",
+                "role": "Smallness supplies the lower endpoint in size, amount, age, or standing."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B001",
+                "role": "Greatness supplies the opposed upper endpoint of the same scale."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Written rows convert exhaustive coverage into a fixed, ordered register."
+              }
+            ],
+            "changed_reading": {
+              "before": "Each small and large item is written.",
+              "after": "The inscription sweeps an entire graduated field: no magnitude or intermediate detail falls outside the ordered register."
+            }
+          },
+          {
+            "model_id": "b_objective_status_register",
+            "confidence": "medium",
+            "focus_anchor": "صَغِيرٍ وَكَبِيرٍ joined under مُّسْتَطَرٌ",
+            "mechanism": "The opposition can grade perceived worth as well as physical size: صغر can mark abasement or being treated as little, while كبر can be an inward act of magnifying. A common inscription removes both poles from private valuation.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "ص غ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000865",
+                "branch_id": "B002",
+                "role": "Lowliness and belittlement make 'small' an appraisal of status, not only dimensions."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B003",
+                "role": "Magnification in the breast makes 'great' a perceived gravity or importance."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Fixed writing supplies an external calibration for both subjective poles."
+              }
+            ],
+            "changed_reading": {
+              "before": "The record distinguishes objectively small things from objectively large ones.",
+              "after": "Whatever agents belittle or magnify is equally exposed to an inscription that does not inherit their valuation."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_appointed_counted_register",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ع د"
+            ],
+            "mechanism": "The split inventory of مَوْعِد contributes both an appointed time/place and the non-dominant image of enumerating. Joined to the focus register, exhaustiveness becomes scheduled and countable rather than merely stored.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "The written row is the focus-side register that receives temporal and numerical coordinates."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment bounded by time or place makes the register answer to a fixed rendezvous."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The supplied alternate mapping's act of counting makes each registered detail enumerable."
+              }
+            ],
+            "structural_cues": [
+              "54:46 repeats ٱلسَّاعَةُ on both sides of مَوْعِدُ, enclosing the appointment in a temporal frame."
+            ],
+            "reader_inference": "The packet supplies appointment and enumeration; I infer that the inscription coordinates each item with reckoning. A live alternative is that 54:46 supplies only warning-time, not registry structure.",
+            "changed_reading": {
+              "before": "Everything across the scale is preserved in writing.",
+              "after": "Every scale-position is entered into a countable register oriented toward an appointed reckoning."
+            }
+          },
+          {
+            "model_id": "d_lossless_accountability",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ر م",
+              "ض ل ل"
+            ],
+            "mechanism": "جرم links the named agents to acquired offense, while ضلل can image the loss of preservation. Against that loss, the focus inscription functions as a non-lossy account of what agents acquired.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Fixed writing provides durable retention against disappearance."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B003",
+                "role": "Acquisition makes culpable identity trace back to what the agents earned."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B004",
+                "role": "Offense specifies the morally chargeable content of that acquisition."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B004",
+                "role": "Loss of preservation supplies the failure mode that inscription reverses."
+              }
+            ],
+            "structural_cues": [
+              "54:47 places the agents inside two coordinated states, ضَلَٰل and سُعُر, before 54:53 states total inscription."
+            ],
+            "reader_inference": "The packet supplies acquired offense, failed preservation, and fixed writing; I infer that writing defeats the loss of accountable acts. Alternatively, ضلال may describe only the agents' present condition.",
+            "changed_reading": {
+              "before": "Minor and major matters remain recorded.",
+              "after": "No acquired offense disappears through neglect, concealment, or failed memory, however little its agent judged it."
+            }
+          },
+          {
+            "model_id": "d_measured_specification",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ل ل",
+              "ش ي ء",
+              "خ ل ق",
+              "ق د ر"
+            ],
+            "mechanism": "54:49 couples totality and thinghood with creation as prior measurement and a bounded amount. The focus's small/great scale can therefore be read as calibrated specification, with inscription preserving each created limit.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "ص غ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000865",
+                "branch_id": "B001",
+                "role": "Smallness supplies one calibrated region of the focus scale."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B001",
+                "role": "Greatness supplies the opposed calibrated region."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Writing preserves the differentiated measures as an ordered specification."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Repeated total enclosure links the created whole to the focus's exhaustive whole."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "A knowable, reportable thing gives the measured unit an identifiable object."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Creation as measuring makes magnitude prior structure rather than incidental appearance."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A quantity reaching its limit supplies the exact bound stored by the register."
+              }
+            ],
+            "structural_cues": [
+              "54:49 and 54:53 repeat كُلّ around a progression from created thing and measure to small/great and inscription."
+            ],
+            "reader_inference": "The packet supplies measured creation, bounded amount, and scale; I infer that inscription can preserve specification, not only retrospective history. The alternative is a later record of already-created things.",
+            "changed_reading": {
+              "before": "The record lists things after classifying them as small or large.",
+              "after": "The register carries the exact measured specification by which every created thing occupies its particular scale and limit."
+            }
+          },
+          {
+            "model_id": "d_unitary_instant_access",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء م ر",
+              "و ح د",
+              "ل م ح",
+              "ب ص ر"
+            ],
+            "mechanism": "A single command aligned in one direction and compared to a flashing glance compresses what written rows might suggest is sequential. The exhaustive register becomes instantly surveyable or actionable as one whole.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Ordered rows provide the apparent sequential structure that the context compresses."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The single affair or command supplies the act that engages the whole register."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B005",
+                "role": "Things united in one direction collapse plurality into coordinated execution."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B002",
+                "role": "A fleeting glance supplies the near-instant timescale."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Visual apprehension turns the total register into a simultaneously surveyable field."
+              }
+            ],
+            "structural_cues": [
+              "The restrictive construction وَمَا أَمْرُنَا إِلَّا وَاحِدَةٌ reduces the command to one before the glance simile."
+            ],
+            "reader_inference": "The packet supplies unity, glance, sight, and ordered writing; I infer instantaneous access to or enactment of the register. Alternatively, the simile qualifies command speed without describing the record.",
+            "changed_reading": {
+              "before": "An exhaustive record is read or processed row after row.",
+              "after": "The many small and great entries remain differentiated yet are available or enacted as one immediately apprehended whole."
+            }
+          },
+          {
+            "model_id": "d_retrievable_precedent",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ي ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "The destruction of analogous cohorts is followed by a call to recollect. Inscribed details thus become retrievable precedent: likeness across groups lets a past entry reactivate as warning in the present.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Fixed rows preserve the particulars from which precedent can later be retrieved."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ش ي ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000836",
+                "branch_id": "B007",
+                "role": "The image of a peer or analogue lets one recorded cohort model another."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recollection after forgetting supplies the retrieval operation."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder gives the retrieved entry its warning function."
+              }
+            ],
+            "structural_cues": [
+              "54:51 pairs the completed destruction of predecessors with the interrogative فَهَلْ مِن مُّدَّكِرٍ immediately before the two record verses."
+            ],
+            "reader_inference": "The packet supplies analogues, destruction, recollection, and written preservation; I infer a precedent mechanism linking past and present. Alternatively, the remembrance appeal may remain general exhortation.",
+            "changed_reading": {
+              "before": "The inscription is a static inventory of particulars.",
+              "after": "Its fine-grained entries are a memory system: recorded analogues can be retrieved as active precedent for later agents."
+            }
+          },
+          {
+            "model_id": "d_deed_indexed_dossier",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ل ل",
+              "ش ي ء",
+              "ف ع ل",
+              "ز ب ر"
+            ],
+            "mechanism": "The immediately preceding clause puts everything the agents did in written books; the focus repeats كُلّ and replaces 'thing they did' with the small/great scale. The second verse therefore indexes the granularity and gravity of deeds within that dossier.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Focus-side totality resumes and intensifies the preceding exhaustive clause."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "The written row turns the resumed totality into itemized dossier entries."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The first exhaustive enclosure establishes the scope inherited by the focus."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The reportable thing supplies an individuated unit for the action record."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "Produced action specifies deeds as the dossier's immediate content."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing, book, and scripture provide the plural documentary containers."
+              }
+            ],
+            "structural_cues": [
+              "54:52-53 are consecutive وَكُلُّ clauses: agentive فَعَلُوهُ and plural books are followed by the small/great pair and singular passive inscription."
+            ],
+            "reader_inference": "The packet supplies consecutive exhaustive clauses, deeds, books, and scale; I infer scope carryover from deeds into the focus's ellipsis. A live alternative keeps 54:53 broader than human action.",
+            "changed_reading": {
+              "before": "Small and great entities or events of any kind are inscribed.",
+              "after": "Every produced deed is itemized in a dossier down to its slightest granularity and up to its greatest gravity, while the wider universal scope remains possible."
+            }
+          },
+          {
+            "model_id": "d_two_sided_disposition",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق ي",
+              "ج ن ن",
+              "ن ه ر"
+            ],
+            "mechanism": "Immediately after the total record, protection opens into enclosed gardens and a flowing river. This sequence prevents the register from being only a punitive ledger: exhaustive discrimination also carries protected, life-giving disposition.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Complete coverage makes the proposed disposition apply without omitted detail."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protection from harm supplies a positive outcome alongside the preceding punitive sequence."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden enclosed by growth gives protection a bounded dwelling."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "A river cutting through earth supplies sustained movement and provision within that dwelling."
+              }
+            ],
+            "structural_cues": [
+              "54:54 pivots directly from universal inscription to إِنَّ ٱلْمُتَّقِينَ, contrasting the punitive material of 54:46-52 with protected flourishing."
+            ],
+            "reader_inference": "The packet supplies immediate sequence, protection, enclosure, and flow; I infer that the register supports differentiated disposition, including preservation. Alternatively, 54:54 may begin an independent reward scene.",
+            "changed_reading": {
+              "before": "In its punitive context, the total inscription primarily secures liability.",
+              "after": "The same exact register can discriminate toward preservation and flourishing as well as toward punitive consequence."
+            }
+          },
+          {
+            "model_id": "d_sovereign_authenticated_record",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ع د",
+              "ص د ق",
+              "ع ن د",
+              "م ل ك",
+              "ق د ر"
+            ],
+            "mechanism": "A fixed seat characterized by truth, immediate presence, sovereignty, and effective capacity supplies an authority structure for the focus inscription. Its entries are not provisional notes but a stable and executable sovereign record.",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Fixed writing supplies the record whose authority the closing scene authenticates."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001244",
+                "branch_id": "B001",
+                "role": "Sitting fixed in a place gives the record's outcome settled placement."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Complete soundness and stability authenticate the settled placement."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Near presence locates authentication before the authority rather than at a distance."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Kingship and sovereignty supply jurisdiction over the register and its outcomes."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effective capacity makes the sovereign record enforceable rather than merely descriptive."
+              }
+            ],
+            "structural_cues": [
+              "The closing chain مَقْعَدِ صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍ moves from settled place through authenticity and proximity to sovereign capacity."
+            ],
+            "reader_inference": "The packet supplies stable placement, truth, presence, sovereignty, and capacity; I infer that they authenticate and execute the preceding register. Alternatively, they describe reward without specifying the record's authority.",
+            "changed_reading": {
+              "before": "The inscription is an exhaustive but otherwise unspecified archive.",
+              "after": "It is an authenticated sovereign register whose exact entries can be settled and effectuated without loss of truth or power."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_executed_cutting_line",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates سطر's blow-or-cut branch beneath the ordinary writing sense. It remains anchored in مُّسْتَطَرٌ and is materially reinforced by dragging and bodily impact in 54:48, but downstream prose should present it only as a tactile underside of inscription, not as a replacement translation.",
+            "focus_anchor": "مُّسْتَطَرٌ as both written line and latent stroke",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B004",
+                "role": "A line made by striking or cutting turns inscription into a potentially executed mark."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging supplies bodily execution and linear forced movement."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "Impact makes the registered line arrive as experienced effect."
+              }
+            ],
+            "changed_reading": {
+              "before": "The small and great are passively present as written entries.",
+              "after": "Exploratorily, each written line has an executable edge: what is inscribed can become a stroke that reaches bodies."
+            }
+          },
+          {
+            "outlier_id": "o_register_as_supervision",
+            "confidence": "exploratory",
+            "containment": "This is form-distant because the supervisory branch belongs to the سطر inventory while the focus form ordinarily points to writing. It remains anchored in the supplied branch and gains contextual pressure from closing sovereignty and capacity; render it as a secondary resonance of custody, never as direct lexical equivalence.",
+            "focus_anchor": "مُّسْتَطَرٌ under the supervisory branch of س ط ر",
+            "activation_trace": [
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B003",
+                "role": "A preserving, controlling overseer shifts the register from inert text toward custody."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Sovereignty supplies the contextual authority under which such custody could operate."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effective capacity makes supervision operative rather than observational."
+              }
+            ],
+            "changed_reading": {
+              "before": "Every detail is written and then left as archival text.",
+              "after": "Exploratorily, inscription also places every detail under active preserving oversight and sovereign control."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "54:49 turns the small/great pair into calibrated created measure and the inscription into stored specification.",
+            "54:52 narrows the immediate scope toward an itemized dossier of deeds while preserving a possible wider universality.",
+            "54:55 authenticates the register as stable, truthful, sovereign, and executable."
+          ],
+          "what_was_special": "The focus's terse merism became more than an exhaustiveness formula: neighboring roots made it simultaneously scalar specification, lossless action-memory, instantaneously available whole, precedent system, and authoritative disposition record.",
+          "remaining_uncertainties": [
+            "Whether the inscription is primarily prospective specification or retrospective record remains unresolved.",
+            "The deed-focused carryover from 54:52 is strong but may not exhaust the broader referent of small and great.",
+            "The cutting-line and supervisory resonances are branch-valid but form-distant and should remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The archive has no lower or upper size threshold.** `ك ل ل` B003 is totality; `ص غ ر` B001 is smallness; `ك ب ر` B001 greatness; `س ط ر` B001 is aligned writing recorded line by line. The paired opposites distribute totality across scale. I infer that inscription is exhaustive because neither minor nor major items escape rowed placement. The ayah reads the record as ordered, not merely accumulated.\n\n2. **`كَبِيرٍ` can add legal gravity to magnitude.** `ك ب ر` B007 is a major sin/grave offense and B010 burdensome greatness; `ص غ ر` B001 remains the lesser degree. The preceding ayah’s deeds make moral scale relevant. I infer that the pair can include minor and grave acts as well as physically or quantitatively small and great things. The two classifications coexist in the same exhaustive record.",
@@ -3421,18 +4211,23 @@
   "root_lexicon": {
     "root_001315": {
       "root_ar": "ك ل ل",
+      "qac_roots_ar": [
+        "ك ل ل"
+      ],
       "root_id": "root_001315",
-      "root_mapping": {
-        "root_id": "root_001315",
-        "root_norm": "ك ل ل",
-        "source_root_norm": "ك ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 373,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 373
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1b62652dd08706d73c357e6fbeca545210dd48618694d4690482d32c5e16a02f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5908,18 +6703,23 @@
     },
     "root_000865": {
       "root_ar": "ص غ ر",
+      "qac_roots_ar": [
+        "ص غ ر"
+      ],
       "root_id": "root_000865",
-      "root_mapping": {
-        "root_id": "root_000865",
-        "root_norm": "ص غ ر",
-        "source_root_norm": "ص غ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 11,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص غ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 11
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "acd464ea0c0a53f77cb78fa290890b1b64ecb5b86b838c11574bccde788daa97",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7518,18 +8318,23 @@
     },
     "root_001281": {
       "root_ar": "ك ب ر",
+      "qac_roots_ar": [
+        "ك ب ر"
+      ],
       "root_id": "root_001281",
-      "root_mapping": {
-        "root_id": "root_001281",
-        "root_norm": "ك ب ر",
-        "source_root_norm": "ك ب ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 149,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ب ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 149
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "0b7dc866a35d92ca66c61bad27c398dd314e2c724fc2771c202db0243f7bcaa4",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10467,18 +11272,23 @@
     },
     "root_000704": {
       "root_ar": "س ط ر",
+      "qac_roots_ar": [
+        "س ط ر"
+      ],
       "root_id": "root_000704",
-      "root_mapping": {
-        "root_id": "root_000704",
-        "root_norm": "س ط ر",
-        "source_root_norm": "س ط ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 15,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ط ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 15
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1e6a8b22794712afa7d3986408b3d3adb87f2de43cefa8f0be75e92bcd1bb680",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12420,14 +13230,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12715,11 +13531,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_53.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_53.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 77798,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -12795,19 +13624,37 @@
           "root_ids": [
             "root_001315"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001315",
+            "targets": [
+              {
+                "qac_root_norm": "ك ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001315",
+                "furuq_root_norm": "ك ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 373,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001315",
-              "root_norm": "ك ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 373,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12832,19 +13679,37 @@
           "root_ids": [
             "root_000865"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص غ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000865",
+            "targets": [
+              {
+                "qac_root_norm": "ص غ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000865",
+                "furuq_root_norm": "ص غ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 11,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000865",
-              "root_norm": "ص غ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص غ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 11,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12869,19 +13734,37 @@
           "root_ids": [
             "root_001281"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ب ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001281",
+            "targets": [
+              {
+                "qac_root_norm": "ك ب ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001281",
+                "furuq_root_norm": "ك ب ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 149,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001281",
-              "root_norm": "ك ب ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ب ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 149,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12906,19 +13789,37 @@
           "root_ids": [
             "root_000704"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ط ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000704",
+            "targets": [
+              {
+                "qac_root_norm": "س ط ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000704",
+                "furuq_root_norm": "س ط ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 15,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000704",
-              "root_norm": "س ط ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ط ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 15,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12945,10 +13846,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 35,
+        "dictionary_branches_kept": 35,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 35,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

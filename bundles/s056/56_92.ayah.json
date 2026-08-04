@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.847572+00:00",
+  "generated_at": "2026-08-04T22:30:02.547482+00:00",
   "surah": 56,
   "ayah": 92,
   "ayahRef": "56:92",
@@ -1653,7 +1653,8 @@
       "morpheme_ids": [
         "m-w-s056-a092-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:92:1"
+      "aligned_qac_word_ref_upstream": "56:92:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1667,7 +1668,8 @@
       "morpheme_ids": [
         "m-w-s056-a092-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:92:2"
+      "aligned_qac_word_ref_upstream": "56:92:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1681,7 +1683,8 @@
       "morpheme_ids": [
         "m-w-s056-a092-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:92:3"
+      "aligned_qac_word_ref_upstream": "56:92:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1695,7 +1698,8 @@
       "morpheme_ids": [
         "m-w-s056-a092-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:92:4"
+      "aligned_qac_word_ref_upstream": "56:92:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1709,7 +1713,8 @@
       "morpheme_ids": [
         "m-w-s056-a092-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:92:5"
+      "aligned_qac_word_ref_upstream": "56:92:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1725,7 +1730,8 @@
         "m-w-s056-a092-w005-01",
         "m-w-s056-a092-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:92:6"
+      "aligned_qac_word_ref_upstream": "56:92:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1741,7 +1747,8 @@
         "m-w-s056-a092-w006-01",
         "m-w-s056-a092-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:92:7"
+      "aligned_qac_word_ref_upstream": "56:92:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2312,7 +2319,645 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_92.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:92",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:92",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B_realized_denial_and_deviation",
+            "confidence": "strong",
+            "focus_anchor": "The conditional كَانَ مِنَ construction places the subject among the active مُكَذِّبِينَ and the directionally marked ضَّآلِّينَ.",
+            "mechanism": "The clause combines an instantiated condition, an active attribution of falsehood, and departure from an aim. It therefore presents a class defined by both stance and orientation, without deciding whether denial causes straying or straying enables denial.",
+            "activation_trace": [
+              {
+                "source_ref": "56:92",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time make the classification a realized condition rather than a free-floating description."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing a thing or speaker to falsehood supplies the class's active oppositional stance."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from guidance and aim supplies the class's failed orientation."
+              }
+            ],
+            "changed_reading": {
+              "before": "If he is among people who are wrong and lost.",
+              "after": "If his realized condition is membership among those who actively assign falsehood and stand off the intended course."
+            }
+          },
+          {
+            "model_id": "B_denial_with_disappearance",
+            "confidence": "medium",
+            "focus_anchor": "مُكَذِّبِينَ names active false-attribution, while the focus root of ضَّآلِّينَ also carries disappearance and loss.",
+            "mechanism": "The pairing can describe a damaged relation to what is denied: the subject does not merely take a wrong road but treats something as false while it has gone missing from view. This preserves a perceptual reading alongside the directional one.",
+            "activation_trace": [
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Active assignment to falsehood supplies the rejecting relation to the denied referent."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Disappearance and hiddenness recast straying as loss of perceptual access."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss of a thing sharpens the model from general error to a relation in which the referent cannot be found."
+              }
+            ],
+            "changed_reading": {
+              "before": "The deniers are simply on the wrong path.",
+              "after": "The deniers are also those for whom what they reject has become hidden, lost, or unfindable."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D_located_signs_and_delivered_guide",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق ع",
+              "ن ج م",
+              "ق ر ء",
+              "ك ت ب",
+              "ن ز ل"
+            ],
+            "mechanism": "The sequence moves from fixed stellar locations and a prominent celestial marker to recited, written, and delivered discourse. Against that field, ضَّآلِّينَ can mark failed orientation in the presence of supplied coordinates, while مُكَذِّبِينَ names rejection of the guide that could orient them.",
+            "activation_trace": [
+              {
+                "source_ref": "56:75",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed supply stable locations that can function as coordinates."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ن ج م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001475",
+                "branch_id": "B006",
+                "role": "A prominent marker supplies the visible sign by which orientation is possible."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and recitation turn the orienting sign into articulated discourse."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Ordered letters and a written object give the discourse durable, inspectable form."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Sending down and conveying supply the movement by which the guide reaches its hearers."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from aim anchors the contextual signs back to the focus label."
+              }
+            ],
+            "structural_cues": [
+              "56:75-80 proceeds from located celestial signs to a recited, written, and delivered discourse before the focus names the astray."
+            ],
+            "reader_inference": "The packet supplies fixed locations, a prominent marker, and delivered writing; the reader supplies the arrow that these operate as coordinates and guide. A live alternative is that they function only as evidence of authority, not as navigation.",
+            "changed_reading": {
+              "before": "ضَّآلِّينَ indicates undifferentiated moral or cognitive error.",
+              "after": "ضَّآلِّينَ can indicate failure to orient despite fixed signs and an articulated guide, with denial acting as rejection of those coordinates."
+            }
+          },
+          {
+            "model_id": "D_denial_as_converted_provision",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ه ن",
+              "ج ع ل",
+              "ر ز ق",
+              "ك ذ ب"
+            ],
+            "mechanism": "The discourse is first met with smoothing accommodation and then provision is actively made into denial. The later nominal class مُكَذِّبِينَ therefore gathers up a practiced conversion of what is received into a false-attributing response, not merely a private opinion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "Soft accommodation and evasive conciliation supply a preliminary mode of handling the discourse without square acceptance."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Causing something to assume a condition supplies the conversion mechanism."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "An allotted gift supplies what is received and then mishandled."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The repeated act of assigning falsehood names the response into which provision is configured."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The same false-attributing root anchors the earlier practice in the focus's agentive class label."
+              }
+            ],
+            "structural_cues": [
+              "The adjacent second-person accusations in 56:81-82 culminate in a finite denial verb; 56:92 later turns that same root into a class of agents."
+            ],
+            "reader_inference": "The packet supplies smoothing, making, allotted provision, and denial; the reader supplies the conversion arrow from gift to rejecting response. The live alternative is that denial constitutes their treatment of provision without implying a literal exchange.",
+            "changed_reading": {
+              "before": "مُكَذِّبِينَ means people who hold or voice a false judgment.",
+              "after": "مُكَذِّبِينَ names people who repeatedly configure what they receive into an act of false-attribution."
+            }
+          },
+          {
+            "model_id": "D_death_boundary_verification",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ب",
+              "ب ص ر",
+              "د ي ن",
+              "ر ج ع",
+              "ص د ق"
+            ],
+            "mechanism": "At the death boundary, nearness is not perceived, claimed freedom from account is tested, and truthfulness is challenged to verify itself by returning what has departed. The focus labels then read as an exposed failure of both claim and orientation at an irreversible threshold.",
+            "activation_trace": [
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness opposed to distance supplies a reality that is present rather than unavailable."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight of the heart supplies the failed perceptual access despite nearness."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the condition the addressees are challenged to deny."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Restoring something to its former state supplies the demanded practical test."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfilling a claim in action sets the criterion by which the denial is exposed."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "False-attribution anchors the failed truth claim in the focus."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from aim anchors failed perception and verification as failed orientation."
+              }
+            ],
+            "structural_cues": [
+              "56:83-87 stages arrival at the throat, onlookers who cannot perceive, and a direct challenge to reverse the event if their claim is true."
+            ],
+            "reader_inference": "The packet supplies an unseen nearness, account, return, and truth verified in action; the reader supplies the arrow that failure of the return challenge exposes the focus's denial and straying. An alternative is that the challenge rebuts only powerlessness, not every route into denial.",
+            "changed_reading": {
+              "before": "The deniers and astray lack correct information or belief.",
+              "after": "Their label is performatively exposed where an unperceived nearness and an unfulfilled return challenge defeat their claim at death."
+            }
+          },
+          {
+            "model_id": "D_parallel_class_and_inverted_reception",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك و ن",
+              "ن ز ل",
+              "ح م م",
+              "ج ح م"
+            ],
+            "mechanism": "Repeated كَانَ مِنَ clauses sort three classes, and each class is followed by its reception. For the focus class, the prepared guest provision is inverted into hot water and blazing fire, so membership becomes an outcome-bearing placement rather than a static epithet.",
+            "activation_trace": [
+              {
+                "source_ref": "56:88",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Realized occurrence begins the first parallel class and establishes the classificatory frame."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "The second occurrence repeats the same frame and makes the focus's third occurrence part of a formal sequence."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "The focus occurrence completes the parallel sorting and anchors the resulting reception to this class."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Provision prepared for one who arrives supplies the reception frame and its bitter inversion."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water supplies the substance of the inverted reception."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Blazing fire and severe heat complete the outcome assigned to the focus class."
+              }
+            ],
+            "structural_cues": [
+              "The formula أَمَّا إِن كَانَ مِن recurs in 56:88, 56:90, and 56:92, with each class followed by a distinct outcome."
+            ],
+            "reader_inference": "The packet supplies parallel conditionals and a branch image of prepared guest provision; the reader supplies the arrow from class membership to a matched reception. A live alternative is plain consequence without the social force of reception.",
+            "changed_reading": {
+              "before": "كَانَ مِنَ merely says that the person belongs to a negatively described group.",
+              "after": "كَانَ مِنَ places the person in the third branch of a formal sorting whose reception is an inverted guest provision of heat."
+            }
+          },
+          {
+            "model_id": "D_false_attribution_against_fixed_reality",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ق ق",
+              "ي ق ن"
+            ],
+            "mechanism": "The immediate assertion of reality that matches what is and knowledge from which doubt has departed forms a direct counterfield to active false-attribution. Denial is sharpened from uncertainty into a stance against what the sequence declares fixed and settled.",
+            "activation_trace": [
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contrariety to truth supplies the focus-side pole of the opposition."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Assigning falsehood makes that opposition an agentive stance rather than simple uncertainty."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Stable correspondence with reality against falsehood supplies the explicit counterpole."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge and removal of doubt close off mere uncertainty as the model of denial."
+              }
+            ],
+            "structural_cues": [
+              "56:95 immediately follows the focus class and its outcome with an emphatic declaration of truth and certainty."
+            ],
+            "reader_inference": "The packet supplies false-attribution followed by fixed reality and settled knowledge; the reader supplies the contrast arrow back to the deniers. An alternative is that 56:95 certifies only the stated outcomes rather than characterizing the deniers' epistemic posture.",
+            "changed_reading": {
+              "before": "The deniers may simply remain unconvinced.",
+              "after": "The deniers actively place a falsehood judgment against what the sequence presents as reality-fixed and doubt-excluding."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O_coated_false_surface",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the form-distant cloth-that-lies-by-appearance branch of ك ذ ب through the adjacent oiling and smoothing image of د ه ن. It remains anchored in the focus's false-attributing participle and hiddenness branch of ض ل ل, but downstream prose should present it only as a material analogy for handling the discourse, never as a lexical gloss of مُكَذِّبِينَ.",
+            "focus_anchor": "The outlier attaches to مُكَذِّبِينَ through ك ذ ب B009 and to ضَّآلِّينَ through ض ل ل B002.",
+            "activation_trace": [
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B001",
+                "role": "Oil and what is applied as a coating supply the material action of treating a surface."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A decorated cloth that lies through its appearance supplies a nearby image of representational falsification."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The same appearance-falsifying branch anchors the material analogy in the focus participle."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness supplies what the misleading surface leaves obscured."
+              }
+            ],
+            "changed_reading": {
+              "before": "Denial is only a propositional rejection.",
+              "after": "Exploratorily, denial is also a surface treatment that makes the discourse appear otherwise and leaves its referent hidden."
+            }
+          },
+          {
+            "outlier_id": "O_charge_that_cannot_carry_through",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the branch in which a charge or campaign proves true by carrying through and false by failing. It remains anchored in the focus root ك ذ ب and gains a visible test from 56:87's demand to return the departing life if truthful; downstream prose should mark it as a cross-domain performance analogy, not the direct sense of مُكَذِّبِينَ.",
+            "focus_anchor": "The outlier attaches to مُكَذِّبِينَ through ك ذ ب B004 and to ضَّآلِّينَ through departure from the intended course.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Returning something to its former state supplies the act the claim must carry through."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Truth realized by fulfilling a claim supplies the performance criterion."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge that fails to carry through supplies the exploratory image for denial exposed under test."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from aim supplies the failed trajectory after the claim cannot be completed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The deniers utter an incorrect proposition.",
+              "after": "Exploratorily, their denial is a charge that cannot complete its own demanded test and therefore collapses off course."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated ك ذ ب in 56:82 turns denial from opinion into a configured response to provision.",
+            "The deathbed challenge in 56:83-87 recasts the label as a claim exposed under an irreversible practical test.",
+            "The parallel conditionals in 56:88-94 make كَانَ مِنَ a formal classification whose third outcome is an inverted reception.",
+            "The located signs and delivered writing of 56:75-80 sharpen ضَّآلِّينَ into failed orientation."
+          ],
+          "what_was_special": "The focus's two labels remain co-active: ك ذ ب supplies active counter-attribution, while ض ل ل supplies directional loss, disappearance, or unfindability. Context converts their pairing into navigational, economic, evidentiary, and reception mechanisms without forcing one final reading.",
+          "remaining_uncertainties": [
+            "The focus does not specify whether denial causes straying, straying enables denial, or the two independently define the class.",
+            "The provision-denial construction can support conversion, substitution, or a more general description of how provision is treated.",
+            "The coating and failed-charge outliers depend on branch-distant material analogies and require explicit qualification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Active falsification culminates in failed orientation.** `ك ذ ب` **B002** supplies declaring false and `ض ل ل` **B001** going astray from aim. The order reverses 56:51’s `الضالون المكذبون`. **Abductive move:** I infer that reversal permits both arrows to remain visible: straying supports denial, and denial culminates in straying. **Reading change:** the pair is a mutually reinforcing mechanism, not a fixed causal sequence.\n\n2. **Those who declared hidden reality lost.** `ض ل ل` **B002** supplies disappearance and **B003** losing something, while `ك ذ ب` **B001** supplies falsehood against truth. **Abductive move:** I infer that their earlier equation of decomposed invisibility with non-return is now attached to their final classification. **Reading change:** the label preserves the specific epistemic error behind denial.",
@@ -3353,18 +3998,23 @@
   "root_lexicon": {
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -4484,18 +5134,23 @@
     },
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6255,18 +6910,23 @@
     },
     "root_000913": {
       "root_ar": "ض ل ل",
+      "qac_roots_ar": [
+        "ض ل ل"
+      ],
       "root_id": "root_000913",
-      "root_mapping": {
-        "root_id": "root_000913",
-        "root_norm": "ض ل ل",
-        "source_root_norm": "ض ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 153,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ض ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 153
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "830cbc3e12d9740d071db1050eb7b44ba7cfd9859c773d390c1a6330701137e2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8527,14 +9187,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8847,11 +9513,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_92.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_92.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 92564,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8924,19 +9603,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -8948,19 +9645,37 @@
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8985,19 +9700,37 @@
           "root_ids": [
             "root_000913"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ض ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000913",
+            "targets": [
+              {
+                "qac_root_norm": "ض ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000913",
+                "furuq_root_norm": "ض ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 153,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000913",
-              "root_norm": "ض ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ض ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 153,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9024,10 +9757,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 20,
+        "dictionary_branches_kept": 20,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 5,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

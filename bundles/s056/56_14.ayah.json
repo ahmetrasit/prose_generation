@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.907491+00:00",
+  "generated_at": "2026-08-04T22:29:58.464351+00:00",
   "surah": 56,
   "ayah": 14,
   "ayahRef": "56:14",
@@ -1318,7 +1318,8 @@
       "morpheme_ids": [
         "m-w-s056-a014-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:14:1"
+      "aligned_qac_word_ref_upstream": "56:14:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1332,7 +1333,8 @@
       "morpheme_ids": [
         "m-w-s056-a014-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:14:2"
+      "aligned_qac_word_ref_upstream": "56:14:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1346,7 +1348,8 @@
       "morpheme_ids": [
         "m-w-s056-a014-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:14:3"
+      "aligned_qac_word_ref_upstream": "56:14:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1362,7 +1365,8 @@
         "m-w-s056-a014-w003-01",
         "m-w-s056-a014-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:14:4"
+      "aligned_qac_word_ref_upstream": "56:14:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1717,7 +1721,729 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_14.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:14",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:14",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_sparse_later_cohort",
+            "confidence": "strong",
+            "focus_anchor": "قَلِيلٌ qualifies a partitive group مِنَ ٱلْءَاخِرِينَ.",
+            "mechanism": "Numerical scarcity combines with posteriority to select a small subset from those after the first.",
+            "activation_trace": [
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Literal scarcity supplies the small quantity assigned to the cohort."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Being after the first supplies the cohort's relative temporal or sequential identity."
+              }
+            ],
+            "changed_reading": {
+              "before": "Some unspecified relation to later people is asserted.",
+              "after": "Only a small subset belongs to the post-first cohort."
+            }
+          },
+          {
+            "model_id": "baseline_delayed_tail",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus juxtaposes scarcity with a word that can mark delay or the rear of a sequence.",
+            "mechanism": "The phrase can profile a small delayed tail or end-position, not only label a historical population.",
+            "activation_trace": [
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Scarcity makes the tail small."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Delay to a later time turns the group label into a late-arrival process."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B003",
+                "role": "The rear or back supplies a sequential edge where the small remainder sits."
+              }
+            ],
+            "changed_reading": {
+              "before": "The later ones are only a chronological block.",
+              "after": "They may also be the small delayed tail at the back edge of a sequence."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_inversion_winnowing",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق ع",
+              "خ ف ض",
+              "ر ف ع",
+              "ر ج ج",
+              "ه ب و",
+              "ب ث ث"
+            ],
+            "mechanism": "An unavoidable severe event lowers and raises, destabilizes the ground, and disperses matter; against that process, the few later ones read as a remainder produced by radical sorting rather than a static census.",
+            "activation_trace": [
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Scarcity names the small result left by the proposed sorting process."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "What is delayed until later supplies the process's terminal cohort."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B002",
+                "role": "The severe descending event initiates the mechanism that can alter group proportions."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Lowering after height supplies one direction of the sorting reversal."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of rank supplies the opposite direction and prevents equating fewness with low status."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Violent agitation removes stable prior arrangement."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine dispersed dust supplies the material image of a mass reduced and redistributed."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the final dispersive step before human grouping."
+              }
+            ],
+            "structural_cues": [
+              "56:1-6 progresses from certainty through status inversion to shaken terrain and dispersed dust."
+            ],
+            "reader_inference": "The packet supplies disruption, inversion, and dispersal; I infer a winnowing arrow from that sequence to the small later cohort. The sequence may instead stage the event without causing the cohort ratio.",
+            "changed_reading": {
+              "before": "The verse reports a fixed demographic scarcity.",
+              "after": "The scarcity can be heard as the terminal remainder of an overturning and dispersive sorting, with quantity and rank explicitly decoupled."
+            }
+          },
+          {
+            "model_id": "delta_class_specific_asymmetry",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز و ج",
+              "ث ل ث",
+              "س ب ق",
+              "ق ر ب",
+              "ث ل ل",
+              "ء و ل"
+            ],
+            "mechanism": "A three-class taxonomy narrows to the repeated foremost and the brought-near, then the adjacent former/later pair distributes that class asymmetrically across sequence-time.",
+            "activation_trace": [
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Scarcity supplies the smaller side of the paired class distribution."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Posteriority supplies the second temporal side of the distribution."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B004",
+                "role": "A kind or class supplies the taxonomic frame rather than a census of humanity as a whole."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ث ل ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000203",
+                "branch_id": "B001",
+                "role": "The number three fixes the larger classification within which one class is selected."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Repeated precedence identifies the selected class by advance."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The elite intimates of a ruler supply the selected class's brought-near status."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "A gathered company supplies the numerous counterpart to the focus verse's few."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence establish the first side opposed by the focus's later side."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The split-root image of succession sharpens the ordered transition from former to later."
+              }
+            ],
+            "structural_cues": [
+              "The repeated nominal ٱلسَّٰبِقُونَ is resolved by أُو۟لَٰٓئِكَ ٱلْمُقَرَّبُونَ before the parallel count lines in 56:13-14.",
+              "56:13 and 56:14 share the construction quantity + مِنَ + temporal cohort."
+            ],
+            "reader_inference": "The packet supplies class labels and an adjacent syntactic pair; I infer that the ellipsis carries the foremost/brought-near class into both count lines. A live alternative is that the pair counts a broader blessed population.",
+            "changed_reading": {
+              "before": "Only a few later people exist or qualify in an unrestricted sense.",
+              "after": "Later representation is sparse specifically within the foremost, brought-near class, relative to its gathered former cohort."
+            }
+          },
+          {
+            "model_id": "delta_scarcity_as_distinction",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ف ع",
+              "ق ر ب",
+              "ن ع م",
+              "خ ي ر",
+              "ل ء ل ء",
+              "ك ن ن"
+            ],
+            "mechanism": "Elevation, elite nearness, good condition, active choosing, pearl imagery, and protective concealment reverse the deficit pole of scarcity: the cohort is few in number but concentrated in distinction.",
+            "activation_trace": [
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Scarcity and diminishment supply the apparent deficit that the value sequence revises."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of rank makes numerical smallness compatible with high standing."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Elite nearness gives the small cohort a selective social value."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and blessing negate a deprivation reading of fewness."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Choosing the beneficial supplies a selection mechanism rather than mere numerical loss."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ل ء ل ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001337",
+                "branch_id": "B001",
+                "role": "The pearl supplies concentrated value as the material analogue for a small distinguished set."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment makes smallness read as guarded selectivity."
+              }
+            ],
+            "structural_cues": [
+              "The focus cohort is framed before and after by elevation, nearness, bliss, choosing, and a protected-pearl simile."
+            ],
+            "reader_inference": "The packet supplies high-status and high-value descriptions; I infer that they evaluate the numbered cohort and reverse scarcity-as-deficiency. They may describe only the cohort's setting, not why its number is small.",
+            "changed_reading": {
+              "before": "Fewness implies weakness, deprivation, or insignificance.",
+              "after": "Fewness marks a concentrated, selected distinction whose low number does not lower its rank or condition."
+            }
+          },
+          {
+            "model_id": "delta_lateness_not_tardiness",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ز ي",
+              "ع م ل",
+              "ء ث م"
+            ],
+            "mechanism": "The focus's delay branch is followed by recompense tied to intentional work and by negated تأثيم, whose branch includes delay from good; chronological laterness is thereby separated from culpable tardiness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Delay to a later time supplies the potentially ambiguous lateness that the later cues qualify."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Corresponding recompense supplies an evaluative criterion distinct from chronology."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action supplies what the stated recompense answers to."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B001",
+                "role": "Delay from good is present as a branch image but negated in the source, blocking its equation with simple laterness."
+              }
+            ],
+            "structural_cues": [
+              "56:24 states recompense بِمَا كَانُوا۟ يَعْمَلُونَ, and 56:25 grammatically negates تَأْثِيمًا."
+            ],
+            "reader_inference": "The packet supplies deed-linked recompense and negated culpable delay; I infer a contrast between two kinds of lateness. The roots may remain locally separate with no intended interaction.",
+            "changed_reading": {
+              "before": "Being among the later ones suggests belatedness and therefore lesser moral standing.",
+              "after": "Chronological lateness is not itself culpable delay from good; the nearby evaluative axis is action and recompense."
+            }
+          },
+          {
+            "model_id": "delta_filtered_speech",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "The closing acoustic scene filters out speech that does not count, then leaves one peace-utterance doubled; the packet's split ق و ل to ق ل ل mapping gives قِيلًا a scarcity echo, extending fewness from population to verbal repertoire.",
+            "activation_trace": [
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Numerical scarcity supplies the focus image transferred experimentally to speech."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory perception establishes speech as the domain in which selective reduction becomes perceptible."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "What is discarded and not counted supplies the excluded verbal material."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Utterance by speech supplies the one surviving verbal act."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "The non-dominant mapped scarcity branch makes قِيلًا echo the focus's قَلِيلٌ without asserting identity."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety and freedom from harm name the retained utterance, repeated after other speech is removed."
+              }
+            ],
+            "structural_cues": [
+              "The لا ... ولا ... إلا restriction in 56:25-26 removes two speech classes and repeats سَلَامًا as the remainder."
+            ],
+            "reader_inference": "The packet supplies filtered hearing, a split ق و ل mapping, and repeated peace; I infer a root-echo from population scarcity to speech economy, not an etymological identity. The baseline may remain purely numerical.",
+            "changed_reading": {
+              "before": "Fewness applies only to the number of later persons.",
+              "after": "Fewness also resonates with an environment whose countable speech has been reduced to the repeated utterance of peace."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_large_vessel_paradox",
+            "confidence": "exploratory",
+            "containment": "This is surprising because قَلِيلٌ is not قُلَّة and the large-jar branch is form-distant; it remains anchored in the supplied ق ل ل inventory and is activated by the clustered cup, filled-cup, and spring images. Render it only as a material or paronomastic overlay, never as the lexical translation of قَلِيلٌ.",
+            "focus_anchor": "The focus root ق ل ل includes a large-vessel branch alongside scarcity.",
+            "activation_trace": [
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B003",
+                "role": "The large jar supplies a paradoxical capacity image inside the word-root of fewness."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B001",
+                "role": "The handleless cup supplies the first explicit vessel that activates the distant jar image."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ك ء س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001277",
+                "branch_id": "B001",
+                "role": "The cup defined by its contents sharpens the contrast between few containers and full capacity."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing spring supplies continuing abundance against the focus's low headcount."
+              }
+            ],
+            "changed_reading": {
+              "before": "Fewness is an unqualified image of shortage.",
+              "after": "As an associative overlay, low headcount stands inside a service ecology of large capacity and flowing abundance."
+            }
+          },
+          {
+            "outlier_id": "outlier_rear_reoriented",
+            "confidence": "exploratory",
+            "containment": "This spatial reading is surprising because ٱلْءَاخِرِينَ normally marks a later cohort here and the rear/instability branches are distant; it remains anchored in both focus roots and is activated by woven, facing, circulating, and enduring arrangements. Render it as a topology analogy subordinate to the temporal reading.",
+            "focus_anchor": "The focus permits a small unstable rear edge through ق ل ل B006 and ء خ ر B003.",
+            "activation_trace": [
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B006",
+                "role": "Movement and lack of fixed position make the small cohort spatially reconfigurable."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B003",
+                "role": "The rear or back supplies the initial marginal position."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tight interweaving supplies incorporation into a coherent arrangement."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Mutual facing reorients a rear edge into reciprocal presence."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Circulation around the assembly replaces a fixed front-versus-back line."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Enduring stability contains the focus branch's instability."
+              }
+            ],
+            "changed_reading": {
+              "before": "The few later ones occupy the tail of a one-directional sequence.",
+              "after": "As a spatial analogy, a small rear edge is woven into a stable face-to-face circulation with no fixed margin."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The adjacent former/later pair restricts the count to the foremost, brought-near class and makes its temporal distribution asymmetric.",
+            "The opening inversion and dispersal turn a static count into a possible event-produced remainder while separating quantity from rank.",
+            "Recompense by action and negated culpable delay prevent chronological laterness from automatically implying moral tardiness.",
+            "The split ق و ل to ق ل ل mapping and restricted speech scene add an exploratory economy-of-speech echo."
+          ],
+          "what_was_special": "The direct syntactic pair gives the strongest revision; split-root mappings and the post-focus material, spatial, and acoustic sequences then preserve several contained readings that a purely demographic gloss would erase.",
+          "remaining_uncertainties": [
+            "The count pair most likely continues the foremost/brought-near class, but a broader referential scope remains possible.",
+            "The opening disruption may frame rather than causally produce the cohort ratio.",
+            "The speech, vessel, and spatial readings are branch-licensed associative activations, not replacements for the ordinary scarcity-and-posteriority reading."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Few from those temporally later.** `ق ل ل` **B001** supplies fewness and `ء خ ر` **B001** what is later than the first. The parallel but unequal 56:13–14 structure makes the contrast numerical within the nearest group, while 56:39–40 later removes that asymmetry for the companions of the right. **Abductive move:** I infer that the packet deliberately varies quantity by rank. **Reading change:** lateness itself is not exclusion; it changes the distribution of this particular status.\n\n2. **A small summit from the later ones.** `ق ل ل` **B002**, top or summit, is activated exploratorily by the prior raising and privileged nearness. **Abductive move:** I infer a qualitative “apex” image alongside lexical fewness, because the selected later members occupy the highest relation. **Reading change:** `قليل` can evoke both numerical scarcity and a small peak-group.",
@@ -2504,18 +3230,23 @@
   "root_lexicon": {
     "root_001251": {
       "root_ar": "ق ل ل",
+      "qac_roots_ar": [
+        "ق ل ل"
+      ],
       "root_id": "root_001251",
-      "root_mapping": {
-        "root_id": "root_001251",
-        "root_norm": "ق ل ل",
-        "source_root_norm": "ق ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 75,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 75
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "13a157823876807f53626d1261a7b90310a5a283982ce24526b9de3de116a8ec",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4469,18 +5200,23 @@
     },
     "root_000019": {
       "root_ar": "ء خ ر",
+      "qac_roots_ar": [
+        "ء خ ر"
+      ],
       "root_id": "root_000019",
-      "root_mapping": {
-        "root_id": "root_000019",
-        "root_norm": "ء خ ر",
-        "source_root_norm": "أ خ ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 234,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء خ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 234
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7ca0038c23b5555e3f1906a1f2ac7a137361e982ce8251880dc698210d6557d2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6429,14 +7165,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6758,11 +7500,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_14.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_14.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 81807,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6835,19 +7590,37 @@
           "root_ids": [
             "root_001251"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001251",
+            "targets": [
+              {
+                "qac_root_norm": "ق ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001251",
+                "furuq_root_norm": "ق ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 75,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001251",
-              "root_norm": "ق ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 75,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6872,19 +7645,37 @@
           "root_ids": [
             "root_000019"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء خ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000019",
+            "targets": [
+              {
+                "qac_root_norm": "ء خ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000019",
+                "furuq_root_norm": "ء خ ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 234,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000019",
-              "root_norm": "ء خ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء خ ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 234,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6911,10 +7702,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 10,
+        "dictionary_branches_kept": 10,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 10,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.812665+00:00",
+  "generated_at": "2026-08-04T22:29:51.742138+00:00",
   "surah": 54,
   "ayah": 6,
   "ayahRef": "54:6",
@@ -2262,7 +2262,8 @@
       "morpheme_ids": [
         "m-w-s054-a006-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:6:1"
+      "aligned_qac_word_ref_upstream": "54:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2276,7 +2277,8 @@
       "morpheme_ids": [
         "m-w-s054-a006-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:6:2"
+      "aligned_qac_word_ref_upstream": "54:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2292,7 +2294,8 @@
         "m-w-s054-a006-w002-01",
         "m-w-s054-a006-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:6:3"
+      "aligned_qac_word_ref_upstream": "54:6:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2306,7 +2309,8 @@
       "morpheme_ids": [
         "m-w-s054-a006-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:6:4"
+      "aligned_qac_word_ref_upstream": "54:6:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2320,7 +2324,8 @@
       "morpheme_ids": [
         "m-w-s054-a006-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:6:5"
+      "aligned_qac_word_ref_upstream": "54:6:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2336,7 +2341,8 @@
         "m-w-s054-a006-w005-01",
         "m-w-s054-a006-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:6:6"
+      "aligned_qac_word_ref_upstream": "54:6:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2350,7 +2356,8 @@
       "morpheme_ids": [
         "m-w-s054-a006-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:6:7"
+      "aligned_qac_word_ref_upstream": "54:6:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2364,7 +2371,8 @@
       "morpheme_ids": [
         "m-w-s054-a006-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:6:8"
+      "aligned_qac_word_ref_upstream": "54:6:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2378,7 +2386,8 @@
       "morpheme_ids": [
         "m-w-s054-a006-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:6:9"
+      "aligned_qac_word_ref_upstream": "54:6:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3555,7 +3564,951 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_6.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:6",
+      "window": [
+        "54:1",
+        "54:2",
+        "54:3",
+        "54:4",
+        "54:5",
+        "54:6",
+        "54:7",
+        "54:8",
+        "54:9",
+        "54:10",
+        "54:11",
+        "54:12",
+        "54:13",
+        "54:14",
+        "54:15",
+        "54:16",
+        "54:17"
+      ],
+      "ayah_count": 17,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1-withdrawal-summons-axis",
+            "confidence": "strong",
+            "focus_anchor": "تَوَلَّ عَنْهُمْ ... يَدْعُ ٱلدَّاعِ إِلَىٰ",
+            "mechanism": "The verse pivots from commanded disengagement to a dated counter-motion: the messenger leaves their relational field, while a caller later bends attention and movement toward a destination.",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away and breaking proximity supplies the first, outward vector."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling that inclines by speech supplies the opposed, destination-directed vector."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "A day as a descending severe event makes the pivot an event-phase rather than a calendar label."
+              }
+            ],
+            "changed_reading": {
+              "before": "Withdraw from them now; later a caller will issue a call.",
+              "after": "The ayah stages a reversal of orientation: present disengagement clears the field for a future summons that reorients its hearers."
+            }
+          },
+          {
+            "model_id": "B2-knowable-made-unrecognizable",
+            "confidence": "medium",
+            "focus_anchor": "إِلَىٰ شَىْءٍ نُّكُرٍ",
+            "mechanism": "The noun offers a thing that can be known and reported, but its adjective marks failed recognition and possible alteration into an unknown or unwelcome state. Indefiniteness does not erase the object; it foregrounds an encounter that defeats prior categories.",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The general knowable and reportable thing preserves an object of encounter."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B001",
+                "role": "The contrary of recognition makes the encounter an epistemic failure."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B004",
+                "role": "Change into an unknown or disliked state adds transformation, not mere missing information."
+              }
+            ],
+            "changed_reading": {
+              "before": "The caller summons them to an unspecified dreadful thing.",
+              "after": "The caller summons them into contact with something in principle knowable whose altered presentation defeats recognition."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "C1-approaching-settlement",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ب",
+              "ش ق ق",
+              "ء م ر",
+              "ق ر ر"
+            ],
+            "mechanism": "Approaching time, opened structure, and the settling of every matter turn the focus day into a terminal phase already advancing. The strange thing is encountered when an order that has split reaches fixation.",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The day as a severe occurrence is the focus phase being temporally sharpened."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B003",
+                "role": "The severe, difficult, strange affair supplies the focus phase's felt quality."
+              },
+              {
+                "source_ref": "54:1",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B002",
+                "role": "Temporal nearness and exhaustion of an interval move the focus day from remote date to arriving boundary."
+              },
+              {
+                "source_ref": "54:1",
+                "root": "ش ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000807",
+                "branch_id": "B001",
+                "role": "Splitting and opening supply the threshold image through which the terminal phase appears."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "Matter as state or affair gives the process an ordered object."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixation and settlement make the approaching process culminative rather than chaotic."
+              }
+            ],
+            "structural_cues": [
+              "54:1 announces approach and rupture; 54:3 closes with every matter settling; 54:6 dates the call by 'day'."
+            ],
+            "reader_inference": "The packet supplies approach, splitting, and settlement; I infer a threshold-to-fixation sequence culminating in the focus call. A live alternative is that these are parallel signs without a causal sequence.",
+            "changed_reading": {
+              "before": "The call belongs to an unspecified future day.",
+              "after": "The call is the operative threshold of an already approaching process in which ruptured order settles into an unavoidable affair."
+            }
+          },
+          {
+            "model_id": "C2-reciprocal-withdrawal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ء ي ي",
+              "ع ر ض"
+            ],
+            "mechanism": "Their response to a visible sign is to turn a side away; the focus command then turns the messenger away from them. The same relational break returns with reversed agent and object, making withdrawal a measured closure of refused attention.",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Deliberate turning away supplies the returned act, now assigned to the messenger."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Actual seeing establishes that their withdrawal follows perception rather than lack of access."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the visible object from which they turn."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Turning the side away supplies the earlier human act mirrored by the focus imperative."
+              }
+            ],
+            "structural_cues": [
+              "54:2 sequences seeing a sign before their turning away; 54:6 begins with فَ and reverses who withdraws from whom."
+            ],
+            "reader_inference": "The packet supplies two lexically distinct acts of turning away; I infer reciprocal reversal and closure from their sequence and exchanged roles. They may alternatively be independent descriptions of rejection and prophetic disengagement.",
+            "changed_reading": {
+              "before": "The messenger is simply told to stop attending to them.",
+              "after": "The messenger's withdrawal returns their sign-rejection to them, ending a relation they first broke despite seeing."
+            }
+          },
+          {
+            "model_id": "C3-warning-to-summons",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ز ج ر",
+              "ح ك م",
+              "ب ل غ",
+              "غ ن ي",
+              "ن ذ ر"
+            ],
+            "mechanism": "Reports have carried vocal restraint, wisdom has reached its limit, and warnings fail to suffice. The focus withdrawal therefore closes admonitory speech; the next voice is not another attempt to caution but an effective summons to encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal marks the boundary between two speech regimes."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The later call inclines hearers toward a destination rather than merely advising them."
+              },
+              {
+                "source_ref": "54:4",
+                "root": "ز ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000624",
+                "branch_id": "B001",
+                "role": "Vocal rebuke and restraint define the admonitory function that has already arrived."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Restraint for correction frames wisdom as attempted repair."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Reaching the limit presents that corrective communication as fully delivered."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Failure of sufficiency explains why further warning no longer changes the relation."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning meant to awaken caution names the speech act whose efficacy has failed."
+              }
+            ],
+            "structural_cues": [
+              "54:4-6 moves from restraining reports, to consummate wisdom, to warnings that do not avail, to withdrawal, and only then to the caller."
+            ],
+            "reader_inference": "The packet supplies completed warning and its insufficiency; I infer a functional regime change from persuasion to summons. A live alternative is that the future call remains itself another warning rather than execution.",
+            "changed_reading": {
+              "before": "The future caller continues the earlier warning activity.",
+              "after": "The ayah closes warning as failed persuasion and announces a qualitatively different voice whose call effects encounter."
+            }
+          },
+          {
+            "model_id": "C4-embodied-countermotion",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ر ج",
+              "ن ش ر",
+              "ه ط ع",
+              "د ع و",
+              "ي و م",
+              "ع س ر"
+            ],
+            "mechanism": "The next scene gives the summons a body: people exit confinement, spread, then hurry toward the caller. This turns the focus opposition between 'away from them' and 'toward' into a mass spatial reversal, with the call functioning as a kinetic attractor.",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "The messenger's outward motion establishes one pole of the counter-motion."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Speech that inclines toward something establishes the attracting pole."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Passage into the outside makes response to the call bodily and spatial."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "ن ش ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001503",
+                "branch_id": "B001",
+                "role": "Opening, spreading, and branching turn released bodies into a field of motion."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "ه ط ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001594",
+                "branch_id": "B003",
+                "role": "Rapid forward approach supplies the velocity and direction of compliance."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The repeated caller resolves the focus call as the destination of the crowd's approach."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The event-day repeats the focus dating and identifies the motion's phase."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity specify how the summoned encounter is experienced."
+              }
+            ],
+            "structural_cues": [
+              "54:6 has عَنْهُمْ then إِلَىٰ; 54:7-8 unfolds exit, dispersal, and rapid movement إِلَى ٱلدَّاعِ."
+            ],
+            "reader_inference": "The packet supplies the opposed prepositions and the following movement sequence; I infer that the call organizes a mass vector rather than only transmitting words. The live alternative is a plain chronological description with no designed counter-motion.",
+            "changed_reading": {
+              "before": "A caller verbally announces a dreadful destination.",
+              "after": "The caller becomes the organizing center of involuntary collective motion, reversing the verse's initial withdrawal."
+            }
+          },
+          {
+            "model_id": "C5-defeat-to-effective-call",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ز ج ر",
+              "د ع و",
+              "ر ب ب",
+              "غ ل ب",
+              "ن ص ر"
+            ],
+            "mechanism": "The earlier messenger is denied and rebuked; once described as overpowered, he calls his sovereign for redress. Against that pattern, the focus's doubled caller-form marks a transfer from blocked human address to a call backed by effective agency.",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The doubled verb and caller noun foreground calling as the mechanism whose efficacy is at issue."
+              },
+              {
+                "source_ref": "54:9",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Repeated attribution of falsehood supplies communicative blockage."
+              },
+              {
+                "source_ref": "54:9",
+                "root": "ز ج ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000624",
+                "branch_id": "B001",
+                "role": "Vocal rebuke shows the messenger's address answered by counter-speech and restraint."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "The messenger's call redirects speech toward the sovereign source of response."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereignty and mastery supply the agency to which the defeated call is transferred."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "غ ل ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001098",
+                "branch_id": "B001",
+                "role": "Overpowering force marks the point at which ordinary address has reached defeat."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B002",
+                "role": "Vindication of the wronged gives the redirected call an effective answer."
+              }
+            ],
+            "structural_cues": [
+              "54:9-10 sequences denial, rebuke, confessed defeat, and a call for redress; 54:6 intensifies call by pairing verb and agent noun."
+            ],
+            "reader_inference": "The packet supplies blocked address, an upward redirection of calling, and requested redress; I infer a relay from ineffective warning to sovereignly effective summons. It may instead be only a recurring call motif with no transfer of agency.",
+            "changed_reading": {
+              "before": "The identity of the future caller alone gives the call authority.",
+              "after": "The focus call carries the accumulated force of address transferred beyond defeated messengers and returned as an effective summons."
+            }
+          },
+          {
+            "model_id": "C6-convergent-channel",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ف ت ح",
+              "ب و ب",
+              "م و ه",
+              "ه م ر",
+              "ف ج ر",
+              "ل ق ي",
+              "ء م ر",
+              "ق د ر"
+            ],
+            "mechanism": "The flood sequence repeatedly opens boundaries, releases flow, and brings separate waters to a measured meeting for an affair. Read analogically, the focus caller opens a channel through which separated hearers converge toward the 'thing'; the summons is a routing event, not merely information.",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling that inclines toward a destination supplies the human-directional channel."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B003",
+                "role": "Being carried or compelled to an affair lets the destination function as an implemented outcome."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "Opening a closure and widening ingress supplies the release condition."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ب و ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000163",
+                "branch_id": "B001",
+                "role": "An entrance supplies the bounded route through which release proceeds."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B002",
+                "role": "Appearance and abundance of water supply the moving material."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ه م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001599",
+                "branch_id": "B001",
+                "role": "Pouring and downflow supply sustained movement after opening."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide rupture and eruption add a second released source."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B004",
+                "role": "Two opposed streams arriving together supply convergence."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "Affair or state supplies the non-material outcome for which convergence occurs."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A measured limit makes convergence directed and bounded rather than accidental."
+              }
+            ],
+            "structural_cues": [
+              "54:11-12 sequences opening, pouring, eruption, meeting, and a measured affair; 54:6 directs a call إِلَىٰ a thing."
+            ],
+            "reader_inference": "The packet supplies a concrete release-and-convergence mechanism; I map its directional logic, not its water substance, onto the focus syntax. The materially live alternative is that the flood episode offers no analogy for the caller.",
+            "changed_reading": {
+              "before": "The call names a destination for independent respondents.",
+              "after": "Exploratorily, the call opens and routes a convergence whose destination is an already measured affair."
+            }
+          },
+          {
+            "model_id": "C7-disclosure-without-recognition",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ر ك",
+              "ء ي ي",
+              "ذ ك ر",
+              "ي س ر",
+              "ق ر ء"
+            ],
+            "mechanism": "A manifest sign is left as a surviving trace and recitation is made easy for recollection. The focus's unrecognizable thing is therefore not hidden by lack of disclosure; it is the endpoint of a failed capacity or refusal to recognize what signs and reminders kept available.",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "A knowable and reportable thing keeps the destination available to cognition."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B001",
+                "role": "Non-recognition locates the crisis in acknowledgment rather than simple invisibility."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B004",
+                "role": "Alteration into an unwelcome state explains why disclosed reality is encountered as alien."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "Leaving an enduring trace supplies persistence of evidence."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign defines that trace as publicly legible."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that causes recollection states the trace's intended cognitive function."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ease after difficulty removes inaccessibility as the main explanation for non-recognition."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies the repeatable medium of disclosure."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Restoring something from forgetting supplies the recognition that remains possible but unrealized."
+              }
+            ],
+            "structural_cues": [
+              "54:15 asks about remembering after a sign was left; 54:17 repeats the invitation to remember after declaring the recitation easy."
+            ],
+            "reader_inference": "The packet supplies preserved sign, accessible recitation, and repeated recollection; I infer that focus non-recognition indicts the receiver rather than the availability of evidence. The adjective can still denote objective severity independent of any epistemic failure.",
+            "changed_reading": {
+              "before": "The destination is alien because it was unspecified or undisclosed.",
+              "after": "The destination is encountered as alien despite sustained disclosure, exposing a breakdown of recognition rather than an absence of signs."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1-call-as-propulsion",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the split mapped root د ع ع beneath the surface root د ع و and joins speech to severe pushing. It remains anchored in the doubled focus call, the following rush toward the caller, and the later image of forceful driving; downstream prose should say the summons acts 'as if' propulsion, not claim that the focus verb literally means shove.",
+            "focus_anchor": "يَدْعُ ٱلدَّاعِ إِلَىٰ شَىْءٍ",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000477",
+                "branch_id": "B001",
+                "role": "Severe pushing supplies an exploratory force-image beneath the doubled call."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B003",
+                "role": "Being carried or compelled to an affair gives the force a focus-anchored destination."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "ه ط ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001594",
+                "branch_id": "B003",
+                "role": "Rapid forward approach makes the summons visibly effective as motion."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B001",
+                "role": "Forceful driving supplies a contained material analogy for effective propulsion."
+              }
+            ],
+            "changed_reading": {
+              "before": "The caller communicates and the hearers subsequently move.",
+              "after": "Exploratorily, the call itself operates like a driving force that compels movement into the appointed affair."
+            }
+          },
+          {
+            "outlier_id": "O2-thing-as-reconfigured-collective",
+            "confidence": "exploratory",
+            "containment": "This is surprising because singular 'thing' is read through the following collective body's changed surface rather than as a detached event. It remains anchored in the focus branches of disfigured form and transformation into the unrecognized, then gains visible mechanism from grave-exit, exposure, and spreading; downstream prose should present it as a possible spectacle or process, not identify the grammatical referent with certainty.",
+            "focus_anchor": "شَىْءٍ نُّكُرٍ",
+            "activation_trace": [
+              {
+                "source_ref": "54:6",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B004",
+                "role": "Altered or disfigured form lets the generic thing denote a startling presented configuration."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B004",
+                "role": "Change into an unknown or unwelcome state makes reconfiguration the cause of non-recognition."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "ج د ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000226",
+                "branch_id": "B001",
+                "role": "The grave supplies the prior enclosure from which the collective form emerges."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B008",
+                "role": "A form departing from its familiar type sharpens the exploratory transformation mechanism."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "ج ر د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000234",
+                "branch_id": "B001",
+                "role": "Exposure by stripping a covering makes the emergent scene newly visible."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "ن ش ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001503",
+                "branch_id": "B001",
+                "role": "Opening and branching spread the reconfigured collective across the visual field."
+              }
+            ],
+            "changed_reading": {
+              "before": "The 'unrecognized thing' is an external event awaiting the crowd.",
+              "after": "Exploratorily, it can include the crowd's own reconfigured emergence as an alien spectacle and process."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The messenger's withdrawal mirrors and returns the audience's earlier sign-rejection.",
+            "Failed warning gives way to an effective summons that organizes bodily counter-motion toward the caller.",
+            "The unknown thing becomes a crisis of recognition despite preserved signs and accessible reminder.",
+            "The Noah sequence supports a contained model of calling transferred from defeated address to effective agency."
+          ],
+          "what_was_special": "The focus ayah is a hinge of vectors and speech regimes: away from them becomes movement toward the caller, warning becomes summons, and a knowable thing becomes unrecognizable at encounter. The packet's split root inventory also preserves a cautious propulsion reading that a conservative synthesis would likely lose.",
+          "remaining_uncertainties": [
+            "Whether شَىْءٍ نُّكُرٍ points primarily to an object, an event, a condition, or the crowd's own transformed spectacle remains open.",
+            "The د ع ع propulsion activation is branch-distant and should remain analogical.",
+            "The flood-channel model depends on transferring directional structure across domains rather than on a direct lexical equation."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A reversal of orientation links withdrawal to compulsory approach.** `و ل ي` B007 is turning away and withdrawal, while `د ع و` B001 is calling to draw near. The imperative withdrawal now is followed by a day when caller and calling are doubled. The packet supplies the opposed motions; I infer that refused proximity in the present is reversed into unavoidable response later. The ayah reads as a spatial-temporal hinge: leave them, until they must move toward the call.\n\n2. **The called object remains both unrecognized and severe.** `ن ك ر` B001 is the contrary of recognition, B003 the severe and unfamiliar thing, and B006 the condemned thing that prompts correction. The indefinite `شَىْءٍ` (`ش ي ء` B001, knowable thing) is paradoxically qualified as not recognized. I infer that the call reveals a reality whose knowability does not make it familiar or welcome. The object can remain strange, terrible, and morally repudiating without being prematurely specified.",
@@ -4605,18 +5558,23 @@
   "root_lexicon": {
     "root_001684": {
       "root_ar": "و ل ي",
+      "qac_roots_ar": [
+        "و ل ي"
+      ],
       "root_id": "root_001684",
-      "root_mapping": {
-        "root_id": "root_001684",
-        "root_norm": "و ل ي",
-        "source_root_norm": "و ل ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 190,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ل ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 190
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5f44badba71b06463e3241f3ebe0ce1f27c7f9400d6440ac123cf854d709521f",
         "branches": [
@@ -6532,18 +7490,23 @@
     },
     "root_001700": {
       "root_ar": "ي و م",
+      "qac_roots_ar": [
+        "ي و م"
+      ],
       "root_id": "root_001700",
-      "root_mapping": {
-        "root_id": "root_001700",
-        "root_norm": "ي و م",
-        "source_root_norm": "ي و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 414,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 414
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e76145ff9db215c969fb749d8f4011fa704b398c30ebc90862161f0e4604a786",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7862,18 +8825,23 @@
     },
     "root_000478": {
       "root_ar": "د ع و",
+      "qac_roots_ar": [
+        "د ع و"
+      ],
       "root_id": "root_000478",
-      "root_mapping": {
-        "root_id": "root_000478",
-        "root_norm": "د ع و",
-        "source_root_norm": "د ع و",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 77,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "د ع و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 77
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "2f2b64a90c6784e5a1bf7268adffeeeeac1a00e0f5927b7123d4d2201c418600",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10485,20 +11453,2472 @@
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000478.json"
     },
+    "root_000477": {
+      "root_ar": "د ع و",
+      "qac_roots_ar": [
+        "د ع و"
+      ],
+      "root_id": "root_000477",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "د ع و",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 22
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "3f0551a25cf33ef33cf545abb4b090440adeaa43992a0c49b41bbc56cd9154b7",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000477",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000477/B001",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Yetkili kaynak ifadesi itme eyleminde birleşir; ancak sertlik, kabalık ve azarlama niteliği bütün aktarımlarda aynı ölçüde kurucu değildir. Bu yüzden dal, sıradan itme çekirdeğini koruyup sert ve kaba gerçekleşmeleri belirgin kullanımlar olarak ayırmalıdır.",
+              "boundary_note": "Çekirdek fiziksel itmedir; sertlik ve azarlama bazı kullanımları daraltır, doldurma veya seslenme anlamları bu dala girmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım çıplak itme çekirdeğiyle yapıya bağlı sertçe sürme ve azarlama örneklerini ayırır; özel yapılar bütün dalın anlamı sayılmaz."
+            },
+            "concept_map": {
+              "definition": "Birini ya da bir şeyi itmek; belirli kullanımlarda bunu sertçe, kaba davranarak veya azarlayıcı biçimde yapmaktır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir varlığı bulunduğu yerden fiziksel güçle itme eylemidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Eylem sertlik, kabalık ve azarlama eşliğinde gerçekleşebilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Bazı yapılarda savunmasız birini itip azarlamayı veya bir yere zorla sürmeyi anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Aktarımlar itme çekirdeğinde birleşir; bir bölümü eylemin sert, kaba ve azarlayıcı niteliğini ayrıca öne çıkarır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "itme",
+              "applicability": "Dalın bütün kullanımlarında bulunan temel fiziksel yer değiştirme eylemi için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Fiziksel güçle yerinden oynatma çekirdeğini tam olarak korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "sertçe itmek",
+                "usage_role": "contextual",
+                "applicability": "Sertliğin veya kaba davranışın açıkça öne çıktığı bağlamlarda doğal karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hem itme eylemini hem de eylemin sert gerçekleşmesini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "zorla sürmek",
+                "usage_role": "contextual",
+                "applicability": "Birinin belirli bir yöne veya yere şiddetle sevk edildiği yapılarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Zorlayıcı güç ve yönlü hareket özelliklerini korur.",
+                  "loses": "Yön belirtmeyen yalın itme kullanımlarını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sert ve kaba itme"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sertçe itmek"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yetimi itip azarlamak"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ateşe doğru zorla sürmek"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "sürükleme",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Zor kullanılarak yer değiştirme düşüncesini kısmen korur.",
+                  "loses": "Tek hamlelik itme ve azarlayıcı sertlik ayrımını kaybeder.",
+                  "adds": "Temasın sürmesi ve nesnenin çekilmesi anlamını ekler.",
+                  "collision": "Türkçede çekerek ilerletme eylemiyle karışır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000474/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal, kaba davranış ve azarlama eşliğindeki itmeye kadar uzanır.",
+                "neighbor_only": "Komşu dal zorlama, delme ve bir şeyi başka bir şeye güçle sokma kapsamını da taşır.",
+                "gloss": "sert itme ile zorlayıcı bastırma",
+                "shared_zone": "İki dal da güçlü ve sert bir fiziksel itme eylemini kapsar.",
+                "distinction": "Odak dalın sınırı itme ve onun kaba ya da azarlayıcı gerçekleşmesidir; komşu dal ise baskı kurma, delme ve güçle içeri sokma gibi daha geniş zorlayıcı işlemleri de içerir."
+              },
+              {
+                "neighbor_ref": "root_000622/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal sertlik ve kaba azarlama niteliğini belirginleştirebilir.",
+                "neighbor_only": "Komşu dal itmenin yanında çarpma, engelleme ve kendini savunma yönlerini kapsar.",
+                "gloss": "sert itme ile itip engelleme",
+                "shared_zone": "Her iki dalda da bir varlığı güç uygulayarak geri veya yana itme bulunur.",
+                "distinction": "Odak dal eylemin sert ve kaba biçimine yoğunlaşır; komşu dalın ayırıcı yönü bir şeyi uzak tutma, engelleme veya karşı koymadır."
+              }
+            ],
+            "neighbor_coverage_note": "Sağlanan bütün adaylar değerlendirildi; itmenin güç ve sınır farklarını en açık gösteren iki komşu seçildi, yalnızca aynı olay alanını paylaşan uzak adaylar elendi.",
+            "branch_image_ar": "الدَّعّ دفع شديد",
+            "what_is_ar": "الدفع العنيف والجفوة والانتهار والدفع إلى الشيء أو عن الحق",
+            "what_is_not_ar": "ليس تحريك المكيال ولا النداء الصوتي ولا عدو الالتواء",
+            "source_phrase_ar": "الدَّعّ الدفع (maqayis;tahdhib)؛ دَعَعته أدَعُّه دَعًّا أي دفعته (sihah)؛ دفع في جفوة (ayn)؛ الدفع الشديد (mufradat)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000477/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Yetkili kaynak ifadesi, bir ölçek kabını veya başka bir taşıyıcıyı hareket ettirerek içindekini yerleştirme ve kabı dolu ya da sıkışık duruma getirme sürecini açıkça destekler. Sonuç bildiren doldurma kullanımları aynı işlemin doğal uzantısıdır.",
+              "boundary_note": "Ayırıcı özellik yalnızca doluluk değil, kabı hareket ettirerek kapasitesini kullanma veya içeriği sıkıştırma sürecidir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Çıplak doldurma sonucu ile kap, büyük çanak ve vadiye bağlı gerçekleşmeler ayrı tutulur; yapıya bağlı örnekler genel bir kök anlamına genişletilmez."
+            },
+            "concept_map": {
+              "definition": "Bir kabı hareket ettirerek içindekilerin yerleşmesini ve kabın dolmasını ya da sıkışık hale gelmesini sağlamak; uzantı olarak bir şeyi bütünüyle doldurmaktır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kabın hareket ettirilmesi, içeriğin yerleşmesini ve kullanılabilir hacmin dolmasını sağlar.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "İşlemden doğan tam doluluk veya sıkışık doluluk sonucu ayrıca adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "example",
+                  "statement": "Büyük bir çanağın ya da bir vadinin tamamen dolması sonuç kullanımına örnektir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Aktarımlar kabı hareket ettirerek içeriği yerleştirme ile doluluk sonucu arasında birleşir; örnekler ölçek kabından çanak ve vadiye uzanır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "sallayarak doldurma",
+              "applicability": "Kabın hareketiyle içeriğin yerleşip kapasitenin dolduğu temel işlem için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Hem hareket ettirme işlemini hem de hedeflenen doluluk sonucunu korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "ağzına kadar doldurmak",
+                "usage_role": "contextual",
+                "applicability": "Hareket biçiminden çok ortaya çıkan tam doluluğun anlatıldığı bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kabın tam dolu hale gelmesi sonucunu korur.",
+                  "loses": "İçeriği yerleştiren sallama veya hareket ettirme işlemini belirtmez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kabı sallayarak doldurma"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şeyi doldurmak veya hareket ettirerek sıkıştırmak"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ağzına kadar dolu büyük çanak"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "selin vadiyi doldurması"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "doldurma",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kabın veya yerin dolu hale gelmesi sonucunu korur.",
+                  "loses": "İçeriğin hareketle yerleştirilmesi ve sıkıştırılması özelliğini kaybeder.",
+                  "adds": null,
+                  "collision": null
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000905/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kabı hareket ettirerek içeriğin yerleşmesini ve sıkışmasını içerir.",
+                "neighbor_only": "Komşu dal, özel bir yerleştirme hareketi gerektirmeden genel kap doldurmayı anlatır.",
+                "gloss": "sallayarak doldurma ile genel doldurma",
+                "shared_zone": "İki dalın ortak sonucu bir kabın kullanılabilir hacminin dolmasıdır.",
+                "distinction": "Odak dalda kabın hareket ettirilmesi kurucu bir süreçtir; komşu dalda ise doluluk sonucu yeterlidir ve bu işlem biçimi zorunlu değildir."
+              },
+              {
+                "neighbor_ref": "root_000590/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal doluluğu meydana getiren hareketli işlemi de adlandırır.",
+                "neighbor_only": "Komşu dal ağır ve sabit duran dolu büyük çanağın durumunu betimler.",
+                "gloss": "doldurma işlemi ile dolu çanak",
+                "shared_zone": "Her iki dal büyük bir kabın tam dolu oluşuyla ilişkilidir.",
+                "distinction": "Odak dal süreçten sonuca gider; komşu dal ise işlemi değil, doluluğun ağırlığıyla sabit duran kabın durumunu öne çıkarır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı; işlem biçimini genel doluluktan ve dolu kabın durumundan ayıran iki komşu yayımlandı, yalnızca aynı doluluk alanındaki tekrarlar dışarıda bırakıldı.",
+            "branch_image_ar": "الدعدعة تحريك لامتلاء",
+            "what_is_ar": "تحريك المكيال أو الوعاء أو الجوالق حتى يستوعب الشيء أو يكتنز وامتلاء الجفنة أو الوادي",
+            "what_is_not_ar": "ليس الدفع العنيف ولا النداء ولا العدو البطيء",
+            "source_phrase_ar": "الدعدعة تحريك المكيال ليستوعب الشيء (maqayis)؛ دعدعت الشيء ملأته وجفنة مدعدعة (sihah)؛ دعدع مكيالا أو جوالقا حتى يكتنز (tahdhib)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000477/B003",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Yetkili kaynak ifadesi çobanın küçükbaş hayvanlara yönelttiği geleneksel sesi hem çağırma hem de azarlayıp yönlendirme işleviyle verir. Bazı aktarımlar koyunu genel olarak anarken bazıları özellikle keçiyi sınırlar; tanım bu kapsam farkını açık tutmalıdır.",
+              "boundary_note": "Bu dal sıradan yüksek ses değil, çobanın özellikle keçi veya küçükbaş sürüyü çağırmak ya da yönlendirmek için kullandığı sestir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Seslenme çekirdeği, keçiye yönelen yapı ve geleneksel çağrı biçiminden ayrılır; hayvana bağlı kullanımlar genel ses çıkarma anlamına taşınmaz."
+            },
+            "concept_map": {
+              "definition": "Çobanın küçükbaş hayvanları, özellikle keçileri, çağırmak veya azarlayarak yönlendirmek için geleneksel bir sesleniş kullanmasıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Sesleniş, sürüyü çağırma veya davranışını yönlendirme amacı taşır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Kullanım özellikle keçilere yönelir, ancak daha geniş küçükbaş sürü aktarımı da vardır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Aynı geleneksel ses hem çağırma hem de azarlayıp sevk etme işlevi görebilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Aktarımlar çoban sesinin sürüyü çağırma ve azarlayarak yönlendirme işlevinde birleşir; hayvan kapsamı genel küçükbaştan özellikle keçiye kadar değişir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "hayvanı seslenerek yönlendirme",
+              "applicability": "Çobanın küçükbaş hayvanı çağırma veya azarlama amacıyla ses kullandığı bütün dal için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Seslenme aracını, hayvan muhatabı ve yönlendirme amacını birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "keçileri çağırmak",
+                "usage_role": "contextual",
+                "applicability": "Seslenişin özellikle keçileri bir araya getirme amacı taşıdığı bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Keçi muhatabını ve çağırma işlevini açık biçimde korur.",
+                  "loses": "Azarlama işlevini ve daha geniş küçükbaş kapsamını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "sürüyü azarlayarak yönlendirmek",
+                "usage_role": "contextual",
+                "applicability": "Çağrının sürüyü durdurma, sevk etme veya davranışını düzeltme işlevinde uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Sürü muhatabını, azarlayıcı tonu ve yönlendirme işlevini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "küçükbaş hayvanı seslenerek çağırma veya azarlama"
+              },
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "keçilere seslenip onları yönlendirmek"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çobanın keçileri yönlendirmek için çıkardığı geleneksel çağrı"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "bağırma",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Duyulabilir ve güçlü bir ses çıkarma özelliğini korur.",
+                  "loses": "Çoban, sürü ve geleneksel yönlendirme işlevlerini kaybeder.",
+                  "adds": "Herhangi bir amaçla yüksek ses çıkarmayı kapsama alır.",
+                  "collision": "Genel öfke veya yardım çağrısı anlamlarıyla kolayca karışır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001523/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal özellikle keçiye yönelen geleneksel çağrı biçimini belirginleştirir.",
+                "neighbor_only": "Komşu dal çobanın koyun veya küçükbaş sürüye yönelttiği sesi daha genel adlandırır.",
+                "gloss": "keçi çağrısı ile genel çoban sesi",
+                "shared_zone": "İki dal da çobanın sürüyü çağırmak ve azarlamak için çıkardığı sesi kapsar.",
+                "distinction": "İşlevler büyük ölçüde örtüşür; odak dal geleneksel söz kalıbı ve keçi muhatabıyla daralırken komşu dal çoban sesini daha genel çerçevede verir."
+              },
+              {
+                "neighbor_ref": "root_001612/B007",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal küçükbaş hayvanlara, özellikle keçilere yönelir.",
+                "neighbor_only": "Komşu dal deveye yöneltilen farklı bir sürücü ünlemini adlandırır.",
+                "gloss": "keçi çağrısı ile deve ünlemi",
+                "shared_zone": "Her ikisi de hayvanı sesle yönlendiren geleneksel çoban kullanımlarıdır.",
+                "distinction": "Ortak alan hayvan sevkidir; muhatap türü ve kullanılan geleneksel ses farklı olduğundan ifadeler birbirinin yerine geçmez."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar incelendi; en yakın genel çoban sesi ile farklı hayvana yönelen paralel ünlem seçildi, salt yüksek ses veya uzak hayvan çağrıları tekrar sayıldı.",
+            "branch_image_ar": "الدعدعة نداء وزجر",
+            "what_is_ar": "نداء المعز أو الغنم وزجرها بقول داع داع أو دع دع",
+            "what_is_not_ar": "ليس دعاء العاثر ولا الدفع الشديد ولا تحريك المكيال",
+            "source_phrase_ar": "الدعدعة زجر الغنم (maqayis)؛ للمعز خاصة دعدعت بها إذا دعوتها (sihah)؛ يقول الراعي للمعزى داع داع وهو زجر لها (tahdhib)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000477/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Yetkili kaynak ifadesi, tökezleyen kişiye yöneltilen ikili bir sözün ayağa kalkma ve toparlanma işlevini açıkça verir. Bu, genel bir itme ya da genel bir teselli değil, belirli durumda kullanılan sözlü bir teşviktir.",
+              "boundary_note": "Anlam tökezleyen muhataba söylenen kalıpla sınırlıdır; genel ayağa kalkma, yardım etme veya teselli etme anlamına genişletilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "non_bare",
+              "note": "Dal yalnızca tökezleyen kişiye yöneltilen özel sözlü kalıbı açıklar; bundan çıplak bir kök anlamı çıkarılmaz."
+            },
+            "concept_map": {
+              "definition": "Tökezleyen birine ayağa kalkmasını ve toparlanmasını söyleyen kalıplaşmış bir sesleniştir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Söz doğrudan tökezleyen kişiye yöneltilir ve yeniden ayağa kalkmasını teşvik eder.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Ayağa kalkma buyruğuna toparlanma teşviki eşlik eder.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Aktarımlar sözün tökezleyene yönelmesinde ve ona ayağa kalkıp toparlanmasını söylemesinde birleşir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "tökezleyeni ayağa kalkmaya çağırma",
+              "applicability": "Belirli sözün tökezleyen kişiye yöneltilen teşvik işlevini eksiksiz karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Muhatabın tökezlemesini ve ayağa kalkmaya yönelik sözlü teşviki korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "Kalk, toparlan!",
+                "usage_role": "contextual",
+                "applicability": "Tökezleyene doğrudan seslenilen ve eylem çağrısının öne çıktığı durumda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Ayağa kalkma buyruğunu ve toparlanma teşvikini doğal Türkçeyle korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "tökezleyene söylenen 'kalk, toparlan' sözü"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "geçmiş olsun",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Muhatabın iyiliğini isteme ve esenlik dileme yönünü korur.",
+                  "loses": "Ayağa kalkma ve hemen toparlanma çağrısını kaybeder.",
+                  "adds": "Hastalık veya yaralanma sonrasında kullanılan genel dileği ekler.",
+                  "collision": "Türkçedeki hastalık ve kaza sonrası nezaket kalıbıyla karışır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000367/B004",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal tökezleyene ayağa kalkıp toparlanmasını söyleyen doğrudan bir teşviktir.",
+                "neighbor_only": "Komşu dal tökezleme yanında başka bir sıkıntı veya felaket durumunda da esenlik dileği olabilir.",
+                "gloss": "ayağa kalkma teşviki ile esenlik dileği",
+                "shared_zone": "Her iki söz de tökezleyen kişiye yönelip onun iyi olmasını amaçlayabilir.",
+                "distinction": "Odak dalın kurucu yönü ayağa kalkma ve toparlanma çağrısıdır; komşu dal daha geniş bir durumda koruyucu esenlik dileği olarak kullanılabilir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; aynı tökezleme durumunda kullanılan esenlik sözü tek yakın karşılaştırma olarak seçildi, yükselme ve iyileşme temalı uzak adaylar yayımlanmadı.",
+            "branch_image_ar": "دع دع للعاثر",
+            "what_is_ar": "قول دع دع للعاثر بمعنى قم وانتعش أو رفعك الله",
+            "what_is_not_ar": "ليس زجر الغنم ولا ملء المكيال ولا مطلق الدفع إلا من جهة الأصل عند بعض المصادر",
+            "source_phrase_ar": "قولك للعاثر دع دع (maqayis)؛ أن تقول للعاثر دع دع أي قم فانتعش (sihah;tahdhib)؛ أصله أن يقال للعاثر دع دع (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000477/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Yetkili kaynak ifadesi koşuyu iki eşzamanlı özellikle sınırlar: hareket doğrusal değil kıvrımlı veya dolambaçlıdır ve hızlı değil yavaştır. Dalın ayırıcı kimliği yalnızca koşma değil, bu özel hareket biçimidir.",
+              "boundary_note": "Yavaşlık ve kıvrımlı ilerleyiş birlikte kurucudur; sıradan koşu, ağır yürüyüş veya yorgunluktan sendeleme bu dala girmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım çıplak dalın kıvrımlı ve yavaş koşma anlamıyla sınırlıdır; komşu hareket biçimleri veya özel yapılar eklenmez."
+            },
+            "concept_map": {
+              "definition": "Düz bir çizgide ilerlemeyip kıvrılarak veya dolambaçlı biçimde, görece yavaş koşmaktır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Hareket yürüyüş değil koşudur ve ilerleme görece yavaştır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "core",
+                  "statement": "Koşunun yolu ya da beden hareketi kıvrımlı ve dolambaçlıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Aktarımlar, koşunun kıvrımlı ilerleyişini ve yavaş temposunu birlikte kurucu özellikler olarak verir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kıvrılarak yavaş koşma",
+              "applicability": "Dalın hem hareket türünü hem hızını hem de izlediği biçimi birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Koşmayı, yavaşlığı ve kıvrımlı ilerleyişi eksiksiz korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "dolambaçlı biçimde koşmak",
+                "usage_role": "contextual",
+                "applicability": "İzlenen yolun veya beden hareketinin kıvrımlı oluşu bağlamda zaten belirginken kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Koşma eylemini ve düz olmayan ilerleyişi korur.",
+                  "loses": "Koşunun görece yavaş temposunu açıkça belirtmez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kıvrıla kıvrıla yavaş koşma"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "ağır yürüyüş",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Yavaş ilerleme özelliğini kısmen korur.",
+                  "loses": "Koşma ve kıvrımlı hareket özelliklerini bütünüyle kaybeder.",
+                  "adds": "Koşudan farklı olarak yürüme hareketini ekler.",
+                  "collision": "Yavaş ve ölçülü yürüme anlamıyla karışır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000598/B007",
+                "relation_type": "polarity_pair",
+                "boundary_match": "opposed",
+                "focus_only": "Odak dal yavaş ve kıvrımlı koşmayı bildirir.",
+                "neighbor_only": "Komşu dal çok hızlı, güçlü ve doğrultusunda süren koşuyu bildirir.",
+                "gloss": "yavaş kıvrımlı koşu ile hızlı koşu",
+                "shared_zone": "İki dal da koşma biçimini hız ve ilerleyiş özellikleriyle tanımlar.",
+                "distinction": "Ortak eksen koşunun hızı ve seyir biçimidir; odak dal yavaş ve dolambaçlı, komşu dal hızlı ve güçlü ilerleyişi öne çıkarır."
+              },
+              {
+                "neighbor_ref": "root_001615/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kıvrımlı bir koşma biçimidir.",
+                "neighbor_only": "Komşu dal ağır, temkinli ve ölçülü yürümeyi anlatır.",
+                "gloss": "yavaş koşu ile ağır yürüyüş",
+                "shared_zone": "Her iki dal yavaş ilerleme izlenimi verir.",
+                "distinction": "Hız benzerliği yanıltıcıdır: odak dal yine koşudur ve kıvrımlıdır; komşu dal ise koşma içermeyen temkinli yürüyüştür."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; hız eksenindeki karşıt koşu ile yavaş yürüyüşe benzeyen komşu seçildi, yorgunluktan düşme ve sıradan hızlanma adayları sınırı daha az açıklıyordu.",
+            "branch_image_ar": "الدعدعة عدو ملتف بطيء",
+            "what_is_ar": "العدو أو السعي الذي فيه التواء وبطء",
+            "what_is_not_ar": "ليس الدفع ولا ملء الوعاء ولا النداء الصوتي",
+            "source_phrase_ar": "الدعدعة عدو في التواء (maqayis)؛ عدا عدوا فيه بطء والتواء (sihah)؛ عدو في التواء وبطء (tahdhib)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000477/B006",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Yetkili kaynak ifadesi sözcüğü kısa boylu adam için açıklar, fakat biçimin doğruluğunu koşullu verir ve başka bir biçimden ses değişimiyle gelmiş olabileceğini belirtir. Anlam korunabilir, ancak bağımsız ve üretken bir kök anlamı olduğu varsayılamaz.",
+              "boundary_note": "Dal kısa boylu erkek kişiyi adlandırır; biçimin kökeni ve bağımsızlığı belirsiz olduğu için genel kısalık anlamına genişletilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "unresolved",
+              "note": "Kabul edilmiş sözcük birimi bulunmadığından dalın çıplak veya yapıya bağlı olduğu varsayılmaz; tanım yalnızca aktarılan kişi niteliğini kaydeder."
+            },
+            "concept_map": {
+              "definition": "Kısa boylu bir erkeği niteleyen, biçimsel doğruluğu ve başka bir sözcükten ses değişimiyle gelip gelmediği belirsiz bir adlandırmadır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Adlandırmanın gönderimi kısa boylu erkek kişidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Biçimin başka bir kısa-boy adlandırmasından ses değişimiyle gelmiş olması mümkündür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Aktarımlar kısa boylu erkek anlamını desteklerken biçimin bağımsızlığı konusunda ihtiyat kaydı taşır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kısa boylu adam",
+              "applicability": "Belirsiz köken kaydını anlamın içine katmadan aktarılan kişi niteliğini karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Erkek kişi gönderimini ve kısa boy niteliğini tam olarak korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kısa boylu erkek",
+                "usage_role": "explanatory",
+                "applicability": "Nadir adlandırmanın açıklayıcı ve doğal Türkçe karşılığı gerektiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Kişinin cinsiyetini ve boyca kısa oluşunu doğrudan korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [],
+            "excluded_glosses": [
+              {
+                "text": "bodur",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Boyca kısa olma niteliğini korur.",
+                  "loses": null,
+                  "adds": "İnsan dışındaki bitki ve nesnelere, ayrıca tıknazlığa uzanan kapsam ekler.",
+                  "collision": "Türkçede kısa boy yanında gövdece sıkı veya gelişmemiş olma çağrışımı taşır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001231/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kısa boylu erkek için özel ve kökeni belirsiz bir adlandırmadır.",
+                "neighbor_only": "Komşu dal kişi ve cisimlerde kısalığı genel bir nitelik olarak kapsar.",
+                "gloss": "özel kısa-adam adı ile genel kısalık",
+                "shared_zone": "İki dal da bir insanın boyca kısa oluşunu ifade edebilir.",
+                "distinction": "Odak dalın gönderimi erkek kişiyle ve belirli bir adlandırmayla sınırlıdır; komşu dal ise kısalık niteliğini daha geniş varlık sınıflarında anlatır."
+              },
+              {
+                "neighbor_ref": "root_000080/B006",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal yalnızca kısa boylu erkek gönderimini verir.",
+                "neighbor_only": "Komşu dal kısa olmanın yanında bedenin toplu ve yaratılışça kısalmış görünmesini içerir.",
+                "gloss": "kısa adam ile kısa ve toplu yapı",
+                "shared_zone": "Her iki adlandırma kısa boylu bir erkeğe uygulanabilir.",
+                "distinction": "Odak dal için kısa boy yeterlidir; komşu dalın sınırında toplu beden yapısı ve boyun kesilmiş gibi oluşuna ilişkin ek bir tasarım vardır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar incelendi; genel kısalık ile kısa ve toplu beden adları sınırı en iyi açıkladı, uzunluk, incelik ve başka beden özellikleri yalnızca aynı betimleme alanındaydı.",
+            "branch_image_ar": "الدعداع قصر الرجل",
+            "what_is_ar": "الرجل القصير المسمى دعداعا",
+            "what_is_not_ar": "ليس عدو الدعداع ولا الدعدعة في الوعاء",
+            "source_phrase_ar": "دعداع فإن صح فهو من الإبدال من دحداح (maqayis)؛ الدعداع والدحداح الرجل القصير (tahdhib)",
+            "sources": [
+              "MQ",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000477/B007",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Yetkili kaynak ifadesi iki yakın görünümü birlikte aktarır: iki hurma ağacı arasındaki açıklık ve seyrek duran hurma ağaçları. Ayrıca sözcüğün ilk ünsüzünün başka bir biçimde aktarılmış olabileceği belirtilir; bu nedenle dal hem yerleşim anlamını hem yazım belirsizliğini korumalıdır.",
+              "boundary_note": "Dal hurmaların seyrekliği veya iki hurma arasındaki açıklıkla sınırlıdır; küçük hurma, toplu hurmalık ya da genel ağaçlık anlamına gelmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "unresolved",
+              "note": "Kabul edilmiş sözcük birimi bulunmadığından çıplaklık varsayılmaz; yalnızca seyrek hurmalar ve aralarındaki açıklık aktarılır."
+            },
+            "concept_map": {
+              "definition": "Seyrek duran hurma ağaçlarını veya iki hurma ağacı arasında kalan açıklığı anlatan, ilk ünsüzü konusunda aktarım ayrılığı bulunan bir adlandırmadır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Hurma ağaçları bitişik bir topluluk değil, aralıklı ve seyrek durumdadır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Adlandırma iki hurma ağacı arasında kalan boşluğa da uygulanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "source_variant",
+                  "statement": "Sözcüğün ilk ünsüzü başka bir sesle aktarılmış bir biçime ait olabilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tek aktarım seyrek hurmalar ile iki hurma arasındaki açıklığı aynı adlandırmada birleştirir ve biçim için bir ses varyantı kaydeder.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Seyrek hurmalar, aralarındaki açıklık ve olası ses varyantı bu tek tanıklıkta birlikte korunur."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "iki hurma arasındaki açıklık veya seyrek hurmalar",
+              "applicability": "Dalın hem aralık hem de aralıklı ağaç topluluğu görünümünü birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Hurma türünü, seyrek yerleşimi ve iki ağaç arasındaki açıklığı korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "seyrek hurma ağaçları",
+                "usage_role": "contextual",
+                "applicability": "Adlandırma tek bir aralıktan çok dağınık duran ağaç topluluğunu gösterdiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Hurma ağaçlarının aralıklı ve dağınık oluşunu korur.",
+                  "loses": "İki belirli hurma arasındaki açıklık kullanımını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [],
+            "excluded_glosses": [
+              {
+                "text": "hurmalık",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Birden çok hurma ağacının bulunduğu alanı ifade eder.",
+                  "loses": "Ağaçların seyrekliği ve iki ağaç arasındaki açıklık özelliklerini belirtmez.",
+                  "adds": "Sık veya düzenli dikilmiş her türlü hurma bahçesini kapsar.",
+                  "collision": "Toplu ve düzenli hurma bahçesi anlamıyla karışır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000891/B005",
+                "relation_type": "polarity_pair",
+                "boundary_match": "opposed",
+                "focus_only": "Odak dal hurmaların seyrek ve birbirinden ayrı durmasını anlatır.",
+                "neighbor_only": "Komşu dal hurmaların bir topluluk veya küme halinde bulunmasını anlatır.",
+                "gloss": "seyrek hurmalar ile toplu hurmalar",
+                "shared_zone": "İki dal da birden çok hurma ağacının mekansal düzenini adlandırır.",
+                "distinction": "Ortak düzen ekseninde odak dal aralık ve dağınıklığı, komşu dal ise ağaçların bir araya gelerek topluluk oluşturmasını öne çıkarır."
+              },
+              {
+                "neighbor_ref": "root_000832/B006",
+                "relation_type": "near_neighbor",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal ağaçların birbirine göre seyrek yerleşimini bildirir.",
+                "neighbor_only": "Komşu dal hurmaların yaşça veya gelişimce küçük oluşunu bildirir.",
+                "gloss": "seyrek hurmalar ile küçük hurmalar",
+                "shared_zone": "Her iki dal bir hurma ağacı topluluğunu betimleyebilir.",
+                "distinction": "Odak dalın ölçütü ağaçlar arasındaki mesafedir; komşu dalın ölçütü ise ağaçların büyüklüğü veya gelişim evresidir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; toplu hurmalarla karşıtlık ve küçük hurmalarla ölçüt farkı seçildi, genel açıklık ve bahçe adayları hurmaya özgü sınırı daha az belirginleştirdi.",
+            "branch_image_ar": "الدعاع تفرق النخل",
+            "what_is_ar": "ما بين النخلتين أو النخل المتفرق المسمى دعاعا",
+            "what_is_not_ar": "ليس الدعاع عيال الرجل ولا حب الشجرة ولا الذعاع بالذال إذا ثبت",
+            "source_phrase_ar": "الدعاع ما بين النخلتين؛ الدعاع النخل المتفرق؛ رواه بعضهم في ذعاع النخل بالذال",
+            "sources": [
+              "TA"
+            ],
+            "source_note": {
+              "TA": "Seyrek hurmalar, aralarındaki açıklık ve olası ses varyantı bu tek tanıklıkta birlikte korunur."
+            }
+          },
+          {
+            "branch_ref": "root_000477/B008",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Yetkili kaynak ifadesi bitkiyi üç birlikte bulunan özellikle tanımlar: yazın bünyesinde su barındırması, sığırlar tarafından yenmesi ve bir bitki türü olması. Provisional çerçeve bu sınırlı doğal-tür anlamını doğru yansıtır.",
+              "boundary_note": "Dal herhangi bir sulak alanı veya genel yemi değil, yazın su barındıran ve sığırların yediği belirli bir bitkiyi anlatır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım çıplak bitki adını ve aktarılan ayırıcı özelliklerini korur; başka mera bitkileri veya suyla ilgili kullanımlar eklenmez."
+            },
+            "concept_map": {
+              "definition": "Yaz mevsiminde bünyesinde su barındıran ve sığırlar tarafından yenen bir bitki türüdür.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Gönderim belirli bir bitki türüdür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bitki yazın bünyesinde su barındırmasıyla ayırt edilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Sığırların bu bitkiyi yemesi onun aktarılan kullanım özelliğidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tek aktarım bitkinin yazın su barındırmasını ve sığırlarca yenmesini birlikte tanıtıcı özellikler olarak verir.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Bitkinin yaz nemi ve sığır yemi oluşu bu tek tanıklıkta birlikte aktarılır."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yazın su barındıran, sığırların yediği bitki",
+              "applicability": "Bitkinin mevsimsel nemini ve hayvan yemi oluşunu birlikte belirten eksiksiz açıklayıcı karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Bitki oluşunu, yazın su barındırmasını ve sığırlarca yenmesini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "sulu yaz otu",
+                "usage_role": "explanatory",
+                "applicability": "Bitkinin yaz mevsimindeki nemli yapısının kısa biçimde açıklanması gerektiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bitki oluşunu ve yazın su barındırma özelliğini korur.",
+                  "loses": "Sığırların bu bitkiyi yediği bilgisini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yazın su tutan ve sığırların yediği bir bitki"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "sulak alan bitkisi",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Bitki ile su arasındaki ilişkiyi genel olarak korur.",
+                  "loses": "Yaz mevsimi ve sığırlarca yenme özelliklerini belirtmez.",
+                  "adds": "Her türlü sulak ortam bitkisini kapsama alır.",
+                  "collision": "Bitkinin yetiştiği ortamı, bünyesinde su barındırmasıyla karıştırır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001512/B004",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal yazın su barındıran ve sığırların yediği özel bitkidir.",
+                "neighbor_only": "Komşu dal nemli bir mera bitkisini veya iyi otlağı daha genel biçimde anlatır.",
+                "gloss": "sulu yaz bitkisi ile nemli mera otu",
+                "shared_zone": "İki dal da nemli yapısıyla hayvan yemi olabilen bir bitkiyi gösterir.",
+                "distinction": "Odak dal yaz mevsimi, bünyedeki su ve sığır muhatabıyla sınırlıdır; komşu dalın odağı nemli mera bitkisi ve otlak değeridir."
+              },
+              {
+                "neighbor_ref": "root_000160/B007",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak bitkinin yazın su barındırmasını ve sığırlarca yenmesini belirtir.",
+                "neighbor_only": "Komşu bitki yeşilken özellikle koyunların sevdiği bir mera otudur.",
+                "gloss": "sığır bitkisi ile koyun otu",
+                "shared_zone": "Her iki dal otlayan hayvanların yediği belirli bir bitkiyi adlandırır.",
+                "distinction": "Ortak alan mera bitkisidir; mevsimsel-su özelliği ve hayvan türü ayrıldığı için adlandırmalar birbirinin yerine kullanılamaz."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; nemli mera otu ve farklı hayvanın yediği ot sınırı en iyi gösterdi, genel ıslaklık ve otlatma eylemi adayları bitki kimliğini karşılamadı.",
+            "branch_image_ar": "الدعدع نبت مائي",
+            "what_is_ar": "نبت يكون فيه ماء في الصيف تأكله البقر",
+            "what_is_not_ar": "ليس حب الدعاع ولا عيال الرجل ولا تفرق النخل",
+            "source_phrase_ar": "الدعدع نبت يكون فيه ماء في الصيف يأكله البقر",
+            "sources": [
+              "TA"
+            ],
+            "source_note": {
+              "TA": "Bitkinin yaz nemi ve sığır yemi oluşu bu tek tanıklıkta birlikte aktarılır."
+            }
+          },
+          {
+            "branch_ref": "root_000477/B009",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Yetkili kaynak ifadesi bir erkeğin küçük yaştaki bakmakla yükümlü olduğu kimseleri adlandırır ve türemiş kullanımda bu grubun çoğalmasını bildirir. Dal, genel aile veya bütün hane halkı değil, küçüklük ve bakım bağıyla sınırlıdır.",
+              "boundary_note": "Çekirdek küçük yaştaki çocuklar veya bağımlılardır; yetişkin aile üyeleri, hizmetliler ve genel hane halkı kendiliğinden kapsanmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım çıplak dalın küçük bağımlılar anlamını ve onların sayıca çoğalması uzantısını korur; genel aile anlamı eklenmez."
+            },
+            "concept_map": {
+              "definition": "Bir erkeğin küçük yaştaki çocukları veya onun bakımına bağlı küçüklerdir; türemiş kullanım bu grubun sayıca çoğalmasını bildirir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Gönderim, bir erkeğe bakım bağıyla bağlı küçük yaştaki kimselerdir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Türemiş eylem, bu küçük bağımlı grubun sayıca artmasını anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tek aktarım küçük bağımlılar adını ve bu grubun sayıca çoğalmasını bildiren türemiş kullanımı birlikte verir.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Küçük bağımlılar ile onların çoğalması bu tek tanıklıkta aynı anlam ailesi içinde aktarılır."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "küçük çocuklar ve bakmakla yükümlü olunan küçükler",
+              "applicability": "Dalın yaş küçüklüğü ile bakım bağı özelliklerini birlikte karşılayan açıklayıcı Türkçe ifadedir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Küçük yaşı, kişisel bağlılığı ve bakım yükümlülüğünü birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "küçük çocukları",
+                "usage_role": "contextual",
+                "applicability": "Bağlam bakım bağını zaten gösteriyor ve gönderim doğrudan çocuklarsa doğal karşılıktır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yaş küçüklüğünü ve aile içindeki bağlılığı korur.",
+                  "loses": "Çocuk olmayan fakat bakım altında bulunan küçükleri kapsamayabilir.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "bakmakla yükümlü olduğu küçükler çoğaldı",
+                "usage_role": "contextual",
+                "applicability": "Türemiş eylemin bağımlı küçüklerin sayıca artmasını bildirdiği cümlede kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Bakım bağını, küçüklüğü ve sayısal artışı birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir erkeğin küçük çocukları ve bakımına bağlı küçükler"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bakımına bağlı küçüklerin sayısı çoğalmak"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "aile",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Kişiye bağlı yakın insan grubunu genel olarak korur.",
+                  "loses": "Yaş küçüklüğü ve bakım bağı özelliklerini belirtmez.",
+                  "adds": "Eş, yetişkin akraba ve bağımsız aile üyelerini kapsama alır.",
+                  "collision": "Türkçedeki bütün aile veya hane anlamıyla karışır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001068/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal bağımlıların küçük yaşta olmasını zorunlu kılar.",
+                "neighbor_only": "Komşu dal yaş ayrımı yapmadan bir kişinin bakmakla yükümlü olduğu kimseleri kapsar.",
+                "gloss": "küçük bağımlılar ile genel bağımlılar",
+                "shared_zone": "İki dal da bir kişinin bakımına bağlı kimseleri adlandırır.",
+                "distinction": "Odak dal genel bağımlılar alanının yaşça küçük bölümüdür; komşu dal yetişkinleri de kapsayabildiği için sınırlar tam örtüşmez."
+              },
+              {
+                "neighbor_ref": "root_001062/B008",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal bakım altındaki küçük kişilerin kendisini adlandırır.",
+                "neighbor_only": "Komşu dal bu kişilerin geçimini sağlama ve yükünü taşıma ilişkisini de kurucu sayar.",
+                "gloss": "küçük bağımlılar ile geçimi sağlananlar",
+                "shared_zone": "Her iki dal bir kişinin bakmakla yükümlü olduğu kimselerle ilgilidir.",
+                "distinction": "Odak dalın kimliği yaşça küçük bağımlı grubudur; komşu dalın odağı ise yaş sınırından çok geçindirme ve bakım masrafını üstlenme ilişkisidir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel bağımlılar ve geçimi üstlenilenler en açıklayıcı iki sınırı verdi, aile, hane ve hizmet ilişkileri yaş küçüklüğü koşulunu taşımadığı için elendi.",
+            "branch_image_ar": "الدعاع عيال صغار",
+            "what_is_ar": "عيال الرجل الصغار وكثرة دعاعه",
+            "what_is_not_ar": "ليس النخل المتفرق ولا حب الشجرة ولا النملة السوداء",
+            "source_phrase_ar": "الدعاع عيال الرجل الصغار؛ أدع الرجل إذا كثر دعاعه",
+            "sources": [
+              "TA"
+            ],
+            "source_note": {
+              "TA": "Küçük bağımlılar ile onların çoğalması bu tek tanıklıkta aynı anlam ailesi içinde aktarılır."
+            }
+          },
+          {
+            "branch_ref": "root_000477/B010",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Yetkili kaynak ifadesi yabani bir bitkinin tohumu çekirdeğine, kuraklıkta yenen siyah bir tohum biçimine, bu tohuma benzetilerek adlandırılan siyah karıncaya ve tohumu toplayan kişiye uzanır. Bunlar tek bir yalın tanımda eşit çekirdekler değildir; bitki tohumu merkezde, benzetme ve toplama kullanımları bağımlı tutulmalıdır.",
+              "boundary_note": "Çekirdek yabani bitki tohumudur; siyah karınca benzerlik yoluyla, toplayıcı adam ise özel yapı içinde adlandırılır ve ikisi genel tohum anlamını değiştirmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yalın tohum anlamı, benzerlikle adlandırılan karınca ve tohum toplayan adamı bildiren özel yapıdan ayrılır; yapıdaki kişi anlamı çıplak dala taşınmaz."
+            },
+            "concept_map": {
+              "definition": "Yabani bir bitkinin tohumu; özel bir biçimi kuraklıkta yiyecek olarak kullanılan siyah bir tanedir. Benzer siyah karınca bu taneye benzetilerek, onu başka bir yabani tohumla birlikte toplayan adam ise yapıya bağlı olarak adlandırılır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Temel gönderim yabani bir bitkinin tohumudur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Siyah taneli bir biçimi kıtlık veya kuraklık zamanında yiyecek olarak kullanılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Tohuma benzeyen siyah bir karınca benzerlik yoluyla aynı adla anılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "associated_use",
+                  "statement": "Özel bir kişi yapısı, bu tohumu ve başka bir yabani tohumu yemek için toplayan adamı anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tek aktarım yabani tohumu çekirdek alır; yenilen siyah tane, ona benzeyen karınca ve tohum toplayan kişi kullanımlarını buna bağlar.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Tohum, kıtlık yiyeceği, benzer siyah karınca ve toplayıcı kişi uzantıları bu tek tanıklıkta birlikte verilir."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yabani bitki tohumu",
+              "applicability": "Dalın merkezindeki bitkisel gönderimi, bağımlı benzetme ve kişi kullanımlarını çekirdeğe katmadan karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yabani bitkiye ait tohum çekirdeğini tam olarak korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kuraklıkta yenen siyah tohum",
+                "usage_role": "contextual",
+                "applicability": "Siyah tanenin kıtlık yiyeceği olarak kullanımının öne çıktığı bağlamlarda uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Siyah tane niteliğini ve kuraklıkta yenme kullanımını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "tohuma benzeyen siyah karınca",
+                "usage_role": "explanatory",
+                "applicability": "Adın benzerlik yoluyla siyah karıncaya aktarıldığı kullanımda açıklayıcı karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Karınca gönderimini, siyah rengi ve tohuma benzerlik bağını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yabani bir bitkinin tohumu"
+              },
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kuraklıkta yenen siyah tohum; ona benzeyen siyah karınca"
+              },
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bu tohumu ve başka bir yabani tohumu yemek için toplayan adam"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "mercimek",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Yenebilen küçük bir bitki tohumu olma özelliğini korur.",
+                  "loses": "Yabani bitki kimliğini, kuraklık kullanımını ve benzerlik uzantılarını kaybeder.",
+                  "adds": "Belirli ve farklı bir baklagil türü kimliği ekler.",
+                  "collision": "Bilinen baklagil adıyla yanlış tür özdeşliği doğurur."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000255/B011",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal yabani bir bitki tohumu ile onun siyah tane ve benzetme uzantılarını kapsar.",
+                "neighbor_only": "Komşu dal susam, kişniş veya başka belirli taneler için kullanılan farklı bir tohum adıdır.",
+                "gloss": "yabani tohum ile bilinen baharat taneleri",
+                "shared_zone": "İki dal da küçük bitki tanelerini veya tohumlarını adlandırır.",
+                "distinction": "Ortak alan tohumdur; odak dal yabani tür, kıtlık yiyeceği ve benzerlik uzantılarıyla sınırlıyken komşu dal başka belirli ürünlerin tanelerini gösterir."
+              },
+              {
+                "neighbor_ref": "root_001039/B006",
+                "relation_type": "thematic",
+                "boundary_match": "thematic_only",
+                "focus_only": "Odak dal kuraklıkta yenebilen belirli yabani tohumu adlandırır.",
+                "neighbor_only": "Komşu dal yaşamı sürdürmeye yeten az miktardaki herhangi bir yiyecek veya otu anlatır.",
+                "gloss": "kıtlık tohumu ile asgari geçimlik",
+                "shared_zone": "Her ikisi de yiyecek kıtlığında yaşamı sürdürmeye yarayan besin bağlamında bulunabilir.",
+                "distinction": "Odak dal somut bir bitki tohumu adıdır; komşu dal ise tür belirtmeyen, az miktarda geçim sağlayan yiyecek veya ot kavramıdır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; başka tohum adları arasından tür karışmasını ve kıtlık yiyeceği bağlamını açıklayan iki aday seçildi, meyve rengi ve salkım yapısı gibi uzak benzerlikler elendi.",
+            "branch_image_ar": "الدعاع حبة برية",
+            "what_is_ar": "حب شجرة برية وحبة سوداء تؤكل في القحط ونملة سوداء تشاكلها",
+            "what_is_not_ar": "ليس عيال الرجل ولا الدعدع النبت ولا تفرق النخل",
+            "source_phrase_ar": "الدعاع حب شجرة برية؛ الدعاعة حبة سوداء؛ نملة سوداء تشاكل هذه الحبة؛ رجل دعاع فثاث",
+            "sources": [
+              "TA"
+            ],
+            "source_note": {
+              "TA": "Tohum, kıtlık yiyeceği, benzer siyah karınca ve toplayıcı kişi uzantıları bu tek tanıklıkta birlikte verilir."
+            }
+          }
+        ],
+        "root_profile": {
+          "summary": "Bu kök ailesi itme, hareket ettirerek doldurma, hayvana seslenme, tökezleyeni teşvik etme ve özel bir koşma biçiminden; insan, hurma düzeni, bitki, küçük bağımlılar ve yabani tohum adlarına uzanan çok sayıda ayrı anlam dalı taşır. Dalların bir bölümü ses ve hareket çevresinde gevşekçe kümelense de çoğu birbirinin yerine geçmeyen bağımsız sözlük anlamlarıdır.",
+          "polysemy": "polysemic",
+          "organization": "multi_branch"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 3,
+            "word_count": 3,
+            "ayah_count": 2,
+            "surah_count": 2
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "يَدُعُّ",
+              "stem_ar": "يُدَعُّ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|PASS|LEM:yaduE~u|ROOT:dEE|3MP",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "دَعّ",
+              "stem_ar": "دَعًّا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|VN|LEM:daE~|ROOT:dEE|M|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "يَدُعُّ",
+              "stem_ar": "يَدُعُّ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:yaduE~u|ROOT:dEE|3MS",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000477_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000477",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "editorial_repair",
+        "inputs_sha256": "10d8fcac6d3925f394f5844a037f5ac3cf5d554bde31854f1f047984f2d57551",
+        "review_inputs_sha256": "4e55effc773329a35022d799daf2bed168e1da4b20d52f82b2b8aa28d8232448",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000477/tr/output/root_000477_entry.json",
+          "sha256": "6de79d5d9c203d268b242c443ed1ef4babf3367b67fbe5d95488e64ec3114665",
+          "entry_id": "root_000477/tr",
+          "status": "reviewed",
+          "review_verdict": "repair",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000477.json",
+          "sha256": "91a0cb15465061c836d4fc306cecc2f4d91f49b86367890a16cf8ae33a0ad797"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000477/tr/repair/editorial/input/task.json",
+          "sha256": "34719f3391a3002a0ab879b74b445d3df4f77a6eb5b9a0d90b7a91e5506c7956"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000477/tr/repair/editorial/review/input/task.json",
+          "sha256": "589584e58eefaefead72670a48c3164363f2cfdea65c453054495aec2e96045a"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000477/tr/repair/editorial/review/output/review.json",
+          "sha256": "9a87a950e2b7856f795c3d9c0d84ac5794150b7c149dd2c578ce6a511e6be508"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000477/B001",
+            "concept_gloss": {
+              "text": "sert ve azarlayıcı itme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "birini sert ve kaba biçimde itmek",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "savunmasız kişiyi itip azarlamak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "bir yere zorla ve sertçe sürmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "sert, kaba ve azarlayıcı itiş",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_002": {
+                "text": "sertçe itmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_003": {
+                "text": "yetimi itip azarlamak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_004": {
+                "text": "ateşe doğru zorla sürmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000477/B002",
+            "concept_gloss": {
+              "text": "kabı sallayarak sıkı ve tam doldurma",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "ölçeği çalkalayıp içindekini sıkı yerleştirmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "kabı hareket ettirerek tıka basa doldurmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_006"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "ağzına kadar dolu büyük çanak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_007"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_005": {
+                "text": "ölçeği sallayarak sıkı doldurma",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_006": {
+                "text": "doldurmak ya da sallayarak sıkıştırmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_007": {
+                "text": "tam dolu büyük çanak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_008": {
+                "text": "selin vadiyi baştan başa doldurması",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000477/B003",
+            "concept_gloss": {
+              "text": "küçükbaş hayvanları, özellikle keçileri, çağırıp azarlayarak yönlendiren çoban sesi",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "küçükbaş sürüyü sesle çağırıp sevk etme",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_009"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "keçileri çağırıp azarlayarak yönlendirmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_010"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_009": {
+                "text": "küçükbaş hayvanı sesle çağırıp azarlama",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_010": {
+                "text": "keçilere seslenerek yön vermek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_011": {
+                "text": "çobanın keçiyi sevk eden geleneksel çağrısı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000477/B004",
+            "concept_gloss": {
+              "text": "tökezleyeni kalkıp toparlanmaya çağırma",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "tökezleyene kalk, toparlan diye seslenme",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_012"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_012": {
+                "text": "tökezleyene kalkıp toparlanmasını söyleme",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000477/B005",
+            "concept_gloss": {
+              "text": "kıvrılarak yavaş koşma",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "dolambaçlı biçimde ağır koşmak",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_013"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_013": {
+                "text": "kıvrıla kıvrıla yavaş koşma",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000477/B006",
+            "concept_gloss": {
+              "text": "kısa boylu erkek için kökeni belirsiz ad",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "kısa boylu erkeğe verilen aktarımı kuşkulu ad",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {}
+          },
+          {
+            "branch_ref": "root_000477/B007",
+            "concept_gloss": {
+              "text": "seyrek hurmalar ya da iki hurma arası açıklık için kuşkulu ad",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "aralıklı duran hurma ağaçları",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "iki hurma ağacı arasındaki boşluk",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "ilk ünsüzü kuşkulu seyrek hurma adı",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {}
+          },
+          {
+            "branch_ref": "root_000477/B008",
+            "concept_gloss": {
+              "text": "yazın su tutan, sığırların yediği bitki",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "sığırların yediği yazın sulu bitki",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_014"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_014": {
+                "text": "yazın su tutan, sığırların yediği bitki",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000477/B009",
+            "concept_gloss": {
+              "text": "bir erkeğin bakımındaki küçükler ve onların çoğalması",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "bakım altındaki küçük çocuklar",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_015"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "bakıma bağlı küçüklerin çoğalması",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_016"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_015": {
+                "text": "bir erkeğin bakımına bağlı küçükler",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_016": {
+                "text": "küçük bağımlıları çoğalmak",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000477/B010",
+            "concept_gloss": null,
+            "contextual_glosses": [
+              {
+                "text": "yabani bir bitkinin tohumu",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_017"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "kuraklıkta yenen siyah tohum",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_018"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "bu siyah taneye benzeyen siyah karınca",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_018"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "yemek için yabani tohum toplayan adam",
+                "facet_ids": [
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_019"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_017": {
+                "text": "yabani bitki tohumu",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_018": {
+                "text": "kuraklıkta yenen siyah tohum; benzeri siyah karınca",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_019": {
+                "text": "yemek için bu tohumu ve başka bir yabani tohumu toplayan adam",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000477.json"
+    },
     "root_000831": {
       "root_ar": "ش ي ء",
+      "qac_roots_ar": [
+        "ش ي ء"
+      ],
       "root_id": "root_000831",
-      "root_mapping": {
-        "root_id": "root_000831",
-        "root_norm": "ش ي ء",
-        "source_root_norm": "ش ي ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 509,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ي ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 509
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -10506,18 +13926,23 @@
     },
     "root_001550": {
       "root_ar": "ن ك ر",
+      "qac_roots_ar": [
+        "ن ك ر"
+      ],
       "root_id": "root_001550",
-      "root_mapping": {
-        "root_id": "root_001550",
-        "root_norm": "ن ك ر",
-        "source_root_norm": "ن ك ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 35,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ك ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 35
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c97e1fba308adcd6bb69f45bc26d81cbae5adeb7a4673e1b8e7309522feae474",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11689,14 +15114,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12096,11 +15527,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 126497,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -12176,19 +15620,37 @@
           "root_ids": [
             "root_001684"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ل ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001684",
+            "targets": [
+              {
+                "qac_root_norm": "و ل ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001684",
+                "furuq_root_norm": "و ل ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 190,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001684",
-              "root_norm": "و ل ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 190,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -12200,19 +15662,37 @@
           "root_ids": [
             "root_001700"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001700",
+            "targets": [
+              {
+                "qac_root_norm": "ي و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001700",
+                "furuq_root_norm": "ي و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 414,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001700",
-              "root_norm": "ي و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 414,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12238,19 +15718,46 @@
             "root_000478",
             "root_000477"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "د ع و",
+            "mapping_status": "split",
+            "primary_root_id": "root_000478",
+            "targets": [
+              {
+                "qac_root_norm": "د ع و",
+                "target_rank": 1,
+                "furuq_root_id": "root_000478",
+                "furuq_root_norm": "د ع و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 77,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "د ع و",
+                "target_rank": 2,
+                "furuq_root_id": "root_000477",
+                "furuq_root_norm": "د ع ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 22,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": true,
           "targets": [
             {
               "root_id": "root_000478",
-              "root_norm": "د ع و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "د ع و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 77,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12269,37 +15776,70 @@
             },
             {
               "root_id": "root_000477",
-              "root_norm": "د ع ع",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "د ع ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 22,
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 3,
+                  "ayahs": 2
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ش ي ء": {
           "root_id": "root_000831",
           "root_ids": [
             "root_000831"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ي ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000831",
+            "targets": [
+              {
+                "qac_root_norm": "ش ي ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000831",
+                "furuq_root_norm": "ش ي ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 509,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000831",
-              "root_norm": "ش ي ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ي ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 509,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -12311,19 +15851,37 @@
           "root_ids": [
             "root_001550"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ك ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001550",
+            "targets": [
+              {
+                "qac_root_norm": "ن ك ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001550",
+                "furuq_root_norm": "ن ك ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 35,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001550",
-              "root_norm": "ن ك ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ك ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 35,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12350,10 +15908,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 46,
+        "dictionary_branches_kept": 46,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 23,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.720388+00:00",
+  "generated_at": "2026-08-04T22:29:53.255680+00:00",
   "surah": 54,
   "ayah": 26,
   "ayahRef": "54:26",
@@ -1954,7 +1954,8 @@
         "m-w-s054-a026-w001-02",
         "m-w-s054-a026-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:26:1"
+      "aligned_qac_word_ref_upstream": "54:26:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1968,7 +1969,8 @@
       "morpheme_ids": [
         "m-w-s054-a026-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:26:2"
+      "aligned_qac_word_ref_upstream": "54:26:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1982,7 +1984,8 @@
       "morpheme_ids": [
         "m-w-s054-a026-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:26:3"
+      "aligned_qac_word_ref_upstream": "54:26:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1998,7 +2001,8 @@
         "m-w-s054-a026-w004-01",
         "m-w-s054-a026-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:26:4"
+      "aligned_qac_word_ref_upstream": "54:26:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2014,7 +2018,8 @@
         "m-w-s054-a026-w005-01",
         "m-w-s054-a026-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:26:5"
+      "aligned_qac_word_ref_upstream": "54:26:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2458,7 +2463,600 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_26.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:26",
+      "window": [
+        "54:18",
+        "54:19",
+        "54:20",
+        "54:21",
+        "54:22",
+        "54:23",
+        "54:24",
+        "54:25",
+        "54:26",
+        "54:27",
+        "54:28",
+        "54:29",
+        "54:30",
+        "54:31",
+        "54:32"
+      ],
+      "ayah_count": 15,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:26",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1_deferred_identity_disclosure",
+            "confidence": "strong",
+            "focus_anchor": "The future plural verb, the next-day marker, and the interrogative before the definite paired epithet.",
+            "mechanism": "Knowing is scheduled rather than argued: a coming disclosure will distinguish the bearer of a disputed identity-label.",
+            "activation_trace": [
+              {
+                "source_ref": "54:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Unveiling to a knower supplies the epistemic event that will settle the identity question."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "غ د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001076",
+                "branch_id": "B002",
+                "role": "The following day gives the disclosure a near, bounded horizon."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution of lying makes the epithet a contested assignment whose owner must be identified."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ء ش ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000035",
+                "branch_id": "B001",
+                "role": "Rash exultant arrogance sharpens the disputed label from mere error into a visible disposition."
+              }
+            ],
+            "changed_reading": {
+              "before": "They will soon learn which person is the insolent liar.",
+              "after": "A near event will make the knowing group itself recognize where the disputed identity-label truly belongs."
+            }
+          },
+          {
+            "model_id": "B2_tomorrow_as_marking_threshold",
+            "confidence": "medium",
+            "focus_anchor": "The juxtaposition of knowing, tomorrow, and the question 'who' makes time itself part of identification.",
+            "mechanism": "The next day is a threshold at which an unseen distinction becomes a readable mark; knowledge arrives through differentiation, not added speech.",
+            "activation_trace": [
+              {
+                "source_ref": "54:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing mark turns future knowledge into recognition by evidence."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "غ د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001076",
+                "branch_id": "B001",
+                "role": "The first movement of day supplies a threshold image: the distinction becomes legible as the new interval begins."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Opposition to truth supplies the polarity that the coming mark will separate."
+              }
+            ],
+            "changed_reading": {
+              "before": "Tomorrow merely states when information will arrive.",
+              "after": "Tomorrow is the evidentiary threshold at which the two sides become distinguishable and the label finds its bearer."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_disclosure_by_consequence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ن ز ع",
+              "ق ع ر",
+              "ذ ك ر"
+            ],
+            "mechanism": "The preceding cycle offers warning and facilitated remembrance, then depicts people pulled out and uprooted; future knowing is therefore revised from receiving information to forced recognition through consequence after an available warning was refused.",
+            "activation_trace": [
+              {
+                "source_ref": "54:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Epistemic unveiling remains the focus anchor but now gains an event-producing mechanism."
+              },
+              {
+                "source_ref": "54:18",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "A warning intended to awaken caution supplies knowledge in advance of the consequence."
+              },
+              {
+                "source_ref": "54:20",
+                "root": "ن ز ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001489",
+                "branch_id": "B001",
+                "role": "Pulling something from its settled place makes the later knowing bodily and irreversible."
+              },
+              {
+                "source_ref": "54:20",
+                "root": "ق ع ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001245",
+                "branch_id": "B004",
+                "role": "Uprooting from the origin completes the image of consequence exposing what warning had announced."
+              },
+              {
+                "source_ref": "54:22",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall after forgetfulness contrasts available reflective knowing with the compelled knowing promised in the focus."
+              }
+            ],
+            "structural_cues": [
+              "54:18-22 sequences denial, destructive event, a warning refrain, and facilitated remembrance before denial recurs in 54:23-26."
+            ],
+            "reader_inference": "The packet supplies warning, remembrance, uprooting, and future knowing; I infer the arrow refused warning -> event -> compelled recognition. A live alternative is a simple chronological threat without an epistemic contrast.",
+            "changed_reading": {
+              "before": "They will be told or mentally realize who lied.",
+              "after": "Because warning and remembrance were already available, their next knowing is the compelled experiential recognition produced by the warned consequence."
+            }
+          },
+          {
+            "model_id": "D2_reassigned_status_label",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ح د",
+              "ت ب ع",
+              "ل ق ي",
+              "ب ي ن",
+              "ك ذ ب",
+              "ء ش ر"
+            ],
+            "mechanism": "The group resists following one person from among them, treats his reception of the reminder as an arbitrary casting, and assigns him the paired epithet; the focus repeats that exact epithet under 'who', converting their social verdict into the object of impending adjudication.",
+            "activation_trace": [
+              {
+                "source_ref": "54:24",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B001",
+                "role": "Singling and separation expose the status grievance beneath the group's objection."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following behind makes rank and allegiance, not only proposition content, part of the dispute."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B005",
+                "role": "Casting supplies the group's image of selection as something arbitrarily thrown onto one peer."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "The middle among peers locates the accusation inside a rivalry over who may stand out from the group."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The context visibly performs the attribution of lying that the focus will put back into question."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ء ش ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000035",
+                "branch_id": "B001",
+                "role": "The repeated arrogance epithet carries the group's status judgment into the focus unchanged."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The promised unveiling removes final ownership of the label from the speakers who coined it."
+              }
+            ],
+            "structural_cues": [
+              "The indefinite paired epithet at the end of 54:25 returns definite and verbatim after 'who' in 54:26."
+            ],
+            "reader_inference": "The packet supplies singling, following, casting, peer-position, and exact label repetition; I infer status rivalry -> accusation -> reassignment hearing. The live alternative is that the exchange concerns only truth and falsehood, with no rank mechanism.",
+            "changed_reading": {
+              "before": "The verse independently threatens an unnamed liar.",
+              "after": "The accusers' own status-label is quoted back as a pending question: the near event will decide whether the singled-out messenger or his collective accusers own it."
+            }
+          },
+          {
+            "model_id": "D3_public_allocation_test",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ت ن",
+              "ر ق ب",
+              "ق س م",
+              "ش ر ب",
+              "ح ض ر"
+            ],
+            "mechanism": "What follows installs a controlled test: a test-object is sent, observation is commanded, water is divided into shares, and every drinking turn is present. The promised knowledge is thus produced by monitored conduct under a public allocation rule.",
+            "activation_trace": [
+              {
+                "source_ref": "54:26",
+                "root": "غ د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001076",
+                "branch_id": "B002",
+                "role": "The following day becomes the bounded interval in which the announced test unfolds."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying a person or metal supplies the explicit proving procedure."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B001",
+                "role": "Watching and waiting supply observation rather than unsupported assertion."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating an assigned share supplies the test's rule and measurable boundary."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "A water allotment turns the division into concrete conduct that can be obeyed or violated."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ح ض ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000333",
+                "branch_id": "B001",
+                "role": "Presence and witnessing make each allotted turn publicly inspectable."
+              }
+            ],
+            "structural_cues": [
+              "The promise of knowing is followed immediately by sending, testing, watching, patient waiting, notification, division, and attendance."
+            ],
+            "reader_inference": "The packet supplies an explicit test, observer, allocation, and attended turns; I infer rule + monitored behavior -> evidence -> identification. A live alternative is that these are only successive commands, not an evidentiary design.",
+            "changed_reading": {
+              "before": "Tomorrow brings a verdict whose evidence is unstated.",
+              "after": "Tomorrow is a public behavioral assay: adherence to a witnessed allocation will generate the evidence that identifies the liar-arrogant."
+            }
+          },
+          {
+            "model_id": "D4_delegated_collective_liability",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن د و",
+              "ص ح ب",
+              "ع ط و",
+              "ع ق ر"
+            ],
+            "mechanism": "The later sequence moves from a collective call to 'their companion' and then to singular undertaking and hamstringing. This gives 'who' an agency-sorting function while the call and possessive bond keep the actor's deed socially attached to the group.",
+            "activation_trace": [
+              {
+                "source_ref": "54:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing mark anchors the focus as an allocation of recognizable agency."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B001",
+                "role": "The raised collective call initiates the deed before the grammar narrows to one actor."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001486",
+                "branch_id": "B001",
+                "role": "The alternative mapped branch adds assembled deliberation, preserving the group's role in the singular action."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and attachment prevent the singled-out agent from becoming socially unrelated to those who called him."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B004",
+                "role": "Undertaking what one can reach marks the transition from group prompting to individual execution."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B002",
+                "role": "Hamstringing supplies the decisive observable act by which the singular executor is known."
+              }
+            ],
+            "structural_cues": [
+              "54:29 begins with a plural verb, names 'their companion', and ends with two singular verbs."
+            ],
+            "reader_inference": "The packet supplies collective summons, possessive companionship, and singular execution; I infer delegation -> individual act without collective exoneration. A live alternative is that only the direct actor matters to the focus's singular 'who'.",
+            "changed_reading": {
+              "before": "The singular 'who' isolates one liar from an undifferentiated plural audience.",
+              "after": "The test identifies a singular executor while also exposing how collective instigation and affiliation distribute responsibility around him."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_cutting_edge_reversal",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the dental and sawing branches of the moral adjective, not its ordinary dispositional sense. It remains anchored in the focus epithet and is materially echoed by hamstringing and later shattering; downstream prose should present it only as a cross-domain edge-image, never as a replacement translation.",
+            "focus_anchor": "The root of the final focus adjective carries sharp tooth-edges and sawing as branch images.",
+            "activation_trace": [
+              {
+                "source_ref": "54:26",
+                "root": "ء ش ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000035",
+                "branch_id": "B002",
+                "role": "Sharp tooth-points give the arrogant disposition a branch-distant cutting edge."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ء ش ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000035",
+                "branch_id": "B003",
+                "role": "Sawing and scoring wood extends that edge into an action-image."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B002",
+                "role": "Cutting the animal's legs materially enacts the edge-image attached to the focus adjective."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ه ش م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001592",
+                "branch_id": "B002",
+                "role": "Dry broken vegetation reverses the cutting agency: the assailant's side becomes shattered material."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ح ظ ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000338",
+                "branch_id": "B001",
+                "role": "The enclosing pen gives the shattered material a bounded scene that closes the reversal."
+              }
+            ],
+            "changed_reading": {
+              "before": "The final adjective only names an inwardly arrogant and rash temperament.",
+              "after": "Exploratorily, its sharp edge anticipates the disabling cut and an ironic reversal in which the cutting side becomes broken enclosure-debris."
+            }
+          },
+          {
+            "outlier_id": "O2_durability_assay",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it draws on uses of the lying root for milk that fails to last and an animal that runs then stops. It remains anchored in the focus noun and gains a contextual foil from the prior event's described continuation; downstream prose should qualify it as a durability metaphor subordinate to ordinary falsehood.",
+            "focus_anchor": "The focus joins the next-day interval to an intensive noun whose root includes failed duration and an aborted run.",
+            "activation_trace": [
+              {
+                "source_ref": "54:26",
+                "root": "غ د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001076",
+                "branch_id": "B002",
+                "role": "The next day provides the interval over which a claim's endurance can be tested."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "Milk expected to continue but disappearing supplies a concrete image of failed persistence."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "An animal that runs and then stops supplies a second image of a claim whose initial course cannot be sustained."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B006",
+                "role": "Firm force and resolve in the prior continuing event provide the durability foil against which false continuance fails."
+              }
+            ],
+            "changed_reading": {
+              "before": "The liar is identified only by the falsity of a statement.",
+              "after": "Exploratorily, tomorrow stress-tests persistence: the lying claim is the one that begins a convincing course but cannot remain standing through the interval."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The prior warning cycle turns future knowing into compelled recognition by consequence.",
+            "The exact epithet first assigned by the group is returned under 'who' as a pending reassignment.",
+            "The following test, observation, division, and attended turns make tomorrow a public evidence-producing procedure.",
+            "The plural-to-singular action sequence distinguishes an executor without erasing collective instigation."
+          ],
+          "what_was_special": "The focus is a hinge: it quotes a social accusation backward and opens a monitored trial forward, so 'they will know tomorrow' moves from threat to a compact protocol of evidence, agency, and label reversal.",
+          "remaining_uncertainties": [
+            "Whether 'tomorrow' is only the immediate next day or also functions as a reusable proving interval.",
+            "Whether the singular epithet finally targets one actor, a representative, or a collectively sustained posture.",
+            "The cutting-edge and durability activations are intentionally exploratory and should not displace the ordinary semantic cores."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Near-future clarification reverses the predicate without yet naming its bearer.** `ع ل م` B001 is knowing as a thing becomes clear; `غ د و` B002 is the next day; `ك ذ ب` B001 and `ء ش ر` B001 repeat falsehood and insolent exultance. The same nominal pair from 54:25 is retained, but its referent is reopened by `مَّنِ`. The packet supplies deferred knowledge; I infer that the coming test will adjudicate attribution by outcome rather than counter-assertion. The ayah reads as an evidentiary deadline.",
@@ -3455,18 +4053,23 @@
   "root_lexicon": {
     "root_001040": {
       "root_ar": "ع ل م",
+      "qac_roots_ar": [
+        "ع ل م"
+      ],
       "root_id": "root_001040",
-      "root_mapping": {
-        "root_id": "root_001040",
-        "root_norm": "ع ل م",
-        "source_root_norm": "ع ل م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 771,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 771
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8cfacfe87682b0ea79a8459f834938bbff910f60c9504afde93dae299ea41d5e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6495,18 +7098,23 @@
     },
     "root_001076": {
       "root_ar": "غ د و",
+      "qac_roots_ar": [
+        "غ د و"
+      ],
       "root_id": "root_001076",
-      "root_mapping": {
-        "root_id": "root_001076",
-        "root_norm": "غ د و",
-        "source_root_norm": "غ د و",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 13,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "غ د و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 13
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4f75b10e175afb72be0fa79dd5c14fd8bcbb9c6132546e6b40a60ef2851cc5ce",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7864,18 +8472,23 @@
     },
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9635,18 +10248,23 @@
     },
     "root_000035": {
       "root_ar": "ء ش ر",
+      "qac_roots_ar": [
+        "ء ش ر"
+      ],
       "root_id": "root_000035",
-      "root_mapping": {
-        "root_id": "root_000035",
-        "root_norm": "ء ش ر",
-        "source_root_norm": "أ ش ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ش ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "d30ee1b2b133ab57d1ab331dbfac13ea5776e73cde55b02969b2dd104573b101",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10926,14 +11544,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11194,11 +11818,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_26.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_26.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 107967,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -11273,19 +11910,37 @@
           "root_ids": [
             "root_001040"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001040",
+            "targets": [
+              {
+                "qac_root_norm": "ع ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001040",
+                "furuq_root_norm": "ع ل م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 771,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001040",
-              "root_norm": "ع ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ل م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 771,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11310,19 +11965,37 @@
           "root_ids": [
             "root_001076"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "غ د و",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001076",
+            "targets": [
+              {
+                "qac_root_norm": "غ د و",
+                "target_rank": 1,
+                "furuq_root_id": "root_001076",
+                "furuq_root_norm": "غ د و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 13,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001076",
-              "root_norm": "غ د و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "غ د و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 13,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11347,19 +12020,37 @@
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11384,19 +12075,37 @@
           "root_ids": [
             "root_000035"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ش ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000035",
+            "targets": [
+              {
+                "qac_root_norm": "ء ش ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000035",
+                "furuq_root_norm": "ء ش ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000035",
-              "root_norm": "ء ش ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ش ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11423,10 +12132,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 25,
+        "dictionary_branches_kept": 25,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 16,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

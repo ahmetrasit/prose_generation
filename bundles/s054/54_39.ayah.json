@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.689501+00:00",
+  "generated_at": "2026-08-04T22:29:54.051660+00:00",
   "surah": 54,
   "ayah": 39,
   "ayahRef": "54:39",
@@ -1314,7 +1314,8 @@
       "morpheme_ids": [
         "m-w-s054-a039-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:39:1"
+      "aligned_qac_word_ref_upstream": "54:39:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1330,7 +1331,8 @@
         "m-w-s054-a039-w001-02",
         "m-w-s054-a039-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:39:2"
+      "aligned_qac_word_ref_upstream": "54:39:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1346,7 +1348,8 @@
         "m-w-s054-a039-w002-01",
         "m-w-s054-a039-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:39:3"
+      "aligned_qac_word_ref_upstream": "54:39:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1360,7 +1363,8 @@
       "morpheme_ids": [
         "m-w-s054-a039-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:39:4"
+      "aligned_qac_word_ref_upstream": "54:39:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1374,7 +1378,8 @@
       "morpheme_ids": [
         "m-w-s054-a039-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:39:5"
+      "aligned_qac_word_ref_upstream": "54:39:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1750,7 +1755,577 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_39.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:39",
+      "window": [
+        "54:33",
+        "54:34",
+        "54:35",
+        "54:36",
+        "54:37",
+        "54:38",
+        "54:39",
+        "54:40",
+        "54:41",
+        "54:42",
+        "54:43",
+        "54:44",
+        "54:45"
+      ],
+      "ayah_count": 13,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:39",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_experiential_confirmation",
+            "confidence": "strong",
+            "focus_anchor": "The plural imperative ذوقوا governs both عذابي and نذر, joining punishment and warning under one sensory verb.",
+            "mechanism": "Oral sampling expands into firsthand ordeal: punitive pain becomes the experienced referent that confirms the prior alarm, so message and outcome are no longer separable.",
+            "activation_trace": [
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B001",
+                "role": "Oral tasting supplies the sensory frame through which the whole command is received."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Firsthand ordeal extends tasting into experiential verification of what was announced."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Severe punitive pain supplies the reality that the addressees must experience."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "An alarm meant to awaken caution supplies the message now verified by its outcome."
+              }
+            ],
+            "changed_reading": {
+              "before": "Receive punishment after having received warnings.",
+              "after": "Experience the punishment as firsthand confirmation of the warning itself."
+            }
+          },
+          {
+            "model_id": "b_state_transition",
+            "confidence": "exploratory",
+            "focus_anchor": "ذوقوا can activate a becoming-condition branch, with عذابي as the condition and نذر as its announced threshold.",
+            "mechanism": "The imperative can mark a crossing from anticipation into a new condition: warning stands before the threshold, while punishment is the state entered when announcement becomes actuality.",
+            "activation_trace": [
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B006",
+                "role": "Becoming a condition after separation supplies a state-transition image for tasting."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive suffering supplies the destination state rather than a merely sampled object."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Advance alarm supplies the threshold that precedes entry into the announced condition."
+              }
+            ],
+            "changed_reading": {
+              "before": "Briefly sample the punishment that was warned about.",
+              "after": "Cross into the punitive condition that the warning had held ahead of you."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_experiential_confirmation_after_denial",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "م ر ي"
+            ],
+            "mechanism": "Denial and disputation keep warning in contestable speech; the tasting imperative ends that distance by making its truth bodily and nondelegable.",
+            "activation_trace": [
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Firsthand ordeal supplies the experiential proof that replaces verbal distance."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The cautioning alarm supplies the proposition whose truth is forced into experience."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradicting truth supplies the initial refusal that tasting reverses."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001416",
+                "branch_id": "B005",
+                "role": "Disputatious denial supplies the failed verbal mode displaced by bodily encounter."
+              }
+            ],
+            "structural_cues": [
+              "54:33 opens with denial of the warnings, and 54:36 repeats warning, disputation, and warnings before the focus.",
+              "The focus clause first occurs at the end of 54:37, after dispute has become an event."
+            ],
+            "reader_inference": "The packet supplies denial and dispute before tasting; I infer a change of epistemic medium from argument to embodied proof. A live alternative is retribution with no epistemic function.",
+            "changed_reading": {
+              "before": "Taste the penalty that follows rejected warnings.",
+              "after": "Taste direct proof of what denial and disputation kept at the level of words."
+            }
+          },
+          {
+            "model_id": "d_state_transition_settled",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ب ح",
+              "ق ر ر"
+            ],
+            "mechanism": "A marked morning onset plus fixedness activates the becoming-state branch of ذوق: tasting is the threshold into punishment that has settled, not a transient sample.",
+            "activation_trace": [
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B006",
+                "role": "Becoming a condition supplies the transition from first contact to sustained state."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive pain supplies the state whose onset and persistence the context specifies."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B002",
+                "role": "Arrival in the morning supplies a marked temporal onset for the transition."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement supply duration beyond the first taste."
+              }
+            ],
+            "structural_cues": [
+              "54:38 immediately precedes the focus and predicates punishment as settled.",
+              "The command already occurred in 54:37, then recurs after duration has been specified."
+            ],
+            "reader_inference": "The packet supplies morning arrival and settled punishment; I infer an onset-to-state transition. A live alternative is that settled describes duration while tasting remains momentary.",
+            "changed_reading": {
+              "before": "Take a momentary sample of punishment.",
+              "after": "Cross at its onset into the already announced punishment as an enduring condition."
+            }
+          },
+          {
+            "model_id": "d_punishment_as_mnemonic",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ي س ر",
+              "ذ ك ر"
+            ],
+            "mechanism": "Experiential tasting is followed immediately by ease and remembrance; punishment becomes a bodily mnemonic whose consequence reopens recall after warning was ignored.",
+            "activation_trace": [
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Firsthand ordeal supplies a bodily inscription that can resist later forgetting."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The cautioning alarm supplies the content that the punitive experience makes memorable."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening into ease after difficulty supplies renewed access to the lesson."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that prompts recollection supplies the pedagogical function of the encounter."
+              }
+            ],
+            "structural_cues": [
+              "54:40 immediately follows the focus with the ease-for-remembrance question.",
+              "The focus coordinates punishment and warning before that question, keeping remembered content attached to consequence."
+            ],
+            "reader_inference": "The packet supplies experiential tasting followed by facilitated remembrance; I infer that consequence functions as an anti-forgetting device. A live alternative is that 54:40 is only a compositional refrain.",
+            "changed_reading": {
+              "before": "Punishment confirms a warning after memory has failed.",
+              "after": "The confirmation also forces remembrance: the body carries the warning that memory evaded."
+            }
+          },
+          {
+            "model_id": "d_warning_as_enforceable_liability",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ج ز ي",
+              "ء خ ذ",
+              "ب ر ء",
+              "ز ب ر"
+            ],
+            "mechanism": "The warning behaves like notice of an enforceable claim: recompense can be collected, seizure executes it, and the later question asks whether a written release exists.",
+            "activation_trace": [
+              {
+                "source_ref": "54:39",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B003",
+                "role": "A wound carrying an obligatory assessment supplies the liability image for warning."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive pain supplies execution of the liability rather than mere notification."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B003",
+                "role": "Collection and satisfaction of a debt supply the due becoming payable."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Taking to account for guilt supplies the enforcement step."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B004",
+                "role": "Release from a claim supplies the exemption whose existence is questioned."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and book supply the documentary location imagined for that exemption."
+              }
+            ],
+            "structural_cues": [
+              "54:35 names recompense before the warning and punishment sequence.",
+              "54:42-43 move from seizure to a question about immunity in writings."
+            ],
+            "reader_inference": "The packet supplies recompense, culpable seizure, release, and writing; I infer a notice-to-liability-to-collection arrow. A live alternative is ordinary recompense plus a rhetorical question, with no legal mechanism.",
+            "changed_reading": {
+              "before": "My warnings announce My punishment.",
+              "after": "My warnings operate as notices of liability whose announced due is collected in the punishment."
+            }
+          },
+          {
+            "model_id": "d_collective_claim_stress_test",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ق و ل",
+              "ج م ع",
+              "ن ص ر",
+              "ه ز م"
+            ],
+            "mechanism": "The bow-testing branch of taste activates against a voiced claim of gathered, aided strength; the next ayah breaks the rank, so punishment loads the claim until its capacity is exposed.",
+            "activation_trace": [
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B003",
+                "role": "Testing a bow under tension supplies the stress-test analogy for tasting."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Voiced speech supplies the claim placed under test."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B010",
+                "role": "Gathered strength supplies the claimed load-bearing capacity."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid and manifested support supply the expected protection."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "Breaking and repelling a battle rank supply the observed failure under load."
+              }
+            ],
+            "structural_cues": [
+              "54:44 voices a collective claim of victory, and 54:45 immediately predicts the collective's defeat.",
+              "The focus plural addresses a collective while taste remains an embodied test."
+            ],
+            "reader_inference": "The packet supplies a testing branch, a strength claim, and a broken rank; I infer that punishment functions as the load that falsifies the claim. A live alternative is a military sequence with no test analogy.",
+            "changed_reading": {
+              "before": "A group is ordered to suffer.",
+              "after": "The group is put under load, and its claim of collective invulnerability is experimentally falsified."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_sweetness_reversal",
+            "confidence": "exploratory",
+            "containment": "Surprising because the ع ذ ب inventory places palatable sweetness beside punishment; valid because ذوقوا supplies tasting and the punitive branch preserves the noun's controlling force; render only as ironic root-image resonance, never as a claim that عذاب means sweetness here.",
+            "focus_anchor": "The taste imperative at word 1 and the ع ذ ب noun at word 2.",
+            "activation_trace": [
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B001",
+                "role": "Oral tasting supplies the flavor frame that permits an ironic reversal."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B001",
+                "role": "Sweet and palatable intake supplies the positive pole reversed by punishment."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Severe punitive pain keeps the actual noun anchored in its ordinary force."
+              }
+            ],
+            "changed_reading": {
+              "before": "Taste painful punishment.",
+              "after": "Taste punishment as the bitter reversal of what had seemed palatable."
+            }
+          },
+          {
+            "outlier_id": "o_uncovered_storm_exposure",
+            "confidence": "exploratory",
+            "containment": "Surprising because it activates a rare uncovered-to-sky branch of ع ذ ب; valid because the focus noun carries that branch while 54:34 supplies wind-driven assault and rescue by separation; render as a spatial and material overlay, not a lexical gloss of عذابي.",
+            "focus_anchor": "عذابي at focus word 2, with tasting making exposure bodily.",
+            "activation_trace": [
+              {
+                "source_ref": "54:39",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B004",
+                "role": "Being uncovered beneath the sky supplies exposed vertical geometry to the punishment."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ح ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000325",
+                "branch_id": "B003",
+                "role": "A wind that drives hard matter supplies the assault meeting that exposure."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Rescue through separation supplies the contrasting removal of one party from exposure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Punishment is unspecified suffering.",
+              "after": "Punishment is bodily exposure after sheltering separation: one party is removed while another meets the wind-driven assault."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Denial and disputation become firsthand proof when the warning is tasted as its outcome.",
+            "The preceding settled punishment turns tasting from a sample into entry into a durable state.",
+            "The following remembrance refrain makes punishment an embodied anti-forgetting device.",
+            "Later claims of collective victory place the tasting command under a social stress-test."
+          ],
+          "what_was_special": "One imperative governs both punishment and warnings, allowing sensory, temporal, mnemonic, legal, and stress-test readings without detaching from the three focus roots.",
+          "remaining_uncertainties": [
+            "The state-entry force depends on a distant ذ و ق branch and may be only contextual resonance.",
+            "The legal and bow-testing models are functional analogies, not lexical replacements.",
+            "The sweetness and exposure outliers should remain qualified branch echoes."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The warning is consumed as the experience it announced.** `ذ و ق` B001 is tasting and B002 experiencing/testing; `ع ذ ب` B005 is torment; `ن ذ ر` B001 is warning. The imperative repeats 54:37 but now follows the punishment’s settled arrival. I infer that warning and punishment are joined by experiential verification: what could have been cognitively received must now be bodily tested. The coordination `عَذَابِى وَنُذُرِ` makes the warning present inside its realization rather than leaving it behind in the past.",
@@ -2499,18 +3074,23 @@
   "root_lexicon": {
     "root_000526": {
       "root_ar": "ذ و ق",
+      "qac_roots_ar": [
+        "ذ و ق"
+      ],
       "root_id": "root_000526",
-      "root_mapping": {
-        "root_id": "root_000526",
-        "root_norm": "ذ و ق",
-        "source_root_norm": "ذ و ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 45,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ذ و ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 45
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "0f8a8391ea5450ede93dee10cc636fa0094bbb7f864854358a8cc466bd70fc40",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4891,18 +5471,23 @@
     },
     "root_000994": {
       "root_ar": "ع ذ ب",
+      "qac_roots_ar": [
+        "ع ذ ب"
+      ],
       "root_id": "root_000994",
-      "root_mapping": {
-        "root_id": "root_000994",
-        "root_norm": "ع ذ ب",
-        "source_root_norm": "ع ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 372,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 372
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "51108e6a196357bcef2fb095a8013cd0b5662aeca84ff34a23472408615bc073",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7988,18 +8573,23 @@
     },
     "root_001488": {
       "root_ar": "ن ذ ر",
+      "qac_roots_ar": [
+        "ن ذ ر"
+      ],
       "root_id": "root_001488",
-      "root_mapping": {
-        "root_id": "root_001488",
-        "root_norm": "ن ذ ر",
-        "source_root_norm": "ن ذ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9b8307ef70c2b201e5cde104a00eae217e678983e73b9dde34cef1bec9a54997",
         "branches": [
@@ -8709,14 +9299,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8989,11 +9585,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_39.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_39.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 87037,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9068,19 +9677,37 @@
           "root_ids": [
             "root_000526"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ذ و ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000526",
+            "targets": [
+              {
+                "qac_root_norm": "ذ و ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000526",
+                "furuq_root_norm": "ذ و ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 45,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000526",
-              "root_norm": "ذ و ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ذ و ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 45,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9105,19 +9732,37 @@
           "root_ids": [
             "root_000994"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000994",
+            "targets": [
+              {
+                "qac_root_norm": "ع ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000994",
+                "furuq_root_norm": "ع ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 372,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000994",
-              "root_norm": "ع ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 372,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9142,19 +9787,37 @@
           "root_ids": [
             "root_001488"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ذ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001488",
+            "targets": [
+              {
+                "qac_root_norm": "ن ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001488",
+                "furuq_root_norm": "ن ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001488",
-              "root_norm": "ن ذ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -9168,10 +9831,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 18,
+        "dictionary_branches_kept": 18,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 15,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:14.819189+00:00",
+  "generated_at": "2026-08-04T22:29:39.571242+00:00",
   "surah": 19,
   "ayah": 67,
   "ayahRef": "19:67",
@@ -2708,7 +2708,8 @@
         "m-w-s019-a067-w001-01",
         "m-w-s019-a067-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:67:1"
+      "aligned_qac_word_ref_upstream": "19:67:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2722,7 +2723,8 @@
       "morpheme_ids": [
         "m-w-s019-a067-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "19:67:2"
+      "aligned_qac_word_ref_upstream": "19:67:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2736,17 +2738,118 @@
       "morpheme_ids": [
         "m-w-s019-a067-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:67:3"
+      "aligned_qac_word_ref_upstream": "19:67:3",
+      "morpheme_skip_count": 0
     },
     null,
+    {
+      "word_index": 4,
+      "surface_ar": "أَنَّا",
+      "word_ids": [
+        "w-s019-a067-w004"
+      ],
+      "qac_refs": [
+        "19:67:4:1",
+        "19:67:4:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a067-w004-01",
+        "m-w-s019-a067-w004-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:67:5",
+      "morpheme_skip_count": 2
+    },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 6,
+      "surface_ar": "مِنْ",
+      "word_ids": [
+        "w-s019-a067-w006"
+      ],
+      "qac_refs": [
+        "19:67:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a067-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:67:7",
+      "morpheme_skip_count": 3
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "قَبْلُ",
+      "word_ids": [
+        "w-s019-a067-w007"
+      ],
+      "qac_refs": [
+        "19:67:7:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a067-w007-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:67:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s019-a067-w008"
+      ],
+      "qac_refs": [
+        "19:67:8:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a067-w008-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:67:9",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 9,
+      "surface_ar": "لَمْ",
+      "word_ids": [
+        "w-s019-a067-w008"
+      ],
+      "qac_refs": [
+        "19:67:8:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a067-w008-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:67:10",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 10,
+      "surface_ar": "يَكُ",
+      "word_ids": [
+        "w-s019-a067-w009"
+      ],
+      "qac_refs": [
+        "19:67:9:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a067-w009-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:67:11",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 11,
+      "surface_ar": "شَيْـًۭٔا",
+      "word_ids": [
+        "w-s019-a067-w010"
+      ],
+      "qac_refs": [
+        "19:67:10:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a067-w010-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:67:12",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3777,7 +3880,710 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_67.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:67",
+      "window": [
+        "19:59",
+        "19:60",
+        "19:61",
+        "19:62",
+        "19:63",
+        "19:64",
+        "19:65",
+        "19:66",
+        "19:67",
+        "19:68",
+        "19:69",
+        "19:70",
+        "19:71",
+        "19:72",
+        "19:73",
+        "19:74",
+        "19:75",
+        "19:76"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:67",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_origin_as_recoverable_transition",
+            "confidence": "strong",
+            "focus_anchor": "The focus question joins remembering at word 2 to creation at word 5 and prior non-thinghood at words 9-10.",
+            "mechanism": "Present, reportable existence is a backward trace of a transition the human did not witness: creative origination moved the subject from no temporal presence as a thing into the very state from which recollection is now demanded.",
+            "activation_trace": [
+              {
+                "source_ref": "19:67",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall after absence supplies the recovery operation that makes an unwitnessed origin present to thought."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative bringing-into-existence supplies the effective transition from absence to the present subject."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time mark the state negated before creation and instantiated now."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The knowable, reportable thing defines the acquired terminus whose prior absence the question exposes."
+              }
+            ],
+            "changed_reading": {
+              "before": "A general reminder that the human was created.",
+              "after": "The human's current presence as something knowable and reportable is itself evidence from which an unremembered origin can be reconstructed."
+            }
+          },
+          {
+            "model_id": "b_creation_as_individuation",
+            "confidence": "medium",
+            "focus_anchor": "The creation verb at word 5 precedes the contrast between temporal occurrence and being no thing at words 7-10.",
+            "mechanism": "Creation can be read as measured formation as well as origination: a temporal boundary separates lack of individuated, describable standing from a proportioned form that can be identified as this human.",
+            "activation_trace": [
+              {
+                "source_ref": "19:67",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supply the differentiating operation rather than bare undirected making."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Completed, balanced form supplies the visible result of that measured individuation."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "Temporal precedence supplies the boundary across which the subject's status changes."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "Thinghood as availability to knowledge and report supplies the endpoint of individuation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse states absolute nonexistence followed by making.",
+              "after": "The verse also marks a threshold of individuation: measured creation gives the human form and reportable identity where neither previously obtained."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_generational_succession",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ف",
+              "ب ع د",
+              "ه ل ك",
+              "ق ب ل",
+              "ق ر ن"
+            ],
+            "mechanism": "The successor who comes after predecessors in 19:59 and the destroyed generations before the audience in 19:74 scale the focus boundary from one biography to historical succession: those once brought into identifiable human existence become predecessors replaced by others.",
+            "activation_trace": [
+              {
+                "source_ref": "19:67",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "Temporal precedence anchors the focus subject on the before-after axis expanded by the context."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "Reportable thinghood supplies the individual state that succession grants and historical loss relativizes."
+              },
+              {
+                "source_ref": "19:59",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B001",
+                "role": "One thing coming after another and taking its place supplies the replacement mechanism."
+              },
+              {
+                "source_ref": "19:59",
+                "root": "ب ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000131",
+                "branch_id": "B002",
+                "role": "After following before makes the contextual succession explicitly continuous with the focus's temporal boundary."
+              },
+              {
+                "source_ref": "19:74",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B001",
+                "role": "Falling into destruction supplies the loss side of the generational sequence."
+              },
+              {
+                "source_ref": "19:74",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "The earlier generations instantiate the same precedence branch outside the focus biography."
+              },
+              {
+                "source_ref": "19:74",
+                "root": "ق ر ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001221",
+                "branch_id": "B005",
+                "role": "A people joined in one time supplies the collective scale on which origination and disappearance repeat."
+              }
+            ],
+            "structural_cues": [
+              "19:59 opens the window with successor-and-after language, while 19:74 asks how many generations before the audience were destroyed.",
+              "The focus's singular human is thus bracketed by plural historical replacement without losing its word-level origin anchor."
+            ],
+            "reader_inference": "The packet supplies successors after predecessors and destroyed earlier generations; I infer that the focus's before/non-thing boundary can recur at a historical scale; alternatively, it may refer only to individual origination.",
+            "changed_reading": {
+              "before": "The question concerns only one person's pre-creation state.",
+              "after": "The person's emergence from non-thinghood is one instance in a succession where whole human cohorts acquire presence, become 'before,' and are replaced."
+            }
+          },
+          {
+            "model_id": "d_unseen_arrival_mirror",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ع د",
+              "غ ي ب",
+              "ك و ن",
+              "ء ت ي"
+            ],
+            "mechanism": "In 19:61 a promise hidden from sight is nevertheless characterized through being and arrival. This mirrors the focus retrospectively: the human's once-unavailable existence did arrive, so remembered origin supplies a temporal model for a promised but not-yet-visible future.",
+            "activation_trace": [
+              {
+                "source_ref": "19:67",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recovered recollection supplies the past transition used as the model for unseen futurity."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Temporal occurrence supplies the focus's realized endpoint and the hinge of the mirror."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "4",
+                  "10"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B001",
+                "role": "A spoken promise opening hope supplies the future claim whose credibility is being reframed."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "غ ي ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001117",
+                "branch_id": "B001",
+                "role": "Concealment from sight supplies the future's present inaccessibility without making it unreal."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Being in time links the contextual promise grammatically to the focus's negated prior being."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming and arrival supply the directional move from hidden promise to realized event."
+              }
+            ],
+            "structural_cues": [
+              "19:61 combines unseen concealment, repeated promise language, a being verb, and an arrival predicate in one sentence.",
+              "The focus reverses that orientation by looking from realized presence back toward a formerly absent state."
+            ],
+            "reader_inference": "The packet supplies an unseen promise described as coming and a focus subject who came to be after non-thinghood; I supply the past-to-future analogy; alternatively, the two temporal constructions may remain independent.",
+            "changed_reading": {
+              "before": "Remembering origin is only retrospective.",
+              "after": "Remembering origin trains temporal trust: what is not visible now may still arrive, just as the presently visible human once had no thinghood."
+            }
+          },
+          {
+            "model_id": "d_memory_orientation_asymmetry",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ي ن",
+              "ي د ي",
+              "خ ل ف",
+              "ن س ي"
+            ],
+            "mechanism": "The field of what lies ahead, behind, and between in 19:64 is held together by the denial of divine forgetting. Against it, the focus question diagnoses human failure to recover an origin lying outside present orientation: the missing link is in human attention, not in the continuity of creative knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "19:67",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall opposed to forgetting supplies the human side of the memory asymmetry."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "What precedes in time locates the origin beyond the human's present-facing attention."
+              },
+              {
+                "source_ref": "19:64",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8",
+                  "13"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "The interval between two sides supplies the inclusive middle of the temporal-spatial field."
+              },
+              {
+                "source_ref": "19:64",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B008",
+                "role": "What is between the hands supplies the forward-facing side of that field."
+              },
+              {
+                "source_ref": "19:64",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B002",
+                "role": "What lies behind supplies the hidden rearward side where the human origin can be neglected."
+              },
+              {
+                "source_ref": "19:64",
+                "root": "ن س ي",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_001501",
+                "branch_id": "B001",
+                "role": "Loss of recollection supplies the explicit negated counterpart to the focus demand to remember."
+              }
+            ],
+            "structural_cues": [
+              "The denial that the Lord is forgetful in 19:64 closely precedes the question whether the human remembers in 19:67.",
+              "Ahead, behind, and between form an exhaustive orientation rather than a detached list of places."
+            ],
+            "reader_inference": "The packet supplies exhaustive orientation and denied divine forgetting beside demanded human recall; I infer an asymmetry of continuous knowledge versus selective attention; alternatively, 19:64 may concern only angelic movement.",
+            "changed_reading": {
+              "before": "The human simply lacks a memory of creation.",
+              "after": "The question exposes selective disorientation: the origin remains within an unforgotten temporal whole even when the human fails to turn attention behind the present self."
+            }
+          },
+          {
+            "model_id": "d_first_origin_answers_reemergence",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ن س",
+              "م و ت",
+              "خ ر ج",
+              "ح ي ي"
+            ],
+            "mechanism": "The same human who asks in 19:66 whether death can be followed by being brought out alive is redirected in 19:67 to a more radical completed transition: creation already brought a subject from no thinghood into temporal presence.",
+            "activation_trace": [
+              {
+                "source_ref": "19:67",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination supplies the completed precedent against which later re-emergence is assessed."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Coming to temporal presence supplies the result already achieved once."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "Prior absence as a knowable or reportable thing sets a lower starting point than death."
+              },
+              {
+                "source_ref": "19:66",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The visible human category fixes the adjacent doubter and remembered creature as the same subject."
+              },
+              {
+                "source_ref": "19:66",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of force and life supplies the doubter's proposed terminal state."
+              },
+              {
+                "source_ref": "19:66",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Bringing a thing out of concealment supplies the questioned transition beyond death."
+              },
+              {
+                "source_ref": "19:66",
+                "root": "ح ي ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000383",
+                "branch_id": "B003",
+                "role": "Living, animate existence supplies the endpoint whose restoration the human doubts."
+              }
+            ],
+            "structural_cues": [
+              "The human's question in 19:66 is immediately answered by the counter-question beginning 19:67.",
+              "The repeated definite human makes the origin clause answer the same speaker rather than introduce a new subject."
+            ],
+            "reader_inference": "The packet supplies death, passive emergence alive, and prior creation from non-thinghood; I infer an a-fortiori analogy from first origin to re-emergence; alternatively, the reply may establish possibility without specifying how restoration occurs.",
+            "changed_reading": {
+              "before": "The focus is a free-standing reminder of creation.",
+              "after": "The focus is a direct rebuttal to resurrection doubt: a completed transition from no thinghood to life is the stronger precedent for emergence after death."
+            }
+          },
+          {
+            "model_id": "d_created_identity_becomes_presentable",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ش ر",
+              "ح ض ر",
+              "ج ث و"
+            ],
+            "mechanism": "The focus moves from no reportable thing to an identifiable human; 19:68 then gathers that plurality to a destination and brings them into witnessed proximity. Origination therefore yields not anonymous substance but an identity capable of being summoned and publicly positioned.",
+            "activation_trace": [
+              {
+                "source_ref": "19:67",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "The visible, social human supplies the identity that can enter a collective scene."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "Reportable thinghood supplies the contrast between prior nonentity and later summonable identity."
+              },
+              {
+                "source_ref": "19:68",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Driving and collecting a group toward a destination supplies the assembly operation."
+              },
+              {
+                "source_ref": "19:68",
+                "root": "ح ض ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000333",
+                "branch_id": "B001",
+                "role": "Presence, witnessing, and proximity supply the public availability of each gathered subject."
+              },
+              {
+                "source_ref": "19:68",
+                "root": "ج ث و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000223",
+                "branch_id": "B001",
+                "role": "Kneeling supplies the concrete bodily position that replaces abstract non-thinghood."
+              }
+            ],
+            "structural_cues": [
+              "The singular origin question in 19:67 turns immediately into plural gathering and causative presentation in 19:68.",
+              "The sequence progresses from identity, to collection, to proximity, to a fixed bodily posture."
+            ],
+            "reader_inference": "The packet supplies creation into thinghood followed by collective gathering and presentation; I infer continuity of accountable identity across those stages; alternatively, 19:68 may stress divine power over the group rather than individuation.",
+            "changed_reading": {
+              "before": "Creation grants existence in an abstract sense.",
+              "after": "Creation grants a locatable human identity that can later be collected, brought into view, and bodily positioned for accountability."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_zero_to_protected_unit",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it shifts non-thinghood toward juridical or accounting status; it remains anchored in the focus's thing root and that root's exact recurrence beside non-withholding in 19:60. Render it only as a lexical activation, not as a claim that the focus phrase itself means legal rights.",
+            "focus_anchor": "The focus's no-thing construction at words 9-10, read beside creation at word 5.",
+            "activation_trace": [
+              {
+                "source_ref": "19:67",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The general knowable and reportable thing supplies the zero-versus-countable axis."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination supplies the move by which the formerly absent unit acquires existence."
+              },
+              {
+                "source_ref": "19:60",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The same thing branch functions quantificationally as the smallest reportable unit that is not lost."
+              },
+              {
+                "source_ref": "19:60",
+                "root": "ظ ل م",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000967",
+                "branch_id": "B008",
+                "role": "Withholding or confining a due right supplies the juridical frame in which no unit is denied."
+              }
+            ],
+            "changed_reading": {
+              "before": "Not being a thing names only ontological absence.",
+              "after": "Exploratorily, creation also moves the human from zero standing to a countable subject for whom not even a thing is withheld."
+            }
+          },
+          {
+            "outlier_id": "o_counted_entry_into_time",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it activates the packet's non-dominant counted mapping of the promise root in 19:61. It remains formally valid through the exact mapped inventory and the focus's being-and-thing anchors; downstream prose should mark it as secondary wordplay, not replace the ordinary promise reading.",
+            "focus_anchor": "The focus's transition into temporal presence and reportable thinghood at words 9-10.",
+            "activation_trace": [
+              {
+                "source_ref": "19:67",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence in time supplies entry into the temporal order."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "Reportable thinghood supplies the entity that can become enumerable."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "4",
+                  "10"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration of what is counted supplies the exploratory conversion of promise-time into an ordered tally."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "4",
+                  "10"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B003",
+                "role": "A counted duration supplies an appointed interval between non-thinghood and arrival."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Arrival supplies the completion of the counted temporal movement."
+              }
+            ],
+            "changed_reading": {
+              "before": "Creation changes nonexistence into existence.",
+              "after": "Exploratorily, creation admits the human into a counted temporal order: what was not yet an item becomes a thing whose appointed course can arrive."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The adjacent death-and-emergence question makes first origination a direct a-fortiori answer to resurrection doubt.",
+            "The denial of divine forgetting amid ahead-behind-between orientation turns human non-remembrance into selective temporal disorientation.",
+            "Successors and destroyed prior generations expand the individual origin boundary into a repeated historical succession."
+          ],
+          "what_was_special": "The focus's compact chain of remembering, measured origination, temporal being, and thinghood supported several mechanisms without collapsing them: evidential recall, individuation, future-arrival analogy, generational replacement, and public presentation.",
+          "remaining_uncertainties": [
+            "The reportable-thing branch may add more semantic weight to the indefinite than the syntax requires.",
+            "The 19:64 memory contrast may be contextual resonance rather than a direct argumentative link.",
+            "The counted mapping of the promise root is deliberately retained only as a branch-distant outlier."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -5069,18 +5875,23 @@
   "root_lexicon": {
     "root_000516": {
       "root_ar": "ذ ك ر",
+      "qac_roots_ar": [
+        "ذ ك ر"
+      ],
       "root_id": "root_000516",
-      "root_mapping": {
-        "root_id": "root_000516",
-        "root_norm": "ذ ك ر",
-        "source_root_norm": "ذ ك ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 277,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ذ ك ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 277
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9e1ac4e24b425fdb7ad3bf1a72543af44c5ebca087ae33fa01fd168eb8a28cec",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8634,18 +9445,23 @@
     },
     "root_000059": {
       "root_ar": "ء ن س",
+      "qac_roots_ar": [
+        "ء ن س"
+      ],
       "root_id": "root_000059",
-      "root_mapping": {
-        "root_id": "root_000059",
-        "root_norm": "ء ن س",
-        "source_root_norm": "أ ن س",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ن س",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ecc8272a67ad291d3f7fbbb6469e57d3ad885bbacc06c915e2dc82213ef46f67",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11209,18 +12025,23 @@
     },
     "root_000434": {
       "root_ar": "خ ل ق",
+      "qac_roots_ar": [
+        "خ ل ق"
+      ],
       "root_id": "root_000434",
-      "root_mapping": {
-        "root_id": "root_000434",
-        "root_norm": "خ ل ق",
-        "source_root_norm": "خ ل ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 250,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ل ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 250
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "54ab2053cb6b55a96d87f5b4410d36c8efbb346396818f0835218322730f6af4",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14982,18 +15803,23 @@
     },
     "root_001198": {
       "root_ar": "ق ب ل",
+      "qac_roots_ar": [
+        "ق ب ل"
+      ],
       "root_id": "root_001198",
-      "root_mapping": {
-        "root_id": "root_001198",
-        "root_norm": "ق ب ل",
-        "source_root_norm": "ق ب ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 288,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ب ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 288
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "56d95fdacdabd3a8f6caef7f736a82672b72c1e2e67cef0dc9018a9d5ad9d415",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -18234,18 +19060,23 @@
     },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -19365,18 +20196,23 @@
     },
     "root_000831": {
       "root_ar": "ش ي ء",
+      "qac_roots_ar": [
+        "ش ي ء"
+      ],
       "root_id": "root_000831",
-      "root_mapping": {
-        "root_id": "root_000831",
-        "root_norm": "ش ي ء",
-        "source_root_norm": "ش ي ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 509,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ي ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 509
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -19395,8 +20231,15 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
       "words_total": 12,
-      "words_resolved": 3,
-      "words_unresolved": 9,
+      "words_resolved": 10,
+      "words_unresolved": 2,
+      "morpheme_skip_total": 5,
+      "morpheme_skip_max": 3,
+      "morpheme_skip_histogram": {
+        "0": 8,
+        "2": 1,
+        "3": 1
+      },
       "unresolved": [
         {
           "word_index": 3,
@@ -19404,53 +20247,19 @@
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         },
         {
-          "word_index": 4,
-          "surface_ar": "أَنَّا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
           "word_index": 5,
           "surface_ar": "خَلَقْنَاهُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "مِنْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "قَبْلُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 9,
-          "surface_ar": "لَمْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 10,
-          "surface_ar": "يَكُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 11,
-          "surface_ar": "شَيْـًۭٔا",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -19824,11 +20633,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_67.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_67.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 159543,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -19904,19 +20726,37 @@
           "root_ids": [
             "root_000516"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ذ ك ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000516",
+            "targets": [
+              {
+                "qac_root_norm": "ذ ك ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000516",
+                "furuq_root_norm": "ذ ك ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 277,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000516",
-              "root_norm": "ذ ك ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ذ ك ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 277,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -19941,19 +20781,37 @@
           "root_ids": [
             "root_000059"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ن س",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000059",
+            "targets": [
+              {
+                "qac_root_norm": "ء ن س",
+                "target_rank": 1,
+                "furuq_root_id": "root_000059",
+                "furuq_root_norm": "ء ن س",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000059",
-              "root_norm": "ء ن س",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ن س",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 28,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -19978,19 +20836,37 @@
           "root_ids": [
             "root_000434"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ل ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000434",
+            "targets": [
+              {
+                "qac_root_norm": "خ ل ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000434",
+                "furuq_root_norm": "خ ل ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 250,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000434",
-              "root_norm": "خ ل ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ل ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 250,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20015,19 +20891,37 @@
           "root_ids": [
             "root_001198"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ب ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001198",
+            "targets": [
+              {
+                "qac_root_norm": "ق ب ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001198",
+                "furuq_root_norm": "ق ب ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 288,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001198",
-              "root_norm": "ق ب ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ب ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 288,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20052,19 +20946,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -20076,19 +20988,37 @@
           "root_ids": [
             "root_000831"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ي ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000831",
+            "targets": [
+              {
+                "qac_root_norm": "ش ي ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000831",
+                "furuq_root_norm": "ش ي ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 509,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000831",
-              "root_norm": "ش ي ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ي ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 509,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -20102,10 +21032,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 50,
+        "dictionary_branches_kept": 50,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 44,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

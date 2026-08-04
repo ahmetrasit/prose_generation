@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T05:42:10.345518+00:00",
+  "generated_at": "2026-08-04T22:28:17.317067+00:00",
   "surah": 12,
   "ayah": 1,
   "ayahRef": "12:1",
@@ -1670,7 +1670,8 @@
       "morpheme_ids": [
         "m-w-s012-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:1:1"
+      "aligned_qac_word_ref_upstream": "12:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1684,7 +1685,8 @@
       "morpheme_ids": [
         "m-w-s012-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:1:2"
+      "aligned_qac_word_ref_upstream": "12:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1698,7 +1700,8 @@
       "morpheme_ids": [
         "m-w-s012-a001-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:1:3"
+      "aligned_qac_word_ref_upstream": "12:1:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1714,7 +1717,8 @@
         "m-w-s012-a001-w004-01",
         "m-w-s012-a001-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:1:4"
+      "aligned_qac_word_ref_upstream": "12:1:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1730,7 +1734,8 @@
         "m-w-s012-a001-w005-01",
         "m-w-s012-a001-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:1:5"
+      "aligned_qac_word_ref_upstream": "12:1:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2409,7 +2414,1061 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s12/packets/12_1.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "12:1",
+      "window": [
+        "12:1",
+        "12:2",
+        "12:3",
+        "12:4",
+        "12:5",
+        "12:6",
+        "12:7",
+        "12:8",
+        "12:9",
+        "12:10",
+        "12:11",
+        "12:12",
+        "12:13",
+        "12:14",
+        "12:15",
+        "12:16",
+        "12:17",
+        "12:18"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "12:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_assembled_disclosure",
+            "confidence": "strong",
+            "focus_anchor": "ءَايَاتُ الْكِتَابِ الْمُبِينِ",
+            "mechanism": "Marked units are joined into a written composition whose work is to bring what is latent into view and expose meaning. Clarity is therefore an operation performed by the composition, not only a surface quality it possesses.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest-sign branch makes each ayah a diagnostic mark within the composition."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "The joining branch supplies the compositional act that binds separate signs into a book."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "The ordered-letters and written-object branch gives the joined signs a textual form."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The appearing and uncovering branch makes clarity an event of manifestation."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "The branch of exposing meaning by speech or sign gives the book an active explanatory function."
+              }
+            ],
+            "changed_reading": {
+              "before": "These are verses belonging to a book that is clear.",
+              "after": "These are marked units of a composition that actively joins signs so that concealed meaning can appear."
+            }
+          },
+          {
+            "model_id": "baseline_joined_differences",
+            "confidence": "medium",
+            "focus_anchor": "The construct relation between آيات, الكتاب, and المبين",
+            "mechanism": "The book joins, but البيان also separates, spaces, and connects. Its intelligibility can arise from articulated differences: units become readable because boundaries, intervals, and relations are preserved inside the whole.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest-sign branch supplies distinct marked units that can differ from one another."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "The joining branch supplies the whole that holds the distinct units together."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B001",
+                "role": "The separation branch provides boundaries by which one sign is distinguished from another."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "The interval branch supplies the meaningful between-space across which signs are compared."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B003",
+                "role": "The connective branch prevents distinction from becoming fragmentation and makes relation itself legible."
+              }
+            ],
+            "changed_reading": {
+              "before": "The clear book is a uniformly transparent object.",
+              "after": "The book becomes clear through an architecture of joined signs, maintained boundaries, intervals, and connective relations."
+            }
+          },
+          {
+            "model_id": "baseline_binding_register",
+            "confidence": "exploratory",
+            "focus_anchor": "آيات الكتاب with المبين as disclosure",
+            "mechanism": "The signs can be read as entries in a binding register: the book fixes a judgment or allocation, enrolls persons or positions, and eventually exposes what that registration entails.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B002",
+                "role": "The branch of intentionally aiming at a person's sign gives the ayat a person-indexing potential."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "The branch of fixing an obligatory judgment or decree makes the book consequential rather than merely descriptive."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B004",
+                "role": "The enrollment branch supplies the image of names or parties entered into a register."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The uncovering branch makes the registered position and its consequence eventually visible."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase announces generic scriptural verses.",
+              "after": "The phrase may announce signs in a binding register that identifies positions, fixes consequences, and discloses them."
+            }
+          },
+          {
+            "model_id": "baseline_deferred_manifestation",
+            "confidence": "exploratory",
+            "focus_anchor": "The tension between آيات and مبين",
+            "mechanism": "A sign need not disclose at first contact. Waiting, a fixed inscription, and manifestation during an unfolding event allow المبين to name eventual or processive clarity.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B001",
+                "role": "The waiting and tarrying branch introduces latency into the sign."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "The fixed-decree branch supplies an order already inscribed before its effects are visible."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B010",
+                "role": "The during-an-event branch locates disclosure inside temporal unfolding."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The uncovering branch supplies the later emergence that resolves the period of latency."
+              }
+            ],
+            "changed_reading": {
+              "before": "Mubin means that every sign is immediately transparent.",
+              "after": "Mubin can name a written order whose signs become manifest during an unfolding and may require waiting."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_descended_reassembly",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ز ل",
+              "ق ر ء",
+              "ع ر ب",
+              "ع ق ل"
+            ],
+            "mechanism": "The joined book becomes a transmission-and-uptake event: it is conveyed and put into reach, gathered again in recitation, articulated, and cognitively held against ignorance. Clarity is completed across delivery, voiced assembly, and disciplined reception.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "The joining branch supplies the focus model that context turns into repeated assembly."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "The meaning-exposing branch supplies the active clarity whose pathway the context specifies."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "The conveying branch moves the composition from source toward recipients."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B004",
+                "role": "The placing-in-its-station branch makes descent an ordered placement rather than bare downward motion."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "The gathering branch reassembles the delivered signs as a recitable whole."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "The reading and recitation branch gives the reassembled whole a voiced mode of transmission."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B001",
+                "role": "The articulation branch converts voiced gathering into explicit expression."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "The reason-that-restrains-ignorance branch makes disciplined uptake the receiving end of disclosure."
+              }
+            ],
+            "structural_cues": [
+              "12:2 immediately sequences descent, Qur'an, Arabic qualification, and anticipated understanding after the deictic opening.",
+              "The object pronoun in أَنزَلْنَاهُ treats the introduced complex as something conveyed, while لَعَلَّكُمْ makes successful uptake prospective."
+            ],
+            "reader_inference": "The packet supplies conveyance, placement, gathering, articulation, and restraint from ignorance. I infer a causal path from delivery through recitation to understanding; a live alternative is that these are independent attributes rather than stages of one mechanism.",
+            "changed_reading": {
+              "before": "The book is a completed clear object presented to sight.",
+              "after": "The book makes clear by being placed within reach, reassembled in recitation, articulated, and held by understanding."
+            }
+          },
+          {
+            "model_id": "delta_trace_repairs_unmarkedness",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ص ص",
+              "و ح ي",
+              "غ ف ل"
+            ],
+            "mechanism": "The book's signs become an ordered recovery system. Revelation supplies hidden knowledge and an inscription image, narration follows and sequences traces, and prior heedlessness appears as material left outside alertness or without a mark. The clear book repairs that unmarked absence by arranging recoverable traces.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest-sign branch supplies the marks that the context turns into a recoverable trail."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "The written-composition branch supplies the durable arrangement of recovered traces."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The uncovering branch makes recovery from prior absence the mode of clarity."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "ق ص ص",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001232",
+                "branch_id": "B001",
+                "role": "The trace-following branch gives narration an evidential path rather than a loose theme."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "ق ص ص",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001232",
+                "branch_id": "B002",
+                "role": "The sequential-report branch orders the recovered path into communicable narrative."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "The secretly imparted knowledge branch supplies content that is initially unavailable to ordinary awareness."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B003",
+                "role": "The writing and engraving branch links revelation to the focus book as inscription."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "غ ف ل",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_001097",
+                "branch_id": "B002",
+                "role": "The branch of leaving something without writing or a sign supplies the precise deficit that the marked narrative repairs."
+              }
+            ],
+            "structural_cues": [
+              "12:3 places repeated ق ص ص, revelation, this Qur'an, priorness, and ghafla in one sentence.",
+              "The movement from مِن قَبْلِهِ to narrated sequence makes previous absence the temporal background of the new signs."
+            ],
+            "reader_inference": "The packet supplies trace-following, sequential report, concealed knowledge, inscription, and an unmarked-omission branch. I infer that the book repairs lost marking by sequencing traces; a live alternative is ordinary narration overcoming inattention without an inscription-recovery mechanism.",
+            "changed_reading": {
+              "before": "The clear book simply states what was already available to be seen.",
+              "after": "The clear book creates a marked, sequential trail by which what had been unrecorded or outside awareness becomes recoverable."
+            }
+          },
+          {
+            "model_id": "delta_deferred_dream_clarity",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ق ص ص",
+              "ك ي د",
+              "ء و ل",
+              "ح د ث"
+            ],
+            "mechanism": "A dream presents a compact sign-configuration, but recounting it can trigger hostile action and its meaning returns only through later outcome and taught interpretation. Mubin thus coexists with encrypted presentation, controlled circulation, and retrospective realization.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest-sign branch anchors the dream configuration as a sign rather than an independent theme."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The uncovering branch supplies the eventual clarity toward which the initially compressed image moves."
+              },
+              {
+                "source_ref": "12:4",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "7",
+                  "13"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B003",
+                "role": "The dream-vision branch gives the first sign a perceptible but not yet decoded form."
+              },
+              {
+                "source_ref": "12:5",
+                "root": "ق ص ص",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001232",
+                "branch_id": "B001",
+                "role": "The trace-following branch makes recounting a release of the sign into a social path."
+              },
+              {
+                "source_ref": "12:5",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "8",
+                  "10"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "The plotting branch shows that premature circulation of a sign can alter the causal field around it."
+              },
+              {
+                "source_ref": "12:6",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "6",
+                  "12"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "The return-to-outcome branch activates the تأويل occurrence as retrospective realization; the paired آل index is not used for this directional arrow."
+              },
+              {
+                "source_ref": "12:6",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "The branch of reports renewed as news makes interpretation operate across successive tellings and events."
+              }
+            ],
+            "structural_cues": [
+              "12:4 repeats رَأَيْتُ around the celestial configuration; 12:5 forbids its recounting; 12:6 promises teaching of تأويل.",
+              "The sequence makes concealment, social risk, and later interpretation successive states of one sign."
+            ],
+            "reader_inference": "The packet supplies dream vision, trace-circulation, plotting, return to outcome, and renewed report. I infer that a clear sign may be prospectively clear yet presently compressed; a live alternative is that the dream is only one narrative episode and does not qualify المبين generally.",
+            "changed_reading": {
+              "before": "A sign of the clear book should disclose its meaning immediately and safely.",
+              "after": "A sign can be visibly given yet semantically deferred, dangerous to circulate, and made clear only as events return it to its outcome."
+            }
+          },
+          {
+            "model_id": "delta_inquiry_makes_signs",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ي ي",
+              "س ء ل"
+            ],
+            "mechanism": "The repeated ayat are now located in Yusuf and his brothers and directed to questioners. The book's signs are therefore not confined to textual segments; inquiry activates patterns embedded in persons, relations, and events.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest-sign branch establishes the focus category that is repeated in the lived scene."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "The exposing-by-sign branch lets contextual events perform the book's explanatory work."
+              },
+              {
+                "source_ref": "12:7",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The repeated manifest-sign branch relocates ayat inside Yusuf and his brothers."
+              },
+              {
+                "source_ref": "12:7",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The asking and seeking branch makes inquiry the recipient-side action by which embedded signs become salient."
+              }
+            ],
+            "structural_cues": [
+              "12:7 places آيات inside the construction فِي يُوسُفَ وَإِخْوَتِهِ and gives them to السائلين.",
+              "The lexical return of آيات after six verses links the focus book to a concrete relational field."
+            ],
+            "reader_inference": "The packet supplies the repeated sign word, a locative relation, and questioners. I infer that inquiry activates signs in events; a live alternative is that questioners are only an audience and the signs are already fully explicit lessons.",
+            "changed_reading": {
+              "before": "The ayat are textual units passively contained in the book.",
+              "after": "The ayat also emerge as relational patterns in lived events and become especially legible under questioning."
+            }
+          },
+          {
+            "model_id": "delta_clarity_as_contested_predication",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ي ن",
+              "ك ي د",
+              "ق و ل"
+            ],
+            "mechanism": "Mubin crosses sharply different predications: the book, an enemy, and the brothers' accusation that their father is in error. Because the last claim comes from speakers already entering a plot, 'clear' can function as forceful framing as well as true disclosure. The book's clarity must therefore expose and adjudicate clarity-claims, not merely repeat their confidence.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The uncovering branch supplies the focus claim of manifestation against which later uses are tested."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "The exposing-by-speech branch allows clarity to be examined as something asserted in language."
+              },
+              {
+                "source_ref": "12:5",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "8",
+                  "10"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "The plotting branch establishes a social environment in which forceful descriptions may be strategic."
+              },
+              {
+                "source_ref": "12:5",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The same uncovering branch names an enemy whose hostility is openly operative."
+              },
+              {
+                "source_ref": "12:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "The spoken-utterance branch marks the brothers' diagnosis as a voiced claim rather than neutral narration."
+              },
+              {
+                "source_ref": "12:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "The branch of saying or ascribing what is not so keeps false predication live within their speech."
+              },
+              {
+                "source_ref": "12:8",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The uncovering branch is recruited by the brothers to present their father's alleged error as obvious."
+              }
+            ],
+            "structural_cues": [
+              "The same adjective modifies the book in 12:1, the enemy in 12:5, and the father's alleged error in the brothers' speech in 12:8.",
+              "The speaker shift from opening declaration to paternal warning to aggrieved brothers prevents lexical repetition from guaranteeing equal epistemic status."
+            ],
+            "reader_inference": "The packet supplies repeated مبين across divergent speakers and a plotting frame. I infer that the book teaches discrimination among claims to obviousness; a live alternative is that each adjective independently intensifies its predicate without commenting on contested clarity.",
+            "changed_reading": {
+              "before": "Calling the book clear guarantees a simple, self-authenticating obviousness.",
+              "after": "The clear book exposes how obviousness is predicated, including strategic or mistaken claims that only the unfolding composition can adjudicate."
+            }
+          },
+          {
+            "model_id": "delta_disclosure_inside_concealment",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ي ب",
+              "و ح ي",
+              "ن ب ء",
+              "ش ع ر"
+            ],
+            "mechanism": "At the hidden depth of the well, secretly imparted knowledge contains a future report while the plotters lack fine awareness. Disclosure is planted inside concealment before any participant can read it, strongly activating the focus model of delayed manifestation.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B001",
+                "role": "The waiting branch supplies the interval between the hidden promise and its later readability."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "The fixed-order branch lets the future disclosure be operative before it is visible."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The uncovering branch names the future movement out of present concealment."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "غ ي ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001117",
+                "branch_id": "B002",
+                "role": "The sunken place in which something disappears gives concealment a concrete spatial mechanism."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "The secretly imparted knowledge branch installs intelligibility within the hidden place."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B002",
+                "role": "The arriving and communicated report branch turns concealed knowledge toward a future act of disclosure."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "ش ع ر",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000798",
+                "branch_id": "B005",
+                "role": "The fine-awareness branch, explicitly negated, marks current nonperception against later disclosure."
+              }
+            ],
+            "structural_cues": [
+              "12:15 places concealment in the well, revelation, a promised future report, and لَا يَشْعُرُونَ in one temporal sequence.",
+              "The future emphatic لَتُنَبِّئَنَّهُمْ projects speech out of a scene whose other actors presently do not perceive."
+            ],
+            "reader_inference": "The packet supplies hidden depth, secret knowledge, future report, and negated awareness. I infer that clarity is prospectively installed inside concealment; a live alternative is a simple reassurance to Yusuf with no general implication for المبين.",
+            "changed_reading": {
+              "before": "What is clear cannot meaningfully coexist with present concealment.",
+              "after": "The clear book can plant a future disclosure inside the very site of disappearance, remaining latent until its appointed report."
+            }
+          },
+          {
+            "model_id": "delta_counterfeit_material_sign",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق م ص",
+              "د م و",
+              "ك ذ ب",
+              "ص ب ر",
+              "و ص ف"
+            ],
+            "mechanism": "The shirt and blood form an assembled visible exhibit, yet the packet's lie branch can describe a garment that lies by its condition. Visibility alone is therefore insufficient. The clear book discriminates causal fit from staged inscription, while patience holds judgment open against the perpetrators' description.",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest-sign branch supplies the category that the visible exhibit imitates."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "The joining branch models how garment and stain are composed into a single evidentiary claim."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "The uncovering branch distinguishes eventual disclosure from mere present display."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ق م ص",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001256",
+                "branch_id": "B001",
+                "role": "The worn-shirt branch supplies the material surface presented as evidence."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "د م و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000490",
+                "branch_id": "B003",
+                "role": "The blood-redness branch supplies the conspicuous mark written onto that surface."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "د م و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000491",
+                "branch_id": "B003",
+                "role": "The alternate mapped inventory's blood-redness branch preserves the same visible marking without collapsing the split root."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The garment-that-lies-by-its-condition branch makes the material exhibit itself a counterfeit sign."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "The self-restraint branch supplies an epistemic pause rather than capitulation to the staged display."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "و ص ف",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_001654",
+                "branch_id": "B001",
+                "role": "The branch of displaying a thing through its attributed features names the verbal framing that accompanies the exhibit."
+              }
+            ],
+            "structural_cues": [
+              "12:18 collocates shirt, blood, and lie, then rejects the presented account and ends with مَا تَصِفُونَ.",
+              "فَصَبْرٌ جَمِيلٌ intervenes between rejection of the exhibit and appeal for help, preserving a gap before resolution."
+            ],
+            "reader_inference": "The packet supplies a material surface, a red mark, a garment-conditioned lie, restraint, and description. I infer that the exhibit functions as a counterfeit inscription and patience suspends premature closure; a live alternative is that the blood simply proves deception and patience is ethical rather than epistemic.",
+            "changed_reading": {
+              "before": "A visible sign is self-validating, so the clear book chiefly increases visibility.",
+              "after": "The clear book trains discrimination between disclosure and fabricated display: an assembled visible sign can lie, and clarity may require patient causal reading."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_questioners_extract_signs",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant س ل ل mapping for س ء ل, moving from asking to gently drawing something out. It remains anchored by the repeated آيات and the explicit questioners in 12:7, but downstream prose should present it as split-root wordplay about inquiry extracting latency, not as a replacement etymology for السؤال.",
+            "focus_anchor": "آيات in 12:1 repeated with للسائلين in 12:7",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest-sign branch supplies latent marked material available to inquiry."
+              },
+              {
+                "source_ref": "12:7",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B001",
+                "role": "The gentle, hidden drawing-out branch recasts questioners as agents who extract lines of significance from events."
+              }
+            ],
+            "changed_reading": {
+              "before": "Questioners merely receive already explicit signs.",
+              "after": "Inquiry may gently draw latent signs out of the relational event, making questioning part of manifestation."
+            }
+          },
+          {
+            "outlier_id": "outlier_shirt_as_counter_book",
+            "confidence": "exploratory",
+            "containment": "Calling the shirt a counter-book is a cross-domain material analogy, not a lexical identification. It remains anchored in كتاب as joined writing and in the packet's unusually exact garment-that-lies branch beside shirt and blood; downstream prose should qualify it as an exploratory model of counterfeit inscription.",
+            "focus_anchor": "الكتاب as joined inscription tested by the material exhibit in 12:18",
+            "activation_trace": [
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "The joining branch supplies the analogy of separate material elements composed into one document-like claim."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "The written-object branch provides the textual pole against which the staged material surface is compared."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ق م ص",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001256",
+                "branch_id": "B001",
+                "role": "The shirt branch supplies the portable surface of the counterfeit document."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "د م و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000490",
+                "branch_id": "B003",
+                "role": "The blood-redness branch supplies the apparent inscription on that surface."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "د م و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000491",
+                "branch_id": "B003",
+                "role": "The alternate mapped blood-redness branch retains the split inventory while reinforcing the visible mark."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The garment-that-lies-by-its-condition branch turns the surface into an anti-text whose appearance misstates reality."
+              }
+            ],
+            "changed_reading": {
+              "before": "The book stands only against ignorance or unreadability.",
+              "after": "The book also stands against rival inscriptions: the story can compose a material anti-text whose visible marks narrate falsely."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Clarity moved from a static property to a process of conveyance, recited reassembly, articulation, and disciplined uptake.",
+            "The dream and the hidden promise made المبين compatible with signs whose meaning is temporally deferred and only later returned to outcome.",
+            "Repeated مبين across divergent speakers turned clarity into a contested predication that the composition must adjudicate.",
+            "The bloodied shirt made visible evidence non-self-validating and recast the clear book as training in discrimination between disclosure and staged inscription."
+          ],
+          "what_was_special": "The focus roots generated a productive tension between joining and separating, inscription and omission, visibility and delayed disclosure. Context did not collapse that tension: it distributed clarity across narration, inquiry, social danger, concealment, and forensic testing, while the split س ء ل inventory preserved an exploratory extraction model.",
+          "remaining_uncertainties": [
+            "Whether المبين primarily describes an already clear book or an actively clarifying one remains grammatically open.",
+            "The binding-register baseline is branch-supported but less directly activated in 12:2-18 than the compositional and temporal models.",
+            "The shirt-as-counter-book analogy should remain explicitly exploratory even though the garment-that-lies branch is unusually close.",
+            "The extraction reading of السائلين depends on a non-dominant mapped root and should coexist with, not displace, ordinary asking."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Signs assembled into a disclosure.** ء ي ي B003 (visible sign), ك ت ب B001/B002 (joining; joining letters into writing), and ب ي ن B004/B005 (becoming clear; disclosing meaning) form a production sequence: discrete signs are joined, and their joining discloses. I infer that clarity emerges relationally from ordered signs. The ayah reads not simply “a clear book,” but a book whose arrangement makes latent relations visible.",
@@ -3550,18 +4609,23 @@
   "root_lexicon": {
     "root_000074": {
       "root_ar": "ء ي ي",
+      "qac_roots_ar": [
+        "ء ي ي"
+      ],
       "root_id": "root_000074",
-      "root_mapping": {
-        "root_id": "root_000074",
-        "root_norm": "ء ي ي",
-        "source_root_norm": "أ ي ي",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 159,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ي ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 159
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4b1ba46e164304530f91e793757db75e6eb436887eae53bef8ad91e28c7c14a7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6357,18 +7421,23 @@
     },
     "root_001283": {
       "root_ar": "ك ت ب",
+      "qac_roots_ar": [
+        "ك ت ب"
+      ],
       "root_id": "root_001283",
-      "root_mapping": {
-        "root_id": "root_001283",
-        "root_norm": "ك ت ب",
-        "source_root_norm": "ك ت ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 120,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ت ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 120
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "894e068c2b55e998362ca8f2253ad8cf0049a740294bec260b2417e3957a78d3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8320,18 +9389,23 @@
     },
     "root_000170": {
       "root_ar": "ب ي ن",
+      "qac_roots_ar": [
+        "ب ي ن"
+      ],
       "root_id": "root_000170",
-      "root_mapping": {
-        "root_id": "root_000170",
-        "root_norm": "ب ي ن",
-        "source_root_norm": "ب ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 485,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 485
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "2b4a49bd04f2db888f6809da07212867d9635bd0efb6d1ad0b10f3460939b55e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11859,14 +12933,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2932,
+        "ayah_count": 111,
+        "row_count": 2925,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12360,11 +13440,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s012"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s12/packets/12_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s12/readers/reader_hft_a/12_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 174066,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -12438,19 +13531,37 @@
           "root_ids": [
             "root_000074"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ي ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000074",
+            "targets": [
+              {
+                "qac_root_norm": "ء ي ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000074",
+                "furuq_root_norm": "ء ي ي",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 159,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000074",
-              "root_norm": "ء ي ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ي ي",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 159,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12475,19 +13586,37 @@
           "root_ids": [
             "root_001283"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ت ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001283",
+            "targets": [
+              {
+                "qac_root_norm": "ك ت ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001283",
+                "furuq_root_norm": "ك ت ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 120,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001283",
-              "root_norm": "ك ت ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ت ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 120,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12512,19 +13641,37 @@
           "root_ids": [
             "root_000170"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000170",
+            "targets": [
+              {
+                "qac_root_norm": "ب ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000170",
+                "furuq_root_norm": "ب ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 485,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000170",
-              "root_norm": "ب ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 485,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12551,10 +13698,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 28,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

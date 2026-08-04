@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.787347+00:00",
+  "generated_at": "2026-08-04T22:30:02.492969+00:00",
   "surah": 56,
   "ayah": 91,
   "ayahRef": "56:91",
@@ -1917,7 +1917,8 @@
       "morpheme_ids": [
         "m-w-s056-a091-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:91:1"
+      "aligned_qac_word_ref_upstream": "56:91:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1931,7 +1932,8 @@
       "morpheme_ids": [
         "m-w-s056-a091-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:91:2"
+      "aligned_qac_word_ref_upstream": "56:91:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1947,7 +1949,8 @@
         "m-w-s056-a091-w002-01",
         "m-w-s056-a091-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:91:3"
+      "aligned_qac_word_ref_upstream": "56:91:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1961,7 +1964,8 @@
       "morpheme_ids": [
         "m-w-s056-a091-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:91:4"
+      "aligned_qac_word_ref_upstream": "56:91:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1975,7 +1979,8 @@
       "morpheme_ids": [
         "m-w-s056-a091-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:91:5"
+      "aligned_qac_word_ref_upstream": "56:91:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1991,7 +1996,8 @@
         "m-w-s056-a091-w005-01",
         "m-w-s056-a091-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:91:6"
+      "aligned_qac_word_ref_upstream": "56:91:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2442,7 +2448,573 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_91.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:91",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:91",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_classified_safety",
+            "confidence": "strong",
+            "focus_anchor": "The nominal سَلَامٌ assigns safety to لَكَ, while مِنْ أَصْحَابِ ٱلْيَمِينِ can classify the addressee with a blessed right-side cohort.",
+            "mechanism": "Safety is predicated for the addressee, companionship makes the category durable rather than momentary, and right-sided blessedness supplies the category's favorable quality. The phrase can therefore announce a secure group-status, not merely voice a greeting.",
+            "activation_trace": [
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from harm and defect supplies the concrete state assigned to the addressee."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Sustained association turns aṣḥāb into a membership class that can hold the addressee."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing and good fortune give the cohort's rightward label its favorable force."
+              }
+            ],
+            "changed_reading": {
+              "before": "A conventional wish of peace addressed to someone.",
+              "after": "An assurance that safety is now the addressee's condition as one counted among the blessed right-side companions."
+            }
+          },
+          {
+            "model_id": "baseline_cohort_guarantee",
+            "confidence": "medium",
+            "focus_anchor": "The construction سَلَامٌ لَكَ مِنْ أَصْحَابِ ٱلْيَمِينِ also permits مِنْ to mark a source, making the companions agents or guarantors of the peace directed to the addressee.",
+            "mechanism": "Peace as cessation of hostility moves from a stable companion-group toward the beneficiary. The right hand's force and protective capacity make the salām a collectively backed guarantee rather than a private courtesy.",
+            "activation_trace": [
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Reconciliation opposed to war supplies an operative ending of threat, beyond polite speech."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B002",
+                "role": "Preservation through accompaniment lets the companion-group function as the guarantee's protective source."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "The right hand as strength, defense, and rightful side gives the group's guarantee effective backing."
+              }
+            ],
+            "changed_reading": {
+              "before": "A greeting sent by a favorable group.",
+              "after": "A collective peace-guarantee extended to the addressee by companions able to preserve and protect."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_recited_assurance",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ء",
+              "ك ت ب",
+              "ن ز ل"
+            ],
+            "mechanism": "The preceding sequence supplies a salām specifically carried by recitation, then a written form with binding force, then delivery downward. This revises the focus utterance into an authorized pronouncement whose transmitted content is the addressee's safety and cohort-status.",
+            "activation_trace": [
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Concrete intactness remains the content carried by the pronouncement."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Cohort membership supplies what the transmitted assurance publicly identifies."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B007",
+                "role": "The branch in which a salām is read or caused to be read directly turns greeting into recited transmission."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "Writing that fixes an obligatory judgment gives the transmitted salām decretive weight."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Causing something to descend and reach its destination supplies the delivery path for the pronouncement."
+              }
+            ],
+            "structural_cues": [
+              "56:77-80 moves in sequence from recitation to protected writing to descent, before the focus later states salām in a compact nominal form.",
+              "The focus phrase preserves both an addressed beneficiary in لَكَ and a relation to a named cohort through مِنْ."
+            ],
+            "reader_inference": "The packet supplies recited salām, binding writing, and directed delivery; I infer that these stages authorize and carry the focus pronouncement. A live alternative is that they frame the discourse while the salām itself remains an unmediated greeting.",
+            "changed_reading": {
+              "before": "A spontaneous greeting or immediate assurance at the scene.",
+              "after": "A formally transmitted and recited verdict of safety that identifies the addressee with the right-side cohort."
+            }
+          },
+          {
+            "model_id": "delta_terminal_safe_conduct",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل غ",
+              "ح ل ق",
+              "ق ر ب",
+              "ر ج ع",
+              "ك و ن"
+            ],
+            "mechanism": "Life reaches its bodily endpoint at the breath-passage, an unseen nearer presence supersedes the watchers, return is challenged and fails, and repeated conditional being assigns the dying person to a class. In that mechanism salām is a performative safe-conduct across an irreversible threshold into intact blessed company.",
+            "activation_trace": [
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety from harm supplies the protected condition asserted on the far side of the threshold."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Enduring accompaniment supplies the receiving company into which the person is classified."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessedness distinguishes this safe destination from the adverse class that follows."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at an endpoint supplies the terminal boundary at which the assurance becomes operative."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as the channel of breath localizes that endpoint in the departure of bodily life."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Unseen nearness supplies an immediate receiving presence despite the observers' perceptual distance."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Returning something to its former state supplies the denied reverse path and makes the transition one-way."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Being present in a state supplies the conditional classification immediately completed by the focus assurance."
+              }
+            ],
+            "structural_cues": [
+              "56:83-87 is an unbroken deathbed sequence of reaching, watching without seeing, nearness, and inability to return.",
+              "56:88-92 then repeats conditional class-assignment, with 56:90 naming the right companions immediately before 56:91 changes from condition to consequence."
+            ],
+            "reader_inference": "The packet supplies a bodily endpoint, denied reversal, unseen proximity, and class conditions; I infer a threshold and treat salām as the effective safe-conduct across it. It could instead be only consolation after a classification already complete.",
+            "changed_reading": {
+              "before": "A favorable statement made after death.",
+              "after": "The operative assurance that carries the dying addressee through a one-way boundary into protected companionship."
+            }
+          },
+          {
+            "model_id": "delta_contrastive_reception",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ز ل",
+              "ح م م",
+              "ص ل ي",
+              "ج ح م"
+            ],
+            "mechanism": "The adverse class immediately receives a nuzul prepared for an arrival, but its provision is hot fluid followed by contact with blazing fire. The parallel position revises the focus salām into the right companions' whole reception-package: a welcome whose substance is immunity from precisely the harms supplied to the contrasting class.",
+            "activation_trace": [
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from injury supplies the positive substance of the right-side reception."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B002",
+                "role": "Preserving accompaniment makes the receiving cohort itself part of the hospitable provision."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessedness marks the reception as the positive counterpart to the following punitive arrival."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Provision prepared for one who arrives supplies the reception frame shared contrastively with the focus."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Scalding water supplies the first concrete harm from which the focus salām implies immunity."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting fire and its heat supplies direct exposure as the adverse reception's second stage."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B001",
+                "role": "The alternate mapped root likewise contributes bodily encounter with heat, preserving the split-root evidence."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Intense blazing supplies the terminal environment negated by the right-side assurance of intactness."
+              }
+            ],
+            "structural_cues": [
+              "56:90-94 alternates class clause and consequence: the right companions receive salām, while deniers receive a prepared nuzul of hot fluid and fire.",
+              "Both consequences begin with فَ, making the opposed receptions occupy matching syntactic positions."
+            ],
+            "reader_inference": "The packet supplies an explicit arrival-provision only for the adverse class and places it parallel to salām; I infer an elided positive reception-package for the right class. The live alternative is that the parallelism contrasts a spoken greeting with a material punishment without making both provisions.",
+            "changed_reading": {
+              "before": "An uttered welcome offered to the favorable class.",
+              "after": "A total reception of protected arrival, companionship, and immunity, functioning as the positive anti-nuzul to heat and fire."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_apportioned_settlement",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it imports sale, allocation, and account imagery into salām. It remains anchored in the focus transaction branch, لَكَ as beneficiary, yamin as oath, and aṣḥāb as a corporate group, while the context supplies apportioned gift, reckoning, and fixed entitlement. Render it only as a juridical-economic resonance, never as a replacement for peace and safety.",
+            "focus_anchor": "سَلَامٌ can activate the transaction or advance-payment branch, and لَكَ مِنْ أَصْحَابِ ٱلْيَمِينِ can then sound like a benefit credited to the addressee from or among an oath-bound cohort.",
+            "activation_trace": [
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B005",
+                "role": "Advance payment in a transaction supplies the unusual image of a secured benefit already put forward."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Stable association supplies the corporate body from which or within which the benefit is assigned."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B003",
+                "role": "The oath sense of yamin lets the right-side label also suggest a pledged guarantee."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "An oath distributed among its people links pledged obligation with a defined participant-group."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "An apportioned grant supplies the image of a benefit assigned as a share."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the ledger in which the assigned benefit becomes consequential."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "Fixed obligation and established entitlement turn the benefit into a secured due rather than a wish."
+              }
+            ],
+            "changed_reading": {
+              "before": "Peace is wished for the addressee.",
+              "after": "A pledged and apportioned settlement of safety is credited as the addressee's fixed due among the right-side companions."
+            }
+          },
+          {
+            "outlier_id": "outlier_terminal_counter_naming",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus noun salām is activated through a form-distant branch about calling an afflicted person salīm. It remains worth carrying because the branch itself holds together optimistic safety and surrender, while the immediate context stages death, non-return, and judgment. Render it as a contained echo of counter-naming at mortal extremity, not as the focus word's primary morphology.",
+            "focus_anchor": "The focus سَلَامٌ retains the same root as the branch in which an injured person is named safe either hopefully or because the person has yielded to the affliction.",
+            "activation_trace": [
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B009",
+                "role": "Optimistic naming of the afflicted, or naming surrender to the condition, supplies a tense salām spoken exactly where ordinary safety has failed."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B002",
+                "role": "The arrival of destruction gives the counter-name its terminal setting."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Submission supplies the branch's alternative pole: yielding rather than escaping bodily extremity."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "The challenged return to the former state establishes that literal bodily recovery is unavailable."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B010",
+                "role": "Fate and death keep the salām's optimistic or surrendered naming inside the terminal frame."
+              }
+            ],
+            "changed_reading": {
+              "before": "Salām simply reports the absence of harm.",
+              "after": "At the point of irreversible death, salām can also sound like a counter-name that declares hoped-for safety while acknowledging surrender to the passage."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The Qur'an, writing, and descent sequence turns salām from spontaneous speech into a recited and authorized assurance.",
+            "The deathbed sequence turns it into safe-conduct across an irreversible threshold and into a classifying verdict.",
+            "The immediately opposed nuzul of hot fluid and fire expands salām into a whole positive reception defined by immunity from harm."
+          ],
+          "what_was_special": "The focus's three roots support both a state-classification and a sourced group-guarantee, while context activates unusually precise bridges: Qur'anic recitation contains a salām branch, the death scene supplies a one-way boundary, and the punishment sequence supplies a contrastive reception. The transaction branch of salām also remains live as a tightly contained settlement resonance.",
+          "remaining_uncertainties": [
+            "Whether مِنْ primarily classifies the addressee among the companions or marks the companions as the source of salām remains unresolved.",
+            "Whether salām is chiefly an utterance, a secured state, or an elided reception-package remains deliberately plural.",
+            "The settlement and terminal counter-naming readings are branch-distant and should remain exploratory rather than govern synthesis."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Peace addressed to the person from the right-side companions.** `س ل م` **B001** supplies soundness and safety; `ص ح ب` **B001** supplies companionship; `ي م ن` **B001** supplies blessing. The prepositions allow the companions to function as the source of the address. **Abductive move:** I infer a communal greeting extending the doubled `سلام` of 56:26 to the threshold scene. **Reading change:** the group receives by speech before physical entry.\n\n2. **Assurance concerning one who belongs to the right-side companions.** `س ل م` **B012** supplies handing over and letting go, while `ص ح ب` **B002** supplies protective accompaniment. **Abductive move:** preserving the construction’s ambiguity, I infer that `من أصحاب اليمين` may classify the person rather than source the greeting. **Reading change:** the line can be an assurance of safe release for a group-member as well as a greeting from the group.",
@@ -3562,18 +4134,23 @@
   "root_lexicon": {
     "root_000737": {
       "root_ar": "س ل م",
+      "qac_roots_ar": [
+        "س ل م"
+      ],
       "root_id": "root_000737",
-      "root_mapping": {
-        "root_id": "root_000737",
-        "root_norm": "س ل م",
-        "source_root_norm": "س ل م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b537bfcd71cca129598e4dadd4d04bf63b4ef740f7c674a97e4f882dde3f0f6c",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7047,18 +7624,23 @@
     },
     "root_000844": {
       "root_ar": "ص ح ب",
+      "qac_roots_ar": [
+        "ص ح ب"
+      ],
       "root_id": "root_000844",
-      "root_mapping": {
-        "root_id": "root_000844",
-        "root_norm": "ص ح ب",
-        "source_root_norm": "ص ح ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 79,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ح ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 79
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7c7a3478ca99842d1e405bd2bdea8b2b46a3abba3aac7be50cedd19384a0edbd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9365,18 +9947,23 @@
     },
     "root_001698": {
       "root_ar": "ي م ن",
+      "qac_roots_ar": [
+        "ي م ن"
+      ],
       "root_id": "root_001698",
-      "root_mapping": {
-        "root_id": "root_001698",
-        "root_norm": "ي م ن",
-        "source_root_norm": "ي م ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 30,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي م ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 30
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "bf0c6ae98b92d8d6b6a37cf7d40ca761d5fabe1e6f7f525e5293bd57e493012c",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10640,14 +11227,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10887,11 +11480,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_91.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_91.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 3,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 124010,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10965,19 +11571,37 @@
           "root_ids": [
             "root_000737"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000737",
+            "targets": [
+              {
+                "qac_root_norm": "س ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000737",
+                "furuq_root_norm": "س ل م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000737",
-              "root_norm": "س ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ل م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11002,19 +11626,37 @@
           "root_ids": [
             "root_000844"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ح ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000844",
+            "targets": [
+              {
+                "qac_root_norm": "ص ح ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000844",
+                "furuq_root_norm": "ص ح ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 79,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000844",
-              "root_norm": "ص ح ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ح ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 79,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11039,19 +11681,37 @@
           "root_ids": [
             "root_001698"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي م ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001698",
+            "targets": [
+              {
+                "qac_root_norm": "ي م ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001698",
+                "furuq_root_norm": "ي م ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 30,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001698",
-              "root_norm": "ي م ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي م ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 30,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11078,10 +11738,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 21,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.369994+00:00",
+  "generated_at": "2026-08-04T22:29:58.067253+00:00",
   "surah": 56,
   "ayah": 4,
   "ayahRef": "56:4",
@@ -1692,7 +1692,8 @@
       "morpheme_ids": [
         "m-w-s056-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:4:1"
+      "aligned_qac_word_ref_upstream": "56:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1706,7 +1707,8 @@
       "morpheme_ids": [
         "m-w-s056-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:4:2"
+      "aligned_qac_word_ref_upstream": "56:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1722,7 +1724,8 @@
         "m-w-s056-a004-w003-01",
         "m-w-s056-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:4:3"
+      "aligned_qac_word_ref_upstream": "56:4:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1736,7 +1739,8 @@
       "morpheme_ids": [
         "m-w-s056-a004-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:4:4"
+      "aligned_qac_word_ref_upstream": "56:4:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2207,7 +2211,577 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_4.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:4",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B_CONVULSIVE_GROUND",
+            "confidence": "strong",
+            "focus_anchor": "The passive rujjat and its cognate accusative rajjan enclose al-ard with two occurrences of r-j-j.",
+            "mechanism": "The lower supporting field is forcibly moved until it loses steadiness; the repeated root makes the motion exhaustive rather than incidental.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Shaking until disturbance supplies the violent motion and its intensified recurrence."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower realm opposite the sky supplies the total supporting field acted upon."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic earthquake occurs.",
+              "after": "The whole lower support is made to oscillate violently and comprehensively."
+            }
+          },
+          {
+            "model_id": "B_GROUNDEDNESS_UNDONE",
+            "confidence": "medium",
+            "focus_anchor": "Al-ard can image clinging and weight toward the ground, while r-j-j can image a mass that goes, returns, and sways.",
+            "mechanism": "What normally fixes bodies and orientation becomes itself mobile, cancelling the distinction between stable support and supported thing.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B003",
+                "role": "A swaying mass that moves back and forth supplies failed positional stability."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B006",
+                "role": "Clinging and weighting toward earth supplies the ordinary mechanism of groundedness that is overturned."
+              }
+            ],
+            "changed_reading": {
+              "before": "Stable ground happens to move.",
+              "after": "Groundedness itself is revoked because the usual anchor becomes the moving mass."
+            }
+          },
+          {
+            "model_id": "B_ROAR_AND_CONFUSION",
+            "confidence": "exploratory",
+            "focus_anchor": "The r-j-j inventory joins confused perception or speech with the collective sound of people or thunder.",
+            "mechanism": "The convulsion is apprehended not only as displacement but as an enveloping roar that disorders recognition.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B002",
+                "role": "Muddled speech or darkness contributes perceptual confusion as an effect of the shaking."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B007",
+                "role": "The sound of a crowd or thunder contributes the convulsion's audible register."
+              }
+            ],
+            "changed_reading": {
+              "before": "The event is silent mechanical motion.",
+              "after": "The earth's motion arrives as a disorienting collective roar as well as a physical shock."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D_EVENT_ENACTS_INVERSION",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ع",
+              "خ ف ض",
+              "ر ف ع"
+            ],
+            "mechanism": "The fixed arrival of the Event and the paired lowering and raising turn the shaking into the material operation of a vertical reversal.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Violent disturbance supplies the operation capable of undoing settled levels."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed makes the surrounding event an accomplished arrival rather than a possibility."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Lowering after height supplies one pole of the redistribution."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising supplies the opposed pole, making the motion directional rather than random."
+              }
+            ],
+            "structural_cues": [
+              "The repeated temporal idha in 56:1 and 56:4 nests the shaking inside the Event.",
+              "The compact antithesis of 56:3 immediately precedes the focus."
+            ],
+            "reader_inference": "The packet supplies accomplished arrival and opposed lowering and raising; I infer that the shaking mediates their reversal, while they could alternatively be adjacent descriptions without a causal arrow.",
+            "changed_reading": {
+              "before": "The ground undergoes an isolated convulsion.",
+              "after": "The arrived Event uses convulsion to redistribute what had occupied high and low positions."
+            }
+          },
+          {
+            "model_id": "D_SOLID_TO_DISPERSION",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب س س",
+              "ج ب ل",
+              "ه ب و",
+              "ب ث ث"
+            ],
+            "mechanism": "Agitation initiates a material cascade: compact elevations lose cohesion through crushing and mixing, become fine particulate, then spread through the air.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Shaking until disturbance supplies the cascade's initiating energy."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Crushing, wetting, and mixing supplies loss of cohesion after agitation."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "A high solid aggregation supplies the initially resistant material."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine dispersed dust supplies the particulate state produced from solidity."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the final outward distribution of the particles."
+              }
+            ],
+            "structural_cues": [
+              "The focus and 56:5 use parallel passive verbs with cognate accusatives.",
+              "Fa-kanat in 56:6 presents the dust state as a result."
+            ],
+            "reader_inference": "The packet supplies disturbance, compact mountains, comminution, fine dust, and scattering; I order them as a causal phase transition, though the images could be cumulative depictions rather than discrete stages.",
+            "changed_reading": {
+              "before": "The earth shakes but remains materially intact.",
+              "after": "The shaking begins the dismantling of solid geography into airborne dispersed matter."
+            }
+          },
+          {
+            "model_id": "D_COMMON_GROUND_TO_CLASSES",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز و ج",
+              "ث ل ث",
+              "س ب ق",
+              "ق ر ب"
+            ],
+            "mechanism": "Once common ground cannot hold a shared position, the human plural is reconstituted as three classes whose relations are marked by precedence and nearness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B006",
+                "role": "Ground as the locus of clinging and weight supplies the common positional basis that fails."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B003",
+                "role": "A swaying mass supplies destabilization of fixed placement before reclassification."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B004",
+                "role": "A kind or class supplies the new social units formed after destabilization."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ث ل ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000203",
+                "branch_id": "B004",
+                "role": "A whole articulated into three parts supplies the sorting structure."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Precedence supplies a relational rank that replaces undifferentiated shared footing."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The privileged nearness of intimates supplies the resulting positional status."
+              }
+            ],
+            "structural_cues": [
+              "The scene turns from earth and mountains in 56:4-6 to second-person plural humanity in 56:7.",
+              "Threefold enumeration is followed by repeated class labels in 56:8-10."
+            ],
+            "reader_inference": "The packet supplies failed grounding followed by three classes, precedence, and nearness; I infer a sieve-like social remapping, while the classification may instead merely follow the physical scene chronologically.",
+            "changed_reading": {
+              "before": "The shaking affects terrain around an unchanged human order.",
+              "after": "The loss of common footing also functions as a social sieve that remaps collective positions."
+            }
+          },
+          {
+            "model_id": "D_ROAR_TO_ORDERED_SPEECH",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "The focus's roar and confusion open an acoustic disorder that the later scene reverses: mixed noise is excluded and repeated safe speech remains.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B002",
+                "role": "Confused speech or darkness supplies the focus's cognitive-acoustic disorder."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B007",
+                "role": "Crowd or thunder sound supplies the focus's roar."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory perception makes the later exclusion explicitly acoustic."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed noisy sound supplies the acoustic condition explicitly removed."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Articulated utterance supplies ordered sound in place of confused noise."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from harm supplies the semantic quality of the surviving repeated utterance."
+              }
+            ],
+            "structural_cues": [
+              "56:25 negates what is heard and 56:26 replaces it through an exception.",
+              "The doubled r-j-j in the focus is answered at the window's end by doubled salam."
+            ],
+            "reader_inference": "The packet supplies roar, confusion, excluded mixed noise, and repeated safe utterance; I infer a movement from acoustic disorder to order, while the later speech may describe reward without resolving the focus's sound.",
+            "changed_reading": {
+              "before": "The earthquake is merely loud and disorienting.",
+              "after": "Its acoustic rupture begins a wider replacement of confused noise by intelligible, harmless speech."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O_EARTH_AS_SHAKEN_CARPET",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the carpet branch of al-ard is remote from the ordinary referent Earth; it remains anchored by focus branches and is sharpened by later woven couches and reclining, but downstream prose should present it only as a material analogy, not a lexical replacement.",
+            "focus_anchor": "Al-ard has a thick-carpet branch, and r-j-j supplies the act of shaking that support.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B005",
+                "role": "A thick carpet supplies a bounded analogy for earth as an extended support surface."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Forceful shaking supplies the action applied to that support surface."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tightly interwoven construction supplies a later contrast of support restored as coherent fabric."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B004",
+                "role": "Reclining in reliance on a support sharpens what the shaken world-floor had made impossible."
+              }
+            ],
+            "changed_reading": {
+              "before": "A planetary body convulses.",
+              "after": "As a contained analogy, the world-floor is shaken like a great carpet, dislodging settled relations before secure support reappears."
+            }
+          },
+          {
+            "outlier_id": "O_RATTLE_TRANSPOSED_TO_SALAM",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because q-w-l reaches q-l-l through a non-dominant packet mapping; it remains formally packet-valid and echoes r-j-j through oscillation, but downstream prose should call it a sound-pattern analogy rather than an etymology or translation of qila.",
+            "focus_anchor": "The doubled r-j-j frames uncontrolled vibration, while the ending repeats a spoken formula.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B007",
+                "role": "Thunderous or collective sound supplies the uncontrolled initial vibration."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B006",
+                "role": "The split-root branch of rattling movement supplies a deliberately contained echo of the focus's vibration."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Repeated safety speech supplies the measured pattern into which the earlier roar is transposed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The shaking's repetition only intensifies destruction.",
+              "after": "Exploratorily, uncontrolled rattle is later answered by measured verbal repetition: salam, salam."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The shaking becomes the operation by which the arrived Event reverses high and low.",
+            "It initiates a material phase change from compact geography to dispersed particulate.",
+            "Loss of common footing opens a second mechanism of human sorting into relational classes."
+          ],
+          "what_was_special": "The doubled focus root supported simultaneous mechanical, positional, and acoustic readings; ordered context then extended them into inversion, disassembly, classification, and a qualified restoration of support and speech.",
+          "remaining_uncertainties": [
+            "The causal link from geophysical collapse to social sorting is reader-supplied rather than grammatically explicit.",
+            "Lowering and raising may be topographic, social, or deliberately coactive.",
+            "The carpet and split-root rattle readings require explicit exploratory qualification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The stable lower ground becomes a swaying mass.** The cognate verb-object intensification activates `ر ج ج` **B001** (violent disturbance) and **B003** (a wobbling mass), against `ء ر ض` **B001**, lower ground opposite the sky. The later certainty formula (56:95) makes this destabilization the material precondition for a new fixed order. **Abductive move:** I infer that the emphatic repetition turns “earth” from support into the object whose supporting function is revoked. **Reading change:** the ayah depicts not motion on earth but the failure of earth-as-ground.\n\n2. **A stirred basin exposing its sediment.** `ر ج ج` **B004** supplies muddy remnant water stirred in its basin. The later water sequence (56:68–70) supplies the material analogy, while 56:7’s human sorting supplies what becomes visible after agitation. **Abductive move:** I infer, exploratorily, that violent stirring exposes and separates what settled together. **Reading change:** the shaking can be read as an assay that makes hidden composition manifest.",
@@ -3044,18 +3618,23 @@
   "root_lexicon": {
     "root_000541": {
       "root_ar": "ر ج ج",
+      "qac_roots_ar": [
+        "ر ج ج"
+      ],
       "root_id": "root_000541",
-      "root_mapping": {
-        "root_id": "root_000541",
-        "root_norm": "ر ج ج",
-        "source_root_norm": "ر ج ج",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ج ج",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "226ca28673fc2a77f54d8efabd8e41db3ae0b6dd26cd40da5edad06b1d8866f3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5012,18 +5591,23 @@
     },
     "root_000025": {
       "root_ar": "ء ر ض",
+      "qac_roots_ar": [
+        "ء ر ض"
+      ],
       "root_id": "root_000025",
-      "root_mapping": {
-        "root_id": "root_000025",
-        "root_norm": "ء ر ض",
-        "source_root_norm": "أ ر ض",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 461,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ر ض",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 461
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "aab7ab48f17d86fce2536c56fa77fe65c9bf879cb1a54ad2f6bac9c11adc09a2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7267,14 +7851,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7551,11 +8141,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 96158,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7628,19 +8231,37 @@
           "root_ids": [
             "root_000541"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر ج ج",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000541",
+            "targets": [
+              {
+                "qac_root_norm": "ر ج ج",
+                "target_rank": 1,
+                "furuq_root_id": "root_000541",
+                "furuq_root_norm": "ر ج ج",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000541",
-              "root_norm": "ر ج ج",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر ج ج",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7665,19 +8286,37 @@
           "root_ids": [
             "root_000025"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ر ض",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000025",
+            "targets": [
+              {
+                "qac_root_norm": "ء ر ض",
+                "target_rank": 1,
+                "furuq_root_id": "root_000025",
+                "furuq_root_norm": "ء ر ض",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 461,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000025",
-              "root_norm": "ء ر ض",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ر ض",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 461,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7704,10 +8343,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 19,
+        "dictionary_branches_kept": 19,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 19,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

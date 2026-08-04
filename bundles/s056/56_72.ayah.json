@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:36.567826+00:00",
+  "generated_at": "2026-08-04T22:30:01.425006+00:00",
   "surah": 56,
   "ayah": 72,
   "ayahRef": "56:72",
@@ -1818,7 +1818,8 @@
         "m-w-s056-a072-w001-01",
         "m-w-s056-a072-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:72:1"
+      "aligned_qac_word_ref_upstream": "56:72:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1834,7 +1835,8 @@
         "m-w-s056-a072-w002-01",
         "m-w-s056-a072-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:72:2"
+      "aligned_qac_word_ref_upstream": "56:72:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1850,7 +1852,8 @@
         "m-w-s056-a072-w003-01",
         "m-w-s056-a072-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:72:3"
+      "aligned_qac_word_ref_upstream": "56:72:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1864,7 +1867,8 @@
       "morpheme_ids": [
         "m-w-s056-a072-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:72:4"
+      "aligned_qac_word_ref_upstream": "56:72:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1878,7 +1882,8 @@
       "morpheme_ids": [
         "m-w-s056-a072-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:72:5"
+      "aligned_qac_word_ref_upstream": "56:72:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1894,7 +1899,8 @@
         "m-w-s056-a072-w006-01",
         "m-w-s056-a072-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:72:6"
+      "aligned_qac_word_ref_upstream": "56:72:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2280,7 +2286,699 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_72.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:72",
+      "window": [
+        "56:57",
+        "56:58",
+        "56:59",
+        "56:60",
+        "56:61",
+        "56:62",
+        "56:63",
+        "56:64",
+        "56:65",
+        "56:66",
+        "56:67",
+        "56:68",
+        "56:69",
+        "56:70",
+        "56:71",
+        "56:72",
+        "56:73",
+        "56:74"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:72",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_originating_agency",
+            "confidence": "strong",
+            "focus_anchor": "The doubled ن ش ء at words 2 and 6 places ش ج ر at word 3 inside a direct contrast between a second-person act and a first-person-plural agent noun.",
+            "mechanism": "The origination branch of ن ش ء and the trunked-tree branch of ش ج ر make the question an agency distinction: possessing or handling a tree is not the same as causing it to come into existence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Origination and bringing into existence supply the causal act whose agent the paired clause contests."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The ordinary trunked tree fixes that contested origination on a living material object."
+              }
+            ],
+            "changed_reading": {
+              "before": "A question asking whether people made its tree.",
+              "after": "A question separating human access to the tree from the deeper agency that originates the living tree itself."
+            }
+          },
+          {
+            "model_id": "baseline_reared_growth",
+            "confidence": "medium",
+            "focus_anchor": "أَنشَأْتُمْ and ٱلْمُنشِـُٔونَ can govern the temporal development of شَجَرَتَهَا, not only its first instant.",
+            "mechanism": "The upbringing and growth branch of ن ش ء turns the tree into a process that is raised through stages; the contrast asks who carries that living development to maturity.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B002",
+                "role": "Upbringing and maturation extend the verb across a developmental process rather than a single manufacturing event."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The trunked plant supplies the organism whose staged growth must be sustained."
+              }
+            ],
+            "changed_reading": {
+              "before": "The issue is who fabricated the tree.",
+              "after": "The issue is who reared and grew it through the stages by which it became a standing tree."
+            }
+          },
+          {
+            "model_id": "baseline_upward_emergence",
+            "confidence": "medium",
+            "focus_anchor": "The focus repeats ن ش ء around the tree, allowing the action to be heard as the tree's rising as well as its beginning.",
+            "mechanism": "The elevation branch of ن ش ء joins the trunked form of ش ج ر to construe origination spatially: emergence becomes an upward standing-forth.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B001",
+                "role": "Rising and elevation give origination a vertical trajectory."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The stemmed tree embodies the result as an elevated, standing growth."
+              }
+            ],
+            "changed_reading": {
+              "before": "The tree is a finished thing that was made.",
+              "after": "The tree is an emergence made to rise and stand, with the question directed to the source of that upward becoming."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_repeated_agency_test",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ر ء ي"
+            ],
+            "mechanism": "Creative origination and repeated attention prompts place the focus inside a sequence of observable operations whose surface human act is tested against a deeper originating agent.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "The focus verb names origination and is the local act assigned by the human-or-divine contrast."
+              },
+              {
+                "source_ref": "56:59",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative bringing-into-existence gives the earlier mirrored question the same causal depth as the focus."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The alerting and interrogative use of أفرأيتم opens the immediately adjacent evidence station and directs attention to what humans actually do."
+              }
+            ],
+            "structural_cues": [
+              "56:59 duplicates the focus pattern أأنتم plus a finite verb, أم نحن, and a matching agent noun.",
+              "56:58, 56:63, 56:68, and 56:71 repeatedly introduce concrete evidence stations with أفرأيتم."
+            ],
+            "reader_inference": "The packet supplies creative origination, an attention command, and repeated syntax; I infer that recurrence turns 56:72 into one station in an empirical agency audit. A live alternative is that each question remains an independent example without a single formal audit.",
+            "changed_reading": {
+              "before": "An isolated challenge about the making of one tree.",
+              "after": "A controlled agency test: the addressee is made to compare a visible human operation with the unperformed act of originating its enabling source."
+            }
+          },
+          {
+            "model_id": "delta_successive_reorigination",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق د ر",
+              "م و ت",
+              "ب د ل",
+              "ن ش ء",
+              "ء و ل"
+            ],
+            "mechanism": "Measured death, substitution, renewed origination, and first origination turn the focus tree from a one-time product into visible evidence of agency over ordered emergence across discontinuity and altered forms.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "The focus's act of origination is the concrete instance expanded into a repeatable capacity."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberate ordering by measure supplies governance of the transition rather than accidental succession."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of life and force supplies the discontinuity across which renewed origination is asserted."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B001",
+                "role": "One thing standing in another's place makes altered succession, not simple persistence, part of the mechanism."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "The same origination branch directly extends the focus root to an unknown form of renewed bringing-into-being."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence mark a first origination that can serve as evidence for further origination."
+              }
+            ],
+            "structural_cues": [
+              "56:60-62 moves in order from measured death to replacement, origination in an unknown form, and recollection of the first origination.",
+              "The context occurrence of ن ش ء in 56:61 repeats the focus verb before the focus repeats it twice."
+            ],
+            "reader_inference": "The packet supplies the ordered transitions and repeated origination root; I infer that the tree is presented as an observable instance of capacity to originate again across changed conditions. The alternative is that the tree merely starts a new set of material examples after the earlier claim has closed.",
+            "changed_reading": {
+              "before": "The question concerns who first produced this particular tree.",
+              "after": "The tree's emergence is evidence of a governed, repeatable power to originate forms across death, substitution, and unfamiliar renewal."
+            }
+          },
+          {
+            "model_id": "delta_cultivation_growth_boundary",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ر ث",
+              "ز ر ع"
+            ],
+            "mechanism": "The sequence distinguishes preparatory work and casting seed from actual germination and increase; this sharpens ن ش ء as the living development that human cultivation occasions but does not autonomously execute.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B002",
+                "role": "Upbringing and growth name the sustained biological process whose agency is under examination."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The trunked plant is the mature result that exposes the gap between preparation and living increase."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ح ر ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000303",
+                "branch_id": "B002",
+                "role": "Casting seed and working the crop supply the real but preparatory human operation."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Germination and growth supply the causally deeper process claimed in the mirrored agent contrast."
+              }
+            ],
+            "structural_cues": [
+              "56:63 first names what the addressees cultivate, then 56:64 asks with the same human-or-divine pattern who makes it grow.",
+              "The tree in 56:72 is the developed plant-form downstream of the cultivation sequence."
+            ],
+            "reader_inference": "The packet supplies distinct cultivation and germination branches in consecutive ayat; I infer a division between human preparation and living increase. A live alternative is that both roots broadly denote farming and the sequence stresses agency without a technical process boundary.",
+            "changed_reading": {
+              "before": "Humans appear plausible makers because they plant and tend trees.",
+              "after": "Human cultivation is acknowledged as preparation, while the tree's staged germination, increase, and maturation remain the origination being contested."
+            }
+          },
+          {
+            "model_id": "delta_latent_fire_carrier",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "و ر ي"
+            ],
+            "mechanism": "The adjacent fire and the image of concealed fire drawn out by striking recast the tree as a material carrier of latent combustibility; originating the tree includes establishing a system from which humans can elicit fire without having authored its capacity.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Origination assigns agency over the existence of the combustible source, not merely over an ignition event."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B004",
+                "role": "Interlocking, load-bearing wood makes the tree legible as material structure capable of carrying and yielding another process."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the manifested effect whose material source is named in the focus."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "و ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001642",
+                "branch_id": "B002",
+                "role": "Fire hidden in a striker and brought out supplies the extraction pattern: human elicitation reveals a capacity already lodged in material."
+              }
+            ],
+            "structural_cues": [
+              "56:71 asks about the fire the addressees kindle immediately before 56:72 names شجرتها with a feminine possessive that can refer back to النار.",
+              "The sequence moves from the visible act of kindling to the prior existence of the tree that enables it."
+            ],
+            "reader_inference": "The packet supplies adjacent fire, a concealed-fire extraction image, and a wooden carrier; I infer that the tree embodies an embedded combustible affordance authored before human ignition. The alternative is a narrower botanical reading in which the question concerns only who grew the relevant tree.",
+            "changed_reading": {
+              "before": "The tree is simply the fuel people use to make fire.",
+              "after": "The tree is a created carrier of latent fire-capacity: people can elicit the effect, but that elicitation does not make them authors of the material affordance."
+            }
+          },
+          {
+            "model_id": "delta_preserved_material_fitness",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ي ء",
+              "ج ع ل",
+              "ح ط م",
+              "ء ج ج"
+            ],
+            "mechanism": "The paired counterfactuals of crop reduced to fragments and water made bitter add preservation and usable quality to origination: the tree is not only begun but maintained in a materially serviceable state.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Origination is revised from a punctual beginning into the upstream cause of an extant, usable source."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The living tree is the material whose integrity and fitness could fail."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "Will directed toward a thing supplies contingency rather than material inevitability."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making something enter another state supplies the causal transition from viable growth to ruin."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Dry matter broken into fragments supplies the failed state against which the tree's integrity becomes salient."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ء ج ج",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000014",
+                "branch_id": "B003",
+                "role": "Bitter saline water supplies a second case where an available material can be rendered unfit for its human use."
+              }
+            ],
+            "structural_cues": [
+              "56:65 and 56:70 repeat لو نشاء plus جعلناه before the focus's agency question.",
+              "Both counterfactuals alter the usability of a material humans normally take as given."
+            ],
+            "reader_inference": "The packet supplies divine-will counterfactuals and two ruined material states; I infer that the focus's origination includes preservation of the tree's usable constitution. The live alternative is that the counterfactuals only teach gratitude and do not extend the lexical scope of ن ش ء.",
+            "changed_reading": {
+              "before": "The question asks who began the tree's existence.",
+              "after": "It also asks who keeps the tree from becoming failed matter and gives it the stable material fitness on which human use depends."
+            }
+          },
+          {
+            "model_id": "delta_provisioning_in_scarcity",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ذ ك ر",
+              "م ت ع",
+              "ق و ي"
+            ],
+            "mechanism": "The following ayah makes the manifested fire a reminder and practical resource in barren conditions; the focus tree therefore becomes upstream provisioning infrastructure whose origination enables portable benefit beyond the place of growth.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Origination establishes the upstream source from which the downstream benefit becomes possible."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The trunked tree supplies renewable material that can be carried from growth into use."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Assigning the fire a resulting state links material origination to deliberate function."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that causes recollection supplies the cognitive function of the fire yielded through the tree."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "م ت ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001395",
+                "branch_id": "B003",
+                "role": "A thing used for needs and sufficiency supplies the practical function downstream of the tree."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B003",
+                "role": "The barren, resource-poor place supplies the condition in which portable fire-provision becomes especially consequential."
+              }
+            ],
+            "structural_cues": [
+              "56:73 immediately follows the focus and assigns the feminine referent both mnemonic and practical functions.",
+              "The sequence runs from kindling, to the tree's origination, to the resulting fire's use."
+            ],
+            "reader_inference": "The packet supplies the adjacent causal order, assigned functions, and scarcity branch; I infer an upstream chain from originated tree to elicited fire to mobile provision. The alternative is that 56:73 describes fire alone and does not characterize the purpose of the tree's origination.",
+            "changed_reading": {
+              "before": "The tree is only an object whose maker is disputed.",
+              "after": "Its origination is the first stage of a provisioning chain that yields both recollection and practical benefit where ordinary resources are absent."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_kindled_entanglement",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it transfers fire and tillage vocabulary into social conflict, but it remains anchored in the focus branches for initiating speech or action and entangled dispute, while the context independently supplies stirring war and a feud among people. Downstream prose should present it only as a social-material echo of the literal tree-and-fire reading, not as a replacement translation.",
+            "focus_anchor": "ن ش ء can mark beginning a saying or act, while ش ج ر can mark interwoven quarrel; together they permit the focus wording to echo the initiation of an entangled conflict.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B004",
+                "role": "Beginning speech or action supplies the ignition-like initiation of a social process."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B002",
+                "role": "Interwoven quarrel and mixed speech supply the conflict that can spread after initiation."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ح ر ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000303",
+                "branch_id": "B005",
+                "role": "Stirring fire or war bridges material cultivation to deliberate agitation of conflict."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B007",
+                "role": "A feud or enmity among people supplies the social fire adjacent to the focus."
+              }
+            ],
+            "changed_reading": {
+              "before": "The addressees are asked whether they produced a literal tree.",
+              "after": "As a contained echo, they are also confronted with whether they truly originate the entangled conflicts they appear to kindle, or only activate conditions whose deeper agency exceeds them."
+            }
+          },
+          {
+            "outlier_id": "outlier_generative_lineage",
+            "confidence": "exploratory",
+            "containment": "This is surprising because camel conception, semen-as-seed, and genealogical origin are carried into an arboreal object. It remains valid as an analogy because both focus roots themselves supply gestation and lineage branches, and the nearby sequence supplies reproductive material and seed imagery. Downstream prose should qualify it as a generative-lineage resonance and retain the literal tree as primary.",
+            "focus_anchor": "The focus can pair the pregnancy-beginning branch of ن ش ء with the origin or lineage branch of ش ج ر, making the visible tree the unfolding of an implanted generative source.",
+            "activation_trace": [
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B009",
+                "role": "The beginning of pregnancy supplies an internally initiated growth that later becomes visible."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B009",
+                "role": "Tree as origin or lineage lets the plant stand for a branching generative descent."
+              },
+              {
+                "source_ref": "56:58",
+                "root": "م ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001450",
+                "branch_id": "B002",
+                "role": "Reproductive fluid from which form is apportioned supplies the concealed material beginning of developed life."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B004",
+                "role": "Semen construed as seed joins human generation to the packet's agricultural growth sequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The tree is a discrete botanical product.",
+              "after": "As a contained generative resonance, the tree is a branching lineage whose hidden implantation and unfolding raise the same question of originating agency as animal or human development."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated أأنتم ... أم نحن pattern turns the focus from an isolated assertion into a controlled comparison between visible human handling and originating agency.",
+            "The cultivation sequence sharply distinguishes preparatory work from germination and sustained growth, strengthening the developmental force of ن ش ء.",
+            "The adjacent concealed-fire and provision branches recast the tree as upstream material infrastructure carrying a latent capacity that humans elicit but do not author."
+          ],
+          "what_was_special": "The focus's doubled origination root sits between a living tree and a mirrored agent contrast, allowing temporal growth, material affordance, and repeated re-origination to coexist without collapsing into one reading; the same inventories also preserve unusually coherent conflict and lineage echoes.",
+          "remaining_uncertainties": [
+            "Whether the focus weights absolute origination, organic upbringing, or upward emergence most heavily remains open.",
+            "The hidden-fire branch of و ر ي supports an extraction model, but treating the whole tree as designed storage is still a reader-supplied causal extension.",
+            "The conflict and generative-lineage outliers are branch-resolvable but remain analogical and should not displace the literal botanical reading."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The fire’s tree is an originated support, not a human invention.** Repeated `ن ش ء` activates **B006**, bringing into being; `ش ج ر` **B001** supplies woody plant and **B004** interlaced wooden support. The possessive pronoun binds tree to fire. **Abductive move:** I infer that the material support storing ignition is part of the creative chain. **Reading change:** the question moves agency one stage behind kindling to the production of its enabling medium.\n\n2. **Growth and flame joined through one created structure.** `ن ش ء` **B001** supplies rising and being raised, while `ش ج ر` **B009** supplies stock or origin as a tree. **Abductive move:** I infer that the growing tree is the lineage or stock from which later flame emerges. **Reading change:** apparently opposed living growth and consuming fire become phases of one originated potential.",
@@ -3173,18 +3871,23 @@
   "root_lexicon": {
     "root_001502": {
       "root_ar": "ن ش ء",
+      "qac_roots_ar": [
+        "ن ش ء"
+      ],
       "root_id": "root_001502",
-      "root_mapping": {
-        "root_id": "root_001502",
-        "root_norm": "ن ش ء",
-        "source_root_norm": "ن ش أ",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 22,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ش ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 22
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5d592d623d01a6c7696b653e9340c2d56b83994ab56cd09db0c53097a60c0742",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5793,18 +6496,23 @@
     },
     "root_000777": {
       "root_ar": "ش ج ر",
+      "qac_roots_ar": [
+        "ش ج ر"
+      ],
       "root_id": "root_000777",
-      "root_mapping": {
-        "root_id": "root_000777",
-        "root_norm": "ش ج ر",
-        "source_root_norm": "ش ج ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 18,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ج ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 18
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "11db9ec752e1f0339e43be3f8c0e7e10ce722cb9dded73837b3a1e54e7c64a17",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8542,14 +9250,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8825,11 +9539,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_72.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_72.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 82859,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8901,19 +9628,37 @@
           "root_ids": [
             "root_001502"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ش ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001502",
+            "targets": [
+              {
+                "qac_root_norm": "ن ش ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_001502",
+                "furuq_root_norm": "ن ش ء",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 22,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001502",
-              "root_norm": "ن ش ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ش ء",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 22,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8938,19 +9683,37 @@
           "root_ids": [
             "root_000777"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ج ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000777",
+            "targets": [
+              {
+                "qac_root_norm": "ش ج ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000777",
+                "furuq_root_norm": "ش ج ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 18,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000777",
-              "root_norm": "ش ج ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ج ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 18,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8977,10 +9740,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 18,
+        "dictionary_branches_kept": 18,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 18,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

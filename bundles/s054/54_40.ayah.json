@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.747555+00:00",
+  "generated_at": "2026-08-04T22:29:54.096326+00:00",
   "surah": 54,
   "ayah": 40,
   "ayahRef": "54:40",
@@ -2756,7 +2756,8 @@
       "morpheme_ids": [
         "m-w-s054-a040-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:40:1"
+      "aligned_qac_word_ref_upstream": "54:40:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2770,7 +2771,8 @@
       "morpheme_ids": [
         "m-w-s054-a040-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:40:2"
+      "aligned_qac_word_ref_upstream": "54:40:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2784,7 +2786,8 @@
       "morpheme_ids": [
         "m-w-s054-a040-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:40:3"
+      "aligned_qac_word_ref_upstream": "54:40:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2800,7 +2803,8 @@
         "m-w-s054-a040-w002-01",
         "m-w-s054-a040-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:40:4"
+      "aligned_qac_word_ref_upstream": "54:40:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2816,7 +2820,8 @@
         "m-w-s054-a040-w003-01",
         "m-w-s054-a040-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:40:5"
+      "aligned_qac_word_ref_upstream": "54:40:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2830,13 +2835,70 @@
       "morpheme_ids": [
         "m-w-s054-a040-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:40:6"
+      "aligned_qac_word_ref_upstream": "54:40:6",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 7,
+      "surface_ar": "فَ",
+      "word_ids": [
+        "w-s054-a040-w005"
+      ],
+      "qac_refs": [
+        "54:40:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a040-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "54:40:8",
+      "morpheme_skip_count": 2
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "هَلْ",
+      "word_ids": [
+        "w-s054-a040-w005"
+      ],
+      "qac_refs": [
+        "54:40:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a040-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "54:40:9",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 9,
+      "surface_ar": "مِن",
+      "word_ids": [
+        "w-s054-a040-w006"
+      ],
+      "qac_refs": [
+        "54:40:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a040-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "54:40:10",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 10,
+      "surface_ar": "مُّدَّكِرٍۢ",
+      "word_ids": [
+        "w-s054-a040-w007"
+      ],
+      "qac_refs": [
+        "54:40:7:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a040-w007-01"
+      ],
+      "aligned_qac_word_ref_upstream": "54:40:11",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3394,7 +3456,912 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_40.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:40",
+      "window": [
+        "54:33",
+        "54:34",
+        "54:35",
+        "54:36",
+        "54:37",
+        "54:38",
+        "54:39",
+        "54:40",
+        "54:41",
+        "54:42",
+        "54:43",
+        "54:44",
+        "54:45"
+      ],
+      "ayah_count": 13,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:40",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_prepared_recollection",
+            "confidence": "strong",
+            "focus_anchor": "The Form II verb at word 2, the purpose phrase at word 4, and the indefinite agent noun at word 7.",
+            "mechanism": "Deliberate preparation removes friction so that the recited material can restore what slips from awareness and produce an actual recollecting respondent.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease after difficulty supplies the enabling action that makes response practicable."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading, recitation, and teaching supply the repeatable verbal medium through which the enabling acts."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Restoring something after forgetfulness supplies the inward result sought from the prepared recitation."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that makes something present supplies the instrument-to-agent movement from dhikr to muddakir."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Qur'an is easy to read or memorize.",
+              "after": "The Qur'an has been actively prepared as an accessible recollection-device, and the question tests whether that provision becomes a recollecting person."
+            }
+          },
+          {
+            "model_id": "base_gathered_voiced_pattern",
+            "confidence": "medium",
+            "focus_anchor": "Qur'an at word 3 between yassarna and the doubled dhikr root.",
+            "mechanism": "What is gathered into a recitable whole can move readily onto the tongue, be rehearsed, and reassemble dispersed awareness into a stable pattern.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Lightness and ready following in movement supplies the text's portability through repeated performance."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering dispersed parts supplies the coherent whole that recollection can recover."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B011",
+                "role": "A way, model, or patterned course supplies repeatability beyond a one-time utterance."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention on the tongue supplies the voiced rehearsal that carries the gathered pattern."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ease is a static property of a book.",
+              "after": "Ease is operational: a gathered and patterned recitation is made light enough to circulate through speech and repeatedly regather attention."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_warning_choice",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ن ذ ر",
+              "م ر ي"
+            ],
+            "mechanism": "Warnings are designed to wake caution, while denial and sharp disputation show that failed uptake can be active resistance rather than inaccessible wording. The ease claim therefore preserves responsibility instead of predicting universal response.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ease after difficulty supplies an opened route whose availability can be distinguished from a hearer's refusal."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recollection after forgetfulness supplies the responsive alternative to denial."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing a message or messenger to falsehood supplies an active rejection mechanism, not mere failure to understand."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that frightens and awakens caution supplies the intended activation that dhikr can retain."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001416",
+                "branch_id": "B003",
+                "role": "Sharp verbal disputation supplies the social friction that can oppose an otherwise opened route."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001416",
+                "branch_id": "B005",
+                "role": "Disputatious denial of truth makes the obstruction volitional and sharpens the closing question's accountability."
+              }
+            ],
+            "structural_cues": [
+              "The unit opens with denial of warnings at 54:33 and repeats warning language through 54:39.",
+              "The focus closes with an interrogative rather than asserting that a respondent necessarily appears."
+            ],
+            "reader_inference": "The packet supplies an opened-ease image, caution-awakening warnings, and deliberate denial; I infer that availability and uptake are separated. A narrower recitational-ease reading remains possible.",
+            "changed_reading": {
+              "before": "If the Qur'an is easy, understanding and response should follow automatically.",
+              "after": "The Qur'an removes an access obstacle and awakens caution, but the open question exposes denial as a live counter-action for which the hearer remains answerable."
+            }
+          },
+          {
+            "model_id": "delta_rescue_response_path",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ج و",
+              "ن ع م",
+              "ج ز ي",
+              "ش ك ر"
+            ],
+            "mechanism": "The sequence from separation and rescue to grace, matched recompense, and gratitude turns accessible remembrance into a usable response-path: warning can be received, retained, and answered rather than merely decoded.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "An opened and prepared route supplies the possibility of moving from warning into response."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The reminder that renews presence supplies the responsive pivot in the route."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Deliverance by separation supplies the concrete outcome-image of leaving the endangered alignment."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and grace frame rescue as provision rather than self-achievement."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Matching an act with its recompense supplies the response-and-consequence linkage."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B001",
+                "role": "Recognition and praise of the giver supplies the human act that receives grace as grace."
+              }
+            ],
+            "structural_cues": [
+              "54:34-35 place rescue, grace, recompense, and gratitude in one short sequence.",
+              "This positive route appears inside a unit otherwise dominated by warning and punishment."
+            ],
+            "reader_inference": "The packet supplies rescue, grace, recompense, gratitude, and an accessible reminder; I supply the arrow that remembrance can initiate this response-path. The verses do not state that recollection alone causes rescue.",
+            "changed_reading": {
+              "before": "The verse promises cognitive convenience.",
+              "after": "The verse also offers an operable mercy-route: warning has been made retainable so that a hearer can separate from refusal and answer provision with gratitude."
+            }
+          },
+          {
+            "model_id": "delta_before_forced_experience",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط م س",
+              "ع ي ن",
+              "ذ و ق",
+              "ع ذ ب"
+            ],
+            "mechanism": "The context moves from erased sight to compulsory tasting of punishment. Against that sequence, easy recitation and recollection become a merciful mode of knowing beforehand: one may learn through a reminder before reality is learned through irreversible bodily experience.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies a mediated, repeatable way to encounter the warning."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Inward recovery supplies knowledge by recollection rather than by suffering the event."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ط م س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000950",
+                "branch_id": "B002",
+                "role": "Loss of light and sight supplies the collapse of ordinary visual access."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The seeing eye identifies the faculty removed, intensifying the contrast with retained inward recall."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential testing supplies the involuntary mode of knowing that immediately precedes the focus verse."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful punishment supplies the content of that forced experiential knowledge."
+              }
+            ],
+            "structural_cues": [
+              "Eye-effacement and the command to taste are chained in 54:37.",
+              "The tasting command is repeated in 54:39 immediately before the focus verse."
+            ],
+            "reader_inference": "The packet supplies lost sight, experiential tasting, punishment, and accessible recollection; I infer two contrasted ways of coming to know. The text does not explicitly label recitation a substitute sense.",
+            "changed_reading": {
+              "before": "Remembering is mainly retention of verbal information.",
+              "after": "Remembering is the still-open, non-destructive way to know the warning before erased perception and painful experience make its truth unavoidable."
+            }
+          },
+          {
+            "model_id": "delta_open_interval",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س ح ر",
+              "ب ك ر",
+              "ق ر ر"
+            ],
+            "mechanism": "Dawn rescue and early-morning settled punishment activate the Qur'an branch of an appointed or approaching time. Facilitation then appears as an open interval in which recollection can occur before consequence settles.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening after difficulty supplies the temporary availability of a response-window."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B005",
+                "role": "A time that comes near or is delayed supplies the timing image that the morning sequence activates."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The last part of night supplies the marked rescue threshold."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B001",
+                "role": "The beginning of day supplies the contrasting threshold at which punishment arrives."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement supply the closure of the previously open interval."
+              }
+            ],
+            "structural_cues": [
+              "Rescue is marked at the last part of night in 54:34.",
+              "Punishment reaches them early and is described as settled in 54:38."
+            ],
+            "reader_inference": "The packet supplies two morning thresholds, settlement, and a focus branch involving time; I infer an interval for response between warning and fixation. The ordinary recitation sense of Qur'an remains primary, so this timing layer is exploratory.",
+            "changed_reading": {
+              "before": "The ease of recollection is timeless availability.",
+              "after": "The verse sounds like an opened interval: the reminder is available now, and the question asks who will enter it before consequence becomes settled."
+            }
+          },
+          {
+            "model_id": "delta_casebook_hinge",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ي ء",
+              "ن ذ ر",
+              "ك ذ ب",
+              "ء ي ي",
+              "ك ل ل"
+            ],
+            "mechanism": "The focus verse stands between two warning dossiers. Gathering, recitation, and reminder turn the completed Lot sequence into a portable pattern just as warnings arrive to Pharaoh's house; denial of all signs shows why the plurality must be gathered and made retrievable.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering dispersed material supplies the casebook-like consolidation of many signs and events."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B011",
+                "role": "A way or model supplies transfer of the completed case into a reusable pattern."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that restores presence supplies retrieval of the prior case at the next one."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Arrival supplies the immediate reopening of the warning pattern after the refrain."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Caution-awakening warnings supply the recurring function shared by the adjacent dossiers."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution to falsehood supplies the repeated failure that pattern-recognition is meant to expose."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "Visible marks supply the discrete evidence-units gathered by the recited casebook."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total inclusion supplies the comprehensive scope that prevents selective dismissal of signs."
+              }
+            ],
+            "structural_cues": [
+              "54:40 closes the Lot account and 54:41 immediately opens the Pharaoh account.",
+              "The next account describes denial of the signs in their totality."
+            ],
+            "reader_inference": "The packet supplies a gathered-text branch, a reminder, a boundary position, newly arriving warnings, and total denial; I infer that the refrain indexes and transfers a case-pattern. It may also remain a general refrain without an indexing function.",
+            "changed_reading": {
+              "before": "54:40 is a detached slogan about textual ease.",
+              "after": "54:40 is a hinge that compresses one warning-history into a retrievable model and immediately equips the hearer to recognize the same mechanism in the next history."
+            }
+          },
+          {
+            "model_id": "delta_person_from_collective",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و م",
+              "ق و ل",
+              "ج م ع",
+              "ن ص ر",
+              "ه ز م",
+              "و ل ي",
+              "د ب ر"
+            ],
+            "mechanism": "The context begins with a people denying and ends with a collective voicing confidence in its united victory, only for that collective to break and turn away. Against these plural formations, min muddakir solicits an indefinite singular respondent: accessible remembrance can detach a person from inherited group speech before the group collapses.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Inward recollection supplies the individual act by which group assumptions can be interrupted."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention on the tongue supplies a counter-utterance to the collective boast."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "A human collective supplies the first corporate subject of denial."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Voiced speech supplies the collective's self-authorizing slogan."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B002",
+                "role": "A gathered group supplies the social body in which confidence is pooled."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid and manifest victory supply the protection the group claims for itself."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "Breaking and driving back a battle-line supplies the collapse of corporate confidence."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the group's reversed movement after its boast."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B003",
+                "role": "Presenting the back and withdrawing supplies the visible end of failed collective alignment."
+              }
+            ],
+            "structural_cues": [
+              "Plural peoples and houses dominate the surrounding accounts.",
+              "54:44 emphasizes we and a united collective, while 54:40 asks whether there is any singular muddakir."
+            ],
+            "reader_inference": "The packet supplies corporate denial, a singular respondent-form, collective speech, claimed victory, and collective reversal; I infer that the question recruits a person out of group identification. The singular may instead be generic with no anti-collective emphasis.",
+            "changed_reading": {
+              "before": "The closing question merely asks whether anyone happens to remember.",
+              "after": "The closing question is a social summons: who will become a singular recollecting respondent before the confidence and language of the collective determine the person's course?"
+            }
+          },
+          {
+            "model_id": "delta_consultable_record",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ب ر ء",
+              "ز ب ر"
+            ],
+            "mechanism": "The post-focus challenge about an exemption in written records activates dhikr as a document of right. Read with Qur'an as recitation and study, facilitation makes the warning an inspectable record rather than leaving presumed immunity to unsupported group assertion.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and study supply the act by which a claimed record can be consulted."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B008",
+                "role": "A written instrument of right supplies the documentary image activated by the next verse's challenge."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B004",
+                "role": "Release from a claim and separation supply the alleged exemption being tested."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and books supply the documentary venue in which that exemption would need support."
+              }
+            ],
+            "structural_cues": [
+              "54:43 follows the focus and poses a rhetorical alternative about exemption in writings.",
+              "Both verses use questions that force a respondent to test a claim rather than assume it."
+            ],
+            "reader_inference": "The packet supplies a dhikr-document branch, reading, exemption, and writings; I infer that accessibility enables evidentiary consultation. The ordinary remembrance sense remains stronger, and no literal legal genre need be asserted.",
+            "changed_reading": {
+              "before": "Dhikr is only a private mental act.",
+              "after": "Dhikr can also carry a public evidentiary edge: the accessible recitation is a consultable record against which imagined exemption is tested."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_small_cue_visible_yield",
+            "confidence": "medium",
+            "containment": "This is surprising because yusr as a small quantity is not the ordinary force of yassarna. It remains anchored through word 2 and gains a precise contextual echo in gratitude whose little input shows an effect; render it as a scale analogy, not as a replacement translation.",
+            "focus_anchor": "Yassarna at word 2 governing the Qur'an and the reminder-purpose.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B002",
+                "role": "A slight quantity supplies the small-input side of the scale analogy."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that renews presence supplies the visible recollective yield."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B002",
+                "role": "Sufficiency through little and the appearance of its effect supplies the context's exact small-input, manifest-output relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only broad mastery of the whole corpus can count as meaningful recollection.",
+              "after": "Even a small, accessible unit may be enough to make a recollective response visibly appear."
+            }
+          },
+          {
+            "outlier_id": "outlier_apportioned_collection",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the yusr image comes from lots and division. It remains attached to yassarna and converges with Qur'an as gathering plus the context's totality; carry only the logistics of apportionment, never gambling, chance, or divination.",
+            "focus_anchor": "The relation of yassarna at word 2 to Qur'an at word 3.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B007",
+                "role": "Division of a whole into assigned shares supplies the material analogy of usable portions."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering supplies the whole from which repeatable portions can be made available."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Comprehensive totality supplies the contextual pressure to preserve the whole even when engagement occurs by portions."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ease applies to the corpus only as an undifferentiated whole.",
+              "after": "The gathered whole may be understood as made available in workable shares, so repeated portions can carry remembrance without losing the total pattern."
+            }
+          },
+          {
+            "outlier_id": "outlier_maneuverable_reminder",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading transfers animal or bodily lightness into moral maneuverability. It remains anchored in yassarna and is activated by rapid escape and later reversed flight; qualify it as a kinetic analogy, not a claim that ease lexically means escape.",
+            "focus_anchor": "Yassarna at word 2 as the enabling action directed toward dhikr.",
+            "activation_trace": [
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Lightness and ready following in motion supply the reminder's maneuverability."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recovered awareness supplies the orientation that directs timely movement."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B002",
+                "role": "Speed of departure supplies the positive kinetic outcome of responding in time."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the negative, compelled movement that contrasts with timely voluntary departure."
+              }
+            ],
+            "changed_reading": {
+              "before": "The reminder is easy to possess mentally.",
+              "after": "The reminder is made maneuverable enough to reorient a person while voluntary movement is still possible, before events impose a flight of their own."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Ease marks available access without erasing the possibility of deliberate denial.",
+            "Recollection offers a non-destructive way of knowing before warning becomes forced bodily experience.",
+            "The refrain gathers one case into a retrievable pattern and transfers it into the next.",
+            "The singular muddakir can be heard as a person called out of collective speech and confidence."
+          ],
+          "what_was_special": "The immediate window made facilitation dynamic rather than merely lexical: it became an open response-path, a temporal hinge, an alternative to forced experience, and a means of extracting individual recollection from repeated corporate refusal.",
+          "remaining_uncertainties": [
+            "The timing force of the Qur'an branch is real inventory material but remains secondary to ordinary recitation.",
+            "The documentary sense of dhikr may be a local analogy prompted by 54:43 rather than an active sense in 54:40.",
+            "The social contrast between singular muddakir and plural collectives may be rhetorical grammar without a full individuation mechanism."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The fourth mnemonic opening counters the preceding erasure of sight.** `ي س ر` B001 is ease/ready opening; `ق ر ء` B001 gathers speech into recitation and B002 recites; `ذ ك ر` B003 restores to mind and B009 admonishes. The Lot sequence includes eyes being erased, but the refrain offers a different route of reception through repeated recitation. I infer that sensory loss in the narrative sharpens the availability of auditory-verbal memory for the current hearer. The ayah reads as renewed access after a case defined by refusal and obliteration.",
@@ -4328,18 +5295,23 @@
   "root_lexicon": {
     "root_001694": {
       "root_ar": "ي س ر",
+      "qac_roots_ar": [
+        "ي س ر"
+      ],
       "root_id": "root_001694",
-      "root_mapping": {
-        "root_id": "root_001694",
-        "root_norm": "ي س ر",
-        "source_root_norm": "ي س ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 40,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي س ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 40
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "85ae31fbb5c44f01319bdf2db0b1c31b04502817081fb9e0c2c551f312e610e5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5952,18 +6924,23 @@
     },
     "root_001210": {
       "root_ar": "ق ر ء",
+      "qac_roots_ar": [
+        "ق ر ء"
+      ],
       "root_id": "root_001210",
-      "root_mapping": {
-        "root_id": "root_001210",
-        "root_norm": "ق ر ء",
-        "source_root_norm": "ق ر ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ر ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -5971,18 +6948,23 @@
     },
     "root_000516": {
       "root_ar": "ذ ك ر",
+      "qac_roots_ar": [
+        "ذ ك ر"
+      ],
       "root_id": "root_000516",
-      "root_mapping": {
-        "root_id": "root_000516",
-        "root_norm": "ذ ك ر",
-        "source_root_norm": "ذ ك ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 277,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ذ ك ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 277
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9e1ac4e24b425fdb7ad3bf1a72543af44c5ebca087ae33fa01fd168eb8a28cec",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9547,42 +10529,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
       "words_total": 11,
-      "words_resolved": 6,
-      "words_unresolved": 5,
+      "words_resolved": 10,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 2,
+      "morpheme_skip_max": 2,
+      "morpheme_skip_histogram": {
+        "0": 9,
+        "2": 1
+      },
       "unresolved": [
         {
           "word_index": 6,
           "surface_ar": "ٱلذِّكْرِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "فَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "هَلْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 9,
-          "surface_ar": "مِن",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 10,
-          "surface_ar": "مُّدَّكِرٍۢ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9834,11 +10803,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_40.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_40.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 97517,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9912,19 +10894,37 @@
           "root_ids": [
             "root_001694"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي س ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001694",
+            "targets": [
+              {
+                "qac_root_norm": "ي س ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001694",
+                "furuq_root_norm": "ي س ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 40,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001694",
-              "root_norm": "ي س ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي س ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 40,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9949,19 +10949,37 @@
           "root_ids": [
             "root_001210"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ر ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001210",
+            "targets": [
+              {
+                "qac_root_norm": "ق ر ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_001210",
+                "furuq_root_norm": "ق ر ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001210",
-              "root_norm": "ق ر ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ر ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 28,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -9973,19 +10991,37 @@
           "root_ids": [
             "root_000516"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ذ ك ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000516",
+            "targets": [
+              {
+                "qac_root_norm": "ذ ك ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000516",
+                "furuq_root_norm": "ذ ك ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 277,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000516",
-              "root_norm": "ذ ك ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ذ ك ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 277,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10012,10 +11048,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 20,
+        "dictionary_branches_kept": 20,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 9,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

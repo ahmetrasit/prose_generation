@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T07:25:59.589786+00:00",
+  "generated_at": "2026-08-04T22:29:20.046654+00:00",
   "surah": 18,
   "ayah": 68,
   "ayahRef": "18:68",
@@ -2331,7 +2331,8 @@
       "morpheme_ids": [
         "m-w-s018-a068-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:68:1"
+      "aligned_qac_word_ref_upstream": "18:68:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2345,7 +2346,8 @@
       "morpheme_ids": [
         "m-w-s018-a068-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:68:2"
+      "aligned_qac_word_ref_upstream": "18:68:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2359,7 +2361,8 @@
       "morpheme_ids": [
         "m-w-s018-a068-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:68:3"
+      "aligned_qac_word_ref_upstream": "18:68:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2373,7 +2376,8 @@
       "morpheme_ids": [
         "m-w-s018-a068-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:68:4"
+      "aligned_qac_word_ref_upstream": "18:68:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2387,7 +2391,8 @@
       "morpheme_ids": [
         "m-w-s018-a068-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:68:5"
+      "aligned_qac_word_ref_upstream": "18:68:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2401,7 +2406,8 @@
       "morpheme_ids": [
         "m-w-s018-a068-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:68:6"
+      "aligned_qac_word_ref_upstream": "18:68:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2415,7 +2421,8 @@
       "morpheme_ids": [
         "m-w-s018-a068-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:68:7"
+      "aligned_qac_word_ref_upstream": "18:68:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2431,7 +2438,8 @@
         "m-w-s018-a068-w007-01",
         "m-w-s018-a068-w007-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:68:8"
+      "aligned_qac_word_ref_upstream": "18:68:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2445,7 +2453,8 @@
       "morpheme_ids": [
         "m-w-s018-a068-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:68:9"
+      "aligned_qac_word_ref_upstream": "18:68:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2991,7 +3000,656 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s18/packets/18_68.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "18:68",
+      "window": [
+        "18:60",
+        "18:61",
+        "18:62",
+        "18:63",
+        "18:64",
+        "18:65",
+        "18:66",
+        "18:67",
+        "18:68",
+        "18:69",
+        "18:70",
+        "18:71",
+        "18:72",
+        "18:73",
+        "18:74",
+        "18:75",
+        "18:76",
+        "18:77",
+        "18:78",
+        "18:79",
+        "18:80",
+        "18:81",
+        "18:82"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "18:68",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1_EPISTEMIC_RESTRAINT",
+            "confidence": "strong",
+            "focus_anchor": "تَصْبِرُ ... لَمْ تُحِطْ بِهِ خُبْرًا",
+            "mechanism": "Self-restraint depends on a whole-sided grasp of an affair's interior; without that grasp, reaction outruns knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "18:68",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "Holding the self against agitation supplies the restraint whose feasibility is questioned."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Complete knowledge from every side sets the missing epistemic condition."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Knowledge of an affair's inward reality names what surface observation lacks."
+              }
+            ],
+            "changed_reading": {
+              "before": "Patience is generic emotional endurance before something unknown.",
+              "after": "Patience is disciplined non-reaction while one's knowledge still lacks the affair's full interior perimeter."
+            }
+          },
+          {
+            "model_id": "B2_JUDGMENT_AT_THE_EDGE",
+            "confidence": "medium",
+            "focus_anchor": "تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِ",
+            "mechanism": "The branch images turn judgment into a spatial act: the reader stands at an edge and cannot yet surround or enter the matter.",
+            "activation_trace": [
+              {
+                "source_ref": "18:68",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B004",
+                "role": "Sides and upper edges make patience a stance maintained at a boundary."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B001",
+                "role": "Physical surrounding supplies the perimeter that the observer has not completed."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "The inward side of the affair remains beyond the observer's current boundary."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse contrasts patience with a quantity of missing information.",
+              "after": "It contrasts premature judgment from one exposed side with knowledge able to traverse the matter's full boundary and interior."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_SEQUENCED_RECEPTION",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ص ص",
+              "ت ب ع",
+              "س ء ل",
+              "ح د ث"
+            ],
+            "mechanism": "The route is recovered by tracking traces, and the apprenticeship repeats that procedure: follow act after act without extracting an explanation until it is brought forth. Patience becomes control over the order of reception.",
+            "activation_trace": [
+              {
+                "source_ref": "18:68",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "Self-restraint becomes the capacity not to interrupt a still-unfolding sequence."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Whole-sided knowledge is the endpoint that cannot be forced from an early segment."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Interior understanding is recast as something assembled through ordered exposure."
+              },
+              {
+                "source_ref": "18:64",
+                "root": "ق ص ص",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001232",
+                "branch_id": "B001",
+                "role": "Following a trace supplies the packet's first concrete method for recovering what was missed."
+              },
+              {
+                "source_ref": "18:66",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B003",
+                "role": "Stepwise pursuit makes following an epistemic procedure, not mere proximity."
+              },
+              {
+                "source_ref": "18:70",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning is the extraction attempt that the procedure temporarily suspends."
+              },
+              {
+                "source_ref": "18:70",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Deliberate bringing-forth assigns disclosure to a later, initiated stage."
+              }
+            ],
+            "structural_cues": [
+              "18:64 returns over residual tracks; 18:66 requests instruction by following; 18:70 forbids questions until initiated mention."
+            ],
+            "reader_inference": "The packet supplies trace-following, apprenticeship, suspended questions, and later disclosure; I infer that premature questioning substitutes a fragment for the whole. A live alternative is that the rule tests obedience more than epistemic sequencing.",
+            "changed_reading": {
+              "before": "Patience means staying calm despite ignorance.",
+              "after": "Patience means preserving the prescribed sequence by which ignorance can become inward knowledge."
+            }
+          },
+          {
+            "model_id": "D2_COUNTERFACTUAL_PERIMETER",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ر ق",
+              "غ ر ق",
+              "و ر ي",
+              "ك ل ل",
+              "غ ص ب"
+            ],
+            "mechanism": "A local breach looks destructive inside the visible frame, but a concealed coercive field changes its function. Encompassing knowledge must include not only the act and its immediate risk but the larger harm that the act may prevent.",
+            "activation_trace": [
+              {
+                "source_ref": "18:68",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Complete enclosure of the facts becomes the unavailable counterfactual perimeter."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "The affair's hidden interior includes the nonvisible threat behind the act."
+              },
+              {
+                "source_ref": "18:71",
+                "root": "خ ر ق",
+                "source_word_indices": [
+                  "7",
+                  "9"
+                ],
+                "mapped_root_id": "root_000405",
+                "branch_id": "B001",
+                "role": "The literal puncture supplies the locally damaging action that provokes judgment."
+              },
+              {
+                "source_ref": "18:71",
+                "root": "غ ر ق",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001080",
+                "branch_id": "B001",
+                "role": "Drowning supplies the immediate causal horizon visible to the objector."
+              },
+              {
+                "source_ref": "18:79",
+                "root": "و ر ي",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001642",
+                "branch_id": "B005",
+                "role": "Concealment behind appearance locates the omitted threat outside that immediate horizon."
+              },
+              {
+                "source_ref": "18:79",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Totality and enclosure mark the sweeping scope of the ruler's taking."
+              },
+              {
+                "source_ref": "18:79",
+                "root": "غ ص ب",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_001090",
+                "branch_id": "B001",
+                "role": "Coercive wrongful seizure supplies the larger prevented loss."
+              }
+            ],
+            "structural_cues": [
+              "18:71 names the feared result as drowning; 18:79 names a defect and a ruler taking every ship by force."
+            ],
+            "reader_inference": "The packet supplies puncture, feared drowning, concealed ruler, total scope, and forced taking; I infer that making the ship defective blocks or reduces seizure. The live alternative is only reduced value or delayed seizure, not certain escape.",
+            "changed_reading": {
+              "before": "Missing knowledge means not knowing why an alarming act was done.",
+              "after": "Missing knowledge means lacking the counterfactual perimeter: the hidden system in which apparent damage can avert a more total loss."
+            }
+          },
+          {
+            "model_id": "D3_FUTURE_RELATIONAL_HORIZON",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ش ي",
+              "ر ه ق",
+              "ط غ ي",
+              "ب د ل",
+              "ر ح م"
+            ],
+            "mechanism": "The visible present is not the whole unit of judgment: the packet relates an act to a feared future burden on parents and to a replacement framed by benefit and mercy. The unknown 'interior' therefore includes relations and trajectories not yet actualized.",
+            "activation_trace": [
+              {
+                "source_ref": "18:68",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "Self-restraint holds judgment open while a future relational horizon remains unavailable."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Whole-sided grasp expands from present facts to the relation's projected course."
+              },
+              {
+                "source_ref": "18:80",
+                "root": "خ ش ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000413",
+                "branch_id": "B002",
+                "role": "The branch's knowledge-sense makes the stated fear an epistemically charged forecast."
+              },
+              {
+                "source_ref": "18:80",
+                "root": "ر ه ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000606",
+                "branch_id": "B001",
+                "role": "Overwhelming and overpowering supplies the future pressure on the parental relation."
+              },
+              {
+                "source_ref": "18:80",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B001",
+                "role": "Crossing the limit specifies the projected direction of that pressure."
+              },
+              {
+                "source_ref": "18:81",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B001",
+                "role": "One thing standing in place of another supplies the disclosed future reconfiguration."
+              },
+              {
+                "source_ref": "18:81",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful tenderness marks the relational value claimed for that future."
+              }
+            ],
+            "structural_cues": [
+              "18:74 presents a currently pure life and a killing; 18:80-81 disclose feared future pressure and replacement."
+            ],
+            "reader_inference": "The packet supplies present innocence, a forecast of overpowering transgression, replacement, and mercy; I infer that the focus verse contrasts snapshot judgment with trajectory-inclusive knowledge. This does not generalize the act into a human permission, and the forecast could be read as disclosed rationale rather than a model of ordinary prediction.",
+            "changed_reading": {
+              "before": "The unknown is a hidden fact located behind a present event.",
+              "after": "The unknown can be a not-yet-realized relational trajectory, so patience bears present opacity without pretending to possess that future."
+            }
+          },
+          {
+            "model_id": "D4_RETROSPECTIVE_RETURN",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ر ق",
+              "ن ب ء",
+              "ء و ل"
+            ],
+            "mechanism": "The account arrives at separation and returns each act to its outcome. Knowledge in the focus verse is thus structurally retrospective: the act is first encountered as a fragment and only later placed inside its causal whole.",
+            "activation_trace": [
+              {
+                "source_ref": "18:68",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "Restraint must span the interval before retrospective placement becomes available."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B001",
+                "role": "Interior knowledge names the later account that reorganizes the earlier surface."
+              },
+              {
+                "source_ref": "18:78",
+                "root": "ف ر ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001148",
+                "branch_id": "B001",
+                "role": "Separation supplies the threshold at which withheld explanation begins."
+              },
+              {
+                "source_ref": "18:78",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B002",
+                "role": "A report brought to the hearer supplies the delayed explanatory delivery."
+              },
+              {
+                "source_ref": "18:78",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return to an affair's outcome supplies the retrospective causal operation."
+              },
+              {
+                "source_ref": "18:82",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "30"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "The repeated return-to-outcome closes the three acts into one explanatory frame."
+              }
+            ],
+            "structural_cues": [
+              "18:78 announces explanation only at separation; 18:79-82 then reorder each prior act by disclosed consequences and purposes."
+            ],
+            "reader_inference": "The packet supplies separation, delayed report, return-to-outcome, and three explanations; I infer that full khubr is retrospective causal placement. A live alternative is that ta'wil denotes a verbal account alone rather than dependence on outcomes becoming visible.",
+            "changed_reading": {
+              "before": "The question predicts difficulty tolerating unexplained acts.",
+              "after": "The question identifies a temporal asymmetry: reaction occurs now, while the account capable of returning each act to its causal whole arrives later."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_PATIENCE_AS_LOAD_BEARING_WALL",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it materializes an ethical-epistemic quality as architecture. It remains anchored in the focus branches for sides and surrounding and in the packet's raised wall, preserved treasure, maturation, and extraction; downstream prose should label it a material analogy, not a lexical definition of patience.",
+            "focus_anchor": "The side/perimeter branches of تَصْبِرُ and تُحِطْ.",
+            "activation_trace": [
+              {
+                "source_ref": "18:68",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B004",
+                "role": "Sides and edges let patience be imaged as a structure that holds a boundary."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B001",
+                "role": "Walling and physical enclosure supply the protective geometry."
+              },
+              {
+                "source_ref": "18:77",
+                "root": "ج د ر",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000228",
+                "branch_id": "B001",
+                "role": "The raised wall is the literal load-bearing counterpart to the focus perimeter."
+              },
+              {
+                "source_ref": "18:77",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Standing as care and preservation assigns the repaired wall a custodial function."
+              },
+              {
+                "source_ref": "18:82",
+                "root": "ك ن ز",
+                "source_word_indices": [
+                  "10",
+                  "21"
+                ],
+                "mapped_root_id": "root_001322",
+                "branch_id": "B001",
+                "role": "Stored wealth supplies what the boundary preserves through delay."
+              },
+              {
+                "source_ref": "18:82",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Reaching an endpoint makes preservation explicitly time-bound."
+              },
+              {
+                "source_ref": "18:82",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B002",
+                "role": "Bringing the hidden thing out marks the delayed release that ends custody."
+              }
+            ],
+            "changed_reading": {
+              "before": "Patience is an inward pause until explanation.",
+              "after": "Exploratorily, patience is a load-bearing boundary that keeps a hidden good from premature exposure until its rightful time."
+            }
+          },
+          {
+            "outlier_id": "O2_KHUBR_AS_CATCHMENT",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading is surprising because it activates the land-and-water branch of خ ب ر rather than its ordinary knowledge branch. It remains packet-anchored through explicit gathering, water-collecting land, and seepage images; downstream prose should present it only as a secondary spatial metaphor, never as a replacement translation of خُبْرًا.",
+            "focus_anchor": "خُبْرًا with the soft low land and collected-water branch.",
+            "activation_trace": [
+              {
+                "source_ref": "18:68",
+                "root": "خ ب ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000387",
+                "branch_id": "B002",
+                "role": "Low receptive ground where water gathers supplies a basin-image for experience becoming knowledge."
+              },
+              {
+                "source_ref": "18:68",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B003",
+                "role": "Gathering scattered elements into one enclosure gives that basin an integrative function."
+              },
+              {
+                "source_ref": "18:60",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining dispersed things activates knowledge as collection rather than instant possession."
+              },
+              {
+                "source_ref": "18:60",
+                "root": "ب ح ر",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000086",
+                "branch_id": "B006",
+                "role": "Land that collects water mirrors the focus branch's receptive terrain."
+              },
+              {
+                "source_ref": "18:61",
+                "root": "س ر ب",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000691",
+                "branch_id": "B003",
+                "role": "Flowing and seeping water images signs still moving before they pool into a graspable whole."
+              }
+            ],
+            "changed_reading": {
+              "before": "Khubr is an abstract stock of information one either has or lacks.",
+              "after": "Exploratorily, khubr is a receptive catchment in which scattered, moving signs must collect before comprehensive understanding forms."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Patience becomes procedural control over when to react, ask, and receive explanation, not generic composure.",
+            "Failure of encompassing knowledge includes missing counterfactual systems and future relational trajectories, not merely an unknown motive.",
+            "The repeated ta'wil frame makes understanding retrospective: later disclosure returns earlier fragments to their causal whole."
+          ],
+          "what_was_special": "Spatial containment became epistemic structure: puncture, hidden threat, wall, stored treasure, and eventual extraction made the focus pair of encompassing and inward knowledge function as perimeter, custody, and delayed causal integration.",
+          "remaining_uncertainties": [
+            "The architectural and catchment models are visibly branch-backed but remain analogical rather than primary lexical readings.",
+            "Several causal arrows are strongly invited by juxtaposition yet are still reader-supplied, especially defect-to-escape and wall-to-preservation.",
+            "The future-oriented explanation is packet-specific and should not be generalized into ordinary human authority to act on inaccessible outcomes."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Restraint requires a boundary around report.** `ص ب ر` B001 (“self-restraint from panic”) is made difficult by failure to encompass the matter in knowledge. Later 18:91 says God encompasses what Dhul-Qarnayn has with report, reversing Moses’ position. I infer that unexplained surfaces generate impulses faster than partial knowledge can regulate them. The ayah reads patience as an epistemic practice of honoring what one does not surround.",
@@ -3831,18 +4489,23 @@
   "root_lexicon": {
     "root_000840": {
       "root_ar": "ص ب ر",
+      "qac_roots_ar": [
+        "ص ب ر"
+      ],
       "root_id": "root_000840",
-      "root_mapping": {
-        "root_id": "root_000840",
-        "root_norm": "ص ب ر",
-        "source_root_norm": "ص ب ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 103,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ب ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 103
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7bf30ae198d0e772af33c9eb9b68029c16f017fbf1d86d1b4d333c167a2ab670",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8298,18 +8961,23 @@
     },
     "root_000372": {
       "root_ar": "ح و ط",
+      "qac_roots_ar": [
+        "ح و ط"
+      ],
       "root_id": "root_000372",
-      "root_mapping": {
-        "root_id": "root_000372",
-        "root_norm": "ح و ط",
-        "source_root_norm": "ح و ط",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 24,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح و ط",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 24
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c0ae37c6e68ec285065bc19a5facac2a86ad3ee232a82724e5dbf9f12046c1b6",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10652,18 +11320,23 @@
     },
     "root_000387": {
       "root_ar": "خ ب ر",
+      "qac_roots_ar": [
+        "خ ب ر"
+      ],
       "root_id": "root_000387",
-      "root_mapping": {
-        "root_id": "root_000387",
-        "root_norm": "خ ب ر",
-        "source_root_norm": "خ ب ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 52,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ب ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 52
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5cfec43ffc22468dcb2e0c45911a7b8a3525e223d9f118228310cd06d18a4459",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12554,14 +13227,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s018/linguistic/morphemes.tsv",
-        "ayah_count": 111,
-        "row_count": 2582,
+        "ayah_count": 110,
+        "row_count": 2575,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13061,11 +13740,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s018"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s18/packets/18_68.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s18/readers/reader_hft_a/18_68.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 195603,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -13137,9 +13829,15 @@
         "ك ي ف": {
           "root_id": null,
           "root_ids": [],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ي ف",
+            "mapping_status": "no_frozen_rooted_surface_match",
+            "primary_root_id": "",
+            "targets": []
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "targets": [],
           "note": "no root_id mapping found for this QAC root"
         },
         "ص ب ر": {
@@ -13147,19 +13845,37 @@
           "root_ids": [
             "root_000840"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ب ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000840",
+            "targets": [
+              {
+                "qac_root_norm": "ص ب ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000840",
+                "furuq_root_norm": "ص ب ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 103,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000840",
-              "root_norm": "ص ب ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ب ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 103,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 18,
+              "gloss_branch_count": 18,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13184,19 +13900,37 @@
           "root_ids": [
             "root_000372"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح و ط",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000372",
+            "targets": [
+              {
+                "qac_root_norm": "ح و ط",
+                "target_rank": 1,
+                "furuq_root_id": "root_000372",
+                "furuq_root_norm": "ح و ط",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 24,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000372",
-              "root_norm": "ح و ط",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح و ط",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 24,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13221,19 +13955,37 @@
           "root_ids": [
             "root_000387"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ب ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000387",
+            "targets": [
+              {
+                "qac_root_norm": "خ ب ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000387",
+                "furuq_root_norm": "خ ب ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 52,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000387",
-              "root_norm": "خ ب ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ب ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 52,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13260,10 +14012,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 32,
+        "dictionary_branches_kept": 32,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 32,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

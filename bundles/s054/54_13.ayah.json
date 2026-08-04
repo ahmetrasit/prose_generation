@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.628241+00:00",
+  "generated_at": "2026-08-04T22:29:52.405753+00:00",
   "surah": 54,
   "ayah": 13,
   "ayahRef": "54:13",
@@ -1693,7 +1693,8 @@
       "morpheme_ids": [
         "m-w-s054-a013-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:13:1"
+      "aligned_qac_word_ref_upstream": "54:13:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1711,7 +1712,8 @@
         "m-w-s054-a013-w001-03",
         "m-w-s054-a013-w001-04"
       ],
-      "aligned_qac_word_ref_upstream": "54:13:2"
+      "aligned_qac_word_ref_upstream": "54:13:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1725,7 +1727,8 @@
       "morpheme_ids": [
         "m-w-s054-a013-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:13:3"
+      "aligned_qac_word_ref_upstream": "54:13:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1739,7 +1742,8 @@
       "morpheme_ids": [
         "m-w-s054-a013-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:13:4"
+      "aligned_qac_word_ref_upstream": "54:13:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1753,7 +1757,8 @@
       "morpheme_ids": [
         "m-w-s054-a013-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:13:5"
+      "aligned_qac_word_ref_upstream": "54:13:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1767,7 +1772,8 @@
       "morpheme_ids": [
         "m-w-s054-a013-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:13:6"
+      "aligned_qac_word_ref_upstream": "54:13:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1781,7 +1787,8 @@
       "morpheme_ids": [
         "m-w-s054-a013-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:13:7"
+      "aligned_qac_word_ref_upstream": "54:13:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2301,7 +2308,755 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_13.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:13",
+      "window": [
+        "54:1",
+        "54:2",
+        "54:3",
+        "54:4",
+        "54:5",
+        "54:6",
+        "54:7",
+        "54:8",
+        "54:9",
+        "54:10",
+        "54:11",
+        "54:12",
+        "54:13",
+        "54:14",
+        "54:15",
+        "54:16",
+        "54:17"
+      ],
+      "ayah_count": 17,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:13",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_material_conveyance",
+            "confidence": "strong",
+            "focus_anchor": "حَمَلْنَٰهُ, أَلْوَٰحٍ, and دُسُرٍ name a bearing relation and the two material classes that make its support.",
+            "mechanism": "Broad planks are converted from separate pieces into a load-bearing conveyance by fastenings; the ayah identifies the craft through construction relations rather than by naming the craft.",
+            "activation_trace": [
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Visible bearing supplies the load relation in which he is supported and transported."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "Broad building planks supply the craft's discrete structural members."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B002",
+                "role": "Ship fastenings join the planks and make the assembled whole capable of bearing him."
+              }
+            ],
+            "changed_reading": {
+              "before": "He is simply placed aboard an unnamed ark.",
+              "after": "He is borne by an engineered assembly whose carrying capacity emerges from planks held together by fastenings."
+            }
+          },
+          {
+            "model_id": "baseline_force_hull",
+            "confidence": "medium",
+            "focus_anchor": "The same دُسُرٍ that denotes the fastenings also activates forceful thrust and a vessel pushing water.",
+            "mechanism": "The construction list is dynamic: joined boards bear a person while the vessel's body receives and exerts thrust. Material cohesion and motion belong to one mechanical system.",
+            "activation_trace": [
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Visible bearing defines the person as the load whose support the hull must maintain."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "The planks provide the broad surfaces that receive pressure and form the hull."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B001",
+                "role": "Forceful pushing supplies the pressure relation that the fastened structure must withstand."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B004",
+                "role": "The vessel pushing water turns the named structure from a static platform into a moving hull."
+              }
+            ],
+            "changed_reading": {
+              "before": "A static wooden platform holds him above danger.",
+              "after": "A fastened hull bears him by managing thrust and pushing through the medium around it."
+            }
+          },
+          {
+            "model_id": "baseline_borne_trust",
+            "confidence": "exploratory",
+            "focus_anchor": "حمل can bear an entrusted burden, لوح can be a writing or building tablet, and دسر can bind separate boards.",
+            "mechanism": "The focus inventory permits a media analogy inside the literal craft: bearer, broad tablet-like members, and binding coexist, so physical transport can also carry an entrusted account in embodied form.",
+            "activation_trace": [
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Bearing an entrusted message or burden makes rescue capable of carrying an obligation forward."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "The shared writing-tablet and building-plank branch lets the craft's material also evoke a record surface."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B002",
+                "role": "Bindings that secure ship planks supply the analogy of a record held together for transmission."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse reports only the transport of a survivor.",
+              "after": "Exploratorily, the transport also bears a trust forward in a materially assembled form, without implying that the planks are inscribed."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_joining_amid_rupture",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ق ق",
+              "ف ت ح",
+              "ف ج ر",
+              "ل ق ي"
+            ],
+            "mechanism": "Repeated opening and rupture culminate in opposed waters meeting; immediately afterward, discrete planks are held together. The craft becomes a local counter-pattern of controlled joining inside a world coming open.",
+            "activation_trace": [
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "Separate broad planks provide the pieces whose cohesion is at stake."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B002",
+                "role": "Fastenings impose controlled joining and preserve the plank assembly."
+              },
+              {
+                "source_ref": "54:1",
+                "root": "ش ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000807",
+                "branch_id": "B001",
+                "role": "Splitting and opening establish the pericope's first large-scale image of cohesion failing."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "The opening of what was closed extends rupture into the sky immediately before the craft appears."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide splitting with emission extends the opening pattern through the earth."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B004",
+                "role": "Two opposed sources coming together supplies a dangerous macro-scale joining beside the craft's controlled micro-scale joining."
+              }
+            ],
+            "structural_cues": [
+              "The sequence runs from split moon to opened sky and burst earth, then from meeting waters to fastened planks."
+            ],
+            "reader_inference": "The packet supplies repeated rupture, a meeting, and joined boards; I infer that the craft's controlled cohesion answers the surrounding disjunction. A live alternative is simple narrative succession without a deliberate formal contrast.",
+            "changed_reading": {
+              "before": "Planks and fastenings are a neutral inventory of boat parts.",
+              "after": "Their joining is the precise survival mechanism: a small held-together order persists amid cosmic and terrestrial opening."
+            }
+          },
+          {
+            "model_id": "delta_coercion_reversed",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز ج ر",
+              "غ ل ب",
+              "ن ص ر",
+              "ج ز ي"
+            ],
+            "mechanism": "The one socially driven away and overpowered is divinely borne; the force field reverses from coercion against him into thrust that carries him, then is named as vindicating recompense.",
+            "activation_trace": [
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Being visibly borne supplies the reversal from rejected person to protected load."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B001",
+                "role": "Forceful thrust transfers the context's coercive pressure into the craft's mechanical register."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B004",
+                "role": "A vessel pushing water turns force into forward passage rather than exclusion."
+              },
+              {
+                "source_ref": "54:9",
+                "root": "ز ج ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000624",
+                "branch_id": "B001",
+                "role": "Harsh vocal driving supplies the social force used against the person later carried."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "غ ل ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001098",
+                "branch_id": "B001",
+                "role": "Overpowering force names his initial asymmetry and the condition requiring reversal."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B002",
+                "role": "Vindication of the wronged supplies the social direction of the rescue mechanism."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Recompense answers the prior action and confirms the passage as a directed reversal."
+              }
+            ],
+            "structural_cues": [
+              "The passive 'he was driven away' and 'I am overpowered' precede the divine first-person 'We carried him'; recompense follows."
+            ],
+            "reader_inference": "The packet supplies coercion, overpowering, aid, divine bearing, thrust, and recompense; I supply the arrow that converts hostile social force into protective mechanical force. This is analogy, not an etymological link between زجر and دسر; the alternative is a non-metaphorical rescue sequence.",
+            "changed_reading": {
+              "before": "The craft is merely an escape vehicle after rejection.",
+              "after": "The craft enacts a reversal of force: the expelled and overpowered person becomes the divinely supported load, and pressure becomes passage."
+            }
+          },
+          {
+            "model_id": "delta_measured_interface",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ه",
+              "ه م ر",
+              "ع ي ن",
+              "ل ق ي",
+              "ق د ر",
+              "ج ر ي"
+            ],
+            "mechanism": "Water descends in abundance, erupts from springs, and converges according to measure; the fastened hull occupies that interface and turns a destructive convergence into sustained motion.",
+            "activation_trace": [
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "Broad ship planks provide the pressure-bearing surface at the water interface."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B001",
+                "role": "Strong thrust supplies the force that the assembled hull both receives and redirects."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B004",
+                "role": "The vessel pushing water supplies the conversion from hydraulic pressure to travel."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B002",
+                "role": "Water appearing and becoming abundant establishes the surrounding medium at catastrophic scale."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ه م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001599",
+                "branch_id": "B001",
+                "role": "Pouring and downflow provide the descending component of the pressure field."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "Flowing springs provide the rising terrestrial component of the water field."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B004",
+                "role": "Opposed things arriving together locate the craft within a convergence rather than on an ordinary sea."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Measured planning makes the convergence directed rather than mechanically accidental."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing motion confirms that the interface produces continuing passage."
+              }
+            ],
+            "structural_cues": [
+              "The craft stands between the two-source convergence in 54:11-12 and its continuing motion in 54:14."
+            ],
+            "reader_inference": "The packet supplies descending water, rising springs, convergence, measure, hull thrust, and subsequent motion; I infer that the craft mediates those forces and converts them into passage. The alternative is that divine measure governs only the flood's timing, not the craft's mechanics.",
+            "changed_reading": {
+              "before": "The boat floats upon a pre-existing body of water.",
+              "after": "The fastened craft is a measured interface inside converging flows, surviving their pressure and turning catastrophe into transit."
+            }
+          },
+          {
+            "model_id": "delta_continuous_care",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ر ي",
+              "ع ي ن",
+              "ج ز ي"
+            ],
+            "mechanism": "The focus's completed act of carrying opens into the next verse's continuing motion under watchful care and as recompense, so bearing is not only embarkation but sustained governance of the passage.",
+            "activation_trace": [
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Visible carrying supplies the initiating act whose duration the next verse revises."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Ongoing flowing motion extends carrying from placement into a maintained journey."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "The eye of preservation and care supplies active oversight of the craft's continued motion."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Action answered by recompense gives the protected transit its judicial and relational purpose."
+              }
+            ],
+            "structural_cues": [
+              "The feminine singular verb in 54:14 resumes the possessor of planks and fastenings, carrying the focus object directly into ongoing motion."
+            ],
+            "reader_inference": "The packet supplies divine carrying, running, eyes/care, and recompense; I infer that the initial bearing continues as managed preservation. A live alternative takes 'under Our eyes' as observation without implying steering.",
+            "changed_reading": {
+              "before": "We carried him describes a completed loading or rescue act.",
+              "after": "The carrying continues as watched, purposive movement: preservation governs the whole passage and answers prior rejection."
+            }
+          },
+          {
+            "model_id": "delta_material_memory",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ي ي",
+              "ن ب ء",
+              "ب ل غ",
+              "ت ر ك",
+              "ذ ك ر",
+              "ق ر ء"
+            ],
+            "mechanism": "A visible sign is first refused, reports and warning arrive, and after the rescue a trace is left as a sign for remembrance before the account is gathered into recitation. This activates the focus's trust, tablet, and binding branches as an embodied archive without requiring literal writing on the hull.",
+            "activation_trace": [
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Bearing an entrusted burden lets the rescue carry warning and responsibility across time."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "The shared building-plank and writing-tablet branch gives the material craft a potential record function."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B002",
+                "role": "Bindings hold the material carrier together and support the analogy of a durable assembled record."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign that is seen yet refused establishes the problem of evidence without uptake."
+              },
+              {
+                "source_ref": "54:4",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B002",
+                "role": "An arriving, transmitted report supplies the informational content that seeks a carrier."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B002",
+                "role": "Delivery of a message supplies the communication function later embodied by the preserved sign."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "Leaving a surviving trace turns the completed rescue into durable evidence."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest sign gives the retained trace an evidentiary function."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that makes one remember gives the retained sign its intended cognitive effect."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering and collecting supplies the textual counterpart to planks assembled into one carrier."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation makes the gathered account mobile and repeatable beyond the surviving object."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recollection after or against forgetting completes the passage from event to retained memory."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from a seen sign rejected in 54:2 to transmitted reports in 54:4-5, a materially specified rescue in 54:13, a sign left for recollection in 54:15, and gathered recitation in 54:17."
+            ],
+            "reader_inference": "The packet supplies report, delivery, a retained sign, recollection, collection, recitation, and focus branches for trust, tablet, and binding; I infer an embodied-archive function for the craft. Neither packet nor inference asserts that its planks carried script; the live alternative is an event remembered only through later oral narration.",
+            "changed_reading": {
+              "before": "The planks and fastenings are incidental construction details inside a rescue report.",
+              "after": "The bound construction participates in carrying the warning through time: first as surviving material sign, then as an account gathered and recited for remembrance."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_gestational_vessel",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates form-distant reproductive branches from literal flood-water and Quran contexts. It remains anchored in حملناه, the life-bearing branch of حمل, the feminine possessor with an enclosed fastened structure, and packet branches linking water and gathering to gestation. Render it only as a contained material analogy for preserving future life, never as a lexical claim that the water is semen, the Quran is a womb, or the craft is literally pregnant.",
+            "focus_anchor": "حَمَلْنَٰهُ on a feminine possessor of planks and fastenings permits the craft to be tested as a containing bearer of life, while the literal construction remains fully present.",
+            "activation_trace": [
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B002",
+                "role": "Inner pregnancy and fruit supply the exploratory image of carrying protected future life."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "Broad construction planks provide the literal containing body that disciplines the gestational analogy."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B002",
+                "role": "Fastenings make the life-bearing enclosure materially coherent rather than merely symbolic."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B004",
+                "role": "The reproductive-water branch supplies a deliberately distant gestational trigger within the surrounding flood water."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B004",
+                "role": "A womb gathering a pregnancy supplies the containment-and-preservation pattern carried back to the focus vessel."
+              }
+            ],
+            "changed_reading": {
+              "before": "The vessel transports an already formed survivor through external water.",
+              "after": "Exploratorily, the fastened vessel behaves like a gestational container, carrying a protected seed of post-catastrophe life through the waters."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Planks and fastenings become a local technology of cohesion amid repeated cosmic and terrestrial rupture.",
+            "The craft becomes a measured hydraulic interface that converts converging destructive flows into sustained passage.",
+            "Divine carrying extends into watched motion and recompense rather than ending with embarkation.",
+            "The material assembly can participate in a chain from rejected sign to retained and recited memory."
+          ],
+          "what_was_special": "The ayah withholds the ordinary vessel name and specifies a carrier through planks and fastenings. Placed between the meeting of waters and watched running, that metonymy exposes construction, force, care, reversal, and memory as coexisting mechanisms.",
+          "remaining_uncertainties": [
+            "The writing-tablet sense of لوح may remain a latent analogy while the ship-plank sense alone carries the local syntax.",
+            "The force and water-pushing senses of دسر may enrich the fastener sense without being independently active.",
+            "The antecedent and scope of the retained sign in 54:15 leave open whether material craft, event, or narrated trace dominates.",
+            "The gestational model is branch-backed but intentionally form-distant and should remain exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The vessel is described by load-bearing surfaces and binding joints.** `ح م ل` B001 is bearing an outward load, `ل و ح` B003 a broad plank, and `د س ر` B002 ship fasteners binding planks. Instead of naming the vessel, the construction names what carries and what holds the carrying body together. The packet supplies materials; I infer that survivability depends on distributed load plus cohesion. The ayah reads as an engineered rescue mechanism rather than an abstract conveyance.\n\n2. **`دُسُرٍ` can add driving force to fastening.** Alongside B002, `د س ر` B001 is forceful pushing/thrusting and B003 massive driving strength. The surrounding waters provide a medium in which both binding and thrust matter. I infer an exploratory second image: the same term can make the craft not only joined but driven through the discharge. This does not replace the fastener reading; it adds propulsion to structure.",
@@ -3252,18 +4007,23 @@
   "root_lexicon": {
     "root_000357": {
       "root_ar": "ح م ل",
+      "qac_roots_ar": [
+        "ح م ل"
+      ],
       "root_id": "root_000357",
-      "root_mapping": {
-        "root_id": "root_000357",
-        "root_norm": "ح م ل",
-        "source_root_norm": "ح م ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 63,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح م ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 63
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6ad52d8dfad172d45c09a6845aba6a4f5b6ead427f985ae2b0152b1b098c31ac",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6493,18 +7253,23 @@
     },
     "root_001384": {
       "root_ar": "ل و ح",
+      "qac_roots_ar": [
+        "ل و ح"
+      ],
       "root_id": "root_001384",
-      "root_mapping": {
-        "root_id": "root_001384",
-        "root_norm": "ل و ح",
-        "source_root_norm": "ل و ح",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 6,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل و ح",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 6
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9b6c26dcd1f232e0eaed955097c29f95d7b13172f94cab55ae0d522aba1c9caf",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8417,18 +9182,23 @@
     },
     "root_000474": {
       "root_ar": "د س ر",
+      "qac_roots_ar": [
+        "د س ر"
+      ],
       "root_id": "root_000474",
-      "root_mapping": {
-        "root_id": "root_000474",
-        "root_norm": "د س ر",
-        "source_root_norm": "د س ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "د س ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f7ead3231552bd4f14ac792b2d478f6893bfc2e440f2457d83ef493dc912420e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10036,14 +10806,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10363,11 +11139,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_13.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_13.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 115945,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10442,19 +11231,37 @@
           "root_ids": [
             "root_000357"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح م ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000357",
+            "targets": [
+              {
+                "qac_root_norm": "ح م ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000357",
+                "furuq_root_norm": "ح م ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 63,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000357",
-              "root_norm": "ح م ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح م ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 63,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10479,19 +11286,37 @@
           "root_ids": [
             "root_001384"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ل و ح",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001384",
+            "targets": [
+              {
+                "qac_root_norm": "ل و ح",
+                "target_rank": 1,
+                "furuq_root_id": "root_001384",
+                "furuq_root_norm": "ل و ح",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 6,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001384",
-              "root_norm": "ل و ح",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ل و ح",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 6,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10516,19 +11341,37 @@
           "root_ids": [
             "root_000474"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "د س ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000474",
+            "targets": [
+              {
+                "qac_root_norm": "د س ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000474",
+                "furuq_root_norm": "د س ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000474",
-              "root_norm": "د س ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "د س ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10555,10 +11398,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 22,
+        "dictionary_branches_kept": 22,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 22,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

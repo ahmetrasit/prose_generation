@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.978475+00:00",
+  "generated_at": "2026-08-04T22:29:54.274717+00:00",
   "surah": 54,
   "ayah": 43,
   "ayahRef": "54:43",
@@ -2113,7 +2113,8 @@
         "m-w-s054-a043-w001-02",
         "m-w-s054-a043-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:43:1"
+      "aligned_qac_word_ref_upstream": "54:43:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2127,7 +2128,8 @@
       "morpheme_ids": [
         "m-w-s054-a043-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:43:2"
+      "aligned_qac_word_ref_upstream": "54:43:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2141,7 +2143,8 @@
       "morpheme_ids": [
         "m-w-s054-a043-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:43:3"
+      "aligned_qac_word_ref_upstream": "54:43:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2155,7 +2158,8 @@
       "morpheme_ids": [
         "m-w-s054-a043-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:43:4"
+      "aligned_qac_word_ref_upstream": "54:43:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2169,7 +2173,8 @@
       "morpheme_ids": [
         "m-w-s054-a043-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:43:5"
+      "aligned_qac_word_ref_upstream": "54:43:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2185,7 +2190,8 @@
         "m-w-s054-a043-w006-01",
         "m-w-s054-a043-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:43:6"
+      "aligned_qac_word_ref_upstream": "54:43:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2199,7 +2205,8 @@
       "morpheme_ids": [
         "m-w-s054-a043-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:43:7"
+      "aligned_qac_word_ref_upstream": "54:43:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2213,7 +2220,8 @@
       "morpheme_ids": [
         "m-w-s054-a043-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:43:8"
+      "aligned_qac_word_ref_upstream": "54:43:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2229,7 +2237,8 @@
         "m-w-s054-a043-w009-01",
         "m-w-s054-a043-w009-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:43:9"
+      "aligned_qac_word_ref_upstream": "54:43:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2981,7 +2990,792 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_43.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:43",
+      "window": [
+        "54:33",
+        "54:34",
+        "54:35",
+        "54:36",
+        "54:37",
+        "54:38",
+        "54:39",
+        "54:40",
+        "54:41",
+        "54:42",
+        "54:43",
+        "54:44",
+        "54:45"
+      ],
+      "ayah_count": 13,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:43",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_two_warrants",
+            "confidence": "strong",
+            "focus_anchor": "The sequence \"your deniers / better / a discharge for you / in the writings\" proposes two possible warrants for escaping the comparison.",
+            "mechanism": "The paired question tests whether the addressed deniers differ from prior deniers by intrinsic comparative merit or by an externally attested release from liability; neither warrant is asserted.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Concealing or denying truth supplies the class whose claimed exception is examined."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Excellence and selection supply intrinsic superiority as the first possible warrant."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B004",
+                "role": "Release from a right or obligation supplies juridical discharge as the second possible warrant."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and books supply the external documentary locus in which a valid discharge would have to appear."
+              }
+            ],
+            "changed_reading": {
+              "before": "A general taunt asks whether the present unbelievers are better or have immunity in scripture.",
+              "after": "The ayah audits two distinct escape claims: exceptional merit inherent in the group and a release valid because an external record attests it."
+            }
+          },
+          {
+            "model_id": "baseline_cover_record_collision",
+            "confidence": "medium",
+            "focus_anchor": "The covering image within k-f-r stands opposite a requested discharge that must be visible in written records.",
+            "mechanism": "A group characterized by concealment cannot make liability disappear through concealment; separation from consequence must instead become inspectable as an authorized written release.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B001",
+                "role": "Covering supplies the attempted suppression or occlusion that the documentary test reverses."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B002",
+                "role": "Separation and disassociation supply the claimed distance from the prior groups' outcome."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Inscription makes any genuine exception public and inspectable rather than merely asserted."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah contrasts unbelief with a possible scriptural exemption.",
+              "after": "The ayah stages an exposure test: concealing truth cannot itself conceal consequence, while a real separation must survive inspection in the record."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_precedent_equivalence",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ق و م",
+              "ن ذ ر"
+            ],
+            "mechanism": "A prior collective is defined by rejecting warning, so the comparison in 54:43 asks what could break an already instantiated denier-group pattern for the newly addressed group.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Denial of truth anchors the present group to the behavior supplied by the preceding case."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Comparative excellence marks the missing differentiator that would have to exempt the present group."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies the prior behavior that aligns the earlier and present deniers."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "A human collective supplies the comparison unit behind \"your deniers\" and \"those.\""
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning intended to awaken caution supplies the rejected notice that makes the earlier outcome precedential."
+              }
+            ],
+            "structural_cues": [
+              "54:33 opens a prior case with a collective subject, while 54:43 shifts to the possessed expression \"your deniers\" and points back to \"those.\""
+            ],
+            "reader_inference": "The packet supplies a prior collective rejecting warnings; I infer analogical continuity unless a differentiating warrant appears. A live alternative restricts \"those\" mainly to Pharaoh's house in 54:41-42.",
+            "changed_reading": {
+              "before": "The question loosely compares one set of unbelievers with another.",
+              "after": "The question challenges the addressees to identify the rule-breaking difference that would stop a demonstrated rejection-and-consequence pattern from applying to them."
+            }
+          },
+          {
+            "model_id": "delta_enacted_exemption",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ج و",
+              "ن ع م",
+              "ج ز ي",
+              "ش ك ر"
+            ],
+            "mechanism": "The context has already displayed a real exception: Lot's household is separated from destruction by an enacted rescue, then that rescue is framed as favor and recompense for gratitude. This converts bara'ah from a self-possessed certificate into an effective separation whose warrant lies outside the claimant.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B002",
+                "role": "Separation from a person, act, or harm supplies the focus ayah's possible exemption."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "The written record supplies the claimed warrant that is contrasted with rescue actually performed."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Escape by separation supplies the concrete operation of a genuine exemption."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Beneficial favor identifies the rescue as granted benefit rather than autonomous group property."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Corresponding recompense supplies a relation between response and delivered rescue."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B001",
+                "role": "Recognizing favor supplies the responsive posture associated with the preceding rescue."
+              }
+            ],
+            "structural_cues": [
+              "54:34 marks an explicit exception and immediately states rescue; 54:35 closes it with favor and recompense, before 54:43 asks whether the addressees possess a discharge."
+            ],
+            "reader_inference": "The packet supplies exception, rescue, favor, recompense, and gratitude in sequence; I infer that sequence as a positive control for real bara'ah. A live alternative treats it only as an earlier rescue scene without defining the later term.",
+            "changed_reading": {
+              "before": "The addressees are asked whether a book grants them immunity.",
+              "after": "After the context has shown what exemption looks like when actually effected, \"for you a discharge\" sounds like a possessive overclaim: where is the warrant for comparable separation and rescue?"
+            }
+          },
+          {
+            "model_id": "delta_disputed_warning_docket",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ب ط ش",
+              "م ر ي"
+            ],
+            "mechanism": "Warning is delivered, force is announced, and the recipients answer with disputation; the later demand for a discharge in writing then functions like a burden-of-proof shift from contesting notice to producing an affirmative release.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B004",
+                "role": "Release from a claim supplies the acquittal that the disputing party would need to establish."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing supplies the evidentiary record against which the claimed release can be checked."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Repeated warning supplies both delivered notice and the object that was disputed."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ب ط ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000126",
+                "branch_id": "B001",
+                "role": "Overpowering seizure supplies the warned liability from which discharge is sought."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001416",
+                "branch_id": "B003",
+                "role": "Sharp disputation supplies the failed verbal strategy that prompts a demand for documentary proof."
+              }
+            ],
+            "structural_cues": [
+              "In 54:36 the same warning root occurs on both sides of announced force, and 54:43 later asks for release specifically within a record."
+            ],
+            "reader_inference": "The packet supplies notice, threatened force, and disputation; I supply the courtroom-like arrow from failed contest to burden of producing a release. The live alternative is ordinary rhetorical challenge without a juridical scene.",
+            "changed_reading": {
+              "before": "The writings are merely a possible source of favorable information.",
+              "after": "The writings become a docket: after disputing the warning, the addressees must produce affirmative documentary discharge from the liability they contested."
+            }
+          },
+          {
+            "model_id": "delta_experience_over_claim",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ و ق",
+              "ق ر ر"
+            ],
+            "mechanism": "The context converts warning into tasted experience and a settled condition, so a claimed written exemption is tested by whether it can interrupt an outcome that has moved from speech into embodied, stable realization.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B004",
+                "role": "Discharge supplies the claimed interruption of liability before it becomes realized experience."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Inscription supplies the asserted protection whose efficacy is put under pressure by realized consequence."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiencing and undergoing a thing supplies the movement from verbal warning to embodied verification."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement supply the persistence of the realized outcome."
+              }
+            ],
+            "structural_cues": [
+              "The imperative of tasting recurs in 54:37 and 54:39 around punishment described as settled in 54:38, before the documentary question of 54:43."
+            ],
+            "reader_inference": "The packet supplies experience and settlement; I infer that an exemption must be operational, not merely verbal, to block that sequence. A live alternative leaves tasting as narrative emphasis unrelated to documentary validity.",
+            "changed_reading": {
+              "before": "The ayah asks whether an exemption is written somewhere.",
+              "after": "The ayah asks whether any written claim has enough operative force to prevent warning from becoming experienced and settled consequence."
+            }
+          },
+          {
+            "model_id": "delta_public_counterrecord",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ي س ر",
+              "ق ر ء",
+              "ذ ك ر"
+            ],
+            "mechanism": "The immediately available recitation is made easy for recollection, and the remembrance inventory includes a documentary right; this activates the present recited warning as a public counter-record against an alleged favorable entry elsewhere.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Books and inscription supply the allegedly favorable archive challenged by the surrounding recitation."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease after difficulty make the counter-record accessible rather than hidden."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and recitation supply the public mode by which the record is presently delivered."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B008",
+                "role": "A documentary statement of right supplies a legal-record edge to remembrance."
+              }
+            ],
+            "structural_cues": [
+              "The refrain in 54:40 places an eased recitation for remembrance immediately before the Pharaoh case and the question about writings."
+            ],
+            "reader_inference": "The packet supplies ease, recitation, remembrance, and a documentary-right branch; I infer that the recited warning functions as counter-record. A live alternative hears 54:40 only as a pedagogic refrain with no juridical role.",
+            "changed_reading": {
+              "before": "The addressees may appeal to some external books for immunity.",
+              "after": "Their archival appeal is confronted by a record already opened, recited, and made memorable in their hearing, whose displayed precedents run against immunity."
+            }
+          },
+          {
+            "model_id": "delta_total_seizure_test",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ك ذ ب",
+              "ك ل ل",
+              "ء خ ذ",
+              "ع ز ز",
+              "ق د ر"
+            ],
+            "mechanism": "Pharaoh's house receives warnings, rejects the signs in total, and is seized by overpowering capability; against that immediate case, \"better\" tests not only moral quality but any superior capacity to resist the same capture.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Comparative excellence supplies the alleged advantage tested against the preceding power encounter."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warnings supply notice to the immediately preceding comparison group."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies the behavior shared with the deniers addressed in 54:43."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total enclosure and completion make the rejection comprehensive rather than partial."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Being taken to account for fault supplies the consequence applied to that comprehensive rejection."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ع ز ز",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001008",
+                "branch_id": "B002",
+                "role": "Overcoming force supplies one side of the power comparison implicit in \"better.\""
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effective capability supplies the power that brought the preceding seizure to completion."
+              }
+            ],
+            "structural_cues": [
+              "54:41-42 immediately names Pharaoh's house, marks rejection of all signs, doubles the taking root, and then 54:43 asks whether \"your deniers\" are better than \"those.\""
+            ],
+            "reader_inference": "The packet supplies total rejection followed by overpowering capture; I infer that \"better\" tests practical ability to escape as well as moral rank. A live alternative keeps khayr strictly evaluative and not tactical.",
+            "changed_reading": {
+              "before": "The present unbelievers are asked whether they are morally better than past unbelievers.",
+              "after": "Standing directly after Pharaoh's failed resistance, the comparison asks whether the present deniers possess any superior quality or capacity that could make the same taking fail."
+            }
+          },
+          {
+            "model_id": "delta_collective_warrant_collapses",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ج م ع",
+              "ن ص ر",
+              "ه ز م",
+              "و ل ي",
+              "د ب ر"
+            ],
+            "mechanism": "After 54:43 tests intrinsic merit and documentary discharge, 54:44 voices the operative third warrant: a gathered body expecting victory. In 54:45 that warrant is mechanically reversed as the gathered formation is broken and turns its back.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Claimed superiority supplies the first failed basis for exceptional status."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B004",
+                "role": "Claimed discharge supplies the second failed basis for exceptional status."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Spoken assertion exposes the addressees' actual substitute warrant."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Gathering dispersed parts supplies solidarity and mass as the imagined protective mechanism."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid that makes one prevail supplies the victory expected from collective mass."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "Breaking and repelling a battle line reverses gathering as a source of protection."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The repeated gathered body becomes the exact object of defeat."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the disintegration of the group's forward-facing confidence."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B003",
+                "role": "Presenting the back and retreating supplies the visible endpoint of the failed collective warrant."
+              }
+            ],
+            "structural_cues": [
+              "Consecutive questions beginning with \"or\" link 54:43 and 54:44, while the same gathering root moves from the boast in 54:44 to the defeated subject in 54:45."
+            ],
+            "reader_inference": "The packet supplies serial alternatives, a victory boast, repeated gathering, defeat, and retreat; I infer that collective force is the unstated protection claim exposed after the two claims in 54:43. A live alternative treats 54:44 as a separate boast rather than an answer to 54:43.",
+            "changed_reading": {
+              "before": "The ayah offers only two abstract possibilities: being better or possessing written immunity.",
+              "after": "The next question reveals what fills the evidentiary void: confidence in collective force. The following verse then dismantles that social mechanism by turning the gathered subject into the broken, retreating object."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_disavowal_cannot_self_discharge",
+            "confidence": "exploratory",
+            "containment": "This is surprising because disavowal is a non-dominant k-f-r branch for the form \"kuffar,\" but it remains anchored by the packet's exact k-f-r branch and the adjacent b-r-' repetition of separation. Render it as a lexical echo, not as a replacement gloss for \"deniers.\"",
+            "focus_anchor": "K-f-r can image disavowal while b-r-' names disassociation or release, placing two kinds of separation inside one question.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal and renunciation supply a self-authored distancing posture for the people named."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B002",
+                "role": "Authorized disassociation supplies the distinct exemption they are asked to substantiate."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "The written record separates merely declaring oneself clear from possessing an attested clearance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Deniers are asked whether they possess absolution.",
+              "after": "People whose posture is disavowal cannot convert their own act of distancing into authoritative discharge; that second separation would need independent inscription."
+            }
+          },
+          {
+            "outlier_id": "outlier_records_as_restraining_warnings",
+            "confidence": "exploratory",
+            "containment": "This is surprising because \"writings/books\" is the locally dominant z-b-r branch and the syntax favors it, but z-b-r also carries rebuke and prevention while warnings recur in the packet. Render this only as a secondary resonance: the alleged refuge would have to exist inside discourse whose function is to restrain.",
+            "focus_anchor": "The z-b-r branch of rebuke and prevention allows \"in the zubur\" to resonate with the repeated warning field rather than only with neutral archives.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B002",
+                "role": "Separation supplies the protected space allegedly located within restraining discourse."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B004",
+                "role": "Rebuke and prevention recast the records as active restraints rather than passive containers."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Repeated caution-awakening warning supplies the surrounding restraining function that activates this z-b-r branch."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speakers might have immunity recorded in books.",
+              "after": "Exploratorily, they are asked whether they can locate a protected exception inside the very warning-and-restraint discourse designed to block their course."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Lot's household turns exemption from a possessed claim into separation actually effected through rescue and favor.",
+            "The eased recitation becomes a possible public counter-record, while Pharaoh's total rejection and capture sharpen \"better\" into a test of effective capacity.",
+            "The victory claim in 54:44 exposes collective force as the missing warrant, and 54:45 reverses that mechanism through defeat and retreat."
+          ],
+          "what_was_special": "The trace preserves distinct legal-evidentiary, rescue, experiential, recitational, power-comparison, and collective-collapse mechanisms without merging them; the k-f-r/b-r-' disavowal echo and the restraining z-b-r branch remain explicitly contained outliers.",
+          "remaining_uncertainties": [
+            "The deictic range of \"those\" may center on Pharaoh's house or gather several preceding denier collectives.",
+            "The docket and burden-of-proof language is an inferred functional analogy, not explicit legal syntax.",
+            "Treating the eased recitation of 54:40 as a counter-record is live but less certain than its pedagogic function."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The first alternative tests comparative privilege.** `ك ف ر` B003 is rejection of truth; `خ ي ر` B002 is chosen excellence and B003 choosing the better option. The rhetorical comparison places the present rejecters against the previously narrated groups. I infer that “better” asks whether any difference in moral quality could interrupt the demonstrated pattern. The ayah reads as a demand for evidence of exceptional status.\n\n2. **The second alternative tests documentary immunity.** `ب ر ء` B002 is clearance/separation and B004 release from a claim; `ز ب ر` B003 is writing and written books. `فِى ٱلزُّبُرِ` gives clearance a textual location. I infer a legal mechanism: if moral superiority fails, only a recorded discharge from liability could exempt them. `بَرَآءَةٌ` therefore preserves both separation from prior outcomes and formal release from claim.",
@@ -4125,18 +4919,23 @@
   "root_lexicon": {
     "root_001307": {
       "root_ar": "ك ف ر",
+      "qac_roots_ar": [
+        "ك ف ر"
+      ],
       "root_id": "root_001307",
-      "root_mapping": {
-        "root_id": "root_001307",
-        "root_norm": "ك ف ر",
-        "source_root_norm": "ك ف ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 416,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ف ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 416
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cf94a0f36d304ffba0cddb3bb9019f2426aaa362cd5f28a65d3ebd98c7e73c9f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6720,18 +7519,23 @@
     },
     "root_000452": {
       "root_ar": "خ ي ر",
+      "qac_roots_ar": [
+        "خ ي ر"
+      ],
       "root_id": "root_000452",
-      "root_mapping": {
-        "root_id": "root_000452",
-        "root_norm": "خ ي ر",
-        "source_root_norm": "خ ي ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 184,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ي ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 184
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4b0820a29681116c61f76738749514e890dcfbe7271970382ff931cc30fe8163",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8751,18 +9555,23 @@
     },
     "root_000099": {
       "root_ar": "ب ر ء",
+      "qac_roots_ar": [
+        "ب ر ء"
+      ],
       "root_id": "root_000099",
-      "root_mapping": {
-        "root_id": "root_000099",
-        "root_norm": "ب ر ء",
-        "source_root_norm": "ب ر ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 26,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ر ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 26
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -8770,18 +9579,23 @@
     },
     "root_000621": {
       "root_ar": "ز ب ر",
+      "qac_roots_ar": [
+        "ز ب ر"
+      ],
       "root_id": "root_000621",
-      "root_mapping": {
-        "root_id": "root_000621",
-        "root_norm": "ز ب ر",
-        "source_root_norm": "ز ب ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 11,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ز ب ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 11
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f34a0e3d93483e105754bff6b5344f81e7850b37cd4d97ba7e44fad7473c8de6",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11583,14 +12397,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11862,11 +12682,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_43.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_43.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 94077,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -11940,19 +12773,37 @@
           "root_ids": [
             "root_001307"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ف ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001307",
+            "targets": [
+              {
+                "qac_root_norm": "ك ف ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001307",
+                "furuq_root_norm": "ك ف ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 416,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001307",
-              "root_norm": "ك ف ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ف ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 416,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11977,19 +12828,37 @@
           "root_ids": [
             "root_000452"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ي ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000452",
+            "targets": [
+              {
+                "qac_root_norm": "خ ي ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000452",
+                "furuq_root_norm": "خ ي ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 184,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000452",
-              "root_norm": "خ ي ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ي ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 184,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12014,19 +12883,37 @@
           "root_ids": [
             "root_000099"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ر ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000099",
+            "targets": [
+              {
+                "qac_root_norm": "ب ر ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000099",
+                "furuq_root_norm": "ب ر ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 26,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000099",
-              "root_norm": "ب ر ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ر ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 26,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -12038,19 +12925,37 @@
           "root_ids": [
             "root_000621"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ز ب ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000621",
+            "targets": [
+              {
+                "qac_root_norm": "ز ب ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000621",
+                "furuq_root_norm": "ز ب ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 11,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000621",
-              "root_norm": "ز ب ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ز ب ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 11,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12077,10 +12982,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 30,
+        "dictionary_branches_kept": 30,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 15,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

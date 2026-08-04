@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.156959+00:00",
+  "generated_at": "2026-08-04T22:29:58.635724+00:00",
   "surah": 56,
   "ayah": 18,
   "ayahRef": "56:18",
@@ -1821,7 +1821,8 @@
       "morpheme_ids": [
         "m-w-s056-a018-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:18:1"
+      "aligned_qac_word_ref_upstream": "56:18:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1835,7 +1836,8 @@
       "morpheme_ids": [
         "m-w-s056-a018-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:18:2"
+      "aligned_qac_word_ref_upstream": "56:18:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1849,7 +1851,8 @@
       "morpheme_ids": [
         "m-w-s056-a018-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:18:3"
+      "aligned_qac_word_ref_upstream": "56:18:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1863,7 +1866,8 @@
       "morpheme_ids": [
         "m-w-s056-a018-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:18:4"
+      "aligned_qac_word_ref_upstream": "56:18:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1877,7 +1881,8 @@
       "morpheme_ids": [
         "m-w-s056-a018-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:18:5"
+      "aligned_qac_word_ref_upstream": "56:18:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1891,7 +1896,8 @@
       "morpheme_ids": [
         "m-w-s056-a018-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:18:6"
+      "aligned_qac_word_ref_upstream": "56:18:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1905,7 +1911,8 @@
       "morpheme_ids": [
         "m-w-s056-a018-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:18:7"
+      "aligned_qac_word_ref_upstream": "56:18:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -1919,7 +1926,8 @@
       "morpheme_ids": [
         "m-w-s056-a018-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:18:8"
+      "aligned_qac_word_ref_upstream": "56:18:8",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2590,7 +2598,603 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_18.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:18",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:18",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B_source_vessel_chain",
+            "confidence": "strong",
+            "focus_anchor": "The sequence bi-akwabin wa-abariqa wa-ka'sin min ma'in links plural receiving vessels, pouring vessels, a filled cup, and a running source.",
+            "mechanism": "Handleless cups are receiving endpoints, the ewers supply a transfer stage, ka's fuses vessel with contents, and min ma'in gives those contents an active origin. The list therefore encodes a source-to-server-to-drinker chain rather than three equivalent luxuries.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B001",
+                "role": "The handleless drinking vessel supplies the open receiving endpoint of the chain."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ك ء س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001277",
+                "branch_id": "B001",
+                "role": "The cup-with-its-content makes the served vessel and drink one functional unit."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The running spring supplies an active origin rather than a stored stock."
+              }
+            ],
+            "changed_reading": {
+              "before": "A static inventory of elegant drinkware and a beverage.",
+              "after": "A compact service system that carries an ever-originating drink from source to recipient."
+            }
+          },
+          {
+            "model_id": "B_manifest_provenance",
+            "confidence": "medium",
+            "focus_anchor": "The construction ka'sin min ma'in makes the drink's origin, not merely its taste or quantity, the final specification.",
+            "mechanism": "The spring branch of ayn establishes flow, while its eye-witness branch lets the source remain conceptually manifest and directly present. Ka's then gives that visible provenance a consumable form.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The water source contributes direct, ongoing provenance."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Eyewitness presence sharpens that provenance as inspectable rather than remote."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ك ء س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001277",
+                "branch_id": "B001",
+                "role": "The filled cup materializes the manifest source as the portion actually received."
+              }
+            ],
+            "changed_reading": {
+              "before": "A cup whose drink happens to come from a spring.",
+              "after": "A received portion whose defining quality is unhidden, immediate connection to its source."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "C_containment_after_dispersal",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب س س",
+              "ه ب و",
+              "ب ث ث"
+            ],
+            "mechanism": "The preceding world loses hard boundaries through pulverizing, fine dust, and scattering; the focus ayah answers with vessels that bound liquid without stopping its flow. Enjoyment appears as repaired material order: mobility without dispersal and containment without stagnation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B001",
+                "role": "The open drinking vessels restore bounded reception after the loss of material boundaries."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The running spring preserves motion while replacing chaotic spread with directed flow."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Breaking, wetting, and mixing supply the collapse of formerly firm distinctions."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine dispersed dust supplies matter with no stable container or cohesion."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the uncontrolled motion that the later service chain reverses."
+              }
+            ],
+            "structural_cues": [
+              "56:4-6 intensifies from shaking to pulverizing to dispersed dust before 56:18 presents bounded vessels and a running source."
+            ],
+            "reader_inference": "The packet supplies disintegration followed by controlled liquid; I infer a material reversal from uncontained spread to bounded flow. A live alternative is that the two scenes are only sequential, not contrastive.",
+            "changed_reading": {
+              "before": "Banquet equipment appearing after a cosmic prelude.",
+              "after": "A miniature repaired cosmos in which what moves remains coherent, directed, and receivable."
+            }
+          },
+          {
+            "model_id": "C_proximity_as_source_access",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ب"
+            ],
+            "mechanism": "The brought-near group's privileged proximity and the qirba water-container branch turn nearness into a supply relation. Their distinction is enacted as minimal distance between flowing source, serving vessel, and filled cup.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The running spring is the origin to which access can be spatially shortened."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ك ء س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001277",
+                "branch_id": "B001",
+                "role": "The filled cup is the near-at-hand realization of that source."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Privileged courtiers supply the social meaning of being brought near."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B009",
+                "role": "The water-skin branch converts abstract nearness into a concrete water-supply image."
+              }
+            ],
+            "structural_cues": [
+              "56:10-12 identifies the forerunners as the brought-near before detailing their setting and service."
+            ],
+            "reader_inference": "The packet supplies elite proximity and a water-container branch; I infer that the vessels operationalize nearness as direct access. The alternative is that rank and drink service remain unrelated benefits.",
+            "changed_reading": {
+              "before": "A general service chain available within the garden scene.",
+              "after": "A service chain that makes the brought-near group's status tangible as uninterrupted access to origin."
+            }
+          },
+          {
+            "model_id": "C_face_to_face_circuit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ض ن",
+              "ق ب ل",
+              "ط و ف",
+              "خ ل د"
+            ],
+            "mechanism": "Interwoven supports stabilize a face-to-face assembly while enduring attendants circulate around it. The plural handleless cups are therefore mobile interfaces in a durable social circuit, not possessions fixed before isolated drinkers.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B001",
+                "role": "Handleless drinking vessels contribute portable receiving points suited to circulation."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tightly interwoven construction supplies the stable support beneath the social arrangement."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Mutual facing supplies a relational center around which service can move."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Circling around something supplies the circuit's continuous motion."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Enduring persistence prevents the serving circuit from aging out or failing."
+              }
+            ],
+            "structural_cues": [
+              "56:15-18 moves without a break from woven couches to mutual facing, circling servers, and their vessels."
+            ],
+            "reader_inference": "The packet supplies support, orientation, circulation, and persistence; I infer one service topology joining them. The alternative is a serial catalogue whose details do not form a system.",
+            "changed_reading": {
+              "before": "Drinkware delivered to reclining individuals.",
+              "after": "A continuous circulation that sustains a mutually facing community without displacing its center."
+            }
+          },
+          {
+            "model_id": "C_nonbreaking_nondraining_drink",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص د ع"
+            ],
+            "mechanism": "The next ayah negates both the headache branch and, structurally, draining or depletion. Read back into ka's min ma'in, consumption neither fractures the recipient nor exhausts the circuit that supplies the cup.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ك ء س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001277",
+                "branch_id": "B001",
+                "role": "The cup-with-its-drink is the consumed unit whose ordinary aftereffects are revised."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The running source supports supply that need not terminate in depletion."
+              },
+              {
+                "source_ref": "56:19",
+                "root": "ص د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000850",
+                "branch_id": "B007",
+                "role": "Headache supplies the explicitly negated bodily damage of drinking."
+              },
+              {
+                "source_ref": "56:19",
+                "root": "ص د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000850",
+                "branch_id": "B001",
+                "role": "Fissure in a hard thing generalizes the negation from pain to loss of bodily coherence."
+              }
+            ],
+            "structural_cues": [
+              "The paired negatives of 56:19 place branch-backed non-fracture beside branchless n-z-f at word 5, carrying the live senses of draining, exhaustion, or intoxication."
+            ],
+            "reader_inference": "The packet supplies a negated headache/fissure and a branchless negated drain; I infer a non-break/non-depletion property of the whole source-cup-recipient circuit. The narrower alternative limits both negatives to drinkers' symptoms.",
+            "changed_reading": {
+              "before": "An abundant drink with unusually benign effects.",
+              "after": "A form of consumption that preserves both the consumer's integrity and the continuity of supply."
+            }
+          },
+          {
+            "model_id": "C_origin_over_appetite",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ي ر",
+              "ش ه و"
+            ],
+            "mechanism": "Fruit and meat are related to selection and desire, but the cup is related to a source. The contrast makes the drink's value less about preference among objects and more about direct participation in an origin.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The running spring makes provenance the drink's explicit axis."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Choosing among goods supplies the preference model applied to fruit."
+              },
+              {
+                "source_ref": "56:21",
+                "root": "ش ه و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000825",
+                "branch_id": "B001",
+                "role": "The soul's pull toward an object supplies the appetite model applied to meat."
+              }
+            ],
+            "structural_cues": [
+              "Focus min ma'in is followed by mimma yatakhayyarun and mimma yashtahun, aligning provenance, choice, and desire in adjacent item clauses."
+            ],
+            "reader_inference": "The packet supplies adjacent but different complement relations; I infer that their contrast ranks origin differently from appetite. The alternative is ordinary syntactic variation within one banquet list.",
+            "changed_reading": {
+              "before": "The drink is one more desired item selected for enjoyment.",
+              "after": "The drink is distinguished by where it continuously comes from, while foods are distinguished by what recipients choose or desire."
+            }
+          },
+          {
+            "model_id": "C_purified_double_circulation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و",
+              "ء ث م",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "The filled cup and spoken peace form two circulating media. The drink is detached from the wine branch of ithm, while hearing is cleared of discarded or corrupt speech and receives only repeated safety; conviviality is purified in both ingestion and address.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ك ء س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001277",
+                "branch_id": "B001",
+                "role": "The cup-with-its-content supplies the ingestible medium of exchange."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory reception supplies a second channel entering the recipient."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "Discarded, unvalued material supplies what is filtered from the speech channel."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B005",
+                "role": "Wine named as ithm exposes the expected cup-sin linkage that the verse's negation breaks."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Uttered speech supplies the positive medium that replaces excluded noise."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Repeated safety and freedom from defect supply the content of purified social exchange."
+              }
+            ],
+            "structural_cues": [
+              "56:19 removes drink's bodily harms; 56:25-26 later removes speech's corrupt outputs and replaces them with doubled peace."
+            ],
+            "reader_inference": "The packet supplies parallel negative filters around drink and speech; I infer two clean circulations through body and community. The alternative treats harmless drink and peaceful hearing as separate benefits.",
+            "changed_reading": {
+              "before": "A harmless paradisal beverage served in a quiet setting.",
+              "after": "One half of a purified convivial system in which both what enters the body and what enters hearing preserve wholeness."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O_ocular_hydraulic_axis",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it lets the hydraulic ayn of ma'in resonate with the wide-eye ayn and pearl-like light in 56:22-23. It remains valid as a shared-root, focus-anchored sensory echo, but downstream prose should call it an ocular-hydraulic resonance, not claim that ma'in literally denotes an eye here.",
+            "focus_anchor": "Ma'in is anchored in the focus by root ع ي ن, whose inventory includes both a running spring and ocular seeing.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The flowing spring supplies the hydraulic pole of the shared-root image."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Direct seeing supplies the latent visual pole already available inside the focus root."
+              },
+              {
+                "source_ref": "56:22",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B016",
+                "role": "Wide, beautiful eyes reactivate the ocular pole through an explicit nearby occurrence of the same root."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ل ء ل ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001337",
+                "branch_id": "B002",
+                "role": "Pearl-like glitter extends the reactivated eye/source link into a shared field of visible luminosity."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ma'in specifies only the drink's flowing water source.",
+              "after": "The flowing source also acts as a contained visual hinge between drinking, seeing, and the nearby pearl-bright eye imagery."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The vessel list became a durable source-to-recipient circuit organized around a face-to-face community.",
+            "The post-cup negatives recast consumption as neither breaking the recipient nor draining the supply.",
+            "Adjacent choice and desire clauses sharpened min ma'in as provenance and participation in origin rather than preference.",
+            "The closing speech sequence activated a second purified circulation parallel to the drink."
+          ],
+          "what_was_special": "The focus ayah condensed material repair, social proximity, continuous service, harmless consumption, and clean address into a small vessel-source system; its most unusual live edge was the contained eye/spring resonance of ع ي ن.",
+          "remaining_uncertainties": [
+            "The early dispersal-to-containment contrast may be designed or may only reflect a transition between scenes.",
+            "Non-depletion may describe drinkers alone rather than the entire source-service circuit.",
+            "The ocular-hydraulic reading may be a productive root echo without functioning as an intended local image."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A spring moves through distinct drinking forms.** `ك و ب` **B001** supplies a handleless cup, `ك ء س` **B001** the cup together with its contents, and `ع ي ن` **B006** a springing water-eye. The vessel sequence moves from container type to contained drink and then source. **Abductive move:** I infer that circulation in 56:17 connects source, vessel, and recipient. **Reading change:** the ayah maps a supply chain of unexhausted drink rather than listing luxuries.\n\n2. **Drink under watchful care.** `ع ي ن` **B003** supplies the eye of watchful care, activated by the repeated seeing/knowing challenge later in the surah. **Abductive move:** the packet directly supplies a spring sense; I infer a secondary eye-image in which the source also figures attentive provision. **Reading change:** `معين` can suggest provision that is both visibly flowing and supervised.",
@@ -3530,18 +4134,23 @@
   "root_lexicon": {
     "root_001328": {
       "root_ar": "ك و ب",
+      "qac_roots_ar": [
+        "ك و ب"
+      ],
       "root_id": "root_001328",
-      "root_mapping": {
-        "root_id": "root_001328",
-        "root_norm": "ك و ب",
-        "source_root_norm": "ك و ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 4,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5e713c9d32051d1dc414dc2a75e17bdab32d6ac0b0f502c1f2e5175c484e1128",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4793,18 +5402,23 @@
     },
     "root_001277": {
       "root_ar": "ك ء س",
+      "qac_roots_ar": [
+        "ك ء س"
+      ],
       "root_id": "root_001277",
-      "root_mapping": {
-        "root_id": "root_001277",
-        "root_norm": "ك ء س",
-        "source_root_norm": "ك أ س",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 6,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ء س",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 6
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "09729bdbf46622d215acc96d4d52e8b1ff1b803e3a924e021f50829cf3a2527d",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5197,18 +5811,23 @@
     },
     "root_001069": {
       "root_ar": "ع ي ن",
+      "qac_roots_ar": [
+        "ع ي ن"
+      ],
       "root_id": "root_001069",
-      "root_mapping": {
-        "root_id": "root_001069",
-        "root_norm": "ع ي ن",
-        "source_root_norm": "ع ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 65,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 65
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4c2f337f0d2166ddb2358f22dd5b333c3ed084e0834b862965ed58fa323a8dc1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8232,14 +8851,20 @@
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 8
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8582,11 +9207,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_18.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_18.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 99910,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8660,19 +9298,37 @@
           "root_ids": [
             "root_001328"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001328",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001328",
+                "furuq_root_norm": "ك و ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 4,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001328",
-              "root_norm": "ك و ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 4,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8697,19 +9353,37 @@
           "root_ids": [
             "root_001277"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ء س",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001277",
+            "targets": [
+              {
+                "qac_root_norm": "ك ء س",
+                "target_rank": 1,
+                "furuq_root_id": "root_001277",
+                "furuq_root_norm": "ك ء س",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 6,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001277",
-              "root_norm": "ك ء س",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ء س",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 6,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 1,
+              "gloss_branch_count": 1,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8734,19 +9408,37 @@
           "root_ids": [
             "root_001069"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001069",
+            "targets": [
+              {
+                "qac_root_norm": "ع ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001069",
+                "furuq_root_norm": "ع ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 65,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001069",
-              "root_norm": "ع ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 65,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8773,10 +9465,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 24,
+        "dictionary_branches_kept": 24,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 24,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.262315+00:00",
+  "generated_at": "2026-08-04T22:29:58.716454+00:00",
   "surah": 56,
   "ayah": 20,
   "ayahRef": "56:20",
@@ -1305,7 +1305,8 @@
       "morpheme_ids": [
         "m-w-s056-a020-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:20:1"
+      "aligned_qac_word_ref_upstream": "56:20:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1319,7 +1320,8 @@
       "morpheme_ids": [
         "m-w-s056-a020-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:20:2"
+      "aligned_qac_word_ref_upstream": "56:20:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1335,7 +1337,8 @@
         "m-w-s056-a020-w002-01",
         "m-w-s056-a020-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:20:3"
+      "aligned_qac_word_ref_upstream": "56:20:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1351,7 +1354,8 @@
         "m-w-s056-a020-w003-01",
         "m-w-s056-a020-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:20:4"
+      "aligned_qac_word_ref_upstream": "56:20:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1625,7 +1629,747 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_20.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:20",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:20",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B0_FRUIT_UNDER_ACTIVE_CHOICE",
+            "confidence": "strong",
+            "focus_anchor": "فَٰكِهَةٍ and يَتَخَيَّرُونَ",
+            "mechanism": "A delectable object is paired with an active choosing form, so enjoyment includes control over which available good is taken.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "The delectable-fruit image supplies the concrete object of enjoyment."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Choosing and seeking the better option supplies deliberate selection rather than passive receipt."
+              }
+            ],
+            "changed_reading": {
+              "before": "Fruit is simply present for consumption.",
+              "after": "Delectable fruit is available under the recipients' own active selection."
+            }
+          },
+          {
+            "model_id": "B0_DISCERNED_GOOD_AS_DELIGHT",
+            "confidence": "medium",
+            "focus_anchor": "The inward-delight range of ف ك ه meets the good-and-elective range of خ ي ر.",
+            "mechanism": "The food and inward-delight branches reinforce the elective root: selection recognizes a good as good, and the freedom to discriminate is itself part of the pleasure.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B001",
+                "role": "Pleasantness of soul and relished ease broaden fruit from an item to an experienced state."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Inclination toward beneficial good makes the selection evaluative, not merely arbitrary."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Excellence and electness supply the comparative quality recognized by the chooser."
+              }
+            ],
+            "changed_reading": {
+              "before": "Choice only decides which item will be eaten.",
+              "after": "The ability to discern and elect a fitting good is itself one texture of delight."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_RESTORED_AGENCY_AFTER_UNMAKING",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق ع",
+              "ر ج ج",
+              "ج ب ل",
+              "ب س س",
+              "ب ث ث",
+              "ز و ج"
+            ],
+            "mechanism": "The opening sequence fixes a catastrophic event, shakes and breaks the world's solid elevations into dispersed matter, then sorts people into classes. Against imposed upheaval and classification, the active choice in 56:20 reads as restored personal agency within the new order.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Active election supplies the local act of regained agency."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling that becomes fixed supplies an irreversible event rather than an optional condition."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Violent agitation supplies the loss of environmental stability."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The elevated solid mass supplies the former structure being undone."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Breaking, wetting, and mixing supplies the dismantling of that former solidity."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the terminal dispersal from which the new order emerges."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B004",
+                "role": "Classification into kinds supplies the imposed sorting contrasted with later self-selection."
+              }
+            ],
+            "structural_cues": [
+              "56:1-7 moves from an event that settles, through destabilization and dispersal, to three human classes."
+            ],
+            "reader_inference": "The packet supplies unmaking, dispersal, and sorting beside active selection; I supply the arrow from imposed classification to restored agency. A live alternative is that choice marks abundance after catastrophe without answering the earlier loss of control.",
+            "changed_reading": {
+              "before": "The recipients exercise an ordinary preference among fruits.",
+              "after": "After a world of involuntary upheaval and sorting, their choosing enacts a conspicuous restoration of uncoerced agency."
+            }
+          },
+          {
+            "model_id": "D2_CHOICE_WITHIN_FACE_TO_FACE_ORDER",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ب ق",
+              "ق ر ب",
+              "ن ع م",
+              "و ض ن",
+              "ق ب ل"
+            ],
+            "mechanism": "Precedence and privileged nearness locate the recipients in a ranked order, but ease, interwoven couches, and mutual facing turn their choice into socially situated enjoyment rather than isolated acquisition.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B001",
+                "role": "Relished ease supplies the affective state shared within the gathering."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Election supplies each participant's local agency inside the prepared order."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Precedence supplies the ranked route by which this group is identified."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The favored nearness of royal intimates supplies privileged access."
+              },
+              {
+                "source_ref": "56:12",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease of life supply the non-striving mode of enjoyment."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tightly interwoven construction supplies a material image of ordered connectedness."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B009",
+                "role": "A group turning toward one another supplies the reciprocal social arrangement."
+              }
+            ],
+            "structural_cues": [
+              "56:10-16 narrows from rank and nearness to reclining face-to-face on interwoven couches."
+            ],
+            "reader_inference": "The packet supplies status, ease, woven supports, and mutual facing; I infer that individual choice operates inside a shared, noncompetitive setting. The alternative is that these details only display elite privilege and do not qualify the act of choosing.",
+            "changed_reading": {
+              "before": "Choice is a solitary consumer preference.",
+              "after": "Choice is personal but socially housed: each selects within a mutually facing community whose order no longer requires rivalry."
+            }
+          },
+          {
+            "model_id": "D3_REPEATABLE_PROVISION_WITHOUT_AFTERCOST",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط و ف",
+              "خ ل د",
+              "ع ي ن",
+              "ص د ع"
+            ],
+            "mechanism": "Circulating service, lasting attendants, a flowing source, and the explicit absence of headache frame the following fruit-choice as repeatable provision without the ordinary friction, exhaustion, or harmful aftercost of consumption.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "The delectable fruit supplies the next provision reached by the service sequence."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Repeated active selection supplies recipient-controlled access to that provision."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Circling around supplies a recurrent delivery motion rather than one-time presentation."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Persistence without quick decay supplies continuity to the attendants and their service."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A running spring supplies replenishing source-flow behind the circulated drink."
+              },
+              {
+                "source_ref": "56:19",
+                "root": "ص د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000850",
+                "branch_id": "B007",
+                "role": "The headache image supplies the bodily aftercost explicitly removed from the sequence."
+              }
+            ],
+            "structural_cues": [
+              "56:17-20 runs from circling attendants and sourced drink, through no headache or draining, directly into chosen fruit.",
+              "The branchless ن ز ف occurrence at 56:19 word 5 reinforces the negation of depletion but is not used as a branch citation."
+            ],
+            "reader_inference": "The packet supplies recurrent service, persistence, source-flow, and negated drink-harm; I extend that provisioning logic one step into the adjacent fruit. The live alternative is that the protections in 56:19 qualify only the drink, leaving fruit-choice unaffected.",
+            "changed_reading": {
+              "before": "A chooser takes a desired fruit on one occasion.",
+              "after": "Choice belongs to a renewable service ecology in which enjoyment can recur without depletion or bodily penalty."
+            }
+          },
+          {
+            "model_id": "D4_DISCERNMENT_DISTINGUISHED_FROM_APPETITE",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل ح م",
+              "ش ه و"
+            ],
+            "mechanism": "The near-identical frames of 56:20 and 56:21 assign different verbs to adjacent foods: fruit is governed by elective discrimination, while meat is governed by appetitive pull. The contrast sharpens تخير into judgment rather than a synonym for desire.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Delectable fruit supplies the object paired specifically with evaluative choice."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Inclination toward beneficial good supplies a discriminating orientation beyond raw appetite."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Electing among alternatives supplies the deliberate operation contrasted with craving."
+              },
+              {
+                "source_ref": "56:21",
+                "root": "ل ح م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001348",
+                "branch_id": "B002",
+                "role": "Flesh together with appetite for flesh supplies the neighboring appetitive object."
+              },
+              {
+                "source_ref": "56:21",
+                "root": "ش ه و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000825",
+                "branch_id": "B001",
+                "role": "The soul's pull toward what it craves supplies the explicit appetite pole of the contrast."
+              }
+            ],
+            "structural_cues": [
+              "56:20 فَٰكِهَةٍ مِّمَّا يَتَخَيَّرُونَ and 56:21 لَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ are syntactically parallel but lexically differentiated."
+            ],
+            "reader_inference": "The packet supplies parallel syntax with تخير for fruit and اشتهاء for meat; I infer a meaningful discrimination/appetite contrast. A live alternative is stylistic variation with substantial semantic overlap.",
+            "changed_reading": {
+              "before": "They choose fruit simply because they desire it.",
+              "after": "Fruit selection exercises discernment of the fitting good, deliberately distinguished from the appetite that governs the adjacent meat."
+            }
+          },
+          {
+            "model_id": "D5_RECOMPENSE_AS_RIPENED_HARVEST",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ج ز ي",
+              "ع م ل"
+            ],
+            "mechanism": "The reward-for-work statement supplies moral correspondence, while the non-dominant mapped branch for ج ز ي contributes a moment of ripeness for cutting. With fruit and election in the focus, prior action can be pictured as ripening into a harvest whose fitting good is now freely selected.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Fruit supplies the harvestable object that keeps the cross-domain image anchored in the focus."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Elective selection supplies the act performed upon the imagined ripened yield."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Answering an act with its recompense supplies moral correspondence between earlier action and present provision."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000242",
+                "branch_id": "B002",
+                "role": "The alternate mapped image of ripeness at cutting time supplies the harvest mechanism."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposeful action supplies the antecedent whose consequence is pictured as ripening."
+              }
+            ],
+            "structural_cues": [
+              "56:24 retrospectively labels the preceding provisions a recompense for what they had been doing."
+            ],
+            "reader_inference": "The packet supplies recompense, purposeful work, and a split-root branch of ripeness for cutting; I supply the temporal arrow by which deeds mature into selectable fruit. The ordinary reward sense may be sufficient, and the harvest image may reflect mapping distance rather than intended wordplay.",
+            "changed_reading": {
+              "before": "Chosen fruit is a static reward handed over after completed deeds.",
+              "after": "Exploratorily, the reward is a matured harvest of agency: purposeful deeds ripen into goods that can now be freely and fittingly chosen."
+            }
+          },
+          {
+            "model_id": "D6_DELIGHT_PURGED_OF_SOCIAL_HARM",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ل غ و",
+              "ء ث م",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "The focus root permits wholesome delight but also arrogant excess and making sport of others. The closing acoustic frame removes empty or culpable speech and leaves voiced peace, so the selected enjoyment is ethically filtered rather than merely intensified.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B001",
+                "role": "Pleasantness and enjoyed ease supply the positive delight retained by the model."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B006",
+                "role": "Arrogant exuberance supplies one harmful edge of delight that the later frame excludes."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B007",
+                "role": "Making sport of people's honor supplies the social-harm edge that must be filtered out."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "False or ugly speech supplies the kind of social noise explicitly absent."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Loading another with sin supplies the culpable interpersonal effect explicitly absent."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Uttered speech supplies the positive audible channel that remains."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety and freedom from harm supply the governing quality of the remaining speech and delight."
+              }
+            ],
+            "structural_cues": [
+              "56:25-26 closes the unit by negating two speech harms and repeating سلام as the sole heard utterance."
+            ],
+            "reader_inference": "The packet supplies both wholesome and socially corrupt edges of ف ك ه, then an acoustic environment purged of harmful speech; I infer that the closing verses select among the focus root's own possibilities. The alternative is that 56:25-26 regulates speech only and does not retrospectively qualify fruit-delight.",
+            "changed_reading": {
+              "before": "Delight is maximal pleasure without an ethical specification.",
+              "after": "Delight is selected and purified: ease remains, while arrogant exhilaration and enjoyment at another's expense are absent."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_CONVIVIAL_SPEECH_AS_SECONDARY_FRUIT",
+            "confidence": "exploratory",
+            "containment": "This is surprising because فَٰكِهَةٍ is concretely a food noun here, while the cited branch concerns wit and convivial talk. It remains anchored in the same focus root and is activated by the unit's closing contrast between harmful speech and spoken peace. Downstream prose should present it only as a secondary root resonance, never as a replacement translation for fruit.",
+            "focus_anchor": "ف ك ه at 56:20 word 1, especially its branch of wit and convivial conversation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "Wit, joking, and convivial talk supply a non-edible resonance of the focus fruit-root."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "False or ugly talk supplies the rejected counterpart against which convivial speech is purified."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Actual utterance supplies the local realization of the speech domain."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Peaceful reconciliation supplies the harmless social quality of that utterance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The selected fruit contributes only taste and nourishment.",
+              "after": "As a contained root resonance, the selected 'fruit' also hints at convivial exchange whose wit has been cleansed of idle or injurious speech."
+            }
+          },
+          {
+            "outlier_id": "O2_PROTECTED_QUALITY_DOMAIN",
+            "confidence": "exploratory",
+            "containment": "This is cross-domain because the pearl comparison and protective covering in 56:23 immediately describe a neighboring referent, not the fruit of 56:20. It remains worth carrying because تخير is anchored in comparative excellence and the nearby images supply a model of value kept intact before presentation. Downstream prose should mark this as an analogical activation, not transfer the pearl syntax directly onto the fruit.",
+            "focus_anchor": "يَتَخَيَّرُونَ at 56:20 word 3 as election of the excellent among available goods.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Excellence and electness supply the quality criterion internal to choosing."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ل ء ل ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001337",
+                "branch_id": "B001",
+                "role": "The pearl supplies a neighboring image of concentrated, inspectable value."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective covering supplies preservation of value before it is disclosed."
+              }
+            ],
+            "changed_reading": {
+              "before": "Choice ranges over undifferentiated abundance.",
+              "after": "Exploratorily, choice ranges over a protected quality-domain: goods are available for discrimination without having been degraded by exposure."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The 56:20-21 parallel distinguishes discerning election of fruit from appetitive desire for meat.",
+            "After cosmic unmaking and imposed human sorting, active selection reads as restored uncoerced agency.",
+            "The closing ban on harmful speech filters delight away from arrogant or injurious edges of the ف ك ه root."
+          ],
+          "what_was_special": "The focus does more than multiply pleasures: it makes evaluative agency part of pleasure, then places that agency inside renewable provision, reciprocal social order, and an ethically clean soundscape.",
+          "remaining_uncertainties": [
+            "The contrast between تخير and اشتهاء may be rhetorically deliberate or may be ordinary stylistic variation.",
+            "Drink-specific freedom from headache and depletion may not extend to the adjacent fruit.",
+            "The harvest model depends on a form-distant split-root branch and should remain exploratory.",
+            "The conversational and protected-quality outliers are root or cross-domain resonances, not replacement lexical readings."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Pleasant produce governed by active selection.** `ف ك ه` **B002** supplies fruit as pleasant produce and **B001** delighted enjoyment; the reflexive `يتخيرون` anchors `خ ي ر` **B003**, choosing or seeking the better option. The next ayah shifts from choice to desire, forming complementary modes of agency. **Abductive move:** I infer that abundance is organized around recipient selection rather than imposed allocation. **Reading change:** provision includes the freedom to discriminate among goods.\n\n2. **Choice continually finds excellence.** `خ ي ر` **B002** supplies chosen excellence and `ف ك ه` **B003** pleasant joking talk, the latter activated by the speech ecology of 56:25–26. **Abductive move:** I infer that selection extends the atmosphere of uncoerced pleasure from food into company, though the fixed noun remains fruit. **Reading change:** the fruit becomes one instance of an environment where choice and pleasant sociability coincide.",
@@ -2437,18 +3181,23 @@
   "root_lexicon": {
     "root_001174": {
       "root_ar": "ف ك ه",
+      "qac_roots_ar": [
+        "ف ك ه"
+      ],
       "root_id": "root_001174",
-      "root_mapping": {
-        "root_id": "root_001174",
-        "root_norm": "ف ك ه",
-        "source_root_norm": "ف ك ه",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 18,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف ك ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 18
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a58c2c395db2c9d1ea19a109e1ae21ea45737afcf7838c74dc152326c19958ad",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4280,18 +5029,23 @@
     },
     "root_000452": {
       "root_ar": "خ ي ر",
+      "qac_roots_ar": [
+        "خ ي ر"
+      ],
       "root_id": "root_000452",
-      "root_mapping": {
-        "root_id": "root_000452",
-        "root_norm": "خ ي ر",
-        "source_root_norm": "خ ي ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 184,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ي ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 184
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4b0820a29681116c61f76738749514e890dcfbe7271970382ff931cc30fe8163",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6324,14 +7078,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6593,11 +7353,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_20.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_20.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 86676,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6669,19 +7442,37 @@
           "root_ids": [
             "root_001174"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف ك ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001174",
+            "targets": [
+              {
+                "qac_root_norm": "ف ك ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_001174",
+                "furuq_root_norm": "ف ك ه",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 18,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001174",
-              "root_norm": "ف ك ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف ك ه",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 18,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6706,19 +7497,37 @@
           "root_ids": [
             "root_000452"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ي ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000452",
+            "targets": [
+              {
+                "qac_root_norm": "خ ي ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000452",
+                "furuq_root_norm": "خ ي ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 184,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000452",
-              "root_norm": "خ ي ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ي ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 184,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6745,10 +7554,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 13,
+        "dictionary_branches_kept": 13,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 13,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

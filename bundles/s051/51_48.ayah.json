@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.949102+00:00",
+  "generated_at": "2026-08-04T22:29:48.315971+00:00",
   "surah": 51,
   "ayah": 48,
   "ayahRef": "51:48",
@@ -1651,7 +1651,8 @@
       "morpheme_ids": [
         "m-w-s051-a048-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:48:1"
+      "aligned_qac_word_ref_upstream": "51:48:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1667,7 +1668,8 @@
         "m-w-s051-a048-w001-02",
         "m-w-s051-a048-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:48:2"
+      "aligned_qac_word_ref_upstream": "51:48:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1685,7 +1687,8 @@
         "m-w-s051-a048-w002-02",
         "m-w-s051-a048-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:48:3"
+      "aligned_qac_word_ref_upstream": "51:48:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1699,7 +1702,8 @@
       "morpheme_ids": [
         "m-w-s051-a048-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:48:4"
+      "aligned_qac_word_ref_upstream": "51:48:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1713,7 +1717,8 @@
       "morpheme_ids": [
         "m-w-s051-a048-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:48:5"
+      "aligned_qac_word_ref_upstream": "51:48:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1729,7 +1734,8 @@
         "m-w-s051-a048-w004-01",
         "m-w-s051-a048-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:48:6"
+      "aligned_qac_word_ref_upstream": "51:48:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2474,7 +2480,953 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_48.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:48",
+      "window": [
+        "51:38",
+        "51:39",
+        "51:40",
+        "51:41",
+        "51:42",
+        "51:43",
+        "51:44",
+        "51:45",
+        "51:46",
+        "51:47",
+        "51:48",
+        "51:49",
+        "51:50",
+        "51:51",
+        "51:52",
+        "51:53",
+        "51:54",
+        "51:55",
+        "51:56",
+        "51:57",
+        "51:58",
+        "51:59",
+        "51:60"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:48",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1-habitable-lower-plane",
+            "confidence": "strong",
+            "focus_anchor": "The object at word 1, spreading action at word 2, praise at word 3, and agent noun at word 4 form one preparation claim.",
+            "mechanism": "The earth is the lower plane opposite the sky; spreading converts it into leveled bedding, and the praise evaluates the agents' preparatory craft.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower region opposite the sky supplies the habitable lower plane."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and leveling supply the operation that makes the plane usable."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B003",
+                "role": "The formula of praise evaluates the quality of the preparation."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B002",
+                "role": "Prepared bedding and level ground supply the usable result."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth was made flat or broad.",
+              "after": "The earth is intentionally converted into a leveled, usable lower plane, and the closing praise evaluates the craft of preparation."
+            }
+          },
+          {
+            "model_id": "b2-nursery-ecology",
+            "confidence": "medium",
+            "focus_anchor": "The earth and spreading action can describe living cover, while the praise and preparer noun admit animal and cradle imagery.",
+            "mechanism": "Fertile soil sends out spreading vegetation that supports dependent grazing life; the cradle image makes the prepared earth a nursery rather than a static floor.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Fertile, growth-bearing soil supplies the productive substrate."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B008",
+                "role": "Vegetation spreading close to the ground supplies living cover."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B004",
+                "role": "Young, low livestock supply dependent animal life over that cover."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B005",
+                "role": "The livestock branch joins animal provision to the evaluative word."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B001",
+                "role": "The prepared infant cradle supplies the nursery relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse describes a static carpet for human use.",
+              "after": "The spread earth is a fertile nursery whose cover feeds and carries dependent life."
+            }
+          },
+          {
+            "model_id": "b3-prior-hospitality",
+            "confidence": "medium",
+            "focus_anchor": "The four focus roots can jointly describe a place furnished before its occupants arrive.",
+            "mechanism": "A large rug and household furnishing become a congenial place already laid down as an antecedent kindness; human occupancy follows the host's provision.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B005",
+                "role": "The large woolen rug image literalizes the earth as laid hospitality."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "Furnishing and bedding supply the host's concrete preparation."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A place agreeing with its occupant supplies congenial lodging."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B005",
+                "role": "A prior benefaction supplies the temporal precedence of the host's kindness."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth is a neutral substrate later occupied by people.",
+              "after": "The earth is hospitality furnished in advance, so occupancy begins in received kindness rather than self-provision."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1-contingent-support",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر و ح",
+              "ع ق م",
+              "ر م م",
+              "ق و م"
+            ],
+            "mechanism": "The earlier wind sequence makes habitability reversible: an unproductive airflow reduces things to decay and removes bodily standing, so a spread and leveled surface is an affordance upheld rather than an intrinsic permanence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and leveling supply the normally supportive operation."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B002",
+                "role": "Prepared level ground supplies the support that can be withdrawn."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "Wind and moving air supply the destructive medium."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B002",
+                "role": "The barren-wind image removes reproductive yield from that medium."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "Worn decay supplies the terminal material state of the exposed things."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily standing supplies the support-affordance explicitly lost."
+              }
+            ],
+            "structural_cues": [
+              "The sequence 51:41-45 moves from a barren wind through decay to inability to stand before the focus verse restores a prepared surface."
+            ],
+            "reader_inference": "The packet supplies destructive wind, decay, and lost standing; I infer that the focus ground is maintained support rather than permanent property. A live alternative is that the earlier sequence is only a punitive precedent with no qualification of 51:48.",
+            "changed_reading": {
+              "before": "Prepared earth is a permanently available support.",
+              "after": "Its capacity to bear life and standing is a contingent gift that destructive force can revoke."
+            }
+          },
+          {
+            "model_id": "d2-time-bounded-lodging",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ت ع",
+              "ح ي ن"
+            ],
+            "mechanism": "The furnished, congenial place becomes lodging granted for enjoyment over a bounded interval, not an ownerless or permanent home.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A place that suits its occupant supplies the lodging quality."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B002",
+                "role": "Prepared bedding supplies the place of temporary residence."
+              },
+              {
+                "source_ref": "51:43",
+                "root": "م ت ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001395",
+                "branch_id": "B007",
+                "role": "An extended grant for enjoyment supplies occupancy as permission rather than possession."
+              },
+              {
+                "source_ref": "51:43",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B001",
+                "role": "A thing's appointed interval supplies the lodging's temporal boundary."
+              }
+            ],
+            "structural_cues": [
+              "The command to enjoy until a time in 51:43 occurs inside a sequence where the granted interval ends."
+            ],
+            "reader_inference": "The packet supplies enjoyable use and a bounded time; I assign that temporal limit to the focus's lodging image. A live alternative is that the limit belongs only to the cited community and does not characterize earthly habitation generally.",
+            "changed_reading": {
+              "before": "The prepared earth reads as a settled and durable home.",
+              "after": "It reads as congenial lodging furnished for a granted interval."
+            }
+          },
+          {
+            "model_id": "d3-paired-cosmic-habitat",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م و",
+              "ب ن ي",
+              "ء ي د",
+              "و س ع",
+              "ز و ج"
+            ],
+            "mechanism": "A raised canopy is assembled and widened with strength while its opposite lower plane is spread and leveled; the following joined-pair image sharpens the two operations into complementary habitat construction.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower counterpart to the sky supplies the second plane of the habitat."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and leveling supply the lower-plane construction operation."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "What rises and overshadows supplies the upper canopy."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ب ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000156",
+                "branch_id": "B001",
+                "role": "Joining parts into a structure supplies the canopy's assembly."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ء ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000071",
+                "branch_id": "B001",
+                "role": "Concentrated supporting strength supplies structural capacity."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "و س ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001647",
+                "branch_id": "B001",
+                "role": "Expansion against constriction supplies the canopy's open span."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B001",
+                "role": "A companion joined to its counterpart supplies the relational link between upper and lower planes."
+              }
+            ],
+            "structural_cues": [
+              "Verses 51:47 and 51:48 are adjacent parallel clauses with object-first sky and earth, first-person plural actions, and plural agent predicates.",
+              "The pair statement in 51:49 immediately follows the two construction clauses."
+            ],
+            "reader_inference": "The packet supplies an upper canopy, assembled strength, open span, a lower counterpart, and joined pairs; I infer one complementary habitat system. A live alternative is that 51:49 states a general pairing rule without specifically pairing sky and earth.",
+            "changed_reading": {
+              "before": "Earth-spreading is an isolated feat of terrain shaping.",
+              "after": "It is the lower half of a coordinated, load-capable sky-earth habitat."
+            }
+          },
+          {
+            "model_id": "d4-rain-marked-nursery",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س م و",
+              "خ ل ق",
+              "ز و ج"
+            ],
+            "mechanism": "A non-dominant mapping of the sky root contributes first rain marking soil with vegetation; joined to fertile earth, spreading plants, deliberate creation, and paired companions, the nursery becomes an upper-lower generative exchange.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Fertile soil supplies the receptive lower substrate."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B008",
+                "role": "Ground-hugging vegetation supplies the spreading living response."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B001",
+                "role": "The prepared cradle supplies the nursery function of the coupled system."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B003",
+                "role": "The split-target image of first rain marking earth with plants supplies an upper-to-lower germination event."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative origination supplies the production rather than accidental spread of life."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B001",
+                "role": "Joined companions supply reciprocity between canopy and fertile ground."
+              }
+            ],
+            "structural_cues": [
+              "The sky clause, earth clause, and pair clause occur consecutively in 51:47-49."
+            ],
+            "reader_inference": "The packet supplies a split-target first-rain mark, fertile soil, spreading plants, creation, and paired companions; I infer a rain-to-growth arrow and reciprocal ecology. Live alternatives are that the split mapping is only lexical activation and that the pair statement remains nonspecific.",
+            "changed_reading": {
+              "before": "The earth acts as a nursery through its own fertile surface.",
+              "after": "Its nursery function is relational: an upper source marks the lower substrate, which answers by spreading living cover."
+            }
+          },
+          {
+            "model_id": "d5-departure-surface",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ر ر",
+              "ء ل ه",
+              "ن ذ ر"
+            ],
+            "mechanism": "The laid ground both permits embodied travel and invites heavy attachment; the next command reverses hospitality into traction for directed flight toward the worshiped one under warning.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B006",
+                "role": "Clinging and becoming heavy toward the ground supply the settlement pole to be resisted."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B007",
+                "role": "Traversing a path over a spread surface supplies traction and route."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B012",
+                "role": "Travel on foot supplies the embodied mode of departure."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight and escape supply urgent directional motion."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped one supplies the motion's destination."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that awakens caution supplies the urgency."
+              }
+            ],
+            "structural_cues": [
+              "The imperative of 51:50 follows immediately after the earth and pair statements."
+            ],
+            "reader_inference": "The packet supplies a walkable spread, weight toward earth, flight, destination, and warning; I infer that the furnished ground enables rather than terminates the journey. A live alternative is that the imperative changes moral direction without recoding the physical surface.",
+            "changed_reading": {
+              "before": "A furnished earth is chiefly a place to settle.",
+              "after": "It is also a departure surface whose usability gives traction for flight toward God rather than attachment to the furnishing."
+            }
+          },
+          {
+            "model_id": "d6-service-platform",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ك ر",
+              "ن ف ع",
+              "خ ل ق",
+              "ع ب د"
+            ],
+            "mechanism": "Preparation of an affair becomes enabling infrastructure: created occupants receive benefit through reminder and use the prepared arena for subordinated service, so comfort is instrumental rather than terminal.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Beneficent good condition supplies the occupants' received advantage."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B003",
+                "role": "Preparing and setting an affair in order supplies functional infrastructure."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that makes something present supplies orientation within the prepared arena."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Benefit opposed to harm locates the gain with the reminded occupants."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative origination supplies the occupants' prior dependence."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the arena's stated human function."
+              }
+            ],
+            "structural_cues": [
+              "The benefit statement in 51:55 is followed by the exclusive purpose construction in 51:56."
+            ],
+            "reader_inference": "The packet supplies preparation, reminder, recipient benefit, creation, and worship; I infer that earthly usability serves orientation and worship. A live alternative is that purpose belongs to creatures while the earth verse remains a separate sign of power.",
+            "changed_reading": {
+              "before": "Earthly comfort appears to be the preparation's endpoint.",
+              "after": "The prepared earth is an enabling platform for reminder and worship, with its comfort serving that use."
+            }
+          },
+          {
+            "model_id": "d7-hosted-provision",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ز ق",
+              "ط ع م",
+              "ق و ي",
+              "م ت ن"
+            ],
+            "mechanism": "The host-guest asymmetry becomes explicit: occupants do not feed the maker; apportioned sustenance comes from the provider, while gathered strength and a hard exterior underwrite the furnished ground.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "Household furnishing supplies the prepared accommodation."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Gifted good condition supplies the hospitality's benefit."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B005",
+                "role": "Prior benefaction supplies the host's initiative before human labor."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B002",
+                "role": "Consumable sustenance supplies what humans cannot be furnishing to the maker."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the explicitly denied reversal of host and guest."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "An apportioned gift supplies the provider's positive action."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Strength gathered like cord strands supplies independent capacity to provide."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "م ت ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001396",
+                "branch_id": "B002",
+                "role": "The hard outer surface of earth supplies a material echo of provision underwritten by firmness."
+              }
+            ],
+            "structural_cues": [
+              "Verses 51:57-58 negate provision and feeding from creatures, then identify the provider and strength.",
+              "The intensive provider form contrasts with the dependent occupants of the previously furnished earth."
+            ],
+            "reader_inference": "The packet supplies denied human feeding, apportioned sustenance, provider agency, gathered strength, and a hard earth-surface image; I infer that the focus furnishing is one expression of asymmetrical hosting. A live alternative is that 51:57-58 refutes divine need without specifically interpreting the earth.",
+            "changed_reading": {
+              "before": "Humans occupy land and produce their own provision from it.",
+              "after": "Human production is downstream of a firm accommodation and apportioned sustenance already furnished by an independent provider."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1-layered-load-bearing-body",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines anatomical and sheet-material branches with cosmic construction. It remains anchored in the focus spreading verb and lower-plane noun, while adjacent support and hard-surface cues make a coherent load-bearing analogy. Render it only as an exploratory material model, not as physical cosmography.",
+            "focus_anchor": "The spreading action at word 2 can carry thin-sheet materiality while the earth at word 1 remains the lower plane.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower plane supplies the location of the layered surface."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B010",
+                "role": "Thin plates in bone or iron supply laminated materiality to the spread surface."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ب ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000156",
+                "branch_id": "B009",
+                "role": "Ribs and supports by which a thing settles supply a load-bearing frame."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "م ت ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001396",
+                "branch_id": "B002",
+                "role": "A hard outer earth-surface supplies the frame's durable exterior."
+              }
+            ],
+            "changed_reading": {
+              "before": "The earth is imagined only as a soft carpet-like plane.",
+              "after": "The spread can be explored as a laminated, load-bearing surface: thin laid plates, structural supports, and a firm exterior."
+            }
+          },
+          {
+            "outlier_id": "o2-matched-allotment-bed",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it joins a rare bedding branch of likeness with the share and full-bucket branches of the later allotment. It remains valid as a mechanism because both return to the focus's furnishing and affair-preparation roots, while 51:59-60 supplies matching and appointment. Render it as an exploratory venue analogy, never as a lexical gloss of 51:48.",
+            "focus_anchor": "The furnishing action at word 2 and affair-preparation agent at word 4 can describe a venue readied to receive outcomes.",
+            "activation_trace": [
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "Laid furnishing supplies the receiving bed or venue."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B003",
+                "role": "Setting an affair in order supplies advance readiness for an outcome."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B006",
+                "role": "A share or allotted portion supplies what the prepared venue receives."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B007",
+                "role": "A full bucket supplies the concrete image of a measured delivery."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Matching one thing to its counterpart supplies equivalence of allotments."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B007",
+                "role": "The rare exemplar-as-bedding branch loops the matching relation back into the focus's furnishing image."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment fixed by time or place supplies the venue's deferred activation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The prepared bed carries only benevolent comfort.",
+              "after": "Exploratorily, the same prepared venue can receive matched, timed allotments, so readiness is morally non-neutral even though comfort remains the primary focus sense."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The adjacent sky and earth clauses become a complementary upper-lower habitat rather than unrelated feats.",
+            "The destruction sequence makes support contingent, while the timed enjoyment cue makes habitation a granted interval.",
+            "The purpose and provision sequence turns earth from an endpoint of comfort into a service platform furnished by an independent host."
+          ],
+          "what_was_special": "The most productive surprises came from resolvable side branches: the sky root's non-dominant first-rain mark activated a reciprocal nursery, the firmness root supplied a hard earth surface, and the later likeness branch looped matching back into bedding.",
+          "remaining_uncertainties": [
+            "The explicit pairing of sky and earth is reader-supplied; the pair statement may remain general.",
+            "The punitive scenes may contrast with prepared ground without defining its ordinary status.",
+            "The rain-mark, walking, layered-sheet, and matched-bed readings are form-distant and should remain visibly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Lower ground is spread and made habitable.** `ء ر ض/B001` supplies lower ground; `ف ر ش/B001` spreading/leveling; `ن ع م/B003` the praise formula; `م ه د/B002-3` smoothed bedding and preparation. The sequence from built sky to spread earth establishes complementary surfaces. I infer **leveling + preparation -> stable field for creaturely life**. The praise concerns effective making, not decoration alone.\n2. **The earth is cradle-like provision.** `م ه د/B001` supplies a prepared child's cradle, activated by birth in 51:28-30 and creation in 51:49, 56. I infer **prepared ground -> developmental support for dependent creatures**. This generative shelter reading remains distinct from simple topographic leveling.",
@@ -3366,18 +4318,23 @@
   "root_lexicon": {
     "root_000025": {
       "root_ar": "ء ر ض",
+      "qac_roots_ar": [
+        "ء ر ض"
+      ],
       "root_id": "root_000025",
-      "root_mapping": {
-        "root_id": "root_000025",
-        "root_norm": "ء ر ض",
-        "source_root_norm": "أ ر ض",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 461,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ر ض",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 461
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "aab7ab48f17d86fce2536c56fa77fe65c9bf879cb1a54ad2f6bac9c11adc09a2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5608,18 +6565,23 @@
     },
     "root_001143": {
       "root_ar": "ف ر ش",
+      "qac_roots_ar": [
+        "ف ر ش"
+      ],
       "root_id": "root_001143",
-      "root_mapping": {
-        "root_id": "root_001143",
-        "root_norm": "ف ر ش",
-        "source_root_norm": "ف ر ش",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 6,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف ر ش",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 6
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e88cac02eb3940182ec7f187bd6d2e2b02e0a79b0e4a62fd76e5b5c6bd4f9570",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9271,18 +10233,23 @@
     },
     "root_001525": {
       "root_ar": "ن ع م",
+      "qac_roots_ar": [
+        "ن ع م"
+      ],
       "root_id": "root_001525",
-      "root_mapping": {
-        "root_id": "root_001525",
-        "root_norm": "ن ع م",
-        "source_root_norm": "ن ع م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 98,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ع م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 98
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3f7b26053363b06c9558dc2ae22bf1f4d513c5e3b12e79ad6c24e28624db2622",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12686,18 +13653,23 @@
     },
     "root_001451": {
       "root_ar": "م ه د",
+      "qac_roots_ar": [
+        "م ه د"
+      ],
       "root_id": "root_001451",
-      "root_mapping": {
-        "root_id": "root_001451",
-        "root_norm": "م ه د",
-        "source_root_norm": "م ه د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 14,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م ه د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 14
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ce4867c700d453d6211aefc7c40d5cf127625d55fb5136aebb1da1002c60ff97",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14294,14 +15266,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14549,11 +15527,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_48.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_48.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 123856,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -14628,19 +15619,37 @@
           "root_ids": [
             "root_000025"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ر ض",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000025",
+            "targets": [
+              {
+                "qac_root_norm": "ء ر ض",
+                "target_rank": 1,
+                "furuq_root_id": "root_000025",
+                "furuq_root_norm": "ء ر ض",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 461,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000025",
-              "root_norm": "ء ر ض",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ر ض",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 461,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14665,19 +15674,37 @@
           "root_ids": [
             "root_001143"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف ر ش",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001143",
+            "targets": [
+              {
+                "qac_root_norm": "ف ر ش",
+                "target_rank": 1,
+                "furuq_root_id": "root_001143",
+                "furuq_root_norm": "ف ر ش",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 6,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001143",
-              "root_norm": "ف ر ش",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف ر ش",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 6,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14702,19 +15729,37 @@
           "root_ids": [
             "root_001525"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ع م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001525",
+            "targets": [
+              {
+                "qac_root_norm": "ن ع م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001525",
+                "furuq_root_norm": "ن ع م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 98,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001525",
-              "root_norm": "ن ع م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ع م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 98,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14739,19 +15784,37 @@
           "root_ids": [
             "root_001451"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م ه د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001451",
+            "targets": [
+              {
+                "qac_root_norm": "م ه د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001451",
+                "furuq_root_norm": "م ه د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 14,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001451",
-              "root_norm": "م ه د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م ه د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 14,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14778,10 +15841,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 46,
+        "dictionary_branches_kept": 46,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 46,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

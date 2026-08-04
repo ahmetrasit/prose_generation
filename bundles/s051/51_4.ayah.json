@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.177556+00:00",
+  "generated_at": "2026-08-04T22:29:45.092593+00:00",
   "surah": 51,
   "ayah": 4,
   "ayahRef": "51:4",
@@ -889,7 +889,8 @@
       "morpheme_ids": [
         "m-w-s051-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:4:1"
+      "aligned_qac_word_ref_upstream": "51:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -905,7 +906,8 @@
         "m-w-s051-a004-w001-02",
         "m-w-s051-a004-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:4:2"
+      "aligned_qac_word_ref_upstream": "51:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -919,7 +921,8 @@
       "morpheme_ids": [
         "m-w-s051-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:4:3"
+      "aligned_qac_word_ref_upstream": "51:4:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1383,7 +1386,1177 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_4.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:4",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_allotment_execution",
+            "confidence": "strong",
+            "focus_anchor": "The active feminine plural at word 1 governs the singular indefinite affair at word 2.",
+            "mechanism": "Plural agents isolate shares from one affair, converting an undifferentiated matter or mandate into assigned portions.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The branch isolates a share from a whole, making the participle the differentiating operator."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The branch supplies one affair or state of affairs as the whole on which division operates."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The branch adds an obligatory directive, allowing the portions to function as executable assignments."
+              }
+            ],
+            "changed_reading": {
+              "before": "Unspecified distributors perform a generic act.",
+              "after": "A single affair is operationalized by being differentiated into executable shares."
+            }
+          },
+          {
+            "model_id": "baseline_deliberative_routing",
+            "confidence": "medium",
+            "focus_anchor": "Word 1 can concern a mind divided among facets, while word 2 can concern consultation and resolution.",
+            "mechanism": "The agents sort one affair among possible courses, deliberate over its faces, and route it into decided lines of action.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B006",
+                "role": "The branch supplies attention distributed among the faces of an affair and makes division a cognitive operation."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B007",
+                "role": "The branch supplies consultation and settled resolve, turning the divided facets into a decision process."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse concerns only external allocation.",
+              "after": "It can also stage the internal sorting and resolution that precede assignment."
+            }
+          },
+          {
+            "model_id": "baseline_marked_appointments",
+            "confidence": "medium",
+            "focus_anchor": "The share-making branch of word 1 meets the sign and appointment branch of word 2.",
+            "mechanism": "The affair is partitioned into marked lots, stations, or appointments, so distribution includes both quantity and placement in a schedule.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The branch supplies the separate lots that require distinct destinations or turns."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B005",
+                "role": "The branch supplies marks and appointed times, giving each lot a recognizable place in an ordered schedule."
+              }
+            ],
+            "changed_reading": {
+              "before": "Division is a static separation into shares.",
+              "after": "Division assigns each share a mark, station, or due time."
+            }
+          },
+          {
+            "model_id": "baseline_distributed_increase",
+            "confidence": "exploratory",
+            "focus_anchor": "The object at word 2 can name increase and blessing rather than only an order.",
+            "mechanism": "The participial agents apportion increase itself, making growth or abundance the substance that arrives in differentiated shares.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The branch provides the act of separating an apportioned share."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B004",
+                "role": "The branch provides increase and blessing as the material being apportioned."
+              }
+            ],
+            "changed_reading": {
+              "before": "The object is an abstract command.",
+              "after": "The object can be productive increase distributed as concrete abundance."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_allotment_as_pipeline",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ر و",
+              "ح م ل",
+              "و ق ر",
+              "ج ر ي",
+              "ي س ر"
+            ],
+            "mechanism": "The opening sequence turns focus division into the terminal routing stage of a transfer pipeline: material is dispersed, borne as weight, moved in a compliant flow, and only then separated into destinations.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The focus branch performs the terminal separation of shares after transport."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The focus branch supplies the one affair whose contents move through the sequence."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven winnowing supplies dispersion as the pipeline's first transformation."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Visible bearing supplies the transfer of dispersed material into carriage."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "The heavy-load image makes what is carried substantive rather than merely symbolic."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous flow supplies movement from carriage toward delivery."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light compliant motion supplies low-resistance routing before the final split."
+              }
+            ],
+            "structural_cues": [
+              "The repeated feminine plural participles in 51:1-4 form a four-stage sequence whose final member is the focus construction.",
+              "The complements progress from dispersed material to load, ease, and finally affair, inviting a process reading."
+            ],
+            "reader_inference": "The packet supplies dispersion, carriage, weight, flow, ease, and allotment in sequence; I supply the arrow that these are successive transfer stages. A live alternative is that the four clauses are parallel witnesses rather than one pipeline.",
+            "changed_reading": {
+              "before": "The focus depicts an isolated administrative division.",
+              "after": "The focus is the delivery interface of a material process that converts moving bulk into local shares."
+            }
+          },
+          {
+            "model_id": "delta_marked_lots_become_due",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ع د",
+              "ص د ق",
+              "د ي ن",
+              "و ق ع"
+            ],
+            "mechanism": "Promise, counting, fulfillment, reckoning, and fixed occurrence turn the focus lots into a due docket: each apportioned item is prepared, timed, verified, and made to land.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The focus branch supplies distinct shares in the docket."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B005",
+                "role": "The focus branch marks each share with an appointment or recognizable station."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "The appointment branch bounds the promised item by a due time or place."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The split mapped branch contributes enumeration, making the promised docket countable."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment verifies that the assigned item is not merely scheduled but performed."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense supply the rule by which differentiated outcomes are assigned."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed supply the transition from assigned lot to realized event."
+              }
+            ],
+            "structural_cues": [
+              "51:5-6 immediately predicate truth and inevitable occurrence of what is promised after the focus oath."
+            ],
+            "reader_inference": "The packet supplies appointment, enumeration, fulfillment, reckoning, and fixation; I supply the administrative arrow that they are stages in a due docket. Alternatively, they can certify one undivided event rather than many assigned outcomes.",
+            "changed_reading": {
+              "before": "Marked lots remain a static plan.",
+              "after": "The distributors administer a countable schedule whose differentiated entries become due and then actual."
+            }
+          },
+          {
+            "model_id": "delta_ordered_division_vs_divided_speech",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ب ك",
+              "ق و ل",
+              "خ ل ف",
+              "ء ف ك",
+              "غ م ر",
+              "س ه و"
+            ],
+            "mechanism": "The focus can distinguish coherent articulation from fragmentation: authorized sorting binds facets into an executable order, whereas disputed speech takes divergent paths, is turned from its orientation, and sinks into covered inattention.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B006",
+                "role": "The focus branch supplies attention divided among multiple faces of one affair."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B007",
+                "role": "Consultation and resolved opinion supply the possibility of recomposing those faces into action."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B003",
+                "role": "Tight binding supplies the coherence that makes differentiated paths one ordered fabric."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Negotiation over an affair supplies a verbal counterpart to the focus deliberation."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Taking mutually different paths turns articulation into unresolved fragmentation."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Reversal from an orientation supplies the failure mode of misrouted judgment."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "A covering of falsehood and ignorance supplies the medium in which distinctions cease to clarify."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness supplies the cognitive lapse that leaves the divided speech unreconciled."
+              }
+            ],
+            "structural_cues": [
+              "The uncatalogued root خ ر ص at 51:10 is used only as the structural label for conjecturing speakers between reversal and immersion.",
+              "The woven-sky clause precedes the diagnosis of differing speech, creating a local ordered-pattern versus verbal-disorder contrast."
+            ],
+            "reader_inference": "The packet supplies binding, deliberative speech, divergent paths, reversal, covered ignorance, and heedlessness; I supply the contrast between productive differentiation and destructive fragmentation. A live alternative is that the focus agents themselves represent separate factions rather than coherent articulation.",
+            "changed_reading": {
+              "before": "The focus merely sorts alternatives in a neutral deliberation.",
+              "after": "It models disciplined differentiation, set against speech that divides without preserving orientation or coherence."
+            }
+          },
+          {
+            "model_id": "delta_command_as_assayed_sentence",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ء ل",
+              "ي و م",
+              "د ي ن",
+              "ن و ر",
+              "ف ت ن",
+              "ذ و ق",
+              "ع ج ل"
+            ],
+            "mechanism": "A question about when becomes a bounded day, reckoning, fiery assay, and tasted experience. The severe affair in the focus is therefore divisible as assessed outcomes that reach recipients experientially rather than as one abstract announcement.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The focus branch separates the affair into recipient-specific outcomes."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B006",
+                "role": "The great and severe affair supplies the high-stakes object subjected to division."
+              },
+              {
+                "source_ref": "51:12",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Questioning supplies the demand to locate the affair in time."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe event of a day supplies a bounded realization rather than indefinite delay."
+              },
+              {
+                "source_ref": "51:12",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense provide the allocation rule for differentiated results."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the material medium in which the assessment becomes palpable."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "The assay of metal or person supplies testing that differentiates what the affair discloses."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experienced trial makes the assigned result something undergone rather than merely stated."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Hastening supplies pressure on the schedule before its allotted realization."
+              }
+            ],
+            "structural_cues": [
+              "51:12 asks when, 51:13 locates the event in a day, and 51:14 changes description into the imperative to taste."
+            ],
+            "reader_inference": "The packet supplies temporal inquiry, bounded event, reckoning, fire, assay, experience, and haste; I supply the arrow from testing to individualized allocation. Alternatively, the sequence can describe one collective ordeal with no separate shares.",
+            "changed_reading": {
+              "before": "The focus distributes a severe command as information.",
+              "after": "It apportions a severe adjudication into outcomes that are tested, timed, and personally experienced."
+            }
+          },
+          {
+            "model_id": "delta_received_gift_contains_owed_share",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء خ ذ",
+              "ء ت ي",
+              "ح س ن",
+              "م و ل",
+              "ح ق ق",
+              "س ء ل",
+              "ح ر م"
+            ],
+            "mechanism": "Reception and redistribution become one circuit: recipients take what is given and act well, while wealth already contains an obligatory share for the requester and the deprived. The focus agents can therefore include downstream recipients who continue the apportionment.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The focus branch separates a due share from property already received."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The obligatory directive makes redistribution a binding function rather than optional generosity."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B001",
+                "role": "Taking possession supplies the receiving side of the distributive circuit."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving supplies the upstream transfer that makes the recipient a holder of a share."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "Doing good supplies the behavioral bridge from receiving to further distribution."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the held whole from which another share can be separated."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "A binding entitlement supplies the rule that a portion is already due."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Request supplies one visible claim that calls the embedded share forth."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation supplies a claim that remains real even without an expressed request."
+              }
+            ],
+            "structural_cues": [
+              "51:16 foregrounds taking what was given, while 51:19 locates a right inside the recipients' own wealth.",
+              "The uncatalogued root ه ج ع at 51:17 supplies only the intervening rhythm of night practice and is not used as a branch trigger."
+            ],
+            "reader_inference": "The packet supplies taking, giving, good action, held wealth, binding right, request, and deprivation; I supply the arrow that receiving an allotment creates responsibility to continue allocating. A live alternative is that 51:19 describes beneficiaries without identifying them with the focus agents.",
+            "changed_reading": {
+              "before": "The distributors are remote agents who deliver finished shares.",
+              "after": "Every recipient can become a downstream distributor because the received share contains another's enforceable due."
+            }
+          },
+          {
+            "model_id": "delta_order_distributed_as_evidence",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ر ض",
+              "ء ي ي",
+              "ن ف س",
+              "ب ص ر",
+              "س م و",
+              "ر ز ق",
+              "ح ق ق",
+              "م ث ل",
+              "ن ط ق"
+            ],
+            "mechanism": "One affair becomes knowable because it is partitioned into signs across earth, self, and sky. Seeing and speaking then reassemble those parcels into certainty, so distribution is also an epistemic encoding strategy.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The focus branch supplies the separation of one order into multiple evidentiary parcels."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B005",
+                "role": "The sign branch makes the divided affair recognizable through marks rather than direct total disclosure."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower realm supplies one spatial register in which a parcel of evidence is placed."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A visible sign supplies the local unit by which the larger affair can be inferred."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B012",
+                "role": "The thing's own self supplies an inward register alongside the external earth."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight supplies the faculty that connects distributed signs into a coherent reading."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The overarching sky supplies the upper register complementary to earth and self."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "An apportioned gift makes the sign-system consequential by joining evidence to actual provision."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Stable correspondence to reality supplies the truth condition for reassembling the parcels."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Likeness supplies the explicit bridge from dispersed evidence to a familiar comparator."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "Speaking indication supplies a model for signs that disclose without presenting the whole directly."
+              }
+            ],
+            "structural_cues": [
+              "The repeated locative construction in 51:19-22 moves through wealth, earth, selves, and sky before 51:23 compares truth with speaking."
+            ],
+            "reader_inference": "The packet supplies signs in several registers, insight, apportioned provision, reality-correspondence, likeness, and speaking indication; I supply the arrow that these are parcels of one encoded affair. Alternatively, each register can be an independent witness rather than a divided component.",
+            "changed_reading": {
+              "before": "The focus distributes commands or goods to recipients.",
+              "after": "It also distributes one intelligible order as partial signs that readers must reconnect across scales."
+            }
+          },
+          {
+            "model_id": "delta_increase_as_water_ecology",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ي ن",
+              "ء ر ض",
+              "س م و",
+              "ر ز ق"
+            ],
+            "mechanism": "The abstract increase baseline becomes a water ecology: a source flows, fertile ground receives, first rain visibly marks the earth, and descending rain functions as provision. Distribution is localized growth through differentiated water delivery.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The focus branch apportions the water-bearing increase into local shares."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B004",
+                "role": "Increase and blessing supply the productive effect of the distributed flow."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A running water source supplies localized emergence within the distributive ecology."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft fertile ground supplies the receiving surface on which apportioned increase becomes growth."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B003",
+                "role": "The non-dominant mapped branch contributes first rain marking earth with vegetation, linking upper source to visible growth."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "Rain descending as provision supplies the transfer from sky to apportioned nourishment."
+              }
+            ],
+            "structural_cues": [
+              "The context moves from garden springs to signs in earth and then to provision in sky.",
+              "The earlier dispersal, carriage, and flow sequence remains available as the transport side of this ecology."
+            ],
+            "reader_inference": "The packet supplies a spring, fertile earth, first rain marking vegetation, and rain as provision; I supply the hydrologic arrow linking them into one delivery ecology. The sky-to-mark mapping is form-distant, and the spring may remain garden imagery rather than a system component.",
+            "changed_reading": {
+              "before": "Increase is an unspecified blessing divided into shares.",
+              "after": "Increase is provision routed as water, with each delivery made legible in localized growth."
+            }
+          },
+          {
+            "model_id": "delta_oath_distributed_across_witnesses",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The oath branch of the focus root can make the construction self-reflexive: the surrounding oath is itself spread across several witnessing agencies, while the later lordly covenant closes the distributed guarantee.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "An oath divided among its bearers supplies the self-referential possibility that the speakers distribute the guarantee itself."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The affair supplies what the distributed witness sequence jointly guarantees."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B011",
+                "role": "A covenant or binding pledge supplies a later closure for the opening distributed oath."
+              }
+            ],
+            "structural_cues": [
+              "51:1-4 repeat coordinated oath-like clauses with definite feminine participles.",
+              "51:23 returns to an explicit lordly oath after the sequence of signs and provision."
+            ],
+            "reader_inference": "The packet supplies an oath branch, a covenant branch, and repeated oath syntax; I supply the reflexive arrow that the grammatical distributors also distribute the oath's witnessing load. The safer alternative is that oath and allocation remain unrelated senses of the same root.",
+            "changed_reading": {
+              "before": "The oath merely introduces agents who divide an affair.",
+              "after": "The oath's guarantee is itself divided among multiple witnesses, formally mirroring the affair they apportion."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_folded_order_fabric",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a first-fold branch at the focus and a belt branch in later speech rather than the ordinary division senses. It remains anchored in focus word 1 and gains a coherent fold-bind-gird mechanism from the context. Downstream prose should present it only as a material analogy for compressed ordering, not as a replacement translation.",
+            "focus_anchor": "The first focus word can activate the first fold of cloth while the second still names one affair.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B007",
+                "role": "The first fold of cloth supplies compression of a broad affair into a layered, portable form."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The single affair supplies the semantic fabric being folded rather than separate unrelated objects."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B002",
+                "role": "Interlaced, well-made paths supply the patterned layers produced by folding."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B003",
+                "role": "Tight binding keeps the differentiated layers coherent as one order."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B003",
+                "role": "A tightened belt supplies the final girding that makes the folded order executable and held together."
+              }
+            ],
+            "changed_reading": {
+              "before": "The affair is cut into separate shares.",
+              "after": "The affair is folded, patterned, and bound into layers that can unfold as distinct routes without losing unity."
+            }
+          },
+          {
+            "outlier_id": "outlier_spearheaded_directives",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it foregrounds the focus object's spear-fitting branch and supports it with edge and penetrating-thrust images from words that ordinarily carry other senses here. The model remains anchored in both focus words and yields a coherent conversion from broad order to directed points. It should be qualified as a cross-material activation, not a claim that the verse literally names weapons.",
+            "focus_anchor": "Word 2 can activate fitting a shaft with a point, while word 1 supplies separation into multiple outputs.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Share-separation turns one broad directive into multiple directed outputs."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B011",
+                "role": "Fitting a shaft with a sharpened point supplies the conversion of instruction into a directed implement."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B009",
+                "role": "An iron edge and sharpening stone supply preparation of each output for effective contact."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B009",
+                "role": "A straight penetrating thrust supplies the successful arrival of the directed assignment."
+              }
+            ],
+            "changed_reading": {
+              "before": "A command is divided into neutral administrative portions.",
+              "after": "A broad command is armed into distinct, sharpened vectors that can reach and effect their appointed targets."
+            }
+          },
+          {
+            "outlier_id": "outlier_affair_as_visible_countenance",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates beauty distributed across a face rather than quantitative division. It remains anchored in focus word 1 and is reinforced by workmanship, visible signs, and seeing in the context. Downstream prose should frame it as a perceptual model of patterned recognizability, not as a literal facial reading.",
+            "focus_anchor": "The first focus word can activate beauty distributed among facial features, making one affair perceptible through patterned aspects.",
+            "activation_trace": [
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B001",
+                "role": "Beauty distributed over a face supplies a whole recognized through the proportion of distinct features."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The affair supplies the whole whose many visible aspects form one recognizable countenance."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B001",
+                "role": "Well-made craftsmanship supplies proportion and coherence among the distributed features."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "Visible marks supply the individual features through which the whole affair becomes recognizable."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Eyesight supplies the act that gathers distributed visual features into one perceived form."
+              }
+            ],
+            "changed_reading": {
+              "before": "Distribution reduces a whole into detached quantities.",
+              "after": "Distribution composes a recognizable whole by proportioning its visible features."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening sequence converts static allotment into a dispersal-carriage-flow-delivery pipeline.",
+            "Promise, counting, reckoning, and occurrence convert marked shares into a due and realizable docket.",
+            "The wealth passage makes recipients potential distributors because a binding share is already present for both requester and deprived.",
+            "Earth, self, sky, and speech turn distribution into an epistemic strategy: one order is recoverable from signs spread across registers."
+          ],
+          "what_was_special": "The singular affair under plural participial agents remained productively unstable: it could be allocated as goods, assignments, appointments, adjudicated outcomes, water-borne increase, social rights, or partial signs. The context repeatedly changed not only what was divided but also whether division meant delivery, deliberation, testing, obligation, or disclosure.",
+          "remaining_uncertainties": [
+            "The focus does not identify the agents, so cosmic, administrative, human, and metapoetic agency remain coexisting rather than resolved.",
+            "The pipeline and hydrologic models depend on reader-supplied causal arrows across an ordered sequence that could instead contain parallel witnesses.",
+            "The oath, textile, spearpoint, and countenance readings are branch-backed but form-distant and should remain explicitly exploratory.",
+            "Split mapped roots activate useful counting and rain-marking images, but those activations do not establish lexical identity with the surface roots."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Apportioning an operative affair.** `ق س م/B003` supplies division into shares; `ء م ر/B001` gives matter/affair and `ء م ر/B002` directive. The prior material sequence culminates here, while 51:22 links provision and promise and 51:34 locates marked stones “with your Lord.” The packet supplies division and command; I infer **directive -> differentiated assignments -> execution**. *Amr* can therefore be both the affair being distributed and the directive that makes distribution operative.\n2. **The opening oaths enact their own allotment.** `ق س م/B004` supplies oath-taking, while the surface form *muqassimāt* is anchored primarily in B003. Because 51:1-4 are oath constructions and 51:4 itself names division, I infer **formal oath sequence -> verbal apportionment of roles**. The verse becomes reflexive: the oath-series itself distributes functions before asserting 51:5-6.",
@@ -2415,18 +3588,23 @@
   "root_lexicon": {
     "root_001226": {
       "root_ar": "ق س م",
+      "qac_roots_ar": [
+        "ق س م"
+      ],
       "root_id": "root_001226",
-      "root_mapping": {
-        "root_id": "root_001226",
-        "root_norm": "ق س م",
-        "source_root_norm": "ق س م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 26,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق س م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 26
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cf8058e6b73f3c1dcf11051bf3bd0f112883eb76cfb2139cf2383046834b1b4a",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4621,18 +5799,23 @@
     },
     "root_000051": {
       "root_ar": "ء م ر",
+      "qac_roots_ar": [
+        "ء م ر"
+      ],
       "root_id": "root_000051",
-      "root_mapping": {
-        "root_id": "root_000051",
-        "root_norm": "ء م ر",
-        "source_root_norm": "أ م ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 241,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء م ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 241
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6619cf1a09b74b544841a95a3f0fa585c87e19e212506a4f4a9c9ff534a6a4b9",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7529,14 +8712,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7837,11 +9026,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 100609,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7914,19 +9116,37 @@
           "root_ids": [
             "root_001226"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق س م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001226",
+            "targets": [
+              {
+                "qac_root_norm": "ق س م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001226",
+                "furuq_root_norm": "ق س م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 26,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001226",
-              "root_norm": "ق س م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق س م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 26,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7951,19 +9171,37 @@
           "root_ids": [
             "root_000051"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء م ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000051",
+            "targets": [
+              {
+                "qac_root_norm": "ء م ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000051",
+                "furuq_root_norm": "ء م ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 241,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000051",
-              "root_norm": "ء م ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء م ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 241,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7990,10 +9228,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 19,
+        "dictionary_branches_kept": 19,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 19,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

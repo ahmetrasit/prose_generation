@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.069570+00:00",
+  "generated_at": "2026-08-04T22:29:59.342678+00:00",
   "surah": 56,
   "ayah": 33,
   "ayahRef": "56:33",
@@ -1560,7 +1560,8 @@
       "morpheme_ids": [
         "m-w-s056-a033-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:33:1"
+      "aligned_qac_word_ref_upstream": "56:33:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1574,7 +1575,8 @@
       "morpheme_ids": [
         "m-w-s056-a033-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:33:2"
+      "aligned_qac_word_ref_upstream": "56:33:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1588,7 +1590,8 @@
       "morpheme_ids": [
         "m-w-s056-a033-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:33:3"
+      "aligned_qac_word_ref_upstream": "56:33:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1602,7 +1605,8 @@
       "morpheme_ids": [
         "m-w-s056-a033-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:33:4"
+      "aligned_qac_word_ref_upstream": "56:33:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1616,7 +1620,8 @@
       "morpheme_ids": [
         "m-w-s056-a033-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:33:5"
+      "aligned_qac_word_ref_upstream": "56:33:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2403,7 +2408,628 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_33.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:33",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:33",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_two_axis_availability",
+            "confidence": "strong",
+            "focus_anchor": "The coordinated negative participles at words 2 and 4 describe one feminine referent through two distinct failures.",
+            "mechanism": "The first negation cancels severance or cessation, while the second cancels withholding or an intervening barrier. Together they secure continuity on the supply side and access on the recipient side.",
+            "activation_trace": [
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Its cessation, exhaustion, and endpoint sense makes the first negation deny temporal or productive termination."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "Its sense of a barrier between a person and a desired thing makes the second negation deny blocked access."
+              }
+            ],
+            "changed_reading": {
+              "before": "The referent is simply never cut and never forbidden.",
+              "after": "The referent neither runs out nor becomes inaccessible: duration and access are separately guaranteed."
+            }
+          },
+          {
+            "model_id": "baseline_no_extraction_or_hoarding",
+            "confidence": "medium",
+            "focus_anchor": "The two passive forms negate an action done to the referent and an action done to prospective recipients.",
+            "mechanism": "Physical severing and human withholding form a paired economy of extraction and control. Negating both presents benefit without destructive removal at its source or miserly detention at its destination.",
+            "activation_trace": [
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B001",
+                "role": "Its concrete severing sense supplies the source-side act that the first passive negates."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "Its withholding of a gift or good supplies the recipient-side act that the second passive negates."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two near-synonymous negatives intensify unrestricted availability.",
+              "after": "The pair removes two different scarcity mechanisms: severing the good from its source and withholding it from another."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_fruit_continuity_and_access",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ك ه",
+              "ك ث ر"
+            ],
+            "mechanism": "The immediately preceding fruit noun fixes the feminine referent, and numerical growth intensifies the dual guarantee. Cessation now concerns fruiting or supply, while obstruction concerns a person's access to that supply.",
+            "activation_trace": [
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Its ending and exhaustion sense turns the first negation into uninterrupted fruiting or supply."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "Its access-barrier sense turns the second negation into unobstructed reachability."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Its edible-fruit sense identifies the concrete supply governed by both focus participles."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Its growth in number makes continuity more than mere survival and frames the supply as abundant."
+              }
+            ],
+            "structural_cues": [
+              "56:32 immediately precedes the focus and provides a feminine singular collective referent matching both feminine singular participles.",
+              "The abundance modifier precedes two coordinated negatives, so quantity, duration, and access form one compact description."
+            ],
+            "reader_inference": "The packet supplies fruit, numerical abundance, cessation, and obstruction; I infer that the first negative protects continuity while the second protects access. A live alternative is that both negatives are only conventional synonyms for plentiful fruit.",
+            "changed_reading": {
+              "before": "An unnamed benefit is continuously available.",
+              "after": "Abundant fruit has neither a season of exhaustion nor a barrier that keeps a recipient from reaching it."
+            }
+          },
+          {
+            "model_id": "delta_selective_pruning_without_deprivation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ض د"
+            ],
+            "mechanism": "The nearby vegetation can undergo a limited operation that removes sharpness or cuts fresh growth, yet the focus denies severance as an endpoint. The sequence therefore distinguishes beneficial tending from deprivation-producing cutoff.",
+            "activation_trace": [
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B001",
+                "role": "Its full severing sense names the stronger operation denied of the fruit supply."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Its endpoint sense makes the relevant harm not any cut whatsoever but a cut that terminates availability."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Its removal of thorns or sharpness supplies a selective, protective reduction that contrasts with deprivation."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B003",
+                "role": "Its cutting of fresh growth keeps literal cutting live while limiting the contrast to total severance or exhaustion."
+              }
+            ],
+            "structural_cues": [
+              "Modified thorn-bearing vegetation appears inside the same coordinated inventory before the abundant-fruit clause.",
+              "The focus uses absolute coordinated negation after a context that already admits a more selective plant operation."
+            ],
+            "reader_inference": "The packet supplies thorn-removal, fresh cutting, and the focus root's severance and endpoint branches; I infer a contrast between curative pruning and deprivation-producing cutoff. The live alternative is that the botanical descriptors are independent and establish no contrast.",
+            "changed_reading": {
+              "before": "Paradisal vegetation is untouched because nothing is ever cut.",
+              "after": "Cutting is not abolished indiscriminately: harmful sharpness may be removed, while nourishment is never severed into absence."
+            }
+          },
+          {
+            "model_id": "delta_replenishing_supply_circuit",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ض د",
+              "م د د",
+              "س ك ب",
+              "ك ث ر"
+            ],
+            "mechanism": "Ordered joining, connected extension, persistent pouring, and numerical growth form a replenishing sequence. Against that sequence, the focus pair denies both a break in transmission and a downstream gate on reception.",
+            "activation_trace": [
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Its exhaustion and endpoint sense names the break that the surrounding supply sequence never reaches."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "Its intervening obstacle supplies the downstream gate removed from the supply sequence."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Its orderly joining of one thing to another contributes organized presentation rather than isolated stock."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "Its connected increase that supports another contributes replenishment across the sequence."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Its persistence sense makes the poured resource an ongoing movement rather than a one-time deposit."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Its numerical increase marks the circuit's visible result as expanding abundance."
+              }
+            ],
+            "structural_cues": [
+              "56:29-33 is a contiguous nominal series moving through ordered growth, extension, poured water, abundant fruit, and dual negation.",
+              "Repeated passive modifiers make the environment appear as a coordinated system of supplied states."
+            ],
+            "reader_inference": "The packet supplies adjacency, extension, persistence, growth, and the two negated failures; I supply the directional arrow from those images to a replenishing circuit. A live alternative is a static catalogue with no causal linkage among its items.",
+            "changed_reading": {
+              "before": "There is a permanently large stock of fruit.",
+              "after": "Availability behaves like an ongoing provisioning circuit: supply keeps joining, extending, and arriving, and access is never closed at the receiving end."
+            }
+          },
+          {
+            "model_id": "delta_companionship_as_access_frame",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن"
+            ],
+            "mechanism": "A companion-group associated with blessing, strength, or right brackets the whole inventory. This frame activates the focus pair socially: provision does not sever the bond among companions and is not withheld by a controlling hand.",
+            "activation_trace": [
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B007",
+                "role": "Its severing of connection lets the first negation protect continuity of relation as well as continuity of supply."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "Its withholding by the hand makes the second negation reject hoarding within the framed company."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Its companionship and sustained association supplies the social body introduced before the inventory."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "Its force-and-right sense makes the group's access more than accidental proximity."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "The repeated companionship branch closes the inventory around the same associated group."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Its blessing sense characterizes the repeated group frame as a favorable shared condition."
+              }
+            ],
+            "structural_cues": [
+              "The same two-root group title occurs at 56:27 and 56:38, bracketing the entire descriptive inventory.",
+              "The focus clause sits inside that frame rather than naming a private possessor."
+            ],
+            "reader_inference": "The packet supplies a repeated companion/right frame plus branches of relational severance and withholding; I infer that object-level availability also describes the group's social relation to provision. A live alternative is that the frame merely labels the audience and leaves the focus wholly botanical.",
+            "changed_reading": {
+              "before": "The fruit itself is not interrupted or restricted.",
+              "after": "The companions' relation to provision is secure: their bond to it is not severed, and no controlling hand withholds it."
+            }
+          },
+          {
+            "model_id": "delta_cross_cohort_nonpartition",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ل ل",
+              "ء و ل",
+              "ء خ ر"
+            ],
+            "mechanism": "The closing parallel gathers cohorts from the temporal beginning and from later time. Their joint inclusion activates partition and withholding branches in the focus, yielding availability that is not divided into a privileged early allotment and a denied later one.",
+            "activation_trace": [
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B008",
+                "role": "Its division into separate portions lets the first negation resist partitioning the good by cohort."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "Its withholding sense lets the second negation resist denying provision to one temporal group."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "Its gathered-group sense supplies the first collective recipient."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Its temporal beginning and precedence place that collective at the early pole."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The split mapping's succession sense contributes a chain in which one cohort can be followed by another."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The repeated gathered-group sense supplies the later collective on matching terms."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Its later-than-the-first sense establishes the opposite temporal pole without removing collective inclusion."
+              }
+            ],
+            "structural_cues": [
+              "56:39 and 56:40 are parallel clauses differing chiefly in their early and later temporal labels.",
+              "Both clauses use the same gathered-group noun after the framed inventory."
+            ],
+            "reader_inference": "The packet supplies matching gathered cohorts at opposite temporal poles; I infer that the preceding availability applies across both and is not partitioned by precedence. A live alternative is that the lines only count groups and imply nothing about equal access or shares.",
+            "changed_reading": {
+              "before": "The fruit is inexhaustible for an unspecified set of recipients.",
+              "after": "Its availability crosses temporal cohorts: later recipients are neither cut into a lesser allotment nor denied what earlier recipients receive."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_regenerative_firstness",
+            "confidence": "exploratory",
+            "containment": "This is surprising because resistance to age is a remote branch of the focus's prevention root and the later creation sequence has a different immediate referent. It remains anchored by the focus's endpoint and time-resistance branches and by nearby creation, transformation, and first-state cues. Downstream prose should present it only as a regenerative temporal analogy, not as the direct lexical meaning or a secure antecedent claim.",
+            "focus_anchor": "The negated endpoint at word 2 and the negated time-resistance image at word 4 permit continuity to be imagined as renewal before loss becomes final.",
+            "activation_trace": [
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Its terminal-loss sense supplies the aging or exhaustion boundary that renewal would prevent from becoming final."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B007",
+                "role": "Its image of youthful strength resisting the year activates a time-defying rather than merely gate-defying reading."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Its bringing-into-being sense supplies renewal as the possible mechanism of continuity."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Its transformation into a state supplies the transition rather than assuming static preservation."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B002",
+                "role": "Its firstness or earliest-fruit sense supplies the restored freshness produced by that transition."
+              }
+            ],
+            "changed_reading": {
+              "before": "Continuity means an unchanged stock that simply lasts forever.",
+              "after": "Continuity may operate through regenerative firstness: what would age into exhaustion is renewed before loss becomes final."
+            }
+          },
+          {
+            "outlier_id": "outlier_unenclosed_commons",
+            "confidence": "exploratory",
+            "containment": "This is surprising because land grant, permission, and defensive enclosure are institutional branches distant from the ordinary fruit description. It remains anchored in both focus roots and is activated by the repeated company and right-or-strength frame. Downstream prose should label it an exploratory political-economic analogy, not translate the ayah as a technical property regime.",
+            "focus_anchor": "The negations at words 2 and 4 can jointly cancel authoritative parceling and power-backed enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B013",
+                "role": "Its grant, permission, and appropriation sense makes the first negation resist parceling access by concession."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B003",
+                "role": "Its protective strength that prevents entry makes the second negation resist enclosure by defended power."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Its companionship sense supplies a collective whose relation to the good can be shared rather than privately enclosed."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "Its right-and-power sense activates the question of whether power secures common access or excludes others."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "The repeated collective association closes the inventory as a provision for a company rather than a solitary holder."
+              }
+            ],
+            "changed_reading": {
+              "before": "No one happens to block access to plentiful fruit.",
+              "after": "The abundance is imagined as unenclosed common provision: no authority parcels it by concession and no fortified power bars the named company."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The context fixes fruit as the referent and separates uninterrupted production from unobstructed access.",
+            "Selective thorn-removal revises a blanket no-cutting reading into no deprivation-producing cutoff.",
+            "The repeated companion frame and matched early and later cohorts extend material availability into shared, cross-temporal access."
+          ],
+          "what_was_special": "The paired negatives are not redundant: nearby growth and flow cues expose a supply-side guarantee, while companion and cohort cues expose an access-side guarantee. The same clause can therefore carry botanical, distributive, and temporal mechanisms without collapsing them.",
+          "remaining_uncertainties": [
+            "The first negation may primarily denote seasonal cessation rather than literal severing or supply interruption.",
+            "The social and cohort readings depend on allowing the bracketing group labels to govern the internal object description.",
+            "Regenerative freshness and unenclosed commons are branch-supported analogies, not secure direct readings."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Neither supply interruption nor access barrier.** `ق ط ع` **B005** supplies cessation, depletion, or endpoint; `م ن ع` **B002** supplies a barrier between a person and what is sought. The double passive negation removes both a temporal failure in the fruit and a social failure in distribution. **Abductive move:** I infer that availability requires both continuing production and permission to reach it. **Reading change:** the ayah defines abundance as uninterrupted and unblocked.\n\n2. **Neither severed relation nor withholding hand.** `ق ط ع` **B007** supplies severance of relationship and `م ن ع` **B001** holding back the hand from giving. The companions’ face-to-face peace activates interpersonal branches. **Abductive move:** I infer that fruit-access mirrors a wider economy without broken ties or refused generosity. **Reading change:** the line describes an ethical distribution order through material provision.",
@@ -3331,18 +3957,23 @@
   "root_lexicon": {
     "root_001240": {
       "root_ar": "ق ط ع",
+      "qac_roots_ar": [
+        "ق ط ع"
+      ],
       "root_id": "root_001240",
-      "root_mapping": {
-        "root_id": "root_001240",
-        "root_norm": "ق ط ع",
-        "source_root_norm": "ق ط ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 36,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ط ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 36
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "68d4b665b9cff82d6dca524202911c69b2ef58664598f8b7d1b93c9bfa958452",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6995,18 +7626,23 @@
     },
     "root_001448": {
       "root_ar": "م ن ع",
+      "qac_roots_ar": [
+        "م ن ع"
+      ],
       "root_id": "root_001448",
-      "root_mapping": {
-        "root_id": "root_001448",
-        "root_norm": "م ن ع",
-        "source_root_norm": "م ن ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 16,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م ن ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 16
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8f299f3f0258a97844e1ad54fa9b051120bc444c6a0478d8bfa798c25d54cc9f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9335,14 +9971,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9650,11 +10292,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_33.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_33.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 75058,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9727,19 +10382,37 @@
           "root_ids": [
             "root_001240"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ط ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001240",
+            "targets": [
+              {
+                "qac_root_norm": "ق ط ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_001240",
+                "furuq_root_norm": "ق ط ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 36,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001240",
-              "root_norm": "ق ط ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ط ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 36,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 24,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9764,19 +10437,37 @@
           "root_ids": [
             "root_001448"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م ن ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001448",
+            "targets": [
+              {
+                "qac_root_norm": "م ن ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_001448",
+                "furuq_root_norm": "م ن ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 16,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001448",
-              "root_norm": "م ن ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م ن ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 16,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9803,10 +10494,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 31,
+        "dictionary_branches_kept": 31,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 7,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

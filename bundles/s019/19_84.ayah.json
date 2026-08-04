@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:17.291822+00:00",
+  "generated_at": "2026-08-04T22:29:41.749445+00:00",
   "surah": 19,
   "ayah": 84,
   "ayahRef": "19:84",
@@ -1842,7 +1842,8 @@
       "morpheme_ids": [
         "m-w-s019-a084-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:84:1"
+      "aligned_qac_word_ref_upstream": "19:84:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1856,7 +1857,8 @@
       "morpheme_ids": [
         "m-w-s019-a084-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:84:2"
+      "aligned_qac_word_ref_upstream": "19:84:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1870,7 +1872,8 @@
       "morpheme_ids": [
         "m-w-s019-a084-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:84:3"
+      "aligned_qac_word_ref_upstream": "19:84:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1886,7 +1889,8 @@
         "m-w-s019-a084-w003-01",
         "m-w-s019-a084-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:84:4"
+      "aligned_qac_word_ref_upstream": "19:84:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1902,7 +1906,8 @@
         "m-w-s019-a084-w004-01",
         "m-w-s019-a084-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:84:5"
+      "aligned_qac_word_ref_upstream": "19:84:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1916,7 +1921,8 @@
       "morpheme_ids": [
         "m-w-s019-a084-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:84:6"
+      "aligned_qac_word_ref_upstream": "19:84:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1930,7 +1936,8 @@
       "morpheme_ids": [
         "m-w-s019-a084-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:84:7"
+      "aligned_qac_word_ref_upstream": "19:84:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -1944,7 +1951,8 @@
       "morpheme_ids": [
         "m-w-s019-a084-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:84:8"
+      "aligned_qac_word_ref_upstream": "19:84:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -1958,7 +1966,8 @@
       "morpheme_ids": [
         "m-w-s019-a084-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:84:9"
+      "aligned_qac_word_ref_upstream": "19:84:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2468,7 +2477,445 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_84.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:84",
+      "window": [
+        "19:77",
+        "19:78",
+        "19:79",
+        "19:80",
+        "19:81",
+        "19:82",
+        "19:83",
+        "19:84",
+        "19:85",
+        "19:86",
+        "19:87",
+        "19:88",
+        "19:89",
+        "19:90",
+        "19:91",
+        "19:92",
+        "19:93",
+        "19:94",
+        "19:95",
+        "19:96",
+        "19:97",
+        "19:98"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:84",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B84_measured_deferral",
+            "confidence": "strong",
+            "focus_anchor": "تَعْجَلْ at word 2 is opposed to نَعُدُّ...عَدًّا at words 5 and 7.",
+            "mechanism": "The prohibition blocks advancing an outcome before its time, while إِنَّمَا redirects agency from the addressee's haste to a presently operating exact enumeration.",
+            "activation_trace": [
+              {
+                "source_ref": "19:84",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Its speeding and advancing-before-time image supplies the human tempo being blocked."
+              },
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Its exact-enumeration image supplies the measured process that replaces haste."
+              }
+            ],
+            "changed_reading": {
+              "before": "Do not hurry what will happen to them.",
+              "after": "Do not advance their outcome yourself: an exact process is already running for them, so delay is active rather than empty."
+            }
+          },
+          {
+            "model_id": "B84_counted_interval",
+            "confidence": "medium",
+            "focus_anchor": "The prohibition of premature speed and the cognate نَعُدُّ...عَدًّا construction jointly foreground timing.",
+            "mechanism": "The counted-duration and scheduled-time branches let the count sound like a finite allotted interval being run to completion, not only objects being tallied.",
+            "activation_trace": [
+              {
+                "source_ref": "19:84",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Its before-the-appointed-time image creates the need for a term that must not be preempted."
+              },
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B003",
+                "role": "Its counted-duration image turns enumeration into an allotted waiting period."
+              },
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "Its fixed-time image gives that period a scheduled endpoint."
+              }
+            ],
+            "changed_reading": {
+              "before": "We are tallying their deeds or persons.",
+              "after": "We are counting out their allotted interval to completion; the ban on haste preserves that measured term."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D79_inscribed_accrual",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ت ب",
+              "م د د"
+            ],
+            "mechanism": "Writing fixes each utterance into an enforceable record while extension lengthens the punitive term; the focus count consequently becomes an accruing account with a temporal runway.",
+            "activation_trace": [
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration supplies the account into which the earlier recorded material can accrue."
+              },
+              {
+                "source_ref": "19:79",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "Its fixing that entails judgment turns what is said into an enforceable entry feeding the count."
+              },
+              {
+                "source_ref": "19:79",
+                "root": "م د د",
+                "source_word_indices": [
+                  "5",
+                  "9"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "Its lengthened-term image supplies the span across which the account continues to accrue."
+              }
+            ],
+            "structural_cues": [
+              "19:79 and 19:84 pair first-person-plural imperfect verbs with cognate accusatives: نَمُدُّ...مَدًّا and نَعُدُّ...عَدًّا."
+            ],
+            "reader_inference": "The packet supplies fixed writing, an extended term, and the matched construction; I infer that entries accrue through that extension into the focus count. A live alternative is rhetorical parallel with counting independent of writing.",
+            "changed_reading": {
+              "before": "The count is a bare tally or countdown.",
+              "after": "The count is a continuously accruing, judgment-bearing record, making immediate intervention unnecessary."
+            }
+          },
+          {
+            "model_id": "D83_counter_rhythm",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ز ز"
+            ],
+            "mechanism": "The preceding intensive agitation establishes a pressured rhythm; the focus prohibition refuses that rhythm and replaces it with measured enumeration.",
+            "activation_trace": [
+              {
+                "source_ref": "19:84",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Its premature-speed image identifies the reactive tempo the addressee must not adopt."
+              },
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Its discrete enumeration supplies a controlled counter-rhythm."
+              },
+              {
+                "source_ref": "19:83",
+                "root": "ء ز ز",
+                "source_word_indices": [
+                  "8",
+                  "9"
+                ],
+                "mapped_root_id": "root_000028",
+                "branch_id": "B002",
+                "role": "Its boiling, sounding agitation image supplies the accelerated pressure immediately before the focus."
+              }
+            ],
+            "structural_cues": [
+              "The adjacent intensive pair تُؤُزُّهُمْ أَزًّا is answered by فَلَا تَعْجَلْ عَلَيْهِمْ and the measured pair نَعُدُّ...عَدًّا."
+            ],
+            "reader_inference": "The packet supplies adjacent agitation, prohibited haste, and count; I infer a warning against mirroring the tempo acting on them. The alternative is that the adjacency only intensifies their condition and says nothing about mimetic response.",
+            "changed_reading": {
+              "before": "Do not seek their outcome too soon.",
+              "after": "Do not let their induced agitation set your pace; the divine count contains that acceleration within a different rhythm."
+            }
+          },
+          {
+            "model_id": "D85_86_mustered_sorting",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ش ر",
+              "و ف د",
+              "س و ق",
+              "و ر د"
+            ],
+            "mechanism": "The focus count can function as a pre-dispatch muster: an enumerated population is assembled and then moved through sharply different procedures toward distinct destinations.",
+            "activation_trace": [
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B002",
+                "role": "Its preparation image lets counting function as operational readiness for the movements that follow."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Its gathering and conducting a group to a destination turns readiness into assembly."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ف د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001665",
+                "branch_id": "B001",
+                "role": "Its arrival before a sovereign marks the first assembled group's mode of reception."
+              },
+              {
+                "source_ref": "19:86",
+                "root": "س و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B001",
+                "role": "Its driving and expulsion image supplies the contrasting transport imposed on the second group."
+              },
+              {
+                "source_ref": "19:86",
+                "root": "و ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001640",
+                "branch_id": "B001",
+                "role": "Its arrival-at-a-destination image completes the second dispatch lane."
+              }
+            ],
+            "structural_cues": [
+              "The balanced adjacent clauses contrast نَحْشُرُ...وَفْدًا with نَسُوقُ...وِرْدًا immediately after the focus count."
+            ],
+            "reader_inference": "The packet supplies preparation, assembly, driving, and two arrival modes; I infer that enumeration serves as the manifest for ordered dispatch. The live alternative is simple chronological sequence without a logistical function for the count.",
+            "changed_reading": {
+              "before": "God waits while counting them.",
+              "after": "God is mustering them by count for a controlled sorting and dispatch, so the apparent wait is operational preparation."
+            }
+          },
+          {
+            "model_id": "D94_95_individual_index",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ص ي",
+              "ع د د",
+              "ف ر د"
+            ],
+            "mechanism": "The later reprise joins exhaustive encompassment to the same count and then resolves the collective كُلُّهُمْ into فَرْدًا; the earlier لَهُمْ therefore denotes separately indexed persons rather than an undifferentiated mass.",
+            "activation_trace": [
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The focus enumeration establishes the count whose unit is clarified later."
+              },
+              {
+                "source_ref": "19:94",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B002",
+                "role": "Its exhaustive-enumeration image removes the possibility of an approximate or merely collective count."
+              },
+              {
+                "source_ref": "19:94",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The exact lexical reprise carries the focus count into the later statement of total coverage."
+              },
+              {
+                "source_ref": "19:95",
+                "root": "ف ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001141",
+                "branch_id": "B001",
+                "role": "Its solitary-unit image identifies each person as an irreducible item within the total."
+              }
+            ],
+            "structural_cues": [
+              "19:94 repeats عَدَّهُمْ عَدًّا, and 19:95 immediately pairs كُلُّهُمْ with فَرْدًا."
+            ],
+            "reader_inference": "The packet supplies exact lexical reprise, exhaustive coverage, and solitary arrival; I infer that persons are individually indexed in the earlier count. A live alternative is that 19:84 primarily counts days, deeds, or utterances while 19:94 counts persons.",
+            "changed_reading": {
+              "before": "We count them as a collective object of judgment.",
+              "after": "Every member of the collective is already exhaustively and individually indexed; none is hidden inside the plural."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O98_count_to_zero_trace",
+            "confidence": "exploratory",
+            "containment": "The count-to-zero model is surprising because no branch states numerical subtraction; it remains anchored in the focus enumeration and the later sequence of destruction, failed sensing, exhaustive negation, and inaudible trace. Render it only as a cross-domain metaphor for no detectable remainder, not as the ayah's asserted arithmetic.",
+            "focus_anchor": "نَعُدُّ لَهُمْ عَدًّا can be carried forward as a process whose counted population eventually leaves no sensibly recoverable remainder.",
+            "activation_trace": [
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Exact enumeration supplies the numerical frame from which the zero-remainder metaphor is inferred."
+              },
+              {
+                "source_ref": "19:98",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B001",
+                "role": "Its falling into destruction supplies the removal process."
+              },
+              {
+                "source_ref": "19:98",
+                "root": "ح س س",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000321",
+                "branch_id": "B002",
+                "role": "Its sensory-detection image supplies the first test for any remainder."
+              },
+              {
+                "source_ref": "19:98",
+                "root": "ء ح د",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000017",
+                "branch_id": "B002",
+                "role": "Its exhaustive-negation image reduces the detectable persons to none."
+              },
+              {
+                "source_ref": "19:98",
+                "root": "ر ك ز",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000591",
+                "branch_id": "B001",
+                "role": "Its faint-sound image supplies the final minimal trace that is no longer heard."
+              }
+            ],
+            "changed_reading": {
+              "before": "The count delays a future judgment.",
+              "after": "Exploratorily, the measured process runs a generation down to no detectable human or acoustic remainder."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "19:83 turns the prohibition into a refusal to mirror the adversaries' agitated tempo.",
+            "19:94-95 resolves the count as exhaustive person-by-person indexing.",
+            "19:79 and 19:85-86 make the count active as both an accruing record and a pre-dispatch muster."
+          ],
+          "what_was_special": "The focus's haste/count opposition became a control-of-tempo mechanism: pressure accelerates, while inscription, enumeration, preparation, and individual dispatch proceed at a measured pace.",
+          "remaining_uncertainties": [
+            "The counted unit may be persons, utterances, deeds, days, or several of these at once.",
+            "The preparation branch of ع د د may supply a genuine lexical activation or only a functional inference from the following muster.",
+            "The counter-rhythm reading depends on treating the adjacency and paired cognate constructions as mechanistically significant."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -3339,18 +3786,23 @@
   "root_lexicon": {
     "root_000987": {
       "root_ar": "ع ج ل",
+      "qac_roots_ar": [
+        "ع ج ل"
+      ],
       "root_id": "root_000987",
-      "root_mapping": {
-        "root_id": "root_000987",
-        "root_norm": "ع ج ل",
-        "source_root_norm": "ع ج ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ج ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f79a40782fd37dbec65d6dbc360b2cd6fb498871568b48a59efc2ae0ab9df75b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5969,18 +6421,23 @@
     },
     "root_000989": {
       "root_ar": "ع د د",
+      "qac_roots_ar": [
+        "ع د د"
+      ],
       "root_id": "root_000989",
-      "root_mapping": {
-        "root_id": "root_000989",
-        "root_norm": "ع د د",
-        "source_root_norm": "ع د د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 49,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع د د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 49
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a802ff22c0561ef5e4fa5805af2b48e524aaacb77018540ac6c1220c74d85315",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8258,14 +8715,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8673,11 +9136,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_84.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_84.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 131134,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -8749,19 +9225,37 @@
           "root_ids": [
             "root_000987"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ج ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000987",
+            "targets": [
+              {
+                "qac_root_norm": "ع ج ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000987",
+                "furuq_root_norm": "ع ج ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000987",
-              "root_norm": "ع ج ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ج ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 28,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8786,19 +9280,37 @@
           "root_ids": [
             "root_000989"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع د د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000989",
+            "targets": [
+              {
+                "qac_root_norm": "ع د د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000989",
+                "furuq_root_norm": "ع د د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 49,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000989",
-              "root_norm": "ع د د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 49,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8825,10 +9337,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 15,
+        "dictionary_branches_kept": 15,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 15,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

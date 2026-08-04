@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:07.574113+00:00",
+  "generated_at": "2026-08-04T22:29:33.221512+00:00",
   "surah": 19,
   "ayah": 15,
   "ayahRef": "19:15",
@@ -2731,19 +2731,162 @@
       "morpheme_ids": [
         "m-w-s019-a015-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:15:1"
+      "aligned_qac_word_ref_upstream": "19:15:1",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 2,
+      "surface_ar": "عَلَيْهِ",
+      "word_ids": [
+        "w-s019-a015-w002"
+      ],
+      "qac_refs": [
+        "19:15:2:1",
+        "19:15:2:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w002-01",
+        "m-w-s019-a015-w002-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:3",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 3,
+      "surface_ar": "يَوْمَ",
+      "word_ids": [
+        "w-s019-a015-w003"
+      ],
+      "qac_refs": [
+        "19:15:3:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w003-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:4",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "وُلِدَ",
+      "word_ids": [
+        "w-s019-a015-w004"
+      ],
+      "qac_refs": [
+        "19:15:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:5",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s019-a015-w005"
+      ],
+      "qac_refs": [
+        "19:15:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:6",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 6,
+      "surface_ar": "يَوْمَ",
+      "word_ids": [
+        "w-s019-a015-w005"
+      ],
+      "qac_refs": [
+        "19:15:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:7",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "يَمُوتُ",
+      "word_ids": [
+        "w-s019-a015-w006"
+      ],
+      "qac_refs": [
+        "19:15:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s019-a015-w007"
+      ],
+      "qac_refs": [
+        "19:15:7:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w007-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:9",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 9,
+      "surface_ar": "يَوْمَ",
+      "word_ids": [
+        "w-s019-a015-w007"
+      ],
+      "qac_refs": [
+        "19:15:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:10",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 10,
+      "surface_ar": "يُبْعَثُ",
+      "word_ids": [
+        "w-s019-a015-w008"
+      ],
+      "qac_refs": [
+        "19:15:8:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w008-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:11",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 11,
+      "surface_ar": "حَيًّا",
+      "word_ids": [
+        "w-s019-a015-w009"
+      ],
+      "qac_refs": [
+        "19:15:9:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a015-w009-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:15:12",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3692,7 +3835,787 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_15.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:15",
+      "window": [
+        "19:1",
+        "19:2",
+        "19:3",
+        "19:4",
+        "19:5",
+        "19:6",
+        "19:7",
+        "19:8",
+        "19:9",
+        "19:10",
+        "19:11",
+        "19:12",
+        "19:13",
+        "19:14",
+        "19:15"
+      ],
+      "ayah_count": 15,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:15",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-threshold-integrity",
+            "confidence": "strong",
+            "focus_anchor": "One salām rests over three repeated day-clauses: birth, death, and being raised alive.",
+            "mechanism": "The event/crisis range of the repeated day-word makes these more than dates. Birth initiates embodied life, death removes its force, and raising reactivates the still; salām therefore names continuity of intactness across three discontinuities rather than avoidance of change.",
+            "activation_trace": [
+              {
+                "source_ref": "19:15",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from harm and defect supplies the governing condition over all three thresholds."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3",
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The charged-event sense turns the repeated days into exposed crises rather than neutral calendar labels."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Parturition supplies the first transfer into embodied existence."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Actual loss of force and life supplies the rupture that salām traverses but does not cancel."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Rousing what was still supplies reactivation after death."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ح ي ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000383",
+                "branch_id": "B003",
+                "role": "Ensouled living existence specifies the state reached by the rousing."
+              }
+            ],
+            "changed_reading": {
+              "before": "A blessing attached to three dates in a person's biography.",
+              "after": "A single condition of intactness carried across three existential crises, including rather than erasing death."
+            }
+          },
+          {
+            "model_id": "baseline-life-greeting-ring",
+            "confidence": "medium",
+            "focus_anchor": "The line opens with salām and closes with the person alive.",
+            "mechanism": "The life-root's greeting branch joins prayer for life with prayer for safety, making the opening and ending mutually interpretive: salām is not detachable courtesy but a life-directed utterance spanning the whole arc.",
+            "activation_trace": [
+              {
+                "source_ref": "19:15",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety supplies the semantic content announced at the opening."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ح ي ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000383",
+                "branch_id": "B007",
+                "role": "Greeting as a prayer for life and safety closes the line by folding living back into salām."
+              }
+            ],
+            "changed_reading": {
+              "before": "Salām is a conventional greeting followed by a chronological list.",
+              "after": "The phrase forms a life-greeting ring in which the opening utterance anticipates the final living state."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-mercy-womb-shield",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ح م",
+              "ح ن ن",
+              "و ق ي"
+            ],
+            "mechanism": "The unit opens under mercy, whose branch field also reaches the womb, and places tenderness and protection on Yahya immediately before the focus. Salām consequently becomes an embodied merciful enclosure at birth and a continuing shield at every exposed threshold.",
+            "activation_trace": [
+              {
+                "source_ref": "19:15",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety from harm is the focus condition revised from formula into protective enclosure."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "The bodily event of parturition locates the first threshold of that enclosure."
+              },
+              {
+                "source_ref": "19:2",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tender mercy supplies the affective source of the protection governing the story."
+              },
+              {
+                "source_ref": "19:2",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb branch materializes mercy as an enclosure specifically relevant to birth."
+              },
+              {
+                "source_ref": "19:13",
+                "root": "ح ن ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000364",
+                "branch_id": "B001",
+                "role": "Compassionate tenderness places the same merciful quality directly on Yahya."
+              },
+              {
+                "source_ref": "19:13",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Active warding of harm supplies the shielding function carried into salām."
+              }
+            ],
+            "structural_cues": [
+              "19:2 labels the whole episode a remembrance of mercy; 19:13 assigns tenderness and guardedness to Yahya immediately before 19:15."
+            ],
+            "reader_inference": "The packet supplies mercy/womb, tenderness, and warding; I extend their enclosing function from birth across the other two thresholds. A live alternative is that salām remains a declarative blessing without a womb-shaped mechanism.",
+            "changed_reading": {
+              "before": "Peace is a formal benediction over vulnerable moments.",
+              "after": "Peace is mercy made protective and bodily: an enclosure that receives Yahya at birth and does not release him at death."
+            }
+          },
+          {
+            "model_id": "delta-impossible-beginnings",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ق ر",
+              "و ه ب",
+              "ه و ن",
+              "خ ل ق",
+              "ش ي ء"
+            ],
+            "mechanism": "Interrupted offspring is answered by an unpriced gift, while prior creation from non-thinghood is declared easy. This makes birth and resurrection parallel conversions of blocked absence into life; the final raising repeats the logic already demonstrated by the first beginning.",
+            "activation_trace": [
+              {
+                "source_ref": "19:15",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Actual birth supplies the first realized beginning from the narrated blockage."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Rousing from stillness supplies the second beginning that mirrors the first."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ح ي ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000383",
+                "branch_id": "B003",
+                "role": "Living existence is the common result of both beginnings."
+              },
+              {
+                "source_ref": "19:5",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B004",
+                "role": "The cutting-off of offspring supplies the concrete blockage that birth overturns."
+              },
+              {
+                "source_ref": "19:5",
+                "root": "و ه ب",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001685",
+                "branch_id": "B001",
+                "role": "A gift without exchange makes the new life an initiative not produced by ordinary reciprocity."
+              },
+              {
+                "source_ref": "19:9",
+                "root": "ه و ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001608",
+                "branch_id": "B002",
+                "role": "Ease removes impossibility from the transition between absence and existence."
+              },
+              {
+                "source_ref": "19:9",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination supplies the precedent by which resurrection can be read as renewed beginning."
+              },
+              {
+                "source_ref": "19:9",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The negated thing in the source supplies the prior absence from which creation proceeds."
+              }
+            ],
+            "structural_cues": [
+              "Barrenness is stated at 19:5 and repeated at 19:8; 19:9 answers it by recalling creation before the addressee was anything."
+            ],
+            "reader_inference": "The packet supplies reproductive interruption, gift, ease, origination, and prior non-thinghood; I map the demonstrated first-creation logic onto the focus raising. The alternative is that 19:9 reassures only about Yahya's birth and does not pattern resurrection.",
+            "changed_reading": {
+              "before": "Birth and resurrection are separate endpoints on a timeline.",
+              "after": "They are two structurally matched impossible beginnings, so salām marks the same creative fidelity on both sides of death."
+            }
+          },
+          {
+            "model_id": "delta-integrity-through-force-change",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ه ن",
+              "ق و ي"
+            ],
+            "mechanism": "The context moves from a father's failing strength to concentrated strength entrusted to the child, while the focus still includes actual death. Safety therefore cannot mean permanent bodily force; it means preserved integrity while force wanes, is gathered, is lost, and life is roused again.",
+            "activation_trace": [
+              {
+                "source_ref": "19:15",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Intactness is revised from immunity to continuity through changing capacities."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of life prevents the safety claim from being reduced to avoidance of bodily failure."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Rousing supplies restoration after force has genuinely ceased."
+              },
+              {
+                "source_ref": "19:4",
+                "root": "و ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001687",
+                "branch_id": "B001",
+                "role": "Weakening power and resolve supplies the narrative's initial condition of failing capacity."
+              },
+              {
+                "source_ref": "19:12",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Strength gathered like strands supplies Yahya's commissioned capacity without making it permanent."
+              }
+            ],
+            "structural_cues": [
+              "The story moves from the father's weakened bone at 19:4 to the child's command to take the Book with strength at 19:12; 19:15 then names his death without qualification."
+            ],
+            "reader_inference": "The packet supplies a weakness-to-strength contrast and a death-to-rousing sequence; I take salām as identity-integrity across those force changes. The alternative is that the two strength terms characterize different persons and do not revise salām.",
+            "changed_reading": {
+              "before": "Peace protects Yahya by keeping weakness and death away.",
+              "after": "Peace preserves Yahya through weakness and actual death; intactness is continuity, not unbroken bodily power."
+            }
+          },
+          {
+            "model_id": "delta-three-night-sign",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ل ث",
+              "ل ي ل",
+              "س و ي",
+              "س ب ح",
+              "ب ك ر",
+              "ع ش و"
+            ],
+            "mechanism": "A three-night suspension of speech occurs while the body remains sound and becomes a sign filled by morning-evening praise. The focus's three repeated days enlarge that local sign into a life-scale triad: ordinary capacity can be suspended while wholeness and directed praise continue.",
+            "activation_trace": [
+              {
+                "source_ref": "19:15",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3",
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "Three charged occurrences provide the expanded temporal triad."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Intactness supplies what persists through each larger suspension."
+              },
+              {
+                "source_ref": "19:10",
+                "root": "ث ل ث",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000203",
+                "branch_id": "B001",
+                "role": "The explicit number three supplies the local numerical template."
+              },
+              {
+                "source_ref": "19:10",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night supplies the shorter dark interval against which the three focus days expand."
+              },
+              {
+                "source_ref": "19:10",
+                "root": "س و ي",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000766",
+                "branch_id": "B002",
+                "role": "Bodily soundness supplies integrity despite suspended speech."
+              },
+              {
+                "source_ref": "19:11",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B001",
+                "role": "Praise and worship convert the silent interval into directed activity rather than vacancy."
+              },
+              {
+                "source_ref": "19:11",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B001",
+                "role": "Morning opens the daily pole structuring the sign."
+              },
+              {
+                "source_ref": "19:11",
+                "root": "ع ش و",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001017",
+                "branch_id": "B004",
+                "role": "Evening closes the daily pole and establishes repeated temporal rhythm."
+              }
+            ],
+            "structural_cues": [
+              "19:10 marks three nights as a sign while Zakariya remains sound; 19:11 organizes that interval by morning and evening before 19:15 repeats day three times."
+            ],
+            "reader_inference": "The packet supplies the shared number, contrasting nights/days, soundness, and daily praise; I scale the earlier sign-pattern to the three existential days. The live alternative is a formal numerical echo with no causal relation.",
+            "changed_reading": {
+              "before": "The three days merely enumerate a complete biography.",
+              "after": "They reprise and magnify the earlier sign: capacity may fall silent at three thresholds while integrity and orientation persist."
+            }
+          },
+          {
+            "model_id": "delta-nondominating-peace",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ن ن",
+              "ز ك و",
+              "ب ر ر",
+              "ج ب ر",
+              "ع ص ي"
+            ],
+            "mechanism": "Tenderness, purification, filial beneficence, and the explicit negation of coercive tyranny and disobedience give social content to the focus salām. Peace is not only protection received at threshold moments; it is the non-dominating form Yahya's life takes between them.",
+            "activation_trace": [
+              {
+                "source_ref": "19:15",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Reconciliation opposed to war supplies the social mode disclosed by the preceding character portrait."
+              },
+              {
+                "source_ref": "19:13",
+                "root": "ح ن ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000364",
+                "branch_id": "B001",
+                "role": "Tender compassion supplies peace's positive affective practice."
+              },
+              {
+                "source_ref": "19:13",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B002",
+                "role": "Purity and rightness supply the inward condition of that practice."
+              },
+              {
+                "source_ref": "19:14",
+                "root": "ب ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000104",
+                "branch_id": "B003",
+                "role": "Filial connection and beneficence place peace in a concrete close relationship."
+              },
+              {
+                "source_ref": "19:14",
+                "root": "ج ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000216",
+                "branch_id": "B003",
+                "role": "Coercive domination, explicitly negated in the source, supplies the rejected social mechanism."
+              },
+              {
+                "source_ref": "19:14",
+                "root": "ع ص ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001022",
+                "branch_id": "B001",
+                "role": "Departure from obedience, also negated, supplies the rejected relational rupture."
+              }
+            ],
+            "structural_cues": [
+              "The two ayat immediately before 19:15 move from inward tenderness and purity to filial goodness and paired negations of tyranny and disobedience."
+            ],
+            "reader_inference": "The packet supplies compassionate conduct and negated domination; I read the adjacent salām as the summary form of that conduct as well as a blessing upon it. The alternative is that character and benediction remain adjacent but semantically independent.",
+            "changed_reading": {
+              "before": "Peace is something bestowed on Yahya at three vulnerable moments.",
+              "after": "Peace is also what Yahya embodies between those moments: tenderness, relational fidelity, and refusal of coercive power."
+            }
+          },
+          {
+            "model_id": "delta-entrusted-transfers",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ل ي",
+              "و ر ث",
+              "ك ت ب"
+            ],
+            "mechanism": "The requested successor is defined by sequence and inherited charge, then Yahya is told to take the binding Book. Activated by salām's delivery branch, the three thresholds can be read as protected handovers of person and trust: into life, through death, and into renewed commission.",
+            "activation_trace": [
+              {
+                "source_ref": "19:15",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B012",
+                "role": "Delivery and relinquishment supply the transfer-image governing the three thresholds."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Birth supplies the first handover into embodied and familial life."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Death supplies the relinquishment where continuity is most at risk."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B002",
+                "role": "Directed sending supplies a possible renewed commission after the final handover."
+              },
+              {
+                "source_ref": "19:5",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3",
+                  "13"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "One thing following another supplies the successor-chain that activates transfer rather than isolation."
+              },
+              {
+                "source_ref": "19:6",
+                "root": "و ر ث",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_001639",
+                "branch_id": "B003",
+                "role": "Transmission of knowledge, book, or virtue supplies the entrusted content crossing generations."
+              },
+              {
+                "source_ref": "19:12",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "A binding inscription supplies the concrete charge Yahya receives and bears."
+              }
+            ],
+            "structural_cues": [
+              "19:5-6 request a successor who inherits; 19:12 answers with Yahya taking the Book before the focus traces his full arc."
+            ],
+            "reader_inference": "The packet supplies succession, inherited charge, binding Book, and salām-as-delivery; I treat existential transitions as protected custody transfers and raising as recommission. A live alternative confines inheritance to the earthly lineage and leaves salām in its ordinary safety sense.",
+            "changed_reading": {
+              "before": "The verse protects an individual at three isolated moments.",
+              "after": "It can also bless three handovers in a chain of trust, preserving both the person and an entrusted charge across discontinuity."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-life-name-return",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it treats the audible/graphic resonance between the supplied proper name Yahya and the focus's living state as functional, although the packet assigns no QAC root to the name itself. It remains anchored by the explicit naming construction at 19:7 and the focus life-root; downstream prose should call it possible wordplay, not a proved derivation.",
+            "focus_anchor": "The person named Yahya is finally raised hayyan, so the last state can sound like a semantic return of the given identity.",
+            "activation_trace": [
+              {
+                "source_ref": "19:7",
+                "root": "س م و",
+                "source_word_indices": [
+                  "5",
+                  "12"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "Name as designation supplies the explicit identity frame in which the resonance becomes active."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Rousing supplies the return in which identity is heard again."
+              },
+              {
+                "source_ref": "19:15",
+                "root": "ح ي ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000383",
+                "branch_id": "B003",
+                "role": "Living existence supplies the focus word that echoes the named person."
+              }
+            ],
+            "changed_reading": {
+              "before": "He is raised in the generic state of being alive.",
+              "after": "Exploratorily, his raising rearticulates the semantic sound of Yahya: the named one returns as living."
+            }
+          },
+          {
+            "outlier_id": "outlier-proleptic-safe-name",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it activates the lexical convention of calling a bitten or surrendered person 'safe' optimistically; it does not import snakebite into the episode. Explicit naming and protection keep the speech-act mechanism anchored, but downstream prose should present it only as an analogy for performative, anticipatory naming.",
+            "focus_anchor": "Salām is pronounced over the subject precisely at birth, death, and raising, the moments when safety is least self-evident.",
+            "activation_trace": [
+              {
+                "source_ref": "19:15",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B009",
+                "role": "Optimistically naming an endangered person safe supplies a proleptic speech-act model for the benediction."
+              },
+              {
+                "source_ref": "19:7",
+                "root": "س م و",
+                "source_word_indices": [
+                  "5",
+                  "12"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "Naming as public designation supplies the context mechanism by which an utterance can stabilize identity."
+              },
+              {
+                "source_ref": "19:13",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Warding harm keeps the optimistic designation tied to actual protection rather than euphemism alone."
+              }
+            ],
+            "changed_reading": {
+              "before": "Salām reports a safety already secured at each threshold.",
+              "after": "Exploratorily, salām also names the exposed subject safe in advance, making the blessing performative precisely where danger remains visible."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Salām became integrity through actual loss and restoration, not exemption from mortality.",
+            "Barrenness, gift, and prior creation made birth and resurrection mirror one another as impossible beginnings.",
+            "Tenderness, protection, filial good, and negated coercion made peace both a bestowed shield and Yahya's lived social form."
+          ],
+          "what_was_special": "The packet's local three-night sign expanded into the focus's three-day life pattern, while naming and inheritance activated two contained readings: living as a return of Yahya's named identity and salām as protected transfer or anticipatory naming.",
+          "remaining_uncertainties": [
+            "The three-night/three-day relation may be deliberate sign structure or only numerical resonance.",
+            "The transfer and optimistic-name readings depend on distant salām branches and should remain exploratory.",
+            "The Yahya/hayyan resonance is visible in the supplied wording but is not morphological proof about the proper name."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -4903,18 +5826,23 @@
   "root_lexicon": {
     "root_000737": {
       "root_ar": "س ل م",
+      "qac_roots_ar": [
+        "س ل م"
+      ],
       "root_id": "root_000737",
-      "root_mapping": {
-        "root_id": "root_000737",
-        "root_norm": "س ل م",
-        "source_root_norm": "س ل م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b537bfcd71cca129598e4dadd4d04bf63b4ef740f7c674a97e4f882dde3f0f6c",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8388,18 +9316,23 @@
     },
     "root_001700": {
       "root_ar": "ي و م",
+      "qac_roots_ar": [
+        "ي و م"
+      ],
       "root_id": "root_001700",
-      "root_mapping": {
-        "root_id": "root_001700",
-        "root_norm": "ي و م",
-        "source_root_norm": "ي و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 414,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 414
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e76145ff9db215c969fb749d8f4011fa704b398c30ebc90862161f0e4604a786",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9718,18 +10651,23 @@
     },
     "root_001683": {
       "root_ar": "و ل د",
+      "qac_roots_ar": [
+        "و ل د"
+      ],
       "root_id": "root_001683",
-      "root_mapping": {
-        "root_id": "root_001683",
-        "root_norm": "و ل د",
-        "source_root_norm": "و ل د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 65,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ل د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 65
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4aff6ecc9db12ceb3189ef2fd4e5a772aa75ba642d9e079fe43c3e76c2ae7211",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11366,18 +12304,23 @@
     },
     "root_001454": {
       "root_ar": "م و ت",
+      "qac_roots_ar": [
+        "م و ت"
+      ],
       "root_id": "root_001454",
-      "root_mapping": {
-        "root_id": "root_001454",
-        "root_norm": "م و ت",
-        "source_root_norm": "م و ت",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 143,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م و ت",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 143
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e3cef2add2cdf084c14331d5385bb1d9a9c4a4b728c2acfbf0ca19e115e7f88f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15216,18 +16159,23 @@
     },
     "root_000129": {
       "root_ar": "ب ع ث",
+      "qac_roots_ar": [
+        "ب ع ث"
+      ],
       "root_id": "root_000129",
-      "root_mapping": {
-        "root_id": "root_000129",
-        "root_norm": "ب ع ث",
-        "source_root_norm": "ب ع ث",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 67,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ع ث",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 67
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ee9fd19de9e0fd77f13bfce2d863938447ecc8937bd21f2ed19fe1a67c16b0c5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -16611,18 +17559,23 @@
     },
     "root_000383": {
       "root_ar": "ح ي ي",
+      "qac_roots_ar": [
+        "ح ي ي"
+      ],
       "root_id": "root_000383",
-      "root_mapping": {
-        "root_id": "root_000383",
-        "root_norm": "ح ي ي",
-        "source_root_norm": "ح ي ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 93,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ي ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 93
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "81898c61a16d4cc9cb2abb4bc78f7f9dbc870e5151fe6cc1631f19ab4204f499",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -20419,72 +21372,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
       "words_total": 12,
-      "words_resolved": 1,
-      "words_unresolved": 11,
+      "words_resolved": 11,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 10,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 1,
           "surface_ar": "سَلَامٌ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 2,
-          "surface_ar": "عَلَيْهِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "يَوْمَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "وُلِدَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "يَوْمَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "يَمُوتُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 9,
-          "surface_ar": "يَوْمَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 10,
-          "surface_ar": "يُبْعَثُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 11,
-          "surface_ar": "حَيًّا",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -20909,11 +21819,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_15.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_15.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 130447,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -20989,19 +21912,37 @@
           "root_ids": [
             "root_000737"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000737",
+            "targets": [
+              {
+                "qac_root_norm": "س ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000737",
+                "furuq_root_norm": "س ل م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000737",
-              "root_norm": "س ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ل م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21026,19 +21967,37 @@
           "root_ids": [
             "root_001700"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001700",
+            "targets": [
+              {
+                "qac_root_norm": "ي و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001700",
+                "furuq_root_norm": "ي و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 414,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001700",
-              "root_norm": "ي و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 414,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21063,19 +22022,37 @@
           "root_ids": [
             "root_001683"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ل د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001683",
+            "targets": [
+              {
+                "qac_root_norm": "و ل د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001683",
+                "furuq_root_norm": "و ل د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 65,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001683",
-              "root_norm": "و ل د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ل د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 65,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21100,19 +22077,37 @@
           "root_ids": [
             "root_001454"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م و ت",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001454",
+            "targets": [
+              {
+                "qac_root_norm": "م و ت",
+                "target_rank": 1,
+                "furuq_root_id": "root_001454",
+                "furuq_root_norm": "م و ت",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 143,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001454",
-              "root_norm": "م و ت",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م و ت",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 143,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21137,19 +22132,37 @@
           "root_ids": [
             "root_000129"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ع ث",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000129",
+            "targets": [
+              {
+                "qac_root_norm": "ب ع ث",
+                "target_rank": 1,
+                "furuq_root_id": "root_000129",
+                "furuq_root_norm": "ب ع ث",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 67,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000129",
-              "root_norm": "ب ع ث",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ع ث",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 67,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21174,19 +22187,37 @@
           "root_ids": [
             "root_000383"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ي ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000383",
+            "targets": [
+              {
+                "qac_root_norm": "ح ي ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000383",
+                "furuq_root_norm": "ح ي ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 93,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000383",
-              "root_norm": "ح ي ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ي ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 93,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -21213,10 +22244,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 56,
+        "dictionary_branches_kept": 56,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 49,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.089113+00:00",
+  "generated_at": "2026-08-04T22:29:45.021904+00:00",
   "surah": 51,
   "ayah": 2,
   "ayahRef": "51:2",
@@ -1328,7 +1328,8 @@
       "morpheme_ids": [
         "m-w-s051-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:2:1"
+      "aligned_qac_word_ref_upstream": "51:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1344,7 +1345,8 @@
         "m-w-s051-a002-w001-02",
         "m-w-s051-a002-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:2:2"
+      "aligned_qac_word_ref_upstream": "51:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1358,7 +1360,8 @@
       "morpheme_ids": [
         "m-w-s051-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:2:3"
+      "aligned_qac_word_ref_upstream": "51:2:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1805,7 +1808,1102 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_2.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:2",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_load_transport",
+            "confidence": "strong",
+            "focus_anchor": "The feminine plural active participle at word 1 governs the explicit load at word 2.",
+            "mechanism": "A carrier is identified by taking up an externally borne mass; bearer and burden form one transport unit.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Outward lifting and conveyance supply the bearer function in a load-transport mechanism."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "A heavy burden supplies the mass that defines and tests the carrier."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified group carrying something heavy.",
+              "after": "A class of agents or processes defined by load-bearing transport, with the burden rather than the carriers' identity foregrounded."
+            }
+          },
+          {
+            "model_id": "baseline_hidden_gestation",
+            "confidence": "medium",
+            "focus_anchor": "Word 1 can bear an inward pregnancy or fruiting image, while word 2 makes that hidden content weighty.",
+            "mechanism": "The carrier encloses a developing content until accumulated growth becomes palpable heaviness.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B002",
+                "role": "Pregnancy and fruiting supply an inward, developing load rather than external freight."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "The heavy load makes concealed maturation materially consequential."
+              }
+            ],
+            "changed_reading": {
+              "before": "The carriers move an already complete object.",
+              "after": "The carriers are womb-like or fruit-bearing sites in which a future outcome is still accumulating."
+            }
+          },
+          {
+            "model_id": "baseline_entrusted_liability",
+            "confidence": "strong",
+            "focus_anchor": "The carrier root at word 1 includes entrusted messages, obligations, and burdens, and the load root at word 2 includes debt-like weight.",
+            "mechanism": "What is carried is normatively attached to the bearer: possession creates responsibility to preserve, deliver, or discharge it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Entrusted message, duty, and liability turn carrying into accountable custody."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "Heavy and debt-like burden supplies the obligation that remains attached until discharged."
+              }
+            ],
+            "changed_reading": {
+              "before": "The load is inert cargo.",
+              "after": "The load is an entrusted liability whose bearer can succeed or fail in carrying it to its due end."
+            }
+          },
+          {
+            "model_id": "baseline_laden_cloud",
+            "confidence": "medium",
+            "focus_anchor": "The carrier inventory at word 1 explicitly permits a cloud laden with water, reinforced by the heavy load at word 2.",
+            "mechanism": "Suspended water turns an apparently light atmospheric body into a reservoir whose significance lies in what it can release.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B010",
+                "role": "A water-bearing cloud supplies a concrete atmospheric carrier and a withheld future release."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "The heavy burden gives the cloud density, stored capacity, and impending consequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The carrier is an unidentified bearer of generic freight.",
+              "after": "The carrier can be a suspended water-reservoir, already heavy with an event that has not yet fallen."
+            }
+          },
+          {
+            "model_id": "baseline_weight_into_gravitas",
+            "confidence": "exploratory",
+            "focus_anchor": "The two focus roots permit hardship in bearing and, separately, weight as composure and dignity.",
+            "mechanism": "Enduring a load can feed back upon the bearer: weight is not only cargo but the process by which agitation settles into steadiness.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B007",
+                "role": "Self-exertion under difficulty supplies the formative pressure borne by the carrier."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B003",
+                "role": "Composure and dignity supply the settled state that weight may produce in the bearer."
+              }
+            ],
+            "changed_reading": {
+              "before": "Weight merely impedes movement.",
+              "after": "Bearing weight may form gravity of character: the carriers are made steady by what they sustain."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_circulation_pipeline",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ر و",
+              "ج ر ي",
+              "ي س ر",
+              "ق س م"
+            ],
+            "mechanism": "The opening sequence becomes a material pipeline: dispersal releases units, the focus carriers concentrate them into a load, easy flow moves that load, and division unloads it into shares.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "External conveyance makes the focus clause the load-bearing middle stage."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "Accumulated heaviness marks the temporary concentration between release and redistribution."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven winnowing and scattering supply the upstream release of mobile units."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous flowing supplies the transport phase that follows loading."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light, compliant motion explains how a heavy load can nevertheless pass smoothly through the system."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separation into allotted portions supplies the downstream unloading and destination of the carried mass."
+              }
+            ],
+            "structural_cues": [
+              "The focus is the second member of four parallel feminine plural clauses, with successive fa-links after the initial oath.",
+              "The sequence alternates a manner noun after each agent, encouraging a process reading rather than four isolated labels."
+            ],
+            "reader_inference": "The packet supplies scattering, heavy carrying, flowing ease, and apportionment; I infer the directional chain release -> concentration -> conveyance -> distribution. A live alternative is a serial oath over independent agents rather than stages of one circulation system.",
+            "changed_reading": {
+              "before": "The focus names carriers observed at one static moment.",
+              "after": "The focus names a bottleneck or middle phase that gathers dispersed material into transportable weight before it is moved and apportioned."
+            }
+          },
+          {
+            "model_id": "delta_obligation_comes_due",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ع د",
+              "ص د ق",
+              "د ي ن",
+              "و ق ع"
+            ],
+            "mechanism": "The entrusted load acquires a due date and terminal event: promise fixes expectation, truth fulfills it, debt or reckoning makes it payable, and falling fixes it in actuality.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Entrusted duty supplies an obligation borne through time rather than inert cargo."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "Debt-like heaviness supplies the liability that presses toward settlement."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment that bounds a promise by time or place supplies the obligation's horizon."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment of promise in action supplies actual discharge rather than verbal assurance alone."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt supplies a precise liability model for the focus burden."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed supply the terminal move from carried futurity into settled occurrence."
+              }
+            ],
+            "structural_cues": [
+              "The two assertions immediately after the four opening clauses explain what those clauses are sworn toward.",
+              "The emphatic syntax of 51:5-6 makes fulfillment and occurrence outcomes, not optional associations."
+            ],
+            "reader_inference": "The packet supplies appointed promise, fulfillment, debt, and fixed occurrence; I infer that the focus load is an obligation in transit toward maturity and settlement. Alternatively, debt is only one branch of reckoning and the burden may remain material while the assertions state its consequence.",
+            "changed_reading": {
+              "before": "The carriers bear a generic entrusted burden.",
+              "after": "They bear a promissory liability already moving toward the point at which it becomes due, true in act, and fixed as an event."
+            }
+          },
+          {
+            "model_id": "delta_woven_load_network",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س م و",
+              "ح ب ك"
+            ],
+            "mechanism": "A tightly bound sky suggests distributed load-bearing: the carriers can be strands, paths, or members whose interconnection allows a heavy burden to be held across a larger fabric.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Load-bearing supplies the structural function assigned to the focus carriers."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "The heavy load supplies the force that a linked structure must distribute."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The overarching sky supplies the scale and domain of the proposed load-bearing fabric."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B003",
+                "role": "Tight binding supplies the linkage by which separate carriers can share and stabilize weight."
+              }
+            ],
+            "structural_cues": [
+              "The sky oath follows the assertion that the reckoning will fall, so suspension and eventual descent remain in tension.",
+              "The plural focus form can denote multiple linked members as readily as multiple independent bearers."
+            ],
+            "reader_inference": "The packet supplies an overarching sky and tight binding; I add the structural-engineering arrow that binding distributes load across members. A live alternative is that the weave describes mobile routes or visual patterning, leaving the focus carriers as clouds within it.",
+            "changed_reading": {
+              "before": "Each carrier independently moves its own burden.",
+              "after": "The carriers can be a linked load-bearing network whose woven relation, not merely individual strength, keeps weight suspended."
+            }
+          },
+          {
+            "model_id": "delta_semantic_load_and_occluded_hearing",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "خ ل ف",
+              "ء ف ك",
+              "غ م ر",
+              "س ه و"
+            ],
+            "mechanism": "The focus load becomes communicative content: carriers bear a weighty indication, while divergent speech, reversal, enveloping error, and heedlessness convert that same weight into blocked reception.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Message-bearing supplies a semantic rather than merely material cargo."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B001",
+                "role": "Heaviness that blocks hearing supplies the receiving-side failure produced by or opposed to the carried message."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B014",
+                "role": "A thing's own signification supplies content that can be carried as evidence, not only spoken as a sentence."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Taking mutually different paths supplies the fragmentation of reception into incompatible readings."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Turning something away from its direction supplies the mechanism that diverts a carried indication from its intended uptake."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "An enveloping veil of error and ignorance supplies the medium in which the indication becomes unreadable."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness supplies the receiver's failure to attend to what is being borne toward them."
+              }
+            ],
+            "structural_cues": [
+              "The discourse shifts from patterned sky to disputed saying, then uses a repeated passive reversal construction before naming the guessers.",
+              "At 51:10 the branchless خ ر ص occurrence functions only as a structural contrast between carried indication and unsupported estimation; no branch identity is assigned to it."
+            ],
+            "reader_inference": "The packet supplies indication, divergent paths, reversal, enveloping error, and heedlessness; I infer that the focus burden can be semantic content and that hearing-weight names failed uptake. Alternatively, the disputed-speech unit may be a separate response to the opening oaths, and the focus load may remain physical.",
+            "changed_reading": {
+              "before": "The burden is a physical mass successfully transported.",
+              "after": "The burden can be a weighty indication carried into a field of reception where it is diverted, covered, and effectively rendered unheard."
+            }
+          },
+          {
+            "model_id": "delta_productive_latency",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ن ن",
+              "ع ي ن",
+              "ء ت ي",
+              "ر ب ب"
+            ],
+            "mechanism": "Hidden gestation broadens into an ecological cycle: concealed life or water is nurtured under weight, reaches completion, and emerges as growth or a flowing source.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B002",
+                "role": "Pregnancy and fruiting supply the focus carrier as a site of concealed maturation."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B010",
+                "role": "A cloud heavy with water extends inward bearing into atmospheric storage."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "Accumulated weight marks the ripeness or capacity reached before release."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden concealed by its own growth supplies a productive form of hiddenness."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B007",
+                "role": "A fetus hidden in the womb directly echoes the focus model of inward carrying."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing water source supplies emergence from concealed storage into sustaining circulation."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B007",
+                "role": "The coming forth of growth or produce supplies the realized output of the carried latency."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repairing, and bringing to completion supply the process that turns hidden load into mature yield."
+              }
+            ],
+            "structural_cues": [
+              "The context moves from enclosed gardens to flowing springs and then to receiving what has been given.",
+              "The focus feminine plural remains referentially open enough to hold biological, vegetal, and atmospheric bearers together as parallel processes."
+            ],
+            "reader_inference": "The packet supplies concealed garden, hidden fetus, spring, emerging produce, and nurture to completion; I infer a shared concealment -> maturation -> release cycle. Alternatively, these are separate reward images and need not identify the earlier carriers.",
+            "changed_reading": {
+              "before": "The hidden load is simply an unborn or unripe content.",
+              "after": "The heavy carriers are reservoirs of productive latency, holding water, life, or fruit until concealment ripens into release and nourishment."
+            }
+          },
+          {
+            "model_id": "delta_fiduciary_distribution",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ل",
+              "ح ق ق",
+              "س ء ل",
+              "ح ر م"
+            ],
+            "mechanism": "The burden becomes encumbered property: what a carrier holds includes a fixed claim belonging to someone else, so carrying wealth entails custody and eventual transfer.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B004",
+                "role": "Guarantee and surety supply the carrier's responsibility for a right that accompanies its owner."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "Debt-like weight supplies the encumbrance attached to possessed resources."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the concrete store within which another's claim is carried."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B003",
+                "role": "A specific right owned by its claimant supplies the portion that possession cannot erase."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Request and demand supply one route by which the latent claim becomes audible to the custodian."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation and loss of the sought thing supply the unmet need whose share remains inside the carrier's wealth."
+              }
+            ],
+            "structural_cues": [
+              "The verse locates the right inside their wealth rather than describing a later optional gift.",
+              "The paired claimant who asks and claimant who is deprived prevents audibility from being the sole basis of entitlement."
+            ],
+            "reader_inference": "The packet supplies accumulated wealth, a claimant-owned right, request, and deprivation; I infer that possession is fiduciary custody and the focus burden is an embedded social claim. Alternatively, 51:19 may describe a local ethical practice without identifying the opening carriers.",
+            "changed_reading": {
+              "before": "The carrier owns or controls the load it bears.",
+              "after": "The carrier is a custodian of an encumbered load whose weight includes shares already belonging to visible and invisible claimants."
+            }
+          },
+          {
+            "model_id": "delta_rain_as_materialized_promise",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م و",
+              "ر ز ق",
+              "و ع د",
+              "ح ق ق",
+              "ن ط ق"
+            ],
+            "mechanism": "The laden cloud becomes a carrier of provision and evidence at once: stored rain is allotted sustenance, an advance sign of what is promised, and a material utterance whose arrival verifies its content.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B010",
+                "role": "A cloud carrying abundant water supplies the concrete bearer of withheld provision."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "Heavy stored water supplies both present cargo and pressure toward future release."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The overarching sky supplies the stated location of provision and promise."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "Rain descending as provision identifies the cloud's water-load as sustenance rather than neutral mass."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B006",
+                "role": "A sign that promises a coming state makes the laden carrier an advance indication of release."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Stable correspondence with reality supplies the criterion by which delivered provision verifies the promise."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "A sign that speaks through its indication lets the carried material function as evidence without literal speech."
+              }
+            ],
+            "structural_cues": [
+              "In 51:22 provision and what is promised share one sky-location, and 51:23 immediately affirms their truth by comparison with the audience's own speaking.",
+              "This late pairing reconnects the atmospheric baseline with the earlier promise-and-occurrence assertions."
+            ],
+            "reader_inference": "The packet supplies sky, rain-provision, a promising sign, reality-correspondence, and speaking indication; I infer that the water-load both fulfills need and testifies to a larger promised order. Alternatively, provision and promise may be coordinated but distinct contents of the sky.",
+            "changed_reading": {
+              "before": "The laden cloud carries water as physical cargo.",
+              "after": "It carries apportioned provision as a materialized promise: its weight is simultaneously sustenance, imminence, and evidence."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_counted_inventory",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the packet's non-dominant split mapping from و ع د into a counting and preparation inventory. It remains anchored by the focus load and the nearby division and later provision cues, but downstream prose should present it as a licensed latent echo, not as a replacement lexical analysis of the promise verb.",
+            "focus_anchor": "A heavy load is naturally enumerable and preparable before transport, allowing the focus carriers to hold an already measured allotment.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "External carriage supplies the freight inventory that must be readied and moved."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "A heavy load supplies the bounded stock being counted."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separation into portions supplies the operation for which the carried stock is measured."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The split inventory's counting image recasts promised content as an already enumerated quantity."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B002",
+                "role": "The split inventory's preparation image supplies cargo made ready before its due dispatch."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "An apportioned gift supplies the later destination of the counted load."
+              }
+            ],
+            "changed_reading": {
+              "before": "The promised cargo is an unspecified future quantity.",
+              "after": "The carriers bear an allotment already counted and prepared, awaiting distribution rather than determination."
+            }
+          },
+          {
+            "outlier_id": "outlier_assay_freight",
+            "confidence": "exploratory",
+            "containment": "The freight-to-furnace model is surprising because it maps persons and events onto material assay. It remains valid as an analogy because the context branch explicitly joins testing metal and testing humans, while the focus supplies heavy carriage; downstream prose should mark it as a material mechanism, not identify the load literally as ore.",
+            "focus_anchor": "The focus joins a carrier with a heavy mass, enough to support a transported material awaiting transformation or exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Physical conveyance supplies movement of material toward an assay site."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "Heavy freight supplies the untested mass whose hidden quality matters."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying metal and testing a person supply the cross-domain transformation from cargo to revealed quality."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the material condition under which the assay exposes what the load contains."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiencing and undergoing a thing supply the passage from transported potential to personally verified result."
+              }
+            ],
+            "changed_reading": {
+              "before": "The load's importance lies in arrival at a destination.",
+              "after": "The load is borne toward an assay in which heat and experience disclose its previously hidden quality."
+            }
+          },
+          {
+            "outlier_id": "outlier_nocturnal_self_loading",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it lets the non-default rising-under-a-load image inside the root of 'little' reshape the night sequence. It remains anchored by the focus hardship and dignity branches plus explicit night practice and protective covering, but downstream prose should call it an ethical echo rather than a direct identification of the opening carriers.",
+            "focus_anchor": "The focus roots allow difficult self-exertion under weight to mature into composure.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B007",
+                "role": "Self-imposed exertion under hardship supplies the discipline of bearing rather than passive possession."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B003",
+                "role": "Composure and dignity supply the formed state produced by sustained bearing."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "Rising independently under a load supplies a latent posture of standing up beneath obligation."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B002",
+                "role": "Undertaking an affair at night supplies the temporal setting for voluntary burden-bearing."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "A covering that protects supplies the sought counterforce to exposure under the borne weight."
+              }
+            ],
+            "changed_reading": {
+              "before": "The carriers are external agents moving someone else's freight.",
+              "after": "They can echo persons who voluntarily load themselves with nocturnal obligation until bearing becomes gravity and a search for protective covering."
+            }
+          },
+          {
+            "outlier_id": "outlier_pressure_inscription",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it reverses attention from transported cargo to the mark weight leaves on its bearer. It remains anchored by the focus inventory's indentation branch and the context's visible signs, earth, self, and insight; downstream prose should qualify the pressure-to-sign arrow as the reader's material inference.",
+            "focus_anchor": "The focus burden can be read through the carrier's altered surface because the load root also names a notch, hollow, or indentation.",
+            "activation_trace": [
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Bearing a mass supplies sustained contact between load and bearer."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B005",
+                "role": "A notch, hollow, or indentation supplies the durable trace left by pressure."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower ground supplies a receiving substrate on which effects can remain visible."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the readable status of the pressure trace."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B012",
+                "role": "The thing itself or its own self supplies an inward substrate that can bear evidence."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Inner discernment supplies the act of reading the mark as evidence rather than damage alone."
+              }
+            ],
+            "changed_reading": {
+              "before": "The carrier matters because it preserves the load unchanged.",
+              "after": "The carrier also becomes an archive: weight inscribes a sign in earth or self, and the trace can reveal what has been borne."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening sequence revises static burden-bearing into the concentration stage of a scatter, flow, and distribution pipeline.",
+            "Promise, fulfillment, debt, and occurrence turn the focus load into an obligation moving toward maturity and settlement.",
+            "Disputed speech and occluded attention permit a second register in which a carried indication becomes heaviness of hearing.",
+            "Hidden garden, fetus, spring, growth, and nurture expand inward carrying into productive latency that ripens into release.",
+            "The fixed right inside wealth makes carrying fiduciary: the load already contains shares belonging to others.",
+            "Sky, rain-provision, promise, truth, and speaking indication strengthen the cloud as a carrier of sustenance and evidence at once."
+          ],
+          "what_was_special": "The two-word focus clause stayed referentially open while its branch inventories supported material, gestational, legal, epistemic, ecological, social, and character-forming mechanisms. Context did not force one referent; it repeatedly changed what 'weight' does, including a packet-licensed split-root echo in which promised content becomes counted and prepared.",
+          "remaining_uncertainties": [
+            "The feminine plural carriers are never lexically identified inside the focus clause, so clouds, linked processes, persons, and other agents remain coexisting possibilities.",
+            "The pipeline direction is abducted from sequence and repeated syntax; the four opening clauses may instead name independent oath objects.",
+            "The hearing, woven-network, nocturnal, counted-inventory, assay, and pressure-inscription readings depend on branch-distance or cross-domain transfer and should remain explicitly exploratory.",
+            "The load root's heavy burden, blocked hearing, dignity, stillness, and indentation branches may interact, but the packet does not decide whether those interactions are deliberate simultaneities."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Transport under consequential weight.** `ح م ل/B001` gives outward bearing and `و ق ر/B002` a heavy borne load. Positioned after scattering and before easy flow and apportionment, bearing is the middle transport stage. Later `ذ ن ب/B007` in 51:59 introduces a full bucket and `ر ز ق/B001` an allotment, activating cargo as a measured share delivered toward consequence. The inferred arrow is **gathered load -> transport -> assigned destination**. The verse reads as purposeful carriage rather than mere heaviness.\n2. **Moral burden carried toward reckoning.** `ح م ل/B003` accepts responsibility or sin, while 51:6 uses `د ي ن/B002` for recompense and 51:59 uses `ذ ن ب/B001` for culpable consequence. I infer **borne responsibility -> eventual requital**. This ethical reading coexists with the concrete load because the fixed participle and *wiqr* remain its anchors.",
@@ -2879,18 +3977,23 @@
   "root_lexicon": {
     "root_000357": {
       "root_ar": "ح م ل",
+      "qac_roots_ar": [
+        "ح م ل"
+      ],
       "root_id": "root_000357",
-      "root_mapping": {
-        "root_id": "root_000357",
-        "root_norm": "ح م ل",
-        "source_root_norm": "ح م ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 63,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح م ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 63
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6ad52d8dfad172d45c09a6845aba6a4f5b6ead427f985ae2b0152b1b098c31ac",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6120,18 +7223,23 @@
     },
     "root_001674": {
       "root_ar": "و ق ر",
+      "qac_roots_ar": [
+        "و ق ر"
+      ],
       "root_id": "root_001674",
-      "root_mapping": {
-        "root_id": "root_001674",
-        "root_norm": "و ق ر",
-        "source_root_norm": "و ق ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 8,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ق ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 8
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "477dd23ac31a74a6599fc6a056fdfc840b14cc8e912922176fb820069da09a77",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7965,14 +9073,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8274,11 +9388,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 102541,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8351,19 +9478,37 @@
           "root_ids": [
             "root_000357"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح م ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000357",
+            "targets": [
+              {
+                "qac_root_norm": "ح م ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000357",
+                "furuq_root_norm": "ح م ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 63,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000357",
-              "root_norm": "ح م ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح م ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 63,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8388,19 +9533,37 @@
           "root_ids": [
             "root_001674"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ق ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001674",
+            "targets": [
+              {
+                "qac_root_norm": "و ق ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001674",
+                "furuq_root_norm": "و ق ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 8,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001674",
-              "root_norm": "و ق ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ق ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 8,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8427,10 +9590,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 17,
+        "dictionary_branches_kept": 17,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 17,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

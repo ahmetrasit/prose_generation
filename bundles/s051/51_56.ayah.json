@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.715583+00:00",
+  "generated_at": "2026-08-04T22:29:48.925834+00:00",
   "surah": 51,
   "ayah": 56,
   "ayahRef": "51:56",
@@ -2358,7 +2358,8 @@
       "morpheme_ids": [
         "m-w-s051-a056-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:56:1"
+      "aligned_qac_word_ref_upstream": "51:56:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2372,7 +2373,8 @@
       "morpheme_ids": [
         "m-w-s051-a056-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:56:2"
+      "aligned_qac_word_ref_upstream": "51:56:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2388,7 +2390,8 @@
         "m-w-s051-a056-w002-01",
         "m-w-s051-a056-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:56:3"
+      "aligned_qac_word_ref_upstream": "51:56:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2404,7 +2407,8 @@
         "m-w-s051-a056-w003-01",
         "m-w-s051-a056-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:56:4"
+      "aligned_qac_word_ref_upstream": "51:56:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2418,7 +2422,8 @@
       "morpheme_ids": [
         "m-w-s051-a056-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:56:5"
+      "aligned_qac_word_ref_upstream": "51:56:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2434,7 +2439,8 @@
         "m-w-s051-a056-w004-02",
         "m-w-s051-a056-w004-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:56:6"
+      "aligned_qac_word_ref_upstream": "51:56:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2448,7 +2454,8 @@
       "morpheme_ids": [
         "m-w-s051-a056-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:56:7"
+      "aligned_qac_word_ref_upstream": "51:56:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2462,7 +2469,8 @@
       "morpheme_ids": [
         "m-w-s051-a056-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:56:8"
+      "aligned_qac_word_ref_upstream": "51:56:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2480,7 +2488,8 @@
         "m-w-s051-a056-w006-03",
         "m-w-s051-a056-w006-04"
       ],
-      "aligned_qac_word_ref_upstream": "51:56:9"
+      "aligned_qac_word_ref_upstream": "51:56:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3242,7 +3251,1129 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_56.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:56",
+      "window": [
+        "51:38",
+        "51:39",
+        "51:40",
+        "51:41",
+        "51:42",
+        "51:43",
+        "51:44",
+        "51:45",
+        "51:46",
+        "51:47",
+        "51:48",
+        "51:49",
+        "51:50",
+        "51:51",
+        "51:52",
+        "51:53",
+        "51:54",
+        "51:55",
+        "51:56",
+        "51:57",
+        "51:58",
+        "51:59",
+        "51:60"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:56",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01_created_for_obedience",
+            "confidence": "strong",
+            "focus_anchor": "The purpose construction links خَلَقْتُ at word 2 through الجن والإنس at words 3-4 to لِيَعْبُدُونِ at word 6.",
+            "mechanism": "Creative bringing-into-being establishes two creature classes and closes their stated telos around worshipful obedience.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing creation into existence supplies the event whose end is stated."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B005",
+                "role": "Hidden jinn supply one complete class placed under the purpose clause."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Manifest humanity supplies the coordinated class sharing the same end."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worshipful obedience with humility supplies the exclusive purpose."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse merely reports that jinn and humans were created.",
+              "after": "Their existence is explicitly purposive, with both classes gathered under worshipful obedience."
+            }
+          },
+          {
+            "model_id": "b02_hidden_manifest_convergence",
+            "confidence": "medium",
+            "focus_anchor": "The coordinated الجن and الإنس place roots of concealment and manifest human presence side by side.",
+            "mechanism": "Opposite modes of creaturely presence, concealed and humanly apparent or sociable, converge on one relation to the Creator.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment supplies the hidden pole of the coordinated pair."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B001",
+                "role": "Visible humanity supplies the manifest pole opposed to hiddenness."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Sociability thickens the human pole into relational presence."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Shared worship makes the two modes converge functionally."
+              }
+            ],
+            "changed_reading": {
+              "before": "Jinn and humans are only adjacent taxonomic labels.",
+              "after": "They also form a hidden-manifest polarity subordinated to one creaturely vocation."
+            }
+          },
+          {
+            "model_id": "b03_total_allegiance",
+            "confidence": "medium",
+            "focus_anchor": "The first-person Creator and the root ع ب د establish a creator-servant relation, not merely a named ritual.",
+            "mechanism": "Ownership and subjection branches thicken worship into total allegiance, while the direct worship branch keeps that allegiance devotional.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "The originating act grounds the asymmetry of the relation."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Servitude under ownership supplies the relation's comprehensive claim."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B004",
+                "role": "Subjection into service supplies allegiance beyond isolated acts."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worshipful obedience fixes the relation's devotional center."
+              }
+            ],
+            "changed_reading": {
+              "before": "Worship consists chiefly of episodic devotional acts.",
+              "after": "Worship names a total creator-creature allegiance expressed through obedient devotion."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_rival_authority",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ل ط",
+              "و ل ي",
+              "ر ك ن",
+              "ع ت و",
+              "ء م ر",
+              "ر ب ب"
+            ],
+            "mechanism": "A messenger bears authority, Pharaoh turns away through his supporting power, and a people rebel against their Lord's command; worship therefore functions as contested allegiance.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Obedient worship supplies the focus relation placed in political contrast."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "س ل ط",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000732",
+                "branch_id": "B003",
+                "role": "Authority and jurisdiction supply the public field of confrontation."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies Pharaoh's enacted refusal."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "ر ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000596",
+                "branch_id": "B001",
+                "role": "A strong supporting side supplies the rival power base on which refusal leans."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ع ت و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000981",
+                "branch_id": "B001",
+                "role": "Rebellion from obedience supplies the negative mirror of worship."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Binding command supplies the demand rejected by rebellion."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and sovereignty identify the rightful pole of allegiance."
+              }
+            ],
+            "structural_cues": [
+              "51:38-39 moves from sent authority to a ruler's turning through his own support.",
+              "51:44 names rebellion specifically against the command of their Lord."
+            ],
+            "reader_inference": "The packet supplies authority, rival support, turning, command, and lordship; I infer an allegiance contest illuminating ع ب د. A narrower alternative is generic disobedience.",
+            "changed_reading": {
+              "before": "Worship is primarily private ritual observance.",
+              "after": "Worship is comprehensive allegiance to rightful lordship that displaces rival authorities."
+            }
+          },
+          {
+            "model_id": "d02_concealment_to_occlusion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ي ن",
+              "س ح ر",
+              "ج ن ن",
+              "ق و ل"
+            ],
+            "mechanism": "The root naming jinn appears twice as مجنون in accusations against messengers, while clarity and deceptive diversion flank it; hiddenness is echoed as a humanly imposed covering of understanding.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment supplies the shared image from which the contextual shift begins."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B002",
+                "role": "Human perception supplies the faculty whose response to disclosure is at issue."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "Manifest disclosure supplies the clarity that accusation obscures."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B002",
+                "role": "Diversion and deception supply one dismissive relabeling of the sign."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "Covering of reason converts concealment into cognitive occlusion."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "Attributing what is not so supplies the repeated communal misdescription."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "The repeated madness accusation confirms patterned cognitive covering."
+              }
+            ],
+            "structural_cues": [
+              "The paired accusation ساحر أو مجنون occurs at 51:39 and 51:52.",
+              "The second occurrence generalizes the response across messengers."
+            ],
+            "reader_inference": "The packet supplies a root fork between hidden beings and covered reason, plus disclosure and diversion; I infer an epistemic mirror in which manifest humans hide a clear summons from themselves. Simple polysemy remains live.",
+            "changed_reading": {
+              "before": "الجن only identifies an unseen species.",
+              "after": "Its concealment root also mirrors the visible hearers' cognitive hiding when they call disclosure madness."
+            }
+          },
+          {
+            "model_id": "d03_obedience_sustains_standing",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ق م",
+              "ر م م",
+              "ع ت و",
+              "ط و ع",
+              "ق و م"
+            ],
+            "mechanism": "A barren wind reduces things to decay, then rebellion ends in inability and failed standing; the ط و ع branches join obedience and ability, making refusal look like a reversal of creaturely viability.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Created existence supplies the positive condition reversed by destruction."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Obedient worship supplies the alignment contrasted with incapacity."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B002",
+                "role": "A barren wind supplies an anti-fruitful force."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "Decay supplies the material endpoint opposed to formed creation."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ع ت و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000981",
+                "branch_id": "B001",
+                "role": "Rebellion supplies the volitional break preceding incapacity."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B001",
+                "role": "Obedient yielding supplies the latent counterpart inside inability."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B003",
+                "role": "Capacity supplies the power lost after refusal."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily standing supplies the concrete image of lost viability."
+              }
+            ],
+            "structural_cues": [
+              "51:41-42 moves from barrenness to decayed matter.",
+              "51:44-45 moves from rebellion against command to inability and failed standing."
+            ],
+            "reader_inference": "The packet supplies barrenness, decay, rebellion, ability-obedience polysemy, and failed standing; I infer an arrow from refused alignment to de-creation imagery. Judicial destruction without an ontological claim remains possible.",
+            "changed_reading": {
+              "before": "Worship is an external test added after creation.",
+              "after": "Worship can be read as alignment with viable creaturely standing, while rebellion is imaged as capacity collapsing toward remains."
+            }
+          },
+          {
+            "model_id": "d04_fitted_world_response",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ن ي",
+              "و س ع",
+              "ف ر ش",
+              "م ه د",
+              "خ ل ق",
+              "ز و ج",
+              "ذ ك ر"
+            ],
+            "mechanism": "Heaven is assembled and widened, earth spread and prepared, and measured creation paired toward recollection; worship becomes the fitting response of situated creatures within an ordered world.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured formation supplies the focus side of a designed-world mechanism."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worshipful obedience supplies the response to that ordering."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ب ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000156",
+                "branch_id": "B001",
+                "role": "Joining parts into a construction supplies upper-world architecture."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "و س ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001647",
+                "branch_id": "B001",
+                "role": "Expansiveness supplies amplitude rather than a cramped order."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and furnishing supplies a habitable lower field."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B003",
+                "role": "Preparing and leveling supplies deliberate suitability."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured creation repeats the focus root and links world order to purpose."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B001",
+                "role": "Counterpart joined to counterpart supplies relational ordering."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder supplies the cognitive response prepared by paired creation."
+              }
+            ],
+            "structural_cues": [
+              "51:47-49 forms a heaven-earth-all-things construction sequence.",
+              "The focus repeats خ ل ق and turns that sequence toward the purpose of two creature classes."
+            ],
+            "reader_inference": "The packet supplies construction, expansion, furnishing, preparation, pairing, and reminder; I infer worship as the fitted response enabled by this habitat. The alternative is a looser signs-to-reflection sequence.",
+            "changed_reading": {
+              "before": "The focus gives an isolated demand detached from material and cosmic life.",
+              "after": "Worship is a situated response within a measured, spacious, furnished, relational world."
+            }
+          },
+          {
+            "model_id": "d05_exclusive_return_and_transmission",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ر ر",
+              "ء ل ه",
+              "ء خ ر",
+              "و ص ي",
+              "ط غ ي",
+              "ذ ك ر",
+              "ن ف ع",
+              "ء م ن"
+            ],
+            "mechanism": "Flight has one destination, rival deity-making is prohibited, inherited refusal is exposed, and beneficial reminder renews assent; worship becomes exclusive return sustained against social counter-scripts.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "ء ن س",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000059",
+                "branch_id": "B003",
+                "role": "Sociability supplies the human medium through which orientations circulate."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship supplies the orientation being renewed and contested."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Urgent flight supplies active movement toward one destination."
+              },
+              {
+                "source_ref": "51:51",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The deity relation supplies the rightful object and prohibited rival slot."
+              },
+              {
+                "source_ref": "51:51",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Otherness supplies the excluded alternate destination."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Mutual counsel supplies the proposed channel of inherited refusal."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B001",
+                "role": "Crossing the limit supplies the social counter-orientation."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder supplies the rival beneficial transmission."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Benefit supplies the effect of receptive reminder."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settling assent supplies the receptive endpoint."
+              }
+            ],
+            "structural_cues": [
+              "51:50-51 pairs movement to Allah with refusal of another deity.",
+              "51:52-55 contrasts a repeated communal accusation with beneficial reminder."
+            ],
+            "reader_inference": "The packet supplies directed flight, exclusive deity language, mutual counsel, transgression, reminder, benefit, and assent; I infer competing social channels of orientation. Repentance and reminder may remain distinct acts within broader worship.",
+            "changed_reading": {
+              "before": "Worship is undirected religiosity performed by isolated agents.",
+              "after": "Worship is repeated return toward one divine object while social speech either obstructs or renews that direction."
+            }
+          },
+          {
+            "model_id": "d06_nonextractive_service",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر و د",
+              "ر ز ق",
+              "ط ع م",
+              "ق و ي",
+              "م ت ن"
+            ],
+            "mechanism": "The sequel twice negates divine desire for creaturely provision or feeding and identifies God as the strong, firm provider; servant language is stripped of an extractive labor economy.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Owned servitude supplies the economic-looking baseline the sequel qualifies."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B004",
+                "role": "Subjection to labor supplies the extraction model context denies."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Devotional obedience preserves positive content after extraction is removed."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ر و د",
+                "source_word_indices": [
+                  "2",
+                  "7"
+                ],
+                "mapped_root_id": "root_000610",
+                "branch_id": "B001",
+                "role": "Twice-negated desire denies that divine purpose seeks creaturely goods."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Allocated provision supplies the first commodity God does not request."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the support service God does not need."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "The giver of provision reverses the flow from master to servant."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Concentrated strength supplies independence from creaturely support."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "م ت ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001396",
+                "branch_id": "B001",
+                "role": "Extended solidity supplies durable self-sufficiency."
+              }
+            ],
+            "structural_cues": [
+              "51:57 immediately follows the purpose statement with two parallel مَا أُرِيدُ negations.",
+              "51:58 reverses the economic direction by naming God provider, strong, and firm."
+            ],
+            "reader_inference": "The packet supplies denied provision and feeding plus divine provision and strength; I infer that worship orders or benefits creatures rather than filling a lack in the Creator. The exact creature-side benefit remains unstated.",
+            "changed_reading": {
+              "before": "Creaturely service might resemble labor supplying a needy master.",
+              "after": "Worship is non-extractive dependence on the One who supplies servants and needs neither provisions nor feeding."
+            }
+          },
+          {
+            "model_id": "d07_measured_accountability",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ن ب",
+              "م ث ل",
+              "ص ح ب",
+              "و ع د"
+            ],
+            "mechanism": "Wrongdoers receive a share like their companions at an appointed promise; the measuring branch of creation is echoed by proportionate allocation and timed accountability.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring supplies the focus-side design image echoed by consequence."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Obedient worship supplies the purpose against which accountability is assessed."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B006",
+                "role": "An apportioned share supplies distributive consequence."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B007",
+                "role": "A filled bucket supplies a measured-container image behind the share."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Equivalence supplies proportionality with their companions' lot."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies the comparison class."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "A promise fixed to time supplies the appointed horizon."
+              }
+            ],
+            "structural_cues": [
+              "51:59 follows denial of divine need with a measured share for wrongdoers.",
+              "51:60 closes the window on the promised day."
+            ],
+            "reader_inference": "The packet supplies share, container imagery, equivalence, companions, and appointed promise; I infer measured creation opening into measured accountability. The sin branch of ذ ن ب remains live and may dominate.",
+            "changed_reading": {
+              "before": "The creation purpose states vocation without a distributive horizon.",
+              "after": "The vocation sits within measured accountability: refusal receives a proportionate, appointed lot."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_prepared_path_service",
+            "confidence": "exploratory",
+            "containment": "The road-leveling branch is material and form-distant from the finite verb, but it remains anchored in ع ب د and is activated by prepared earth and flight. Render only as a spatial analogy, never as the lexical replacement of يعبدون.",
+            "focus_anchor": "The root ع ب د at word 6 includes making a road or vehicle tractable and serviceable.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "Leveling and making traversable supplies the material service analogy."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading the ground supplies the traversable field."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B003",
+                "role": "Preparing and leveling activates the material branch."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight toward God supplies motion across the prepared field."
+              }
+            ],
+            "changed_reading": {
+              "before": "Worship is only a set of cultic performances.",
+              "after": "Exploratorily, worship is also imaged as taking a creaturely way made serviceable toward God."
+            }
+          },
+          {
+            "outlier_id": "o02_dignifying_service",
+            "confidence": "exploratory",
+            "containment": "The honor branch is associated with a derived nominal and cannot reverse the grammar so that humans are worshipped. It remains worth carrying because it is rooted in ع ب د and the sequel removes divine need. Render only the possibility that serving may dignify the servant.",
+            "focus_anchor": "The root ع ب د at word 6 includes a branch in which the served figure is honored or magnified.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B006",
+                "role": "Honor within the root field supplies a possible dignity dimension."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Negated feeding removes service as satisfaction of divine lack."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Divine provision supplies the beneficent direction toward the servant."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Independent strength blocks an exploitative rationale."
+              }
+            ],
+            "changed_reading": {
+              "before": "Servitude can only signify humiliation for a master's benefit.",
+              "after": "Exploratorily, non-extractive service may also be the relation through which the dependent creature is dignified."
+            }
+          },
+          {
+            "outlier_id": "o03_scattered_directions_gathered",
+            "confidence": "exploratory",
+            "containment": "The scattered-directions branch belongs to a remote plural nominal. It remains anchored in ع ب د and is activated by flight to one destination plus exclusion of another deity. Render as a controlled directional metaphor, not the denotation of يعبدون.",
+            "focus_anchor": "The root ع ب د at word 6 contains a branch of groups or roads dispersing in multiple directions.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B010",
+                "role": "Dispersion across directions supplies the counter-image to unified worship."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies motion gathered toward one pole."
+              },
+              {
+                "source_ref": "51:51",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped object supplies the unifying destination."
+              },
+              {
+                "source_ref": "51:51",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The prohibited other supplies the rival direction."
+              }
+            ],
+            "changed_reading": {
+              "before": "Worship is one activity among many trajectories.",
+              "after": "Exploratorily, worship gathers scattered creaturely directions into flight toward one divine pole."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Authority and rebellion turn worship from private rite into contested allegiance.",
+            "The obedience-ability link and failed standing make rebellion read like lost creaturely viability.",
+            "The immediate denial of provision and feeding removes an extractive service model.",
+            "The built and furnished world makes worship a situated response to measured hospitality.",
+            "The repeated مجنون echo turns the jinn root into a mirror of human cognitive concealment."
+          ],
+          "what_was_special": "Exact root forks and reversals drove the trace: ج ن ن moves from hidden beings to covered reason, ط و ع joins obedience to capacity, and ع ب د servant imagery is immediately corrected by the Creator-provider's lack of need.",
+          "remaining_uncertainties": [
+            "The de-creation sequence may describe judicial consequence without saying worship causally sustains existence.",
+            "Measured creation may support purposive fitness without implying innate determinism.",
+            "The prepared-path, dignity, and gathered-directions outliers are form-distant and must remain qualified analogies."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Hidden and visible creatures share one purposive service.** `خ ل ق/B002` supplies bringing into being; `ج ن ن/B005` hidden spirit beings; `ء ن س/B001` visible human presence; `ع ب د/B003` worship/submissive obedience. The paired object classes echo 51:49's differentiated counterparts. I infer **distinct modes of creaturely presence -> common created purpose**. Pairing does not imply rival ends.\n2. **Creation proportions aptitude toward worship.** `خ ل ق/B001` supplies measuring/proportioning and B005 aptness, while `ع ب د/B003` supplies service. The purposive *li-* makes direction explicit; I infer **created proportion -> capacity/aptitude for worship**, not compulsion of every act. This teleological reading coexists with simple origination.",
@@ -4186,18 +5317,23 @@
   "root_lexicon": {
     "root_000434": {
       "root_ar": "خ ل ق",
+      "qac_roots_ar": [
+        "خ ل ق"
+      ],
       "root_id": "root_000434",
-      "root_mapping": {
-        "root_id": "root_000434",
-        "root_norm": "خ ل ق",
-        "source_root_norm": "خ ل ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 250,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ل ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 250
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "54ab2053cb6b55a96d87f5b4410d36c8efbb346396818f0835218322730f6af4",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7959,18 +9095,23 @@
     },
     "root_000266": {
       "root_ar": "ج ن ن",
+      "qac_roots_ar": [
+        "ج ن ن"
+      ],
       "root_id": "root_000266",
-      "root_mapping": {
-        "root_id": "root_000266",
-        "root_norm": "ج ن ن",
-        "source_root_norm": "ج ن ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 131,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ن ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 131
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3fa03ab37401f450fbe272d8d86e5a9a5f7d648bfa0d7af8b95b7b61c8e80407",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11627,18 +12768,23 @@
     },
     "root_000059": {
       "root_ar": "ء ن س",
+      "qac_roots_ar": [
+        "ء ن س"
+      ],
       "root_id": "root_000059",
-      "root_mapping": {
-        "root_id": "root_000059",
-        "root_norm": "ء ن س",
-        "source_root_norm": "أ ن س",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ن س",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ecc8272a67ad291d3f7fbbb6469e57d3ad885bbacc06c915e2dc82213ef46f67",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14202,18 +15348,23 @@
     },
     "root_000973": {
       "root_ar": "ع ب د",
+      "qac_roots_ar": [
+        "ع ب د"
+      ],
       "root_id": "root_000973",
-      "root_mapping": {
-        "root_id": "root_000973",
-        "root_norm": "ع ب د",
-        "source_root_norm": "ع ب د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 264,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ب د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 264
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7d9b28a0153e123d5c9f5357b0af79cda95b359e75d0e45f346a776faa85ba55",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -17316,14 +18467,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -17572,11 +18729,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_56.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_56.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 123528,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -17651,19 +18821,37 @@
           "root_ids": [
             "root_000434"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ل ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000434",
+            "targets": [
+              {
+                "qac_root_norm": "خ ل ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000434",
+                "furuq_root_norm": "خ ل ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 250,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000434",
-              "root_norm": "خ ل ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ل ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 250,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17688,19 +18876,37 @@
           "root_ids": [
             "root_000266"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ن ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000266",
+            "targets": [
+              {
+                "qac_root_norm": "ج ن ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000266",
+                "furuq_root_norm": "ج ن ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 131,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000266",
-              "root_norm": "ج ن ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ن ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 131,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17725,19 +18931,37 @@
           "root_ids": [
             "root_000059"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ن س",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000059",
+            "targets": [
+              {
+                "qac_root_norm": "ء ن س",
+                "target_rank": 1,
+                "furuq_root_id": "root_000059",
+                "furuq_root_norm": "ء ن س",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000059",
-              "root_norm": "ء ن س",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ن س",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 28,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17762,19 +18986,37 @@
           "root_ids": [
             "root_000973"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ب د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000973",
+            "targets": [
+              {
+                "qac_root_norm": "ع ب د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000973",
+                "furuq_root_norm": "ع ب د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 264,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000973",
-              "root_norm": "ع ب د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ب د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 264,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17801,10 +19043,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 48,
+        "dictionary_branches_kept": 48,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 48,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

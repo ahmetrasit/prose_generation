@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:38.002836+00:00",
+  "generated_at": "2026-08-04T22:30:02.707574+00:00",
   "surah": 56,
   "ayah": 95,
   "ayahRef": "56:95",
@@ -1821,7 +1821,8 @@
       "morpheme_ids": [
         "m-w-s056-a095-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:95:1"
+      "aligned_qac_word_ref_upstream": "56:95:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1835,7 +1836,8 @@
       "morpheme_ids": [
         "m-w-s056-a095-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:95:2"
+      "aligned_qac_word_ref_upstream": "56:95:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1849,7 +1851,8 @@
       "morpheme_ids": [
         "m-w-s056-a095-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:95:3"
+      "aligned_qac_word_ref_upstream": "56:95:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1863,7 +1866,8 @@
       "morpheme_ids": [
         "m-w-s056-a095-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:95:4"
+      "aligned_qac_word_ref_upstream": "56:95:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1877,7 +1881,8 @@
       "morpheme_ids": [
         "m-w-s056-a095-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:95:5"
+      "aligned_qac_word_ref_upstream": "56:95:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1893,7 +1898,8 @@
         "m-w-s056-a095-w005-01",
         "m-w-s056-a095-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:95:6"
+      "aligned_qac_word_ref_upstream": "56:95:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2457,7 +2463,641 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_95.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:95",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:95",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_reality_certainty",
+            "confidence": "strong",
+            "focus_anchor": "The emphatic construction إِنَّ هَٰذَا لَهُوَ and the focus iḍāfa حَقُّ ٱلْيَقِينِ at words 4-5.",
+            "mechanism": "ح ق ق supplies fixed correspondence with reality while ي ق ن supplies knowledge from which doubt has been removed. Their combination joins ontic fixity to epistemic fixity rather than merely repeating an intensifier.",
+            "activation_trace": [
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Fixed correspondence with reality supplies the ontic half of the phrase: what is affirmed stands against falsehood."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge after doubt is removed supplies the epistemic half: the knower's state is settled."
+              }
+            ],
+            "changed_reading": {
+              "before": "This is certainly true, with certainty functioning mainly as emphasis.",
+              "after": "This is the reality of certainty: what is known is fixed, and the knowing of it is likewise fixed."
+            }
+          },
+          {
+            "model_id": "baseline_binding_due",
+            "confidence": "medium",
+            "focus_anchor": "حَقُّ at word 4 can name what is binding or due, while ٱلْيَقِينِ at word 5 specifies the state to which that due belongs.",
+            "mechanism": "The genitive construction permits a relational reading: certainty does not only describe truth's degree; once present, it establishes a claim that obliges acknowledgment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "A fixed obligation or entitlement makes the focus truth binding rather than merely accurate."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt-free knowledge supplies the settled condition from which the binding claim arises."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase reports a very high degree of certainty.",
+              "after": "The phrase names certainty's binding due: a reality that can no longer be treated as optional or evaded."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "context_transmitted_certification",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ع",
+              "ق ر ء",
+              "ك ت ب",
+              "ن ز ل"
+            ],
+            "mechanism": "The sequence supplies placement and fixation, recited articulation, a record that establishes a binding determination, and delivery from above. حَقُّ ٱلْيَقِينِ consequently reads as the certification reached by a transmitted object whose stages converge on fixed truth.",
+            "activation_trace": [
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B005",
+                "role": "Establishing and manifesting truth makes the focus phrase the evidential seal of the preceding transmission."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Removal of doubt names the settled result produced by the converging stages."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling that comes to rest contributes fixation: the cited مواقع are read as determinate placements rather than loose signs."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and recitation give the fixed sign an articulated, transmissible form."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "A written establishment that obliges judgment turns articulation into an authoritative record."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Causing something to descend and reach its recipient supplies the delivery stage of the certification chain."
+              }
+            ],
+            "structural_cues": [
+              "56:75-80 moves from oath and determinate مواقع through recitation, book, guarded access, and descent before the later focus conclusion.",
+              "The focus demonstrative هَٰذَا can gather that transmitted complex rather than point only to an isolated proposition."
+            ],
+            "reader_inference": "The packet supplies fixation, recitation, authoritative inscription, and delivery; I supply the arrow that treats them as a chain of certification culminating in 56:95. A live alternative is that these are independent praises of the Qur'an and that هَٰذَا points instead to the immediately preceding outcomes.",
+            "changed_reading": {
+              "before": "The focus is an emphatic abstract assertion that the preceding claim is certain.",
+              "after": "The focus seals a transmitted and established reality: its placement, articulation, inscription, and delivery jointly terminate in certainty."
+            }
+          },
+          {
+            "model_id": "context_threshold_verification",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل غ",
+              "ح ل ق",
+              "ن ظ ر",
+              "ق ر ب",
+              "ب ص ر",
+              "ر ج ع",
+              "ص د ق"
+            ],
+            "mechanism": "At the bodily limit, something reaches the throat while witnesses look, a nearer agency remains unseen, and the challenged observers cannot return what is departing. The focus phrase is thus not only certainty about a report but reality verified by an irreversible failure of sight and control.",
+            "activation_trace": [
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality fixed against falsehood names what the threshold test exposes."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Doubt-removing knowledge is recast as the result of an enacted limit rather than detached cognition."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at an endpoint supplies the irreversible temporal threshold."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as the passage of food and breath localizes the test in the body's life-channel."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed visual or inward attention supplies active witnessing at the threshold."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness opposed to distance places decisive agency closer than the visible witnesses."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Eyesight, explicitly negated in the source, marks the failure of ordinary perception despite proximity."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Returning something to its former state supplies the demanded counter-test that the addressees cannot perform."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "Truthful speech makes the failed reversal a test of the opponents' own claim."
+              }
+            ],
+            "structural_cues": [
+              "The paired فَلَوْلَا challenges in 56:83 and 56:86 frame one scene as a practical test rather than a bare description.",
+              "Looking without seeing and asserted nearness without human control create a contrast between observation, perception, and agency."
+            ],
+            "reader_inference": "The packet supplies endpoint arrival, bodily passage, witnessing, hidden nearness, failed sight, failed reversal, and a truth challenge; I infer that irreversibility converts report into verification. The live alternative is that 56:95 summarizes only the postmortem allocations in 56:88-94.",
+            "changed_reading": {
+              "before": "The verse declares a proposition to be indubitably true.",
+              "after": "The verse names truth made certain at the irreversible boundary where bodily life reaches its limit and every proposed counter-control fails."
+            }
+          },
+          {
+            "model_id": "context_binding_allocation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق س م",
+              "د ي ن",
+              "ص ح ب",
+              "ي م ن",
+              "ن ز ل"
+            ],
+            "mechanism": "An apportioned share, accounting and recompense, class-membership, the right side as power or entitlement, and prepared reception together activate حَقّ as a binding due. The differentiated outcomes are not merely predictions; they are allotments delivered as the settled consequence belonging to each condition.",
+            "activation_trace": [
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "Fixed obligation and entitlement make the focus a binding allocation that comes due."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge removes contingency from the allocation."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating and apportioning a share activates the distributive mechanism later realized in the three outcomes."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the normative process by which an outcome becomes due."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and abiding association turn a temporary description into membership in a recipient class."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "The right hand as power and right contributes entitlement to the favorable class's reception."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Provision prepared for one who arrives makes the assigned consequence something actually received."
+              }
+            ],
+            "structural_cues": [
+              "The repeated وَأَمَّا and فَأَمَّا in 56:88-94 sort three recipient conditions and attach a distinct reception to each.",
+              "The reuse of ن ز ل across descent in 56:80 and reception in 56:93 links delivered message to delivered consequence."
+            ],
+            "reader_inference": "The packet supplies apportionment, recompense, class association, entitlement, and prepared reception; I infer a causal arrow from classification through account to an outcome owed and delivered. A live alternative is that حَقّ only certifies the descriptions without characterizing their distributive mechanism.",
+            "changed_reading": {
+              "before": "Certainty makes the preceding descriptions impossible to doubt.",
+              "after": "This is certainty's binding due: each settled condition receives the consequence apportioned to it."
+            }
+          },
+          {
+            "model_id": "context_action_producing_certainty",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ب ح",
+              "س م و",
+              "ر ب ب",
+              "ع ظ م"
+            ],
+            "mechanism": "The immediate imperative clears the named Lord of false attribution and acknowledges greatness. Because it follows with فَ, the focus certainty becomes a practical cause: verified reality requires a corresponding act of speech and worship.",
+            "activation_trace": [
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B005",
+                "role": "Manifesting and establishing truth makes the focus conclusion capable of grounding a response."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge supplies the non-hesitant condition for the commanded response."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Clearing and declaring free from defect gives certainty its immediate verbal and devotional consequence."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "The name as proclamation and indication makes the response publicly signify the reality just certified."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, possession, and sovereignty identify the authority to whom the response is directed."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B001",
+                "role": "Magnitude and strength supply the greatness acknowledged by the commanded declaration."
+              }
+            ],
+            "structural_cues": [
+              "56:96 begins with فَ and an imperative immediately after the nominal conclusion in 56:95."
+            ],
+            "reader_inference": "The packet supplies an immediate consequence marker, purification from false attribution, name-signification, lordship, and greatness; I infer that certainty causes responsive action. The live alternative is that 56:96 is an epilogue whose command does not modify the semantic force of حَقُّ ٱلْيَقِينِ.",
+            "changed_reading": {
+              "before": "The focus is the endpoint of cognition: certainty has been stated.",
+              "after": "The focus is action-producing certainty: once reality is established, it issues directly into clearing and proclaiming the great Lord's name."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_protected_access_certainty",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the form-distant ي ق ن image of a protected, secluded maiden. It remains anchored through يَقِينِ itself and is independently awakened by the concealed book, restricted touch, purification, and the contrast between eyesight and inward sight. Downstream prose should label it an exploratory access-model, not translate يَقِين as a protected person.",
+            "focus_anchor": "يَقِينِ at 56:95 word 5 carries a protected-seclusion branch, while حَقُّ at word 4 can denote a reality whose inviolability must be preserved.",
+            "activation_trace": [
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B002",
+                "role": "The protected, secluded maiden supplies a containment image: certainty has an interior not indiscriminately exposed."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B007",
+                "role": "A reality that must be guarded gives the protected interior inviolable status."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment activates the focus image of certainty as preserved rather than merely unavailable."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Touch by the hand supplies the attempted mode of access to the protected reality."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Purity as removal of stain supplies the condition under which contact does not violate what is protected."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight of the heart, negated in the immediate wording, distinguishes true access from merely having open eyes."
+              }
+            ],
+            "changed_reading": {
+              "before": "Certainty is simply the absence of doubt and is equally exposed to any observer.",
+              "after": "Certainty's reality is protected: valid access requires a purified mode of contact that ordinary looking does not guarantee."
+            }
+          },
+          {
+            "outlier_id": "outlier_certainty_comes_to_term",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries animal maturity and near-parturition images into an epistemic phrase. It remains anchored in the explicit ح ق ق branch of completed load-bearing maturity and is activated by reaching the bodily limit, nearness, and the life-spirit cluster. Downstream prose should present it only as a material analogy for certainty becoming fully consequential at death, not as the phrase's lexical translation.",
+            "focus_anchor": "حَقُّ at 56:95 word 4 has a branch for an animal reaching mature, load-bearing fitness; يَقِينِ at word 5 supplies the settled state that is imagined as coming to term.",
+            "activation_trace": [
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B008",
+                "role": "A camel reaching the age fit for bearing a load supplies the material image of certainty becoming mature enough to bear consequence."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge after doubt is removed names the state that the maturity image brings to completion."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Reaching the endpoint supplies the transition at which latent certainty becomes fully consequential."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B012",
+                "role": "Nearness of parturition supplies the deliberately exploratory image of a state coming to term at the threshold."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B001",
+                "role": "The life-giving spirit within the bundled رَوْحٌ and رَيْحَانٌ occurrence ties the coming-to-term image to the life/death transition."
+              }
+            ],
+            "changed_reading": {
+              "before": "Certainty is a static degree of knowledge already possessed.",
+              "after": "At the death threshold, certainty comes to full term and becomes load-bearing: what was reported now bears the weight of realized consequence."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus becomes the certification point of a placed, recited, inscribed, guarded, and delivered message.",
+            "The deathbed challenge turns abstract certainty into verification through irreversible failure of sight and control.",
+            "The sorted receptions activate حَقّ as a binding allotment delivered to each settled condition.",
+            "The immediate imperative makes certainty productive of speech and worship rather than a terminal mental state."
+          ],
+          "what_was_special": "The compact phrase sustains several mechanisms without losing its two-word anchor: fixed reality joined to settled knowing, a binding due enacted as allocation, and two rarer material models in which certainty is protected or comes to term.",
+          "remaining_uncertainties": [
+            "هَٰذَا may point most narrowly to the punishment in 56:93-94, to all three receptions in 56:88-94, to the deathbed demonstration, or to the larger transmitted discourse.",
+            "The iḍāfa may function chiefly as an intensifying superlative expression rather than supporting the relational readings developed here.",
+            "The protected-access and coming-to-term models are branch-driven analogies and should remain subordinate to the fixed-reality and doubt-removal baseline."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Firm reality joined to settled, doubt-free knowledge.** `ح ق ق` **B001** supplies firm truth against falsehood; `ي ق ن` **B001** supplies settled knowledge with doubt removed. The emphatic demonstrative gathers the whole three-outcome sequence. **Abductive move:** I infer that the described reality and the mode of knowing it mutually reinforce each other. **Reading change:** certainty is not subjective intensity but cognition fitted to what stands firm.\n\n2. **A due claim whose fulfillment penetrates straight through denial.** `ح ق ق` **B002** supplies due obligation and deserved claim, **B005** making truth stand, and **B009** a straight penetrating thrust. **Abductive move:** I infer a juridical and material co-reading: the appointed outcome is due, and its evidence passes through the evasions of `المكذبين`. **Reading change:** “truth of certainty” becomes both rightful necessity and decisive penetration.",
@@ -3536,18 +4176,23 @@
   "root_lexicon": {
     "root_000347": {
       "root_ar": "ح ق ق",
+      "qac_roots_ar": [
+        "ح ق ق"
+      ],
       "root_id": "root_000347",
-      "root_mapping": {
-        "root_id": "root_000347",
-        "root_norm": "ح ق ق",
-        "source_root_norm": "ح ق ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 283,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ق ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 283
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "47441213f911b58d9b5dddd066430eb4c50938216729d378be0a8ce58835382e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7311,18 +7956,23 @@
     },
     "root_001696": {
       "root_ar": "ي ق ن",
+      "qac_roots_ar": [
+        "ي ق ن"
+      ],
       "root_id": "root_001696",
-      "root_mapping": {
-        "root_id": "root_001696",
-        "root_norm": "ي ق ن",
-        "source_root_norm": "ي ق ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 13,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي ق ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 13
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "fcc15481764a88292563ee5bfcca619a28e9ec05634c25f511b8e0b702e6f755",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8342,14 +8992,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8685,11 +9341,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_95.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_95.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 84784,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8762,19 +9431,37 @@
           "root_ids": [
             "root_000347"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ق ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000347",
+            "targets": [
+              {
+                "qac_root_norm": "ح ق ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000347",
+                "furuq_root_norm": "ح ق ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 283,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000347",
-              "root_norm": "ح ق ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ق ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 283,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8799,19 +9486,37 @@
           "root_ids": [
             "root_001696"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي ق ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001696",
+            "targets": [
+              {
+                "qac_root_norm": "ي ق ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001696",
+                "furuq_root_norm": "ي ق ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 13,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001696",
-              "root_norm": "ي ق ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي ق ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 13,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 2,
+              "gloss_branch_count": 2,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8838,10 +9543,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 16,
+        "dictionary_branches_kept": 16,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 16,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.517243+00:00",
+  "generated_at": "2026-08-04T22:29:54.778713+00:00",
   "surah": 54,
   "ayah": 50,
   "ayahRef": "54:50",
@@ -1913,7 +1913,8 @@
       "morpheme_ids": [
         "m-w-s054-a050-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:50:1"
+      "aligned_qac_word_ref_upstream": "54:50:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1927,7 +1928,8 @@
       "morpheme_ids": [
         "m-w-s054-a050-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:50:2"
+      "aligned_qac_word_ref_upstream": "54:50:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1943,7 +1945,8 @@
         "m-w-s054-a050-w002-01",
         "m-w-s054-a050-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:50:3"
+      "aligned_qac_word_ref_upstream": "54:50:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1957,7 +1960,8 @@
       "morpheme_ids": [
         "m-w-s054-a050-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:50:4"
+      "aligned_qac_word_ref_upstream": "54:50:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1971,7 +1975,8 @@
       "morpheme_ids": [
         "m-w-s054-a050-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:50:5"
+      "aligned_qac_word_ref_upstream": "54:50:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1985,7 +1990,8 @@
       "morpheme_ids": [
         "m-w-s054-a050-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:50:6"
+      "aligned_qac_word_ref_upstream": "54:50:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1999,7 +2005,8 @@
       "morpheme_ids": [
         "m-w-s054-a050-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:50:7"
+      "aligned_qac_word_ref_upstream": "54:50:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2013,7 +2020,8 @@
       "morpheme_ids": [
         "m-w-s054-a050-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:50:8"
+      "aligned_qac_word_ref_upstream": "54:50:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2029,7 +2037,8 @@
         "m-w-s054-a050-w006-02",
         "m-w-s054-a050-w006-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:50:9"
+      "aligned_qac_word_ref_upstream": "54:50:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2602,7 +2611,880 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_50.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:50",
+      "window": [
+        "54:46",
+        "54:47",
+        "54:48",
+        "54:49",
+        "54:50",
+        "54:51",
+        "54:52",
+        "54:53",
+        "54:54",
+        "54:55"
+      ],
+      "ayah_count": 10,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:50",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_single_executive_act",
+            "confidence": "strong",
+            "focus_anchor": "The focus sequence joins command/affair at word 2 to one at word 4 and the eye-glance comparison at words 5-6.",
+            "mechanism": "A binding directive is presented as one uniterated act, and the eye's smallest perceptible glance supplies the upper bound on any interval between directive and completion.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The binding-command sense supplies an efficacious directive rather than a merely discussed affair."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "Numerical oneness makes the directive a single occurrence without a sequence of subsidiary acts."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B002",
+                "role": "The snatched glance contributes the minimal perceptual interval used to measure execution."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Ocular seeing grounds the comparison in an embodied event whose brevity is directly knowable."
+              }
+            ],
+            "changed_reading": {
+              "before": "The command happens very quickly.",
+              "after": "The command is one indivisible executive act whose completion admits no process longer than a single eye-glance."
+            }
+          },
+          {
+            "model_id": "b_integrated_affair",
+            "confidence": "medium",
+            "focus_anchor": "Words 2 and 4 can construe the affair as a unified whole, while words 5-6 make that whole present in one flash.",
+            "mechanism": "The affair is not merely one item in a count; multiple aspects are held under one governing direction and appear together rather than arriving piecemeal.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The affair-or-state sense widens the anchor from an uttered order to the whole matter under governance."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B005",
+                "role": "Union in one direction supplies coordination of distinct elements under one operative rule."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B001",
+                "role": "A momentary flash supplies simultaneous presentation instead of stepwise disclosure."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Inner discernment lets the flash function as immediate apprehension of an integrated order."
+              }
+            ],
+            "changed_reading": {
+              "before": "There is only one command.",
+              "after": "The entire affair is coordinated as one order and becomes effective or intelligible all at once."
+            }
+          },
+          {
+            "model_id": "b_single_disclosed_threshold",
+            "confidence": "exploratory",
+            "focus_anchor": "The sign-or-appointment branch of word 2 can combine with the isolated one and the enabled glimpse at words 4-6.",
+            "mechanism": "One marked threshold stands apart from ordinary succession; it is not gradually approached in perception but becomes available in a single flash of discernment.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B005",
+                "role": "The sign-or-appointed-marker branch recasts the affair as a marked threshold."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B001",
+                "role": "Separation and singularity make the threshold a distinct occurrence rather than a diffuse process."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B003",
+                "role": "Making a glimpse available supplies the sudden opening through which the threshold is disclosed."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Discernment makes the disclosed instant epistemic as well as temporal."
+              }
+            ],
+            "changed_reading": {
+              "before": "One order is executed in the time of a glance.",
+              "after": "A uniquely marked threshold becomes manifest in one aperture of discernment."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_appointed_measure_to_execution",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ع د",
+              "ق د ر"
+            ],
+            "mechanism": "The preceding appointment and measured limit turn the exploratory threshold into a prepared activation point: duration belongs to the preparation and apportioning, while the appointed measure's conversion into event has no slippage.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B005",
+                "role": "The marked appointment sense supplies the focus-side threshold that context can activate."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B001",
+                "role": "A distinct singular occurrence makes the activation point nonrepeatable within the pictured sequence."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B002",
+                "role": "The eye-glance supplies the vanishing interval between threshold and realization."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "A promise fixed to time or place supplies an explicit prior appointment."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A measure that brings a thing to its limit supplies the prepared boundary at which execution occurs."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effective capability closes the sequence by ensuring that the appointed limit can become actual."
+              }
+            ],
+            "structural_cues": [
+              "The packet places an explicit appointment before the focus, measured creation immediately before it, and effective capability at the window's close."
+            ],
+            "reader_inference": "The packet supplies appointment, measured limit, and capability; I infer an arrow from prepared measure to instantaneous realization. A live alternative is simply a fast command issued at a preset time, without treating the focus noun itself as appointment.",
+            "changed_reading": {
+              "before": "The verse asserts sheer speed.",
+              "after": "The verse marks the zero-lag conversion of an already appointed and measured limit into actuality."
+            }
+          },
+          {
+            "model_id": "d_sensory_distance_collapse",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ح ب",
+              "و ج ه",
+              "ذ و ق",
+              "م س س"
+            ],
+            "mechanism": "Dragging, face-first confrontation, experiential tasting, and impact move the focus comparison from neutral stopwatch imagery to a collapse of observer distance: the command reaches bodies before perception can establish a protected interval.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The efficacious directive supplies the initiating act whose reach is being measured."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B002",
+                "role": "The snatched glance supplies a perceptual interval too small to create distance."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Embodied sight supplies the observer pole that context overtakes with bodily consequence."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Physical dragging supplies involuntary transport from observation into consequence."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B003",
+                "role": "Direct confrontation supplies the exposed bodily surface on which distance collapses."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential testing turns an externally viewed event into something undergone."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "The striking of an effect supplies immediate contact as the endpoint of command."
+              }
+            ],
+            "structural_cues": [
+              "The verse before the focus sequences passive dragging, faces, an imperative to taste, and contact; the focus then chooses an eye movement as its time comparison."
+            ],
+            "reader_inference": "The packet supplies a dense sensory progression and the focus supplies sight; I infer that speed erases the interval between seeing and undergoing. The live alternative is that the bodily sequence only describes punishment while the glance remains a neutral speed simile.",
+            "changed_reading": {
+              "before": "The eye-glance only quantifies how fast the command is.",
+              "after": "The eye-glance exposes how no observational distance remains: by the time one could see, the commanded consequence is already being undergone."
+            }
+          },
+          {
+            "model_id": "d_measured_totality_in_one_order",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ل ل",
+              "ش ي ء",
+              "خ ل ق",
+              "ق د ر"
+            ],
+            "mechanism": "The immediate context fills singularity with exhaustive differentiation: every identifiable thing is brought into being at its own measure, so one command names integrated governance of plurality rather than a small or undetailed act.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B001",
+                "role": "The whole-affair sense provides a domain broad enough to contain differentiated created things."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B005",
+                "role": "Union under one direction supplies coherent governance without erasing internal distinctions."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Complete enclosure supplies the total scope of the command."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "An identifiable object of predication supplies each distinct member within that scope."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Estimating and proportioning supplies differentiated formation before execution."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "Each thing's attained limit supplies exact granularity inside total governance."
+              }
+            ],
+            "structural_cues": [
+              "The immediately preceding verse combines total scope, individual thinghood, creation, and measure before the focus asserts oneness."
+            ],
+            "reader_inference": "The packet supplies exhaustive scope plus item-specific measure; I infer that the one command coordinates these measures as a single operation. A live alternative is that measured creation and rapid command are separate assertions with no integrative relation.",
+            "changed_reading": {
+              "before": "One command means a numerically minimal act.",
+              "after": "One command means a total, coordinated act that preserves the exact measure of every distinct thing."
+            }
+          },
+          {
+            "model_id": "d_archive_to_consequence",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ه ل ك",
+              "ش ي ع",
+              "ف ع ل",
+              "ز ب ر",
+              "س ط ر"
+            ],
+            "mechanism": "The post-focus sequence moves from destroyed counterparts to enacted deeds, books, and written lines. This activates the one command as a decisive conversion between fully documented action and historical consequence rather than an unconditioned burst.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The binding directive supplies the decisive enforcement event."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "A single occurrence supplies one decisive transition from account to outcome."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B001",
+                "role": "Falling into destruction supplies the realized consequence immediately after the focus."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ش ي ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000836",
+                "branch_id": "B007",
+                "role": "Counterpart and analogue make prior groups a repeatable evidentiary pattern for the addressees."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "Produced deeds supply the accountable inputs rather than an arbitrary target."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and books supply a durable account from which nothing need be reconstructed at execution."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Ordered written lines supply explicit granularity and retrievability of the account."
+              }
+            ],
+            "structural_cues": [
+              "After the focus, the packet orders destruction, analogous predecessors, all deeds in books, and every scale of item written."
+            ],
+            "reader_inference": "The packet supplies consequence, analogues, deeds, books, and inscription; I infer an enforcement arrow from complete account to one decisive outcome. The live alternative is that the records only testify after events and do not feed the command mechanism.",
+            "changed_reading": {
+              "before": "The one command is raw instantaneous power.",
+              "after": "The one command is instantaneous enforcement of a fully articulated account, converting recorded action into consequence without a deliberative delay."
+            }
+          },
+          {
+            "model_id": "d_one_rule_divergent_destinations",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ر م",
+              "ض ل ل",
+              "س ع ر",
+              "و ق ي",
+              "ج ن ن",
+              "ن ه ر"
+            ],
+            "mechanism": "The window frames the one command between culpable loss and burning on one side and protected, covered, flowing habitation on the other. Unity therefore sits at the level of the governing decision, not at the level of identical outcomes.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The binding directive supplies one governing decision capable of assigning outcomes."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B005",
+                "role": "Unity in one governing direction holds divergent destinations within one rule."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B004",
+                "role": "Culpable offense supplies the differentiating condition on the punitive side."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from guidance and intended direction supplies a failed trajectory."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B001",
+                "role": "Kindled burning supplies the punitive destination of that trajectory."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Placing oneself within protection supplies the differentiating condition on the sheltered side."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden covered by growth supplies protected habitation rather than exposure."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "Flowing water cut through the land supplies sustained provision and an open destination."
+              }
+            ],
+            "structural_cues": [
+              "Punitive predicates precede the focus, while the protected garden-and-river scene follows it within the same short window."
+            ],
+            "reader_inference": "The packet supplies sharply opposed conditions and destinations around a singular command; I infer that one rule discriminates between them. A live alternative is simple juxtaposition, with no claim that the focus command performs the sorting.",
+            "changed_reading": {
+              "before": "A single command imposes one undifferentiated result.",
+              "after": "A single governing command can instantaneously disclose or assign divergent destinations according to distinct conditions."
+            }
+          },
+          {
+            "model_id": "d_instant_threshold_to_stable_nearness",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ع د",
+              "ص د ق",
+              "ع ن د",
+              "م ل ك",
+              "ق د ر"
+            ],
+            "mechanism": "The focus's vanishingly brief act opens onto a closing scene of fixed seating, realized soundness, nearness, sovereignty, and effective capability. The instant functions as a threshold into durable placement, not as an image of transience.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "The effective directive supplies the threshold-crossing act."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B002",
+                "role": "The fleeting glance supplies extreme brevity on the transition side of the contrast."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001244",
+                "branch_id": "B001",
+                "role": "Seated stability in a place supplies durable settlement after the instant."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Completed soundness and firmness make the settlement real and nonprovisional."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Near presence supplies relational permanence rather than mere spatial arrival."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Sovereignty supplies the stable authority under which the placement endures."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Capability that reaches action guarantees the transition and its settled result."
+              }
+            ],
+            "structural_cues": [
+              "The focus's kinetic eye-glance is followed at the window's end by nested locative expressions and a seat under capable sovereignty."
+            ],
+            "reader_inference": "The packet supplies a momentary comparison and a stable closing location; I infer an arrow from instantaneous transition to enduring nearness. A live alternative is that the closing scene merely names a reward and does not define the temporal function of the focus.",
+            "changed_reading": {
+              "before": "The glance image makes the commanded result seem momentary.",
+              "after": "The glance is the duration of transition into a stable and enduring placement, not the duration of the resulting state."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_glimpse_as_total_record_disclosure",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it treats the glance as an archival disclosure operation rather than only a speed measure. It remains anchored in the focus branches of enabled glimpse and discernment and in the nearby reminder, book, and written-line branches. Downstream prose should present it as a secondary contextual metaphor, not as the lexical translation of the focus comparison.",
+            "focus_anchor": "Words 5-6 permit a made-available glimpse that reaches discernment in one moment.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B003",
+                "role": "An enabled glimpse supplies a momentary aperture through which concealed order can appear."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Discernment turns the aperture into immediate comprehension rather than bare optical motion."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that actively recalls supplies the retrieval function."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "The written book supplies the complete latent record available for disclosure."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "Ordered written lines supply inspectable structure within the disclosed record."
+              }
+            ],
+            "changed_reading": {
+              "before": "The glance only measures execution time.",
+              "after": "The glance can also image the whole articulated record becoming available to discernment in one instant."
+            }
+          },
+          {
+            "outlier_id": "o_sharpened_single_impulse",
+            "confidence": "exploratory",
+            "containment": "This material reading is branch-distant because the focus noun is not overtly a weapon and the contextual bitterness is not overtly cordage. It remains traceable to the spear-tip branch of the focus root, singular isolation, flash, tightly twisted tension, and a cutting line. Downstream prose should label it a material analogy for focused efficacy, never a direct gloss.",
+            "focus_anchor": "The command root at word 2 has a branch for fitting a shaft with a point, while words 4-5 isolate one flash-like act.",
+            "activation_trace": [
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B011",
+                "role": "Fitting a shaft with a sharpened point supplies a materially focused vector for efficacy."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B001",
+                "role": "Isolation supplies a single vector with no dispersed parallel action."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B001",
+                "role": "A sudden flash supplies release and arrival as one perceptual event."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B005",
+                "role": "A tightly twisted cord contributes stored tension to the material analogy."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B004",
+                "role": "A line of striking or cutting contributes the direct path through a boundary."
+              }
+            ],
+            "changed_reading": {
+              "before": "The command is an abstract utterance that happens quickly.",
+              "after": "Exploratorily, the command behaves like one tensioned, sharpened impulse whose release, path, and impact collapse into a flash."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Speed became zero-lag realization at an appointed and measured threshold.",
+            "Numerical oneness became integrated governance that preserves the measure of every distinct thing.",
+            "The eye-glance became a collapse of distance between observing consequence and undergoing it.",
+            "The instantaneous act became compatible with divergent outcomes and enduring placement."
+          ],
+          "what_was_special": "The focus's four roots support command, whole affair, marked threshold, numerical one, directional unity, flash, glance, sight, and discernment. The local sequence activates these as a mechanism linking prior measure, immediate execution, complete account, differentiated destination, and stable result.",
+          "remaining_uncertainties": [
+            "The sign-or-appointment branch of the command root may be a contextual activation rather than an active focus sense.",
+            "The archive may authorize consequence, preserve evidence of it, or do both; the packet does not fix the arrow.",
+            "The opposed destinations may be assigned by the one command, or they may only frame its efficacy.",
+            "The two outliers are coherent analogies but remain too branch-distant for unqualified rendering."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A command executes as one indivisible perceptual pulse.** `ء م ر` B002 is command/directive; `و ح د` B002 is numerical one and B006 making one; `ل م ح` B001 is a brief gleam and B002 a quick glance; `ب ص ر` B001 is seeing with the eye. The exclusivity construction reduces the command to one, then the simile gives that oneness sensory duration. I infer that no intermediate sequence is perceptible between directive and effect. The ayah reads divine execution as unitary and glance-fast.\n\n2. **`أَمْرُنَا` may also be the whole affair under governance.** `ء م ر` B001 is matter/affair and B003 authority, distinct from B002 command. In the wake of universal measure, I infer that the entire governed process may be characterized as a single coordinated event, not only a spoken imperative. The command reading is sharper syntactically, but the affair reading preserves systemic unity.",
@@ -3512,18 +4394,23 @@
   "root_lexicon": {
     "root_000051": {
       "root_ar": "ء م ر",
+      "qac_roots_ar": [
+        "ء م ر"
+      ],
       "root_id": "root_000051",
-      "root_mapping": {
-        "root_id": "root_000051",
-        "root_norm": "ء م ر",
-        "source_root_norm": "أ م ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 241,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء م ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 241
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6619cf1a09b74b544841a95a3f0fa585c87e19e212506a4f4a9c9ff534a6a4b9",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6407,18 +7294,23 @@
     },
     "root_001631": {
       "root_ar": "و ح د",
+      "qac_roots_ar": [
+        "و ح د"
+      ],
       "root_id": "root_001631",
-      "root_mapping": {
-        "root_id": "root_001631",
-        "root_norm": "و ح د",
-        "source_root_norm": "و ح د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 51,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ح د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 51
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5b2beb326fe204cd0c6d03c2d5722d291f04522466a9cd18094df74d532abaeb",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8357,18 +9249,23 @@
     },
     "root_001375": {
       "root_ar": "ل م ح",
+      "qac_roots_ar": [
+        "ل م ح"
+      ],
       "root_id": "root_001375",
-      "root_mapping": {
-        "root_id": "root_001375",
-        "root_norm": "ل م ح",
-        "source_root_norm": "ل م ح",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل م ح",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "63e5480d8b2d5fa5caa33f2587503960e3924f8d3bc366f6d37e10e731c3a24d",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10005,18 +10902,23 @@
     },
     "root_000121": {
       "root_ar": "ب ص ر",
+      "qac_roots_ar": [
+        "ب ص ر"
+      ],
       "root_id": "root_000121",
-      "root_mapping": {
-        "root_id": "root_000121",
-        "root_norm": "ب ص ر",
-        "source_root_norm": "ب ص ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 89,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ص ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 89
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "bd8548d735b8bc972403b9c175d9190b3039abf966922522f5f2f06f623125b7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12554,14 +13456,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12850,11 +13758,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_50.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_50.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 99575,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -12930,19 +13851,37 @@
           "root_ids": [
             "root_000051"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء م ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000051",
+            "targets": [
+              {
+                "qac_root_norm": "ء م ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000051",
+                "furuq_root_norm": "ء م ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 241,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000051",
-              "root_norm": "ء م ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء م ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 241,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12967,19 +13906,37 @@
           "root_ids": [
             "root_001631"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ح د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001631",
+            "targets": [
+              {
+                "qac_root_norm": "و ح د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001631",
+                "furuq_root_norm": "و ح د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 51,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001631",
-              "root_norm": "و ح د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ح د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 51,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13004,19 +13961,37 @@
           "root_ids": [
             "root_001375"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ل م ح",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001375",
+            "targets": [
+              {
+                "qac_root_norm": "ل م ح",
+                "target_rank": 1,
+                "furuq_root_id": "root_001375",
+                "furuq_root_norm": "ل م ح",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001375",
-              "root_norm": "ل م ح",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ل م ح",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13041,19 +14016,37 @@
           "root_ids": [
             "root_000121"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ص ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000121",
+            "targets": [
+              {
+                "qac_root_norm": "ب ص ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000121",
+                "furuq_root_norm": "ب ص ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 89,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000121",
-              "root_norm": "ب ص ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ص ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 89,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13080,10 +14073,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 30,
+        "dictionary_branches_kept": 30,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 30,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

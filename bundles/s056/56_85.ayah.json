@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.464700+00:00",
+  "generated_at": "2026-08-04T22:30:02.205336+00:00",
   "surah": 56,
   "ayah": 85,
   "ayahRef": "56:85",
@@ -2140,7 +2140,8 @@
       "morpheme_ids": [
         "m-w-s056-a085-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:85:1"
+      "aligned_qac_word_ref_upstream": "56:85:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2154,7 +2155,8 @@
       "morpheme_ids": [
         "m-w-s056-a085-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:85:2"
+      "aligned_qac_word_ref_upstream": "56:85:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2168,7 +2170,8 @@
       "morpheme_ids": [
         "m-w-s056-a085-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:85:3"
+      "aligned_qac_word_ref_upstream": "56:85:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2184,7 +2187,8 @@
         "m-w-s056-a085-w003-01",
         "m-w-s056-a085-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:85:4"
+      "aligned_qac_word_ref_upstream": "56:85:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2200,7 +2204,8 @@
         "m-w-s056-a085-w004-01",
         "m-w-s056-a085-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:85:5"
+      "aligned_qac_word_ref_upstream": "56:85:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2214,7 +2219,8 @@
       "morpheme_ids": [
         "m-w-s056-a085-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:85:6"
+      "aligned_qac_word_ref_upstream": "56:85:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2228,7 +2234,8 @@
       "morpheme_ids": [
         "m-w-s056-a085-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:85:7"
+      "aligned_qac_word_ref_upstream": "56:85:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2242,7 +2249,8 @@
       "morpheme_ids": [
         "m-w-s056-a085-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:85:8"
+      "aligned_qac_word_ref_upstream": "56:85:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2258,7 +2266,8 @@
         "m-w-s056-a085-w007-01",
         "m-w-s056-a085-w007-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:85:9"
+      "aligned_qac_word_ref_upstream": "56:85:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2758,7 +2767,502 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_85.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:85",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:85",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_near_but_unseen",
+            "confidence": "strong",
+            "focus_anchor": "The construction أَقْرَبُ ... مِنكُمْ ... لَا تُبْصِرُونَ directly couples comparative nearness with negated visual perception.",
+            "mechanism": "Spatial or relational distance and perceptual access are decoupled: the nearer party can be immediately present while the more distant observers' eyes do not register it.",
+            "activation_trace": [
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness as the opposite of distance supplies the comparative spatial or relational arrangement."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Eyesight supplies the denied sensory channel, making invisibility compatible with immediate presence."
+              }
+            ],
+            "changed_reading": {
+              "before": "Nearness would ordinarily make a presence easier for the addressed observers to see.",
+              "after": "The ayah asserts a presence nearer to the person than the observers are precisely while denying those observers visual access to it."
+            }
+          },
+          {
+            "model_id": "baseline_near_but_unrecognized",
+            "confidence": "medium",
+            "focus_anchor": "Negated تُبْصِرُونَ can activate the ب ص ر branch of inward discernment alongside the comparative أَقْرَبُ.",
+            "mechanism": "Closeness is not sufficient for recognition: a reality may already be intimately available while the addressed group lacks the inward penetration needed to apprehend it.",
+            "activation_trace": [
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness supplies immediate availability rather than remoteness."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight and verified knowledge turn the negation from an optical failure into failed recognition."
+              }
+            ],
+            "changed_reading": {
+              "before": "You do not visually see a nearby presence.",
+              "after": "You do not penetrate or recognize a reality that is already closer to the person than you are."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_concealed_access_layer",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ن ن",
+              "م س س",
+              "ط ه ر"
+            ],
+            "mechanism": "The concealed record and its restricted contact provide an access-control analogue: something can be present and consequential while remaining enclosed from an unqualified mode of contact. The focus contrast then reads as near reality behind an access boundary, not reality at a great distance.",
+            "activation_trace": [
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Immediate nearness prevents concealment from being reduced to spatial remoteness."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Inward discernment supplies the unavailable mode of access."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment supplies an enclosure that preserves a thing while withholding ordinary access."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Touch by hand supplies the concrete access operation that the sequence restricts."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Purity as removal of defilement supplies the qualification for crossing the access boundary."
+              }
+            ],
+            "structural_cues": [
+              "The pre-focus sequence places a concealed book immediately beside a statement that only a qualified group touches it.",
+              "The focus ayah repeats the same paradoxical geometry: nearness without ordinary access."
+            ],
+            "reader_inference": "The packet supplies concealment, restricted touch, qualification, and near-but-unperceived presence; I infer one access-boundary pattern across them. A live alternative is that the book sequence and death scene use separate kinds of concealment.",
+            "changed_reading": {
+              "before": "The observers simply fail to notice a nearby presence.",
+              "after": "The observers face a reality that is near but enclosed behind a mode-of-access boundary their present sight does not cross."
+            }
+          },
+          {
+            "model_id": "delta_death_threshold_operation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل غ",
+              "ح ل ق",
+              "ن ظ ر"
+            ],
+            "mechanism": "The preceding progression fixes the focus at a terminal bodily threshold: something reaches the throat while the companions are actively looking. Nearness therefore becomes operational proximity to the transition itself, whereas human looking reaches only its visible bodily surface.",
+            "activation_trace": [
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B007",
+                "role": "Approaching and coming into immediate contact recasts nearness as involvement at the threshold."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Eyesight is the channel explicitly unable to register the nearer operation."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at an endpoint supplies the terminal movement into the scene."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as the passage of food and breath locates the endpoint at a bodily conduit."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed looking supplies deliberate eyewitness attention, sharpening the contrast with failure to perceive."
+              }
+            ],
+            "structural_cues": [
+              "56:83 gives arrival at the throat, 56:84 gives the companions' looking, and 56:85 interrupts that visible scene with a nearer unseen party.",
+              "The comparative مِنكُمْ places the nearer party and the human observers around the same person."
+            ],
+            "reader_inference": "The packet supplies endpoint, throat passage, active looking, and comparative nearness; I infer that the unseen party has operational access to the transition itself. The alternative is purely spatial proximity without an asserted causal role.",
+            "changed_reading": {
+              "before": "An unseen party is spatially closer than the visible companions.",
+              "after": "At the exact bodily threshold the companions watch, the nearer party occupies the operative side of the transition while human sight remains at its exterior."
+            }
+          },
+          {
+            "model_id": "delta_nearness_as_jurisdiction",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ي ن",
+              "ر ج ع",
+              "ص د ق"
+            ],
+            "mechanism": "The challenge after the focus converts comparative nearness into a test of effective authority: those who deny being subject to reckoning are invited to reverse the passage, but cannot. The nearer position thus carries jurisdiction over an event the visible companions cannot control.",
+            "activation_trace": [
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Privileged nearness to authority supplies an ordered relation rather than mere metric distance."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Failure of discernment explains why the addressed group mistakes lack of visible control for lack of governing authority."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense supply the jurisdiction explicitly placed in question."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Returning something to its former state supplies the demanded reversal that tests control."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfilling a claim in action makes successful reversal the proof demanded from the challengers."
+              }
+            ],
+            "structural_cues": [
+              "The two following ayat form a conditional challenge: if the observers are outside judgment, they should return what has reached the throat.",
+              "The second-person plural continues the group addressed by مِنكُمْ and لَا تُبْصِرُونَ."
+            ],
+            "reader_inference": "The packet supplies denied reckoning, a demand for reversal, and a truth test; I infer that the nearer party's proximity entails effective jurisdiction over the transition. Alternatively, the challenge may establish power generally without defining the semantic content of nearness.",
+            "changed_reading": {
+              "before": "The comparative describes who is closest to the person.",
+              "after": "The comparative also distinguishes effective jurisdiction: the unseen nearer party governs the passage that the visible companions cannot reverse."
+            }
+          },
+          {
+            "model_id": "delta_nearness_as_conferred_rank",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ب"
+            ],
+            "mechanism": "The immediate reuse of ق ر ب in الْمُقَرَّبِينَ changes nearness from a momentary relation around the dying person into a possible conferred status beyond the threshold. The nearer presence and the brought-near destination-category remain distinct, but the lexical echo makes proximity directional and rank-bearing.",
+            "activation_trace": [
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Comparative nearness supplies the relation first stated at the threshold."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The favored brought-near group supplies a ranked and conferred form of proximity after the threshold."
+              }
+            ],
+            "structural_cues": [
+              "After the return challenge, the passage immediately sorts the person into outcomes beginning with الْمُقَرَّبِينَ.",
+              "The same root shifts from the active comparison أَقْرَبُ to the passive status مُقَرَّبِينَ."
+            ],
+            "reader_inference": "The packet supplies a comparative q-r-b form followed by a passive brought-near q-r-b category; I infer that threshold nearness foreshadows conferred rank or destination. The live alternative is lexical recurrence without identity between the nearer party and the classified person.",
+            "changed_reading": {
+              "before": "Nearness names only the unseen party's position during the death scene.",
+              "after": "Nearness also opens toward a conferred post-threshold rank: the scene of who is nearer is followed by the possibility of the person being brought near."
+            }
+          },
+          {
+            "model_id": "delta_certainty_beyond_sight",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ق ق",
+              "ي ق ن"
+            ],
+            "mechanism": "The closing assertion of reality and settled knowledge prevents لَا تُبْصِرُونَ from functioning as an epistemic veto. Sensory nonappearance marks a limit of the observers' present mode, while the event is framed as fixed reality and certainty.",
+            "activation_trace": [
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Denied eyesight supplies the limited evidentiary mode whose failure is being contained."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight supplies a broader apprehension not exhausted by immediate optical evidence."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality fixed against falsehood supplies the ontic status unaffected by nonappearance."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge with doubt removed supplies the epistemic endpoint beyond present sight."
+              }
+            ],
+            "structural_cues": [
+              "The passage closes its outcome sequence with حَقُّ الْيَقِينِ after the earlier denial of visual perception.",
+              "The demonstrative هَٰذَا gathers the narrated transition and outcomes as the object of the certainty claim."
+            ],
+            "reader_inference": "The packet supplies sensory denial followed by fixed reality and doubtless knowledge; I infer that the perception gap is mode-specific rather than evidence of absence. Alternatively, the closing certainty may confirm the whole outcome sequence without targeting 56:85 in particular.",
+            "changed_reading": {
+              "before": "What the observers cannot see remains epistemically inaccessible.",
+              "after": "Their inability to see identifies a bounded sensory mode; it does not diminish the passage's claim that the unseen transition is fixed reality."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_inverse_birth_threshold",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the birth-nearness branch of ق ر ب and the fetus branch of ج ن ن across surfaces that ordinarily denote comparative nearness and a garden. It remains anchored in أَقْرَبُ and in the packet's throat-to-spirit sequence, which together support a threshold analogy. Downstream prose should present it only as an exploratory inverse-birth image, not as the lexical meaning of the ayah or of جَنَّة.",
+            "focus_anchor": "The focus أَقْرَبُ can activate nearness of birth, while the immediately surrounding sequence locates a life-ending passage at the throat.",
+            "activation_trace": [
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B012",
+                "role": "Nearness of birth turns comparative closeness into imminence at a bodily passage."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as food-and-breath conduit supplies the bodily threshold for the inverse-birth analogy."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B001",
+                "role": "Spirit or life supplies what can be imagined as emerging through the terminal threshold."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B007",
+                "role": "The hidden fetus branch supplies the cross-domain image of emergence from one enclosed mode into another."
+              }
+            ],
+            "changed_reading": {
+              "before": "The nearer unseen presence attends an ending that the companions cannot perceive.",
+              "after": "Exploratorily, the ending can be imaged as an inverse birth: life crosses a throat-threshold into a hidden mode while the nearer presence attends the passage."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The throat-and-looking sequence revises generic nearness into operational access at a terminal bodily threshold.",
+            "The return challenge recasts nearness as effective jurisdiction that visible companions cannot match.",
+            "The later مُقَرَّبِينَ echo extends nearness from threshold position toward conferred rank.",
+            "حَقُّ الْيَقِينِ makes failed eyesight a bounded mode of access rather than evidence of absence."
+          ],
+          "what_was_special": "The focus ayah becomes a hinge between two access regimes: companions can look at the visible body but cannot reach the nearer operation, while the passage moves from concealed text through a concealed transition to classified outcomes and certainty.",
+          "remaining_uncertainties": [
+            "The comparative nearness may be spatial, relational, operational, or several of these at once.",
+            "The concealed-book sequence may genuinely prime the death scene's access boundary or may remain only a useful structural analogy.",
+            "The link from أَقْرَبُ to مُقَرَّبِينَ is lexically strong but does not by itself identify the nearer party with the brought-near person.",
+            "The inverse-birth model depends on branch-distant activation and should remain exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Causal nearness hidden inside visible distance.** `ق ر ب` **B001** supplies nearness opposite distance; `ب ص ر` **B001** supplies seeing with the eye, here negated. The observers are physically present, yet the speaker claims greater nearness. **Abductive move:** I infer that the comparison concerns effective access or agency rather than measurable bodily distance. **Reading change:** proximity is redefined by causal reach.\n\n2. **Privileged access exceeds inner sight.** `ق ر ب` **B004** supplies access and privileged nearness; `ب ص ر` **B002** supplies inner sight. Its negation contrasts sharply with the earlier `المقربون`. **Abductive move:** I infer that those watching lack the perceptual access corresponding to the speaker’s nearness. **Reading change:** the ayah exposes an invisible hierarchy of access at death.",
@@ -3643,18 +4147,23 @@
   "root_lexicon": {
     "root_001212": {
       "root_ar": "ق ر ب",
+      "qac_roots_ar": [
+        "ق ر ب"
+      ],
       "root_id": "root_001212",
-      "root_mapping": {
-        "root_id": "root_001212",
-        "root_norm": "ق ر ب",
-        "source_root_norm": "ق ر ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 77,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ر ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 77
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "50578bdc71ceb78bb28bbc0aca64c6f155e12932d380d311a84f6ed6c7df14e0",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7473,18 +7982,23 @@
     },
     "root_000121": {
       "root_ar": "ب ص ر",
+      "qac_roots_ar": [
+        "ب ص ر"
+      ],
       "root_id": "root_000121",
-      "root_mapping": {
-        "root_id": "root_000121",
-        "root_norm": "ب ص ر",
-        "source_root_norm": "ب ص ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 89,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ص ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 89
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "bd8548d735b8bc972403b9c175d9190b3039abf966922522f5f2f06f623125b7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10022,14 +10536,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10304,11 +10824,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_85.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_85.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 98550,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10380,19 +10913,37 @@
           "root_ids": [
             "root_001212"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ر ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001212",
+            "targets": [
+              {
+                "qac_root_norm": "ق ر ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001212",
+                "furuq_root_norm": "ق ر ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 77,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001212",
-              "root_norm": "ق ر ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ر ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 77,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10417,19 +10968,37 @@
           "root_ids": [
             "root_000121"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ص ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000121",
+            "targets": [
+              {
+                "qac_root_norm": "ب ص ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000121",
+                "furuq_root_norm": "ب ص ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 89,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000121",
-              "root_norm": "ب ص ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ص ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 89,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10456,10 +11025,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 23,
+        "dictionary_branches_kept": 23,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 23,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

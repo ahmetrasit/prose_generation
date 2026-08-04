@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.678623+00:00",
+  "generated_at": "2026-08-04T22:29:59.853068+00:00",
   "surah": 56,
   "ayah": 45,
   "ayahRef": "56:45",
@@ -1747,7 +1747,8 @@
         "m-w-s056-a045-w001-01",
         "m-w-s056-a045-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:45:1"
+      "aligned_qac_word_ref_upstream": "56:45:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1763,7 +1764,8 @@
         "m-w-s056-a045-w002-01",
         "m-w-s056-a045-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:45:2"
+      "aligned_qac_word_ref_upstream": "56:45:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1777,7 +1779,8 @@
       "morpheme_ids": [
         "m-w-s056-a045-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:45:3"
+      "aligned_qac_word_ref_upstream": "56:45:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1791,7 +1794,8 @@
       "morpheme_ids": [
         "m-w-s056-a045-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:45:4"
+      "aligned_qac_word_ref_upstream": "56:45:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1805,7 +1809,8 @@
       "morpheme_ids": [
         "m-w-s056-a045-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:45:5"
+      "aligned_qac_word_ref_upstream": "56:45:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2327,7 +2332,677 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_45.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:45",
+      "window": [
+        "56:41",
+        "56:42",
+        "56:43",
+        "56:44",
+        "56:45",
+        "56:46",
+        "56:47",
+        "56:48",
+        "56:49",
+        "56:50",
+        "56:51",
+        "56:52",
+        "56:53",
+        "56:54",
+        "56:55",
+        "56:56"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:45",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_prior_unrestraint",
+            "confidence": "strong",
+            "focus_anchor": "The construction kanu qabla dhalika mutrafin at words 2-5.",
+            "mechanism": "K-W-N locates a continuing condition in time, Q-B-L orders it before the deictic event, and T-R-F fills that interval with expansive favor that releases its recipient from restraint.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time supply the continuing prior condition."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "Temporal precedence places that condition before the deictic outcome."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Expansive favor that releases its recipient supplies both the ease and its permissive force."
+              }
+            ],
+            "changed_reading": {
+              "before": "They previously lived in luxury.",
+              "after": "Before the indicated outcome, they inhabited a sustained regime of expansive favor that loosened restraint."
+            }
+          },
+          {
+            "model_id": "b_indulged_license",
+            "confidence": "medium",
+            "focus_anchor": "The passive plural state mutrafin at word 5.",
+            "mechanism": "The passive form and the T-R-F branch make privilege something conferred: selective good feeding, pampering, and latitude to do as one wishes. The focus can therefore name an enabled social license rather than possessions alone.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Pampered abundance and being left to act freely supply an externally enabled license."
+              }
+            ],
+            "changed_reading": {
+              "before": "They were affluent people.",
+              "after": "They had been made beneficiaries of selective ease and permissive latitude."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_shelter_honor_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م م",
+              "ح م م",
+              "ظ ل ل",
+              "ب ر د",
+              "ك ر م"
+            ],
+            "mechanism": "The preceding scene reverses the protections implied by T-R-F: penetrating heat replaces ease, smoke-dark cover replaces shelter, and the shade is denied both cooling and honor. Past privilege becomes the exact contrast class for present anti-hospitality.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Expansive, pampering favor supplies the protected condition that the context reverses."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "A penetrating hot wind supplies invasive heat in place of comfortable ease."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B001",
+                "role": "Blackness, charcoal, and smoke turn apparent cover into a dark residue rather than protection."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "Shade as covering supplies the expected protective function that is immediately frustrated."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Coolness opposed to heat names the relief explicitly removed from the cover."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honorable generosity names the dignifying hospitality explicitly withheld."
+              }
+            ],
+            "structural_cues": [
+              "The paired negation in 56:44 removes both cooling and honor from the shade named in 56:43, immediately before the causal focus statement."
+            ],
+            "reader_inference": "The packet supplies penetrating heat, smoke-dark cover, cooling, honor, and explicit negation; I infer that their coordination deliberately reverses T-R-F's protected favor. They could alternatively remain separate punishment descriptors.",
+            "changed_reading": {
+              "before": "Their earlier luxury merely contrasts with later discomfort.",
+              "after": "Their earlier protected and honored ease is answered by a shelter that performs neither protection nor hospitality."
+            }
+          },
+          {
+            "model_id": "d_release_knotted_to_breach",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك و ن",
+              "ص ر ر",
+              "ح ن ث"
+            ],
+            "mechanism": "T-R-F releases the privileged recipient to do as desired, but S-R-R images the following persistence as tightening or knotting, while H-N-TH supplies a breached oath. The sequence forms a paradoxical counter-bond: social release hardens into a will bound to violating obligation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Being left to act as one wishes supplies release from external restraint."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Repeated temporal being carries the same habitual past frame from privilege into persistence."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Tight binding supplies the image of a will knotted around its chosen course."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B002",
+                "role": "Breach of an oath supplies the obligation that this self-made counter-bond violates."
+              }
+            ],
+            "structural_cues": [
+              "56:46 repeats kanu from the focus under wa and follows it with a durative plural verb governing ala, continuing the same group's habitual past."
+            ],
+            "reader_inference": "The packet supplies permissive favor, binding persistence, and oath breach; I supply the developmental arrow from licensed desire to hardened habit. The persistence could have causes independent of privilege.",
+            "changed_reading": {
+              "before": "They enjoyed luxury and separately persisted in grave wrongdoing.",
+              "after": "Being released from restraint trained a counter-bond: their will became knotted around breaching obligation."
+            }
+          },
+          {
+            "model_id": "d_bounded_temporal_exception",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ت",
+              "ب ع ث",
+              "ء و ل",
+              "ء خ ر",
+              "ج م ع",
+              "و ق ت"
+            ],
+            "mechanism": "The focus's prior interval is closed from both ends: death removes present power, resurrection stirs the still, firstness and succession span generations, lastness supplies the other pole, gathering removes dispersion, and appointment limits all of them to a fixed time. Privilege is exposed as a bounded interval mistaken for temporal exemption.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Being present in time supplies the privileged interval."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "Precedence marks that interval as antecedent rather than permanent."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of force and life supplies the interruption that privilege cannot prevent."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Stirring the still from repose supplies the denied restart after interruption."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence supply the opening pole of the generational span."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "One thing following another supplies succession that leaves no privileged cohort outside the sequence."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Lastness after the first supplies the closing pole of the span."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining the dispersed into one collected body cancels generational separation."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B002",
+                "role": "Limitation by a time or endpoint closes the imagined open duration."
+              }
+            ],
+            "structural_cues": [
+              "The question in 56:47-48 moves from the speakers' death to their ancestors, while 56:49-50 answers by pairing first and last and fixing their gathering to a known day."
+            ],
+            "reader_inference": "The packet supplies prior time, death, reawakening, generational poles, gathering, and appointment; I infer that privilege helped them mistake a temporary interval for exemption. Their denial could instead arise from an unrelated doctrine.",
+            "changed_reading": {
+              "before": "They happened to be luxurious earlier.",
+              "after": "They occupied a bounded interval of privilege and mistook its continuity for escape from death, reassembly, and appointed time."
+            }
+          },
+          {
+            "model_id": "d_compulsory_anti_banquet",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ك ل",
+              "ز ق م",
+              "م ل ء",
+              "ب ط ن",
+              "ش ر ب",
+              "ح م م",
+              "ه ي م",
+              "ن ز ل",
+              "د ي ن"
+            ],
+            "mechanism": "T-R-F includes selective feeding with good things; the later sequence converts that privilege into imposed ingestion. Eating becomes swallowing, fullness reaches the body's capacity, drinking is aversive and hot, thirst remains unquenched, and the whole sequence is named prepared guest-provision under recompense.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Selective good feeding and pampered abundance supply the banquet that will be inverted."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Taking food begins the imposed consumption sequence in place of choice feeding."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ز ق م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000636",
+                "branch_id": "B002",
+                "role": "Swallowing and gulping drive the hostile food across the body's threshold."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling until contents equal the vessel turns abundance into invasive excess."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B005",
+                "role": "Belly fullness or ailment locates the excess inside the body and removes ease."
+              },
+              {
+                "source_ref": "56:54",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B005",
+                "role": "Water taken with aversion converts drinking from refreshment to compulsion."
+              },
+              {
+                "source_ref": "56:54",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water supplies the harmful liquid forced into the sequence."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Extreme thirst that cannot be quenched makes consumption compulsively self-renewing."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared provision for an arriving guest labels the sequence as inverted hospitality."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense make the inversion answerable rather than accidental."
+              }
+            ],
+            "structural_cues": [
+              "The fa-linked sequence in 56:53-55 moves from eating to filling, drinking, and repeated drinking; 56:56 points back to the whole sequence as their nuzul."
+            ],
+            "reader_inference": "The packet supplies T-R-F's choice feeding, swallowing, vessel-fullness, aversive hot drink, unquenched thirst, guest-provision, and recompense; I infer a deliberate anti-banquet. The punishments could be cumulative without strict reciprocity.",
+            "changed_reading": {
+              "before": "Their luxury was excessive consumption punished by unpleasant food and drink.",
+              "after": "Their selective, self-directed banquet is reversed into compulsory anti-hospitality: they must ingest to capacity yet can never reach satisfaction."
+            }
+          },
+          {
+            "model_id": "d_collective_privilege",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ش م ل",
+              "ج م ع"
+            ],
+            "mechanism": "The focus's plural privileged subjects are framed as companions, enclosed under one side, and ultimately regathered from dispersion. This activates a social reading in which indulgence is reproduced by a mutually sustaining class rather than merely enjoyed in parallel by isolated persons.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "The plural recipients of permissive abundance supply the privileged social body."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and continued association make the group relational rather than merely numerical."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B001",
+                "role": "Enclosure from all sides supplies a common social classification around the companions."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining the dispersed into a collected whole confirms collective treatment across time."
+              }
+            ],
+            "structural_cues": [
+              "The doubled ashab al-shimal in 56:41 frames the plural pronoun and participle in 56:45, while 56:50 later predicates gathering of plural cohorts."
+            ],
+            "reader_inference": "The packet supplies companionship, encompassing classification, plural privilege, and regathering; I infer that privilege was socially maintained inside the group. The grouping could instead be purely eschatological and say nothing about prior social reproduction.",
+            "changed_reading": {
+              "before": "Several individuals each enjoyed luxury.",
+              "after": "A companioned social bloc sustained a shared regime of permissive privilege and is consequently handled as a collective."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_qabl_confrontation_shadow",
+            "confidence": "exploratory",
+            "containment": "This is surprising because qabl is syntactically temporal here, not a verb of facing or capacity. It remains anchored in Q-B-L's facing and capacity branches and is sharpened by appointed recompense; render it only as a secondary confrontation shadow, never as a replacement translation.",
+            "focus_anchor": "Q-B-L in qabla dhalika at word 3 and the deictic dhalika.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Facing one thing with another gives the temporal relation a secondary spatial confrontation."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B013",
+                "role": "Capacity to meet or repel frames what prior privilege failed to prepare them to confront."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "An appointed meeting-time gives the deictic outcome a bounded point to be faced."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense identify the consequential horizon of that confrontation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Before that is only a chronological locator.",
+              "after": "Without ceasing to be temporal, before that casts prior indulgence as the frontage placed opposite an outcome they had no capacity to meet."
+            }
+          },
+          {
+            "outlier_id": "o_permeable_appetite",
+            "confidence": "exploratory",
+            "containment": "This cross-domain model treats release, entry, and filling as a material analogy, not lexical equivalence. It remains anchored in T-R-F's release and explicit body-entry and filling branches; render it as an image of failed limits, not as a claim that mutraf means porous.",
+            "focus_anchor": "T-R-F in the passive plural mutrafin at word 5.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Abundance that releases its recipient supplies the initial failure of restraint."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B002",
+                "role": "Poison entering the body supplies material penetration after restraint has failed."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Contents equaling vessel-capacity turn limitless appetite into forced saturation."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B001",
+                "role": "The body's interior supplies the breached container in which the reversal is realized."
+              }
+            ],
+            "changed_reading": {
+              "before": "Luxury is possession and consumption beyond need.",
+              "after": "Indulgence is a failure of limits: the recipient is released from restraint, then the consequence images the body as penetrated and filled."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "T-R-F changes neutral comfort into conferred abundance that releases restraint.",
+            "The failed shade and the compulsory anti-banquet reverse the protective, honoring, and alimentary benefits of privilege.",
+            "Repeated kanu and the binding branch of S-R-R turn permissive ease into a will knotted around breach.",
+            "Death, reawakening, gathering, and appointed time close the imagined temporal exemption of the privileged interval."
+          ],
+          "what_was_special": "The single T-R-F branch unusually combines material abundance, selective feeding, pampering, and being left to act at will; the context separately reverses its shelter and food while exposing a possible behavioral consequence.",
+          "remaining_uncertainties": [
+            "The causal arrow from licensed privilege to obstinate breach is reader-supplied even though the repeated habitual frame supports it.",
+            "The anti-hospitality reading depends on linking T-R-F's selective feeding to nuzul and the consumption chain rather than on an explicit lexical equation.",
+            "The Q-B-L confrontation and bodily permeability outliers are secondary overlays, not alternate syntax or lexical definitions."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Prior luxury loosened restraint.** `ت ر ف` **B001** supplies luxury that lets a person loose; `ق ب ل` **B002** supplies priorness and `ك و ن` **B001** a past condition. The next ayah gives persistence in grave wrongdoing as the behavioral result. **Abductive move:** the packet supplies sequence, but I infer the causal arrow from unrestrained luxury to insistence. **Reading change:** luxury is diagnosed by what it releases, not condemned merely as possession.\n\n2. **A condition positioned before reversal.** `ق ب ل` **B001** supplies facing and `ك و ن` **B002** place, position, or rank. The event that lowers and raises turns former ease toward its opposite. **Abductive move:** I infer that `قبل ذلك` sets the prior condition as the face against which the present one is read. **Reading change:** the ayah stages punitive reversal through temporal contrast.",
@@ -3320,18 +3995,23 @@
   "root_lexicon": {
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -4451,18 +5131,23 @@
     },
     "root_001198": {
       "root_ar": "ق ب ل",
+      "qac_roots_ar": [
+        "ق ب ل"
+      ],
       "root_id": "root_001198",
-      "root_mapping": {
-        "root_id": "root_001198",
-        "root_norm": "ق ب ل",
-        "source_root_norm": "ق ب ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 288,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ب ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 288
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "56d95fdacdabd3a8f6caef7f736a82672b72c1e2e67cef0dc9018a9d5ad9d415",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7703,18 +8388,23 @@
     },
     "root_000179": {
       "root_ar": "ت ر ف",
+      "qac_roots_ar": [
+        "ت ر ف"
+      ],
       "root_id": "root_000179",
-      "root_mapping": {
-        "root_id": "root_000179",
-        "root_norm": "ت ر ف",
-        "source_root_norm": "ت ر ف",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 4,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ت ر ف",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ab762a8a24a82b96a8adcfeded2812f3c0ae6a41a04e8827112deb488f1ff937",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8318,14 +9008,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8600,11 +9296,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_45.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_45.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 80631,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8678,19 +9387,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -8702,19 +9429,37 @@
           "root_ids": [
             "root_001198"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ب ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001198",
+            "targets": [
+              {
+                "qac_root_norm": "ق ب ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001198",
+                "furuq_root_norm": "ق ب ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 288,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001198",
-              "root_norm": "ق ب ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ب ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 288,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8739,19 +9484,37 @@
           "root_ids": [
             "root_000179"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ت ر ف",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000179",
+            "targets": [
+              {
+                "qac_root_norm": "ت ر ف",
+                "target_rank": 1,
+                "furuq_root_id": "root_000179",
+                "furuq_root_norm": "ت ر ف",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 4,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000179",
-              "root_norm": "ت ر ف",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ت ر ف",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 4,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 1,
+              "gloss_branch_count": 1,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8778,10 +9541,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 23,
+        "dictionary_branches_kept": 23,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 17,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

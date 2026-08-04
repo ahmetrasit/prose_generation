@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:17.774855+00:00",
+  "generated_at": "2026-08-04T22:29:42.190333+00:00",
   "surah": 19,
   "ayah": 89,
   "ayahRef": "19:89",
@@ -1629,7 +1629,8 @@
       "morpheme_ids": [
         "m-w-s019-a089-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:89:1"
+      "aligned_qac_word_ref_upstream": "19:89:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1643,7 +1644,8 @@
       "morpheme_ids": [
         "m-w-s019-a089-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:89:2"
+      "aligned_qac_word_ref_upstream": "19:89:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1659,10 +1661,25 @@
         "m-w-s019-a089-w002-01",
         "m-w-s019-a089-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:89:3"
+      "aligned_qac_word_ref_upstream": "19:89:3",
+      "morpheme_skip_count": 0
     },
     null,
-    null
+    {
+      "word_index": 4,
+      "surface_ar": "إِدًّۭا",
+      "word_ids": [
+        "w-s019-a089-w004"
+      ],
+      "qac_refs": [
+        "19:89:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a089-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:89:5",
+      "morpheme_skip_count": 1
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -2017,7 +2034,643 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_89.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:89",
+      "window": [
+        "19:77",
+        "19:78",
+        "19:79",
+        "19:80",
+        "19:81",
+        "19:82",
+        "19:83",
+        "19:84",
+        "19:85",
+        "19:86",
+        "19:87",
+        "19:88",
+        "19:89",
+        "19:90",
+        "19:91",
+        "19:92",
+        "19:93",
+        "19:94",
+        "19:95",
+        "19:96",
+        "19:97",
+        "19:98"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:89",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_presented_object",
+            "confidence": "strong",
+            "focus_anchor": "The perfect second-person جِئْتُمْ governs the indefinite object شَيْئًا, which is then qualified by إِدًّا.",
+            "mechanism": "The clause treats the offense as an accomplished presentation: a knowable, reportable object has been brought into the shared field, and its qualification registers force that has already reached an addressee.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B004",
+                "role": "Bringing or presenting an object makes the second-person perfect an accomplished act of presentation."
+              },
+              {
+                "source_ref": "19:89",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "A thing that can be known and reported gives the indefinite object evidentiary contour."
+              },
+              {
+                "source_ref": "19:89",
+                "root": "ء د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000021",
+                "branch_id": "B001",
+                "role": "The mapped delivery-and-reaching image makes the qualification register an effect that has reached beyond its producers."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speakers have merely said something terrible.",
+              "after": "They have brought forth a determinate, confrontable object; the utterance is treated as an accomplished production with delivered force."
+            }
+          },
+          {
+            "model_id": "baseline_arrived_possibility",
+            "confidence": "medium",
+            "focus_anchor": "جِئْتُمْ marks arrival or occurrence, while شَيْئًا can activate the relation between a thing and willing it into determination.",
+            "mechanism": "The perfect arrival converts a formulated possibility into an event: what could remain inward intention or language has crossed into occurrence as a public thing.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Coming and occurring supplies the threshold crossed by the perfect verb."
+              },
+              {
+                "source_ref": "19:89",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "The branch linking thing and volition supplies the movement from formulation toward determinate existence."
+              }
+            ],
+            "changed_reading": {
+              "before": "An objectionable idea remains a speaker's internal or verbal possibility.",
+              "after": "The possibility has arrived as an actual public event for which the plural addressees are responsible."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_recorded_liability",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ك ت ب",
+              "و ر ث"
+            ],
+            "mechanism": "The surrounding sequence turns speech into a durable account: an attribution is uttered, inscribed with binding force, and left as something inheritable. The focus object can therefore function as liability brought forward for discharge rather than as an evanescent sentence.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B004",
+                "role": "Presentation of an object supplies the act of bringing the liability forward."
+              },
+              {
+                "source_ref": "19:89",
+                "root": "ء د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000021",
+                "branch_id": "B002",
+                "role": "The mapped payment-of-a-due image gives the terrible object an exploratory settlement or accountability function."
+              },
+              {
+                "source_ref": "19:88",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "Saying what was not or attributing it identifies the specific speech act that becomes liable."
+              },
+              {
+                "source_ref": "19:79",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "Binding inscription converts spoken material into an enduring adjudicable record."
+              },
+              {
+                "source_ref": "19:80",
+                "root": "و ر ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001639",
+                "branch_id": "B001",
+                "role": "Transfer from predecessor to inheritor makes what remains of the speech persist beyond its speaker's possession."
+              }
+            ],
+            "structural_cues": [
+              "19:79 writes what is said and extends its consequence; 19:80 inherits what is said when the claimant comes alone."
+            ],
+            "reader_inference": "The packet supplies saying, binding inscription, inheritance, and solitary coming; I infer that the same utterance persists as a liability brought for settlement. A live alternative is that speech and punishment are separately recorded rather than one becoming the other.",
+            "changed_reading": {
+              "before": "A terrible object has been produced in the moment of speech.",
+              "after": "The produced object persists as a recorded liability that can be brought back to its speakers for settlement."
+            }
+          },
+          {
+            "model_id": "delta_relational_reclassification",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ت ي",
+              "و ل د",
+              "ء خ ذ",
+              "ع ب د"
+            ],
+            "mechanism": "Taking or acquiring a child is set against everyone coming as a servant. The focus's reportable thing is thus a proposed transfer between incompatible relation classes, not only an unusually bad proposition.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The knowable and reportable thing supplies the proposition whose relational classification is tested."
+              },
+              {
+                "source_ref": "19:88",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Offspring from lineage supplies the filial relation asserted in the proposition."
+              },
+              {
+                "source_ref": "19:88",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Taking and acquisition casts that filial relation as something adopted or possessed."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming supplies the universal counter-procession toward the Merciful."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive service supplies the relation in which every arriver is placed instead."
+              }
+            ],
+            "structural_cues": [
+              "19:88 states acquisition of a child; 19:91 repeats the filial attribution; 19:93 replaces it with universal arrival as servant."
+            ],
+            "reader_inference": "The packet supplies child, acquisition, universal coming, and servanthood; I infer that the juxtaposition exposes a category transfer from servant relation to filial relation. It could alternatively be cumulative rebuttal without a formal taxonomy.",
+            "changed_reading": {
+              "before": "The focus condemns the magnitude of a claim.",
+              "after": "It marks the claim as an attempted relational reclassification, converting the universal servant relation into acquired filiation."
+            }
+          },
+          {
+            "model_id": "delta_acoustic_pressure_bridge",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ز ز",
+              "ه د د"
+            ],
+            "mechanism": "A prior boiling or hissing agitation and a following severe rumble bracket the terse focus. The arrival of the إِدّ object can be heard as a pressure pulse that passes from incitement into cosmological crash.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Arrival and occurrence give the middle pulse an event boundary."
+              },
+              {
+                "source_ref": "19:89",
+                "root": "ء د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000021",
+                "branch_id": "B001",
+                "role": "The mapped reaching image lets the compact qualification carry pressure from speakers toward its effects."
+              },
+              {
+                "source_ref": "19:83",
+                "root": "ء ز ز",
+                "source_word_indices": [
+                  "8",
+                  "9"
+                ],
+                "mapped_root_id": "root_000028",
+                "branch_id": "B002",
+                "role": "Boiling that emits a hiss supplies the upstream sound and agitation."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "ه د د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B004",
+                "role": "A severe sound or rumble supplies the downstream acoustic release of the pressure."
+              }
+            ],
+            "structural_cues": [
+              "The indefinite accusatives أَزًّا, إِدًّا, and هَدًّا form a spaced sound-pattern around the focus."
+            ],
+            "reader_inference": "The packet supplies agitation with hiss, the compact focus form, and terminal rumble; I infer a sonic-pressure continuum. The live alternative is patterned intensification without a causal acoustic bridge.",
+            "changed_reading": {
+              "before": "إِدًّا is only a moral intensity marker.",
+              "after": "It also occupies the pressure-bearing middle of an acoustic sequence, where incited speech arrives and releases as world-shaking rumble."
+            }
+          },
+          {
+            "model_id": "delta_processional_evidence",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ت ي",
+              "ف ر د",
+              "و ف د",
+              "و ر د"
+            ],
+            "mechanism": "Directed group arrivals divide into delegation and driven criminals, then narrow to universal solitary coming. Against that processional field, جِئْتُمْ sounds like an anticipatory arrival at audience, with the produced thing accompanying its makers as evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Coming and occurrence anchor the focus inside the passage's repeated arrival system."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ف د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001665",
+                "branch_id": "B001",
+                "role": "Arrival before one who holds authority supplies the formal audience model."
+              },
+              {
+                "source_ref": "19:86",
+                "root": "و ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001640",
+                "branch_id": "B001",
+                "role": "Coming upon a destination supplies the opposed arrival assigned to the criminals."
+              },
+              {
+                "source_ref": "19:95",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "The repeated coming makes arrival universal rather than confined to the focus addressees."
+              },
+              {
+                "source_ref": "19:95",
+                "root": "ف ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001141",
+                "branch_id": "B001",
+                "role": "The solitary individual removes group cover at the endpoint of the procession."
+              }
+            ],
+            "structural_cues": [
+              "19:85-86 pair gathering and driving toward opposed destinations; 19:93-95 repeat that all come, finally one by one."
+            ],
+            "reader_inference": "The packet supplies formal and driven arrivals followed by solitary coming; I infer that the focus perfect anticipates that audience and that the thing arrives as accompanying evidence. It may instead be only an idiom for committing an enormity.",
+            "changed_reading": {
+              "before": "The rebuke concerns a completed act local to the speakers' present.",
+              "after": "The perfect also stages an advance audience scene: they have already arrived carrying the claim that will identify them when each comes alone."
+            }
+          },
+          {
+            "model_id": "delta_cosmic_load_path",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ط ر",
+              "ش ق ق",
+              "خ ر ر",
+              "ج ب ل",
+              "ه د د"
+            ],
+            "mechanism": "The next ayah resolves the focus object as a propagated load: opening failure begins in the heavens, transfers through the earth, and ends with solid elevated masses falling in demolition. The small indefinite thing carries system-scale stress.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B004",
+                "role": "Bringing an object supplies the introduced stressor whose effects are then unfolded."
+              },
+              {
+                "source_ref": "19:89",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "A reportable thing gives the stressor a compact object-form before its effects expand."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "ف ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001165",
+                "branch_id": "B001",
+                "role": "Opening and splitting initiate structural failure in the heavens."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "ش ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000807",
+                "branch_id": "B001",
+                "role": "Cracking and opening transfer the failure into the earth."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "خ ر ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000402",
+                "branch_id": "B001",
+                "role": "Turbulent audible falling converts mountain stability into motion."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "An elevated solid mass supplies the sequence's most resistant load-bearing body."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "ه د د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B001",
+                "role": "Severe breaking and demolition name the terminal operation on that body."
+              }
+            ],
+            "structural_cues": [
+              "19:90 orders the affected domains as heavens, earth, and mountains, while مِنْهُ points back from their failure to the preceding object."
+            ],
+            "reader_inference": "The packet supplies مِنْهُ and an ordered chain of structural verbs; I infer that the focus thing functions as a transmitted stressor. The imagery may instead measure abhorrence without asserting physical causation.",
+            "changed_reading": {
+              "before": "The indefinite thing is rhetorically enlarged by unrelated cosmic hyperbole.",
+              "after": "It is a compact load introduced into a layered world, with its stress path unpacked from upper enclosure to ground to the hardest visible masses."
+            }
+          },
+          {
+            "model_id": "delta_modal_malformation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك و ن",
+              "ب غ ي"
+            ],
+            "mechanism": "The thing-volition branch meets occurrence and explicit non-fitting. The focus object becomes a malformed possibility that the speakers try to admit into the field of what can properly occur.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "The relation between a thing and willing or producing it supplies the proposed possibility."
+              },
+              {
+                "source_ref": "19:81",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time supply the field into which the proposed relation would be made real."
+              },
+              {
+                "source_ref": "19:92",
+                "root": "ب غ ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000138",
+                "branch_id": "B002",
+                "role": "Fitness and availability for what can appropriately obtain supply the criterion explicitly negated."
+              }
+            ],
+            "structural_cues": [
+              "19:92 uses explicit negation with يَنۢبَغِى before the child-taking construction."
+            ],
+            "reader_inference": "The packet supplies thing-volition, occurrence, and negated fitness; I infer modal malformedness rather than degree alone. The alternative is a purely normative 'not fitting' judgment with no claim about possibility.",
+            "changed_reading": {
+              "before": "إِدًّا says that the proposition is extremely bad.",
+              "after": "The clause diagnoses an attempted but non-fitting possibility: the speakers present as realizable a relation that the context refuses admission into proper occurrence."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_womb_genealogy_collision",
+            "confidence": "exploratory",
+            "containment": "This is surprising because الرَّحْم branch material is activated beneath a lexicalized divine title. It remains valid as a packet-backed collision with the child and malformed-form branches and stays anchored in شَيْئًا إِدًّا; downstream prose should label it a formal branch activation, not claim that the title contextually means womb.",
+            "focus_anchor": "شَيْئًا إِدًّا can receive the branch image of malformed or ugly created form while appraising the immediately preceding filial attribution.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B004",
+                "role": "Deformation and ugliness of created form supply the malformed configuration named by the focus object."
+              },
+              {
+                "source_ref": "19:88",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb branch introduces bodily containment beneath the repeated title and makes genealogy spatially concrete."
+              },
+              {
+                "source_ref": "19:88",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B003",
+                "role": "Birth and delivery of offspring complete the bodily genealogy that the claim projects."
+              }
+            ],
+            "changed_reading": {
+              "before": "The child attribution violates an abstract divine relation.",
+              "after": "Exploratorily, it forces the title of mercy into a bodily womb-and-birth genealogy, producing the malformed configuration called a terrible thing."
+            }
+          },
+          {
+            "outlier_id": "outlier_demolition_implement",
+            "confidence": "exploratory",
+            "containment": "The mapped focus target is ء د ي, so its equipment branch is form-distant from the surface root ء د د. The packet nevertheless authorizes that mapping and the reading remains anchored in إِدًّا and the following demolition; downstream prose must present it as a branch-triggered instrument metaphor, never as an etymology.",
+            "focus_anchor": "The packet-mapped inventory for focus إِدًّا includes an equipment branch, while جِئْتُمْ can present an object.",
+            "activation_trace": [
+              {
+                "source_ref": "19:89",
+                "root": "ء د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000021",
+                "branch_id": "B004",
+                "role": "Equipment, implement, and prepared means supply an instrumental activation to the focus adjective."
+              },
+              {
+                "source_ref": "19:89",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B004",
+                "role": "Bringing and presenting an object lets the utterance arrive equipped for an operation."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "ه د د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B001",
+                "role": "Severe breaking and demolition supply the operation performed by the exploratory implement."
+              }
+            ],
+            "changed_reading": {
+              "before": "إِدًّا only grades the statement's enormity.",
+              "after": "As a contained branch metaphor, the statement arrives like a demolition implement whose operation is unfolded in the next ayah."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Repeated saying, binding inscription, and inheritance turn the focus thing into a durable liability brought for settlement.",
+            "The paired processions and universal solitary coming recast جِئْتُمْ as an advance audience scene in which the claim accompanies its makers.",
+            "مِنْهُ and the ordered fracture sequence turn a compact reportable thing into stress propagated through heavens, earth, and mountains."
+          ],
+          "what_was_special": "The four-word focus acts as a hinge: perfect arrival objectifies speech, while the context fans that object into legal record, relational category error, procession, sound pressure, and structural load without requiring those readings to collapse into one.",
+          "remaining_uncertainties": [
+            "The ء د د to root_000021 (ء د ي) activations are packet-valid but form-distant, so they should remain branch prompts rather than lexical derivations.",
+            "The sonic linkage among أَزًّا, إِدًّا, and هَدًّا may be deliberate patterning or a reader-supplied causal continuity.",
+            "The context supports both normative category error and stronger modal impossibility, but does not force a choice between them."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -2905,18 +3558,23 @@
   "root_lexicon": {
     "root_000281": {
       "root_ar": "ج ي ء",
+      "qac_roots_ar": [
+        "ج ي ء"
+      ],
       "root_id": "root_000281",
-      "root_mapping": {
-        "root_id": "root_000281",
-        "root_norm": "ج ي ء",
-        "source_root_norm": "ج ي ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 278,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ي ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 278
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -2924,18 +3582,23 @@
     },
     "root_000831": {
       "root_ar": "ش ي ء",
+      "qac_roots_ar": [
+        "ش ي ء"
+      ],
       "root_id": "root_000831",
-      "root_mapping": {
-        "root_id": "root_000831",
-        "root_norm": "ش ي ء",
-        "source_root_norm": "ش ي ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 509,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ي ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 509
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -2943,18 +3606,23 @@
     },
     "root_000021": {
       "root_ar": "ء د د",
+      "qac_roots_ar": [
+        "ء د د"
+      ],
       "root_id": "root_000021",
-      "root_mapping": {
-        "root_id": "root_000021",
-        "root_norm": "ء د ي",
-        "source_root_norm": "أ د ي",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء د د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "16ca6428514b44dcf912135ab41e624c75ab2f862d91004abe6024ef62df7e9b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5236,27 +5904,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
       "words_total": 5,
-      "words_resolved": 3,
-      "words_unresolved": 2,
+      "words_resolved": 4,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 3,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 3,
           "surface_ar": "شَيْئَاً",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "إِدًّۭا",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5598,11 +6268,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_89.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_89.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 139330,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -5675,19 +6358,37 @@
           "root_ids": [
             "root_000281"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ي ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000281",
+            "targets": [
+              {
+                "qac_root_norm": "ج ي ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000281",
+                "furuq_root_norm": "ج ي ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 278,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000281",
-              "root_norm": "ج ي ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ي ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 278,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -5699,19 +6400,37 @@
           "root_ids": [
             "root_000831"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ي ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000831",
+            "targets": [
+              {
+                "qac_root_norm": "ش ي ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000831",
+                "furuq_root_norm": "ش ي ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 509,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000831",
-              "root_norm": "ش ي ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ي ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 509,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -5723,19 +6442,37 @@
           "root_ids": [
             "root_000021"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء د د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000021",
+            "targets": [
+              {
+                "qac_root_norm": "ء د د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000021",
+                "furuq_root_norm": "ء د ي",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000021",
-              "root_norm": "ء د ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء د ي",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -5762,10 +6499,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 9,
+        "dictionary_branches_kept": 9,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 9,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

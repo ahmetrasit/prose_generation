@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.527487+00:00",
+  "generated_at": "2026-08-04T22:29:59.714283+00:00",
   "surah": 56,
   "ayah": 42,
   "ayahRef": "56:42",
@@ -1375,7 +1375,8 @@
       "morpheme_ids": [
         "m-w-s056-a042-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:42:1"
+      "aligned_qac_word_ref_upstream": "56:42:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1389,7 +1390,8 @@
       "morpheme_ids": [
         "m-w-s056-a042-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:42:2"
+      "aligned_qac_word_ref_upstream": "56:42:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1403,7 +1405,8 @@
       "morpheme_ids": [
         "m-w-s056-a042-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:42:3"
+      "aligned_qac_word_ref_upstream": "56:42:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1417,7 +1420,8 @@
       "morpheme_ids": [
         "m-w-s056-a042-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:42:4"
+      "aligned_qac_word_ref_upstream": "56:42:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1968,7 +1972,796 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_42.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:42",
+      "window": [
+        "56:41",
+        "56:42",
+        "56:43",
+        "56:44",
+        "56:45",
+        "56:46",
+        "56:47",
+        "56:48",
+        "56:49",
+        "56:50",
+        "56:51",
+        "56:52",
+        "56:53",
+        "56:54",
+        "56:55",
+        "56:56"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:42",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_thermal_medium",
+            "confidence": "strong",
+            "focus_anchor": "The locative construction places the subjects inside two coordinated media, سَمُوم and حَمِيم.",
+            "mechanism": "A penetrating hot wind and heated water form a compound thermal environment: one attacks through moving air and the other through enveloping or contacting liquid.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "The penetrating hot-wind image supplies the mobile gaseous half of the enclosing medium."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "The heated-water image supplies the liquid half of the thermal exposure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two adjacent names for severe heat.",
+              "after": "A two-phase habitat of penetrating hot air and heated liquid."
+            }
+          },
+          {
+            "model_id": "baseline_invasive_body",
+            "confidence": "medium",
+            "focus_anchor": "سَمُوم can image entry through a narrow opening or poison entering the body, while حَمِيم carries bodily effects of heat.",
+            "mechanism": "The pair can be read physiologically: heat finds apertures, enters like poison, and becomes fever, sweat, or internal liquefaction rather than remaining scenery outside the body.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B001",
+                "role": "The narrow aperture and bodily pore image supplies routes by which the environment penetrates."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B002",
+                "role": "The poison-entering-the-body image turns exposure into invasive toxicity."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B004",
+                "role": "The sweat and heat-effect image locates the result on and within the body."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B005",
+                "role": "The fever image gives the invasive heat a systemic bodily form."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subjects stand near punishing heat.",
+              "after": "The subjects are permeated by a toxic thermal condition."
+            }
+          },
+          {
+            "model_id": "baseline_imminent_decree",
+            "confidence": "exploratory",
+            "focus_anchor": "ح م م includes both the nearness and arrival of an affair and its decree or death, while س م م also has a death branch.",
+            "mechanism": "Alongside its material sense, the pair can compress heat, arrival, and death into one present terminal state: what was impending has become the medium they inhabit.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B010",
+                "role": "The death image gives the scorching medium a terminal horizon."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B006",
+                "role": "The nearness and arrival image converts threatened heat into a condition now present."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B010",
+                "role": "The decree-and-death image supplies finality without replacing the material hot-water sense."
+              }
+            ],
+            "changed_reading": {
+              "before": "A description of painful substances.",
+              "after": "A materialized arrival of an already determined terminal condition."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_cohort_enclosure",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ش م ل"
+            ],
+            "mechanism": "The repeated cohort title makes the atmosphere socially assigned as well as spatial: the group is accompanied and surrounded by the very wind-and-water condition that identifies its lot.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "The penetrating hot wind remains the focus medium that the cohort inhabits."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and lasting association make the condition read as attached to a named cohort."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B001",
+                "role": "Envelopment from all sides strengthens the locative فِى into comprehensive atmospheric enclosure."
+              }
+            ],
+            "structural_cues": [
+              "The doubled أَصْحَابُ الشِّمَال immediately precedes the verbless locative phrase in 56:42."
+            ],
+            "reader_inference": "The packet supplies repeated cohort naming, companionship, and all-sided enclosure; I infer that the medium functions as the cohort's attached atmosphere, while the live alternative is that 56:41 only labels the occupants.",
+            "changed_reading": {
+              "before": "Individuals happen to be located amid heat.",
+              "after": "A named cohort is comprehensively enclosed by a condition that accompanies and identifies it."
+            }
+          },
+          {
+            "model_id": "delta_relief_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ظ ل ل",
+              "ح م م",
+              "ب ر د",
+              "ك ر م"
+            ],
+            "mechanism": "The next two ayat turn expected relief into another delivery system for injury: shade becomes black combustion matter, and it is explicitly denied both cooling and beneficent quality.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "The penetrating hot wind establishes the exposure from which shade would normally protect."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "The hot-water image establishes the second thermal medium that ordinarily might soothe or cleanse."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "Protective shade supplies the expected shelter whose function is then reversed."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B001",
+                "role": "Blackness, coal, and smoke turn the offered shade into combustion residue rather than refuge."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "The negated cooling branch removes the primary physical function of shade."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "The negated generosity and honor branch removes any humane or beneficent remainder from the shelter."
+              }
+            ],
+            "structural_cues": [
+              "وَظِلٍّ continues the coordinated locative list, and لَا ... وَلَا applies a double functional negation."
+            ],
+            "reader_inference": "The packet supplies heat, shade, black smoke, and explicit denial of coolness and beneficence; I infer a designed reversal of relief, while the alternative is a simple cumulative list of separate torments.",
+            "changed_reading": {
+              "before": "Hot wind and hot water are two harsh environmental items.",
+              "after": "They belong to a closed anti-refuge system in which every apparent avenue of relief reproduces the injury."
+            }
+          },
+          {
+            "model_id": "delta_persistence_externalized",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ر ف",
+              "ص ر ر",
+              "ح ن ث"
+            ],
+            "mechanism": "Former expansive ease and sustained insistence are answered by an equally sustained but invasive medium: the behavioral refusal to release becomes, by analogy, a condition that will not release its occupants.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B017",
+                "role": "Steadfast persistence lets the hot medium be modeled as a condition that holds to its occupants."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Expansive luxury that lets its possessor loose supplies the former condition now reversed."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Binding and knotting give the repeated insistence a constrictive material analogue."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Determined persistence supplies the temporal behavior transferred to the enduring exposure."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B001",
+                "role": "The grave offense supplies the object of persistence and keeps the analogy morally tethered."
+              }
+            ],
+            "structural_cues": [
+              "قَبْلَ ذَلِكَ contrasts the former condition with the present one, while كَانُوا and يُصِرُّونَ mark durative conduct."
+            ],
+            "reader_inference": "The packet supplies former unbounded ease, habitual insistence, and branches of binding and persistence; I infer a measure-for-measure transfer from conduct to environment, while the alternative is causal juxtaposition without material analogy.",
+            "changed_reading": {
+              "before": "The heat is an externally imposed episode.",
+              "after": "The heat is a tenacious counter-condition whose refusal to let go mirrors their prior refusal to desist."
+            }
+          },
+          {
+            "model_id": "delta_appointed_arrival",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ت",
+              "ب ع ث",
+              "ء و ل",
+              "ء خ ر",
+              "ج م ع",
+              "و ق ت"
+            ],
+            "mechanism": "The denial of post-mortem raising is answered by the convergence of first and last at a fixed appointment, activating the focus branch of ح م م as an affair whose time has drawn near and arrived.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B006",
+                "role": "The arrival and nearness of an affair makes the hot condition the realized appointment."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B010",
+                "role": "Decree and death add terminal determination to the appointment without cancelling the hot-water sense."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of life supplies the boundary the speakers assume cannot be crossed."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "The stirring of what was still supplies the denied reversal that brings them to the focus condition."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "The first cohort supplies one temporal edge of the comprehensive summons."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The last cohort supplies the opposite temporal edge of the comprehensive summons."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Gathering dispersed parts compresses all cohorts into one destined encounter."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "The fixed appointment gives exact temporal structure to the focus branch of imminence."
+              }
+            ],
+            "structural_cues": [
+              "The skeptical question in 56:47-48 is answered by قُلْ and the emphatic لَمَجْمُوعُونَ in 56:49-50."
+            ],
+            "reader_inference": "The packet supplies death, reanimation, total gathering, and a fixed appointment; I infer that the nonthermal ح م م branches resonate with the appointment's realized arrival, while literal hot water remains the primary material referent.",
+            "changed_reading": {
+              "before": "The pair names what the occupants physically undergo.",
+              "after": "The physical condition also embodies the precise arrival they had treated as impossible."
+            }
+          },
+          {
+            "model_id": "delta_ingestive_circuit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ك ل",
+              "ز ق م",
+              "م ل ء",
+              "ب ط ن",
+              "ش ر ب",
+              "ح م م",
+              "ه ي م"
+            ],
+            "mechanism": "Eating, swallowing, belly-filling, and compulsive drinking create an inward circuit. The hot medium surrounding the subjects is routed through mouth and belly until environment and bodily interior are continuous.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B001",
+                "role": "Narrow openings and bodily pores supply the ingress pattern later made explicit by eating and drinking."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B002",
+                "role": "Poison entering the body supplies the toxic logic of the inward route."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water supplies the same focus substance later consumed as drink."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B003",
+                "role": "Melting fat supplies a possible internal effect once the hot liquid enters the body."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Taking food moves the punitive medium from surrounding space toward the body's interior."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ز ق م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000636",
+                "branch_id": "B002",
+                "role": "Swallowing and gulping sharpen the forced passage through the mouth."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling to the capacity of a vessel makes the body a saturated container."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B001",
+                "role": "The belly and inner side explicitly locate the circuit inside the body."
+              },
+              {
+                "source_ref": "56:54",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B001",
+                "role": "Taking liquid carries the focus حَمِيم through the alimentary route."
+              },
+              {
+                "source_ref": "56:54",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "The repeated hot-water branch identifies the ingested liquid with the focus medium."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Unquenchable thirst closes the circuit by making harmful intake continue rather than relieve it."
+              }
+            ],
+            "structural_cues": [
+              "The participial sequence لَآكِلُونَ, فَمَالِئُونَ, فَشَارِبُونَ, فَشَارِبُونَ advances from intake to filling to repeated intake."
+            ],
+            "reader_inference": "The packet supplies an ordered ingestion sequence, bodily filling, repeated حَمِيم, and unrelieved thirst; I infer continuity between the surrounding medium of 56:42 and the later internal route, while the alternative is a sequence of distinct punishments.",
+            "changed_reading": {
+              "before": "The pair describes an atmosphere outside and around the subjects.",
+              "after": "The atmosphere becomes an ingestive loop that penetrates, fills, heats, and compels renewed intake from within."
+            }
+          },
+          {
+            "model_id": "delta_counter_hospitality",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ر م",
+              "ن ز ل",
+              "د ي ن"
+            ],
+            "mechanism": "The explicit denial of generosity and the closing designation of the sequence as prepared guest-provision recast the hot water as a served reception whose every hospitality function has been inverted into recompense.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water supplies the focus substance that later functions as the reception's drink."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Negated generosity and honor mark the shelter and provision as anti-hospitality."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared provision for an arriving guest supplies the reception frame for the whole sequence."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense convert the inverted reception from random cruelty into an answer to prior conduct."
+              }
+            ],
+            "structural_cues": [
+              "The demonstrative هَذَا in 56:56 gathers the preceding food, drink, and environment under نُزُلُهُمْ."
+            ],
+            "reader_inference": "The packet supplies negated generosity, prepared guest-provision, and recompense; I infer a deliberately inverted reception in which حَمِيم is served, while the alternative is that نُزُل means provision without activating a broader hospitality script.",
+            "changed_reading": {
+              "before": "Hot water is one item in an inventory of pain.",
+              "after": "Hot water is the served drink of a counter-hospitality whose shelter, refreshment, and welcome have all reversed."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_combustion_feedback",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the fire-feeding branch of eating is distant from the immediate form 'eaters'; it remains valid as a packet-backed activation anchored in the focus's hot wind and black combustion matter, but downstream prose should present the eater-as-fuel reversal only as a possible secondary mechanism.",
+            "focus_anchor": "سَمُوم supplies penetrating combustion-driving air, and the ح م م inventory supplies black coal and smoke.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "The penetrating hot-wind image supplies moving heat that can sustain a combustion frame."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B001",
+                "role": "Black coal and smoke supply the focus anchor for combustion residue."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B005",
+                "role": "Feeding fire and making it flare allows eating to reverse into an act that feeds the punitive system."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B004",
+                "role": "Interlocking wood supplies a fuel-like material bridge between the tree and combustion."
+              }
+            ],
+            "changed_reading": {
+              "before": "The subjects consume food while enduring an independently existing heat.",
+              "after": "Their consumption may also image a feedback loop in which the eaters continually feed the combustion that surrounds them."
+            }
+          },
+          {
+            "outlier_id": "outlier_toxic_intimacy",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates private-inside and close-relative branches rather than the direct heat senses; it remains anchored in both focus roots and is reinforced by companionship and guest-provision, but downstream prose should mark 'toxic intimacy' as a relational overlay, not a lexical replacement for scorching wind and hot water.",
+            "focus_anchor": "سَمُوم activates what enters the private interior, while حَمِيم can name an intimate or close relative.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B003",
+                "role": "The private quality lodged inside makes the harmful medium invasively intimate."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B011",
+                "role": "The close and affectionate relative image supplies the intimacy that the hot medium grotesquely occupies."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship makes the harmful condition read as an inseparable associate."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Guest-provision supplies a social setting in which expected care is replaced by invasive harm."
+              }
+            ],
+            "changed_reading": {
+              "before": "The punishment is hostile because it is physically extreme.",
+              "after": "The punishment may also be hostile by occupying the positions of companion, intimate, and host-provision while entering the body's private interior."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The following shade and double negation turn the pair into a closed anti-refuge system rather than a loose list of hot substances.",
+            "The eating-to-filling-to-drinking sequence turns external exposure into an inward bodily circuit.",
+            "The final نُزُل and دِين frame the hot water as served counter-hospitality and recompense."
+          ],
+          "what_was_special": "The focus roots support both direct thermal senses and ingress, bodily, temporal, and relational branches; context progressively activates these without requiring the material reading to be abandoned.",
+          "remaining_uncertainties": [
+            "The appointment and persistence readings depend on secondary ح م م branches and should remain layered over the primary hot-water sense.",
+            "The combustion feedback is mechanically coherent but depends on a form-distant branch of ء ك ل.",
+            "The toxic-intimacy model is strongly anchored at branch level but remains a social overlay rather than a likely standalone rendering."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Penetrating heat outside and within.** `س م م` **B004** supplies penetrating hot wind and **B001** a narrow opening of entry; `ح م م` **B002** supplies hot water and **B004** heat effects. The preposition `في` places the group inside both media. **Abductive move:** I infer that wind enters through openings and hot liquid enters by drinking, producing total exposure. **Reading change:** the punishment operates through complementary external and internal penetration.\n\n2. **Imminence made environmental.** `ح م م` **B006** supplies nearness or imminence and **B010** being decreed or death close. **Abductive move:** I infer that the hot medium also embodies the once-denied event’s arrival. **Reading change:** `حميم` can carry not only temperature but the closeness of the appointed outcome.",
@@ -2761,18 +3554,23 @@
   "root_lexicon": {
     "root_000743": {
       "root_ar": "س م م",
+      "qac_roots_ar": [
+        "س م م"
+      ],
       "root_id": "root_000743",
-      "root_mapping": {
-        "root_id": "root_000743",
-        "root_norm": "س م م",
-        "source_root_norm": "س م م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 4,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س م م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6a2fb3cda292967c5514a02b30b4f17e5cf885d767eb40d6fda0c28bc5ee80a5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6094,18 +6892,23 @@
     },
     "root_000001": {
       "root_ar": "ح م م",
+      "qac_roots_ar": [
+        "ح م م"
+      ],
       "root_id": "root_000001",
-      "root_mapping": {
-        "root_id": "root_000001",
-        "root_norm": "ح م م",
-        "source_root_norm": "ح م م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 21,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح م م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 21
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "fd601694210f66c94d0786ac6f54b12e858a359d3549b7dffd016ec684bb3d17",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10228,14 +11031,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10507,11 +11316,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_42.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_42.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 88922,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10584,19 +11406,37 @@
           "root_ids": [
             "root_000743"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س م م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000743",
+            "targets": [
+              {
+                "qac_root_norm": "س م م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000743",
+                "furuq_root_norm": "س م م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 4,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000743",
-              "root_norm": "س م م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 4,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10621,19 +11461,37 @@
           "root_ids": [
             "root_000001"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح م م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000001",
+            "targets": [
+              {
+                "qac_root_norm": "ح م م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000001",
+                "furuq_root_norm": "ح م م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 21,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000001",
-              "root_norm": "ح م م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح م م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 21,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10660,10 +11518,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 30,
+        "dictionary_branches_kept": 30,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 30,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

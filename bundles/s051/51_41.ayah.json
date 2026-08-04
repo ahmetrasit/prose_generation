@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.351756+00:00",
+  "generated_at": "2026-08-04T22:29:47.751166+00:00",
   "surah": 51,
   "ayah": 41,
   "ayahRef": "51:41",
@@ -2164,7 +2164,8 @@
       "morpheme_ids": [
         "m-w-s051-a041-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:41:1"
+      "aligned_qac_word_ref_upstream": "51:41:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2178,7 +2179,8 @@
       "morpheme_ids": [
         "m-w-s051-a041-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:41:2"
+      "aligned_qac_word_ref_upstream": "51:41:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2192,7 +2194,8 @@
       "morpheme_ids": [
         "m-w-s051-a041-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:41:3"
+      "aligned_qac_word_ref_upstream": "51:41:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2206,7 +2209,8 @@
       "morpheme_ids": [
         "m-w-s051-a041-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:41:4"
+      "aligned_qac_word_ref_upstream": "51:41:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2222,7 +2226,8 @@
         "m-w-s051-a041-w004-01",
         "m-w-s051-a041-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:41:5"
+      "aligned_qac_word_ref_upstream": "51:41:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2238,7 +2243,8 @@
         "m-w-s051-a041-w005-01",
         "m-w-s051-a041-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:41:6"
+      "aligned_qac_word_ref_upstream": "51:41:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2254,7 +2260,8 @@
         "m-w-s051-a041-w006-01",
         "m-w-s051-a041-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:41:7"
+      "aligned_qac_word_ref_upstream": "51:41:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2270,7 +2277,8 @@
         "m-w-s051-a041-w007-01",
         "m-w-s051-a041-w007-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:41:8"
+      "aligned_qac_word_ref_upstream": "51:41:8",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3320,7 +3328,754 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_41.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:41",
+      "window": [
+        "51:38",
+        "51:39",
+        "51:40",
+        "51:41",
+        "51:42",
+        "51:43",
+        "51:44",
+        "51:45",
+        "51:46",
+        "51:47",
+        "51:48",
+        "51:49",
+        "51:50",
+        "51:51",
+        "51:52",
+        "51:53",
+        "51:54",
+        "51:55",
+        "51:56",
+        "51:57",
+        "51:58",
+        "51:59",
+        "51:60"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:41",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_directed_barren_dispatch",
+            "confidence": "strong",
+            "focus_anchor": "عَادٍ ... أَرْسَلْنَا عَلَيْهِمُ ٱلرِّيحَ ٱلْعَقِيمَ",
+            "mechanism": "Aad is the named recipient of a released atmospheric agent whose defining sterility is failure to pollinate or carry rain; its dispatch therefore yields destruction rather than benefit.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ع و د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001058",
+                "branch_id": "B012",
+                "role": "The proper-name branch fixes Aad as the collective recipient of the dispatch."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Release and sending supply the directed launch of the agent."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "Wind and moving air supply the physical carrier."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B002",
+                "role": "The rainless, non-pollinating destructive wind supplies failed generativity as its operative quality."
+              }
+            ],
+            "changed_reading": {
+              "before": "A wind was sent against Aad.",
+              "after": "A deliberately dispatched carrier reaches Aad with inverted yield: it produces destruction precisely by carrying no rain or fertilizing power."
+            }
+          },
+          {
+            "model_id": "baseline_anti_breath",
+            "confidence": "medium",
+            "focus_anchor": "ٱلرِّيحَ ٱلْعَقِيمَ",
+            "mechanism": "The wind shares a root field with breath, life, rest, and vegetative unfolding, while barrenness closes womb, offspring, and bodily articulation. The phrase can therefore stage an anti-breath that reverses opening and renewal into closure.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B001",
+                "role": "Breath or spirit supplies the life-bearing pole inverted by this wind."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B017",
+                "role": "The unfolding of leaves and lengthening of plants supplies the growth normally associated with life-giving air."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B001",
+                "role": "Sterility of womb and offspring supplies blocked continuation."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B003",
+                "role": "Dried joints and blocked loins turn generative closure into bodily immobilization."
+              }
+            ],
+            "changed_reading": {
+              "before": "The adjective merely says that the wind is infertile.",
+              "after": "The phrase presents a life-associated medium turned against life, replacing breath, growth, and articulation with closure."
+            }
+          },
+          {
+            "model_id": "baseline_sterile_delivery",
+            "confidence": "exploratory",
+            "focus_anchor": "أَرْسَلْنَا ... ٱلرِّيحَ ٱلْعَقِيمَ",
+            "mechanism": "Sending can carry a message and proceed in successive units, while barrenness blocks offspring. The construction permits a delivery paradox: arrival succeeds, but nothing beneficial or continuing can issue from it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message supply delivery as a possible functional frame for the sent wind."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B005",
+                "role": "Successive dispatched units supply serial transmission rather than an undirected gust."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B001",
+                "role": "Blocked offspring makes the delivered event terminate continuation instead of founding it."
+              }
+            ],
+            "changed_reading": {
+              "before": "The wind is only a weapon that happens to be sent.",
+              "after": "The wind is a successful delivery whose content is failed continuation: it arrives in order to leave no generative sequel."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_natural_emissary",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ب ي ن",
+              "س ح ر",
+              "ج ن ن",
+              "و ص ي"
+            ],
+            "mechanism": "The same dispatch field first carries a human messenger with disclosure and later recurs in the formula that every messenger was dismissed as sorcerer or madman. The wind can consequently function as a nonverbal emissary whose arrival embodies the warning that rejected speech did not transmit.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "The focus dispatch supplies the common action linking wind and envoy."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "The physical wind supplies the nonhuman bearer of the enacted warning."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "The messenger and message branch, instantiated by the human sending, makes the shared dispatch potentially communicative."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "Disclosure by speech or sign supplies the explicit evidentiary function of the earlier mission."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "The recurring messenger formula turns the focus dispatch into one position within a repeated warning pattern."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B002",
+                "role": "Recasting a message as deceptive diversion supplies one mode of failed verbal reception."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "The charge of concealed reason supplies the other repeated strategy for refusing the messenger."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Mutual transmission of the same response makes rejection itself the message that peoples successfully pass onward."
+              }
+            ],
+            "structural_cues": [
+              "51:38 and 51:41 repeat the frame وَفِي ... إِذْ أَرْسَلْنَا, but the dispatched object changes from a human envoy to wind and the relation changes from إِلَى to hostile عَلَيْهِم.",
+              "51:52-53 generalizes the sorcerer-or-madman response across messengers and asks whether successive peoples transmitted it to one another."
+            ],
+            "reader_inference": "The packet supplies parallel dispatch grammar, manifest disclosure, and repeated rejection; I infer that the wind enacts a warning after verbal reception fails. A live alternative is that the parallel marks only common divine agency, with no communicative role assigned to the wind.",
+            "changed_reading": {
+              "before": "The wind is a mute instrument following an unrelated messenger story.",
+              "after": "The wind becomes an embodied, nonverbal emissary in the same dispatch sequence, making rejected warning physically undeniable."
+            }
+          },
+          {
+            "model_id": "delta_active_decomposition",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ذ ر",
+              "ء ت ي",
+              "ج ع ل",
+              "ر م م"
+            ],
+            "mechanism": "The next ayah gives the wind a totalizing encounter rule: it leaves nothing it reaches without making it decayed remains. Barrenness is therefore not passive lack of fertility but active conversion of formed things into nonproductive residue.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "The wind supplies the mobile agent whose path is elaborated in the next ayah."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B002",
+                "role": "The destructive non-pollinating wind supplies the focus quality that the sequel turns into a process."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "Leaving or abandoning supplies the negated escape condition: no encountered thing is left intact."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B011",
+                "role": "The coming of affliction or destruction makes contact with the wind an arrival of ruin."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Causing a thing to enter a state supplies the transformation from encountered object to residue."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "Decay and worn remains supply the terminal material state produced by the wind."
+              }
+            ],
+            "structural_cues": [
+              "51:42 refers back with feminine verbs to the wind and uses the exhaustive pattern مَا ... مِن شَيْءٍ ... إِلَّا.",
+              "The verbal sequence reaches, makes, and decayed remains converts an adjective in 51:41 into a causal operation."
+            ],
+            "reader_inference": "The packet supplies exhaustive scope, encounter, causative change, and decay; I infer the arrow contact leads to irreversible de-formation. The live alternative is that the final comparison describes only visible appearance, not literal material conversion.",
+            "changed_reading": {
+              "before": "Barren means the wind simply contributes no rain or growth.",
+              "after": "Its barrenness is productive in reverse: every successful encounter manufactures decay and removes the capacity for further form."
+            }
+          },
+          {
+            "model_id": "delta_counter_creation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ن ي",
+              "و س ع",
+              "ف ر ش",
+              "خ ل ق",
+              "ز و ج"
+            ],
+            "mechanism": "The pericope pivots from ruin to building the sky, widening, spreading the earth, creating, and pairing everything. Within that productive architecture, the barren wind becomes a marked counter-creation: a locally sent process that disjoins and closes where creation joins, expands, and pairs.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B017",
+                "role": "Air-associated vegetal unfolding supplies the productive possibility denied by this wind."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B001",
+                "role": "Blocked offspring supplies the focus-level negation of generative pairing."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ب ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000156",
+                "branch_id": "B001",
+                "role": "Building by joining parts supplies constructive integration opposite the wind's de-formation."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "و س ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001647",
+                "branch_id": "B001",
+                "role": "Expansion against constriction supplies the cosmic scale of productive opening."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and preparing a surface supplies habitable extension rather than stripping to residue."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing creation into existence supplies the positive process inverted by destructive barrenness."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B001",
+                "role": "Joining each counterpart to its mate supplies the generative relation that barrenness blocks."
+              }
+            ],
+            "structural_cues": [
+              "The destruction sequence in 51:41-46 pivots directly into first-person-plural building, spreading, and creating in 51:47-49.",
+              "The singular adjective ٱلْعَقِيمَ is followed by the universal paired-creation claim مِن كُلِّ شَيْءٍ خَلَقْنَا زَوْجَيْنِ."
+            ],
+            "reader_inference": "The packet supplies constructive joining, widening, spreading, creation, and pairing; I infer that their sequence deliberately marks the barren wind as local counter-creation. A live alternative is that 51:47-49 begins an independent proof unit and heightens contrast without directly glossing the wind.",
+            "changed_reading": {
+              "before": "The wind is an isolated destructive weather event.",
+              "after": "The wind is a bounded inversion inside a generative cosmos: it closes pairing and dismantles form under the same agency that builds and expands."
+            }
+          },
+          {
+            "model_id": "delta_withheld_provision",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ز ق",
+              "ط ع م",
+              "ق و ي",
+              "م ت ن"
+            ],
+            "mechanism": "The closing context denies any divine need for provision or feeding and names God as provider, while the provision inventory includes rain. Strength and firmness then prevent barrenness from reading as incapacity: the rainless wind is a selective withholding and reversal of meteorological provision.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B002",
+                "role": "The wind that carries no rain supplies the withheld meteorological yield."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Provision as an apportioned gift supplies the category explicitly denied as a divine need."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the nutritive transfer that creatures cannot provide to the sender."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "Rain descending as provision directly activates the beneficial cargo absent from the barren wind."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Concentrated strength rules out inability as the reason the wind bears no rain."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "م ت ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001396",
+                "branch_id": "B001",
+                "role": "Extended solidity supplies sustained capacity behind both provision and its withholding."
+              }
+            ],
+            "structural_cues": [
+              "51:57-58 place provision and feeding under explicit negation of divine need, then assert provider, strength, and firmness.",
+              "The branch equation of rain with provision retrospectively sharpens the focus inventory's definition of the barren wind as rainless."
+            ],
+            "reader_inference": "The packet supplies rain-as-provision, denied divine need, and undiminished strength; I infer that absent rain is chosen withholding rather than failed capacity. A live alternative is that the provider passage governs worship alone and does not retrospectively classify the wind.",
+            "changed_reading": {
+              "before": "The wind lacks a useful payload.",
+              "after": "The sender who owns rain-provision deliberately sends this carrier without it, turning a normal channel of sustenance into discriminating deprivation."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_recurrent_allotment",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates return and counting branches behind a proper name. It remains anchored to عَادٍ and is reinforced by later mutual transmission, likeness, allotted share, and appointed-time language, but downstream prose must preserve Aad as the tribal referent and present recurrence only as secondary root resonance, not etymology.",
+            "focus_anchor": "عَادٍ at 51:41 word 2, first resolved by its explicit tribal-name branch.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ع و د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001058",
+                "branch_id": "B012",
+                "role": "The explicit Aad branch keeps the proper name primary and contains all secondary resonance."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع و د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001058",
+                "branch_id": "B001",
+                "role": "Return after departure supplies a faint recurrence image around the named case."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع و د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "The split mapped root's counting branch supplies the possibility of Aad as one enumerated instance in a series."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Mutual bequeathing supplies continuity of the same rejection across otherwise separate peoples."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Likeness and counterpart relation make earlier companions a repeatable comparison class."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B006",
+                "role": "An allotted share supplies each group's portion within the recurring pattern."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment fixed by time supplies the bounded arrival of each threatened outcome."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "The non-dominant counting target's timed recurrence sharpens the serial-allotment resonance."
+              }
+            ],
+            "changed_reading": {
+              "before": "عَادٍ only identifies one destroyed people.",
+              "after": "Without ceasing to be the proper name, Aad can faintly resonate as one counted recurrence in a serial pattern of transmitted rejection and allotted outcome."
+            }
+          },
+          {
+            "outlier_id": "outlier_barren_speech",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it transfers a branch for opaque, derivationally closed speech to an adjective syntactically modifying wind. It remains anchored to the focus pair of sending and barrenness and to the context's messenger, disclosure, and repeated rejection pattern; downstream prose must label it a functional analogy, never the lexical meaning of ٱلرِّيحَ ٱلْعَقِيمَ.",
+            "focus_anchor": "The construction أَرْسَلْنَا ... ٱلرِّيحَ ٱلْعَقِيمَ links dispatch with the unusual speech branch inside ع ق م.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Message-bearing dispatch supplies the communicative side of the analogy."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "The literal wind keeps the analogy attached to the actual syntactic noun."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B010",
+                "role": "Opaque speech from which no derivation proceeds supplies communicative closure as an exploratory image."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "Disclosure through speech or sign supplies the intended openness against which barren communication is measured."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "The repeated arrival of messengers supplies the communicative sequence that human audiences close."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Uttered response supplies the verbal channel in which rejection is repeatedly voiced."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Mutual bequeathing shows that rejection reproduces socially even while reception of warning remains closed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The wind is mute punishment outside the discourse of warning.",
+              "after": "As a contained analogy, it is a final message barren of dialogue and sequel: destructive clarity replaces speech that audiences repeatedly close or distort."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "51:42 turns absent fertility into active conversion of every encountered thing into decayed remains.",
+            "The messenger pattern in 51:38 and 51:52 recasts the wind as an embodied nonverbal dispatch after verbal warning is rejected.",
+            "51:47-49 marks the barren wind as counter-creation within a cosmos of joining, expansion, spreading, and pairing.",
+            "51:57-58 makes rainlessness selective withholding of provision rather than lack of power."
+          ],
+          "what_was_special": "The strongest activation was the paradox of a medium associated with breath, growth, and message being successfully sent to terminate generation. Split-root echoes around عَادٍ also preserve a tightly contained recurrence reading.",
+          "remaining_uncertainties": [
+            "The messenger analogy may arise from parallel grammar and sequence rather than an intended personification of the wind.",
+            "The paired-creation and provision passages may heighten contrast without directly glossing ٱلْعَقِيمَ.",
+            "Return and counting resonance in the proper name عَادٍ must remain secondary to its tribal reference.",
+            "The barren-speech branch is a functional cross-domain analogy, not a lexical claim about the phrase."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A dispatched wind that cannot transmit life.** `ع و د/B012` anchors the named people ʿĀd; `ر س ل/B001` supplies sending forth; `ر و ح/B003` wind; `ع ق م/B002` a sterile wind that pollinates neither trees nor clouds and may destroy. Against sky-provision in 51:22, I infer **withheld fertility -> moving air becomes anti-provision**. The wind is defined not merely by violence but by failure to carry generative benefit.\n2. **Power is reversed against a powerful group.** `ر و ح/B011` supplies force/dominance, while the prior Pharaoh scene has relied-on force and gathered troops. I infer **dominant collective meets a greater released force -> its power fails to reproduce itself**. This political overtone remains beside the ecological sterility reading.",
@@ -4163,18 +4918,23 @@
   "root_lexicon": {
     "root_001058": {
       "root_ar": "ع و د",
+      "qac_roots_ar": [
+        "ع و د"
+      ],
       "root_id": "root_001058",
-      "root_mapping": {
-        "root_id": "root_001058",
-        "root_norm": "ع و د",
-        "source_root_norm": "ع و د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 35,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع و د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 35
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f184c2580a492d53ebdfd46f4ad4b0ba0b3a6595ff5e5922d1437177b269d714",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7327,20 +8087,2306 @@
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_001058.json"
     },
+    "root_000989": {
+      "root_ar": "ع و د",
+      "qac_roots_ar": [
+        "ع و د"
+      ],
+      "root_id": "root_000989",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع و د",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "a802ff22c0561ef5e4fa5805af2b48e524aaacb77018540ac6c1220c74d85315",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000989",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000989/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bir şeyi tek tek sayıp miktarını belirleme çekirdeğini; sayı, sayılan şey, sayıca çokluk ve bir topluluk içinde sayılma kullanımlarıyla birlikte açıkça destekler. Geçici çerçeve bu kapsamı başka dallardaki hazırlama, bekleme süresi, su ve zaman anlamlarından doğru biçimde ayırır.",
+              "boundary_note": "Çekirdek sayma ve sayıyla belirlemedir; hazırlama, zaman bekleme, kalıcı su ve dönemsel yineleme bu dala girmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım sayma çekirdeğini temel alır; topluluk içinde sayılma ve belli bir sayıyı aşma yalnızca kendi kalıplarıyla sınırlı tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir şeyi tek tek sayarak miktarını belirleme; bu işlemin sonucu olan sayı, sayılan varlıkların sayıca niteliği ve bir kimseyi ya da şeyi belirli bir topluluk içinde sayma alanıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Sayma sonucundaki miktar, sayı ve sayılmış ya da sınırlandırılmış varlık.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Sayıca çokluğu belirtme veya birini belirli bir topluluğun üyeleri arasında sayma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu tanıklık, sayma işlemini temel alır ve bundan sayı, sayılan şey, sayıca çokluk ve bir topluluğa dahil sayılma kullanımlarını geliştirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "sayma, sayı ve sayıya göre bir topluluğa katma",
+              "applicability": "Sayma işlemiyle onun doğrudan sonuçlarını ve sayıya dayalı topluluk üyeliğini birlikte anlatan kapsayıcı karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Sayma işlemini, ortaya çıkan miktarı ve topluluk içinde sayılma bağını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "sayıp miktarını belirlemek",
+                "usage_role": "general",
+                "applicability": "Bir nesne topluluğunun kaç birimden oluştuğunun belirlenmesi bağlamında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Sayma eylemini ve miktarı belirleme sonucunu birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "sayı ve sayılan miktar",
+                "usage_role": "contextual",
+                "applicability": "Eylemden çok sayma sonucunu veya sayıyla sınırlandırılmış varlığı anlatan bağlamlara uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Sayma sonucundaki sayı ve miktar değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "arasında sayılmak",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin belirli bir topluluğa dahil kabul edildiği kalıplaşmış bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Bir topluluğun üyeleri içinde sayılma ilişkisini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şeyi sayıp miktarını belirlemek"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sayı; sayılanın miktarı"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sayıca çokluk"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sayılmış veya sayıyla sınırlandırılmış"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "iyiler arasında sayılmak"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "az ya da çok sayıda topluluk"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sayıları on bini aşmak"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000318/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Sayı, sayılan varlık, sayıca çokluk ve bir topluluğun içinde sayılma kullanımlarını da kapsar.",
+                "neighbor_only": "Hesaplaşma, tahmin ve gök cisimlerinin hesabı gibi daha geniş hesap alanlarına uzanır.",
+                "gloss": "sayma ve hesaplama",
+                "shared_zone": "Her iki dal da nesneleri sayma ve sayısal bir sonuç elde etme alanında örtüşür.",
+                "distinction": "Odak dalı saymanın kendisiyle sayı ve üyelik sonuçlarını birlikte taşır; komşu dal ise hesabı, hesaplaşmayı ve tahmini de içerdiği için bütünüyle birbirinin yerine geçmez."
+              },
+              {
+                "neighbor_ref": "root_000260/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Tek tek sayma, sayısal miktar ve sayıya göre topluluğa katma işlemlerini bildirir.",
+                "neighbor_only": "Dağınık parçaları ayrıntılandırmadan tek bir bütün veya genel toplam halinde birleştirir.",
+                "gloss": "toplam ve bütün",
+                "shared_zone": "Sayılmış parçaların bir sonuçta toplanması iki alan arasında sınırlı bir temas kurar.",
+                "distinction": "Odak dalında birimleri sayma belirleyicidir; komşuda ise sayma gerekmeksizin parçaları topluca ve ayrıntısız biçimde kapsama esastır."
+              },
+              {
+                "neighbor_ref": "root_000989/B006",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Varlıkları sayıp miktar belirlemeyi ve bir topluluk içinde saymayı kapsar.",
+                "neighbor_only": "Karşılıklı paydaşlık, pay veya iki kişinin birbirine denk sayılması ilişkisini kapsar.",
+                "gloss": "sayma ile karşılıklı sayılma",
+                "shared_zone": "İki dalda da bir kişi ya da şey başkalarıyla birlikte değerlendirilip sayılabilir.",
+                "distinction": "Odak dalının çekirdeği sayısal belirlemedir; komşu dalın çekirdeği ise paydaşlar veya denkler arasında kurulan karşılıklı ilişkidir."
+              }
+            ],
+            "neighbor_coverage_note": "Verilen komşu adaylarının tümü incelendi; sayma ile hesap, bütünleme ve karşılıklı sayılma arasındaki en açıklayıcı üç sınır yayımlandı.",
+            "branch_image_ar": "إحصاء المعدود",
+            "what_is_ar": "الإحصاء وضم الأعداد واسم العدد والمعدود والكثرة أو القلة من جهة كون الشيء يحصى أو يعد في جماعة",
+            "what_is_not_ar": "ليس إعداد الشيء وتهيئته ولا عدة المرأة ولا الماء العد ولا العداد الزماني",
+            "source_phrase_ar": "عددت الشيء عدا أي أحصيته (maqayis;ayn;sihah;tahdhib)؛ العدد مقدار ما يعد (maqayis)؛ العديد الكثرة (maqayis;ayn;sihah;tahdhib)؛ فلان في عداد الصالحين (maqayis;ayn;sihah)؛ العدد آحاد مركبة (mufradat)",
+            "sources": [
+              "MQ",
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000989/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi bir şeyi gelecekteki bir iş veya olay için hazırlamayı, hazır ve erişilebilir duruma getirmeyi, ayrıca ihtiyaç anı için mal, silah ve gereç ayırmayı ortak bir çekirdekte birleştirir. Geçici dal kimliği bu işlemi sayma ve öteki dallardan doğru biçimde ayırmaktadır.",
+              "boundary_note": "Bu dal gelecekteki ihtiyaç için hazırlamadır; sayısal sayma, hukuki bekleme süresi veya yalnızca mevcut bulunma anlamı değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım çıplak hazırlama anlamını verir; belirli bir kalıba özgü kapsam eklemez ve hazırlanan araçları yalnızca desteklenen örnekler olarak tutar."
+            },
+            "concept_map": {
+              "definition": "Bir şeyi ileride doğacak bir iş veya ihtiyaç için önceden hazırlamak, gerektiğinde kullanılabilecek biçimde hazır tutmak ve bu amaçla mal, silah ya da başka gereç ayırmaktır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şeyi gelecekteki belirli bir iş veya olay için önceden hazırlamak.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "İhtiyaç anı için mal, silah veya başka bir gereci ayırıp hazır tutmak.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Hazırlanan şeyi gerektiğinde erişilip alınabilecek bir durumda bulundurmak.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu tanıklık, önceden hazırlama ve hazır tutma çekirdeğinde birleşir; ayrılan mal, silah ve gereçler yaklaşan ihtiyaçlara yönelik somut uygulamalardır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "gelecekteki bir iş için hazırlama ve hazır bulundurma",
+              "applicability": "Genel hazırlama eylemini, ihtiyaç için kaynak ayırmayı ve kullanılabilir durumda tutmayı birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Önceden hazırlama amacını, gelecekteki ihtiyacı ve hazır tutma sonucunu korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "önceden hazırlamak",
+                "usage_role": "general",
+                "applicability": "Bir şeyin ilerideki belirli bir iş için uygun duruma getirilmesini anlatır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Gelecekteki işe yönelik ön hazırlama işlemini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "gerektiğinde kullanmak üzere hazır tutmak",
+                "usage_role": "contextual",
+                "applicability": "Hazırlanan şeyin ihtiyaç anında erişilebilir ve kullanılabilir tutulduğu bağlamlara uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hazırlanan şeyin erişilebilir ve kullanıma hazır tutulmasını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              },
+              {
+                "text": "gereç ve kaynak ayırmak",
+                "usage_role": "contextual",
+                "applicability": "İlerideki olaylar için mal, silah veya başka araçların önceden ayrılması bağlamında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "İhtiyaca yönelik somut araç ve kaynak ayırma işlemini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şeyi ilerideki iş için hazırlamak"
+              },
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ilerideki ihtiyaç için hazırlanmış mal, silah veya gereç"
+              },
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir işe hazırlanmak ve donanmak"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000566/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Her türlü gelecek iş için hazırlama ile araç ve kaynakları hazır tutmayı genel olarak kapsar.",
+                "neighbor_only": "Bir şeyi belirli bir kişi, borç veya karşılık için özellikle ayırıp gözetme anlamını taşır.",
+                "gloss": "hazırlama ve belirli amaç için ayırma",
+                "shared_zone": "İki dal da bir şeyi ilerideki kullanım için önceden hazır hale getirmeyi içerir.",
+                "distinction": "Odak dalı genel hazırlama ve donanım alanıdır; komşu dalda hazırlanan şeyin belirli bir alıcıya, borca veya karşılığa bağlanması daha belirleyicidir."
+              },
+              {
+                "neighbor_ref": "root_000978/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Hazırlama eylemini ve gelecekteki olay için kaynak ayırmayı öne çıkarır.",
+                "neighbor_only": "Hazır, yakın ve elde bulunan durum ile sürekli el altında tutulan donanımı da adlandırır.",
+                "gloss": "hazırlamak ve hazır bulunmak",
+                "shared_zone": "Her iki dal da bir şeyin ihtiyaç anında kullanılmaya hazır olmasını anlatabilir.",
+                "distinction": "Odak dalında amaçlı hazırlama işlemi merkezdeyken komşuda hazır bulunma durumu ve el altındaki donanım daha geniş bir yer tutar."
+              },
+              {
+                "neighbor_ref": "root_000970/B021",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Beklenen iş için gerekli şeyi hazırlayıp kullanıma hazır hale getirir.",
+                "neighbor_only": "Güvenceyi artırmak için gereğinden fazla önlem veya yedek edinmeyi içerir.",
+                "gloss": "hazırlık ve güvence önlemi",
+                "shared_zone": "Gelecekteki bir gereksinime karşı önceden araç edinme iki dalın ortak alanıdır.",
+                "distinction": "Odak dalı nötr hazırlamayı anlatır; komşu dal ise belirsizlik veya tehlikeye karşı fazladan güvence sağlama amacını gerektirir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel hazırlama, amaç için ayırma, hazır bulunma ve ek güvence arasındaki en yararlı üç karşıtlık seçildi.",
+            "branch_image_ar": "تهيئة العدة",
+            "what_is_ar": "تهيئة الشيء لأمر حادث واتخاذ العدة والأهبة والذخيرة والسلاح والمال لما يحتاج إليه",
+            "what_is_not_ar": "ليست الإحصاء نفسه ولا عدة المرأة ولا الماء العد",
+            "source_phrase_ar": "أعددت الشيء إعدادا (maqayis)؛ أعددت الشيء هيأته (ayn)؛ العدة من السلاح ما اعتددته (jamhara)؛ أعده لأمر كذا هيأه له (sihah)؛ العدة ما أعد لأمر يحدث مثل الأهبة (tahdhib)؛ أعددت هذا لك أي جعلته بحيث تعده وتتناوله (mufradat)",
+            "sources": [
+              "MQ",
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000989/B003",
+            "identity_judgment": {
+              "status": "reframed",
+              "rationale": "Kaynak ifadesi yalnızca zorunlu bir bekleme süresini değil, kadın için ölçülen bekleme dönemini, kaçırılan günler kadar sonradan yerine getirme süresini ve belirli sayıda günleri birlikte içerir. Dal korunabilir, ancak bütün örnekleri tek bir bekleme yükümlülüğü gibi sunmak yerine sayıyla sınırlandırılmış zaman dilimleri ve bağlama göre üstlendikleri görevler üzerinden tanımlanmalıdır.",
+              "boundary_note": "Ortak sınır sayıyla belirlenmiş zaman dilimidir; bekleme, sonradan yerine getirme ve belirli günler birbirinden ayrı bağlamsal gerçekleşmelerdir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, sayılı süre çekirdeğini korurken kadınla ilgili bekleme, kaçırılan günleri tamamlama ve belirli günler kalıplarını ayrı tutar."
+            },
+            "concept_map": {
+              "definition": "Sayısı veya bitiş ölçütü belirlenmiş bir zaman dilimidir. Bağlama göre bu dilim kadın için bekleme süresi, kaçırılan günler kadar sonradan yerine getirme süresi ya da özellikle belirlenmiş sınırlı günler olabilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Gün, ay, dönemsel çevrim veya olay sonuyla ölçülüp sınırlandırılmış zaman dilimi.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bir kadının belirli çevrimler, aylar veya gebeliğin sona ermesiyle ölçülen bekleme süresi.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Kaçırılmış günlerin sayısına eşit sayıda günü daha sonra yerine getirme yükümlülüğü.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "example",
+                  "statement": "Belirli ve az sayıdaki günlerin adlandırılması.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu tanıklık, sayıyla veya belirli bir bitiş ölçütüyle sınırlandırılmış zaman dilimlerini; bekleme, eksik günleri tamamlama ve belirli günleri adlandırma bağlamlarında gösterir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "sayılı zaman dilimi ve bağlama bağlı bekleme ya da tamamlama süresi",
+              "applicability": "Sayılı süre çekirdeğini ve bu sürenin farklı bağlamlarda bekleme veya eksik günleri tamamlama işlevini birlikte açıklar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Sayısal sınırı, zaman niteliğini ve başlıca bağlamsal görevleri korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003",
+                "F004"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yeniden evlenmeden önceki bekleme süresi",
+                "usage_role": "contextual",
+                "applicability": "Kadın için çevrim, ay veya doğumla ölçülen hukuki bekleme bağlamına özgüdür.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Ölçülmüş süreyi ve yeniden evlenmeden önce bekleme koşulunu korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "kaçırılan günler kadar sonradan tamamlama",
+                "usage_role": "contextual",
+                "applicability": "Yerine getirilemeyen günlerin aynı sayıda başka günle tamamlanması bağlamında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Kaçırılan ve sonradan tamamlanan günler arasındaki sayı eşitliğini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              },
+              {
+                "text": "sayılı ve belirli günler",
+                "usage_role": "contextual",
+                "applicability": "Özel olarak belirlenmiş, sınırlı sayıdaki günlerden söz edilen bağlamlara uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Günlerin belirli ve sayıca sınırlı oluşunu korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F004"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kadının yeniden evlenmeden önce beklemesi gereken süre"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kaçırılan günler kadar başka günlerde yerine getirmek"
+              },
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sayılı ve belirli günler"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001210/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Kadının toplam bekleme süresini, eksik günlerin tamamlanmasını ve başka sayılı günleri kapsar.",
+                "neighbor_only": "Kadın bedenindeki kanama ve temizlik evrelerinin kendisini, geçişlerini ve aralarındaki çevrimi adlandırır.",
+                "gloss": "bekleme süresi ve dönemsel çevrim",
+                "shared_zone": "Kadının bekleme süresi dönemsel bedensel çevrimlerle ölçülebildiği için alanlar kesişir.",
+                "distinction": "Odak dalı ölçülen toplam süre ve yükümlülükle ilgilidir; komşu dal ise bu sürenin ölçütü olabilen bedensel çevrimin evrelerini adlandırır."
+              },
+              {
+                "neighbor_ref": "root_000989/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Sayının belirlediği zaman dilimini ve bu dilime bağlı bekleme veya tamamlama görevini kapsar.",
+                "neighbor_only": "Her tür varlığı sayma, sayıyı adlandırma ve bir topluluk içinde sayma işlemlerini kapsar.",
+                "gloss": "sayılı süre ve genel sayma",
+                "shared_zone": "Bir sürenin kaç gün veya dönemden oluştuğunu belirleme, genel sayma işlemine dayanır.",
+                "distinction": "Odak dalında sayma zaman dilimini ve bağlamsal görevi sınırlar; komşu dalda ise nesnesi zaman olmak zorunda olmayan genel sayma çekirdektir."
+              },
+              {
+                "neighbor_ref": "root_000019/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Ölçüsü belirli bir bekleme veya sonradan tamamlama süresini gerektirir.",
+                "neighbor_only": "Bir işi ya da ödemeyi daha sonraki bir zamana bırakma eylemini genel olarak bildirir.",
+                "gloss": "ölçülü bekleme ve erteleme",
+                "shared_zone": "Her iki dal da bir işlemin daha sonraki bir zamanda gerçekleşmesini içerebilir.",
+                "distinction": "Odak dalında sayıyla veya bitiş ölçütüyle sınırlandırılmış süre esastır; komşu dalda belirleyici olan yalnızca sonraya bırakmadır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar incelendi; ölçülmüş bekleme süresini dönemsel çevrimden, genel saymadan ve sıradan ertelemeden ayıran üç ilişki seçildi.",
+            "branch_image_ar": "مدة العدة المعدودة",
+            "what_is_ar": "المدة المعدودة الواجبة انتظارا أو قضاء كعدة المرأة وعدة الأيام الفائتة والأيام المعدودات",
+            "what_is_not_ar": "ليست الأهبة والسلاح ولا مجرد كثرة العدد",
+            "source_phrase_ar": "عدة المرأة أيام قروئها (ayn)؛ عدة المرأة معروفة (jamhara)؛ عدة المرأة أيام أقرائها (sihah)؛ العدة عدة المرأة شهورا كانت أو أقراء أو وضع حمل (tahdhib)؛ فعدة من أيام أخر أي عليه أيام بعدد ما فاته (mufradat)؛ الأيام المعدودات أيام التشريق (sihah;tahdhib;mufradat)",
+            "sources": [
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000989/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi doğal su birikimini ve özellikle eski, besleyici kaynağı kesilmeyen, çekmekle tükenmeyen sürekli suyu aynı dalda açıkça tanımlar. Geçici çerçeve hem suyu hem de onun bulunduğu kalıcı su yerini kapsayarak tanıklığa uygundur.",
+              "boundary_note": "Dalın ayırıcı niteliği suyun kalıcı veya sürekli beslenen oluşudur; geçici yağmur suyu ve kısa ömürlü birikintiler kapsam dışındadır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım kalıcı su çekirdeğini verir; su yerleri ve eski, köklü olma benzetmesi yalnızca tanıklanan biçim ve kalıpların sınırında tutulur."
+            },
+            "concept_map": {
+              "definition": "Doğal olarak birikmiş, eski veya besleyici kaynağı kesilmediği için çekmekle tükenmeyen sürekli su ve bu suyun bulunduğu kalıcı su yeridir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Doğal olarak bir yerde toplanmış su veya bu suyun bulunduğu yer.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Eskiden beri var olan ve su çekildikçe tükenmeyen kalıcı su.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "source_variant",
+                  "statement": "Besleyici kaynağı kesilmediği için akışı veya varlığı sürekli kalan su.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu tanıklık, birikmiş su anlamını eski, tükenmeyen ve sürekli beslenen su özellikleriyle açıklar; süreklilik dalın geçici su birikintilerinden ayrılan temel sınırıdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kaynağı kesilmeyen kalıcı su ve su yeri",
+              "applicability": "Hem sürekli suyu hem de onun doğal olarak toplandığı veya çıkarıldığı kalıcı yeri karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Suyun birikmiş, sürekli beslenen ve tükenmeyen niteliğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "tükenmeyen sürekli su",
+                "usage_role": "general",
+                "applicability": "Çekilmesine rağmen besleyici kaynağı sürdüğü için tükenmeyen suyu anlatır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Suyun sürekliliğini ve çekmekle tükenmemesini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002",
+                  "F003"
+                ]
+              },
+              {
+                "text": "kalıcı su kaynağı",
+                "usage_role": "contextual",
+                "applicability": "Suyun kendisinden çok onu sürekli sağlayan yer veya kaynak kastedildiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Suyun bulunduğu yeri ve kaynağın sürekliliğini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "eskiden beri var olan, tükenmeyen sürekli su"
+              },
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sürekli sular veya kalıcı su yerleri"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "köklü ve eski saygınlık"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000109/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Doğal, eski veya sürekli beslenen ve çekmekle tükenmeyen suyu gerektirir.",
+                "neighbor_only": "Suyun yapılmış bir havuz, sarnıç veya düzeltilmiş su kabında sabit durmasını kapsar.",
+                "gloss": "sürekli kaynak suyu ve havuz suyu",
+                "shared_zone": "Her iki dal da belirli bir yerde duran veya toplanan suyu anlatır.",
+                "distinction": "Odak dalında kalıcılık suyun kesilmeyen beslenmesine bağlıdır; komşuda ise suyun bir yapı içinde tutulması esastır ve yenilenmesi gerekmez."
+              },
+              {
+                "neighbor_ref": "root_001292/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Suyun eskiliğini, sürekliliğini ve çekmekle tükenmemesini öne çıkarır.",
+                "neighbor_only": "Vadi içindeki bol su birikintisini, göleti veya bataklık benzeri su alanını adlandırır.",
+                "gloss": "kalıcı su ve gölet",
+                "shared_zone": "Doğal bir çukurda veya arazide toplanan su iki dalın ortak alanıdır.",
+                "distinction": "Odak dalını belirleyen kesintisiz kaynak ve tükenmezliktir; komşu dalı belirleyen ise birikintinin biçimi ve bol su içermesidir."
+              },
+              {
+                "neighbor_ref": "root_000018/B006",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Sürekli beslenen veya eskiden beri tükenmeyen suyu ve yerini bildirir.",
+                "neighbor_only": "Suyu yalnızca birkaç gün tutabilen çukur, havuz veya gölet benzeri yeri bildirir.",
+                "gloss": "tükenmeyen su ve geçici su çukuru",
+                "shared_zone": "İki dalda da suyun bir yerde toplanması ve tutulması söz konusudur.",
+                "distinction": "Odak dalı süreklilik ve tükenmezlik gerektirir; komşu dal geçici olarak su tutan yerle sınırlıdır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar gözden geçirildi; kalıcı suyu yapılmış havuz suyundan, doğal göletten ve geçici su çukurundan ayıran üç sınır seçildi.",
+            "branch_image_ar": "الماء العد",
+            "what_is_ar": "الماء العد ومجتمع الماء والركية القديمة أو الدائمة التي لا ينقطع ماؤها",
+            "what_is_not_ar": "ليس ماء السماء ولا ماء الغدران المنقطع ولا العداد الزماني",
+            "source_phrase_ar": "العد مجتمع الماء وجمعه أعداد (maqayis;ayn)؛ العد من الماء القديم الذي لا ينتزح (jamhara)؛ العد بالكسر الماء الذي له مادة لا تنقطع (sihah)؛ الماء العد الدائم الذي لا انقطاع له (tahdhib)؛ ماء عد (mufradat)",
+            "sources": [
+              "MQ",
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000989/B005",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kaynak ifadesi belirli zaman veya dönem ile bilinen aralıklarda geri gelme anlamlarını destekler; zehir ağrısının yeniden alevlenmesi bu çekirdeğin belirgin gerçekleşmesidir. Bununla birlikte yayın sesi veya aralıklı titreşimi ve dağıtım ya da toplanma günü, genel zaman çekirdeğiyle eşitlenmemesi gereken kalıba bağlı ilişkili kullanımlardır.",
+              "boundary_note": "Çekirdek belirli zaman ve düzenli geri geliştir; yay ve özel gün kullanımları yalnızca kendi kalıplarında ilişkili anlamlar olarak tutulmalıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım zaman ve aralıklı geri geliş çekirdeğini ayırır; yay sesi, aylık buluşma ve özel gün anlamlarını kendi kalıplarının dışına genellemez."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin belirli zamanı veya dönemi ile belli aralıklarda yeniden ortaya çıkmasıdır. Zehir ağrısının alevlenmesi bunun özel gerçekleşmesiyken yayın sesi ve titreşimi ile dağıtım ya da toplanma günü kalıba bağlı ilişkili kullanımlardır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şeyin belirlenmiş zamanı, dönemi veya en güçlü evresi.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "core",
+                  "statement": "Bir olayın bilinen veya sayılı zaman aralıklarında yeniden ortaya çıkması.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Zehirlenme veya sokulma ağrısının belirli aralıklarla yeniden alevlenmesi.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "associated_use",
+                  "statement": "Yayın aralıklı titreşimini veya bu titreşimden çıkan sesi adlandırma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F005",
+                  "role": "associated_use",
+                  "statement": "Dağıtım, yoklama veya geçici toplanma için belirlenmiş günü adlandırma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu tanıklık, belirli zaman ve belli aralıklarla geri gelme çekirdeğini; ağrının yeniden alevlenmesi, dönemin en güçlü evresi, yayın tekrarlı hareketi veya sesi ve özel bir gün gibi kullanımlarla gösterir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "belirli zaman ve bilinen aralıklarla geri gelme",
+              "applicability": "Dalın zaman ve yineleme çekirdeğini verir; kalıba bağlı yay ve özel gün kullanımlarını genel anlama katmaz.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Belirlenmiş zamanı ve olayın bilinen aralıklarla yeniden gerçekleşmesini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "belirli aralıklarla yeniden ortaya çıkmak",
+                "usage_role": "general",
+                "applicability": "Bir olayın veya ağrının bilinen zaman aralıklarında tekrar belirdiği bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Zaman aralıklarını ve olayın yeniden ortaya çıkmasını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002",
+                  "F003"
+                ]
+              },
+              {
+                "text": "dönem veya en parlak çağ",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin, yönetimin veya başka bir şeyin belirli zamanı ya da en güçlü evresi kastedildiğinde uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Belirli dönemi ve o dönemin en güçlü evresini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yayın aralıklı titreşimi veya sesi",
+                "usage_role": "contextual",
+                "applicability": "Yayın belli aralıklarla titreştirilmesi ya da çıkardığı ses için kullanılan kalıba özgüdür.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yaya özgü tekrarlı titreşim ile ses seçeneklerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F004"
+                ]
+              },
+              {
+                "text": "dağıtım veya toplanma günü",
+                "usage_role": "contextual",
+                "applicability": "Dağıtım, yoklama ya da geçici toplantı için ayrılmış günü anlatan kalıba özgüdür.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Belirlenmiş gün ile dağıtım veya toplanma işlevini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F005"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sokulma ağrısının belirli aralıklarla alevlenmesi"
+              },
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bana belirli zamanlarda yeniden baş göstermek"
+              },
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "zaman, dönem veya en parlak çağ"
+              },
+              {
+                "lexical_unit_id": "lu_020",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yayın tekrarlanan titreşimi veya sesi"
+              },
+              {
+                "lexical_unit_id": "lu_021",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ayda bir gerçekleşen buluşma"
+              },
+              {
+                "lexical_unit_id": "lu_022",
+                "rendering_kind": "ordinary",
+                "target_gloss": "dağıtım, yoklama veya geçici toplanma günü"
+              },
+              {
+                "lexical_unit_id": "lu_023",
+                "rendering_kind": "ordinary",
+                "target_gloss": "belirli aralıklarla gelen akıl bulanıklığı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001145/B007",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Belirli dönemi, yinelenen ağrıyı ve kalıba bağlı yay veya özel gün kullanımlarını da kapsar.",
+                "neighbor_only": "Özellikle iki buluşma arasında kalan kısa ve tekrarlanan zaman aralığını bildirir.",
+                "gloss": "yinelenme zamanı ve buluşmalar arası süre",
+                "shared_zone": "İki dal da olayların belli aralıklarla gerçekleşmesi ve aradaki zamanın sınırlı olması alanında örtüşür.",
+                "distinction": "Odak dalı belirli zamanı ve yeniden ortaya çıkmayı genel olarak kapsar; komşu dal iki buluşmayı ayıran kısa süreye özgüdür."
+              },
+              {
+                "neighbor_ref": "root_000536/B004",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Yinelemenin aralığını genel bırakabilir ve dönem, yay sesi veya özel gün kullanımlarına uzanabilir.",
+                "neighbor_only": "Hayvanların sulanması veya ateşli hastalık için her dördüncü zamandaki belirli dönüş düzenini gerektirir.",
+                "gloss": "aralıklı geri geliş ve dördüncü zaman dönüşü",
+                "shared_zone": "Hastalık belirtisinin veya başka bir olayın düzenli zaman aralıklarında geri gelmesi ortak alandır.",
+                "distinction": "Odak dalında aralık bağlama göre değişebilir; komşu dalda ise dördüncü zamana bağlı özel dönüş düzeni belirleyicidir."
+              },
+              {
+                "neighbor_ref": "root_000039/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Belirli aralıklarla yeniden ortaya çıkma ve buna bağlı özel kalıpları kapsar.",
+                "neighbor_only": "Bir şeyin yalnızca uygun zamanı veya gerçekleşme anını bildirir.",
+                "gloss": "yinelenen zaman ve uygun an",
+                "shared_zone": "Her iki dal da bir olayın belirli zamanı veya dönemini gösterebilir.",
+                "distinction": "Odak dalında yineleme önemli bir çekirdektir; komşu dalda olayın zamanı vardır fakat düzenli geri geliş koşulu yoktur."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel aralıklı geri gelişi kısa buluşma aralığından, özel dördüncü dönüşten ve yalnızca uygun zamandan ayıran ilişkiler seçildi.",
+            "branch_image_ar": "عداد الوقت ومعاودته",
+            "what_is_ar": "الوقت المعدود المحدد ومعاودة الشيء في أوقات معلومة وما يلحق به من العداد والعدان",
+            "what_is_not_ar": "ليس العدد الحسابي وحده ولا العدة الشرعية ولا الماء العد",
+            "source_phrase_ar": "العداد اهتياج وجع اللديغ (maqayis;ayn;sihah)؛ العداد الشيء الذي يأتيك لوقت (tahdhib)؛ عدان الشيء عهده وزمانه (mufradat)؛ كان ذلك في عدان شبابه (ayn;sihah;tahdhib)؛ عداد القوس أن تنبض بها ساعة بعد ساعة (maqayis)؛ عداد القوس صوتها (sihah;tahdhib)؛ يوم العداد يوم العطاء (maqayis;tahdhib)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000989/B006",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi karşılıklı olarak sayılabilen mal veya değerlerde ortaklığı, bundan doğan payları ve bir kişinin başka biriyle denk ya da karşılık sayılmasını birlikte verir. Geçici çerçeve, sayma fikrinin bu dalda yalın miktar belirleme değil katılımcılar arasındaki pay ve karşılıklılık ilişkisini kurduğunu doğru biçimde yansıtır.",
+              "boundary_note": "Dal sayısal miktardan çok kişiler arasındaki karşılıklı paydaşlık, pay veya denklik ilişkisini bildirir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım paydaşlık, pay ve denk sayılma yüzlerini ayırır; belirli kişi karşılaştırmasını veya miras bağlamını çıplak bir genel sayma anlamına dönüştürmez."
+            },
+            "concept_map": {
+              "definition": "Birden çok kişinin sayılabilir bir mal, değer veya üstünlük bakımından karşılıklı paydaş olması; bundan doğan payların ya da birbirine karşılık ve denk sayılan kişilerin adlandırılmasıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kişilerin sayılabilir bir mal, değer veya üstünlükte karşılıklı paydaş olması.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Ortaklıktan doğan payları veya özellikle mirasta karşılıklı paydaşları adlandırma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Bir kişiyi başka bir kişinin karşılığı, eşi veya dengi sayma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu tanıklık, karşılıklı paydaş olmayı; pay, mirastaki paydaş ve iki kişi arasında kurulan denklik ya da karşılıklılık kullanımlarıyla aynı ilişki alanında birleştirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "karşılıklı paydaşlık, pay ve denk sayılma",
+              "applicability": "Paylaşılan değer üzerindeki ortaklığı, ortaya çıkan payı ve kişiler arasında kurulan denkliği birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Karşılıklılığı, paydaşlık ilişkisini, payı ve denk sayılmayı korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "karşılıklı paydaş olmak",
+                "usage_role": "general",
+                "applicability": "Kişilerin mal, değer veya üstünlük bakımından birbirine karşı pay sahibi olduğu bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Katılımcılar arasındaki karşılıklı ortaklık ve pay ilişkisini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "paylar veya karşılıklı paydaşlar",
+                "usage_role": "contextual",
+                "applicability": "Ortaklıktaki bölüşüm payları ya da özellikle mirasta birbirine karşı pay sahibi kişiler kastedildiğinde uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Bölüşülen payı ve pay sahipleri arasındaki karşılıklılığı korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "onun dengi ve karşılığı",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin başka biriyle eş düzeyde veya ona karşılık sayıldığı kalıba özgüdür.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "İki kişi arasında kurulan denklik ve karşılıklılık ilişkisini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_024",
+                "rendering_kind": "ordinary",
+                "target_gloss": "mal veya değer bakımından karşılıklı paydaş olmak"
+              },
+              {
+                "lexical_unit_id": "lu_025",
+                "rendering_kind": "ordinary",
+                "target_gloss": "paylar, denkler veya mirastaki karşılıklı paydaşlar"
+              },
+              {
+                "lexical_unit_id": "lu_026",
+                "rendering_kind": "ordinary",
+                "target_gloss": "onun dengi ve karşılığı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001520/B006",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Paylaşılan mal veya değerde ortaklığı, payları ve mirastaki karşılıklı paydaşları da kapsar.",
+                "neighbor_only": "İki şeyi benzerlik bakımından birbirinin tam eşi veya örneği olarak karşı karşıya koyar.",
+                "gloss": "paydaş ve denk",
+                "shared_zone": "Bir kişinin başka bir kişinin dengi veya karşılığı sayılması iki dalda örtüşür.",
+                "distinction": "Odak dalında denklik, daha geniş karşılıklı pay ve katılım alanının bir yüzüdür; komşu dalın çekirdeği doğrudan benzerlik ve eşdeğerliktir."
+              },
+              {
+                "neighbor_ref": "root_000989/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Sayılabilir bir değer üzerinde karşılıklı pay, paydaşlık veya denklik ilişkisi kurar.",
+                "neighbor_only": "Varlıkları tek tek sayıp miktarını belirler ve bir topluluğa dahil sayar.",
+                "gloss": "karşılıklı pay ve genel sayma",
+                "shared_zone": "Kişilerin başkalarıyla birlikte değerlendirilip sayılması iki dal arasında bağlantı kurar.",
+                "distinction": "Odak dalında sayma katılımcılar arasındaki karşılıklı ilişkiyi düzenler; komşu dalda saymanın kendisi ve sayısal sonuç merkezde bulunur."
+              },
+              {
+                "neighbor_ref": "root_001221/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Pay, ortaklık ve genel biçimde bir başkasına denk sayılmayı kapsar.",
+                "neighbor_only": "Özellikle yaş, yiğitlik, güç veya dayanıklılık bakımından birbirine denk rakibi bildirir.",
+                "gloss": "genel denk ve güç bakımından denk",
+                "shared_zone": "Bir kişinin başka bir kişiye denk veya eş sayılması ortak alandır.",
+                "distinction": "Odak dalındaki denklik farklı ilişki ve paylaşım bağlamlarına açıktır; komşu dal dengeyi özellikle yaş ve mücadele gücü ekseninde kurar."
+              }
+            ],
+            "neighbor_coverage_note": "Tüm komşu adayları değerlendirildi; genel paydaşlık ve denkliği salt benzerlikten, genel saymadan ve güç bakımından denk rakipten ayıran üç ilişki seçildi.",
+            "branch_image_ar": "نظير يعد مع غيره",
+            "what_is_ar": "المشاركة والمقارنة والحصة أو النظير حين يعد الشيء مع غيره أو يقابل به",
+            "what_is_not_ar": "ليس مجرد كثرة العدد ولا الاستعداد ولا العداد الزماني",
+            "source_phrase_ar": "هم يتعادون إذا اشتركوا فيما يعدد به بعضهم على بعض (ayn;tahdhib)؛ العدائد النظراء (tahdhib)؛ العدائد الحصص (tahdhib)؛ من يعاده في الميراث (sihah)؛ فلان عد فلان أي قرنه (tahdhib)",
+            "sources": [
+              "AY",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          }
+        ],
+        "root_profile": {
+          "summary": "Kök, sayma ve sayıyla belirleme merkezinden geleceğe hazırlama, sayılı zaman dilimi, sürekli su, belirli zamanda geri geliş ve kişiler arasındaki karşılıklı pay ya da denklik alanlarına yayılan çok dallı bir anlam yapısı gösterir.",
+          "polysemy": "polysemic",
+          "organization": "multi_branch"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 57,
+            "word_count": 57,
+            "ayah_count": 50,
+            "surah_count": 26
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "أَعَدَّ",
+              "stem_ar": "أُعِدَّتْ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|PERF|PASS|(IV)|LEM:>aEad~a|ROOT:Edd|3FS",
+              "occurrence_count": 4
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "مَّعْدُودَة",
+              "stem_ar": "مَّعْدُودَةً",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|PASS|PCPL|LEM:m~aEoduwdap|ROOT:Edd|FS|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "مَّعْدُودَة",
+              "stem_ar": "مَّعْدُودَٰتٍ",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|PASS|PCPL|LEM:m~aEoduwdap|ROOT:Edd|FP|INDEF|ACC",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F004",
+              "lemma_ar": "عِدَّة",
+              "stem_ar": "عِدَّةٌ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eid~ap|ROOT:Edd|F|INDEF|NOM",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F005",
+              "lemma_ar": "عِدَّة",
+              "stem_ar": "عِدَّةَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eid~ap|ROOT:Edd|F|ACC",
+              "occurrence_count": 4
+            },
+            {
+              "form_id": "F006",
+              "lemma_ar": "مَّعْدُودَة",
+              "stem_ar": "مَّعْدُودَٰتٍ",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|PASS|PCPL|LEM:m~aEoduwdap|ROOT:Edd|FP|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F007",
+              "lemma_ar": "أَعَدَّ",
+              "stem_ar": "أَعَدَّ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|PERF|(IV)|LEM:>aEad~a|ROOT:Edd|3MS",
+              "occurrence_count": 14
+            },
+            {
+              "form_id": "F008",
+              "lemma_ar": "أَعَدَّ",
+              "stem_ar": "أَعِدُّ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|IMPV|(IV)|LEM:>aEad~a|ROOT:Edd|2MP",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F009",
+              "lemma_ar": "أَعَدَّ",
+              "stem_ar": "أَعَدُّ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|PERF|(IV)|LEM:>aEad~a|ROOT:Edd|3MP",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F010",
+              "lemma_ar": "عُدَّة",
+              "stem_ar": "عُدَّةً",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eud~ap|ROOT:Edd|F|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F011",
+              "lemma_ar": "عَدَد",
+              "stem_ar": "عَدَدَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eadad|ROOT:Edd|M|ACC",
+              "occurrence_count": 3
+            },
+            {
+              "form_id": "F012",
+              "lemma_ar": "مَّعْدُودَة",
+              "stem_ar": "مَّعْدُودَةٍ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|PASS|PCPL|LEM:m~aEoduwdap|ROOT:Edd|FS|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F013",
+              "lemma_ar": "مَّعْدُود",
+              "stem_ar": "مَّعْدُودٍ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|PASS|PCPL|LEM:m~aEoduwd|ROOT:Edd|M|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F014",
+              "lemma_ar": "مَّعْدُودَة",
+              "stem_ar": "مَعْدُودَةٍ",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|PASS|PCPL|LEM:m~aEoduwdap|ROOT:Edd|FS|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F015",
+              "lemma_ar": "عَدَّ",
+              "stem_ar": "تَعُدُّ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:Ead~a|ROOT:Edd|2MP|MOOD:SUBJ",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F016",
+              "lemma_ar": "عَدَد",
+              "stem_ar": "عَدَدًا",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|LEM:Eadad|ROOT:Edd|M|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F017",
+              "lemma_ar": "عِدَّة",
+              "stem_ar": "عِدَّتِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eid~ap|ROOT:Edd|F|GEN",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F018",
+              "lemma_ar": "عَدَّ",
+              "stem_ar": "نَعُدُّ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:Ead~a|ROOT:Edd|1P",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F019",
+              "lemma_ar": "عَدّ",
+              "stem_ar": "عَدًّا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Ead~|ROOT:Edd|M|INDEF|ACC",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F020",
+              "lemma_ar": "عَدَّ",
+              "stem_ar": "عَدَّ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|PERF|LEM:Ead~a|ROOT:Edd|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F021",
+              "lemma_ar": "عَدَّ",
+              "stem_ar": "تَعُدُّ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:Ead~a|ROOT:Edd|2MP",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F022",
+              "lemma_ar": "عَآدِّين",
+              "stem_ar": "عَآدِّينَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|ACT|PCPL|LEM:EaA^d~iyn|ROOT:Edd|MP|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F023",
+              "lemma_ar": "عِدَّة",
+              "stem_ar": "عِدَّةٍ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eid~ap|ROOT:Edd|F|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F024",
+              "lemma_ar": "تَعْتَدُّ",
+              "stem_ar": "تَعْتَدُّ",
+              "pos": "V",
+              "measure": "VIII",
+              "morph_features": "STEM|POS:V|IMPF|(VIII)|LEM:taEotad~u|ROOT:Edd|2MP",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F025",
+              "lemma_ar": "عِدَّة",
+              "stem_ar": "عِدَّتُ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eid~ap|ROOT:Edd|F|NOM",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F026",
+              "lemma_ar": "عَدَد",
+              "stem_ar": "عَدَدًا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eadad|ROOT:Edd|M|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F027",
+              "lemma_ar": "عَدَد",
+              "stem_ar": "عَدَدًۢا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eadad|ROOT:Edd|M|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F028",
+              "lemma_ar": "عِدَّة",
+              "stem_ar": "عِدَّتَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Eid~ap|ROOT:Edd|F|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F029",
+              "lemma_ar": "عَدَّدَ",
+              "stem_ar": "عَدَّدَ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|PERF|(II)|LEM:Ead~ada|ROOT:Edd|3MS",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000989_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000989",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "editorial_repair",
+        "inputs_sha256": "a21e0eb97daf6ea4bb3ff596a76ecec0ef84e2b103cd73ea8289482fae48cdac",
+        "review_inputs_sha256": "2d663b941c5e1685ee82a96bb4743a920e01183d2b5f1f8d9f2123160e44c312",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000989/tr/output/root_000989_entry.json",
+          "sha256": "f76946dba479793e31da520064eadf6701297928bc507b8c30061591cc1fa7ca",
+          "entry_id": "root_000989/tr",
+          "status": "reviewed",
+          "review_verdict": "repair",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000989.json",
+          "sha256": "1d9575f795633bbf9cb6b7b8793d002d324ba524edd0ede00efe47f34041b9fa"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000989/tr/repair/editorial/editorial/input/task.json",
+          "sha256": "8e9bb5145f4048f221acdf17d54e5027782ebe5a82a29cc9f0c2fe82b004401e"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000989/tr/repair/editorial/editorial/review/input/task.json",
+          "sha256": "b0c06aa380cace7cfb8b9e1d98b229a9ede4b41da060b7163fb2ed8a2f070303"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000989/tr/repair/editorial/editorial/review/output/review.json",
+          "sha256": "07f23767d56a4bd90580d595af769e8e12db70a4ea23e73e8e0edd3283873e8b"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000989/B001",
+            "concept_gloss": {
+              "text": "sayma ve sayıyla belirleme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "sayma ve sayıyla belirleme",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_001",
+                  "lu_002",
+                  "lu_003",
+                  "lu_004",
+                  "lu_005",
+                  "lu_006",
+                  "lu_007"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "bir şeyi sayıp miktarını belirlemek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_002": {
+                "text": "sayı; sayılanın miktarı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_003": {
+                "text": "sayıca çokluk",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_004": {
+                "text": "sayılmış veya sayıyla sınırlandırılmış",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_005": {
+                "text": "iyiler arasında sayılmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_006": {
+                "text": "az ya da çok sayıda topluluk",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_007": {
+                "text": "sayıları on bini aşmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000989/B002",
+            "concept_gloss": {
+              "text": "ilerideki ihtiyaç için hazırlama",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "ilerideki ihtiyaç için hazırlama",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_008",
+                  "lu_009",
+                  "lu_010"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_008": {
+                "text": "bir şeyi ilerideki iş için hazırlamak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_009": {
+                "text": "ilerideki ihtiyaç için hazırlanmış mal, silah veya gereç",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_010": {
+                "text": "bir işe hazırlanmak ve donanmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000989/B003",
+            "concept_gloss": {
+              "text": "sayılı ve sınırlandırılmış zaman dilimi",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003",
+                "F004"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "sayılı ve sınırlandırılmış zaman dilimi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_011",
+                  "lu_012",
+                  "lu_013"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_011": {
+                "text": "kadının yeniden evlenmeden önce beklemesi gereken süre",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_012": {
+                "text": "kaçırılan günler sayısınca sonradan tamamlanacak günler",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_013": {
+                "text": "sayılı ve belirli günler",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000989/B004",
+            "concept_gloss": {
+              "text": "tükenmeyen sürekli su veya kalıcı su yeri",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "tükenmeyen kalıcı su",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_014"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "sürekli sular veya kalıcı su yerleri",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_015"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "köklü ve eski saygınlık",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_016"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_014": {
+                "text": "eskiden beri var olan, tükenmeyen sürekli su",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_015": {
+                "text": "sürekli sular veya kalıcı su yerleri",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_016": {
+                "text": "köklü ve eski saygınlık",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000989/B005",
+            "concept_gloss": null,
+            "contextual_glosses": [
+              {
+                "text": "sokulma ağrısının aralıklı alevlenmesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_017"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "belirli aralıklarla yeniden baş gösterme",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_018",
+                  "lu_023"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "zaman, dönem veya en parlak çağ",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_019"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "yayın aralıklı titreşimi veya sesi",
+                "facet_ids": [
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_020"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "ayda bir yinelenen buluşma",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_021"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "dağıtım, yoklama veya geçici toplanma günü",
+                "facet_ids": [
+                  "F005"
+                ],
+                "lexical_unit_ids": [
+                  "lu_022"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_017": {
+                "text": "sokulma ağrısının belirli aralıklarla alevlenmesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_018": {
+                "text": "bana belirli zamanlarda yeniden baş göstermek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_019": {
+                "text": "zaman, dönem veya en parlak çağ",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_020": {
+                "text": "yayın tekrarlanan titreşimi veya sesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_021": {
+                "text": "ayda bir gerçekleşen buluşma",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_022": {
+                "text": "dağıtım, yoklama veya geçici toplanma günü",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_023": {
+                "text": "belirli aralıklarla gelen akıl bulanıklığı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000989/B006",
+            "concept_gloss": {
+              "text": "paydaşlık, pay ve denklik",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "paydaşlık, pay ve denklik",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_024",
+                  "lu_025",
+                  "lu_026"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_024": {
+                "text": "mal veya değer bakımından karşılıklı paydaş olmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_025": {
+                "text": "paylar, denkler veya mirastaki karşılıklı paydaşlar",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_026": {
+                "text": "onun dengi ve karşılığı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000989.json"
+    },
     "root_000563": {
       "root_ar": "ر س ل",
+      "qac_roots_ar": [
+        "ر س ل"
+      ],
       "root_id": "root_000563",
-      "root_mapping": {
-        "root_id": "root_000563",
-        "root_norm": "ر س ل",
-        "source_root_norm": "ر س ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 505,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر س ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 505
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "74b9e1fa6006c7eb411428c8961ef30679db99390f9a1d7d529f4aa62e5b2556",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10815,18 +13861,23 @@
     },
     "root_000609": {
       "root_ar": "ر و ح",
+      "qac_roots_ar": [
+        "ر و ح"
+      ],
       "root_id": "root_000609",
-      "root_mapping": {
-        "root_id": "root_000609",
-        "root_norm": "ر و ح",
-        "source_root_norm": "ر و ح",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 47,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر و ح",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 47
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f09e6e2e43fb64f8e1cb1ba4b64b5524d9229ef8019a89c8c9a8bf3809f90a08",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14763,18 +17814,23 @@
     },
     "root_001037": {
       "root_ar": "ع ق م",
+      "qac_roots_ar": [
+        "ع ق م"
+      ],
       "root_id": "root_001037",
-      "root_mapping": {
-        "root_id": "root_001037",
-        "root_norm": "ع ق م",
-        "source_root_norm": "ع ق م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 4,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ق م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f73c2e39bbbd2dd0fadecdb3b749b18b519b96c4bcafc066fc782c98ea5673f7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -17935,14 +20991,20 @@
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 8
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -18239,11 +21301,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_41.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_41.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 130086,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -18319,19 +21394,46 @@
             "root_001058",
             "root_000989"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع و د",
+            "mapping_status": "split",
+            "primary_root_id": "root_001058",
+            "targets": [
+              {
+                "qac_root_norm": "ع و د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001058",
+                "furuq_root_norm": "ع و د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 35,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ع و د",
+                "target_rank": 2,
+                "furuq_root_id": "root_000989",
+                "furuq_root_norm": "ع د د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": true,
           "targets": [
             {
               "root_id": "root_001058",
-              "root_norm": "ع و د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع و د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 35,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18350,37 +21452,70 @@
             },
             {
               "root_id": "root_000989",
-              "root_norm": "ع د د",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 57,
+                  "ayahs": 50
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ر س ل": {
           "root_id": "root_000563",
           "root_ids": [
             "root_000563"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر س ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000563",
+            "targets": [
+              {
+                "qac_root_norm": "ر س ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000563",
+                "furuq_root_norm": "ر س ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 505,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000563",
-              "root_norm": "ر س ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر س ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 505,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18405,19 +21540,37 @@
           "root_ids": [
             "root_000609"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر و ح",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000609",
+            "targets": [
+              {
+                "qac_root_norm": "ر و ح",
+                "target_rank": 1,
+                "furuq_root_id": "root_000609",
+                "furuq_root_norm": "ر و ح",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 47,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000609",
-              "root_norm": "ر و ح",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر و ح",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 47,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 19,
+              "gloss_branch_count": 19,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18442,19 +21595,37 @@
           "root_ids": [
             "root_001037"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ق م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001037",
+            "targets": [
+              {
+                "qac_root_norm": "ع ق م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001037",
+                "furuq_root_norm": "ع ق م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 4,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001037",
-              "root_norm": "ع ق م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ق م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 4,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -18481,10 +21652,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 65,
+        "dictionary_branches_kept": 65,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 65,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

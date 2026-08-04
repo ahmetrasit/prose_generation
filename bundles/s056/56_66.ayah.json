@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:36.238108+00:00",
+  "generated_at": "2026-08-04T22:30:01.139570+00:00",
   "surah": 56,
   "ayah": 66,
   "ayahRef": "56:66",
@@ -1235,7 +1235,8 @@
         "m-w-s056-a066-w001-01",
         "m-w-s056-a066-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:66:1"
+      "aligned_qac_word_ref_upstream": "56:66:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1249,7 +1250,8 @@
       "morpheme_ids": [
         "m-w-s056-a066-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:66:2"
+      "aligned_qac_word_ref_upstream": "56:66:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1263,7 +1265,8 @@
       "morpheme_ids": [
         "m-w-s056-a066-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:66:3"
+      "aligned_qac_word_ref_upstream": "56:66:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1469,7 +1472,609 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_66.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:66",
+      "window": [
+        "56:57",
+        "56:58",
+        "56:59",
+        "56:60",
+        "56:61",
+        "56:62",
+        "56:63",
+        "56:64",
+        "56:65",
+        "56:66",
+        "56:67",
+        "56:68",
+        "56:69",
+        "56:70",
+        "56:71",
+        "56:72",
+        "56:73",
+        "56:74"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:66",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_liability_ledger",
+            "confidence": "strong",
+            "focus_anchor": "The plural predicate مُغْرَمُونَ, rooted in غ ر م, presents the speakers as placed under a binding condition.",
+            "mechanism": "A monetary loss or charge has become incumbent on the speakers, so the utterance functions as a negative ledger verdict rather than a generic cry of pain.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B001",
+                "role": "The branch's binding monetary charge supplies both the incurred loss and its continuing liability."
+              }
+            ],
+            "changed_reading": {
+              "before": "We are ruined.",
+              "after": "We have incurred a binding loss or charge that remains on our account."
+            }
+          },
+          {
+            "model_id": "b_creditor_bond",
+            "confidence": "medium",
+            "focus_anchor": "مُغْرَمُونَ can activate the relational غريم image, not only the amount owed.",
+            "mechanism": "The speakers have entered a creditor-debtor bond in which one party remains attached to the other; the emphasis shifts from loss as quantity to loss as an inescapable relation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B002",
+                "role": "The branch's mutual clinging of creditor and debtor makes the focus condition relational and hard to exit."
+              }
+            ],
+            "changed_reading": {
+              "before": "We have lost something.",
+              "after": "We are now held in a claimant-obligor relation that will not release us."
+            }
+          },
+          {
+            "model_id": "b_abiding_calamity",
+            "confidence": "strong",
+            "focus_anchor": "The غرام branch of مُغْرَمُونَ carries calamity whose defining feature is ملازمة, continued adherence.",
+            "mechanism": "The speakers diagnose not a punctual setback but an affliction that stays, turning the nominal predicate into a durable state.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B003",
+                "role": "The branch's lasting torment, destruction, and hardship supplies a calamity whose force lies in persistence."
+              }
+            ],
+            "changed_reading": {
+              "before": "A disaster has happened to us.",
+              "after": "We have been caught by a disaster that abides with us."
+            }
+          },
+          {
+            "model_id": "b_consuming_attachment",
+            "confidence": "exploratory",
+            "focus_anchor": "The same غ ر م inventory permits مُغْرَمُونَ to be heard through intense attachment and fixation.",
+            "mechanism": "The state may describe people engrossed by an object or expectation, with their predicament located partly in an attachment they cannot disengage from.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B004",
+                "role": "The branch's infatuated clinging supplies an affective fixation as a possible focus-state."
+              }
+            ],
+            "changed_reading": {
+              "before": "We are materially ruined.",
+              "after": "We are consumed by, and unable to detach from, what has seized our desire."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_derivative_agency_debt",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق",
+              "ق د ر",
+              "س ب ق",
+              "ب د ل"
+            ],
+            "mechanism": "Creation, measured governance, inability to get beyond the governing power, and replaceability expand the creditor bond into derivative agency: those who do not originate or secure themselves are held under a prior claim.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B002",
+                "role": "The creditor-debtor attachment supplies the relational frame into which the agency asymmetry is read."
+              },
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "The branch's origination of created existence assigns the originating side of the asymmetric relation."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "The branch's deliberate apportioning makes mortality part of an ordered account rather than an accidental loss."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B004",
+                "role": "The branch's escaping beyond a pursuer, here negated, gives the bond its inescapable reach."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B001",
+                "role": "The branch's replacement of one thing by another makes the speakers non-sovereign over their own continuance."
+              }
+            ],
+            "structural_cues": [
+              "The sequence opposes first-person plural acts of creation and apportionment to second-person plural dependence.",
+              "Death, non-escape, and replacement precede the focus's liability predicate."
+            ],
+            "reader_inference": "The packet supplies origination, apportionment, non-escape, and replacement; I infer that this asymmetry can be rendered as a prior creditor-like claim. A live alternative is that the sequence asserts power without licensing debt language.",
+            "changed_reading": {
+              "before": "We are attached to a claimant because of a particular loss.",
+              "after": "Our very derivative agency places us under a claim we cannot outrun or cancel."
+            }
+          },
+          {
+            "model_id": "d_negative_harvest_ledger",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ر ث",
+              "ز ر ع",
+              "ج ع ل",
+              "ح ط م"
+            ],
+            "mechanism": "Human work and expected growth are converted into pulverized matter; the focus liability is therefore the unrecovered labor and expected yield left on the speakers' side of the account.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B001",
+                "role": "The branch's binding financial loss supplies the negative balance produced by failed yield."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ح ر ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000303",
+                "branch_id": "B001",
+                "role": "The branch's work, earning, and accumulation supplies the human input entered into the harvest account."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "The branch's causing seed to grow supplies the expected productive return while separating it from mere human sowing."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "The branch's changing a thing into a new state performs the reversal from standing crop to waste."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The branch's pulverizing of dry matter supplies the material endpoint in which the expected yield becomes unrecoverable."
+              }
+            ],
+            "structural_cues": [
+              "The focus follows immediately after the counterfactual destruction of the crop.",
+              "The paired question in 56:64 distinguishes human handling from actual growth."
+            ],
+            "reader_inference": "The packet supplies work, growth, state-change, and pulverization; I supply the accounting arrow from invested work plus expected yield to an unrecovered balance. The alternative is a non-economic lament over physical destruction alone.",
+            "changed_reading": {
+              "before": "We have incurred an unspecified charge.",
+              "after": "Our labor and expected harvest have become a binding negative balance with no yield to discharge it."
+            }
+          },
+          {
+            "model_id": "d_abiding_ruin",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ط م",
+              "ظ ل ل",
+              "ف ك ه",
+              "ح ر م"
+            ],
+            "mechanism": "Pulverization is followed by a sustained speech-state and then explicit deprivation, converting the lasting-calamity branch into an aftermath that remains cognitively, socially, and materially present.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B003",
+                "role": "The branch's adherent calamity supplies the focus model of ruin that continues beyond the destructive event."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The branch's complete fragmentation gives the abiding calamity a concrete initiating event."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B006",
+                "role": "The branch's action extended through the day supports reading the speakers' response as a maintained state."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "The branch's talk and verbal play supplies the speech activity in which the loss continues to occupy the group."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "The branch's failure to obtain the desired thing carries the calamity forward as continuing deprivation."
+              }
+            ],
+            "structural_cues": [
+              "The construction فَظَلْتُمْ تَفَكَّهُونَ presents an ongoing reaction before the quoted plural declarations.",
+              "The nominal plural predicates in 56:66-67 state conditions rather than momentary acts."
+            ],
+            "reader_inference": "The packet supplies fragmentation, maintained speech, and deprivation; I infer that these stages make the loss adhere after the crop is gone. The live alternative is that the talk is brief astonishment rather than a durable aftermath.",
+            "changed_reading": {
+              "before": "We have met a lasting but undefined misfortune.",
+              "after": "The shattered crop has become an abiding condition that persists in our speech and deprivation."
+            }
+          },
+          {
+            "model_id": "d_liability_to_deprivation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ر م"
+            ],
+            "mechanism": "The adversative continuation recategorizes the speakers' first diagnosis: their deepest condition is not merely a charge imposed on them but exclusion from the benefit that would have answered their work.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B001",
+                "role": "The binding charge supplies the speakers' initial accounting diagnosis."
+              },
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B002",
+                "role": "The creditor-debtor relation leaves open whether the speakers owe or are failed claimants."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "The branch's missing of the desired object supplies the corrected category of deprivation."
+              }
+            ],
+            "structural_cues": [
+              "بَلْ directly joins 56:67 to 56:66 as a correction or escalation.",
+              "إِنَّا and نَحْنُ preserve the same plural speakers across the two nominal predicates."
+            ],
+            "reader_inference": "The packet supplies adjacent declarations joined by بَلْ; I read the second as correcting the category from liability to denied receipt. It may instead intensify the first without fully canceling it, so both models remain live.",
+            "changed_reading": {
+              "before": "We are burdened because a loss has been charged to us.",
+              "after": "More exactly, we are failed beneficiaries: the expected good has been withheld from us."
+            }
+          },
+          {
+            "model_id": "d_received_benefit_debt",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ر ب",
+              "ن ز ل",
+              "ش ك ر",
+              "م ت ع",
+              "ر ب ب"
+            ],
+            "mechanism": "The later sequence presents water as an allotted share delivered from beyond the users and fire as usable provision, then answers with gratitude and lordship; the debt relation becomes beneficiary dependence rather than only punitive extraction.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B002",
+                "role": "The creditor-debtor bond supplies a relational debt frame capable of being revised by received benefits."
+              },
+              {
+                "source_ref": "56:68",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "The branch's allotted share of water supplies a benefit received as a portion rather than self-produced property."
+              },
+              {
+                "source_ref": "56:69",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2",
+                  "7"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "The branch's delivery from above distinguishes the delivering agent from the human recipients."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B001",
+                "role": "The branch's recognition of benefit and praise of its giver supplies the fitting response to receipt."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "م ت ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001395",
+                "branch_id": "B003",
+                "role": "The branch's useful provision for needs makes fire part of the same economy of received benefit."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The branch's mastery and lordship identifies the governing side of the asymmetrical benefit relation."
+              }
+            ],
+            "structural_cues": [
+              "The recurring 'you or We' questions separate human use from origination and delivery.",
+              "The sequence moves from deprivation through water and fire to gratitude and glorification."
+            ],
+            "reader_inference": "The packet supplies shares, delivery, useful provision, gratitude, and lordship; I infer a beneficiary's indebtedness to the giver. The alternative is that these examples correct despair without making غ ر م itself name grateful obligation.",
+            "changed_reading": {
+              "before": "We are debtors under an extracting claimant.",
+              "after": "We are dependent recipients whose debt-like bond arises from benefits we neither originate nor secure."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_expected_fruit_attachment",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus is naturally heard as loss, while the attachment branch is affective and the ش ي ء activation is form-distant in a context of willing. It remains anchored in focus غ ر م and is sharpened by expected fruit and continued talk; downstream prose should label it an attachment resonance, not a lexical replacement.",
+            "focus_anchor": "The غ ر م branch of infatuated clinging permits the ruined speakers to be heard as still bound to the anticipated crop.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B004",
+                "role": "The branch's intense attachment supplies the affective inability to release the lost expectation."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B005",
+                "role": "The branch's attraction of the soul to a thing activates desire as the bond beneath the speakers' reaction."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "The branch's desirable fruit supplies the concrete anticipated object around which attachment formed."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "The branch's talk keeps the absent fruit socially and mentally present after its destruction."
+              }
+            ],
+            "changed_reading": {
+              "before": "We are only victims of an external crop loss.",
+              "after": "We remain gripped by the desired fruit and by the expectation that survived its destruction."
+            }
+          },
+          {
+            "outlier_id": "o_unpaid_claimants",
+            "confidence": "exploratory",
+            "containment": "This reverses the usual debtor direction: the reciprocal غريم branch allows a creditor as well as a debtor, while the harvest context supplies work expecting return and the next ayah supplies nonreceipt. It remains focus-anchored but should be rendered as a relational inversion, not as the primary gloss of مُغْرَمُونَ.",
+            "focus_anchor": "The two-sided غريم relation lets the speakers occupy the claimant side of the focus word.",
+            "activation_trace": [
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B002",
+                "role": "The branch explicitly accommodates both sides of a clinging debt relation, permitting claimant-side activation."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ح ر ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000303",
+                "branch_id": "B001",
+                "role": "The branch's work and earning supplies the basis on which the speakers expect a return."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B005",
+                "role": "The branch's wage assigned for work activates the expected payment side of the harvest relation."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "The branch's failure to obtain the desired return makes the claimant effectively unpaid."
+              }
+            ],
+            "changed_reading": {
+              "before": "We are debtors who must pay for the failed crop.",
+              "after": "We are unpaid claimants whose work has yielded no return, so the debt relation clings without satisfaction."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The sowing-growth-destruction sequence turns generic liability into an unrecovered harvest account.",
+            "بَلْ نَحْنُ مَحْرُومُونَ revises imposed burden into denied benefit while preserving both readings.",
+            "The larger origination and provision sequence recasts creditor-debtor attachment as dependent agency and received benefit."
+          ],
+          "what_was_special": "One compact predicate carries four live branch domains: monetary liability, creditor-debtor attachment, abiding calamity, and affective fixation. The immediate crop sequence activates all four without forcing them into a single final gloss.",
+          "remaining_uncertainties": [
+            "Whether the creator-user asymmetry genuinely licenses a debt relation or only frames dependence.",
+            "Whether بَلْ cancels the liability diagnosis or intensifies it by naming deprivation as its substance.",
+            "The attachment and unpaid-claimant readings remain branch-backed but form-distant and should stay explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Crop loss experienced as binding liability.** `غ ر م` **B001** supplies a binding financial liability and **B002** the creditor-debtor tie. Following the ruined cultivation, the utterance assigns economic obligation to failed yield. **Abductive move:** I infer that invested labor or expected return makes loss feel like debt. **Reading change:** the lament is not only “we suffer” but “we are financially bound by the failure.”\n\n2. **A persistent affliction that clings.** `غ ر م` **B003** supplies persistent affliction. **Abductive move:** I infer that the emphatic nominal form treats the ruined harvest as an enduring condition, not a momentary setback. **Reading change:** the speakers identify themselves with continuing loss.",
@@ -2230,18 +2835,23 @@
   "root_lexicon": {
     "root_001081": {
       "root_ar": "غ ر م",
+      "qac_roots_ar": [
+        "غ ر م"
+      ],
       "root_id": "root_001081",
-      "root_mapping": {
-        "root_id": "root_001081",
-        "root_norm": "غ ر م",
-        "source_root_norm": "غ ر م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 5,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "غ ر م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 5
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e685ab9b9d9eb8ef679a6af74dc6a4e9abd94b3dddd3027eef77d06b04c987c3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -3377,14 +3987,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -3650,11 +4266,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_66.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_66.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 83438,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -3725,19 +4354,37 @@
           "root_ids": [
             "root_001081"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "غ ر م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001081",
+            "targets": [
+              {
+                "qac_root_norm": "غ ر م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001081",
+                "furuq_root_norm": "غ ر م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 5,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001081",
-              "root_norm": "غ ر م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "غ ر م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 5,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -3764,10 +4411,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 4,
+        "dictionary_branches_kept": 4,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 4,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

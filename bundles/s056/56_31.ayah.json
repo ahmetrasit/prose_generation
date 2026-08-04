@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.963828+00:00",
+  "generated_at": "2026-08-04T22:29:59.261628+00:00",
   "surah": 56,
   "ayah": 31,
   "ayahRef": "56:31",
@@ -1009,7 +1009,8 @@
       "morpheme_ids": [
         "m-w-s056-a031-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:31:1"
+      "aligned_qac_word_ref_upstream": "56:31:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1023,7 +1024,8 @@
       "morpheme_ids": [
         "m-w-s056-a031-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:31:2"
+      "aligned_qac_word_ref_upstream": "56:31:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1037,7 +1039,8 @@
       "morpheme_ids": [
         "m-w-s056-a031-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:31:3"
+      "aligned_qac_word_ref_upstream": "56:31:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1608,7 +1611,626 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_31.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:31",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:31",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-active-continuous-flow",
+            "confidence": "strong",
+            "focus_anchor": "The construction joins water to the passive descriptor masqub, poured or running out.",
+            "mechanism": "The water is presented as an active, continuing outflow rather than a static stored body.",
+            "activation_trace": [
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "Known water supplies the literal substance around which the reading is built."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B001",
+                "role": "Pouring, spilling, and ground-running turn the substance into visible movement."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "The branch image of persistence makes the outflow durative rather than momentary."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic mention of pleasant water.",
+              "after": "Water continually released into view and kept in effortless motion."
+            }
+          },
+          {
+            "model_id": "baseline-directed-irrigation",
+            "confidence": "medium",
+            "focus_anchor": "Both ma and masqub carry focus-internal branches of delivering water by pouring and of a place made for pouring or watering.",
+            "mechanism": "The phrase can depict directed delivery into a receiving place, giving the water an irrigating function rather than only scenic value.",
+            "activation_trace": [
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Conveying water by watering or pouring supplies the delivery function."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B004",
+                "role": "A watering or pouring station supplies a destination and spatial organization for that delivery."
+              }
+            ],
+            "changed_reading": {
+              "before": "Decorative flowing water.",
+              "after": "Water deliberately conveyed and poured where it can sustain a living setting."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-cultivated-hydraulic-order",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ض د",
+              "ط ل ح",
+              "ن ض د"
+            ],
+            "mechanism": "Removal of thorns, a tree, and orderly stacking revise the focus-only irrigation model into a managed horticultural system: the poured water services growth that has been made safe, accessible, and ordered.",
+            "activation_trace": [
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Delivered irrigation water is the focus anchor and proposed input to the cultivated system."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B001",
+                "role": "Pouring and ground-running provide the movement by which water reaches the setting."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Removing thorns and breaking their sharpness contributes active hazard removal to the garden's management."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The tree image supplies vegetation that can receive the focus water."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Joining things in ordered arrangement makes the watered abundance structured rather than wild."
+              }
+            ],
+            "structural_cues": [
+              "The focus water follows two vegetation lines whose modifiers describe removal and arrangement.",
+              "The repeated noun-plus-participle catalogue presents these amenities as coordinated parts of one setting."
+            ],
+            "reader_inference": "The packet supplies delivered water, vegetation, de-thorning, and ordered accumulation; I supply the causal arrow from irrigation to managed growth. A live alternative is that these are parallel amenities with no hydraulic dependence.",
+            "changed_reading": {
+              "before": "Water deliberately delivered to an unspecified place.",
+              "after": "The circulating input of an intentionally tended and spatially ordered orchard."
+            }
+          },
+          {
+            "model_id": "delta-shaded-self-replenishing-flow",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ظ ل ل",
+              "م د د"
+            ],
+            "mechanism": "Sheltering shade and an extension branch explicitly describing water filled and supplied by other water convert pouring into a protected, self-replenishing circulation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B002",
+                "role": "Appearing and abundant water supplies the volume maintained by the context mechanism."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Persistence anchors the claim that the pouring does not collapse into a single event."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "The shade's shelter supplies a protected and cooling envelope for the adjacent flow."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B003",
+                "role": "Water that flows, fills, and is extended by further water supplies the replenishment mechanism directly."
+              }
+            ],
+            "structural_cues": [
+              "Extended shade immediately precedes poured water in two parallel coordinated phrases."
+            ],
+            "reader_inference": "The packet supplies shelter, extension, replenished flowing water, and persistent pouring; I infer that shade and inflow cooperate as a stable microclimate. They may instead be independent neighboring comforts.",
+            "changed_reading": {
+              "before": "A continuous but otherwise unsupported outflow.",
+              "after": "A shaded circulation whose outgoing water is continually replaced by connected inflow."
+            }
+          },
+          {
+            "model_id": "delta-common-uninterrupted-access",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن",
+              "ف ك ه",
+              "ك ث ر",
+              "ق ط ع",
+              "م ن ع"
+            ],
+            "mechanism": "A blessed companion-group frames the catalogue, while abundant fruit is neither ended nor withheld; by adjacency, the poured water becomes common provision characterized by temporal continuity and unobstructed access.",
+            "activation_trace": [
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Persistent pouring anchors the temporal side of uninterrupted water provision."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing characterizes the recipient frame and recasts the water as beneficent provision."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Pleasant fruit supplies the neighboring provision to which non-cessation and non-withholding directly attach."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Numerical growth contributes abundance rather than bare availability."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "The negated image of ending or disappearance supplies temporal non-cessation."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "The negated withholding hand supplies the social condition of access without discretionary refusal."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship closes the catalogue around a collective receiver rather than a solitary owner."
+              }
+            ],
+            "structural_cues": [
+              "The same recipient designation appears at 56:27 and 56:38, enclosing the amenity sequence.",
+              "The feminine negations in 56:33 directly describe fruit, not the grammatically masculine water."
+            ],
+            "reader_inference": "The packet supplies a collective frame, persistent pouring, abundance, and fruit explicitly neither ending nor withheld; I extend that availability logic analogically to the adjacent water. The live alternative confines both negations to fruit and leaves water merely flowing.",
+            "changed_reading": {
+              "before": "A freely moving natural amenity.",
+              "after": "A shared supply that keeps arriving and is not subject to exhaustion or gatekeeping, by analogy with the adjacent fruit."
+            }
+          },
+          {
+            "model_id": "delta-generative-outpouring",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ش ء",
+              "ج ع ل",
+              "ب ك ر"
+            ],
+            "mechanism": "The focus root's branch of reproductive water is activated by the following creation, transformation, and virginity cluster, allowing the poured water to carry a secondary image of generative potential.",
+            "activation_trace": [
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B004",
+                "role": "Male reproductive water placed in the womb supplies the focus-internal generative material."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B001",
+                "role": "Outpouring provides the motion that lets the reproductive-water branch resonate with masqub."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Bringing a thing into being supplies the explicit creation frame."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B009",
+                "role": "Conception and growth of pregnancy sharpen the reproductive rather than merely artisanal sense of creation."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Transformation into a state supplies the result side of the generative process."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B004",
+                "role": "Virginity and untouchedness make reproductive potential salient while also limiting a literalized reading."
+              }
+            ],
+            "structural_cues": [
+              "The catalogue moves from water and furnishings into an emphatic creation-and-making sequence."
+            ],
+            "reader_inference": "The packet supplies reproductive water as a focus branch and then creation, pregnancy, transformation, and virginity images; I infer a generative echo across the transition. The materially live alternative is ordinary landscape water followed by an unrelated act of creation.",
+            "changed_reading": {
+              "before": "Only environmental water poured through a garden.",
+              "after": "Environmental water that also faintly figures an outpoured principle of renewed life."
+            }
+          },
+          {
+            "model_id": "delta-regulated-equal-irrigation",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ر ب",
+              "ت ر ب"
+            ],
+            "mechanism": "A branch of restoring irrigation to straight flow, paired with equality, changes masqub from uncontrolled spilling into regulated distribution delivered evenly across the setting.",
+            "activation_trace": [
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Water conveyed for irrigation supplies the material whose distribution is being reimagined."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B001",
+                "role": "Pouring and ground-running supply the flow that can be straightened and apportioned."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B017",
+                "role": "Irrigation restored to straightness after irregularity supplies explicit hydraulic regulation."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "Equality in age and companionship is transferred cautiously into an image of even distribution."
+              }
+            ],
+            "structural_cues": [
+              "The two trigger words form a compact paired description in 56:37."
+            ],
+            "reader_inference": "The packet supplies a literal irrigation-straightening branch and a paired equality branch; I supply the cross-domain arrow from human equality to hydraulic apportionment. The alternative keeps equality solely among the described persons and leaves the water unregulated.",
+            "changed_reading": {
+              "before": "Water spilling freely wherever gravity takes it.",
+              "after": "A corrected irrigation flow distributed with designed regularity and evenness."
+            }
+          },
+          {
+            "model_id": "delta-cross-cohort-continuity",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ل ل",
+              "ء و ل",
+              "ء خ ر"
+            ],
+            "mechanism": "Gathered groups from the first and later populations place persistent pouring across successive cohorts, making the water a repeatable provision rather than a single generation's allotment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Persistence supplies the temporal capacity for the water to remain available across cohorts."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "A gathered group supplies the first collective receiver."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence establish the early temporal pole."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The alternate mapped root's one-after-another sequence supplies succession between recipient groups."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The repeated gathered-group image supplies the later collective receiver in parallel form."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the second temporal pole reached by the continuous provision."
+              }
+            ],
+            "structural_cues": [
+              "56:39 and 56:40 repeat the same group construction while switching from first to later."
+            ],
+            "reader_inference": "The packet supplies persistent pouring and parallel gathered groups at early and later poles; I infer continuity of provision across their succession. The alternative is that the cohort labels count recipients without changing the water's temporal profile.",
+            "changed_reading": {
+              "before": "Continuous water within one local scene.",
+              "after": "Provision whose continuity spans gathered recipients across successive temporal cohorts."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-water-as-fine-raised-sheet",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from liquid into textile imagery; it remains anchored in the focus branch that names a thin cloth through resemblance to poured water and is activated by adjacent raised bedding. Downstream prose should render it only as an as-if sensory analogy, never as a claim that the water is literally fabric.",
+            "focus_anchor": "The sk-b descriptor itself includes a branch in which a fine cloth resembles the pouring of water.",
+            "activation_trace": [
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B003",
+                "role": "A thin garment likened to poured water supplies the focus-internal image of a fine flowing sheet."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "Bedding and spread furnishings activate the textile side of the focus descriptor."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Elevation gives the imagined water-sheet a lifted or draped spatial profile."
+              }
+            ],
+            "changed_reading": {
+              "before": "Water perceived chiefly as volume and current.",
+              "after": "Water also perceived, by contained analogy, as a fine continuous sheet unfurled beside raised furnishings."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The extended-shade sequence turns pouring into a protected flow replenished by connected water.",
+            "The enclosing companion-group and the fruit's non-cessation and non-withholding recast water as common, durable, unobstructed provision.",
+            "The creation cluster activates the focus root's reproductive-water branch, while the irrigation-straightening branch activates regulated and even distribution."
+          ],
+          "what_was_special": "The most diagnostic activations were unusually concrete cross-links already present in the packet: m-d-d explicitly describes water replenished by water, ar-b explicitly describes corrected irrigation, and focus branches preserve both generative water and cloth-like pouring.",
+          "remaining_uncertainties": [
+            "The hydraulic links among coordinated catalogue items are reader-supplied causal arrows; the items can remain independent amenities.",
+            "Non-cessation and non-withholding grammatically describe fruit, so their extension to water is analogical rather than syntactic.",
+            "The generative, egalitarian-hydraulic, and textile readings are branch-valid exploratory resonances, not claims about the focus phrase's primary denotation."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Water made continuously available by pouring.** `م و ه` **B001** supplies water itself and `س ك ب` **B001** pouring and flowing. Its placement between extended shade and abundant fruit assigns flowing water an enabling ecological role. **Abductive move:** I infer that water sustains the surrounding growth, though the direction of causation is unstated. **Reading change:** the ayah is the supply mechanism inside the garden sequence.\n\n2. **Flow without loss of adherence.** `س ك ب` **B008** supplies adherence and permanence, apparently opposed to pouring. The later threat that water could become bitter (56:68–70) sharpens this coexistence. **Abductive move:** I infer that the water remains reliably present precisely while it flows. **Reading change:** “poured” does not imply depletion; mobility and permanence coincide.",
@@ -2510,18 +3132,23 @@
   "root_lexicon": {
     "root_001458": {
       "root_ar": "م و ه",
+      "qac_roots_ar": [
+        "م و ه"
+      ],
       "root_id": "root_001458",
-      "root_mapping": {
-        "root_id": "root_001458",
-        "root_norm": "م و ه",
-        "source_root_norm": "م و ه",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 63,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م و ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 63
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cad7af3d34cfbd12fe6a51cc0b90a6688a1581021ddc42a2e01b3f4a6c8c0ef1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5213,18 +5840,23 @@
     },
     "root_000723": {
       "root_ar": "س ك ب",
+      "qac_roots_ar": [
+        "س ك ب"
+      ],
       "root_id": "root_000723",
-      "root_mapping": {
-        "root_id": "root_000723",
-        "root_norm": "س ك ب",
-        "source_root_norm": "س ك ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ك ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1d3b1e8659030f799026a047c7f53a36955f488d1e3507bf0aa3c6cb19c29f58",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7940,14 +8572,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8264,11 +8902,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_31.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_31.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 67404,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8341,19 +8992,37 @@
           "root_ids": [
             "root_001458"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م و ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001458",
+            "targets": [
+              {
+                "qac_root_norm": "م و ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_001458",
+                "furuq_root_norm": "م و ه",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 63,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001458",
-              "root_norm": "م و ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م و ه",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 63,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8378,19 +9047,37 @@
           "root_ids": [
             "root_000723"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ك ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000723",
+            "targets": [
+              {
+                "qac_root_norm": "س ك ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000723",
+                "furuq_root_norm": "س ك ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000723",
-              "root_norm": "س ك ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ك ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8417,10 +9104,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 21,
+        "dictionary_branches_kept": 21,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 21,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

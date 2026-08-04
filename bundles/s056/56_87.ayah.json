@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.573073+00:00",
+  "generated_at": "2026-08-04T22:30:02.302436+00:00",
   "surah": 56,
   "ayah": 87,
   "ayahRef": "56:87",
@@ -1475,7 +1475,8 @@
         "m-w-s056-a087-w001-02",
         "m-w-s056-a087-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:87:1"
+      "aligned_qac_word_ref_upstream": "56:87:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1489,7 +1490,8 @@
       "morpheme_ids": [
         "m-w-s056-a087-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:87:2"
+      "aligned_qac_word_ref_upstream": "56:87:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1505,7 +1507,8 @@
         "m-w-s056-a087-w003-01",
         "m-w-s056-a087-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:87:3"
+      "aligned_qac_word_ref_upstream": "56:87:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1519,7 +1522,8 @@
       "morpheme_ids": [
         "m-w-s056-a087-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:87:4"
+      "aligned_qac_word_ref_upstream": "56:87:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2148,7 +2152,751 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_87.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:87",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:87",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_return_as_restoration",
+            "confidence": "strong",
+            "focus_anchor": "The transitive plural verb at word 1 carries a feminine object, while the conditional at words 3-4 makes the addressees' truth depend on what they can do to it.",
+            "mechanism": "The addressees must cause the feminine referent to resume a prior place or state. Truth is therefore tested as fulfilled action rather than left as an assertion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Ordinary return and restoration supply the physical reversal and make the plural addressees its agents."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Temporal occurrence and presence make the conditional test whether the addressees' asserted standing actually obtains."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Truth realized through fulfillment turns successful return into the proof of the claim."
+              }
+            ],
+            "changed_reading": {
+              "before": "Return her or it, if you speak truly.",
+              "after": "Make the feminine referent actually resume its prior state; the achieved reversal is what verifies your claimed condition."
+            }
+          },
+          {
+            "model_id": "b_return_as_answer",
+            "confidence": "medium",
+            "focus_anchor": "Word 1 can carry the branch of returning an answer, and word 4 explicitly evaluates truth in speech.",
+            "mechanism": "The challenge can demand a reply whose content is an enacted return. Speech and deed are joined: the only adequate answer is to perform the counteraction being named.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B005",
+                "role": "The branch of sending back an answer gives the return verb a responsive speech-act dimension."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "Agreement between statement, inward claim, and reported reality sets the standard the reply must meet."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment by action makes the demanded reply demonstrative rather than merely verbal."
+              }
+            ],
+            "changed_reading": {
+              "before": "Cause the object to go back as evidence that your words are true.",
+              "after": "Return an answer to the challenge by returning her or it; truthful speech must take the form of a counter-deed."
+            }
+          },
+          {
+            "model_id": "b_restore_viability",
+            "confidence": "exploratory",
+            "focus_anchor": "The return root at word 1 includes recovery of a body or patient to a better condition, while the truth root at word 4 includes solidity and completed stability.",
+            "mechanism": "Return can concern recovered condition rather than location alone. The test then asks for material restoration to a sound, stable state.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B014",
+                "role": "Recovery after bodily weakness supplies return as restoration of viability, not simple backward movement."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B002",
+                "role": "Material firmness makes the claimed power answerable to a physically robust result."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Completed soundness supplies the endpoint that a successful restoration would have to reach."
+              }
+            ],
+            "changed_reading": {
+              "before": "Move the feminine object back.",
+              "after": "Recover the feminine referent into a sound embodied condition, making the claimed capability materially firm."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_terminal_motion_reversed",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل غ",
+              "ح ل ق",
+              "ن ظ ر",
+              "ق ر ب",
+              "ب ص ر",
+              "د ي ن"
+            ],
+            "mechanism": "The generic restoration becomes reversal of a terminal bodily motion. A feminine participant reaches the throat while the addressees watch; a nearer agency remains outside their sight, and their claimed freedom from account is tested by whether they can reverse what is happening.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return to a prior state supplies the directional reversal demanded at the bodily limit."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B014",
+                "role": "Bodily recovery specifies that reversal as restored life-capacity rather than mere relocation."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment in action makes successful reversal the criterion of truth."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at an endpoint fixes the outward motion whose direction the focus verb would have to undo."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as the passage of breath and food locates the endpoint in a bodily conduit."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed looking casts the addressees as present observers whose sight does not itself confer control."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Literal nearness supplies a competing agency more proximate to the event than the watching addressees."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Ordinary eyesight, explicitly negated, creates the gap between physical attendance and operative perception."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Account and requital identify the challenged claim as freedom from a governing reckoning."
+              }
+            ],
+            "structural_cues": [
+              "56:83 supplies a feminine subject arriving at the throat, allowing the feminine object suffix in 56:87 to resume that participant.",
+              "56:84-86 move from second-person watching to a nearer but unseen first-person agency, then place the return challenge after a claim of exemption from account."
+            ],
+            "reader_inference": "The packet supplies arrival, throat, spectatorship, unseen nearness, and disputed account; I infer that the object suffix resumes the arriving life-bearing participant and that return means reversing its terminal motion. A live alternative is a more generic demand for restitution without specifying bodily revival.",
+            "changed_reading": {
+              "before": "Restore an unspecified feminine object to where it was.",
+              "after": "Reverse the life-bearing participant's arrival at the throat and restore bodily viability; doing so would prove control over the terminal event."
+            }
+          },
+          {
+            "model_id": "d_performative_reply_to_denial",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق س م",
+              "ق ر ء",
+              "ح د ث",
+              "ك ذ ب",
+              "ح ق ق",
+              "ي ق ن"
+            ],
+            "mechanism": "An oath introduces a recited communication, the addressees treat that discourse evasively and deny it, and the sequence closes by affirming truth with certainty. Within that arc, returning the referent is the demanded answer: a deed that either substantiates or defeats their counterclaim.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B005",
+                "role": "Returning an answer supplies the focus verb's responsive function inside the dispute."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "Verbal correspondence to reality sets the explicit truth standard for the addressees' position."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Truth fulfilled in action converts the answer from assertion into demonstration."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "The oath branch formally stakes a claim and opens the evidentiary contest."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and recitation establish the communication to which the addressees are responding."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed speech or report frames the contested material as an addressed discourse."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Direct contradiction of truth identifies denial as the counterclaim that the return challenge tests."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Truth fixed to reality closes the dispute by opposing stable fact to denial."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Settled knowledge without doubt raises the demanded proof beyond plausible speech."
+              }
+            ],
+            "structural_cues": [
+              "The sequence runs from oath and recited communication through evasive treatment and denial to a concrete challenge, then closes with truth qualified by certainty."
+            ],
+            "reader_inference": "The packet supplies an oath, recited discourse, denial, and a closing assertion of certain truth; I infer that the answer branch of the focus return verb makes the impossible counteraction the addressees' required rejoinder. The alternative is that the speech frame intensifies the rhetoric without activating an answer-sense in the verb.",
+            "changed_reading": {
+              "before": "Perform a return to show that your claim is true.",
+              "after": "Give your rebuttal in the only form admitted by the challenge: return the departing referent, so that deed rather than denial answers the asserted truth."
+            }
+          },
+          {
+            "model_id": "d_return_against_assignment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك و ن",
+              "ق ر ب",
+              "ص ح ب",
+              "س ل م",
+              "ن ز ل"
+            ],
+            "mechanism": "After the challenge, repeated conditional being sorts the person into differentiated affiliations and receptions. Return therefore also means interrupting a transfer already moving toward an assigned cohort, greeting, or prepared lodging.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Restoration to a former direction or state supplies the attempted interruption of onward transfer."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Conditional existence opens a status test that the following repeated conditions elaborate."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Repeated conditional being turns the post-challenge sequence into classification by actual state."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Favored proximity to a sovereign supplies one destination-status in the classification."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and lasting affiliation supply a second cohort into which the person is placed."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B012",
+                "role": "Delivery and release make the greeting function as a completed handover to that cohort."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared reception for an arriving guest supplies the endpoint of the adverse transfer."
+              }
+            ],
+            "structural_cues": [
+              "56:88, 56:90, and 56:92 repeat the same conditional construction and distribute the person among three outcomes immediately after the failed return challenge."
+            ],
+            "reader_inference": "The packet supplies repeated conditional classifications, affiliations, and prepared receptions; I infer that these are the onward destinations of the participant whom 56:87 challenges the addressees to return. A live alternative is that the outcomes follow rhetorically but do not alter the semantics of return.",
+            "changed_reading": {
+              "before": "Bring the departing referent back from a terminal point.",
+              "after": "Interrupt the departing person's transfer into an already differentiated reception and restore the person to the prior human sphere."
+            }
+          },
+          {
+            "model_id": "d_claimant_custody_account",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "غ ي ر",
+              "د ي ن",
+              "ر و ح",
+              "ح ق ق"
+            ],
+            "mechanism": "The claim of being outside account activates a legal-custodial model. Transactional return, surety, debt, restoration of a right to its owner, and established entitlement make the departing referent resemble something held under a superior claim; rival claimants must reclaim it to prove independence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B011",
+                "role": "Rescission and recovery in an exchange supply return as reversal of custody or claim."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B003",
+                "role": "Surety and standing for another make the conditional ask whether the addressees can answer for the referent."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B006",
+                "role": "A truth-grounded financial right links sincerity to relinquishing or satisfying a valid claim."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Exclusion and negation formulate the addressees' assertion that they stand outside the stated liability."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Account and requital supply the governing liability from which the addressees claim exemption."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt gives the broader liability a concrete creditor-debtor analogy."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B006",
+                "role": "Restoring a right to its owner supplies the custodial direction of the transfer after the challenge."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B003",
+                "role": "A specifically owned entitlement makes the superior claim concrete rather than merely punitive."
+              }
+            ],
+            "structural_cues": [
+              "The exemption clause in 56:86 directly governs the return challenge, while the subsequent outcomes present reception by an order the addressees cannot rescind."
+            ],
+            "reader_inference": "The packet supplies exclusion, account, debt, transactional recovery, restoration of a right, and owned entitlement; I infer a superior-custody relation over the departing life and read return as a rival reclamation test. The live alternative is that account is solely judgment, with the commercial branches functioning only as loose analogy.",
+            "changed_reading": {
+              "before": "Physically bring the departing referent back.",
+              "after": "Reclaim what is passing under another's established claim; failure to reverse custody exposes the asserted exemption from account as false."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_acoustic_revival",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the feminine object most directly resumes a departing participant, not a sound. It remains anchored in the return verb's echo branch and is activated by recitation, renewed speech, the throat as a breath passage, and closing vocal praise. Downstream prose should present it only as an acoustic analogy for restored life or answer, not as a replacement antecedent for the object suffix.",
+            "focus_anchor": "The return root at word 1 includes repeated or rebounding voice, and the truth root at word 4 keeps the activation tied to utterance that must accord with reality.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B007",
+                "role": "Echoed voice supplies return as making a stopped sound or call come back."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "Truthful utterance keeps the acoustic return within the focus clause's evidentiary demand."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies a voiced current earlier in the sequence."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed speech or report makes audible response a live mechanism rather than a free-standing sound image."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as a breath passage locates where voice and life both cease to pass."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B001",
+                "role": "Vocal worship at the close restores utterance as the passage's final directed action."
+              }
+            ],
+            "changed_reading": {
+              "before": "Make the departing referent physically return.",
+              "after": "Make the silenced life-answer sound again through the throat, as though returning an echo that proves the speaker's claim."
+            }
+          },
+          {
+            "outlier_id": "o_inverse_gestation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the cited contextual surfaces do not themselves denote pregnancy in this sequence. It remains anchored in the focus return root's specialized failed-pregnancy branch and gains a coherent threshold mechanism from womb-collection, nearness of birth, and a concealed fetus. Downstream prose should label it a cross-domain inverse-birth analogy, never a direct lexical gloss of the ayah.",
+            "focus_anchor": "The return root at word 1 includes a pregnancy that fails to hold or is cast out before form becomes manifest, while the feminine object permits an enclosed life-bearing image.",
+            "activation_trace": [
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B013",
+                "role": "Failed gestation and premature casting supply return as an attempt to put an emerging life-process back."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Completed stability supplies the form or condition that the interrupted transition has not retained."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B004",
+                "role": "A womb gathering a pregnancy supplies the containing phase from which inverse movement begins."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B012",
+                "role": "Nearness of birth supplies a liminal threshold analogous to the death threshold in the local sequence."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B007",
+                "role": "The concealed fetus supplies the enclosed life-form to which the departing participant would analogically be returned."
+              }
+            ],
+            "changed_reading": {
+              "before": "Reverse a departure at death.",
+              "after": "Treat death as an inverse birth and put the departing life back into bodily enclosure before its transition is completed."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The local sequence resolves generic return into reversal of a feminine participant's arrival at the throat under an asymmetry between watching humans and a nearer unseen agency.",
+            "The oath, discourse, denial, and certainty arc makes return a performative answer: capability rather than assertion validates truth.",
+            "Repeated post-challenge conditions recast return as an attempt to interrupt classification and reception."
+          ],
+          "what_was_special": "A three-word challenge concentrates physical reversal, evidentiary reply, and jurisdictional accountability. Specialized return branches also preserve acoustic and inverse-gestational analogies without forcing them into the primary reading.",
+          "remaining_uncertainties": [
+            "The antecedent of the feminine object suffix is not lexical inside 56:87 and is resolved from the preceding context.",
+            "The legal-custodial model depends on whether debt, restitution, and entitlement branches are active mechanisms or only analogies.",
+            "The post-challenge classifications may alter the sense of return, or they may only state what follows its demonstrated impossibility."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Send it back if the claim corresponds to reality.** `ر ج ع` **B001** supplies return or sending back; `ص د ق` **B001** supplies truth in speech and **B004** confirmation. The feminine pronoun remains tied to the immediately unfolding throat-event without the packet naming its referent separately. **Abductive move:** I infer that successful reversal would verify the claim of non-subjection. **Reading change:** truth is tested by causal performance, not rhetoric.\n\n2. **Reverse the process and restore the prior condition.** `ر ج ع` **B014** supplies restored condition and **B003** turning back from an act. **Abductive move:** I infer that “returning it” means undoing the one-way bodily transition described in 56:83. **Reading change:** the challenge demands process reversal, exposing the boundary of observer agency.",
@@ -3265,18 +4013,23 @@
   "root_lexicon": {
     "root_000544": {
       "root_ar": "ر ج ع",
+      "qac_roots_ar": [
+        "ر ج ع"
+      ],
       "root_id": "root_000544",
-      "root_mapping": {
-        "root_id": "root_000544",
-        "root_norm": "ر ج ع",
-        "source_root_norm": "ر ج ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 102,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ج ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 102
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "16ec5a812fb83dff05c3d4d4b0c0f7c9d88a9d061d4c691dc01314e188d8647c",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7346,18 +8099,23 @@
     },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -8477,18 +9235,23 @@
     },
     "root_000852": {
       "root_ar": "ص د ق",
+      "qac_roots_ar": [
+        "ص د ق"
+      ],
       "root_id": "root_000852",
-      "root_mapping": {
-        "root_id": "root_000852",
-        "root_norm": "ص د ق",
-        "source_root_norm": "ص د ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 140,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص د ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 140
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c8ca8261ddf5a22f0b842402d653f3080f2262e5d80e962637715b8dfd260ccc",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11198,14 +11961,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11491,11 +12260,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_87.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_87.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 94347,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -11568,19 +12350,37 @@
           "root_ids": [
             "root_000544"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر ج ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000544",
+            "targets": [
+              {
+                "qac_root_norm": "ر ج ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000544",
+                "furuq_root_norm": "ر ج ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 102,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000544",
-              "root_norm": "ر ج ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر ج ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 102,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 15,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11605,19 +12405,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -11629,19 +12447,37 @@
           "root_ids": [
             "root_000852"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص د ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000852",
+            "targets": [
+              {
+                "qac_root_norm": "ص د ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000852",
+                "furuq_root_norm": "ص د ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 140,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000852",
-              "root_norm": "ص د ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص د ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 140,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11668,10 +12504,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 22,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

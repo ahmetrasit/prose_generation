@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:17.389910+00:00",
+  "generated_at": "2026-08-04T22:29:41.828613+00:00",
   "surah": 19,
   "ayah": 85,
   "ayahRef": "19:85",
@@ -1744,7 +1744,8 @@
       "morpheme_ids": [
         "m-w-s019-a085-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:85:1"
+      "aligned_qac_word_ref_upstream": "19:85:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1758,7 +1759,8 @@
       "morpheme_ids": [
         "m-w-s019-a085-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:85:2"
+      "aligned_qac_word_ref_upstream": "19:85:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1774,7 +1776,8 @@
         "m-w-s019-a085-w003-01",
         "m-w-s019-a085-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:85:3"
+      "aligned_qac_word_ref_upstream": "19:85:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1788,7 +1791,8 @@
       "morpheme_ids": [
         "m-w-s019-a085-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:85:4"
+      "aligned_qac_word_ref_upstream": "19:85:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1804,7 +1808,8 @@
         "m-w-s019-a085-w005-01",
         "m-w-s019-a085-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:85:5"
+      "aligned_qac_word_ref_upstream": "19:85:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1818,7 +1823,8 @@
       "morpheme_ids": [
         "m-w-s019-a085-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:85:6"
+      "aligned_qac_word_ref_upstream": "19:85:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2296,7 +2302,611 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_85.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:85",
+      "window": [
+        "19:77",
+        "19:78",
+        "19:79",
+        "19:80",
+        "19:81",
+        "19:82",
+        "19:83",
+        "19:84",
+        "19:85",
+        "19:86",
+        "19:87",
+        "19:88",
+        "19:89",
+        "19:90",
+        "19:91",
+        "19:92",
+        "19:93",
+        "19:94",
+        "19:95",
+        "19:96",
+        "19:97",
+        "19:98"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:85",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_delegated_arrival",
+            "confidence": "strong",
+            "focus_anchor": "يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًا",
+            "mechanism": "The first-person gatherer moves a protected cohort toward mercy, while wafd gives the cohort the social form of persons arriving before authority as envoys or need-seekers. Destination and manner turn mass assembly into audience.",
+            "activation_trace": [
+              {
+                "source_ref": "19:85",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "An eventful or severe day supplies the assembly's decisive temporal frame."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Gathering a group while moving it to a destination supplies the coordinated conveyance."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Putting oneself in protection supplies the cohort criterion and makes protection a carried relation."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Mercy, tenderness, and beneficence supply the endpoint's relational quality."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ف د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001665",
+                "branch_id": "B001",
+                "role": "Arrival before a ruler as envoy or need-seeker supplies formal delegation and audience."
+              }
+            ],
+            "changed_reading": {
+              "before": "At a decisive time, the protected are gathered toward the Merciful.",
+              "after": "A protected cohort is deliberately conveyed into an audience with the Merciful in the social form of a delegation, not merely accumulated as a crowd."
+            }
+          },
+          {
+            "model_id": "b2_protection_in_motion",
+            "confidence": "medium",
+            "focus_anchor": "ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًا",
+            "mechanism": "Protection is not static avoidance: its bearers are removed from their present location and carried on a journey whose endpoint is mercy. The ethical designation becomes a successful passage.",
+            "activation_trace": [
+              {
+                "source_ref": "19:85",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Removal and collection toward a destination turn a state of protection into movement."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "A barrier that repels harm supplies the protective relation carried through the transition."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful beneficence supplies the successful endpoint of that protective passage."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ف د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001665",
+                "branch_id": "B007",
+                "role": "Being set out on travel supplies the passage image and prevents a purely static reading."
+              }
+            ],
+            "changed_reading": {
+              "before": "Al-muttaqin is a fixed moral class rewarded by being assembled.",
+              "after": "Al-muttaqin are people whose protective orientation becomes a completed passage into mercy."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "c1_nonhereditary_covenantal_access",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ه د",
+              "ش ف ع",
+              "و ل د",
+              "ع ب د"
+            ],
+            "mechanism": "Access near al-Rahman is tied to a securing covenant and intercession joins one person to another; filial attribution is then denied and universal arrival is as servants. Wafd is consequently sharpened as conferred, covenant-governed representative access rather than hereditary court intimacy.",
+            "activation_trace": [
+              {
+                "source_ref": "19:85",
+                "root": "و ف د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001665",
+                "branch_id": "B001",
+                "role": "Arrival before authority as envoy or need-seeker supplies the focus's potentially representative audience."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "A preserved covenant that secures its bearer supplies the authorization for approach."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B002",
+                "role": "An intercessor joining another supplies the delegation's possible other-bearing function."
+              },
+              {
+                "source_ref": "19:88",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Offspring by descent supplies the kinship status that the sequence explicitly rejects for al-Rahman."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive service supplies the universal relation beneath the delegation's differentiated reception."
+              }
+            ],
+            "structural_cues": [
+              "19:78 and 19:87 repeat the construction near al-Rahman with a covenant; 19:88-93 then deny child attribution and replace it with universal servant-arrival."
+            ],
+            "reader_inference": "The packet supplies covenant as security, intercession as joining another, denied offspring, and servant arrival; I infer that these delimit the delegation's authorization and nonhereditary status. A live alternative is that wafdan signals honor only, without an intercessory function.",
+            "changed_reading": {
+              "before": "The delegation is an honored entourage admitted to a sovereign audience.",
+              "after": "The delegation's dignity is conferred rather than inherited: covenant can authorize approach, and its representative form may carry others' needs while every entrant remains a servant."
+            }
+          },
+          {
+            "model_id": "c2_protection_that_does_not_reverse",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ ذ",
+              "ع ز ز",
+              "ض د د"
+            ],
+            "mechanism": "Others acquire gods for strength, but the intended support reverses into opposition. The protected cohort is thereby sharpened as people whose protective orientation holds when manufactured protection turns against its users.",
+            "activation_trace": [
+              {
+                "source_ref": "19:85",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Repelling harm by a protective barrier supplies the focus's successful protection architecture."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful beneficence supplies the relation toward which durable protection is oriented."
+              },
+              {
+                "source_ref": "19:81",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Acquisition supplies the deliberate construction of an alternative support relation."
+              },
+              {
+                "source_ref": "19:81",
+                "root": "ع ز ز",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001008",
+                "branch_id": "B004",
+                "role": "Strengthening supplies the intended protective payoff of the acquired gods."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Contrary opposition supplies the reversal that exposes the failed support."
+              }
+            ],
+            "structural_cues": [
+              "The purpose clause in 19:81, so that they may be strength for them, reverses in 19:82 to against them as opponents; 19:85 then names al-muttaqin and their endpoint."
+            ],
+            "reader_inference": "The packet supplies attempted acquired strength, its reversal, and the focus's protection root; I infer a contrast between failed and durable protection relations. The live alternative is that al-muttaqin remains only an ethical category and the protection architecture is thematic rather than lexical.",
+            "changed_reading": {
+              "before": "Al-muttaqin is a generic label for the pious.",
+              "after": "Al-muttaqin are those whose chosen shielding relation remains viable when fabricated sources of strength invert into adversaries."
+            }
+          },
+          {
+            "model_id": "c3_counted_collective",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع د د",
+              "ح ص ي",
+              "ف ر د"
+            ],
+            "mechanism": "Exact counting directly precedes the focus, exhaustive enumeration follows, and each one arrives alone. Gathering into a wafd therefore reorganizes fully individuated persons into a corporate form without dissolving their separate account; the day is a measured threshold, not an anonymous mass event.",
+            "activation_trace": [
+              {
+                "source_ref": "19:85",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The decisive event-day supplies the threshold at which counting becomes assembly."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Collecting and moving a group supplies corporate reorganization."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ف د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001665",
+                "branch_id": "B001",
+                "role": "Delegated arrival supplies the collective social form imposed without erasing members."
+              },
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Counting the counted supplies measured preparation immediately before the focus."
+              },
+              {
+                "source_ref": "19:94",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B002",
+                "role": "Exhaustive enumeration supplies assurance that no member disappears into the collective."
+              },
+              {
+                "source_ref": "19:95",
+                "root": "ف ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001141",
+                "branch_id": "B001",
+                "role": "The single person standing alone supplies irreducible individual accountability."
+              }
+            ],
+            "structural_cues": [
+              "19:84's doubled counting directly precedes 19:85; 19:94-95 restate exhaustive counting and each-one-alone arrival on the resurrection day."
+            ],
+            "reader_inference": "The packet supplies counting, exhaustive enumeration, and solitary arrival; I infer that organization into wafd preserves rather than cancels individuation. A live alternative is that the passage juxtaposes separate collective and individual scenes without asking them to qualify each other.",
+            "changed_reading": {
+              "before": "Hashr gathers the protected as an undifferentiated crowd.",
+              "after": "Every person remains exactly counted and individually answerable, yet the protected are received in a newly corporate, delegated form at the measured threshold."
+            }
+          },
+          {
+            "model_id": "c4_differentiated_conveyance",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س و ق",
+              "ج ر م",
+              "و ر د"
+            ],
+            "mechanism": "The next ayah repeats the same transport scaffold but replaces gathering with explicit driving, the protected with offenders, al-Rahman with Hell, and delegation with arrival. The parallel makes the focus's social status and endpoint, not movement alone, the decisive differentiation.",
+            "activation_trace": [
+              {
+                "source_ref": "19:85",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Collecting a group while moving it to a destination supplies the shared transport frame without settling coercion by itself."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful beneficence gives the focus procession its relational endpoint."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ف د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001665",
+                "branch_id": "B001",
+                "role": "Arrival before authority as envoys or need-seekers gives the transported group formal social agency."
+              },
+              {
+                "source_ref": "19:86",
+                "root": "س و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B001",
+                "role": "Herding, driving, and expulsion supply the explicit coercive comparator."
+              },
+              {
+                "source_ref": "19:86",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B004",
+                "role": "Guilt and offense supply the penal identity of the contrasted group."
+              },
+              {
+                "source_ref": "19:86",
+                "root": "و ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001640",
+                "branch_id": "B001",
+                "role": "Arrival at a destination preserves the structural parallel while withholding delegation status."
+              }
+            ],
+            "structural_cues": [
+              "19:85 and 19:86 share first-person plural verbs, marked human groups, ila endpoints, and final circumstantial collectives, wafdan and wirdan."
+            ],
+            "reader_inference": "The packet supplies delegated gathering toward mercy versus driving offenders toward Hell; I infer that the lexical asymmetry marks differentiated conveyance. Because hashr itself can include driving, a live alternative is that the distinction lies chiefly in destination and status rather than comfort of transport.",
+            "changed_reading": {
+              "before": "The focus and the next ayah depict equivalent mass transfers to different destinations.",
+              "after": "The two transfers are deliberately unequal: the protected receive a delegation's form and merciful audience, while offenders are explicitly driven in a merely arrival-bound procession."
+            }
+          },
+          {
+            "model_id": "c5_affectionate_reception",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "و د د",
+              "ب ش ر",
+              "و ق ي"
+            ],
+            "mechanism": "Al-Rahman makes affection for believers who act soundly, and the next ayah addresses glad tidings to the same lexical al-muttaqin. These cues fill the focus's endpoint with made affection and public welcome, so the delegation is received rather than merely processed.",
+            "activation_trace": [
+              {
+                "source_ref": "19:85",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Mercy and beneficence supply the destination whose affective content the later cues specify."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ف د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001665",
+                "branch_id": "B001",
+                "role": "Arrival before authority supplies the reception scene that affection and glad tidings recolor."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Causing something to become a state supplies deliberate production rather than accidental sentiment."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "و د د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001634",
+                "branch_id": "B001",
+                "role": "Love and affection supply the positive social field made for the arriving cohort."
+              },
+              {
+                "source_ref": "19:97",
+                "root": "ب ش ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000120",
+                "branch_id": "B005",
+                "role": "News that opens the face with joy supplies announced welcome."
+              },
+              {
+                "source_ref": "19:97",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "The repeated protected cohort identifies the explicit audience of glad tidings with the focus designation."
+              }
+            ],
+            "structural_cues": [
+              "19:96 repeats al-Rahman as the maker of affection, and 19:97 repeats al-muttaqin exactly as the audience of glad tidings."
+            ],
+            "reader_inference": "The packet supplies made affection and good news for the repeated protected cohort; I infer that these cues color its earlier arrival as welcome. A live alternative is that the believers who act soundly in 19:96 and al-muttaqin need not be fully coextensive.",
+            "changed_reading": {
+              "before": "Arrival before al-Rahman is a formal but affectively unspecified audience.",
+              "after": "The protected delegation enters a reception deliberately furnished with affection and already announced to them as good news."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_post_harvest_remnant",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the agricultural remainder branch of hashr against the ordinary collective-motion branch. It remains anchored by the focus's hashr and protection roots and by contextual destruction of prior generations; downstream prose should mark it as a material analogy, not a replacement lexical sense or final interpretation.",
+            "focus_anchor": "نَحْشُرُ ٱلْمُتَّقِينَ",
+            "activation_trace": [
+              {
+                "source_ref": "19:85",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B008",
+                "role": "Crop remaining after harvest supplies the material image of a viable remnant."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protection that repels harm supplies the survival filter distinguishing the remnant."
+              },
+              {
+                "source_ref": "19:98",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B001",
+                "role": "Falling into destruction supplies the contextual removal against which the protected appear as remainder."
+              }
+            ],
+            "changed_reading": {
+              "before": "Gathering simply relocates all protected people.",
+              "after": "Exploratorily, the protected are the viable remnant left after a historical harvest of destroyed generations and gathered onward toward mercy."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The 19:86 parallel differentiates delegated arrival toward mercy from explicit penal driving.",
+            "Counting and solitary arrival preserve individual accountability inside the collective wafd.",
+            "Covenant, denied sonship, and servanthood recast delegation as conferred and nonhereditary access.",
+            "19:96-97 fill the al-Rahman endpoint with made affection and glad tidings."
+          ],
+          "what_was_special": "The focus's transport, protection, and delegation branches become precise when nearby ayat repeatedly vary approach to al-Rahman: acquired protectors reverse, offenders are driven elsewhere, covenant governs access, kinship is denied, and the same al-muttaqin receive good news.",
+          "remaining_uncertainties": [
+            "Wafd may mark only circumstantial manner, so representative or intercessory force remains inferential.",
+            "The believers who act soundly in 19:96 need not be exactly coextensive with al-muttaqin in 19:85 and 19:97.",
+            "The post-harvest remnant is a branch-led material analogy, not a claim that B008 is the direct sentence sense."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -3408,18 +4018,23 @@
   "root_lexicon": {
     "root_001700": {
       "root_ar": "ي و م",
+      "qac_roots_ar": [
+        "ي و م"
+      ],
       "root_id": "root_001700",
-      "root_mapping": {
-        "root_id": "root_001700",
-        "root_norm": "ي و م",
-        "source_root_norm": "ي و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 414,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 414
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e76145ff9db215c969fb749d8f4011fa704b398c30ebc90862161f0e4604a786",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4738,18 +5353,23 @@
     },
     "root_000324": {
       "root_ar": "ح ش ر",
+      "qac_roots_ar": [
+        "ح ش ر"
+      ],
       "root_id": "root_000324",
-      "root_mapping": {
-        "root_id": "root_000324",
-        "root_norm": "ح ش ر",
-        "source_root_norm": "ح ش ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 43,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ش ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 43
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ce54e89783825e054fc87c42f32c875ac9a5775dd47defd385651f814aaa6e3e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7225,18 +7845,23 @@
     },
     "root_001677": {
       "root_ar": "و ق ي",
+      "qac_roots_ar": [
+        "و ق ي"
+      ],
       "root_id": "root_001677",
-      "root_mapping": {
-        "root_id": "root_001677",
-        "root_norm": "و ق ي",
-        "source_root_norm": "و ق ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 149,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ق ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 149
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "760979c4494e6d17cdea17d0a7f09d461d4668e643db239ab7b57ecaa64fa14e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8581,18 +9206,23 @@
     },
     "root_000552": {
       "root_ar": "ر ح م",
+      "qac_roots_ar": [
+        "ر ح م"
+      ],
       "root_id": "root_000552",
-      "root_mapping": {
-        "root_id": "root_000552",
-        "root_norm": "ر ح م",
-        "source_root_norm": "ر ح م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 292,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ح م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 292
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8f792e5527519fc8f34fe53c958c29b393a4955606ab4bbb6a3d3404ff68ce8c",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10661,18 +11291,23 @@
     },
     "root_001665": {
       "root_ar": "و ف د",
+      "qac_roots_ar": [
+        "و ف د"
+      ],
       "root_id": "root_001665",
-      "root_mapping": {
-        "root_id": "root_001665",
-        "root_norm": "و ف د",
-        "source_root_norm": "و ف د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ف د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ff4d09f202942744847f3b1450ee57fb0b3fdf4651e7bc003bcbff43c3c4b554",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12031,14 +12666,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12397,11 +13038,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_85.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_85.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 134620,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -12476,19 +13130,37 @@
           "root_ids": [
             "root_001700"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001700",
+            "targets": [
+              {
+                "qac_root_norm": "ي و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001700",
+                "furuq_root_norm": "ي و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 414,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001700",
-              "root_norm": "ي و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 414,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12513,19 +13185,37 @@
           "root_ids": [
             "root_000324"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ش ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000324",
+            "targets": [
+              {
+                "qac_root_norm": "ح ش ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000324",
+                "furuq_root_norm": "ح ش ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 43,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000324",
-              "root_norm": "ح ش ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ش ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 43,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12550,19 +13240,37 @@
           "root_ids": [
             "root_001677"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ق ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001677",
+            "targets": [
+              {
+                "qac_root_norm": "و ق ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001677",
+                "furuq_root_norm": "و ق ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 149,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001677",
-              "root_norm": "و ق ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ق ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 149,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12587,19 +13295,37 @@
           "root_ids": [
             "root_000552"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر ح م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000552",
+            "targets": [
+              {
+                "qac_root_norm": "ر ح م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000552",
+                "furuq_root_norm": "ر ح م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 292,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000552",
-              "root_norm": "ر ح م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر ح م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 292,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12624,19 +13350,37 @@
           "root_ids": [
             "root_001665"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ف د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001665",
+            "targets": [
+              {
+                "qac_root_norm": "و ف د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001665",
+                "furuq_root_norm": "و ف د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001665",
-              "root_norm": "و ف د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ف د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12663,10 +13407,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 29,
+        "dictionary_branches_kept": 29,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 24,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

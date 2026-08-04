@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T07:25:54.575977+00:00",
+  "generated_at": "2026-08-04T22:29:15.148142+00:00",
   "surah": 18,
   "ayah": 41,
   "ayahRef": "18:41",
@@ -2290,7 +2290,8 @@
       "morpheme_ids": [
         "m-w-s018-a041-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:41:1"
+      "aligned_qac_word_ref_upstream": "18:41:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2304,7 +2305,8 @@
       "morpheme_ids": [
         "m-w-s018-a041-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:41:2"
+      "aligned_qac_word_ref_upstream": "18:41:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2320,7 +2322,8 @@
         "m-w-s018-a041-w003-01",
         "m-w-s018-a041-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:41:3"
+      "aligned_qac_word_ref_upstream": "18:41:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2334,7 +2337,8 @@
       "morpheme_ids": [
         "m-w-s018-a041-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:41:4"
+      "aligned_qac_word_ref_upstream": "18:41:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2348,7 +2352,8 @@
       "morpheme_ids": [
         "m-w-s018-a041-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:41:5"
+      "aligned_qac_word_ref_upstream": "18:41:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2362,7 +2367,8 @@
       "morpheme_ids": [
         "m-w-s018-a041-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:41:6"
+      "aligned_qac_word_ref_upstream": "18:41:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2376,7 +2382,8 @@
       "morpheme_ids": [
         "m-w-s018-a041-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:41:7"
+      "aligned_qac_word_ref_upstream": "18:41:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2392,7 +2399,8 @@
         "m-w-s018-a041-w007-01",
         "m-w-s018-a041-w007-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:41:8"
+      "aligned_qac_word_ref_upstream": "18:41:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2406,7 +2414,8 @@
       "morpheme_ids": [
         "m-w-s018-a041-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:41:9"
+      "aligned_qac_word_ref_upstream": "18:41:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3105,7 +3114,540 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s18/packets/18_41.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "18:41",
+      "window": [
+        "18:27",
+        "18:28",
+        "18:29",
+        "18:30",
+        "18:31",
+        "18:32",
+        "18:33",
+        "18:34",
+        "18:35",
+        "18:36",
+        "18:37",
+        "18:38",
+        "18:39",
+        "18:40",
+        "18:41",
+        "18:42",
+        "18:43",
+        "18:44"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "18:41",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_subsurface_unavailability",
+            "confidence": "strong",
+            "focus_anchor": "يُصْبِحَ مَآؤُهَا غَوْرًا ... فَلَن تَسْتَطِيعَ ... طَلَبًا",
+            "mechanism": "A change of state sends the garden's water into depth; once the resource leaves the accessible plane, both practical capacity and directed search fail.",
+            "activation_trace": [
+              {
+                "source_ref": "18:41",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B010",
+                "role": "Becoming a new state supplies the transition from available water to inaccessible water."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "Ordinary water supplies the concrete resource whose accessibility is at stake."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "غ و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001112",
+                "branch_id": "B001",
+                "role": "Descent into depth gives the resource-loss mechanism its downward direction."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B003",
+                "role": "Capacity and enablement mark the human action disabled by the water's new state."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "ط ل ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000943",
+                "branch_id": "B001",
+                "role": "Seeking and repeated search specify the recovery action that cannot succeed."
+              }
+            ],
+            "changed_reading": {
+              "before": "The garden may simply lose its water.",
+              "after": "The water undergoes a downward state change that converts retrieval from an available action into an impossible search."
+            }
+          },
+          {
+            "model_id": "b2_depth_as_distance",
+            "confidence": "medium",
+            "focus_anchor": "غَوْرًا ... طَلَبًا",
+            "mechanism": "Depth functions as effective distance: the sought object is still conceptually water, but it has become so remote that needing to seek it and being unable to reach it are one condition.",
+            "activation_trace": [
+              {
+                "source_ref": "18:41",
+                "root": "غ و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001112",
+                "branch_id": "B001",
+                "role": "Deep descent supplies the spatial remoteness of the target."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "ط ل ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000943",
+                "branch_id": "B006",
+                "role": "A distant resource that can be obtained only by seeking turns depth into practical unavailability."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B003",
+                "role": "Lack of effective capacity closes the gap between difficult pursuit and unreachable pursuit."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse predicts difficulty finding water.",
+              "after": "The verse defines a distance regime in which the water's depth itself defeats every means of pursuit."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1_routed_flow_reversed",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ر ي",
+              "ن ه ر",
+              "ف ج ر"
+            ],
+            "mechanism": "The surrounding sequence first presents flowing rivers and a river opened through the gardens; 18:41 reverses that routed availability by sending the same resource-image downward beyond recovery.",
+            "activation_trace": [
+              {
+                "source_ref": "18:31",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous flowing supplies the positive model of water moving accessibly through a garden."
+              },
+              {
+                "source_ref": "18:31",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "A river cutting the earth with running water supplies an established channel rather than an isolated pool."
+              },
+              {
+                "source_ref": "18:33",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide splitting and emission present the watercourse as deliberately opened through the cultivated system."
+              },
+              {
+                "source_ref": "18:33",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "The through-garden river localizes accessible flow inside the owner's productive estate."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "The focus water is the concrete resource whose flow regime is reversed."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "غ و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001112",
+                "branch_id": "B001",
+                "role": "Downward disappearance replaces channelled circulation with inaccessible depth."
+              }
+            ],
+            "structural_cues": [
+              "18:31 locates rivers beneath gardens, while 18:33 opens a river through the two cultivated plots.",
+              "18:41 keeps water as the anchor but changes its spatial behavior from running through to sinking away."
+            ],
+            "reader_inference": "The packet supplies accessible flow, an opened river, and deep descent; I infer a reversal within one hydraulic support system. A live alternative is that the earlier rivers and the owner's water are parallel garden images rather than one physical source.",
+            "changed_reading": {
+              "before": "The warning concerns the loss of a discrete water supply.",
+              "after": "The warning dismantles the garden's hydraulic logic: channelled flow can reverse into unreachable subsurface withdrawal."
+            }
+          },
+          {
+            "model_id": "d2_claimed_power_disproved",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ز ز",
+              "ن ف ر",
+              "ق و ي",
+              "ن ص ر",
+              "و ل ي"
+            ],
+            "mechanism": "Boasted strength, wealth, and retinue are tested at the point of water retrieval: stated power cannot become capacity, the group cannot become aid, and final governance lies elsewhere.",
+            "activation_trace": [
+              {
+                "source_ref": "18:34",
+                "root": "ع ز ز",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001008",
+                "branch_id": "B001",
+                "role": "Claimed strength supplies the owner's initial measure of security."
+              },
+              {
+                "source_ref": "18:34",
+                "root": "ن ف ر",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_001532",
+                "branch_id": "B003",
+                "role": "A supporting group supplies the social capacity in which the owner boasts."
+              },
+              {
+                "source_ref": "18:39",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Strength gathered like cord strands sharpens the contrast between apparent resources and ultimate power."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B003",
+                "role": "The focus denial of capacity is the operational failure of those prior claims."
+              },
+              {
+                "source_ref": "18:43",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5",
+                  "11"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid and prevailing support are explicitly absent after the loss."
+              },
+              {
+                "source_ref": "18:44",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "Undertaking and governing the affair relocate effective control away from the owner."
+              }
+            ],
+            "structural_cues": [
+              "18:34 boasts of greater wealth and a stronger retinue; 18:39 denies autonomous power; 18:43 denies both helpers and self-vindication.",
+              "The focus clause places inability exactly between the power formula and the failed-support outcome."
+            ],
+            "reader_inference": "The packet supplies boast, power, inability, absent aid, and final authority; I infer that failed water retrieval is the concrete test that exposes social power as non-capacity. Alternatively, the social collapse may merely follow the material loss rather than interpret it.",
+            "changed_reading": {
+              "before": "The owner lacks the technology or effort needed to retrieve deep water.",
+              "after": "The unrecoverable water publicly falsifies his claimed strength: wealth and retinue cannot be converted into effective capacity."
+            }
+          },
+          {
+            "model_id": "d3_becoming_cascade",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ب ح"
+            ],
+            "mechanism": "Three adjacent occurrences of becoming form a cascade: the garden becomes bare ground, its water becomes deep, and its owner becomes a figure of regret. The focus is the middle state transition linking land to person.",
+            "activation_trace": [
+              {
+                "source_ref": "18:40",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B010",
+                "role": "The garden's becoming establishes the first abrupt state transition."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B010",
+                "role": "The water's becoming supplies the central transition from ruined surface to lost support."
+              },
+              {
+                "source_ref": "18:42",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B010",
+                "role": "The owner's becoming supplies the human after-state of the material transformations."
+              }
+            ],
+            "structural_cues": [
+              "The same أصبح construction occurs in 18:40, 18:41, and 18:42, with the focus occurrence between the other two.",
+              "The grammatical subjects progress from garden surface to water to owner."
+            ],
+            "reader_inference": "The packet supplies exact lexical repetition and changing subjects; I infer a staged cascade from land through resource to owner. A live alternative is a list of parallel disaster outcomes with no causal ordering.",
+            "changed_reading": {
+              "before": "18:41 is a second independent threat after the garden becomes barren.",
+              "after": "18:41 is the hinge in a cascading transformation: surface failure becomes source failure, which becomes the owner's regret."
+            }
+          },
+          {
+            "model_id": "d4_vertical_support_failure",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ع د",
+              "ز ل ق",
+              "خ و ي",
+              "ع ر ش"
+            ],
+            "mechanism": "The episode strips a cultivated structure by levels: the surface loses footing, water drops into depth, and elevated trellises fall. The focus names the hidden support failure between exposed ground and visible collapse.",
+            "activation_trace": [
+              {
+                "source_ref": "18:40",
+                "root": "ص ع د",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000862",
+                "branch_id": "B004",
+                "role": "The face of the earth supplies the exposed upper plane of the garden."
+              },
+              {
+                "source_ref": "18:40",
+                "root": "ز ل ق",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000640",
+                "branch_id": "B001",
+                "role": "A smooth place on which feet cannot hold marks the surface as unable to support use or growth."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "غ و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001112",
+                "branch_id": "B001",
+                "role": "Water descending into depth removes support from below the exposed surface."
+              },
+              {
+                "source_ref": "18:42",
+                "root": "خ و ي",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000450",
+                "branch_id": "B002",
+                "role": "Falling and collapse make the structural consequence visible."
+              },
+              {
+                "source_ref": "18:42",
+                "root": "ع ر ش",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_001000",
+                "branch_id": "B003",
+                "role": "Grape trellising supplies the raised cultivation framework that collapses when its support system fails."
+              }
+            ],
+            "structural_cues": [
+              "18:40 moves from an event sent from above to the garden's exposed surface; 18:42 depicts the garden fallen upon its trellises.",
+              "18:41 inserts a downward water movement between surface denudation and structural collapse."
+            ],
+            "reader_inference": "The packet supplies upper surface, lost footing, downward water, and fallen trellises; I infer a vertically ordered support failure. Alternatively, these may be separate images of total ruin rather than layers of one mechanism.",
+            "changed_reading": {
+              "before": "The water merely disappears underground after surface damage.",
+              "after": "The sinking water is the concealed middle layer of a vertical collapse whose visible endpoints are bare ground and fallen cultivation supports."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_capacity_as_noncompliance",
+            "confidence": "exploratory",
+            "containment": "This crosses the ethical obedience branch in 18:28 with the physical capacity branch in 18:41, so it is surprising and must not erase their distinct senses. It remains anchored in the repeated ط و ع root and the focus denial of ability; render it only as an associative echo in which a resource once treated as controllable no longer yields to command.",
+            "focus_anchor": "فَلَن تَسْتَطِيعَ لَهُۥ طَلَبًا",
+            "activation_trace": [
+              {
+                "source_ref": "18:28",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B001",
+                "role": "Obedience and yielding supply an earlier moral register of agency under command."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B003",
+                "role": "Capacity and enablement convert that root echo into the owner's failed material agency."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "غ و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001112",
+                "branch_id": "B001",
+                "role": "The water's descent supplies the resistant condition that no command or capacity can reverse."
+              }
+            ],
+            "changed_reading": {
+              "before": "The clause only says the owner will lack physical ability.",
+              "after": "Exploratorily, it also sounds the collapse of command: the resource will no longer be within the owner's sphere of yielding or control."
+            }
+          },
+          {
+            "outlier_id": "o2_alt_mapping_failed_reach",
+            "confidence": "exploratory",
+            "containment": "The س ط ع branch is a non-dominant packet mapping for the focus root and is form-distant from ordinary استطاعة, so it cannot replace the standard capacity reading. It remains valid as a packet-licensed spatial activation alongside explicit غ و ر; downstream prose should label it as an image of failed reach, not an etymological claim.",
+            "focus_anchor": "تَسْتَطِيعَ لَهُۥ ... غَوْرًا",
+            "activation_trace": [
+              {
+                "source_ref": "18:40",
+                "root": "ص ع د",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000862",
+                "branch_id": "B001",
+                "role": "Upward motion supplies one pole of the surrounding vertical field, even though the source form directly names ground."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000706",
+                "branch_id": "B001",
+                "role": "The alternate mapped branch contributes extension and elevation as an exploratory image for projected reach."
+              },
+              {
+                "source_ref": "18:41",
+                "root": "غ و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001112",
+                "branch_id": "B001",
+                "role": "Descent into depth supplies the opposing vector that projected reach cannot bridge."
+              }
+            ],
+            "changed_reading": {
+              "before": "The owner cannot perform a search for deep water.",
+              "after": "As a contained spatial activation, the resource drops beyond every extension of reach, making inability a failure to bridge vertical separation."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Accessible garden flow is reversed into a subsurface regime that defeats retrieval.",
+            "The focus denial of capacity becomes the concrete test that disproves wealth, retinue, and autonomous power.",
+            "Repeated أصبح makes 18:41 the middle hinge between transformed land and transformed owner."
+          ],
+          "what_was_special": "The focus ayah joins hydraulic, vertical, temporal, and social mechanisms without dissolving them into one reading: hidden water loss links engineered flow, collapsing supports, and exposed non-sovereignty.",
+          "remaining_uncertainties": [
+            "The packet does not establish that the rivers of 18:31 and 18:33 are physically identical to the possessive water of 18:41.",
+            "The three أصبح clauses may be parallel outcomes rather than a strict causal sequence.",
+            "The obedience echo and the س ط ع reach image are exploratory branch activations, not replacements for the ordinary capacity sense."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Capacity ends when the enabling medium withdraws.** `ط و ع` B001 (“pliant obedience and willing yielding”) appears in the derived capacity form under emphatic negation. The Moses sequence repeatedly says he cannot sustain patience (18:67, 72, 75), and the barrier’s assailants cannot scale or pierce it (18:97). I infer that ability is relational: it depends on an object or self yielding to action. Deepened water makes desire causally irrelevant.",
@@ -4133,18 +4675,23 @@
   "root_lexicon": {
     "root_000839": {
       "root_ar": "ص ب ح",
+      "qac_roots_ar": [
+        "ص ب ح"
+      ],
       "root_id": "root_000839",
-      "root_mapping": {
-        "root_id": "root_000839",
-        "root_norm": "ص ب ح",
-        "source_root_norm": "ص ب ح",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 41,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ب ح",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 41
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "79f4ab81190461f4fad3d37979c21799ac1dc6b1f59d732ca7b330d7d27ff90f",
         "branches": [
@@ -5627,18 +6174,23 @@
     },
     "root_001458": {
       "root_ar": "م و ه",
+      "qac_roots_ar": [
+        "م و ه"
+      ],
       "root_id": "root_001458",
-      "root_mapping": {
-        "root_id": "root_001458",
-        "root_norm": "م و ه",
-        "source_root_norm": "م و ه",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 63,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م و ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 63
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cad7af3d34cfbd12fe6a51cc0b90a6688a1581021ddc42a2e01b3f4a6c8c0ef1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8330,18 +8882,23 @@
     },
     "root_001112": {
       "root_ar": "غ و ر",
+      "qac_roots_ar": [
+        "غ و ر"
+      ],
       "root_id": "root_001112",
-      "root_mapping": {
-        "root_id": "root_001112",
-        "root_norm": "غ و ر",
-        "source_root_norm": "غ و ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 4,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "غ و ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "caf60fefa603b7039749d518653471104f0b7d260d22dc8a60b545bbedd39230",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10935,18 +11492,23 @@
     },
     "root_000956": {
       "root_ar": "ط و ع",
+      "qac_roots_ar": [
+        "ط و ع"
+      ],
       "root_id": "root_000956",
-      "root_mapping": {
-        "root_id": "root_000956",
-        "root_norm": "ط و ع",
-        "source_root_norm": "ط و ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 96,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ط و ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 96
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "433fbc0449fc702a8ecc8026ceb39cb818824470961e05802a1493799fb07fd4",
         "branches": [
@@ -12345,20 +12907,1435 @@
       "gloss": null,
       "gloss_source_file": null
     },
+    "root_000706": {
+      "root_ar": "ط و ع",
+      "qac_roots_ar": [
+        "ط و ع"
+      ],
+      "root_id": "root_000706",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ط و ع",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "999190722b33b974c20aabe00a24bcca42b596a33f1d9eba6d1d20a6578b969b",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000706",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000706/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bir şeyin havada uzaması, yükselmesi veya yayılması ortak ekseninde ışık, şimşek, toz, koku, sabah aydınlığı ve ok örneklerini bir araya getirir. Verilen dal çerçevesi bu hareket ve görünüş çekirdeğini doğru biçimde yansıtır.",
+              "boundary_note": "Boyun uzunluğu, ev direği, boyundaki damga, vuruş ve dağ adı bu dalın dışında kalır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, yalın kullanımdaki havada uzama, yükselme ve yayılma çekirdeğini verir; okun gökte belirmesi ve kokunun buruna ulaşması gibi yapıya bağlı kullanımlar ayrı yüzler olarak tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin havaya doğru uzaması, yükselmesi ya da çevreye yayılmasıdır. Işık, şimşek, sabah aydınlığı, toz ve koku bu görünüşle anlatılır; okun gökte belirmesi ve kokunun buruna ulaşması bağlama bağlı gerçekleşmelerdir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şey havada uzar, yükselir veya çevreye yayılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Işık, şimşek ve sabah aydınlığı göğe doğru yükselerek ya da uzanarak görünür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Toz ve koku yükselip havaya yayılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "extension",
+                  "statement": "Atılan ok gökte yükselip belirginleşir ve parlar.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F005",
+                  "role": "associated_use",
+                  "statement": "Yayılan güzel koku kişinin burnuna ulaşır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı havada uzama, yükselme ve yayılmayı temel alır; ışık ve şimşek gibi görünen olguların yanı sıra toz ve koku da bu çekirdeğe bağlanır. Tahdhib, atılan okun gökte yükselip belirginleşmesini ve kokunun yayılıp duyulmasını özel örnekler olarak ayrıca verir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "havada uzama, yükselme veya yayılma",
+              "applicability": "Dalın farklı öznelerde gerçekleşebilen ortak hareket ve görünüş çekirdeğini bütünüyle karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Havadaki uzama, yükselme ve yayılma seçeneklerinin üçünü de korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "parlayıp yükselmek",
+                "usage_role": "contextual",
+                "applicability": "Işık, şimşek veya sabah aydınlığının göğe doğru belirginleştiği bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Işığın yükselerek görünür ve parlak hale gelmesini korur.",
+                  "loses": "Tozun ve kokunun yayılması ile öteki bağlamları dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "havaya yükselip yayılmak",
+                "usage_role": "contextual",
+                "applicability": "Tozun veya kokunun yükselerek çevrede yayılması anlatılırken doğal bir karşılıktır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Maddenin ya da kokunun havaya yükselip çevreye yayılmasını korur.",
+                  "loses": "Işığın uzanması, okun yükselmesi ve kokunun buruna ulaşması belirtilmez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              },
+              {
+                "text": "gökte yükselip parlamak",
+                "usage_role": "contextual",
+                "applicability": "Atılmış bir okun gökte yükselerek ışıldadığı özel yapı için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Okun göğe çıkmasını, belirginleşmesini ve parlamasını korur.",
+                  "loses": "Dalın ışık, toz, koku ve sabah aydınlığına uzanan genel kapsamını vermez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F004"
+                ]
+              },
+              {
+                "text": "kokusu burnuna gelmek",
+                "usage_role": "contextual",
+                "applicability": "Güzel bir kokunun yayılıp kişiye ulaştığı cümlelerde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yayılan kokunun kişinin burnuna ulaşması sonucunu korur.",
+                  "loses": "Yükselme ve uzama çekirdeğinin diğer öznelerdeki gerçekleşmelerini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F005"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "havada yükselmek, uzamak veya yayılmak"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yukarı doğru uzanan sabah aydınlığı"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sabah aydınlığı"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "okun göğe yükselip parlaması"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "misk kokusunun burnuna ulaşması"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000511/B004",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Işık, toz, koku ve okun havada uzaması, yükselmesi veya yayılması bu dala özgüdür.",
+                "neighbor_only": "Güneşin ya da bir bitkinin yerinden nazikçe belirmesi komşu dala özgüdür.",
+                "gloss": "yükselerek yayılma ile nazikçe belirme",
+                "shared_zone": "Her iki dalda bir şeyin yukarı çıkıp görünür hale gelmesi bulunur.",
+                "distinction": "Odak dal havadaki uzama, yükselme veya yayılma biçimini anlatır; komşu dal ise güneşin ya da bitkinin ilk ve nazik ortaya çıkışına yönelir."
+              },
+              {
+                "neighbor_ref": "root_000821/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal ışık dışındaki toz ve koku gibi öznelerin yayılmasını da kapsar.",
+                "neighbor_only": "Komşu dal ateşli bir parça, göktaşı benzeri bir cisim veya alevli odun türü nesneleri adlandırır.",
+                "gloss": "ışığın yükselmesi ile parlak ateşli cisim",
+                "shared_zone": "İki dal da gökte görülen parlak ve yükselen bir görünüşle ilişkilidir.",
+                "distinction": "Odak dal bir uzama, yükselme ya da yayılma olayını bildirir; komşu dal ise ışık saçan ateşli nesnenin kendisini bildirir."
+              },
+              {
+                "neighbor_ref": "root_000117/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Hava içinde uzama ve çevreye yayılma odak dalın belirleyici sınırıdır.",
+                "neighbor_only": "Tamlığa erişmiş boy, kişisel üstünlük ve bulutun üst kesimleri komşu dalın kapsamındadır.",
+                "gloss": "havada yükselme ile genel yükseklik",
+                "shared_zone": "Her iki dal yükselme, uzama ve yüksek olma düşüncesinde kesişir.",
+                "distinction": "Odak dal hareketi veya görünüşü hava içinde gerçekleşen yayılmayla sınırlar; komşu dal ise varlıkların boyunu, üstünlüğünü ya da yüksek kesimini daha genel biçimde anlatır."
+              },
+              {
+                "neighbor_ref": "root_000708/B006",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal tozun yükselip yayılması olayını ve başka öznelerdeki benzer hareketi anlatır.",
+                "neighbor_only": "Komşu dal güneş ışığında görülen asılı ince parçacıkların kendisini adlandırır.",
+                "gloss": "tozun yayılması ile ışıkta görülen zerre",
+                "shared_zone": "İki dal da ışıkta veya havada görülen ince parçacıklarla ilişkilidir.",
+                "distinction": "Odak dal parçacıkların yükselme ve yayılma olayını öne çıkarır; komşu dal ise ışın içinde gidip gelen veya görünen ince tozu nesne olarak belirler."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yayımlananlar hareket, parlaklık, yükseklik ve havadaki parçacık sınırlarını en açık biçimde gösterir. Kalan adaylar yalnızca aynı sahneyi paylaşır ya da diğer kök içi dallarla zaten belirgin biçimde ayrılır.",
+            "branch_image_ar": "امتداد الشيء وارتفاعه في الهواء",
+            "what_is_ar": "سطوع الضوء والبرق والغبار والرائحة والسهم إذا امتد أو علا أو انتشر في الهواء",
+            "what_is_not_ar": "لا يدخل طول العنق ولا السطاع عمود البيت ولا سطاع السمة ولا لا أسطيع",
+            "source_phrase_ar": "أصل يدل على طول الشيء وارتفاعه في الهواء (maqayis)؛ كل شيء ينتشر فينبسط نحو البرق والغبار والريح الطيبة (ayn)؛ سطع الغبار والرائحة والصبح إذا ارتفع (sihah)؛ سطع ضوؤه في السماء والبرق يسطع في السماء وسطع السهم فشخص في السماء وسطعت الرائحة إذا فاحت (tahdhib)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000706/B002",
+            "identity_judgment": {
+              "status": "reframed",
+              "rationale": "Yetkili dal ifadesi boynun uzunluğunu ve uzun boyunlu erkek ya da dişi devekuşu nitelemelerini bildirir. Baş kaldırıp boynu uzatma eylemi yalnızca ayrı bir sözcük biriminin tanıklığında bulunduğundan dalın kurucu anlamına alınmamış, o birimin karşılığında korunmuştur.",
+              "boundary_note": "Dalın çekirdeği boyun uzunluğudur; başı kaldırma eylemi, havada yükselme ve boyundaki damga çekirdeğe dahil değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalnızca yalın dalın boyun uzunluğu anlamını ve bunun kaynakta verilen kuş nitelemelerini kapsar; ayrı eylem tanıklığı genelleştirilmez."
+            },
+            "concept_map": {
+              "definition": "Boynun uzun olmasıdır; özellikle erkek ve dişi devekuşunun ya da doğrudan boynun uzunluğunu nitelemek için kullanılır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir canlının boynu olağandan uzundur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "example",
+                  "statement": "Uzun boyunlu erkek ve dişi devekuşu bu özellikle nitelenir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar boynun uzun olmasını ortak çekirdek olarak verir ve bunu uzun boyunlu erkek veya dişi devekuşu ile örneklendirir. Bu niteleme, bir hareketten çok kalıcı ya da gözlenen bir beden özelliğini bildirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "boyun uzunluğu",
+              "applicability": "Dalın kurucu beden özelliğini en kısa ve kapsamlı biçimde karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Boynun olağandan uzun olması özelliğini eksiksiz biçimde korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "uzun boyunlu",
+                "usage_role": "general",
+                "applicability": "Bir canlıyı boynunun uzunluğu bakımından niteleyen cümlelerde kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Canlının ayırt edici özelliğinin uzun bir boyun olması bilgisini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "uzun boyunlu devekuşu",
+                "usage_role": "contextual",
+                "applicability": "Kaynaklarda erkek ve dişi kuş üzerinden verilen örnek bağlamı doğal Türkçeyle karşılar.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Devekuşunun uzun boyunlu oluşunu ve örneklenen beden özelliğini korur.",
+                  "loses": "Boyun uzunluğu anlamının başka canlılara uygulanabilen genel kapsamını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "boyun uzunluğu"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "başını kaldırıp boynunu uzatmak"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uzun boyunlu erkek devekuşu"
+              },
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uzun boyunlu dişi devekuşu"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000783/B009",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal boynun yapısal uzunluğunu bildirir ve bakma ya da işitme amacı gerektirmez.",
+                "neighbor_only": "Komşu dal bakmak, işitmek veya bir şeyi gözetlemek amacıyla başı kaldırıp boynu uzatma eylemini bildirir.",
+                "gloss": "uzun boyun ile bakmak için boyun uzatma",
+                "shared_zone": "Her iki dalda uzun ya da uzatılmış bir boyun görünüşü vardır.",
+                "distinction": "Odak dal bir beden özelliğidir; komşu dal ise belirli bir amaçla yapılan baş kaldırma ve boyun uzatma hareketidir."
+              },
+              {
+                "neighbor_ref": "root_000789/B005",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal yalnızca boynun uzunluk özelliğini merkeze alır.",
+                "neighbor_only": "Komşu dal yelken, gergin ip ve uzun mızrak gibi boyun dışındaki uzatılmış ya da kaldırılmış şeyleri de kapsar.",
+                "gloss": "boyun uzunluğu ile uzatılmış yüksek şey",
+                "shared_zone": "İki dal uzun ve yukarı doğru uzanan boyun görünüşünde kesişir.",
+                "distinction": "Odak dalın sınırı anatomik boyun uzunluğudur; komşu dal ise çeşitli nesnelerin gergin, uzun veya kaldırılmış olmasını daha geniş biçimde anlatır."
+              },
+              {
+                "neighbor_ref": "root_001594/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal boynun uzun olmasını, yön ya da hareket koşulu olmadan bildirir.",
+                "neighbor_only": "Komşu dal boynun aşağı yöneltilmesini veya başla birlikte ileri uzatılmasını bildirir.",
+                "gloss": "uzun boyun ile boynu yöneltme",
+                "shared_zone": "İki dalda da belirgin ve uzamış bir boyun duruşu görülebilir.",
+                "distinction": "Odak dal uzunluğu bir özellik olarak kodlar; komşu dal ise boynun yönünü ve duruşunu, kimi zaman yaratılıştan gelen bir eğim olarak kodlar."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilenler kalıcı boyun uzunluğunu amaçlı uzatma, yöneltme, genel uzamışlık ve boynun adı gibi en yakın sınırlarla karşılaştırır. Diğer adaylar farklı beden bölgeleri veya daha uzak sahnelerle ilgilidir.",
+            "branch_image_ar": "طول العنق وامتداده",
+            "what_is_ar": "السطع في طول العنق ورفع الرأس ومد العنق ووصف الظليم والنعامة والعنق السطعاء",
+            "what_is_not_ar": "ليس سطوع الضوء ولا السطاع عمود البيت ولا السطاع السمة",
+            "source_phrase_ar": "السطع وهو طول العنق وظليم أسطع ونعامة سطعاء (maqayis)؛ السطع طول العنق نعامة سطعاء (sihah)؛ ظليم أسطع إذا كان عنقه طويلا والأنثى سطعاء وفي عنقه سطع أي طول (tahdhib)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000706/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi evin taşıyıcı direğini temel anlam olarak verir ve uzun deveyi bu direğe benzetilerek yapılan ikincil bir adlandırma olarak açıkça ayırır. Verilen dal çerçevesi bu çekirdek ile benzetmeli uzantı arasındaki bağı doğru kurar.",
+              "boundary_note": "Çekirdek, yapıyı taşıyan dik direktir; uzun deve yalnızca benzetmeli uzantıdır, boyundaki damga ise ayrı bir daldır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalın dalın ev direği anlamını temel alır ve kaynakta aynı dal içinde verilen uzun deve benzetmesini bağımlı bir uzantı olarak korur."
+            },
+            "concept_map": {
+              "definition": "Bir evin yapısını taşıyan dik direktir. Uzun bir deve, bu direğe benzetilerek aynı adla anılabilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Evin yapısını taşıyan dik direklerden biridir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Uzun bir deve, ev direğine benzetilerek bu adla nitelenir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar evin direğini ortak anlam olarak verir. Tahdhib, uzun devenin ev direğine benzetilerek aynı sözle anılmasını kaynak-özel bir benzetmeli uzantı olarak verir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "ev direği",
+              "applicability": "Dalın taşıyıcı yapı öğesini bildiren temel ve yalın anlamını karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Evin yapısını taşıyan dik direk olma çekirdeğini bütünüyle korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "taşıyıcı ev direği",
+                "usage_role": "explanatory",
+                "applicability": "Direğin yapı içindeki destek görevini açık etmek gereken bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Direğin eve ait olmasını ve yapıyı taşıma görevini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "direk gibi uzun deve",
+                "usage_role": "contextual",
+                "applicability": "Uzun bir devenin ev direğine benzetilerek nitelendiği özel bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Devenin uzunluğunu ve bu niteliğin direk benzetmesine dayandığını korur.",
+                  "loses": "Yapı öğesi olan ev direğinin temel adlandırmasını yalnız başına karşılamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ev veya çadır direği"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "direğe benzetilen uzun deve"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001043/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal özellikle ev direğini ve ona dayanan uzun deve benzetmesini kapsar.",
+                "neighbor_only": "Komşu dal ahşap, demir, ateş veya mermerden olabilen genel sütun ve destekleri kapsar.",
+                "gloss": "ev direği ile genel sütun",
+                "shared_zone": "Her iki dal bir yapıyı ayakta tutan direk anlamında örtüşür.",
+                "distinction": "Ev direği bağlamında iki dal birbirine yaklaşır; odak dal yapıya ve benzetmeli deve kullanımına bağlıyken komşu dal malzeme ve yapı türü bakımından daha geniş bir sütun kavramıdır."
+              },
+              {
+                "neighbor_ref": "root_000703/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal evin dik taşıyıcı direğini bildirir.",
+                "neighbor_only": "Komşu dal çadır ya da gölgelikte örtünün üzerine gerildiği yatay veya özel yerleştirilmiş sırığı da kapsar.",
+                "gloss": "dik ev direği ile çadır sırığı",
+                "shared_zone": "İki dal barınak yapısında kullanılan uzun ahşap destekleri anlatır.",
+                "distinction": "Odak dalın çekirdeği dik taşıyıcı ev direğidir; komşu dal örtüyü germeye yarayan çadır sırığına ve yatay desteğe uzanır."
+              },
+              {
+                "neighbor_ref": "root_000034/B005",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal ev direği anlamına ek olarak uzun deveye yönelik benzetmeli uzantı taşır.",
+                "neighbor_only": "Komşu dal genel bir dikme veya sütun adı olarak verilir ve deve benzetmesi içermez.",
+                "gloss": "ev direği ile dikme",
+                "shared_zone": "Her iki dal dik duran ve yapıyı destekleyen direği adlandırabilir.",
+                "distinction": "Yapı desteği bağlamında anlamlar yakındır; odak dal ev direğine özgülenir ve uzun deve benzetmesi geliştirirken komşu dal genel dikme adında kalır."
+              },
+              {
+                "neighbor_ref": "root_000706/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal bir yapı direğini, ayrıca ona benzetilen uzun devenin bütün görünüşünü bildirir.",
+                "neighbor_only": "Komşu dal doğrudan boynun anatomik uzunluğunu bildirir.",
+                "gloss": "direğe benzetilen uzun deve ile uzun boyun",
+                "shared_zone": "İki dal devenin ya da kuşun uzun ve dik görünüşüyle ilişki kurar.",
+                "distinction": "Odak dalın temel anlamı cansız bir yapı öğesidir ve deve kullanımı benzetmelidir; komşu dal ise boyun uzunluğunu doğrudan bir beden özelliği olarak kodlar."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilenler genel sütun, dikme, çadır desteği ve uzunluk benzetmesiyle en yakın ayrımları verir. Kalan adaylar kuyu düzeneği, eyer parçası veya farklı destek türleri olarak daha uzaktır.",
+            "branch_image_ar": "العمود المنصوب وما شبه به",
+            "what_is_ar": "السطاع عمود البيت أو الخباء وما شبه به من البعير الطويل",
+            "what_is_not_ar": "ليس سطوع الضوء ولا السمة في عنق البعير",
+            "source_phrase_ar": "السطاع عمود من عمد البيت (maqayis)؛ السطاع عمود البيت (sihah)؛ السطاع عمود من أعمدة البيت وللبعير الطويل سطاع تشبيها بسطاع البيت (tahdhib)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000706/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, devenin boynuna uzunlamasına konan damgayı ve bu damgayı taşıyan tekil ya da çoğul develeri açıkça bildirir. Verilen çerçeve hem damganın yönünü ve yerini hem de damgalanmış hayvan nitelemesini doğru sınırlar.",
+              "boundary_note": "Bu dal boynun kendi uzunluğunu değil, boyun üzerinde uzunlamasına uzanan insan yapımı damgayı anlatır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, damganın yalın adını temel alır; damgayı taşıyan deveye ilişkin yapıya bağlı niteleme ayrı bir yüz olarak korunur ve genel bir boyun özelliğine dönüştürülmez."
+            },
+            "concept_map": {
+              "definition": "Bir devenin boynuna uzunlamasına konan damgadır. Aynı anlam alanı, boynu bu biçimde damgalanmış tekil veya çoğul develeri niteleyen yapıları da kapsar.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Damga devenin boynunda ve boyun boyunca uzunlamasına yer alır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bu uzunlamasına boyun damgasını taşıyan deve ya da deve topluluğu ayrıca nitelenir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar damganın devenin boynunda bulunduğu, uzunlamasına uzandığı ve bu damgayı taşıyan devenin nitelenebildiği konusunda birleşir. Sihah erkek deve biçimini, Tahdhib ise dişi deve ve çoğul deve biçimlerini ayrıca tanıklar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "deve boynundaki uzunlamasına damga",
+              "applicability": "Damganın taşıyıcısını, yerini ve yönünü birlikte vererek dalın tam çekirdeğini karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Deveyi, boyun konumunu ve damganın uzunlamasına yönünü eksiksiz korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "boynu uzunlamasına damgalı deve",
+                "usage_role": "contextual",
+                "applicability": "Damganın kendisi yerine bu damgayı taşıyan devenin nitelendiği cümlelerde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Devenin boynunda uzunlamasına bir damga taşıması bilgisini korur.",
+                  "loses": "Damganın bağımsız ad olarak kullanılabildiği yalın yüzü dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "boyun boyunca vurulmuş damga",
+                "usage_role": "explanatory",
+                "applicability": "Damganın boyundaki yönünü açıkça belirtmek gereken açıklayıcı bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Damganın boyun boyunca uzunlamasına uzanması özelliğini korur.",
+                  "loses": "Taşıyıcının özellikle deve olduğu bilgisi sözün içinde açıkça belirtilmez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "deve boynundaki uzunlamasına damga"
+              },
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "boynu uzunlamasına damgalı deve"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000863/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal damganın boyunda uzunlamasına uzandığını zorunlu kılar.",
+                "neighbor_only": "Komşu dal damganın yönünü zorunlu kılmaz ve devenin yürürken yana yönelmesi anlamını da taşır.",
+                "gloss": "uzunlamasına boyun damgası ile boyun damgası",
+                "shared_zone": "Her iki dal devenin boynundaki bir damgayı adlandırabilir.",
+                "distinction": "Boyun damgası bağlamında anlamlar yakındır; odak dal uzunlamasına yönle sınırlıyken komşu dal yönü belirtmez ve ayrıca yürüyüş davranışına uzanır."
+              },
+              {
+                "neighbor_ref": "root_000389/B009",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak damga boyunda ve uzunlamasına yer alır.",
+                "neighbor_only": "Komşu damga uylukta ve enine uzanır.",
+                "gloss": "boyunda uzunlamasına damga ile uylukta enine damga",
+                "shared_zone": "İki dal develeri ayırt etmek için kullanılan uzun bir damgayı anlatır.",
+                "distinction": "Damganın hem yeri hem yönü ayrıdır: odak dal boyun boyunca uzanırken komşu dal uyluk üzerinde enine yerleşir."
+              },
+              {
+                "neighbor_ref": "root_000995/B017",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal devenin boynundaki uzunlamasına damgaya özgüdür.",
+                "neighbor_only": "Komşu dal yara izi, iz veya develeri ayıran genel çizgi ve damga anlamlarını kapsar.",
+                "gloss": "özel boyun damgası ile genel iz",
+                "shared_zone": "Her iki dal bedende kalan ayırt edici bir çizgi ya da damga alanındadır.",
+                "distinction": "Odak dal yer, yön ve taşıyıcı bakımından dar biçimde belirlenmiştir; komşu dal doğal yara izini ve daha genel ayırt edici işaretleri de içerir."
+              },
+              {
+                "neighbor_ref": "root_000706/B002",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal boyna sonradan konan uzunlamasına damgayı bildirir.",
+                "neighbor_only": "Komşu dal boynun kendi yapısal uzunluğunu bildirir.",
+                "gloss": "boyundaki uzun damga ile uzun boyun",
+                "shared_zone": "İki dal boyun ve uzunluk görünüşüyle ilişkilidir.",
+                "distinction": "Odak dal bedene eklenmiş bir işaretin yönünü anlatır; komşu dal ise boynun doğuştan ya da yapısal uzunluğunu anlatır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilenler boyun damgasının yönünü, yerini ve doğal boyun uzunluğundan farkını en iyi gösterir. Öteki damga adayları farklı beden bölgeleri veya farklı işaretleme yöntemleri nedeniyle daha uzaktır.",
+            "branch_image_ar": "السمة الطولية في العنق",
+            "what_is_ar": "السطاع السمة الممتدة بالطول في عنق البعير والإبل المسطعة",
+            "what_is_not_ar": "ليست السمة العرضية العلاط ولا طول العنق نفسه",
+            "source_phrase_ar": "السطاع سمة في عنق البعير بالطول يقال بعير مسطع (sihah)؛ السطاع من سمات الإبل في العنق بالطول وناقة مسطوعة وإبل مسطعة (tahdhib)",
+            "sources": [
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000706/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi bir şeye avuç içiyle veya parmakla vurma eylemini ve bu vuruşla çıkan yükselmiş sesi birlikte verir. Dal çerçevesi aracı, eylemi ve işitilen sonucu birbirine karıştırmadan aynı anlam alanında tutar.",
+              "boundary_note": "Bu dal el ya da parmakla yapılan vuruş ve onun sesidir; ışığın yükselmesi veya boyun uzunluğu değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalın dalın hem avuç ya da parmakla vurma eylemini hem de bu vuruşun işitilen sesini kapsar; başka araçlarla vurma anlamı eklenmez."
+            },
+            "concept_map": {
+              "definition": "Bir şeye avuç içiyle veya parmakla vurma ve bu vuruşun çıkardığı belirgin sestir. Eylem ile işitilen sonuç aynı dalda ayrı yüzler olarak korunur.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şeye avuç içiyle veya parmakla vurulur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "core",
+                  "statement": "Yapılan vuruş belirgin ve yükselen bir ses çıkarır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, vuruş sırasında çıkan belirgin sese dayanır. Tahdhib vuruş eylemini avuç içi veya parmakla yapılması bakımından sınırlar; Maqayis ise vuruş sonucunda sesin yükselmesini özellikle öne çıkarır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "avuç ya da parmak vuruşu ve sesi",
+              "applicability": "Vuruşun aracını, eylemini ve işitilen sonucunu birlikte vererek dalın iki çekirdek yüzünü karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Avuç veya parmakla vurmayı ve bu vuruşun sesini birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "avuçla ya da parmakla vurmak",
+                "usage_role": "contextual",
+                "applicability": "Sözün vuruş eylemini bildirdiği cümlelerde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Vurmanın avuç içiyle veya parmakla yapılması koşulunu korur.",
+                  "loses": "Vuruşun işitilen ve yükselen sesini adlandıran yüzü dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "vuruş sesi",
+                "usage_role": "contextual",
+                "applicability": "Sözün eylemden çok vuruş sırasında çıkan sesi bildirdiği cümlelerde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Vuruşun işitilen sesini açık ve doğal biçimde korur.",
+                  "loses": "Vuruşun avuç içiyle veya parmakla yapılması ve eylemin kendisi belirtilmez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şeye avuç içiyle veya parmakla vurma"
+              },
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "vuruş sesi"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "vuruş veya vuruş sesi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001675/B004",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal vuruşu avuç içi veya parmakla sınırlar.",
+                "neighbor_only": "Komşu dal yağmur, toynak, demir ve her türlü şiddetli düşüşten doğan sesleri de kapsar.",
+                "gloss": "el vuruşu sesi ile genel çarpma sesi",
+                "shared_zone": "Her iki dal bir darbenin kendisini veya işitilen sesini anlatabilir.",
+                "distinction": "Odak dal el ya da parmakla yapılan belirli vuruşa bağlıdır; komşu dal araç ve kaynak bakımından daha geniş, çoğu kez şiddetli çarpma ve düşme seslerini kapsar."
+              },
+              {
+                "neighbor_ref": "root_000926/B007",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal hedefi sınırlamaz ve parmakla vurmayı da kapsar; ayrıca çıkan sesi adlandırabilir.",
+                "neighbor_only": "Komşu dal elin özellikle enseye yerleştirilerek vurulmasını bildirir.",
+                "gloss": "avuç veya parmak vuruşu ile enseye el vurma",
+                "shared_zone": "İki dal elde yapılan doğrudan bir vuruşta kesişir.",
+                "distinction": "Odak dal kullanılan el bölümü ve ses sonucuyla belirlenir; komşu dal ise hedef olarak enseyi ve elin oraya oturtulmasını öne çıkarır."
+              },
+              {
+                "neighbor_ref": "root_001630/B013",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal avuç ya da parmak aracını ve vuruş sesini kodlar.",
+                "neighbor_only": "Komşu dal kullanılan aracı belirtmeden özellikle yüze vurmayı kodlar.",
+                "gloss": "elle vurma ile yüze vurma",
+                "shared_zone": "Her iki dal bir kişiye veya şeye vurma alanındadır.",
+                "distinction": "Odak dal aracın el ya da parmak olması ve ses sonucuyla sınırlanır; komşu dal ise hedef bölgeyi yüz olarak belirler."
+              },
+              {
+                "neighbor_ref": "root_000998/B004",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal çıplak avuç içi veya parmakla vurmayı ve sesini anlatır.",
+                "neighbor_only": "Komşu dal hurma dalı ya da sopa gibi bir araçla vurmayı anlatır.",
+                "gloss": "elle vurma ile sopayla vurma",
+                "shared_zone": "İki dal bir nesneye darbe uygulama eylemini paylaşır.",
+                "distinction": "Odak dal doğrudan el temasına dayanır; komşu dal ise elde tutulan ayrı bir vurma aracını zorunlu kılar."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilenler ses kapsamı, hedef bölge ve vurma aracı bakımından en yararlı sınırları verir. Kalanlar ayakla vurma, özel çubuklar veya yalnızca el anatomisi üzerinden daha uzak karşılaştırmalardır.",
+            "branch_image_ar": "ضربة وصوتها المرتفع",
+            "what_is_ar": "السطع ضرب الشيء بالراحة أو الإصبع وصوت الضربة إذا ارتفع",
+            "what_is_not_ar": "ليس سطوع الضوء ولا طول العنق",
+            "source_phrase_ar": "السطع ارتفاع صوت الشيء إذا ضربت عليه شيئا يقال سطعة (maqayis)؛ السطع أن تسطع شيئا براحتك أو بإصبعك ضربا وسمعت لضربته سطعا يعني صوت الضربة (tahdhib)",
+            "sources": [
+              "MQ",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000706/B006",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi sözün belirli tek bir dağın özel adı olduğunu açıkça bildirir. Dal çerçevesi bu yer adı kullanımını ev direği ve boyun damgası anlamlarından doğru biçimde ayırır.",
+              "boundary_note": "Bu dal yalnızca belirli bir dağın özel adıdır; aynı biçimdeki cins adları ve öteki yer adlarıyla birleştirilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalın biçimin belirli bir dağa ad oluşuyla sınırlıdır; adın yüzey biçimi uydurulmaz ve genel bir dağ türü anlamı çıkarılmaz."
+            },
+            "concept_map": {
+              "definition": "Belirli tek bir dağı adlandıran özel yer adıdır; dağ türünü ya da herhangi bir dağı bildiren ortak ad değildir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Söz, belirli tek bir dağın özel adı olarak kullanılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar bu kullanımın belirli bir dağı adlandıran özel yer adı olduğu konusunda birleşir. Anlam, dağın niteliğini betimlemez ve herhangi bir dağa uygulanabilen genel bir ad oluşturmaz; Maqayis bu adı Huzeyl şiirindeki kullanımla ayrıca tanıklar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "belirli bir dağın özel adı",
+              "applicability": "Dalın tek bir coğrafi varlığı adlandıran özel ad işlevini karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Belirli tek bir dağı adlandırma ve özel ad olma özelliklerini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "dağ adı",
+                "usage_role": "explanatory",
+                "applicability": "Özel adın yüzey biçimini vermeden işlevini açıklamak gereken bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Bir coğrafi yükseltiyi adlandıran yer adı işlevini korur.",
+                  "loses": null,
+                  "adds": "Belirli tek dağla sınırlı oluşu gevşeterek herhangi bir dağ adını düşündürebilir.",
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "belirli bir dağın özel adı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; her biri başka bir dağ, vadi, yer, topluluk veya gün adını bildirir ve odak adın hangi dağı gösterdiğini açıklamaz. Bu nedenle yararlı bir anlam sınırı kuran komşu yayımlanmamıştır.",
+            "branch_image_ar": "اسم جبل بعينه",
+            "what_is_ar": "السطاع إذا كان علما لجبل بعينه",
+            "what_is_not_ar": "ليس السطاع عمود البيت ولا السمة",
+            "source_phrase_ar": "أما السطاع في شعر هذيل فهو جبل بعينه (maqayis)؛ السطاع اسم جبل بعينه (tahdhib)",
+            "sources": [
+              "MQ",
+              "TA"
+            ],
+            "source_note": {}
+          }
+        ],
+        "root_profile": {
+          "summary": "Kök; havada uzama, yükselme veya yayılma; boyun uzunluğu; ev direği ve ona dayalı uzun deve benzetmesi; deve boynundaki uzunlamasına damga; avuç ya da parmak vuruşu ve sesi; ayrıca belirli bir dağın özel adı olmak üzere altı dalda örgütlenir. Uzunluk ve yükselme düşüncesi bazı dalları birbirine bağlarken vuruş ile yer adı daha ayrı anlam merkezleri oluşturur.",
+          "polysemy": "polysemic",
+          "organization": "mixed"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 0,
+            "word_count": 0,
+            "ayah_count": 0,
+            "surah_count": 0
+          },
+          "forms": []
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000706_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000706",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "repair",
+        "inputs_sha256": "4ddb0b060a8b44777dbbfb1baf9d456b9c8e16e73e9ea55ba31cb5f44578542c",
+        "review_inputs_sha256": "8c30e487ac559aaaec3ce6ff86ce245d4c2c43e21237c2f4d3b8089a8eae0ebc",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000706/tr/output/root_000706_entry.json",
+          "sha256": "15360bec472228cee23e763be3e92c80bdaf196fed5ba8a2792289c941cdd864",
+          "entry_id": "root_000706/tr",
+          "status": "reviewed",
+          "review_verdict": "repair",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000706.json",
+          "sha256": "9d824194c65494434fb60be7e7c74eb5688eb69836cf65d08838d381b7722145"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000706/tr/repair/input/task.json",
+          "sha256": "37e6fe692669ac4caf58573a7c2f8bc713b17a49afa71e978b19a46ef4709c5f"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000706/tr/repair/review/input/task.json",
+          "sha256": "80e898007c7920c7843bcdd480d016e7c3881147b2d6e572ba6cd72805ca5c22"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000706/tr/repair/review/output/review.json",
+          "sha256": "7bc9caf419de3f87f75f85cfa114cadad320ed36b3a4c1bf48783803997ecb5d"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000706/B001",
+            "concept_gloss": {
+              "text": "havada uzama, yükselme veya yayılma",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003",
+                "F004",
+                "F005"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "havada yükselmek, uzamak veya yayılmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_002": {
+                "text": "yukarı doğru uzanan sabah aydınlığı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_003": {
+                "text": "sabah aydınlığı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_004": {
+                "text": "okun göğe yükselip parlaması",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_005": {
+                "text": "misk kokusunun burnuna ulaşması",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000706/B002",
+            "concept_gloss": {
+              "text": "uzun boyunluluk",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_006": {
+                "text": "boyun uzunluğu",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_007": {
+                "text": "başını kaldırıp boynunu uzatmak",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_008": {
+                "text": "uzun boyunlu erkek devekuşu",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_009": {
+                "text": "uzun boyunlu dişi devekuşu",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000706/B003",
+            "concept_gloss": {
+              "text": "ev ya da çadır direği ve ona benzetilen uzun deve",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_010": {
+                "text": "ev veya çadır direği",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_011": {
+                "text": "direğe benzetilen uzun deve",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000706/B004",
+            "concept_gloss": {
+              "text": "deve boynunda uzunlamasına damga ve damgalı deve niteliği",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_012": {
+                "text": "deve boynundaki uzunlamasına damga",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_013": {
+                "text": "boynu uzunlamasına damgalı deve",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000706/B005",
+            "concept_gloss": {
+              "text": "avuç içi veya parmak vuruşu ve çıkan ses",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_014": {
+                "text": "bir şeye avuç içiyle veya parmakla vurma",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_015": {
+                "text": "vuruş sesi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_016": {
+                "text": "vuruş veya vuruş sesi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000706/B006",
+            "concept_gloss": {
+              "text": "belirli bir dağın özel adı",
+              "facet_ids": [
+                "F001"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_017": {
+                "text": "belirli bir dağın özel adı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000706.json"
+    },
     "root_000943": {
       "root_ar": "ط ل ب",
+      "qac_roots_ar": [
+        "ط ل ب"
+      ],
       "root_id": "root_000943",
-      "root_mapping": {
-        "root_id": "root_000943",
-        "root_norm": "ط ل ب",
-        "source_root_norm": "ط ل ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ط ل ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6289f914e18f835dda9695fc2136fde7f55b50bd142791b7e46ab890d106988f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14492,14 +16469,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s018/linguistic/morphemes.tsv",
-        "ayah_count": 111,
-        "row_count": 2582,
+        "ayah_count": 110,
+        "row_count": 2575,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14994,11 +16977,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s018"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s18/packets/18_41.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s18/readers/reader_hft_a/18_41.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 221423,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -15073,19 +17069,37 @@
           "root_ids": [
             "root_000839"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ب ح",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000839",
+            "targets": [
+              {
+                "qac_root_norm": "ص ب ح",
+                "target_rank": 1,
+                "furuq_root_id": "root_000839",
+                "furuq_root_norm": "ص ب ح",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 41,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000839",
-              "root_norm": "ص ب ح",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ب ح",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 41,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -15097,19 +17111,37 @@
           "root_ids": [
             "root_001458"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م و ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001458",
+            "targets": [
+              {
+                "qac_root_norm": "م و ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_001458",
+                "furuq_root_norm": "م و ه",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 63,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001458",
-              "root_norm": "م و ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م و ه",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 63,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15134,19 +17166,37 @@
           "root_ids": [
             "root_001112"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "غ و ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001112",
+            "targets": [
+              {
+                "qac_root_norm": "غ و ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001112",
+                "furuq_root_norm": "غ و ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 4,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001112",
-              "root_norm": "غ و ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "غ و ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 4,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15172,55 +17222,115 @@
             "root_000956",
             "root_000706"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ط و ع",
+            "mapping_status": "split",
+            "primary_root_id": "root_000956",
+            "targets": [
+              {
+                "qac_root_norm": "ط و ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000956",
+                "furuq_root_norm": "ط و ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 96,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ط و ع",
+                "target_rank": 2,
+                "furuq_root_id": "root_000706",
+                "furuq_root_norm": "س ط ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
-          "gloss_present": false,
-          "split_mapping": true,
+          "gloss_present": true,
           "targets": [
             {
               "root_id": "root_000956",
-              "root_norm": "ط و ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ط و ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 96,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             },
             {
               "root_id": "root_000706",
-              "root_norm": "س ط ع",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "س ط ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 0,
+                  "ayahs": 0
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ط ل ب": {
           "root_id": "root_000943",
           "root_ids": [
             "root_000943"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ط ل ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000943",
+            "targets": [
+              {
+                "qac_root_norm": "ط ل ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000943",
+                "furuq_root_norm": "ط ل ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000943",
-              "root_norm": "ط ل ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ط ل ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15247,10 +17357,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 47,
+        "dictionary_branches_kept": 47,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 30,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

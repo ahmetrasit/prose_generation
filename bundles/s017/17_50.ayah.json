@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T06:36:57.673476+00:00",
+  "generated_at": "2026-08-04T22:28:50.395828+00:00",
   "surah": 17,
   "ayah": 50,
   "ayahRef": "17:50",
@@ -1640,7 +1640,8 @@
       "morpheme_ids": [
         "m-w-s017-a050-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "17:50:1"
+      "aligned_qac_word_ref_upstream": "17:50:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1656,7 +1657,8 @@
         "m-w-s017-a050-w002-01",
         "m-w-s017-a050-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "17:50:2"
+      "aligned_qac_word_ref_upstream": "17:50:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1670,7 +1672,8 @@
       "morpheme_ids": [
         "m-w-s017-a050-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "17:50:3"
+      "aligned_qac_word_ref_upstream": "17:50:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1684,7 +1687,8 @@
       "morpheme_ids": [
         "m-w-s017-a050-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "17:50:4"
+      "aligned_qac_word_ref_upstream": "17:50:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1698,7 +1702,8 @@
       "morpheme_ids": [
         "m-w-s017-a050-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "17:50:5"
+      "aligned_qac_word_ref_upstream": "17:50:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2546,7 +2551,855 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s17/packets/17_50.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "17:50",
+      "window": [
+        "17:40",
+        "17:41",
+        "17:42",
+        "17:43",
+        "17:44",
+        "17:45",
+        "17:46",
+        "17:47",
+        "17:48",
+        "17:49",
+        "17:50",
+        "17:51",
+        "17:52",
+        "17:53",
+        "17:54",
+        "17:55",
+        "17:56",
+        "17:57",
+        "17:58",
+        "17:59",
+        "17:60"
+      ],
+      "ayah_count": 21,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "17:50",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_material_resistance",
+            "confidence": "strong",
+            "focus_anchor": "كُونُوا۟ حِجَارَةً أَوْ حَدِيدًا",
+            "mechanism": "The imperative opens an imagined change of state, and the two material predicates form an escalation from hard stone to the resistant hardness of iron.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and coming-to-be make the imperative a demand to occupy an imagined state."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone supplies the first compact and resistant material state."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B004",
+                "role": "Iron and its resistant hardness intensify the second material state."
+              }
+            ],
+            "changed_reading": {
+              "before": "The line merely names two hard substances.",
+              "after": "The line challenges the hearers to occupy whatever maximally resistant material state they can imagine."
+            }
+          },
+          {
+            "model_id": "b_obstruction_pair",
+            "confidence": "medium",
+            "focus_anchor": "حِجَارَةً أَوْ حَدِيدًا",
+            "mechanism": "The alternatives overlap as technologies of refusal: stone encloses and blocks, while the semantic field of iron supplies limits, barriers, and prohibition.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Prevention and enclosure turn stone from passive matter into a blocking function."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B001",
+                "role": "The distinguishing boundary makes iron a figure for a terminal limit."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B002",
+                "role": "Prevention and prohibition give that limit an active excluding force."
+              }
+            ],
+            "changed_reading": {
+              "before": "Stone and iron are examples of physical hardness.",
+              "after": "Stone and iron also figure the hearers' strongest imaginable strategy of becoming a barrier."
+            }
+          },
+          {
+            "model_id": "b_mass_or_edge",
+            "confidence": "exploratory",
+            "focus_anchor": "حِجَارَةً أَوْ حَدِيدًا",
+            "mechanism": "The disjunction need not be a simple hardness scale: stone resists as compact mass, whereas iron can resist or act through a sharpened, penetrating edge.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "The hard stone image supplies dense, blunt mass."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B005",
+                "role": "The sharp penetrating edge supplies an active alternative to stone's blunt resistance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Iron simply repeats stone at a higher degree of hardness.",
+              "after": "The two predicates offer different material functions: immovable mass or penetrating edge."
+            }
+          },
+          {
+            "model_id": "b_speech_to_state",
+            "confidence": "medium",
+            "focus_anchor": "قُلْ كُونُوا۟",
+            "mechanism": "An instruction to utter is immediately followed by an imperative of becoming, compressing reported speech and imagined ontological change into one sequence.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Voiced utterance launches the quoted challenge."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Coming-to-be makes material identity the immediate object of that utterance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speaker reports a pair of hypothetical materials.",
+              "after": "The utterance itself stages the hearers crossing into the material states they imagine."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_matter_remains_responsive",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ب ح",
+              "ش ي ء",
+              "ف ق ه"
+            ],
+            "mechanism": "The earlier claim that every thing praises while the hearers fail to understand removes the easy equation of stone or iron with mute, unreachable matter. Materiality may exceed human comprehension without ceasing to be responsive.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone supplies one named material member of the wider class of things."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B004",
+                "role": "Iron supplies the second named material member of that class."
+              },
+              {
+                "source_ref": "17:44",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1",
+                  "12",
+                  "17"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B001",
+                "role": "Repeated worshipful praise gives things a meaningful activity rather than inert silence."
+              },
+              {
+                "source_ref": "17:44",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B001",
+                "role": "The generic knowable thing supplies the class under which the two materials can be included."
+              },
+              {
+                "source_ref": "17:44",
+                "root": "ف ق ه",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_001171",
+                "branch_id": "B001",
+                "role": "Failure of understanding locates the opacity in the hearer rather than necessarily in matter."
+              }
+            ],
+            "structural_cues": [
+              "17:44 places universal praise and failed human comprehension before the material imperative at 17:50."
+            ],
+            "reader_inference": "The packet supplies every thing praising, hearers not understanding, and stone and iron as named things; I infer class inclusion, while the live alternative is that the universal statement does not specify how material praise bears on restoration.",
+            "changed_reading": {
+              "before": "Becoming stone or iron would mean retreating into inert matter.",
+              "after": "Even the proposed material refuge remains within an addressable and meaningful order that human listeners may simply fail to comprehend."
+            }
+          },
+          {
+            "model_id": "d_reception_as_self_fortification",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ج ب",
+              "ك ن ن",
+              "و ق ر",
+              "س ب ل"
+            ],
+            "mechanism": "A concealed barrier, coverings over hearts, weight in ears, and loss of a path turn the material imperative into an externalization of an already enacted receptive posture: the hearers have been making themselves inaccessible before being told to imagine stone or iron.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Stone's prevention and enclosure condense the preceding barriers into a material state."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B002",
+                "role": "Iron's preventing and prohibiting field intensifies that self-fortification."
+              },
+              {
+                "source_ref": "17:45",
+                "root": "ح ج ب",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000294",
+                "branch_id": "B002",
+                "role": "A covering barrier supplies the first spatial layer of inaccessible reception."
+              },
+              {
+                "source_ref": "17:46",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective covering moves the barrier inward onto the heart."
+              },
+              {
+                "source_ref": "17:46",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B001",
+                "role": "Weight in the ear makes blocked hearing materially heavy."
+              },
+              {
+                "source_ref": "17:48",
+                "root": "س ب ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000672",
+                "branch_id": "B001",
+                "role": "The extended traversable path, now unavailable, shows the functional result of the barriers."
+              }
+            ],
+            "structural_cues": [
+              "17:45-48 progresses from an intervening veil to covered hearts, weighted ears, turning away, and inability to find a path."
+            ],
+            "reader_inference": "The packet supplies a barrier sequence and focus branches of enclosure and prevention; I infer that the command materializes the hearers' receptive stance, while the alternative is that the barrier sequence and hard materials are parallel but independent figures.",
+            "changed_reading": {
+              "before": "Stone and iron are arbitrary examples of harder matter.",
+              "after": "Stone and iron expose as bodily matter the blocking behavior already performed in hearing, understanding, and turning away."
+            }
+          },
+          {
+            "model_id": "d_disintegration_cohesion_spectrum",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ظ م",
+              "ر ف ت",
+              "ب ع ث",
+              "خ ل ق",
+              "ج د د"
+            ],
+            "mechanism": "The preceding question moves from hard bone to pulverized remains and asks about renewed creation; the focus answers by reversing the material direction toward stone and iron. Disintegration and maximal cohesion become opposite points on one spectrum, neither of which blocks reactivation.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone supplies a high-cohesion answer to the preceding image of remains."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B004",
+                "role": "Resistant iron pushes the high-cohesion pole still further."
+              },
+              {
+                "source_ref": "17:49",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B005",
+                "role": "Hard bone supplies the residual bodily substrate from which the objection begins."
+              },
+              {
+                "source_ref": "17:49",
+                "root": "ر ف ت",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000578",
+                "branch_id": "B001",
+                "role": "Pulverization and debris supply the low-cohesion extreme."
+              },
+              {
+                "source_ref": "17:49",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Stirring what is still from rest supplies the reactivation that crosses the material spectrum."
+              },
+              {
+                "source_ref": "17:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative bringing-into-being makes reconstitution the disputed operation."
+              },
+              {
+                "source_ref": "17:49",
+                "root": "ج د د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000227",
+                "branch_id": "B004",
+                "role": "New occurrence after cutting links fragmentation to renewed creation rather than final loss."
+              }
+            ],
+            "structural_cues": [
+              "17:49's question runs directly into the imperative and disjunction of 17:50."
+            ],
+            "reader_inference": "The packet supplies pulverized remains, reactivation, new creation, and two highly cohesive materials; I supply the directional axis from disintegration to cohesion, while the live alternative is a simpler rhetorical escalation in hardness without a full material spectrum.",
+            "changed_reading": {
+              "before": "The answer merely says that even harder material could be raised.",
+              "after": "The answer reverses the objection: whether identity is dispersed into debris or consolidated into resistant matter, material condition does not govern the possibility of renewed creation."
+            }
+          },
+          {
+            "model_id": "d_open_ended_return",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ك ب ر",
+              "ع و د",
+              "ف ط ر",
+              "ء و ل"
+            ],
+            "mechanism": "The following disjunction extends stone and iron into any created form imagined as greater, then answers the return question with first origination. The focus list is therefore deliberately non-exhaustive, and agency shifts from the resistance of the form to the one who first opened it into existence.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Coming-to-be keeps the hypothetical state open beyond the two named predicates."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Stone is the first concrete member of the expandable created-form list."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B004",
+                "role": "Iron is the second concrete member rather than the terminal possible form."
+              },
+              {
+                "source_ref": "17:51",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Created being generalizes the material predicates into an open class of forms."
+              },
+              {
+                "source_ref": "17:51",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B003",
+                "role": "What is magnified in the chest marks the limiting form as hearer-imagined rather than objectively fixed."
+              },
+              {
+                "source_ref": "17:51",
+                "root": "ع و د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001058",
+                "branch_id": "B001",
+                "role": "Return after departure shifts the issue from substance to restored identity."
+              },
+              {
+                "source_ref": "17:51",
+                "root": "ف ط ر",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001165",
+                "branch_id": "B002",
+                "role": "Origination supplies the agentive precedent for return."
+              },
+              {
+                "source_ref": "17:51",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Firstness fixes origination as prior to every later material state."
+              }
+            ],
+            "structural_cues": [
+              "17:51 begins with another أَوْ, syntactically continuing the alternatives of 17:50 before asking who will return the speakers."
+            ],
+            "reader_inference": "The packet supplies a continued disjunction, an unrestricted created form, return, and first origination; I infer that the list concedes any imagined resistant ontology, while the alternative is that the third member functions only as hyperbolic emphasis.",
+            "changed_reading": {
+              "before": "Stone and iron are the two decisive test cases.",
+              "after": "They are only the opening cases in an unrestricted concession: no self-imagined created form outruns the agency already demonstrated in first origination."
+            }
+          },
+          {
+            "model_id": "d_call_and_response",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ع و",
+              "ج و ب",
+              "ل ب ث"
+            ],
+            "mechanism": "The focus sequence of utterance and becoming is followed by a day when the hearers are called and answer. Restoration is rendered as addressable response across a stay they retrospectively judge brief, not as matter autonomously rebuilding itself.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Voiced speech launches the focus command and supplies the first side of an address-response pattern."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Coming-to-be links the address to the state whose restoration is at issue."
+              },
+              {
+                "source_ref": "17:52",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Vocal summons supplies the initiating act that reaches the addressees."
+              },
+              {
+                "source_ref": "17:52",
+                "root": "ج و ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000273",
+                "branch_id": "B003",
+                "role": "Answering speech supplies the hearers' responsive return."
+              },
+              {
+                "source_ref": "17:52",
+                "root": "ل ب ث",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001339",
+                "branch_id": "B001",
+                "role": "The interval of remaining in a state makes the material condition temporally bounded."
+              }
+            ],
+            "structural_cues": [
+              "17:52 follows the identification of the first Originator and retains second-person plural address."
+            ],
+            "reader_inference": "The packet supplies command, summons, answer, and a bounded interval; I infer that the focus imperative anticipates the later call-and-response mechanism, while the alternative is that the two speech scenes are only adjacent rhetorical forms.",
+            "changed_reading": {
+              "before": "The imperative asks the hearers to imagine a different substance.",
+              "after": "The imperative foreshadows that any such material state remains vocatively reachable and can be crossed by summons and response."
+            }
+          },
+          {
+            "model_id": "d_disciplined_polemic",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ح س ن",
+              "ن ز غ"
+            ],
+            "mechanism": "The later command to have the servants say what is best, set against verbal provocation, constrains the tone of the focus challenge. Its severe material imagery functions as an argued reply, not as permission to turn the addressees into contemptible objects.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Voiced utterance marks the challenge as an instructed speech act."
+              },
+              {
+                "source_ref": "17:53",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B009",
+                "role": "Speech as engagement in a matter frames the repeated say-and-say construction as disciplined dialogue."
+              },
+              {
+                "source_ref": "17:53",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "Goodness opposed to ugliness supplies the qualitative constraint on the reply."
+              },
+              {
+                "source_ref": "17:53",
+                "root": "ن ز غ",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001490",
+                "branch_id": "B002",
+                "role": "A verbal jab supplies the rejected alternative use of sharp speech."
+              }
+            ],
+            "structural_cues": [
+              "17:53 repeats an imperative of saying followed by subordinate saying, closely echoing the speech frame of 17:50."
+            ],
+            "reader_inference": "The packet supplies instructed speech, the best utterance, and verbal provocation; I infer that this norm governs the nearby focus reply, while the live alternative is that 17:53 addresses a separate social setting without retroactively qualifying 17:50.",
+            "changed_reading": {
+              "before": "Be stone or iron can sound like an unbounded insult.",
+              "after": "The hard image remains polemically forceful but is contained as a reasoned, instructed answer within a demand for better speech."
+            }
+          },
+          {
+            "model_id": "d_agency_and_enclosure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ل ك",
+              "ك ش ف",
+              "ح و ل",
+              "ح و ط"
+            ],
+            "mechanism": "The focus imperative can superficially sound as if the hearers may choose an unreturnable state. The later denial that invoked powers own removal or transformation, followed by complete encompassing of people, shifts the command into a concession: imagine any self-enclosure, but control over changing and containing states lies elsewhere.",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Coming-to-be supplies the apparent self-directed change of state that context will reassign."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Stone's enclosure supplies the imagined defensive state."
+              },
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B002",
+                "role": "Iron's prevention supplies the stronger imagined exclusion."
+              },
+              {
+                "source_ref": "17:56",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership and disposal identify the capacity explicitly denied to the invoked powers."
+              },
+              {
+                "source_ref": "17:56",
+                "root": "ك ش ف",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001302",
+                "branch_id": "B001",
+                "role": "Removal of a covering supplies one unavailable operation on an imposed condition."
+              },
+              {
+                "source_ref": "17:56",
+                "root": "ح و ل",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000373",
+                "branch_id": "B001",
+                "role": "Transformation from one state to another names the second unavailable operation."
+              },
+              {
+                "source_ref": "17:60",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "Complete encompassing in knowledge and securing places every human self-enclosure inside a larger reach."
+              }
+            ],
+            "structural_cues": [
+              "17:56 denies ownership of removing harm or transforming it; 17:60 closes the window with the Lord encompassing people."
+            ],
+            "reader_inference": "The packet supplies an imperative of state, denied ownership of removal and transformation, and complete encompassing; I infer that the imperative concedes imagined form without conceding agency, while the alternative is that 17:56 concerns only false objects of invocation and does not specify the 17:50 transformation.",
+            "changed_reading": {
+              "before": "The hearers are challenged to choose a substance beyond restoration.",
+              "after": "They are conceded any imagined defensive state, but neither the state nor its occupants own the transformation or escape the larger encompassing agency."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_selected_smooth_stone",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the smooth stone branch is distant from the selecting sense active in 17:40. It remains anchored because that branch literally supplies a stone image and the focus explicitly names stone; downstream prose should present it only as an exploratory material texture, not as the asserted sense of أَصْفَىٰ.",
+            "focus_anchor": "حِجَارَةً",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "The focus supplies literal hard stone as the receiving material image."
+              },
+              {
+                "source_ref": "17:40",
+                "root": "ص ف و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000873",
+                "branch_id": "B006",
+                "role": "A smooth stone cleared of soil or clay adds stripping and purification to the focus material."
+              }
+            ],
+            "changed_reading": {
+              "before": "Stone signifies hardness alone.",
+              "after": "Stone can momentarily carry an imagined stripping of admixture into a smoother, supposedly less vulnerable substrate."
+            }
+          },
+          {
+            "outlier_id": "o_iron_under_assay",
+            "confidence": "medium",
+            "containment": "This is surprising because it links the metallurgical branch of testing in 17:60 to iron named ten verses earlier. It remains tightly anchored in literal iron and in a branch that explicitly tests both metal and person; downstream prose should qualify it as a cross-domain activation rather than claim an explicit furnace scene.",
+            "focus_anchor": "حَدِيدًا",
+            "activation_trace": [
+              {
+                "source_ref": "17:50",
+                "root": "ح د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000002",
+                "branch_id": "B004",
+                "role": "Literal resistant iron supplies material capable of being assayed."
+              },
+              {
+                "source_ref": "17:60",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Testing metal and person turns the hardest proposed identity into test material rather than an escape from testing."
+              }
+            ],
+            "changed_reading": {
+              "before": "Iron is the imagined endpoint of resistance.",
+              "after": "Becoming iron may place the hearer more vividly under assay: the resistant substrate is precisely what a test can disclose."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "17:49-51 turns stone and iron into the cohesive middle of a spectrum running from pulverized remains to any imagined created form, all governed by return to first origination.",
+            "17:44 prevents stone and iron from functioning as mute escape categories because every thing praises even where human comprehension fails.",
+            "17:45-48 makes the materials externalize barriers already enacted in hearing, understanding, and pathfinding.",
+            "17:52 recasts restoration as summons and response across a bounded material interval."
+          ],
+          "what_was_special": "The focus materials remained concrete while acquiring several distinct functions: resistant substrate, self-fortification, addressable matter, and material under assay. The context changed the locus of power from what a body can become to what can originate, call, return, transform, and encompass it.",
+          "remaining_uncertainties": [
+            "The inclusion of stone and iron under every praising thing is structurally strong but does not specify the mode of material responsiveness.",
+            "The mapping from veiled reception to stone and iron may be deliberate mechanism or a close thematic parallel.",
+            "The metallurgical testing branch of ف ت ن is exceptionally apt for iron but remains an exploratory lexical activation.",
+            "The imperative may function as pure rhetorical concession rather than as a foreshadowing of the later summons."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The reply grants maximal enclosure and resistance without granting escape.** `ح ج ر:B001/B003` combines enclosure with hard stone, and `ح د د:B001/B004/B006` boundary, iron hardness, and force. The imperative lets imagined bodies move from fragments to materials defined by closure and resistance. I infer resurrection does not depend on softness or organic readiness. The challenge reads as: intensify the obstacle as far as you can; material hardness still does not delimit the originating act.",
@@ -4029,18 +4882,23 @@
   "root_lexicon": {
     "root_001272": {
       "root_ar": "ق و ل",
+      "qac_roots_ar": [
+        "ق و ل"
+      ],
       "root_id": "root_001272",
-      "root_mapping": {
-        "root_id": "root_001272",
-        "root_norm": "ق و ل",
-        "source_root_norm": "ق و ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1408,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق و ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1408
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1b1acbbb477c188b03be8756a83da38b385ecf274d3b8ec17ba29c26602469a7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6962,20 +7820,1995 @@
       "gloss": null,
       "gloss_source_file": null
     },
+    "root_001251": {
+      "root_ar": "ق و ل",
+      "qac_roots_ar": [
+        "ق و ل"
+      ],
+      "root_id": "root_001251",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق و ل",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 163
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "13a157823876807f53626d1261a7b90310a5a283982ce24526b9de3de116a8ec",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_001251",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_001251/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi azlığı çokluğun karşıtı olarak verir; ayrıca yoksulluk, düşüklük, bir şeyi az görme ve belirli yapılarda yokluğa ya da seyrekliğe yaklaşan kullanımları açıkça destekler.",
+              "boundary_note": "Bu kol yalnızca sayı ve miktar azlığını ve buna bağlı kullanımları kapsar; yükseklik, kap, taşıma ve titreme anlamlarını kapsamaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Temel azlık anlamı ile yoksullaşma ve az görme gibi türemiş biçimler birlikte bulunur; yokluk ve seyrekleşme anlamları ise yalnızca belirtilen yapılara bağlıdır."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin sayı, miktar ya da ölçü bakımından çok olmayışını bildirir. Bundan yoksulluk ve düşüklük, bir şeyi az sayma veya az gösterme ve belirli yapılarda hiçlik ya da seyrek gerçekleşme anlamları gelişir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir varlığın sayı, miktar veya ölçü bakımından çok olmayışıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Azlık, kişinin yoksullaşması veya toplum içinde düşük ve değersiz görülmesi sonucuna uzanabilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Bir şeyi gerçekte ya da değerlendiren kişinin gözünde az sayma ve az gösterme anlamını taşır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "associated_use",
+                  "statement": "Belirli olumsuzluk ve sıklık yapılarında hiç yokluğu veya bir eylemin pek seyrek gerçekleşmesini anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tanımlar azlığın temel sayı ve miktar karşıtlığında birleşir; yoksulluk ve düşüklük, az sayma ve bazı yapılarda yokluğa yaklaşan kullanım bu çekirdeğin düzenli uzantılarıdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "azlık",
+              "applicability": "Sayı, miktar veya ölçünün çok olmayışını bildiren temel anlam için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Çokluğun karşıtı olan sayı ve miktar azlığını doğrudan korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "az olma",
+                "usage_role": "general",
+                "applicability": "Bir şeyin sayı veya miktar bakımından çok olmadığının söylendiği bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Temel azlık durumunu doğal bir Türkçe yapıyla tam olarak verir.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yoksullaşma ve düşkünleşme",
+                "usage_role": "contextual",
+                "applicability": "Azlığın kişide yoksulluk ve toplumsal düşüklük sonucu doğurduğu bağlamlara özgüdür.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yoksulluk ile düşüklük arasındaki kaynakta kurulan uzantıyı korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "az görmek",
+                "usage_role": "contextual",
+                "applicability": "Bir miktarın veya verilen bir şeyin yetersiz ya da küçük sayıldığı değerlendirme bağlamlarında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Değerlendiren kişinin bir şeyi az sayması anlamını tam olarak korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              },
+              {
+                "text": "pek seyrek; hemen hiç",
+                "usage_role": "contextual",
+                "applicability": "Yalnızca sıklığı çok düşüren veya olumsuzluğu pekiştiren kalıplaşmış yapılarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Kalıba bağlı seyrekleşme ve yokluğa yaklaşma değerlerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F004"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "az şey; azlık"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "azlık ve yetersizlik; yoksulluk ve düşüklük"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "az; az sayıda veya az miktarda"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "azalmak; az olmak"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "gözünde az göstermek"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yoksullaşmak"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "az saymak; az görmek"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hiç; ne azı ne çoğu"
+              },
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "pek seyrek; hemen hemen hiç"
+              },
+              {
+                "lexical_unit_id": "lu_030",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yoksulluğa ve aşağılanmaya uğrasın"
+              },
+              {
+                "lexical_unit_id": "lu_031",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hiç malı olmamak"
+              },
+              {
+                "lexical_unit_id": "lu_032",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kendisi de ailesi de tanınmayan adam"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000649/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol azlığı yoksulluk, düşüklük, az sayma ve kalıba bağlı yokluk değerlerine kadar genişletir.",
+                "neighbor_only": "Komşu kol genel azlığı özellikle mal, yiyecek ve verili miktar örnekleri çevresinde toplar.",
+                "gloss": "genel azlık",
+                "shared_zone": "Her iki kol da bir şeyin sayı veya miktar bakımından çok olmayışını anlatır.",
+                "distinction": "Temel azlık alanları büyük ölçüde örtüşür; ancak bu kolun değerlendirme, toplumsal sonuç ve kalıba bağlı olumsuzluk uzantıları komşu kartta aynı sınırla kurulmaz."
+              },
+              {
+                "neighbor_ref": "root_001453/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu kolun çekirdeği sayı ve miktar azlığıdır; değersizlik bunun ikincil bir sonucudur.",
+                "neighbor_only": "Komşu kolun çekirdeği güçsüzlük, aşağılık ve düşünme yetisindeki zayıflıktır.",
+                "gloss": "azlık ile değersizlik",
+                "shared_zone": "İki kol da azlıkla değersizlik veya düşüklük arasında anlam ilişkisi kurabilir.",
+                "distinction": "Bu kolda değersizlik azlığın uzantısıdır; komşu kolda ise zayıflık ve aşağılık bağımsız çekirdektir, bu yüzden olağan kullanımda birbirlerinin yerine geçmezler."
+              },
+              {
+                "neighbor_ref": "root_001251/B002",
+                "relation_type": "other",
+                "boundary_match": "field_only",
+                "focus_only": "Bu kol bir şeyin sayıca veya miktarca az oluşunu bildirir.",
+                "neighbor_only": "Komşu kol bir şeyin başını, tepesini veya en üst bölümünü bildirir.",
+                "gloss": "azlık ve tepe ayrımı",
+                "shared_zone": "Aynı kökün sesçe yakın iki ayrı anlam kolu olmaları dışında ortak çekirdekleri yoktur.",
+                "distinction": "Ses benzerliği anlam birliği doğurmaz: biri çokluğun karşıtı olan azlığı, diğeri uzamsal olarak en üstte bulunan baş veya tepeyi adlandırır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı; genel azlıkla en yakın örtüşme, değersizlikle kurulan yan ilişki ve aynı kökteki tepe anlamıyla olası karışma en açıklayıcı üç sınır olarak seçildi.",
+            "branch_image_ar": "القِلَّة والضآلة",
+            "what_is_ar": "القليل والقِلَّة ضد الكثرة، ويدخل فيه الافتقار والذلة، وتقليل الشيء في العين، واستقلاله، واستعمال القليل للنفي أو للندرة",
+            "what_is_not_ar": "ليس علو الشيء ولا الجرة ولا الحمل ولا الرعدة",
+            "source_phrase_ar": "القل القليل؛ رماه الله بالقل والذل أي بالقلة والذلة (jamhara)؛ شيء قليل وجمعه قلل؛ قل الشيء يقل قلة؛ قلله في عينه؛ أقل افتقر؛ استقله عده قليلا (sihah)؛ قل الشيء يقل قلة فهو قليل وقلال؛ القل من الرجال الخسيس الدنيء؛ قليلة ولا كثيرة؛ قليلا ما يؤمنون؛ قاللت لفلان؛ تقاللت ما أعطاني (tahdhib)؛ القلة والكثرة يستعملان في الأعداد؛ يكنى بالقلة عن الذلة؛ يكنى بها تارة عن العزة؛ قليل يعبر به عن النفي (mufradat)",
+            "sources": [
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001251/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi bir şeyin en üstünü veya başını çekirdek anlam olarak verir; dağın yuvarlak üst bölümü, insan başı ve kılıcın başındaki topuz bu çekirdeğin açık uzmanlaşmalarıdır.",
+              "boundary_note": "Bu kol uzamsal başı ve en üst parçayı bildirir; sayısal azlık ya da büyük kap anlamını içermez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Genel baş ve en üst bölüm anlamı ile dağ tepesi, insan başı ve kılıç topuzu gibi yapıya bağlı uzmanlaşmalar ayrı tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin başını veya en üst bölümünü bildirir. Dağın üstteki yuvarlak parçası, insan başı ve kılıcın sap ucundaki topuz bu uzamsal çekirdeğin özel gerçekleşmeleridir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir nesnenin veya oluşumun başı ya da en üstte bulunan bölümüdür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Dağın en üstünde yer alan, kimi tanımda yuvarlak biçimli bölümünü adlandırır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "İnsan başı ile kılıcın sap ucundaki başlık veya topuz da aynı üst ve baş kavramıyla adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tanımlar bir şeyin başı ve en üst bölümü üzerinde birleşir; dağ tepesi temel örnektir, insan başı ile kılıç topuzu da aynı biçimsel ve uzamsal çizgide yer alır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "bir şeyin tepesi veya başı",
+              "applicability": "Bir nesnenin ya da doğal oluşumun en üst bölümünü ve başını kapsayan genel karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Baş olma ile uzamsal olarak en üstte bulunma çekirdeğini birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "dağ tepesi",
+                "usage_role": "contextual",
+                "applicability": "Dağın en üst ve kimi zaman yuvarlak bölümünün adlandırıldığı bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Dağa özgü en üst bölüm uzmanlaşmasını doğrudan korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "baş",
+                "usage_role": "contextual",
+                "applicability": "İnsan başının veya başka bir şeyin baş sayılan üst bölümünün kastedildiği bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Üst bölümün baş olarak kavranmasını kısa ve doğal biçimde verir.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              },
+              {
+                "text": "kılıç topuzu",
+                "usage_role": "explanatory",
+                "applicability": "Kılıcın sap ucunda bulunan başlık ya da topuz parçası anlatılırken kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Kılıca özgü baş veya üst parça uzmanlaşmasını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "dağın tepesi; doruk"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şeyin tepesi veya başı"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "insanın başı"
+              },
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sap ucunda topuzu bulunan kılıç"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000529/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol dağın yuvarlak üst bölümünü ve kılıcın sap ucundaki topuzu da kapsar.",
+                "neighbor_only": "Komşu kol başla ilgili renk, büyüklük, yaralanma, sayım ve alışveriş kullanımlarına kadar uzanır.",
+                "gloss": "baş ve en üst bölüm",
+                "shared_zone": "Her iki kol da insanın veya başka bir şeyin başını ve en üst bölümünü adlandırır.",
+                "distinction": "Baş ve üst bölüm çekirdekleri yakındır; bu kol tepe ve topuz biçimini öne çıkarırken komşu kol başı daha geniş varlık ve kullanım alanlarında işler."
+              },
+              {
+                "neighbor_ref": "root_000513/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol insan başını ve kılıç topuzunu da üst veya baş kavramına bağlar.",
+                "neighbor_only": "Komşu kol yüksekliği hörgüç, soy üstünlüğü ve toplumsal onur alanlarına genişletir.",
+                "gloss": "tepe ve doruk",
+                "shared_zone": "İki kol da bir şeyin en yüksek, öne çıkan tepe bölümünü anlatır.",
+                "distinction": "Bu kol somut baş ve üst parça sınırında kalır; komşu kol fiziksel doruktan toplumsal yüceliğe uzanan daha geniş bir yükseklik alanı kurar."
+              },
+              {
+                "neighbor_ref": "root_001251/B001",
+                "relation_type": "other",
+                "boundary_match": "field_only",
+                "focus_only": "Bu kol başı, tepeyi ve en üstte bulunan parçayı bildirir.",
+                "neighbor_only": "Komşu kol sayı, miktar veya ölçü bakımından azlığı bildirir.",
+                "gloss": "tepe ve azlık ayrımı",
+                "shared_zone": "Aynı kökün sesçe yakın iki ayrı anlam kolu olmaları dışında ortak çekirdekleri yoktur.",
+                "distinction": "Bu anlam uzamsal bir üst bölüm adıdır; komşu anlam ise çokluğun karşıtı olan nicelik durumudur."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar incelendi; genel baş anlamı, doruk ve yükseklik alanı ve aynı kökteki azlık anlamıyla biçimsel karışma sınırı en yararlı karşılaştırmalar olarak seçildi.",
+            "branch_image_ar": "قُلَّة الشيء ورأسه",
+            "what_is_ar": "قُلَّة الجبل وأعلى كل شيء، ورأس الإنسان، وقبيعة السيف",
+            "what_is_not_ar": "ليس القلة بمعنى الصغر أو العدد القليل، وليس إناء القُلَّة",
+            "source_phrase_ar": "القلة قلة الجبل وهي القطعة تستدير في أعلاه وهي القنة (jamhara)؛ القلة أعلى الجبل؛ قلة كل شيء أعلاه؛ رأس الإنسان قلة (sihah)؛ قلة كل شيء رأسه؛ قلة الجبل أعلاه؛ قبيعة السيف قلته؛ سيف مقلل (tahdhib)؛ قلة الجبل شعفه (mufradat)",
+            "sources": [
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001251/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi büyük bir küp veya iri kap anlamında birleşir; iki kaplık ölçü ve belirli bir bölgeyle anılan iri küpler de aynı kap anlamını somutlaştırır.",
+              "boundary_note": "Bu kol büyük bir kap türünü ve onun ölçü değerini kapsar; nicelik azlığı veya dağ tepesi anlamını kapsamaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Büyük küp anlamı çekirdektir; belirli bir bölgeye bağlanan kap adı ile iki kaplık ölçü yalnızca kendi yapılardaki uzmanlaşmalardır."
+            },
+            "concept_map": {
+              "definition": "Büyük bir küpü veya küpe benzeyen iri kabı bildirir. Belirli bir bölgenin iri küpleri ve iki böyle kabın aldığı miktar bu kap anlamına bağlı özel kullanımlardır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Küpe benzeyen, özellikle sıvı taşımaya veya saklamaya elverişli büyük bir kaptır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Belirli bir bölgeyle anılan iri küpler veya büyük toprak kaplar bu adın tanınmış bir türünü oluşturur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "İki büyük kap, bu iki kabın kendisini veya onların aldığı sıvı miktarını bildiren bir ölçü değeri kazanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tanımlar iri bir küp veya büyük kap üzerinde birleşir; tanınmış bölgesel kaplar büyüklüğü örnekler, iki kaplık kullanım ise nesne adını kapasite ölçüsüne taşır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "büyük küp",
+              "applicability": "Küpe benzeyen iri kabı adlandıran temel ve en doğal Türkçe karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Kabın küp türünde ve olağandan büyük oluşunu birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "iri su küpü",
+                "usage_role": "contextual",
+                "applicability": "Kabın özellikle su alması ve büyük kapasitesi öne çıkarıldığında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Büyük kabı ve kaynakta belirtilen su taşıma kapasitesini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "iki büyük küplük miktar",
+                "usage_role": "explanatory",
+                "applicability": "İki kabın kendisinden çok onların aldığı sıvı miktarı ölçü olarak kastedildiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "İki büyük kabın kapasitesine dayanan ölçü kullanımını tam olarak korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "büyük küp; iri kap"
+              },
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "belirli bir bölgenin iri küpleri"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "iki büyük küp veya bunların aldığı miktar"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000286/B007",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol büyük kap adını iki kaplık bir kapasite ölçüsüne de taşır.",
+                "neighbor_only": "Komşu kol iri küpün yanı sıra küpün yerleştirildiği tahta destekleri de kapsayabilir.",
+                "gloss": "iri küp veya büyük kap",
+                "shared_zone": "Her iki kol da çok büyük bir küpü veya fıçımsı saklama kabını adlandırır.",
+                "distinction": "Kap nesnesinde güçlü bir örtüşme vardır; bu kol ölçü değerine uzanırken komşu kol kabın yerleştirildiği desteği de kapsayan farklı bir sınır kurar."
+              },
+              {
+                "neighbor_ref": "root_000384/B006",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol kabın özellikle iri oluşunu ve iki kaplık ölçü değerini belirtir.",
+                "neighbor_only": "Komşu kol genel bir küp veya saklama kabını büyüklük koşulu olmadan adlandırabilir.",
+                "gloss": "küp ve saklama kabı",
+                "shared_zone": "İki kol da küp biçimindeki büyükçe saklama kapları için kullanılabilir.",
+                "distinction": "Bu kolda büyük kapasite kurucu bir özelliktir; komşu kartta kap türü öndedir ve aynı ölçü uzantısı bulunmaz."
+              },
+              {
+                "neighbor_ref": "root_001251/B002",
+                "relation_type": "other",
+                "boundary_match": "field_only",
+                "focus_only": "Bu kol büyük bir küpü ve ona dayalı kapasite ölçüsünü bildirir.",
+                "neighbor_only": "Komşu kol bir şeyin başını, tepesini veya en üst bölümünü bildirir.",
+                "gloss": "küp ve tepe ayrımı",
+                "shared_zone": "Aynı kökün sesçe yakın iki ayrı anlam kolu olmaları dışında ortak çekirdekleri yoktur.",
+                "distinction": "Biri hacimli bir kap ve onun ölçüsüdür; diğeri bir varlığın uzamsal olarak en üstteki parçasıdır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; büyük küp anlamına en yakın iki kap komşusu ile aynı kökteki tepe anlamından ayrım, sınırı göstermek için yeterli ve yinelenmeyen karşılaştırmalardır.",
+            "branch_image_ar": "القُلَّة الجرة الكبيرة",
+            "what_is_ar": "القُلَّة إناء كالجرة الكبيرة، ومنها قلال هجر والحباب العظام",
+            "what_is_not_ar": "ليس قلة العدد، وليس رأس الجبل",
+            "source_phrase_ar": "القلة التي جاءت في الحديث مثل قلال هجر هي جرار عظام (jamhara)؛ القلة إناء للعرب كالجرة الكبيرة؛ قلال هجر شبيهة بالحباب (sihah)؛ قلتين يعني هذه الحباب العظام واحدتها قلة؛ قلال هجر؛ القلة منها تأخذ مزادة من الماء (tahdhib)؛ القلة ما أقله الإنسان من جرة وحب (mufradat)",
+            "sources": [
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001251/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi yükü taşıma veya taşıyabilme ile öznenin yükselip harekete geçmesini aynı kolda açıkça toplar; kuşun uçuşa kalkması, göğün yükselmesi ve yolcuların yüklenip ayrılması ayrı katılımcı gerçekleşmeleridir.",
+              "boundary_note": "Taşıma, yükselme ve yüklenerek yola koyulma bu kolun sınırıdır; salt sayısal azlık bu anlamlara katılmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yük taşıma ile yükselme çekirdek çizgileri ayrılır; ağır bulut taşıma, uçuşa kalkma ve yolcuların ayrılması yalnızca kendi özne ve yapılarında geçerlidir."
+            },
+            "concept_map": {
+              "definition": "Bir yükü kaldırıp taşıyabilmeyi veya üstlenmeyi ve bir öznenin yükselerek harekete geçmesini bildirir. İkinci çizgi kuşun uçuşa kalkmasını, göğün yükselmesini ve yolcuların yüklenip yola koyulmasını kapsar.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir nesneyi kaldıracak gücü bulmak, onu taşımak veya yük olarak üstlenmektir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Bir öznenin aşağıdaki konumundan yükselmesi veya kuş gibi harekete ve uçuşa başlamasıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Yolcuların yüklerini alıp bulundukları yerden ayrılarak yolculuğa başlamasıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tanımlar bir yükü kaldırıp taşıma ile yukarı kalkarak harekete geçme çizgilerini bir araya getirir; kuş, gök, bulut ve yolcu örnekleri katılımcıya göre bu iki çizgiyi somutlaştırır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yük kaldırma, yükselme ve yola koyulma",
+              "applicability": "Taşıma, yukarı kalkma ve yüklenerek hareket etme çizgilerinin birlikte özetlenmesi gereken kavram haritasında kullanılır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yük üstlenme, yükselme ve yolculuk için harekete geçme bileşenlerini birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "taşıyabilmek; yüklenmek",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin veya başka bir taşıyıcının bir nesnenin ağırlığını üstlenmesi bağlamında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yükü kaldırma gücü ile onu fiilen taşıma anlamlarını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yükselmek; havalanmak",
+                "usage_role": "contextual",
+                "applicability": "Göğün yükselmesi veya kuşun uçuşa kalkması gibi yukarı yönlü hareket bağlamlarında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yukarı kalkma ile uçuş için yerden ayrılma değerlerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "yüklenip yola çıkmak",
+                "usage_role": "contextual",
+                "applicability": "Bir topluluğun yolculuk yüklerini alarak bulunduğu yerden ayrılması bağlamına özgüdür.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yük alma, ayrılma ve yolculuğa başlama aşamalarını birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "küpü taşıyabilmek"
+              },
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şeyi taşımak; yüklenmek"
+              },
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ağır bulutları taşımak"
+              },
+              {
+                "lexical_unit_id": "lu_020",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uçuşa kalkmak; havalanmak"
+              },
+              {
+                "lexical_unit_id": "lu_021",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yüklenip yola çıkmak"
+              },
+              {
+                "lexical_unit_id": "lu_022",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yükselmek"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000793/B006",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol yükü taşımanın yanında yükselme, havalanma ve yüklenerek ayrılma anlamlarını da kapsar.",
+                "neighbor_only": "Komşu kol yükü taşıma eyleminden çok onu taşıyacak güce sahip olmayı öne çıkarır.",
+                "gloss": "yükü taşıyabilme",
+                "shared_zone": "Her iki kol da bir yükün ağırlığını karşılayacak gücü ve taşıma yeterliğini anlatır.",
+                "distinction": "Taşıma yeterliği ortak olsa da bu kol fiilî taşıma ve yerden yükselme yönlerine açılır; komşu kol güç yetirme sınırında kalır."
+              },
+              {
+                "neighbor_ref": "root_001504/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol yük üstlenmeyi, kuşun havalanmasını ve yolcuların yüklenerek ayrılmasını kapsar.",
+                "neighbor_only": "Komşu kol kişinin oturduğu yerden kalkmasını ve bir nesneyi bulunduğu yerden kaldırmayı kapsar.",
+                "gloss": "kalkma ve yükselme",
+                "shared_zone": "İki kol da aşağıdaki veya durağan bir konumdan kalkma ve hareket başlangıcını anlatır.",
+                "distinction": "Bu kol yükselmeyi taşıma ve yolculukla bağlar; komşu kol bedensel olarak ayağa kalkma ve nesneyi yerinden kaldırma çevresindedir."
+              },
+              {
+                "neighbor_ref": "root_000551/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu kolda yolculuk anlamı yolcuların yüklerini alıp bulundukları yerden ayrılmasıyla sınırlıdır.",
+                "neighbor_only": "Komşu kol yol üzerinde ilerlemeyi ve belirli bir hedefe doğru seyahat etmeyi genel olarak bildirir.",
+                "gloss": "yola koyulma ve yolculuk",
+                "shared_zone": "Her iki kol da bir yerden ayrılarak yolculuğa başlama durumunda buluşur.",
+                "distinction": "Bu kol başlangıçtaki yüklenme ve kalkış anını anlatır; komşu kol yolculuğun kendisini ve hedefe doğru ilerlemeyi çekirdek edinir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı; taşıma gücü, yerden kalkma ve yolculuğa başlama komşuları bu kolun üç kurucu yönünü en az yinelemeyle açıklar.",
+            "branch_image_ar": "الإقلال والاستقلال حملا ونهوضا",
+            "what_is_ar": "حمل الشيء واحتماله، وارتفاعه أو نهوضه، وارتحال القوم ظاعنين",
+            "what_is_not_ar": "ليس مجرد القلة العددية، ولا قلة الجبل، ولا الرعدة",
+            "source_phrase_ar": "أقل الجرة أطاق حملها؛ استقلت السماء ارتفعت؛ استقل القوم مضوا وارتحلوا (sihah)؛ أقل الرجل الشيء واستقله إذا احتمله؛ استقل الطائر إذا نهض للطيران؛ استقل النبات أناف؛ استقل القوم إذا احتملوا ظاعنين؛ أقلت سحابا ثقالا أي حملت؛ قل إذا رفع وقل إذا علا (tahdhib)؛ أقلت سحابا ثقالا أي احتملته؛ أقللت كذا وجدته قليل المحمل (mufradat)",
+            "sources": [
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001251/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi kişiyi korku veya öfke yüzünden tutan titreme ve silkinişi açıkça tanımlar; genel hareket kararsızlığı değil, duygusal tetikleyicisi bulunan bedensel bir sarsıntı söz konusudur.",
+              "boundary_note": "Bu kol insanda korku veya öfkeyle beliren titremeyle sınırlıdır; nesnelerin genel sallanma ve yerinde duramama hali ayrı koldadır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Duygudan doğan titreme temel addır; kişiyi titremenin tutması ve öfkeden titrer hale gelmesi yalnızca ilgili yapılara bağlı anlatımlardır."
+            },
+            "concept_map": {
+              "definition": "Bir insanın korku veya öfke yüzünden titremesi, ürpermesi ya da bedensel olarak silkelenmesidir. Durum, kişiyi bir titreme nöbetinin tutması veya öfkenin titremeyle dışa vurulması biçiminde anlatılabilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "İnsan bedeninde beliren titreme, ürperti veya istemsiz silkiniş halidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Titremenin belirleyici nedeni korku ya da öfkedir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Belirli yapılarda titremenin kişiyi tutması veya kişinin öfkeden titrer hale gelmesi anlatılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tanımlar insandaki titreme ve silkinişte birleşir; korku ile öfke başlıca nedenlerdir ve durum hem kişiyi tutan bir nöbet hem öfkenin bedensel belirtisi olarak anlatılır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "korku veya öfkeden titreme",
+              "applicability": "Duygusal nedeni ve bedensel titremeyi birlikte taşıyan bütün kol için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Korku veya öfke koşulunu ve bunun doğurduğu bedensel titremeyi birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "ürperti",
+                "usage_role": "contextual",
+                "applicability": "Korkunun yol açtığı kısa ve istemsiz bedensel titreme bağlamında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Korkuya bağlı istemsiz titreme ve silkiniş hissini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "titreme nöbeti",
+                "usage_role": "explanatory",
+                "applicability": "Titremenin kişiyi birden tutan belirgin bir durum olarak anlatıldığı bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Titremenin kişiyi tutan bedensel bir olay olarak sunuluşunu korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              },
+              {
+                "text": "öfkeden titremek",
+                "usage_role": "contextual",
+                "applicability": "Öfkenin bedensel titreme halinde dışa vurulduğu kişi bağlamlarına özgüdür.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Öfke nedenini ve onunla birlikte ortaya çıkan titremeyi korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_023",
+                "rendering_kind": "ordinary",
+                "target_gloss": "korku veya öfkeden doğan titreme"
+              },
+              {
+                "lexical_unit_id": "lu_024",
+                "rendering_kind": "ordinary",
+                "target_gloss": "korku veya öfkeden titremeye tutulmak"
+              },
+              {
+                "lexical_unit_id": "lu_025",
+                "rendering_kind": "ordinary",
+                "target_gloss": "öfkeden titremek"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000025/B008",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol titremenin korku veya öfkeden doğmasını anlam sınırının parçası yapar.",
+                "neighbor_only": "Komşu kol insandaki titreme veya silkinişi belirli bir duygusal nedenle sınırlamaz.",
+                "gloss": "insandaki titreme",
+                "shared_zone": "Her iki kol da insan bedeninde ortaya çıkan titreme veya silkinişi adlandırır.",
+                "distinction": "Bedensel olay aynıdır; bu kol korku ve öfke koşulunu taşırken komşu kart neden bakımından daha genel kalır."
+              },
+              {
+                "neighbor_ref": "root_000573/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol korkunun yanında öfkeyi de titremenin belirleyici nedeni olarak içerir.",
+                "neighbor_only": "Komşu kol hastalık, gevşeklik, yumuşaklık ve korkaklıkla ilişkili titremeleri de kapsar.",
+                "gloss": "ürperme ve titreme",
+                "shared_zone": "İki kol da özellikle korku sırasında insanda görülen titreme ve ürpermede örtüşür.",
+                "distinction": "Korkuya bağlı kullanımda yakınlaşırlar; bu kol öfkeyi ekler, komşu kol ise hastalık ve bedensel gevşeklik gibi başka nedenlere açılır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar incelendi; genel insan titremesi ve nedenleri daha geniş ürperme alanı, bu kolun kişi ve duygu sınırını en iyi gösterir.",
+            "branch_image_ar": "القِلُّ رعدة واضطراب",
+            "what_is_ar": "القِلُّ رعدة أو انتفاض يأخذ الإنسان من فزع أو غضب",
+            "what_is_not_ar": "ليس القلة ضد الكثرة، وليس القلقلة العامة في المكان",
+            "source_phrase_ar": "القل الرعدة والانتفاض؛ أخذ فلانا القل إذا أخذته رعدة من فزع (jamhara)؛ القل بالكسر شبه الرعدة؛ أخذه قل من الغضب (sihah)؛ القل الرعدة؛ أخذه قل إذا أرعد من الغضب؛ إذا غضب قد استقل (tahdhib)",
+            "sources": [
+              "JA",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001251/B006",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi bir şeyi hareket ettirip sallandırma, nesnenin bulunduğu yerde kararlı duramaması ve hareketin çıkardığı sesi birlikte verir; bunlar tek bir fiziksel hareket olayının neden, sonuç ve işitsel yönleridir.",
+              "boundary_note": "Bu kol genel fiziksel oynama, kararsızlık ve hareket sesiyle ilgilidir; korku veya öfkeden doğan insana özgü titreme değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım çıplak kolun hareket ettirme, sallanma, yerinde duramama ve hareket sesi anlamlarını kapsar; özel bir yapının anlamı genelleştirilmez."
+            },
+            "concept_map": {
+              "definition": "Bir şeyi hareket ettirerek yerinden oynatmayı ve onun kararsızca sallanıp bulunduğu yerde duramamasını bildirir; bu hareketin çıkardığı ses de aynı olayın işitsel yönüdür.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir nesneyi hareket ettirip onun yerinden oynamasına ve sarsılmasına neden olmaktır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "core",
+                  "statement": "Nesnenin bulunduğu yerde sabit kalmayıp sallanması, oynaması veya düzensiz hareket etmesidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Sallanma ve yer değiştirme sırasında çıkan ses, hareket olayının işitsel belirtisi olarak adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tanımlar dışarıdan hareket ettirme ile nesnenin kararsızca sallanıp yerinde duramaması üzerinde birleşir; hareketin sesi bu fiziksel olayın ayrılmaz işitsel belirtisi olarak eklenir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "oynatma ve kararsızca sallanma",
+              "applicability": "Neden olunan hareketi ve nesnenin ortaya çıkan kararsız sallanmasını birlikte kapsayan temel karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Hareket ettirme nedenini ve sabit kalamayan nesnenin sallanma sonucunu birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "sallayıp oynatmak",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin bir nesneyi hareket ettirerek onun oynamasına ve sarsılmasına neden olduğu bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Dışarıdan uygulanan hareketi ve nesnenin sarsılması sonucunu korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yerinde duramayıp sallanmak",
+                "usage_role": "contextual",
+                "applicability": "Bir nesnenin gevşeklik veya kararsızlık nedeniyle bulunduğu yerde sabit kalmadığı bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Sabit kalamama ile düzensiz sallanma durumunu birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "hareket sesi",
+                "usage_role": "explanatory",
+                "applicability": "Sallanan veya oynayan nesnenin çıkardığı sesin adlandırıldığı bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Sesin genel bir ses değil, hareketten doğan işitsel belirti oluşunu korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_026",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sallanma, yerinde duramama ve hareket sesi"
+              },
+              {
+                "lexical_unit_id": "lu_027",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sallayıp oynatmak"
+              },
+              {
+                "lexical_unit_id": "lu_028",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sallanmak; yerinde duramamak"
+              },
+              {
+                "lexical_unit_id": "lu_029",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çevik; hızlı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000545/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol nesnenin yerinde duramamasını ve hareket sırasında çıkan sesi de kapsar.",
+                "neighbor_only": "Komşu kol kalp, deniz, diş, ağaç ve gök gürültüsü gibi alanlardaki şiddetli sarsıntıyı kapsar.",
+                "gloss": "şiddetli sarsılma",
+                "shared_zone": "Her iki kol da bir nesneyi hareket ettirip onun sallanmasına veya sarsılmasına neden olmayı anlatır.",
+                "distinction": "Fiziksel sarsılma alanı yakındır; bu kol hareket ettirme, sabit kalamama ve hareket sesini kurarken komşu kol farklı varlıklardaki şiddetli sarsıntıyı öne çıkarır."
+              },
+              {
+                "neighbor_ref": "root_000255/B010",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu kolda ses, nesnenin kararsız hareketi ve sallanmasının sonucu olarak ortaya çıkar.",
+                "neighbor_only": "Komşu kol çan, gök gürültüsü ve bulut gibi kaynaklardan gelen çınlama ve gürleme seslerini de kapsar.",
+                "gloss": "hareket sesi ve çınlama",
+                "shared_zone": "İki kol da bir nesnenin hareketi sırasında ortaya çıkan işitilebilir sesi içerebilir.",
+                "distinction": "Bu kolun çekirdeği fiziksel kararsızlık ve sallanmadır, ses ikincildir; komşu kolda ses ve çınlama daha bağımsız bir anlam alanı oluşturur."
+              },
+              {
+                "neighbor_ref": "root_001251/B005",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu kol nesnenin oynatılması, yerinde duramaması ve hareket sesiyle ilgilidir.",
+                "neighbor_only": "Komşu kol insanda korku veya öfke yüzünden ortaya çıkan titremeyi bildirir.",
+                "gloss": "fiziksel sallanma ve duygusal titreme",
+                "shared_zone": "Her iki kol da gözle görülen düzensiz bir sarsılma veya titreme görünümü taşır.",
+                "distinction": "Bu kolda nesne ve fiziksel kararsızlık kurucudur; komşu kolda insan bedeni ile korku veya öfke nedeni kurucudur."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel sallama, hareketten doğan ses ve aynı kökteki duygusal titreme karşılaştırmaları fiziksel hareket çekirdeğinin sınırını en açık biçimde gösterir.",
+            "branch_image_ar": "القلقلة اضطراب وتحرك",
+            "what_is_ar": "القلقلة والتقلقل: صوت الحركة، وتحريك الشيء حتى يتحرك ويضطرب، وقلة الثبوت في المكان",
+            "what_is_not_ar": "ليس القِلُّ الرعدة الخاصة من فزع أو غضب، وليس القلة العددية",
+            "source_phrase_ar": "قلقل أي صوت وهو حكاية؛ قلقله قلقلة وقلقالا فتقلقل أي حركه فتحرك واضطرب (sihah)؛ القلقلة والتقلقل قلة الثبوت في المكان؛ يتقلقل في موضعه؛ القلق ألا يستقر الشيء في مكان واحد (tahdhib)؛ تقلقل الشيء إذا اضطرب؛ تقلقل المسمار؛ القلقلة حكاية صوت الحركة (mufradat)",
+            "sources": [
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          }
+        ],
+        "root_profile": {
+          "summary": "Kök, azlık; bir şeyin tepesi veya başı; büyük bir kap; yük taşıma, yükselme ve yola koyulma; korku ya da öfkeden titreme; nesnenin oynayıp yerinde duramaması ve hareket sesi olmak üzere altı ayrı anlam kolunda düzenlenir.",
+          "polysemy": "polysemic",
+          "organization": "multi_branch"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 76,
+            "word_count": 76,
+            "ayah_count": 74,
+            "surah_count": 33
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "قَلِيل",
+              "stem_ar": "قَلِيلًا",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|LEM:qaliyl|ROOT:qll|MS|INDEF|ACC",
+              "occurrence_count": 23
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "قَلِيل",
+              "stem_ar": "قَلِيلًا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:qaliyl|ROOT:qll|MS|INDEF|ACC",
+              "occurrence_count": 33
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "قَلِيلَة",
+              "stem_ar": "قَلِيلَةٍ",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|LEM:qaliylap|ROOT:qll|F|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F004",
+              "lemma_ar": "قَلِيل",
+              "stem_ar": "قَلِيلٌ",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|LEM:qaliyl|ROOT:qll|MS|INDEF|NOM",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F005",
+              "lemma_ar": "قَلَّ",
+              "stem_ar": "قَلَّ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|PERF|LEM:qal~a|ROOT:qll|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F006",
+              "lemma_ar": "قَلِيل",
+              "stem_ar": "قَلِيلٌ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:qaliyl|ROOT:qll|MS|INDEF|NOM",
+              "occurrence_count": 9
+            },
+            {
+              "form_id": "F007",
+              "lemma_ar": "أَقَلَّتْ",
+              "stem_ar": "أَقَلَّتْ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|PERF|(IV)|LEM:>aqal~ato|ROOT:qll|3FS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F008",
+              "lemma_ar": "يُقَلِّلُ",
+              "stem_ar": "يُقَلِّلُ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|IMPF|(II)|LEM:yuqal~ilu|ROOT:qll|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F009",
+              "lemma_ar": "أَقَلّ",
+              "stem_ar": "أَقَلَّ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:>aqal~|ROOT:qll|MS|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F010",
+              "lemma_ar": "قَلِيل",
+              "stem_ar": "قَلِيلٍ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:qaliyl|ROOT:qll|MS|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F011",
+              "lemma_ar": "قَلِيل",
+              "stem_ar": "قَلِيلُونَ",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|LEM:qaliyl|ROOT:qll|MP|NOM",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F012",
+              "lemma_ar": "قَلِيل",
+              "stem_ar": "قَلِيلٍ",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|LEM:qaliyl|ROOT:qll|MS|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F013",
+              "lemma_ar": "أَقَلّ",
+              "stem_ar": "أَقَلُّ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:>aqal~|ROOT:qll|MS|NOM",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_001251_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_001251",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "repair",
+        "inputs_sha256": "41a68d37faec908796708429a5c97f610bb7677d69f57d0d0e1844dd7ebc6247",
+        "review_inputs_sha256": "5abbcf7fd730a5af52ba316edb48a85d981583df7d6afd717c7684c271bf335f",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_001251/tr/output/root_001251_entry.json",
+          "sha256": "025f86af46ecc3666eb3d01eec864f6420948c089fa420a2a8859dc98fbaeacd",
+          "entry_id": "root_001251/tr",
+          "status": "reviewed",
+          "review_verdict": "editorial_review",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_001251.json",
+          "sha256": "ca80eaecfe15fd43c106276d59c6fdd0a764bbe8404bcdc1a3383724c12698ff"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_001251/tr/repair/input/task.json",
+          "sha256": "5ca5286699941ca2e9af52b7e25204b52fe0ec44f0423c5b3dca843c6e66f796"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_001251/tr/repair/review/input/task.json",
+          "sha256": "04ebcb686e8c6fa9eb7d32a294a9a9b8cf4e4b79a06761a9afc81b851bb50bb0"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_001251/tr/repair/review/output/review.json",
+          "sha256": "1c8f0a0d213bca95362d02a0c10c0a824c817658c98b721f10b148146088a554"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_001251/B001",
+            "concept_gloss": {
+              "text": "azlık ve az sayma",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003",
+                "F004"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "az şey; azlık",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_002": {
+                "text": "azlık ve yetersizlik; yoksulluk ve düşüklük",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_003": {
+                "text": "az; az sayıda veya az miktarda",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_004": {
+                "text": "azalmak; az olmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_005": {
+                "text": "gözünde az göstermek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_006": {
+                "text": "yoksullaşmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_007": {
+                "text": "az saymak; az görmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_008": {
+                "text": "hiç; ne azı ne çoğu",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_009": {
+                "text": "pek seyrek; hemen hemen hiç",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_030": {
+                "text": "yoksulluğa ve aşağılanmaya uğrasın",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_031": {
+                "text": "hiç malı olmamak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_032": {
+                "text": "kendisi de ailesi de tanınmayan adam",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001251/B002",
+            "concept_gloss": {
+              "text": "tepe, baş ve üst bölüm",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_010": {
+                "text": "dağın tepesi; doruk",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_011": {
+                "text": "bir şeyin tepesi veya başı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_012": {
+                "text": "insanın başı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_013": {
+                "text": "sap ucunda topuzu bulunan kılıç",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001251/B003",
+            "concept_gloss": {
+              "text": "büyük küp ve kap ölçüsü",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_014": {
+                "text": "büyük küp; iri kap",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_015": {
+                "text": "belirli bir bölgenin iri küpleri",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_016": {
+                "text": "iki büyük küp veya bunların aldığı miktar",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001251/B004",
+            "concept_gloss": {
+              "text": "taşıma ve yükselip harekete geçme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_017": {
+                "text": "küpü taşıyabilmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_018": {
+                "text": "bir şeyi taşımak; yüklenmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_019": {
+                "text": "ağır bulutları taşımak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_020": {
+                "text": "uçuşa kalkmak; havalanmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_021": {
+                "text": "yüklenip yola çıkmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_022": {
+                "text": "yükselmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001251/B005",
+            "concept_gloss": {
+              "text": "korku veya öfkeden titreme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_023": {
+                "text": "korku veya öfkeden doğan titreme",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_024": {
+                "text": "korku veya öfkeden titremeye tutulmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_025": {
+                "text": "öfkeden titremek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001251/B006",
+            "concept_gloss": {
+              "text": "sallama, sallanma ve hareket sesi",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_026": {
+                "text": "sallanma, yerinde duramama ve hareket sesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_027": {
+                "text": "sallayıp oynatmak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_028": {
+                "text": "sallanmak; yerinde duramamak",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_029": {
+                "text": "çevik; hızlı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_001251.json"
+    },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -8095,18 +10928,23 @@
     },
     "root_000296": {
       "root_ar": "ح ج ر",
+      "qac_roots_ar": [
+        "ح ج ر"
+      ],
       "root_id": "root_000296",
-      "root_mapping": {
-        "root_id": "root_000296",
-        "root_norm": "ح ج ر",
-        "source_root_norm": "ح ج ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 15,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ج ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 15
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4ecd568b0dfbe1b0a2cea7df06ec62713e6e9ac6f6e1330d60bc79bcba8c95e0",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10150,18 +12988,23 @@
     },
     "root_000002": {
       "root_ar": "ح د د",
+      "qac_roots_ar": [
+        "ح د د"
+      ],
       "root_id": "root_000002",
-      "root_mapping": {
-        "root_id": "root_000002",
-        "root_norm": "ح د د",
-        "source_root_norm": "ح د د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 23,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح د د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 23
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "da0727b43cd1bef2ad8781aaaa2fdedd9d677df0ea2ec18e9a890f33e16013fe",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12646,14 +15489,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s017/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2582,
+        "ayah_count": 111,
+        "row_count": 2575,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13174,11 +16023,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s017"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s17/packets/17_50.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s17/readers/reader_hft_a/17_50.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 213868,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -13253,19 +16115,46 @@
             "root_001272",
             "root_001251"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق و ل",
+            "mapping_status": "split",
+            "primary_root_id": "root_001272",
+            "targets": [
+              {
+                "qac_root_norm": "ق و ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001272",
+                "furuq_root_norm": "ق و ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1408,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ق و ل",
+                "target_rank": 2,
+                "furuq_root_id": "root_001251",
+                "furuq_root_norm": "ق ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 163,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
-          "gloss_present": false,
-          "split_mapping": true,
+          "gloss_present": true,
           "targets": [
             {
               "root_id": "root_001272",
-              "root_norm": "ق و ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق و ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1408,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13284,37 +16173,70 @@
             },
             {
               "root_id": "root_001251",
-              "root_norm": "ق ل ل",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 163,
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 76,
+                  "ayahs": 74
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ك و ن": {
           "root_id": "root_001332",
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -13326,19 +16248,37 @@
           "root_ids": [
             "root_000296"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ج ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000296",
+            "targets": [
+              {
+                "qac_root_norm": "ح ج ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000296",
+                "furuq_root_norm": "ح ج ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 15,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000296",
-              "root_norm": "ح ج ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ج ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 15,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13363,19 +16303,37 @@
           "root_ids": [
             "root_000002"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح د د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000002",
+            "targets": [
+              {
+                "qac_root_norm": "ح د د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000002",
+                "furuq_root_norm": "ح د د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 23,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000002",
-              "root_norm": "ح د د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح د د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 23,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13402,10 +16360,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 44,
+        "dictionary_branches_kept": 44,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 21,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

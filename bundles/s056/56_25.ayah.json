@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.582353+00:00",
+  "generated_at": "2026-08-04T22:29:58.950951+00:00",
   "surah": 56,
   "ayah": 25,
   "ayahRef": "56:25",
@@ -1727,7 +1727,8 @@
       "morpheme_ids": [
         "m-w-s056-a025-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:25:1"
+      "aligned_qac_word_ref_upstream": "56:25:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1743,7 +1744,8 @@
         "m-w-s056-a025-w002-01",
         "m-w-s056-a025-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:25:2"
+      "aligned_qac_word_ref_upstream": "56:25:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1759,7 +1761,8 @@
         "m-w-s056-a025-w003-01",
         "m-w-s056-a025-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:25:3"
+      "aligned_qac_word_ref_upstream": "56:25:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1773,7 +1776,8 @@
       "morpheme_ids": [
         "m-w-s056-a025-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:25:4"
+      "aligned_qac_word_ref_upstream": "56:25:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1787,7 +1791,8 @@
       "morpheme_ids": [
         "m-w-s056-a025-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:25:5"
+      "aligned_qac_word_ref_upstream": "56:25:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1801,7 +1806,8 @@
       "morpheme_ids": [
         "m-w-s056-a025-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:25:6"
+      "aligned_qac_word_ref_upstream": "56:25:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1815,7 +1821,8 @@
       "morpheme_ids": [
         "m-w-s056-a025-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:25:7"
+      "aligned_qac_word_ref_upstream": "56:25:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2454,7 +2461,703 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_25.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:25",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:25",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_acoustic_exclusion",
+            "confidence": "strong",
+            "focus_anchor": "The double negation governs what reaches hearing: laghw and ta'thim.",
+            "mechanism": "The verse excludes both low-value sonic disorder and high-stakes moral injury from the residents' auditory field.",
+            "activation_trace": [
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Ear-level perception makes reception, rather than only speaker conduct, the mechanism's entry point."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed, disruptive sound supplies the low-information acoustic pole excluded from the setting."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Assigning or loading guilt supplies the personally injurious speech act excluded at the other pole."
+              }
+            ],
+            "changed_reading": {
+              "before": "They hear no idle or sinful talk.",
+              "after": "Nothing entering their hearing is either disordered empty sound or speech that burdens a person with guilt."
+            }
+          },
+          {
+            "model_id": "baseline_meaning_without_moral_loading",
+            "confidence": "strong",
+            "focus_anchor": "Sama can involve understanding and acceptance, while laghw and ta'thim form opposite failures of meaningful exchange.",
+            "mechanism": "Laghw is speech that does not count; ta'thim is speech that counts guilt against someone. Their joint absence yields discourse that is meaningful without becoming prosecutorial.",
+            "activation_trace": [
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Understanding and responsive acceptance turn hearing into consequential uptake."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "What is discarded or not reckoned supplies the null side of the discourse economy."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Counting guilt against another supplies the coercive overcharge opposed to null speech."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse bans two bad categories of speech.",
+              "after": "The verse defines an exchange with neither speech too null to count nor speech that makes another answer to a guilt-charge."
+            }
+          },
+          {
+            "model_id": "baseline_unimpeded_attention",
+            "confidence": "exploratory",
+            "focus_anchor": "The heard objects can be tracked by laghw as deviation and ithm as delay from good.",
+            "mechanism": "Auditory input normally can bend attention away from the right course and slow movement toward good; the negation removes both directional and temporal obstruction.",
+            "activation_trace": [
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Receptive understanding makes heard speech capable of directing subsequent response."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B005",
+                "role": "Deviation from what is right gives laghw a directional effect on attention."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B001",
+                "role": "Delay from good gives ta'thim a temporal drag rather than only a forbidden content label."
+              }
+            ],
+            "changed_reading": {
+              "before": "No morally bad utterance is audible.",
+              "after": "No heard utterance can deflect attention from the right course or retard movement toward good."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_order_after_upheaval",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ق ع",
+              "ر ج ج"
+            ],
+            "mechanism": "The opening's impact-sound and shaking that can confuse speech establish an acoustically disintegrative world; the focus negation then reads as a post-upheaval soundscape in which no mixed verbal impact lands.",
+            "activation_trace": [
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B004",
+                "role": "Impact and its sound give the opening event an audible force that the later auditory scene reverses."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B002",
+                "role": "Shaking that renders speech confused links material convulsion to verbal unintelligibility."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B007",
+                "role": "Collective or thunder-like sound intensifies the noisy pole from which the focus setting differs."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Direct audition locates the contextual reversal in what can reach the ear."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed noise names the disordered acoustic quality absent after the opening convulsion."
+              }
+            ],
+            "structural_cues": [
+              "The opening repeats event and shaking roots within 56:1 and 56:4, creating emphatic impacts before the focus's paired negation.",
+              "The locative fiha confines the auditory condition to the newly described garden setting."
+            ],
+            "reader_inference": "The packet supplies impact-sound and shaken or confused sound; I infer a transition from disintegrative noise to ordered audition, while the live alternative is a simple contrast between unrelated scenes.",
+            "changed_reading": {
+              "before": "The garden is free of bad conversation.",
+              "after": "After a world announced by impact and convulsive sound, the garden is an ordered auditory domain where disintegrative noise no longer arrives."
+            }
+          },
+          {
+            "model_id": "delta_face_to_face_safe_circulation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ب ل",
+              "ط و ف",
+              "ف ك ه",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "Face-to-face orientation, circulation through the gathering, pleasant talk, and the following repeated peace turn the negation into a rule for social flow: speech remains present and pleasurable but cannot degrade into ugliness or blame.",
+            "activation_trace": [
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Mutual facing creates a direct interpersonal channel in which speech would circulate."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Movement around the gathering supplies circulation as the social mechanism's spatial form."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "Pleasant, witty talk activates a positive vocal alternative to laghw rather than mere silence."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "Ugly, false, or insulting speech marks the relational corruption barred from circulation."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Loading guilt onto another marks the accusatory corruption barred from face-to-face exchange."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Actual voiced saying confirms that the scene is vocal and supplies the positive content channel."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Reconciliation rather than conflict gives the repeated utterance its relational force."
+              }
+            ],
+            "structural_cues": [
+              "Muttaqabilin and yatufu place persons in mutual orientation and circulating motion before the auditory negation.",
+              "The immediate illa qilan salaman salama supplies voiced positive replacement, with peace repeated."
+            ],
+            "reader_inference": "The packet supplies facing, circulation, pleasant talk, voiced saying, and peace; I infer that discourse participates in the gathering's circulation, while the alternative is that salaman is only a fixed formula.",
+            "changed_reading": {
+              "before": "Paradise is quiet because bad speech is absent.",
+              "after": "The gathering is socially vocal: face-to-face speech circulates, but nothing in that circulation insults, accuses, or morally burdens another."
+            }
+          },
+          {
+            "model_id": "delta_harmless_aftereffects",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ء س",
+              "ص د ع"
+            ],
+            "mechanism": "The paired negatives align two intake channels: drink reaches the body without headache or depletion, and speech reaches hearing without noisy or moral residue.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ك ء س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001277",
+                "branch_id": "B001",
+                "role": "The cup together with its contents establishes bodily intake as the first reception channel."
+              },
+              {
+                "source_ref": "56:19",
+                "root": "ص د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000850",
+                "branch_id": "B007",
+                "role": "Headache supplies the damaging bodily aftereffect explicitly removed from drink."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Hearing establishes the parallel sensory intake channel."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed noise supplies a cognitive-acoustic residue that never follows hearing."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Imposed guilt supplies a moral aftereffect that never follows speech."
+              }
+            ],
+            "structural_cues": [
+              "56:19 and 56:25 share the la ... wa-la frame, first for drink's effects and then for heard speech.",
+              "The branchless root ن ز ف at 56:19[5] supports depletion only as a structural cue beside headache."
+            ],
+            "reader_inference": "The packet supplies a cup, negated headache and depletion, hearing, and negated verbal harms; I infer an analogy between consequence-free bodily and verbal reception, while the alternative is a list of independent amenities.",
+            "changed_reading": {
+              "before": "Harmless drink and polite speech are separate comforts.",
+              "after": "Drink and speech are paired forms of intake whose bodily, cognitive, and moral aftereffects have all been removed."
+            }
+          },
+          {
+            "model_id": "delta_desire_without_exposure",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ي ر",
+              "ش ه و"
+            ],
+            "mechanism": "The residents actively select and desire beneficial consumables, whereas harmful auditory objects are absent before any filtering choice is required; agency is preserved for goods while exposure to verbal harm is prevented.",
+            "activation_trace": [
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Choosing what is good supplies active selection on the desirable side of the sensory field."
+              },
+              {
+                "source_ref": "56:21",
+                "root": "ش ه و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000825",
+                "branch_id": "B001",
+                "role": "The soul's movement toward what it desires supplies positive appetite without compulsion."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory reception supplies the contrasting channel in which no harmful object arrives."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "Discardable content represents unwanted intake that never needs to be screened out."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Guilt-loading represents coercive intake barred at the source."
+              }
+            ],
+            "structural_cues": [
+              "The parallel mimma yatakhayyaruna and mimma yashtahuna clauses foreground chosen and desired goods immediately before the auditory negation."
+            ],
+            "reader_inference": "The packet supplies active choice and desire followed by non-hearing; I infer an asymmetry between freely chosen goods and precluded verbal harm, while the alternative is that the sensory clauses are merely cumulative.",
+            "changed_reading": {
+              "before": "Residents or speakers successfully avoid bad conversation.",
+              "after": "Residents retain active desire and selection for goods, but the habitat does not expose them to speech they would have to reject or endure."
+            }
+          },
+          {
+            "model_id": "delta_closed_moral_ledger",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ز ي",
+              "ع م ل"
+            ],
+            "mechanism": "Recompense has already mapped intended action to consequence. The next verse therefore excludes both discourse that falls outside reckoning and discourse that reopens the account by charging guilt.",
+            "activation_trace": [
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Matching an action with its recompense supplies the settled action-consequence relation."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B003",
+                "role": "Collection and satisfaction of a debt sharpen recompense into an account brought to completion."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intended action supplies what the recompense answers rather than an arbitrary reward."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Consequential uptake makes the condition a social order, not only an acoustic fact."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "What is not counted supplies one excluded failure of the completed moral economy."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Charging guilt supplies the opposite excluded act of reopening another's moral account."
+              }
+            ],
+            "structural_cues": [
+              "56:24 places recompense for what they did immediately before the paired objects laghwan and ta'thiman.",
+              "The two focus nouns can be read as an accounting polarity: what is not reckoned and what reckons guilt."
+            ],
+            "reader_inference": "The packet supplies recompense, intended action, debt satisfaction, and the two accounting-capable focus branches; I infer ledger closure, while the live alternative is that 56:24 states only the reward's cause.",
+            "changed_reading": {
+              "before": "The verse prescribes refined speech etiquette.",
+              "after": "It describes a post-recompense society where speech is neither meaningless to the account nor able to prosecute someone by opening a new guilt-charge."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_rank_beyond_reputation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because direct hearing is shifted toward public reputation and the lowering or raising pair is shifted toward social rank. It remains anchored in the packet's sama reputation branch, the focus's guilt-loading branch, and 56:3's explicit status poles; downstream prose should present it only as a secondary sociological resonance.",
+            "focus_anchor": "Yasma'una and ta'thiman can jointly evoke hearing about a person and speech that publicly fixes guilt.",
+            "activation_trace": [
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Lowering after height supplies one status movement that reputational speech could otherwise perform."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of standing supplies the opposite status movement."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B005",
+                "role": "Broadcasting news connects elevation language to public circulation of reputation."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B005",
+                "role": "Reputation and public notoriety make hearing a social-status channel."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Publicly assigning guilt supplies the speech act that could lower standing."
+              }
+            ],
+            "changed_reading": {
+              "before": "No one hears offensive or sinful words.",
+              "after": "No reputational broadcast can lower or raise residents through accusation; the event has settled standing beyond public talk."
+            }
+          },
+          {
+            "outlier_id": "outlier_sparse_concentrated_speech",
+            "confidence": "exploratory",
+            "containment": "This uses the packet's non-dominant q-w-l to q-l-l mapping, so it is surprising and must not replace the ordinary sense of qilan as saying. It remains anchored because 56:26 immediately resolves what is heard with qilan and repeated peace; render it only as an echo of sparse or concentrated speech.",
+            "focus_anchor": "The focus negates what is heard, and the immediately following exception supplies qilan as its positive remainder.",
+            "activation_trace": [
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory perception provides the field whose positive remainder may be quantitatively inflected."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "Discarded excess supplies what concentrated speech leaves out."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "The non-dominant scarcity branch contributes an echo of little, concentrated speech to the positive exception."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety from harm gives that concentrated remainder its repeated content."
+              }
+            ],
+            "changed_reading": {
+              "before": "All speech is purified into peaceful speech.",
+              "after": "As a contained branch echo, the soundscape may also be sparse: little speech is needed, and its concentrated remainder is repeated peace."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The verse became the speech-side analogue of 56:19: reception without damaging aftereffects.",
+            "Face-to-face, circulating hospitality and repeated peace made the scene socially vocal rather than merely silent.",
+            "Immediate recompense recast ta'thim as a closed guilt-accounting operation, paired with laghw as what never counts.",
+            "Opening impact and confused sound sharpened the garden as an ordered post-upheaval soundscape."
+          ],
+          "what_was_special": "The tightest activation came from functional pairings: two intake channels, a spatial conversation network, and an accounting polarity between the uncounted and the guilt-counting.",
+          "remaining_uncertainties": [
+            "The cosmic-sound link depends on reading the opening material disturbances acoustically across the pericope.",
+            "Ledger closure is an inference from adjacency, not an explicit claim that accusation has procedurally ended.",
+            "The q-w-l to q-l-l outlier is only a non-dominant branch echo, not a lexical substitution."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A protected auditory field.** `س م ع` **B001** supplies hearing sounds, `ل غ و` **B002** vain, false, or foul speech, and `ء ث م` **B004** charging or loading sin onto someone. The prior face-to-face arrangement and following doubled peace define what replaces the excluded speech. **Abductive move:** I infer that the environment prevents harmful utterance from entering circulation. **Reading change:** the ayah describes social protection from both empty noise and accusatory moral loading.\n\n2. **Nothing heard is discarded as non-counting.** `ل غ و` **B001** supplies what is set aside as not counting, while `س م ع` **B003** supplies understanding and compliance. **Abductive move:** I infer that speech in this setting is meaningful and receivable because the following `سلام` exhausts what is said. **Reading change:** the negation removes communicative waste, not merely rude vocabulary.",
@@ -3406,18 +4109,23 @@
   "root_lexicon": {
     "root_000741": {
       "root_ar": "س م ع",
+      "qac_roots_ar": [
+        "س م ع"
+      ],
       "root_id": "root_000741",
-      "root_mapping": {
-        "root_id": "root_000741",
-        "root_norm": "س م ع",
-        "source_root_norm": "س م ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 176,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س م ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 176
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "731418b530c71002e617b2672d5a1f1aac312c29113fa1dab8de00d5bd940a7a",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8063,18 +8771,23 @@
     },
     "root_001361": {
       "root_ar": "ل غ و",
+      "qac_roots_ar": [
+        "ل غ و"
+      ],
       "root_id": "root_001361",
-      "root_mapping": {
-        "root_id": "root_001361",
-        "root_norm": "ل غ و",
-        "source_root_norm": "ل غ و",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 10,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل غ و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 10
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "aef18fca156f677d0ebb95ce5dcd715083bcaa20460424de5f30f7dbe3dcf18a",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9731,18 +10444,23 @@
     },
     "root_000013": {
       "root_ar": "ء ث م",
+      "qac_roots_ar": [
+        "ء ث م"
+      ],
       "root_id": "root_000013",
-      "root_mapping": {
-        "root_id": "root_000013",
-        "root_norm": "ء ث م",
-        "source_root_norm": "أ ث م",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 48,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ث م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 48
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a1c88a1772893ebec247b598cbfd497d62496e13d1747b064330d16cd92e5490",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11555,14 +12273,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11873,11 +12597,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_25.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_25.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 101061,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -11951,19 +12688,37 @@
           "root_ids": [
             "root_000741"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س م ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000741",
+            "targets": [
+              {
+                "qac_root_norm": "س م ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000741",
+                "furuq_root_norm": "س م ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 176,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000741",
-              "root_norm": "س م ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س م ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 176,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11988,19 +12743,37 @@
           "root_ids": [
             "root_001361"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ل غ و",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001361",
+            "targets": [
+              {
+                "qac_root_norm": "ل غ و",
+                "target_rank": 1,
+                "furuq_root_id": "root_001361",
+                "furuq_root_norm": "ل غ و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 10,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001361",
-              "root_norm": "ل غ و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ل غ و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 10,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12025,19 +12798,37 @@
           "root_ids": [
             "root_000013"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ث م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000013",
+            "targets": [
+              {
+                "qac_root_norm": "ء ث م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000013",
+                "furuq_root_norm": "ء ث م",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 48,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000013",
-              "root_norm": "ء ث م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ث م",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 48,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12064,10 +12855,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 27,
+        "dictionary_branches_kept": 27,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 27,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

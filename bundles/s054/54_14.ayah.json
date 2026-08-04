@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.712012+00:00",
+  "generated_at": "2026-08-04T22:29:52.467134+00:00",
   "surah": 54,
   "ayah": 14,
   "ayahRef": "54:14",
@@ -2249,7 +2249,8 @@
       "morpheme_ids": [
         "m-w-s054-a014-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:14:1"
+      "aligned_qac_word_ref_upstream": "54:14:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2263,7 +2264,8 @@
       "morpheme_ids": [
         "m-w-s054-a014-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:14:2"
+      "aligned_qac_word_ref_upstream": "54:14:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2279,7 +2281,8 @@
         "m-w-s054-a014-w002-02",
         "m-w-s054-a014-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:14:3"
+      "aligned_qac_word_ref_upstream": "54:14:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2293,7 +2296,8 @@
       "morpheme_ids": [
         "m-w-s054-a014-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:14:4"
+      "aligned_qac_word_ref_upstream": "54:14:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2307,7 +2311,8 @@
       "morpheme_ids": [
         "m-w-s054-a014-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:14:5"
+      "aligned_qac_word_ref_upstream": "54:14:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2321,7 +2326,8 @@
       "morpheme_ids": [
         "m-w-s054-a014-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:14:6"
+      "aligned_qac_word_ref_upstream": "54:14:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2335,7 +2341,8 @@
       "morpheme_ids": [
         "m-w-s054-a014-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:14:7"
+      "aligned_qac_word_ref_upstream": "54:14:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2349,7 +2356,8 @@
       "morpheme_ids": [
         "m-w-s054-a014-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:14:8"
+      "aligned_qac_word_ref_upstream": "54:14:8",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3472,7 +3480,728 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_14.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:14",
+      "window": [
+        "54:1",
+        "54:2",
+        "54:3",
+        "54:4",
+        "54:5",
+        "54:6",
+        "54:7",
+        "54:8",
+        "54:9",
+        "54:10",
+        "54:11",
+        "54:12",
+        "54:13",
+        "54:14",
+        "54:15",
+        "54:16",
+        "54:17"
+      ],
+      "ayah_count": 17,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:14",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1_supervised_countergift",
+            "confidence": "strong",
+            "focus_anchor": "تَجْرِى بِأَعْيُنِنَا جَزَآءً لِّمَن كَانَ كُفِرَ",
+            "mechanism": "Continuous coursing is enclosed by eye-as-care; recompense makes that protected motion a counter-gift answering the prior denial of a person.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Coursing and flowing supply sustained motion as the vehicle of the answer."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "The eye as preservation and oversight turns seeing into active custodial care."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Requital for an act makes the course itself compensatory rather than incidental."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence in prior time marks denial as an endured state to which the present course answers."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Concealment and denial of truth identify the injury reversed by recompense."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unnamed feminine subject moves while God sees it, as a reward associated with disbelief.",
+              "after": "The motion is active protective requital: divine care sustains a course for the person whose truth had been denied."
+            }
+          },
+          {
+            "model_id": "B2_source_borne_course",
+            "confidence": "exploratory",
+            "focus_anchor": "تَجْرِى بِأَعْيُنِنَا",
+            "mechanism": "The preposition with plural eyes permits a water-source activation: flowing proceeds by means of divine springs without cancelling the stronger care reading.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing supplies the motion that can be materially fed by a source."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The flowing spring supplies a possible material sense for the plural eyes and the medium of motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "It runs under Our watch.",
+              "after": "It may also run by means of Our water-sources, so the eyes evoke both supervising gaze and supplied flow."
+            }
+          },
+          {
+            "model_id": "B3_recompense_as_carrier",
+            "confidence": "medium",
+            "focus_anchor": "تَجْرِى ... جَزَآءً",
+            "mechanism": "The sufficiency/substitution branch of recompense makes the running entity itself the provision that stands in for what the denied person lacked.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Actual coursing makes the recompense perform transport rather than remain an abstract award."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B002",
+                "role": "Standing in another's place and sufficing makes the moving subject a functional substitute."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Denial supplies the deficit for which the moving provision compensates."
+              }
+            ],
+            "changed_reading": {
+              "before": "A reward accompanies the subject's travel.",
+              "after": "The traveling subject is itself a sufficient replacement furnished for the denied person; recompense takes the form of transport."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_counter_gaze",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ء ي",
+              "ء ي ي",
+              "ع ر ض",
+              "ب ص ر"
+            ],
+            "mechanism": "Human sight registers a visible sign and then turns away; later sights are downcast. Against that failed gaze, Our eyes become the gaze that neither abandons nor misreads the protected course.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "Watchful preservation supplies the stable counter-gaze around the moving subject."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Eye-sight and insight supply a human act of seeing whose failure sharpens divine seeing."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign makes the human failure one of response, not lack of visibility."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Turning one's side away converts human seeing into abandonment and denial."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Eyesight in the downcast scene completes the reversal from dismissive vision to humbled vision."
+              }
+            ],
+            "structural_cues": [
+              "54:2 orders seeing a sign immediately before turning away.",
+              "54:7 lowers their sights, whereas 54:14 encloses the course within Our eyes."
+            ],
+            "reader_inference": "The packet supplies seeing, manifest sign, turning away, downcast sight, and preserving eyes; I infer a polemical contrast between unstable human attention and sustained divine attention. Alternatively, بِأَعْيُنِنَا may function only as a protection idiom.",
+            "changed_reading": {
+              "before": "Our eyes indicate protection during movement.",
+              "after": "Our eyes also answer the pericope's failed human seeing: the denied sign remains accurately seen, valued, and carried by the divine gaze."
+            }
+          },
+          {
+            "model_id": "D2_answered_overpowering",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ز ج ر",
+              "د ع و",
+              "غ ل ب",
+              "ن ص ر"
+            ],
+            "mechanism": "The servant is called false and repulsed, then calls while overpowered and asks for vindication. The running carrier is therefore the concrete counter-force through which recompense answers coercive denial.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Requital turns the ensuing movement into an answer proportioned to the preceding treatment."
+              },
+              {
+                "source_ref": "54:9",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies the social denial that the focus passive compresses."
+              },
+              {
+                "source_ref": "54:9",
+                "root": "ز ج ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000624",
+                "branch_id": "B001",
+                "role": "Vocal repulsion gives the denial coercive force rather than leaving it an opinion."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling by speech supplies the appeal that links injury to response."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "غ ل ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001098",
+                "branch_id": "B001",
+                "role": "Overpowering force defines the imbalance that recompense must reverse."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B002",
+                "role": "Vindicating the wronged supplies the requested reversal embodied by the protected course."
+              }
+            ],
+            "structural_cues": [
+              "54:9-10 forms the chain denial and repulsion, confessed overpowering, then a plea for vindication.",
+              "The passive كُفِرَ in 54:14 looks backward to that treatment while جَزَآءً names its answer."
+            ],
+            "reader_inference": "The packet supplies the injury-call-vindication sequence; I infer that the carrier's successful course is the form the requested vindication takes. A live alternative is that جَزَآءً marks general requital without a prayer-specific causal arrow.",
+            "changed_reading": {
+              "before": "The course is a generic protected reward.",
+              "after": "The course is an answered appeal: transport under care reverses the public overpowering of the denied servant."
+            }
+          },
+          {
+            "model_id": "D3_decreed_hydraulic_corridor",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ر",
+              "ف ت ح",
+              "ع ي ن",
+              "ل ق ي",
+              "ق د ر"
+            ],
+            "mechanism": "Settled matter, an opened water outlet, earth's springs, converging waters, and measured decree form a controlled hydraulic corridor. The exact eye-root recurrence lets the focus eyes telescope supervision and water-source.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Coursing supplies the vessel's motion through the assembled water system."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The spring branch supplies the latent hydraulic layer inside Our eyes."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement make the apparent drift part of an outcome already brought to rest."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B005",
+                "role": "Water issuing from an opened outlet supplies the upper feed into the corridor."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The explicit earth-springs materially realize the same root activated in the focus."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B004",
+                "role": "Two counterparts meeting supplies the convergence that creates one navigable flood."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Measured planning turns convergence and course into intentional routing rather than accident."
+              }
+            ],
+            "structural_cues": [
+              "54:11-12 moves from opened sky-water to earth-springs, their meeting, and a decreed matter before 54:14 says the carrier runs.",
+              "ع ي ن occurs as عُيُونًا in 54:12 and أَعْيُنِنَا in 54:14."
+            ],
+            "reader_inference": "The packet supplies opening, springs, convergence, decree, and repeated ع ي ن; I infer that the context transfers a hydraulic resonance into بِأَعْيُنِنَا while preserving care. Alternatively, the repeated root may be an echo that does not alter the idiom's direct sense.",
+            "changed_reading": {
+              "before": "A protected carrier moves upon floodwater.",
+              "after": "The carrier is routed through a deliberately opened, converged, and measured water system; Our eyes compress both watchful care and the springs that bear it."
+            }
+          },
+          {
+            "model_id": "D4_fastened_carrier",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح م ل",
+              "ل و ح",
+              "د س ر"
+            ],
+            "mechanism": "The prior verse supplies a load-bearing assemblage of broad planks and fasteners; the fasteners both bind the planks and name a ship that pushes water. The feminine runner is thus an engineered carrier whose functioning constitutes recompense.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Coursing predicates active motion of the immediately preceding material carrier."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B002",
+                "role": "Sufficing in another's place makes the carrier's work itself compensatory."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Lifting a visible load supplies the carrier-passenger relation."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "Broad boards used for building supply the carrier's material body."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B002",
+                "role": "Fasteners that bind ship-planks supply structural integrity under force."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B004",
+                "role": "A ship pushing water turns the bound object into an active hydraulic carrier."
+              }
+            ],
+            "structural_cues": [
+              "The feminine singular تَجْرِى immediately follows ذَاتِ أَلْوَٰحٍ وَدُسُرٍ.",
+              "54:13 moves from the carried person to the carrier's materials; 54:14 predicates motion of that carrier."
+            ],
+            "reader_inference": "The packet supplies adjacency, load, boards, fasteners, and ship-motion; I infer the feminine antecedent and identify the carrier's successful operation with recompense. Alternatively, جَزَآءً can remain purpose or result without making carrier and recompense identical.",
+            "changed_reading": {
+              "before": "An unspecified feminine thing runs as a reward.",
+              "after": "A fastened plank-carrier bears the denied person, and its engineered ability to keep running is the concrete form of recompense."
+            }
+          },
+          {
+            "model_id": "D5_motion_becomes_memory",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ر ك",
+              "ء ي ي",
+              "ذ ك ر",
+              "ق ر ء"
+            ],
+            "mechanism": "The moving event is left as an enduring trace and visible sign, then enters remembrance and recitation. Recompense therefore outlives rescue as reproducible public evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "The transient course supplies the event later converted into a durable trace."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "Leaving an effect behind converts completed movement into persistence."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign turns the preserved effect into publicly legible evidence."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder gives the sign an ongoing mnemonic function."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and recitation supply the repeatable medium through which the trace continues to move."
+              }
+            ],
+            "structural_cues": [
+              "54:15 immediately converts the preceding episode into something left as a sign.",
+              "54:17 joins recitation to the repeated invitation to remember."
+            ],
+            "reader_inference": "The packet supplies motion, a left trace, sign, reminder, and recitation; I infer a temporal conversion from voyage to transmissible memory. A live alternative is that the feminine pronoun in 54:15 denotes the vessel, the event, or the sign tradition with different degrees of material persistence.",
+            "changed_reading": {
+              "before": "The recompense is a one-time successful voyage.",
+              "after": "The voyage becomes a durable sign and repeatable remembrance, extending recompense into public memory."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_moving_tablet_envoy",
+            "confidence": "exploratory",
+            "containment": "This crosses shipbuilding into textual media, and no inscription is stated. It remains anchored by the agent branch of ج ر ي, the writable/building-board branch of ل و ح, and the ensuing sign and recitation; downstream prose should render it only as an as-if mnemonic analogy, not a lexical translation.",
+            "focus_anchor": "تَجْرِى can activate an agent or envoy while its adjacent feminine antecedent is plank-built.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B003",
+                "role": "An agent, messenger, or representative lets the runner carry a communicative function."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "A board used for writing or building supplies the material bridge between vessel and tablet."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "A remaining effect lets the moving carrier leave communicative residue."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A visible sign supplies the message attributed analogically to the carrier."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies the later textual medium that receives the carrier's sign-function."
+              }
+            ],
+            "changed_reading": {
+              "before": "The vessel is only the object by which someone is carried.",
+              "after": "As if a moving tablet-envoy, the plank-bodied carrier performs and then leaves a recitable message of recompense."
+            }
+          },
+          {
+            "outlier_id": "O2_harvest_of_the_covered",
+            "confidence": "exploratory",
+            "containment": "This activates the non-dominant ج ز ز mapping and the agricultural ك ف ر branch against the ordinary syntax of recompense for denial. The packet explicitly supplies both branches, while earth and springs give them a coherent material field; downstream prose should call it a harvest resonance only and never replace the primary requital reading.",
+            "focus_anchor": "جَزَآءً and كُفِرَ admit packet-supplied cutting-time and seed-covering branch echoes within the running-and-springs field.",
+            "activation_trace": [
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000242",
+                "branch_id": "B002",
+                "role": "Harvest or cutting time at ripeness supplies a latent image of recompense coming due."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B008",
+                "role": "Covering seed with earth supplies a material analogue for truth hidden before its outcome appears."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing supplies the movement that links the latent agrarian image to the focus event."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft fertile earth supplies the field in which covering and later outcome can cohere."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "Released springs supply the water that turns the agrarian echo into a flood-borne reversal."
+              }
+            ],
+            "changed_reading": {
+              "before": "Recompense directly answers the denial of a person.",
+              "after": "At the edge of the branch field, the answer also resembles harvest time: what was covered like seed reaches its due disclosure while released springs bear the preserved subject."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The denial-call-vindication sequence makes the protected voyage an embodied answer to coercive rejection.",
+            "The exact ع ي ن recurrence turns watchful eyes into a layered image of watchful springs inside a measured hydraulic corridor.",
+            "Planks and fasteners make recompense functional transport, while the following sign and remembrance extend it beyond the voyage."
+          ],
+          "what_was_special": "The focus compresses supervision, hydraulic causation, social reversal, engineered conveyance, and mnemonic afterlife into one running feminine subject; its split-root inventory also preserves a contained harvest resonance.",
+          "remaining_uncertainties": [
+            "Whether the spring sense enters بِأَعْيُنِنَا semantically or remains contextual wordplay beneath the dominant care idiom.",
+            "Whether كُفِرَ foregrounds denial of the messenger, ingratitude for a divine favor, or a controlled resonance of both.",
+            "Whether the feminine object left as a sign is the physical carrier, the event, or its transmitted account."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The craft’s course is enclosed by watchful care.** `ج ر ي` B001 is running/flowing and B002 a habitual course; `ع ي ن` B003 is the eye of watchful care, alongside B001 the seeing eye. The plural eyes follows the earth’s spring-eyes in 54:12 but changes their possessive and role. I infer that `بِأَعْيُنِنَا` marks supervision governing the vessel’s path, not another destructive water source. The running becomes a watched, maintained course through uncontrolled-looking water.\n\n2. **Recompense answers both rejected truth and covered favor.** `ج ز ي` B001 is recompense matching an act; `ك ف ر` B003 is rejecting truth and B004 covering over a favor. The passive `كُفِرَ` leaves the rejected one grammatically foregrounded without naming the rejecters. I infer that rescue can repay the person whose truth was denied and whose value as a favor was covered. Both scopes remain visible in the matching-recompense construction.",
@@ -4524,18 +5253,23 @@
   "root_lexicon": {
     "root_000240": {
       "root_ar": "ج ر ي",
+      "qac_roots_ar": [
+        "ج ر ي"
+      ],
       "root_id": "root_000240",
-      "root_mapping": {
-        "root_id": "root_000240",
-        "root_norm": "ج ر ي",
-        "source_root_norm": "ج ر ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 61,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ر ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 61
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5b7410c4372989d3979abd70d2a947f5343b0b43e9a46f8b9bc43d4929924e48",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6822,18 +7556,23 @@
     },
     "root_001069": {
       "root_ar": "ع ي ن",
+      "qac_roots_ar": [
+        "ع ي ن"
+      ],
       "root_id": "root_001069",
-      "root_mapping": {
-        "root_id": "root_001069",
-        "root_norm": "ع ي ن",
-        "source_root_norm": "ع ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 65,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 65
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4c2f337f0d2166ddb2358f22dd5b333c3ed084e0834b862965ed58fa323a8dc1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9844,18 +10583,23 @@
     },
     "root_000244": {
       "root_ar": "ج ز ي",
+      "qac_roots_ar": [
+        "ج ز ي"
+      ],
       "root_id": "root_000244",
-      "root_mapping": {
-        "root_id": "root_000244",
-        "root_norm": "ج ز ي",
-        "source_root_norm": "ج ز ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 97,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ز ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 97
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1be2c4d70ff7d28b7ddd10622f8e5e8b3a163348be78213b5812723f202c1856",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11472,20 +12216,1718 @@
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000244.json"
     },
+    "root_000242": {
+      "root_ar": "ج ز ي",
+      "qac_roots_ar": [
+        "ج ز ي"
+      ],
+      "root_id": "root_000242",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ز ي",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "c18b3f8d969ad193f321a91dcebb687e3f83934085f2e0017c1edfcbd9cb66d0",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000242",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000242/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Birleştirilmiş kaynak ifadesi, saçın, yünün ve çeşitli bitkilerin kırkılarak ya da biçilerek kesilmesini ortak çekirdek olarak açıkça destekler. Alet ve yünü kırkılan hayvanlar bu eyleme bağlı adlandırmalardır; ayrı bir eylem çekirdeği oluşturmaz.",
+              "boundary_note": "Dal, kesme eylemini kapsar; kesim zamanı, kesim ürünü, hurmanın kuruması ve yer adı bu sınırın dışındadır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalın dalın kırkıp kesme anlamıyla sınırlıdır ve yalnızca belirli bir söz öbeğine bağlı anlam içermez."
+            },
+            "concept_map": {
+              "definition": "Saçı, yünü, otu, ekini veya benzeri bir şeyi kırkarak ya da biçerek kesme eylemidir. Bu eyleme yarayan alet ile yünü kırkılan koyunlar, çekirdeğe bağlı adlandırmalardır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Saçın, yünün ve benzeri lifli örtülerin kırkılarak kesilmesini anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Ot, ekin ve ağaç ürünü gibi bitkilerin biçilip kesilmesine de uygulanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Kırkma aleti ve yünü kırkılan koyunlar eyleme bağlı adlandırmalar oluşturur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, yün ve saç başta olmak üzere ot, ekin ve ağaç ürünlerinin kırkılıp kesilmesini; ayrıca kullanılan aleti ve yünü alınan koyunları kapsar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "saç, yün veya bitkiyi kırkıp kesme",
+              "applicability": "Dalın insan saçı, hayvan yünü ve biçilen bitkiler üzerindeki ortak kesme çekirdeğini birlikte temsil eder.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Kırkma biçimindeki kesme işlemini ve temel nesne alanlarını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kırkmak",
+                "usage_role": "contextual",
+                "applicability": "Saçın veya hayvan yününün kesildiği bağlamlarda doğal karşılıktır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Saç ve yünün kendine özgü bir yolla kesilmesini korur.",
+                  "loses": "Ot, ekin ve ağaç ürünü gibi bitkilerin biçilmesi alanını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "biçmek",
+                "usage_role": "contextual",
+                "applicability": "Ot ve ekin gibi bitkilerin kesildiği bağlamlarda doğal karşılıktır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bitkileri düzenli biçimde kesme eylemini korur.",
+                  "loses": "İnsan saçı ile hayvan yününün kırkılması alanını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "saçı, yünü veya bitkiyi kırkıp kesmek"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kırkma aleti"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yünü kırkılan koyunlar"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001217/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Saç, yün ve biçilebilir bitkileri kırkma ya da biçme alanına özgüdür.",
+                "neighbor_only": "Makas veya dişle genel kesmeyi ve kesimden düşen parçaları da kapsar.",
+                "gloss": "genel kesme ile kırkma",
+                "shared_zone": "Her iki dal da bir parçayı ayıran kesme eylemini anlatır.",
+                "distinction": "Odak dal, kırkılabilir örtü ve biçilebilir bitki üzerindeki eylemi öne çıkarır; komşu dal ise aracı ve nesnesi daha geniş olan kesmeyi, ayrıca ortaya çıkan kırpıntıları kapsar."
+              },
+              {
+                "neighbor_ref": "root_000344/B007",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bitkilerin biçilmesini ve hayvan yününün olağan biçimde kırkılmasını da kapsar.",
+                "neighbor_only": "Saç veya bıyığın çok dipten ve sonuna kadar alınması koşulunu taşır.",
+                "gloss": "kırkma ile dipten kırkma",
+                "shared_zone": "İki dal da saç ya da kılı keserek kısaltma alanında buluşur.",
+                "distinction": "Odak dalda kesmenin sonuna kadar ve çok dipten yapılması zorunlu değildir; komşu dalı ayıran özellik, kesmenin aşırı yakın ve eksiksiz olmasıdır."
+              },
+              {
+                "neighbor_ref": "root_000242/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Kırkıp kesme işleminin kendisini bildirir.",
+                "neighbor_only": "İşlemden sonra elde edilen yünü veya düşen parçayı bildirir.",
+                "gloss": "eylem ile ürün",
+                "shared_zone": "Her iki dal da aynı kırkma ve kesme olayının parçalarıdır.",
+                "distinction": "Odak dal süreçtir; komşu dal ise bu sürecin ardından elde edilen yün ya da geride kalan kesim parçasıdır."
+              },
+              {
+                "neighbor_ref": "root_000242/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Gerçekleşen kırkma veya biçme eylemini bildirir.",
+                "neighbor_only": "Eylemin yapılacağı vaktin ya da yapılabilirlik aşamasının geldiğini bildirir.",
+                "gloss": "eylem ile uygun zaman",
+                "shared_zone": "İki dal da kırkma ve hasat senaryosuna bağlıdır.",
+                "distinction": "Odak dal fiilen kesmeyi anlatırken komşu dal kesim veya kırkım zamanını ve nesnenin bu işleme hazır oluşunu anlatır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün aday komşular değerlendirildi; yayımlanan dört karşılaştırma eylemin genel kesmeden, çok dipten kesmeden, ürününden ve zamanından ayrımını en açık biçimde gösterir.",
+            "branch_image_ar": "جز الشيء وقطعه",
+            "what_is_ar": "يدخل فيه جز الشعر والصوف والحشيش والبر والنخل والشيح، والمجز آلة الجز، وما يقع عليه الجز من غنم ونبات",
+            "what_is_not_ar": "لا يدخل فيه يبس التمر ولا اسم الأرض جزة ولا الزينة المعلقة على الهوادج إلا من جهة كونها من العهن",
+            "source_phrase_ar": "جززت الصوف جزا (maqayis); الجز جز الشعر والصوف وغيره (ayn); جززت البر والنخل والصوف أجزه جزا والمجز ما يجز به (sihah); الجز جز الشعر والصوف والحشيش ونحوه وقد جززت الكبش والنعجة (tahdhib)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000242/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi hem kırkım, hasat veya toplama zamanını adlandıran biçimi hem de ekin, ağaç ürünü, koyun ya da topluluk için bu zamanın geldiğini bildiren türemiş kullanımları bir arada verir. Dalın zaman ve hazır oluş çerçevesi bu iki katmanı doğru biçimde korur.",
+              "boundary_note": "Burada odak kesme eylemi değil, kesim için uygun vaktin veya hazır oluş aşamasının gelmesidir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, zaman bildiren adlandırmayı kesime hazır oluş bildiren türemiş kullanımlardan ayırır ve bunları yalın kesme anlamıyla birleştirmez."
+            },
+            "concept_map": {
+              "definition": "Kırkım, biçim veya ürün toplama vaktini ve bir hayvanın, bitkinin ya da topluluğun bu iş için uygun zamana ulaşmasını anlatır. Zamanın adı ile hazır oluşu bildiren kullanımlar aynı dalda fakat ayrı katmanlardır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kırkma, hasat etme veya ağaç ürününü toplama zamanını adlandırır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Ekinin, ağacın veya koyunun kesim ya da kırkım vaktine ulaştığını bildirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Bir topluluğun hayvanlarını kırkma veya ekinini biçme vaktinin gelmesine de aktarılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar kırkım ve hasat vaktini, ekin ile ağaç ürününün kesime hazır oluşunu ve bir topluluğun hayvanlarını ya da ekinini işleme zamanının gelmesini birlikte aktarır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kesim ya da hasat vaktinin gelmesi",
+              "applicability": "Zaman adını ve hayvan, bitki veya topluluğun kırkım ya da hasat aşamasına ulaşmasını birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Uygun zamanı ve o zamana ulaşma durumunu birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "hasat zamanı",
+                "usage_role": "contextual",
+                "applicability": "Ekin veya ağaç ürününün kesilip toplanacağı zaman adlandırıldığında kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bitki ürününün kesilip toplanacağı uygun zamanı korur.",
+                  "loses": "Hayvan kırkımını ve uygun vaktin geldiğini bildiren yüklem kullanımlarını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "kırkım vakti gelmek",
+                "usage_role": "contextual",
+                "applicability": "Koyunun veya bir topluluğa ait hayvanların kırkılmaya hazır olduğu bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Hayvan yününün alınacağı uygun vaktin gelişini korur.",
+                  "loses": "Ekin ve ağaç ürünü için hasat zamanını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kırkım, hasat veya ürün toplama zamanı"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ağaç ürününün, ekinin veya koyunun kesim ya da kırkım vaktinin gelmesi"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "topluluğun koyunlarını kırkma ya da ekinini biçme vaktinin gelmesi"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ekinin biçilecek duruma gelmesi"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "olgunlaşmak",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Bir ürünün işlenebilir bir aşamaya ulaşmasını kısmen korur.",
+                  "loses": null,
+                  "adds": "Kesim veya kırkım için uygunluk taşımayan genel gelişme ve olgunlaşma süreçlerini de ekler.",
+                  "collision": "Meyvenin biyolojik olgunlaşmasıyla kesim vaktinin gelmesini birbirine karıştırabilir."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000242/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Kesim için uygun vaktin ya da hazır oluşun gelmesini bildirir.",
+                "neighbor_only": "Kırkma veya biçme işleminin fiilen yapılmasını bildirir.",
+                "gloss": "uygun zaman ile eylem",
+                "shared_zone": "İki dal da kırkma ve hasat senaryosuna bağlıdır.",
+                "distinction": "Odak dal zamansal eşik veya hazır oluş bildirir; komşu dal ise bu eşikten bağımsız olarak kesme eyleminin kendisidir."
+              },
+              {
+                "neighbor_ref": "root_001241/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Ekin, ağaç ürünü ve hayvan kırkımı gibi daha geniş bir kesim alanını kapsar.",
+                "neighbor_only": "Üzümün toplanma vaktine yaklaşması ya da o vaktin gelmesiyle sınırlıdır.",
+                "gloss": "hasat vaktinin gelmesi",
+                "shared_zone": "Her iki dal da ürün toplama zamanının yaklaşmasını veya gelmesini anlatır.",
+                "distinction": "Odak dal kesim ve kırkımın farklı nesnelerine yayılır; komşu dal üzüm toplama alanında özelleşir."
+              },
+              {
+                "neighbor_ref": "root_000003/B008",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Kırkım ve hasat için belirlenmiş zamansal eşiği anlatır.",
+                "neighbor_only": "Herhangi bir olay veya iş için elverişli zamanı genel olarak anlatır.",
+                "gloss": "kesim vakti ile genel vakit",
+                "shared_zone": "İki dal da bir işin yapılmasına uygun zamanı bildirir.",
+                "distinction": "Odak dalın zamanı kesme, biçme ve kırkma alanına bağlıdır; komşu dalın zaman anlamı belirli bir iş alanıyla sınırlı değildir."
+              },
+              {
+                "neighbor_ref": "root_001699/B001",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Kesim, kırkım veya toplama için zamanın geldiğini bildirir.",
+                "neighbor_only": "Meyvenin biyolojik olarak gelişip olgunluğa erişmesini bildirir.",
+                "gloss": "hasada hazır oluş ile olgunluk",
+                "shared_zone": "Her ikisi de bitki ürününün gelişim aşamasıyla ilişkilidir.",
+                "distinction": "Olgunluk hasada elverişlilik doğurabilir, ancak odak dalın çekirdeği olgunlaşma süreci değil kesme ya da toplama vaktidir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilen karşılaştırmalar zaman anlamını eylemden, üzüm toplamaya özgü zamandan, genel uygun vakitten ve biyolojik olgunluktan ayırır.",
+            "branch_image_ar": "وقت الجزاز وحين النضج للقطع",
+            "what_is_ar": "يدخل فيه الجزاز وقت الجز أو الحصاد أو صرام النخل، وأجز النخل والبر والغنم والقوم، واستجز البر إذا حان قطعه أو استحصد",
+            "what_is_not_ar": "لا يدخل فيه نفس فعل القطع إذا لم يدل السياق على الحين أو الاستعداد، ولا يبس التمر",
+            "source_phrase_ar": "هذا زمن الجزاز والجزاز (maqayis); الجزاز كالحصاد يقع على الحين والأوان وأجز النخل مثل أحصد البر (ayn); هذا زمن الجزاز والجزاز أي زمن الحصاد وصرام النخل وأجز النخل والبر والغنم واستجز البر (sihah); الجزاز كالحصاد واقع على الحين والأوان وأجز النخل حان له أن يجز وأجز القوم إذا حان أن تجز غنمهم (tahdhib)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000242/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi kırkıldıktan sonra henüz kullanılmamış yünü, bir koyundan alınan yünü, bir tutam yünü ve deri ya da başka bir şey kesildiğinde düşen parçayı aynı sonuç ve artık alanında toplar. Dal çerçevesi eylemi değil, eylemin ürününü veya kalıntısını doğru biçimde merkez alır.",
+              "boundary_note": "Kırkma eylemi ile kırkım zamanı dışarıdadır; burada yeni alınmış yün ve kesimden kalan parça söz konusudur."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalın dalın kesim ürünü ve artığı alanını korur; süs amacıyla asılan yün parçalarını bu çekirdeğe katmaz."
+            },
+            "concept_map": {
+              "definition": "Kırkma sonucunda elde edilen ve henüz kullanılmamış yünü ya da bir koyundan alınan yün miktarını anlatır. Ayrıca deri veya başka bir şey kesildiğinde düşen ya da fazla kalan parçayı kapsar.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kırkıldıktan sonra henüz kullanılmamış yünü anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bir koyundan alınan yün miktarını veya tek bir yün tutamını adlandırır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Deri ya da başka bir şey kesildiğinde düşen veya fazla kalan parçaya uzanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar yeni kırkılmış ve henüz kullanılmamış yünü, bir koyunun yününü, tek bir yün tutamını ve kesilen deriden ya da başka bir nesneden kalan parçayı birlikte kaydeder.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yeni kırkılmış yün veya kesimden kalan parça",
+              "applicability": "Dalın hem kırkma ürününü hem de deri gibi bir nesnenin kesilmesinden doğan artık parçasını temsil eder.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yeni alınmış yün ile kesimden kalan parça ayrımını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kırkılmış yün",
+                "usage_role": "contextual",
+                "applicability": "Henüz kullanılmamış yün veya bir koyundan alınan yün söz konusu olduğunda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kırkma sonucunda elde edilen yün ürününü korur.",
+                  "loses": "Deri veya başka bir nesne kesildiğinde düşen artık parça anlamını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "kesim artığı",
+                "usage_role": "contextual",
+                "applicability": "Deri ya da başka bir şey kesildiğinde düşen veya fazla kalan parça için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kesim sonunda kalan veya düşen parça anlamını korur.",
+                  "loses": "Bir koyundan alınan yeni yün ve tek yün tutamı anlamlarını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "henüz kullanılmamış kırkılmış yün"
+              },
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir koyundan bir yılda kırkılan yün"
+              },
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "deri veya başka bir şey kesilince düşen ya da fazla kalan parça"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir tutam yün"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000242/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Kesimden elde edilen yünü veya geride kalan parçayı bildirir.",
+                "neighbor_only": "Kırkıp kesme işleminin kendisini bildirir.",
+                "gloss": "ürün ile eylem",
+                "shared_zone": "İki dal aynı kırkma veya kesme olayına bağlıdır.",
+                "distinction": "Odak dal eylem sonrasında ortaya çıkan ürün ya da artıktır; komşu dal ise bunu ortaya çıkaran işlemdir."
+              },
+              {
+                "neighbor_ref": "root_000230/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Yeni kırkılmış yünü ve özellikle kesilen deriden kalan parçayı kapsar.",
+                "neighbor_only": "Kırılarak veya kesilerek oluşmuş metal, taş ve benzeri küçük parçaları da kapsar.",
+                "gloss": "kesim artığı ile kırık parça",
+                "shared_zone": "Her iki dal da ayırma işlemi sonunda ortaya çıkan küçük parçaları kapsayabilir.",
+                "distinction": "Odak dalın çekirdeğinde kırkılmış yün ve kesim artığı bulunur; komşu dal kırılma ve parçalanma sonucunu daha geniş malzeme alanına yayar."
+              },
+              {
+                "neighbor_ref": "root_000204/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Yeni kırkılmış ve henüz kullanılmamış yünü ya da tek koyunun yününü anlatır.",
+                "neighbor_only": "Hayvan varlığındaki yün, kıl ve tiftik toplamını, bunlardan yapılan ipi veya örtüyü de kapsar.",
+                "gloss": "kırkılmış yün ile yün varlığı",
+                "shared_zone": "Her iki dalın ortak alanında hayvandan elde edilen yün bulunur.",
+                "distinction": "Odak dal yünün kırkma sonucu ve kullanılmamış oluşuyla belirlenir; komşu dal yünü daha genel bir varlık ve malzeme olarak ele alır."
+              },
+              {
+                "neighbor_ref": "root_000242/B004",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Yünün kesimden yeni çıkmış ürün veya tutam olmasını bildirir.",
+                "neighbor_only": "Boyalı yün tutamlarının bir taşıta bağlanıp süs olarak kullanılmasını bildirir.",
+                "gloss": "yün ürünü ile yün süsü",
+                "shared_zone": "İki dalda da yün parçası ortak malzeme olabilir.",
+                "distinction": "Odak dal yünün elde edilme durumuna dayanır; komşu dalda belirleyici olan boyama, bağlama ve süs amacıyla kullanmadır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilen dört komşu ürünün eylemden, genel kırık parçadan, genel yün varlığından ve süs olarak kullanılan yünden ayrımını gösterir.",
+            "branch_image_ar": "الجزة وما يسقط بالجز",
+            "what_is_ar": "يدخل فيه الصوف المجزوز الذي لم يستعمل، جزة الشاة، خصلة الصوف أو الجزيزة، والجزازة لما يسقط من الأديم وغيره إذا قطع",
+            "what_is_not_ar": "لا يدخل فيه وقت الجزاز ولا فعل القطع نفسه ولا الزينة المعلقة على الهوادج إذا قصد بها استعمالها الزيني",
+            "source_phrase_ar": "الجزيزة خصلة من صوف والجمع جزائز والجزازة ما سقط من الأديم (maqayis); الجزز الصوف الذي لم يستعمل بعد ما جز وصوف كل شاة جزة والجزاز ما فضل من الأديم (ayn); الجزة صوف شاة والجزازة ما سقط من الأديم والجزيزة خصلة من الصوف (sihah); الجزز الصوف الذي لم يستعمل بعدما جز وهذه جزة هذه الشاة والجزاز ما فضل من الأديم (tahdhib)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000242/B004",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kaynak ifadesinin ortak ağırlığı, deve sırtındaki yolcu bölmesine bağlanan veya asılan boyalı yün tutamlarındadır. Boncuk türü ise aynı malzeme tanımının parçası değil, tek kaynakta aktarılan ayrı bir süs çeşididir; dal korunabilir ancak bu iki yüz aynı çekirdekmiş gibi birleştirilmemelidir.",
+              "boundary_note": "Asılı boyalı yün süsü ana kullanımdır; süs boncuğu ayrı bir kaynak çeşitlemesi olarak tutulur."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalın dalda kayıtlı süs adlarını kapsar; sıradan kırkılmış yünü süsleme ve asma koşulu olmadan bu dala taşımaz."
+            },
+            "concept_map": {
+              "definition": "Deve sırtındaki yolcu bölmesine bağlanan veya buradan sarkan boyalı yün tutamlarından oluşan süstür. Ayrı bir kaynak çeşitlemesinde, insanı süslemek için kullanılan bir boncuk türünü de adlandırır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Boyalı yün tutamlarının deve sırtındaki yolcu bölmesine bağlanıp asılmasını anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Asılı yün tutamları taşıt üzerinde görünür bir süs oluşturur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "source_variant",
+                  "statement": "Bir kaynakta insanı süslemek için kullanılan bir boncuk türü olarak da aktarılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım, deve üzerindeki yolcu bölmesine bağlanan veya asılan boyalı yün tutamlarını verir; toplu ifade ayrıca bir boncuk türüne ilişkin ayrı süs kullanımını aktarır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "asılan boyalı yün süsü veya süs boncuğu",
+              "applicability": "Ana yün süsünü ve ondan ayrı tutulan boncuk çeşitlemesini, ikisini özdeşleştirmeden birlikte temsil eder.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Asılı boyalı yün süsünü ve ayrı boncuk çeşitlemesini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "boyalı yün püskülü",
+                "usage_role": "contextual",
+                "applicability": "Deve üzerindeki yolcu bölmesine bağlanan veya buradan sarkan yün süsü için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Boyalı yün tutamından oluşan asılı süsü korur.",
+                  "loses": "Ayrı kaynak çeşitlemesi olan süs boncuğu anlamını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "süs boncuğu",
+                "usage_role": "contextual",
+                "applicability": "Yalnızca insanı süslemek için kullanılan boncuk çeşitlemesinin kastedildiği bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kaynak çeşitlemesindeki boncuk ve süs işlevini korur.",
+                  "loses": "Taşıta asılan boyalı yün tutamlarından oluşan ana kullanımı dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "deve üzerindeki yolcu bölmesine bağlanan veya asılan boyalı yün tutamları"
+              },
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "deve üzerindeki yolcu bölmesine asılan boyalı yün tutamları"
+              },
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "deve üzerindeki yolcu bölmesinden sarkan boyalı yün parçası"
+              },
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "insanı süslemek için kullanılan bir boncuk türü"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001056/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Boyalı yünün bir taşıta bağlanıp asılarak süs olmasını gerektirir.",
+                "neighbor_only": "Boyalı yünü, bağlanma veya süs işlevi bulunmasa da malzeme olarak kapsar.",
+                "gloss": "yün süsü ile boyalı yün",
+                "shared_zone": "Her iki dalın ortak alanında boyanmış yün bulunur.",
+                "distinction": "Odak dalda yünün düzenlenip taşıta asılması ve süs işlevi belirleyicidir; komşu dal yalnızca malzemenin boyalı yün oluşunu anlatır."
+              },
+              {
+                "neighbor_ref": "root_000628/B001",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Belirli bir asılı yün süsünü ve ayrı bir boncuk çeşitlemesini adlandırır.",
+                "neighbor_only": "Nesne, ev, kişi veya arazi üzerindeki süsleme eylemini ve süs durumunu genel olarak kapsar.",
+                "gloss": "özel süs ile genel süsleme",
+                "shared_zone": "İki dal da görünüşü güzelleştirme amacıyla ilişkilidir.",
+                "distinction": "Odak dal belirli süs nesnelerinin adıdır; komşu dal malzeme ve taşıyıcı sınırı olmadan süsleme alanının genelini kapsar."
+              },
+              {
+                "neighbor_ref": "root_000353/B001",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Taşıta asılan boyalı yün tutamlarını ana kullanım olarak içerir.",
+                "neighbor_only": "Takılan süs eşyalarını ve silah gibi nesnelerin bezemesini genişçe kapsar.",
+                "gloss": "asılı yün süsü ile takı",
+                "shared_zone": "Her iki dalda da süs amacı ve süs nesnesi bulunur.",
+                "distinction": "Odak dalın ana kullanımı bir taşıta bağlı yün süsüdür; komşu dal kişinin taktığı veya eşyanın taşıdığı süslerin genel alanıdır."
+              },
+              {
+                "neighbor_ref": "root_000242/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Yün tutamının boyanıp bağlanmasını ve süs işlevi kazanmasını gerektirir.",
+                "neighbor_only": "Yünü kırkma sonucu elde edilmiş, henüz kullanılmamış ürün olarak ele alır.",
+                "gloss": "yün süsü ile kırkılmış yün",
+                "shared_zone": "İki dalın ortak malzemesi bir yün tutamı olabilir.",
+                "distinction": "Odak dal kullanım ve düzenleme biçimiyle tanımlanır; komşu dal yünün kesimden elde edilme durumuyla tanımlanır."
+              }
+            ],
+            "neighbor_coverage_note": "Adayların tümü değerlendirildi; seçilen karşılaştırmalar dalı boyalı yün malzemesinden, genel süslemeden, takı alanından ve işlenmemiş kırkılmış yünden ayırır.",
+            "branch_image_ar": "خصل العهن والزينة المعلقة",
+            "what_is_ar": "يدخل فيه الجزاجز والجزائز عهونا أو خصل عهن وصوف مصبوغة تشد أو تعلق على الهوادج، ويدخل فيه الجزيز إذا قصد به خرزا للزينة بحسب تهذيب اللغة",
+            "what_is_not_ar": "لا يدخل فيه مطلق جزة الشاة أو جزازة الأديم إلا إذا صارت زينة أو تعليقا",
+            "source_phrase_ar": "الجزائر عهون تشد على الهوادج (ayn); الجزجزة وهي عهنة تعلق من الهودج (sihah); الجزاجز خصل العهن والصوف المصبوغة تعلق على هوادج الظعائن وهي الثكن والجزائز وقيل الجزيز ضرب من الخرز (tahdhib)",
+            "sources": [
+              "AY",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000242/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi yalnızca hurmanın kurumasını, aynı durum için kullanılan iki eylem biçimini ve meyvede bulunan kuruluk durumunu aktarır. Kesme ve hasatla biçimsel bağ bulunsa da bu dalın kaynakça desteklenen çekirdeği açıkça kurumadır.",
+              "boundary_note": "Anlam hurma öznesi ve ondaki kuruluk durumuyla sınırlıdır; kesme, hasat veya genel meyve olgunlaşması değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, hurmayla kurulan eylem kullanımlarını meyvedeki kuruluk adıyla ayrı katmanlarda tutar ve bunlardan genel bir yalın kök anlamı çıkarmaz."
+            },
+            "concept_map": {
+              "definition": "Hurmanın kurumasını ve hurmada bulunan kuruluk durumunu anlatır. Eylem kullanımları belirli bir meyveye bağlıdır; kesme veya hasat anlamına genellenmez.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Hurmanın kuruma sürecini anlatan eylem kullanımlarını kapsar.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Hurmanın içinde bulunan kuruluk veya kuruma durumunu adlandırır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak kaydı, hurmanın kurumasını bildiren eylem biçimlerini ve meyvede bulunan kuruluk durumunu aynı sınırlı anlam alanında birleştirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "hurmanın kuruması veya hurmadaki kuruluk",
+              "applicability": "Hurma öznesine bağlı kuruma sürecini ve aynı meyvedeki kuruluk durumunu birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Meyveye bağlı kuruma süreci ile kuruluk durumunu korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kurumak",
+                "usage_role": "contextual",
+                "applicability": "Cümlenin öznesi hurma olduğunda eylem kullanımının doğal karşılığıdır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hurma öznesinin kuruma sürecine girmesini tam olarak korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "kuruluk",
+                "usage_role": "contextual",
+                "applicability": "Hurmada bulunan durum veya nitelik adlandırıldığında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hurmada bulunan kuru olma durumunu tam olarak korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hurmanın kuruması"
+              },
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hurmanın kuruması"
+              },
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hurmadaki kuruluk veya kuruma durumu"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "olgunlaşmak",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Meyvenin geçirdiği bir durum değişikliği fikrini korur.",
+                  "loses": "Kaynak ifadesindeki belirleyici kuruma ve kuruluk özelliğini yitirir.",
+                  "adds": "Kuruma gerektirmeyen biyolojik gelişme ve yenmeye hazır hale gelme anlamını ekler.",
+                  "collision": "Kuruma durumunu meyvenin olağan olgunlaşma süreciyle karıştırır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000695/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Hurma meyvesindeki kuruma sürecini ve kuruluk durumunu bildirir.",
+                "neighbor_only": "Susuzluktan olgunlaşmadan kuruyan meyveyi, sert çekirdeği ve kuru üzümü de kapsar.",
+                "gloss": "hurma kuruluğu ile meyve sertliği",
+                "shared_zone": "Her iki dal da meyvede kuruma veya sertleşme durumunu kapsayabilir.",
+                "distinction": "Odak dal hurmaya bağlı genel kuruma kaydıdır; komşu dalın alanı neden, olgunlaşma aşaması, sertlik ve farklı meyve türleri bakımından daha geniştir."
+              },
+              {
+                "neighbor_ref": "root_001684/B016",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Hurmada tamamlanmış ya da belirgin kuruluk durumunu da kapsar.",
+                "neighbor_only": "Taze hurmanın solmaya ve kurumaya yeni başladığı özel geçiş aşamasını bildirir.",
+                "gloss": "kuruma ile solmaya başlama",
+                "shared_zone": "İki dal da hurmanın tazeliğini yitirip kuruluğa yönelmesiyle ilgilidir.",
+                "distinction": "Odak dal kuruma sürecini ve durumunu genel olarak verir; komşu dal taze meyvenin bu sürece girişindeki özel aşamayı anlatır."
+              },
+              {
+                "neighbor_ref": "root_000767/B005",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Hurma meyvesinde kuruma veya kuruluk bulunmasını bildirir.",
+                "neighbor_only": "Belirli bir taze hurma türünü ve bazı anlatımlarda onun solup hoş koku kazanmasını adlandırır.",
+                "gloss": "kuruluk ile meyve türü",
+                "shared_zone": "Her iki dal hurma türleri ve meyvenin tazelik değişimi alanındadır.",
+                "distinction": "Odak dalın çekirdeği kuruma durumudur; komşu dal öncelikle bir meyve türünün adıdır ve solma yalnızca ona bağlı bir niteliktir."
+              },
+              {
+                "neighbor_ref": "root_000239/B002",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Meyvenin kendi kuruma sürecini veya kuru olma durumunu anlatır.",
+                "neighbor_only": "Ürün toplandıktan sonra düşen kalıntıları, kuru meyveyi veya çekirdeği adlandırır.",
+                "gloss": "kuruma ile hasat kalıntısı",
+                "shared_zone": "İki dalda da hurma ve kuru ürün söz konusu olabilir.",
+                "distinction": "Odak dal bir durum değişikliğidir; komşu dal hasat sonrasında kalan veya toplanan nesneleri ve kuru ürünü adlandırır."
+              }
+            ],
+            "neighbor_coverage_note": "Adayların tümü değerlendirildi; seçilen dört karşılaştırma hurmadaki kurumayı daha geniş meyve sertliğinden, başlangıç aşamasından, meyve türünden ve hasat kalıntısından ayırır.",
+            "branch_image_ar": "يبس التمر",
+            "what_is_ar": "يدخل فيه جز التمر وأجز إذا يبس، والجزوز في التمر",
+            "what_is_not_ar": "لا يدخل فيه القطع والحصاد ولا الجزة من الصوف",
+            "source_phrase_ar": "جز التمر يجز بالكسر جزوزا أي يبس وأجز مثله وتمر فيه جزوز (sihah); قد جز التمر إذا يبس يجز جزوزا وتمر فيه جزوز (tahdhib)",
+            "sources": [
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000242/B006",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi belirli bir yer adını ve bu yer hakkında aktarılan, son zamanda ortaya çıkacağı söylenen aldatıcı kişinin oradan çıkacağı yönündeki rivayeti açıkça verir. Bu kayıt üretken bir kesme veya yün anlamı değil, sözlüksel olarak sınırlı bir özel yer bilgisidir.",
+              "boundary_note": "Dal yalnızca yer adı ve ona bağlanan rivayetle sınırlıdır; diğer dalların kesme, yün, süs veya kuruma anlamlarına katılmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "non_bare",
+              "note": "Tanım, yalnızca kayıtlı yer adı kullanımını açıklar ve bundan yalın ya da üretken bir kök anlamı çıkarmaz."
+            },
+            "concept_map": {
+              "definition": "Belirli bir yer adıdır. Bu yer, bir rivayette son zamanda ortaya çıkacağı söylenen aldatıcı kişinin çıkış yeri olarak anılır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Sözlüksel olarak sınırlı, belirli bir yer adını bildirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Yer, rivayette son zamanda ortaya çıkacağı söylenen aldatıcı kişinin çıkışıyla ilişkilendirilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar bu birimi belirli bir yer adı olarak verir ve rivayete göre son zamanda ortaya çıkacağı söylenen aldatıcı kişinin oradan çıkacağını aktarır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "rivayette bir çıkış yeri olarak anılan yer adı",
+              "applicability": "Özel adın kendisini uydurmadan, yer olma çekirdeğini ve ona bağlanan rivayet bilgisini birlikte açıklar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yer adı niteliğini ve rivayetteki çıkış yeri ilişkisini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "bir yer adı",
+                "usage_role": "explanatory",
+                "applicability": "Yalnızca sözlüksel türü açıklamak ve rivayet ayrıntısını bağlamda ayrıca vermek için uygundur.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Birimin belirli bir yeri adlandırdığını korur.",
+                  "loses": "Yere bağlanan çıkış rivayetini tek başına aktaramaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "rivayette bir çıkış yeri olarak anılan yer adı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [],
+            "neighbor_coverage_note": "Bütün aday komşular değerlendirildi; hiçbiri bu sözlüksel olarak sınırlı yer adının sınırını yararlı bir anlamsal karşılaştırmayla keskinleştirmedi.",
+            "branch_image_ar": "جزة اسم أرض",
+            "what_is_ar": "اسم أرض مروي أنها مخرج الدجال",
+            "what_is_not_ar": "ليس صورة دلالية للقطع أو الصوف ولا يثبت من الشواهد أنه فرع معنوي منتج",
+            "source_phrase_ar": "جزة اسم أرض يقال إن الدجال يخرج منها (ayn); جزة اسم أرض منها يخرج الدجال فيما روي (tahdhib)",
+            "sources": [
+              "AY",
+              "TA"
+            ],
+            "source_note": {}
+          }
+        ],
+        "root_profile": {
+          "summary": "Kök, kırkıp kesme eylemi çevresinde bu eylemin zamanı, hazır oluş aşaması, ürünü ve süs amacıyla kullanılan yün parçaları gibi ilişkili dallar kurar. Hurmanın kuruması ile rivayette anılan yer adı ise bu kümeye eklenen ayrı sözlüksel kollardır.",
+          "polysemy": "polysemic",
+          "organization": "mixed"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 0,
+            "word_count": 0,
+            "ayah_count": 0,
+            "surah_count": 0
+          },
+          "forms": []
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000242_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000242",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "initial",
+        "inputs_sha256": "224f041c8c5a1cd291b8d78eccbfb1e6980d036ab23eb908ac8275c01458b231",
+        "review_inputs_sha256": "59faf8949f0255b49accc26fb5a4844494d87262c52014b020c183bd3643f44a",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000242/tr/output/root_000242_entry.json",
+          "sha256": "1612b9552e051e8eb3406bc521b4c6105b942e2e4e1fae590b9fa5d12069dd74",
+          "entry_id": "root_000242/tr",
+          "status": "reviewed",
+          "review_verdict": "pass",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000242.json",
+          "sha256": "549cd3ce55d09a11370b8884b5fcfbf5be7fbfac1ec44b718723fe9b76391ff4"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000242/tr/input/task.json",
+          "sha256": "8eef847caaa110ffb73f1af6475dfaa1fc1ff37590da436b76bc93342174e06d"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000242/tr/review/input/task.json",
+          "sha256": "3cab8a076e99506ec3b5bfdfe4b9059329cfd7d6d0cd4d51754bc0ca8b96708b"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000242/tr/review/output/review.json",
+          "sha256": "793270c18823d1e0316f88cdfe05f8837deb56a9d5191fb00980eb589c5e7fbf"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000242/B001",
+            "concept_gloss": {
+              "text": "kırkma ve biçme",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "narrowing",
+                "loses_facet_ids": [
+                  "F003"
+                ],
+                "adds": null,
+                "collision": null,
+                "reason": "Kırkma aracı ve yünü kırkılan koyunlara bağlı adlandırmaları açıkça taşımaz.",
+                "loses_core_concept": true
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "saç, yün veya otu kırkıp biçmek",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_001"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "kırkma eylemine bağlı alet ve koyun adları",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_002",
+                  "lu_003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "saçı, yünü ya da bitkiyi kırkıp biçmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_002": {
+                "text": "kırkma aracı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_003": {
+                "text": "yünü kırkılan koyunlar",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000242/B002",
+            "concept_gloss": {
+              "text": "kırkım ve hasat vaktine gelme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "kırkım, biçim veya ürün toplama vakti",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "kesime, kırkıma veya biçime hazır hale gelmek",
+                "facet_ids": [
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_005",
+                  "lu_006",
+                  "lu_007"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_004": {
+                "text": "kırkım, hasat veya ürün toplama vakti",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_005": {
+                "text": "ağaç ürünü, ekin veya koyunun kesim ya da kırkım vaktinin gelmesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_006": {
+                "text": "topluluğun koyunlarını kırkma ya da ekinini biçme vaktine gelmesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_007": {
+                "text": "ekinin biçime hazır hale gelmesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000242/B003",
+            "concept_gloss": {
+              "text": "kırkım yünü ve kesim artığı",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "henüz kullanılmamış kırkılmış yün",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_008",
+                  "lu_009",
+                  "lu_011"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "kesimden düşen veya artan parça",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_010"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_008": {
+                "text": "kırkılıp henüz kullanılmamış yün",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_009": {
+                "text": "bir koyundan o yıl kırkılan yün",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_010": {
+                "text": "deriden ya da başka şeyden kesim artığı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_011": {
+                "text": "yün tutamı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000242/B004",
+            "concept_gloss": {
+              "text": "deve mahfesine asılı yün süs veya süs boncuğu",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "deve mahfesine bağlanan boyalı yün süs",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_012",
+                  "lu_013",
+                  "lu_014"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "süs amacıyla kullanılan boncuk çeşidi",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_015"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_012": {
+                "text": "deve mahfesine bağlanan ya da asılan boyalı yün tutamları",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_013": {
+                "text": "deve mahfesine asılan boyalı yün tutamları",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_014": {
+                "text": "deve mahfesinden sarkan boyalı yün parçası",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_015": {
+                "text": "insanı süslemek için kullanılan boncuk çeşidi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000242/B005",
+            "concept_gloss": {
+              "text": "hurmanın kuruması ve kuruluğu",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "hurmanın kuruması",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_016",
+                  "lu_017"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "hurmada kuruluk bulunması",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_018"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_016": {
+                "text": "hurmanın kuruması",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_017": {
+                "text": "hurmanın kuruması",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_018": {
+                "text": "hurmadaki kuruluk",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000242/B006",
+            "concept_gloss": {
+              "text": "Deccal'in çıkış yeri diye anılan yer adı",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "rivayette Deccal'in çıkacağı yer adı",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_019"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_019": {
+                "text": "rivayette Deccal'in çıkış yeri sayılan yer adı",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000242.json"
+    },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -12605,18 +15047,23 @@
     },
     "root_001307": {
       "root_ar": "ك ف ر",
+      "qac_roots_ar": [
+        "ك ف ر"
+      ],
       "root_id": "root_001307",
-      "root_mapping": {
-        "root_id": "root_001307",
-        "root_norm": "ك ف ر",
-        "source_root_norm": "ك ف ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 416,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ف ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 416
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cf94a0f36d304ffba0cddb3bb9019f2426aaa362cd5f28a65d3ebd98c7e73c9f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15213,14 +17660,20 @@
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 8
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15588,11 +18041,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_14.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_14.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 122892,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -15668,19 +18134,37 @@
           "root_ids": [
             "root_000240"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ر ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000240",
+            "targets": [
+              {
+                "qac_root_norm": "ج ر ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000240",
+                "furuq_root_norm": "ج ر ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 61,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000240",
-              "root_norm": "ج ر ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ر ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 61,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15705,19 +18189,37 @@
           "root_ids": [
             "root_001069"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001069",
+            "targets": [
+              {
+                "qac_root_norm": "ع ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001069",
+                "furuq_root_norm": "ع ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 65,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001069",
-              "root_norm": "ع ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 65,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15743,19 +18245,46 @@
             "root_000244",
             "root_000242"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ز ي",
+            "mapping_status": "split",
+            "primary_root_id": "root_000244",
+            "targets": [
+              {
+                "qac_root_norm": "ج ز ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000244",
+                "furuq_root_norm": "ج ز ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 97,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ج ز ي",
+                "target_rank": 2,
+                "furuq_root_id": "root_000242",
+                "furuq_root_norm": "ج ز ز",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": true,
           "targets": [
             {
               "root_id": "root_000244",
-              "root_norm": "ج ز ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ز ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 97,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15774,37 +18303,70 @@
             },
             {
               "root_id": "root_000242",
-              "root_norm": "ج ز ز",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "ج ز ز",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 0,
+                  "ayahs": 0
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ك و ن": {
           "root_id": "root_001332",
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -15816,19 +18378,37 @@
           "root_ids": [
             "root_001307"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ف ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001307",
+            "targets": [
+              {
+                "qac_root_norm": "ك ف ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001307",
+                "furuq_root_norm": "ك ف ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 416,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001307",
-              "root_norm": "ك ف ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ف ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 416,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15855,10 +18435,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 57,
+        "dictionary_branches_kept": 57,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 36,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

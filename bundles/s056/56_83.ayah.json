@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.361314+00:00",
+  "generated_at": "2026-08-04T22:30:02.117637+00:00",
   "surah": 56,
   "ayah": 83,
   "ayahRef": "56:83",
@@ -1381,7 +1381,8 @@
       "morpheme_ids": [
         "m-w-s056-a083-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:83:1"
+      "aligned_qac_word_ref_upstream": "56:83:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1395,7 +1396,8 @@
       "morpheme_ids": [
         "m-w-s056-a083-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:83:2"
+      "aligned_qac_word_ref_upstream": "56:83:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1409,7 +1411,8 @@
       "morpheme_ids": [
         "m-w-s056-a083-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:83:3"
+      "aligned_qac_word_ref_upstream": "56:83:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1423,7 +1426,8 @@
       "morpheme_ids": [
         "m-w-s056-a083-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:83:4"
+      "aligned_qac_word_ref_upstream": "56:83:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1439,7 +1443,8 @@
         "m-w-s056-a083-w004-01",
         "m-w-s056-a083-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:83:5"
+      "aligned_qac_word_ref_upstream": "56:83:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2090,7 +2095,673 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_83.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:83",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:83",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_terminal_arrival",
+            "confidence": "strong",
+            "focus_anchor": "The feminine perfect verb at word 3 governs the throat at word 4.",
+            "mechanism": "An unnamed entity completes a trajectory at a specifically named bodily conduit. Reaching supplies the terminal motion, while the throat localizes the limit at the shared passage of breath and intake.",
+            "activation_trace": [
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at an endpoint supplies the completed trajectory and its limit."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The bodily passage for breath and food fixes that endpoint at a life-critical constriction."
+              }
+            ],
+            "changed_reading": {
+              "before": "Something merely arrives at an anatomical location.",
+              "after": "The clause stages a terminal approach to the body's narrow life-channel, where continued passage becomes a limit."
+            }
+          },
+          {
+            "model_id": "baseline_delivery_at_voice_gate",
+            "confidence": "exploratory",
+            "focus_anchor": "The reaching verb can carry delivery, and its destination is the bodily passage immediately implicated in breath and utterance.",
+            "mechanism": "The delivery branch of the reaching root and the throat's conduit function permit a second reading in which something comes to the last bodily interface of expression. The clause can therefore hold both physical arrival and communication at the point where voice may fail.",
+            "activation_trace": [
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B002",
+                "role": "Delivery of a message turns reaching from bare locomotion into transmission to a receiver."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The breath passage provides the bodily interface through which voiced response is enabled or blocked."
+              }
+            ],
+            "changed_reading": {
+              "before": "The reaching is only a physiological movement.",
+              "after": "The arrival can also be heard as a delivery reaching the body's final gate of breath and utterance."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delivery_at_voice_gate_strengthened",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ء",
+              "ن ز ل",
+              "ح د ث",
+              "ك ذ ب"
+            ],
+            "mechanism": "The preceding sequence moves through recitation, delivery, discourse, and denial before the focus arrival. That sequence strengthens the focus-only delivery model: verbal reception and verbal evasion culminate at the organ whose breath makes response possible, so bodily fact overtakes discursive control.",
+            "activation_trace": [
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B002",
+                "role": "Message-delivery supplies the transmission side of the focus verb."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The breath conduit becomes the embodied endpoint of verbal reception and response."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation establishes an explicitly voiced and received communication before the focus."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Delivery downward supplies a completed transfer that the focus arrival can bodily counterpoint."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed speech keeps the response to the delivered communication in the verbal domain."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the evasive verbal act that the bodily threshold interrupts."
+              }
+            ],
+            "structural_cues": [
+              "Verses 77-82 form a recitation-to-delivery-to-response sequence immediately before the focus challenge.",
+              "The focus shifts from propositions about the communication to a second-person confrontation with an embodied event."
+            ],
+            "reader_inference": "The packet supplies recitation, delivery, discourse, denial, and a focus branch of message-delivery; I infer that the throat functions as the last response interface. A live alternative is that the discourse sequence and the physiological scene are adjacent without sharing a transmission mechanism.",
+            "changed_reading": {
+              "before": "An entity reaches a bodily endpoint.",
+              "after": "Received truth and the audience's verbal evasion are forced into embodiment at the breath-and-voice gate, where denial can no longer remain merely speech."
+            }
+          },
+          {
+            "model_id": "terminal_arrival_as_epistemic_boundary",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ي ن",
+              "ن ظ ر",
+              "ق ر ب",
+              "ب ص ر"
+            ],
+            "mechanism": "The event is timed and watched, yet a nearer presence is not seen. The throat therefore becomes more than an anatomical limit: it is an epistemic boundary where observers have maximal access to the visible body while remaining blind to the agency closest to the event.",
+            "activation_trace": [
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at the endpoint supplies the event the observers witness."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The visible bodily conduit anchors the scene in accessible anatomy."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B001",
+                "role": "A determinate occasion synchronizes the observers with the threshold event."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight supplies active human observation rather than mere presence."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Unseen nearness places effective agency inside the observers' apparent spatial advantage."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Failure of eyesight marks the limit of what bodily watching can disclose."
+              }
+            ],
+            "structural_cues": [
+              "The temporal phrase in 56:84 resumes the focus event without opening a new scene.",
+              "Watching in 56:84 is answered by nearer-but-unseen agency in 56:85."
+            ],
+            "reader_inference": "The packet supplies a timed gaze, nearness, and failed sight; I infer a split between visible bodily process and invisible effective agency. The live alternative is primarily a power contrast rather than an epistemic one.",
+            "changed_reading": {
+              "before": "The throat is simply the last observable bodily location.",
+              "after": "The throat is the boundary at which close observation reaches its own limit: the body is visible, but the nearest agency and decisive process are not."
+            }
+          },
+          {
+            "model_id": "terminal_arrival_as_irreversible_handover",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ي ن",
+              "ر ج ع",
+              "ص د ق"
+            ],
+            "mechanism": "Accountability frames the demand to restore the focus entity to its former state, and truth must be demonstrated by accomplishing that return. The throat acts as a one-way handover point: arrival there exposes the audience's inability to reverse the transfer.",
+            "activation_trace": [
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Completion of the trajectory supplies the transfer's reached boundary."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The life-critical conduit localizes the point from which restoration is challenged."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the jurisdiction that the challengers claim to escape."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return to the prior state defines the concrete reversal the observers cannot perform."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Truth verified by fulfilled action makes restoration the test of the audience's claim."
+              }
+            ],
+            "structural_cues": [
+              "The repeated challenge construction in 56:83 and 56:86 binds bodily arrival to the demand for return.",
+              "The feminine object pronoun in 56:87 resumes the unnamed feminine subject of the focus verb."
+            ],
+            "reader_inference": "The packet supplies accountability, a command to return the same feminine entity, and action as proof; I infer a jurisdictional handover at the throat. A live alternative is a general demonstration of helplessness without treating the anatomy as a checkpoint.",
+            "changed_reading": {
+              "before": "The reaching marks an ominous endpoint in the body.",
+              "after": "The reaching marks an irreversible handover under a jurisdiction the observers cannot suspend, reverse, or disprove."
+            }
+          },
+          {
+            "model_id": "terminal_arrival_as_common_sorting_gate",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ب",
+              "ر و ح",
+              "ن ع م",
+              "س ل م",
+              "ك ذ ب",
+              "ض ل ل",
+              "ن ز ل",
+              "ح م م",
+              "ج ح م"
+            ],
+            "mechanism": "After the failed-return challenge, the sequence divides into opposed receptions: privileged nearness, rest, good condition, and safety on one side; denial, deviation, prepared hot reception, and blazing heat on the other. The throat is recast as the shared gate before sorting, not as the final destination.",
+            "activation_trace": [
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Endpoint arrival supplies the common threshold traversed before outcomes diverge."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The bodily life-channel fixes the shared gate in the focus event."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Privileged nearness identifies the first post-threshold class."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B007",
+                "role": "Rest supplies the first class's immediate reception after passage."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition extends that reception into a settled outcome."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from harm marks the reception of the second favored class."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth identifies the adverse branch after the common threshold."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from the intended way supplies the adverse class's trajectory."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared reception gives the adverse outcome the same arrival structure in inverted form."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water specifies the harmful content of that inverted reception."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Intense blazing heat completes the adverse destination beyond the gate."
+              }
+            ],
+            "structural_cues": [
+              "The three conditional class markers in 56:88, 56:90, and 56:92 branch only after the common focus event and return challenge.",
+              "Parallel receptions in 56:89, 56:91, and 56:93-94 make the post-threshold divergence explicit."
+            ],
+            "reader_inference": "The packet supplies one common bodily threshold followed by parallel class-and-reception clauses; I infer a sorting-gate architecture. A live alternative is that the later clauses state consequences without spatially recasting the throat as a gate.",
+            "changed_reading": {
+              "before": "The throat is the terminal destination of the focus movement.",
+              "after": "The throat is the common exit threshold after which identities and receptions diverge; it ends bodily passage but opens differentiated outcomes."
+            }
+          },
+          {
+            "model_id": "terminal_arrival_under_certainty_closure",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ق ق",
+              "ي ق ن"
+            ],
+            "mechanism": "The closing declaration joins reality-matching truth with settled knowledge. Read back onto the focus, the arrival is not an uncertain prognosis inferred from symptoms but an event presented as fixed reality whose meaning exceeds what the watchers can see.",
+            "activation_trace": [
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at the limit supplies the event whose certainty is retrospectively reinforced."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The bodily conduit keeps the asserted reality attached to a concrete threshold."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality fixed against falsehood validates the scene as more than an observer's interpretation."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Knowledge without doubt closes the uncertainty opened by failed human sight."
+              }
+            ],
+            "structural_cues": [
+              "The deictic closing declaration in 56:95 points back over the focus scene and its consequences.",
+              "Certainty answers the observers' inability to perceive in 56:85."
+            ],
+            "reader_inference": "The packet supplies a backward-pointing truth-and-certainty closure; I infer that it validates the throat event as part of its scope. The live alternative is that the deictic points primarily to the outcome classification rather than specifically to 56:83.",
+            "changed_reading": {
+              "before": "The focus describes what witnesses take to be a terminal symptom.",
+              "after": "The focus presents a concrete but only partly visible threshold whose occurrence and larger significance are asserted as settled reality."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_cosmic_bodily_coordinate",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it maps astronomical rising and settling onto a bodily event. It remains anchored in the focus trajectory and named endpoint, with the earlier location imagery supplying only a scale analogy. Downstream prose should call it a possible cosmic-to-bodily echo, not identify the throat with a stellar station.",
+            "focus_anchor": "The focus combines completed approach with a sharply specified endpoint.",
+            "activation_trace": [
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Reaching a limit supplies the bodily trajectory that can echo the earlier large-scale motions."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The anatomically exact conduit supplies the body's corresponding coordinate."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed supplies a trajectory terminating at a location."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001270",
+                "branch_id": "B001",
+                "role": "The split-root image of an extended site sharpens the otherwise form-distant notion of a terminal station."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ن ج م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001475",
+                "branch_id": "B001",
+                "role": "The rising celestial body supplies the opposed upward motion whose station is sworn by."
+              }
+            ],
+            "changed_reading": {
+              "before": "The anatomical endpoint is isolated from the opening oath.",
+              "after": "The body's terminal coordinate may miniaturize the earlier pattern of rising bodies and fixed stations: a private trajectory occupies its exact appointed location."
+            }
+          },
+          {
+            "outlier_id": "outlier_throat_as_narrow_aperture",
+            "confidence": "exploratory",
+            "containment": "This is a deliberately form-distant activation from a non-dominant mapped root of the closing word at 56:96. It remains anchored because the focus explicitly names a conduit reached by something in passage. Downstream prose should present it only as a lexical after-image of constricted passage, never as the lexical meaning of the closing word.",
+            "focus_anchor": "The named throat is a conduit, and the focus verb brings an entity to it.",
+            "activation_trace": [
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Endpoint arrival supplies movement toward the focus conduit."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat supplies the literal bodily passage to which the distant aperture image attaches."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B001",
+                "role": "The split-root image of a narrow opening through which something enters retroactively sharpens the focus as constricted passage."
+              }
+            ],
+            "changed_reading": {
+              "before": "The throat is a named organ at the end of a trajectory.",
+              "after": "As a contained lexical echo, the throat becomes a narrow aperture that exposes how little room remains for passage or reversal."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Verses 84-87 turn terminal arrival into an observed but unmastered handover: human looking cannot disclose the nearer agency, and human power cannot return the focus entity.",
+            "Verses 88-94 recast the throat as a common gate before sharply differentiated receptions rather than as the final destination.",
+            "Verses 77-82 strengthen a secondary delivery-and-voice reading in which discourse and denial are overtaken at the bodily passage that enables response."
+          ],
+          "what_was_special": "The repeated challenge converts one compact anatomical clause into a test of sight, control, jurisdiction, and truth; the later parallel outcomes then reveal the endpoint as a shared threshold. The packet also sustained two contained cross-domain echoes without requiring them to displace the stronger model.",
+          "remaining_uncertainties": [
+            "The feminine entity is not named in the focus ayah, so identifying it more specifically would exceed the focus wording.",
+            "The delivery-and-voice model is structurally supported but remains analogical rather than a grammatical identification of the implicit subject.",
+            "The closing certainty may scope the entire outcome sequence more directly than the throat event itself.",
+            "The cosmic-coordinate and narrow-aperture outliers are branch-driven echoes and should remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Life reaches the limit at the passage of breath and food.** `ب ل غ` **B001** supplies reaching the limit; `ح ل ق` **B001** supplies the throat and passage of food and breath. The packet shifts from arguments about production and ingestion to the bodily bottleneck where those processes stop. **Abductive move:** I infer that the throat marks the boundary beyond which ordinary bodily circulation cannot be maintained. **Reading change:** death is rendered as an arrival at a precise anatomical limit.\n\n2. **A calamity that strips control.** `ب ل غ` **B011** supplies calamity and `ح ل ق` **B009** disaster that strips wealth or people away. **Abductive move:** I infer a co-activation in which reaching the throat strips the observers of practical command, as the following challenge demonstrates. **Reading change:** the bodily event is also dispossession of agency.",
@@ -2989,18 +3660,23 @@
   "root_lexicon": {
     "root_000151": {
       "root_ar": "ب ل غ",
+      "qac_roots_ar": [
+        "ب ل غ"
+      ],
       "root_id": "root_000151",
-      "root_mapping": {
-        "root_id": "root_000151",
-        "root_norm": "ب ل غ",
-        "source_root_norm": "ب ل غ",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 61,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ل غ",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 61
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1703cac6fcb80662b9ce0ef9849e5c0e29f0338b7d42584ddcbc71e581aef033",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6058,18 +6734,23 @@
     },
     "root_000350": {
       "root_ar": "ح ل ق",
+      "qac_roots_ar": [
+        "ح ل ق"
+      ],
       "root_id": "root_000350",
-      "root_mapping": {
-        "root_id": "root_000350",
-        "root_norm": "ح ل ق",
-        "source_root_norm": "ح ل ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ل ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a2b83dc71b23445939b1349075c6f8e6aa4470026216aa04e197f172c3166d96",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9455,14 +10136,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9768,11 +10455,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_83.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_83.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 94026,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9844,19 +10544,37 @@
           "root_ids": [
             "root_000151"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ل غ",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000151",
+            "targets": [
+              {
+                "qac_root_norm": "ب ل غ",
+                "target_rank": 1,
+                "furuq_root_id": "root_000151",
+                "furuq_root_norm": "ب ل غ",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 61,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000151",
-              "root_norm": "ب ل غ",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ل غ",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 61,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9881,19 +10599,37 @@
           "root_ids": [
             "root_000350"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ل ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000350",
+            "targets": [
+              {
+                "qac_root_norm": "ح ل ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000350",
+                "furuq_root_norm": "ح ل ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000350",
-              "root_norm": "ح ل ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ل ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9920,10 +10656,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 25,
+        "dictionary_branches_kept": 25,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 25,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

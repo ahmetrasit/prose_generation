@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:36.280848+00:00",
+  "generated_at": "2026-08-04T22:30:01.176572+00:00",
   "surah": 56,
   "ayah": 67,
   "ayahRef": "56:67",
@@ -1014,7 +1014,8 @@
       "morpheme_ids": [
         "m-w-s056-a067-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:67:1"
+      "aligned_qac_word_ref_upstream": "56:67:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1028,7 +1029,8 @@
       "morpheme_ids": [
         "m-w-s056-a067-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:67:2"
+      "aligned_qac_word_ref_upstream": "56:67:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1042,7 +1044,8 @@
       "morpheme_ids": [
         "m-w-s056-a067-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:67:3"
+      "aligned_qac_word_ref_upstream": "56:67:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1401,7 +1404,459 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_67.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:67",
+      "window": [
+        "56:57",
+        "56:58",
+        "56:59",
+        "56:60",
+        "56:61",
+        "56:62",
+        "56:63",
+        "56:64",
+        "56:65",
+        "56:66",
+        "56:67",
+        "56:68",
+        "56:69",
+        "56:70",
+        "56:71",
+        "56:72",
+        "56:73",
+        "56:74"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:67",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_denied_share",
+            "confidence": "strong",
+            "focus_anchor": "The passive plural noun at focus word 3, following a clause-initial correction, presents the speakers as recipients of a failed allotment.",
+            "mechanism": "The missed-desired-object branch construes the state as an expected good failing to reach its claimants while leaving the object of deprivation open.",
+            "activation_trace": [
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Failure of an expected gift, provision, or desired object supplies the baseline result-state."
+              }
+            ],
+            "changed_reading": {
+              "before": "We have nothing.",
+              "after": "Rather, we are the ones from whom an expected share has failed to arrive."
+            }
+          },
+          {
+            "model_id": "baseline_barred_access",
+            "confidence": "medium",
+            "focus_anchor": "The passive morphology of focus word 3 can encode a state imposed on the first-person plural group while suppressing the blocker.",
+            "mechanism": "The prevention branch turns simple lack into a boundary relation: a good may exist, but the speakers cannot cross into access or use.",
+            "activation_trace": [
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B001",
+                "role": "Active prevention supplies the boundary that converts an empty inventory into barred access."
+              }
+            ],
+            "changed_reading": {
+              "before": "We happen to lack the good.",
+              "after": "We have been placed on the excluded side of access to the good."
+            }
+          },
+          {
+            "model_id": "baseline_protected_claim",
+            "confidence": "exploratory",
+            "focus_anchor": "Focus word 3 shares a root inventory that includes protected right, obligation, and inviolable relation as well as deprivation.",
+            "mechanism": "The speakers' self-description can therefore carry a relational complaint: deprivation is experienced as failure of a claim or bond, not merely low quantity.",
+            "activation_trace": [
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B006",
+                "role": "A protected right or binding relation supplies the possible claim whose breach the deprivation voices."
+              }
+            ],
+            "changed_reading": {
+              "before": "We received no provision.",
+              "after": "We speak as people whose claimed protected share or relation has failed us."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_conversion_gate",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ر ث",
+              "ز ر ع",
+              "ح ط م"
+            ],
+            "mechanism": "The crop sequence locates deprivation at a conversion gate between human preparation and living growth: labor and seed can be present, yet the process can terminate in dry fragments rather than usable yield.",
+            "activation_trace": [
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Failure of the hoped-for return supplies the terminal state named by the focus."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ح ر ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000303",
+                "branch_id": "B002",
+                "role": "Seed-casting and cultivation supply the upstream human input whose presence does not guarantee output."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Growth and development supply the distinct middle operation that the agency question removes from mere tilling."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Brittle matter broken into fragments supplies the explicit failure mode between growth and harvest."
+              }
+            ],
+            "structural_cues": [
+              "56:63-67 runs from cultivation, through a disputed growth operation, to possible destruction, financial lament, and then the corrective focus clause."
+            ],
+            "reader_inference": "The packet supplies labor, growth, and pulverization; I supply the process arrow from input through transformation to yield and place deprivation at the blocked transformation. A live alternative is that the focus names only the missing final crop.",
+            "changed_reading": {
+              "before": "We did not get a harvest.",
+              "after": "Our labor reached the threshold of growth, but the conversion from worked seed to usable yield was withheld."
+            }
+          },
+          {
+            "model_id": "delta_cost_without_return",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ر م"
+            ],
+            "mechanism": "The immediately preceding financial burden makes the focus the second side of a failed exchange: cost remains attached to the workers while the expected return is absent.",
+            "activation_trace": [
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "The denied expected good supplies the missing return."
+              },
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B001",
+                "role": "A financial liability that clings to its bearer supplies the unrecovered cost side of the exchange."
+              }
+            ],
+            "structural_cues": [
+              "56:66 and 56:67 are adjacent first-person plural nominal diagnoses, and the latter corrects or surpasses the former."
+            ],
+            "reader_inference": "The packet supplies binding loss immediately before denied provision; I infer that incurred cost creates an expected return which deprivation cancels. The alternative is simple escalation between two independent laments.",
+            "changed_reading": {
+              "before": "We are merely empty-handed.",
+              "after": "We bear the cost of production while being cut off from its return."
+            }
+          },
+          {
+            "model_id": "delta_withheld_authorship",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق",
+              "ن ش ء",
+              "ز ر ع",
+              "ر ب ب"
+            ],
+            "mechanism": "Repeated contrasts separate human handling from origination, growth, and completion. The prevention branch can thus make the focus a confession of excluded productive authorship, not only excluded possession.",
+            "activation_trace": [
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B001",
+                "role": "Prevention supplies exclusion from a domain of action or control."
+              },
+              {
+                "source_ref": "56:59",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination into existence supplies the first decisive operation denied to the human side of the contrast."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Bringing a thing into a new existence extends the withheld operation beyond the crop episode."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Causing growth distinguishes decisive productive agency from visible agricultural handling."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture, repair, and completion gather the separated operations under an agent who brings processes to term."
+              }
+            ],
+            "structural_cues": [
+              "The repeated you-or-We questions at 56:59, 56:64, 56:69, and 56:72 relocate decisive agency while the focus itself begins with a corrective first-person plural."
+            ],
+            "reader_inference": "The packet supplies repeated agent contrasts and branches for origination, growth, and completion; I infer that being barred can target authorship and control as well as goods. The alternative is that agency questions explain only who controls the outcome, leaving the focus strictly material.",
+            "changed_reading": {
+              "before": "We were denied the product.",
+              "after": "We discover that we are barred from claiming the decisive agency that turns our handling into a finished product."
+            }
+          },
+          {
+            "model_id": "delta_resource_chain",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ه",
+              "ن ز ل",
+              "و ر ي",
+              "م ت ع"
+            ],
+            "mechanism": "The following water and fire episodes generalize the crop failure into a chain of supplied conversions: a resource must arrive, become accessible, be released from a carrier, and become useful. Deprivation can occur at any gate even when human use is visible at the end.",
+            "activation_trace": [
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "The desired provision that fails to reach a claimant supplies the recurring endpoint."
+              },
+              {
+                "source_ref": "56:68",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Water conveyed for use supplies a prerequisite that must reach the user before benefit is possible."
+              },
+              {
+                "source_ref": "56:69",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2",
+                  "7"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Delivery from above supplies the transfer gate by which an available resource becomes locally accessible."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "و ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001642",
+                "branch_id": "B002",
+                "role": "Latent fire released from its carrier supplies a second transformation from hidden capacity to usable energy."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "م ت ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001395",
+                "branch_id": "B003",
+                "role": "A means useful for need and subsistence supplies the practical endpoint shared by crop, water, and fire."
+              }
+            ],
+            "structural_cues": [
+              "After the focus, the inspect, agency-question, possible-alteration pattern restarts for water and then fire."
+            ],
+            "reader_inference": "The packet supplies delivery, release, and utility in parallel resource episodes; I infer homologous conversion gates and read the focus as one instance of dependency across the chain. The alternative is that the later episodes repeat the argument without enlarging the focus term.",
+            "changed_reading": {
+              "before": "One harvest has been denied to us.",
+              "after": "Our deprivation exposes dependence on every transfer that makes a resource present, usable, and sustaining."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_hardened_unusable",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it moves from social deprivation to material condition. It remains anchored in the focus inventory's withheld-softness branch, the crop's brittle fragmentation, and the later example of present but unusable water. Render it only as a material analogy for failed usability, not as the lexical translation of the focus word.",
+            "focus_anchor": "Focus word 3 can activate a branch in which softness is withheld and a thing remains unyielding.",
+            "activation_trace": [
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B002",
+                "role": "Withheld softness supplies the unusual material state through which deprivation is imagined."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Brittle fragmentation gives that unsoftened state a visible crop-scale failure mode."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ء ج ج",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000014",
+                "branch_id": "B003",
+                "role": "Saline bitter water supplies the parallel case of a resource that is present yet unusable."
+              }
+            ],
+            "changed_reading": {
+              "before": "The desired product is absent.",
+              "after": "The product may be materially present yet locked into a brittle or unusable condition, making presence itself a form of deprivation."
+            }
+          },
+          {
+            "outlier_id": "outlier_claim_under_audit",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it reads the lament as a claim about a breached relation rather than a report of inventory. It remains anchored in the focus root's protected-right branch, with surrounding cues for validating a material right and acknowledging benefit. Downstream prose should present it as discourse posture under examination, not as proof that the speakers possess a valid entitlement.",
+            "focus_anchor": "The focus root permits deprivation to resonate with a protected claim, obligation, or relation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B006",
+                "role": "A protected right or binding relation supplies the juridical coloring of the speakers' complaint."
+              },
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B006",
+                "role": "A material due or right supplies an accounting frame that can test the complaint's asserted claim."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B001",
+                "role": "Recognition of benefit and its giver supplies the reciprocal posture against which the deprivation claim is heard."
+              }
+            ],
+            "changed_reading": {
+              "before": "We did not receive a share.",
+              "after": "Our cry of deprivation stakes a claim about a breached due relation while the surrounding discourse audits the legitimacy of that claim."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The crop sequence shifts generic lack into a blocked conversion from labor and seed to living, usable yield.",
+            "The adjacent financial-burden clause makes deprivation cost without return rather than empty-handedness alone.",
+            "Repeated agent contrasts expand denied possession into possible exclusion from decisive productive control."
+          ],
+          "what_was_special": "The bare focus clause acts as a hinge: its objectless deprivation can absorb the local crop mechanism and then echo across water and fire without collapsing those episodes into one object.",
+          "remaining_uncertainties": [
+            "The focus may still name only final material shortfall rather than the blocked process or excluded agency inferred from the sequence.",
+            "The protected-claim and material-hardening readings are branch-grounded but remain analogical and should not displace the strong deprivation sense."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Correction from liability to deprivation.** `ح ر م` **B008** supplies deprivation and missing what was sought. `بل` revises 56:66: the deeper condition is not merely debt but exclusion from yield. **Abductive move:** I infer a diagnostic escalation from consequence to absent access. **Reading change:** their loss is framed as being barred from the intended provision.\n\n2. **Outside a protected productive boundary.** `ح ر م` **B003** supplies inviolable precinct and protected bounds. The right-side garden earlier had unblocked fruit; here the speakers stand beyond productive protection. **Abductive move:** I infer a spatial branch of exclusion from the contrast, without positing a literal precinct. **Reading change:** deprivation becomes failed inclusion within a sustaining order.",
@@ -2605,18 +3060,23 @@
   "root_lexicon": {
     "root_000313": {
       "root_ar": "ح ر م",
+      "qac_roots_ar": [
+        "ح ر م"
+      ],
       "root_id": "root_000313",
-      "root_mapping": {
-        "root_id": "root_000313",
-        "root_norm": "ح ر م",
-        "source_root_norm": "ح ر م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 82,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ر م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 82
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "be37825d02ffa4c5707e7ab20ae03d7282359b83c3883602baf11116679ef5ab",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5771,14 +6231,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6039,11 +6505,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_67.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_67.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 88689,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6115,19 +6594,37 @@
           "root_ids": [
             "root_000313"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ر م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000313",
+            "targets": [
+              {
+                "qac_root_norm": "ح ر م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000313",
+                "furuq_root_norm": "ح ر م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 82,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000313",
-              "root_norm": "ح ر م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ر م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 82,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6154,10 +6651,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 13,
+        "dictionary_branches_kept": 13,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 13,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.027651+00:00",
+  "generated_at": "2026-08-04T22:29:58.546541+00:00",
   "surah": 56,
   "ayah": 16,
   "ayahRef": "56:16",
@@ -980,7 +980,8 @@
       "morpheme_ids": [
         "m-w-s056-a016-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:16:1"
+      "aligned_qac_word_ref_upstream": "56:16:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -996,7 +997,8 @@
         "m-w-s056-a016-w002-01",
         "m-w-s056-a016-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:16:2"
+      "aligned_qac_word_ref_upstream": "56:16:2",
+      "morpheme_skip_count": 0
     },
     null
   ],
@@ -1607,7 +1609,856 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_16.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:16",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:16",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_supported_reciprocity",
+            "confidence": "strong",
+            "focus_anchor": "Word 1 makes the bodies dependent on support; word 3 directs the plural toward one another.",
+            "mechanism": "Bodily reliance removes the need to brace oneself, while reciprocal facing keeps each person present to the others; rest is socially oriented rather than withdrawn.",
+            "activation_trace": [
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B004",
+                "role": "Literal reclining on a support supplies stable bodily repose."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Literal face-to-face orientation makes that repose reciprocal rather than withdrawn."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B009",
+                "role": "A group whose members turn toward one another expands the posture into a plural social assembly."
+              }
+            ],
+            "changed_reading": {
+              "before": "People recline in comfort.",
+              "after": "Their comfort is arranged as reciprocal presence: supported bodies remain turned toward one another."
+            }
+          },
+          {
+            "model_id": "b_receptive_encounter",
+            "confidence": "medium",
+            "focus_anchor": "The supported posture at word 1 combines with acceptance and reception branches of word 3.",
+            "mechanism": "Support frees each person from defensive effort, and facing becomes availability to receive and accept the other.",
+            "activation_trace": [
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B004",
+                "role": "Reliance on a support supplies an unguarded bodily condition."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B004",
+                "role": "Acceptance with satisfaction turns visual facing into willing interpersonal reception."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B007",
+                "role": "Receiving what comes outward supplies the encounter's receptive function."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse specifies a comfortable orientation.",
+              "after": "The orientation also stages reciprocal receptivity: each is at rest and available to the other's presence."
+            }
+          },
+          {
+            "model_id": "b_held_assembly",
+            "confidence": "exploratory",
+            "focus_anchor": "The container branches of word 1 and the joined-opposites branch of word 3 remain rooted in the two focus forms.",
+            "mechanism": "Binding and retained fullness combine with connected opposing parts to image the plural as a held assembly whose facing differences preserve cohesion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B001",
+                "role": "Tying a vessel supplies containment as an exploratory image for the gathered plural."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B007",
+                "role": "Fullness held without escape makes containment positive rather than constrictive."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B010",
+                "role": "Joined parts that oppose one another make mutual difference a means of assembly."
+              }
+            ],
+            "changed_reading": {
+              "before": "A seated group occupies supports.",
+              "after": "The plural can be imaged as a full, held assembly whose distinct facing members keep the whole from dispersing."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "c_recomposed_stability",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ج ج",
+              "ب س س",
+              "ج ب ل",
+              "ب ث ث",
+              "و ض ن"
+            ],
+            "mechanism": "The old world's hard vertical support is shaken, mixed, and scattered, while the new support is tightly interwoven and bears a mutually connected assembly.",
+            "activation_trace": [
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Violent agitation supplies the failure of prior stability."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Breaking, wetting, and mixing supplies material disassembly."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Elevated hard mass identifies the monolithic support that is dismantled."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering supplies the endpoint against which the held group is read."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tight interweaving supplies the construction of the replacement support."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B004",
+                "role": "Reclining anchors the changed model in bodily dependence on that new support."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B010",
+                "role": "Connected opposing parts transfer interwoven stability into the social arrangement."
+              }
+            ],
+            "structural_cues": [
+              "56:4-6 moves from shaking through hard mass to dispersed matter; 56:15 supplies the plural woven supports referred to by عَلَيْهَا."
+            ],
+            "reader_inference": "The packet supplies failed solidity, dispersion, and tightly woven seats; I infer a replacement from monolithic to relational support, while the live alternative is a simple catastrophe-versus-comfort contrast.",
+            "changed_reading": {
+              "before": "Reclining indicates luxury and ease.",
+              "after": "Reclining marks recomposed stability after the world's solid supports fail: security is now woven and relational."
+            }
+          },
+          {
+            "model_id": "c_rank_to_reciprocity",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ف ض",
+              "ر ف ع",
+              "ز و ج",
+              "س ب ق",
+              "ق ر ب"
+            ],
+            "mechanism": "Lowering and raising establish a vertical field, sorting and precedence establish categorical and linear rank, but the endpoint arranges the elevated-near group laterally toward one another.",
+            "activation_trace": [
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Lowering after height supplies one axis of status reversal."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of standing supplies the opposing status axis."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B004",
+                "role": "A class or kind supplies categorical sorting."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Advancing in a race supplies linear precedence."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The privileged near circle supplies elevated access and intimacy."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Mutual facing converts the endpoint from a single forward direction into reciprocal orientation."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B009",
+                "role": "The inward-turning group supplies a lateral social form for those distinctions."
+              }
+            ],
+            "structural_cues": [
+              "56:3, 56:7, and 56:10-11 successively mark reversal, classes, precedence, and nearness before 56:16 gives the group's internal orientation."
+            ],
+            "reader_inference": "The packet supplies vertical, categorical, and linear rank; I infer that reciprocal facing changes how achieved rank is inhabited rather than erasing it, while the alternative is that facing is merely furniture layout for an unchanged hierarchy.",
+            "changed_reading": {
+              "before": "The foremost occupy an honored resting place.",
+              "after": "Their distinction culminates in mutual recognition: elevated status is inhabited as a face-to-face circle, not only as position ahead of others."
+            }
+          },
+          {
+            "model_id": "c_temporal_co_presence",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ل ل",
+              "ء و ل",
+              "ق ل ل",
+              "ء خ ر"
+            ],
+            "mechanism": "A gathered cohort split between first and later times is converted from temporal succession and unequal count into a shared present of mutual facing.",
+            "activation_trace": [
+              {
+                "source_ref": "56:13",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "A gathered group supplies the plural body that can span temporal cohorts."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence supply the earlier temporal pole."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B006",
+                "role": "The split mapping's turning of the face sharpens the move from firstness into encounter."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Small number preserves demographic asymmetry inside the gathered scene."
+              },
+              {
+                "source_ref": "56:14",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the second temporal pole."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "The before-and-after branch keeps temporal ordering active inside the focus root."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Literal mutual facing spatializes those separated times as co-presence."
+              }
+            ],
+            "structural_cues": [
+              "56:13-14 contrasts a group of the first with a few of the later immediately before the seating description."
+            ],
+            "reader_inference": "The packet supplies gathered plurality, firstness, laterness, scarcity, and a split face-turning branch; I infer that the participles gather separated times into one encounter, while the alternative is a count report only and the split branch is form-distant.",
+            "changed_reading": {
+              "before": "Members of the group happen to sit facing one another.",
+              "after": "Mutual facing makes earlier and later members contemporaries in one social present without flattening their unequal numbers."
+            }
+          },
+          {
+            "model_id": "c_orbital_center",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ط و ف"
+            ],
+            "mechanism": "Stationary supported people face inward while service moves around them, producing a stable reciprocal center and a circulating outer path.",
+            "activation_trace": [
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Circling around something supplies the mobile outer path."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B004",
+                "role": "Supported reclining fixes the people as the scene's stable center."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Their mutual facing gives that center an inward relational orientation."
+              }
+            ],
+            "structural_cues": [
+              "56:17 changes from the stationary plural participles to movement around the plural pronoun عَلَيْهِمْ."
+            ],
+            "reader_inference": "The packet supplies mutual facing and motion around the group; I infer a center-periphery geometry, while the live alternative is attendants moving individually without a literal ring.",
+            "changed_reading": {
+              "before": "They recline while attendants serve them.",
+              "after": "They form a stable inward-facing center around which provision circulates."
+            }
+          },
+          {
+            "model_id": "c_intact_vessel",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ك و ب",
+              "ك ء س",
+              "ع ي ن",
+              "ص د ع"
+            ],
+            "mechanism": "The focus root's tied and full vessel images meet cups, a filled cup, a running source, and non-rupture, making repose resonate as secure containment with replenishing flow.",
+            "activation_trace": [
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B001",
+                "role": "A tied vessel supplies the exploratory containment image."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B007",
+                "role": "Retained fullness makes containment compatible with abundance."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B014",
+                "role": "Watering at mouths links facing bodies to an active drinking arrangement."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ك و ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001328",
+                "branch_id": "B001",
+                "role": "The handleless cup supplies an open vessel in circulation."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ك ء س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001277",
+                "branch_id": "B001",
+                "role": "The cup defined with its contents makes vessel and fullness inseparable."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A running spring supplies replenishing flow."
+              },
+              {
+                "source_ref": "56:19",
+                "root": "ص د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000850",
+                "branch_id": "B001",
+                "role": "The negated split in something solid supplies bodily integrity under that flow."
+              }
+            ],
+            "structural_cues": [
+              "56:18 stages vessels and a source; 56:19 negates splitting and, through branchless ن ز ف at word 5, depletion."
+            ],
+            "reader_inference": "The packet supplies vessel, fullness, source, non-splitting, and non-depletion images; I transfer their containment schema to the recliners and their assembly, while the live alternative is only lexical resonance within a drinking scene.",
+            "changed_reading": {
+              "before": "The recliners drink without ill effect.",
+              "after": "Their repose resonates as intact, replenished containment: abundance circulates without rupturing or draining bodies or assembly."
+            }
+          },
+          {
+            "model_id": "c_recompense_correspondence",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ز ي",
+              "ع م ل"
+            ],
+            "mechanism": "The correspondence of act and recompense, sharpened by a split-root image of cutting a portion, makes mutual facing an embodied and delimited answer to prior action.",
+            "activation_trace": [
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Matching an act with its recompense supplies explicit reciprocal correspondence."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000242",
+                "branch_id": "B001",
+                "role": "The split mapping's cutting image supplies a bounded portion rather than diffuse luxury."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action supplies the prior term answered by the scene."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Face-to-face correspondence spatializes the packet's act-and-return relation."
+              }
+            ],
+            "structural_cues": [
+              "56:24 explicitly presents the preceding scene as recompense for what they used to do."
+            ],
+            "reader_inference": "The packet supplies act, matching recompense, a split cutting branch, and spatial correspondence; I read the arrangement as a lived answer and the cut as delimitation, while the alternative is that 56:24 gives cause only and the split branch is inactive.",
+            "changed_reading": {
+              "before": "Mutual facing is one feature of the reward.",
+              "after": "The facing arrangement itself images responsive justice: a measured lived return answers prior action."
+            }
+          },
+          {
+            "model_id": "c_safe_speech",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و",
+              "ء ث م",
+              "س ل م"
+            ],
+            "mechanism": "Face-to-face exposure becomes safe because speech is selectively contained: false or noisy utterance and blame-loading do not circulate, while safety and reconciliation do.",
+            "activation_trace": [
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B002",
+                "role": "Holding back and closing speech supplies selective verbal restraint."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B004",
+                "role": "Acceptance with satisfaction gives mutual facing a receptive rather than adversarial quality."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory perception makes the social environment depend on what can circulate between listeners."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "Negated false and ugly speech removes one threat of direct encounter."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ء ث م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000013",
+                "branch_id": "B004",
+                "role": "Negated loading of guilt removes accusation from the facing assembly."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Repeated safety supplies the positive content that replaces harmful speech."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Reconciliation against conflict makes reciprocal attention socially sustainable."
+              }
+            ],
+            "structural_cues": [
+              "56:25 negates hearing idle speech and blame; 56:26 makes repeated peace the exception."
+            ],
+            "reader_inference": "The packet supplies a focus branch of closed speech, negated harmful hearing, and repeated peace; I infer a selective speech filter rather than silence, while the alternative is that the acoustic description does not define the facing posture.",
+            "changed_reading": {
+              "before": "They can look at one another without conflict.",
+              "after": "Their mutual exposure is secured by a speech ecology: accusation and noise are withheld, while peace alone is allowed to pass face to face."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_woven_social_textile",
+            "confidence": "medium",
+            "containment": "This is surprising because it transfers textile construction from the seats to the people; it remains valid because عَلَيْهَا links the posture to those seats and QBL-B010 itself joins opposing parts. Render it only as a material-social analogy, not as the lexical definition of the verse.",
+            "focus_anchor": "Word 1 depends on the woven supports of 56:15, and word 3 has a branch of connected parts set opposite one another.",
+            "activation_trace": [
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "A place of settlement and reclining identifies the material support."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tight interweaving supplies the textile construction transferred by analogy."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B004",
+                "role": "Reclining physically couples the people to the woven material."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B010",
+                "role": "Joined opposed parts make face-to-face difference function like an interlaced structure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Woven seats support separately reclining people.",
+              "after": "The seating fabric mirrors a social fabric: distinct people hold together through reciprocal opposition."
+            }
+          },
+          {
+            "outlier_id": "o_pearl_face_attraction",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it transfers a charm-bead subbranch to human orientation; it remains anchored in QBL-B016 and the later pearl material. Render it only as attraction-like resonance, never as magic, etymology, or literal causation.",
+            "focus_anchor": "Word 3 contains a bead image that turns one face toward a companion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B016",
+                "role": "A bead that turns one face toward another supplies an attraction-like mechanism for mutual orientation."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ل ء ل ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001337",
+                "branch_id": "B001",
+                "role": "The literal pearl supplies nearby jewel material that activates the focus root's bead image."
+              }
+            ],
+            "changed_reading": {
+              "before": "They deliberately orient their bodies toward one another.",
+              "after": "Exploratorily, their faces seem drawn into reciprocal orientation, as though mutual presence itself exerts attraction."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Material collapse and woven support revise reclining into recomposed stability.",
+            "Rank and temporal separation are converted into a face-to-face social present.",
+            "Circulation, recompense, and filtered speech turn the posture into an operating social order."
+          ],
+          "what_was_special": "The packet repeatedly made the two quiet participles functional: support became an answer to dispersion, and facing became the geometry of reciprocity, co-presence, circulation, and safe speech.",
+          "remaining_uncertainties": [
+            "The textile and vessel transfers may be diagnostic analogies rather than active scene mechanisms.",
+            "Mutual facing may reconfigure rank without reducing it.",
+            "The first and later cohorts are grammatically gathered, but how directly the verse foregrounds cross-temporal encounter remains uncertain."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Reliance held in reciprocal visibility.** `و ك ء` **B004** supplies leaning on support and `ق ب ل` **B001** facing one thing toward another; the participial pairing assigns physical support and social orientation simultaneously. **Abductive move:** I infer that the couches carry bodily strain so attention can be directed toward companions. **Reading change:** repose is relationally open, not solitary withdrawal.\n\n2. **A mutually receiving group.** `ق ب ل` **B004** supplies receiving with acceptance and **B009** a mutually facing group. The later absence of harmful speech and repetition of peace (56:25–26) supplies the social effect. **Abductive move:** I infer that face-to-face geometry enables reciprocal reception and blocks concealed antagonism. **Reading change:** `متقابلين` describes an accepted social order as well as posture.",
@@ -2584,18 +3435,23 @@
   "root_lexicon": {
     "root_001678": {
       "root_ar": "و ك ء",
+      "qac_roots_ar": [
+        "و ك ء"
+      ],
       "root_id": "root_001678",
-      "root_mapping": {
-        "root_id": "root_001678",
-        "root_norm": "و ك ء",
-        "source_root_norm": "و ك أ",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 9,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ك ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 9
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e06203bec85ed500e0fa2fd9f426941a24f2676aead97aaae782980093b630f7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -3871,18 +4727,23 @@
     },
     "root_001198": {
       "root_ar": "ق ب ل",
+      "qac_roots_ar": [
+        "ق ب ل"
+      ],
       "root_id": "root_001198",
-      "root_mapping": {
-        "root_id": "root_001198",
-        "root_norm": "ق ب ل",
-        "source_root_norm": "ق ب ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 288,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ب ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 288
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "56d95fdacdabd3a8f6caef7f736a82672b72c1e2e67cef0dc9018a9d5ad9d415",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7136,6 +7997,11 @@
       "words_total": 3,
       "words_resolved": 2,
       "words_unresolved": 1,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [
         {
           "word_index": 2,
@@ -7146,10 +8012,11 @@
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7465,11 +8332,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_16.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_16.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 95201,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7542,19 +8422,37 @@
           "root_ids": [
             "root_001678"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ك ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001678",
+            "targets": [
+              {
+                "qac_root_norm": "و ك ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_001678",
+                "furuq_root_norm": "و ك ء",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 9,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001678",
-              "root_norm": "و ك ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ك ء",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 9,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7579,19 +8477,37 @@
           "root_ids": [
             "root_001198"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ب ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001198",
+            "targets": [
+              {
+                "qac_root_norm": "ق ب ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001198",
+                "furuq_root_norm": "ق ب ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 288,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001198",
-              "root_norm": "ق ب ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ب ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 288,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7618,10 +8534,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 23,
+        "dictionary_branches_kept": 23,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 16,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

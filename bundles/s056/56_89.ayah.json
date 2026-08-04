@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.681425+00:00",
+  "generated_at": "2026-08-04T22:30:02.397144+00:00",
   "surah": 56,
   "ayah": 89,
   "ayahRef": "56:89",
@@ -2024,7 +2024,8 @@
       "morpheme_ids": [
         "m-w-s056-a089-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:89:1"
+      "aligned_qac_word_ref_upstream": "56:89:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2038,7 +2039,8 @@
       "morpheme_ids": [
         "m-w-s056-a089-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:89:2"
+      "aligned_qac_word_ref_upstream": "56:89:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2052,7 +2054,8 @@
       "morpheme_ids": [
         "m-w-s056-a089-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:89:3"
+      "aligned_qac_word_ref_upstream": "56:89:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2066,7 +2069,8 @@
       "morpheme_ids": [
         "m-w-s056-a089-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:89:4"
+      "aligned_qac_word_ref_upstream": "56:89:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2080,7 +2084,8 @@
       "morpheme_ids": [
         "m-w-s056-a089-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:89:5"
+      "aligned_qac_word_ref_upstream": "56:89:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2094,7 +2099,8 @@
       "morpheme_ids": [
         "m-w-s056-a089-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:89:6"
+      "aligned_qac_word_ref_upstream": "56:89:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2108,7 +2114,8 @@
       "morpheme_ids": [
         "m-w-s056-a089-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:89:7"
+      "aligned_qac_word_ref_upstream": "56:89:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2904,7 +2911,643 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_89.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:89",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:89",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_relief_to_habitat",
+            "confidence": "strong",
+            "focus_anchor": "The coordinated sequence رَوْحٌ وَرَيْحَانٌ وَجَنَّتُ نَعِيمٍ moves through two forms of ر و ح into a garden qualified by ن ع م.",
+            "mechanism": "The sequence expands from regained ease and breathable freshness, through aromatic or vegetal sustenance, into an enclosing garden whose defining condition is good life. The conjunctions stage widening scales rather than three unrelated prizes.",
+            "activation_trace": [
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B007",
+                "role": "Rest after fatigue supplies the immediate release that begins the widening sequence."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "Moving air supplies breathable freshness and gives the second noun a sensory bridge."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B012",
+                "role": "The plant and leaf sense turns freshness into tangible sustenance before the garden appears."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A tree-screened garden supplies the encompassing habitat toward which the first two gifts expand."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and benefaction make flourishing, not mere enclosure, the habitat's governing quality."
+              }
+            ],
+            "changed_reading": {
+              "before": "A flat list of relief, fragrance or provision, and a blissful garden.",
+              "after": "An ordered expansion from inward release to sensed freshness, nourishing growth, and finally an all-enclosing condition of good life."
+            }
+          },
+          {
+            "model_id": "baseline_sheltered_ease",
+            "confidence": "medium",
+            "focus_anchor": "رَوْحٌ opens space, while جَنَّتُ and نَعِيمٍ combine enclosure with ease.",
+            "mechanism": "Relief is spatialized as decompression into a protected enclosure. Concealment and shielding do not negate openness: they provide the boundary within which softness, ease, and fitting settlement can persist.",
+            "activation_trace": [
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B009",
+                "role": "Physical spaciousness turns relief into an opening-out from prior constriction."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment supplies the garden's bounded and sheltered interior."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective covering makes the enclosure a refuge rather than merely hidden terrain."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease of living describe the protected interior's felt texture."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A place fitting its occupant turns bliss into durable settlement rather than a passing sensation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Relief followed by entry into a pleasant garden.",
+              "after": "Relief as protected decompression: an opened interior whose enclosure preserves ease and whose place fits the one received."
+            }
+          },
+          {
+            "model_id": "baseline_vital_regrowth",
+            "confidence": "exploratory",
+            "focus_anchor": "The repeated ر و ح root can carry life and renewed vegetation into the densely growing sense of ج ن ن.",
+            "mechanism": "The nouns can form a miniature regeneration ecology: life, the budding or elongation of vegetation, growth dense enough to enclose, and a resulting good condition. This reads the line dynamically as renewed vitality rather than only as an inventory of rewards.",
+            "activation_trace": [
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B001",
+                "role": "Life or animating spirit supplies the initial vital principle."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B017",
+                "role": "Trees breaking into leaf and plants lengthening convert vitality into visible regrowth."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B011",
+                "role": "Thickening and interlacing vegetation turns regrowth into an enveloping living environment."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Beneficent good condition names the stable result of the regeneration process."
+              }
+            ],
+            "changed_reading": {
+              "before": "A person receives several pleasant objects after death.",
+              "after": "The person enters a process of renewed vitality that leafs out, gathers into dense living cover, and stabilizes as flourishing."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_protected_access",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ن ن",
+              "م س س",
+              "ط ه ر"
+            ],
+            "mechanism": "The earlier protected container, restricted contact, and purification sequence strengthens the garden's concealment as access-preserving protection. جَنَّتُ becomes an interior whose hiddenness marks guarded availability, not absence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment anchors the focus garden as a hidden interior."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B008",
+                "role": "Protective covering gives that hidden interior an access-preserving boundary."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment supplies the prior pattern of something valuable kept intact by being covered."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Literal contact makes access to the protected thing a bodily threshold rather than an abstract idea."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Cleansing from impurity supplies the condition paired with crossing that access threshold."
+              }
+            ],
+            "structural_cues": [
+              "56:78-79 places protective concealment, restricted contact, and purification in sequence before the death scene."
+            ],
+            "reader_inference": "The packet supplies protected concealment, literal contact, and cleansing; I infer an access pattern echoed by جَنَّتُ, while the live alternative is that the earlier pattern concerns only the protected book.",
+            "changed_reading": {
+              "before": "The garden is simply a pleasant destination.",
+              "after": "The garden is a guarded interior: hiddenness preserves what is offered and marks a transformed mode of access."
+            }
+          },
+          {
+            "model_id": "delta_received_provision",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ز ل",
+              "ر ز ق"
+            ],
+            "mechanism": "Delivery, provision, and the later explicit guest-arrival provision recast the focus sequence as reception prepared for one who has crossed the death threshold. The vegetal sense of رَيْحَانٌ becomes received sustenance, while the garden is the lodging-scale completion of that reception.",
+            "activation_trace": [
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B012",
+                "role": "Plant and leaf imagery makes the middle gift concrete as fresh provision."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Benefaction supplies the giving relation that unifies provision and lodging."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Caused descent and delivery establish a movement in which a gift reaches its recipients."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B002",
+                "role": "Nutritive sustenance sharpens رَيْحَانٌ from pleasant scent alone into provision."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared provision for an arriving guest supplies the explicit reception frame used contrastively after the focus."
+              }
+            ],
+            "structural_cues": [
+              "56:80 and 56:82 couple delivery with provision, while 56:93 names the opposing outcome as prepared arrival provision.",
+              "The parallel outcome clauses after 56:88 and 56:92 invite contrast between two receptions."
+            ],
+            "reader_inference": "The packet supplies delivery, sustenance, and an explicit hostile arrival provision; I infer that the parallel focus clause presents the favorable reception without repeating its label, while the alternative is a non-hospitality list of independent rewards.",
+            "changed_reading": {
+              "before": "Three static benefits await the brought-near person.",
+              "after": "The three nouns are a staged welcome: immediate relief, fresh provision, and a fitting lodging, set against the hostile reception named later."
+            }
+          },
+          {
+            "model_id": "delta_breath_threshold",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ل ق",
+              "ق ر ب",
+              "ب ص ر",
+              "ر ج ع"
+            ],
+            "mechanism": "The movement to the throat, the unseen nearer presence, and the failed challenge to return what has reached that point activate رَوْحٌ as life-breath at an irreversible threshold. Relief is no longer only a later emotion; it is the new disposition of the life that observers cannot restore.",
+            "activation_trace": [
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B001",
+                "role": "Animating life or spirit supplies the entity implicated by the threshold scene."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B007",
+                "role": "Rest after strain supplies the changed condition assigned to that life beyond the threshold."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as the passage of breath gives the death scene a precise bodily bottleneck."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness supplies a second presence at the threshold, closer than the visible attendants."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Ordinary eyesight supplies the failed perceptual channel that cannot register the nearer presence."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return to the prior state supplies the challenged but unavailable reversal of the passage."
+              }
+            ],
+            "structural_cues": [
+              "56:83-87 moves from the throat to watching, unseen nearness, and the challenge to return what has reached the threshold.",
+              "The result clause in 56:89 follows immediately after the classification in 56:88."
+            ],
+            "reader_inference": "The packet supplies a breath passage, unseen nearness, and an impossible return; I infer that the unstated entity is activated by the focus root's life sense and that its passage opens into rest, while the live alternative reads رَوْحٌ only as relief with no reference to life-breath.",
+            "changed_reading": {
+              "before": "Relief begins after an otherwise undescribed death.",
+              "after": "At the throat's irreversible boundary, the life that witnesses cannot return is received into a new mode: released from strain, freshened, and enclosed in flourishing."
+            }
+          },
+          {
+            "model_id": "delta_nearness_as_habitat",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق ر ب"
+            ],
+            "mechanism": "Two modes of nearness converge: an unseen presence is nearer during dying, then the person is identified among those granted privileged nearness. The focus garden can therefore spatialize a relation; it is the fitting habitat-form of being brought near, not merely a separate prize added afterward.",
+            "activation_trace": [
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The encompassing garden supplies a concrete environment for the relation of nearness."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A place fitting its occupant makes the environment correspond to the person's new rank."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Direct proximity supplies the relational field already present at the dying person's side."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Privileged closeness to a sovereign supplies the social rank that the focus outcome embodies spatially."
+              }
+            ],
+            "structural_cues": [
+              "56:88 names the brought-near class and 56:89 gives its immediate nominal outcome.",
+              "56:85 has already placed unseen nearness inside the death scene."
+            ],
+            "reader_inference": "The packet supplies physical nearness, privileged rank, and an immediately following garden; I infer that the destination embodies the relation rather than merely rewarding it, while the alternative keeps rank and location as independent benefits.",
+            "changed_reading": {
+              "before": "A high-ranked person is subsequently awarded a garden.",
+              "after": "The garden is nearness made habitable: an enclosing environment fitted to the relation already disclosed at the deathbed."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_death_named_as_relief",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the root's euphemistic death sense inside a noun normally read as relief. It remains anchored in رَوْحٌ and in the throat-and-nonreturn sequence, but downstream prose should present it as a lexical activation: the transition itself may be named as release, not as the preferred direct gloss.",
+            "focus_anchor": "رَوْحٌ can activate both release from strain and death expressed through the language of giving rest.",
+            "activation_trace": [
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B016",
+                "role": "Death expressed as causing rest fuses the boundary event with the relief it brings."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The breath passage locates that release at the bodily edge of dying."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "The unavailable return confirms the transition's irreversibility and keeps the activation tied to this scene."
+              }
+            ],
+            "changed_reading": {
+              "before": "Death occurs first and relief is a later reward.",
+              "after": "The death transition itself may be voiced as the act of release, with fragrance and garden unfolding what that release opens into."
+            }
+          },
+          {
+            "outlier_id": "outlier_hidden_yet_sensed",
+            "confidence": "medium",
+            "containment": "This is a cross-sensory composition: what sight and touch cannot reach is nevertheless anticipated through air and scent. It remains anchored in the breeze, odor, and concealment branches of the focus roots plus the explicit failures of touch and sight; prose should qualify it as a sensory model suggested by their juxtaposition, not a claim that the verse states literal fragrance crossing a barrier.",
+            "focus_anchor": "رَوْحٌ وَرَيْحَانٌ can signal moving air and scent while جَنَّتُ signals what is screened from view.",
+            "activation_trace": [
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "Moving air supplies a medium that can be felt without revealing the hidden source."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B004",
+                "role": "Odor and fragrant perception let welcome register through a nonvisual sense."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B001",
+                "role": "Concealment keeps the destination screened even as its effects become perceptible."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Restricted bodily contact supplies one unavailable mode of access."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Failed eyesight supplies the other unavailable mode against which breeze and scent become salient."
+              }
+            ],
+            "changed_reading": {
+              "before": "The unseen garden is simply absent from the witnesses' perception.",
+              "after": "The hidden reception is modeled as perceptually selective: screened from sight and touch, yet announced to the crossing person as breath, breeze, and fragrance."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The throat, unseen nearness, and failed return sequence turns generic relief into a reading of life-breath crossing an irreversible threshold.",
+            "Delivery, provision, and the opposing nuzul turn the three focus nouns into a staged reception: release, fresh sustenance, and fitting lodging.",
+            "Repeated nearness and protected concealment make the garden both a guarded mode of access and the habitat-form of being brought near."
+          ],
+          "what_was_special": "The two adjacent forms from ر و ح make one compact hinge capable of holding life, released breath, rest, breeze, scent, and vegetation before جَنَّتُ gathers those scales into an enclosing environment of نَعِيم.",
+          "remaining_uncertainties": [
+            "The life-spirit sense of رَوْحٌ is strongly activated by the death scene but need not displace the direct relief sense.",
+            "The protected-access echo from the concealed book to the garden may be a deliberate pericope pattern or only a productive structural analogy.",
+            "The hospitality reading depends on carrying the explicit nuzul of 56:93 backward across parallel outcome clauses whose favorable branch does not repeat that label."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Relief, scent, and covered ease form a transition package.** `ر و ح` **B007** supplies rest, relief, and repose; **B004** supplies scent and perfume; `ج ن ن` **B003** supplies tree-covered garden; `ن ع م` **B001** supplies bestowed well-being. The resultative `فـ` answers the status in 56:88. **Abductive move:** I infer a sequence from release of strain, through sensory welcome, into stable habitation. **Reading change:** the three nouns describe stages of reception rather than unrelated rewards.\n\n2. **Life-spirit enters spacious growth.** `ر و ح` **B001** supplies life-spirit, **B009** physical spaciousness, and **B017** trees leafing and plants growing tall; `ج ن ن` **B011** supplies vigorous growth. **Abductive move:** I infer an ecological life-reading in which constriction at the throat opens into breadth and growth. **Reading change:** death’s narrow passage is answered by expansive vitality.",
@@ -4196,18 +4839,23 @@
   "root_lexicon": {
     "root_000609": {
       "root_ar": "ر و ح",
+      "qac_roots_ar": [
+        "ر و ح"
+      ],
       "root_id": "root_000609",
-      "root_mapping": {
-        "root_id": "root_000609",
-        "root_norm": "ر و ح",
-        "source_root_norm": "ر و ح",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 47,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر و ح",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 47
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f09e6e2e43fb64f8e1cb1ba4b64b5524d9229ef8019a89c8c9a8bf3809f90a08",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8144,18 +8792,23 @@
     },
     "root_000266": {
       "root_ar": "ج ن ن",
+      "qac_roots_ar": [
+        "ج ن ن"
+      ],
       "root_id": "root_000266",
-      "root_mapping": {
-        "root_id": "root_000266",
-        "root_norm": "ج ن ن",
-        "source_root_norm": "ج ن ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 131,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ن ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 131
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3fa03ab37401f450fbe272d8d86e5a9a5f7d648bfa0d7af8b95b7b61c8e80407",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11812,18 +12465,23 @@
     },
     "root_001525": {
       "root_ar": "ن ع م",
+      "qac_roots_ar": [
+        "ن ع م"
+      ],
       "root_id": "root_001525",
-      "root_mapping": {
-        "root_id": "root_001525",
-        "root_norm": "ن ع م",
-        "source_root_norm": "ن ع م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 98,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ع م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 98
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3f7b26053363b06c9558dc2ae22bf1f4d513c5e3b12e79ad6c24e28624db2622",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15240,14 +15898,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15499,11 +16163,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_89.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_89.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 104161,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -15577,19 +16254,37 @@
           "root_ids": [
             "root_000609"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر و ح",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000609",
+            "targets": [
+              {
+                "qac_root_norm": "ر و ح",
+                "target_rank": 1,
+                "furuq_root_id": "root_000609",
+                "furuq_root_norm": "ر و ح",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 47,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000609",
-              "root_norm": "ر و ح",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر و ح",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 47,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 19,
+              "gloss_branch_count": 19,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15614,19 +16309,37 @@
           "root_ids": [
             "root_000266"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ن ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000266",
+            "targets": [
+              {
+                "qac_root_norm": "ج ن ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000266",
+                "furuq_root_norm": "ج ن ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 131,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000266",
-              "root_norm": "ج ن ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ن ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 131,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15651,19 +16364,37 @@
           "root_ids": [
             "root_001525"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ع م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001525",
+            "targets": [
+              {
+                "qac_root_norm": "ن ع م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001525",
+                "furuq_root_norm": "ن ع م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 98,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001525",
-              "root_norm": "ن ع م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ع م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 98,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15690,10 +16421,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 49,
+        "dictionary_branches_kept": 49,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 49,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

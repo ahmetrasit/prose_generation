@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.263712+00:00",
+  "generated_at": "2026-08-04T22:29:53.708426+00:00",
   "surah": 54,
   "ayah": 33,
   "ayahRef": "54:33",
@@ -1604,7 +1604,8 @@
       "morpheme_ids": [
         "m-w-s054-a033-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:33:1"
+      "aligned_qac_word_ref_upstream": "54:33:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1618,7 +1619,8 @@
       "morpheme_ids": [
         "m-w-s054-a033-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:33:2"
+      "aligned_qac_word_ref_upstream": "54:33:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1632,7 +1634,8 @@
       "morpheme_ids": [
         "m-w-s054-a033-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:33:3"
+      "aligned_qac_word_ref_upstream": "54:33:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1646,7 +1649,8 @@
       "morpheme_ids": [
         "m-w-s054-a033-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:33:4"
+      "aligned_qac_word_ref_upstream": "54:33:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1662,7 +1666,8 @@
         "m-w-s054-a033-w004-02",
         "m-w-s054-a033-w004-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:33:5"
+      "aligned_qac_word_ref_upstream": "54:33:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2232,7 +2237,957 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_33.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:33",
+      "window": [
+        "54:33",
+        "54:34",
+        "54:35",
+        "54:36",
+        "54:37",
+        "54:38",
+        "54:39",
+        "54:40",
+        "54:41",
+        "54:42",
+        "54:43",
+        "54:44",
+        "54:45"
+      ],
+      "ayah_count": 13,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:33",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_collective_falsehood_verdict",
+            "confidence": "strong",
+            "focus_anchor": "The causative denial verb, the corporate subject qawm, and the plural warnings form one social act.",
+            "mechanism": "A constituted group assigns falsehood to danger announcements whose function is to awaken caution. The denial is therefore an active public verdict that disables a protective signal, not merely an inward absence of belief.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The attribution-to-falsehood image makes the verb an active verdict imposed on the warnings."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "The human-group image locates the verdict in a corporate subject rather than isolated hearers."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The danger-announcement image supplies a signal intended to wake caution before harm."
+              }
+            ],
+            "changed_reading": {
+              "before": "Lot's people did not believe warnings.",
+              "after": "Lot's people collectively branded protective alarms false and thereby neutralized their call to caution."
+            }
+          },
+          {
+            "model_id": "baseline_mobilized_resistance",
+            "confidence": "medium",
+            "focus_anchor": "Qawm names the denying subject while its standing and resistance branches remain available beneath the collective noun.",
+            "mechanism": "The group is heard as a body that rises together and holds an oppositional line. Takdhib becomes the stance by which collective cohesion is organized against an alarm demanding changed conduct.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B003",
+                "role": "The rising-with-resolve image gives the named group coordinated mobilization."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B014",
+                "role": "The resistance image turns collective standing into an oppositional formation."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The falsehood verdict supplies the formation's shared position."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The caution-awakening alarm is the pressure against which the formation stands."
+              }
+            ],
+            "changed_reading": {
+              "before": "A collection of individuals rejected a message.",
+              "after": "A mobilized social formation made resistance to alarm part of its common standing."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_warning_as_operational_dispatch",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ح ص ب"
+            ],
+            "mechanism": "The denied warning is followed by something dispatched upon the same plural target, specifically a stone-bearing or stone-casting wind. Warning and event can now be read as informational and material phases of one operation.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The advance danger signal supplies the informational phase of the mechanism."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "The sending-forth image converts announced danger into an arriving operation."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ح ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000325",
+                "branch_id": "B003",
+                "role": "The pelting-wind image gives the dispatched operation a concrete material carrier."
+              }
+            ],
+            "structural_cues": [
+              "54:34 immediately follows the denial and directs a sent event upon the same plural group."
+            ],
+            "reader_inference": "The packet supplies an alarm followed by a dispatched material event; I infer that notice and execution are phases of one process, while they may instead be merely successive and categorically distinct.",
+            "changed_reading": {
+              "before": "They rejected verbal predictions about a later event.",
+              "after": "They rejected the advance phase of an operation whose material phase was already on its way."
+            }
+          },
+          {
+            "model_id": "delta_collective_partitioned_by_response",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء و ل",
+              "ن ج و",
+              "ن ع م",
+              "ج ز ي",
+              "ش ك ر"
+            ],
+            "mechanism": "The apparently unitary qawm is partitioned by affiliation and response: Lot's affiliated people are separated out, that separation is named a favor, and recompense is correlated with gratitude. Corporate identity is therefore relational and permeable rather than merely geographic.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "The group image supplies the collective that the following exception will partition."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The caution-awakening warning supplies the possible point of differentiated response."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B003",
+                "role": "The people-who-return-to-one-another image supplies an affiliated subset within the wider population."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B004",
+                "role": "The alternate loyal-support mapping makes allegiance, not only co-residence, a live sorting relation."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "The rescue-by-separation image performs the partition in consequence."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "The beneficent-condition image values the separated outcome as favor."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "The reciprocal-recompense image makes response consequential rather than merely descriptive."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B001",
+                "role": "The recognition-of-favor image supplies the receptive posture contrasted with collective denial."
+              }
+            ],
+            "structural_cues": [
+              "The exception and rescue in 54:34 split Lot's affiliates from the plural target; 54:35 immediately frames the rescue as favor and recompense."
+            ],
+            "reader_inference": "The packet supplies affiliation, extraction, favor, and gratitude; I infer responsiveness to warning as the sorting axis, while the exception may denote household membership and gratitude may describe rescue only.",
+            "changed_reading": {
+              "before": "Qawm is a flat label for everyone in one place.",
+              "after": "Qawm is a solidarity under test: warning reveals an affiliated, responsive subset that can be separated from the denying formation."
+            }
+          },
+          {
+            "model_id": "delta_denial_as_adversarial_oscillation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ب ط ش",
+              "م ر ي"
+            ],
+            "mechanism": "The warning is restated around a specified overpowering seizure, while the group's response is mutual disputation with an oscillating, unresolved motion. Takdhib is sharpened into a social procedure that keeps clear danger under contest until consequence closes the dispute.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The falsehood-attribution image supplies the public verdict being procedurally maintained."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The repeated caution signal encloses the response and keeps the danger explicit."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ب ط ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000126",
+                "branch_id": "B001",
+                "role": "The overpowering-seizure image specifies the force about which warning is given."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001416",
+                "branch_id": "B003",
+                "role": "The sharp mutual-disputation image supplies denial's adversarial social method."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001456",
+                "branch_id": "B001",
+                "role": "The alternate oscillation image gives that dispute a back-and-forth motion that prevents settled caution."
+              }
+            ],
+            "structural_cues": [
+              "54:36 opens with warning, names the threatened seizure, and closes with the warning-root after the reciprocal-form dispute."
+            ],
+            "reader_inference": "The packet supplies repeated warning, overpowering seizure, and mutual dispute; I infer disputation as the mechanism sustaining takdhib, while it could be a subsequent reaction rather than an unpacking of the focus verb.",
+            "changed_reading": {
+              "before": "Denial is a settled private opinion.",
+              "after": "Denial is an adversarial group practice that keeps an actionable alarm oscillating in dispute until action becomes unavoidable."
+            }
+          },
+          {
+            "model_id": "delta_warning_forced_across_senses",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر و د",
+              "ط م س",
+              "ذ و ق",
+              "ع ذ ب",
+              "ن ذ ر"
+            ],
+            "mechanism": "Denial moves from verdict into conduct through solicitation around the guest. The sequence then removes sight and commands experiential tasting of punishment and warning, converting a rejected signal into embodied knowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The speech-and-action falsehood image permits denial to become behavior rather than remain a proposition."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The caution signal supplies knowledge initially offered at a distance from harm."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ر و د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000610",
+                "branch_id": "B002",
+                "role": "The solicitation-toward-an-act image gives the denied warning a behavioral enactment."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ط م س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000950",
+                "branch_id": "B002",
+                "role": "The removal-of-sight image closes one channel of perception after warning was refused."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "The experiential-testing image reopens knowledge through direct bodily encounter."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "The painful-punishment image supplies what the compelled experience contains."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The warning repeated beside commanded tasting fuses advance notice with experienced verification."
+              }
+            ],
+            "structural_cues": [
+              "In 54:37 the effacing of eyes precedes a tasting command that joins punishment with warnings; 54:39 repeats the same command."
+            ],
+            "reader_inference": "The packet supplies misconduct, erased sight, and commanded tasting beside warning; I infer a reversal from refused mediated knowledge to forced embodied knowledge, while punishment may remain only the consequence of warning rather than its new sensory form.",
+            "changed_reading": {
+              "before": "Warnings are propositions that can simply be declined.",
+              "after": "A warning refused as mediated knowledge returns as bodily verification: what would not be heeded must be experienced."
+            }
+          },
+          {
+            "model_id": "delta_warning_as_temporal_threshold",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ح ر",
+              "ص ب ح",
+              "ب ك ر",
+              "ق ر ر"
+            ],
+            "mechanism": "Pre-dawn rescue and early-morning punishment place opposite outcomes on adjacent sides of a narrow temporal boundary. The warning marks an interval for caution; after that interval, the threatened condition becomes settled.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The advance alarm creates a before-harm interval in which caution remains possible."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The last-night interval locates rescue immediately before the day boundary."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B001",
+                "role": "The dawn image places consequence just across that boundary."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B001",
+                "role": "The beginning-of-day image tightens the consequence to the earliest new interval."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "The settled-stability image closes the earlier interval of warning into a fixed outcome."
+              }
+            ],
+            "structural_cues": [
+              "54:34 locates extraction before dawn, while 54:38 locates settled punishment at the morning's beginning."
+            ],
+            "reader_inference": "The packet supplies adjacent night-edge and morning times plus settled consequence; I infer a warning deadline between them, while the times may only narrate sequence without defining the warning's function.",
+            "changed_reading": {
+              "before": "The warnings announce an unspecified future.",
+              "after": "The warnings open a finite threshold for response; denial spends that interval until possibility hardens into a settled condition."
+            }
+          },
+          {
+            "model_id": "delta_denial_as_blocked_remembrance",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ي س ر",
+              "ق ر ء",
+              "ذ ك ر"
+            ],
+            "mechanism": "The warning is placed within recitation made open and easy for recollection. This shifts the failure from inaccessible information to a blockage in receiving, retaining, or reactivating an available reminder.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The imposed falsehood verdict supplies the act that closes an otherwise available route to reception."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The caution-awakening signal supplies what remembrance could reactivate."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The opening-after-difficulty image marks access to the reminder as deliberately eased."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "The recitation image gives the warning a repeatable carrier rather than a single vanished utterance."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "The restoration-to-mind image supplies the cognitive operation that denial fails to perform."
+              }
+            ],
+            "structural_cues": [
+              "54:40 follows the repeated warning-punishment refrain with a statement of eased recitation and a question about remembering."
+            ],
+            "reader_inference": "The packet supplies accessibility, recitation, and recollection after the episode; I infer that they diagnose denial as blocked remembrance, while the refrain may address later listeners rather than describe Lot's people.",
+            "changed_reading": {
+              "before": "The people reject a one-time external message.",
+              "after": "Their denial is a refusal to let an accessible, repeatable alarm become active memory and present caution."
+            }
+          },
+          {
+            "model_id": "delta_denial_as_totalizing_policy",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ء ي ي",
+              "ك ل ل",
+              "ء خ ذ"
+            ],
+            "mechanism": "A second collective receives warnings, then denies the whole field of manifest signs and is seized in answer. The parallel sharpens the focus plural: takdhib is not isolated skepticism about one claim but a policy of exhaustive closure across warning instances.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The attribution-to-falsehood image supplies the recurrent collective act."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The plural caution signals provide the focus pattern to be calibrated."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The warnings arriving to another affiliated collective repeat the input side of the pattern."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest-sign image expands what was rejected from utterances to visible indicators."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The encompassing-totality image turns repeated denial into comprehensive closure."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "The taking-to-account image supplies the answering closure after signs are comprehensively refused."
+              }
+            ],
+            "structural_cues": [
+              "54:41-42 reproduce the warning-to-denial sequence with another affiliated collective and explicitly quantify the denied signs as all."
+            ],
+            "reader_inference": "The packet supplies a neighboring repeated sequence and totalizes its signs; I infer that this recurrence reveals the policy-like scope of 54:33, while the two episodes may remain separate examples with no lexical expansion intended.",
+            "changed_reading": {
+              "before": "The group doubted some warning reports.",
+              "after": "The group enacted a comprehensive policy of classifying every caution-bearing sign as false."
+            }
+          },
+          {
+            "model_id": "delta_corporate_immunity_and_collapse",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ر ء",
+              "ز ب ر",
+              "ج م ع",
+              "ن ص ر",
+              "ه ز م",
+              "و ل ي",
+              "د ب ر"
+            ],
+            "mechanism": "Later questions expose collective resistance as an imagined security system: exemption is sought in records and victory in united numbers. The answer breaks the assembled line and turns it away, so qawm's corporate confidence becomes part of what takdhib performs and what consequence dismantles.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B014",
+                "role": "The collective-resistance image supplies the social posture later tested as a security claim."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The shared falsehood verdict functions as the posture by which the group protects its confidence."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B002",
+                "role": "The distancing-from-liability image supplies the imagined exemption."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "The written-record image asks whether that exemption has any durable warrant."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The joining-of-the-dispersed image supplies confidence based on collective mass."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "The aid-and-victory image states the protection expected from that mass."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "The broken-rank image dismantles the collective mechanism on which confidence rested."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "The turning-away image reverses the group's earlier oppositional standing."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B003",
+                "role": "The exposed-back image gives the reversal its terminal posture of retreat."
+              }
+            ],
+            "structural_cues": [
+              "54:43-45 move from a question about recorded exemption, through a claim of united victory, to defeat of the collective and turned backs."
+            ],
+            "reader_inference": "The packet supplies exemption, corporate victory, and broken retreat for a later audience; I infer that this sequence reactivates qawm as the security structure behind denial, while its immediate referent is not Lot's people.",
+            "changed_reading": {
+              "before": "The group rejects warning because it judges the report untrue.",
+              "after": "The group rejects warning as corporate self-protection, treating cohesion as an unwritten immunity until that cohesion is broken."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_warning_as_liability_notice",
+            "confidence": "exploratory",
+            "containment": "This is surprising because vow and wound-compensation branches are distant from the ordinary warning sense of the focus noun. It remains anchored in that noun's packet inventory and is reactivated by the later question of written release; render it only as a juridical overlay, not as a replacement translation.",
+            "focus_anchor": "The plural warnings can carry the root's obligation and assessed-liability images beneath their immediate alarm function.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B002",
+                "role": "The self-binding-obligation image lets warning function as notice that places a claim upon its hearer."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B003",
+                "role": "The assessed-compensation image gives ignored injury or danger a due liability."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The falsehood verdict becomes an attempted repudiation of that claim."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B004",
+                "role": "The release-from-a-right image supplies the acquittal that repudiation would need."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "The written-record image tests whether any valid release actually exists."
+              }
+            ],
+            "changed_reading": {
+              "before": "The warnings only predict danger.",
+              "after": "Exploratorily, the warnings also serve as liability notices: denial tries to void an obligation for which no written release can be produced."
+            }
+          },
+          {
+            "outlier_id": "outlier_failed_collective_charge",
+            "confidence": "exploratory",
+            "containment": "This is surprising because failed-campaign and stop-to-look-back images are lexically available but form-distant from causative takdhib. The model remains anchored in the focus denial and qawm branches and gains a visible motion sequence in united force, broken ranks, and retreat; render it as a kinetic analogy, never as the verb's direct lexical translation.",
+            "focus_anchor": "The focus verb's campaign-failure images combine with qawm's resistance image to make denial dynamically collective.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "The charge-that-fails-to-carry-through image casts denial as an attempted collective advance."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "The run-that-stops-and-looks-back image supplies hesitation and reversal inside that advance."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B014",
+                "role": "The resistance image makes the advance corporate rather than individual."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B010",
+                "role": "The mustering-of-force image supplies the apparent momentum of the collective charge."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "The broken-rank image realizes the campaign's failure."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "The turning-away image converts failed advance into retreat."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B003",
+                "role": "The exposed-back image fixes the final direction of the kinetic reversal."
+              }
+            ],
+            "changed_reading": {
+              "before": "Their denial is a static verbal refusal.",
+              "after": "Exploratorily, their denial is a collective charge against warning that cannot carry through and reverses into broken retreat."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Warning becomes the informational phase of a dispatched material operation.",
+            "Collective denial becomes adversarial dispute that ends in forced bodily verification.",
+            "Qawm becomes a response-sorted solidarity and an imagined immunity system, not a flat population label.",
+            "The warning interval narrows from advance caution to a settled outcome across the dawn boundary."
+          ],
+          "what_was_special": "The packet repeatedly changed modality without detaching from 54:33: alarm became dispatch, social sorting, dispute, bodily experience, memory, legal exposure, and the collapse of collective standing. These mechanisms can coexist without selecting one final interpretation.",
+          "remaining_uncertainties": [
+            "The continuity between verbal warning and material execution is inferred from sequence rather than stated identity.",
+            "Affiliation, favor, and gratitude may classify the rescued household without directly describing reception of warning.",
+            "The later exemption and defeat questions address another audience, so their activation of Lot's qawm is analogical.",
+            "The juridical and failed-charge outliers depend on branch images distant from the immediate grammatical forms."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Collective identity becomes the grammatical carrier of denial.** `ق و م` B001 is a group of people, while B003 is resolve and rising to undertake a matter; `ك ذ ب` B002 is declaring false and `ن ذ ر` B001 warnings. The collective noun is the subject, as in prior peoples. I infer that repeated group-level predication treats denial as coordinated social posture, not an aggregation of private doubts. The ayah opens the case by locating failure in the group’s operative identity.",
@@ -3329,18 +4284,23 @@
   "root_lexicon": {
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5100,18 +6060,23 @@
     },
     "root_001273": {
       "root_ar": "ق و م",
+      "qac_roots_ar": [
+        "ق و م"
+      ],
       "root_id": "root_001273",
-      "root_mapping": {
-        "root_id": "root_001273",
-        "root_norm": "ق و م",
-        "source_root_norm": "ق و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 562,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 562
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8298d50ba865579cd3a17d76b6ee9b3fddf1a9692a243142e406fd3a43309c97",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9888,18 +10853,23 @@
     },
     "root_001488": {
       "root_ar": "ن ذ ر",
+      "qac_roots_ar": [
+        "ن ذ ر"
+      ],
       "root_id": "root_001488",
-      "root_mapping": {
-        "root_id": "root_001488",
-        "root_norm": "ن ذ ر",
-        "source_root_norm": "ن ذ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9b8307ef70c2b201e5cde104a00eae217e678983e73b9dde34cef1bec9a54997",
         "branches": [
@@ -10609,14 +11579,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10865,11 +11841,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_33.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_33.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 94950,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10943,19 +11932,37 @@
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10980,19 +11987,37 @@
           "root_ids": [
             "root_001273"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001273",
+            "targets": [
+              {
+                "qac_root_norm": "ق و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001273",
+                "furuq_root_norm": "ق و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 562,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001273",
-              "root_norm": "ق و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 562,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 21,
+              "gloss_branch_count": 21,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11017,19 +12042,37 @@
           "root_ids": [
             "root_001488"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ذ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001488",
+            "targets": [
+              {
+                "qac_root_norm": "ن ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001488",
+                "furuq_root_norm": "ن ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001488",
-              "root_norm": "ن ذ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -11043,10 +12086,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 33,
+        "dictionary_branches_kept": 33,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 21,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

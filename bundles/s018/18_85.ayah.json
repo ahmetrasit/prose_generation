@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T07:26:02.589828+00:00",
+  "generated_at": "2026-08-04T22:29:22.975080+00:00",
   "surah": 18,
   "ayah": 85,
   "ayahRef": "18:85",
@@ -1153,7 +1153,8 @@
       "morpheme_ids": [
         "m-w-s018-a085-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:85:1"
+      "aligned_qac_word_ref_upstream": "18:85:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1167,7 +1168,8 @@
       "morpheme_ids": [
         "m-w-s018-a085-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:85:2"
+      "aligned_qac_word_ref_upstream": "18:85:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1181,7 +1183,8 @@
       "morpheme_ids": [
         "m-w-s018-a085-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:85:3"
+      "aligned_qac_word_ref_upstream": "18:85:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1671,7 +1674,828 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s18/packets/18_85.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "18:85",
+      "window": [
+        "18:83",
+        "18:84",
+        "18:85",
+        "18:86",
+        "18:87",
+        "18:88",
+        "18:89",
+        "18:90",
+        "18:91",
+        "18:92",
+        "18:93",
+        "18:94",
+        "18:95",
+        "18:96",
+        "18:97",
+        "18:98"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "18:85",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_connector_pursuit",
+            "confidence": "strong",
+            "focus_anchor": "Words 1-2 join a following verb to sabab as its object.",
+            "mechanism": "Following supplies directed pursuit, while sabab supplies a rope-like connection, route, or means; the clause depicts taking hold of access rather than undirected motion.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following contributes deliberate pursuit of a prior person, matter, or trace."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "The rope or connection contributes the traversable means that pursuit uses."
+              }
+            ],
+            "changed_reading": {
+              "before": "He went on.",
+              "after": "He deliberately pursued a connective route or means that could carry him beyond his present position."
+            }
+          },
+          {
+            "model_id": "b2_tracewise_advance",
+            "confidence": "medium",
+            "focus_anchor": "The verb at word 1 can denote tracing step after step, directed into the means at word 2.",
+            "mechanism": "The clause can describe an evidential procedure: successive traces are pursued along an enabling connection, so advance depends on reading and testing what leads onward.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B003",
+                "role": "Stepwise tracking contributes a measured, clue-by-clue mode of advance."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "The means or route organizes the traces into an actionable line of access."
+              }
+            ],
+            "changed_reading": {
+              "before": "He selected a road.",
+              "after": "He investigated his way forward by pursuing an ordered chain of traces or affordances."
+            }
+          },
+          {
+            "model_id": "b3_linked_succession",
+            "confidence": "exploratory",
+            "focus_anchor": "The prefixed clause and the verb at word 1 permit succession, while word 2 supplies the linking medium.",
+            "mechanism": "Atba'a can mark one operation following another without a gap; paired with a connector, the short clause can open the next unit in a linked series rather than report an isolated trip.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B004",
+                "role": "Unbroken succession contributes the transition into a next operational unit."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "Connection supplies what binds the new unit to a continuing sequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "This is one self-contained movement.",
+              "after": "This is the opening of a connected next phase whose parts are meant to follow one another."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1_narrative_hinge",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ل و",
+              "ذ ك ر",
+              "ت ب ع"
+            ],
+            "mechanism": "The announced telling is itself figured as following, and the focus clause later recurs as an episode marker; actor and narration therefore advance by the same logic of linked succession.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B004",
+                "role": "Succession anchors the focus clause as a possible sequencing operator."
+              },
+              {
+                "source_ref": "18:83",
+                "root": "ت ل و",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000186",
+                "branch_id": "B001",
+                "role": "Following and serial continuation make the promised recitation a sequence parallel to the journey."
+              },
+              {
+                "source_ref": "18:83",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention voiced on the tongue supplies the narrated material being sequenced."
+              },
+              {
+                "source_ref": "18:89",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B004",
+                "role": "The first recurrence realizes the focus verb as a repeated transition."
+              },
+              {
+                "source_ref": "18:92",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B004",
+                "role": "The second recurrence confirms serial episode partitioning."
+              }
+            ],
+            "structural_cues": [
+              "18:83 announces a recited mention, and the compact clause of 18:85 recurs in 18:89 and 18:92 to partition three episodes."
+            ],
+            "reader_inference": "The packet supplies an announced telling, a following branch, and exact clause recurrence; I infer that narrative segmentation mirrors the actor's succession. Alternatively, the repetitions may be only chronological notices.",
+            "changed_reading": {
+              "before": "The clause only reports movement inside the story.",
+              "after": "The clause also works as a narrative hinge: each linked route advances both the actor and the telling."
+            }
+          },
+          {
+            "model_id": "d2_granted_affordance",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ك ن",
+              "ء ت ي",
+              "ك ل ل",
+              "س ب ب"
+            ],
+            "mechanism": "The preceding ayah joins empowerment and giving to an encompassing supply of sabab; the focus then follows that same named connector, recasting initiative as activation of provisioned capacity.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Directed following contributes the agent's active uptake."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "The connector or means is the capacity taken up."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "م ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001439",
+                "branch_id": "B005",
+                "role": "Empowerment supplies antecedent capability rather than self-originating power."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving marks the means as received provision."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Encompassing totality widens the field of available affordances."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "The immediately prior occurrence names the granted item as the same kind of connector used in the focus."
+              }
+            ],
+            "structural_cues": [
+              "18:84 immediately precedes the focus, gives sabab as an object of provision, and 18:85 begins with fa before making sabab the object of action."
+            ],
+            "reader_inference": "The packet supplies empowerment, giving, repeated sabab, and immediate sequence; I infer provision leads to selective activation. Alternatively, 18:84 may state general resources while 18:85 names an independently chosen route.",
+            "changed_reading": {
+              "before": "He devised or chose a route from his own resources.",
+              "after": "He enacted one of the access-capabilities already placed at his disposal."
+            }
+          },
+          {
+            "model_id": "d3_repeating_field_cycle",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل غ",
+              "و ج د"
+            ],
+            "mechanism": "Each use of the compact route clause opens a reach-and-find sequence: a connector is taken, a limit is reached, and an encountered condition becomes available for response.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B002",
+                "role": "Catching up and attaining orient the pursuit toward an eventual limit."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "The route or means carries the actor into the repeated field cycle."
+              },
+              {
+                "source_ref": "18:86",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at a goal supplies the first route's terminal phase."
+              },
+              {
+                "source_ref": "18:86",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "6",
+                  "11"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding supplies discovery after arrival."
+              },
+              {
+                "source_ref": "18:90",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "A second arrival shows the same means-to-limit transition."
+              },
+              {
+                "source_ref": "18:90",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "A second finding makes encounter a recurrent output of route-taking."
+              },
+              {
+                "source_ref": "18:93",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "A third arrival completes the repeated itinerary pattern."
+              },
+              {
+                "source_ref": "18:93",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "The third finding again converts geographic reach into situated knowledge."
+              }
+            ],
+            "structural_cues": [
+              "The focus clause is repeated in 18:89 and 18:92; each of the three clauses is followed by hatta idha, reaching, and finding at a different limit."
+            ],
+            "reader_inference": "The packet supplies three clause launches and three reach/find outcomes; I infer a reusable field procedure, route to limit to encounter. Alternatively, these may simply be three journeys with no procedural force in sabab itself.",
+            "changed_reading": {
+              "before": "He followed one path to one destination.",
+              "after": "He initiated a reusable field cycle: activate an access-line, reach its limit, then inspect the condition encountered there."
+            }
+          },
+          {
+            "model_id": "d4_accountable_use",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء خ ذ",
+              "ح س ن",
+              "ظ ل م",
+              "ج ز ي"
+            ],
+            "mechanism": "The attached-liability branch of following becomes live when the first route ends in alternatives of adopted treatment and the next ayat sort wrongdoing and good action into corresponding outcomes; using a means carries a consequence that follows its use.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B006",
+                "role": "An attached claim or consequence supplies the possibility that action brings a liability behind it."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "The means supplies the exercised connection to which responsibility attaches."
+              },
+              {
+                "source_ref": "18:86",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "22"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Adopting or acquiring contributes the choice of a mode of treatment."
+              },
+              {
+                "source_ref": "18:86",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "24"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "Doing good supplies one live use of the granted discretion."
+              },
+              {
+                "source_ref": "18:87",
+                "root": "ظ ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000967",
+                "branch_id": "B008",
+                "role": "Withholding or confining a right supplies the opposed misuse."
+              },
+              {
+                "source_ref": "18:88",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Reciprocal recompense makes outcomes answer to prior action."
+              }
+            ],
+            "structural_cues": [
+              "The first arrival opens explicit alternatives in 18:86, consequences occupy 18:87-88, and only then does another route clause begin in 18:89."
+            ],
+            "reader_inference": "The packet supplies an attached-consequence branch plus choice and recompense; I infer that access generates responsibility for its exercise. Alternatively, the liability branch may be only an etymological echo and the accountability may belong solely to the destination scene.",
+            "changed_reading": {
+              "before": "Following a means is ethically neutral locomotion.",
+              "after": "Taking up a means also incurs a trailing responsibility for what the gained access is used to do."
+            }
+          },
+          {
+            "model_id": "d5_cooperative_engineering",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع و ن",
+              "ق و ي",
+              "ج ع ل",
+              "ز ب ر",
+              "س و ي",
+              "ن ف خ",
+              "ف ر غ",
+              "ق ط ر",
+              "ن ق ب"
+            ],
+            "mechanism": "At the third limit, sabab expands from a traveled connector into an executable method: assistance gathers strength, making arranges blocks, equalization, airflow, heating, and pouring transform materials, and the result resists penetration.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B003",
+                "role": "Trace-by-trace pursuit anchors the later work as ordered execution."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "Means or connection supplies the procedural linkage among operations."
+              },
+              {
+                "source_ref": "18:95",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance makes the method socially distributed rather than solitary."
+              },
+              {
+                "source_ref": "18:95",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Strength gathered like strands of a rope materially echoes the connector image of sabab."
+              },
+              {
+                "source_ref": "18:95",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B001",
+                "role": "Making converts available capacity into a constructed result."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B002",
+                "role": "Collected pieces or blocks supply discrete material inputs."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "س و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000766",
+                "branch_id": "B001",
+                "role": "Equalization supplies alignment between the two sides."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "ن ف خ",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001529",
+                "branch_id": "B001",
+                "role": "Sending air supplies a transformation step rather than mere placement."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "ف ر غ",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_001147",
+                "branch_id": "B002",
+                "role": "Pouring and emptying a vessel supplies the coating or joining step."
+              },
+              {
+                "source_ref": "18:96",
+                "root": "ق ط ر",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_001238",
+                "branch_id": "B006",
+                "role": "Molten copper supplies the transformed material poured into the assembly."
+              },
+              {
+                "source_ref": "18:97",
+                "root": "ن ق ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001539",
+                "branch_id": "B001",
+                "role": "Failure to pierce through supplies the procedure's tested outcome."
+              }
+            ],
+            "structural_cues": [
+              "18:95 requests assistance and strength; 18:96 orders a sequence of material operations; 18:97 tests the resulting barrier against passage."
+            ],
+            "reader_inference": "The packet supplies collaboration, ordered operations, and a penetration test; I infer that a means can be a composable procedure whose linked steps produce capacity. Alternatively, the procedure may characterize only the third episode and not retrospectively define the focus noun.",
+            "changed_reading": {
+              "before": "Sabab is chiefly a ready-made road that the traveler uses.",
+              "after": "Sabab can be a coordinated technology: a linked sequence of people, forces, and transformations that makes a new capability."
+            }
+          },
+          {
+            "model_id": "d6_bounded_instrument",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م ك ن",
+              "ر ح م",
+              "و ع د",
+              "د ك ك",
+              "ح ق ق"
+            ],
+            "mechanism": "The arc runs from granted capability to a constructed result named as mercy, then to an appointed, certain undoing; effective means are real but held under a temporal limit beyond the agent's control.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Active following anchors responsible human use within the focus."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "The means or connector is the effective but nonultimate instrument."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "م ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001439",
+                "branch_id": "B005",
+                "role": "Granted empowerment marks the instrument's beginning as entrusted capacity."
+              },
+              {
+                "source_ref": "18:98",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Merciful tenderness frames the completed work as benefit rather than autonomous mastery."
+              },
+              {
+                "source_ref": "18:98",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "8",
+                  "13"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointed time or place supplies the instrument's external limit."
+              },
+              {
+                "source_ref": "18:98",
+                "root": "د ك ك",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000482",
+                "branch_id": "B001",
+                "role": "Demolition to level ground supplies eventual revocation of the constructed capacity."
+              },
+              {
+                "source_ref": "18:98",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality matching truth makes the terminal limit certain rather than hypothetical."
+              }
+            ],
+            "structural_cues": [
+              "The local arc begins with empowerment and supplied means in 18:84, then closes in 18:98 with the engineered barrier's attribution and destruction."
+            ],
+            "reader_inference": "The packet supplies grant, beneficial result, appointment, and leveling; I infer entrusted means have an expiry set outside their user. Alternatively, 18:98 directly limits only the barrier, not every instance of sabab.",
+            "changed_reading": {
+              "before": "He wields an effective instrument as a stable possession.",
+              "after": "He exercises a temporarily entrusted instrument whose efficacy and duration remain bounded."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_connector_that_closes",
+            "confidence": "medium",
+            "containment": "This is surprising because the connector branch normally opens access, yet the third route culminates in closing a gap. It remains anchored in focus word 2 and in packet-backed barrier and piercing branches; downstream prose should call it a contextual inversion, not translate sabab as barrier.",
+            "focus_anchor": "Word 2 names a rope-like connection or means whose use unexpectedly leads to controlled disconnection.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B003",
+                "role": "Connection supplies the access-opening image that will be reversed functionally."
+              },
+              {
+                "source_ref": "18:93",
+                "root": "س د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000687",
+                "branch_id": "B001",
+                "role": "Filling a gap and separating sides supplies the requested closure."
+              },
+              {
+                "source_ref": "18:95",
+                "root": "ر د م",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000557",
+                "branch_id": "B001",
+                "role": "Closing a breach supplies the constructed inversion of passage."
+              },
+              {
+                "source_ref": "18:97",
+                "root": "ن ق ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001539",
+                "branch_id": "B001",
+                "role": "The failed opening through to the far side confirms that the connector has produced blocked access."
+              }
+            ],
+            "changed_reading": {
+              "before": "A connector matters because it opens a way through.",
+              "after": "Following a connector can culminate in engineering where passage must stop, converting access into a defense against access."
+            }
+          },
+          {
+            "outlier_id": "o2_open_waste_undertone",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it activates the sabsab image rather than the ordinary means sense, but it remains anchored in the supplied focus inventory and gains spatial support from earth and remoteness cues. Render it only as a possible terrain undertone, never as the clause's direct lexical translation.",
+            "focus_anchor": "Word 2 carries a packet branch of wide, waterless open land alongside its ordinary connector sense.",
+            "activation_trace": [
+              {
+                "source_ref": "18:85",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Directed pursuit keeps the terrain image tied to actual traversal."
+              },
+              {
+                "source_ref": "18:85",
+                "root": "س ب ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000664",
+                "branch_id": "B008",
+                "role": "The wide barren expanse supplies an exposed long-distance spatial undertone."
+              },
+              {
+                "source_ref": "18:84",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "Earth as the lower terrestrial field supplies the scale on which the route unfolds."
+              },
+              {
+                "source_ref": "18:86",
+                "root": "غ ر ب",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_001077",
+                "branch_id": "B007",
+                "role": "Distance and remoteness sharpen the sense of traversing far reaches."
+              }
+            ],
+            "changed_reading": {
+              "before": "Sabab is only an abstract means or route.",
+              "after": "The clause may also carry a faint image of committing to an exposed, far-ranging tract across the earth."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The preceding grant turns route choice into activation of a provisioned affordance.",
+            "The threefold route-reach-find pattern turns the clause into a reusable field procedure.",
+            "The construction episode expands means into cooperative technology, while the closing promise limits that technology's duration."
+          ],
+          "what_was_special": "A two-word clause became a hinge among provision, repeated reconnaissance, accountable choice, and engineered action; the focus branches of connection, tracewise following, succession, and attached consequence stayed distinct rather than collapsing into generic travel.",
+          "remaining_uncertainties": [
+            "The packet does not settle whether the form of atba'a should privilege pursuing, causing to follow, or simple continuation in this occurrence.",
+            "The procedural-technology reading may be a downstream realization of sabab rather than a lexical value active at 18:85.",
+            "The open-waste undertone is deliberately retained as branch-distant and should not displace the strong connector reading."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Given means becomes effective only when followed.** `ت ب ع` B001 (“following after”) takes `س ب ب` B003 (“rope and means of connection”) as object. The repetition at 18:89 and 92 makes a stable action grammar: provision, following, arrival. I infer that bestowed capacity does not collapse agency; it enables a path that must be enacted. The terse ayah marks disciplined use as the hinge between gift and result.",
@@ -2482,18 +3306,23 @@
   "root_lexicon": {
     "root_000175": {
       "root_ar": "ت ب ع",
+      "qac_roots_ar": [
+        "ت ب ع"
+      ],
       "root_id": "root_000175",
-      "root_mapping": {
-        "root_id": "root_000175",
-        "root_norm": "ت ب ع",
-        "source_root_norm": "ت ب ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 137,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ت ب ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 137
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "36685374e39c44b32bee7a253f22cc3514b9dc2bc8a511da18a9a8dbf2adc83c",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6349,18 +7178,23 @@
     },
     "root_000664": {
       "root_ar": "س ب ب",
+      "qac_roots_ar": [
+        "س ب ب"
+      ],
       "root_id": "root_000664",
-      "root_mapping": {
-        "root_id": "root_000664",
-        "root_norm": "س ب ب",
-        "source_root_norm": "س ب ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 7,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ب ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 7
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "888645751318ac56fe3dde0f26996f3a2cf0df49ef02515c5ca1a7153279a320",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9586,14 +10420,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s018/linguistic/morphemes.tsv",
-        "ayah_count": 111,
-        "row_count": 2582,
+        "ayah_count": 110,
+        "row_count": 2575,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10084,11 +10924,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s018"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s18/packets/18_85.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s18/readers/reader_hft_a/18_85.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 159934,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10160,19 +11013,37 @@
           "root_ids": [
             "root_000175"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ت ب ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000175",
+            "targets": [
+              {
+                "qac_root_norm": "ت ب ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000175",
+                "furuq_root_norm": "ت ب ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 137,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000175",
-              "root_norm": "ت ب ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ت ب ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 137,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10197,19 +11068,37 @@
           "root_ids": [
             "root_000664"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ب ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000664",
+            "targets": [
+              {
+                "qac_root_norm": "س ب ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000664",
+                "furuq_root_norm": "س ب ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 7,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000664",
-              "root_norm": "س ب ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ب ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 7,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10236,10 +11125,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 26,
+        "dictionary_branches_kept": 26,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 26,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

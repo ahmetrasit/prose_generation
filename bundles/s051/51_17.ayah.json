@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.972676+00:00",
+  "generated_at": "2026-08-04T22:29:45.783347+00:00",
   "surah": 51,
   "ayah": 17,
   "ayahRef": "51:17",
@@ -1664,7 +1664,8 @@
         "m-w-s051-a017-w001-01",
         "m-w-s051-a017-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:17:1"
+      "aligned_qac_word_ref_upstream": "51:17:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1678,7 +1679,8 @@
       "morpheme_ids": [
         "m-w-s051-a017-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:17:2"
+      "aligned_qac_word_ref_upstream": "51:17:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1692,7 +1694,8 @@
       "morpheme_ids": [
         "m-w-s051-a017-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:17:3"
+      "aligned_qac_word_ref_upstream": "51:17:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1708,7 +1711,8 @@
         "m-w-s051-a017-w004-01",
         "m-w-s051-a017-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:17:4"
+      "aligned_qac_word_ref_upstream": "51:17:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1722,7 +1726,8 @@
       "morpheme_ids": [
         "m-w-s051-a017-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:17:5"
+      "aligned_qac_word_ref_upstream": "51:17:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1738,7 +1743,8 @@
         "m-w-s051-a017-w006-01",
         "m-w-s051-a017-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:17:6"
+      "aligned_qac_word_ref_upstream": "51:17:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2158,7 +2164,672 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_17.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:17",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:17",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1_RECURRING_SMALL_SLEEP_SHARE",
+            "confidence": "strong",
+            "focus_anchor": "The construction `كانوا قليلًا من الليل ما يهجعون`, with `كانوا` habitual, `قليلًا` quantitative, and `من الليل` partitive.",
+            "mechanism": "Past temporal continuance turns a single act into a recurring nocturnal disposition, while littleness assigns sleep only a restricted share of the night.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time make the low-sleep pattern recurrent rather than episodic."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Littleness supplies the restricted quantity assigned to sleep."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night and its darkness supply the whole temporal field from which the small share is taken."
+              }
+            ],
+            "changed_reading": {
+              "before": "They were generally devout at night.",
+              "after": "Their stable habit was to allot sleep only a small fraction of each night."
+            }
+          },
+          {
+            "model_id": "B2_NEGATIVE_MA_REVERSES_THE_ALLOCATION",
+            "confidence": "exploratory",
+            "focus_anchor": "The unresolved scope of `ما` after `قليلًا من الليل` and before `يهجعون`.",
+            "mechanism": "If `ما` negates the sleep verb rather than reinforcing or nominalizing it, the little quantity can measure the interval of not sleeping; the focus then preserves the inverse allocation alongside the dominant small-sleep reading.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Temporal occurrence holds either scope choice as a repeated nightly pattern."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Littleness can quantify either sleep or, under negative scope, the no-sleep interval."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "The night remains the divisible whole under both competing scope readings."
+              }
+            ],
+            "changed_reading": {
+              "before": "They slept during only a little of the night.",
+              "after": "For a little of the night they did not sleep, leaving a minority-vigil reading grammatically alive."
+            }
+          },
+          {
+            "model_id": "B3_LITTLENESS_ENACTED_AS_RISING_AND_UNSETTLING",
+            "confidence": "exploratory",
+            "focus_anchor": "`قليلًا` beside the rootless-inventory sleep verb `يهجعون`; no branch is fabricated for `ه ج ع`.",
+            "mechanism": "The carrying-and-rising and oscillatory branches of `ق ل ل` turn quantity into bodily form: sleep repeatedly loses stability and gives way to getting up.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "Bearing, rising, and setting out make littleness an enacted departure from sleep."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B006",
+                "role": "Oscillation and lack of fixedness render the sleeper repeatedly unable or unwilling to settle."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B002",
+                "role": "Practicing an activity by night turns the dark interval into a field of repeated action."
+              }
+            ],
+            "changed_reading": {
+              "before": "Little describes only how much they slept.",
+              "after": "Little also describes the form of their night: sleep does not stay fixed, and they repeatedly rise out of it."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_PROMISE_INHABITED_AS_PRESENT",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ع د",
+              "ص د ق",
+              "و ق ع"
+            ],
+            "mechanism": "Promise, enacted truth, and fixed occurrence recast habitual low sleep as proleptic conduct: a future certainty already occupies and reorganizes present nights.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Presence in time supplies the recurring present-night habit that the promised future can reorganize."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "A promise bounded by a future time supplies the horizon toward which the nightly pattern is oriented."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment in act converts the promised horizon from speech into dependable outcome."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed make the future judgment read as already established."
+              }
+            ],
+            "structural_cues": [
+              "51:5-6 move from what is promised to what is true and firmly occurring before 51:17 describes the repeated night habit."
+            ],
+            "reader_inference": "The packet supplies a timed promise, enacted truth, fixed occurrence, and habitual `كانوا`; I infer that certainty causes future reality to govern present sleep, while the live alternative is that these are adjacent praises without a causal arrow.",
+            "changed_reading": {
+              "before": "They repeatedly sacrificed sleep as an isolated discipline.",
+              "after": "They repeatedly let an assured future become present enough to claim part of every night's sleep."
+            }
+          },
+          {
+            "model_id": "D2_WAKEFULNESS_AS_ANTI_IMMERSION",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ م ر",
+              "س ه و",
+              "ب ص ر"
+            ],
+            "mechanism": "The preceding image of cognition covered by heedlessness and the later demand for inward sight turn reduced sleep into resistance to perceptual submersion, not merely reduced duration.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B006",
+                "role": "Instability and movement make little sleep a refusal to remain settled in unconsciousness."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night's darkness supplies the perceptual medium in which remaining awake becomes diagnostic."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "A covering of falsehood, ignorance, and distraction supplies the cognitive immersion being resisted."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness of the heart makes ordinary sleep echo a broader failure of attention."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight of the heart supplies the positive perceptual capacity cultivated by wakefulness."
+              }
+            ],
+            "structural_cues": [
+              "51:11's engulfed heedlessness precedes the focus, while 51:21's question about seeing within the self follows it."
+            ],
+            "reader_inference": "The packet supplies cognitive covering, heart-heedlessness, little unstable sleep, and inward sight; I infer a contrastive path from less settling to more perception, while the alternative keeps physiological sleep and moral heedlessness categorically separate.",
+            "changed_reading": {
+              "before": "They were admirable because they slept fewer hours.",
+              "after": "Their broken settling embodies resistance to being cognitively covered over, preserving a capacity to see."
+            }
+          },
+          {
+            "model_id": "D3_NIGHT_HANDED_TO_ITS_EDGE",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ح ر",
+              "غ ف ر"
+            ],
+            "mechanism": "The next ayah identifies both the terminal night interval and its action, so `من الليل` becomes an apportioned schedule: sleep is curtailed to hand the edge of night to seeking protective covering.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Littleness restricts sleep enough to expose a remaining interval for another practice."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B002",
+                "role": "Night-practice makes the dark period an actively managed schedule rather than empty duration."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The pre-dawn time locates the practice in a precise terminal portion of night."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B008",
+                "role": "The edge of a thing sharpens pre-dawn into the boundary to which curtailed sleep is handed."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Covering the fault and shielding its bearer supplies the purposeful act occupying that boundary."
+              }
+            ],
+            "structural_cues": [
+              "51:17's partitive night phrase is immediately followed by 51:18's explicit pre-dawn time phrase."
+            ],
+            "reader_inference": "The packet supplies a small night share, the edge-time of night, and protective forgiveness; I infer that reducing sleep creates the pre-dawn opening for that act, while the live alternative treats the two ayat as independent traits.",
+            "changed_reading": {
+              "before": "They accumulated a low total of sleep across the night.",
+              "after": "They deliberately ended sleep before night's edge so that the final interval could become an act of exposed fault seeking cover."
+            }
+          },
+          {
+            "model_id": "D4_URGENCY_REDIRECTED_INWARD",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ج ل"
+            ],
+            "mechanism": "The condemned acceleration of the promised event is answered by a different urgency: the righteous do not pull the future forward but repeatedly pull themselves forward out of sleep.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Repeated temporal presence turns urgency from a demand into a durable habit."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "Rising and setting out redirect motion toward the sleeper's own conduct."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Acceleration and bringing forward supply the rival form of urgency aimed at the promised event."
+              }
+            ],
+            "structural_cues": [
+              "`كانوا` recurs in 51:14, 51:16, and 51:17, contrasting a former habit of hastening with habits of doing good and little sleep."
+            ],
+            "reader_inference": "The packet supplies condemned hastening, repeated `كانوا`, and a rising branch within `قليلًا`; I infer that urgency is redirected from forcing the event's time to advancing one's own response, while the alternative is only a contrast between unrelated group descriptions.",
+            "changed_reading": {
+              "before": "Little sleep expresses static austerity.",
+              "after": "Little sleep expresses disciplined urgency: they advance themselves out of rest without demanding that the promised future be advanced."
+            }
+          },
+          {
+            "model_id": "D5_RECEIVED_GIFT_BECOMES_OWED_SHARE",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء خ ذ",
+              "ء ت ي",
+              "م و ل",
+              "ح ق ق",
+              "س ء ل",
+              "ح ر م"
+            ],
+            "mechanism": "The sequence moves from taking what is given, through private restriction of sleep and pre-dawn self-exposure, to recognizing an enforceable share in wealth; nocturnal restraint becomes a hinge between reception and release.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Chosen littleness supplies a private pattern of taking less for oneself."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B001",
+                "role": "Taking possession supplies the receptive side of the ethical circuit."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving identifies what is possessed as received rather than self-originating."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the material that must pass beyond private possession."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "A fixed, obligatory entitlement turns generosity into a due transfer."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Request and seeking identify one visible claimant on the received wealth."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation and missing the desired good identify the claimant who cannot voice a request."
+              }
+            ],
+            "structural_cues": [
+              "51:16 receiving, 51:17 restricting sleep, 51:18 seeking forgiveness, and 51:19 assigning a right form an uninterrupted ethical sequence."
+            ],
+            "reader_inference": "The packet supplies received gift, little sleep, an owed right, a requester, and a deprived person; I infer that voluntary private restriction trains release of received wealth, while the live alternative treats nocturnal practice and material justice as parallel but causally independent virtues.",
+            "changed_reading": {
+              "before": "Little sleep is a private ascetic achievement.",
+              "after": "Little sleep is the interior restraint between receiving a gift and releasing part of it as another person's fixed right."
+            }
+          },
+          {
+            "model_id": "D6_NIGHT_AS_AN_ALLOTTED_LOAD_TO_RISE_FROM",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ح م ل",
+              "و ق ر",
+              "ق س م"
+            ],
+            "mechanism": "The opening sequence of carrying a burden and dividing shares activates both the rising-bearing branch of `ق ل ل` and the partitive grammar of `من الليل`: sleep is a measured allotment within a night borne until one rises.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B004",
+                "role": "Bearing, lifting, and rising let `قليلًا` describe emergence from a load as well as small quantity."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Littleness keeps the sleep allotment quantitatively anchored while the material analogy develops."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Lifting a visible load activates the bearing-and-rising potential already present in `قليلًا`."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "A heavy burden supplies the weight-like resistance of night and sleep."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating and distributing a share makes the little sleep a deliberate allotment from the larger night."
+              }
+            ],
+            "structural_cues": [
+              "51:1-4 progress through scattering, carrying, easy movement, and apportioning; 51:17 later contains a partitive night phrase and a sleep verb."
+            ],
+            "reader_inference": "The packet supplies burden-bearing, heavy load, apportioned shares, `قليلًا`'s rising branch, and `من الليل`; I infer that the opening material sequence patterns the sleeper's night as load, allotment, and rising, while the alternative confines those opening images to their immediate oath sequence.",
+            "changed_reading": {
+              "before": "Night is a neutral container and little sleep is merely counted within it.",
+              "after": "Night becomes a load borne and divided, with sleep receiving a small share before the sleeper rises from its weight."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_STAYING_AFLOAT_UNTIL_DAWN_OPENS",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant `و ع د` mapping to swimming, a water-submersion branch of `غ م ر`, and a dawn-opening branch under contextual `ن ف س`. It remains anchored in the focus through `ق ل ل`'s oscillatory instability, explicit night, and the sleep construction. Render only as a cross-domain material analogy, never as the lexical gloss of the ayah.",
+            "focus_anchor": "The sleeper's unstable `قليلًا`, the encompassing `الليل`, and the uncited structural sleep verb permit a night-crossing image without assigning `ه ج ع` an absent branch.",
+            "activation_trace": [
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B006",
+                "role": "Oscillation and lack of fixedness keep the sleeper figuratively moving rather than sinking into settled sleep."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Dark night supplies the expanse through which the figurative crossing occurs."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001063",
+                "branch_id": "B001",
+                "role": "The non-dominant swimming and flowing branch supplies the motion of staying afloat."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B001",
+                "role": "Overwhelming, covering water supplies the danger of submersion that wakefulness resists."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B009",
+                "role": "The opening or breathing of dawn supplies the far bank toward which the night crossing moves."
+              }
+            ],
+            "changed_reading": {
+              "before": "They simply remained awake for much of the night.",
+              "after": "Exploratorily, their unstable sleep keeps consciousness afloat through an engulfing night until dawn opens and breathes."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The future promise becomes present enough to reorganize recurring nights.",
+            "Low sleep becomes resistance to cognitive immersion and a condition for inward sight.",
+            "The partitive night resolves into a deliberate handoff from sleep to pre-dawn forgiveness.",
+            "Private restriction becomes a hinge between received gift and another person's fixed material right."
+          ],
+          "what_was_special": "The focus supports opposite `ما` scope readings, while `ق ل ل` contributes not only scarcity but rising and instability. Context then activates temporal, perceptual, distributive, and material mechanisms without resolving them into one interpretation; the absent `ه ج ع` inventory is never fabricated.",
+          "remaining_uncertainties": [
+            "The scope of `ما` leaves minority-sleep and minority-vigil allocations coexisting.",
+            "The causal arrows from sequence to nocturnal practice are reader-supplied and could instead mark parallel virtues or contrasts.",
+            "The load, rising, and swimming models depend on branch-distant material analogy and require explicit exploratory qualification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Night sleep is deliberately kept to a small measure.** `ق ل ل/B001` supplies fewness, `ل ي ل/B001` night, and `ه ج ع/B001` a light or early-night sleep spell. The following predawn seeking (51:18) makes reduced sleep a temporal preparation. I infer **limited sleep -> wakeful access to predawn practice**. The line reads as calibrated rhythm rather than generalized sleeplessness.\n2. **Heedlessness is what becomes little.** `ه ج ع/B002` supplies sleepy foolish heedlessness, activated retrospectively by `س ه و/B001` in 51:11. I infer **ethical vigilance -> little participation in heedless yielding**. This exploratory reading remains anchored in *yahjaʿūn* and does not replace literal sleep.",
@@ -3015,18 +3686,23 @@
   "root_lexicon": {
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -4146,18 +4822,23 @@
     },
     "root_001251": {
       "root_ar": "ق ل ل",
+      "qac_roots_ar": [
+        "ق ل ل"
+      ],
       "root_id": "root_001251",
-      "root_mapping": {
-        "root_id": "root_001251",
-        "root_norm": "ق ل ل",
-        "source_root_norm": "ق ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 75,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 75
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "13a157823876807f53626d1261a7b90310a5a283982ce24526b9de3de116a8ec",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6111,18 +6792,23 @@
     },
     "root_001392": {
       "root_ar": "ل ي ل",
+      "qac_roots_ar": [
+        "ل ي ل"
+      ],
       "root_id": "root_001392",
-      "root_mapping": {
-        "root_id": "root_001392",
-        "root_norm": "ل ي ل",
-        "source_root_norm": "ل ي ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 92,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل ي ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 92
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f22f7bbba522e34d2a90a3f7dbcc3153b723ba95e0fc808bbf6451f8b8c8cc80",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7553,14 +8239,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7832,11 +8524,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_17.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_17.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 102132,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7911,19 +8616,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -7935,19 +8658,37 @@
           "root_ids": [
             "root_001251"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001251",
+            "targets": [
+              {
+                "qac_root_norm": "ق ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001251",
+                "furuq_root_norm": "ق ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 75,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001251",
-              "root_norm": "ق ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 75,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7972,19 +8713,37 @@
           "root_ids": [
             "root_001392"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ل ي ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001392",
+            "targets": [
+              {
+                "qac_root_norm": "ل ي ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001392",
+                "furuq_root_norm": "ل ي ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 92,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001392",
-              "root_norm": "ل ي ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ل ي ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 92,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8007,9 +8766,15 @@
         "ه ج ع": {
           "root_id": null,
           "root_ids": [],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ه ج ع",
+            "mapping_status": "no_frozen_rooted_surface_match",
+            "primary_root_id": "",
+            "targets": []
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "targets": [],
           "note": "no root_id mapping found for this QAC root"
         }
       },
@@ -8019,10 +8784,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 16,
+        "dictionary_branches_kept": 16,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 10,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

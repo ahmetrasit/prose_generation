@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T07:25:47.136133+00:00",
+  "generated_at": "2026-08-04T22:29:08.161564+00:00",
   "surah": 18,
   "ayah": 3,
   "ayahRef": "18:3",
@@ -1164,7 +1164,8 @@
       "morpheme_ids": [
         "m-w-s018-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:3:1"
+      "aligned_qac_word_ref_upstream": "18:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1180,7 +1181,8 @@
         "m-w-s018-a003-w002-01",
         "m-w-s018-a003-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "18:3:2"
+      "aligned_qac_word_ref_upstream": "18:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1194,7 +1196,8 @@
       "morpheme_ids": [
         "m-w-s018-a003-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:3:3"
+      "aligned_qac_word_ref_upstream": "18:3:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1473,7 +1476,605 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s18/packets/18_3.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "18:3",
+      "window": [
+        "18:1",
+        "18:2",
+        "18:3",
+        "18:4",
+        "18:5",
+        "18:6",
+        "18:7",
+        "18:8",
+        "18:9",
+        "18:10",
+        "18:11",
+        "18:12",
+        "18:13",
+        "18:14",
+        "18:15",
+        "18:16",
+        "18:17",
+        "18:18",
+        "18:19",
+        "18:20",
+        "18:21",
+        "18:22",
+        "18:23",
+        "18:24",
+        "18:25",
+        "18:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "18:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-exitless-residence",
+            "confidence": "strong",
+            "focus_anchor": "مَّٰكِثِينَ فِيهِ أَبَدًا, with م ك ث governing the stay and ء ب د removing departure and terminus.",
+            "mechanism": "م ك ث supplies settled stability with waiting, while ء ب د supplies both continuous duration and residence without leaving. Together they describe an enduring mode of occupancy, not a momentary reward event.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "م ك ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001437",
+                "branch_id": "B001",
+                "role": "Stability with waiting supplies the settled residence at the mechanism's center."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B001",
+                "role": "Long duration and continuity remove a temporal endpoint from the residence."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B006",
+                "role": "Residence without departure makes the continuing tenure exitless as well as long."
+              }
+            ],
+            "changed_reading": {
+              "before": "They stay there for a very long time.",
+              "after": "They occupy it as a settled condition with neither temporal terminus nor departure."
+            }
+          },
+          {
+            "model_id": "baseline-unhurried-abiding",
+            "confidence": "medium",
+            "focus_anchor": "The participial مَّٰكِثِينَ read through the deliberative branch of م ك ث, extended by أَبَدًا.",
+            "mechanism": "The unhurried steadiness branch of م ك ث changes permanence from mere extension into a manner of being: no haste, forced transition, or pressure toward an ending marks the stay.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "م ك ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001437",
+                "branch_id": "B002",
+                "role": "Unhurried gravity supplies the qualitative tempo of the abiding."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B001",
+                "role": "Continuity extends that unhurried mode without an endpoint."
+              }
+            ],
+            "changed_reading": {
+              "before": "Forever states only how long they remain.",
+              "after": "Forever also names an unhurried, stable mode of remaining, free of pressure toward the next state."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-reward-as-habitat",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ج ر",
+              "ح س ن"
+            ],
+            "mechanism": "The singular masculine pronoun فِيهِ follows أَجْرًا حَسَنًا. Recompense and goodness therefore give the focus an antecedent that can be experienced from within: the beneficiaries do not merely receive a payment but remain in an encompassing good reward.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "م ك ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001437",
+                "branch_id": "B001",
+                "role": "Settled remaining turns the antecedent of فِيهِ into an inhabited condition."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B006",
+                "role": "Non-departure makes inhabitation of that condition permanent."
+              },
+              {
+                "source_ref": "18:2",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "Recompense for work supplies the adjacent masculine singular referent and the substance of the condition."
+              },
+              {
+                "source_ref": "18:2",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B001",
+                "role": "Goodness opposed to ugliness qualifies the inhabited recompense as wholly good."
+              }
+            ],
+            "structural_cues": [
+              "18:3 is a verbless participial continuation of the adjacent promise أَنَّ لَهُمْ أَجْرًا حَسَنًا in 18:2."
+            ],
+            "reader_inference": "The packet supplies the adjacent masculine singular reward phrase and the focus pronoun; I assign the pronoun to that phrase and treat containment experientially. A live alternative is an elliptical reference to a separately understood garden or outcome.",
+            "changed_reading": {
+              "before": "They remain forever in an unspecified 'there.'",
+              "after": "They remain forever within the good recompense itself, construed as an inhabitable condition."
+            }
+          },
+          {
+            "model_id": "delta-imperishable-against-stripping",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز ي ن",
+              "ج ر ز"
+            ],
+            "mechanism": "Earthly adornment is displayed and then becomes vegetation-stripped ground. Against that reversal, أَبَدًا no longer means only long-lasting; it marks a good condition not exhausted when an attractive surface is removed.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B001",
+                "role": "Continuity supplies the durable pole of the contrast."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B006",
+                "role": "Non-departure prevents the promised condition from sharing the surface world's forced transition."
+              },
+              {
+                "source_ref": "18:7",
+                "root": "ز ي ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000660",
+                "branch_id": "B003",
+                "role": "Displayed adornment supplies the attractive but provisional surface state."
+              },
+              {
+                "source_ref": "18:8",
+                "root": "ج ر ز",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000236",
+                "branch_id": "B002",
+                "role": "Ground cut free of vegetation supplies the stripping and exhaustion that the focus promise outlasts."
+              }
+            ],
+            "structural_cues": [
+              "18:7-8 reverses the earth from ornamented surface to denuded ground immediately after the focus promise."
+            ],
+            "reader_inference": "The packet supplies adornment followed by total denudation; I infer a contrast with everlasting non-departure. A live alternative is that the reversal tests deeds without describing the reward's material durability.",
+            "changed_reading": {
+              "before": "The reward lasts forever.",
+              "after": "The reward is imperishable in a stronger sense: it is not a decorated surface destined to be stripped into barrenness."
+            }
+          },
+          {
+            "model_id": "delta-mercy-prepared-refuge",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ه ف",
+              "ن ش ر",
+              "ر ح م",
+              "ر ف ق"
+            ],
+            "mechanism": "The later refuge is not merely an enclosure: the shelter receives an opening-out of mercy and prepared benefit. This activates فِيهِ as a divinely made habitable environment whose permanence is spacious, merciful, and serviceable rather than bare confinement.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "م ك ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001437",
+                "branch_id": "B001",
+                "role": "Settled remaining anchors the refuge model in the focus act of inhabiting."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B006",
+                "role": "Residence without departure carries the refuge image beyond temporary shelter."
+              },
+              {
+                "source_ref": "18:10",
+                "root": "ك ه ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001325",
+                "branch_id": "B002",
+                "role": "The cave as refuge supplies the protected spatial analogue."
+              },
+              {
+                "source_ref": "18:16",
+                "root": "ن ش ر",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001503",
+                "branch_id": "B001",
+                "role": "Opening and spreading keeps refuge from becoming a cramped image and makes mercy environmental."
+              },
+              {
+                "source_ref": "18:16",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tender mercy supplies the quality spread through the protected environment."
+              },
+              {
+                "source_ref": "18:16",
+                "root": "ر ف ق",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_000583",
+                "branch_id": "B003",
+                "role": "Benefit and facility make the environment sustainably habitable."
+              }
+            ],
+            "structural_cues": [
+              "18:10 and 18:16 repeat movement into the cave and pair it with requested or prepared mercy, right arrangement, and facility."
+            ],
+            "reader_inference": "The packet supplies a refuge into which mercy is spread and benefit prepared; I analogically map that habitability onto فِيهِ. A live alternative is that the cave remains only a temporary rescue and should not characterize the eternal reward.",
+            "changed_reading": {
+              "before": "Permanent remaining risks sounding like endless enclosure.",
+              "after": "Permanent remaining can be heard as dwelling in an opened, mercy-saturated refuge equipped for enduring well-being."
+            }
+          },
+          {
+            "model_id": "delta-unbounded-versus-counted-stay",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع د د",
+              "ب ع ث",
+              "ل ب ث",
+              "ء م د"
+            ],
+            "mechanism": "The cave episode supplies a near-synonymous stay that is explicitly counted, has an endpoint, and is interrupted by awakening. That finite comparator makes مَّٰكِثِينَ ... أَبَدًا categorically different from an extraordinarily long interval: it is not an أَمَد that can be reached and exited.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "م ك ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001437",
+                "branch_id": "B001",
+                "role": "Settled waiting supplies the focus term that the later cave-stay vocabulary closely echoes."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B001",
+                "role": "Unending continuity blocks conversion of the focus stay into a measurable interval."
+              },
+              {
+                "source_ref": "18:11",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration supplies the measurable character of the cave interval."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Rousing what was still supplies an actual interruption and exit from the long stay."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ل ب ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001339",
+                "branch_id": "B001",
+                "role": "Remaining in a place supplies the closest contextual comparator to م ك ث."
+              },
+              {
+                "source_ref": "18:12",
+                "root": "ء م د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000050",
+                "branch_id": "B001",
+                "role": "A thing's limit and endpoint makes the comparator explicitly bounded."
+              }
+            ],
+            "structural_cues": [
+              "18:25 renders the cave stay as three hundred years plus nine; 18:26 assigns exact knowledge of how long they stayed to God.",
+              "The sequence 18:11-12 moves from numbered years to awakening, so immense duration does not entail permanence."
+            ],
+            "reader_inference": "The packet supplies counted years, a near-synonym for staying, an endpoint noun, and awakening; I infer a deliberate finite-versus-eternal contrast. A live alternative is that the cave stay merely intensifies the imagination of long duration without forming a lexical opposition.",
+            "changed_reading": {
+              "before": "Forever is an immeasurably large amount of the same kind of time as the cave stay.",
+              "after": "Forever is a different temporal mode: unlike even centuries of residence, it has no countable endpoint and no awakening out of it."
+            }
+          },
+          {
+            "model_id": "delta-promised-not-self-projected-future",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ع د",
+              "غ د و",
+              "ش ي ء"
+            ],
+            "mechanism": "The true promise opens a hoped-for future, while human assertion about the next day is made contingent on divine willing. The focus eternity is therefore not a creaturely forecast stretched indefinitely; its stability derives from the promisor whose will governs tomorrow.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B001",
+                "role": "Endless continuity supplies the future whose warrant is being tested."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B006",
+                "role": "Non-departure expresses the security produced by that warrant."
+              },
+              {
+                "source_ref": "18:21",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B001",
+                "role": "A spoken promise opening hope supplies the divine commitment behind the future claim."
+              },
+              {
+                "source_ref": "18:23",
+                "root": "غ د و",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001076",
+                "branch_id": "B002",
+                "role": "The next day supplies the smallest ordinary future that humans may not assert autonomously."
+              },
+              {
+                "source_ref": "18:24",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "Willing directed toward a thing supplies the condition governing creaturely futurity."
+              }
+            ],
+            "structural_cues": [
+              "18:21 declares the promise true and without doubt, while 18:23-24 forbids an unqualified claim about doing something tomorrow."
+            ],
+            "reader_inference": "The packet supplies a true divine promise and a restriction on autonomous tomorrow-speech; I infer a contrast in the warrant for future claims. A live alternative is that 18:23-24 regulates speech and planning without commenting on the ontology of reward.",
+            "changed_reading": {
+              "before": "أَبَدًا is a prediction that projects present staying indefinitely forward.",
+              "after": "أَبَدًا is a promised future secured by divine commitment, unlike even 'tomorrow,' which creatures cannot secure by themselves."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-permanent-estrangement",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the non-temporal wildness and emptied-home branches of ء ب د inside the ordinary temporal adverb أَبَدًا. It remains anchored in that exact focus root and in settled م ك ث, but downstream prose should present it only as an image of irreversible separation from the former order, not as a replacement definition of 'forever.'",
+            "focus_anchor": "أَبَدًا carries branch images of wild estrangement and an emptied former dwelling beside مَّٰكِثِينَ's fixed residence.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "م ك ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001437",
+                "branch_id": "B001",
+                "role": "Fixed residence supplies the new place or condition in which separation stabilizes."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B002",
+                "role": "Wildness and aversion image a permanent loss of domestication to the former order."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B003",
+                "role": "The emptied dwelling images the prior condition left vacant behind the abiding subjects."
+              }
+            ],
+            "changed_reading": {
+              "before": "They simply continue in the promised condition forever.",
+              "after": "Their permanence may also image irreversible estrangement from the former world, as though its old dwelling has been emptied behind them."
+            }
+          },
+          {
+            "outlier_id": "outlier-stability-maintained-by-motion",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a finite sleep scene is used to alter an eternal reward statement. It remains anchored in the stability of م ك ث and continuity of ء ب د, while the packet visibly preserves a stable center through surrounding deflection and bodily turning. Downstream prose should qualify it as an analogy for maintained stability, not identify reward with sleep or the cave.",
+            "focus_anchor": "مَّٰكِثِينَ supplies stable remaining, but does not itself require absolute motionlessness.",
+            "activation_trace": [
+              {
+                "source_ref": "18:3",
+                "root": "م ك ث",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001437",
+                "branch_id": "B001",
+                "role": "Stability with waiting supplies the enduring center whose internal mechanics are reconsidered."
+              },
+              {
+                "source_ref": "18:3",
+                "root": "ء ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000004",
+                "branch_id": "B001",
+                "role": "Continuity keeps the center stable through the surrounding changes."
+              },
+              {
+                "source_ref": "18:17",
+                "root": "ز و ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000654",
+                "branch_id": "B001",
+                "role": "Inclining away supplies protective circulation around the stable occupants."
+              },
+              {
+                "source_ref": "18:18",
+                "root": "ر ق د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000585",
+                "branch_id": "B001",
+                "role": "Sleep and stillness supply the apparently inert state that nevertheless requires maintenance."
+              },
+              {
+                "source_ref": "18:18",
+                "root": "ق ل ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001248",
+                "branch_id": "B004",
+                "role": "Turning a thing from one face to another supplies active maintenance within apparent stillness."
+              }
+            ],
+            "changed_reading": {
+              "before": "Eternal remaining is imagined as absolute, inert immobility.",
+              "after": "Stable abiding can be dynamically maintained: patterned motion may preserve the enduring center rather than contradict it."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The adjacent good recompense becomes the inhabitable referent of فِيهِ rather than an unspecified location.",
+            "The cave's counted, endpoint-bearing, awakened stay distinguishes eternity from even an immense finite interval.",
+            "The adornment-to-barrenness reversal sharpens permanence into resistance to stripping and exhaustion.",
+            "The promise-versus-tomorrow sequence grounds eternal futurity in divine commitment rather than human projection."
+          ],
+          "what_was_special": "The very short focus acts as a hinge: its open pronoun reaches backward to good recompense, while its residence and duration roots reach forward into a narrative crowded with refuge, staying, counting, awakening, and disputed time.",
+          "remaining_uncertainties": [
+            "Reward-as-container may be experiential metonymy rather than a strict ontological claim about the pronoun's referent.",
+            "The cave can illuminate temporary preservation without positively describing the mode of eternal reward.",
+            "The unhurried and estrangement branches are real packet branches but remain form-distant from ordinary adverbial أَبَدًا."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Permanence without suspended expectation.** `م ك ث` B001 (“staying still while waiting”) is intensified by `ء ب د` B001 (“enduring duration and permanence”). The cave sleepers also remain (`ل ب ث`) but awaken into uncertainty and measurement (18:12, 19, 25). I infer that `أبدا` removes the unresolved endpoint latent in waiting. The ayah reads as settled abiding, sharply unlike the cave’s provisional suspension.",
@@ -2364,18 +2965,23 @@
   "root_lexicon": {
     "root_001437": {
       "root_ar": "م ك ث",
+      "qac_roots_ar": [
+        "م ك ث"
+      ],
       "root_id": "root_001437",
-      "root_mapping": {
-        "root_id": "root_001437",
-        "root_norm": "م ك ث",
-        "source_root_norm": "م ك ث",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 7,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م ك ث",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 7
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8825c88a50fe729db284bad1f1a8566afc6b60835c52bc57ba07e3f5a97aa87b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -3280,18 +3886,23 @@
     },
     "root_000004": {
       "root_ar": "ء ب د",
+      "qac_roots_ar": [
+        "ء ب د"
+      ],
       "root_id": "root_000004",
-      "root_mapping": {
-        "root_id": "root_000004",
-        "root_norm": "ء ب د",
-        "source_root_norm": "أ ب د",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ب د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "26d9232f504f1e7a765aa21f24962f85e900df68194f08d588ea73e7bbc51331",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5423,14 +6034,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s018/linguistic/morphemes.tsv",
-        "ayah_count": 111,
-        "row_count": 2582,
+        "ayah_count": 110,
+        "row_count": 2575,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5935,11 +6552,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s018"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s18/packets/18_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s18/readers/reader_hft_a/18_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 230191,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6011,19 +6641,37 @@
           "root_ids": [
             "root_001437"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م ك ث",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001437",
+            "targets": [
+              {
+                "qac_root_norm": "م ك ث",
+                "target_rank": 1,
+                "furuq_root_id": "root_001437",
+                "furuq_root_norm": "م ك ث",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 7,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001437",
-              "root_norm": "م ك ث",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م ك ث",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 7,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 2,
+              "gloss_branch_count": 2,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6048,19 +6696,37 @@
           "root_ids": [
             "root_000004"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ب د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000004",
+            "targets": [
+              {
+                "qac_root_norm": "ء ب د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000004",
+                "furuq_root_norm": "ء ب د",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000004",
-              "root_norm": "ء ب د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ب د",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 28,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6087,10 +6753,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 11,
+        "dictionary_branches_kept": 11,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 11,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

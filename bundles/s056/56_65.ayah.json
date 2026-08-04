@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:36.194713+00:00",
+  "generated_at": "2026-08-04T22:30:01.102088+00:00",
   "surah": 56,
   "ayah": 65,
   "ayahRef": "56:65",
@@ -2136,7 +2136,8 @@
       "morpheme_ids": [
         "m-w-s056-a065-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:65:1"
+      "aligned_qac_word_ref_upstream": "56:65:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2150,7 +2151,8 @@
       "morpheme_ids": [
         "m-w-s056-a065-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:65:2"
+      "aligned_qac_word_ref_upstream": "56:65:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2164,7 +2166,8 @@
       "morpheme_ids": [
         "m-w-s056-a065-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:65:3"
+      "aligned_qac_word_ref_upstream": "56:65:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2182,7 +2185,8 @@
         "m-w-s056-a065-w003-03",
         "m-w-s056-a065-w003-04"
       ],
-      "aligned_qac_word_ref_upstream": "56:65:4"
+      "aligned_qac_word_ref_upstream": "56:65:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2196,7 +2200,8 @@
       "morpheme_ids": [
         "m-w-s056-a065-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:65:5"
+      "aligned_qac_word_ref_upstream": "56:65:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2210,7 +2215,8 @@
       "morpheme_ids": [
         "m-w-s056-a065-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:65:6"
+      "aligned_qac_word_ref_upstream": "56:65:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2226,7 +2232,8 @@
         "m-w-s056-a065-w005-02",
         "m-w-s056-a065-w005-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:65:7"
+      "aligned_qac_word_ref_upstream": "56:65:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2242,7 +2249,8 @@
         "m-w-s056-a065-w006-01",
         "m-w-s056-a065-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:65:8"
+      "aligned_qac_word_ref_upstream": "56:65:8",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3170,7 +3178,814 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_65.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:65",
+      "window": [
+        "56:57",
+        "56:58",
+        "56:59",
+        "56:60",
+        "56:61",
+        "56:62",
+        "56:63",
+        "56:64",
+        "56:65",
+        "56:66",
+        "56:67",
+        "56:68",
+        "56:69",
+        "56:70",
+        "56:71",
+        "56:72",
+        "56:73",
+        "56:74"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:65",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01_fragmentation_to_discourse",
+            "confidence": "strong",
+            "focus_anchor": "The conditional sequence `nasha -> jaalnahu hutaman -> zaltum tafakkahun` joins imposed material change to a durative human response.",
+            "mechanism": "Will assigns the pronominal object a new state: coherent material becomes dry fragments, while the causal `fa` transfers the scene from material breakage to speech that continues through the day. The result is not only a ruined object but a prolonged discursive aftermath.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "Mishiah literally supplies will directed at a thing and initiates the counterfactual state change."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making something assume a condition supplies the transition from an intact object to debris."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Breaking dry matter until it fragments supplies the material endpoint of the transition."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B006",
+                "role": "Continuing an action by day gives the reaction duration rather than a momentary exclamation."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "Pleasant or witty conversation supplies the speech-domain aftermath, made dissonant by the preceding ruin."
+              }
+            ],
+            "changed_reading": {
+              "before": "A warning that an object could be destroyed, followed by human regret.",
+              "after": "An imposed state change converts material coherence into fragments and leaves the humans caught in extended talk about the result."
+            }
+          },
+          {
+            "model_id": "b02_fruit_becomes_only_fakaha",
+            "confidence": "medium",
+            "focus_anchor": "`Hutaman` and `tafakkahun` place dry broken matter beside a root whose inventory spans fruit, enjoyment, and sociable talk.",
+            "mechanism": "The second half preserves the sound-field of desirable fruit and pleasure after the object has become their material opposite. A possible lexical irony converts expected fruit or enjoyment into only talk about what is gone; focus-only reading cannot yet decide whether that talk is amazement, bitter irony, or lament.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Dry fragmentation supplies the anti-fruit material condition."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Desirable fruit supplies the absent expected yield echoed inside the response verb."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B001",
+                "role": "Pleasure and ease supply the positive affect that the ruin reverses or makes bitterly incongruous."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "Conversation supplies what remains when material fruit and its enjoyment disappear."
+              }
+            ],
+            "changed_reading": {
+              "before": "They would simply lament the ruined material.",
+              "after": "The ruin is an anti-harvest in which fruit and enjoyment survive only as an ironic verbal echo."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_authorship_boundary",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "م ن ي",
+              "ح ر ث",
+              "ز ر ع"
+            ],
+            "mechanism": "The surrounding sequence separates handling generative material, tilling, and sowing from creating and causing growth. The focus conditional then demonstrates the same boundary negatively: the party that can assign the grown object the state of dry debris controls the outcome beyond human cultivation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Assigning a thing a condition anchors the focus as unilateral control over the crop's final state."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Dry fragmentation is the controlled negative outcome against which authorship is tested."
+              },
+              {
+                "source_ref": "56:59",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing creation into existence supplies the disputed authorship pole in the repeated you-or-We question."
+              },
+              {
+                "source_ref": "56:58",
+                "root": "م ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001450",
+                "branch_id": "B002",
+                "role": "Seminal material from which a form is apportioned supplies a humanly handled input that is not identical with creating its outcome."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ح ر ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000303",
+                "branch_id": "B002",
+                "role": "Casting seed and working the field supplies the limited human operation."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Causing a crop to sprout and grow supplies the outcome whose true agency the paired question contests."
+              }
+            ],
+            "structural_cues": [
+              "56:58-59 and 56:63-64 repeat an observed input followed by a you-or-We authorship question.",
+              "56:65 changes the pattern from disputed production to an uncontested counterfactual power over the result."
+            ],
+            "reader_inference": "The packet supplies distinct input, labor, growth, and state-change terms; I infer an agency boundary between cultivation and causing the outcome. A live alternative is that all four verses are parallel proofs of power without a technical division of labor.",
+            "changed_reading": {
+              "before": "The focus threatens an isolated crop failure.",
+              "after": "The focus is the negative test of a production claim: human tillage does not confer authorship over growth or its final state."
+            }
+          },
+          {
+            "model_id": "d02_miniature_death_recreation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق د ر",
+              "م و ت",
+              "ب د ل",
+              "م ث ل",
+              "ن ش ء",
+              "ء و ل",
+              "ذ ك ر"
+            ],
+            "mechanism": "Measured death, replacement by counterparts, and new origination precede the field scene. The crop's passage into lifeless fragments becomes a small visible model of power over ending one organized form and originating or replacing another, so agricultural loss participates in the resurrection argument.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The loss of an organized dry body into fragments supplies the focus's visible terminal state."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Ordering an affair by measure supplies deliberate control rather than accidental decay."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Departure of force and life supplies the human-scale endpoint analogized by the crop's lifeless debris."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B001",
+                "role": "One thing standing in another's place supplies the replacement side of the transformation cycle."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Counterpart and likeness specify that replacement can preserve a type while exchanging an instance."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Originating a thing supplies the constructive power paired with reduction to debris."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "The beginning and precedence of a thing supply the already-known first origination used as evidence."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder supplies the intended transfer from a known first formation to the focus's observable transformation."
+              }
+            ],
+            "structural_cues": [
+              "The death-replacement-origination sequence at 56:60-62 immediately precedes the seed-and-field sequence at 56:63-65."
+            ],
+            "reader_inference": "The packet supplies measured death, replacement, origination, first formation, and crop fragmentation; I supply the analogical arrow from plant form to human re-creation. The live alternative keeps the field merely as a second independent example of power.",
+            "changed_reading": {
+              "before": "The debris image concerns agricultural vulnerability alone.",
+              "after": "The debris image is also a miniature death-and-reconstitution demonstration embedded in the argument over human re-creation."
+            }
+          },
+          {
+            "model_id": "d03_talk_unfolds_as_loss_diagnosis",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ر م",
+              "ح ر م"
+            ],
+            "mechanism": "The two terse reactions after the focus unpack `tafakkahun` as sustained diagnostic speech. The speakers first construe the wreck as a binding financial loss, then `bal` revises that account into deprivation of the sought yield; their talk moves from cost incurred to benefit withheld.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B006",
+                "role": "Durative daytime action supplies room for a sequence of reactions rather than one cry."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "Conversation supplies the discourse frame whose content the following clauses articulate."
+              },
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B001",
+                "role": "A binding monetary liability supplies the speakers' first diagnosis of the ruined crop."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Failure to obtain the sought thing supplies the corrected diagnosis: deprivation rather than only expense."
+              }
+            ],
+            "structural_cues": [
+              "56:66 and 56:67 are consecutive first-person plural nominal reactions, and `bal` marks correction or escalation."
+            ],
+            "reader_inference": "The packet supplies the ordered reactions and corrective particle; I treat them as phases or content of `tafakkahun`. A live alternative reads them as separate exclamations following a more general state of amazement.",
+            "changed_reading": {
+              "before": "`Tafakkahun` names undifferentiated lament or amazement.",
+              "after": "`Tafakkahun` is prolonged loss-accounting that revises itself from debt-like liability to recognition of total deprivation."
+            }
+          },
+          {
+            "model_id": "d04_spoiled_provision_pair",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "م و ه",
+              "ش ر ب",
+              "ن ز ل",
+              "م ز ن",
+              "ش ي ء",
+              "ج ع ل",
+              "ء ج ج",
+              "ش ك ر"
+            ],
+            "mechanism": "The water unit repeats the focus's willing-and-making construction but changes potable water into brine. Both tests preserve matter while destroying its intended usability: crop remains as fragments and water remains as undrinkable water. The focus therefore depicts privation by conversion, not simple disappearance.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Assigning a new condition supplies the shared transformation operator."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Broken dry matter supplies a surviving but food-useless residue."
+              },
+              {
+                "source_ref": "56:68",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B001",
+                "role": "The packet's split mapping contributes satiation versus thirst to the seeing prompt, sharpening usable provision as an associative echo rather than an etymology."
+              },
+              {
+                "source_ref": "56:68",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "Water as the ordinary substance supplies the second material whose utility is tested."
+              },
+              {
+                "source_ref": "56:68",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B001",
+                "role": "Taking in liquid supplies the intended use that salinity blocks."
+              },
+              {
+                "source_ref": "56:69",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2",
+                  "7"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Delivering something downward supplies the disputed source of the usable water."
+              },
+              {
+                "source_ref": "56:69",
+                "root": "م ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001419",
+                "branch_id": "B001",
+                "role": "Cloud supplies the material source from which the delivered water comes."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "The repeated divine willing makes the water test formally parallel to the focus conditional."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "The repeated state-assignment verb confirms conversion rather than removal as the common mechanism."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ء ج ج",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000014",
+                "branch_id": "B003",
+                "role": "Salty bitter water supplies a present substance whose proper use has been spoiled."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B001",
+                "role": "Recognition of benefit and benefactor supplies the response opposed to taking usable provision for granted."
+              }
+            ],
+            "structural_cues": [
+              "56:70 repeats `law nasha jaalnahu` from 56:65 and closes with a response question.",
+              "The crop and water units each move from human use, through a source-or-agency question, to a counterfactual spoiled state."
+            ],
+            "reader_inference": "The packet supplies the formal parallel and two unusable end states; I infer a common mechanism of deprivation through retained-but-spoiled matter. The non-dominant `r-w-y` citation is only an associative hydration cue; the primary reading remains seeing.",
+            "changed_reading": {
+              "before": "The crop is threatened with annihilation.",
+              "after": "The crop is threatened with a more pointed conversion: it remains materially present like briny water, but its provision-value has been withdrawn."
+            }
+          },
+          {
+            "model_id": "d05_corrected_speech_trajectory",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ك ر",
+              "ذ ك ر",
+              "س ب ح",
+              "ر ب ب"
+            ],
+            "mechanism": "The focus leaves humans continuing in talk; the later sequence names the responses that such signs should produce: gratitude, reminder, and transcendent praise of the one who nurtures and completes. The problem exposed by `tafakkahun` is therefore interpretive and verbal as well as agricultural: speech lingers at loss-accounting instead of becoming recognition.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "Sociable or witty talk supplies the human speech state that requires redirection."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B001",
+                "role": "Acknowledging benefit and benefactor supplies the first explicit correction to self-enclosed reaction."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A thing made to prompt recollection supplies the cognitive correction between provision and praise."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Declaring transcendence and freedom from defect supplies the commanded endpoint of speech."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repairing, and bringing to completion identify the agency that the production examples disclose."
+              }
+            ],
+            "structural_cues": [
+              "The reaction speech at 56:66-67 is followed by `why not give thanks` at 56:70, fire as reminder at 56:73, and the praise command at 56:74."
+            ],
+            "reader_inference": "The packet supplies an ordered series of response terms; I infer a corrective speech trajectory from chatter to recognition. A live alternative confines each response command to its immediately preceding example.",
+            "changed_reading": {
+              "before": "The prolonged talk is a natural emotional consequence of crop loss.",
+              "after": "The prolonged talk is also a failed response mode: the sequence presses loss-accounting to become gratitude, recollection, and praise."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_shade_collapses_into_duration",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the grammar favors auxiliary `zaltum`, yet the same packet root also carries physical shade. It remains focus-anchored by the destruction of dry plant matter and the exact `z-l-l` form; downstream prose should present it only as a lexical echo, not as an alternative parse.",
+            "focus_anchor": "The crop-like object loses coherent form just before `zaltum`, whose root can name both shade and continuing by day.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Dry plant-like matter broken into fragments supplies the loss of a coherent productive cover."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "Physical shade supplies the lost shelter or cover echoed beneath the surface verb."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B006",
+                "role": "Continuing an action during the day supplies the grammatical reading into which the shade image collapses."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "Conversation supplies what endures after the material cover has disappeared."
+              }
+            ],
+            "changed_reading": {
+              "before": "They would continue talking after the loss.",
+              "after": "As a contained lexical echo, productive shade is replaced by mere duration: what remains through the day is talk."
+            }
+          },
+          {
+            "outlier_id": "o02_loss_becomes_mutual_blame",
+            "confidence": "exploratory",
+            "containment": "This is surprising because `tafakkahun` need not mean attacking reputations, but its supplied branch explicitly permits taking up other people's honor. The plural durative response and the following liability/deprivation diagnoses keep a social blame loop anchored; downstream prose should say it may include mutual recrimination, not translate the verb that way outright.",
+            "focus_anchor": "Second-person plural `zaltum tafakkahun` portrays a group remaining together in a speech activity after shared ruin.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B006",
+                "role": "Continued group action supplies persistence of the social response."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B007",
+                "role": "Speaking against people and their honor supplies a possible turn from shared loss to mutual blame."
+              },
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B002",
+                "role": "One claimant clinging to another supplies the relational pressure latent in the group's liability language."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Missing the desired yield supplies the shared grievance around which blame can circulate."
+              }
+            ],
+            "changed_reading": {
+              "before": "The group jointly laments its loss.",
+              "after": "Exploratorily, prolonged loss-talk can become a social recrimination loop over who incurred the liability and why all were deprived."
+            }
+          },
+          {
+            "outlier_id": "o03_debris_as_latent_tinder",
+            "confidence": "exploratory",
+            "containment": "This cross-material reading is surprising because the packet never identifies the focus debris as fuel. It remains anchored in dry broken matter followed by hidden fire in wood and utility-as-reminder; downstream prose must frame fuel or renewed use as a possible material analogy, not the referent's stated fate.",
+            "focus_anchor": "`Hutaman` leaves dry broken matter materially present rather than erasing it.",
+            "activation_trace": [
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Dry fragments supply a residue that has lost food-value but still has material properties."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies a possible later use for dry vegetal residue."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "و ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001642",
+                "branch_id": "B002",
+                "role": "Fire hidden in and brought from tinder supplies the conversion from apparently spent matter to released energy."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The stemmed tree supplies the vegetal material from which the subsequent fire is elicited."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "م ت ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001395",
+                "branch_id": "B003",
+                "role": "A thing useful for needs and passage supplies the possibility that changed matter can retain another utility."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Material made into a reminder supplies a non-food value that can survive or follow loss of the original use."
+              }
+            ],
+            "changed_reading": {
+              "before": "Debris is the terminal sign of failed provision.",
+              "after": "Exploratorily, debris may be terminal as food yet not as matter: the following fire unit lets spent vegetal material become tinder, utility, or reminder."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The agency questions turn the focus from generic crop failure into a boundary between human cultivation and authorship of growth.",
+            "The following reactions unpack `tafakkahun` as a sustained revision from binding loss to deprivation.",
+            "The repeated water conditional shows deprivation through retained-but-spoiled provision and redirects reaction toward gratitude.",
+            "The preceding death and origination sequence lets crop fragmentation operate as a small visible model of controlled ending and re-creation."
+          ],
+          "what_was_special": "The focus compresses willing, state-assignment, brittle fragmentation, duration, and the fruit-pleasure-talk range of `f-k-h`; context turns that lexical knot into an audit of agency, loss-description, and speech response.",
+          "remaining_uncertainties": [
+            "The fruit and pleasure branches of `f-k-h` may be active lexical irony or only background resonance.",
+            "The shade-duration, mutual-blame, and tinder readings are branch-backed echoes whose intended salience remains uncertain.",
+            "The packet's `r-hamza-y` to `r-w-y` mapping contributes a hydration association, but the contextual form still primarily means seeing."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Willed transformation can reverse growth into crumbled residue.** In `نشاء`, `ش ي ء` **B001** has two accepted variants; the **“willing”** variant is operative, not “knowable thing.” `ج ع ل` **B002** supplies turning into a state and `ح ط م` **B001** breaking a dry thing until it crumbles. **Abductive move:** I infer a reversible causal chain: the power that enables growth can instead assign disintegration. **Reading change:** crop stability is exposed as contingent transformation.\n\n2. **Former enjoyment turns into agitated exultation or self-talk.** `ف ك ه` **B001** supplies pleasant ease, while **B006** supplies insolent exultance; the resultative `فـ` places `تفكهون` after crop-loss. **Abductive move:** I infer an ironic reversal in which the root of enjoyment now marks disturbed reaction rather than pleasure. **Reading change:** the same affective field that described garden fruit becomes unstable when production fails.",
@@ -4053,18 +4868,23 @@
   "root_lexicon": {
     "root_000831": {
       "root_ar": "ش ي ء",
+      "qac_roots_ar": [
+        "ش ي ء"
+      ],
       "root_id": "root_000831",
-      "root_mapping": {
-        "root_id": "root_000831",
-        "root_norm": "ش ي ء",
-        "source_root_norm": "ش ي ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 509,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ي ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 509
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -4072,18 +4892,23 @@
     },
     "root_000248": {
       "root_ar": "ج ع ل",
+      "qac_roots_ar": [
+        "ج ع ل"
+      ],
       "root_id": "root_000248",
-      "root_mapping": {
-        "root_id": "root_000248",
-        "root_norm": "ج ع ل",
-        "source_root_norm": "ج ع ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 346,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ع ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 346
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "966d4806f02b8a66710b781d944f2e815c2a6355d0191d529b692bf231f846b3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6665,18 +7490,23 @@
     },
     "root_000337": {
       "root_ar": "ح ط م",
+      "qac_roots_ar": [
+        "ح ط م"
+      ],
       "root_id": "root_000337",
-      "root_mapping": {
-        "root_id": "root_000337",
-        "root_norm": "ح ط م",
-        "source_root_norm": "ح ط م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ط م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "db76ecc35c74573165b74365b1b787d98bbfbccbd882ab077fb4fcd78c0dbf23",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8568,18 +9398,23 @@
     },
     "root_000966": {
       "root_ar": "ظ ل ل",
+      "qac_roots_ar": [
+        "ظ ل ل"
+      ],
       "root_id": "root_000966",
-      "root_mapping": {
-        "root_id": "root_000966",
-        "root_norm": "ظ ل ل",
-        "source_root_norm": "ظ ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ظ ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "dae2e3c2aeb5e24603c4f74e1986d5fe0f744f113bc15c820b6494a290cd5be5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10229,18 +11064,23 @@
     },
     "root_001174": {
       "root_ar": "ف ك ه",
+      "qac_roots_ar": [
+        "ف ك ه"
+      ],
       "root_id": "root_001174",
-      "root_mapping": {
-        "root_id": "root_001174",
-        "root_norm": "ف ك ه",
-        "source_root_norm": "ف ك ه",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 18,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف ك ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 18
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a58c2c395db2c9d1ea19a109e1ae21ea45737afcf7838c74dc152326c19958ad",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12085,14 +12925,20 @@
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 8
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12391,11 +13237,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_65.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_65.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 91777,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -12470,19 +13329,37 @@
           "root_ids": [
             "root_000831"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ي ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000831",
+            "targets": [
+              {
+                "qac_root_norm": "ش ي ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000831",
+                "furuq_root_norm": "ش ي ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 509,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000831",
-              "root_norm": "ش ي ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ي ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 509,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -12494,19 +13371,37 @@
           "root_ids": [
             "root_000248"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ع ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000248",
+            "targets": [
+              {
+                "qac_root_norm": "ج ع ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000248",
+                "furuq_root_norm": "ج ع ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 346,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000248",
-              "root_norm": "ج ع ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ع ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 346,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12531,19 +13426,37 @@
           "root_ids": [
             "root_000337"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ط م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000337",
+            "targets": [
+              {
+                "qac_root_norm": "ح ط م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000337",
+                "furuq_root_norm": "ح ط م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000337",
-              "root_norm": "ح ط م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ط م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12568,19 +13481,37 @@
           "root_ids": [
             "root_000966"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ظ ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000966",
+            "targets": [
+              {
+                "qac_root_norm": "ظ ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000966",
+                "furuq_root_norm": "ظ ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000966",
-              "root_norm": "ظ ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ظ ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 28,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12605,19 +13536,37 @@
           "root_ids": [
             "root_001174"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف ك ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001174",
+            "targets": [
+              {
+                "qac_root_norm": "ف ك ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_001174",
+                "furuq_root_norm": "ف ك ه",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 18,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001174",
-              "root_norm": "ف ك ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف ك ه",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 18,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12644,10 +13593,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 37,
+        "dictionary_branches_kept": 37,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 28,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

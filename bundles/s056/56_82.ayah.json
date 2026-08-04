@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.310992+00:00",
+  "generated_at": "2026-08-04T22:30:02.076542+00:00",
   "surah": 56,
   "ayah": 82,
   "ayahRef": "56:82",
@@ -1720,7 +1720,8 @@
       "morpheme_ids": [
         "m-w-s056-a082-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:82:1"
+      "aligned_qac_word_ref_upstream": "56:82:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1736,7 +1737,8 @@
         "m-w-s056-a082-w001-02",
         "m-w-s056-a082-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:82:2"
+      "aligned_qac_word_ref_upstream": "56:82:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1752,7 +1754,8 @@
         "m-w-s056-a082-w002-01",
         "m-w-s056-a082-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:82:3"
+      "aligned_qac_word_ref_upstream": "56:82:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1768,7 +1771,8 @@
         "m-w-s056-a082-w003-01",
         "m-w-s056-a082-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:82:4"
+      "aligned_qac_word_ref_upstream": "56:82:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1784,7 +1788,8 @@
         "m-w-s056-a082-w004-01",
         "m-w-s056-a082-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:82:5"
+      "aligned_qac_word_ref_upstream": "56:82:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2486,7 +2491,710 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_82.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:82",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:82",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_provision_converted_to_denial",
+            "confidence": "strong",
+            "focus_anchor": "The construction joins making, one's provision, and a clause of active denial.",
+            "mechanism": "Making as conversion places the allotted benefit into a new status: what was received as provision is made into the recipients' act of denial. The verse therefore depicts a reversal of gift into response, not merely a false statement about an external object.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "The branch supplies conversion into a condition and makes denial the resulting condition of the gift."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "The branch supplies an apportioned benefit and identifies what is being perversely converted."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The branch supplies active attribution of falsity and names the condition imposed on the received share."
+              }
+            ],
+            "changed_reading": {
+              "before": "You deny that your provision is truly provision.",
+              "after": "You turn the very share granted to you into your act of declaring false, converting gift into denial."
+            }
+          },
+          {
+            "model_id": "base_denial_as_assigned_livelihood",
+            "confidence": "medium",
+            "focus_anchor": "The possessive provision stands as the object whose content is the clause that you deny.",
+            "mechanism": "The making root can denote a reward assigned for work, while provision can denote a paid allotment. Together they permit a transactional reading in which denial is made into the recipients' wage, return, or means of subsistence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B005",
+                "role": "The branch supplies compensation fixed for an act and frames denial as compensated activity."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B004",
+                "role": "The branch supplies regular pay or ration and gives the possessive provision an occupational sense."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The branch supplies contradiction of truth as the activity yielding that return."
+              }
+            ],
+            "changed_reading": {
+              "before": "Your response to provision is denial.",
+              "after": "You have made denial itself your assigned return or livelihood."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx_descended_message_as_provision",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ء",
+              "ك ت ب",
+              "ن ز ل"
+            ],
+            "mechanism": "The preceding sequence identifies a recited, inscribed communication that is delivered from above. The focus root's rain-provision branch links descent with life-giving provision, so the denied gift can be the delivered message itself rather than food alone.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "The branch supplies life-giving provision arriving from above and bridges material rain to the delivered message."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The branch supplies attribution of falsity and makes the delivered gift the target of repudiation."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "The branch supplies recitation and identifies the communicative form of the provision."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "The branch supplies an authoritative inscription and stabilizes the message as an established grant."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "The branch supplies delivery downward and activates the focus provision's descending-rain image."
+              }
+            ],
+            "structural_cues": [
+              "56:77-80 moves from recitation through guarded inscription and restricted contact to delivery from above.",
+              "56:81-82 places evasive treatment of that communication immediately before the making-of-provision clause."
+            ],
+            "reader_inference": "The packet supplies a delivered text and a focus branch in which descending rain is provision; I infer that analogous life-giving delivery makes the text itself provision. A live alternative is that descent only identifies the object being denied without changing provision's material sense.",
+            "changed_reading": {
+              "before": "You convert a material allotment into denial.",
+              "after": "You convert the delivered, life-giving communication allotted to you into an act of declaring it false."
+            }
+          },
+          {
+            "model_id": "ctx_measured_and_inscribed_share",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق س م",
+              "ك ت ب"
+            ],
+            "mechanism": "Apportionment at the opening oath and binding inscription before the focus reinforce provision as a measured share rather than an accidental possession. Denial then attempts to redescribe an allocation already marked and fixed.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "The branch supplies a divided allotment and serves as the measured object of denial."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B003",
+                "role": "The branch supplies naming or designation and frames denial as a false relabeling of the share."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The branch supplies separation into shares and sharpens the distributive force of provision."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "The branch supplies binding fixation in writing and makes the allocation resistant to recipients' relabeling."
+              }
+            ],
+            "structural_cues": [
+              "The unit opens with an oath tied to ordered locations and then describes an inscribed communication.",
+              "The possessive suffix in the focus marks the allotted object as specifically theirs."
+            ],
+            "reader_inference": "The packet supplies division and binding inscription; I infer that they jointly characterize provision as measured and registered. A live alternative is that the oath and inscription authorize the message only, with no distributive implication for provision.",
+            "changed_reading": {
+              "before": "You call a received benefit false.",
+              "after": "You falsely relabel as denial a share already apportioned and authoritatively fixed for you."
+            }
+          },
+          {
+            "model_id": "ctx_compromise_made_into_livelihood",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح د ث",
+              "د ه ن"
+            ],
+            "mechanism": "Immediately before the focus, renewed discourse is met with smoothing accommodation. This activates the baseline wage model: denial can function as a practiced, socially profitable handling of the discourse rather than a momentary intellectual error.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B005",
+                "role": "The branch supplies payment assigned to work and casts the following denial as remunerated practice."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B004",
+                "role": "The branch supplies a livelihood ration and anchors the economic dimension in the focus word."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "The branch supplies discourse renewed as report and identifies what the livelihood-producing response handles."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "The branch supplies pliant accommodation and makes denial a socially smoothing technique."
+              }
+            ],
+            "structural_cues": [
+              "56:81 asks about the audience's mode of handling this discourse; 56:82 immediately names what they make into their provision.",
+              "The second-person plural continues across the question and the focus accusation."
+            ],
+            "reader_inference": "The packet supplies renewed discourse, accommodation, assigned pay, and a livelihood ration; I infer that accommodative denial can be socially or materially rewarded. A live alternative is purely rhetorical softening with no economic incentive.",
+            "changed_reading": {
+              "before": "Denial is an ungrateful response to provision.",
+              "after": "By smoothing away the discourse, you make denial into a practiced livelihood or compensated return."
+            }
+          },
+          {
+            "model_id": "ctx_provision_as_unreturnable_debt_of_life",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ل ق",
+              "د ي ن",
+              "ر ج ع",
+              "ص د ق"
+            ],
+            "mechanism": "The scene after the focus moves to the throat, denied liability, and the failed challenge to return what has reached its limit. Provision as bodily sustenance becomes evidence of an obligation the recipients cannot cancel; their inability to restore life exposes denial as a refusal of indebtedness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B002",
+                "role": "The branch supplies nourishment entering the body and links provision materially to the throat scene."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The branch supplies the shared passage of food and breath and locates the limit of received bodily provision."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "The branch supplies financial indebtedness and reframes possession of provision as carrying an outstanding obligation."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "The branch supplies restoration to a former state and tests whether recipients control what was provisioned."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "The branch supplies fulfillment in action and makes actual restoration the test of the denial claim."
+              }
+            ],
+            "structural_cues": [
+              "56:83-87 stages a bodily limit, passive observation, a claim of non-liability, and an imperative to restore.",
+              "The challenge shifts verification from speech to an impossible act."
+            ],
+            "reader_inference": "The packet supplies bodily intake, debt, restoration, and enacted truth; I infer that receiving life-sustenance creates an obligation disclosed when control fails. A live alternative is that debt language refers only to final judgment, not gratitude for provision.",
+            "changed_reading": {
+              "before": "You deny the source or reality of what sustains you.",
+              "after": "You turn bodily sustenance into denial of the debt it entails, though you cannot return or restore the life carried through you."
+            }
+          },
+          {
+            "model_id": "ctx_provision_expanded_to_rest_and_flourishing",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر و ح",
+              "ج ن ن",
+              "ن ع م"
+            ],
+            "mechanism": "The favorable outcome unfolds as repose, fragrant growth, sheltered cultivation, and good condition. These images expand provision from consumable ration into an ecology of restoration and flourishing, making denial a contraction of a many-layered gift.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "The branch supplies broad apportioned benefit and allows the later forms of well-being to fill out provision."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B007",
+                "role": "The branch supplies rest and release, extending provision beyond food into restoration."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B012",
+                "role": "The branch supplies aromatic vegetation and gives provision a living, sensory dimension."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The branch supplies cultivated shelter and gathers rest and growth into a sustaining environment."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "The branch supplies a condition of blessing and names the integrated result of that provision."
+              }
+            ],
+            "structural_cues": [
+              "56:88-89 answers the death scene with a compact accumulation of favorable conditions.",
+              "All three favorable nouns occur together before the contrasting addressees and their outcomes."
+            ],
+            "reader_inference": "The packet supplies rest, fragrant vegetation, sheltered cultivation, and blessing; I infer that their co-location specifies the range of provision denied in the focus. A live alternative is that these are later rewards rather than dimensions of the focus provision.",
+            "changed_reading": {
+              "before": "Provision is an allotted consumable benefit.",
+              "after": "The provision you convert into denial includes restoration, fragrant growth, shelter, and an entire condition of flourishing."
+            }
+          },
+          {
+            "model_id": "ctx_denial_shapes_counter_hospitality",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ز ل",
+              "ح م م",
+              "ص ل ي",
+              "ج ح م"
+            ],
+            "mechanism": "The same descent root that delivered the message later names what is prepared for arrival, now joined to scalding liquid and engulfing fire. The focus making-construction can therefore be read causally: denial converts a received provision into the counter-provision that receives the denier.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "The branch supplies conversion into a resulting state and anchors the proposed causal reversal."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "The branch supplies an assigned share and lets the later reception appear as a grim allotment."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "The branch supplies provisions prepared for an arriving guest and reverses the earlier beneficial delivery."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "The branch supplies scalding water and specifies the hostile content of the prepared reception."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "The branch supplies direct encounter with fire and turns the reception into embodied consequence."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "The branch supplies fiercely kindled heat and completes the counter-hospitality mechanism."
+              }
+            ],
+            "structural_cues": [
+              "The delivery term of 56:80 recurs in 56:93 with a reception-oriented sense.",
+              "56:92 identifies the deniers immediately before 56:93-94 specifies their reception."
+            ],
+            "reader_inference": "The packet supplies beneficial delivery, prepared reception, and destructive contents; I infer an arrow by which denial shapes the allotment that receives the denier. A live alternative is a judicial contrast of outcomes without the focus verb expressing causation.",
+            "changed_reading": {
+              "before": "You transform the provision already received into denial.",
+              "after": "By denial, you shape your assigned reception into a counter-provision of scalding water and engulfing fire."
+            }
+          },
+          {
+            "model_id": "ctx_false_naming_of_the_provider",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ق ق",
+              "ي ق ن",
+              "س ب ح",
+              "س م و",
+              "ر ب ب"
+            ],
+            "mechanism": "The closing sequence joins reality, certainty, exoneration, naming, and sovereignty. This activates making as naming and denial as assigning falsity: the offense is false attribution of provision, answered by clearing and correctly naming its sovereign source.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B003",
+                "role": "The branch supplies naming or designation and turns making provision into an act of attribution."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The branch supplies charging something with falsity and defines the attribution as repudiation."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "The branch supplies stable correspondence with reality and opposes the focus act of false attribution."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "The branch supplies settled knowledge without doubt and closes off denial as an epistemic refuge."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "The branch supplies exoneration and reverses the false charge implicit in denial."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "The branch supplies a name as designation and answers false naming with correct identification."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "The branch supplies sovereign ownership and identifies the provider whose gift was misattributed."
+              }
+            ],
+            "structural_cues": [
+              "56:95 declares the matter reality joined to certainty.",
+              "56:96 answers with an imperative of exoneration centered on the sovereign's name."
+            ],
+            "reader_inference": "The packet supplies truth, certainty, exoneration, designation, and sovereignty; I infer that their sequence repairs a false attribution of provision's source. A live alternative is that the close validates the entire preceding judgment without specifically resolving the focus verb as naming.",
+            "changed_reading": {
+              "before": "You deny the provision itself.",
+              "after": "You falsely designate the provision and repudiate its sovereign source; the close answers by clearing and naming that source truly."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_provision_whose_continuance_proves_false",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a material branch of the denial root rather than the focus form's ordinary act of declaring false. It remains anchored in the focus pairing of edible provision and denial, and the throat scene makes failed bodily continuance visible. Downstream prose should present it only as a material analogy for presumed self-sustaining life, not as a lexical replacement for active denial.",
+            "focus_anchor": "Provision uses the nourishment branch, while the denial root includes milk expected to continue but found to cease.",
+            "activation_trace": [
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B002",
+                "role": "The branch supplies ingested sustenance and gives the exploratory image its material substrate."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "The branch supplies nourishment whose expected persistence fails and recasts denial as false confidence in continuance."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The branch supplies the bodily conduit of nourishment and breath, where the presumed continuity visibly ends."
+              }
+            ],
+            "changed_reading": {
+              "before": "You actively declare your provision false.",
+              "after": "You treat provision as if it guaranteed its own continuance, but at the throat that sustaining expectation itself proves false."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The preceding descent sequence expands provision into the delivered communication itself.",
+            "The death challenge turns bodily provision into evidence of an unreturnable debt rather than a possession under human control.",
+            "The close shifts denial toward false attribution of provision's sovereign source and answers it with true naming."
+          ],
+          "what_was_special": "The focus roots support several conversions at once: gift into denial, denial into livelihood, descent into message-provision, and denial into a hostile reception. The surrounding unit repeatedly tests whether recipients can name, repay, restore, or control what was allotted.",
+          "remaining_uncertainties": [
+            "The livelihood model depends on combining compensation and ration branches that are available in the focus but not required by its surface syntax.",
+            "The counter-hospitality model requires a reader-supplied causal arrow from present denial to later reception.",
+            "The failed-continuance outlier is a branch-driven material analogy and should not displace the active-denial morphology."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Provision is transformed into the act of denial.** `ج ع ل` **B002** supplies turning something into a state; `ر ز ق` **B001** supplies provision as allotted gift; `ك ذ ب` **B002** supplies declaring false. The creation, crop, water, and fire sequence has just identified multiple provisions. **Abductive move:** I infer that instead of recognition, recipients convert the evidential effect of provision into falsification. **Reading change:** denial is depicted as a perverse use made of sustenance.\n\n2. **Rain-provision answered by a false attribution.** `ر ز ق` **B003** supplies rain as provision, activated by 56:68–70; `ك ذ ب` **B001** supplies falsehood against truth. **Abductive move:** I infer that rain is the most explicit earlier case of a gift whose source can be misdescribed. **Reading change:** the ayah retrospectively makes the water argument a test of truthful attribution.",
@@ -3782,18 +4490,23 @@
   "root_lexicon": {
     "root_000248": {
       "root_ar": "ج ع ل",
+      "qac_roots_ar": [
+        "ج ع ل"
+      ],
       "root_id": "root_000248",
-      "root_mapping": {
-        "root_id": "root_000248",
-        "root_norm": "ج ع ل",
-        "source_root_norm": "ج ع ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 346,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ع ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 346
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "966d4806f02b8a66710b781d944f2e815c2a6355d0191d529b692bf231f846b3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6375,18 +7088,23 @@
     },
     "root_000560": {
       "root_ar": "ر ز ق",
+      "qac_roots_ar": [
+        "ر ز ق"
+      ],
       "root_id": "root_000560",
-      "root_mapping": {
-        "root_id": "root_000560",
-        "root_norm": "ر ز ق",
-        "source_root_norm": "ر ز ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 118,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ز ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 118
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "2976c9c20cb6571245206b6d27e37728a49a9358f9e9bd8374585937bbf6c088",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8602,18 +9320,23 @@
     },
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10386,14 +11109,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10699,11 +11428,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_82.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_82.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 101733,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10777,19 +11519,37 @@
           "root_ids": [
             "root_000248"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ع ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000248",
+            "targets": [
+              {
+                "qac_root_norm": "ج ع ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000248",
+                "furuq_root_norm": "ج ع ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 346,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000248",
-              "root_norm": "ج ع ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ع ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 346,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10814,19 +11574,37 @@
           "root_ids": [
             "root_000560"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر ز ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000560",
+            "targets": [
+              {
+                "qac_root_norm": "ر ز ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000560",
+                "furuq_root_norm": "ر ز ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 118,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000560",
-              "root_norm": "ر ز ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر ز ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 118,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10851,19 +11629,37 @@
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10890,10 +11686,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 19,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

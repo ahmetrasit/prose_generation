@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.563985+00:00",
+  "generated_at": "2026-08-04T22:29:45.433026+00:00",
   "surah": 51,
   "ayah": 11,
   "ayahRef": "51:11",
@@ -1312,7 +1312,8 @@
       "morpheme_ids": [
         "m-w-s051-a011-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:11:1"
+      "aligned_qac_word_ref_upstream": "51:11:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1326,7 +1327,8 @@
       "morpheme_ids": [
         "m-w-s051-a011-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:11:2"
+      "aligned_qac_word_ref_upstream": "51:11:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1340,7 +1342,8 @@
       "morpheme_ids": [
         "m-w-s051-a011-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:11:3"
+      "aligned_qac_word_ref_upstream": "51:11:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1354,7 +1357,8 @@
       "morpheme_ids": [
         "m-w-s051-a011-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:11:4"
+      "aligned_qac_word_ref_upstream": "51:11:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1368,7 +1372,8 @@
       "morpheme_ids": [
         "m-w-s051-a011-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:11:5"
+      "aligned_qac_word_ref_upstream": "51:11:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1695,7 +1700,1058 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_11.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:11",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:11",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-enveloping-lapse",
+            "confidence": "strong",
+            "focus_anchor": "The locative construction في غمرة joins an enclosing depth at word 4 to the continuing inattentiveness of ساهون at word 5.",
+            "mechanism": "A saturating cover hides both what lies beyond it and the fact of being covered; prolonged immersion therefore makes non-attention feel like the ambient normal.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B001",
+                "role": "Abundant water overtopping and covering supplies the enclosing medium."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "A veil of falsehood and ignorance turns physical coverage into epistemic opacity."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "The heart's departure from an object makes the cover operational as sustained inattention."
+              }
+            ],
+            "changed_reading": {
+              "before": "They are simply heedless within ignorance.",
+              "after": "They inhabit a self-concealing medium whose coverage continuously reproduces their lapse of attention."
+            }
+          },
+          {
+            "model_id": "baseline-inexperience-loop",
+            "confidence": "medium",
+            "focus_anchor": "The focus word غمرة can mark an untried person, while ساهون keeps the failure at the level of attention.",
+            "mechanism": "Lack of tested experience weakens discrimination; the resulting lapse prevents the encounters that would supply discrimination, forming a self-renewing inexperience loop.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B007",
+                "role": "Experience being screened from the novice supplies a deficit of tested discrimination."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Absent attention closes the feedback loop by keeping corrective experience unregistered."
+              }
+            ],
+            "changed_reading": {
+              "before": "Their lapse is a settled intellectual position.",
+              "after": "Their lapse is also a developmental trap: untested perception keeps producing the very inexperience that disables it."
+            }
+          },
+          {
+            "model_id": "baseline-crowded-visibility",
+            "confidence": "exploratory",
+            "focus_anchor": "The plural subject can inhabit a غمرة of human density while سهو contributes an object too faint to be noticed.",
+            "mechanism": "People screen one another inside a dense collective field; as visibility becomes coarse, only loud objects register and subtle guidance falls below the group's attention threshold.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B005",
+                "role": "A crowd whose members visually cover one another supplies socially generated occlusion."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B005",
+                "role": "A tiny easily overlooked star supplies the threshold image for evidence lost in that crowding."
+              }
+            ],
+            "changed_reading": {
+              "before": "Each person privately fails to notice.",
+              "after": "The group manufactures a low-resolution field in which its members hide both the evidence and one another from view."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "context-mobile-order-vs-immersion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ر و",
+              "ح م ل",
+              "و ق ر",
+              "ج ر ي",
+              "ي س ر",
+              "ق س م",
+              "ء م ر"
+            ],
+            "mechanism": "The opening operations move material through a directed chain of dispersal, load, flow, ease, and apportionment. Against that mobile economy, the focus group appears as a stalled pocket: covered by a medium through which they neither orient nor transfer.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B001",
+                "role": "Covering water supplies the medium whose circulation can fail."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Absent attention marks the group's failure to orient within the surrounding movement."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven winnowing supplies dispersal as the sequence's initiating transport."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Lifting a visible load converts dispersal into directed carriage."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "A heavy burden gives consequential weight to what is transferred."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous running or streaming supplies the transport channel."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light compliant motion makes the channel responsive rather than obstructed."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating shares gives the moving load destinations and recipients."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Binding direction turns distribution into ordered execution."
+              }
+            ],
+            "structural_cues": [
+              "Ayat 51:1-4 repeat a participial pattern while advancing from dispersal to distribution.",
+              "The focus particle في places the group inside a medium rather than among the sequence's directed operators."
+            ],
+            "reader_inference": "The packet supplies mobile, load-bearing, easy, apportioned operations and the focus supplies cover plus lapse; I infer that responsive attention should move with the ordered transfer, making their immersion a blockage. Alternatively the opening may only frame cosmic order, leaving the focus lapse epistemic rather than hydraulic.",
+            "changed_reading": {
+              "before": "The غمرة is merely a pool of ignorance.",
+              "after": "It is a zone of failed circulation inside an otherwise ordered system of movement, burden, and delivery."
+            }
+          },
+          {
+            "model_id": "context-temporal-impact",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ع د",
+              "ص د ق",
+              "د ي ن",
+              "و ق ع"
+            ],
+            "mechanism": "A promised event is fixed, realized, accountable, and described as falling into settled actuality. The focus lapse therefore works as temporal anesthesia: certainty is held at an indefinite distance until impact is already present.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "The truth-screening cover supplies the medium in which temporal certainty can be neutralized."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Attention leaving its object explains why a definite future is treated as indefinitely remote."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment bounded by time or place gives the promise a determinate horizon."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "A promise realized in action converts verbal futurity into dependable execution."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the event's consequential reckoning."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed supplies the transition from anticipated event to settled fact."
+              }
+            ],
+            "structural_cues": [
+              "The emphatic assertions of 51:5-6 immediately precede the divergent discourse and the focus accusation.",
+              "The focus's continuing participle stretches a momentary lapse into a maintained temporal posture."
+            ],
+            "reader_inference": "The packet supplies appointment, realized truth, reckoning, and settled occurrence; I infer that the lapse manages these as always later until they land. A live alternative is simpler propositional disbelief without a specific mechanism of temporal deferral.",
+            "changed_reading": {
+              "before": "They fail to believe a future claim.",
+              "after": "They repeatedly convert a fixed, incoming reckoning into an unreal later, using immersion to suppress the felt approach of impact."
+            }
+          },
+          {
+            "model_id": "context-discursive-current",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ب ك",
+              "ق و ل",
+              "خ ل ف",
+              "ء ف ك",
+              "ق ت ل"
+            ],
+            "mechanism": "A well-fastened patterned order is answered by speech that spreads socially, forks into incompatible paths, and repeatedly turns hearers from orientation. The discourse is not merely inside the غمرة; its recursive circulation becomes the crowding cover that sustains سهو.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B005",
+                "role": "Mutually screening human density supplies a social rather than purely mental cover."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Attention displaced from its object is the effect reproduced by the discursive field."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B003",
+                "role": "Tight binding supplies the coherent patterned order against which the speech-field diverges."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Speech spreading among people supplies the medium's social propagation."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Each party taking a different path supplies internal divergence without exit from the speech-field."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Repeated turning away from a proper direction makes diversion the field's active operation."
+              },
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B001",
+                "role": "The death-image supplies a terminal judgment on the estimate-producing discourse."
+              }
+            ],
+            "structural_cues": [
+              "The paired passive forms at 51:9 enact diversion both as process and as a condition already undergone.",
+              "The خ ر ص occurrence at 51:10 identifies the immediately preceding group structurally but has no branch cue in the packet and is not cited."
+            ],
+            "reader_inference": "The packet supplies woven order, spreading divergent speech, repeated turning, and terminal judgment; I infer a feedback loop in which public talk produces the cover that then validates more talk. Alternatively the speech may be only a symptom of an independently prior غمرة.",
+            "changed_reading": {
+              "before": "The group is heedless and also speaks inconsistently.",
+              "after": "Its circulating, path-splitting speech is the social current that turns participants around and thickens into their shared غمرة."
+            }
+          },
+          {
+            "model_id": "context-question-to-assay",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ء ل",
+              "ي و م",
+              "ن و ر",
+              "ف ت ن",
+              "ذ و ق",
+              "ع ج ل"
+            ],
+            "mechanism": "The group requests a bounded date, but the answer shifts from calendar information to an embodied medium: fire assays and tasting verifies by direct experience. Their lapse is thus displaced attention, fixing on when while evading what the event will do to them.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B001",
+                "role": "Immersion in a covering medium supplies the initial experiential state."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "The heart's departure from the relevant object lets a timing question replace substantive attention."
+              },
+              {
+                "source_ref": "51:12",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Requesting information supplies the group's active but misdirected attention."
+              },
+              {
+                "source_ref": "51:12",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B001",
+                "role": "A bounded daytime interval supplies the calendar frame they demand."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire replaces abstract chronology with an encompassing material exposure."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying metal or a person gives the exposure a testing and revealing function."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Knowledge gained by undergoing something makes verification bodily rather than speculative."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Premature acceleration exposes the irony of demanding an event whose operation they ignore."
+              }
+            ],
+            "structural_cues": [
+              "The same plural pronoun resumes the focus group at 51:13, tightening the move from description to exposure.",
+              "Repeated يوم first frames the requested date and then introduces the enacted condition."
+            ],
+            "reader_inference": "The packet supplies asking, bounded time, fire, assay, tasting, and haste; I infer that the answer corrects their object of attention from date to transformation. Alternatively the sequence may simply refuse the question and announce punishment, without diagnosing calendar-fixation.",
+            "changed_reading": {
+              "before": "Their heedlessness is passive ignorance about the day.",
+              "after": "They are alert enough to demand a date but inattentive to the event's assay; one immersive state will be replaced by another that forces experiential recognition."
+            }
+          },
+          {
+            "model_id": "context-covering-revalued",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ي",
+              "ج ن ن",
+              "ع ي ن",
+              "ق ل ل",
+              "ل ي ل",
+              "س ح ر",
+              "غ ف ر"
+            ],
+            "mechanism": "Later ayat place attentive people inside other covers: protective gardens, darkness, and preserving forgiveness, with springs and disciplined wakefulness keeping those covers permeable. Covering itself is therefore morally ambivalent; the focus condemns an enclosure unmanaged by attention.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B001",
+                "role": "Overtopping cover supplies the enclosing form whose value the later covers revise."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Lapsed attention becomes the feature that turns enclosure into occlusion."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Placing oneself within protection supplies deliberate rather than accidental enclosure."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden hidden by vegetation supplies a beneficial covered habitat."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing spring keeps the protected habitat supplied and internally mobile."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Small quantity limits sleep and marks disciplined interruption of enclosure."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night's darkness supplies another environment of covering without compulsory heedlessness."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The final night interval supplies a deliberately watched threshold."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "A cover that preserves what it covers supplies the positive inverse of truth-obscuring immersion."
+              }
+            ],
+            "structural_cues": [
+              "The repeated في of 51:11 and 51:15 makes both groups inhabitants of an environment.",
+              "The ه ج ع occurrence in 51:17 sharpens the waking contrast structurally but has no branch cue in the packet and is not cited."
+            ],
+            "reader_inference": "The packet supplies harmful immersion, protective concealment, flowing water, limited night-sleep, watched dawn, and preserving cover; I infer that practice and permeability determine whether a cover shelters or blinds. Alternatively the two groups may be simple moral opposites without a shared enclosure mechanism.",
+            "changed_reading": {
+              "before": "Covering depth is itself the cause of error.",
+              "after": "Covering is neutral until attention configures it: one enclosure circulates, shelters, and awakens, while the focus enclosure seals perception and sustains lapse."
+            }
+          },
+          {
+            "model_id": "context-right-blocked-in-wealth",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ل",
+              "ح ق ق",
+              "س ء ل",
+              "ح ر م"
+            ],
+            "mechanism": "Wealth contains a fixed outward claim belonging to both the visible asker and the deprived person who may not register. When attention lapses, possession ceases to be a transfer point and becomes a saturated enclosure; the unrealized abundance of غ م ر turns into submergence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B002",
+                "role": "Overflowing breadth in giving supplies the unrealized outward capacity of the focus medium."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Attention leaving its object supplies the failure to register another's embedded claim."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated property supplies the container through which value should pass."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B003",
+                "role": "A particular claim owned by its holder makes transfer an obligation rather than generosity alone."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "The explicit request supplies the claim that is easy to notice."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Missing the sought good supplies the less visible claimant whom inattentive ownership overlooks."
+              }
+            ],
+            "structural_cues": [
+              "The repeated في places the focus group in a غمرة and a right inside wealth, creating two contrasting interior relations.",
+              "The paired recipients test attention across both expressed and unexpressed need."
+            ],
+            "reader_inference": "The packet supplies accumulated wealth, an owned claim, asking, deprivation, and the focus branch of overflowing giving; I infer that سهو blocks an intended outward transfer and converts abundance into enclosure. Alternatively 51:19 may only contrast righteous conduct with the focus group, not define the mechanics of their غمرة.",
+            "changed_reading": {
+              "before": "The lapse concerns only belief and future judgment.",
+              "after": "It can also be an economic attention failure: value that should overflow toward a fixed claim pools around its holder and becomes the holder's own covering depth."
+            }
+          },
+          {
+            "model_id": "context-near-signs-below-threshold",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ر ض",
+              "ء ي ي",
+              "ي ق ن",
+              "ن ف س",
+              "ب ص ر"
+            ],
+            "mechanism": "Evidence is distributed across the lower world and the perceiver's own self, and it is capable of yielding stable knowledge through bodily and inward sight. The focus غمرة is therefore not an information shortage but a raised registration threshold produced by inward opacity.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "A truth-screening veil supplies the internal opacity despite available evidence."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "The heart's departure from its object supplies the failure to register what is near."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower world opposite the sky supplies the broad external evidence-field."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest marker makes the evidence available rather than hidden in principle."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge after doubt supplies the possible cognitive result of attending."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B012",
+                "role": "The thing's own self supplies an evidence-field with no external distance."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight of the heart supplies the faculty that can penetrate beyond surface looking."
+              }
+            ],
+            "structural_cues": [
+              "The repeated في moves from being inside غمرة to signs in earth and in the audience's own selves.",
+              "The closing question of 51:21 directly tests whether perception is being exercised."
+            ],
+            "reader_inference": "The packet supplies manifest markers outside and within, stable knowledge, and inward sight; I infer that the focus pair names a thresholding failure rather than absent data. Alternatively the later signs may address a wider audience and only contrast, rather than diagnose, the focus group.",
+            "changed_reading": {
+              "before": "They are heedless because decisive evidence is unavailable to them.",
+              "after": "Evidence surrounds and inhabits them, but the غمرة raises the threshold of notice so that even self-proximate signs do not become insight."
+            }
+          },
+          {
+            "model_id": "context-speech-self-witness",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م و",
+              "ر ز ق",
+              "و ع د",
+              "ح ق ق",
+              "م ث ل",
+              "ن ط ق"
+            ],
+            "mechanism": "The promised provision is located in an overarching domain, then certainty is brought as near as the audience's own act of speaking. The focus lapse becomes a split between exercising a sign-bearing faculty and recognizing the reality to which that faculty is made analogous.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "The truth-obscuring cover supplies the split between ordinary capacity and recognition."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Attention leaving its object lets a constantly used faculty remain evidentially mute."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "What rises and overshadows supplies the encompassing coordinate of provision and promise."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "An apportioned gift supplies ordered reception rather than random acquisition."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B001",
+                "role": "A spoken promise opening expectation reconnects future reality to present address."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Correspondence with actuality supplies the claim's ontological firmness."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Similarity places that firmness beside an immediately familiar act."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "Articulate indication makes the audience's own speech a continuously enacted witness."
+              }
+            ],
+            "structural_cues": [
+              "The locative sequence moves from في غمرة to في السماء before collapsing distance through the comparison with speaking.",
+              "The pericope closes by converting a cosmic oath into an analogy performed by every addressee."
+            ],
+            "reader_inference": "The packet supplies an overarching source, apportioned provision, promise, actuality, likeness, and articulate indication; I infer that ordinary speech functions as a self-renewing witness which سهو decouples from recognition. Alternatively the speech comparison may certify certainty without implying an epistemic faculty.",
+            "changed_reading": {
+              "before": "They overlook a remote assertion about unseen provision and judgment.",
+              "after": "Their lapse is radically proximal: while speaking, they repeatedly perform the very kind of self-evidencing articulation used to certify what their covering prevents them from recognizing."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-counted-swimmer",
+            "confidence": "exploratory",
+            "containment": "This reading depends on two non-dominant mapped inventories for و ع د, so it is a cross-root activation rather than a lexical claim about the surface verb. It remains valid because both mappings are packet-supplied and the swimming image attaches directly to the focus's covering water; downstream prose should mark it as a temporal-material analogy.",
+            "focus_anchor": "The focus غمرة supplies an immersive medium, while ساهون supplies repeated loss of orientation within it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B001",
+                "role": "Deep covering water supplies the medium in which temporal movement is imagined."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Recurring inattention supplies loss of orientation rather than absence of motion."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B005",
+                "role": "Time counted through recurrence supplies a sequence of cycles that can pass without recognition."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001063",
+                "branch_id": "B001",
+                "role": "Swimming or moving like a swimmer turns those cycles into motion within the focus medium."
+              }
+            ],
+            "changed_reading": {
+              "before": "They stand still in ignorance while a future date approaches.",
+              "after": "They keep swimming through counted returns of time without bearings, so motion itself deepens rather than ends their immersion."
+            }
+          },
+          {
+            "outlier_id": "outlier-small-cup-faint-star",
+            "confidence": "exploratory",
+            "containment": "The small cup and faint star are branch-distant material images, not replacements for the ordinary senses of the two focus words. They remain anchored because both belong to the focus inventories and jointly model a scale-sensitive attention failure; downstream prose should present this only as a diagnostic analogy.",
+            "focus_anchor": "Both focus roots contain branches organized around insufficiency of intake and difficulty of visual notice.",
+            "activation_trace": [
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B009",
+                "role": "A small vessel whose drink does not quench supplies false sufficiency from inadequate intake."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B005",
+                "role": "A faint star easily missed supplies evidence that requires calibrated, sustained attention."
+              }
+            ],
+            "changed_reading": {
+              "before": "They receive no evidence and therefore remain unaware.",
+              "after": "They take in too little to be satisfied yet treat the intake as enough, while subtle orientation remains present below their coarse threshold of notice."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The opening transport sequence recasts غمرة as a stalled pocket inside ordered circulation.",
+            "Promise, reckoning, and occurrence expose سهو as temporal deferral of an event already moving toward settled impact.",
+            "Divergent spreading speech can generate the social cover rather than merely express prior confusion.",
+            "Protective gardens, watched night, forgiveness, and near signs show that enclosure is not fatal; inattentive impermeability is.",
+            "The move from cosmic provision to ordinary speech makes the lapse proximal and repeatedly self-enacted."
+          ],
+          "what_was_special": "The focus pair behaved as a cover-attention mechanism that context repeatedly reconfigured across movement, time, discourse, assay, shelter, economic transfer, perception, and speech. The split mappings of و ع د added the unexpected but containable image of swimming through counted time.",
+          "remaining_uncertainties": [
+            "Whether the hydraulic model is causal or only a spatial analogy for epistemic concealment.",
+            "Whether public discourse produces the غمرة or is produced by an already established lapse.",
+            "How far the protective-cover contrast can revise the focus without collapsing the moral opposition between the groups.",
+            "Whether the economic and counted-swimmer readings should remain local activations rather than enter a broader synthesis."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Cognitive submersion produces heedlessness.** `غ م ر/B003` gives a covering haze of ignorance or heedlessness and `س ه و/B001` the heart's turning away. The doubled semantic relation makes a causal enclosure: the packet supplies covering and inattention; I infer **obscuring medium -> failed attention**. They are not merely distracted but located inside what keeps truth from becoming visible.\n2. **A crowd can function as the covering medium.** `غ م ر/B005` supplies a dense multitude in which people cover one another. Recurrent group labels (*qawm*) and inherited accusations in 51:39, 43-46, 52-53 activate a social reading. I infer **crowd reinforcement -> individual heedlessness**. This coexists with the inward haze.",
@@ -2528,18 +3584,23 @@
   "root_lexicon": {
     "root_001105": {
       "root_ar": "غ م ر",
+      "qac_roots_ar": [
+        "غ م ر"
+      ],
       "root_id": "root_001105",
-      "root_mapping": {
-        "root_id": "root_001105",
-        "root_norm": "غ م ر",
-        "source_root_norm": "غ م ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "غ م ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "803badf5e06829cbdbe9f0ca73bcd507296d5231d6bf0ea98a2321c0ceed3830",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5908,18 +6969,23 @@
     },
     "root_003249": {
       "root_ar": "س ه و",
+      "qac_roots_ar": [
+        "س ه و"
+      ],
       "root_id": "root_003249",
-      "root_mapping": {
-        "root_id": "root_003249",
-        "root_norm": "س ه و",
-        "source_root_norm": "س ه و",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ه و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -5940,14 +7006,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6172,11 +7244,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_11.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_11.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 100114,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6249,19 +7334,37 @@
           "root_ids": [
             "root_001105"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "غ م ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001105",
+            "targets": [
+              {
+                "qac_root_norm": "غ م ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001105",
+                "furuq_root_norm": "غ م ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001105",
-              "root_norm": "غ م ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "غ م ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6286,19 +7389,37 @@
           "root_ids": [
             "root_003249"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ه و",
+            "mapping_status": "unique",
+            "primary_root_id": "root_003249",
+            "targets": [
+              {
+                "qac_root_norm": "س ه و",
+                "target_rank": 1,
+                "furuq_root_id": "root_003249",
+                "furuq_root_norm": "س ه و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_003249",
-              "root_norm": "س ه و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ه و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -6312,10 +7433,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 13,
+        "dictionary_branches_kept": 13,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 13,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

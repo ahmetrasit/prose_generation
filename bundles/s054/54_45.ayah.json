@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.158284+00:00",
+  "generated_at": "2026-08-04T22:29:54.441515+00:00",
   "surah": 54,
   "ayah": 45,
   "ayahRef": "54:45",
@@ -1930,7 +1930,8 @@
         "m-w-s054-a045-w001-01",
         "m-w-s054-a045-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:45:1"
+      "aligned_qac_word_ref_upstream": "54:45:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1946,7 +1947,8 @@
         "m-w-s054-a045-w002-01",
         "m-w-s054-a045-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:45:2"
+      "aligned_qac_word_ref_upstream": "54:45:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1960,7 +1962,8 @@
       "morpheme_ids": [
         "m-w-s054-a045-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:45:3"
+      "aligned_qac_word_ref_upstream": "54:45:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1976,7 +1979,8 @@
         "m-w-s054-a045-w003-02",
         "m-w-s054-a045-w003-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:45:4"
+      "aligned_qac_word_ref_upstream": "54:45:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1992,7 +1996,8 @@
         "m-w-s054-a045-w004-01",
         "m-w-s054-a045-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:45:5"
+      "aligned_qac_word_ref_upstream": "54:45:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3009,7 +3014,707 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_45.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:45",
+      "window": [
+        "54:33",
+        "54:34",
+        "54:35",
+        "54:36",
+        "54:37",
+        "54:38",
+        "54:39",
+        "54:40",
+        "54:41",
+        "54:42",
+        "54:43",
+        "54:44",
+        "54:45"
+      ],
+      "ayah_count": 13,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:45",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_rank_collapse",
+            "confidence": "strong",
+            "focus_anchor": "The passive singular يُهْزَمُ الْجَمْعُ is followed by the plural active يُوَلُّونَ and its exposed object الدُّبُرَ.",
+            "mechanism": "A troop assembled as one fighting body is broken as a rank. The singular collective is acted upon as one formation, then the plural verb resolves that formation into persons displaying the rear.",
+            "activation_trace": [
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "Breaking and driving back a battle rank supplies the formation-level collapse."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B002",
+                "role": "A gathered troop or mixed body supplies the single military formation that can be broken."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away and withdrawing supplies the actors' reversal from engagement."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B003",
+                "role": "Showing the rear in battle makes the retreat itself the visible sign of defeat."
+              }
+            ],
+            "changed_reading": {
+              "before": "A group will lose and flee.",
+              "after": "The gathered formation itself will be broken; its apparent unity dissolves into fleeing persons whose exposed rear displays the defeat."
+            }
+          },
+          {
+            "model_id": "b_cohesion_to_sequence",
+            "confidence": "medium",
+            "focus_anchor": "The movement from الْجَمْعُ to يُوَلُّونَ الدُّبُرَ changes one concentrated body into plural motion.",
+            "mechanism": "Gathered force is first compacted and bent past integrity; after the break, what was simultaneous cohesion becomes one-after-another withdrawal. Defeat is therefore a change of organization, not only a change of victor.",
+            "activation_trace": [
+              {
+                "source_ref": "54:45",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B010",
+                "role": "Parts gathering until force and movement cohere supplies the initial concentration of power."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B001",
+                "role": "Pressure that bends a thing inward until it breaks supplies the phase change from cohesion to collapse."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Uninterrupted succession supplies the serial motion of the plural fugitives after the collective breaks."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B001",
+                "role": "The back or behind supplies the repeated exposed surface produced by that serial withdrawal."
+              }
+            ],
+            "changed_reading": {
+              "before": "Defeat is followed by retreat.",
+              "after": "Defeat converts concentrated collective power into serial dispersal: one gathered front becomes a succession of backs."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_warning_failed_turn",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ن ذ ر",
+              "م ر ي"
+            ],
+            "mechanism": "Warnings were meant to produce a timely turn of attention, but denial and disputatious rejection blocked that voluntary reorientation. The focus then gives an involuntary and belated turning: they turn from the encounter rather than from the conduct that occasioned it.",
+            "activation_trace": [
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the refusal that keeps warning from changing direction."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "A warning that frightens in order to awaken caution supplies the offered voluntary reorientation."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001416",
+                "branch_id": "B005",
+                "role": "Contentious denial of a recognized truth supplies the mechanism by which caution is resisted."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the eventual bodily reorientation that replaces the refused attentive turn."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B003",
+                "role": "The rear shown in flight makes the late turn publicly legible as defeat."
+              }
+            ],
+            "structural_cues": [
+              "The warning root recurs at 54:33, 54:36, 54:37, 54:39, and 54:41 before the focus future.",
+              "The sequence moves from warning through dispute and experienced punishment to the current collective boast."
+            ],
+            "reader_inference": "The packet supplies warning-as-alert, denial, and contentious rejection; I supply the arrow from refused voluntary turning to forced bodily turning. A live alternative is simple narrative sequence without this mirrored causality.",
+            "changed_reading": {
+              "before": "They will turn their backs because they are militarily beaten.",
+              "after": "Their backs are the bodily form of a reorientation refused under warning and imposed only when defeat makes delay impossible."
+            }
+          },
+          {
+            "model_id": "d_extraction_from_mass",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ص ب",
+              "ن ج و"
+            ],
+            "mechanism": "The context distinguishes a mass exposed to a stone-driving force from people saved by being separated out. This revises the focus collective from mere numerical strength into a false shelter: safety can require extraction from the mass whose cohesion is about to fail.",
+            "activation_trace": [
+              {
+                "source_ref": "54:34",
+                "root": "ح ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000325",
+                "branch_id": "B003",
+                "role": "A wind that drives stony matter supplies the external force acting indiscriminately on the exposed mass."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Deliverance by separation supplies the contrasting motion of a protected subset extracted from the collective."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining dispersed parts supplies the mass whose togetherness is mistaken for security."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "The broken battle formation supplies the failure of collective shelter."
+              }
+            ],
+            "structural_cues": [
+              "54:34 marks an explicit exception before the rescue clause.",
+              "The focus first treats the opposing جمع as one object and then exposes its members in the plural."
+            ],
+            "reader_inference": "The packet supplies destructive dispatch, explicit exception, and rescue by separation; I infer that the focus tests cohesion as a security strategy. Alternatively, the rescue episode may contrast outcomes without defining the mechanics of the later جمع.",
+            "changed_reading": {
+              "before": "A compact mass is broken into individuals.",
+              "after": "The verse also overturns mass-as-shelter: separation can be deliverance, while undifferentiated cohesion leaves the gathered force breakable."
+            }
+          },
+          {
+            "model_id": "d_settled_consequence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ز ي",
+              "ق ر ر",
+              "ء خ ذ",
+              "ق د ر"
+            ],
+            "mechanism": "Reciprocal return, settled persistence, accountable seizure, and measured ordering turn the rout from a contingent battlefield reversal into an administered consequence. The focus's الدبر can now name not only the rear but the after-side to which prior action leads.",
+            "activation_trace": [
+              {
+                "source_ref": "54:35",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Answering an act with its recompense supplies the context's reciprocal logic."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement locate stability in the consequence rather than in the threatened collective."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Taking to account for an offense supplies the juridical force behind the seizure."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Ordering an affair by measure and forethought supplies determination rather than battlefield accident."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B002",
+                "role": "The last part and ensuing outcome anchor the rout as the after-side of prior conduct."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "The concrete breaking of the rank is the event through which that consequence arrives."
+              }
+            ],
+            "structural_cues": [
+              "54:35 states a recompense pattern, 54:38 calls the punishment settled, and 54:42 presents an active seizure.",
+              "The agent explicit in 54:42 is suppressed by the passive يُهْزَمُ in 54:45, leaving the certain result foregrounded."
+            ],
+            "reader_inference": "The packet supplies reciprocity, settlement, accountable taking, and measured capacity; I infer their directional convergence on the rout as consequence. A live alternative is that these cues guarantee power and timing without making the defeat itself juridical.",
+            "changed_reading": {
+              "before": "The verse predicts a reversal in military fortunes.",
+              "after": "The rout is the settled after-side of prior conduct: a measured seizure whose visible result is the collective's broken rearward flight."
+            }
+          },
+          {
+            "model_id": "d_erased_foresight",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ط م س",
+              "ع ي ن"
+            ],
+            "mechanism": "The prior erasure of eyes activates الدبر as more than a body part: its branch of looking into an affair's outcome makes the rear an unconsidered consequence. The defeated turn physically toward the very after-side they failed to see.",
+            "activation_trace": [
+              {
+                "source_ref": "54:37",
+                "root": "ط م س",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000950",
+                "branch_id": "B002",
+                "role": "Loss of light and sight supplies the context's concrete failure of orientation."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The seeing eye identifies what was removed and makes perception part of the mechanism."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B006",
+                "role": "Considering an affair through its end anchors the shift from physical rear to neglected consequence."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal makes the failed orientation bodily and visible."
+              }
+            ],
+            "structural_cues": [
+              "Eye-erasure at 54:37 is followed by repeated commands to experience the consequence at 54:37 and 54:39.",
+              "The focus explicitly couples a directional verb with the rear or after-side."
+            ],
+            "reader_inference": "The packet supplies erased sight and a focus branch concerning attention to outcomes; I infer a link from perceptual loss to failed foresight. The alternative is to keep the eye episode and military retreat as separate concrete events.",
+            "changed_reading": {
+              "before": "They expose their physical backs in flight.",
+              "after": "Their flight stages failed foresight: unable or unwilling to see the outcome ahead, they are turned toward that neglected outcome as an exposed rear."
+            }
+          },
+          {
+            "model_id": "d_no_acquittal_by_distance",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ر ء",
+              "ز ب ر"
+            ],
+            "mechanism": "The question about an acquittal in written records distinguishes juridical release from mere spatial separation. The ensuing turned backs create distance, but retreat cannot function as discharge from the consequence.",
+            "activation_trace": [
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B004",
+                "role": "Release from a claim and formal separation supply the acquittal the question denies them."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and book supply the authoritative record in which such a discharge would have to stand."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Physical withdrawal supplies an attempted separation that cannot become juridical release."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B002",
+                "role": "The ensuing end or outcome anchors what retreat fails to escape."
+              }
+            ],
+            "structural_cues": [
+              "The rhetorical alternative in 54:43 asks for written acquittal immediately before the collective claim and its defeat.",
+              "54:45 describes spatial withdrawal but supplies no exemption formula."
+            ],
+            "reader_inference": "The packet supplies release, written record, and immediate retreat; I infer a contrast between legal and spatial separation. A live alternative reads براءة as general immunity rather than specifically juridical discharge.",
+            "changed_reading": {
+              "before": "Turning their backs is an attempt to escape the battlefield.",
+              "after": "Their retreat demonstrates that distance is not acquittal: backs can move away, but no recorded release severs them from the outcome."
+            }
+          },
+          {
+            "model_id": "d_boast_reclassified",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ج م ع",
+              "ن ص ر"
+            ],
+            "mechanism": "The speakers first author themselves as a complete, victorious 'we.' The next verse reclassifies that self-description as an impersonal collective acted upon, then decomposes it into plural fugitives. The grammar performs the collapse of the boast's social form.",
+            "activation_trace": [
+              {
+                "source_ref": "54:44",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Speech as a held belief supplies the boast as the group's operative self-model."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B009",
+                "role": "Wholeness without missing parts supplies the claim of complete collective sufficiency."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid that produces manifest victory supplies the claimed capacity of the united 'we.'"
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "Breaking and repelling the rank directly negates the collective's victorious self-predication."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B002",
+                "role": "The troop as one gathered body turns their asserted completeness into an object vulnerable to defeat."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Plural withdrawal resolves the defeated object back into actors abandoning the claim."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B003",
+                "role": "Their displayed rear is the visible counter-predicate to 'victorious.'"
+              }
+            ],
+            "structural_cues": [
+              "54:44 and 54:45 are an uninterrupted claim-and-answer pair.",
+              "The sequence shifts from first-person plural self-assertion to a singular passive collective and then to third-person plural flight."
+            ],
+            "reader_inference": "The packet supplies the adjacent boast and the number, person, and voice shifts; I infer that the grammar stages a deliberate dismantling of collective identity. The alternative is a straightforward rebuttal whose grammatical pivots carry no added mechanism.",
+            "changed_reading": {
+              "before": "A host claiming victory is told that it will instead lose.",
+              "after": "The verse grammatically dismantles the boast: the self-sufficient 'we' becomes a defeated object called 'the gathering,' then breaks into persons known only by their retreating backs."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_dawn_fracture",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus verb ordinarily denotes defeat, not dawn. It remains anchored in the packet's explicit هزم branch for night splitting open and in the paired predawn and morning cues; downstream prose should present it as temporal-material resonance, never as a replacement translation.",
+            "focus_anchor": "The future-marked يُهْزَمُ can carry the focus branch in which a closed darkness splits, while الدبر marks the spent end or aftermath.",
+            "activation_trace": [
+              {
+                "source_ref": "54:34",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The last portion of night supplies the threshold immediately before disclosure."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B001",
+                "role": "Dawn and the first light supply the opening side of the temporal transition."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B001",
+                "role": "Early morning doubles the context's emphasis on an irreversible threshold."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B005",
+                "role": "Night splitting open for morning supplies a strange but packet-explicit image of defeat as forced disclosure."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B002",
+                "role": "The end and aftermath supply the darkness or former order left behind."
+              }
+            ],
+            "changed_reading": {
+              "before": "The future defeat is simply a later military event.",
+              "after": "Exploratorily, defeat behaves like dawn pressure splitting a closed order: what appeared secure is forced open, and its members recede into the spent after-side."
+            }
+          },
+          {
+            "outlier_id": "o_boast_to_tremor",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because ordinary ق و ل means saying, while the packet's secondary mapped root ق ل ل contributes oscillation. It remains valid as an explicitly supplied split-root activation anchored in the focus's broken cohesion and successive turning; downstream prose should call it a kinetic resonance beneath the boast, not the lexical meaning of يقولون.",
+            "focus_anchor": "The compact force of الْجَمْعُ is broken and becomes plural successive turning.",
+            "activation_trace": [
+              {
+                "source_ref": "54:44",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B006",
+                "role": "Oscillation and unstable motion in the secondary mapped root turn the spoken certainty into a latent bodily tremor."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B010",
+                "role": "Gathered force supplies the compact state whose confidence masks instability."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B001",
+                "role": "Pressure-induced bending and breakage convert latent instability into structural failure."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Successive motion carries the tremor outward as one-after-another flight."
+              }
+            ],
+            "changed_reading": {
+              "before": "The boast is propositionally false and then contradicted.",
+              "after": "Exploratorily, the confident utterance already contains a latent oscillation that the next verse realizes when compact collective force buckles into serial flight."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The number and voice pivot makes defeat a decomposition of collective identity, not only a military loss.",
+            "Repeated refused warning turns the final flight into a belated and involuntary reorientation.",
+            "Recompense, settlement, seizure, and measure recast the rout as an administered consequence.",
+            "The adjacent boast is grammatically reclassified from a victorious 'we' into a defeated object and then exposed fugitives."
+          ],
+          "what_was_special": "The focus roots converge on a precise organizational reversal: gathered force is compressed, broken, and converted into successive backs. Context adds selective extraction, failed foresight, denied acquittal, and a direct grammatical dismantling of the preceding boast without requiring one final interpretation.",
+          "remaining_uncertainties": [
+            "The dawn-fracture activation may be a useful material resonance rather than a discourse-level mechanism.",
+            "The shift from singular collective to plural actors may be ordinary agreement while still supporting, rather than encoding, decomposition.",
+            "The contrast between written acquittal and spatial retreat depends on carrying the legal force of براءة into the immediate sequence."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Gathered wholeness is reversed into backs and withdrawal.** `ه ز م` B002 is breaking and routing a force; `ج م ع` B001 is a collected whole; `و ل ي` B007 is turning away; `د ب ر` B001 is the rear/back and B003 turning the back in withdrawal. The first passive verb breaks the singular collective; the second plural verb redistributes it into fleeing bodies. I infer a structural reversal in which concentration does not merely fail but becomes the mass that is routed. The ayah answers 54:44 point for point: whole becomes broken, prevailing becomes retreat, and face becomes back.",
@@ -3957,18 +4662,23 @@
   "root_lexicon": {
     "root_001590": {
       "root_ar": "ه ز م",
+      "qac_roots_ar": [
+        "ه ز م"
+      ],
       "root_id": "root_001590",
-      "root_mapping": {
-        "root_id": "root_001590",
-        "root_norm": "ه ز م",
-        "source_root_norm": "ه ز م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ه ز م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c2fc86d3bd15bfd3cdae728fa517ccd95f3ac86e7519efb20f0dd76d69b7e205",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5645,18 +6355,23 @@
     },
     "root_000259": {
       "root_ar": "ج م ع",
+      "qac_roots_ar": [
+        "ج م ع"
+      ],
       "root_id": "root_000259",
-      "root_mapping": {
-        "root_id": "root_000259",
-        "root_norm": "ج م ع",
-        "source_root_norm": "ج م ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 128,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج م ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 128
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9f28b30b232d53f076a883a6be36117446f925877f957c5fa9120447d9dc17a8",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8296,18 +9011,23 @@
     },
     "root_001684": {
       "root_ar": "و ل ي",
+      "qac_roots_ar": [
+        "و ل ي"
+      ],
       "root_id": "root_001684",
-      "root_mapping": {
-        "root_id": "root_001684",
-        "root_norm": "و ل ي",
-        "source_root_norm": "و ل ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 190,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ل ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 190
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5f44badba71b06463e3241f3ebe0ce1f27c7f9400d6440ac123cf854d709521f",
         "branches": [
@@ -10223,18 +10943,23 @@
     },
     "root_000458": {
       "root_ar": "د ب ر",
+      "qac_roots_ar": [
+        "د ب ر"
+      ],
       "root_id": "root_000458",
-      "root_mapping": {
-        "root_id": "root_000458",
-        "root_norm": "د ب ر",
-        "source_root_norm": "د ب ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 31,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "د ب ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 31
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a0a164a7851b4f940a61e5ff112a72543107f8f567874a4e5133da067b1392f8",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14656,14 +15381,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14920,11 +15651,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_45.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_45.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 107886,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -14999,19 +15743,37 @@
           "root_ids": [
             "root_001590"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ه ز م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001590",
+            "targets": [
+              {
+                "qac_root_norm": "ه ز م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001590",
+                "furuq_root_norm": "ه ز م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001590",
-              "root_norm": "ه ز م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ه ز م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15036,19 +15798,37 @@
           "root_ids": [
             "root_000259"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج م ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000259",
+            "targets": [
+              {
+                "qac_root_norm": "ج م ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000259",
+                "furuq_root_norm": "ج م ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 128,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000259",
-              "root_norm": "ج م ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج م ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 128,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15073,19 +15853,37 @@
           "root_ids": [
             "root_001684"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ل ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001684",
+            "targets": [
+              {
+                "qac_root_norm": "و ل ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001684",
+                "furuq_root_norm": "و ل ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 190,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001684",
-              "root_norm": "و ل ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 190,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -15097,19 +15895,37 @@
           "root_ids": [
             "root_000458"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "د ب ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000458",
+            "targets": [
+              {
+                "qac_root_norm": "د ب ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000458",
+                "furuq_root_norm": "د ب ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 31,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000458",
-              "root_norm": "د ب ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "د ب ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 31,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 22,
+              "gloss_branch_count": 22,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15136,10 +15952,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 61,
+        "dictionary_branches_kept": 61,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 35,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

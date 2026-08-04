@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.382822+00:00",
+  "generated_at": "2026-08-04T22:29:58.795761+00:00",
   "surah": 56,
   "ayah": 22,
   "ayahRef": "56:22",
@@ -1122,7 +1122,8 @@
       "morpheme_ids": [
         "m-w-s056-a022-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:22:1"
+      "aligned_qac_word_ref_upstream": "56:22:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1136,7 +1137,8 @@
       "morpheme_ids": [
         "m-w-s056-a022-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:22:2"
+      "aligned_qac_word_ref_upstream": "56:22:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1150,7 +1152,8 @@
       "morpheme_ids": [
         "m-w-s056-a022-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:22:3"
+      "aligned_qac_word_ref_upstream": "56:22:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1806,7 +1809,521 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_22.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:22",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:22",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_ocular_contrast",
+            "confidence": "strong",
+            "focus_anchor": "The two-word nominal phrase joins the h-w-r class noun to an eye adjective from the ayn root.",
+            "mechanism": "The h-w-r eye branch supplies intense white-dark contrast, while the ayn branch supplies width and beauty; together they make ocular visibility the phrase's defining feature.",
+            "activation_trace": [
+              {
+                "source_ref": "56:22",
+                "root": "ح و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000369",
+                "branch_id": "B001",
+                "role": "Intense contrast within the eye supplies the class noun's visible distinction."
+              },
+              {
+                "source_ref": "56:22",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B016",
+                "role": "Wide, beautiful eyes specify the plural class by an ocular attribute."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase merely names an unspecified plural.",
+              "after": "It presents a plural company distinguished by wide, beautiful eyes with sharply marked white-dark contrast."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_ranked_face_to_face_company",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز و ج",
+              "ص ح ب",
+              "ق ر ب",
+              "ق ب ل"
+            ],
+            "mechanism": "The sequence first sorts people into like cohorts, repeatedly names companions, singles out the brought-near, and seats that group face to face. This relocates the visually marked focus plural inside a reciprocal, ranked company.",
+            "activation_trace": [
+              {
+                "source_ref": "56:22",
+                "root": "ح و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000369",
+                "branch_id": "B001",
+                "role": "Eye contrast remains the focus group's visible marker while context changes its social function."
+              },
+              {
+                "source_ref": "56:22",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B016",
+                "role": "Wide, beautiful eyes become organs of reciprocal presence rather than a detached visual detail."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B005",
+                "role": "Peers joined by shared form or action supply the cohort mechanism."
+              },
+              {
+                "source_ref": "56:8",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Abiding companionship makes the surrounding categories social companies."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Favored nearness supplies the assembly's rank and intimacy."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Mutual facing turns ocular beauty into possible reciprocal regard."
+              }
+            ],
+            "structural_cues": [
+              "56:7-16 moves from three cohorts to the brought-near group and ends with its members reclining face to face."
+            ],
+            "reader_inference": "The packet supplies cohorting, companionship, favored nearness, and mutual facing; I infer that the focus plural participates in that assembly. The live alternative is that the phrase is only another item in the banquet inventory.",
+            "changed_reading": {
+              "before": "A visually described group detachable from the surrounding social arrangement.",
+              "after": "A ranked company of peers within the brought-near assembly, encountered face to face and capable of reciprocal regard."
+            }
+          },
+          {
+            "model_id": "delta_spring_clear_eyes",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ي ن"
+            ],
+            "mechanism": "Four ayat before the focus, the same ayn root names a flowing source. Its spring branch remains locally active when the root returns as the eye adjective, producing a hydro-ocular double exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "The flowing water source activates clarity and flow within the repeated root."
+              },
+              {
+                "source_ref": "56:22",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B016",
+                "role": "The focus form fixes the primary sense as wide, beautiful eyes while carrying the local spring resonance."
+              }
+            ],
+            "structural_cues": [
+              "The same root occurs at 56:18 and 56:22 inside one uninterrupted provision sequence."
+            ],
+            "reader_inference": "The packet supplies one root with spring and eye branches; I infer a local echo from recurrence and proximity. The materially live alternative is ordinary lexical separation with no cross-activation.",
+            "changed_reading": {
+              "before": "The adjective marks only eye size and beauty.",
+              "after": "The wide eyes also carry a spring-source resonance of clarity, freshness, and flow within the banquet sequence."
+            }
+          },
+          {
+            "model_id": "delta_protected_pearl_luster",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ث ل",
+              "ل ء ل ء",
+              "ك ن ن"
+            ],
+            "mechanism": "The immediately following comparison joins resemblance, pearl luster, and protective concealment. It converts bare ocular contrast into brightness whose value is preserved rather than publicly worn down.",
+            "activation_trace": [
+              {
+                "source_ref": "56:22",
+                "root": "ح و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000369",
+                "branch_id": "B002",
+                "role": "Whiteness supplies the focus surface that the pearl comparison intensifies."
+              },
+              {
+                "source_ref": "56:22",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B016",
+                "role": "Wide-eyed beauty remains the embodied focus anchor for the comparison."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Explicit resemblance directs the pearl image back onto the focus plural."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ل ء ل ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001337",
+                "branch_id": "B002",
+                "role": "Gleaming luster sharpens the focus phrase's white-dark visual intensity."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective covering makes the luster preserved and unexposed."
+              }
+            ],
+            "structural_cues": [
+              "56:23 directly follows the focus phrase as a comparison without introducing a new plural referent."
+            ],
+            "reader_inference": "The packet explicitly supplies resemblance, gleam, and protective concealment; I infer that concealment adds preserved integrity to the comparison. The alternative confines it to untouched surface appearance.",
+            "changed_reading": {
+              "before": "The phrase foregrounds eye geometry and color contrast alone.",
+              "after": "The company bears pearl-like luster preserved under protection, so beauty acquires an image of intactness as well as brightness."
+            }
+          },
+          {
+            "model_id": "delta_recompensed_presence",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ز ي",
+              "ع م ل"
+            ],
+            "mechanism": "The next ayah makes correspondence between deed and consequence explicit. The focus company therefore functions within a morally caused outcome, not merely as an unmotivated luxury in a list.",
+            "activation_trace": [
+              {
+                "source_ref": "56:22",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B017",
+                "role": "The branch of people present supports reading the focus plural as company within the resulting scene."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Corresponding recompense supplies the causal relation between prior conduct and present outcome."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action supplies the antecedent to which the scene answers."
+              }
+            ],
+            "structural_cues": [
+              "56:24 immediately closes the focus phrase and its comparison with a deed-consequence formula."
+            ],
+            "reader_inference": "The packet supplies recompense after intentional action; I infer that it causally frames the focus company's presence. The alternative is that the formula scopes the entire garden scene without changing this phrase specifically.",
+            "changed_reading": {
+              "before": "The company appears as an uncaused item in a provision list.",
+              "after": "Their presence belongs to a morally ordered consequence answering prior intentional action."
+            }
+          },
+          {
+            "model_id": "delta_peaceful_interlocutors",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س م ع",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "After the visual description, the scene opens an auditory channel and reduces all utterance to repeated peace. That environment activates the h-w-r dialogue branch and lets the focus company appear as speaking participants, not silent display.",
+            "activation_trace": [
+              {
+                "source_ref": "56:22",
+                "root": "ح و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000369",
+                "branch_id": "B006",
+                "role": "Conversational exchange supplies a latent dialogic capacity to the focus noun."
+              },
+              {
+                "source_ref": "56:22",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B017",
+                "role": "People presently gathered keeps the dialogic activation personal and scene-bound."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Auditory perception shifts attention from looking to hearing within the same scene."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Spoken utterance gives the scene an explicit verbal medium."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Repeated peaceful concord determines the social function of that speech."
+              }
+            ],
+            "structural_cues": [
+              "56:25-26 excludes idle and harmful hearing, then leaves only a doubled utterance of peace."
+            ],
+            "reader_inference": "The packet supplies an auditory turn, spoken peace, and a dialogue branch for h-w-r; I infer that the described company may participate in the exchange. The alternative keeps h-w-r's conversational branch inactive in this nominal form.",
+            "changed_reading": {
+              "before": "The company is primarily looked at.",
+              "after": "The company can also be encountered as present interlocutors whose reciprocal speech participates in the scene's peace."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_axial_gathering",
+            "confidence": "exploratory",
+            "containment": "The axle branch is lexically remote from the ordinary focus form, so this is surprising; it remains root-anchored and the nearby geometry of mutual facing plus circulation gives it a visible mechanism. Downstream prose should call it a spatial echo, not replace the ocular reading with an axle etymology.",
+            "focus_anchor": "The h-w-r focus noun carries an axle branch while its ayn adjective keeps the image tied to seeing.",
+            "activation_trace": [
+              {
+                "source_ref": "56:22",
+                "root": "ح و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000369",
+                "branch_id": "B007",
+                "role": "Rotation around an axis makes the focus noun a possible pivot in the scene's spatial organization."
+              },
+              {
+                "source_ref": "56:22",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Direct seeing keeps the axial image attached to an encounter among visible persons."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Mutual facing supplies a stable relational geometry."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Circulation around something supplies motion organized around a center."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus figures are stationary ornaments in a provision sequence.",
+              "after": "They may function as human pivots within an ordered scene of mutual facing and circulating service."
+            }
+          },
+          {
+            "outlier_id": "outlier_restored_state",
+            "confidence": "exploratory",
+            "containment": "The return-and-decrease branch is form-distant from the ordinary h-w-r reading, but it is exactly root-anchored and the opening reversal of lowering and raising followed by reclassification makes restoration a live mechanism. Render only as a possible reversal echo, not as a claim that the noun lexically means restored beings.",
+            "focus_anchor": "The focus noun's h-w-r root has a branch of return and transition from one state to another.",
+            "activation_trace": [
+              {
+                "source_ref": "56:22",
+                "root": "ح و ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000369",
+                "branch_id": "B005",
+                "role": "Return and change of state lets the focus class image restoration after reversal."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Lowering after height supplies one direction of status reversal."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising supplies the opposed direction and completes the reversal."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B004",
+                "role": "Classification into kinds gives the changed state a social embodiment."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase identifies a fixed species of beautiful figures.",
+              "after": "It may also image a restored or transformed state made visible after the surah's lowering, raising, and reclassification."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Cohort, companionship, nearness, and mutual facing recast the phrase as reciprocal company within a ranked assembly.",
+            "The immediate hidden-pearl comparison turns ocular contrast into protected, intact luster.",
+            "The same-root spring recurrence and the later peaceful speech open hydro-ocular and dialogic readings beyond static visual beauty."
+          ],
+          "what_was_special": "The compact phrase became a hinge between seeing, social presence, protected luminosity, moral consequence, and speech; the strongest surprise was that nearby context repeatedly moved the figures from objects of sight toward reciprocal participants.",
+          "remaining_uncertainties": [
+            "Whether the same-root spring occurrence at 56:18 is an active local echo or ordinary lexical separation.",
+            "Whether the h-w-r dialogue, axle, and return branches remain live in this nominal form or are too form-distant.",
+            "Whether the recompense formula scopes the focus phrase specifically or only the entire surrounding scene."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Contrasting eyes that return the face-to-face gaze.** `ح و ر` **B001** supplies contrasting whiteness and blackness of the eye; `ع ي ن` **B016** supplies wide beautiful eyes and **B002** seeing face to face. The mutual facing of 56:16 activates a reciprocal visual relation. **Abductive move:** I infer that eye-description participates in the scene’s geometry of unobstructed encounter. **Reading change:** the phrase is not only static beauty but a capacity for mutual seeing.\n\n2. **Purified helpers within the circulating service world.** `ح و ر` **B003** supplies a white-clad or purified helper, while `ع ي ن` **B017** allows “eye” as a person or people. **Abductive move:** I infer a coexisting social-role reading from the nearby attendants, though the grammatical brevity leaves the relation open. **Reading change:** the phrase may identify pure, conspicuous persons integrated into the scene, not merely describe ocular features.",
@@ -2616,18 +3133,23 @@
   "root_lexicon": {
     "root_000369": {
       "root_ar": "ح و ر",
+      "qac_roots_ar": [
+        "ح و ر"
+      ],
       "root_id": "root_000369",
-      "root_mapping": {
-        "root_id": "root_000369",
-        "root_norm": "ح و ر",
-        "source_root_norm": "ح و ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 6,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح و ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 6
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "abc053483a9cbc9abecc11ac3189ee7a5f1deaff1004999a52181ae7c38d703d",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4923,18 +5445,23 @@
     },
     "root_001069": {
       "root_ar": "ع ي ن",
+      "qac_roots_ar": [
+        "ع ي ن"
+      ],
       "root_id": "root_001069",
-      "root_mapping": {
-        "root_id": "root_001069",
-        "root_norm": "ع ي ن",
-        "source_root_norm": "ع ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 65,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 65
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4c2f337f0d2166ddb2358f22dd5b333c3ed084e0834b862965ed58fa323a8dc1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7958,14 +8485,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8278,11 +8811,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_22.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_22.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 1,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 99850,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8355,19 +8901,37 @@
           "root_ids": [
             "root_000369"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح و ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000369",
+            "targets": [
+              {
+                "qac_root_norm": "ح و ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000369",
+                "furuq_root_norm": "ح و ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 6,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000369",
-              "root_norm": "ح و ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح و ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 6,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8392,19 +8956,37 @@
           "root_ids": [
             "root_001069"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001069",
+            "targets": [
+              {
+                "qac_root_norm": "ع ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001069",
+                "furuq_root_norm": "ع ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 65,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001069",
-              "root_norm": "ع ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 65,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8431,10 +9013,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 26,
+        "dictionary_branches_kept": 26,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 26,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

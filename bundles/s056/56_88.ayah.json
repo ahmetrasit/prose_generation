@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.619378+00:00",
+  "generated_at": "2026-08-04T22:30:02.344029+00:00",
   "surah": 56,
   "ayah": 88,
   "ayahRef": "56:88",
@@ -1844,7 +1844,8 @@
       "morpheme_ids": [
         "m-w-s056-a088-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:88:1"
+      "aligned_qac_word_ref_upstream": "56:88:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1858,7 +1859,8 @@
       "morpheme_ids": [
         "m-w-s056-a088-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:88:2"
+      "aligned_qac_word_ref_upstream": "56:88:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1872,7 +1874,8 @@
       "morpheme_ids": [
         "m-w-s056-a088-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:88:3"
+      "aligned_qac_word_ref_upstream": "56:88:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1886,7 +1889,8 @@
       "morpheme_ids": [
         "m-w-s056-a088-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:88:4"
+      "aligned_qac_word_ref_upstream": "56:88:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1900,7 +1904,8 @@
       "morpheme_ids": [
         "m-w-s056-a088-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:88:5"
+      "aligned_qac_word_ref_upstream": "56:88:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1916,7 +1921,8 @@
         "m-w-s056-a088-w005-01",
         "m-w-s056-a088-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:88:6"
+      "aligned_qac_word_ref_upstream": "56:88:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2411,7 +2417,580 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_88.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:88",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:88",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_conferred_nearness",
+            "confidence": "strong",
+            "focus_anchor": "The conditional construction إِن كَانَ مِنَ and the Form II passive participle مُقَرَّبِينَ.",
+            "mechanism": "The existence verb frames membership as an obtaining state, while the passive participle makes nearness conferred rather than self-achieved. The inner-circle branch turns distance into admitted standing or access.",
+            "activation_trace": [
+              {
+                "source_ref": "56:88",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time make the conditional test an obtaining state rather than a loose epithet."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness over against distance supplies the core relation into which the passive form says these persons were brought."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Favored attendants of a ruler turn proximity into privileged admission and define the class socially."
+              }
+            ],
+            "changed_reading": {
+              "before": "The clause merely labels someone as belonging to a generally close or favored group.",
+              "after": "The clause tests whether someone occupies an effected status of admitted nearness: one has been brought into privileged proximity rather than simply being nearby."
+            }
+          },
+          {
+            "model_id": "baseline_temporal_convergence",
+            "confidence": "exploratory",
+            "focus_anchor": "كَانَ as temporal occurrence and the temporal-nearness branch of مُقَرَّبِينَ.",
+            "mechanism": "The two focus roots can align temporally: a state comes to obtain as a term draws near or a process reaches expiration. The passive form leaves this as persons being brought to that convergent point, not merely a date approaching them.",
+            "activation_trace": [
+              {
+                "source_ref": "56:88",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence within time supplies the state-change frame in which nearness can become an arrival."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B002",
+                "role": "A time drawing near and a thing reaching its end supply temporal convergence as an exploratory dimension of the class name."
+              }
+            ],
+            "changed_reading": {
+              "before": "Nearness in the class name is only spatial or honorific.",
+              "after": "Nearness may also mark temporal convergence: the person has been brought to an approaching term at which the classified state becomes present."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_protected_access",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ن ن",
+              "م س س",
+              "ط ه ر"
+            ],
+            "mechanism": "The preceding sequence presents a protected interior, restricts contact with it, and names persons made pure for that contact. This activates the focus root's favored-inner-circle branch: being brought near can denote conferred access to what remains screened from ordinary contact.",
+            "activation_trace": [
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The ruler's admitted attendants supply the focus-side model of privileged interior access."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment supplies an interior whose guardedness makes nearness consequential."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Direct touch supplies the concrete access relation that the verse restricts."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Removal of impurity supplies a conferred qualification for contact and parallels conferred nearness."
+              }
+            ],
+            "structural_cues": [
+              "56:78-79 places a protected object immediately beside a restriction on touching it.",
+              "مُطَهَّرُونَ and مُقَرَّبِينَ are passive-result plurals, allowing qualification and admission to echo without making them identical."
+            ],
+            "reader_inference": "The packet supplies concealment, restricted touch, made-pure persons, and the focus branch of favored attendants; I infer that restricted contact models admitted nearness. A live alternative is that 56:78-79 concerns the scripture alone and does not classify the person in 56:88.",
+            "changed_reading": {
+              "before": "Being brought near is a general mark of favor.",
+              "after": "Being brought near can be heard as authorized entry into a protected sphere, a status conferred on persons qualified for otherwise restricted access."
+            }
+          },
+          {
+            "model_id": "delta_unseen_relational_transfer",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ظ ر",
+              "ق ر ب",
+              "ب ص ر"
+            ],
+            "mechanism": "Observers direct their eyes toward the dying person, yet a nearer relation is present beyond their perception. The recurrence of the focus root then lets the passive class name describe transfer into that unseen proximity, not an abstract rank detached from the death scene.",
+            "activation_trace": [
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness over against distance anchors the focus class in a concrete relation."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Privileged attendants keep the relational transfer socially marked as admission rather than mere spatial compression."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed visual attention supplies witnesses actively looking at the threshold event."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "The explicit nearer relation beside the dying person supplies the hidden proximity into which the focus passive can move its subject."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Physical sight, explicitly unavailable here, makes the decisive proximity real but inaccessible to the surrounding observers."
+              }
+            ],
+            "structural_cues": [
+              "56:84-85 juxtaposes active looking with failure to perceive a nearer presence.",
+              "ق ر ب recurs at 56:85 and 56:88 across only the challenge in 56:86-87."
+            ],
+            "reader_inference": "The packet supplies looking, unseen nearness to the dying person, and the repeated focus root; I infer that the passive in 56:88 answers this relation by marking the person as brought into it. Alternatively, 56:85 may describe one kind of nearness while 56:88 independently names rank.",
+            "changed_reading": {
+              "before": "The near ones hold a static honorific rank.",
+              "after": "At the dying threshold, the person is brought into an already-present but humanly unseen relation of nearness; rank is realized as relational transfer."
+            }
+          },
+          {
+            "model_id": "delta_endpoint_temporal_nearness",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ل غ",
+              "ح ي ن",
+              "د ي ن",
+              "ر ج ع"
+            ],
+            "mechanism": "Reaching the throat, the marked instant, the prospect of accounting, and the failed return form an irreversible temporal sequence. It activates the focus branch in which nearness is a term drawing close or a process expiring: the classified state arrives when the appointed limit is reached.",
+            "activation_trace": [
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B002",
+                "role": "Temporal approach and expiration supply the focus-side possibility that nearness is convergence with a term."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at an endpoint turns general approach into completed convergence."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B001",
+                "role": "The time or proper instant fixes that convergence to a decisive now."
+              },
+              {
+                "source_ref": "56:86",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the consequential term toward which the sequence converges."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return to the prior state is posed and fails, making the reached limit irreversible."
+              }
+            ],
+            "structural_cues": [
+              "56:83-87 advances from endpoint, to marked instant, to challenge, to failed reversal before the classification in 56:88.",
+              "The focus conditional follows the return challenge rather than opening an unrelated scene."
+            ],
+            "reader_inference": "The packet supplies endpoint, instant, accounting, failed return, and temporal nearness; I infer that these form an appointed-term arrow culminating in 56:88. The live alternative is that temporal imagery only stages death while مُقَرَّبِينَ remains purely a status label.",
+            "changed_reading": {
+              "before": "The temporal-nearness branch is an unactivated possibility inside the focus root.",
+              "after": "The person is brought to the irreversible appointed limit at which accounting and classification become present; nearness is temporal convergence as well as standing."
+            }
+          },
+          {
+            "model_id": "delta_nearness_as_reception",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر و ح",
+              "ج ن ن",
+              "ن ع م"
+            ],
+            "mechanism": "The immediate consequence supplies rest, aromatic provision, an enclosed garden, and a pleasant settled condition. These make privileged nearness operational as reception and accommodation, not merely closeness without an experienced outcome.",
+            "activation_trace": [
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Favored admission supplies the host-and-attendant relation that the following provisions enact."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B007",
+                "role": "Rest and relief supply the first experienced consequence of admitted nearness."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B012",
+                "role": "The aromatic plant supplies tangible welcome or provision rather than an abstract reward."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden enclosed by trees supplies the protected destination of reception."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A congenial place and pleasant stay turn reception into settled belonging."
+              }
+            ],
+            "structural_cues": [
+              "56:89 begins with فـ immediately after the unfinished conditional classification in 56:88.",
+              "The three nominal gifts accumulate as an answer to what being among the brought-near entails."
+            ],
+            "reader_inference": "The packet supplies an unfinished condition followed immediately by rest, provision, garden, and pleasant stay; I infer that these enact the nearness as reception. An alternative is to treat them as rewards following rank without letting them define the rank's mechanism.",
+            "changed_reading": {
+              "before": "Nearness is a privileged relation whose consequences remain unspecified.",
+              "after": "Nearness is enacted as being received, relieved, provisioned, and settled inside a protected pleasant domain."
+            }
+          },
+          {
+            "model_id": "delta_distinct_classification_slot",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك و ن",
+              "ص ح ب",
+              "ي م ن",
+              "ك ذ ب",
+              "ض ل ل"
+            ],
+            "mechanism": "The same conditional membership frame repeats for right-side companions and denying wanderers. Against labels of companionship, side, denial, and lost direction, the focus group alone is named by a passive change of relation: they have been brought near. This sharpens it into a distinct classification slot.",
+            "activation_trace": [
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The favored inner circle supplies the socially distinct class named in the first conditional slot."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Repeated existence and membership reproduce the same classification frame for the next group."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and continued association supply a contrasting way of naming group belonging."
+              },
+              {
+                "source_ref": "56:90",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B002",
+                "role": "The right hand or rightward side supplies the orienting label of the second class."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "A second recurrence of the existence frame confirms that the passage is assigning states of membership."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies one defining relation of the third class."
+              },
+              {
+                "source_ref": "56:92",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from guidance and intended direction supplies the third class's opposed trajectory."
+              }
+            ],
+            "structural_cues": [
+              "56:88, 56:90, and 56:92 repeat أَمَّا إِن كَانَ مِنْ with only the class label changing.",
+              "Each condition receives its own immediate outcome, so the labels function as operative classifications rather than decorative epithets."
+            ],
+            "reader_inference": "The packet supplies three parallel membership conditions with contrasting labels and outcomes; I infer that the passive relational naming of the first group is intentionally class-defining. A live alternative is that the labels overlap and the parallelism distinguishes outcomes without establishing a strict taxonomy.",
+            "changed_reading": {
+              "before": "The near ones are an honorific description within an undifferentiated set of favorable people.",
+              "after": "Those brought near occupy their own operative classification slot, defined by conferred proximity rather than merely by companionship with a side."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_watering_garden_arrival",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it materializes a status term as a travel-and-watering itinerary. It remains anchored because the focus root explicitly offers approach to a watering place, while 56:89 supplies watering-time return, aromatic growth, an enclosed garden, and pleasant settlement. Downstream prose should present it only as an exploratory imagistic overlay, not as a replacement translation of مُقَرَّبِينَ.",
+            "focus_anchor": "The watering-approach branch of ق ر ب in مُقَرَّبِينَ.",
+            "activation_trace": [
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B008",
+                "role": "Movement toward a watering place supplies an arrival-path image inside the focus root."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B005",
+                "role": "Evening return and livestock coming to water echo the destination-oriented movement activated by the focus branch."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B012",
+                "role": "Aromatic vegetation turns the approached station into a place of living refreshment."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "The tree-screened garden supplies the protected landscape reached by the approach."
+              },
+              {
+                "source_ref": "56:89",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "A fitting place and pleasant stay complete the movement as settled arrival."
+              }
+            ],
+            "changed_reading": {
+              "before": "The near ones enter an unspecified privileged state.",
+              "after": "Exploratorily, they are travelers brought up to the watering-garden: terminal approach resolves into refreshment, shelter, and a fitting place to remain."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The recurrence of ق ر ب in 56:85 makes the focus class an unseen relational transfer at death, not a detached honorific.",
+            "The immediate answer in 56:89 operationalizes nearness as reception, relief, provision, and settled dwelling.",
+            "The repeated conditional frames in 56:88, 56:90, and 56:92 sharpen مُقَرَّبِينَ into a distinct conferred classification.",
+            "The endpoint sequence in 56:83-87 activates a secondary temporal reading in which nearness is convergence with an irreversible appointed term."
+          ],
+          "what_was_special": "The focus root is spoken once from the hidden side of the death scene and then reappears as the dying person's passive class name; the withheld result immediately unfolds that relation as concrete reception.",
+          "remaining_uncertainties": [
+            "The protected-access reading may be a deliberate structural echo of 56:78-79 or only an analogy between two separately conferred statuses.",
+            "The temporal-convergence model is branch-supported but remains less direct than relational nearness in the passive plural form.",
+            "The watering-garden activation may be productive imagery without carrying lexical force in the focus construction."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **At the throat-limit, prior status appears as granted access.** `ق ر ب` **B004** supplies privileged nearness; `ك و ن` **B002** supplies condition or rank. The root returns from 56:11, now attached to the person in the death sequence. **Abductive move:** I infer that the earlier group description governs the individual transition here. **Reading change:** being among the brought-near is a durable relation disclosed at death.\n\n2. **One nearing completion.** `ق ر ب` **B002** supplies nearing completion. **Abductive move:** I infer that the conditional can resonate temporally: the person brought near is also at the completion of embodied passage. **Reading change:** rank and completed process coexist without being merged.",
@@ -3310,18 +3889,23 @@
   "root_lexicon": {
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -4441,18 +5025,23 @@
     },
     "root_001212": {
       "root_ar": "ق ر ب",
+      "qac_roots_ar": [
+        "ق ر ب"
+      ],
       "root_id": "root_001212",
-      "root_mapping": {
-        "root_id": "root_001212",
-        "root_norm": "ق ر ب",
-        "source_root_norm": "ق ر ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 77,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ر ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 77
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "50578bdc71ceb78bb28bbc0aca64c6f155e12932d380d311a84f6ed6c7df14e0",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8284,14 +8873,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8556,11 +9151,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_88.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_88.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 89908,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8633,19 +9241,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -8657,19 +9283,37 @@
           "root_ids": [
             "root_001212"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ر ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001212",
+            "targets": [
+              {
+                "qac_root_norm": "ق ر ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001212",
+                "furuq_root_norm": "ق ر ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 77,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001212",
-              "root_norm": "ق ر ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ر ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 77,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8696,10 +9340,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 22,
+        "dictionary_branches_kept": 22,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 16,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

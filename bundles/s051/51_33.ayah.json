@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.714357+00:00",
+  "generated_at": "2026-08-04T22:29:47.209829+00:00",
   "surah": 51,
   "ayah": 33,
   "ayahRef": "51:33",
@@ -1408,7 +1408,8 @@
       "morpheme_ids": [
         "m-w-s051-a033-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:33:1"
+      "aligned_qac_word_ref_upstream": "51:33:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1422,7 +1423,8 @@
       "morpheme_ids": [
         "m-w-s051-a033-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:33:2"
+      "aligned_qac_word_ref_upstream": "51:33:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1438,7 +1440,8 @@
         "m-w-s051-a033-w002-01",
         "m-w-s051-a033-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:33:3"
+      "aligned_qac_word_ref_upstream": "51:33:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1452,7 +1455,8 @@
       "morpheme_ids": [
         "m-w-s051-a033-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:33:4"
+      "aligned_qac_word_ref_upstream": "51:33:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1466,7 +1470,8 @@
       "morpheme_ids": [
         "m-w-s051-a033-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:33:5"
+      "aligned_qac_word_ref_upstream": "51:33:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1480,7 +1485,8 @@
       "morpheme_ids": [
         "m-w-s051-a033-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:33:6"
+      "aligned_qac_word_ref_upstream": "51:33:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2090,7 +2096,952 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_33.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:33",
+      "window": [
+        "51:24",
+        "51:25",
+        "51:26",
+        "51:27",
+        "51:28",
+        "51:29",
+        "51:30",
+        "51:31",
+        "51:32",
+        "51:33",
+        "51:34",
+        "51:35",
+        "51:36",
+        "51:37"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:33",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_dispatch_payload",
+            "confidence": "strong",
+            "focus_anchor": "The purposive li-, first-person plural dispatch verb, alayhim, and the material phrase hijaratan min tin.",
+            "mechanism": "A commissioned outward motion places a hard payload onto a target, while its clay composition keeps earth and water conceptually inside the projectile rather than treating material as incidental.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch and release supply the payload's directed outward motion."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Material hardness supplies the compact striking body."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B001",
+                "role": "Mixed earth-and-water matter specifies what the hard payload is made from."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified destructive shower is sent upon a group.",
+              "after": "The ayah stages a purpose-governed dispatch whose hard projectiles still carry the mixed, terrestrial character of clay."
+            }
+          },
+          {
+            "model_id": "b_released_restraint",
+            "confidence": "medium",
+            "focus_anchor": "The tension between nursila, hijaratan, and alayhim.",
+            "mechanism": "What is released is itself an instrument of prevention and enclosure: mobility on the sender's side becomes blocked movement and closed space on the recipient's side.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Release supplies the mobile first half of the reversal."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Prohibition and enclosure supply the immobilizing effect at the destination."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B002",
+                "role": "Clay coating supplies an adherent, space-closing material image."
+              }
+            ],
+            "changed_reading": {
+              "before": "The stones are only moving objects that strike.",
+              "after": "They are mobile interdictions: released across space in order to impose a terminal boundary upon those below."
+            }
+          },
+          {
+            "model_id": "b_sealed_message_seed",
+            "confidence": "exploratory",
+            "focus_anchor": "The same three nouns and roots permit dispatch, message, prohibition, and clay seal to overlap.",
+            "mechanism": "The payload can be provisionally modeled as embodied communication: a dispatched, clay-sealed prohibition whose physical execution and semantic delivery coincide.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Message-bearing dispatch supplies a communicative function to the sending."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Interdiction supplies the content enacted by the hard object."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B003",
+                "role": "A clay seal supplies the image of authenticated closure."
+              }
+            ],
+            "changed_reading": {
+              "before": "The stones are mute ammunition.",
+              "after": "Exploratorily, each stone is an executed message: dispatch, prohibition, and clay authentication compressed into one material act."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_delegated_dispatch_chain",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "خ ط ب"
+            ],
+            "mechanism": "The agents are addressed as messengers, report that they were sent, and then state the purpose of sending the stones. Agency therefore propagates through nested dispatch: commissioner to envoys to payload to target.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "The focus dispatch supplies the final operative link toward the targets."
+              },
+              {
+                "source_ref": "51:31",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger identity supplies the delegated human-like carrier layer."
+              },
+              {
+                "source_ref": "51:32",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Being sent supplies the prior motion that authorizes the envoys' own sending."
+              },
+              {
+                "source_ref": "51:31",
+                "root": "خ ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000421",
+                "branch_id": "B003",
+                "role": "A grave occurring matter supplies the scale of the commission being relayed."
+              }
+            ],
+            "structural_cues": [
+              "The repeated r-s-l sequence runs from al-mursalun in 51:31 through ursilna in 51:32 to nursila in 51:33.",
+              "The li- clause makes the focus action the stated purpose of the envoys' prior dispatch."
+            ],
+            "reader_inference": "The packet supplies sent envoys who themselves send a payload; I supply the relay arrow and treat repeated r-s-l as delegated agency. A live alternative is that the repetitions merely restate one continuous mission without emphasizing nested transmission.",
+            "changed_reading": {
+              "before": "A single sender directly hurls stones at a target.",
+              "after": "The ayah is the terminal link in a commissioned relay: authority sends envoys, envoys dispatch matter, and matter reaches the designated group."
+            }
+          },
+          {
+            "model_id": "d_hospitality_counter_delivery",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ض ي ف",
+              "ك ر م",
+              "س م ن",
+              "ق ر ب",
+              "ء ك ل"
+            ],
+            "mechanism": "An honored guest scene first moves rich nourishment from host toward visitors, but the visitors do not consume it; their disclosed mission then moves hard, inedible earth toward another group. The focus delivery becomes an inverse return within the episode's material economy.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch supplies the visitors' counter-directional delivery."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone supplies the inedible object opposed to the offered food."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B001",
+                "role": "Mixed earth supplies the anti-nourishing material of the later delivery."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ض ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000924",
+                "branch_id": "B002",
+                "role": "A guest inclining to lodge supplies the social frame of reciprocal provision."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor and generosity make the first material transfer a gift."
+              },
+              {
+                "source_ref": "51:26",
+                "root": "س م ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000744",
+                "branch_id": "B001",
+                "role": "Richness and fatness supply the abundance of the offered nourishment."
+              },
+              {
+                "source_ref": "51:27",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Bringing near supplies the host-to-guest vector that the later dispatch reverses."
+              },
+              {
+                "source_ref": "51:27",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Eating supplies the expected uptake whose absence leaves the first gift suspended."
+              }
+            ],
+            "structural_cues": [
+              "The food is brought near in 51:26-27, but the question about not eating marks failed uptake.",
+              "The same visitors disclose in 51:31-33 that their operative delivery is stones of clay."
+            ],
+            "reader_inference": "The packet supplies an unconsumed generous offering followed by the guests' destructive delivery; I supply the counter-gift relation between those transfers. A live alternative is simple narrative contrast with no exchange mechanism.",
+            "changed_reading": {
+              "before": "The clay stones belong only to a detached punishment scene.",
+              "after": "Exploratorily, they are the visitors' anti-banquet: hard earth sent outward after rich food offered inward remains uneaten."
+            }
+          },
+          {
+            "model_id": "d_sealed_marked_sentence",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ك ك",
+              "ح ك م",
+              "ج ر م",
+              "ر ب ب",
+              "س و م"
+            ],
+            "mechanism": "The focus seed of message, interdiction, and clay seal is activated by branches for a written instrument, judgment, culpability, sovereignty, visible marking, and imposed harm. The projectiles can thus be carried as individually authenticated executions of a sentence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Message-bearing dispatch supplies the writ-like communicative vehicle."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Interdiction supplies the binding force of the sentence."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B003",
+                "role": "Clay sealing supplies material authentication."
+              },
+              {
+                "source_ref": "51:29",
+                "root": "ص ك ك",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000874",
+                "branch_id": "B006",
+                "role": "The written-document branch supplies the surprising juridical carrier image."
+              },
+              {
+                "source_ref": "51:30",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Judgment supplies the adjudicative frame for execution."
+              },
+              {
+                "source_ref": "51:32",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B004",
+                "role": "Culpable offense supplies the ground on which the sentence attaches."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Sovereign ownership supplies the issuing authority."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "A visible identifying mark supplies individualized authentication."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000764",
+                "branch_id": "B002",
+                "role": "The secondary mapped sense of imposed harm makes the mark operational rather than decorative."
+              }
+            ],
+            "structural_cues": [
+              "The sequence runs from the s-k-k act in 51:29 through the Wise Lord in 51:30 and the mission in 51:31-33 to marked objects with the Lord in 51:34.",
+              "The marked-stone continuation immediately supplies a designation beyond the focus ayah's bare material phrase."
+            ],
+            "reader_inference": "The packet supplies document, judgment, offense, sovereign, seal, and mark branches; I supply the legal-execution arrow that binds them into authenticated sentence-tokens. The materially live alternative is simply preselected ammunition with no juridical document metaphor.",
+            "changed_reading": {
+              "before": "The stones are anonymous pieces of destructive matter.",
+              "after": "They can be read as marked, clay-sealed sentence-tokens whose delivery simultaneously communicates and executes sovereign judgment."
+            }
+          },
+          {
+            "model_id": "d_boundary_restoration",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ك م",
+              "ج ر م",
+              "س ر ف"
+            ],
+            "mechanism": "Those defined by cutting culpability and exceeding a limit receive objects whose focus-root can prohibit and enclose; judgment's restraining branch makes the impact a reciprocal restoration of a violated boundary.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Release carries the corrective boundary toward its recipients."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Prohibition and enclosure supply the hard limit imposed by the payload."
+              },
+              {
+                "source_ref": "51:30",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B001",
+                "role": "Restraint directed toward correction supplies the governing function of the limit."
+              },
+              {
+                "source_ref": "51:32",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B001",
+                "role": "Cutting and severance supply a target condition of broken relation."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س ر ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000699",
+                "branch_id": "B001",
+                "role": "Exceeding a bound supplies the transgression that the stone-boundary answers."
+              }
+            ],
+            "structural_cues": [
+              "The target is renamed from criminals in 51:32 to limit-exceeders in 51:34.",
+              "The focus places the stone material directly alayhim, turning the semantic limit into a spatially imposed one."
+            ],
+            "reader_inference": "The packet supplies excess, severance, judgmental restraint, and enclosing stone; I supply the reciprocal arrow in which crossed limits call forth a material limit. A live alternative is that these are parallel moral and physical descriptions without reciprocity.",
+            "changed_reading": {
+              "before": "The stonefall is force applied to wrongdoers.",
+              "after": "It materializes boundary restoration: those who overrun limits are met by a dispatched limit that encloses and terminates their movement."
+            }
+          },
+          {
+            "model_id": "d_extract_then_close",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س و م",
+              "خ ر ج",
+              "ء م ن",
+              "غ ي ر",
+              "ب ي ت"
+            ],
+            "mechanism": "Marking is followed by outward extraction of the secure group and identification of a single household. The focus action is therefore read as selective closure upon the remainder, not undifferentiated saturation of the inhabited place.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Directed dispatch supplies the controllable delivery stage after sorting."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B004",
+                "role": "An enclosed place supplies the spatial field that is closed upon the remainder."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000764",
+                "branch_id": "B004",
+                "role": "Recognizable assignment supplies targeting before impact."
+              },
+              {
+                "source_ref": "51:35",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Passage outward supplies the evacuation gate preceding closure."
+              },
+              {
+                "source_ref": "51:35",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and settled trust identify the group admitted through that gate."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Exception and exclusion narrow the protected set."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "The household branch supplies the single social cell extracted from the larger place."
+              }
+            ],
+            "structural_cues": [
+              "Marked stones in 51:34 precede extraction in 51:35 and the count of one household in 51:36.",
+              "The focus pronoun alayhim can now resolve to the post-extraction remainder rather than every inhabitant of the place."
+            ],
+            "reader_inference": "The packet supplies marking, extraction, security, exception, and one household; I supply a targeting-gate mechanism in which evacuation defines the residual referent of alayhim. A live alternative is that rescue and bombardment are coordinated narratively but not by a technical sorting process.",
+            "changed_reading": {
+              "before": "Stones descend broadly upon a populated settlement.",
+              "after": "They close selectively upon a residual target set constituted only after the secure household has been taken out."
+            }
+          },
+          {
+            "model_id": "d_durable_warning_archive",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح د ث",
+              "ت ر ك",
+              "ء ي ي",
+              "خ و ف",
+              "ع ذ ب"
+            ],
+            "mechanism": "The episode opens as a report and ends with an intentionally remaining sign for those who anticipate punishment. Hard stone and clay seal make the focus event a medium that survives its impact and transmits warning forward.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Message-bearing dispatch supplies transmission beyond immediate impact."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone supplies a durable memory substrate."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B003",
+                "role": "Clay sealing supplies the impression-like preservation of the event."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "A report renewed in telling supplies the episode's opening communicative state."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "Leaving a trace supplies persistence after the agents and victims are gone."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the readable status of what remains."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Anticipatory fear supplies the future audience's mode of reception."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive pain supplies the warning-content carried by the remaining sign."
+              }
+            ],
+            "structural_cues": [
+              "Hadith in 51:24 frames the episode as transmissible report before the focus action occurs.",
+              "51:37 explicitly converts what happened in the place into a left sign for a later audience."
+            ],
+            "reader_inference": "The packet supplies report, durable materials, an intentionally left trace, a sign, and a warning audience; I supply the arrow that treats the stone event as the archive's material inscription. A live alternative is that the sign is the ruined site or total event rather than the stones specifically.",
+            "changed_reading": {
+              "before": "The stones complete their function when they strike.",
+              "after": "Their impact also writes forward: destructive matter becomes a durable archive that repeatedly delivers the warning after the original dispatch."
+            }
+          },
+          {
+            "model_id": "d_fear_reassigned",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ و ف",
+              "ب ش ر",
+              "ء ي ي"
+            ],
+            "mechanism": "The envoys first remove immediate fear from Abraham by opening a joyful future, then their mission produces a sign that instills anticipatory fear in later observers. The focus payload becomes an affective relay that transfers fear away from the spared host and toward the warning's audience.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Message-bearing dispatch supplies the carrier for affective reassignment."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard impact supplies the feared consequence communicated to later observers."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "3",
+                  "6"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Expected harm and its verbal negation supply the fear removed from Abraham."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "ب ش ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000120",
+                "branch_id": "B005",
+                "role": "Joy-opening news supplies the positive replacement for Abraham's fear."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Expected harm supplies the enduring response installed in the later audience."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The visible sign supplies the interface through which later fear is activated."
+              }
+            ],
+            "structural_cues": [
+              "The same visitors say not to fear in 51:28 before disclosing the punitive mission.",
+              "The pericope closes in 51:37 by naming fear as the disposition that makes the remaining sign legible."
+            ],
+            "reader_inference": "The packet supplies fear removed, glad tidings, destructive dispatch, and fear reactivated by a sign; I supply the affect-transfer arrow. A live alternative is that the two fears have different objects and merely frame the episode without being transferred.",
+            "changed_reading": {
+              "before": "The stones only cause fear and pain in their immediate targets.",
+              "after": "They participate in a controlled redistribution of fear: canceled for the host, realized upon the target, and preserved as caution in future observers."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_salam_stone_sorting",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a branch under the repeated s-l-m forms names hard stones, while other s-l-m evidence supplies safety; it remains anchored in the focus's literal hard stone and the extraction of one Muslim household. Downstream prose must present this as a branch-level lexical echo that sharpens a sorting contrast, not as a claim that the greetings or Muslim label literally mean stones here.",
+            "focus_anchor": "Hijaratan is the hard-stone target of an s-l-m branch activated by the doubled salam and the surviving Muslim household.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Literal hard stone anchors the branch-level echo in the focus object."
+              },
+              {
+                "source_ref": "51:25",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B007",
+                "role": "The hard-stone branch creates a startling lexical bridge from the doubled greeting to hijaratan."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety supplies the opposite outcome assigned to the extracted household."
+              },
+              {
+                "source_ref": "51:35",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Movement outward supplies the operation separating safety from stone impact."
+              }
+            ],
+            "changed_reading": {
+              "before": "Peace language and stone language occupy unrelated parts of the episode.",
+              "after": "At branch level, the mission bifurcates one s-l-m field: safety is extracted with one household while hard stone is dispatched upon the remainder."
+            }
+          },
+          {
+            "outlier_id": "o_generation_terminal_clay",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading is surprising because it links the focus clay's formative branch to a promised boy, old age, barrenness, and a secondary growth branch under r-b-b; it remains anchored in tin and its formation inventory. Downstream prose must qualify it as a juxtaposed material analogy, not as an assertion that the verse identifies human creation with these particular stones.",
+            "focus_anchor": "Tin carries a formation or disposition branch immediately after the envoys announce generation where age and barrenness seemed to block it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B004",
+                "role": "Clay as formed disposition supplies the generative side of the material analogy."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone supplies the terminally fixed side of the contrast."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "ب ش ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000120",
+                "branch_id": "B005",
+                "role": "Joy-bearing news supplies the announced reversal toward life."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "غ ل م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001103",
+                "branch_id": "B001",
+                "role": "Youth supplies the new generative outcome."
+              },
+              {
+                "source_ref": "51:29",
+                "root": "ع ج ز",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000985",
+                "branch_id": "B003",
+                "role": "Advanced age supplies one apparent closure of generation."
+              },
+              {
+                "source_ref": "51:29",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B001",
+                "role": "Barrenness supplies the second apparent closure that the birth announcement crosses."
+              },
+              {
+                "source_ref": "51:30",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The secondary mapped growth branch supplies nurture and emergence under the Lord's saying."
+              }
+            ],
+            "changed_reading": {
+              "before": "Clay merely describes the geology of the projectiles.",
+              "after": "Exploratorily, clay stands at the episode's life-or-closure threshold: formation opens toward a boy in one commission and hardens into terminal consequence in the other."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Repeated r-s-l turns the focus into the last link of a delegated dispatch chain.",
+            "Clay sealing, written-instrument, judgment, culpability, sovereign, and split marking branches make the stones readable as authenticated sentence-tokens.",
+            "Limit-exceeding activates hijr as a material boundary, while extraction and one-house exception make the impact selectively post-evacuation.",
+            "The opening report and closing left sign turn hard clay from expended ammunition into a durable warning archive."
+          ],
+          "what_was_special": "The focus's compact material phrase supported unusually coherent reversals: release becomes restraint, payload becomes message, and impact becomes archive. The context then supplied exact high-surprise activators, especially the clay seal with marked assignment, the s-k-k document branch, nested sending, the salām hard-stone echo, and the contrast between generative clay and terminal hardening.",
+          "remaining_uncertainties": [
+            "The sealed-writ model may be a productive legal metaphor for targeted stones rather than a mechanism asserted by the syntax.",
+            "The enduring sign may be the ruined place or whole event rather than the stones themselves.",
+            "The hospitality counter-delivery, s-l-m hard-stone echo, and generation-versus-hardening model remain branch-distant and should stay explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Released force becomes formed projectiles.** `ر س ل/B001` supplies sending/releasing; `ح ج ر/B003` hard stone; `ط ي ن/B001` earth-water clay. The purposive construction turns message-bearing envoys into agents who release material judgment. I infer **molded earth -> hardened marked unit -> dispatched impact**; hardening is inferred from the stone/clay juxtaposition, not separately stated. The verse reads as controlled manufacture and delivery.\n2. **Clay as a sealing medium.** `ط ي ن/B003` supplies pressing a clay seal, activated by “marked” in 51:34 (`س و م/B004`). I infer **clay seal -> designated recipient -> nonrandom delivery**. This administrative image coexists with literal clay material.",
@@ -2928,18 +3879,23 @@
   "root_lexicon": {
     "root_000563": {
       "root_ar": "ر س ل",
+      "qac_roots_ar": [
+        "ر س ل"
+      ],
       "root_id": "root_000563",
-      "root_mapping": {
-        "root_id": "root_000563",
-        "root_norm": "ر س ل",
-        "source_root_norm": "ر س ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 505,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر س ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 505
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "74b9e1fa6006c7eb411428c8961ef30679db99390f9a1d7d529f4aa62e5b2556",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6414,18 +7370,23 @@
     },
     "root_000296": {
       "root_ar": "ح ج ر",
+      "qac_roots_ar": [
+        "ح ج ر"
+      ],
       "root_id": "root_000296",
-      "root_mapping": {
-        "root_id": "root_000296",
-        "root_norm": "ح ج ر",
-        "source_root_norm": "ح ج ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 15,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ج ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 15
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4ecd568b0dfbe1b0a2cea7df06ec62713e6e9ac6f6e1330d60bc79bcba8c95e0",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8469,18 +9430,23 @@
     },
     "root_000963": {
       "root_ar": "ط ي ن",
+      "qac_roots_ar": [
+        "ط ي ن"
+      ],
       "root_id": "root_000963",
-      "root_mapping": {
-        "root_id": "root_000963",
-        "root_norm": "ط ي ن",
-        "source_root_norm": "ط ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 12,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ط ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 12
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "0bba44be6fdbf13f0ee18734e72fa761f6b3d4aa4714048d3c58138da8d6f959",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10140,14 +11106,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10467,11 +11439,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_33.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_33.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 96150,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10544,19 +11529,37 @@
           "root_ids": [
             "root_000563"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر س ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000563",
+            "targets": [
+              {
+                "qac_root_norm": "ر س ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000563",
+                "furuq_root_norm": "ر س ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 505,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000563",
-              "root_norm": "ر س ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر س ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 505,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10581,19 +11584,37 @@
           "root_ids": [
             "root_000296"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ج ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000296",
+            "targets": [
+              {
+                "qac_root_norm": "ح ج ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000296",
+                "furuq_root_norm": "ح ج ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 15,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000296",
-              "root_norm": "ح ج ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ج ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 15,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10618,19 +11639,37 @@
           "root_ids": [
             "root_000963"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ط ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000963",
+            "targets": [
+              {
+                "qac_root_norm": "ط ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000963",
+                "furuq_root_norm": "ط ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 12,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000963",
-              "root_norm": "ط ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ط ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 12,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10657,10 +11696,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 23,
+        "dictionary_branches_kept": 23,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 23,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

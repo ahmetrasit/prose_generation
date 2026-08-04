@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.730931+00:00",
+  "generated_at": "2026-08-04T22:29:59.895816+00:00",
   "surah": 56,
   "ayah": 46,
   "ayahRef": "56:46",
@@ -1733,7 +1733,8 @@
       "morpheme_ids": [
         "m-w-s056-a046-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:46:1"
+      "aligned_qac_word_ref_upstream": "56:46:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1749,7 +1750,8 @@
         "m-w-s056-a046-w001-02",
         "m-w-s056-a046-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:46:2"
+      "aligned_qac_word_ref_upstream": "56:46:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1765,7 +1767,8 @@
         "m-w-s056-a046-w002-01",
         "m-w-s056-a046-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:46:3"
+      "aligned_qac_word_ref_upstream": "56:46:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1779,7 +1782,8 @@
       "morpheme_ids": [
         "m-w-s056-a046-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:46:4"
+      "aligned_qac_word_ref_upstream": "56:46:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1795,7 +1799,8 @@
         "m-w-s056-a046-w004-01",
         "m-w-s056-a046-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:46:5"
+      "aligned_qac_word_ref_upstream": "56:46:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1811,7 +1816,8 @@
         "m-w-s056-a046-w005-01",
         "m-w-s056-a046-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:46:6"
+      "aligned_qac_word_ref_upstream": "56:46:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2401,7 +2407,685 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_46.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:46",
+      "window": [
+        "56:41",
+        "56:42",
+        "56:43",
+        "56:44",
+        "56:45",
+        "56:46",
+        "56:47",
+        "56:48",
+        "56:49",
+        "56:50",
+        "56:51",
+        "56:52",
+        "56:53",
+        "56:54",
+        "56:55",
+        "56:56"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:46",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B01_ENTRENCHED_OFFENSE",
+            "confidence": "strong",
+            "focus_anchor": "The past-state verb, persistence verb, offense noun, and magnitude adjective form a temporal and volitional construction.",
+            "mechanism": "Temporal presence combines with resolve, wrongdoing, and force: the clause describes an offense kept continuously operative as a settled posture, not a single lapse.",
+            "activation_trace": [
+              {
+                "source_ref": "56:46",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Temporal occurrence and presence make the conduct an established prior state."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Resolve and persistence supply deliberate continuity rather than a momentary lapse."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B001",
+                "role": "Guilt, grave wrongdoing, and deviation from truth provide the maintained offense."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B001",
+                "role": "Magnitude and force scale the maintained offense beyond an ordinary lapse."
+              }
+            ],
+            "changed_reading": {
+              "before": "They repeatedly committed a major sin.",
+              "after": "Their past state was an intentionally maintained posture in which resolve kept a forceful deviation continuously present."
+            }
+          },
+          {
+            "model_id": "B02_COUNTER_COMMITMENT",
+            "confidence": "medium",
+            "focus_anchor": "The persistence root at word 2 carries binding imagery, while the offense root at word 4 carries oath-breaking imagery.",
+            "mechanism": "A knot image is placed over an oath-breach image: their persistence is a counter-commitment that repeatedly tightens attachment to the act that undoes commitment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Binding and knotting turn persistence into active self-attachment."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B002",
+                "role": "Oath-breaking supplies the breached bond to which they paradoxically bind themselves."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B001",
+                "role": "Magnitude and force make the counter-commitment weighty rather than casual."
+              }
+            ],
+            "changed_reading": {
+              "before": "They kept breaking a grave oath.",
+              "after": "They formed a counter-commitment, continually tightening themselves onto the very breach that undoes binding obligation."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D01_THERMAL_FIXATION",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م م",
+              "ح م م",
+              "ظ ل ل",
+              "ب ر د"
+            ],
+            "mechanism": "The surrounding field of penetrating heat, hot liquid, failed shade, and negated coolness selects the extreme-temperature branch dormant in the focus persistence root. Persistence can therefore be heard as a harmful fixed condition whose exterior environment mirrors its interior rigidity.",
+            "activation_trace": [
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B003",
+                "role": "The severe cold-or-heat branch lets the persistence verb receive a thermal coloring."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "A penetrating hot wind supplies the invasive thermal field around the focus."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water makes the surrounding condition materially sustained rather than merely figurative."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "The sheltering function of shade is invoked but then denied efficacy by the sequence."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Coolness as heat's opposite is explicitly negated, closing escape from the thermal condition."
+              }
+            ],
+            "structural_cues": [
+              "56:42-44 immediately precede the causal account in 56:45-46 and repeat a no-relief environmental condition.",
+              "The focus root itself contains the otherwise dormant extreme-temperature branch."
+            ],
+            "reader_inference": "The packet supplies the thermal sequence and the focus root's extreme-temperature branch; I supply the mirroring arrow from moral fixation to environmental fixation. A live alternative is simple punishment imagery with no semantic feedback into the persistence verb.",
+            "changed_reading": {
+              "before": "They remained morally obstinate.",
+              "after": "Their obstinacy is also thermally rendered: a harmful fixation mirrored by penetrating heat and a shelter that cannot cool."
+            }
+          },
+          {
+            "model_id": "D02_LUXURY_INSULATION",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ر م",
+              "ت ر ف"
+            ],
+            "mechanism": "Material latitude precedes moral rigidity. Expansive ease gives room for the offense to persist and for magnitude to become self-magnification, while the preceding negation of honor removes any equation between privilege and genuine nobility.",
+            "activation_trace": [
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Deliberate persistence is the rigid conduct that prior ease may insulate."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B006",
+                "role": "Self-magnification supplies a status response that can grow inside protected ease."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor and generosity, explicitly negated here, supply the absent corrective to self-magnifying ease."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Expansive blessing that releases its possessor supplies latitude and insulation before the focus conduct."
+              }
+            ],
+            "structural_cues": [
+              "56:45 marks the affluent condition as prior to the persistence in 56:46.",
+              "56:44 negates honorable quality immediately before that prior condition is named."
+            ],
+            "reader_inference": "The packet supplies prior materially releasing ease, absent honor, and a self-magnifying focus branch; I infer that ease enabled and insulated persistence. The live alternative is that affluence is only temporal background, not an enabling cause.",
+            "changed_reading": {
+              "before": "They persisted in wrongdoing despite having lived comfortably.",
+              "after": "Their comfort supplied latitude and insulation for a self-magnifying habit, so privilege and genuine honor separate sharply."
+            }
+          },
+          {
+            "model_id": "D03_DENIAL_AS_CREED",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "م و ت",
+              "ت ر ب",
+              "ب ع ث",
+              "ض ل ل",
+              "ك ذ ب"
+            ],
+            "mechanism": "The following utterance is not casual speech but a stated belief: bodily stillness and reduction to earth are made into an argument against reactivation. The later labels of deviation and contradiction sharpen the focus offense into a rehearsed epistemic creed.",
+            "activation_trace": [
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Persistence and resolve make the adjacent claim a maintained position."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B001",
+                "role": "Wrongdoing and deviation from truth provide the focus category sharpened by the speech."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Speech as belief or doctrine makes the question an adopted position, not a passing sound."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B012",
+                "role": "Stillness and quiescence supply the state treated by the speakers as irreversible."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B001",
+                "role": "Earth and dust supply bodily dispersal as the doctrine's material premise."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Stirring what is still supplies the rejected transition at the center of the claim."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from guidance turns the maintained claim into an epistemic path."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth names the creed's operative failure."
+              }
+            ],
+            "structural_cues": [
+              "56:47 begins with the same past-state construction as 56:46 and immediately supplies their recurring saying.",
+              "56:49-50 answer that saying, and 56:51 addresses the speakers as deviated deniers."
+            ],
+            "reader_inference": "The packet supplies adjacency, repeated past-state grammar, doctrinal speech, rejected reactivation, and later labels; I infer that the saying instantiates and maintains the great offense. A live alternative is that it is one symptom of a broader offense rather than its exhaustive content.",
+            "changed_reading": {
+              "before": "The great offense remains unspecified.",
+              "after": "The offense operates concretely as a rehearsed doctrine that treats bodily stillness and dispersal as barriers to reactivation and stabilizes contradiction as identity."
+            }
+          },
+          {
+            "model_id": "D04_AGGREGATED_APPOINTMENT",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج م ع",
+              "و ق ت",
+              "ع ل م",
+              "د ي ن"
+            ],
+            "mechanism": "The focus posture extends through time, but the context gives it a fixed closure: all dispersed parties are completed into one gathering at a set, knowable appointment and account. The offense's greatness can therefore include cumulative scope, not only intensity.",
+            "activation_trace": [
+              {
+                "source_ref": "56:46",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Presence through past time supplies the duration that seems open-ended from within the focus."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Persistence lets repeated breaches accumulate across that duration."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B002",
+                "role": "The bulk or greater part branch lets magnitude be read cumulatively."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B009",
+                "role": "Completion without dispersion supplies the totalizing scope of the gathering."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "A fixed appointment closes the apparently indefinite span of persistence."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to knowledge removes temporal ambiguity from the endpoint."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense turn the total gathering into assessment of accumulated conduct."
+              }
+            ],
+            "structural_cues": [
+              "56:48-50 widen from ancestors and first and last peoples to a complete gathering.",
+              "56:50 fixes that gathering to a known appointment, while 56:56 identifies a day of account."
+            ],
+            "reader_inference": "The packet supplies widening scope, completed gathering, fixed time, knowledge, and account; I supply the aggregation arrow from repeated conduct to cumulative magnitude. A live alternative is that these cues govern only who is summoned and when, without changing the adjective in the focus.",
+            "changed_reading": {
+              "before": "The offense is great because each act is severe.",
+              "after": "Its greatness may also be cumulative: persistence builds a collective bulk that is closed, gathered, and assessed at a fixed endpoint."
+            }
+          },
+          {
+            "model_id": "D05_APPETITE_LOOP",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ر ف",
+              "ء ك ل",
+              "م ل ء",
+              "ش ر ب",
+              "ه ي م"
+            ],
+            "mechanism": "The sequence moves from prior abundance to eating, filling, drinking, and thirst that does not resolve. Joined to knotting and persistence in the focus, it activates an appetite loop in which repeated intake reaches capacity but never produces release.",
+            "activation_trace": [
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Knotting gives the repeated appetite a self-binding feedback structure."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Persistence supplies repetition after each failed attempt at satisfaction."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B001",
+                "role": "Wrongdoing anchors the appetite mechanism back in the focus rather than making it an independent bodily theme."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Expansive ease supplies the pre-focus condition in which appetite is released."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Taking food begins the post-focus intake sequence."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Fullness equal to a container marks reached capacity without ending the sequence."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B001",
+                "role": "Repeated liquid intake extends consumption beyond bodily fullness."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Severe thirst that is not quenched prevents consumption from reaching satisfaction."
+              }
+            ],
+            "structural_cues": [
+              "56:45 places released abundance before the focus.",
+              "56:52-55 form a directed sequence from eating to fullness to repeated drinking without quenching."
+            ],
+            "reader_inference": "The packet supplies prior abundance and a later intake sequence that reaches fullness without satisfaction; I infer a mirrored appetite feedback loop for the focus persistence. A live alternative is that the later sequence is consequence imagery only and says nothing about the earlier conduct's psychology.",
+            "changed_reading": {
+              "before": "The offense is repeated by will.",
+              "after": "The offense may function like a self-binding appetite: abundance releases it, repetition fills without satisfying, and failed satisfaction drives further persistence."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O01_SKELETAL_OFFENSE",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the focus adjective's materially distant bone branch. It remains anchored by the exact root recurrence as a literal bone noun one verse later and by the focus knot image. Downstream prose should present it only as a root-triggered material analogy, never as a claim that the adjective lexically means bone here.",
+            "focus_anchor": "The adjective at focus word 5 shares its root with the bone noun at 56:47 word 7, while focus word 2 supplies binding structure.",
+            "activation_trace": [
+              {
+                "source_ref": "56:46",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B005",
+                "role": "The hard skeletal branch supplies a material structure for the offense's magnitude."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Binding and knotting let that material structure hold the maintained position together."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B005",
+                "role": "The immediate literal bone occurrence activates the same root's skeletal branch."
+              }
+            ],
+            "changed_reading": {
+              "before": "The offense is simply very large.",
+              "after": "As a contained material analogy, persistence has made the offense skeletal: a hard framework that holds the adjacent denial together."
+            }
+          },
+          {
+            "outlier_id": "O02_INVERTED_RECEPTION",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading links binding obligation, oath-breach, prepared reception, and account. It remains valid because each relation is branch-backed and the final reception closes the same local sequence. Downstream prose should qualify it as a legal-hospitality analogy, not a technical claim about a specific contract or ritual.",
+            "focus_anchor": "Focus words 2 and 4 combine binding with oath-breach; 56:56 closes the sequence with prepared reception on a day of account.",
+            "activation_trace": [
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Binding supplies the obligation side of the relational analogy."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B002",
+                "role": "Oath-breaking supplies the violated obligation that calls for settlement."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Provision prepared for an arriving guest supplies an inverted reception at the sequence's close."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense make that reception function as settlement rather than welcome."
+              }
+            ],
+            "changed_reading": {
+              "before": "Persistent oath-breaking receives punishment.",
+              "after": "The breakers bind themselves to breach and arrive at an inverted reception whose prepared provision settles the account."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The following resurrection-denial speech makes the offense a maintained doctrine, not only unspecified wrongdoing.",
+            "Prior luxury and later unsatisfied consumption expose an enabling and appetitive feedback loop.",
+            "Gathering at a fixed known account recasts greatness as cumulative scope under temporal closure."
+          ],
+          "what_was_special": "Dormant material branches in the persistence and magnitude roots were reactivated by immediate heat and bones, yielding inspectable thermal and skeletal readings without turning either into a forced lexical gloss.",
+          "remaining_uncertainties": [
+            "Whether 56:47 defines the great breach or only exemplifies one part of it.",
+            "Whether luxury and consumption causally mirror persistence or merely frame it as narrative before and after.",
+            "The thermal and skeletal links remain branch-triggered analogies rather than required senses of the focus words."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **They bound themselves to grave culpability.** `ص ر ر` **B002** supplies insistence and firm resolve and **B001** binding and tying; `ح ن ث` **B001** supplies culpable sin and moral constraint; `ع ظ م` **B001** supplies greatness. **Abductive move:** I infer that repeated persistence turns wrongdoing into a self-fastened condition. **Reading change:** the ayah describes durable attachment to culpability, not episodic failure.\n\n2. **Persistence in an oath-breach of overwhelming scale.** `ح ن ث` **B002** supplies breaking an oath, and `ع ظ م` **B007** finding something overwhelming. Their denial of re-creation in the next ayat gives the breach propositional content only inferentially. **Abductive move:** I infer that the “great” breach may encompass refusal of the binding truth announced by the surah. **Reading change:** the offense can be heard as violated commitment as well as sin.",
@@ -3289,18 +3973,23 @@
   "root_lexicon": {
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -4420,18 +5109,23 @@
     },
     "root_000856": {
       "root_ar": "ص ر ر",
+      "qac_roots_ar": [
+        "ص ر ر"
+      ],
       "root_id": "root_000856",
-      "root_mapping": {
-        "root_id": "root_000856",
-        "root_norm": "ص ر ر",
-        "source_root_norm": "ص ر ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 4,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ر ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "05cb8ba734fa88837085c4a2f2c270db8eabd5171dc8d9fe9832c19ede9fe372",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6703,18 +7397,23 @@
     },
     "root_000359": {
       "root_ar": "ح ن ث",
+      "qac_roots_ar": [
+        "ح ن ث"
+      ],
       "root_id": "root_000359",
-      "root_mapping": {
-        "root_id": "root_000359",
-        "root_norm": "ح ن ث",
-        "source_root_norm": "ح ن ث",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح ن ث",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "6586b5a04e65ab88b16f9b5b6ebe825c986e2afd5334fc07a3fc1efa4ad64c76",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8057,18 +8756,23 @@
     },
     "root_001029": {
       "root_ar": "ع ظ م",
+      "qac_roots_ar": [
+        "ع ظ م"
+      ],
       "root_id": "root_001029",
-      "root_mapping": {
-        "root_id": "root_001029",
-        "root_norm": "ع ظ م",
-        "source_root_norm": "ع ظ م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 124,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ظ م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 124
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "faa86afc7e86256cd5286d75ffc5d44719b6afd05ee67eec2a3109809deb9f3f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10694,14 +11398,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10979,11 +11689,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_46.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_46.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 72421,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -11058,19 +11781,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -11082,19 +11823,37 @@
           "root_ids": [
             "root_000856"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ر ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000856",
+            "targets": [
+              {
+                "qac_root_norm": "ص ر ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000856",
+                "furuq_root_norm": "ص ر ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 4,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000856",
-              "root_norm": "ص ر ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ر ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 4,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11119,19 +11878,37 @@
           "root_ids": [
             "root_000359"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح ن ث",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000359",
+            "targets": [
+              {
+                "qac_root_norm": "ح ن ث",
+                "target_rank": 1,
+                "furuq_root_id": "root_000359",
+                "furuq_root_norm": "ح ن ث",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000359",
-              "root_norm": "ح ن ث",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح ن ث",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11156,19 +11933,37 @@
           "root_ids": [
             "root_001029"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ظ م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001029",
+            "targets": [
+              {
+                "qac_root_norm": "ع ظ م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001029",
+                "furuq_root_norm": "ع ظ م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 124,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001029",
-              "root_norm": "ع ظ م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ظ م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 124,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11195,10 +11990,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 31,
+        "dictionary_branches_kept": 31,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 25,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

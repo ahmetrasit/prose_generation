@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T05:42:15.380386+00:00",
+  "generated_at": "2026-08-04T22:28:21.630303+00:00",
   "surah": 12,
   "ayah": 29,
   "ayahRef": "12:29",
@@ -2879,7 +2879,8 @@
       "morpheme_ids": [
         "m-w-s012-a029-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:29:1"
+      "aligned_qac_word_ref_upstream": "12:29:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2893,7 +2894,8 @@
       "morpheme_ids": [
         "m-w-s012-a029-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:29:2"
+      "aligned_qac_word_ref_upstream": "12:29:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2907,7 +2909,8 @@
       "morpheme_ids": [
         "m-w-s012-a029-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:29:3"
+      "aligned_qac_word_ref_upstream": "12:29:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2921,7 +2924,8 @@
       "morpheme_ids": [
         "m-w-s012-a029-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:29:4"
+      "aligned_qac_word_ref_upstream": "12:29:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2935,14 +2939,91 @@
       "morpheme_ids": [
         "m-w-s012-a029-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:29:5"
+      "aligned_qac_word_ref_upstream": "12:29:5",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    {
+      "word_index": 6,
+      "surface_ar": "لِ",
+      "word_ids": [
+        "w-s012-a029-w006"
+      ],
+      "qac_refs": [
+        "12:29:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a029-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:29:7",
+      "morpheme_skip_count": 2
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "ذَنْبِكِ",
+      "word_ids": [
+        "w-s012-a029-w006"
+      ],
+      "qac_refs": [
+        "12:29:6:2",
+        "12:29:6:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a029-w006-02",
+        "m-w-s012-a029-w006-03"
+      ],
+      "aligned_qac_word_ref_upstream": "12:29:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "إِنَّكِ",
+      "word_ids": [
+        "w-s012-a029-w007"
+      ],
+      "qac_refs": [
+        "12:29:7:1",
+        "12:29:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a029-w007-01",
+        "m-w-s012-a029-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:29:9",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 9,
+      "surface_ar": "كُنْتِ",
+      "word_ids": [
+        "w-s012-a029-w008"
+      ],
+      "qac_refs": [
+        "12:29:8:1",
+        "12:29:8:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a029-w008-01",
+        "m-w-s012-a029-w008-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:29:10",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 10,
+      "surface_ar": "مِنَ",
+      "word_ids": [
+        "w-s012-a029-w009"
+      ],
+      "qac_refs": [
+        "12:29:9:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a029-w009-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:29:11",
+      "morpheme_skip_count": 0
+    },
     null
   ],
   "branch_inventories": {
@@ -3658,7 +3739,733 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s12/packets/12_29.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "12:29",
+      "window": [
+        "12:19",
+        "12:20",
+        "12:21",
+        "12:22",
+        "12:23",
+        "12:24",
+        "12:25",
+        "12:26",
+        "12:27",
+        "12:28",
+        "12:29",
+        "12:30",
+        "12:31",
+        "12:32",
+        "12:33",
+        "12:34",
+        "12:35"
+      ],
+      "ayah_count": 17,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "12:29",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_asymmetric_repair",
+            "confidence": "strong",
+            "focus_anchor": "Yusuf is told to turn aside, while the woman is told to seek forgiveness for her offense.",
+            "mechanism": "The addressee switch separates social disengagement from moral repair: Yusuf bears no confession, while her task names culpability and seeks protection from its effects.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Turning the side supplies Yusuf's distinct withdrawal task."
+              },
+              {
+                "source_ref": "12:29",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Protective covering of an offense supplies the woman's reparative task."
+              },
+              {
+                "source_ref": "12:29",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B001",
+                "role": "The offense fixes culpability on the person commanded to seek forgiveness."
+              },
+              {
+                "source_ref": "12:29",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "Deliberate wrongdoing makes the classification stronger than accidental error."
+              }
+            ],
+            "changed_reading": {
+              "before": "Both commands merely close an embarrassing incident.",
+              "after": "The closure is asymmetric: Yusuf disengages, but the woman remains the accountable agent who must repair a deliberate offense."
+            }
+          },
+          {
+            "model_id": "baseline_trailing_consequence",
+            "confidence": "medium",
+            "focus_anchor": "The request for covering stands beside an offense word whose inventory also images a trailing end.",
+            "mechanism": "The offense can be heard as an event with a tail: an already occurred deed leaves an aftermath that calls for protective covering and repair.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "Protective covering supplies the response to an exposed residue."
+              },
+              {
+                "source_ref": "12:29",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B002",
+                "role": "The trailing end of a thing supplies an aftermath image within the offense."
+              },
+              {
+                "source_ref": "12:29",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence in time establishes a deed that now carries consequences."
+              }
+            ],
+            "changed_reading": {
+              "before": "She is told to ask pardon for a generic sin.",
+              "after": "She is told to seek protective repair for the trailing consequence of an event already constituted."
+            }
+          },
+          {
+            "model_id": "baseline_directional_error",
+            "confidence": "medium",
+            "focus_anchor": "Turning aside and missing the right direction coexist in the focus verse's branch field.",
+            "mechanism": "The verse spatializes response: a culpable deviation has missed the right aim, and the command imposes reorientation without reducing responsibility to accident.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Turning one's side supplies concrete reorientation."
+              },
+              {
+                "source_ref": "12:29",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B001",
+                "role": "Missing the correct aim supplies the directional structure of error."
+              },
+              {
+                "source_ref": "12:29",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "Intentional offense preserves moral agency inside that directional image."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse labels a sinner and asks everyone to move on.",
+              "after": "It diagnoses culpable misorientation and prescribes distinct directional and reparative responses."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_secrecy_not_forgiveness",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "س ر ر",
+              "س م ع"
+            ],
+            "mechanism": "Earlier concealment and later public notoriety distinguish household secrecy from forgiveness. The focus pairs an attempt at non-circulation with a moral remedy, but the former fails and cannot substitute for the latter.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Protective forgiveness supplies a moral remedy distinct from hiding knowledge."
+              },
+              {
+                "source_ref": "12:19",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B001",
+                "role": "Concealing something inwardly supplies an established exposure-management pattern."
+              },
+              {
+                "source_ref": "12:30",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Speech spreading among people supplies the failure of non-circulation."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B005",
+                "role": "Notoriety reaching the ear confirms that the affair escaped private control."
+              }
+            ],
+            "structural_cues": [
+              "The focus switches addressee, while the following scene presupposes city-wide discussion."
+            ],
+            "reader_inference": "The packet supplies concealment, spreading speech, and heard notoriety; I infer a containment aim and distinguish it from repentance. Alternatively, the command may seek prudent discretion after judgment rather than suppression.",
+            "changed_reading": {
+              "before": "Turning aside and seeking forgiveness are equivalent ways to bury the incident.",
+              "after": "The verse attempts social containment but marks a non-substitutable moral remedy, and context exposes containment without repair as unstable."
+            }
+          },
+          {
+            "model_id": "delta_burden_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ر ف",
+              "ك ي د"
+            ],
+            "mechanism": "The focus directs Yusuf away from the affair, whereas the surrounding sequence repeatedly turns evil or scheme away from Yusuf. Protective direction reverses who should bear displacement.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Turning the side places disengagement on Yusuf."
+              },
+              {
+                "source_ref": "12:24",
+                "root": "ص ر ف",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000860",
+                "branch_id": "B001",
+                "role": "Turning something away supplies the first inverse direction: harm moves from Yusuf."
+              },
+              {
+                "source_ref": "12:33",
+                "root": "ص ر ف",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000860",
+                "branch_id": "B001",
+                "role": "Yusuf's request assigns the needed turning to the threat."
+              },
+              {
+                "source_ref": "12:33",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Calculated stratagem specifies what needs redirecting."
+              },
+              {
+                "source_ref": "12:34",
+                "root": "ص ر ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000860",
+                "branch_id": "B001",
+                "role": "The answered redirection completes the inverse pattern by moving scheme from Yusuf."
+              }
+            ],
+            "structural_cues": [
+              "The repeated preposition frames opposite burden placements: Yusuf turns from this, but evil and scheme are turned from Yusuf."
+            ],
+            "reader_inference": "The packet supplies reversed participants in repeated directional constructions; I infer a contrast in burden placement. Alternatively, this may be lexical reinforcement without criticism of the human order.",
+            "changed_reading": {
+              "before": "Yusuf's proper response is simply to remove himself from the matter.",
+              "after": "The wider sequence relocates the burden: real protection removes coercive harm from Yusuf rather than making Yusuf carry the disappearance."
+            }
+          },
+          {
+            "model_id": "delta_forensic_private_verdict",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق د د",
+              "د ب ر",
+              "ش ه د"
+            ],
+            "mechanism": "Conditional testimony makes the garment's cut and rear location an evidentiary test immediately before the focus classification. The offender clause reads as a materially grounded verdict, yet the response remains private and asymmetric.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Established occurrence supplies categorical force to the resulting classification."
+              },
+              {
+                "source_ref": "12:29",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "Deliberate offense supplies the verdict's culpable category."
+              },
+              {
+                "source_ref": "12:26",
+                "root": "ش ه د",
+                "source_word_indices": [
+                  "6",
+                  "7"
+                ],
+                "mapped_root_id": "root_000822",
+                "branch_id": "B002",
+                "role": "Knowledgeable declaration supplies the formal evidentiary frame."
+              },
+              {
+                "source_ref": "12:28",
+                "root": "ق د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001204",
+                "branch_id": "B001",
+                "role": "The longitudinal tear supplies the discriminating material mark."
+              },
+              {
+                "source_ref": "12:28",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B001",
+                "role": "The rear location supplies the mark's decisive orientation."
+              }
+            ],
+            "structural_cues": [
+              "Paired front-or-rear conditions assign truth and falsehood, and the observed rear condition is followed by the focus verdict."
+            ],
+            "reader_inference": "The packet supplies a conditional test, its result, and immediate classification; I infer a verdict-to-private-closure sequence. Alternatively, this is domestic admonition after obvious evidence rather than a legal procedure.",
+            "changed_reading": {
+              "before": "The final clause is a generic moral rebuke.",
+              "after": "It is the categorical verdict of a miniature forensic process, followed by discretion rather than proportionate public redress."
+            }
+          },
+          {
+            "model_id": "delta_category_vulnerability",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ض ل ل",
+              "ص ب و",
+              "ك و ن",
+              "ج ه ل"
+            ],
+            "mechanism": "The woman is described through directional loss, while Yusuf later fears inclining under pressure and entering another deficient category. The focus category becomes a possible trajectory of captured orientation, not merely a fixed identity.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B001",
+                "role": "Missing the right aim supplies the focus category's directional dimension."
+              },
+              {
+                "source_ref": "12:30",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from right aim makes her conduct explicit directional loss."
+              },
+              {
+                "source_ref": "12:33",
+                "root": "ص ب و",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000843",
+                "branch_id": "B002",
+                "role": "Inclination of the heart supplies the motion by which Yusuf fears entering error."
+              },
+              {
+                "source_ref": "12:33",
+                "root": "ص ب و",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000838",
+                "branch_id": "B004",
+                "role": "The split-root image of the heart pouring toward desire intensifies that threatened motion."
+              },
+              {
+                "source_ref": "12:33",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Coming to be in a class mirrors the focus category-membership construction."
+              },
+              {
+                "source_ref": "12:33",
+                "root": "ج ه ل",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000271",
+                "branch_id": "B002",
+                "role": "Perturbed restraint supplies the deficient category Yusuf fears under pressure."
+              }
+            ],
+            "structural_cues": [
+              "Becoming among the ignorant closely mirrors having been among the offenders."
+            ],
+            "reader_inference": "The packet supplies directional error, feared inclination, and mirrored category grammar; I infer movement into a culpable class under pressure. Alternatively, Yusuf's phrase may be generic humility without a deliberate echo.",
+            "changed_reading": {
+              "before": "The focus clause fixes an isolated identity on the woman.",
+              "after": "It names a morally charged trajectory that pressure could draw another agent toward, though their agency and culpability remain unequal."
+            }
+          },
+          {
+            "model_id": "delta_persistent_coercion",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر و د",
+              "س ج ن",
+              "ل و م",
+              "ع ص م",
+              "ص غ ر"
+            ],
+            "mechanism": "After the forgiveness command, the woman appropriates blame, confirms solicitation, acknowledges Yusuf's resistance, and threatens confinement and humiliation. Failed desire persists as coercive power.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "خ ط ء",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000420",
+                "branch_id": "B002",
+                "role": "Intentional offense anchors the later escalation in accountable agency."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Deserved blame is appropriated for self-justification rather than correction."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ر و د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000610",
+                "branch_id": "B002",
+                "role": "Solicitation supplies continuation after the call to seek forgiveness."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ع ص م",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001021",
+                "branch_id": "B001",
+                "role": "Blocking self-restraint confirms Yusuf's continuing resistance."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "س ج ن",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_000678",
+                "branch_id": "B001",
+                "role": "Confinement supplies leverage when solicitation fails."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ص غ ر",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_000865",
+                "branch_id": "B002",
+                "role": "Humiliation supplies the social penalty attached to refusal."
+              }
+            ],
+            "structural_cues": [
+              "The woman's speech shifts from past confession to a future conditional threat."
+            ],
+            "reader_inference": "The packet supplies renewed solicitation, resistance, and explicit threat; I infer persistence that defeats apparent closure. Alternatively, the threat remains hypothetical, though the command behind it is active.",
+            "changed_reading": {
+              "before": "A completed offense can now be left behind through discretion and repentance.",
+              "after": "The offense remains operational as coercive power, so the rebuke is an unfulfilled call to stop rather than completed closure."
+            }
+          },
+          {
+            "model_id": "delta_signs_to_confinement",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ج ن",
+              "ب د و",
+              "ء ي ي",
+              "ح ي ن"
+            ],
+            "mechanism": "After manifest signs, a new decision appears to confine Yusuf for an assigned interval. The focus command can therefore foreshadow institutional containment: evidence does not restore him but precedes removal of the person it supports.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Turning aside supplies initial interpersonal removal."
+              },
+              {
+                "source_ref": "12:35",
+                "root": "ب د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000097",
+                "branch_id": "B003",
+                "role": "A newly arising opinion supplies the policy shift."
+              },
+              {
+                "source_ref": "12:35",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "Manifest signs supply recognized grounds that confinement does not erase."
+              },
+              {
+                "source_ref": "12:35",
+                "root": "س ج ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000678",
+                "branch_id": "B001",
+                "role": "Imprisonment supplies institutional rather than conversational removal."
+              },
+              {
+                "source_ref": "12:35",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B003",
+                "role": "An assigned interval makes containment an administered policy."
+              }
+            ],
+            "structural_cues": [
+              "The clause after they saw the signs makes recognition precede imprisonment."
+            ],
+            "reader_inference": "The packet supplies recognized signs followed by timed confinement; I connect this to the earlier withdrawal command as escalation. Alternatively, imprisonment may serve other unstated interests and not directly implement that order.",
+            "changed_reading": {
+              "before": "The command is benign privacy after truth has been established.",
+              "after": "It can foreshadow a power-controlled sequence in which acknowledged evidence is contained by progressively removing Yusuf."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_material_tail_of_offense",
+            "confidence": "exploratory",
+            "containment": "This is an image-level resonance, not a lexical translation: the focus branch for a trailing end meets rear-positioned material evidence. It remains anchored in the focus noun and observed garment, so prose should qualify it as an analogy for consequences that trail an act.",
+            "focus_anchor": "The offense noun can image a trailing end, while the decisive tear lies at the garment's rear.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B002",
+                "role": "The trailing end supplies an offense carrying an aftermath."
+              },
+              {
+                "source_ref": "12:28",
+                "root": "ق م ص",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001256",
+                "branch_id": "B001",
+                "role": "The garment supplies the material carrier of that aftermath."
+              },
+              {
+                "source_ref": "12:28",
+                "root": "ق د د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001204",
+                "branch_id": "B001",
+                "role": "The tear supplies a persistent trace left by the encounter."
+              },
+              {
+                "source_ref": "12:28",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B002",
+                "role": "The rear as end and consequence maps location onto trailing result."
+              }
+            ],
+            "changed_reading": {
+              "before": "The sin is an invisible item that can be verbally closed.",
+              "after": "The offense carries a visible tail whose consequence resists conversational erasure."
+            }
+          },
+          {
+            "outlier_id": "outlier_indirect_household_speech",
+            "confidence": "exploratory",
+            "containment": "The indirect-speech branch is form-distant from the imperative's primary sense and must not replace it. It remains anchored through the focus root and unnamed deictic object; prose should mark it as rhetorical resonance with speech that avoids naming the affair.",
+            "focus_anchor": "The presentation root and unnamed this allow a branch-level resonance with wording whose overt face leaves its referent unspoken.",
+            "activation_trace": [
+              {
+                "source_ref": "12:29",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B010",
+                "role": "Indirect wording with more than one face supplies a meta-image for speaking around the affair."
+              },
+              {
+                "source_ref": "12:30",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Publicly spreading speech supplies the contrast in which the unnamed matter becomes explicit."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Explicit blame supplies the later naming of judgment compressed by the focus formula."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse directly says to ignore a mutually understood incident.",
+              "after": "The compact order may itself perform household face-management by refusing to name what public speech soon makes explicit."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The two commands separate social withdrawal from culpable repair.",
+            "Repeated redirection turns harm from Yusuf and reverses the burden placed on him.",
+            "Material evidence yields a private verdict, but recognized signs are followed by stronger containment.",
+            "Renewed solicitation and threat show that the rebuke calls for a change that has not occurred."
+          ],
+          "what_was_special": "The focus is a hinge where forensic clarity, moral accountability, discretion, and power-controlled containment coexist. Directional roots expose competing allocations of motion, while mirrored category grammar preserves culpability and vulnerability as distinct readings.",
+          "remaining_uncertainties": [
+            "The burden reversal may reinforce protection without criticizing the household command.",
+            "The link from discretion to imprisonment is sequence-based and does not prove one concealed motive.",
+            "The tail and indirect-speech readings are branch resonances, not lexical translations.",
+            "The mirrored category construction may indicate susceptibility under pressure or only rhetorical echo."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Turning aside and covering consequence manage exposure without erasing fault.** ع ر ض B005 (turning one’s side away), غ ف ر B001/B002 (protective covering; shielding from consequence), ذ ن ب B001/B002 (culpable consequence; tail/rear end), and خ ط ء B001/B002 (missing the right; culpable wrongdoing) form a containment sequence. I infer that Yusuf is told to stop circulating the event while she is told to seek protection from its trailing consequence. The ayah reads as asymmetric damage control, not identical commands to forget.",
@@ -4829,18 +5636,23 @@
   "root_lexicon": {
     "root_001001": {
       "root_ar": "ع ر ض",
+      "qac_roots_ar": [
+        "ع ر ض"
+      ],
       "root_id": "root_001001",
-      "root_mapping": {
-        "root_id": "root_001001",
-        "root_norm": "ع ر ض",
-        "source_root_norm": "ع ر ض",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 75,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ر ض",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 75
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3658c671aabf9d708f903b08fd0e06eabf8ab06b64f86f59114fd587cf6d8ae4",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8393,18 +9205,23 @@
     },
     "root_001096": {
       "root_ar": "غ ف ر",
+      "qac_roots_ar": [
+        "غ ف ر"
+      ],
       "root_id": "root_001096",
-      "root_mapping": {
-        "root_id": "root_001096",
-        "root_norm": "غ ف ر",
-        "source_root_norm": "غ ف ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 214,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "غ ف ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 214
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7b83cefc4ef91b7c7e34fd1a75772a1569082342c1e866fc80c4cf8684834b0d",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11680,18 +12497,23 @@
     },
     "root_000521": {
       "root_ar": "ذ ن ب",
+      "qac_roots_ar": [
+        "ذ ن ب"
+      ],
       "root_id": "root_000521",
-      "root_mapping": {
-        "root_id": "root_000521",
-        "root_norm": "ذ ن ب",
-        "source_root_norm": "ذ ن ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 39,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ذ ن ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 39
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e82030cb63f4451bfb0d865fe39fdaf91aa39ad38b6225bc5b4c25734ce54c2d",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14230,18 +15052,23 @@
     },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -15361,18 +16188,23 @@
     },
     "root_000420": {
       "root_ar": "خ ط ء",
+      "qac_roots_ar": [
+        "خ ط ء"
+      ],
       "root_id": "root_000420",
-      "root_mapping": {
-        "root_id": "root_000420",
-        "root_norm": "خ ط ء",
-        "source_root_norm": "خ ط أ",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 9,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ط ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 9
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f2a783ef9375730cdce4a4ceddd43e5241714b1d7754e7cb33fdac52650b4316",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -16940,37 +17772,18 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
       "words_total": 12,
-      "words_resolved": 5,
-      "words_unresolved": 7,
+      "words_resolved": 10,
+      "words_unresolved": 2,
+      "morpheme_skip_total": 2,
+      "morpheme_skip_max": 2,
+      "morpheme_skip_histogram": {
+        "0": 9,
+        "2": 1
+      },
       "unresolved": [
         {
           "word_index": 5,
           "surface_ar": "اسْتَغْفِرِي",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "لِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "ذَنْبِكِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "إِنَّكِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 9,
-          "surface_ar": "كُنْتِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 10,
-          "surface_ar": "مِنَ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         },
         {
@@ -16982,10 +17795,11 @@
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2932,
+        "ayah_count": 111,
+        "row_count": 2925,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -17448,11 +18262,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s012"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s12/packets/12_29.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s12/readers/reader_hft_a/12_29.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 228360,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -17527,19 +18354,37 @@
           "root_ids": [
             "root_001001"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ر ض",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001001",
+            "targets": [
+              {
+                "qac_root_norm": "ع ر ض",
+                "target_rank": 1,
+                "furuq_root_id": "root_001001",
+                "furuq_root_norm": "ع ر ض",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 75,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001001",
-              "root_norm": "ع ر ض",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ر ض",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 75,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17564,19 +18409,37 @@
           "root_ids": [
             "root_001096"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "غ ف ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001096",
+            "targets": [
+              {
+                "qac_root_norm": "غ ف ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001096",
+                "furuq_root_norm": "غ ف ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 214,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001096",
-              "root_norm": "غ ف ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "غ ف ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 214,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17601,19 +18464,37 @@
           "root_ids": [
             "root_000521"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ذ ن ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000521",
+            "targets": [
+              {
+                "qac_root_norm": "ذ ن ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000521",
+                "furuq_root_norm": "ذ ن ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 39,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000521",
-              "root_norm": "ذ ن ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ذ ن ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 39,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17638,19 +18519,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -17662,19 +18561,37 @@
           "root_ids": [
             "root_000420"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ط ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000420",
+            "targets": [
+              {
+                "qac_root_norm": "خ ط ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000420",
+                "furuq_root_norm": "خ ط ء",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 9,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000420",
-              "root_norm": "خ ط ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ط ء",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 9,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17701,10 +18618,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 41,
+        "dictionary_branches_kept": 41,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 35,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

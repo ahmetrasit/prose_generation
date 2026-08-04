@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.811713+00:00",
+  "generated_at": "2026-08-04T22:29:48.158630+00:00",
   "surah": 51,
   "ayah": 46,
   "ayahRef": "51:46",
@@ -1991,7 +1991,8 @@
       "morpheme_ids": [
         "m-w-s051-a046-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:46:1"
+      "aligned_qac_word_ref_upstream": "51:46:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2005,7 +2006,8 @@
       "morpheme_ids": [
         "m-w-s051-a046-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:46:2"
+      "aligned_qac_word_ref_upstream": "51:46:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2019,7 +2021,8 @@
       "morpheme_ids": [
         "m-w-s051-a046-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:46:3"
+      "aligned_qac_word_ref_upstream": "51:46:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2033,7 +2036,8 @@
       "morpheme_ids": [
         "m-w-s051-a046-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:46:4"
+      "aligned_qac_word_ref_upstream": "51:46:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2047,7 +2051,8 @@
       "morpheme_ids": [
         "m-w-s051-a046-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:46:5"
+      "aligned_qac_word_ref_upstream": "51:46:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2061,11 +2066,56 @@
       "morpheme_ids": [
         "m-w-s051-a046-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:46:6"
+      "aligned_qac_word_ref_upstream": "51:46:6",
+      "morpheme_skip_count": 0
     },
-    null,
-    null,
-    null
+    {
+      "word_index": 6,
+      "surface_ar": "كَانُوا۟",
+      "word_ids": [
+        "w-s051-a046-w006"
+      ],
+      "qac_refs": [
+        "51:46:6:1",
+        "51:46:6:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s051-a046-w006-01",
+        "m-w-s051-a046-w006-02"
+      ],
+      "aligned_qac_word_ref_upstream": "51:46:7",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "قَوْمًۭا",
+      "word_ids": [
+        "w-s051-a046-w007"
+      ],
+      "qac_refs": [
+        "51:46:7:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s051-a046-w007-01"
+      ],
+      "aligned_qac_word_ref_upstream": "51:46:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "فَٰسِقِينَ",
+      "word_ids": [
+        "w-s051-a046-w008"
+      ],
+      "qac_refs": [
+        "51:46:8:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s051-a046-w008-01"
+      ],
+      "aligned_qac_word_ref_upstream": "51:46:9",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -2826,7 +2876,833 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_46.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:46",
+      "window": [
+        "51:38",
+        "51:39",
+        "51:40",
+        "51:41",
+        "51:42",
+        "51:43",
+        "51:44",
+        "51:45",
+        "51:46",
+        "51:47",
+        "51:48",
+        "51:49",
+        "51:50",
+        "51:51",
+        "51:52",
+        "51:53",
+        "51:54",
+        "51:55",
+        "51:56",
+        "51:57",
+        "51:58",
+        "51:59",
+        "51:60"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:46",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_collective_exit_state",
+            "confidence": "strong",
+            "focus_anchor": "The doubled qawm at words 1 and 7, kana at word 6, and fasiqin at word 8.",
+            "mechanism": "The first qawm identifies the named body and the predicative second qawm makes collective identity itself carry f-s-q. K-w-n extends that characterization through time, while f-s-q supplies the concrete motion of moist fruit leaving its peel.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "1",
+                  "7"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "The literal human collective, repeated as identification and predicate, makes the social body the mechanism's subject."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time turn the adjective from an isolated act into the group's attested condition."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ف س ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001156",
+                "branch_id": "B002",
+                "role": "Fruit leaving its peel gives the collective predicate a bounded-inside to exposed-outside motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "Noah's people were simply disobedient.",
+              "after": "The ayah characterizes the named social body, over time and as a body, by a constitutive movement out of a containing limit."
+            }
+          },
+          {
+            "model_id": "baseline_precedent_brought_forward",
+            "confidence": "medium",
+            "focus_anchor": "Min qablu at word 4 positions Noah's people before another point of reference.",
+            "mechanism": "Q-b-l makes anteriority more than a date: what advances earlier in the sequence can also be mentally faced. The ayah presents this qawm as a predecessor brought forward for encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "Temporal advance directly grounds the people as an earlier member of an ordered sequence."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "The branch's face-to-face image lets the earlier case function as a confronted precedent rather than inert chronology."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "1",
+                  "7"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "The named collective is the unit moved forward in the sequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "Noah's people merely lived earlier.",
+              "after": "Their anteriority presents a whole earlier collective as a precedent now made present for comparison."
+            }
+          },
+          {
+            "model_id": "baseline_failed_qiwam",
+            "confidence": "exploratory",
+            "focus_anchor": "The ayah repeats qawm around a predicate whose only supplied f-s-q image is rupture of a casing.",
+            "mechanism": "A qawm is not only a collection but can activate qiwam, the support and system by which something stands. Predicating shell-exit of that same body permits an exploratory reading in which the community's supporting order has failed to contain its members.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "1",
+                  "7"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Support, system, and means of subsistence recast the doubled qawm as an order that should hold communal life together."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ف س ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001156",
+                "branch_id": "B002",
+                "role": "The fruit's exit from its peel supplies failure of containment within that social support."
+              }
+            ],
+            "changed_reading": {
+              "before": "A collection of individuals committed violations.",
+              "after": "The collective's own qiwam is implicated: its defining condition is a breach of the order by which a people stands."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_social_backing_hardens_exit",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ب ي ن",
+              "و ل ي",
+              "ر ك ن",
+              "ج ن د",
+              "ن ب ذ"
+            ],
+            "mechanism": "A sent message and disclosed sign meet turning-away into a strong supporting side; a mutually supporting troop then shares the leader's casting-out. Against the doubled qawm, collective f-s-q becomes a social conversion in which backing stabilizes refusal and distributes its consequence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "1",
+                  "7"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "The human collective anchors the claim that refusal becomes a group condition."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ف س ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001156",
+                "branch_id": "B002",
+                "role": "Exit from a peel supplies the focus motion that the context turns into socially reinforced departure."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message supply the external address from which refusal departs."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "Disclosure by speech or sign makes the address available rather than hidden."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning the back supplies the first directional refusal in the contextual mechanism."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "ر ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000596",
+                "branch_id": "B001",
+                "role": "A strong side leaned upon makes refusal institutionally supported rather than solitary."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ج ن د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000264",
+                "branch_id": "B001",
+                "role": "The mutually supporting troop turns the leader's stance into a collective formation."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Literal throwing-out reverses agency: the formation that turned out from the message is itself cast out."
+              }
+            ],
+            "structural_cues": [
+              "51:38-40 runs from sent disclosure, through turning away with a supporting side, to leader and troops being cast together."
+            ],
+            "reader_inference": "The packet supplies message, disclosure, reliance, troops, and joint casting; I infer that backing converts a leader's refusal into a qawm-wide condition and consequence. The live alternative is that the troops share punishment without helping produce the refusal.",
+            "changed_reading": {
+              "before": "F-s-q is an aggregate label for individual misconduct.",
+              "after": "F-s-q can name a socially reinforced exit: collective support hardens refusal, after which the supporting formation shares the leader's outward casting."
+            }
+          },
+          {
+            "model_id": "delta_exit_reverses_standing",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ت و",
+              "ء م ر",
+              "ط و ع",
+              "ق و م",
+              "ك و ن"
+            ],
+            "mechanism": "Insolence away from command is followed by inability to perform qiyam, immediately before qawm and kana recur in the focus. The context therefore makes f-s-q's chosen exit the moral inverse of standing: departure from governing order ends in loss of capacity to rise as a people.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "1",
+                  "7"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily standing latent in qawm supplies the vertical capacity reversed by f-s-q."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ف س ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001156",
+                "branch_id": "B002",
+                "role": "Exit from the casing supplies the outward motion opposed to maintained standing."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ع ت و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000981",
+                "branch_id": "B001",
+                "role": "Insolence away from obedience identifies the voluntary side of the reversal."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Binding demand supplies the governing line from which the contextual people depart."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B003",
+                "role": "Capacity and ability mark the resulting inability to recover a standing position."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Explicit qiyam realizes bodily rising one verse before qawm repeats the same root."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "The repeated temporal copula binds the inability-to-stand clause tightly to the focus characterization."
+              }
+            ],
+            "structural_cues": [
+              "The adjacent sequence is refusal of command, seizure while seeing, inability of qiyam, then kana plus doubled qawm and fasiqin."
+            ],
+            "reader_inference": "The packet supplies command-refusal, failed qiyam, and the adjacent q-w-m/k-w-n echo; I assign the causal reversal from chosen noncompliance to lost standing. A live alternative is that 51:45 only reports punishment and does not anatomize f-s-q.",
+            "changed_reading": {
+              "before": "Fasiqin reports a settled moral classification.",
+              "after": "It also traces anti-qiyam: a people's exit from governing command becomes inability to stand, making the doubled qawm internally reversible."
+            }
+          },
+          {
+            "model_id": "delta_breached_social_architecture",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ن ي",
+              "ء ي د",
+              "م ه د",
+              "ز و ج"
+            ],
+            "mechanism": "Immediately after the breached qawm come joined construction, supporting force, prepared ground, and paired composition. This coherent made order strengthens the exploratory qiwam baseline: the people are a composite support whose defining shell-exit contrasts with a world held together and made habitable.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "1",
+                  "7"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Qiwam as support and system lets the social collective be tested against the following constructed order."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ف س ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001156",
+                "branch_id": "B002",
+                "role": "The casing breach supplies the local failure of containment."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ب ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000156",
+                "branch_id": "B001",
+                "role": "Building by joining parts supplies a stable composite that contrasts with social de-composition."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ء ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000071",
+                "branch_id": "B001",
+                "role": "Supporting force gives the constructed whole the strength that the failed qiwam lacks."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B003",
+                "role": "Preparing and leveling an affair adds ordered habitability to the constructive contrast."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B001",
+                "role": "A counterpart joined to its mate supplies relational composition rather than isolated parts."
+              }
+            ],
+            "structural_cues": [
+              "51:47-49 pivots immediately from the focus people to building, spreading, and creating in pairs."
+            ],
+            "reader_inference": "The packet supplies an immediate sequence of joined building, force, preparation, and pairing; I analogize cosmic composition to communal qiwam and read f-s-q as its breach. The live alternative is a clean topic shift with no social-material contrast.",
+            "changed_reading": {
+              "before": "The qawm is merely the population to which the adjective applies.",
+              "after": "The qawm can be heard as failed social architecture: a support made of relations whose contents no longer remain within its ordering bounds."
+            }
+          },
+          {
+            "model_id": "delta_exit_with_destination",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ر ر",
+              "ء ل ه",
+              "ن ذ ر"
+            ],
+            "mechanism": "The focus branch pictures outward movement, but 51:50 commands another outward movement with an explicit destination. Flight toward God distinguishes saving departure from f-s-q: motion out is not sufficient to define rebellion; relation, warning, and destination determine its valence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ف س ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001156",
+                "branch_id": "B002",
+                "role": "Fruit leaving a peel supplies morally underdetermined outward geometry for the comparison."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Literal flight supplies a commanded counter-exit rather than static compliance."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one is the named destination that gives flight its saving direction."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that awakens caution supplies the pressure under which a rightly directed exit becomes urgent."
+              }
+            ],
+            "structural_cues": [
+              "The imperative has an explicit ila destination and follows the focus by four verses."
+            ],
+            "reader_inference": "The packet supplies shell-exit, commanded flight, destination, and warning; I infer that direction and relation distinguish f-s-q from rescue. The live alternative is that the f-s-q image is only lexical background and should not be spatially paired with flight.",
+            "changed_reading": {
+              "before": "F-s-q means crossing outward from a prescribed boundary.",
+              "after": "The problem is misdirected exit, not movement itself: the pericope answers departure from order with an urgent departure toward God."
+            }
+          },
+          {
+            "model_id": "delta_recurrent_collective_overflow",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ب ل",
+              "ر س ل",
+              "ق و ل",
+              "و ص ي",
+              "ق و م",
+              "ط غ ي"
+            ],
+            "mechanism": "Qabl recurs in a claim that earlier recipients repeat the same anti-messenger speech, followed by a question about mutual bequest and the answer that they are a qawm exceeding bounds. Noah's people become an early node in a reproducible collective script, while tughyan's limit-crossing and water-overflow sharpen f-s-q's shell-exit.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "Temporal precedence first places Noah's people at the head of the later recurrence."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ف س ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001156",
+                "branch_id": "B002",
+                "role": "Exit from a casing supplies the focus's material form of boundary crossing."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "The repeated temporal branch expands Noah's anteriority into a class of earlier recipients."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message provide the stable object against which the recurring response forms."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Speech spreading among people supplies a repeatable public script rather than a private reaction."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Mutual bequest gives the rhetorical hypothesis of transmission across collectives."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "The repeated collective noun identifies the scale at which the pattern recurs."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B001",
+                "role": "Exceeding the limit in disobedience gives the direct moral geometry that sharpens f-s-q."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000936",
+                "branch_id": "B002",
+                "role": "Water overflowing its bounds supplies the non-dominant mapped root's material analogue for collective excess."
+              }
+            ],
+            "structural_cues": [
+              "51:52 repeats the earlier-people construction and the paired accusations already seen in 51:39; 51:53 asks about transmission, then substitutes collective tughyan."
+            ],
+            "reader_inference": "The packet supplies repeated wording, a rhetorical transmission question, qawm, and two limit-crossing branches; I infer structural recurrence rather than literal intergenerational counsel. The live alternative is simply independent groups making similar choices.",
+            "changed_reading": {
+              "before": "Noah's people are one old example of disobedience.",
+              "after": "They are an early realization of a recurrent qawm-level script: public refusal reproduces itself as collective overflow beyond a limit."
+            }
+          },
+          {
+            "model_id": "delta_precedent_as_allotted_cohort",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ن ب",
+              "م ث ل",
+              "ص ح ب",
+              "ع ج ل",
+              "ي و م",
+              "و ع د"
+            ],
+            "mechanism": "The ending gives wrongdoers a share like their companions' share, forbids haste, and names an appointed promised day. This converts min qablu from bare chronology into distributive order: Noah's qawm is an earlier cohort whose outcome becomes the measured analogue for later companions.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B002",
+                "role": "Precedence places the focus people earlier in the ordered distribution."
+              },
+              {
+                "source_ref": "51:46",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "1",
+                  "7"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "The collective is the cohort to which the analogous outcome attaches."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B006",
+                "role": "An allotted share makes consequence distributive and measured rather than merely repetitive."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Likeness and counterpart relation tie a later allotment to an earlier analogue."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship groups separated peoples into cohorts sharing the same patterned outcome."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Haste and premature advance make waiting part of the temporal mechanism."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The day's event and severity provide the terminal time toward which the ordered cohorts move."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment fixing promise to time or place closes the sequence with a scheduled endpoint."
+              }
+            ],
+            "structural_cues": [
+              "The final two ayat combine an analogous share, companions, prohibition of haste, and a promised day."
+            ],
+            "reader_inference": "The packet supplies share, likeness, companionship, delay, and appointment; I infer that qabl orders cohorts within a measured recurrence. The live alternative is that only punishments are similar and the focus's qabl remains a simple date marker.",
+            "changed_reading": {
+              "before": "Before only locates Noah's people in the past.",
+              "after": "Before enrolls them as an earlier cohort in a timed distribution whose analogous share awaits later companion-groups."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_inverse_aperture",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the non-dominant s-m-m mapping of the contextual s-m-w root and a cross-domain geometric analogy. It remains valid because f-s-q explicitly supplies content exiting a casing and the next ayah supplies both an aperture image and joined construction. Render it only as exploratory material resonance, never as a lexical gloss of sama or qawm.",
+            "focus_anchor": "Fasiqin at word 8 supplies an inside-to-outside casing breach.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ف س ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001156",
+                "branch_id": "B002",
+                "role": "The fruit exits its peel, establishing outward passage through a failed boundary."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B001",
+                "role": "A narrow aperture through which something enters supplies the inverse, regulated direction of passage."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ب ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000156",
+                "branch_id": "B001",
+                "role": "Joined construction provides the bounded structure within which directional permeability matters."
+              }
+            ],
+            "changed_reading": {
+              "before": "The people cross a moral boundary.",
+              "after": "Their failure can be pictured as inverse boundary permeability: a contained part exits its casing against a nearby built order whose apertures regulate entry."
+            }
+          },
+          {
+            "outlier_id": "outlier_reciprocal_fruit_cover",
+            "confidence": "medium",
+            "containment": "This is surprising because it links the focus predicate to the pericope's final k-f-r through two branch-level fruit-cover images. It remains anchored in the explicit f-s-q peel-exit and the cited k-f-r covering branches. Render it as a reciprocal material analogy, not as a claim that f-s-q and k-f-r are synonyms or strict opposites.",
+            "focus_anchor": "The supplied branch for fasiqin at word 8 is the moist fruit emerging from its peel.",
+            "activation_trace": [
+              {
+                "source_ref": "51:46",
+                "root": "ف س ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001156",
+                "branch_id": "B002",
+                "role": "Fruit emerging from its peel makes exposure by outward rupture the focus image."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B010",
+                "role": "Fruit coverings return the same material domain at the pericope's final moral designation."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Covering the truth bridges the fruit-cover image back to the final designation's moral operation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Fasiqin and kafaru are cumulative labels for broadly similar wrongdoing.",
+              "after": "The pericope permits reciprocal cover mechanics: one label pictures content bursting out of its cover, while the last pictures covering that hides truth."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The qiyam and kana echo in 51:45 turns f-s-q into anti-standing: chosen departure from command culminates in inability to rise.",
+            "The repeated qabl construction and qawm taghun in 51:52-53 turn Noah's people into an early instance of a recurrent collective overflow script.",
+            "The allotted share, companions, delay, and promised day in 51:59-60 make anteriority an ordered cohort relation rather than bare chronology."
+          ],
+          "what_was_special": "The doubled qawm and the packet's single concrete f-s-q branch made the focus unusually responsive to social-body mechanics: support, containment, standing, construction, overflow, and even a saving counter-exit remained simultaneously live.",
+          "remaining_uncertainties": [
+            "The architecture and aperture readings depend on cross-domain branch analogy rather than focus syntax.",
+            "The packet cannot decide whether collective backing causes refusal or only shares its consequence.",
+            "Flight toward God as a counter-exit is directionally coherent, but f-s-q may function conventionally without activating spatial motion."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A people characterized by emergence beyond their proper enclosure.** `ق و م/B001` supplies the collective, `ق ب ل/B002` priorness, and the packet's sole accepted `ف س ق/B002` supplies a date emerging from its peel. The form *fāsiqīn* receives a material image from that branch. I infer **protective boundary crossed -> collective exposed to consequence**. This is an exploratory image-based reading, not a claim that persons are dates.\n2. **Priorness turns one case into a recurring group pattern.** Repeated *qawm* around 51:32, 43, 46 and *min qablu* connect distinct communities. I infer **earlier boundary-exit -> later analogous refusals -> historical recurrence**. The fixed *qawm* and *fāsiqīn* anchor the collective mechanism.",
@@ -3988,18 +4864,23 @@
   "root_lexicon": {
     "root_001273": {
       "root_ar": "ق و م",
+      "qac_roots_ar": [
+        "ق و م"
+      ],
       "root_id": "root_001273",
-      "root_mapping": {
-        "root_id": "root_001273",
-        "root_norm": "ق و م",
-        "source_root_norm": "ق و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 562,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 562
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8298d50ba865579cd3a17d76b6ee9b3fddf1a9692a243142e406fd3a43309c97",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8776,18 +9657,23 @@
     },
     "root_001198": {
       "root_ar": "ق ب ل",
+      "qac_roots_ar": [
+        "ق ب ل"
+      ],
       "root_id": "root_001198",
-      "root_mapping": {
-        "root_id": "root_001198",
-        "root_norm": "ق ب ل",
-        "source_root_norm": "ق ب ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 288,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ب ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 288
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "56d95fdacdabd3a8f6caef7f736a82672b72c1e2e67cef0dc9018a9d5ad9d415",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12028,18 +12914,23 @@
     },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -13159,18 +14050,23 @@
     },
     "root_001156": {
       "root_ar": "ف س ق",
+      "qac_roots_ar": [
+        "ف س ق"
+      ],
       "root_id": "root_001156",
-      "root_mapping": {
-        "root_id": "root_001156",
-        "root_norm": "ف س ق",
-        "source_root_norm": "ف س ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 54,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف س ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 54
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "557d9cb20b59f3f5e095bc80e66152fe2453f2f012e096e5c1861d084c9d1455",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14044,32 +14940,23 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
       "words_total": 9,
-      "words_resolved": 6,
-      "words_unresolved": 3,
-      "unresolved": [
-        {
-          "word_index": 6,
-          "surface_ar": "كَانُوا۟",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "قَوْمًۭا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "فَٰسِقِينَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "words_resolved": 9,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 8,
+        "1": 1
+      },
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14316,11 +15203,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_46.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_46.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 124210,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -14395,19 +15295,37 @@
           "root_ids": [
             "root_001273"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001273",
+            "targets": [
+              {
+                "qac_root_norm": "ق و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001273",
+                "furuq_root_norm": "ق و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 562,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001273",
-              "root_norm": "ق و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 562,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 21,
+              "gloss_branch_count": 21,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14432,19 +15350,37 @@
           "root_ids": [
             "root_001198"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ب ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001198",
+            "targets": [
+              {
+                "qac_root_norm": "ق ب ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001198",
+                "furuq_root_norm": "ق ب ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 288,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001198",
-              "root_norm": "ق ب ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ب ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 288,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14469,19 +15405,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -14493,19 +15447,37 @@
           "root_ids": [
             "root_001156"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف س ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001156",
+            "targets": [
+              {
+                "qac_root_norm": "ف س ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_001156",
+                "furuq_root_norm": "ف س ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 54,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001156",
-              "root_norm": "ف س ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف س ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 54,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14532,10 +15504,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 46,
+        "dictionary_branches_kept": 46,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 40,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

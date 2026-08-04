@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.047475+00:00",
+  "generated_at": "2026-08-04T22:29:44.987110+00:00",
   "surah": 51,
   "ayah": 1,
   "ayahRef": "51:1",
@@ -1092,7 +1092,8 @@
       "morpheme_ids": [
         "m-w-s051-a001-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:1:1"
+      "aligned_qac_word_ref_upstream": "51:1:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1108,7 +1109,8 @@
         "m-w-s051-a001-w001-02",
         "m-w-s051-a001-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:1:2"
+      "aligned_qac_word_ref_upstream": "51:1:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1122,7 +1124,8 @@
       "morpheme_ids": [
         "m-w-s051-a001-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:1:3"
+      "aligned_qac_word_ref_upstream": "51:1:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1452,7 +1455,1147 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_1.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:1",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:1",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_winnowing_sort",
+            "confidence": "strong",
+            "focus_anchor": "Both focus words carry ذ ر و, with an agentive plural followed by its cognate accusative, so the action and its manner dominate the line.",
+            "mechanism": "A moving medium lifts a mixed mass, broadcasts it, and thereby separates its components; dispersion is functional sorting rather than mere loss.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven winnowing literally lifts and separates a heap, supplying the baseline separation mechanism."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B009",
+                "role": "The grain image makes the dispersed material potentially useful seed or food, not only dust."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unspecified group scatters something intensely.",
+              "after": "Agents perform an aerial sorting operation, breaking a mass open so its units can be separated and redirected."
+            }
+          },
+          {
+            "model_id": "baseline_forceful_shedding",
+            "confidence": "medium",
+            "focus_anchor": "The same repeated root can profile what is detached from a support as well as what is carried away.",
+            "mechanism": "Dispersion begins with ejection: particles are stripped from an edge, cast off, and made to fall into a new field.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B005",
+                "role": "Casting, dropping, and knocking an edge away supply the forceful detachment at the start of dispersal."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B003",
+                "role": "Projecting extremities provide the literal edge from which material can be shaken loose."
+              }
+            ],
+            "changed_reading": {
+              "before": "Scattering is smooth outward diffusion.",
+              "after": "Scattering is an act of severance and shedding from exposed edges, with a fall implicit in the release."
+            }
+          },
+          {
+            "model_id": "baseline_swift_passage",
+            "confidence": "medium",
+            "focus_anchor": "The participial plural permits the focus to profile moving agents, while the cognate accusative intensifies their mode of passage.",
+            "mechanism": "The agents are read as a fast-moving swarm or current whose transit itself creates dispersion.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B008",
+                "role": "Rapid passing literally supplies velocity and makes transit, rather than residue, the foregrounded event."
+              }
+            ],
+            "changed_reading": {
+              "before": "The line names scatterers by their effect on an object.",
+              "after": "The line can name swift passers whose collective motion is itself a spreading current."
+            }
+          },
+          {
+            "model_id": "baseline_speech_fragments",
+            "confidence": "exploratory",
+            "focus_anchor": "A focus-root branch names a partial saying that falls from the edges of speech.",
+            "mechanism": "A whole utterance loses cohesion and travels as detached verbal particles, making dispersal linguistic as well as material.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B007",
+                "role": "An incomplete edge-fragment of speech literally supplies verbal particles that can be scattered."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only physical particles are blown apart.",
+              "after": "Speech itself can be atomized into circulating fragments that no longer preserve a complete saying."
+            }
+          },
+          {
+            "model_id": "baseline_shelter_polarity",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus root also contains a lee or protecting cover, creating an internal polarity between exposure to wind and refuge from it.",
+            "mechanism": "Scattering marks the outside of shelter: to be carried away is to have left, lost, or been removed from a protective lee.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B002",
+                "role": "A windbreak, shade, or patron's protection supplies the sheltered state whose loss makes dispersal possible."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven scattering supplies the exposed counter-state outside that protection."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus describes motion without a spatial contrast.",
+              "after": "The focus stages the threshold between protected enclosure and wind-exposed dispersal."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_ordered_logistics",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح م ل",
+              "و ق ر",
+              "ج ر ي",
+              "ي س ر",
+              "ق س م",
+              "ء م ر"
+            ],
+            "mechanism": "The opening four lines form a plausible process chain: separate a mass, consolidate it as a load, move it in a compliant flow, then allot its units under an ordering act.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Winnowing literally separates a mixed heap and functions as the chain's first transformation."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Bearing a visible load supplies consolidation and transportability after separation."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "A heavy burden gives the newly consolidated material measurable weight."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing or running supplies continuous conveyance rather than another burst of scattering."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light, compliant motion specifies low-resistance movement through the transport stage."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating assigned shares supplies the terminal redistribution toward destinations."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "An obligating command supplies governance for what would otherwise look like random motion."
+              }
+            ],
+            "structural_cues": [
+              "51:1-4 repeat feminine plural participles with indefinite accusative complements.",
+              "The ف transitions after 51:1 permit, without requiring, a staged sequence."
+            ],
+            "reader_inference": "The packet supplies matched forms and separation, load, flow, and allotment images; I supply the directional arrow of a logistics pipeline. A live alternative is four parallel classes rather than successive stages.",
+            "changed_reading": {
+              "before": "The focus is a free-standing image of random atmospheric dispersal.",
+              "after": "The focus is the opening operation in an ordered material economy: loosen and sort now so loading, movement, and allocation can follow."
+            }
+          },
+          {
+            "model_id": "delta_fall_as_fulfillment",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ع د",
+              "ص د ق",
+              "د ي ن",
+              "و ق ع"
+            ],
+            "mechanism": "What is cast loose does not vanish; it enters a trajectory that ends in a fixed landing. Promise, verified performance, reckoning, and occurrence turn the focus's shedding into a material analogy for inevitable arrival.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B005",
+                "role": "Casting and dropping literally initiate a trajectory and function as the focus-side premise of eventual landing."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B001",
+                "role": "A spoken promise opens expectation toward a future object and supplies the pending destination."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfilling a promise in action supplies closure between announced and realized states."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense make the landing consequential rather than merely physical."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed literally complete the trajectory released by the focus."
+              }
+            ],
+            "structural_cues": [
+              "51:5-6 switch from processive oath images to emphatic assertions about what will prove true and occur."
+            ],
+            "reader_inference": "The packet supplies casting, promise, fulfillment, reckoning, and fixed falling; I infer one trajectory from release to arrival. Alternatively, the opening phenomena may only witness certainty without modeling its mechanics.",
+            "changed_reading": {
+              "before": "To scatter is to lose material into indefinite distance.",
+              "after": "To scatter is to release material into a governed arc whose eventual settling figures the promised event's fixed arrival."
+            }
+          },
+          {
+            "model_id": "delta_woven_dispersion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م و",
+              "ح ب ك"
+            ],
+            "mechanism": "The medium of dispersal is not empty space but an elevated, tightly made field of intersecting routes; particles spread by following a patterned mesh.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven scattering supplies mobile particles and the apparent disorder to be revised."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The over-arching sky supplies the elevated medium in which the movement occurs."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B002",
+                "role": "Tightly fashioned, interlacing paths literally supply channels that pattern the spread."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B003",
+                "role": "Firm binding makes those routes a coherent mesh rather than accidental crossings."
+              }
+            ],
+            "structural_cues": [
+              "51:7 resumes an oath form after the four-part process and the certainty claims."
+            ],
+            "reader_inference": "The packet supplies aerial scattering and a sky characterized by interwoven paths; I infer channelled flow through that mesh. The alternative is simple juxtaposition of two independent oath objects.",
+            "changed_reading": {
+              "before": "Scattered units move chaotically wherever the wind sends them.",
+              "after": "The apparent scatter is a many-path distribution across an underlying woven order."
+            }
+          },
+          {
+            "model_id": "delta_discursive_scatter",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "خ ل ف",
+              "ء ف ك",
+              "غ م ر",
+              "س ه و"
+            ],
+            "mechanism": "The focus's verbal fragments become a social-cognitive field: conjectural sayings break apart, take incompatible routes, redirect hearers, and accumulate into a covering medium of heedlessness.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B007",
+                "role": "Detached edges of an incomplete saying literally supply the units of discursive scatter."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B011",
+                "role": "A saying that operates as conjecture supplies uncertain verbal material rather than settled testimony."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B006",
+                "role": "Rattling agitation, preserved by the split mapping, makes the conflicted saying behave like shaken particles."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Each party taking a different route supplies divergence among the circulating fragments."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B004",
+                "role": "Winds blowing from differing bearings give the discourse a literal cross-current image."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Turning something away from its direction supplies the fragments' effect on hearers."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "A covering haze of falsehood and ignorance supplies the medium produced by accumulated fragments."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness of the heart supplies the cognitive state maintained by that haze."
+              }
+            ],
+            "structural_cues": [
+              "51:8 explicitly places its audience inside a divergent saying.",
+              "The uncitable branchless root خ ر ص at 51:10 word 2 structurally sharpens the sequence from divergent speech to guesswork."
+            ],
+            "reader_inference": "The packet supplies speech fragments, conjectural saying, divergent routes, crosswinds, redirection, ignorance, and heedlessness; I infer a causal ecology in which circulated fragments sustain confusion. They could instead be separate descriptions of error.",
+            "changed_reading": {
+              "before": "The focus depicts only particles dispersed by wind.",
+              "after": "It also diagrams discourse dispersed into incompatible, redirecting fragments: a weather system of unstable claims."
+            }
+          },
+          {
+            "model_id": "delta_assay_separation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن و ر",
+              "ف ت ن",
+              "ذ و ق",
+              "ع ج ل"
+            ],
+            "mechanism": "Winnowing and assay become parallel separation technologies: one exposes a heap to moving air, the other exposes a substance or person to fire and experience, and both reveal what survives the test.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Winnowing literally separates mixed material and supplies the focus-side sorting operation."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the second testing medium."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying metal or a person literally supplies testing by exposure and functions as discriminative sorting."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiencing and undergoing a thing makes the test embodied rather than observational."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Hastening supplies premature demand for the assay's result before its process arrives."
+              }
+            ],
+            "structural_cues": [
+              "The temporal question in 51:12 is answered by an enacted scene in 51:13-14.",
+              "The repeated ف ت ن across 51:13-14 shifts from being tested to possessing the test."
+            ],
+            "reader_inference": "The packet supplies winnowing, fire, assay, embodied trial, and haste; I infer a shared reveal-by-exposure mechanism. The alternative is that material sorting and punitive testing remain unrelated domains.",
+            "changed_reading": {
+              "before": "The focus separates light particles from a physical mixture.",
+              "after": "The focus prefigures a broader assay: exposure disperses protective cohesion so the composition of what was mixed becomes manifest."
+            }
+          },
+          {
+            "model_id": "delta_cover_after_exposure",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ق ي",
+              "ج ن ن",
+              "غ ف ر"
+            ],
+            "mechanism": "The root-internal opposition between wind exposure and shelter becomes ethical-spatial: the scattered state is outside protection, while the later garden and forgiveness restore layered cover.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B002",
+                "role": "A lee, shade, or patronal cover supplies the focus root's latent protected state."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind exposure supplies the opposed state in which unprotected material is carried away."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Repelling harm through protection turns shelter into an active boundary."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden hidden by its trees supplies an inhabited, vegetative enclosure after exposure."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Covering a fault while protecting its bearer supplies a moral form of restored shelter."
+              }
+            ],
+            "structural_cues": [
+              "51:15-18 reverse the preceding exposure scene into gardens, reception, night practice, and pre-dawn seeking."
+            ],
+            "reader_inference": "The packet supplies a focus-root shelter branch and later protection, enclosed garden, and protective covering; I infer exposure and refuge as opposed states. The alternative is a lexical side-current with no role in the focus syntax.",
+            "changed_reading": {
+              "before": "Scattering has no implied destination or counter-state.",
+              "after": "Scattering marks removal from cover, making later protection readable as a deliberate reversal of exposure."
+            }
+          },
+          {
+            "model_id": "delta_redistributed_due",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق س م",
+              "م و ل",
+              "ح ق ق",
+              "س ء ل",
+              "ح ر م"
+            ],
+            "mechanism": "The material sequence acquires a social destination: a stored mass is separated into shares, and the share moves outward not as waste but as a claim owed to an asker and one deprived.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B009",
+                "role": "Grain supplies a divisible store whose outward scattering can become distribution rather than depletion."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The apportioning of distinct shares supplies the allocation rule."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Accumulated wealth supplies the consolidated stock from which units can be released."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B003",
+                "role": "A specific right owned by its bearer makes outward transfer obligatory rather than optional generosity."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Request and asking identify one channel through which the due share is drawn outward."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation and missing the sought object identify the recipient whose absent share must be restored."
+              }
+            ],
+            "structural_cues": [
+              "51:19 places a right inside wealth before naming two recipient conditions.",
+              "The earlier sequence ends in apportionment, allowing the later right to specify what that apportionment is for."
+            ],
+            "reader_inference": "The packet supplies grain, apportioned shares, accumulated wealth, a proprietary right, asking, and deprivation; I infer release from stock to claimant as one redistribution mechanism. The alternative is only a thematic echo between unrelated material and legal registers.",
+            "changed_reading": {
+              "before": "The focus's separated units have no social owner or destination.",
+              "after": "Scattering can figure deconcentration: opening a stored mass so owed units reach those from whom possession has been withheld."
+            }
+          },
+          {
+            "model_id": "delta_provision_broadcast",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ر ض",
+              "س م و",
+              "ر ز ق",
+              "و ع د"
+            ],
+            "mechanism": "The winnowing image reverses from depletion into broadcast. Sky-borne distribution marks receptive earth with growth, turns scattered grain or rain into provision, and lets a future promise arrive through material circulation.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven broadcast supplies the transport that can carry productive matter outward."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B009",
+                "role": "Grain supplies the productive particle whose dispersal can seed rather than erase."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B002",
+                "role": "Soft, germinating earth supplies the receptive destination for what is broadcast."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The sky as what rises and covers supplies the source field above the receptive earth."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B003",
+                "role": "First rain marking earth with vegetation, preserved by the split mapping, directly links descent from above to visible growth."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "Rain descending as provision makes aerial distribution nutritionally productive."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Provision as an apportioned gift joins broadcast back to the allocation mechanism."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B006",
+                "role": "A promising sign from which a coming state is expected makes the material cycle anticipatory."
+              }
+            ],
+            "structural_cues": [
+              "51:20 places signs in the earth, while 51:22 places provision and promise in the sky.",
+              "The vertical sky-earth frame gives the focus's outward motion a source and a receptive destination."
+            ],
+            "reader_inference": "The packet supplies broadcast, grain, germinating earth, sky, growth-marking rain, provision, and future sign; I infer one delivery ecology connecting them. Provision could instead be located above without wind or seed mediation.",
+            "changed_reading": {
+              "before": "Wind scattering thins a stock and carries it away.",
+              "after": "Wind scattering broadcasts provision across a receptive field, so apparent loss is the transport stage of growth and apportioned arrival."
+            }
+          },
+          {
+            "model_id": "delta_articulate_signs",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ي ي",
+              "ب ص ر",
+              "ح ق ق",
+              "م ث ل",
+              "ن ط ق"
+            ],
+            "mechanism": "The unreliable speech-scatter reading gains a competing reversal: distributed units in earth and self can be seen as signs whose patterned agreement becomes a nonverbal utterance, culminating in truth likened to one's own speech.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B007",
+                "role": "Fragments falling from the edge of speech supply distributed sign-units rather than one complete proposition."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign makes each distributed unit potentially legible."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight of the heart supplies the integrative perception needed to read dispersed marks together."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Stable correspondence with reality supplies the criterion that distinguishes these signs from conjectural fragments."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Resemblance supplies the bridge by which material indication is compared to ordinary speech."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "A sign that speaks by indication turns the distributed field into articulate evidence without requiring literal words."
+              }
+            ],
+            "structural_cues": [
+              "51:20-21 distribute signs across earth and selves, then ask for perception.",
+              "51:23 seals the unit with an oath and an explicit comparison to the audience's speaking."
+            ],
+            "reader_inference": "The packet supplies dispersed speech-fragments, visible signs, inward insight, real correspondence, resemblance, and speaking indication; I infer composition of many marks into one evidentiary utterance. Alternatively, the final speech comparison marks certainty only.",
+            "changed_reading": {
+              "before": "Scattered fragments necessarily degrade a coherent message.",
+              "after": "Scattered units can also compose a distributed utterance: individually partial, collectively articulate, and readable as concordant evidence."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_tears_at_dawn",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus is grammatically easier to hear as impersonal dispersers, while the tear branch redirects it toward human devotion. It remains anchored in a focus-root image of poured tears and is activated by flowing water, night, pre-dawn, and protective forgiveness; downstream prose should present it as an affective echo, not a replacement construal.",
+            "focus_anchor": "The focus root explicitly carries the pouring of tears, allowing the agentive plural to flicker as those who shed them intensely.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B006",
+                "role": "Tears pouring from the eye literally supply the outlier's human, affective form of scattering."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing spring supplies a larger water image that reactivates the focus's smaller ocular flow."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night and its darkness supply the temporal enclosure in which the devotional act occurs."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The pre-dawn portion of night narrows that act to a liminal time."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Seeking a covering that protects from a fault's effect supplies the tears' devotional aim."
+              }
+            ],
+            "changed_reading": {
+              "before": "The oath begins with wind scattering external matter.",
+              "after": "At the affective edge, it can echo wakeful seekers pouring tears before dawn as they seek protective covering."
+            }
+          },
+          {
+            "outlier_id": "outlier_selective_shearing_sign",
+            "confidence": "exploratory",
+            "containment": "This reading is branch-distant because it pivots from ordinary scattering to the specialized act of shearing while deliberately leaving wool as a marker. It remains focus-root anchored and becomes functional beside visible signs and insight; downstream prose should label it a selective-removal analogy, not lexical equivalence.",
+            "focus_anchor": "A specialized focus-root branch joins removal to the deliberate preservation of a residual mark.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B010",
+                "role": "Shearing wool while leaving a strip as a sign literally supplies selective removal that preserves evidence."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign makes the intentionally retained remainder communicative."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Inward insight supplies recognition that the remainder is a marker rather than an accidental leftover."
+              }
+            ],
+            "changed_reading": {
+              "before": "Scattering removes a mass indiscriminately.",
+              "after": "A strange specialized echo makes removal selective: most is stripped away so a retained trace becomes legible."
+            }
+          },
+          {
+            "outlier_id": "outlier_high_edge_descent",
+            "confidence": "medium",
+            "containment": "This is surprising because summit and projecting-edge branches are not the focus's most immediate verbal sense. It remains anchored in two focus-root spatial images and gains a coherent vertical route through sky, fixed falling, and earth; downstream prose should qualify it as spatial topology activated by context.",
+            "focus_anchor": "The focus root can locate action at an elevated summit or projecting extremity before anything is cast from it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B001",
+                "role": "A summit or eminent height supplies the upper origin of the motion."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B003",
+                "role": "A projecting extremity supplies the lip from which material is released."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed supplies the downward trajectory and terminal settling."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B001",
+                "role": "Elevation supplies the upper spatial register around the projecting origin."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower realm opposed to sky supplies the trajectory's receiving plane."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus spreads material horizontally across an undefined field.",
+              "after": "It can also sketch a vertical cascade from a high projecting rim through open sky toward a fixed earthly landing."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "51:2-4 recast scattering as the first stage of an ordered separation, transport, and allocation chain.",
+            "51:5-7 turn apparent randomness into governed trajectory and woven-path distribution.",
+            "51:8-11 activate a coexisting discursive reading in which conjectural speech circulates as redirecting fragments.",
+            "51:20-23 reverse fragmentation again: dispersed signs can compose articulate, reality-matching evidence.",
+            "51:19 and 51:22 make outward dispersal productive as due-share redistribution and provision broadcast."
+          ],
+          "what_was_special": "The repeated focus root held unusually strong internal oppositions: winnowing versus grain, casting versus fixed landing, exposure versus shelter, and broken speech versus speaking indication. Context did not collapse these; it organized them into competing material, social, epistemic, and devotional mechanisms.",
+          "remaining_uncertainties": [
+            "The four opening participial clauses may be sequential stages, parallel witnesses, or both.",
+            "The speech-fragment and shelter activations are lexically anchored but remain form-distant from the most immediate focus construal.",
+            "The provision model requires a reader-supplied causal link between wind distribution, rain or seed, and growth.",
+            "The tear, shearing-mark, and high-edge readings should remain exploratory echoes unless independent linguistic evidence strengthens them."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Scattering as the first stage of sorting.** Repeated `ذ ر و/B004` supplies wind-scattering and winnowing. The immediate progression carrying -> flowing -> apportioning (51:2-4), followed much later by pairs and allotted shares (51:49, 59), makes dispersal function as separation before ordered distribution. The packet supplies the sequence; I infer **scattering -> discriminable parts -> apportionment**. The oath thus reads as an opening operation in an ordered material process, not isolated atmospheric motion.\n2. **Swift passage.** `ذ ر و/B008` supplies swift passing, sharpened by `ج ر ي/B001` in 51:3 and the repeated arrivals and removals in 51:24-46. I infer **rapid passage -> accelerated transfer toward an appointed outcome**. The verse can retain a kinetic reading beside winnowing.",
@@ -2321,18 +3464,23 @@
   "root_lexicon": {
     "root_000513": {
       "root_ar": "ذ ر و",
+      "qac_roots_ar": [
+        "ذ ر و"
+      ],
       "root_id": "root_000513",
-      "root_mapping": {
-        "root_id": "root_000513",
-        "root_norm": "ذ ر و",
-        "source_root_norm": "ذ ر و",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ذ ر و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "57aa375d7af3b118aff6931b081796a1387892fd5d7419615336bd7e414df874",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4978,14 +6126,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5259,11 +6413,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 5,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 101701,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -5335,19 +6502,37 @@
           "root_ids": [
             "root_000513"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ذ ر و",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000513",
+            "targets": [
+              {
+                "qac_root_norm": "ذ ر و",
+                "target_rank": 1,
+                "furuq_root_id": "root_000513",
+                "furuq_root_norm": "ذ ر و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000513",
-              "root_norm": "ذ ر و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ذ ر و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -5374,10 +6559,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 11,
+        "dictionary_branches_kept": 11,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 11,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

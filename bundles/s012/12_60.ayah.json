@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T05:42:22.062740+00:00",
+  "generated_at": "2026-08-04T22:28:27.481128+00:00",
   "surah": 12,
   "ayah": 60,
   "ayahRef": "12:60",
@@ -2825,7 +2825,8 @@
       "morpheme_ids": [
         "m-w-s012-a060-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:60:1"
+      "aligned_qac_word_ref_upstream": "12:60:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2839,7 +2840,8 @@
       "morpheme_ids": [
         "m-w-s012-a060-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:60:2"
+      "aligned_qac_word_ref_upstream": "12:60:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2853,18 +2855,139 @@
       "morpheme_ids": [
         "m-w-s012-a060-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:60:3"
+      "aligned_qac_word_ref_upstream": "12:60:3",
+      "morpheme_skip_count": 0
     },
     null,
+    {
+      "word_index": 4,
+      "surface_ar": "بِهِ",
+      "word_ids": [
+        "w-s012-a060-w004"
+      ],
+      "qac_refs": [
+        "12:60:4:1",
+        "12:60:4:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a060-w004-01",
+        "m-w-s012-a060-w004-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:60:5",
+      "morpheme_skip_count": 3
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "فَ",
+      "word_ids": [
+        "w-s012-a060-w005"
+      ],
+      "qac_refs": [
+        "12:60:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a060-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:60:6",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 6,
+      "surface_ar": "لَا",
+      "word_ids": [
+        "w-s012-a060-w005"
+      ],
+      "qac_refs": [
+        "12:60:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a060-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:60:7",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "كَيْلَ",
+      "word_ids": [
+        "w-s012-a060-w006"
+      ],
+      "qac_refs": [
+        "12:60:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a060-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:60:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "لَكُمْ",
+      "word_ids": [
+        "w-s012-a060-w007"
+      ],
+      "qac_refs": [
+        "12:60:7:1",
+        "12:60:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a060-w007-01",
+        "m-w-s012-a060-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:60:9",
+      "morpheme_skip_count": 0
+    },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 10,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s012-a060-w009"
+      ],
+      "qac_refs": [
+        "12:60:9:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a060-w009-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:60:11",
+      "morpheme_skip_count": 2
+    },
+    {
+      "word_index": 11,
+      "surface_ar": "لَا",
+      "word_ids": [
+        "w-s012-a060-w009"
+      ],
+      "qac_refs": [
+        "12:60:9:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a060-w009-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:60:12",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 12,
+      "surface_ar": "تَقْرَبُونِ",
+      "word_ids": [
+        "w-s012-a060-w010"
+      ],
+      "qac_refs": [
+        "12:60:10:1",
+        "12:60:10:2",
+        "12:60:10:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a060-w010-01",
+        "m-w-s012-a060-w010-02",
+        "m-w-s012-a060-w010-03"
+      ],
+      "aligned_qac_word_ref_upstream": "12:60:13",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3662,7 +3785,866 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s12/packets/12_60.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "12:60",
+      "window": [
+        "12:58",
+        "12:59",
+        "12:60",
+        "12:61",
+        "12:62",
+        "12:63",
+        "12:64",
+        "12:65",
+        "12:66",
+        "12:67",
+        "12:68",
+        "12:69",
+        "12:70",
+        "12:71",
+        "12:72",
+        "12:73",
+        "12:74",
+        "12:75",
+        "12:76"
+      ],
+      "ayah_count": 19,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "12:60",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_credentialed_provision",
+            "confidence": "strong",
+            "focus_anchor": "The condition in تَأْتُونِي بِهِ governs both فَلَا كَيْلَ لَكُمْ عِندِي and وَلَا تَقْرَبُونِ.",
+            "mechanism": "Bringing the absent person functions as one credential controlling two goods: a measured allotment and access to the speaker's presence. The paired negations make provision and audience jointly conditional rather than independent threats.",
+            "activation_trace": [
+              {
+                "source_ref": "12:60",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Bringing or delivering supplies the required credentialing act."
+              },
+              {
+                "source_ref": "12:60",
+                "root": "ك ي ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001335",
+                "branch_id": "B001",
+                "role": "Measured food allotment supplies the material benefit placed behind the condition."
+              },
+              {
+                "source_ref": "12:60",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Presence and nearness localize the allotment within the speaker's controlled domain."
+              },
+              {
+                "source_ref": "12:60",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Approach supplies the second withheld benefit, personal or spatial access."
+              }
+            ],
+            "changed_reading": {
+              "before": "A ruler refuses grain and tells the visitors not to return without the requested person.",
+              "after": "One person-bearing credential controls both ration entitlement and admission to the ruler."
+            }
+          },
+          {
+            "model_id": "baseline_concentric_exclusion",
+            "confidence": "medium",
+            "focus_anchor": "The deictic عِندِي is followed by the broader prohibition وَلَا تَقْرَبُونِ.",
+            "mechanism": "The verse draws concentric boundaries: nothing is to be measured out within the speaker's immediate domain, and the addressees may not even enter the zone of approach. Economic exclusion is nested inside relational and jurisdictional exclusion.",
+            "activation_trace": [
+              {
+                "source_ref": "12:60",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Immediate presence defines the inner zone where allocation is controlled."
+              },
+              {
+                "source_ref": "12:60",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B007",
+                "role": "Approaching or entering into contact defines the prohibited outer threshold."
+              },
+              {
+                "source_ref": "12:60",
+                "root": "ك ي ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001335",
+                "branch_id": "B001",
+                "role": "The withheld measure marks the inner boundary's concrete administrative effect."
+              }
+            ],
+            "changed_reading": {
+              "before": "The two negations repeat a refusal in material and emphatic terms.",
+              "after": "The two negations map an expanding exclusion from allocation, presence, and actionable contact."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_recognition_screen",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ و",
+              "د خ ل",
+              "ع ر ف",
+              "ن ك ر",
+              "ء ت ي",
+              "ك ي ل"
+            ],
+            "mechanism": "The visitors first enter under asymmetric recognition: the speaker distinguishes them while they fail to distinguish him. He then requests a specifically related person and couples that arrival to full measure. The focus prohibition therefore becomes a selective identity screen, not indiscriminate hostility.",
+            "activation_trace": [
+              {
+                "source_ref": "12:58",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B001",
+                "role": "Actual entry establishes that access is granted before the new condition is imposed."
+              },
+              {
+                "source_ref": "12:58",
+                "root": "ع ر ف",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001002",
+                "branch_id": "B003",
+                "role": "Recognition by distinguishing marks gives the speaker informational control over admission."
+              },
+              {
+                "source_ref": "12:58",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B001",
+                "role": "Their nonrecognition makes the screening asymmetrical rather than mutually transparent."
+              },
+              {
+                "source_ref": "12:59",
+                "root": "ء خ و",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000020",
+                "branch_id": "B001",
+                "role": "Kinship specifies the identity class of the person whose presence unlocks access."
+              },
+              {
+                "source_ref": "12:59",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "The command to bring the brother supplies the positive counterpart to the focus condition."
+              },
+              {
+                "source_ref": "12:59",
+                "root": "ك ي ل",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001335",
+                "branch_id": "B001",
+                "role": "The completed measure shows that provision is deliberately used as the screen's controllable benefit."
+              }
+            ],
+            "structural_cues": [
+              "12:58 places entry, recognition, and nonrecognition immediately before the request and conditional refusal of 12:59-60."
+            ],
+            "reader_inference": "The packet supplies asymmetrical recognition, an already successful entry, a kin-specific request, and full measure; I infer that superior recognition enables selective screening. A live alternative is ordinary economic verification with no identity-testing purpose.",
+            "changed_reading": {
+              "before": "No brother means no grain and no return visit.",
+              "after": "No verified kin-bearing presentation means no renewed entitlement or admission."
+            }
+          },
+          {
+            "model_id": "delta_induced_return_circuit",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ب ض ع",
+              "ر ح ل",
+              "ق ل ب",
+              "ر ج ع",
+              "ر د د",
+              "م ي ر",
+              "ز ي د",
+              "ك ي ل"
+            ],
+            "mechanism": "The visitors' trade capital is deliberately placed in their baggage to be recognized after they turn home and to induce another return. When they find it restored, they use the restoration to argue for family provision and an increased measure. The focus refusal is thus one valve in a designed circulation of goods, travelers, and renewed approach, not a terminal cutoff.",
+            "activation_trace": [
+              {
+                "source_ref": "12:62",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Deliberate placement turns the returned property into an engineered state rather than an accident."
+              },
+              {
+                "source_ref": "12:62",
+                "root": "ب ض ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000123",
+                "branch_id": "B002",
+                "role": "Trade capital supplies the circulating economic object that can motivate another transaction."
+              },
+              {
+                "source_ref": "12:62",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B002",
+                "role": "The travel load carries the hidden return mechanism across the outward journey."
+              },
+              {
+                "source_ref": "12:62",
+                "root": "ق ل ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001248",
+                "branch_id": "B005",
+                "role": "Turning away begins the loop whose intended endpoint is another approach."
+              },
+              {
+                "source_ref": "12:62",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return names the behavioral result that the concealed trade capital is meant to produce."
+              },
+              {
+                "source_ref": "12:65",
+                "root": "ر د د",
+                "source_word_indices": [
+                  "6",
+                  "14"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B004",
+                "role": "Commercial restitution makes the exchange reversible and gives the family a reason to reenter it."
+              },
+              {
+                "source_ref": "12:65",
+                "root": "م ي ر",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_001460",
+                "branch_id": "B001",
+                "role": "Fetching food identifies family provisioning as the practical objective of renewed access."
+              },
+              {
+                "source_ref": "12:65",
+                "root": "ز ي د",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_000657",
+                "branch_id": "B004",
+                "role": "Seeking an increase shows that compliance promises expansion, not merely restoration, of the measure."
+              },
+              {
+                "source_ref": "12:65",
+                "root": "ك ي ل",
+                "source_word_indices": [
+                  "21",
+                  "24"
+                ],
+                "mapped_root_id": "root_001335",
+                "branch_id": "B001",
+                "role": "Repeated measure language closes the loop back onto the focus ayah's withheld allotment."
+              }
+            ],
+            "structural_cues": [
+              "12:62 states a hoped-for recognition upon homeward reversal and a hoped-for return; 12:65 narrates discovery and converts it into an argument for more measure."
+            ],
+            "reader_inference": "The packet supplies intentional concealment, explicit hoped-for return, discovery, restitution, and requested increase; I infer that generosity and refusal work together as inducement. A live alternative is that the restitution is benevolence while only the explicit refusal drives the return.",
+            "changed_reading": {
+              "before": "The threat closes the exchange unless the visitors satisfy a demand.",
+              "after": "The threat constricts one phase of an engineered exchange loop so that goods and people circulate back under a new condition."
+            }
+          },
+          {
+            "model_id": "delta_custody_surety",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ن ع",
+              "ر س ل",
+              "ح ف ظ",
+              "ء م ن",
+              "و ث ق",
+              "ح و ط",
+              "ء ت ي"
+            ],
+            "mechanism": "The denied measure is reported at home as pressure to send the brother. Promises of guarding him meet remembered distrust and are upgraded into a solemn covenant to bring him back, with encirclement as the exception. The focus condition therefore initiates a transfer of custody backed by progressively stronger surety.",
+            "activation_trace": [
+              {
+                "source_ref": "12:63",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B001",
+                "role": "Withholding the hand from giving converts the focus warning into immediate household pressure."
+              },
+              {
+                "source_ref": "12:63",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Sending the brother names the custody transfer demanded as the remedy for withheld measure."
+              },
+              {
+                "source_ref": "12:63",
+                "root": "ح ف ظ",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_000342",
+                "branch_id": "B001",
+                "role": "Guardianship supplies the first, merely promissory security for that transfer."
+              },
+              {
+                "source_ref": "12:64",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "3",
+                  "7"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Trust and felt security expose why a verbal promise is insufficient."
+              },
+              {
+                "source_ref": "12:66",
+                "root": "و ث ق",
+                "source_word_indices": [
+                  "7",
+                  "18"
+                ],
+                "mapped_root_id": "root_001623",
+                "branch_id": "B004",
+                "role": "A confirmed covenant upgrades family assurance into binding surety."
+              },
+              {
+                "source_ref": "12:66",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B006",
+                "role": "Overwhelming encirclement defines the force-majeure boundary of the surety."
+              },
+              {
+                "source_ref": "12:66",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "6",
+                  "10",
+                  "17"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Repeated giving and bringing turns the focus act into both pledge delivery and promised bodily return."
+              }
+            ],
+            "structural_cues": [
+              "The sequence escalates from reported withholding, to a request to send, to a guarding promise, to distrust, and finally to covenant plus exception."
+            ],
+            "reader_inference": "The packet supplies that escalation; I infer that the focus denial is the leverage that generates the custody bond. A live alternative is that the family creates the covenant independently after ordinary persuasion rather than as an intended effect of the denial.",
+            "changed_reading": {
+              "before": "The speaker demands that another traveler accompany the group.",
+              "after": "The speaker's condition forces a risk-bearing household to formalize who may transfer, guard, and return the requested person."
+            }
+          },
+          {
+            "model_id": "delta_bounded_jurisdiction",
+            "status": "weakened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ك ل",
+              "ح ك م",
+              "م ل ك",
+              "د ي ن"
+            ],
+            "mechanism": "The focus phrase 'with me' projects strong personal control, but later statements place practical reliance and judgment beyond human routing and show that taking the brother is constrained by royal law. The speaker's exclusion remains effective locally while losing any claim to ultimate sovereignty.",
+            "activation_trace": [
+              {
+                "source_ref": "12:67",
+                "root": "و ك ل",
+                "source_word_indices": [
+                  "24",
+                  "26",
+                  "27"
+                ],
+                "mapped_root_id": "root_001681",
+                "branch_id": "B002",
+                "role": "Reliance outside human control qualifies the efficacy of every managed gate and audience."
+              },
+              {
+                "source_ref": "12:67",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Judgment supplies a higher jurisdiction against which the speaker's local condition is bounded."
+              },
+              {
+                "source_ref": "12:76",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Royal sovereignty identifies the positive legal order within which the speaker must operate."
+              },
+              {
+                "source_ref": "12:76",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and legal recompense make the later custody outcome rule-bound rather than purely personal."
+              }
+            ],
+            "structural_cues": [
+              "12:67 denies ultimate efficacy to entry precautions and assigns judgment beyond the actors; 12:76 explicitly states a legal obstacle to taking the brother."
+            ],
+            "reader_inference": "The packet supplies a hierarchy of reliance, judgment, royal authority, and legal constraint; I infer that it retrospectively limits the force of عِندِي. A live alternative is that these statements orient the actors theologically without qualifying the focus speaker's administrative authority.",
+            "changed_reading": {
+              "before": "The speaker appears to control provision and proximity by unrestricted personal fiat.",
+              "after": "The speaker controls a local access regime but acts inside legal and providential limits."
+            }
+          },
+          {
+            "model_id": "delta_layered_proximity",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د خ ل",
+              "ب و ب",
+              "ف ر ق",
+              "ء و ي",
+              "ء خ و",
+              "ب ء س"
+            ],
+            "mechanism": "The later journey distinguishes public routing from inward access: the group is told to distribute itself among gates, then enters upon the speaker, while the requested brother alone is drawn into sheltering kinship and private consolation. 'Do not approach me' therefore controls passage between layers of proximity, not mere geographic distance.",
+            "activation_trace": [
+              {
+                "source_ref": "12:67",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "4",
+                  "8"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B001",
+                "role": "Repeated entering supplies the public movement whose route can be regulated."
+              },
+              {
+                "source_ref": "12:67",
+                "root": "ب و ب",
+                "source_word_indices": [
+                  "6",
+                  "10"
+                ],
+                "mapped_root_id": "root_000163",
+                "branch_id": "B001",
+                "role": "Multiple entrances materialize distinct thresholds rather than one undifferentiated approach."
+              },
+              {
+                "source_ref": "12:67",
+                "root": "ف ر ق",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001148",
+                "branch_id": "B002",
+                "role": "Distribution into separate parts regulates how the group crosses those thresholds."
+              },
+              {
+                "source_ref": "12:69",
+                "root": "ء و ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000070",
+                "branch_id": "B001",
+                "role": "Drawing someone into shelter supplies an inner, protected degree of nearness."
+              },
+              {
+                "source_ref": "12:69",
+                "root": "ء خ و",
+                "source_word_indices": [
+                  "7",
+                  "11"
+                ],
+                "mapped_root_id": "root_000020",
+                "branch_id": "B001",
+                "role": "Disclosed brotherhood determines who crosses from public audience into intimate recognition."
+              },
+              {
+                "source_ref": "12:69",
+                "root": "ب ء س",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000079",
+                "branch_id": "B003",
+                "role": "Relief from grief gives the innermost proximity an affective function, not just a spatial one."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from divided public gates in 12:67 to group entry and then exclusive shelter, identity disclosure, and consolation in 12:69."
+            ],
+            "reader_inference": "The packet supplies differentiated routes and an exclusive inner encounter; I infer that the focus prohibition guards layered access. A live alternative is that the gate instruction is only the father's risk precaution and has no semantic effect on the speaker's earlier prohibition.",
+            "changed_reading": {
+              "before": "Approach means physically returning to the official.",
+              "after": "Approach is graded passage from city entry, to official audience, to protected familial intimacy."
+            }
+          },
+          {
+            "model_id": "delta_measure_to_capture_procedure",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ح ل",
+              "س ق ي",
+              "ص و ع",
+              "ج ز ي",
+              "و ع ي",
+              "ك ي د",
+              "ء خ ذ",
+              "د ي ن"
+            ],
+            "mechanism": "Once the requested brother is inside the provisioning system, a watering or measuring vessel is placed in his travel load, declared missing, recovered from its container, and made the evidentiary pivot for a penalty that permits custody. The focus linkage of bringing, measure, and approach is thus the upstream condition for a procedure that converts provision into jurisdictional capture.",
+            "activation_trace": [
+              {
+                "source_ref": "12:70",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B003",
+                "role": "A vessel associated with a rationed share or flow makes provision itself the later instrument."
+              },
+              {
+                "source_ref": "12:70",
+                "root": "ر ح ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000551",
+                "branch_id": "B002",
+                "role": "The brother's travel load supplies the concealed evidentiary site."
+              },
+              {
+                "source_ref": "12:72",
+                "root": "ص و ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000892",
+                "branch_id": "B004",
+                "role": "The missing object fuses vessel and measure, joining the focus allotment to the accusation."
+              },
+              {
+                "source_ref": "12:75",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "2",
+                  "8",
+                  "10"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Action-for-penalty equivalence lets the travelers supply the sanction attached to discovery."
+              },
+              {
+                "source_ref": "12:76",
+                "root": "و ع ي",
+                "source_word_indices": [
+                  "2",
+                  "4",
+                  "9"
+                ],
+                "mapped_root_id": "root_001664",
+                "branch_id": "B002",
+                "role": "Nested containers make controlled concealment and staged extraction materially possible."
+              },
+              {
+                "source_ref": "12:76",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Contrivance identifies the sequence as an arranged procedure rather than an accidental find."
+              },
+              {
+                "source_ref": "12:76",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B003",
+                "role": "Seizure or capture names the custody outcome for which the procedure creates grounds."
+              },
+              {
+                "source_ref": "12:76",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "The governing law explains why evidentiary and penalty steps are needed to reach that outcome."
+              }
+            ],
+            "structural_cues": [
+              "12:70-76 forms an ordered chain: placement, public accusation, identification of the missing measure, elicited penalty, staged search, extraction, contrivance, and lawful taking."
+            ],
+            "reader_inference": "The packet supplies the complete procedural chain; I infer that securing the brother's approach in 12:60 is an upstream enabling condition for it. A live alternative is that the focus condition aims only at reunion and that the later capture procedure is a separate adaptation.",
+            "changed_reading": {
+              "before": "Measured food is leverage used to compel a family reunion.",
+              "after": "Admission to measured provision brings the requested person inside a system where the measure itself can become evidence and produce lawful custody."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_hydraulic_access",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates water-channel and water-seeking branches across words normally read as bringing and approaching. It remains anchored in the focus roots for arrival, measure, and approach and gains material support when a rationed-flow vessel becomes central later. Downstream prose should present it only as a hydraulic analogy for controlled access, not as a replacement translation.",
+            "focus_anchor": "The sequence تَأْتُونِي, كَيْل, and تَقْرَبُونِ can be pictured as opening or closing a controlled route to provision.",
+            "activation_trace": [
+              {
+                "source_ref": "12:60",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B004",
+                "role": "Channeling and clearing a watercourse supplies the image of controlled passage toward provision."
+              },
+              {
+                "source_ref": "12:60",
+                "root": "ك ي ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001335",
+                "branch_id": "B001",
+                "role": "A measured allotment supplies the regulated quantity moving through that passage."
+              },
+              {
+                "source_ref": "12:60",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B008",
+                "role": "Travel toward a water source supplies the approach-to-supply vector."
+              },
+              {
+                "source_ref": "12:65",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B005",
+                "role": "Water issuing from an opened outlet reinforces the image of provision released after closure."
+              },
+              {
+                "source_ref": "12:70",
+                "root": "س ق ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000722",
+                "branch_id": "B003",
+                "role": "A watering share and its channel concretize the controlled-flow analogy in the later mechanism."
+              },
+              {
+                "source_ref": "12:72",
+                "root": "ص و ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000892",
+                "branch_id": "B004",
+                "role": "The vessel-measure becomes the physical regulator and eventual capture token."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speaker withholds a discrete quantity of grain.",
+              "after": "The speaker closes a controlled supply channel; bringing the brother reopens its flow, while its measuring vessel later traps the entrant."
+            }
+          },
+          {
+            "outlier_id": "outlier_comparative_assay",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries a branch-distant sense of كيل as comparison into a scene overtly about food measure. It remains anchored in the focus noun and in the surrounding recognition asymmetry and later truth-penalty test. Downstream prose should call it a forensic resonance or secondary assay model, never the direct lexical sense demanded by the syntax.",
+            "focus_anchor": "كَيْل can activate comparison between alternatives, while تَقْرَبُونِ can activate admission to a privileged circle.",
+            "activation_trace": [
+              {
+                "source_ref": "12:60",
+                "root": "ك ي ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001335",
+                "branch_id": "B005",
+                "role": "Comparison between two matters recasts the requested person's presence as enabling an assay of identities and claims."
+              },
+              {
+                "source_ref": "12:60",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Privileged nearness makes successful assay a possible threshold for insider access."
+              },
+              {
+                "source_ref": "12:58",
+                "root": "ع ر ف",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001002",
+                "branch_id": "B003",
+                "role": "One-sided recognition supplies the examiner's capacity to compare without being comparably exposed."
+              },
+              {
+                "source_ref": "12:58",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B001",
+                "role": "Nonrecognition supplies the discrepancy that makes an identity assay meaningful."
+              },
+              {
+                "source_ref": "12:74",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The truth-versus-falsehood condition later gives the comparison a forensic axis."
+              },
+              {
+                "source_ref": "12:75",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "2",
+                  "8",
+                  "10"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "A declared matching penalty turns tested claims into an actionable result."
+              }
+            ],
+            "changed_reading": {
+              "before": "Without the brother there will be no further quantity of food.",
+              "after": "Without the brother there can be no further comparative test of the group and no movement toward insider standing."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The paired denial becomes one credentialing rule governing both provision and admission.",
+            "Returned trade capital and repeated measure turn the threat into an induced circulation rather than a final exclusion.",
+            "The later vessel, search, penalty, and law reveal that access to measure also enables a procedure for lawful custody."
+          ],
+          "what_was_special": "The focus ayah is a compact hinge where economic allocation, identity screening, family surety, spatial access, and legal capture remain simultaneously live. The most surprising activation is that the thing measured for hospitality later becomes the evidentiary instrument of detention.",
+          "remaining_uncertainties": [
+            "The packet does not settle whether the capture procedure was already intended when the focus condition was spoken or emerged later.",
+            "The hydraulic and comparative-assay readings are branch-backed analogies but remain too form-distant to carry a primary translation.",
+            "The exact relation between the father's divided-gate precaution and the speaker's earlier access prohibition remains abductive."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Measure and access are jointly conditioned on embodied proof.** ء ت ي B001, ك ي ل B001, ع ن د B004, and ق ر ب B001/B004 (nearness; privileged access) form the sanction. I infer that bringing the brother verifies their account and unlocks both food allocation and court proximity. `لا تقربون` therefore names exclusion from a resource network, not distance alone.",
@@ -4558,18 +5540,23 @@
   "root_lexicon": {
     "root_000009": {
       "root_ar": "ء ت ي",
+      "qac_roots_ar": [
+        "ء ت ي"
+      ],
       "root_id": "root_000009",
-      "root_mapping": {
-        "root_id": "root_000009",
-        "root_norm": "ء ت ي",
-        "source_root_norm": "أ ت ي",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 362,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ت ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 362
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1b60652566fc89c76f9f42198dcec07e0f8abfc31edee8ec512bb789f83bbfb5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8269,18 +9256,23 @@
     },
     "root_001335": {
       "root_ar": "ك ي ل",
+      "qac_roots_ar": [
+        "ك ي ل"
+      ],
       "root_id": "root_001335",
-      "root_mapping": {
-        "root_id": "root_001335",
-        "root_norm": "ك ي ل",
-        "source_root_norm": "ك ي ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 15,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ي ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 15
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ddd45e890b15edfd28f9bca3b4ad80de1a17863bdcaa09219ef7eb28401369ea",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9962,18 +10954,23 @@
     },
     "root_001052": {
       "root_ar": "ع ن د",
+      "qac_roots_ar": [
+        "ع ن د"
+      ],
       "root_id": "root_001052",
-      "root_mapping": {
-        "root_id": "root_001052",
-        "root_norm": "ع ن د",
-        "source_root_norm": "ع ن د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 183,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ن د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 183
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5ab0584f6d2d08d080f8dcba4e12559c5a17384c577ee7c040e938a2e7d3a998",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11693,18 +12690,23 @@
     },
     "root_001212": {
       "root_ar": "ق ر ب",
+      "qac_roots_ar": [
+        "ق ر ب"
+      ],
       "root_id": "root_001212",
-      "root_mapping": {
-        "root_id": "root_001212",
-        "root_norm": "ق ر ب",
-        "source_root_norm": "ق ر ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 77,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ر ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 77
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "50578bdc71ceb78bb28bbc0aca64c6f155e12932d380d311a84f6ed6c7df14e0",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15534,8 +16536,15 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
       "words_total": 13,
-      "words_resolved": 3,
-      "words_unresolved": 10,
+      "words_resolved": 11,
+      "words_unresolved": 2,
+      "morpheme_skip_total": 5,
+      "morpheme_skip_max": 3,
+      "morpheme_skip_histogram": {
+        "0": 9,
+        "3": 1,
+        "2": 1
+      },
       "unresolved": [
         {
           "word_index": 3,
@@ -15543,58 +16552,19 @@
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         },
         {
-          "word_index": 4,
-          "surface_ar": "بِهِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "فَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "لَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "كَيْلَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "لَكُمْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
           "word_index": 9,
           "surface_ar": "عِنْدِي",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 10,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 11,
-          "surface_ar": "لَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 12,
-          "surface_ar": "تَقْرَبُونِ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2932,
+        "ayah_count": 111,
+        "row_count": 2925,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -16090,11 +17060,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s012"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s12/packets/12_60.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s12/readers/reader_hft_a/12_60.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 221819,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -16168,19 +17151,37 @@
           "root_ids": [
             "root_000009"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ت ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000009",
+            "targets": [
+              {
+                "qac_root_norm": "ء ت ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000009",
+                "furuq_root_norm": "ء ت ي",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 362,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000009",
-              "root_norm": "ء ت ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ت ي",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 362,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -16205,19 +17206,37 @@
           "root_ids": [
             "root_001335"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ي ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001335",
+            "targets": [
+              {
+                "qac_root_norm": "ك ي ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001335",
+                "furuq_root_norm": "ك ي ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 15,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001335",
-              "root_norm": "ك ي ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ي ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 15,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -16242,19 +17261,37 @@
           "root_ids": [
             "root_001052"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ن د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001052",
+            "targets": [
+              {
+                "qac_root_norm": "ع ن د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001052",
+                "furuq_root_norm": "ع ن د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 183,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001052",
-              "root_norm": "ع ن د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ن د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 183,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -16279,19 +17316,37 @@
           "root_ids": [
             "root_001212"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ر ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001212",
+            "targets": [
+              {
+                "qac_root_norm": "ق ر ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001212",
+                "furuq_root_norm": "ق ر ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 77,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001212",
-              "root_norm": "ق ر ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ر ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 77,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -16318,10 +17373,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 41,
+        "dictionary_branches_kept": 41,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 41,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

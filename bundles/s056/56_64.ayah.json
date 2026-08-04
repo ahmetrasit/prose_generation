@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:36.129520+00:00",
+  "generated_at": "2026-08-04T22:30:01.046061+00:00",
   "surah": 56,
   "ayah": 64,
   "ayahRef": "56:64",
@@ -1466,7 +1466,8 @@
         "m-w-s056-a064-w001-01",
         "m-w-s056-a064-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:64:1"
+      "aligned_qac_word_ref_upstream": "56:64:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1484,7 +1485,8 @@
         "m-w-s056-a064-w002-02",
         "m-w-s056-a064-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:64:2"
+      "aligned_qac_word_ref_upstream": "56:64:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1498,7 +1500,8 @@
       "morpheme_ids": [
         "m-w-s056-a064-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:64:3"
+      "aligned_qac_word_ref_upstream": "56:64:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1512,7 +1515,8 @@
       "morpheme_ids": [
         "m-w-s056-a064-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:64:4"
+      "aligned_qac_word_ref_upstream": "56:64:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1528,7 +1532,8 @@
         "m-w-s056-a064-w005-01",
         "m-w-s056-a064-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:64:5"
+      "aligned_qac_word_ref_upstream": "56:64:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1907,7 +1912,702 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_64.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:64",
+      "window": [
+        "56:57",
+        "56:58",
+        "56:59",
+        "56:60",
+        "56:61",
+        "56:62",
+        "56:63",
+        "56:64",
+        "56:65",
+        "56:66",
+        "56:67",
+        "56:68",
+        "56:69",
+        "56:70",
+        "56:71",
+        "56:72",
+        "56:73",
+        "56:74"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:64",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_growth_agency",
+            "confidence": "strong",
+            "focus_anchor": "The same root appears as a human verb and a first-person-plural agent noun around one crop object.",
+            "mechanism": "The root branch spans putting seed into earth, germination, and development. The question tests whether performing the visible input warrants the comprehensive title of grower.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Seed placement, germination, and maturation supply the full process whose agency the paired forms contest."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic contrast between human farmers and the speaking We.",
+              "after": "A challenge to the inference that visible seed-work makes humans the agents of the seed's germination and maturation."
+            }
+          },
+          {
+            "model_id": "baseline_sharecropping_claim",
+            "confidence": "medium",
+            "focus_anchor": "The either-or syntax assigns the same crop between two candidate agents.",
+            "mechanism": "The sharecropping branch makes the question sound like an allocation dispute: labor, productive agency, risk, and entitlement need not belong to the same party.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B003",
+                "role": "The recognized sharecropping relation supplies a joint-enterprise frame for separating work from productive authorship."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two rival answers to who performs farming.",
+              "after": "An interrogation of how credit and entitlement are allocated when human labor participates in a productive relation it does not control."
+            }
+          },
+          {
+            "model_id": "baseline_generative_seed",
+            "confidence": "exploratory",
+            "focus_anchor": "The crop pronoun and repeated sowing root can carry a seed-to-growth relation beyond field labor.",
+            "mechanism": "One branch calls a man's semen his sowing, while the main branch includes growth and even comparison of a child's maturation to plant development. Together they permit a reproductive model in which delivery of generative material is not formation or growth.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B004",
+                "role": "Semen as a man's sowing supplies the generative-seed side of the analogy."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Organic development, including child-growth comparison, supplies the maturation side of the analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The question concerns an agricultural crop only.",
+              "after": "The field question can also ask whether supplying reproductive seed makes its human supplier the maker of the life that develops from it."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_tillage_growth_boundary",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ح ر ث"
+            ],
+            "mechanism": "The immediately preceding question names the human act as tilling and seed-casting, then the focus switches to the broader sowing-and-growth root. The adjacency draws a causal boundary between preparing or seeding the field and making the planted thing develop.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Germination and development name the result-side process set against prior field work."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The attention-command turns ordinary field activity into an inspected causal claim."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ح ر ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000303",
+                "branch_id": "B002",
+                "role": "Casting seed and cultivation define the genuine human input from which growth is distinguished."
+              }
+            ],
+            "structural_cues": [
+              "56:63 and 56:64 are adjacent questions about the same object but use different action roots.",
+              "The focus opposes a second-person verb to a first-person-plural agent noun."
+            ],
+            "reader_inference": "The packet supplies adjacent tilling and growth branches; I infer a stage boundary and causal handoff. A live alternative is that the two roots are rhetorical near-synonyms rather than a technical division.",
+            "changed_reading": {
+              "before": "Human farming activity is denied wholesale.",
+              "after": "Human tilling is acknowledged as a real input, while the transition from deposited seed to developing plant is withheld from human causal ownership."
+            }
+          },
+          {
+            "model_id": "delta_emission_creation_growth",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "م ن ي",
+              "ن ش ء"
+            ],
+            "mechanism": "The earlier sequence places emitted semen beside a mirrored question about creating it, then recalls origination. That sequence activates the focus root's semen branch and turns crop growth into a second presentation of the distinction between supplying material and forming living development.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B004",
+                "role": "Semen as sowing lets the agricultural wording retrieve the preceding reproductive material."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Organic development supplies the result that emission alone cannot explain."
+              },
+              {
+                "source_ref": "56:58",
+                "root": "م ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001450",
+                "branch_id": "B002",
+                "role": "Semen from which bodily formation is measured supplies the explicit generative input."
+              },
+              {
+                "source_ref": "56:59",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing a created being into existence supplies the result-side agency denied to emission."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Origination reinforces development as an event beyond mere material transfer."
+              }
+            ],
+            "structural_cues": [
+              "56:59 and 56:64 share the same human-verb versus We-agent question form.",
+              "The reproductive sequence precedes the agricultural sequence within the same run of agency tests."
+            ],
+            "reader_inference": "The packet supplies semen, creation, origination, and a semen-as-sowing branch; I infer deliberate analogical transfer into the focus. The live alternative is that the two domains are only parallel examples and should not be semantically folded together.",
+            "changed_reading": {
+              "before": "The reproductive branch is a possible but isolated focus-root extension.",
+              "after": "The focus replays the prior reproductive argument: depositing seed, whether in womb or soil, is not identical with originating and developing the life that follows."
+            }
+          },
+          {
+            "model_id": "delta_measured_lifecycle",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق د ر",
+              "م و ت",
+              "ب د ل",
+              "ن ش ء",
+              "ء و ل"
+            ],
+            "mechanism": "Measure, death, replacement, origination, and first beginning place crop growth inside a bounded life-cycle rather than treating sprouting as an isolated marvel. Seed development becomes a small material model of continuity through termination and renewed form.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "The seed-to-developed-plant process provides the observable life-cycle anchor."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Ordering by measure supplies governance of the cycle's limits and transitions."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of life supplies the terminal boundary against which new growth is read."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B001",
+                "role": "One thing standing in another's place supplies continuity through replacement."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Bringing something newly into being supplies the renewed-form phase."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and priority mark the known first instance from which recurrence is inferred."
+              }
+            ],
+            "structural_cues": [
+              "The death, replacement, origination, first-beginning, and field sequence runs directly into the focus."
+            ],
+            "reader_inference": "The packet supplies ordered life-cycle terms; I infer that plant development models their causal continuity. A live alternative is a series of independent demonstrations rather than one cycle.",
+            "changed_reading": {
+              "before": "The question asks only who causes one crop to grow.",
+              "after": "The crop stages a measured passage from latent beginning through developed form within the same authority that bounds death, replacement, and renewed origination."
+            }
+          },
+          {
+            "model_id": "delta_control_of_continuance",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ي ء",
+              "ج ع ل",
+              "ح ط م"
+            ],
+            "mechanism": "The next ayah carries the crop object forward into a counterfactual transformation into dry fragments. Productive agency is therefore tested not only by initiation but by command over whether development continues or is reversed.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Development and maturation provide the trajectory whose continuance is at issue."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "Will directed to the crop supplies the counterfactual control condition."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Transforming a thing into another state supplies the reversal operation."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Dry matter broken into fragments supplies the failed endpoint opposed to maturation."
+              }
+            ],
+            "structural_cues": [
+              "The singular crop pronoun continues from the focus into the conditional destruction statement."
+            ],
+            "reader_inference": "The packet supplies will, transformation, and a shattered endpoint; I infer that counterfactual outcome-control diagnoses the true grower. A live alternative treats destruction as a later intervention unrelated to who caused initial growth.",
+            "changed_reading": {
+              "before": "The grower is whoever starts germination.",
+              "after": "The grower is identified by control of the crop's whole trajectory, including the power to sustain maturation or reverse it into dry debris."
+            }
+          },
+          {
+            "model_id": "delta_cultivation_risk_ledger",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ط م",
+              "غ ر م",
+              "ح ر م"
+            ],
+            "mechanism": "The sharecropping branch becomes economically concrete when crop destruction is followed by liability and deprivation. Expected produce can turn into an attached loss, exposing the difference between contributing labor, claiming yield, and controlling the venture's result.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B003",
+                "role": "Sharecropping supplies the divided labor, yield, and risk frame."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B007",
+                "role": "Acquiring wealth after need makes successful cultivation an expected economic recovery."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "The shattered crop removes the anticipated productive asset."
+              },
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B001",
+                "role": "A binding financial liability converts failed yield into ledgered loss."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Missing the sought gain supplies the final state of deprivation."
+              }
+            ],
+            "structural_cues": [
+              "The speakers' response moves immediately from crop failure to financial loss and then denied gain."
+            ],
+            "reader_inference": "The packet supplies sharecropping, wealth, crop loss, liability, and deprivation; I infer a risk-allocation ledger. A live alternative is that the financial language is only lament and does not imply a contractual model.",
+            "changed_reading": {
+              "before": "The two agents are rival claimants to the same farming act.",
+              "after": "The agency question audits claims to productive credit under risk: human labor expects the return, but failure reveals that neither yield nor recovery was under human title."
+            }
+          },
+          {
+            "model_id": "delta_upstream_provisioning",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ه",
+              "ن ز ل",
+              "م ز ن",
+              "ن ش ء",
+              "ش ج ر"
+            ],
+            "mechanism": "The following water and fire-tree questions repeat the same agency grammar while exposing prerequisites outside the fieldworker's act. Delivered water enables crop development, and a generated tree underlies even human-kindled fire; cultivation expands into governance of an upstream material network.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Plant development anchors the network whose enabling inputs are unfolded afterward."
+              },
+              {
+                "source_ref": "56:68",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Water conveyed by pouring or irrigation supplies the crop's immediate enabling input."
+              },
+              {
+                "source_ref": "56:69",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2",
+                  "7"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Delivering something downward supplies control of the input's arrival."
+              },
+              {
+                "source_ref": "56:69",
+                "root": "م ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001419",
+                "branch_id": "B001",
+                "role": "Clouds supply the upstream reservoir from which the water is delivered."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Generating the material source repeats the result-side agency pattern."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The living tree supplies the substrate behind the apparently human production of fire."
+              }
+            ],
+            "structural_cues": [
+              "56:69 and 56:72 repeat the focus's second-person verb versus We-agent construction.",
+              "The sequence moves from crop to water to fire-producing tree."
+            ],
+            "reader_inference": "The packet supplies enabling water, its delivery, clouds, and the generated tree; I infer a single upstream dependency network around growth. A live alternative keeps the water and fire examples parallel but causally separate.",
+            "changed_reading": {
+              "before": "Growth is an event internal to seed and soil.",
+              "after": "Being the grower includes provisioning and coordinating the material conditions on which both crops and downstream human techniques depend."
+            }
+          },
+          {
+            "model_id": "delta_cultivation_as_lordly_nurture",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "The closing title activates both mapped branches of lordship: repair, nurture, and completion on one mapping, and feeding and growth on the other. The focus agent noun consequently widens from causing a sprout to continuously tending a being toward completion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Planting and development provide the concrete image later absorbed into sustained nurture."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repairing, nurturing, and completing supply the continuous governance dimension of growing."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "Feeding and organic development make the alternate root mapping a direct bridge back to crop growth."
+              }
+            ],
+            "structural_cues": [
+              "The agency-question sequence closes by naming the addressee's Lord."
+            ],
+            "reader_inference": "The packet supplies two mapped lordship branches and their closing position; I infer that they summarize the grower as continuous nurturer. A live alternative treats the final title as devotional closure without lexical feedback into the focus.",
+            "changed_reading": {
+              "before": "The grower is the immediate cause of sprouting.",
+              "after": "The grower is the sustaining lordly agent who feeds, repairs, raises, and completes development across its whole duration."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_gratitude_as_new_shoot",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from botany into ethical response through a remote branch of the gratitude root. It remains anchored in the focus's plant-development branch and in the water sequence's explicit call to gratitude; downstream prose should present it as a branch resonance, not as the lexical meaning of the surface verb.",
+            "focus_anchor": "The focus asks who makes planted life emerge and develop.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Emergent plant growth supplies the focus-side image."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B004",
+                "role": "The appearance of a tender new shoot lets gratitude figure as the visible growth returned from received water."
+              }
+            ],
+            "changed_reading": {
+              "before": "Humans are denied causal credit for making the crop emerge.",
+              "after": "Human agency may reappear responsively rather than productively: received provision can issue in gratitude like a new shoot, without making humans the source of growth."
+            }
+          },
+          {
+            "outlier_id": "outlier_harvest_reversal",
+            "confidence": "exploratory",
+            "containment": "This is surprising and form-distant because the focus ordinarily points toward sowing and growth, while the cited focus-root branch reverses toward harvest. It remains root-anchored and gains contextual pressure from death and the crop's reduction to dry fragments; downstream prose should mark it as a counter-reading about terminal control, not translate the focus as harvest.",
+            "focus_anchor": "The repeated focus root carries a marginal branch in which bringing the crop to harvest reverses its usual direction.",
+            "activation_trace": [
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B006",
+                "role": "Harvest supplies a root-internal terminal reading that reverses the dominant growth direction."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of life supplies the wider sequence's terminal boundary."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Dry fragmentation makes the crop's ending immediately visible after the focus."
+              }
+            ],
+            "changed_reading": {
+              "before": "The contrast concerns ownership of life's upward growth only.",
+              "after": "Exploratorily, the same question can cast the true cultivator as owner of both directions of the crop cycle, including its ripening, cutting off, and terminal return."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The adjacent tilling question separates genuine human field-work from the unowned transition into germination and maturation.",
+            "The semen and creation sequence turns agricultural sowing into a replay of material contribution versus living formation.",
+            "The crop's counterfactual destruction identifies full productive agency with control of continuance and outcome.",
+            "The closing lordship branches recast growing as sustained feeding, repair, nurture, and completion."
+          ],
+          "what_was_special": "The focus acts as the hinge of a repeated causal audit: human inputs are real, but each mirrored question moves attribution upstream from visible handling to origination, provisioning, continuance, and completion. Split-root lordship and the economic aftermath preserve readings that a generic power theme would flatten.",
+          "remaining_uncertainties": [
+            "The sharecropping and risk-ledger reading is coherent but depends on importing an allocative relation from a branch rather than explicit contractual syntax.",
+            "The water and fire-tree sequence may be one dependency network or several parallel demonstrations.",
+            "The gratitude-as-shoot and harvest-reversal outliers should remain qualified resonances because their activating branches are form-distant."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Cultivation is separated from actual growth.** Repeated `ز ر ع` activates **B001**, growing and cultivating crops. The disjunction assigns apparently shared lexical action to rival agents, forcing a distinction between placing seed and causing growth. **Abductive move:** I infer that humans perform the preparatory sense while the speaker claims effective growth. **Reading change:** one verb is split into instrumental and originating roles.\n\n2. **Agricultural dealing cannot purchase the yield.** `ز ر ع` **B003** supplies sharecropping or agricultural dealing. **Abductive move:** I infer that ownership arrangements regulate labor and shares but cannot contractually compel germination. **Reading change:** the question also limits economic control over the crop.",
@@ -2917,18 +3617,23 @@
   "root_lexicon": {
     "root_000630": {
       "root_ar": "ز ر ع",
+      "qac_roots_ar": [
+        "ز ر ع"
+      ],
       "root_id": "root_000630",
-      "root_mapping": {
-        "root_id": "root_000630",
-        "root_norm": "ز ر ع",
-        "source_root_norm": "ز ر ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 11,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ز ر ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 11
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "091c7b68e470203c66c5110c786fd9d663caa664885ae8775db63b889f125ce3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5773,14 +6478,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6081,11 +6792,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_64.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_64.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 79555,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6157,19 +6881,37 @@
           "root_ids": [
             "root_000630"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ز ر ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000630",
+            "targets": [
+              {
+                "qac_root_norm": "ز ر ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000630",
+                "furuq_root_norm": "ز ر ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 11,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000630",
-              "root_norm": "ز ر ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ز ر ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 11,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6196,10 +6938,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 8,
+        "dictionary_branches_kept": 8,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 8,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

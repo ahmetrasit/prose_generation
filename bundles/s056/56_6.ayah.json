@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.472830+00:00",
+  "generated_at": "2026-08-04T22:29:58.147199+00:00",
   "surah": 56,
   "ayah": 6,
   "ayahRef": "56:6",
@@ -1140,7 +1140,8 @@
       "morpheme_ids": [
         "m-w-s056-a006-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:6:1"
+      "aligned_qac_word_ref_upstream": "56:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1154,7 +1155,8 @@
       "morpheme_ids": [
         "m-w-s056-a006-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:6:2"
+      "aligned_qac_word_ref_upstream": "56:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1168,7 +1170,8 @@
       "morpheme_ids": [
         "m-w-s056-a006-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:6:3"
+      "aligned_qac_word_ref_upstream": "56:6:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1182,7 +1185,8 @@
       "morpheme_ids": [
         "m-w-s056-a006-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:6:4"
+      "aligned_qac_word_ref_upstream": "56:6:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1539,7 +1543,662 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_6.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:6",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1_PARTICULATE_PHASE_CHANGE",
+            "confidence": "strong",
+            "focus_anchor": "The predication kaanat habaa'an munbaththan makes an implicit feminine subject enter a dust-state qualified by dispersal.",
+            "mechanism": "Temporal coming-to-be converts a bounded but unnamed subject into fine matter; the adjective makes loss of cohesion, not dust alone, the endpoint.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time make the clause a realized state transition."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine, dispersed motes supply the particulate state into which the subject passes."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Spreading and scattering material make de-cohesion the operative result."
+              }
+            ],
+            "changed_reading": {
+              "before": "An unnamed subject simply becomes dust.",
+              "after": "An unnamed subject undergoes a completed phase change from coherent form into mobile, unbound particles."
+            }
+          },
+          {
+            "model_id": "B2_VISIBLE_SUSPENSION",
+            "confidence": "medium",
+            "focus_anchor": "Habaa'an and munbaththan combine airborne dust with active diffusion.",
+            "mechanism": "The dust branches couple rising material with motes disclosed by light, while the dispersal branch distributes them through a field of view. The transition therefore produces a new visibility regime as well as residue.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B001",
+                "role": "Dust rising in air supplies suspension and upward mobility."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine motes seen in a shaft of light make dispersion an act of particulate disclosure."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Material spread turns isolated dust into a pervasive visible field."
+              }
+            ],
+            "changed_reading": {
+              "before": "The dust is inert residue lying where it fell.",
+              "after": "The dust is suspended and distributed, so former solidity survives only as innumerable visible traces."
+            }
+          },
+          {
+            "model_id": "B3_EXTINGUISHED_REMAINDER",
+            "confidence": "exploratory",
+            "focus_anchor": "The habaa' predicate admits both spent ash and the image of empty hands.",
+            "mechanism": "The state change can register terminal exhaustion: substance cools into residue, mixes with earth, and leaves nothing graspable to retain.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Coming to be marks the residue as an achieved terminal condition."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B003",
+                "role": "Extinguished ash mixed with soil supplies the image of spent material."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B004",
+                "role": "Hands shaken empty convert material exhaustion into dispossession."
+              }
+            ],
+            "changed_reading": {
+              "before": "Becoming dust describes only reduction in particle size.",
+              "after": "Becoming dust also images extinguishment and the loss of anything that can still be possessed."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_CAUSAL_COMMINUTION",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ع",
+              "ر ج ج",
+              "ب س س",
+              "ج ب ل"
+            ],
+            "mechanism": "The preceding sequence identifies an elevated solid mass and supplies a process: a severe event agitates it, crumbling and mixing destroy its internal cohesion, and 56:6 states the resulting aerosolized residue.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine dispersed dust supplies the process endpoint."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering carries the comminuted residue away from its former mass."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B002",
+                "role": "The severe descending event supplies the initiating rupture."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Agitation until disturbance supplies the first mechanical operation."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Crumbling, wetting, and mixing supply the loss of internal binding."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "An elevated solid aggregate identifies the coherent input destroyed by the process."
+              }
+            ],
+            "structural_cues": [
+              "Ayat 56:4-6 form a process sequence: intensified shaking, intensified crumbling, then resultative fa- in 56:6; feminine singular kaanat resumes the nonhuman plural mountains."
+            ],
+            "reader_inference": "The packet supplies a severe event, repeated agitation, crumbling and mixing, and an elevated solid mass; I infer the arrow agitation -> comminution -> airborne residue. A live alternative is that the ayat enumerate concurrent signs rather than a mechanical chain.",
+            "changed_reading": {
+              "before": "An unidentified entity becomes scattered dust without a stated pathway.",
+              "after": "The mountains are processed from resistant elevated aggregates into fine mobile matter through a staged collapse of cohesion."
+            }
+          },
+          {
+            "model_id": "D2_VERTICAL_NULLIFICATION",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ق ع",
+              "خ ف ض",
+              "ر ف ع",
+              "ج ب ل"
+            ],
+            "mechanism": "The vertical pair of lowering and raising, the mountain's elevated solidity, and the split-root image of spreading over level ground activate a topological reading: height is converted into a horizontally undifferentiated particulate field.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine motes provide the level field's undifferentiated units."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Lateral spreading removes the particles from a single elevated center."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001270",
+                "branch_id": "B001",
+                "role": "The alternate mapped image of extension in a level place supplies an exploratory spatial endpoint."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Lowering after height supplies the downward transformation."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising establishes the vertical axis that the dusting of heights disrupts."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "The elevated solid aggregate supplies the height and differentiation being nullified."
+              }
+            ],
+            "structural_cues": [
+              "The lowering/raising pair in 56:3 precedes the named high masses in 56:5 and their dispersed state in 56:6."
+            ],
+            "reader_inference": "The packet supplies an alternate mapped branch of level extension, a down/up pair, and elevated solidity; I infer a height-to-field arrow. The alternate mapping may be form-distant, and lowering/raising may concern rank rather than geometry.",
+            "changed_reading": {
+              "before": "Scattering is random motion after breakage.",
+              "after": "Scattering materially abolishes vertical distinction, turning what dominated the horizon into an even field of particles."
+            }
+          },
+          {
+            "model_id": "D3_DISPERSION_TO_SORTING",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك و ن",
+              "ز و ج",
+              "ث ل ث"
+            ],
+            "mechanism": "The immediate repetition of the becoming construction links two contrary reorganizations: the mountains lose all grouping into scattered particles, then the human audience acquires grouping as three kinds.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Material scattering supplies the ungrouping side of the contrast."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "A second realized state transition links human classification to the material transition."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B004",
+                "role": "Kinds or classes supply the regrouping that follows material dispersal."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ث ل ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000203",
+                "branch_id": "B001",
+                "role": "The number three makes the new human order explicit and bounded."
+              }
+            ],
+            "structural_cues": [
+              "Ayah 56:7 immediately follows 56:6 and repeats k-w-n in the perfect while changing from an implicit nonhuman subject to second-person plural."
+            ],
+            "reader_inference": "The packet supplies adjacent state changes, first dispersion and then threefold grouping; I infer a contrastive arrow from material ungrouping to human regrouping. The live alternative is a simple subject shift with no designed parallel.",
+            "changed_reading": {
+              "before": "The dust-state is the end of order.",
+              "after": "The dust-state is a threshold: one old order is dissolved immediately before persons are sorted into a new, explicit order."
+            }
+          },
+          {
+            "model_id": "D4_COHESION_REASSIGNED",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ل ل",
+              "و ض ن",
+              "ق ب ل",
+              "ط و ف"
+            ],
+            "mechanism": "Later images systematically restore relations absent from dust: a gathered group, tight interweaving, mutual facing, and circulation around a center. Cohesion is not erased universally; it is withdrawn from the old landscape and reassigned to an ordered community.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Unbounded spreading supplies the decentered pole of the mechanism."
+              },
+              {
+                "source_ref": "56:13",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "A gathered group restores collective cohesion after particulate dispersal."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tight interwoven construction supplies material binding as the inverse of dust."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B009",
+                "role": "A group facing one another converts proximity into reciprocal social order."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Circulation around a center replaces uncontrolled diffusion with directed motion."
+              }
+            ],
+            "structural_cues": [
+              "After the 56:6 dispersal and 56:7 classification, 56:13-17 accumulates gathering, interweaving, face-to-face arrangement, and centered circulation."
+            ],
+            "reader_inference": "The packet supplies gathered, interwoven, mutually facing, and orbiting configurations; I read their accumulation as a designed inverse of decentered dust. They may instead be independent descriptions of reward with no backward pressure on 56:6.",
+            "changed_reading": {
+              "before": "Dust signifies a universal collapse of structure.",
+              "after": "Dust marks selective de-structuring: old material cohesion vanishes while a new social and spatial cohesion is assembled."
+            }
+          },
+          {
+            "model_id": "D5_VALUE_ACCOUNTING",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ج ز ي",
+              "ع م ل",
+              "ل غ و"
+            ],
+            "mechanism": "The later accounting frame contrasts what receives a due return with what is cast aside as uncounted. Read backward, the empty-handed dust-state is not only physical waste but the cancellation of a former structure's claim to lasting value.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B004",
+                "role": "Empty hands supply the focus image of dispossession and failed retention."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Returning an action's due establishes the positive accounting pole."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Purposeful action identifies what remains legible for recompense."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "A discarded thing not taken into account supplies the negative valuation pole."
+              }
+            ],
+            "structural_cues": [
+              "Ayah 56:24 explicitly links recompense to what people were doing, and 56:25 immediately excludes laghw from the resulting domain."
+            ],
+            "reader_inference": "The packet supplies recompensed action, purposeful work, uncounted discard, and the focus image of empty hands; I infer that physical residue also signals devaluation. The alternative is that laghw governs speech alone and contributes no material analogy.",
+            "changed_reading": {
+              "before": "The dust is merely leftover matter.",
+              "after": "The dust is matter stripped of standing and retention, contrasted with actions that remain countable enough to receive their due."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_EXPOSED_ANTI_PEARL",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the disclosure branch of b-th-th usually concerns news or inward distress and because pearl imagery is later and cross-domain. It remains anchored in munbaththan, light-visible habaa', and the packet's protective concealment branch. Render it only as a secondary exposure/containment analogy, not as a lexical replacement for scattered dust.",
+            "focus_anchor": "The adjective munbaththan qualifies fine habaa', allowing literal particulate spread to carry a secondary image of exposed contents.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B002",
+                "role": "Disclosure of what was concealed lets material breakup double as exposure of an interior."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine motes visible in light supply exposed, individually perceptible particles."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ل ء ل ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001337",
+                "branch_id": "B001",
+                "role": "The compact pearl supplies a valuable particulate counter-image to dust."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment opposes the dust's total exposure and diffusion."
+              }
+            ],
+            "changed_reading": {
+              "before": "Breakup exposes no meaningful inside; it only makes smaller pieces.",
+              "after": "The mass is turned inside out as exposed motes, an anti-pearl state opposed to compact value kept under protection."
+            }
+          },
+          {
+            "outlier_id": "O2_SHEARED_OFFCUT",
+            "confidence": "exploratory",
+            "containment": "This activation depends on the packet's non-dominant mapping of j-z-y to j-z-z and is therefore deliberately branch-distant. Its image of what falls through shearing remains materially anchored in habaa' and munbaththan. Downstream prose should label it an exploratory analogy, never the contextual meaning of jazaa'.",
+            "focus_anchor": "Fine scattered residue can be compared to material that falls away when a whole is cut.",
+            "activation_trace": [
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine particulate residue supplies the offcut-like material."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering distributes what has been severed from coherent form."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000242",
+                "branch_id": "B003",
+                "role": "The alternate split-root image of what falls by shearing recasts dust as judgment's material offcut."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Recompense for an act keeps the exploratory cutting image tied to the context's accounting operation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The dust is accidental debris after collapse.",
+              "after": "Exploratorily, the dust resembles what a decisive sorting operation shears away from a former whole."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Ayat 56:4-6 convert a generic dust-state into a causal sequence from resistant height through agitation and comminution to airborne residue.",
+            "The repeated k-w-n construction at 56:7 makes material dispersion a threshold immediately followed by threefold human classification.",
+            "Gathering, interweaving, mutual facing, and centered circulation in 56:13-17 relocate cohesion rather than letting 56:6 mean undifferentiated chaos alone."
+          ],
+          "what_was_special": "The focus supported linked changes in material topology, social sorting, visibility, containment, and valuation while remaining anchored in kaanat, habaa', and munbaththan.",
+          "remaining_uncertainties": [
+            "The lowering and raising pair may concern physical elevation, social rank, or both.",
+            "The non-dominant q-w-a and j-z-z mappings are productive but too form-distant for unqualified synthesis.",
+            "The exposure/protected-pearl contrast may be a useful material analogy without being a deliberate backward link."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Solid mass becomes visible particulate spread.** `ه ب و` **B001** supplies bright rising dust and **B002** fine scattered motes; `ب ث ث` **B001** supplies spreading a thing out. The preceding crushing gives the cause, while the later gathered multitude at a fixed time (56:49–50) gives a reverse motion. **Abductive move:** I infer that dispersion here is a phase in a larger disperse/gather sequence. **Reading change:** the ayah presents matter made individually visible before reassembly.\n\n2. **Outward scattering as disclosure.** `ب ث ث` **B002** is disclosing what is hidden in the self and **B003** investigating and exposing a matter. The immediate move from dispersed dust to three human kinds makes this branch functional. **Abductive move:** the packet supplies physical dispersion and social classification; I infer that what is spread is thereby exposed to view. **Reading change:** pulverization doubles as revelation of concealed distinctions.",
@@ -2469,18 +3128,23 @@
   "root_lexicon": {
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -3600,18 +4264,23 @@
     },
     "root_001576": {
       "root_ar": "ه ب و",
+      "qac_roots_ar": [
+        "ه ب و"
+      ],
       "root_id": "root_001576",
-      "root_mapping": {
-        "root_id": "root_001576",
-        "root_norm": "ه ب و",
-        "source_root_norm": "ه ب و",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ه ب و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5a9f630d2c7ac37cd0fc56311454073190a4d52c79109c870819f59063725abb",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4415,18 +5084,23 @@
     },
     "root_000083": {
       "root_ar": "ب ث ث",
+      "qac_roots_ar": [
+        "ب ث ث"
+      ],
       "root_id": "root_000083",
-      "root_mapping": {
-        "root_id": "root_000083",
-        "root_norm": "ب ث ث",
-        "source_root_norm": "ب ث ث",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 9,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ث ث",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 9
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f5ab52a3c15cb41138023b35eee0618ebf4481bffd2a3d11a4d99d46b1780d6a",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5745,14 +6419,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6043,11 +6723,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 99887,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6121,19 +6814,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -6145,19 +6856,37 @@
           "root_ids": [
             "root_001576"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ه ب و",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001576",
+            "targets": [
+              {
+                "qac_root_norm": "ه ب و",
+                "target_rank": 1,
+                "furuq_root_id": "root_001576",
+                "furuq_root_norm": "ه ب و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001576",
-              "root_norm": "ه ب و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ه ب و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6182,19 +6911,37 @@
           "root_ids": [
             "root_000083"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ث ث",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000083",
+            "targets": [
+              {
+                "qac_root_norm": "ب ث ث",
+                "target_rank": 1,
+                "furuq_root_id": "root_000083",
+                "furuq_root_norm": "ب ث ث",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 9,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000083",
-              "root_norm": "ب ث ث",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ث ث",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 9,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6221,10 +6968,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 14,
+        "dictionary_branches_kept": 14,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 3,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

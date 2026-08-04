@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.133973+00:00",
+  "generated_at": "2026-08-04T22:30:00.247270+00:00",
   "surah": 56,
   "ayah": 50,
   "ayahRef": "56:50",
@@ -2050,7 +2050,8 @@
       "morpheme_ids": [
         "m-w-s056-a050-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:50:1"
+      "aligned_qac_word_ref_upstream": "56:50:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2064,7 +2065,8 @@
       "morpheme_ids": [
         "m-w-s056-a050-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:50:2"
+      "aligned_qac_word_ref_upstream": "56:50:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2078,11 +2080,40 @@
       "morpheme_ids": [
         "m-w-s056-a050-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:50:3"
+      "aligned_qac_word_ref_upstream": "56:50:3",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null
+    {
+      "word_index": 4,
+      "surface_ar": "يَوْمٍۢ",
+      "word_ids": [
+        "w-s056-a050-w004"
+      ],
+      "qac_refs": [
+        "56:50:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a050-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "56:50:5",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "مَّعْلُومٍۢ",
+      "word_ids": [
+        "w-s056-a050-w005"
+      ],
+      "qac_refs": [
+        "56:50:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a050-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "56:50:6",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -2713,7 +2744,737 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_50.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:50",
+      "window": [
+        "56:41",
+        "56:42",
+        "56:43",
+        "56:44",
+        "56:45",
+        "56:46",
+        "56:47",
+        "56:48",
+        "56:49",
+        "56:50",
+        "56:51",
+        "56:52",
+        "56:53",
+        "56:54",
+        "56:55",
+        "56:56"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:50",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_convergence_to_rendezvous",
+            "confidence": "strong",
+            "focus_anchor": "لَمَجْمُوعُونَ إِلَىٰ مِيقَٰتِ",
+            "mechanism": "The passive plural makes dispersed persons the object of convergence, while miqat supplies a preassigned rendezvous rather than a loose period.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining what was dispersed supplies the convergence, with the passive form making the persons its object."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "A struck appointment supplies the fixed rendezvous toward which the gathering moves."
+              }
+            ],
+            "changed_reading": {
+              "before": "They will all be present at a known time.",
+              "after": "Dispersed persons will be made to converge toward a preassigned rendezvous."
+            }
+          },
+          {
+            "model_id": "baseline_total_event",
+            "confidence": "strong",
+            "focus_anchor": "لَمَجْمُوعُونَ ... يَوْمٍ",
+            "mechanism": "The gathering is complete rather than merely numerous, and its day is an occurrence of exceptional weight rather than an ordinary calendar unit.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B009",
+                "role": "Wholeness without dispersal or loss makes the gathered plural an exhaustive total."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The day as a severe, momentous occurrence gives that totalization event-weight."
+              }
+            ],
+            "changed_reading": {
+              "before": "A large crowd will assemble on a day.",
+              "after": "The momentous event gathers its entire human field without remainder."
+            }
+          },
+          {
+            "model_id": "baseline_marked_terminus",
+            "confidence": "medium",
+            "focus_anchor": "مِيقَٰتِ يَوْمٍ مَّعْلُومٍ",
+            "mechanism": "The stacked temporal terms make a bounded terminus, while ma'lum can make that terminus identifiable by a distinguishing mark, not merely known in someone's mind.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B002",
+                "role": "Setting a time or limit supplies the terminus's fixed boundary."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "A duration rather than only daylight lets the boundary denote a whole event-span."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing sign makes the appointed span marked and identifiable."
+              }
+            ],
+            "changed_reading": {
+              "before": "Known simply reports information about the date.",
+              "after": "The convergence has a bounded and marked terminus that can be identified when reached."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_affiliations_collected",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ش م ل"
+            ],
+            "mechanism": "Repeated companionship joined to a side turns gathering from indiscriminate massing into consolidation and disclosure of a durable cohort.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B002",
+                "role": "A group or mixture held by one direction lets the gathering retain corporate differentiation."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Repeated companionship supplies a relation that persists with its members and becomes the cohort gathered."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B006",
+                "role": "The leftward side supplies the cohort's directional designation within the larger convergence."
+              }
+            ],
+            "structural_cues": [
+              "56:41 repeats both the companion noun and the side designation before the environmental sequence begins."
+            ],
+            "reader_inference": "The packet supplies repeated affiliation, a side, and focus gathering; I infer that convergence preserves and exposes affiliation, while the live alternative is that the phrase only labels the addressees.",
+            "changed_reading": {
+              "before": "Everyone is merged into an undifferentiated total.",
+              "after": "The total gathering consolidates and makes visible the cohort relations people already carry."
+            }
+          },
+          {
+            "model_id": "delta_appointment_as_exposure_threshold",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م م",
+              "ح م م",
+              "ظ ل ل",
+              "ب ر د",
+              "ك ر م"
+            ],
+            "mechanism": "The fixed rendezvous becomes a threshold of entry into an enclosing condition: penetrating heat, soot-dark shelter, and a shade stripped of cooling and honor.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "The struck appointment supplies the threshold at which the described condition takes effect."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "A penetrating hot wind supplies exposure that enters rather than merely surrounds the gathered."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B001",
+                "role": "Soot, smoke, and darkness turn the apparent shelter into part of the harmful enclosure."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "Shade supplies the expected shelter whose function is then reversed."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Cooling supplies the denied protective effect of that shade."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honorable beneficence supplies the second denied function, making the environment inhospitable as well as hot."
+              }
+            ],
+            "structural_cues": [
+              "56:42-44 is a locative sequence of being in heat and shade, while 56:50 uses إلى to point toward the appointment."
+            ],
+            "reader_inference": "The packet supplies a fixed rendezvous and an inverted shelter; I infer that arrival at the miqat activates an embodied condition, while the alternative is that the setting only precedes the summons rhetorically.",
+            "changed_reading": {
+              "before": "The miqat is a neutral date on a calendar.",
+              "after": "The miqat is the scheduled threshold at which the gathered enter a total environment of exposure."
+            }
+          },
+          {
+            "model_id": "delta_resolve_reversed",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ر ر",
+              "ح ن ث"
+            ],
+            "mechanism": "Their active consolidation of resolve around wrongdoing is answered by passive consolidation of their own persons; the same coherence changes sides.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B003",
+                "role": "Gathered resolve after divided thought supplies the focus-side image of coherence, now borne passively by the people."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Persistence and determination supply the active coherence they formerly maintained."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B001",
+                "role": "Sin and liability supply the object around which that persistence was organized."
+              }
+            ],
+            "structural_cues": [
+              "56:45-46 uses repeated past habit before 56:50's emphatic passive participle."
+            ],
+            "reader_inference": "The packet supplies active persistence in wrongdoing and passive gathering; I infer an agency reversal from self-organized persistence to being organized for summons, while a simple causal sequence remains possible.",
+            "changed_reading": {
+              "before": "The verse only predicts where persistent wrongdoers will later stand.",
+              "after": "Those who once consolidated their resolve are themselves made into the consolidated object of the summons."
+            }
+          },
+          {
+            "model_id": "delta_material_reassembly",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ت",
+              "ت ر ب",
+              "ع ظ م",
+              "ب ع ث"
+            ],
+            "mechanism": "Death, dust, and bones give gathering a material problem to solve, while the stirring of what lay still supplies the transition from dispersed remains to an assembled total.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining dispersed parts makes the promised gathering answer material disintegration, not only social distance."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of life and power supplies the initial dismantling that gathering must overcome."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B001",
+                "role": "Earth and dust supply dispersed material rather than an intact waiting body."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B005",
+                "role": "Solid bone supplies a residual part contrasted with the surrounding dust."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Stirring the still from rest supplies the transition by which scattered material can become gathered persons."
+              }
+            ],
+            "structural_cues": [
+              "The skeptical question moves from death to dust and bones to passive raising, and 56:50 answers with another emphatic passive plural."
+            ],
+            "reader_inference": "The packet supplies decomposition, stirring, and joining the dispersed; I infer that gathering includes reconstructive collection, while the live alternative is that resurrection is complete before a merely social assembly.",
+            "changed_reading": {
+              "before": "Already restored people will later be brought into one crowd.",
+              "after": "The gathering itself answers dispersal into dust and bones by carrying a reconstructive, material force."
+            }
+          },
+          {
+            "model_id": "delta_historical_synchronizer",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء و ل",
+              "ء خ ر"
+            ],
+            "mechanism": "First and last set the endpoints of history, while the alternate mapped branch of first contributes succession; the one miqat synchronizes that serial human stream into complete co-presence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B009",
+                "role": "Completeness without loss makes the convergence span the whole historical field."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "One struck appointment supplies the common temporal coordinate for all generations."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence supply history's early endpoint."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Succession one after another supplies the serial flow that the appointment compresses into co-presence."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Lastness supplies history's late endpoint."
+              }
+            ],
+            "structural_cues": [
+              "56:48 expands the question to forefathers, and 56:49 answers with the merism of the first and the last immediately before the focus."
+            ],
+            "reader_inference": "The packet supplies ancestral extension, historical endpoints, serial succession, and one appointment; I infer temporal synchronization, while the alternative is simply exhaustive quantification without emphasis on collapsed sequence.",
+            "changed_reading": {
+              "before": "The verse gathers the complete population of one era.",
+              "after": "One appointment synchronizes the successive generations from history's first edge to its last."
+            }
+          },
+          {
+            "model_id": "delta_known_against_denial",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ض ل ل",
+              "ك ذ ب"
+            ],
+            "mechanism": "The immediate address to the lost deniers turns ma'lum into an epistemic counterclaim: their failed orientation and refusal do not make the appointed event indeterminate.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies objective determinacy against the addressees' refusal."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing sign supplies public identifiability, not private information alone."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from guidance and intended direction supplies the failed orientation answered by a fixed, marked terminus."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing the claim to falsehood supplies the denial that ma'lum polemically resists."
+              }
+            ],
+            "structural_cues": [
+              "56:51 follows the known day with ثم and a direct vocative naming the lost deniers."
+            ],
+            "reader_inference": "The packet supplies ma'lum followed by straying and denial; I infer a deliberate epistemic opposition, while the alternative is that ma'lum remains only a calendrical modifier.",
+            "changed_reading": {
+              "before": "Known is a neutral adjective attached to the day.",
+              "after": "Known asserts the appointment's stable legibility precisely against those who deny and lose their bearings."
+            }
+          },
+          {
+            "model_id": "delta_wandering_forced_to_endpoint",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ض ل ل",
+              "ه ي م"
+            ],
+            "mechanism": "The focus vector إلى ميقات and a gathering whose parts catch up reverse straying and aimless movement: divergent trajectories are forced to terminate together.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B010",
+                "role": "Motion gathering force until its parts catch up supplies convergent trajectories rather than a static crowd."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "The fixed appointment supplies the unavoidable endpoint of those trajectories."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Straying from the intended direction supplies one form of divergent motion."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B004",
+                "role": "Going about without aim through confusion supplies the second trajectory that the fixed vector reverses."
+              }
+            ],
+            "structural_cues": [
+              "The focus uses إلى toward a miqat; the post-focus sequence names the lost and ends its drinking image with hīm."
+            ],
+            "reader_inference": "The packet supplies directional grammar, straying, aimless movement, and convergent motion; I infer coerced vector correction, while the alternative is that hīm contributes only thirst to the drinking simile.",
+            "changed_reading": {
+              "before": "Gathering is a static placement at a date.",
+              "after": "Even trajectories defined by straying and aimlessness are made to converge on one unavoidable endpoint."
+            }
+          },
+          {
+            "model_id": "delta_prepared_reception_of_account",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ز ل",
+              "د ي ن"
+            ],
+            "mechanism": "The miqat becomes a scheduled arrival whose reception is already prepared, while the day of account determines the character of that bitter provision.",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "A struck appointment supplies the scheduled arrival."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The day as a severe occurrence supplies the event character of that arrival."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Provision prepared for an arriving guest supplies an ironic reception already waiting at the appointment."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and requital supply the rule that determines the reception."
+              }
+            ],
+            "structural_cues": [
+              "The eating and drinking sequence closes with هذا نزلهم يوم الدين, naming the provision and the event-day together."
+            ],
+            "reader_inference": "The packet supplies an appointment, prepared provision, and accounting; I infer that the hospitality frame reaches backward to cast the miqat as scheduled arrival, while the alternative limits nuzul to the meal after assembly.",
+            "changed_reading": {
+              "before": "The appointed day merely tells when the gathering occurs.",
+              "after": "The appointment is a scheduled arrival into a reception already prepared under the logic of account."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_gathering_as_constraint",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the shackle image is peripheral to the ordinary passive participle, but it remains anchored in the supplied ج م ع branch and the coercive passive; downstream prose should present it only as an undertone of constrained assembly, not as the lexical gloss.",
+            "focus_anchor": "The passive لَمَجْمُوعُونَ",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B008",
+                "role": "A restraint joining hands to neck supplies coercive binding as an extreme image of being gathered."
+              }
+            ],
+            "changed_reading": {
+              "before": "The people are simply assembled in one location.",
+              "after": "The passive gathering carries a possible undertone of being bound into an inescapable collective condition."
+            }
+          },
+          {
+            "outlier_id": "outlier_macro_and_micro_filling",
+            "confidence": "exploratory",
+            "containment": "This is a cross-scale material analogy, surprising because the large gathered fullness branch is not the ordinary sense of majmu'un; it remains anchored by that focus branch and the explicit filling of bellies, and should be qualified as a spatial echo rather than a translation.",
+            "focus_anchor": "لَمَجْمُوعُونَ as a gathered, full total",
+            "activation_trace": [
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B012",
+                "role": "Greatness figured as gathered fullness supplies a macro-container image for the assembled total."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling until contents equal the vessel supplies the repeated operation at the bodily scale."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B001",
+                "role": "The belly as an interior supplies the explicit micro-container receiving that filling."
+              }
+            ],
+            "changed_reading": {
+              "before": "Gathering is only an external crowd relation.",
+              "after": "The gathered total can be heard as macro-scale filling, grimly echoed when each person's interior is filled."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Dust, bones, and ba'th revise social assembly into a materially reconstructive gathering.",
+            "The first, the last, and succession make one miqat synchronize the full historical stream.",
+            "The surrounding exposure and prepared nuzul turn a bare date into a threshold and scheduled arrival under account."
+          ],
+          "what_was_special": "The focus's passive gathering sits between skeptical material decomposition and a post-focus sequence of denial, forced intake, and prepared provision, so material, temporal, social, directional, and container readings remain simultaneously traceable.",
+          "remaining_uncertainties": [
+            "The packet does not decide whether reconstructive collection belongs inside gathering or is completed by ba'th before assembly.",
+            "Ma'lum may polemically answer denial, or it may remain only a known-date modifier.",
+            "The exposure-threshold, hospitality, restraint, and filling models depend on analogical extension and should not displace the direct convergence model."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Scattered generations concentrated at a bounded time.** `ج م ع` **B001** supplies gathering scattered parts into one whole; `و ق ت` **B002** supplies bounding by a time or limit; `ي و م` **B003** supplies an event-day; `ع ل م` **B001** supplies knowing as something becomes clear. The line reverses the dust-dispersion of 56:6. **Abductive move:** I infer that temporal appointment is the mechanism that coordinates universal gathering. **Reading change:** the event is a scheduled concentration of what history and death dispersed.\n\n2. **A gathering that admits no loss.** `ج م ع` **B009** supplies wholeness without scattering or loss, while `ع ل م` **B002** supplies a distinguishing mark. **Abductive move:** I infer that being known permits each dispersed member to be distinguished within the whole. **Reading change:** universality does not erase particular identity.",
@@ -3718,18 +4479,23 @@
   "root_lexicon": {
     "root_000259": {
       "root_ar": "ج م ع",
+      "qac_roots_ar": [
+        "ج م ع"
+      ],
       "root_id": "root_000259",
-      "root_mapping": {
-        "root_id": "root_000259",
-        "root_norm": "ج م ع",
-        "source_root_norm": "ج م ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 128,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج م ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 128
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9f28b30b232d53f076a883a6be36117446f925877f957c5fa9120447d9dc17a8",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6369,18 +7135,23 @@
     },
     "root_001671": {
       "root_ar": "و ق ت",
+      "qac_roots_ar": [
+        "و ق ت"
+      ],
       "root_id": "root_001671",
-      "root_mapping": {
-        "root_id": "root_001671",
-        "root_norm": "و ق ت",
-        "source_root_norm": "و ق ت",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 9,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ق ت",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 9
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "56aea3fe02a333d3114cf348d8f750c4a9fdb49540a40a64e06a7b27317fd62a",
         "branches": [
@@ -6952,18 +7723,23 @@
     },
     "root_001700": {
       "root_ar": "ي و م",
+      "qac_roots_ar": [
+        "ي و م"
+      ],
       "root_id": "root_001700",
-      "root_mapping": {
-        "root_id": "root_001700",
-        "root_norm": "ي و م",
-        "source_root_norm": "ي و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 414,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 414
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e76145ff9db215c969fb749d8f4011fa704b398c30ebc90862161f0e4604a786",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8282,18 +9058,23 @@
     },
     "root_001040": {
       "root_ar": "ع ل م",
+      "qac_roots_ar": [
+        "ع ل م"
+      ],
       "root_id": "root_001040",
-      "root_mapping": {
-        "root_id": "root_001040",
-        "root_norm": "ع ل م",
-        "source_root_norm": "ع ل م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 771,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 771
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8cfacfe87682b0ea79a8459f834938bbff910f60c9504afde93dae299ea41d5e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11333,32 +12114,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
       "words_total": 6,
-      "words_resolved": 3,
-      "words_unresolved": 3,
+      "words_resolved": 5,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 4,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 3,
           "surface_ar": "مِيقَاتِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "يَوْمٍۢ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "مَّعْلُومٍۢ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -11686,11 +12464,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_50.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_50.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 75634,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -11765,19 +12556,37 @@
           "root_ids": [
             "root_000259"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج م ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000259",
+            "targets": [
+              {
+                "qac_root_norm": "ج م ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000259",
+                "furuq_root_norm": "ج م ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 128,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000259",
-              "root_norm": "ج م ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج م ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 128,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11802,19 +12611,37 @@
           "root_ids": [
             "root_001671"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ق ت",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001671",
+            "targets": [
+              {
+                "qac_root_norm": "و ق ت",
+                "target_rank": 1,
+                "furuq_root_id": "root_001671",
+                "furuq_root_norm": "و ق ت",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 9,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001671",
-              "root_norm": "و ق ت",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ق ت",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 9,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -11826,19 +12653,37 @@
           "root_ids": [
             "root_001700"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001700",
+            "targets": [
+              {
+                "qac_root_norm": "ي و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001700",
+                "furuq_root_norm": "ي و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 414,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001700",
-              "root_norm": "ي و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 414,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11863,19 +12708,37 @@
           "root_ids": [
             "root_001040"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001040",
+            "targets": [
+              {
+                "qac_root_norm": "ع ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001040",
+                "furuq_root_norm": "ع ل م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 771,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001040",
-              "root_norm": "ع ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ل م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 771,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11902,10 +12765,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 25,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

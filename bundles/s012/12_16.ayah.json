@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T05:42:12.686729+00:00",
+  "generated_at": "2026-08-04T22:28:19.326102+00:00",
   "surah": 12,
   "ayah": 16,
   "ayahRef": "12:16",
@@ -1711,12 +1711,59 @@
       "morpheme_ids": [
         "m-w-s012-a016-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:16:1"
+      "aligned_qac_word_ref_upstream": "12:16:1",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null
+    {
+      "word_index": 2,
+      "surface_ar": "أَبَاهُمْ",
+      "word_ids": [
+        "w-s012-a016-w002"
+      ],
+      "qac_refs": [
+        "12:16:2:1",
+        "12:16:2:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a016-w002-01",
+        "m-w-s012-a016-w002-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:16:3",
+      "morpheme_skip_count": 2
+    },
+    {
+      "word_index": 3,
+      "surface_ar": "عِشَاءًۭ",
+      "word_ids": [
+        "w-s012-a016-w003"
+      ],
+      "qac_refs": [
+        "12:16:3:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a016-w003-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:16:4",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "يَبْكُونَ",
+      "word_ids": [
+        "w-s012-a016-w004"
+      ],
+      "qac_refs": [
+        "12:16:4:1",
+        "12:16:4:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a016-w004-01",
+        "m-w-s012-a016-w004-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:16:5",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -2330,7 +2377,883 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s12/packets/12_16.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "12:16",
+      "window": [
+        "12:1",
+        "12:2",
+        "12:3",
+        "12:4",
+        "12:5",
+        "12:6",
+        "12:7",
+        "12:8",
+        "12:9",
+        "12:10",
+        "12:11",
+        "12:12",
+        "12:13",
+        "12:14",
+        "12:15",
+        "12:16",
+        "12:17",
+        "12:18"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "12:16",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-paternal-grief-arrival",
+            "confidence": "strong",
+            "focus_anchor": "The construction joins جاءوا, أباهم, عشاء, and يبكون as movement, recipient, time, and manifest affect.",
+            "mechanism": "A collective movement terminates at the father-as-caregiver after nightfall, with crying supplying sorrow, tears, or voice; the event is an appeal for paternal reception rather than bare locomotion.",
+            "activation_trace": [
+              {
+                "source_ref": "12:16",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Ordinary coming supplies the movement that culminates before the father."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "Fatherhood and nurture make the addressee the scene's receiving and protective authority."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ع ش و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001017",
+                "branch_id": "B004",
+                "role": "The evening-time image fixes the arrival at the late-day and night threshold."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B001",
+                "role": "Sorrow, tears, and voice supply the manifest affect carried into the encounter."
+              }
+            ],
+            "changed_reading": {
+              "before": "They came home at night while crying.",
+              "after": "Their return is an affective appeal delivered to the household's paternal protector at a vulnerable night threshold."
+            }
+          },
+          {
+            "model_id": "baseline-obscured-display",
+            "confidence": "exploratory",
+            "focus_anchor": "عشاء stands beside يبكون, and the display is directed to أباهم.",
+            "mechanism": "Reduced nocturnal visibility lets audible or visible grief dominate what the father can assess. The form-distant affected-weeping branch keeps open, without asserting, the possibility that the group presents a managed emotional surface.",
+            "activation_trace": [
+              {
+                "source_ref": "12:16",
+                "root": "ع ش و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001017",
+                "branch_id": "B001",
+                "role": "Night darkness and low clarity supply reduced inspectability as the display's condition."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B004",
+                "role": "Affected weeping supplies the exploratory possibility of performed rather than spontaneous grief."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "The nurturing father is the intended evaluator and emotional audience of the surface."
+              }
+            ],
+            "changed_reading": {
+              "before": "Evening is an incidental timestamp and the crying transparently reports grief.",
+              "after": "Evening can function as reduced inspectability while possibly affected crying becomes an emotionally legible surface offered to the father; this remains a possibility, not an assertion."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-sign-under-audit",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ي ي",
+              "ب ي ن",
+              "ع ق ل",
+              "ق ص ص"
+            ],
+            "mechanism": "The opening frame turns the focus display into an evidentiary problem: a visible sign under low visibility must be disclosed by restrained reasoning and by following the sequence, so tears cannot authenticate themselves in isolation.",
+            "activation_trace": [
+              {
+                "source_ref": "12:16",
+                "root": "ع ش و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001017",
+                "branch_id": "B001",
+                "role": "Low clarity makes the focus scene an apt site for ambiguous evidence."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B001",
+                "role": "Tears, sorrow, and voice provide the immediately visible or audible sign to be assessed."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest-sign image casts the focus affect as something legible but not automatically self-interpreting."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "Disclosure by speech or sign supplies the criterion against which the dark emotional display is tested."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "Reason as a restraint on ignorance supplies the reader's check against immediate affective assent."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "ق ص ص",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001232",
+                "branch_id": "B001",
+                "role": "Following a trace makes sequential comparison, rather than isolated appearance, the disclosure mechanism."
+              }
+            ],
+            "structural_cues": [
+              "12:1-3 frame the pericope as manifest signs made intelligible through a sequentially told account.",
+              "The focus presents affect under darkness before later claims and objects can be checked."
+            ],
+            "reader_inference": "The packet supplies visible-sign, disclosure, reason-as-restraint, and trace-following images; I infer that the tears should be read as evidence within a sequence rather than accepted alone. Alternatively, the opening frame may guide the reader globally without making these tears locally suspect.",
+            "changed_reading": {
+              "before": "The crying is a transparent report of the group's inner grief.",
+              "after": "The crying is an ambiguous sign whose value emerges only when its dark presentation is traced against the surrounding sequence."
+            }
+          },
+          {
+            "model_id": "delta-counter-revelation-to-father",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ء ب و",
+              "ر ء ي",
+              "ك ي د"
+            ],
+            "mechanism": "Joseph's singular dream disclosure to his father is followed by a warning about sibling stratagem; the brothers' plural, affect-laden return to the same father can therefore function as a rival disclosure intended to overwrite the father's prior visual and narrative frame.",
+            "activation_trace": [
+              {
+                "source_ref": "12:4",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Spoken utterance establishes the earlier child-to-father disclosure channel."
+              },
+              {
+                "source_ref": "12:4",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B002",
+                "role": "Direct father-address marks the earlier report as an intimate paternal communication."
+              },
+              {
+                "source_ref": "12:4",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "7",
+                  "13"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B003",
+                "role": "The dream-vision image supplies the content of the first disclosure that the later scene competes with."
+              },
+              {
+                "source_ref": "12:4",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "7",
+                  "13"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The packet's split narration image makes the vision also a transmitted report, sharpening the parallel with the brothers' report."
+              },
+              {
+                "source_ref": "12:5",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "8",
+                  "10"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "Stratagem and contrivance supply the mechanism by which a rival disclosure could be engineered."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "The same paternal authority becomes the recipient whose prior understanding is at stake."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B004",
+                "role": "Possibly affected weeping supplies a nonverbal counter-report, with its form distance keeping the claim exploratory."
+              }
+            ],
+            "structural_cues": [
+              "12:4 is a singular son-to-father disclosure, whereas 12:16 is a plural group-to-father display.",
+              "12:5 explicitly places sibling stratagem between the two paternal encounters."
+            ],
+            "reader_inference": "The packet supplies dream, report, paternal address, stratagem, and possible affected weeping; I infer that the group display competes with the earlier disclosure for control of the father's reading. Alternatively, the two encounters may be parallel without the later one deliberately answering the first.",
+            "changed_reading": {
+              "before": "The brothers merely report a new calamity to their father.",
+              "after": "Their crying arrival can operate as a counter-revelation, trying to replace Joseph's earlier vision with the group's emotionally staged version of events."
+            }
+          },
+          {
+            "model_id": "delta-affective-occupation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ب ب",
+              "ء ب و",
+              "ع ص ب",
+              "و ج ه"
+            ],
+            "mechanism": "The group names unequal paternal love, identifies itself as a mutually supporting band, and imagines the father's face becoming available after Joseph's removal. Its collective crying return can thus be a bid to occupy the paternal attention whose distribution generated the plot.",
+            "activation_trace": [
+              {
+                "source_ref": "12:8",
+                "root": "ح ب ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000286",
+                "branch_id": "B002",
+                "role": "Love lodged in the heart supplies the scarce paternal attachment over which the brothers compete."
+              },
+              {
+                "source_ref": "12:8",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "7",
+                  "12"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "Fatherhood and nurture locate the rivalry inside a relation of care."
+              },
+              {
+                "source_ref": "12:8",
+                "root": "ع ص ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001018",
+                "branch_id": "B004",
+                "role": "A surrounding, mutually supporting group supplies the coordinated social body that returns crying."
+              },
+              {
+                "source_ref": "12:9",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The father's face and forward attention supply the object the group seeks to clear for itself."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Collective coming delivers the rival group back into the father's presence."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B004",
+                "role": "Affected weeping supplies the possible instrument for capturing sympathy and paternal attention."
+              }
+            ],
+            "structural_cues": [
+              "12:8 names both the love asymmetry and the brothers' group identity.",
+              "12:9 makes exclusive access to the father's face an explicit desired outcome."
+            ],
+            "reader_inference": "The packet supplies rivalry for love, cohesive group force, the father's face, and possible affected crying; I infer that grief can function as coordinated affective occupation after the rival's removal. Alternatively, guilt or fear could produce unplanned tears even within the same rivalry.",
+            "changed_reading": {
+              "before": "The group seeks paternal comfort after suffering a loss.",
+              "after": "The group may use grief to reoccupy the paternal attention it complained was withheld, making the return a social seizure as well as a report."
+            }
+          },
+          {
+            "model_id": "delta-broken-pledge-collateral",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م ن",
+              "ن ص ح",
+              "ح ف ظ"
+            ],
+            "mechanism": "Before departure the brothers solicit trust, claim freedom from adulteration, and promise guardianship. When they return without the protected person, crying can function as affective collateral offered in place of the trust, purity, and custody their earlier words pledged.",
+            "activation_trace": [
+              {
+                "source_ref": "12:11",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and settled trust supply the relational credit the brothers obtained before departure."
+              },
+              {
+                "source_ref": "12:11",
+                "root": "ن ص ح",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001509",
+                "branch_id": "B002",
+                "role": "Purity from fraud supplies the claimed quality of their counsel and intention."
+              },
+              {
+                "source_ref": "12:12",
+                "root": "ح ف ظ",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000342",
+                "branch_id": "B001",
+                "role": "Guarding and watchful care supply the concrete duty the return scene must account for."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B001",
+                "role": "Manifest sorrow supplies an emotional substitute for the absent protected person and failed custody."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ء ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000007",
+                "branch_id": "B001",
+                "role": "The father as guardian and nurturer is the creditor to whom the failed pledge must be answered."
+              }
+            ],
+            "structural_cues": [
+              "12:11-12 place trust, pure counsel, and an explicit protection claim before the departure.",
+              "12:16 reverses that movement: the guardians return to the father while the guarded son does not."
+            ],
+            "reader_inference": "The packet supplies trust, unadulterated counsel, guardianship, absence, and crying; I infer that tears replace the missing performance of the pledge with affective evidence. Alternatively, genuinely failed guardians could offer the same tears without strategic substitution.",
+            "changed_reading": {
+              "before": "The tears simply register the loss they have come to announce.",
+              "after": "The tears also act as affective collateral, offered where promised guardianship and fraud-free counsel have failed."
+            }
+          },
+          {
+            "model_id": "delta-borrowed-fear-script",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ز ن",
+              "خ و ف",
+              "ء ك ل",
+              "ذ ء ب",
+              "غ ف ل",
+              "ع ص ب"
+            ],
+            "mechanism": "The father supplies both the anticipated affect and the feared causal scenario: grief at separation, dread of predation, and the group's inattention. The group then repeats the predator scenario, so its crying can perform the father's own forecasted grief back to him before the verbal account.",
+            "activation_trace": [
+              {
+                "source_ref": "12:13",
+                "root": "ح ز ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000317",
+                "branch_id": "B001",
+                "role": "The roughening of the self by grief supplies the affective register first voiced by the father."
+              },
+              {
+                "source_ref": "12:13",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Fear as expectation of harm supplies the father's advance scenario rather than a later discovery."
+              },
+              {
+                "source_ref": "12:13",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B007",
+                "role": "The prey image gives the feared event its victim-predator mechanism."
+              },
+              {
+                "source_ref": "12:13",
+                "root": "ذ ء ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000505",
+                "branch_id": "B002",
+                "role": "Wolfish predation supplies the exact agent image later adopted by the brothers."
+              },
+              {
+                "source_ref": "12:13",
+                "root": "غ ف ل",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_001097",
+                "branch_id": "B001",
+                "role": "Leaving something outside vigilance supplies the lapse built into the father's forecast."
+              },
+              {
+                "source_ref": "12:14",
+                "root": "ع ص ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001018",
+                "branch_id": "B004",
+                "role": "The mutually supporting group image makes the brothers' adoption of the scenario a collective performance."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B004",
+                "role": "Affected weeping supplies the possible enactment of the father's preannounced grief."
+              }
+            ],
+            "structural_cues": [
+              "12:13 gives the father both the grief and wolf scenario before the brothers claim it.",
+              "12:14 rehearses their answer, and 12:16 places crying before their detailed account."
+            ],
+            "reader_inference": "The packet supplies a preannounced grief, expected harm, predator script, vigilance lapse, group response, and possible affected crying; I infer that the brothers borrow the father's affect to make his fear feel fulfilled. Alternatively, witnesses to a feared event might naturally mirror the fearer's emotional language.",
+            "changed_reading": {
+              "before": "The brothers cry because the alleged wolf attack has made them grieve.",
+              "after": "Their crying can be borrowed affect: they perform the father's already voiced grief so that his own feared wolf scenario arrives feeling emotionally confirmed."
+            }
+          },
+          {
+            "model_id": "delta-hiddenness-transferred",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج م ع",
+              "ج ع ل",
+              "غ ي ب",
+              "ج ب ب",
+              "ش ع ر"
+            ],
+            "mechanism": "A resolved collective makes Joseph disappear into the pit's hidden depth while fine perception is absent. The next movement carries that hiddenness into the father's world: evening lowers visibility, and crying supplies a perceptible substitute for the son who has been placed beyond sight.",
+            "activation_trace": [
+              {
+                "source_ref": "12:15",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B003",
+                "role": "Resolved gathering of opinion supplies the unified agency behind the concealment and return."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making something assume a condition supplies the deliberate transfer of Joseph into hiddenness."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "غ ي ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001117",
+                "branch_id": "B002",
+                "role": "A depression in which something disappears supplies the spatial image of removed visibility."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "ج ب ب",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000214",
+                "branch_id": "B009",
+                "role": "The cut, unlined well gives the concealment a bounded downward container."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "ش ع ر",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000798",
+                "branch_id": "B005",
+                "role": "Fine awareness and subtle perception supply the epistemic capacity explicitly absent around the concealment."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ع ش و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001017",
+                "branch_id": "B001",
+                "role": "Night darkness extends the pit's reduced visibility into the paternal encounter."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B001",
+                "role": "Audible or visible grief becomes the substitute presence offered where Joseph is no longer visible."
+              }
+            ],
+            "structural_cues": [
+              "12:15 places Joseph below sight; 12:16 immediately moves the brothers toward the father under evening darkness.",
+              "The concealed son is absent from the return, but the brothers' affect is emphatically present."
+            ],
+            "reader_inference": "The packet supplies collective resolve, deliberate placement, a disappearing depth, a well, absent fine awareness, night darkness, and crying; I infer a transfer of hiddenness from pit to household, with affect replacing the hidden body. Alternatively, evening may be only chronological and not spatially analogous to the pit.",
+            "changed_reading": {
+              "before": "The brothers happen to reach home in the evening after leaving Joseph behind.",
+              "after": "Their evening arrival transports the pit's hiddenness into the father's field of perception, replacing the unseen son with an intensely perceptible display."
+            }
+          },
+          {
+            "model_id": "delta-multimodal-proof-package",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "ء م ن",
+              "ص د ق",
+              "ج ي ء",
+              "ق م ص",
+              "د م و",
+              "ك ذ ب"
+            ],
+            "mechanism": "The tears precede speech; the speech anticipates disbelief; the repeated coming then extends into bringing a shirt marked with false blood. Performance, proposition, and object form a layered credibility package, while the lying-garment branch exposes the material exhibit as another expressive surface.",
+            "activation_trace": [
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B004",
+                "role": "Possibly affected weeping supplies the package's pre-verbal emotional layer."
+              },
+              {
+                "source_ref": "12:17",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "Saying what was not supplies the false proposition that follows the tears."
+              },
+              {
+                "source_ref": "12:17",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settling belief supplies the response the speakers explicitly predict they will not obtain."
+              },
+              {
+                "source_ref": "12:17",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "Truthful speech supplies the standard they invoke while staging a claim that fails it."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B004",
+                "role": "Bringing and presenting something turns the repeated coming into delivery of a material exhibit."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ق م ص",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001256",
+                "branch_id": "B001",
+                "role": "The worn shirt supplies the physical surface on which the claim is staged."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "د م و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000490",
+                "branch_id": "B001",
+                "role": "Recognizable blood supplies the bodily index meant to certify injury and death."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A garment that lies by its condition precisely exposes the shirt as a deceptive material statement."
+              }
+            ],
+            "structural_cues": [
+              "12:16 ends with weeping; 12:17 supplies the claim and anticipates disbelief; 12:18 repeats coming and presents the shirt with false blood.",
+              "The father's response rejects the package as an internally embellished account rather than accepting any layer alone."
+            ],
+            "reader_inference": "The packet supplies the affect-speech-object sequence, anticipated unbelief, repeated coming, recognizable blood, and a lying garment; I infer an ordered persuasion strategy in which each layer supports the next. Alternatively, the tears could be spontaneous even though the proposition and object are false.",
+            "changed_reading": {
+              "before": "The brothers arrive crying and later add corroborating evidence.",
+              "after": "The focus is the opening layer of a multimodal proof package: performed grief prepares a doubtful claim, and the claim is then embodied in a garment that lies by its condition."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-fluidized-wound-sign",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the remote wound-discharge image of ج ي ء rather than ordinary coming. It remains anchored by جاءوا, tear-capable يبكون, and the next-ayah bleeding image, but downstream prose should label it a material analogy among fluids, not a lexical derivation or literal claim about the verb.",
+            "focus_anchor": "جاءوا and يبكون place coming beside a potentially flowing bodily sign, immediately before the blood exhibit.",
+            "activation_trace": [
+              {
+                "source_ref": "12:16",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B006",
+                "role": "Collected wound discharge supplies the strange material image that fluidizes the group's coming."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B001",
+                "role": "Tears within crying supply the first plausible bodily fluid in the display."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "د م و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000490",
+                "branch_id": "B002",
+                "role": "Bleeding and a bloody wound supply the second fluid sign and complete the wound-like presentation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse reports people moving while they cry.",
+              "after": "Exploratorily, the arrival carries a manufactured wound-fluid register: tear-flow prepares the bloody sign as though the group itself were presenting an injury."
+            }
+          },
+          {
+            "outlier_id": "outlier-competitive-counterimage",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines packet-resolved non-dominant mappings with the form-distant competitive-weeping branch. It remains anchored in the earlier vision-report, the focus crying before the same father, and the next-ayah depicted blood and lying garment; downstream prose should render it as a cross-domain counter-narration, not as morphology required by the surface forms.",
+            "focus_anchor": "The group comes crying to the father who earlier received Joseph's vision-report, then supports its account with a staged garment.",
+            "activation_trace": [
+              {
+                "source_ref": "12:4",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "7",
+                  "13"
+                ],
+                "mapped_root_id": "root_000615",
+                "branch_id": "B003",
+                "role": "The split root's narration image turns the earlier vision into a reportable account against which another account can compete."
+              },
+              {
+                "source_ref": "12:16",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B003",
+                "role": "Rivalry and prevailing in weeping supply the strange image of a group competing through affective narration."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "د م و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000491",
+                "branch_id": "B002",
+                "role": "The split root's depicted-image branch makes the blood stain function like a constructed picture of the alleged event."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The lying-garment image turns that constructed picture into a material counter-story."
+              }
+            ],
+            "changed_reading": {
+              "before": "Crying accompanies a spoken report that is supported by a stained shirt.",
+              "after": "Exploratorily, the brothers mount a competitive counter-narration to Joseph's earlier vision, using weeping and a pictorially staged garment to install their own image of events."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Evening changed from a timestamp into a condition of reduced inspectability in which affect must be audited as a sign.",
+            "Crying changed from transparent grief into coordinated affect shaped by rivalry, broken pledges, and the father's own preannounced fear.",
+            "The 12:16-18 sequence changed the arrival into a layered proof package of tears, doubtful speech, and a garment that lies by its condition."
+          ],
+          "what_was_special": "Several readings remain live together: a paternal grief appeal, strategic affective occupation, transfer of the pit's hiddenness, and exploratory fluid or counter-narrative images. The context intensifies suspicion without making every lexical branch collapse into one final interpretation.",
+          "remaining_uncertainties": [
+            "يبكون itself does not morphologically require affected crying; that activation depends on a form-distant branch and contextual fit.",
+            "عشاء may remain a simple time reference even though low visibility and transferred hiddenness form a coherent mechanism.",
+            "The split ر ء ي to ر و ي and د م و to د م ي mappings generate diagnostic outliers but remain deliberately exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Dim time and manufactured tears cooperate as evidentiary cover.** ع ش و B004/B001 (evening; dim clarity) and ب ك ي B004 (forced or feigned crying) are structurally compressed into one short arrival scene. I infer that reduced visibility helps performance substitute for inspectable fact. The ayah reads as staging: time, affect, and approach are coordinated.",
@@ -3176,18 +4099,23 @@
   "root_lexicon": {
     "root_000281": {
       "root_ar": "ج ي ء",
+      "qac_roots_ar": [
+        "ج ي ء"
+      ],
       "root_id": "root_000281",
-      "root_mapping": {
-        "root_id": "root_000281",
-        "root_norm": "ج ي ء",
-        "source_root_norm": "ج ي ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 278,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ي ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 278
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -3195,18 +4123,23 @@
     },
     "root_000007": {
       "root_ar": "ء ب و",
+      "qac_roots_ar": [
+        "ء ب و"
+      ],
       "root_id": "root_000007",
-      "root_mapping": {
-        "root_id": "root_000007",
-        "root_norm": "ء ب و",
-        "source_root_norm": "أ ب و",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 68,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ب و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 68
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cb3aac85f421b7fe4ce1ac6dae961e564a4eb9f45fc7b57d2c6b181c80d4b6b3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4451,18 +5384,23 @@
     },
     "root_001017": {
       "root_ar": "ع ش و",
+      "qac_roots_ar": [
+        "ع ش و"
+      ],
       "root_id": "root_001017",
-      "root_mapping": {
-        "root_id": "root_001017",
-        "root_norm": "ع ش و",
-        "source_root_norm": "ع ش و",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 14,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ش و",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 14
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "721ce7661b56f82ce4aaeb72a85cf538770a1f620403b34c8a1424300635470a",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6845,18 +7783,23 @@
     },
     "root_000147": {
       "root_ar": "ب ك ي",
+      "qac_roots_ar": [
+        "ب ك ي"
+      ],
       "root_id": "root_000147",
-      "root_mapping": {
-        "root_id": "root_000147",
-        "root_norm": "ب ك ي",
-        "source_root_norm": "ب ك ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ك ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -6875,37 +7818,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
       "words_total": 5,
-      "words_resolved": 1,
-      "words_unresolved": 4,
+      "words_resolved": 4,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 2,
+      "morpheme_skip_max": 2,
+      "morpheme_skip_histogram": {
+        "0": 3,
+        "2": 1
+      },
       "unresolved": [
         {
           "word_index": 1,
           "surface_ar": "جَاءُوا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 2,
-          "surface_ar": "أَبَاهُمْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "عِشَاءًۭ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "يَبْكُونَ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2932,
+        "ayah_count": 111,
+        "row_count": 2925,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7429,11 +8364,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s012"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s12/packets/12_16.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s12/readers/reader_hft_a/12_16.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 214710,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7507,19 +8455,37 @@
           "root_ids": [
             "root_000281"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ي ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000281",
+            "targets": [
+              {
+                "qac_root_norm": "ج ي ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000281",
+                "furuq_root_norm": "ج ي ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 278,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000281",
-              "root_norm": "ج ي ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ي ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 278,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -7531,19 +8497,37 @@
           "root_ids": [
             "root_000007"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ب و",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000007",
+            "targets": [
+              {
+                "qac_root_norm": "ء ب و",
+                "target_rank": 1,
+                "furuq_root_id": "root_000007",
+                "furuq_root_norm": "ء ب و",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 68,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000007",
-              "root_norm": "ء ب و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ب و",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 68,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7568,19 +8552,37 @@
           "root_ids": [
             "root_001017"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ش و",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001017",
+            "targets": [
+              {
+                "qac_root_norm": "ع ش و",
+                "target_rank": 1,
+                "furuq_root_id": "root_001017",
+                "furuq_root_norm": "ع ش و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 14,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001017",
-              "root_norm": "ع ش و",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ش و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 14,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7605,19 +8607,37 @@
           "root_ids": [
             "root_000147"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ك ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000147",
+            "targets": [
+              {
+                "qac_root_norm": "ب ك ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000147",
+                "furuq_root_norm": "ب ك ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000147",
-              "root_norm": "ب ك ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ك ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -7631,10 +8651,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 11,
+        "dictionary_branches_kept": 11,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 11,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

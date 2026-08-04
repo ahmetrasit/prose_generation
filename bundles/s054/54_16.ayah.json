@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.850841+00:00",
+  "generated_at": "2026-08-04T22:29:52.574752+00:00",
   "surah": 54,
   "ayah": 16,
   "ayahRef": "54:16",
@@ -1695,7 +1695,8 @@
       "morpheme_ids": [
         "m-w-s054-a016-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:16:1"
+      "aligned_qac_word_ref_upstream": "54:16:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1709,7 +1710,8 @@
       "morpheme_ids": [
         "m-w-s054-a016-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:16:2"
+      "aligned_qac_word_ref_upstream": "54:16:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1723,7 +1725,8 @@
       "morpheme_ids": [
         "m-w-s054-a016-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:16:3"
+      "aligned_qac_word_ref_upstream": "54:16:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1739,7 +1742,8 @@
         "m-w-s054-a016-w003-01",
         "m-w-s054-a016-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:16:4"
+      "aligned_qac_word_ref_upstream": "54:16:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1753,7 +1757,8 @@
       "morpheme_ids": [
         "m-w-s054-a016-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:16:5"
+      "aligned_qac_word_ref_upstream": "54:16:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1767,7 +1772,8 @@
       "morpheme_ids": [
         "m-w-s054-a016-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:16:6"
+      "aligned_qac_word_ref_upstream": "54:16:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2170,7 +2176,1049 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_16.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:16",
+      "window": [
+        "54:1",
+        "54:2",
+        "54:3",
+        "54:4",
+        "54:5",
+        "54:6",
+        "54:7",
+        "54:8",
+        "54:9",
+        "54:10",
+        "54:11",
+        "54:12",
+        "54:13",
+        "54:14",
+        "54:15",
+        "54:16",
+        "54:17"
+      ],
+      "ayah_count": 17,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:16",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-realized-warning",
+            "confidence": "strong",
+            "focus_anchor": "The interrogative فَكَيْفَ governs كَانَ عَذَابِي وَنُذُرِ and asks for recognition of a realized relation between punishment and warnings.",
+            "mechanism": "Temporal occurrence makes the warning-punishment pair present as an accomplished event: notice intended to awaken caution has become experienced penalty, and the question demands an assessment of that transition.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time make the paired terms something that demonstrably came to pass."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Inflicted pain and penalty supply the realized consequence whose character is being assessed."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Danger-notice that awakens caution supplies the prior communicative side of the realized consequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "A formula asking how severe the punishment was.",
+              "after": "A retrospective demand to recognize how announced danger became an experienced punishment."
+            }
+          },
+          {
+            "model_id": "baseline-deterrent-spectrum",
+            "confidence": "exploratory",
+            "focus_anchor": "The coordination of عَذَابِي and نُذُرِ permits the two roots to be tested as related modes rather than unrelated possessions.",
+            "mechanism": "The restraint and weaning branch of ع ذ ب stands beside the caution-awakening branch of ن ذ ر, producing a graded deterrent mechanism: verbal alarm first, imposed interruption when alarm is not heeded.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B003",
+                "role": "Withholding, restraint, and weaning supply the coercive end of a mechanism that stops a course."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that arouses caution supplies the earlier verbal attempt to stop that same course."
+              }
+            ],
+            "changed_reading": {
+              "before": "Punishment and warnings are two adjacent topics.",
+              "after": "Warning and imposed restraint form two escalating stages of one deterrent process."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-visible-sign-refused",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ب",
+              "ء ي ي",
+              "ع ر ض",
+              "س ح ر",
+              "ت ب ع",
+              "ه و ي",
+              "ق ر ر"
+            ],
+            "mechanism": "The warning arrives as an approaching threshold and visible sign, but the viewers turn aside, recode it as deceptive diversion, follow desire, and reach a settled outcome. Punishment therefore follows an active management of evidence, not a lack of evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Caution-awakening notice is the focus anchor whose mode of reception the context reconstructs."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Penalty is the endpoint made intelligible by the preceding treatment of evidence."
+              },
+              {
+                "source_ref": "54:1",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B002",
+                "role": "Temporal nearness makes the warning an approaching threshold rather than remote information."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign gives the warning a perceptible evidentiary form."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Turning the side away supplies deliberate disengagement from the displayed evidence."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B002",
+                "role": "Diversion and deception supply the counter-label used to neutralize the sign."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following in another track turns rejection into a continuing course of action."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ه و ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001609",
+                "branch_id": "B004",
+                "role": "Inclination of the self supplies the motive that replaces the warning as guide."
+              },
+              {
+                "source_ref": "54:3",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement supply the culmination toward which the chosen response moves."
+              }
+            ],
+            "structural_cues": [
+              "54:1-3 moves from approaching and split sign, through sight and turning aside, to desire-following and settlement."
+            ],
+            "reader_inference": "The packet supplies the ordered acts and images; I infer that relabeling the sign enables continued avoidance and eventual settlement. A live alternative is that the sequence characterizes refusal without asserting a strict causal chain.",
+            "changed_reading": {
+              "before": "The punishment answers simple ignorance of a warning.",
+              "after": "The punishment exposes a completed trajectory in which visible warning was perceived, defensively recoded, and deliberately not followed."
+            }
+          },
+          {
+            "model_id": "delta-delivered-not-unavailable",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ب ء",
+              "ز ج ر",
+              "ح ك م",
+              "ب ل غ",
+              "غ ن ي",
+              "ن ذ ر"
+            ],
+            "mechanism": "Reports arrive carrying restraint, wisdom reaches its mark, yet warnings do not avail. The warning side of the focus pair is thus audited for uptake and efficacy after successful delivery, so punishment cannot be blamed on an absent or immature notice.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The caution-awakening warning is the focus item whose delivery and efficacy are tested."
+              },
+              {
+                "source_ref": "54:4",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B002",
+                "role": "A transmitted report supplies content that has actually reached the audience."
+              },
+              {
+                "source_ref": "54:4",
+                "root": "ز ج ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000624",
+                "branch_id": "B001",
+                "role": "Vocal rebuke and restraint give the reports a concrete deterrent function."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B003",
+                "role": "Right-judging wisdom supplies epistemic adequacy rather than a defective message."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at the limit supplies completed reach."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "غ ن ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001110",
+                "branch_id": "B002",
+                "role": "Sufficiency and availing supply the explicit efficacy test that the warnings fail in practice."
+              },
+              {
+                "source_ref": "54:5",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The contextual warning repeats the focus branch and places it directly under the question of practical benefit."
+              }
+            ],
+            "structural_cues": [
+              "54:4-5 distinguishes arrival, deterrent content, mature wisdom, completed reach, and failure to avail."
+            ],
+            "reader_inference": "The packet supplies successful arrival and failed benefit; I infer that the deficit lies in uptake rather than transmission. The live alternative is that عدم الإغناء states only the outcome and leaves the precise source of failure open.",
+            "changed_reading": {
+              "before": "Warnings may have been too weak or inaccessible to prevent punishment.",
+              "after": "The refrain asks about punishment after warning had arrived with adequate deterrent and wisdom but was made practically unavailing."
+            }
+          },
+          {
+            "model_id": "delta-compelled-reorientation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ر ض",
+              "د ع و",
+              "ن ك ر",
+              "خ ش ع",
+              "خ ر ج",
+              "ج د ث",
+              "ن ش ر",
+              "ه ط ع",
+              "ع س ر"
+            ],
+            "mechanism": "Earlier voluntary turning-away is answered by a call toward an unrecognized severe thing: eyes lower, bodies leave graves, the multitude spreads, and all rush toward the caller. The punishment becomes forced reorientation and mobilization, not pain alone.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive pain anchors the bodily and directional mechanism back in the focus."
+              },
+              {
+                "source_ref": "54:2",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B005",
+                "role": "Voluntary turning aside supplies the initial direction that the later summons reverses."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "Calling that draws by speech supplies the destination and force organizing the movement."
+              },
+              {
+                "source_ref": "54:6",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B003",
+                "role": "A strange, severe matter supplies the affective quality of the compelled destination."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "خ ش ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000412",
+                "branch_id": "B001",
+                "role": "Lowering and submission register the reversal in bodily posture."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Passage to the outside supplies irreversible emergence into the summoned scene."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "ج د ث",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000226",
+                "branch_id": "B001",
+                "role": "The grave supplies the enclosure from which the compelled bodies emerge."
+              },
+              {
+                "source_ref": "54:7",
+                "root": "ن ش ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001503",
+                "branch_id": "B001",
+                "role": "Opening, spreading, and branching turn individual emergence into mass dispersal."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "ه ط ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001594",
+                "branch_id": "B003",
+                "role": "Hastening forward supplies the final compelled orientation toward the caller."
+              },
+              {
+                "source_ref": "54:8",
+                "root": "ع س ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001012",
+                "branch_id": "B001",
+                "role": "Difficulty and severity qualify the day experienced through this forced movement."
+              }
+            ],
+            "structural_cues": [
+              "54:2 has chosen turning-away; 54:6-8 answers with summons, emergence, lowered posture, spreading, and rapid approach."
+            ],
+            "reader_inference": "The packet supplies the opposed directions and bodily sequence; I infer a reversal from elective avoidance to compelled approach. A live alternative is that 54:6-8 previews a later resurrection scene without directly specifying the mode of 54:16's flood punishment.",
+            "changed_reading": {
+              "before": "Punishment is chiefly an amount of suffering.",
+              "after": "Punishment is also the loss of self-chosen orientation: those who turned away are made to emerge, submit, and move toward the call."
+            }
+          },
+          {
+            "model_id": "delta-silenced-call-reversed",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ج ن ن",
+              "ز ج ر",
+              "د ع و",
+              "غ ل ب",
+              "ن ص ر",
+              "ف ت ح"
+            ],
+            "mechanism": "The community assigns falsehood and covered reason to the messenger and rebukes his voice; the overpowered servant redirects speech upward as a plea for vindication, and the next opening begins the answer. Warning and punishment become opposite phases in a reversal of silenced agency.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The warning voice anchors the social conflict whose direction is reversed."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Penalty supplies the consequential phase of the communicative reversal."
+              },
+              {
+                "source_ref": "54:9",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution to falsehood supplies repeated delegitimation of both warning and warner."
+              },
+              {
+                "source_ref": "54:9",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "Covering of reason supplies the label used to invalidate the messenger's speech."
+              },
+              {
+                "source_ref": "54:9",
+                "root": "ز ج ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000624",
+                "branch_id": "B001",
+                "role": "Vocal rebuke supplies the attempted silencing of the warning agent."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B001",
+                "role": "A call that draws by speech redirects the blocked messenger's agency toward his Lord."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "غ ل ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001098",
+                "branch_id": "B001",
+                "role": "Overpowering force names the asymmetry that the plea asks to reverse."
+              },
+              {
+                "source_ref": "54:10",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B002",
+                "role": "Vindication of the wronged supplies the requested counter-direction to communal domination."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "Opening what was closed supplies the first material response to the redirected call."
+              }
+            ],
+            "structural_cues": [
+              "54:9 ends with the messenger rebuked; 54:10 converts his blocked public speech into a plea; 54:11 begins with فَفَتَحْنَا."
+            ],
+            "reader_inference": "The packet supplies silencing, a plea for vindication, and immediate opening; I infer that the opening answers the plea and reverses agency. A live alternative is to read the opening simply as judgment without foregrounding social vindication.",
+            "changed_reading": {
+              "before": "Punishment follows disbelief as an impersonal consequence.",
+              "after": "Punishment is the material reversal by which a suppressed warning voice is answered and an overpowered servant is vindicated."
+            }
+          },
+          {
+            "model_id": "delta-measured-convergence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ت ح",
+              "ب و ب",
+              "س م و",
+              "ه م ر",
+              "ف ج ر",
+              "ء ر ض",
+              "م و ه",
+              "ل ق ي",
+              "ق د ر"
+            ],
+            "mechanism": "A closed upper boundary opens into pouring while the lower boundary bursts into springs; the two waters meet upon an affair already measured. The punishment is a coordinated convergence across opposed domains, not merely an uncontrolled excess.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive injury anchors the convergent material process in the focus."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "Release through a closed boundary supplies the upper initiation of the mechanism."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ب و ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000163",
+                "branch_id": "B001",
+                "role": "Entrances turn the sky from background into a controlled set of apertures."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "س م و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "What is above and covers supplies the upper pole of the opposed-domain convergence."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ه م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001599",
+                "branch_id": "B001",
+                "role": "Pouring and continuous outflow supply the downward stream."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ف ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001132",
+                "branch_id": "B001",
+                "role": "Wide rupture and emission supply the answering upward release."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower realm opposed to the sky supplies the second pole of the mechanism."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B002",
+                "role": "Manifest abundance of water supplies the common material joining the two releases."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B004",
+                "role": "Two opposed things arriving together supplies the decisive convergence."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Measured planning supplies governance of the converging flows."
+              }
+            ],
+            "structural_cues": [
+              "54:11-12 is built as an upper/lower parallel: opened sky and pouring water answer ruptured earth and springs, then the waters meet."
+            ],
+            "reader_inference": "The packet supplies apertures, opposed sources, meeting, and prior measure; I infer a coordinated system in which measure directs convergence. A live alternative is that قُدِرَ marks only a decreed result rather than fine-grained calibration.",
+            "changed_reading": {
+              "before": "The punishment is a chaotic flood notable chiefly for volume.",
+              "after": "The punishment is an ordered convergence: upper and lower boundaries release matching flows that meet upon a measured command."
+            }
+          },
+          {
+            "model_id": "delta-one-medium-sorts",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ه",
+              "ح م ل",
+              "ل و ح",
+              "د س ر",
+              "ج ر ي",
+              "ع ي ن",
+              "ج ز ي",
+              "ك ف ر"
+            ],
+            "mechanism": "The same flood material that destroys also bears a constructed vessel: planks are bound, the vessel runs under watch, and this carrying is recompense for the denied servant. Judgment sorts relations through one medium, yielding destruction on one side and protected passage on the other.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punishment anchors one outcome produced by the shared flood medium."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning anchors the relational distinction between the denied messenger and those who deny him."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "Water supplies the single material environment in which both punitive and protective outcomes occur."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Bearing a visible load supplies the protective counter-function within the flood."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "ل و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001384",
+                "branch_id": "B003",
+                "role": "Broad building planks supply the constructed surface that converts water into passage."
+              },
+              {
+                "source_ref": "54:13",
+                "root": "د س ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000474",
+                "branch_id": "B002",
+                "role": "Fastenings that bind ship-planks supply cohesion under the destructive pressure."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flowing movement turns the threatening medium into a route for the carried vessel."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "Watchful preservation supplies selective care within the common event."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Response corresponding to an act makes preservation, as well as destruction, part of judgment."
+              },
+              {
+                "source_ref": "54:14",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Covering the truth supplies the rejected relation for which the protected passage compensates."
+              }
+            ],
+            "structural_cues": [
+              "54:11-12 establishes the flood; 54:13-14 immediately places a carried, watched vessel within that same event."
+            ],
+            "reader_inference": "The packet supplies flood water, a carrying vessel, watch, and recompense; I infer that one material event performs relational sorting. A live alternative is to foreground the rescue as reward alone, though its placement inside the flood still makes the outcomes materially inseparable.",
+            "changed_reading": {
+              "before": "Punishment is an undifferentiated destructive event.",
+              "after": "Punishment is one side of a discriminating event whose very medium destroys rejecters while carrying the denied messenger under protection."
+            }
+          },
+          {
+            "model_id": "delta-event-memory-loop",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ر ك",
+              "ء ي ي",
+              "ذ ك ر",
+              "ي س ر",
+              "ق ر ء"
+            ],
+            "mechanism": "The completed event leaves an enduring sign, then the focus question is followed by facilitated recitation and a renewed invitation to remember. The refrain is a conversion joint: experienced punishment becomes retained evidence, and retained evidence becomes an accessible warning for a later hearer.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Realized occurrence supplies the past event that can leave a durable trace."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punishment supplies the historical event converted into evidence."
+              },
+              {
+                "source_ref": "54:16",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning supplies the future-facing function acquired by the preserved event."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "Leaving an effect behind supplies persistence beyond the event itself."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest mark turns the residual effect into legible evidence."
+              },
+              {
+                "source_ref": "54:15",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder supplies the cognitive use invited from the preserved sign."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ease after difficulty supplies accessibility for renewed reception."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies the repeatable medium that carries the old event to a new hearer."
+              },
+              {
+                "source_ref": "54:17",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Retrieval after or against forgetting supplies the intended completion of the warning cycle."
+              }
+            ],
+            "structural_cues": [
+              "The focus stands directly between 54:15's left sign and rememberer-question and 54:17's facilitated recitation and repeated rememberer-question."
+            ],
+            "reader_inference": "The packet supplies preservation before the refrain and accessible remembrance after it; I infer that the refrain converts event into reusable warning. A live alternative is that 54:15 closes the flood account and 54:17 opens a separate refrain without a deliberate conversion mechanism.",
+            "changed_reading": {
+              "before": "54:16 merely closes the flood narrative by looking backward.",
+              "after": "54:16 is a hinge that turns a completed punishment into a preserved, recitable warning addressed to the present hearer."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-sweet-water-inversion",
+            "confidence": "exploratory",
+            "containment": "This is surprising because عَذَاب normally selects the penalty branch, not the root's sweet-water branch. It remains anchored in ع ذ ب and is materially activated by the flood's water and pouring; downstream prose should present it only as a cross-branch inversion, never as the lexical gloss of عَذَاب.",
+            "focus_anchor": "The ع ذ ب root in عَذَابِ carries a water-sweetness branch that can be placed under pressure from the flood material.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B001",
+                "role": "Sweet, palatable water supplies the life-supporting value that the flood context reverses."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "Literal water supplies the material bridge that activates the focus root's distant water branch."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ه م ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001599",
+                "branch_id": "B001",
+                "role": "Pouring out transforms the ordinarily sustaining substance into overwhelming force."
+              },
+              {
+                "source_ref": "54:12",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B002",
+                "role": "Water's emergence and abundance complete the inversion from sustenance to punishment."
+              }
+            ],
+            "changed_reading": {
+              "before": "The flood's water and the word for punishment have no material lexical interaction.",
+              "after": "The flood makes the root's sweet-water possibility recoil into its opposite: a normally life-giving medium becomes the experienced punishment."
+            }
+          },
+          {
+            "outlier_id": "outlier-exposed-to-open-sky",
+            "confidence": "exploratory",
+            "containment": "This is form-distant because عَذَاب conventionally invokes penalty while the uncovered-to-sky image belongs to another ع ذ ب branch. It remains root-anchored and is sharply activated by the opening of the sky; downstream prose should qualify it as a spatial image of vulnerability, not an etymological definition.",
+            "focus_anchor": "The ع ذ ب inventory includes exposure with no cover between a body and the sky.",
+            "activation_trace": [
+              {
+                "source_ref": "54:16",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B004",
+                "role": "Uncovered exposure to the sky supplies a spatial vulnerability latent in the focus root."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "ف ت ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001124",
+                "branch_id": "B001",
+                "role": "Opening a closed boundary turns exposure into an active channel of danger."
+              },
+              {
+                "source_ref": "54:11",
+                "root": "س م و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B004",
+                "role": "The sky as what stands above and covers supplies the very boundary from which protection is removed."
+              }
+            ],
+            "changed_reading": {
+              "before": "Punishment is inflicted force with no spatial account of vulnerability.",
+              "after": "The opened heavens activate punishment as exposure: the protective interval above is removed and the sky becomes the route of affliction."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Visible warning is not absent but actively recoded and refused before consequence settles.",
+            "The silenced messenger's call is redirected upward and answered by a material reversal of power.",
+            "The flood is a measured convergence that also sorts outcomes by destroying and carrying through one medium.",
+            "Placed between preserved sign and facilitated remembrance, the focus refrain converts past punishment into present warning."
+          ],
+          "what_was_special": "The ayah's short retrospective question became a functional hinge linking evidence, refusal, realized consequence, selective rescue, retained trace, and renewed remembrance without collapsing those mechanisms into one final interpretation.",
+          "remaining_uncertainties": [
+            "The compelled-movement model may primarily describe the resurrection preview in 54:6-8 rather than the specific mode of the flood recalled at 54:16.",
+            "The sweet-water and open-sky outliers depend on deliberately form-distant branches of ع ذ ب and must remain exploratory images."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The refrain converts warning into an experienced benchmark.** No accepted branch inventory is supplied for `ك ي ف`; `ك و ن` B001 supplies occurrence/state, `ع ذ ب` B005 torment, and `ن ذ ر` B001 fear-awakening warning. The question follows the narrated outcome rather than preceding it. The packet supplies that reversal; I infer that the hearer is asked to evaluate warning after its threatened content has taken event-form. The ayah reads as an audit of correspondence between advance notice and realized consequence.",
@@ -3056,18 +4104,23 @@
   "root_lexicon": {
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -4187,18 +5240,23 @@
     },
     "root_000994": {
       "root_ar": "ع ذ ب",
+      "qac_roots_ar": [
+        "ع ذ ب"
+      ],
       "root_id": "root_000994",
-      "root_mapping": {
-        "root_id": "root_000994",
-        "root_norm": "ع ذ ب",
-        "source_root_norm": "ع ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 372,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 372
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "51108e6a196357bcef2fb095a8013cd0b5662aeca84ff34a23472408615bc073",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7284,18 +8342,23 @@
     },
     "root_001488": {
       "root_ar": "ن ذ ر",
+      "qac_roots_ar": [
+        "ن ذ ر"
+      ],
       "root_id": "root_001488",
-      "root_mapping": {
-        "root_id": "root_001488",
-        "root_norm": "ن ذ ر",
-        "source_root_norm": "ن ذ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9b8307ef70c2b201e5cde104a00eae217e678983e73b9dde34cef1bec9a54997",
         "branches": [
@@ -8005,14 +9068,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8303,11 +9372,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_16.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_16.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 141059,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8380,9 +9462,15 @@
         "ك ي ف": {
           "root_id": null,
           "root_ids": [],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ي ف",
+            "mapping_status": "no_frozen_rooted_surface_match",
+            "primary_root_id": "",
+            "targets": []
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "targets": [],
           "note": "no root_id mapping found for this QAC root"
         },
         "ك و ن": {
@@ -8390,19 +9478,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -8414,19 +9520,37 @@
           "root_ids": [
             "root_000994"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000994",
+            "targets": [
+              {
+                "qac_root_norm": "ع ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000994",
+                "furuq_root_norm": "ع ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 372,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000994",
-              "root_norm": "ع ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 372,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8451,19 +9575,37 @@
           "root_ids": [
             "root_001488"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ذ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001488",
+            "targets": [
+              {
+                "qac_root_norm": "ن ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001488",
+                "furuq_root_norm": "ن ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001488",
-              "root_norm": "ن ذ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -8477,10 +9619,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 18,
+        "dictionary_branches_kept": 18,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 9,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

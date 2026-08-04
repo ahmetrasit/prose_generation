@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:13.383368+00:00",
+  "generated_at": "2026-08-04T22:29:38.301188+00:00",
   "surah": 19,
   "ayah": 56,
   "ayahRef": "19:56",
@@ -2066,7 +2066,8 @@
       "morpheme_ids": [
         "m-w-s019-a056-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:56:1"
+      "aligned_qac_word_ref_upstream": "19:56:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2080,15 +2081,88 @@
       "morpheme_ids": [
         "m-w-s019-a056-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:56:2"
+      "aligned_qac_word_ref_upstream": "19:56:2",
+      "morpheme_skip_count": 0
     },
     null,
     null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 4,
+      "surface_ar": "إِدْرِيسَ",
+      "word_ids": [
+        "w-s019-a056-w004"
+      ],
+      "qac_refs": [
+        "19:56:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a056-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:56:5",
+      "morpheme_skip_count": 3
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "إِنَّهُ",
+      "word_ids": [
+        "w-s019-a056-w005"
+      ],
+      "qac_refs": [
+        "19:56:5:1",
+        "19:56:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a056-w005-01",
+        "m-w-s019-a056-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "19:56:6",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 6,
+      "surface_ar": "كَانَ",
+      "word_ids": [
+        "w-s019-a056-w006"
+      ],
+      "qac_refs": [
+        "19:56:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a056-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:56:7",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "صِدِّيقًا",
+      "word_ids": [
+        "w-s019-a056-w007"
+      ],
+      "qac_refs": [
+        "19:56:7:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a056-w007-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:56:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "نَبِيًّا",
+      "word_ids": [
+        "w-s019-a056-w008"
+      ],
+      "qac_refs": [
+        "19:56:8:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s019-a056-w008-01"
+      ],
+      "aligned_qac_word_ref_upstream": "19:56:9",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -2833,7 +2907,760 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_56.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:56",
+      "window": [
+        "19:41",
+        "19:42",
+        "19:43",
+        "19:44",
+        "19:45",
+        "19:46",
+        "19:47",
+        "19:48",
+        "19:49",
+        "19:50",
+        "19:51",
+        "19:52",
+        "19:53",
+        "19:54",
+        "19:55",
+        "19:56",
+        "19:57",
+        "19:58"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:56",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_memorial_reactivation",
+            "confidence": "strong",
+            "focus_anchor": "The construction \"واذكر في الكتاب\" at words 1-3 joins an imperative of recollection to a written medium before naming Idris.",
+            "mechanism": "Recollection makes an absent person present again, while ordered writing preserves that recovery beyond the moment of speech. The verse therefore performs the reactivation of a prophetic witness rather than merely locating a name in a text.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder makes something present again and supplies the verse's retrieval operation."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Ordered written signs provide the durable medium in which the retrieved witness remains available."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B003",
+                "role": "The office of reporting from God identifies the remembered person as a prophetic witness."
+              }
+            ],
+            "changed_reading": {
+              "before": "Mention Idris in the Book.",
+              "after": "Use the written composition to reactivate Idris as a presently available prophetic witness."
+            }
+          },
+          {
+            "model_id": "baseline_truth_bearing_report",
+            "confidence": "strong",
+            "focus_anchor": "The intensive predicate \"صديقا\" at word 7 stands directly before \"نبيا\" at word 8 within \"كان\".",
+            "mechanism": "The truth root couples correspondence in speech with realization in deed, while the prophecy root supplies consequential report from God. Their adjacency makes truthfulness the operating reliability of prophetic transmission, not a detached second honor.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Being present in time stabilizes the two predicates as an established characterization."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "Truthful speech supplies correspondence between utterance, inward commitment, and what is reported."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Realizing a promise or claim in action turns truth from accuracy into performed verification."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B002",
+                "role": "A consequential report supplies the content whose transmission requires that verified reliability."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B003",
+                "role": "Reporting from God specifies the institutional direction of the truth-bearing function."
+              }
+            ],
+            "changed_reading": {
+              "before": "Idris receives two independent honorifics: very truthful and prophetic.",
+              "after": "Idris is a truth-realizer whose correspondence of speech and act makes him a reliable bearer of divine report."
+            }
+          },
+          {
+            "model_id": "baseline_registered_standing",
+            "confidence": "medium",
+            "focus_anchor": "The name Idris is placed inside \"الكتاب\", followed by \"كان\" and the completed quality \"صديقا\".",
+            "mechanism": "The Book can operate as a register, remembrance as durable repute, and being as standing or station. Together they admit a secondary reading in which the verse installs Idris in a recognized, stable rank.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B004",
+                "role": "Entering a name in a register supplies the formal installation mechanism."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Honorable repute gives the registered name a durable social value."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B002",
+                "role": "Place or standing turns the predicate sequence into an assigned position as well as a past description."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Complete and established soundness supplies the criterion for that recognized standing."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Book contains a brief biographical notice about Idris.",
+              "after": "The notice also installs Idris in a durable register of recognized truthful standing."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_compressed_enacted_profile",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ك ر",
+              "ص د ق",
+              "ق و ل",
+              "ع ز ل",
+              "ل س ن"
+            ],
+            "mechanism": "The identical 19:41 frame opens an Abraham unit in which concerned speech, costly separation, and message-bearing speech enact truthful prophecy. Repetition at 19:56 makes \"صديقا نبيا\" function as a compressed claim that the identity is narratively enactable even though Idris's deeds are not supplied.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Truth realized in action anchors the focus predicate as a potentially enacted profile."
+              },
+              {
+                "source_ref": "19:41",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The same reminder construction opens the comparison unit and makes the repeated frame structurally visible."
+              },
+              {
+                "source_ref": "19:41",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "The same action-verifying truth branch is subsequently unfolded by the Abraham sequence."
+              },
+              {
+                "source_ref": "19:42",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B015",
+                "role": "Earnest care expressed in speech supplies one enacted form of truth-bearing concern."
+              },
+              {
+                "source_ref": "19:48",
+                "root": "ع ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001009",
+                "branch_id": "B001",
+                "role": "Withdrawal to a separate side supplies a costly action that makes the preceding speech consequential."
+              },
+              {
+                "source_ref": "19:50",
+                "root": "ل س ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001355",
+                "branch_id": "B008",
+                "role": "The tongue as message-delivery gives the unfolded profile a durable communicative outcome."
+              }
+            ],
+            "structural_cues": [
+              "19:41 and 19:56 are lexically identical apart from the personal name.",
+              "19:42-50 unfolds the first frame, while 19:56 receives only the immediate elevation sequel."
+            ],
+            "reader_inference": "The packet supplies exact frame identity and an enacted Abraham unit; I infer that recurrence licenses a compressed-profile function, not transfer of Abraham's specific acts to Idris. The live alternative is a purely formulaic catalogue.",
+            "changed_reading": {
+              "before": "\"صديقا نبيا\" is a static pair of honorifics.",
+              "after": "\"صديقا نبيا\" is a compressed narrative claim that prophetic truth must be enactable, while leaving Idris's particular enactments unstated."
+            }
+          },
+          {
+            "model_id": "delta_public_truthful_repute",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ل س ن",
+              "ص د ق",
+              "ع ل و"
+            ],
+            "mechanism": "The earlier gift of a high \"tongue of truth\" joins public speech, the same truth root, and elevation. It activates the focus branches of honorable remembrance and registry, so Idris's truthfulness extends from personal reliability into a transmissible truthful repute carried by the Book.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Honorable remembrance anchors the focus as public repute rather than private recollection alone."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B004",
+                "role": "Registry supplies the durable carrier that preserves the named person's standing."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Established completeness allows truth to characterize a durable reputation, not only isolated statements."
+              },
+              {
+                "source_ref": "19:50",
+                "root": "ل س ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001355",
+                "branch_id": "B006",
+                "role": "Tongue as language and speech supplies the public medium through which truthful repute circulates."
+              },
+              {
+                "source_ref": "19:50",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "The shared truth root binds elevated public speech to the focus predicate's established soundness."
+              },
+              {
+                "source_ref": "19:50",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "Elevation as honor raises the truthful tongue into socially durable distinction."
+              }
+            ],
+            "structural_cues": [
+              "19:50 places \"لسان\", \"صدق\", and \"عليا\" in one phrase before the repeated mention-in-the-Book notices.",
+              "19:56 combines honorable remembrance with the same truth root."
+            ],
+            "reader_inference": "The packet supplies lexical recurrence and a speech-truth-elevation cluster; I infer that it calibrates what remembered truth can become in the Book. The alternative is that 19:50 remains a person-specific gift with no coloring effect on Idris.",
+            "changed_reading": {
+              "before": "Idris's truthfulness is an inward moral trait preserved as information.",
+              "after": "Idris's truthfulness becomes a voiced, elevated reputation that the Book continues to transmit."
+            }
+          },
+          {
+            "model_id": "delta_fulfilled_fidelity",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص د ق",
+              "و ع د",
+              "ء م ر",
+              "ز ك و"
+            ],
+            "mechanism": "The immediately preceding Ismail notice narrows truth into fidelity to a promise, then continues with binding instruction and purifying practice. Against that local calibration, the intensive \"صديقا\" in 19:56 gathers factual truth and sustained fulfillment of what speech commits one to.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment in action anchors intensive truthfulness as performed fidelity."
+              },
+              {
+                "source_ref": "19:54",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "The shared truth root is explicitly attached to a promise and supplies the local specification of fulfillment."
+              },
+              {
+                "source_ref": "19:54",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B001",
+                "role": "A spoken promise opens expectation of a future state and creates the commitment that truth must carry forward."
+              },
+              {
+                "source_ref": "19:55",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Binding instruction converts committed speech into an ordered pattern of conduct."
+              },
+              {
+                "source_ref": "19:55",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B002",
+                "role": "Purity and soundness supply the practical end toward which the commanded conduct is directed."
+              }
+            ],
+            "structural_cues": [
+              "19:54-55 immediately precedes the focus and uses the same mention-in-the-Book frame.",
+              "The form shifts from \"صادق\" qualified by promise to the intensive \"صديق\" without an expressed object."
+            ],
+            "reader_inference": "The packet supplies adjacency, a shared formula, and a truth-to-promise-to-practice sequence; I infer that the explicit case locally calibrates the intensive focus predicate. The alternative is that each named profile remains semantically independent.",
+            "changed_reading": {
+              "before": "\"صديقا\" means exceptional factual accuracy.",
+              "after": "\"صديقا\" means sustained fidelity that carries a word through obligation into purifying practice."
+            }
+          },
+          {
+            "model_id": "delta_elevated_station",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ف ع",
+              "ك و ن",
+              "ع ل و"
+            ],
+            "mechanism": "The immediate sequel raises Idris to a high \"مكان\", explicitly reusing the focus being root as place or standing. Spatial elevation and elevation of rank remain co-present, so the focus's registered truthful standing receives an enacted vertical confirmation.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Honorable remembrance anchors an elevation of standing that can coexist with spatial raising."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B002",
+                "role": "Place and status latent in being prepare the focus predicate for the sequel's explicit station."
+              },
+              {
+                "source_ref": "19:57",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising a thing supplies the literal vertical movement asserted in the sequel."
+              },
+              {
+                "source_ref": "19:57",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B002",
+                "role": "The explicit place or standing reconnects the sequel's destination to the focus root."
+              },
+              {
+                "source_ref": "19:57",
+                "root": "ع ل و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001042",
+                "branch_id": "B002",
+                "role": "Highness as honor keeps elevation of rank live alongside physical height."
+              }
+            ],
+            "structural_cues": [
+              "The object pronoun in 19:57 immediately resumes Idris.",
+              "\"مكانا\" in 19:57 is tagged with the same ك-و-ن root as \"كان\" in 19:56."
+            ],
+            "reader_inference": "The packet supplies direct pronominal continuation, root recurrence, and vertical language; I infer that raising confirms the preceding profile. The live alternative is an independent gift with no causal relation to truthfulness or prophecy.",
+            "changed_reading": {
+              "before": "Idris is described in the past as truthful and prophetic.",
+              "after": "Idris's truthful prophetic standing is immediately made positional: he is raised into a high place, rank, or both."
+            }
+          },
+          {
+            "model_id": "delta_receptive_prophecy",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ب ء",
+              "ت ل و",
+              "ء ي ي",
+              "خ ر ر",
+              "س ج د",
+              "ب ك ي"
+            ],
+            "mechanism": "The gathering statement in 19:58 includes the named prophets, then reverses the direction of prophetic communication: signs are recited to them and register as falling, prostration, and tears. Idris as \"نبيا\" is therefore not only an outward bearer of report but a radically receptive body whose truthful response verifies what reaches him.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Truth realized in action anchors bodily response as verification rather than emotion detached from the focus."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B003",
+                "role": "The divine-reporting office supplies the outward direction that the context productively reverses."
+              },
+              {
+                "source_ref": "19:58",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B003",
+                "role": "The plural prophetic class gathers Idris into the group whose response is then described."
+              },
+              {
+                "source_ref": "19:58",
+                "root": "ت ل و",
+                "source_word_indices": [
+                  "23"
+                ],
+                "mapped_root_id": "root_000186",
+                "branch_id": "B007",
+                "role": "Sound following sound supplies the serial arrival of recitation to the gathered prophets."
+              },
+              {
+                "source_ref": "19:58",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "25"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the recognizable content that reaches and tests the hearer."
+              },
+              {
+                "source_ref": "19:58",
+                "root": "خ ر ر",
+                "source_word_indices": [
+                  "27"
+                ],
+                "mapped_root_id": "root_000402",
+                "branch_id": "B001",
+                "role": "Audible, destabilized falling converts reception into an involuntary bodily event."
+              },
+              {
+                "source_ref": "19:58",
+                "root": "س ج د",
+                "source_word_indices": [
+                  "28"
+                ],
+                "mapped_root_id": "root_000675",
+                "branch_id": "B001",
+                "role": "Lowering in submission gives the fall a directed relation of humility."
+              },
+              {
+                "source_ref": "19:58",
+                "root": "ب ك ي",
+                "source_word_indices": [
+                  "29"
+                ],
+                "mapped_root_id": "root_000147",
+                "branch_id": "B001",
+                "role": "Tears, grief, and voice make inward reception externally legible."
+              }
+            ],
+            "structural_cues": [
+              "The demonstrative opening 19:58 gathers the preceding named figures among the prophets.",
+              "The conditional sequence links recitation to immediate falling, prostration, and weeping."
+            ],
+            "reader_inference": "The packet supplies group reference and a recitation-response conditional; I infer that Idris participates in the reciprocal, receptive dimension of prophecy. The alternative is that the collective description does not assert an identical response for every named figure.",
+            "changed_reading": {
+              "before": "\"نبيا\" defines Idris mainly by the report he bears outward.",
+              "after": "\"نبيا\" also defines Idris by what he can receive inwardly: signs become truth in his collapsing, prostrating, weeping body."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_prophet_as_clear_route",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the clear-road branch is peripheral to the ordinary prophetic noun; it remains anchored in \"نبيا\" and is activated by the packet's explicit guidance, path, and straightness cluster. Downstream prose should present it only as a secondary spatial resonance, never as the lexical gloss of \"نبيا\".",
+            "focus_anchor": "\"نبيا\" at word 8 carries a branch image of a clear road or easy ground that reaches a destination.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B007",
+                "role": "A clear road and easy ground supply the unusual focus image of prophecy as traversable access."
+              },
+              {
+                "source_ref": "19:43",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward the true road activates the directional function of the peripheral focus branch."
+              },
+              {
+                "source_ref": "19:43",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The straight road provides an explicit context counterpart to the focus branch's route image."
+              },
+              {
+                "source_ref": "19:43",
+                "root": "س و ي",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000766",
+                "branch_id": "B002",
+                "role": "Intrinsic straightness and completeness make the activated route reliable rather than merely open."
+              },
+              {
+                "source_ref": "19:58",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "The final gathering of those guided keeps the route function live across the named prophetic sequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "A prophet is a bearer of divine report.",
+              "after": "Secondarily, Idris as prophet can be carried as a clear, traversable route by which guidance reaches its destination."
+            }
+          },
+          {
+            "outlier_id": "outlier_raising_as_broadcast",
+            "confidence": "exploratory",
+            "containment": "This is surprising because \"ورفعناه مكانا عليا\" strongly presents literal or rank elevation, while broadcasting news is a distant branch of the raising root. It remains valid as an adjacent resonance through the focus's uttered remembrance, written medium, and news branch; downstream prose should keep it subordinate to elevation of place or rank.",
+            "focus_anchor": "The focus joins spoken remembrance, written preservation, and \"نبيا\", whose root also carries consequential news.",
+            "activation_trace": [
+              {
+                "source_ref": "19:56",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention on the tongue supplies the act by which Idris's remembered report can circulate."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Written composition supplies the durable transmission channel for that circulation."
+              },
+              {
+                "source_ref": "19:56",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B002",
+                "role": "Consequential news supplies what can be raised into wider hearing."
+              },
+              {
+                "source_ref": "19:57",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Literal raising controls the primary reading and keeps the broadcast resonance contained."
+              },
+              {
+                "source_ref": "19:57",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B005",
+                "role": "Broadcasting news supplies the secondary possibility that Idris's report is elevated into circulation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The sequel raises Idris only in place or rank.",
+              "after": "Alongside place or rank, the sequel can faintly raise Idris's news into durable circulation through remembered writing."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The intensive truth predicate shifts from generic accuracy to fidelity performed across word, obligation, and act.",
+            "Remembering in the Book becomes the transmission of an elevated truthful repute, not archival storage alone.",
+            "The immediate high-place sequel makes the focus's truthful prophetic standing positional without forcing a choice between spatial height and rank.",
+            "The closing gathering reverses prophecy's direction: Idris is not only a reporter but a receiver whose body verifies recited signs."
+          ],
+          "what_was_special": "A very short focus verse is locally expanded by an exact earlier frame, an immediately preceding truth-promise-practice sequence, and immediate elevation and collective-response sequels. The result is a coupled mechanism of remembered truth, enacted fidelity, prophetic transmission, elevated standing, and embodied receptivity.",
+          "remaining_uncertainties": [
+            "The exact 19:41/19:56 frame may signal compressed narrative equivalence or only a repeated catalogue formula.",
+            "The high place in 19:57 leaves spatial location and rank simultaneously live.",
+            "The high tongue of truth in 19:50 may calibrate Idris's remembered repute or remain specific to the earlier figures.",
+            "The clear-route and broadcast readings are branch-backed resonances but remain too peripheral to carry as primary glosses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -3651,18 +4478,23 @@
   "root_lexicon": {
     "root_000516": {
       "root_ar": "ذ ك ر",
+      "qac_roots_ar": [
+        "ذ ك ر"
+      ],
       "root_id": "root_000516",
-      "root_mapping": {
-        "root_id": "root_000516",
-        "root_norm": "ذ ك ر",
-        "source_root_norm": "ذ ك ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 277,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ذ ك ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 277
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9e1ac4e24b425fdb7ad3bf1a72543af44c5ebca087ae33fa01fd168eb8a28cec",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7216,18 +8048,23 @@
     },
     "root_001283": {
       "root_ar": "ك ت ب",
+      "qac_roots_ar": [
+        "ك ت ب"
+      ],
       "root_id": "root_001283",
-      "root_mapping": {
-        "root_id": "root_001283",
-        "root_norm": "ك ت ب",
-        "source_root_norm": "ك ت ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 120,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ت ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 120
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "894e068c2b55e998362ca8f2253ad8cf0049a740294bec260b2417e3957a78d3",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9179,18 +10016,23 @@
     },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -10310,18 +11152,23 @@
     },
     "root_000852": {
       "root_ar": "ص د ق",
+      "qac_roots_ar": [
+        "ص د ق"
+      ],
       "root_id": "root_000852",
-      "root_mapping": {
-        "root_id": "root_000852",
-        "root_norm": "ص د ق",
-        "source_root_norm": "ص د ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 140,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص د ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 140
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c8ca8261ddf5a22f0b842402d653f3080f2262e5d80e962637715b8dfd260ccc",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -13018,18 +13865,23 @@
     },
     "root_001464": {
       "root_ar": "ن ب ء",
+      "qac_roots_ar": [
+        "ن ب ء"
+      ],
       "root_id": "root_001464",
-      "root_mapping": {
-        "root_id": "root_001464",
-        "root_norm": "ن ب ء",
-        "source_root_norm": "ن ب أ",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 118,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ب ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 118
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1f9c940fdd2c33b4a17e71f1513531b35ddffe9f4167a0f703a908827a10f611",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15212,8 +16064,14 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
       "words_total": 9,
-      "words_resolved": 2,
-      "words_unresolved": 7,
+      "words_resolved": 7,
+      "words_unresolved": 2,
+      "morpheme_skip_total": 3,
+      "morpheme_skip_max": 3,
+      "morpheme_skip_histogram": {
+        "0": 6,
+        "3": 1
+      },
       "unresolved": [
         {
           "word_index": 2,
@@ -15224,40 +16082,16 @@
           "word_index": 3,
           "surface_ar": "الْكِتَابِ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "إِدْرِيسَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "إِنَّهُ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "كَانَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "صِدِّيقًا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "نَبِيًّا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15684,11 +16518,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_56.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_56.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 137497,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -15763,19 +16610,37 @@
           "root_ids": [
             "root_000516"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ذ ك ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000516",
+            "targets": [
+              {
+                "qac_root_norm": "ذ ك ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000516",
+                "furuq_root_norm": "ذ ك ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 277,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000516",
-              "root_norm": "ذ ك ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ذ ك ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 277,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15800,19 +16665,37 @@
           "root_ids": [
             "root_001283"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ت ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001283",
+            "targets": [
+              {
+                "qac_root_norm": "ك ت ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001283",
+                "furuq_root_norm": "ك ت ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 120,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001283",
-              "root_norm": "ك ت ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ت ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 120,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15837,19 +16720,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -15861,19 +16762,37 @@
           "root_ids": [
             "root_000852"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص د ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000852",
+            "targets": [
+              {
+                "qac_root_norm": "ص د ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000852",
+                "furuq_root_norm": "ص د ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 140,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000852",
-              "root_norm": "ص د ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص د ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 140,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15898,19 +16817,37 @@
           "root_ids": [
             "root_001464"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ب ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001464",
+            "targets": [
+              {
+                "qac_root_norm": "ن ب ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_001464",
+                "furuq_root_norm": "ن ب ء",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 118,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001464",
-              "root_norm": "ن ب ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ب ء",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 118,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15937,10 +16874,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 34,
+        "dictionary_branches_kept": 34,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 28,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

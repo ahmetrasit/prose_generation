@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.168515+00:00",
+  "generated_at": "2026-08-04T22:29:59.422273+00:00",
   "surah": 56,
   "ayah": 35,
   "ayahRef": "56:35",
@@ -1455,7 +1455,8 @@
         "m-w-s056-a035-w001-01",
         "m-w-s056-a035-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:35:1"
+      "aligned_qac_word_ref_upstream": "56:35:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1473,7 +1474,8 @@
         "m-w-s056-a035-w002-02",
         "m-w-s056-a035-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:35:2"
+      "aligned_qac_word_ref_upstream": "56:35:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1487,7 +1489,8 @@
       "morpheme_ids": [
         "m-w-s056-a035-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:35:3"
+      "aligned_qac_word_ref_upstream": "56:35:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1783,7 +1786,634 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_35.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:35",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:35",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-deliberate-origination",
+            "confidence": "strong",
+            "focus_anchor": "The verb أَنشَأْنَٰهُنَّ at word 2 takes a feminine-plural object, and the cognate verbal noun إِنشَآءً at word 3 repeats ن ش ء.",
+            "mechanism": "The finite verb plus cognate accusative makes deliberate origination the whole predication and intensifies the act or manner of bringing the unnamed feminine-plural object into being.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "The branch literally supplies causing a thing to exist; root repetition makes that originating act, rather than a named result, the mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "We created them.",
+              "after": "We ourselves brought the feminine-plural 'them' into a deliberately marked mode of existence, foregrounding the originating act itself."
+            }
+          },
+          {
+            "model_id": "baseline-nurtured-arising",
+            "confidence": "medium",
+            "focus_anchor": "Both the causative verb and its cognate noun carry ن ش ء, whose inventory includes the growth and upbringing of the young.",
+            "mechanism": "Creation can be heard as caused development: the object is not merely fabricated at an instant but made to arise through formation, growth, and nurture.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B002",
+                "role": "The branch literally supplies a youth's growth and upbringing, giving the causative construction a developmental rather than merely instantaneous function."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah reports a completed act of creation.",
+              "after": "The ayah can report a caused arising in which 'them' are cultivated into a newly developed mode."
+            }
+          },
+          {
+            "model_id": "baseline-inceptive-launch",
+            "confidence": "medium",
+            "focus_anchor": "The repeated ن ش ء construction names no resulting quality and can therefore emphasize inception and entry into a new course.",
+            "mechanism": "Images of beginning an act and rising to proceed converge on launch: the ayah marks not only existence but the onset of a fresh trajectory.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B004",
+                "role": "The branch literally supplies beginning speech or action and functions here as the threshold into a new mode."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B008",
+                "role": "The branch literally supplies approaching, rising, and setting out, turning inception into an activated course rather than a static beginning."
+              }
+            ],
+            "changed_reading": {
+              "before": "Something is made to exist.",
+              "after": "A fresh course is initiated and 'them' are made to rise into it."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-belonging-by-design",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن",
+              "ع ر ب",
+              "ت ر ب"
+            ],
+            "mechanism": "Companionship and blessing bracket the scene, while affection and peer equality follow the focus. Together they activate creation as relational fitting: the created subjects are formed for reciprocal belonging, not as isolated objects.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B002",
+                "role": "The branch's literal growth and upbringing image supplies formation of capacities that can mature into social fit."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "The branch literally supplies companionship and sustained association, framing the focus within a collective relation."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "The branch literally supplies blessing and good fortune, qualifying the social destination as a felicitous one."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B005",
+                "role": "The branch literally supplies the loving woman and functions as the affective capacity built into the resulting relation."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "The branch literally supplies equality in age and companionship, making parity rather than hierarchy the relation's organizing condition."
+              }
+            ],
+            "structural_cues": [
+              "56:27 and 56:38 bracket the descriptive sequence with أصحاب اليمين.",
+              "The qualities in 56:37 follow the same feminine-plural object chain, and 56:38 adds a recipient or purpose relation with لِ."
+            ],
+            "reader_inference": "The packet supplies companionship, blessing, affection, parity, and the enclosing sequence; I infer that these are the telos of the creating act. A live alternative is that they describe only later benefits and do not characterize how 56:35 creates.",
+            "changed_reading": {
+              "before": "The ayah creates an unspecified feminine-plural object.",
+              "after": "The ayah creates subjects fitted for blessed companionship through affection and peer equality."
+            }
+          },
+          {
+            "model_id": "delta-cultivated-continuity",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ض د",
+              "م د د",
+              "م و ه",
+              "ك ث ر",
+              "ق ط ع",
+              "م ن ع"
+            ],
+            "mechanism": "The surrounding ecology removes injury, extends continuously, supplies water, multiplies yield, and negates interruption and obstruction. This turns nurtured arising into a maintained process whose fruition is protected and available.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B002",
+                "role": "The branch literally supplies growth and nurture, serving as the focus-side process that the ecological sequence elaborates."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "The branch literally supplies removal of thorns or sharpness, functioning as removal of impediment before development."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "The branch literally supplies drawing something out in connected length, giving the process durable continuity."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "The branch literally supplies delivery of water by watering or pouring, functioning as an enabling input to growth."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "The branch literally supplies abundance and numerical increase, marking the process's proliferating yield."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "The branch literally supplies interruption, disappearance, or ending; negation in the source makes cessation unavailable."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The branch literally supplies a barrier between a person and a desired object; negation removes blocked access from the mechanism."
+              }
+            ],
+            "structural_cues": [
+              "56:28-33 moves through softened vegetation, extension, poured water, abundant fruit, and the paired negations لا مقطوعة ولا ممنوعة.",
+              "The repeated indefinite descriptions accumulate as conditions of one provisioned environment before the focus."
+            ],
+            "reader_inference": "The packet supplies the ordered ecological conditions; I infer that their causal pattern analogically specifies the manner of نشأة as cultivated continuity. They may instead remain independent amenities with no backward force on 56:35.",
+            "changed_reading": {
+              "before": "Nurtured arising is possible but unspecified.",
+              "after": "The arising is cultivated through removed impediment, sustained supply, multiplication, and freedom from interruption or blockage."
+            }
+          },
+          {
+            "model_id": "delta-ordered-elevation",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ض د",
+              "ف ر ش",
+              "ر ف ع"
+            ],
+            "mechanism": "A technical focus branch for a basin's first supports meets ordered joining, groundwork spread out, and elevation. The resulting material analogy reads creation as construction from laid base through coordinated assembly to a raised form.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B007",
+                "role": "The branch literally supplies a basin's supports or first-built element, giving the focus a technical groundwork image."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "The branch literally supplies joining thing to thing in order, functioning as coordinated assembly above the groundwork."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "The branch literally supplies spreading and preparing a base, providing the construction's laid substrate."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "The branch literally supplies raising a thing, converting the spread base and ordered parts into an elevated result."
+              }
+            ],
+            "structural_cues": [
+              "The list places stacked provision in 56:29 and a spread-but-raised furnishing immediately before the focus in 56:34."
+            ],
+            "reader_inference": "The packet supplies support, ordered joining, spreading, and raising; I supply the construction arrow from base to assembled elevation. The live alternative is a noncausal list of amenities whose material relations do not describe the focus act.",
+            "changed_reading": {
+              "before": "The act is generic origination.",
+              "after": "The act can be pictured as establishing supports, ordering components, and raising a newly coherent form."
+            }
+          },
+          {
+            "model_id": "delta-origination-before-configuration",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ب ك ر"
+            ],
+            "mechanism": "The next ayah changes from emphatic origination to making-into-a-state and then names firstness or virginity. This differentiates two phases: 56:35 establishes the subject in a new existence; 56:36 configures that subject's resulting condition.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "The branch literally supplies causing the subject to exist and functions as the first, generative phase."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B004",
+                "role": "The branch literally supplies inception, sharpening 56:35 as the onset that precedes a named state."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "The branch literally supplies rendering a thing into a condition, functioning as phase two after origination."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B002",
+                "role": "The branch literally supplies the first or earliest part of a thing, naming the configured result as fresh firstness."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B004",
+                "role": "The branch literally supplies virginity or untouchedness, specifying the concrete state produced by the second verb."
+              }
+            ],
+            "structural_cues": [
+              "The emphatic cognate construction in 56:35 is followed by فَجَعَلْنَٰهُنَّ in 56:36, retaining the feminine-plural object while changing predicates.",
+              "أَبْكَارًا follows جعل as the named resulting state."
+            ],
+            "reader_inference": "The packet supplies the verb sequence, shared object, and origination-versus-state branches; I infer a two-phase arrow from existence to configuration. A live alternative treats the two verbs as rhetorical restatement of one transformation.",
+            "changed_reading": {
+              "before": "Creating them already means making them virginal.",
+              "after": "56:35 first originates a new subject or mode of existence; 56:36 then renders that subject fresh and untouched."
+            }
+          },
+          {
+            "model_id": "delta-cross-cohort-renewal",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ل ل",
+              "ء و ل",
+              "ء خ ر"
+            ],
+            "mechanism": "Parallel gathered cohorts from the earlier and later are placed after the focus. Beginning, succession, and laterness stretch inceptive creation across temporal populations, making renewal repeatable rather than confined to one inaugural group.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B004",
+                "role": "The branch literally supplies beginning an act and functions as the repeatable inception distributed across cohorts."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The branch literally supplies a gathered group, scaling the created result from individual objects to a cohort."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The repeated gathered-group image supplies a second cohort and makes the temporal distribution structurally parallel."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "This mapped branch literally supplies beginning and precedence, locating one cohort at the temporal front."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The split-root branch literally supplies succession one thing after another, adding serial continuity rather than a single first moment."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The branch literally supplies laterness after what is first, extending the creative horizon to the second temporal pole."
+              }
+            ],
+            "structural_cues": [
+              "56:39 and 56:40 repeat ثلة من in parallel and vary only الأولين versus الآخرين."
+            ],
+            "reader_inference": "The packet supplies two parallel groups and the first/successive/later temporal images; I infer repeated applicability of the originating act across cohorts. Alternatively, the cohort labels classify beneficiaries without saying when or how they are created.",
+            "changed_reading": {
+              "before": "The ayah sounds like one bounded creative episode affecting one group.",
+              "after": "The ayah can mark a renewable beginning realized across gathered earlier and later cohorts."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-gestational-rebeginning",
+            "confidence": "exploratory",
+            "containment": "This is surprising because camel conception, reproductive water, and first birth are materially specific branches and cannot determine the lexical sense of 56:35. It remains anchored in the focus root, feminine-plural object, and packet-backed neighboring images; downstream prose should present it only as a reproductive material analogy for radical renewal, not as a biological assertion.",
+            "focus_anchor": "The focus inventory itself gives ن ش ء a branch of conception and incipient pregnancy, while the causative verb makes the beginning happen to a feminine-plural object.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B009",
+                "role": "The branch literally supplies conception in a she-camel and the beginning of pregnancy, giving the focus a gestational inception image."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B004",
+                "role": "The branch literally supplies reproductive fluid in the womb and functions as the material trigger for gestational development."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B005",
+                "role": "The branch literally supplies first offspring or first birth, completing the analogy as a newly begun embodied life."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ayah states an unspecified creative act.",
+              "after": "The ayah can be carried exploratorily as a gestational re-beginning, as though a fresh embodied life is seeded and brought to first birth."
+            }
+          },
+          {
+            "outlier_id": "outlier-furnishing-to-companion-metamorphosis",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses object and person domains and the focus does not resolve the antecedent of -hunna. It remains surface-anchored by the immediate raised-furnishing phrase, the repeated feminine-plural object, and the subsequent personal states; downstream prose should call it a metamorphic surface activation, not a settled referential claim.",
+            "focus_anchor": "The feminine-plural object suffix in أَنشَأْنَٰهُنَّ is unnamed inside 56:35, appears immediately after the raised furnishings of 56:34, and recurs in 56:36.",
+            "activation_trace": [
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "The branch literally supplies bringing something into existence and functions as the transformation point between the neighboring domains."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "The branch literally supplies furnishings, bedding, or spread goods, furnishing the object-domain side of the surface transition."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "The branch literally supplies elevation, activating the furnishings as already transformed rather than inert."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "The branch literally supplies rendering something into a condition, carrying the same pronominal object toward a personal state."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B005",
+                "role": "The branch literally supplies the loving woman, establishing the person-domain endpoint of the metamorphic reading."
+              }
+            ],
+            "changed_reading": {
+              "before": "The raised furnishings and the created companions belong to separate descriptive items.",
+              "after": "The surface sequence permits an exploratory metamorphosis in which raised resting furnishings become, or disclose, newly created relational persons."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The following جعل construction separates origination from subsequent state-configuration.",
+            "Companionship, affection, and parity make the created result relationally fitted rather than isolated.",
+            "The preceding ecology activates sustained, supplied, unblocked development rather than a bare one-time event.",
+            "Parallel earlier and later cohorts make fresh inception readable as repeatable across temporal groups."
+          ],
+          "what_was_special": "The doubled focus root supports creation, development, inception, and launch at once; the context then distributes those possibilities into ecological, material, social, state-changing, and temporal mechanisms without forcing one final referent.",
+          "remaining_uncertainties": [
+            "The antecedent and ontological category of the feminine-plural object remain unstated within the focus ayah.",
+            "The pre-focus material sequence may analogically describe the creating act or may only list independent amenities.",
+            "The two-phase distinction between أنشأ and جعل is strong but could still be rhetorical elaboration rather than a strict causal sequence.",
+            "The gestational and furnishing-to-person readings depend on deliberately distant branch activations and require explicit qualification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Deliberate origination emphasized as a process.** The finite verb and cognate noun activate `ن ش ء` **B006**, bringing something into being, and **B001**, rising and being raised. Its position after raised bedding links origination with elevation. **Abductive move:** I infer that emphatic repetition excludes accidental emergence and assigns agency to the speaker. **Reading change:** the ayah announces a specially effected mode of existence.\n\n2. **A fresh beginning that later creation arguments explain.** `ن ش ء` **B004** supplies beginning an action; the root returns in replacement and the first genesis (56:61–62) and in producing fire’s tree (56:72). **Abductive move:** I infer that this local origination is one case of the surah’s general power to begin forms anew. **Reading change:** the ayah participates in a larger creation/re-creation demonstration.",
@@ -3002,18 +3632,23 @@
   "root_lexicon": {
     "root_001502": {
       "root_ar": "ن ش ء",
+      "qac_roots_ar": [
+        "ن ش ء"
+      ],
       "root_id": "root_001502",
-      "root_mapping": {
-        "root_id": "root_001502",
-        "root_norm": "ن ش ء",
-        "source_root_norm": "ن ش أ",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 22,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ش ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 22
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5d592d623d01a6c7696b653e9340c2d56b83994ab56cd09db0c53097a60c0742",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5635,14 +6270,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5913,11 +6554,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_35.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_35.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 71042,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -5989,19 +6643,37 @@
           "root_ids": [
             "root_001502"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ش ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001502",
+            "targets": [
+              {
+                "qac_root_norm": "ن ش ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_001502",
+                "furuq_root_norm": "ن ش ء",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 22,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001502",
-              "root_norm": "ن ش ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ش ء",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 22,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6028,10 +6700,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 9,
+        "dictionary_branches_kept": 9,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 9,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

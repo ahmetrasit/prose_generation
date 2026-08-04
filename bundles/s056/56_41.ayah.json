@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.479809+00:00",
+  "generated_at": "2026-08-04T22:29:59.671191+00:00",
   "surah": 56,
   "ayah": 41,
   "ayahRef": "56:41",
@@ -1708,7 +1708,8 @@
       "morpheme_ids": [
         "m-w-s056-a041-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:41:1"
+      "aligned_qac_word_ref_upstream": "56:41:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1722,7 +1723,8 @@
       "morpheme_ids": [
         "m-w-s056-a041-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:41:2"
+      "aligned_qac_word_ref_upstream": "56:41:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1738,7 +1740,8 @@
         "m-w-s056-a041-w002-01",
         "m-w-s056-a041-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:41:3"
+      "aligned_qac_word_ref_upstream": "56:41:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1752,7 +1755,8 @@
       "morpheme_ids": [
         "m-w-s056-a041-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:41:4"
+      "aligned_qac_word_ref_upstream": "56:41:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1766,7 +1770,8 @@
       "morpheme_ids": [
         "m-w-s056-a041-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:41:5"
+      "aligned_qac_word_ref_upstream": "56:41:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1782,7 +1787,8 @@
         "m-w-s056-a041-w005-01",
         "m-w-s056-a041-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:41:6"
+      "aligned_qac_word_ref_upstream": "56:41:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2270,7 +2276,768 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_41.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:41",
+      "window": [
+        "56:41",
+        "56:42",
+        "56:43",
+        "56:44",
+        "56:45",
+        "56:46",
+        "56:47",
+        "56:48",
+        "56:49",
+        "56:50",
+        "56:51",
+        "56:52",
+        "56:53",
+        "56:54",
+        "56:55",
+        "56:56"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:41",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_directional_company",
+            "confidence": "strong",
+            "focus_anchor": "The repeated ashab at words 1/4 and al-shimal at words 2/5, framed by ma.",
+            "mechanism": "S-H-B supplies durable accompaniment and Sh-M-L supplies the left-hand direction. Repetition turns a side assignment into a settled corporate identity, while ma opens the quality of that identity for evaluation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and sustained association make the referents a company bound to one designation."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B006",
+                "role": "The left hand or leftward direction supplies the spatial pole to which the company is attached."
+              }
+            ],
+            "changed_reading": {
+              "before": "A group located on the left.",
+              "after": "A company constituted by lasting attachment to the leftward side, with its condition intensified by the repeated ma-frame."
+            }
+          },
+          {
+            "model_id": "b2_enveloping_condition",
+            "confidence": "medium",
+            "focus_anchor": "Ashab and al-shimal recur as a tightly repeated possessive unit.",
+            "mechanism": "S-H-B can make one thing an abiding companion of another, while Sh-M-L can describe all-sided enclosure and wrapping. The title can therefore profile people whose left-marked condition accompanies and surrounds them, not merely people standing at coordinates.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B004",
+                "role": "Making something accompany another turns the designation into a condition carried with its people."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B001",
+                "role": "Enclosure from all sides makes shimal a surrounding condition rather than only a direction."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B003",
+                "role": "Wrapping in a garment gives the enclosure a close, body-adjacent form."
+              }
+            ],
+            "changed_reading": {
+              "before": "A cohort occupying one side.",
+              "after": "A cohort inseparably accompanied and wrapped by a left-marked condition."
+            }
+          },
+          {
+            "model_id": "b3_disposition_and_fortune",
+            "confidence": "medium",
+            "focus_anchor": "The doubled title joins collective companionship to the polysemous al-shimal.",
+            "mechanism": "Sh-M-L can move from side to human traits and from direction to an omen or low rank. Joined to durable companionship, the phrase can name a social-moral company whose shared habits issue in an adverse allotment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Sustained association lets a repeated disposition define a company rather than an isolated individual."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B008",
+                "role": "Human traits and habitual character internalize the directional label as a shared profile."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B013",
+                "role": "The image of ill omen or low rank supplies the adverse outcome of that shared profile."
+              }
+            ],
+            "changed_reading": {
+              "before": "An externally assigned directional class.",
+              "after": "A company recognized by habituated traits and the disastrous rank or fortune those traits have become."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1_porous_anti_shelter",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م م",
+              "ح م م",
+              "ظ ل ل",
+              "ب ر د",
+              "ك ر م"
+            ],
+            "mechanism": "The enveloping baseline becomes a failed refuge: a cover exists, yet penetrating heat and blackness occupy it, and it grants neither thermal relief nor honorable reception. S-H-B makes this anti-shelter continuously accompany its occupants.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Abiding companionship makes the hostile environment continuous rather than momentary."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B001",
+                "role": "All-sided enclosure supplies the spatial form that the following environment fills."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "A penetrating hot wind makes the enclosure porous to injury rather than protective."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B001",
+                "role": "Blackness, coal, and smoke give the offered shade its obscuring hostile substance."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "Shade literally supplies cover, allowing the passage to construct and then negate refuge."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Coolness as heat's opposite is explicitly denied, defining the cover by failed relief."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor and generosity are also denied, extending failed shelter into failed reception."
+              }
+            ],
+            "structural_cues": [
+              "56:42 places the company inside the paired environment with fi; 56:43 offers shade; 56:44 answers with coordinated negations."
+            ],
+            "reader_inference": "The packet supplies penetration, dark cover, and two denied benefits; I make these properties retroact on Sh-M-L's enclosure and S-H-B's accompaniment to form an anti-shelter. A live alternative is a simple list of punishments that does not reshape the title.",
+            "changed_reading": {
+              "before": "Their left-marked condition surrounds them.",
+              "after": "Their left-marked enclosure is a total anti-shelter whose cover admits harm and withholds both relief and honorable reception."
+            }
+          },
+          {
+            "model_id": "d2_self_bound_company",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ر ف",
+              "ص ر ر",
+              "ح ن ث"
+            ],
+            "mechanism": "Prior luxury releases its possessor, but repeated persistence knots conduct around guilt. The context thus gives the disposition baseline a causal biography: unrestrained ease becomes self-binding habit, and habit stabilizes membership in the company.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Durable association turns repeated conduct into corporate identity."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B008",
+                "role": "Human traits supply the inward locus in which prior conduct becomes a defining disposition."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Expansive luxury that lets its possessor loose supplies the permissive starting condition."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Tying and knotting render persistence as the self-binding mechanism that fixes identity."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Persistence and resolve supply the repeated agency by which the knot is maintained."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B001",
+                "role": "Guilt or grave fault supplies the conduct around which persistence hardens."
+              }
+            ],
+            "structural_cues": [
+              "56:45's causal inna-clause locates the condition before the outcome; 56:46 repeats kanu with the habitual imperfect yusirrun."
+            ],
+            "reader_inference": "The packet supplies released luxury, persistence, knotting, and guilt; I infer a causal arrow from permissive ease through repeated conduct to fixed company identity. The alternative is that luxury and persistence are independent charges rather than stages.",
+            "changed_reading": {
+              "before": "A company marked by adverse disposition and fortune.",
+              "after": "A company that has fastened itself into its adverse identity: prior unrestrained ease becomes the setting in which repetition knots conduct into character."
+            }
+          },
+          {
+            "model_id": "d3_diachronic_assembly",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ت",
+              "ب ع ث",
+              "ء و ل",
+              "ء خ ر",
+              "ج م ع",
+              "و ق ت"
+            ],
+            "mechanism": "Death and dust disperse and still bodies; resurrection stirs them; first and last span the temporal field; gathering at a fixed limit recomposes them. Sh-M-L's reunion after dispersal and S-H-B's company convert the title from a local side-group into a transhistorical assembled body.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies the corporate form into which separated persons are recomposed."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B002",
+                "role": "Reunion after dispersal supplies the focus-root image activated by resurrection and gathering."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B012",
+                "role": "Stillness and decay supply the dispersed, inactive state from which the company must be recovered."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Stirring what is still supplies the reversal from inactive remains to an assembling population."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence mark the early endpoint of the population's temporal span."
+              },
+              {
+                "source_ref": "56:49",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Lastness after the first marks the late endpoint, completing the temporal span."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining what was scattered supplies the direct operation that creates one company."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B002",
+                "role": "A fixed time or limit synchronizes the otherwise dispersed population."
+              }
+            ],
+            "structural_cues": [
+              "The skeptical question of 56:47-48 is answered by qul and the emphatic passive plural la-majmu'un in 56:49-50."
+            ],
+            "reader_inference": "The packet supplies stillness, reactivation, temporal endpoints, gathering, and appointment; I infer that this sequence retroactively defines ashab as the company produced by that assembly. The alternative is that assembly only relocates an already fixed class.",
+            "changed_reading": {
+              "before": "A contemporaneous cohort assigned to one side.",
+              "after": "A company constituted at an appointed assembly from dispersed dead across the whole first-to-last temporal range."
+            }
+          },
+          {
+            "model_id": "d4_interiorized_accompaniment",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ك ل",
+              "ز ق م",
+              "م ل ء",
+              "ب ط ن",
+              "ش ر ب",
+              "ه ي م"
+            ],
+            "mechanism": "The sequence moves hostile matter from environment to ingestion, swallowing, vessel-filling, inward permeation, and renewed thirst. Punishment therefore becomes an inseparable companion from inside, while Sh-M-L's enclosure contracts from surrounding habitat to occupied interior.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B004",
+                "role": "Making one thing accompany another supplies the bond formed when hostile matter is taken into the body."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B001",
+                "role": "Enclosure from all sides shifts scale from external atmosphere to a filled bodily interior."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Taking food supplies the first transfer of hostile matter across the body's boundary."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ز ق م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000636",
+                "branch_id": "B002",
+                "role": "Swallowing and gulping sharpen consumption into forced inward passage."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling to the measure of a vessel makes occupation of the interior total."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B001",
+                "role": "The belly as an inside names the bodily enclosure in which hostile matter now resides."
+              },
+              {
+                "source_ref": "56:54",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B007",
+                "role": "Drinking's image of permeating color and heart lets intake become assimilation rather than contact alone."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Thirst that cannot be quenched closes a feedback loop that compels renewed intake."
+              }
+            ],
+            "structural_cues": [
+              "The consecutive participles move from eating in 56:52 to filling in 56:53 and repeated drinking in 56:54-55."
+            ],
+            "reader_inference": "The packet supplies intake, swallowing, full interior volume, permeation, and unquenched thirst; I infer a directional arrow from external punishment to embodied companionship and a self-renewing loop. The alternative is a purely somatic sequence with no retroaction on ashab or shimal.",
+            "changed_reading": {
+              "before": "The company is surrounded by a hostile condition.",
+              "after": "The company repeatedly takes that condition inside until it fills and permeates them, making punishment their embodied companion without satisfying the drive that renews it."
+            }
+          },
+          {
+            "model_id": "d5_recompensive_hospitality",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ي و م",
+              "ن ز ل",
+              "د ي ن"
+            ],
+            "mechanism": "The deictic close recasts the preceding food and drink as prepared guest provision, while D-Y-N identifies its occasion as reckoning and recompense. The social noun ashab is thereby drawn into an inverted hospitality scene: the company's adverse rank determines its reception.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies the social register that the closing guest-provision language reverses."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B013",
+                "role": "Ill omen or low rank determines the degraded quality of the company's reception."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The day's severe event gives the hospitality scene its bounded occasion."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Provision prepared for a visitor explicitly recodes the prior intake as an offered reception."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense explain why this particular provision belongs to this company."
+              }
+            ],
+            "structural_cues": [
+              "The demonstrative hadha and possessive nuzuluhum point backward over the food-and-drink chain before the terminal yawm al-din."
+            ],
+            "reader_inference": "The packet supplies retrospective deixis, their prepared provision, and recompense; I infer that the title anticipates an inverted host-guest relation. The live alternative is that nuzul is only a closing ironic label and does not modify the social force of ashab.",
+            "changed_reading": {
+              "before": "A company with an ominous rank.",
+              "after": "A company received with a prepared anti-feast whose form is the recompense appropriate to the identity they formed."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_intimates_of_heat",
+            "confidence": "exploratory",
+            "containment": "This is surprising because hamim in the sequence denotes the hot medium, not a human relative; it remains anchored through the focus's companionship noun and H-M-M's genuine close-kin branch. Render it only as an ironic lexical echo of hostile intimacy, not as a replacement translation.",
+            "focus_anchor": "Ashab at 56:41 names companionship; hamim immediately follows at 56:42.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies the social relation that the following polysemy darkly echoes."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B011",
+                "role": "Close kinship or intimacy makes the hot medium an ironic nearest associate rather than scenery alone."
+              }
+            ],
+            "changed_reading": {
+              "before": "The company is accompanied by a hot punishment.",
+              "after": "At the level of lexical echo, its nearest intimate is the boiling medium itself: social proximity has become hostile proximity."
+            }
+          },
+          {
+            "outlier_id": "o2_cooling_name_reversed",
+            "confidence": "medium",
+            "containment": "This is surprising because al-shimal is ordinarily read directionally here and the north-wind branch is secondary; it remains anchored in the repeated focus root and is answered by penetrating hot wind plus explicit denial of coolness. Render it as a contrastive activation, not as the phrase's primary lexical sense.",
+            "focus_anchor": "The repeated al-shimal at words 2/5 can carry the north wind and its cooling effect.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B007",
+                "role": "The north wind and what it cools create a suppressed thermal expectation inside the title."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "A penetrating hot wind replaces the cooling wind expected by the focus-root branch."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "The explicit denial of coolness completes the thermal reversal."
+              }
+            ],
+            "changed_reading": {
+              "before": "Shimal marks only the leftward side.",
+              "after": "The title briefly raises a north-wind cooling expectation that the context reverses into penetrating heat and not-cool shade."
+            }
+          },
+          {
+            "outlier_id": "o3_scattered_remnants_totalized",
+            "confidence": "exploratory",
+            "containment": "This is surprising because scattered remnants are a remote Sh-M-L branch and the strong model uses reunion instead; it remains anchored in the focus root and meets a direct contextual reversal in complete gathering. Render it as a subordinate remnant-to-totality pattern, not a standalone gloss.",
+            "focus_anchor": "Al-shimal at words 2/5 has a branch of sparse, scattered remnants.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B010",
+                "role": "Sparse scattered remnants supply the fragmentary starting image latent in the title."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining dispersed pieces reverses the remnant image into an assembled company."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B009",
+                "role": "Completion without dispersion or deficit totalizes what the focus branch pictured as sparse remains."
+              }
+            ],
+            "changed_reading": {
+              "before": "The title names a coherent side-group.",
+              "after": "A subordinate branch pictures scattered remnants that the appointed gathering reverses into a complete, deficiency-free company."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The surrounding left-marked condition becomes a porous anti-shelter that admits harm while denying relief and honor.",
+            "Prior ease and repeated fault give the company a causal biography in which conduct knots itself into identity.",
+            "Resurrection and fixed-time gathering make the company transhistorical: dispersed dead from first to last are recomposed as one body.",
+            "Eating, filling, and unquenched drinking move punishment from environment into an embodied, self-renewing companionship.",
+            "The final nuzul recasts the sequence as recompensive anti-hospitality."
+          ],
+          "what_was_special": "The repeated two-root title proved unusually receptive to scale changes: side became enclosure, enclosure became bodily interior, companionship became both self-formed identity and appointed assembly, and the social label culminated in inverted reception.",
+          "remaining_uncertainties": [
+            "The enclosure and character branches of Sh-M-L may be latent overlays rather than active senses in the focus construction.",
+            "The internalization sequence may describe punishment without intentionally retroacting on the title.",
+            "The north-wind reversal, intimate-heat echo, and scattered-remnant pattern require explicit downstream qualification."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The left-side group as counterpart to the right.** `ص ح ب` **B001** supplies close association and `ش م ل` **B006** left side opposite the right. The repeated formula mirrors 56:27, while the subsequent environment reverses its provisions. **Abductive move:** I infer that syntax and ecology jointly establish opposed placements. **Reading change:** leftness is a full counter-order, not just direction.\n\n2. **An all-encompassing destructive condition.** `ش م ل` **B001** supplies all-around encompassing and **B002** gathering a scattered whole. Hot wind, boiling water, and dark shade then surround the group. **Abductive move:** I infer that `الشمال` can activate enclosure by the punitive environment. **Reading change:** the companions are not only on the left; they are comprehensively enveloped by its conditions.",
@@ -3091,18 +3858,23 @@
   "root_lexicon": {
     "root_000844": {
       "root_ar": "ص ح ب",
+      "qac_roots_ar": [
+        "ص ح ب"
+      ],
       "root_id": "root_000844",
-      "root_mapping": {
-        "root_id": "root_000844",
-        "root_norm": "ص ح ب",
-        "source_root_norm": "ص ح ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 79,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ح ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 79
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7c7a3478ca99842d1e405bd2bdea8b2b46a3abba3aac7be50cedd19384a0edbd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5409,18 +6181,23 @@
     },
     "root_000819": {
       "root_ar": "ش م ل",
+      "qac_roots_ar": [
+        "ش م ل"
+      ],
       "root_id": "root_000819",
-      "root_mapping": {
-        "root_id": "root_000819",
-        "root_norm": "ش م ل",
-        "source_root_norm": "ش م ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 12,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش م ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 12
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b79f0433cb940d56b3cb5d4eed3a18d80f6453d30ffe91dcc295f0483668b4f1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9099,14 +9876,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9390,11 +10173,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_41.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_41.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 77215,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9467,19 +10263,37 @@
           "root_ids": [
             "root_000844"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ح ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000844",
+            "targets": [
+              {
+                "qac_root_norm": "ص ح ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000844",
+                "furuq_root_norm": "ص ح ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 79,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000844",
-              "root_norm": "ص ح ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ح ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 79,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9504,19 +10318,37 @@
           "root_ids": [
             "root_000819"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش م ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000819",
+            "targets": [
+              {
+                "qac_root_norm": "ش م ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000819",
+                "furuq_root_norm": "ش م ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 12,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000819",
-              "root_norm": "ش م ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش م ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 12,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9543,10 +10375,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 22,
+        "dictionary_branches_kept": 22,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 22,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.017991+00:00",
+  "generated_at": "2026-08-04T22:29:59.305404+00:00",
   "surah": 56,
   "ayah": 32,
   "ayahRef": "56:32",
@@ -1105,7 +1105,8 @@
       "morpheme_ids": [
         "m-w-s056-a032-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:32:1"
+      "aligned_qac_word_ref_upstream": "56:32:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1119,7 +1120,8 @@
       "morpheme_ids": [
         "m-w-s056-a032-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:32:2"
+      "aligned_qac_word_ref_upstream": "56:32:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1133,7 +1135,8 @@
       "morpheme_ids": [
         "m-w-s056-a032-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:32:3"
+      "aligned_qac_word_ref_upstream": "56:32:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1485,7 +1488,735 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_32.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:32",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:32",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_edible_plenitude",
+            "confidence": "strong",
+            "focus_anchor": "The noun at word 1 is qualified by the abundance adjective at word 2.",
+            "mechanism": "Agreeable produce is presented as numerically plentiful: the adjective enlarges the available stock while the noun keeps that stock edible and desirable.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Supplies desirable fruit as the concrete substance whose stock is enlarged."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Supplies numerical increase and makes plenitude the phrase's explicit measure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Fruit appears as one item in a surrounding list.",
+              "after": "The item is specifically an enlarged supply of agreeable produce."
+            }
+          },
+          {
+            "model_id": "baseline_gathered_delight",
+            "confidence": "medium",
+            "focus_anchor": "The semantic range of word 1 includes enjoyed well-being, while word 2 can image abundance as an aggregation.",
+            "mechanism": "The phrase can measure more than pieces of produce: gathered fruit becomes a concentrated field of delight, joining material plenty to the eater's pleased state.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B001",
+                "role": "Supplies inward pleasure and enjoyment as the experiential effect carried by the fruit."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "Supplies concentration into a gathered mass, making delight spatially and materially dense."
+              }
+            ],
+            "changed_reading": {
+              "before": "Many fruit denotes a large count.",
+              "after": "The phrase also evokes a concentrated abundance of enjoyed well-being."
+            }
+          },
+          {
+            "model_id": "baseline_convival_wordplay",
+            "confidence": "exploratory",
+            "focus_anchor": "Word 1 has a branch of witty, pleasant conversation, and word 2 has a branch of copious speech.",
+            "mechanism": "The two roots permit a secondary social register in which plentiful fruit resonates with plentiful convivial talk.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "Supplies sociable wit and pleasant talk as a latent resonance of the fruit noun."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Supplies copious speech, allowing the adjective to amplify the conversational resonance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase describes only edible quantity.",
+              "after": "Exploratorily, edible plenty carries an echo of abundant convivial speech."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_shared_blessed_provision",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن"
+            ],
+            "mechanism": "The repeated companion-and-right frame assigns the fruit abundance to a durable social body marked by blessing; plenty is shared provision rather than an ownerless heap.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B001",
+                "role": "Supplies enjoyed well-being as the benefit received by the framed community."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Supplies the enlarged provision whose social allocation is being inferred."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Supplies repeated companionship and opens a collective frame for the intervening provisions."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Supplies blessing as the quality attached to the recipient group."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Closes the sequence with the same companionship, confirming its communal scope."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Restates blessing at the closing edge and brackets the abundance within it."
+              }
+            ],
+            "structural_cues": [
+              "56:27 and 56:38 repeat the same recipient phrase around the provision sequence."
+            ],
+            "reader_inference": "The packet supplies companionship and blessing at both edges; I assign the intervening abundance to that shared group. A live alternative is that the repeated label identifies recipients without changing the internal sense of abundance.",
+            "changed_reading": {
+              "before": "Abundance is a quantity of fruit.",
+              "after": "Abundance is blessed provision held in common by an enduring companion-group."
+            }
+          },
+          {
+            "model_id": "delta_cultivated_density",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ض د",
+              "ط ل ح",
+              "ن ض د"
+            ],
+            "mechanism": "Blunted impediments and deliberately joined layers turn sheer quantity into cultivated density: the produce is plentiful because its environment is ordered and made usable.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Keeps the inferred system anchored in edible, desirable produce."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "Supplies gathered concentration rather than an unstructured count."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Supplies removal or blunting of sharp obstruction, making the abundance usable."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "Supplies the tree-bearing material setting in which dense produce can be organized."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Supplies orderly joining and layering as the arrangement of the plentiful yield."
+              }
+            ],
+            "structural_cues": [
+              "The two preceding tree phrases pair a material noun with a participle describing its prepared condition."
+            ],
+            "reader_inference": "The packet supplies de-sharpening, a tree, and ordered joining; I infer cultivation as the arrow connecting those conditions to fruit density. They could instead remain independent scenic descriptions.",
+            "changed_reading": {
+              "before": "Many fruit is an unstructured numerical surplus.",
+              "after": "It is a harm-reduced, deliberately ordered density of usable produce."
+            }
+          },
+          {
+            "model_id": "delta_sustained_yield",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ظ ل ل",
+              "م د د",
+              "م و ه",
+              "س ك ب"
+            ],
+            "mechanism": "Protective shade extended through time and continuously delivered water form a sustaining ecology; fruit abundance becomes ongoing yield rather than a static pile.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Supplies produce as the output of the inferred sustaining ecology."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Supplies growth in quantity as the ecology's visible result."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B004",
+                "role": "Supplies sheltering protection as one condition preserving the yield."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B002",
+                "role": "Supplies connected extension and replenishing support rather than a momentary condition."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Supplies water delivered by irrigation or pouring as a material input."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Supplies persistence to the water flow and makes replenishment ongoing."
+              }
+            ],
+            "structural_cues": [
+              "Extended shade and poured water immediately precede the focus phrase."
+            ],
+            "reader_inference": "The packet supplies protection, extension, water delivery, and persistence; I supply the causal arrow from those inputs to recurring fruit. A live alternative is a noncausal catalogue of pleasures.",
+            "changed_reading": {
+              "before": "The fruit is abundant at the depicted moment.",
+              "after": "The fruit is an ongoing yield supported by a continuously provisioned ecology."
+            }
+          },
+          {
+            "model_id": "delta_nonexpiring_access",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ط ع",
+              "م ن ع"
+            ],
+            "mechanism": "The following coordinated negations cancel both temporal depletion and social blockage, converting 'many' from a large finite count into uninterrupted, unobstructed availability.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Identifies desirable produce as what remains available."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Supplies the initial quantitative plenty that the negations remeasure."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Supplies cessation and ending, which the first negation removes from the fruit."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "Supplies a barrier between a person and a desired thing, which the second negation removes."
+              }
+            ],
+            "structural_cues": [
+              "The two feminine singular participles in 56:33 continue the description of the feminine fruit noun through parallel negation."
+            ],
+            "reader_inference": "The packet supplies direct grammatical continuation plus negated ending and barrier; I distinguish temporal continuity from access and let both qualify abundance. The two negations could also be read as near-synonymous intensification.",
+            "changed_reading": {
+              "before": "Many fruit means a large but potentially exhaustible stock.",
+              "after": "Its abundance consists in never being seasonally cut off and never being withheld."
+            }
+          },
+          {
+            "model_id": "delta_convival_community",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ع ر ب",
+              "ت ر ب"
+            ],
+            "mechanism": "Expressive affection among equals gives social traction to the focus roots' latent speech branches: material fruitfulness coexists with a profusion of intimate, lucid conversation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B003",
+                "role": "Supplies pleasant conversational wit as the focus phrase's secondary register."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B003",
+                "role": "Supplies copious speech as the way abundance operates in that register."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B001",
+                "role": "Supplies lucid expression and makes the conversational resonance more than sound play."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B005",
+                "role": "Supplies loving social orientation as the tone of the abundant exchange."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "Supplies equality in age and companionship as the relation supporting mutual conversation."
+              }
+            ],
+            "structural_cues": [
+              "56:37 places expressive affection and peer equality within the same recipient sequence as the fruit."
+            ],
+            "reader_inference": "The packet supplies pleasant-talk and copious-speech branches in the focus plus expressive, loving peers later; I infer a social resonance across the list. The safer alternative restricts 56:37 to persons and 56:32 to food.",
+            "changed_reading": {
+              "before": "The conversational branch is an isolated lexical possibility.",
+              "after": "The surrounding peer community activates a secondary scene of abundant affectionate conversation alongside abundant fruit."
+            }
+          },
+          {
+            "model_id": "delta_cross_cohort_scale",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ث ل ل",
+              "ء و ل",
+              "ء خ ر"
+            ],
+            "mechanism": "Gathered groups at both temporal ends rescale the fruit: its abundance is provision adequate for a community spanning earlier and later cohorts, not luxury defined by exclusion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Supplies the concrete provision whose recipient scale is expanded."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Supplies enough numerical growth to match the gathered populations."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "Supplies the first gathered group as a collective consumer rather than an isolated recipient."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Supplies temporal beginning and precedence for one edge of the recipient span."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The split-root succession branch supplies movement from one cohort to the next."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "Supplies another gathered group and repeats collective scale at the later edge."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Supplies laterness after the first and completes the temporal span."
+              }
+            ],
+            "structural_cues": [
+              "56:39-40 repeat the same group noun while changing only the cohort term from first to later."
+            ],
+            "reader_inference": "The packet supplies two gathered cohorts and a first-to-later sequence; I infer that the preceding plenty is scaled to their inclusive provision. Alternatively, cohort size and fruit quantity may be independent assurances.",
+            "changed_reading": {
+              "before": "Abundance is measured against individual appetite.",
+              "after": "Abundance is provision scaled to gathered communities across temporal cohorts."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_regenerative_first_yield",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from the focus root's pre-birth milk branch into nearby creation and first-birth imagery; it remains anchored in the fruit noun and abundance adjective, but downstream prose should present it only as a reproductive material analogy, not as the phrase's lexical translation.",
+            "focus_anchor": "The fruit root's pre-parturition milk branch and the abundance adjective permit an image of swelling generative readiness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B004",
+                "role": "Supplies good milk appearing near birth as the unusual generative analogue for fruitfulness."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Supplies increase as fullness approaching renewed production."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B009",
+                "role": "Supplies conception and growing pregnancy as a nearby generative trigger."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Supplies transformation into a renewed condition."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B005",
+                "role": "Supplies first birth and first production as the renewal endpoint."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase depicts a completed stock of fruit.",
+              "after": "As a contained material analogy, abundance looks pregnant with renewed first yield."
+            }
+          },
+          {
+            "outlier_id": "outlier_raised_spread_canopy",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it maps furnishings onto orchard form; it remains anchored in fruit plus gathered abundance and is reinforced by ordered layering, but downstream prose should qualify it as a spatial echo in which produce becomes inhabitable canopy, not identify fruit with bedding.",
+            "focus_anchor": "Fruit at word 1 and aggregated plenty at word 2 can be spatialized as a dense overhead spread.",
+            "activation_trace": [
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Supplies actual produce as the material that forms the imagined canopy."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B007",
+                "role": "Supplies aggregation dense enough to be perceived as a spatial layer."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B004",
+                "role": "Supplies natural bodies layered one above another as the bridge to canopy form."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Supplies broad spreading as the horizontal extent of the fruit-bearing layer."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Supplies elevation and relocates the dense spread overhead."
+              }
+            ],
+            "changed_reading": {
+              "before": "Abundant fruit is a consumable inventory.",
+              "after": "Exploratorily, its ordered density also forms an elevated, inhabitable spread of provision."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The paired negations in 56:33 redefine quantity as uninterrupted and unobstructed access.",
+            "Extended shelter and persistent water turn static plenty into sustained yield.",
+            "The repeated companion-and-right frame makes abundance communal and blessed."
+          ],
+          "what_was_special": "The focus roots support material, affective, spatial, and conversational abundance at once; the local sequence then converts count into an ecology of ordered production, durable access, and shared enjoyment.",
+          "remaining_uncertainties": [
+            "The causal link from shade and water to recurring yield is reader-supplied rather than grammatically asserted.",
+            "The conversational activation depends on branch resonance across adjacent human descriptions.",
+            "The regenerative and canopy readings are intentionally retained as cross-domain analogies, not lexical equivalents."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Pleasant produce multiplied beyond scarcity.** `ف ك ه` **B002** supplies fruit and **B001** delighted enjoyment; `ك ث ر` **B001** supplies abundance and numerical increase. The next ayah explicitly removes interruption and withholding. **Abductive move:** I infer that abundance is defined operationally by continuity and access, not just count. **Reading change:** “much fruit” means a stable surplus that can actually be enjoyed.\n\n2. **Abundance gathered in clusters.** `ك ث ر` **B007** supplies clustering together, activated by the prior `منضود` ordered stacking. **Abductive move:** I infer that density is arranged rather than chaotic. **Reading change:** plenty acquires a visible architecture of clustered availability.",
@@ -2443,18 +3174,23 @@
   "root_lexicon": {
     "root_001174": {
       "root_ar": "ف ك ه",
+      "qac_roots_ar": [
+        "ف ك ه"
+      ],
       "root_id": "root_001174",
-      "root_mapping": {
-        "root_id": "root_001174",
-        "root_norm": "ف ك ه",
-        "source_root_norm": "ف ك ه",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 18,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف ك ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 18
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a58c2c395db2c9d1ea19a109e1ae21ea45737afcf7838c74dc152326c19958ad",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4286,18 +5022,23 @@
     },
     "root_001286": {
       "root_ar": "ك ث ر",
+      "qac_roots_ar": [
+        "ك ث ر"
+      ],
       "root_id": "root_001286",
-      "root_mapping": {
-        "root_id": "root_001286",
-        "root_norm": "ك ث ر",
-        "source_root_norm": "ك ث ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 166,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ث ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 166
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a55764fab8e62c9b1d1c1cc3f32fbe06355f59a1e9c4bb4984cb6d79a4b27444",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5746,14 +6487,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6036,11 +6783,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_32.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_32.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 67463,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6113,19 +6873,37 @@
           "root_ids": [
             "root_001174"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف ك ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001174",
+            "targets": [
+              {
+                "qac_root_norm": "ف ك ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_001174",
+                "furuq_root_norm": "ف ك ه",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 18,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001174",
-              "root_norm": "ف ك ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف ك ه",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 18,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6150,19 +6928,37 @@
           "root_ids": [
             "root_001286"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ث ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001286",
+            "targets": [
+              {
+                "qac_root_norm": "ك ث ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001286",
+                "furuq_root_norm": "ك ث ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 166,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001286",
-              "root_norm": "ك ث ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ث ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 166,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6189,10 +6985,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 14,
+        "dictionary_branches_kept": 14,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 7,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

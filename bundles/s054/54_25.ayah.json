@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.623010+00:00",
+  "generated_at": "2026-08-04T22:29:53.180038+00:00",
   "surah": 54,
   "ayah": 25,
   "ayahRef": "54:25",
@@ -2299,7 +2299,8 @@
         "m-w-s054-a025-w001-01",
         "m-w-s054-a025-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:25:1"
+      "aligned_qac_word_ref_upstream": "54:25:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2315,7 +2316,8 @@
         "m-w-s054-a025-w002-01",
         "m-w-s054-a025-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:25:2"
+      "aligned_qac_word_ref_upstream": "54:25:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2331,7 +2333,8 @@
         "m-w-s054-a025-w003-01",
         "m-w-s054-a025-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:25:3"
+      "aligned_qac_word_ref_upstream": "54:25:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2345,7 +2348,8 @@
       "morpheme_ids": [
         "m-w-s054-a025-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:25:4"
+      "aligned_qac_word_ref_upstream": "54:25:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2361,7 +2365,8 @@
         "m-w-s054-a025-w005-01",
         "m-w-s054-a025-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:25:5"
+      "aligned_qac_word_ref_upstream": "54:25:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2375,7 +2380,8 @@
       "morpheme_ids": [
         "m-w-s054-a025-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:25:6"
+      "aligned_qac_word_ref_upstream": "54:25:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2389,7 +2395,8 @@
       "morpheme_ids": [
         "m-w-s054-a025-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:25:7"
+      "aligned_qac_word_ref_upstream": "54:25:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2403,7 +2410,8 @@
       "morpheme_ids": [
         "m-w-s054-a025-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:25:8"
+      "aligned_qac_word_ref_upstream": "54:25:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2417,7 +2425,8 @@
       "morpheme_ids": [
         "m-w-s054-a025-w009-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:25:9"
+      "aligned_qac_word_ref_upstream": "54:25:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3172,7 +3181,867 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_25.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:25",
+      "window": [
+        "54:18",
+        "54:19",
+        "54:20",
+        "54:21",
+        "54:22",
+        "54:23",
+        "54:24",
+        "54:25",
+        "54:26",
+        "54:27",
+        "54:28",
+        "54:29",
+        "54:30",
+        "54:31",
+        "54:32"
+      ],
+      "ayah_count": 15,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:25",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_received_reminder",
+            "confidence": "strong",
+            "focus_anchor": "The passive question about the reminder being cast upon him from among us.",
+            "mechanism": "Casting, speech-reception, reminder, and group-interiority combine into a challenge to a mediated transmission: one member has become the receiving node for speech meant to reactivate memory.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B011",
+                "role": "Taking or imparting speech supplies the literal transmission image and makes him the message-bearing node."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that restores presence supplies the transmitted content and makes renewed attention its function."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "The midst of a plurality supplies the comparison set from which the recipient is singled out."
+              }
+            ],
+            "changed_reading": {
+              "before": "Why did he, rather than another person, receive a reminder?",
+              "after": "Can memory-reactivating speech truly have been entrusted through this one member of our own group?"
+            }
+          },
+          {
+            "model_id": "baseline_honor_rivalry",
+            "confidence": "medium",
+            "focus_anchor": "The movement from from among us to liar and sharply exultant.",
+            "mechanism": "The reminder can carry public repute, so selection from inside the peer group is recoded as a fraudulent bid for elevated standing; the two predicates police rank as well as truth.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Public mention, honor, and repute supply the prestige that the group imagines the recipient claiming."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "Being one from the group's midst supplies the peer field against which unequal standing is resented."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies the delegitimating move by which the claimed distinction is denied."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ء ش ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000035",
+                "branch_id": "B001",
+                "role": "Sharp, heedless exultation supplies the character charge that turns distinction into self-inflation."
+              }
+            ],
+            "changed_reading": {
+              "before": "They call him a liar and arrogant.",
+              "after": "They portray his reception of the reminder as a dishonest attempt by a peer to rise above the group."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_projected_takdhib",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ن ذ ر",
+              "م ر ر"
+            ],
+            "mechanism": "Repeated communal acts of imputing falsehood and recurrent warnings make the intensive liar-label look like projection: the group assigns its own continuing rejection to the messenger.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The focus predicate literally attributes falsehood and functions as the projected label."
+              },
+              {
+                "source_ref": "54:18",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "An earlier communal attribution of falsehood supplies the recurring action that precedes the individual label."
+              },
+              {
+                "source_ref": "54:18",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that awakens caution supplies the repeatedly rejected function of the reminder."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B002",
+                "role": "Temporal recurrence supplies a continuity frame in which rejection and warning are not isolated events."
+              },
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The immediately preceding communal rejection repeats the same attribution and locates the focus insult inside that pattern."
+              }
+            ],
+            "structural_cues": [
+              "The rejection root appears in 54:18 and 54:23 before becoming the quoted intensive noun in 54:25, amid recurring warning refrains."
+            ],
+            "reader_inference": "The packet supplies repeated attribution of falsehood, warning, and continuance; I infer projection from communal action to messenger-label, while the live alternative is simple intensification of an individual accusation.",
+            "changed_reading": {
+              "before": "The word liar reports an independent judgment about the recipient.",
+              "after": "The word liar is a recursive countercharge uttered by a community whose repeated action is itself to impute falsehood to warnings."
+            }
+          },
+          {
+            "model_id": "delta_publicly_accessible_reminder",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي س ر",
+              "ق ر ء",
+              "ذ ك ر"
+            ],
+            "mechanism": "The identical ease-recitation-remembrance refrain on both sides of the episode recasts the supposed private bestowal as a publicly repeatable means of remembering.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The focus reminder supplies the allegedly monopolized object whose actual function is to make remembrance recur."
+              },
+              {
+                "source_ref": "54:22",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening into ease supplies accessibility and opposes the group's premise of exclusive favor."
+              },
+              {
+                "source_ref": "54:22",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies the repeatable public medium through which the reminder circulates."
+              },
+              {
+                "source_ref": "54:22",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder and rememberer explicitly supply the offered uptake that reaches beyond the first recipient."
+              },
+              {
+                "source_ref": "54:32",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The repeated easing after the episode confirms accessibility as the enclosing frame."
+              },
+              {
+                "source_ref": "54:32",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The closing reminder-to-rememberer pairing makes renewed attention an open recurring invitation."
+              }
+            ],
+            "structural_cues": [
+              "54:22 and 54:32 repeat the same refrain before and after the focus episode."
+            ],
+            "reader_inference": "The packet supplies ease, recitation, reminder, and a repeated invitation to remember; I infer that public recurrence defeats the monopoly premise, while ease could more narrowly concern memorability rather than social access.",
+            "changed_reading": {
+              "before": "The group asks why a scarce reminder was privately allotted to him.",
+              "after": "The group mistakes the first recipient of an intentionally repeatable, accessible reminder for its exclusive owner."
+            }
+          },
+          {
+            "model_id": "delta_peer_rank_resistance",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ش ر",
+              "و ح د",
+              "ت ب ع",
+              "ض ل ل"
+            ],
+            "mechanism": "The preceding objection to following one human from the group exposes the social engine of the focus question: accepting the reminder would reorder allegiance within a field of peers.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B007",
+                "role": "Honor and public repute supply the status consequence they attach to bearing the reminder."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "The group's midst supplies the peer comparison encoded by from among us."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ء ش ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000035",
+                "branch_id": "B001",
+                "role": "Heedless self-exaltation supplies the charge used to explain away his new standing."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "ب ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000120",
+                "branch_id": "B002",
+                "role": "The ordinary visible human supplies their insistence that the recipient has no different social substance."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B001",
+                "role": "Singular separation supplies the feared elevation of one member over the collective."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following behind supplies the allegiance they refuse to grant a peer."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from right direction supplies their projected cost of accepting that allegiance."
+              }
+            ],
+            "structural_cues": [
+              "The contiguous quotation moves from one human from us in 54:24 to cast upon him from among us in 54:25."
+            ],
+            "reader_inference": "The packet supplies humanity, singularity, following, and peer-group language; I infer resistance to reordered allegiance, while a sincere evidentiary objection to a human messenger remains possible.",
+            "changed_reading": {
+              "before": "They doubt an implausible recipient.",
+              "after": "They resist the social consequence of following one peer and redescribe his distinction as lying self-exaltation."
+            }
+          },
+          {
+            "model_id": "delta_future_label_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "غ د و",
+              "ك ذ ب",
+              "ء ش ر"
+            ],
+            "mechanism": "The next verse repeats both predicates but makes their bearer the object of future knowledge, turning the focus assertion into a contested label whose referent will shortly reverse or be disclosed.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Falsehood opposed to truth supplies the first disputed predicate."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ء ش ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000035",
+                "branch_id": "B001",
+                "role": "Sharp, heedless exultation supplies the second disputed predicate."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Coming into knowledge supplies the deferred adjudication of who actually bears the labels."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "غ د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001076",
+                "branch_id": "B002",
+                "role": "The next day supplies a near temporal boundary for disclosure."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The repeated definite liar preserves the exact predicate while reopening its referent."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ء ش ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000035",
+                "branch_id": "B001",
+                "role": "The repeated exultant predicate completes the paired identity test."
+              }
+            ],
+            "structural_cues": [
+              "54:26 repeats the exact paired predicates from 54:25 under a future knowing construction."
+            ],
+            "reader_inference": "The packet supplies exact lexical repetition, future knowledge, and tomorrow; I infer a reversal of referential assignment, while the alternative is a less specific promise that punishment will verify the accusation's falsity.",
+            "changed_reading": {
+              "before": "Rather, he is the liar, the heedlessly exultant one.",
+              "after": "Rather is their asserted verdict; the identity of the liar and heedlessly exultant party remains under an imminent test."
+            }
+          },
+          {
+            "model_id": "delta_allocation_test",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ت ن",
+              "ن ب ء",
+              "ق س م",
+              "ب ي ن",
+              "ش ر ب"
+            ],
+            "mechanism": "The grievance that a reminder was assigned to one person becomes a concrete trial of mediated allocation: an announced rule divides a common necessity among them and requires each share to be honored.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B011",
+                "role": "Imparted speech supplies the disputed human mediation that the following allocation also requires."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "From within the group supplies the first distributional comparison."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Testing a person or material supplies the function of the concrete arrangement that follows."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B002",
+                "role": "A delivered report supplies the messenger-mediated announcement of the rule."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating a share supplies the allocation mechanism rather than arbitrary preference."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "Between the parties repeats the focus's social space and turns it into a regulated relation."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "A water-share supplies the concrete entitlement each party must recognize."
+              }
+            ],
+            "structural_cues": [
+              "The focus's between us returns as between them in 54:28 immediately after the test is announced."
+            ],
+            "reader_inference": "The packet supplies a test, an announced division, between-language, and water shares; I infer that resentment of one message-bearer predicts resistance to binding allocation, while the resource conflict can also stand independently.",
+            "changed_reading": {
+              "before": "The question concerns only who was chosen to receive speech.",
+              "after": "The question exposes resistance to mediated ordering itself: the same group must soon accept a rule that assigns enforceable shares among them."
+            }
+          },
+          {
+            "model_id": "delta_chosen_companion_reversal",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ح د",
+              "ت ب ع",
+              "ن د و",
+              "ص ح ب",
+              "ع ط و",
+              "ع ق ر"
+            ],
+            "mechanism": "The group refuses to follow one member selected as reminder-bearer, then calls one companion who undertakes their chosen act; mediation by a single insider is acceptable when he executes the collective will.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "One from the group's midst supplies the rejected insider mediation."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B001",
+                "role": "The isolated one supplies the explicit singularity of the messenger they refuse."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following behind supplies the allegiance withheld from that one insider."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B001",
+                "role": "Calling with raised voice supplies the group's active commissioning of its own representative."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies another insider who can stand for the group."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B004",
+                "role": "Undertaking what one can reach supplies the companion's acceptance of delegated action."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B002",
+                "role": "Hamstringing the animal supplies the concrete deed performed through the accepted insider."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from rejecting one of us as a leader in 54:24-25 to calling their companion to act in 54:29."
+            ],
+            "reader_inference": "The packet supplies rejected singular following and later commissioned singular action; I infer selective acceptance of mediation, while the alternative is that the companion acts without formally representing the group.",
+            "changed_reading": {
+              "before": "Their objection is that no single human from the group should mediate authority.",
+              "after": "Their own choice of a companion shows that the issue is not one-person mediation as such, but whose command the mediator carries."
+            }
+          },
+          {
+            "model_id": "delta_single_cry_delivery",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ص ي ح",
+              "و ح د",
+              "ه ش م",
+              "ح ظ ر"
+            ],
+            "mechanism": "The mocked delivery of a reminder upon one recipient is answered by the sending of one frightful cry upon the group; contested speech becomes an unavoidable event that breaks their bounded collective into enclosure debris.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B005",
+                "role": "Casting something upon another supplies the delivery pattern mocked in the focus."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Sending and dispatch supplies the answering delivery directed upon the group."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ص ي ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000895",
+                "branch_id": "B002",
+                "role": "A terrifying cry supplies speech-like sound converted into coercive event."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "Numerical oneness supplies the singular answer to their rejection of one recipient."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ه ش م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001592",
+                "branch_id": "B002",
+                "role": "Dry broken plant matter supplies the resulting loss of social and bodily cohesion."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ح ظ ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000338",
+                "branch_id": "B001",
+                "role": "An enclosure that gathers and blocks supplies the bounded collective whose residue is scattered."
+              }
+            ],
+            "structural_cues": [
+              "The focus has the reminder cast upon him; 54:31 has one cry sent upon them."
+            ],
+            "reader_inference": "The packet supplies parallel delivery constructions, singularity, sound, and fragmentation; I infer a rhetorical answer in event-form, while the live alternative is only a general message-versus-punishment sequence.",
+            "changed_reading": {
+              "before": "They mock the idea that a message could be cast upon one man.",
+              "after": "Their mockery foreshadows a reversed delivery: one sound is cast upon the whole group and cannot be dismissed as one man's claim."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_reminder_as_title_deed",
+            "confidence": "exploratory",
+            "containment": "Reading dhikr as a deed or documentary title is unusual here, but its packet branch is directly anchored in the focus and the following division, between-language, and water entitlement activate its legal-material logic; downstream prose should present this only as an allocation resonance, not as the verse's lexical translation.",
+            "focus_anchor": "The reminder cast upon him from among us.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B008",
+                "role": "A written acknowledgment of a right supplies a document-like image for the authority entrusted to him."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ن ب ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001464",
+                "branch_id": "B002",
+                "role": "A delivered report supplies promulgation of the allocation."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Apportioning a share supplies the right-governing transaction."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "The space between parties supplies the social field governed by the putative title."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "The allotted water-share supplies the concrete entitlement the message records and enforces."
+              }
+            ],
+            "changed_reading": {
+              "before": "They ask why a reminder was given to him.",
+              "after": "At the edge of the branch field, they challenge why the authoritative notice defining communal rights should issue through him."
+            }
+          },
+          {
+            "outlier_id": "outlier_failed_milk_durability",
+            "confidence": "exploratory",
+            "containment": "The failed-milk branch of k-dh-b is materially remote from the intensive liar noun, but the immediate she-camel and drinking-share sequence makes its animal-resource domain locally audible, while the recurring reminder counters non-duration; downstream prose should mark this as a faint durability overtone, never a replacement translation.",
+            "focus_anchor": "The intensive liar predicate attached to the reminder-bearer.",
+            "activation_trace": [
+              {
+                "source_ref": "54:25",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "Milk expected to continue but failing supplies a branch-distant image of a claim presumed not to endure."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ن و ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001567",
+                "branch_id": "B002",
+                "role": "The she-camel supplies the exact animal domain that activates the otherwise remote milk image."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "The allotted drink supplies the adjacent resource-expectation frame."
+              },
+              {
+                "source_ref": "54:32",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The reminder's repeated return supplies the counter-image of persistence rather than failed duration."
+              }
+            ],
+            "changed_reading": {
+              "before": "They simply accuse him of habitual lying.",
+              "after": "A faint camel-resource overtone lets the insult also insinuate that his reminder will fail to last, an insinuation the recurring reminder structurally overturns."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated ease-recitation-remembrance refrain turns an alleged private favor into a publicly repeatable invitation.",
+            "The next verse reopens and reverses the referent of liar and heedlessly exultant.",
+            "The group rejects one insider as message-bearer yet commissions one companion as action-bearer.",
+            "The return of between-language in the water division makes the selection grievance a test of mediated allocation."
+          ],
+          "what_was_special": "The focus is a hinge of contested mediation: a message cast upon one, a rule announced among all, an insider chosen for violence, and finally one cry sent upon the whole group.",
+          "remaining_uncertainties": [
+            "The honor-and-repute sense of dhikr may be an active lexical resonance or only a social implication of selection.",
+            "The title-deed and failed-milk readings are branch-valid but deliberately contained cross-domain outliers.",
+            "The one-reminder and one-cry parallel is structurally visible, but its directional relation is reader-supplied."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **They redescribe imparted admonition as arbitrary social selection.** `ل ق ي` B005 is casting something where it is met and B011 receiving or imparting speech; `ذ ك ر` B009 is admonition and B004 spoken mention; `ب ي ن` B002 is the interval/middle and B003 the tie between parties. The passive question foregrounds the casting while `مِنۢ بَيْنِنَا` maps it inside their peer group. I infer that their complaint is less about content than about why one node in a shared social field received it. The ayah reads as envy converting communication into an allegedly unjust allocation.\n\n2. **The personal verdict intensifies from falsehood to sharp exultance.** `ك ذ ب` B001 is falsehood and `ء ش ر` B001 insolent sharp exultance. `بَلْ` replaces their selection question with a claim about the recipient’s character. I infer a shift from procedural suspicion to motive attribution: he allegedly invents because he is self-exulting. This preserves two accusations rather than merging them.",
@@ -4095,18 +4964,23 @@
   "root_lexicon": {
     "root_001372": {
       "root_ar": "ل ق ي",
+      "qac_roots_ar": [
+        "ل ق ي"
+      ],
       "root_id": "root_001372",
-      "root_mapping": {
-        "root_id": "root_001372",
-        "root_norm": "ل ق ي",
-        "source_root_norm": "ل ق ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل ق ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ef8927f2812cb6df9c4e986d2f9e8229e10d23036e877f73f2227613b4cf4e2f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7231,18 +8105,23 @@
     },
     "root_000516": {
       "root_ar": "ذ ك ر",
+      "qac_roots_ar": [
+        "ذ ك ر"
+      ],
       "root_id": "root_000516",
-      "root_mapping": {
-        "root_id": "root_000516",
-        "root_norm": "ذ ك ر",
-        "source_root_norm": "ذ ك ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 277,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ذ ك ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 277
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9e1ac4e24b425fdb7ad3bf1a72543af44c5ebca087ae33fa01fd168eb8a28cec",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10796,18 +11675,23 @@
     },
     "root_000170": {
       "root_ar": "ب ي ن",
+      "qac_roots_ar": [
+        "ب ي ن"
+      ],
       "root_id": "root_000170",
-      "root_mapping": {
-        "root_id": "root_000170",
-        "root_norm": "ب ي ن",
-        "source_root_norm": "ب ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 485,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 485
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "2b4a49bd04f2db888f6809da07212867d9635bd0efb6d1ad0b10f3460939b55e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14322,18 +15206,23 @@
     },
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -16093,18 +16982,23 @@
     },
     "root_000035": {
       "root_ar": "ء ش ر",
+      "qac_roots_ar": [
+        "ء ش ر"
+      ],
       "root_id": "root_000035",
-      "root_mapping": {
-        "root_id": "root_000035",
-        "root_norm": "ء ش ر",
-        "source_root_norm": "أ ش ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ش ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "d30ee1b2b133ab57d1ab331dbfac13ea5776e73cde55b02969b2dd104573b101",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -17384,14 +18278,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -17660,11 +18560,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_25.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_25.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 105922,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -17740,19 +18653,37 @@
           "root_ids": [
             "root_001372"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ل ق ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001372",
+            "targets": [
+              {
+                "qac_root_norm": "ل ق ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001372",
+                "furuq_root_norm": "ل ق ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001372",
-              "root_norm": "ل ق ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ل ق ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17777,19 +18708,37 @@
           "root_ids": [
             "root_000516"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ذ ك ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000516",
+            "targets": [
+              {
+                "qac_root_norm": "ذ ك ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000516",
+                "furuq_root_norm": "ذ ك ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 277,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000516",
-              "root_norm": "ذ ك ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ذ ك ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 277,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17814,19 +18763,37 @@
           "root_ids": [
             "root_000170"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000170",
+            "targets": [
+              {
+                "qac_root_norm": "ب ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000170",
+                "furuq_root_norm": "ب ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 485,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000170",
-              "root_norm": "ب ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 485,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17851,19 +18818,37 @@
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17888,19 +18873,37 @@
           "root_ids": [
             "root_000035"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ش ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000035",
+            "targets": [
+              {
+                "qac_root_norm": "ء ش ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000035",
+                "furuq_root_norm": "ء ش ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000035",
-              "root_norm": "ء ش ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ش ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17927,10 +18930,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 47,
+        "dictionary_branches_kept": 47,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 38,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.130955+00:00",
+  "generated_at": "2026-08-04T22:29:45.055842+00:00",
   "surah": 51,
   "ayah": 3,
   "ayahRef": "51:3",
@@ -1135,7 +1135,8 @@
       "morpheme_ids": [
         "m-w-s051-a003-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:3:1"
+      "aligned_qac_word_ref_upstream": "51:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1151,7 +1152,8 @@
         "m-w-s051-a003-w001-02",
         "m-w-s051-a003-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:3:2"
+      "aligned_qac_word_ref_upstream": "51:3:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1165,7 +1167,8 @@
       "morpheme_ids": [
         "m-w-s051-a003-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:3:3"
+      "aligned_qac_word_ref_upstream": "51:3:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1707,7 +1710,1145 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_3.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:3",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B01_LOW_RESISTANCE_FLOW",
+            "confidence": "strong",
+            "focus_anchor": "The plural active participle at word 1 supplies runners or currents, while the accusative noun at word 2 qualifies how their motion proceeds.",
+            "mechanism": "Directed motion continues because route, medium, or gait yields rather than obstructs; ease is a dynamic relation between mover and path.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Streaming and running supply sustained directional motion across water, air, land, or another medium."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease after difficulty supply the low-resistance condition of the motion."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light, compliant gait makes ease visible as responsive movement rather than static comfort."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare plural of unspecified things that run.",
+              "after": "Plural carriers or currents sustain directional motion through a tractable medium, with ease located in their responsive passage."
+            }
+          },
+          {
+            "model_id": "B02_TRAVERSABLE_COURSE",
+            "confidence": "medium",
+            "focus_anchor": "Word 1 can name a course that is habitually in force, and word 2 can name its having been made practicable.",
+            "mechanism": "What runs is not only a moving object but an established procedure or regular course; its ease is the course's readiness to be followed.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B002",
+                "role": "A running custom or way supplies the idea of a stable course repeatedly followed."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Preparation and facilitation make the established course traversable and executable."
+              }
+            ],
+            "changed_reading": {
+              "before": "An isolated scene of smooth locomotion.",
+              "after": "Agents or processes follow an established order whose route has been prepared for execution."
+            }
+          },
+          {
+            "model_id": "B03_FACILITATED_DELEGATION",
+            "confidence": "exploratory",
+            "focus_anchor": "The plural runners at word 1 can be agentive, while word 2 can describe a commission made easy to perform.",
+            "mechanism": "A runner as proxy or messenger turns the line into delegated agency: plural executors advance because the task or route is facilitated.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B003",
+                "role": "The runner as agent, proxy, or messenger supplies delegated rather than merely physical motion."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Facilitation supplies the enabling condition under which the delegated task can advance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Impersonal currents moving without an assigned function.",
+              "after": "A plurality of commissioned runners or agents carries an enabled task forward."
+            }
+          },
+          {
+            "model_id": "B04_CONTINUING_PROVISION",
+            "confidence": "medium",
+            "focus_anchor": "The running named at word 1 can be continuing provision, while word 2 can evoke sufficiency and productive increase.",
+            "mechanism": "Continuity, abundance, and growth combine into a current that does not merely move but keeps recipients supplied and life reproducing.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B006",
+                "role": "Durable provision or giving supplies a current whose defining feature is continuation."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B003",
+                "role": "Amplitude and sufficiency supply the recipient-side effect of the continuing current."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B006",
+                "role": "Milk and reproductive increase supply an ecological image of provision becoming renewed life."
+              }
+            ],
+            "changed_reading": {
+              "before": "Ease as absence of effort in transit.",
+              "after": "An uninterrupted current of provision produces sufficiency and renewed growth."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D01_BURDEN_TO_THROUGHPUT",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ر و",
+              "ح م ل",
+              "و ق ر",
+              "ق س م"
+            ],
+            "mechanism": "The surrounding operations create a material pipeline: scattering or winnowing, lifting a heavy load, converting it into easy transit, then separating it into shares. The focus line becomes the mobility hinge that turns burden into distributable throughput.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Sustained running supplies the pipeline's transport stage."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light, responsive gait explains how a burden becomes mobile without remaining ponderous."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven winnowing supplies an upstream operation that disperses material into a movable stream."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B001",
+                "role": "Lifting a manifest load supplies the transfer from loose material to borne cargo."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "A heavy burden supplies the resistance that the focus line's ease must overcome or reorganize."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating shares supplies the downstream destination of the transported bulk."
+              }
+            ],
+            "structural_cues": [
+              "51:1-4 repeat feminine plural active participles, and 51:2-4 are linked by fa, permitting a staged rather than merely catalogic reading."
+            ],
+            "reader_inference": "The packet supplies dispersal, loading, heaviness, easy running, and division; I supply the causal arrow from loose material to cargo to mobile throughput to allotment. A live alternative is that the clauses swear by independent classes with no single process line.",
+            "changed_reading": {
+              "before": "Smooth motion as a self-contained visual property.",
+              "after": "Easy running is the transformation stage by which a heavy, gathered bulk becomes throughput ready for distribution."
+            }
+          },
+          {
+            "model_id": "D02_MARKED_WOVEN_LANES",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س م و",
+              "ح ب ك"
+            ],
+            "mechanism": "The focus branch of separate lines or bodily marks meets a non-dominant mark branch in the sky cue and the following image of intricate routes. Ease can therefore be lane discipline: runners move fluently because a woven route-grid is differentiated and legible.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Running supplies the traffic that occupies the proposed route-grid."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B008",
+                "role": "Separated lines and marks supply differentiated lanes rather than generic ease."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "The split mapping's visible mark supplies route legibility on the sky-domain surface."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B002",
+                "role": "Intricate, well-made paths supply the interwoven geometry through which the runners pass."
+              }
+            ],
+            "structural_cues": [
+              "51:7 immediately follows the opening oath sequence and grammatically presents the sky as possessor of al-hubuk."
+            ],
+            "reader_inference": "The packet supplies marks, separated lines, and woven paths; I infer that these marks organize the focus runners into lanes. The materially live alternative is that the sky's routes are a separate oath image and yusran remains only an adverb of ease.",
+            "changed_reading": {
+              "before": "Runners move easily in an unspecified open medium.",
+              "after": "Runners negotiate a marked, interwoven lane system whose differentiation is what makes passage fluent."
+            }
+          },
+          {
+            "model_id": "D03_PROMISE_ALREADY_IN_TRANSIT",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ع د",
+              "ص د ق",
+              "و ق ع"
+            ],
+            "mechanism": "A non-dominant swimming-current branch inside the promise cue makes the promised thing appear already afloat and advancing; fulfillment converts saying into act, and occurrence gives the journey a fixed arrival. The oath image becomes enactment rather than scenery.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous running supplies the temporal advance from utterance toward event."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Facilitation supplies an unobstructed path by which the promised outcome advances."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001063",
+                "branch_id": "B001",
+                "role": "The split mapping's swimming or current-like travel turns the promise into something already underway."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Realization of a promise supplies the conversion from verbal commitment to completed action."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling into place and becoming fixed supplies the arrival state of the advancing promise."
+              }
+            ],
+            "structural_cues": [
+              "51:5-6 shift directly from the oath sequence into emphatic clauses about what is promised, its truth, and its occurrence."
+            ],
+            "reader_inference": "The packet supplies a promise-current, fulfillment, and fixed occurrence; I supply the temporal arrow that treats them as departure, transit, and arrival. The alternative is that the opening runners are only evidentiary oath objects and do not depict the promise's own process.",
+            "changed_reading": {
+              "before": "The runners merely witness that a future claim is true.",
+              "after": "The runners image the promise itself as already in motion toward an occurrence that will settle into reality."
+            }
+          },
+          {
+            "model_id": "D04_EASE_WITHOUT_TRUTH_GUARANTEE",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "خ ل ف",
+              "ء ف ك"
+            ],
+            "mechanism": "Conversation can run alongside participants, spread widely, oscillate, split into divergent routes, and be reversed from its proper direction. The focus's ease is therefore a transmission property, not a certificate that what circulates is true.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B007",
+                "role": "Keeping pace in conversation supplies an informational rather than material kind of running."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Ease supplies low-friction circulation while remaining neutral about the content's truth."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "A saying spread among people supplies the social medium through which discourse circulates."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B006",
+                "role": "The split mapping's oscillation supplies unstable back-and-forth motion inside the circulating discourse."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Different parties taking different paths supplies divergence within one field of speech."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Turning a thing away from its proper face supplies directional reversal of the discourse-current."
+              }
+            ],
+            "structural_cues": [
+              "51:8 places its audience inside divergent speech, and 51:9 repeats passive reversal at both ends of the clause.",
+              "The uncatalogued root خ ر ص at 51:10 word 2 is used only as a structural cue for conjectural speech; no branch identity is assigned to it."
+            ],
+            "reader_inference": "The packet supplies widespread saying, oscillation, divergent paths, and reversal; I infer an information current and separate fluency from veracity. The alternative is that these verses diagnose hearers without reactivating the focus image.",
+            "changed_reading": {
+              "before": "Smooth running tacitly connotes a sound and trustworthy order.",
+              "after": "A current may run with perfect ease while carrying divided, oscillating, or directionally inverted speech."
+            }
+          },
+          {
+            "model_id": "D05_COURSE_BELOW_ATTENTION",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ م ر",
+              "س ه و",
+              "ي و م",
+              "ع ج ل"
+            ],
+            "mechanism": "An established process can advance smoothly while observers are cognitively submerged, inattentive, asking for its time, and trying to pull it forward. Ease belongs to the process's course, not to human visibility or control of it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B002",
+                "role": "A running course supplies objective continuity independent of whether observers notice it."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Facilitation supplies uninterrupted progress beneath failures of perception."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B001",
+                "role": "Engulfing water supplies a spatial image for observers submerged inside what blocks their view."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "A veil of error and ignorance converts physical submersion into cognitive non-recognition."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness supplies the observer-side lapse that does not stop the underlying course."
+              },
+              {
+                "source_ref": "51:12",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "A bounded duration supplies the temporal coordinate the inattentive observers demand."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Hastening supplies the failed attempt to make an already running course answer to human tempo."
+              }
+            ],
+            "structural_cues": [
+              "51:11-14 progress from immersion and heedlessness to a when-question, a named day, and retrospective haste."
+            ],
+            "reader_inference": "The packet supplies cover, inattention, temporal questioning, and haste; I infer that the promised process continues below attention and cannot be accelerated by demand. A live alternative is that these cues only characterize deniers after the oath.",
+            "changed_reading": {
+              "before": "Ease implies motion that is obvious to a spectator.",
+              "after": "The course advances fluently even when submerged observers neither perceive its stage nor control its tempo."
+            }
+          },
+          {
+            "model_id": "D06_PROTECTED_GARDEN_CURRENT",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ي",
+              "ج ن ن",
+              "ع ي ن",
+              "ر ب ب"
+            ],
+            "mechanism": "Protection, a tree-covered garden, a flowing spring, and cultivating completion specify what the baseline provision-current does: it runs within a protected ecology and converts hidden water into sustained growth and reception.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Literal flow supplies the hydraulic movement through the garden ecology."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B006",
+                "role": "Continuing provision makes the water-current a durable gift rather than a passing spectacle."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B006",
+                "role": "Productive milk and increase supply the current's life-renewing result."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protection from harm supplies the boundary conditions within which the current can sustain life."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden hidden by dense trees supplies the receiving ecology of the current."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing spring supplies the concrete water-source that directly echoes the focus flow."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Cultivation, repair, and completion supply the governing work that turns flow into mature benefit."
+              }
+            ],
+            "structural_cues": [
+              "51:15 coordinates gardens and springs, and 51:16 immediately depicts recipients taking what their Lord gave."
+            ],
+            "reader_inference": "The packet supplies protection, garden, spring, reception, and cultivation; I infer a hydraulic causal link in which the running gift sustains the protected garden. The alternative is a non-causal list of reward images.",
+            "changed_reading": {
+              "before": "An abstract current of generous provision.",
+              "after": "A protected, spring-fed current continually becomes garden growth and received benefit."
+            }
+          },
+          {
+            "model_id": "D07_ETHICAL_LIQUIDITY",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق س م",
+              "ء ت ي",
+              "ح ق ق",
+              "س ء ل",
+              "ح ر م",
+              "ر ز ق"
+            ],
+            "mechanism": "What is apportioned and given does not terminate in possession: an established claim and the asker's channel draw provision onward toward both vocal need and deprived need. The focus's continuing ease becomes ethical liquidity, the capacity of provision to keep moving through holders.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B006",
+                "role": "Continuing provision supplies the norm that a gift remains current rather than stopping at one holder."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B003",
+                "role": "Sufficiency and means supply the resource condition from which onward distribution becomes possible."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating a due share supplies the allocation operation behind ethical circulation."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving supplies the upstream transfer by which recipients first receive the provision."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "A binding entitlement supplies obligation rather than optional generosity as the pressure moving wealth onward."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000736",
+                "branch_id": "B007",
+                "role": "The split mapping's valley channel makes voiced need a conduit through which stored wealth can flow."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation supplies the destination whose need remains real even without a voiced request."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Apportioned giving supplies the larger economy in which each transfer is a share, not an owner's absolute terminus."
+              }
+            ],
+            "structural_cues": [
+              "51:19 locates a right inside possessions for both the asker and the deprived, while 51:22 relocates provision to the skyward source."
+            ],
+            "reader_inference": "The packet supplies allotment, gift, binding right, a channel-like split root, deprivation, and provision; I infer the ethical arrow that receiving creates onward flow. The alternative is a static duty of payment with no intended reactivation of the focus current.",
+            "changed_reading": {
+              "before": "Provision runs toward fortunate recipients and ends in their abundance.",
+              "after": "Provision remains truly running only when recipients keep its due shares moving toward voiced and unvoiced need."
+            }
+          },
+          {
+            "model_id": "D08_LIGHT_ALLOCATION_OF_NIGHT",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ق ل ل",
+              "ل ي ل",
+              "س ح ر",
+              "غ ف ر"
+            ],
+            "mechanism": "The quantity branch of word 2 is activated by the explicit smallness of the night share, while the habitual-course branch of word 1 turns wakefulness and pre-dawn seeking into a recurring timetable. Ease becomes temporal economy: only a light portion is yielded before the course changes function.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B002",
+                "role": "A habitual running course supplies the recurring discipline of the night schedule."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B002",
+                "role": "A slight quantity supplies temporal lightness rather than effortless motion."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Explicit smallness activates the focus word's quantity branch and defines the restricted share."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night supplies the bounded interval across which the recurring allocation is made."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The pre-dawn time supplies the threshold at which the night-course turns toward a new act."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Protective covering of fault supplies the purposeful destination of the pre-dawn turn."
+              }
+            ],
+            "structural_cues": [
+              "The uncatalogued root ه ج ع at 51:17 word 6 is used only as the structural action whose night share is small; no branch identity is assigned to it.",
+              "51:18 moves immediately from the small night share to a recurrent pre-dawn practice."
+            ],
+            "reader_inference": "The packet supplies a small night amount, night, pre-dawn, and protective covering; I infer that yusran's quantitative lightness and jary's habitual course organize these into temporal economy. The alternative is that yusran means only ease in 51:3 and the later smallness is independent.",
+            "changed_reading": {
+              "before": "Ease describes how fast or smoothly the runners move.",
+              "after": "A disciplined course is light by allocation: it yields only a slight interval before turning toward its pre-dawn work."
+            }
+          },
+          {
+            "model_id": "D09_FLOW_THAT_LEAVES_READABLE_MARKS",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ي ي",
+              "ب ص ر",
+              "س م و",
+              "ر ز ق",
+              "ن ط ق"
+            ],
+            "mechanism": "Sky provision as rain moves downward, marks the earth through growth, becomes available to inward sight, and finally functions like speech through its effects. The focus runners are not only moving entities but processes whose passage leaves readable evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flow supplies the causal passage whose effects can be read after it moves through a domain."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Accessibility supplies not only smooth passage but the resulting process's availability to recognition."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the readable trace left in the earth-domain."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight supplies the human act that reads process from effect rather than merely seeing an object."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B003",
+                "role": "First rain marking earth with vegetation supplies a concrete link between skyward source and terrestrial sign."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "Rain as provision supplies the downward-moving material that produces the visible mark."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "Eloquent indication supplies the final conversion of visible effects into something that effectively speaks."
+              }
+            ],
+            "structural_cues": [
+              "51:20-22 repeat the locative frame in earth, selves, and sky, and 51:23 closes with an analogy to the audience's own speaking."
+            ],
+            "reader_inference": "The packet supplies earth-signs, inward sight, sky provision, rain-marks, and signifying speech; I supply the causal arrow from moving provision to visible effect to inference. The alternative is that earth, self, sky, and speech are independent proofs rather than one circulation.",
+            "changed_reading": {
+              "before": "The runners are objects displayed as evidence.",
+              "after": "Their easy flow is itself an evidentiary process: movement leaves effects that become legible signs and effectively speak."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O01_ALLOTMENT_BY_LOTS",
+            "confidence": "exploratory",
+            "containment": "This is surprising because yusran is not morphologically maysir and the focus names no game or carcass; it remains anchored in the focus root's lot-and-division branch, the agentive runner branch, and the immediately following divider. Downstream prose should call it a branch-echo of allotment procedure, not a lexical translation.",
+            "focus_anchor": "Word 2 carries a branch of lots and divided portions, while word 1 can designate an executing agent or proxy.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B003",
+                "role": "A runner or proxy supplies the executing agents of the proposed allocation procedure."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B007",
+                "role": "Lots and division of a slaughtered whole supply the odd but explicit allotment mechanism."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating shares immediately after the focus supplies contextual pressure toward allocation."
+              }
+            ],
+            "changed_reading": {
+              "before": "A group simply travels with ease.",
+              "after": "A corps of runners executes an allotment, converting a whole into assigned shares through a lot-like procedure."
+            }
+          },
+          {
+            "outlier_id": "O02_RESPIRATION_WITHIN_THE_SELF",
+            "confidence": "exploratory",
+            "containment": "The bodily shift is cross-domain and the focus does not name breath, but it remains anchored in literal flow and ease plus the later root image of breath leaving the interior and relieving constriction under an invitation to inspect the self. Downstream prose should render it as a somatic analogy, not identify the runners exclusively with breaths.",
+            "focus_anchor": "The combination of flowing at word 1 and release from difficulty at word 2 can be instantiated by an easy outward breath.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Continuous flow supplies the movement of breath through and out of the body."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Release into ease supplies the felt opening of unimpeded respiration."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B001",
+                "role": "Breath exiting the interior supplies the concrete somatic current."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B002",
+                "role": "Relief of constriction supplies the bodily analogue of yusr after difficulty."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Inward insight makes the ordinary bodily current available as evidence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The runners belong only to an external cosmic or transport scene.",
+              "after": "Easy outward respiration becomes a small-scale running current within the self that repeats the focus mechanism."
+            }
+          },
+          {
+            "outlier_id": "O03_TRUTH_AS_MATCHED_STRIDE",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it builds a gait metaphor from a specialized truth branch and does not establish horses as the focus referent; it remains anchored because the focus inventories explicitly include running horses and light responsive gait, while the closing truth branch names a horse whose step matches. Downstream prose should qualify it as an exploratory model of correspondence between utterance and event.",
+            "focus_anchor": "Word 1's running range includes horses, and word 2 explicitly includes a light, well-transferred gait.",
+            "activation_trace": [
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Running, including equine running, supplies the moving body of the stride metaphor."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B005",
+                "role": "Light and well-coordinated transfer of the legs supplies the quality of matched movement."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B014",
+                "role": "A horse whose stride matches or whose body is firm supplies truth as step-for-step correspondence."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Likeness supplies the relation by which two tracks can correspond."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "Signifying speech supplies one track whose match must be the realized event."
+              }
+            ],
+            "changed_reading": {
+              "before": "Truth is a static proposition merely affirmed after the oath.",
+              "after": "Truth is coordinated gait: utterance and event run on matching tracks and arrive step for step."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The sequence 51:1-4 turns generic easy motion into a throughput hinge between heavy loading and apportioned distribution.",
+            "The promise-current split mapping makes the promised event appear already in transit toward fixed occurrence.",
+            "Divergent and reversed speech shows that fluency of circulation is not a guarantee of truth.",
+            "Garden springs, gifts, rights, need, and skyward provision turn running ease into both ecological support and ethical liquidity.",
+            "Earth, self, sky, and speaking permit the current's effects to function as readable evidence."
+          ],
+          "what_was_special": "The packet sustained coexisting kinetic, procedural, temporal, epistemic, ecological, social, and somatic readings. Especially productive were non-dominant mappings from promise to swimming current, sky to visible marking, and asking to a valley channel; these changed the focus rather than merely decorating it.",
+          "remaining_uncertainties": [
+            "The feminine plural referents remain deliberately unspecified, so material carriers, agents, processes, and evidentiary currents coexist.",
+            "The quantity, line-marking, and lot-allocation branches of yusr may be latent echoes rather than active senses in the focus construction.",
+            "The material pipeline depends on reading 51:1-4 as one sequence rather than independent oath objects.",
+            "The promise transit, ethical onward flow, and sign-producing arrows are abductive relations supplied by the reader, not explicit causal statements in the packet."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A flow made tractable.** `ج ر ي/B001` supplies running or flowing and `ي س ر/B001` ease/readiness; `ي س ر/B005` adds light, pliant movement. Between heavy carriage (51:2) and division (51:4), ease serves as low-friction transfer. The packet supplies motion and sequence; I infer **reduced resistance -> reliable delivery for apportionment**. The line reads as controlled conveyance, not simply pleasant speed.\n2. **Provision that continues.** `ج ر ي/B006` supplies ongoing provision or grant, later activated by *rizq* in 51:22, 57-58. I infer **continuous course -> sustained allotment**, with *yusr* marking its ready availability. This keeps a provisioning reading beside the physical-flow reading.",
@@ -2497,18 +3638,23 @@
   "root_lexicon": {
     "root_000240": {
       "root_ar": "ج ر ي",
+      "qac_roots_ar": [
+        "ج ر ي"
+      ],
       "root_id": "root_000240",
-      "root_mapping": {
-        "root_id": "root_000240",
-        "root_norm": "ج ر ي",
-        "source_root_norm": "ج ر ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 61,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ر ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 61
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5b7410c4372989d3979abd70d2a947f5343b0b43e9a46f8b9bc43d4929924e48",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4795,18 +5941,23 @@
     },
     "root_001694": {
       "root_ar": "ي س ر",
+      "qac_roots_ar": [
+        "ي س ر"
+      ],
       "root_id": "root_001694",
-      "root_mapping": {
-        "root_id": "root_001694",
-        "root_norm": "ي س ر",
-        "source_root_norm": "ي س ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 40,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي س ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 40
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "85ae31fbb5c44f01319bdf2db0b1c31b04502817081fb9e0c2c551f312e610e5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6432,14 +7583,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6762,11 +7919,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 101801,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6839,19 +8009,37 @@
           "root_ids": [
             "root_000240"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ر ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000240",
+            "targets": [
+              {
+                "qac_root_norm": "ج ر ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000240",
+                "furuq_root_norm": "ج ر ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 61,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000240",
-              "root_norm": "ج ر ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ر ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 61,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6876,19 +8064,37 @@
           "root_ids": [
             "root_001694"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي س ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001694",
+            "targets": [
+              {
+                "qac_root_norm": "ي س ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001694",
+                "furuq_root_norm": "ي س ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 40,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001694",
-              "root_norm": "ي س ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي س ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 40,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6915,10 +8121,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 19,
+        "dictionary_branches_kept": 19,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 8,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.427244+00:00",
+  "generated_at": "2026-08-04T22:29:58.107223+00:00",
   "surah": 56,
   "ayah": 5,
   "ayahRef": "56:5",
@@ -1275,7 +1275,8 @@
       "morpheme_ids": [
         "m-w-s056-a005-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:5:1"
+      "aligned_qac_word_ref_upstream": "56:5:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1289,7 +1290,8 @@
       "morpheme_ids": [
         "m-w-s056-a005-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:5:2"
+      "aligned_qac_word_ref_upstream": "56:5:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1305,7 +1307,8 @@
         "m-w-s056-a005-w002-01",
         "m-w-s056-a005-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:5:3"
+      "aligned_qac_word_ref_upstream": "56:5:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1319,7 +1322,8 @@
       "morpheme_ids": [
         "m-w-s056-a005-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:5:4"
+      "aligned_qac_word_ref_upstream": "56:5:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1790,7 +1794,599 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_5.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:5",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:5",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_granular_unmaking",
+            "confidence": "strong",
+            "focus_anchor": "The doubled ب س س occurrence at words 1 and 3 encloses the mountain noun at word 2 in an intensive verb-cognate construction.",
+            "mechanism": "The raised, solid mountain mass is subjected to thorough crumbling, moistening, and mixing until its coarse integrity is undone rather than merely displaced.",
+            "activation_trace": [
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Crumbling, wetting, and mixing supplies the literal material change and functions as the operation that removes cohesion."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "A high, hard aggregation supplies the resistant material body whose defining solidity is undone."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mountains are violently damaged.",
+              "after": "The mountains are processed so completely that elevated solid mass loses its very grain and cohesion."
+            }
+          },
+          {
+            "model_id": "baseline_driven_dispersal",
+            "confidence": "medium",
+            "focus_anchor": "The same ب س س root governs the mountains and is then repeated absolutely, allowing a motion image alongside pulverization.",
+            "mechanism": "A normally excavation-stopping obstruction is driven, sent apart, and made to depart across the ground; destruction includes removal from place, not only breakage in place.",
+            "activation_trace": [
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B001",
+                "role": "Gentle driving, vocal urging, dispersal, and departure across land supplies directed motion and functions as removal of the mass from its station."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B005",
+                "role": "Ground too hard to excavate supplies maximal resistance and functions as the obstruction that directed dispersal overcomes."
+              }
+            ],
+            "changed_reading": {
+              "before": "The mountains are crushed where they stand.",
+              "after": "The mountains are both disintegrated and driven out of their role as immovable barriers."
+            }
+          },
+          {
+            "model_id": "baseline_constitution_unwoven",
+            "confidence": "exploratory",
+            "focus_anchor": "ج ب ل can image created constitution and tight fabrication, while ب س س names disaggregation and mixing.",
+            "mechanism": "The mountain is read as a tightly constituted created body; pulverization reverses its making, turning a coherent formation back into unbound material.",
+            "activation_trace": [
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B004",
+                "role": "Inborn created constitution supplies formation as an organizing principle and functions as what the event reverses."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B007",
+                "role": "Tightly executed weaving supplies a fabric analogy and functions as the mountain's internal coherence."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Crumbling and mixing supplies material disaggregation and functions as an unmaking of constituted form."
+              }
+            ],
+            "changed_reading": {
+              "before": "A landform is destroyed.",
+              "after": "A paradigmatically well-formed solid body is deconstituted, as though creation's tight fabrication were being unmade."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_shake_crush_disperse",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ع",
+              "ر ج ج",
+              "ه ب و",
+              "ب ث ث"
+            ],
+            "mechanism": "The context turns pulverization into a staged material process: the severe event arrives, the earth is agitated into instability, the mountain's cohesion is destroyed, and the product becomes fine airborne matter dispersed outward.",
+            "activation_trace": [
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Raised solid aggregation supplies the initial body and functions as the process's resistant input."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Pulverizing and mixing supplies the central transformation and functions as the bridge from solid mass to particulate matter."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B002",
+                "role": "A descending severe event supplies onset and functions as the initiating condition for the local sequence."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Repeated agitation until disturbance supplies mechanical destabilization and functions as the immediate precursor to mountain failure."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine dispersed dust supplies the resulting particle scale and functions as evidence of completed comminution."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Scattering a thing supplies outward distribution and functions as the terminal state of the crushed material."
+              }
+            ],
+            "structural_cues": [
+              "56:4 and 56:5 each repeat a passive verb with its cognate accusative, and 56:6 immediately predicates the resultant dust condition."
+            ],
+            "reader_inference": "The packet supplies severe arrival, agitation, pulverization, fine dust, and scattering; I infer a causal process across the verses. A live alternative is a paratactic inventory of simultaneous signs rather than successive material stages.",
+            "changed_reading": {
+              "before": "The verse reports an isolated act of crushing.",
+              "after": "The verse is the middle transformation in a process from ground-scale agitation through loss of mountain cohesion to airborne dispersal."
+            }
+          },
+          {
+            "model_id": "delta_vertical_rank_inversion",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ف ض",
+              "ر ف ع"
+            ],
+            "mechanism": "The paired lowering and raising cue makes the destruction of mountains, the paradigms of height and social eminence, enact the loss of fixed vertical rank: what appears intrinsically elevated can be brought below particulate scale.",
+            "activation_trace": [
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Elevated solid mass supplies literal height and functions as the local bearer of vertical status."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B012",
+                "role": "Leaders likened to mountains supplies social eminence and functions as a controlled extension from terrain to rank."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Pulverization supplies radical reduction and functions as the cancellation of apparently fixed elevation."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Bringing down after height supplies the downward vector and functions as the frame for the mountain's reduction."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of standing supplies rank as well as height and functions as the contrasting pole of the reversal."
+              }
+            ],
+            "structural_cues": [
+              "The compact antithesis of 56:3 precedes the shaking and places the paradigmatically elevated object of 56:5 inside a lower/raise frame."
+            ],
+            "reader_inference": "The packet supplies literal height, mountain-like leaders, lowering after height, and elevation of standing; I infer that geological leveling can stage rank reversal. The alternative is a strictly physical change in terrain with no social extension.",
+            "changed_reading": {
+              "before": "A high natural object is reduced.",
+              "after": "The event demonstrates that neither physical elevation nor mountain-like eminence is an intrinsic, permanent rank."
+            }
+          },
+          {
+            "model_id": "delta_mass_to_relational_classes",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز و ج",
+              "ص ح ب",
+              "س ب ق",
+              "ق ر ب"
+            ],
+            "mechanism": "Mountain imagery can denote a huge collectivity and its leaders; its pulverization dissolves inherited mass identity, after which people appear in kinds, enduring companies, precedence, and proximity. The context changes destruction into deconstitution before a new relational sorting.",
+            "activation_trace": [
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B002",
+                "role": "A mountain-like multitude supplies undifferentiated collective mass and functions as the social analogue being broken open."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B012",
+                "role": "Chiefs likened to mountains supplies inherited leadership and functions as the old organizing center that cannot remain monumental."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Crumbling and mixing supplies deconstitution and functions as the interruption between old mass and new grouping."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B005",
+                "role": "Peers gathered by likeness or action supplies classification and functions as the first principle of regrouping."
+              },
+              {
+                "source_ref": "56:8",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Lasting companionship supplies relational belonging and functions as a replacement for belonging to an undifferentiated mass."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Precedence supplies ordered movement and functions as a criterion distinguishing one company from another."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The favored proximity of a ruler's intimates supplies nearness-as-status and functions as the destination of the foremost group."
+              }
+            ],
+            "structural_cues": [
+              "56:7 explicitly announces three classes immediately after the mountain becomes dispersed dust; 56:8-11 then names them through side, companionship, precedence, and proximity."
+            ],
+            "reader_inference": "The packet supplies mountain-like masses and chiefs, deconstitution, then grouping by likeness, companionship, precedence, and proximity; I infer that old collective identity is dismantled before new relations are disclosed. The alternative is a simple topic transition from cosmic signs to human outcomes.",
+            "changed_reading": {
+              "before": "The mountain episode concerns the nonhuman landscape alone.",
+              "after": "The pulverized mountain also images the end of inherited mass and authority as stable identities before persons are regrouped by relation and response."
+            }
+          },
+          {
+            "model_id": "delta_unweaving_and_reweaving",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "و ض ن",
+              "ق ب ل"
+            ],
+            "mechanism": "The focus destroys a mountain branch imaged as tight fabrication, while the later scene restores tight weave in couches and joins persons face to face. Coherence is not abolished absolutely; given compactness is unmade and a deliberate relational fabric appears afterward.",
+            "activation_trace": [
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B007",
+                "role": "Excellent tight weaving supplies a fabric image for mountain cohesion and functions as the construction that is undone."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Crumbling and mixing supplies disassembly and functions as unweaving at the level of material analogy."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Interlaced, well-fastened weaving supplies renewed crafted cohesion and functions as a constructive counterimage to pulverization."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B001",
+                "role": "Thing facing thing supplies reciprocal orientation and functions as the human relation supported by the new weave."
+              }
+            ],
+            "structural_cues": [
+              "Within the same local unit, the sequence moves from a compact natural body made particulate to woven supports bearing mutually facing persons."
+            ],
+            "reader_inference": "The packet supplies a mountain-weaving branch, pulverization, later interlaced weaving, and reciprocal facing; I infer an unmaking/reweaving contrast. The live alternative is that the shared fabrication image is lexical coincidence without a sequence-level relation.",
+            "changed_reading": {
+              "before": "Pulverization means only the cancellation of structure.",
+              "after": "Pulverization clears a given compact structure, while the later scene suggests coherence reappearing as crafted support and reciprocal relation."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_commanded_unmaking",
+            "confidence": "exploratory",
+            "containment": "The herding and milking-call branch is distant from ordinary mountain destruction, but it is directly anchored in the repeated ب س س and coheres with that branch's driving and dispersal scope; render it only as an agentive resonance beside, not instead of, pulverization.",
+            "focus_anchor": "The repeated ب س س can retain the sound-and-urging branch while directly governing the mountains.",
+            "activation_trace": [
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B002",
+                "role": "Soft vocal calming used to draw milk supplies responsive yielding and functions as an image of matter answering an effective summons."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B001",
+                "role": "Urging and driving animals until they disperse supplies directed agency and functions as controlled removal rather than random explosion."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B010",
+                "role": "Compelling something onto a course supplies imposed direction and functions as the mountain's forced compliance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Inert mountains undergo brute mechanical destruction.",
+              "after": "Alongside crushing, the wording faintly images the hardest matter as handled, summoned, and made to yield and disperse under command."
+            }
+          },
+          {
+            "outlier_id": "outlier_monumental_false_speech",
+            "confidence": "exploratory",
+            "containment": "Linking mountains to authoritative discourse is cross-domain and depends on two remote focus branches, but both are packet-licensed and the later exclusion of idle speech activates them; downstream prose should mark this as an epistemic afterimage, not a lexical gloss of the ayah.",
+            "focus_anchor": "The focus joins the ب س س branch of baseless chatter to the ج ب ل branch of mountain-like chiefs.",
+            "activation_trace": [
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B004",
+                "role": "Baseless false chatter supplies epistemic hollowness and functions as what pulverization exposes beneath apparent solidity."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B012",
+                "role": "Chiefs and learned figures likened to mountains supplies monumental authority and functions as the social carrier of putatively solid claims."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B002",
+                "role": "False or ugly speech supplies the later excluded category and functions as the contextual activator of the focus's baseless-chatter branch."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Speech brought forth in utterance supplies the remaining audible medium and functions as the replacement channel after false noise is removed."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Reconciliation opposed to conflict supplies the content of repeated peace and functions as the constructive alternative to monumentalized false speech."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only physical monuments collapse.",
+              "after": "As a contained resonance, claims made monumental by authority can lose their apparent substance until speech is no longer organized by false noise or conflict."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The adjacent verses convert crushing into a process from severe onset and ground agitation through comminution to fine dispersed dust.",
+            "The lower/raise pair and the subsequent human classes let mountain collapse carry a controlled extension from fixed elevation and mass authority to disclosed relational rank.",
+            "The later tight weave and face-to-face arrangement preserve an exploratory contrast between deconstituting given solidity and constructing reciprocal coherence."
+          ],
+          "what_was_special": "The repeated ب س س both intensifies material pulverization and keeps live its driving, mixing, and even vocal-handling branches; paired with the unusually broad ج ب ل inventory, the verse supports simultaneous material, vertical, social, and fabric mechanisms without requiring their merger.",
+          "remaining_uncertainties": [
+            "The causal chain across 56:1-6 may be inferred sequence rather than explicitly directed stages.",
+            "The social and weaving readings are branch-enabled analogies; the packet does not establish that the local sequence intends either extension.",
+            "The context strongly selects a particulate result but does not fully decide among pulverizing, leveling, mixing, and driven dispersal within ب س س."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Hard obstruction is crumbled into mixable matter.** `ج ب ل` **B001** gives the high solid mass and **B005** hardness that stops digging; the cognate construction activates `ب س س` **B003**, crumbling, moistening, and mixing. The next ayah’s dispersed dust supplies the result. **Abductive move:** I infer that the repeated root marks exhaustive processing rather than a single blow. **Reading change:** the mountains are not simply moved; their defining solidity and resistance are mechanically undone.\n\n2. **Innate formation is forced out of its fixed form.** `ج ب ل` **B004** supplies innate formed nature, while **B010** supplies forcing onto a matter. In proximity to the human reclassification into three `أَزْوَاج`, the mountain’s material unmaking activates an anthropological analogy. **Abductive move:** I infer that the packet aligns geological form-loss with the exposure of human kinds, without identifying people with mountains. **Reading change:** the ayah becomes a prelude to the breaking of apparently naturalized orders.",
@@ -2556,18 +3152,23 @@
   "root_lexicon": {
     "root_000115": {
       "root_ar": "ب س س",
+      "qac_roots_ar": [
+        "ب س س"
+      ],
       "root_id": "root_000115",
-      "root_mapping": {
-        "root_id": "root_000115",
-        "root_norm": "ب س س",
-        "source_root_norm": "ب س س",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 2,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب س س",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e2d959572c0a76f576c740a9ab09c25c2aaa9197cd3b5452820375e6823e1779",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5066,18 +5667,23 @@
     },
     "root_000217": {
       "root_ar": "ج ب ل",
+      "qac_roots_ar": [
+        "ج ب ل"
+      ],
       "root_id": "root_000217",
-      "root_mapping": {
-        "root_id": "root_000217",
-        "root_norm": "ج ب ل",
-        "source_root_norm": "ج ب ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 40,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ب ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 40
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f82676cae7e6c04cb5158ba259fc789b18f2188c0f91546859e6ed070b62fb83",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7507,14 +8113,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7797,11 +8409,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_5.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_5.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 93104,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7874,19 +8499,37 @@
           "root_ids": [
             "root_000115"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب س س",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000115",
+            "targets": [
+              {
+                "qac_root_norm": "ب س س",
+                "target_rank": 1,
+                "furuq_root_id": "root_000115",
+                "furuq_root_norm": "ب س س",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000115",
-              "root_norm": "ب س س",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب س س",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7911,19 +8554,37 @@
           "root_ids": [
             "root_000217"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ب ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000217",
+            "targets": [
+              {
+                "qac_root_norm": "ج ب ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000217",
+                "furuq_root_norm": "ج ب ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 40,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000217",
-              "root_norm": "ج ب ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ب ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 40,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7950,10 +8611,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 20,
+        "dictionary_branches_kept": 20,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 20,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

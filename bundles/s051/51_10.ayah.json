@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:31.526693+00:00",
+  "generated_at": "2026-08-04T22:29:45.402382+00:00",
   "surah": 51,
   "ayah": 10,
   "ayahRef": "51:10",
@@ -849,7 +849,8 @@
       "morpheme_ids": [
         "m-w-s051-a010-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:10:1"
+      "aligned_qac_word_ref_upstream": "51:10:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -865,7 +866,8 @@
         "m-w-s051-a010-w002-01",
         "m-w-s051-a010-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:10:2"
+      "aligned_qac_word_ref_upstream": "51:10:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1314,7 +1316,827 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_10.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:10",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:10",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_completed-removal",
+            "confidence": "strong",
+            "focus_anchor": "The fronted passive perfect قُتِلَ governs the intensive human plural ٱلْخَرَّٰصُونَ, presenting the habitual conjecturers as the completed object of a verdict while suppressing its agent.",
+            "mechanism": "The perfective passive does more than insult: it grammatically removes the conjecturers before explaining them. The intensive noun makes a repeated epistemic practice, not one mistaken claim, the target.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B001",
+                "role": "Actual killing supplies the completed bodily-removal pole through which the passive verdict acquires terminal force."
+              }
+            ],
+            "changed_reading": {
+              "before": "A curse-like insult is directed at people who lie or conjecture.",
+              "after": "The line performs completed removal: habitual conjecture-speakers are presented as already deprived of operative standing."
+            }
+          },
+          {
+            "model_id": "baseline-epistemic-overmastery",
+            "confidence": "medium",
+            "focus_anchor": "The habitual estimating or conjecturing force of ٱلْخَرَّٰصُونَ meets a ق ت ل branch in which a matter is mastered completely in knowledge.",
+            "mechanism": "The death predicate can cross into the same epistemic domain as the subject noun. What is killed is not only a group but their method of producing claims from estimate: comprehensive apprehension overmasters approximation.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B003",
+                "role": "Complete mastery of a matter in knowledge turns killing into the epistemic conquest of habitual estimation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The conjecturers are threatened with death.",
+              "after": "Their conjectural procedure is itself epistemically conquered by a mode of knowing that leaves no remainder for guesswork."
+            }
+          },
+          {
+            "model_id": "baseline-tamed-assertion",
+            "confidence": "medium",
+            "focus_anchor": "The passive قُتِلَ can activate subduing or training, while the intensive ٱلْخَرَّٰصُونَ depicts a settled trade of speculative assertion.",
+            "mechanism": "Rather than only erase the speakers, the verdict breaks the hardness of their repeated speech-act. Their confident estimation is brought low and made unable to dominate.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B002",
+                "role": "Subduing and training until hardness yields recasts the passive as the breaking-in of unruly conjectural assertion."
+              }
+            ],
+            "changed_reading": {
+              "before": "The speakers are simply cursed.",
+              "after": "The force and prestige of their habitual conjecturing are subdued; the line is a social and rhetorical demotion as well as a threat."
+            }
+          },
+          {
+            "model_id": "baseline-diluted-potency",
+            "confidence": "exploratory",
+            "focus_anchor": "The rare drink-dilution branch of ق ت ل attaches directly to قُتِلَ; ٱلْخَرَّٰصُونَ supplies the human practice whose potency is being reduced.",
+            "mechanism": "The focus can picture conjecture as something heady or over-strong. Killing then means breaking its concentration so that it no longer intoxicates or compels an audience.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B007",
+                "role": "Weakening a strong drink by admixture offers a potency-loss reading in which conjectural speech is rendered inert."
+              }
+            ],
+            "changed_reading": {
+              "before": "Killing can only denote bodily destruction here.",
+              "after": "The conjecturers' medium is de-potentiated: its intoxicating certainty is broken even if the people remain physically present."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-forecast-overtaken-by-occurrence",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق س م",
+              "و ع د",
+              "ص د ق",
+              "و ق ع"
+            ],
+            "mechanism": "The opening process moves toward apportioned order, a promise that is fulfilled, and recompense that actually lands. Most sharply, و ق ع supplies both conjectural anticipation and actual falling or fixation. The focus becomes the threshold where forecast is overtaken by event, strengthening epistemic overmastery without excluding bodily judgment.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B003",
+                "role": "Complete epistemic mastery supplies the focus-side defeat of the estimators' provisional method."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "The allocation of a determinate share makes the surrounding order measured rather than improvised."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B001",
+                "role": "A spoken promise opens expectation toward a specified object instead of leaving an unbounded guess."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfillment that realizes promise converts verbal expectation into verified performance."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B012",
+                "role": "Anticipating an affair by casting conjecture exposes the precise provisional operation practiced by the focus group."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Actual falling and becoming fixed supplies the event that terminates the preceding conjectural anticipation."
+              }
+            ],
+            "structural_cues": [
+              "51:1-4 forms a four-stage motion from dispersal through carriage and flow to allocation.",
+              "51:5-6 closes that motion with two emphatic assertions before 51:10 pronounces its passive verdict."
+            ],
+            "reader_inference": "The packet supplies allocation, fulfilled promise, and both anticipatory and actualizing branches of و ق ع; I infer that actual occurrence defeats estimation. A live alternative is that occurrence intensifies only the literal death sentence.",
+            "changed_reading": {
+              "before": "Comprehensive knowledge merely refutes the conjecturers' claims.",
+              "after": "Their method dies at the instant a promised and apportioned reality lands: what had been cast as expectation becomes fixed occurrence."
+            }
+          },
+          {
+            "model_id": "delta-recursive-passive-diversion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ب ك",
+              "ق و ل",
+              "خ ل ف",
+              "ء ف ك"
+            ],
+            "mechanism": "A tightly made order is followed by speech whose paths diverge, then by two passives of being turned away, then by the passive قُتِلَ. This sequence makes the conjecturers the result and culmination of a recursive diversion process: unstable speech turns its occupants until their epistemic agency disappears.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B001",
+                "role": "Actual removal gives the passive sequence its terminal endpoint."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B003",
+                "role": "Tight binding establishes a constrained order against which divergent speech becomes visible."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B011",
+                "role": "A saying that operates as conjecture identifies the medium in which the focus group's practice circulates."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Each party taking a different path turns variation in speech into a mechanism of dispersal rather than mere plurality."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Turning a thing away from its direction supplies the repeated passive reversal that produces the terminal verdict."
+              }
+            ],
+            "structural_cues": [
+              "51:8 locates the audience inside a differing قول rather than merely saying that they utter one.",
+              "51:9 repeats one passive root at both ends, and 51:10 continues with another agentless passive perfect."
+            ],
+            "reader_inference": "The packet supplies tight order, conjectural saying, divergent paths, and repeated reversal; I infer a causal flow from inhabiting divergent speech to being turned and finally removed. Alternatively, 51:9 may only identify a subset rather than describe a process.",
+            "changed_reading": {
+              "before": "An external speaker curses an independently formed class of conjecturers.",
+              "after": "The class is generated by recursive diversion inside unstable discourse, and قُتِلَ names the terminal loss of agency produced by that process."
+            }
+          },
+          {
+            "model_id": "delta-proleptic-sentence-unfolded",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ م ر",
+              "س ه و",
+              "ي و م",
+              "ف ت ن",
+              "ذ و ق"
+            ],
+            "mechanism": "The relative continuation identifies the conjecturers as immersed and heedless; their question about the day is answered by a day of trial and an imperative to taste it. The completed passive in 51:10 therefore compresses a future judicial sequence into an already settled sentence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B001",
+                "role": "Actual killing supplies the terminal judgment stated in advance of its narrative unfolding."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B004",
+                "role": "An overwhelming extremity of death, war, or terror gives the conjecturers' immersion a judicially dangerous medium."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heedlessness of the heart explains why the already pronounced sentence remains unrealized in their awareness."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "A day's occurring calamity supplies the temporal scene into which the focus verdict unfolds."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B004",
+                "role": "Affliction, ordeal, and punishment specify the experienced content of the compressed sentence."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiencing a thing by trial moves the verdict from reported future to direct bodily verification."
+              }
+            ],
+            "structural_cues": [
+              "The opening ٱلَّذِينَ of 51:11 directly continues the human plural named in 51:10.",
+              "The question in 51:12 receives a temporal answer in 51:13 and a second-person imperative in 51:14."
+            ],
+            "reader_inference": "The packet supplies identification, unawareness, a severe day, trial, and experiential tasting; I read the perfect passive as proleptic certainty. The live alternative is an optative malediction whose later punishment is supporting description, not its temporal unpacking.",
+            "changed_reading": {
+              "before": "The passive perfect is a timeless curse formula.",
+              "after": "It is a compressed sentence stated as complete before the condemned recognize it, then unfolded from heedlessness through question to experienced trial."
+            }
+          },
+          {
+            "model_id": "delta-immersed-medium-under-assay",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "غ م ر",
+              "ن و ر",
+              "ف ت ن",
+              "ذ و ق"
+            ],
+            "mechanism": "The focus-side image of weakening a strong drink meets immersion in an opaque medium, fire, assay, and taste. Conjecture becomes a potent mixture whose apparent strength is first broken and whose actual composition is then exposed by experiential testing.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B007",
+                "role": "Diluting a strong drink until its force breaks supplies the material de-potentiation at the focus."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B001",
+                "role": "Abundant covering water gives the conjecturers a surrounding medium rather than an isolated false proposition."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "A veil of falsehood and ignorance identifies that covering medium as epistemically opaque."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the heat that exposes what the conjectural mixture can withstand."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying metal or a person turns the fire into a test of composition rather than undirected destruction."
+              },
+              {
+                "source_ref": "51:14",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential tasting closes the material sequence by forcing direct knowledge of the tested substance."
+              }
+            ],
+            "structural_cues": [
+              "The sequence runs without a scene break from the focus verdict to immersion, fire-testing, and tasting.",
+              "The focus and 51:13 are passive, while 51:14 abruptly makes the subjects active recipients of an imperative."
+            ],
+            "reader_inference": "The packet supplies drink-dilution, covering liquid, epistemic opacity, fire, assay, and taste; I infer one material transformation across them. The safer alternative keeps bodily death and punishment separate and treats the dilution branch as inactive.",
+            "changed_reading": {
+              "before": "Conjecture is a wrong proposition punished from outside.",
+              "after": "Conjecture is an over-strong opaque medium: its borrowed potency is broken, then its composition is exposed by fire and direct experience."
+            }
+          },
+          {
+            "model_id": "delta-fixed-right-defeats-assessment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق س م",
+              "م و ل",
+              "ح ق ق",
+              "س ء ل",
+              "ح ر م"
+            ],
+            "mechanism": "Early apportionment reappears as a fixed right located inside wealth for both the requester and the deprived. Retaining the ordinary estimating force of ٱلْخَرَّٰصُونَ opens a legal-social reading: habitual approximation is culpable when entitlement is determinate, and its assessment is overruled by a right that precedes discretion.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B003",
+                "role": "Complete mastery in knowledge makes the conjectural assessor's provisional calculation subject to decisive overruling."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating and assigning a share establishes allocation as a determinate operation."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessed and accumulated wealth supplies the concrete field in which estimation can distort distribution."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B003",
+                "role": "A specific right owned by its holder makes the share prior to the possessor's approximate judgment."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Request and claim give one beneficiary a voice without making that voice the source of the right."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation and loss of the sought object extend the fixed entitlement to one unable or unwilling to ask."
+              }
+            ],
+            "structural_cues": [
+              "The apportioning action of 51:4 and the right inside wealth at 51:19 bracket the window with two allocation scenes.",
+              "51:19 pairs a vocal claimant with a deprived person, preventing distribution from depending only on who can state a claim."
+            ],
+            "reader_inference": "The packet supplies apportioned shares, owned wealth, a fixed entitlement, request, and deprivation; I let the uncited focus noun retain its ordinary assessment sense and infer that approximation can erase a due share. Alternatively, the noun may concern only doctrinal conjecture and 51:19 may function solely as moral contrast.",
+            "changed_reading": {
+              "before": "The focus condemns speculative theology or false prediction only.",
+              "after": "It can also condemn the assessor who substitutes discretionary estimate for a determinate social right, especially where deprivation cannot announce itself."
+            }
+          },
+          {
+            "model_id": "delta-speech-defeats-itself",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ي ي",
+              "ي ق ن",
+              "ن ف س",
+              "ب ص ر",
+              "ح ق ق",
+              "م ث ل",
+              "ن ط ق"
+            ],
+            "mechanism": "The context moves from signs in the earth to the hearers' own selves, asks for sight, and finally analogizes the truth to their own speaking. The conjecturers' speech act thus supplies an immediate instance of the very evidentiary certainty their speech disputes. Epistemic killing becomes reflexive: speaking the conjecture performs the comparator that defeats it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B003",
+                "role": "Complete epistemic mastery supplies the focus predicate for a conjecture defeated by evidence available to its own speaker."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign makes the external world legible rather than available only for speculative estimate."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge with doubt removed names the epistemic state opposed to the focus group's habitual conjecture."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B012",
+                "role": "The thing's own self or identity relocates evidence from distant report into the addressee."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight of the heart makes seeing an interpretive act capable of displacing estimate."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality-matching stability supplies the truth pole against which conjectural speech is measured."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Likeness and counterpart relation makes the addressees' own speaking the explicit comparator for truth."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B001",
+                "role": "Actual articulate speech supplies a self-present event whose occurrence the speaker does not need to estimate."
+              }
+            ],
+            "structural_cues": [
+              "51:20-23 moves spatially from earth to selves to sky, then seals the movement with an oath and a second-person comparison.",
+              "The final comparator is not an external object but the addressees' ongoing act of speaking."
+            ],
+            "reader_inference": "The packet supplies signs, certainty, self, insight, reality-matching truth, likeness, and speech; I infer that the conjecturers belong among the addressed speakers and so enact their own counter-evidence. A live alternative is that the second-person audience is broader and the analogy reassures rather than refutes.",
+            "changed_reading": {
+              "before": "The conjecturers are defeated by authoritative information imposed from outside.",
+              "after": "Their own act of speaking becomes the immediate analogue of actual occurrence, so conjectural speech carries within itself the evidence that overmasters it."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-severed-thread-in-a-weave",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a branch of ح ب ك contributes a midline cut to a textile-spatial model while قُتِلَ remains a killing verb, not a weaving verb. It remains anchored in the focus's removal predicate and the consecutive woven-order, divergent-speech sequence. Downstream prose should present it only as a cross-domain image, never as the lexical translation of either word.",
+            "focus_anchor": "The passive removal of ٱلْخَرَّٰصُونَ can be pictured as severing habitual conjecture from the ordered weave it fails to follow.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B001",
+                "role": "Terminal removal supplies the severing action at the focus."
+              },
+              {
+                "source_ref": "51:7",
+                "root": "ح ب ك",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000290",
+                "branch_id": "B004",
+                "role": "A strike or cut through the middle turns ordered weaving into an image of excluding a nonintegrating thread."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "Speech spreading among people supplies the thread-like circulation that can propagate the divergence."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Parties taking different paths makes conjectural discourse fail to integrate into one constrained pattern."
+              }
+            ],
+            "changed_reading": {
+              "before": "The conjecturers are an external enemy destroyed beside an otherwise decorative woven sky.",
+              "after": "They are divergent speech-threads severed from a tightly constrained pattern because their paths cannot be integrated into it."
+            }
+          },
+          {
+            "outlier_id": "outlier-counterfeit-counterpart",
+            "confidence": "exploratory",
+            "containment": "This is form-distant because the ق ت ل branch denotes an enemy or paired counterpart, whereas the focus uses a passive verb. It remains worth carrying because 51:23 explicitly joins truth, likeness, and speech, creating two rival speech counterparts. Downstream prose should call it a relational overlay, not a second dictionary sense of قُتِلَ.",
+            "focus_anchor": "The conjecturers are removed through قُتِلَ, but the counterpart branch lets them first appear as the rival double of reality-matching speech.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B008",
+                "role": "An enemy or paired counterpart makes conjectural speech the rival double that the verdict resolves."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Stable correspondence with reality supplies the genuine member of the rival pair."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Likeness and peer relation brings true and conjectural speech into explicit comparison."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B001",
+                "role": "Actual speaking provides the shared surface on which authentic and counterfeit assertions can resemble one another."
+              }
+            ],
+            "changed_reading": {
+              "before": "Conjectural speech is merely the absence of truth.",
+              "after": "It is truth's counterfeit counterpart: similar enough to occupy the same speech-form, but defeated when the pair is tested against reality."
+            }
+          },
+          {
+            "outlier_id": "outlier-provision-defeats-scarcity-calculus",
+            "confidence": "exploratory",
+            "containment": "This is surprising and morphologically distant because the winter-defeating ق ت ل branch names an active sustainer, while the focus has a passive verb and gives no explicit scarcity claim. It remains anchored through the estimating subject, the focus predicate, apportioned shares, and provision in the sky. Downstream prose should frame it as an analogical reversal of scarcity-calculation, not as a grammatical paraphrase.",
+            "focus_anchor": "The estimating practice of ٱلْخَرَّٰصُونَ is passively nullified, while a remote ق ت ل image allows true provision to function as what defeats a hostile season.",
+            "activation_trace": [
+              {
+                "source_ref": "51:10",
+                "root": "ق ت ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001200",
+                "branch_id": "B013",
+                "role": "The provider who defeats winters by feeding and warming supplies an analogical model in which sustenance kills scarcity."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Allocation of shares makes provision ordered rather than an uncertain residue."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Apportioned giving supplies the positive economy that displaces a calculus governed by guessed scarcity."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B001",
+                "role": "Promise opens reliable expectation toward provision instead of leaving the future to anxious estimate."
+              }
+            ],
+            "changed_reading": {
+              "before": "The estimators are killed because their predictions are intellectually false.",
+              "after": "Their scarcity-governed calculus is nullified by an order in which provision is apportioned and promised, analogically defeating want as a sustainer defeats winter."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The two branches of و ق ع turn 51:10 into the threshold where conjectural forecast is overtaken by actual occurrence.",
+            "The passive reversals of 51:9 and passive قُتِلَ form a recursive process in which divergent discourse erodes the conjecturers' agency.",
+            "The sequence 51:20-23 makes the addressees' own seeing and speaking evidence that epistemically overmasters estimation.",
+            "The fixed right in wealth opens a social reading in which determinate entitlement defeats discretionary assessment."
+          ],
+          "what_was_special": "The ق ت ل inventory did not collapse into bodily death: epistemic mastery, taming, dilution, counterpart relation, and winter-defeating provision each found a different contextual mechanism. The resulting readings coexist as judicial, epistemic, material, social, reflexive, and analogical activations.",
+          "remaining_uncertainties": [
+            "No branch inventory is supplied for the focus root خ ر ص, so its estimating force can anchor morphology and ordinary semantics but cannot receive a fabricated branch citation.",
+            "The passive perfect may be completed verdict, proleptic certainty, or optative curse; the packet leaves all three grammatically live.",
+            "The causal arrow from the passive diversion of 51:9 to the conjecturers of 51:10 is reader-supplied rather than overtly marked.",
+            "The material, textile, counterpart, and provision readings depend on form-distant branches and require the stated containment."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Conjecturers annulled by the event they estimate.** `خ ر ص/B001` supplies conjectural estimation and B002 assertions without knowledge; `ق ت ل/B001` supplies killing, while B002 supplies subduing until force is softened. Against 51:5-6's fixed occurrence and 51:12's timing-question, I infer **unsupported estimate meets fixed event -> estimating authority collapses**. *Qutila* can retain lethal force while also reading as total rhetorical subdual.\n2. **Measurement detached from allotment.** 51:4 uses `ق س م/B003` for actual apportionment, whereas *kharrāṣūn* use conjectural measure. I infer **guessing without access to the directive -> counterfeit division of what is due**. Their fault is not calculation itself but calculation severed from the surah's operative order.",
@@ -2175,18 +2997,23 @@
   "root_lexicon": {
     "root_001200": {
       "root_ar": "ق ت ل",
+      "qac_roots_ar": [
+        "ق ت ل"
+      ],
       "root_id": "root_001200",
-      "root_mapping": {
-        "root_id": "root_001200",
-        "root_norm": "ق ت ل",
-        "source_root_norm": "ق ت ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 121,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ت ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 121
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "76e1726403696bfa9d2208f409fe872a0cae4c0d6f79e9cbe2c53f60fca611d1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5357,14 +6184,20 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5631,11 +6464,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_10.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_10.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 100610,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -5708,19 +6554,37 @@
           "root_ids": [
             "root_001200"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ت ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001200",
+            "targets": [
+              {
+                "qac_root_norm": "ق ت ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001200",
+                "furuq_root_norm": "ق ت ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 121,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001200",
-              "root_norm": "ق ت ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ت ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 121,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -5743,9 +6607,15 @@
         "خ ر ص": {
           "root_id": null,
           "root_ids": [],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ر ص",
+            "mapping_status": "no_frozen_rooted_surface_match",
+            "primary_root_id": "",
+            "targets": []
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "targets": [],
           "note": "no root_id mapping found for this QAC root"
         }
       },
@@ -5755,10 +6625,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 13,
+        "dictionary_branches_kept": 13,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 13,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

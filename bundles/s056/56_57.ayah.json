@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.599693+00:00",
+  "generated_at": "2026-08-04T22:30:00.647476+00:00",
   "surah": 56,
   "ayah": 57,
   "ayahRef": "56:57",
@@ -1542,7 +1542,8 @@
       "morpheme_ids": [
         "m-w-s056-a057-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:57:1"
+      "aligned_qac_word_ref_upstream": "56:57:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1560,7 +1561,8 @@
         "m-w-s056-a057-w002-02",
         "m-w-s056-a057-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:57:2"
+      "aligned_qac_word_ref_upstream": "56:57:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1574,7 +1576,8 @@
       "morpheme_ids": [
         "m-w-s056-a057-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:57:3"
+      "aligned_qac_word_ref_upstream": "56:57:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1588,7 +1591,8 @@
       "morpheme_ids": [
         "m-w-s056-a057-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:57:4"
+      "aligned_qac_word_ref_upstream": "56:57:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1604,7 +1608,8 @@
         "m-w-s056-a057-w004-01",
         "m-w-s056-a057-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:57:5"
+      "aligned_qac_word_ref_upstream": "56:57:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2058,7 +2063,914 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_57.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:57",
+      "window": [
+        "56:57",
+        "56:58",
+        "56:59",
+        "56:60",
+        "56:61",
+        "56:62",
+        "56:63",
+        "56:64",
+        "56:65",
+        "56:66",
+        "56:67",
+        "56:68",
+        "56:69",
+        "56:70",
+        "56:71",
+        "56:72",
+        "56:73",
+        "56:74"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:57",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1_origin_as_self_evidence",
+            "confidence": "strong",
+            "focus_anchor": "The causal sequence خَلَقْنَاكُمْ فَلَوْلَا تُصَدِّقُونَ links the audience's created existence directly to the demanded response.",
+            "mechanism": "Bringing the addressees into existence supplies the fact; truth as correspondence requires their judgment and speech to match that fact. The created audience is therefore not merely told a premise but presented as its own evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing creation into existence supplies both the asserted act and the evidentiary ground."
+              },
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "Truth as correspondence makes the requested response align judgment and speech with the fact of being created."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bare demand to believe a doctrine about creation.",
+              "after": "The audience's own existence is evidence whose truthful acknowledgment must correspond to the creative act."
+            }
+          },
+          {
+            "model_id": "B2_measured_making_enacted_confirmation",
+            "confidence": "medium",
+            "focus_anchor": "خَلَقْنَاكُمْ and تُصَدِّقُونَ can join measured making to confirmation that is fulfilled in action.",
+            "mechanism": "The measuring and estimating branch of خلق makes creation a deliberate specification rather than an unstructured event. The realization-in-deed branch of صدق then lets the causal ف demand a lived verification proportionate to that measured making.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Pre-measurement and proportion make the creative act deliberate and specified."
+              },
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfilling or verifying a claim in action turns acknowledgment into enacted confirmation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Creation means only origination, and confirmation only inward assent.",
+              "after": "Deliberately measured making calls for a response that verifies acknowledgment in conduct, not assent alone."
+            }
+          },
+          {
+            "model_id": "B3_formed_nature_truthful_integrity",
+            "confidence": "exploratory",
+            "focus_anchor": "The plural object in خَلَقْنَاكُمْ names whole persons, while the adjacent truth-root can denote stable completeness.",
+            "mechanism": "The outer-form and inward-nature branches of خلق hold the person's visible constitution and disposition together. The completeness and stability branch of صدق allows the question to press whether that made constitution will become coherent and firm in truth.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Completed and balanced form contributes the person's visible constitution."
+              },
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B004",
+                "role": "Inward nature extends the created object from body to disposition."
+              },
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Complete rectitude and stability supply the functional endpoint of an integrated person."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse concerns provenance alone.",
+              "after": "It also asks why completed form and inward nature do not settle into truthful personal integrity."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_reproductive_measure_made_inspectable",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "م ن ي"
+            ],
+            "mechanism": "The immediate appeal to inspect emitted reproductive material makes measured creation concrete. Human beings encounter the small input they supply, while the transition from that input to a proportioned person remains the creative work that their confirmation should verify.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured specification is the focus mechanism that the reproductive example renders material."
+              },
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Verification in action is the requested response to inspectable evidence."
+              },
+              {
+                "source_ref": "56:58",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "The alerting inquiry directs attention to evidence already within the audience's experience."
+              },
+              {
+                "source_ref": "56:58",
+                "root": "م ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001450",
+                "branch_id": "B002",
+                "role": "Semen as the material from which form is measured supplies the small input-to-formed-person mechanism."
+              }
+            ],
+            "structural_cues": [
+              "أَفَرَءَيْتُم immediately follows the focus and redirects the same plural audience to its own reproductive act."
+            ],
+            "reader_inference": "The packet supplies inspection and semen as a source from which form is measured; I infer that the unseen transition from input to person explicates خَلَقْنَاكُمْ. A live alternative is that the example distinguishes agency without asserting a design process.",
+            "changed_reading": {
+              "before": "Measured creation is an abstract lexical possibility.",
+              "after": "Creation is inspectable proportioning: the audience knows its emitted input but cannot account for the measured person that results."
+            }
+          },
+          {
+            "model_id": "D2_proximate_input_not_creative_authorship",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق"
+            ],
+            "mechanism": "The repeated creation-root inside أَأَنتُمْ ... أَمْ نَحْنُ partitions causal roles. The audience performs the proximate reproductive act, but the paired question denies that this contribution amounts to authorship of the resulting being.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "The focus claim identifies the decisive bringing-into-existence."
+              },
+              {
+                "source_ref": "56:59",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "The same creation image on both sides of the explicit alternative assigns authorship by contrast."
+              }
+            ],
+            "structural_cues": [
+              "The antithesis أَأَنتُمْ تَخْلُقُونَهُ أَمْ نَحْنُ الْخَالِقُونَ repeats both the audience and نحن from the focus."
+            ],
+            "reader_inference": "The packet supplies two grammatically opposed candidates for the same creative act; I infer that the contrast separates real proximal contribution from decisive origination. Alternatively, the question may stress superior power without offering a general theory of causation.",
+            "changed_reading": {
+              "before": "نَحْنُ خَلَقْنَاكُمْ is an isolated declaration of origin.",
+              "after": "It corrects agency attribution: human contribution is visible, but it is not the bringing-into-being claimed by نحن."
+            }
+          },
+          {
+            "model_id": "D3_created_identity_bounded_and_reconfigurable",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق د ر",
+              "م و ت",
+              "ب د ل",
+              "م ث ل",
+              "ن ش ء",
+              "ع ل م"
+            ],
+            "mechanism": "Measured death places present embodiment inside a governed limit; substitution of similars and new production beyond present knowledge then make creation reconfigurable. The addressee can be read not only as a current body but as a measured identity or pattern under continuing creative authority.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured making anchors continuity between initial constitution and its later limits."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberate governance by estimation extends measurement from origin to the timing and distribution of death."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of life supplies the terminal boundary of the present created instance."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B001",
+                "role": "One thing standing in another's place supplies replacement rather than simple annihilation."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Similarity preserves a pattern relation across replaced instances."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "New production provides the positive operation after substitution."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The negated disclosure of knowledge leaves the resulting mode genuinely open."
+              }
+            ],
+            "structural_cues": [
+              "نحن remains the subject across measured death, non-defeat, substitution, and new production, while second-person plural suffixes persist through the transformations."
+            ],
+            "reader_inference": "The packet supplies governed death, substitution, similars, new production, and an unknown mode; I infer continuity at the level of a divinely measured identity or pattern. The live alternative is replacement by other generations rather than reconstitution of the same persons.",
+            "changed_reading": {
+              "before": "Creation is the one past arrival of the audience's current bodies.",
+              "after": "The audience belongs to a governed arc in which its present instance ends while a like pattern can be replaced and newly produced in an unknown mode."
+            }
+          },
+          {
+            "model_id": "D4_first_emergence_as_retrievable_evidence",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "ن ش ء",
+              "ء و ل",
+              "ذ ك ر"
+            ],
+            "mechanism": "The first emergence is marked as already known and then made the object of remembrance. Confirmation in the focus is therefore not acquisition of inaccessible information but truthful reactivation of evidence the audience already carries.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "Correspondence with known fact defines the focus response."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to the knower marks first emergence as established evidence."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Bringing something newly into being restates the focus event as an emergence."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Priority identifies the already experienced emergence as the first instance."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recovering something from or against forgetting supplies the epistemic operation missing from non-confirmation."
+              }
+            ],
+            "structural_cues": [
+              "وَلَقَدْ marks prior knowledge, and فَلَوْلَا تَذَكَّرُونَ echoes the focus's فَلَوْلَا تُصَدِّقُونَ."
+            ],
+            "reader_inference": "The packet supplies known first emergence and failed remembrance; I infer an arrow from recollection to truthful confirmation. Alternatively, remembrance may target a future re-creation argument without redefining the focus response generally.",
+            "changed_reading": {
+              "before": "Confirmation accepts a new external claim.",
+              "after": "Confirmation retrieves and answers evidence of first emergence that is already known but not being made operative."
+            }
+          },
+          {
+            "model_id": "D5_creation_as_growth_beyond_cultivation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ح ر ث",
+              "ز ر ع"
+            ],
+            "mechanism": "The cultivation sequence preserves human work while distinguishing it from actual growth. In parallel with reproduction, creation becomes a process in which handling and preparation are real but the transition into a living, developing result exceeds the handler.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing a being into existence is reimaged through the difference between cultivation and growth."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B013",
+                "role": "A second alerting inquiry makes ordinary agricultural practice an evidentiary test."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ح ر ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000303",
+                "branch_id": "B002",
+                "role": "Casting seed and working the field defines the genuine but preparatory human operation."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Germination and development supply the living transition claimed for نحن rather than the cultivator."
+              }
+            ],
+            "structural_cues": [
+              "أَأَنتُمْ ... أَمْ نَحْنُ repeats the agency contrast of 56:59 after first naming the audience's act."
+            ],
+            "reader_inference": "The packet supplies human sowing and a contrasted agent of germination; I infer that this causal layering models the reproductive creation claim. Alternatively, crop growth may serve only as a parallel proof of power rather than a structural account of human making.",
+            "changed_reading": {
+              "before": "Divine creation displaces or denies all human causality.",
+              "after": "Creation encloses real human preparation within a deeper growth process that the preparer neither authors nor controls."
+            }
+          },
+          {
+            "model_id": "D6_form_as_contingently_maintained",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ش ي ء",
+              "ج ع ل",
+              "ح ط م",
+              "ح ر م"
+            ],
+            "mechanism": "The crop's formed integrity can be deliberately converted into dry fragments, ending in experienced deprivation. By material analogy, completed creation is not a possession that becomes independent at origin; its coherence is contingently maintained and reversible.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B003",
+                "role": "Completed and balanced form supplies the created integrity whose maintenance is tested."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "Will attached to the object makes the reversal contingent rather than accidental."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Changing a thing into another condition provides the reversible transformation."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Breaking dry matter into fragments supplies the material undoing of formed coherence."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Failure to obtain the sought result turns material reversal into recognized dependence."
+              }
+            ],
+            "structural_cues": [
+              "The conditional لَوْ نَشَاءُ initiates a reversal sequence that ends with the audience naming itself deprived."
+            ],
+            "reader_inference": "The packet supplies a crop reversibly changed from growth to fragments and the resulting deprivation; I infer an analogical arrow to the audience's completed created form. The live alternative is that the warning concerns provision alone and should not be extended to human constitution.",
+            "changed_reading": {
+              "before": "Once brought into being, completed form is a fixed possession.",
+              "after": "Created integrity is a maintained gift whose possible disintegration exposes continuing dependence on its maker."
+            }
+          },
+          {
+            "model_id": "D7_confirmation_rendered_as_gratitude",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ه",
+              "ن ز ل",
+              "ء ج ج",
+              "ش ك ر"
+            ],
+            "mechanism": "Water is encountered as drinkable provision whose delivery and retained sweetness are not authored by the drinker. The matching فَلَوْلَا exhortation renders truthful confirmation as gratitude: recognition of source should become an expressed response to received benefit.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Verification in response allows confirmation to become an enacted acknowledgment."
+              },
+              {
+                "source_ref": "56:68",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "Ordinary water supplies the indispensable benefit immediately available to inspection."
+              },
+              {
+                "source_ref": "56:69",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2",
+                  "7"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Causing water to descend and arrive assigns delivery beyond the consumer's act."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ء ج ج",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000014",
+                "branch_id": "B003",
+                "role": "Salty bitterness supplies the live counterfactual that makes drinkability recognizable as gift."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B001",
+                "role": "Recognizing a benefit and praising its giver specifies the practical response to provision."
+              }
+            ],
+            "structural_cues": [
+              "فَلَوْلَا تَشْكُرُونَ repeats the focus's فَلَوْلَا تُصَدِّقُونَ after another أَأَنتُمْ ... أَمْ نَحْنُ agency contrast."
+            ],
+            "reader_inference": "The packet supplies delivered drinkable water, its reversible bitterness, and a matched gratitude exhortation; I infer that gratitude is one enacted rendering of focus-confirmation. Alternatively, the parallel clauses may coordinate two distinct duties without making one define the other.",
+            "changed_reading": {
+              "before": "Confirmation is chiefly a correct proposition about origins.",
+              "after": "Confirmation traces received existence and provision to their giver and becomes gratitude under the awareness that usability is contingent."
+            }
+          },
+          {
+            "model_id": "D8_creation_as_installed_latent_capacity",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ر ي",
+              "ن ش ء",
+              "ش ج ر",
+              "ذ ك ر",
+              "م ت ع"
+            ],
+            "mechanism": "Fire hidden in material is released by a human act, yet the source tree and its latent capacity are assigned to prior origination. Creation can therefore mean installing affordances that creatures later activate; their useful release becomes a recurring reminder of the originating act.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing into existence expands from a finished object to the source structure that bears latent capacity."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "و ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001642",
+                "branch_id": "B002",
+                "role": "Hidden fire emerging from struck material supplies the latent-capacity mechanism."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Origination assigns the capacity-bearing source to creative authorship rather than the user."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The actual tree locates hidden fire in an ordinary created material source."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A thing deliberately serving as reminder converts repeated use into recurrent evidence."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "م ت ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001395",
+                "branch_id": "B001",
+                "role": "Enjoyed practical benefit shows that the latent capacity is usable rather than merely symbolic."
+              }
+            ],
+            "structural_cues": [
+              "The audience kindles the fire, but the paired أَأَنتُمْ أَنشَأْتُمْ ... أَمْ نَحْنُ الْمُنشِئُونَ relocates origination to the source tree."
+            ],
+            "reader_inference": "The packet supplies human ignition, concealed fire, originated tree, reminder, and utility; I infer that creation installs potentials whose later release testifies to source. Alternatively, this mechanism may characterize fire alone and function only as evidence for human creation.",
+            "changed_reading": {
+              "before": "Created beings are finished objects delivered once.",
+              "after": "Creation can install latent capacities that users reveal without authoring, so ordinary activation repeatedly calls for confirmation."
+            }
+          },
+          {
+            "model_id": "D9_confirmation_terminates_in_doxology",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ب ح",
+              "ر ب ب",
+              "ع ظ م"
+            ],
+            "mechanism": "The sequence closes by replacing interrogation with an imperative to declare transcendence in the name of the great Lord. The creator is thereby encountered as sovereign nurturer and completer, while confirmation reaches an enacted verbal form rather than stopping at inference.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Confirmation realized in action provides the focus-side path from recognition to utterance."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Declaring transcendence supplies the commanded verbal enactment after the evidence sequence."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repairing, and completing expand the creator from first originator to continuing Lord."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B001",
+                "role": "Greatness and power gather the preceding acts under a final acknowledgment of scale."
+              }
+            ],
+            "structural_cues": [
+              "The run of questions and counterfactuals ends with the direct imperative فَسَبِّحْ."
+            ],
+            "reader_inference": "The packet supplies a final imperative, transcendence, lordly completion, and greatness; I infer that this is the enacted terminus of the focus's demand for confirmation. Alternatively, 56:74 may be a liturgical conclusion without functioning as a semantic expansion of تُصَدِّقُونَ.",
+            "changed_reading": {
+              "before": "Confirmation ends when the audience concedes the argument.",
+              "after": "Confirmation matures into speech and worship that acknowledge the creator as continuing Lord and completer."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_creation_as_a_due_received",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus form ordinarily carries confirmation rather than almsgiving. It remains branch-anchored through the charity or right image of ص د ق meeting financial liability and deprivation in 56:66-67; downstream prose should present it only as an economic resonance, never as the primary morphology.",
+            "focus_anchor": "تُصَدِّقُونَ at word 4, under the causal claim خَلَقْنَاكُمْ, activates the root's branch of charity and a due.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Received existence supplies the endowment from which an exploratory due could arise."
+              },
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B006",
+                "role": "Charity, property, and an owed right provide the economic shadow of the demanded response."
+              },
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B001",
+                "role": "A binding financial liability makes the language of an unpaid due locally active."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation exposes receipt and loss as an economy of dependence."
+              }
+            ],
+            "changed_reading": {
+              "before": "Failure to confirm is only an epistemic refusal.",
+              "after": "Exploratorily, received created life places a due of acknowledgment or giving upon its recipient, made visible when provision is lost."
+            }
+          },
+          {
+            "outlier_id": "O2_human_as_cultivated_crop",
+            "confidence": "medium",
+            "containment": "The reading is cross-domain and therefore surprising, but the packet explicitly joins semen as measured formative material to the branch calling a man's semen his crop, while the focus anchors both in خلق. Render it as a qualified reproductive-material analogy, not a lexical equation, biological claim, or restriction of the plural audience to males.",
+            "focus_anchor": "The measured-making branch of خَلَقْنَاكُمْ can receive the packet's linked semen and crop images.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measured making anchors the analogy in the focus rather than in agriculture alone."
+              },
+              {
+                "source_ref": "56:58",
+                "root": "م ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001450",
+                "branch_id": "B002",
+                "role": "Semen as material from which form is measured supplies the reproductive seed side."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B004",
+                "role": "The explicit image of man's semen as his crop closes the reproductive-agricultural bridge."
+              }
+            ],
+            "changed_reading": {
+              "before": "The human is simply an object made outright.",
+              "after": "The human can be carried as a cultivated living yield: measured from seed and grown beyond the sower's authorship."
+            }
+          },
+          {
+            "outlier_id": "O3_actual_making_against_fabricated_account",
+            "confidence": "exploratory",
+            "containment": "This is surprising because خَلَقْ in the clause selects actual creation, while fabrication belongs to a more distant branch of the same root. The juxtaposition with ص د ق keeps the contrast anchored and diagnostically useful; downstream prose should call it a contrastive lexical shadow, not translate خَلَقْنَاكُمْ as fabrication.",
+            "focus_anchor": "The focus places the خلق and صدق roots in one causal sequence, allowing actual making to cast fabrication as its rejected shadow.",
+            "activation_trace": [
+              {
+                "source_ref": "56:57",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B007",
+                "role": "Invented or falsified speech supplies a negative foil to the clause's actual creative act."
+              },
+              {
+                "source_ref": "56:57",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "Correspondence of speech with fact distinguishes truthful acknowledgment from an invented counter-account."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse simply moves from creation to belief.",
+              "after": "As a lexical shadow, refusal to confirm replaces actual making with a fabricated account that fails to correspond to the audience's own existence."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Semen and the paired agency question turn creation into inspectable measured formation while distinguishing contribution from authorship.",
+            "Measured death, substitution, similars, and unknown new production expand creation from a past event into governed continuity through transformation.",
+            "The echoed فَلَوْلَا clauses align confirmation with remembered evidence and gratitude, making تصديق an enacted response.",
+            "The fire-tree sequence models creation as latent capacity whose human activation becomes reminder and benefit."
+          ],
+          "what_was_special": "The ordered examples preserve human handling in emitting, cultivating, drinking, and kindling while relocating decisive measure, growth, delivery, and origination to نحن; this changes both what خلق includes and what counts as تصديق.",
+          "remaining_uncertainties": [
+            "Whether أَمْثَالَكُمْ in 56:61 preserves personal identity, denotes replacement generations, or only asserts unrestricted substitution.",
+            "Whether the agricultural and fire mechanisms describe human creation structurally or function only as analogical proofs.",
+            "The charity-debt and fabrication readings are branch-valid resonances but morphologically too distant to carry primary prose."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Originating creation offered as grounds for confirmation.** `خ ل ق` **B002** supplies bringing into being; `ص د ق` **B004** supplies confirmation and fulfillment. The first-person assertion answers the passive resurrection question of 56:47. **Abductive move:** I infer an analogy from demonstrated first origination to credible re-origination. **Reading change:** `تصدقون` asks for recognition of a causal precedent, not assent without evidence.\n\n2. **Measured form calls for straight correspondence in speech.** `خ ل ق` **B001** supplies measuring and proportioning, while `ص د ق` **B002** supplies solidity and straightness and **B001** truth in speech. **Abductive move:** I infer that truthful response should correspond to the evident proportionality of one’s own formation. **Reading change:** the challenge opposes well-measured creation to crooked denial.",
@@ -3262,18 +4174,23 @@
   "root_lexicon": {
     "root_000434": {
       "root_ar": "خ ل ق",
+      "qac_roots_ar": [
+        "خ ل ق"
+      ],
       "root_id": "root_000434",
-      "root_mapping": {
-        "root_id": "root_000434",
-        "root_norm": "خ ل ق",
-        "source_root_norm": "خ ل ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 250,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ل ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 250
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "54ab2053cb6b55a96d87f5b4410d36c8efbb346396818f0835218322730f6af4",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7035,18 +7952,23 @@
     },
     "root_000852": {
       "root_ar": "ص د ق",
+      "qac_roots_ar": [
+        "ص د ق"
+      ],
       "root_id": "root_000852",
-      "root_mapping": {
-        "root_id": "root_000852",
-        "root_norm": "ص د ق",
-        "source_root_norm": "ص د ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 140,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص د ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 140
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c8ca8261ddf5a22f0b842402d653f3080f2262e5d80e962637715b8dfd260ccc",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9756,14 +10678,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10046,11 +10974,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_57.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_57.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 88441,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10123,19 +11064,37 @@
           "root_ids": [
             "root_000434"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ل ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000434",
+            "targets": [
+              {
+                "qac_root_norm": "خ ل ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000434",
+                "furuq_root_norm": "خ ل ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 250,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000434",
-              "root_norm": "خ ل ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ل ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 250,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10160,19 +11119,37 @@
           "root_ids": [
             "root_000852"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص د ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000852",
+            "targets": [
+              {
+                "qac_root_norm": "ص د ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000852",
+                "furuq_root_norm": "ص د ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 140,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000852",
-              "root_norm": "ص د ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص د ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 140,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10199,10 +11176,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 19,
+        "dictionary_branches_kept": 19,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 19,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

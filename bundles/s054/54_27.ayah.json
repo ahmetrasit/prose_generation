@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.809563+00:00",
+  "generated_at": "2026-08-04T22:29:53.337738+00:00",
   "surah": 54,
   "ayah": 27,
   "ayahRef": "54:27",
@@ -2771,7 +2771,8 @@
         "m-w-s054-a027-w001-01",
         "m-w-s054-a027-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:27:1"
+      "aligned_qac_word_ref_upstream": "54:27:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2785,7 +2786,8 @@
       "morpheme_ids": [
         "m-w-s054-a027-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:27:2"
+      "aligned_qac_word_ref_upstream": "54:27:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2801,7 +2803,8 @@
         "m-w-s054-a027-w003-01",
         "m-w-s054-a027-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:27:3"
+      "aligned_qac_word_ref_upstream": "54:27:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2815,7 +2818,8 @@
       "morpheme_ids": [
         "m-w-s054-a027-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:27:4"
+      "aligned_qac_word_ref_upstream": "54:27:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2829,7 +2833,8 @@
       "morpheme_ids": [
         "m-w-s054-a027-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:27:5"
+      "aligned_qac_word_ref_upstream": "54:27:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2843,7 +2848,8 @@
       "morpheme_ids": [
         "m-w-s054-a027-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:27:6"
+      "aligned_qac_word_ref_upstream": "54:27:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2857,7 +2863,8 @@
       "morpheme_ids": [
         "m-w-s054-a027-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:27:7"
+      "aligned_qac_word_ref_upstream": "54:27:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2871,10 +2878,39 @@
       "morpheme_ids": [
         "m-w-s054-a027-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:27:8"
+      "aligned_qac_word_ref_upstream": "54:27:8",
+      "morpheme_skip_count": 0
     },
-    null,
-    null
+    {
+      "word_index": 8,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s054-a027-w007"
+      ],
+      "qac_refs": [
+        "54:27:7:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a027-w007-01"
+      ],
+      "aligned_qac_word_ref_upstream": "54:27:9",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 9,
+      "surface_ar": "ٱصْطَبِرْ",
+      "word_ids": [
+        "w-s054-a027-w007"
+      ],
+      "qac_refs": [
+        "54:27:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a027-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "54:27:10",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3915,7 +3951,741 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_27.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:27",
+      "window": [
+        "54:18",
+        "54:19",
+        "54:20",
+        "54:21",
+        "54:22",
+        "54:23",
+        "54:24",
+        "54:25",
+        "54:26",
+        "54:27",
+        "54:28",
+        "54:29",
+        "54:30",
+        "54:31",
+        "54:32"
+      ],
+      "ayah_count": 15,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:27",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_assay_observation",
+            "confidence": "strong",
+            "focus_anchor": "مُرْسِلُوا الناقة فتنة لهم followed by فارتقبهم واصطبر.",
+            "mechanism": "A concrete animal is released into the group as an assay; their elicited conduct is the result, so observation and restrained non-interference are integral phases of the test.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Sending as release supplies the initiating action that places the test-agent into motion."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ن و ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001567",
+                "branch_id": "B002",
+                "role": "The literal she-camel gives the assay a living, publicly encountered carrier."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying metal or a person supplies the mechanism of eliciting and distinguishing quality."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B001",
+                "role": "Monitoring and waiting make the group's subsequent behavior the observed output."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "Holding the self against agitation preserves the observation interval without premature interference."
+              }
+            ],
+            "changed_reading": {
+              "before": "A miraculous animal is sent as a generic trial, and the addressee is told to wait patiently.",
+              "after": "A living assay is deliberately introduced; what it draws out of the group must be watched under disciplined non-interference."
+            }
+          },
+          {
+            "model_id": "baseline_managed_release",
+            "confidence": "medium",
+            "focus_anchor": "The chain send, she-camel, watch, endure joins release to continuing oversight.",
+            "mechanism": "The animal is not abandoned after dispatch: deliberate pacing, management, guarding, and restraint make the event an administered protocol with a custodial dimension.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B004",
+                "role": "Deliberation, pacing, and verification turn dispatch into a controlled release."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ن و ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001567",
+                "branch_id": "B004",
+                "role": "Taming and managing the camel or an affair supplies an administrative rather than merely zoological frame."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B002",
+                "role": "Guarding and preserving make oversight a duty toward the trial's conditions."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "Self-restraint keeps the custodian from collapsing the protocol under pressure."
+              }
+            ],
+            "changed_reading": {
+              "before": "Sending ends when the animal arrives.",
+              "after": "Sending begins a supervised trial whose living agent and conditions remain under patient custody."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "context_parallel_sendings",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ن ز ع"
+            ],
+            "mechanism": "The earlier sent wind uproots people, while the focus sends a camel and opens an observation interval; the repeated dispatch root contrasts an immediately destructive carrier with a diagnostic living carrier.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assay distinguishes the camel's diagnostic function from direct destruction."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B001",
+                "role": "Waiting for an observable result marks a deferred rather than immediate effect."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "The same release image dispatches wind as an event-producing carrier and establishes the parallel."
+              },
+              {
+                "source_ref": "54:20",
+                "root": "ن ز ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001489",
+                "branch_id": "B001",
+                "role": "Uprooting from a settled place supplies the terminal force against which the camel's assay is contrasted."
+              }
+            ],
+            "structural_cues": [
+              "54:19-20 couple a sent carrier to immediate uprooting; 54:27 repeats sending but adds trial, watching, and endurance.",
+              "The focus imperatives defer closure and require the group's response to unfold."
+            ],
+            "reader_inference": "The packet supplies two sendings and the earlier carrier's uprooting effect; I infer that juxtaposition makes the camel a diagnostic intervention before destructive force, while the live alternative is simple episode-level parallelism without a staged continuum.",
+            "changed_reading": {
+              "before": "The camel is one isolated test among unrelated punishments.",
+              "after": "The camel is a non-destructive sent agent whose diagnostic interval stands in deliberate tension with the surah's destructive sent agents."
+            }
+          },
+          {
+            "model_id": "context_embodied_reminder",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ب ع",
+              "ل ق ي",
+              "ذ ك ر"
+            ],
+            "mechanism": "The group's refusal to follow one human and complaint that reminder was cast upon him are answered by another delivered medium: a she-camel sent for them. The animal tests resistance to mediated authority by becoming a public, nonverbal reminder.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message imagery lets the dispatched animal function as a carried communication."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ن و ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001567",
+                "branch_id": "B002",
+                "role": "The literal she-camel embodies the communication in a visible nonhuman form."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following behind supplies the rejected relation of compliance that the animal will test publicly."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B005",
+                "role": "Casting or placing something supplies a delivery pattern parallel to sending the camel into their midst."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that makes one remember gives the delivered camel a mnemonic and admonitory function."
+              }
+            ],
+            "structural_cues": [
+              "The direct speech in 54:24-25 opposes one human from us to a reminder cast upon him; 54:27 shifts to a she-camel sent for them.",
+              "The dative لهم makes the animal's placement answer the group's dispute over who receives a delivered sign."
+            ],
+            "reader_inference": "The packet supplies refusal to follow, a cast reminder, and then a sent animal; I infer that their shared delivery structure makes the camel an embodied counter-message, while the alternative is that it is only a miracle with no communicative role.",
+            "changed_reading": {
+              "before": "The camel tests whether the group will respect an extraordinary animal.",
+              "after": "The camel is an embodied reminder testing whether the group can accept mediated authority after rejecting its human bearer."
+            }
+          },
+          {
+            "model_id": "context_bounded_disclosure",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "غ د و"
+            ],
+            "mechanism": "The immediately preceding promise that they will know tomorrow gives watching and endurance a finite evidentiary horizon: restraint holds until conduct discloses the answer.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B001",
+                "role": "Monitoring and waiting supply the observation phase that reaches toward disclosure."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "Holding the self steady supplies restraint for the bounded interval."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Something becoming disclosed to the knower supplies the promised evidentiary outcome."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "غ د و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001076",
+                "branch_id": "B002",
+                "role": "The next day supplies a near temporal boundary for the waiting."
+              }
+            ],
+            "structural_cues": [
+              "54:26's tomorrow immediately precedes 54:27's watch and endure.",
+              "The switch from their future knowing to the addressee's present observation separates eventual disclosure from disciplined monitoring."
+            ],
+            "reader_inference": "The packet supplies promised knowledge tomorrow followed by commands to watch and endure; I infer a bounded evidence-gathering interval, while tomorrow may also be rhetorical imminence rather than a strict deadline.",
+            "changed_reading": {
+              "before": "Patience is indefinite stoicism during opposition.",
+              "after": "Patience is a controlled hold through a near observation window in which the disputed claim becomes behaviorally knowable."
+            }
+          },
+          {
+            "model_id": "context_water_allotment",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ه",
+              "ق س م",
+              "ش ر ب",
+              "ح ض ر"
+            ],
+            "mechanism": "The following division of water and attendance of every drinking turn locates the camel-test inside common-pool governance. Watching is oversight of turn compliance, and endurance is restraint across recurring access slots.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ن و ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001567",
+                "branch_id": "B004",
+                "role": "Managing a camel or an affair supplies the administrative side of the living test."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assay turns observance of the allocation into the quality being distinguished."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B002",
+                "role": "Guarding and preserving supply oversight of the shared-resource rule."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Supplying water by watering or pouring identifies the material resource around which compliance operates."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Separating and assigning shares supplies the allocation rule."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "A designated water share turns division into recurring access turns."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ح ض ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000333",
+                "branch_id": "B001",
+                "role": "Presence, witnessing, and proximity make each turn publicly observable."
+              }
+            ],
+            "structural_cues": [
+              "54:28 directly specifies الماء قسمة بينهم and كل شرب محتضر after the command to watch them.",
+              "The plural object هم in فارتقبهم aligns observation with the human participants rather than with inspection of the animal alone."
+            ],
+            "reader_inference": "The packet supplies apportioned water, distinct drinking shares, and attendance; I infer a common-pool compliance test supervised through successive turns, while the alternative is a one-off ritual condition without a broader governance mechanism.",
+            "changed_reading": {
+              "before": "The camel's mere presence is the trial.",
+              "after": "The camel operationalizes a public test of whether a group will honor visible, repeated limits on access to a shared necessity."
+            }
+          },
+          {
+            "model_id": "context_collective_delegation",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن د و",
+              "ص ح ب",
+              "ع ط و",
+              "ع ق ر"
+            ],
+            "mechanism": "The group calls a companion, who undertakes the act and hamstrings the animal. The test therefore exposes a chain from collective voice through affiliated agent to bodily breach, explaining why the command watches them although one actor executes it.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assay makes the revealed distribution of agency part of what the test distinguishes."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B001",
+                "role": "Watching the plural group tracks the social process behind the singular deed."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B001",
+                "role": "Raising the voice in a call supplies the group's initiating signal."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and affiliation connect the acting individual to the calling group."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ط و",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001028",
+                "branch_id": "B004",
+                "role": "Undertaking and entering into an act supplies the transition from group signal to execution."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B002",
+                "role": "Hamstringing an animal's legs supplies the concrete breach that completes the chain."
+              }
+            ],
+            "structural_cues": [
+              "54:27 commands watching them; 54:29 begins with their plural call but moves through their singular companion to singular actions.",
+              "The sequence call, companion, undertake, hamstring distributes one event across distinct social roles."
+            ],
+            "reader_inference": "The packet supplies a plural call and a singular affiliated executor; I infer delegated or socially authorized agency, while the live alternative is that the companion acts opportunistically without representing the whole group.",
+            "changed_reading": {
+              "before": "Watch which individuals obey or disobey the test.",
+              "after": "Watch how a collective converts shared intent into an executable violation through voice, affiliation, and a representative actor."
+            }
+          },
+          {
+            "model_id": "context_reversal_of_sent_agents",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ص ي ح",
+              "ه ش م",
+              "ح ظ ر"
+            ],
+            "mechanism": "The focus sends one living animal into observation; later one cry is sent and reduces the group to broken enclosure material. The trial is the hinge between an expansive embodied sign and a compressed destructive signal.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Release sends a living carrier into a temporally open encounter."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ن و ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001567",
+                "branch_id": "B002",
+                "role": "The full bodily form of the she-camel makes the first sent agent sustained and encounterable."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Repeated release supplies the formal link between camel and cry as two sent agents."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ص ي ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000895",
+                "branch_id": "B002",
+                "role": "A terrifying cry compresses the second sending into a single destructive signal."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ه ش م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001592",
+                "branch_id": "B002",
+                "role": "Dry broken vegetation supplies the group's resulting loss of living integrity."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ح ظ ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000338",
+                "branch_id": "B001",
+                "role": "An enclosure that confines and gathers supplies the managed-animal setting whose debris becomes the final comparison."
+              }
+            ],
+            "structural_cues": [
+              "54:27 and 54:31 repeat the first-person plural sending construction.",
+              "A living she-camel at the first sending is answered by one cry and an image from animal enclosure at the second."
+            ],
+            "reader_inference": "The packet supplies parallel sendings and the enclosure-debris result; I infer a designed reversal from living test-agent to dead managed material, while the alternative is that the enclosure simile is only incidental pastoral imagery.",
+            "changed_reading": {
+              "before": "The camel episode proceeds from sign to violation to punishment.",
+              "after": "The focus is the pivot between two sendings: a living sign opens room for response, then a single signal closes that room and reverses the violators into enclosure debris."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_reciprocal_water_watch",
+            "confidence": "medium",
+            "containment": "This is surprising because فارتقبهم grammatically directs the addressee to watch them, not the camel; it remains valid as a secondary echo because the cited ر ق ب branch itself pictures a she-camel waiting back from crowded water and 54:28 immediately specifies attended water shares. Render it as reciprocal scene resonance, never as a reassignment of the verb's object.",
+            "focus_anchor": "الناقة and فارتقبهم activate a ر ق ب branch whose image itself joins a she-camel, waiting, crowding, and water.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ن و ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001567",
+                "branch_id": "B002",
+                "role": "The literal she-camel anchors the branch image to the focus animal."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر ق ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000584",
+                "branch_id": "B009",
+                "role": "A she-camel waiting for other camels to leave water, or holding back under crowding, supplies an internal water-access scene."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Assigned shares give the camel's waiting image a regulated allocation setting."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "A water share makes the waiting specifically about access by turns."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ح ض ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000333",
+                "branch_id": "B001",
+                "role": "Presence and witnessing place each water turn under a public gaze."
+              }
+            ],
+            "changed_reading": {
+              "before": "The addressee watches the group while the camel is a passive object of their test.",
+              "after": "A triangular scene emerges: the addressee watches the group, while the camel's own water-side waiting embodies the same restraint and exposes how the group handles crowded access."
+            }
+          },
+          {
+            "outlier_id": "outlier_milk_flow_economy",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the focus names no milk or yield; it remains anchored in the sending root's camel-associated milk-flow branch, the explicit she-camel, and the next verse's divided water. Render only as a possible reciprocity echo: the animal may figure both recurring demand and recurring provision, not as a claim that milk is narrated here.",
+            "focus_anchor": "مُرْسِلُوا and الناقة permit the ر س ل branch of milk and recurring yield to meet the animal's water demand.",
+            "activation_trace": [
+              {
+                "source_ref": "54:27",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B006",
+                "role": "Milk and continuing yield supply a recurring provision stream latent in the sending root."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ن و ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001567",
+                "branch_id": "B002",
+                "role": "The literal she-camel gives the milk-flow branch a concrete animal anchor."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Watering supplies the recurring input demanded by the living carrier."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Allocation supplies the social rule governing that input stream."
+              }
+            ],
+            "changed_reading": {
+              "before": "The camel is only a consumer competing for scarce water.",
+              "after": "Exploratorily, the test may stage reciprocity around a living carrier with recurring input and possible recurring yield, making refusal a failure to sustain exchange rather than scarcity alone."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The water-share sequence revises the camel into a common-pool compliance assay whose turns must be publicly supervised.",
+            "Tomorrow, then watch and endure, makes patience a bounded evidentiary hold rather than indefinite passivity.",
+            "The group's call to one companion reveals distributed agency, so watching them tracks collective authorization behind a singular act.",
+            "Repeated sending frames the camel as a diagnostic living carrier before the later compressed destructive signal."
+          ],
+          "what_was_special": "The tightest latent activation was the convergence of الناقة, فارتقبهم, the ر ق ب branch picturing a she-camel waiting at crowded water, and 54:28's apportioned attended drinking turns; it produces a reciprocal-watching scene without changing the plural object grammar.",
+          "remaining_uncertainties": [
+            "The contrast between diagnostic and destructive sendings may be a compositional parallel rather than a staged causal continuum.",
+            "The group's call may associate it with the actor without proving full delegation or authorization.",
+            "The milk-flow economy is a lexical resonance only; no milk or yield is explicit in the packet's ayah text."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **The she-camel establishes an observational assay.** `ر س ل` B001 is sending forth, `ن و ق` B002 the she-camel, `ف ت ن` B001 assaying by trial and B004 ordeal, `ر ق ب` B001 watching with expectant waiting, and `ص ب ر` B001 self-restraint from panic. The commands to watch and restrain follow the test-object’s dispatch. The packet supplies object, trial, observation, and restraint; I infer a protocol in which character becomes visible only if the observer does not intervene prematurely. The ayah reads as a controlled social test, not merely the arrival of a marvel.\n\n2. **The trial can reveal and burn.** `ف ت ن` B001 preserves assay, while B002 is burning by fire and B003 turning from the right path. The next actions show the community’s latent disposition becoming overt. I infer that “trial” can name both discriminating exposure and the destructive process triggered by failed response. These readings coexist because the same event tests before it afflicts.",
@@ -4890,18 +5660,23 @@
   "root_lexicon": {
     "root_000563": {
       "root_ar": "ر س ل",
+      "qac_roots_ar": [
+        "ر س ل"
+      ],
       "root_id": "root_000563",
-      "root_mapping": {
-        "root_id": "root_000563",
-        "root_norm": "ر س ل",
-        "source_root_norm": "ر س ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 505,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر س ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 505
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "74b9e1fa6006c7eb411428c8961ef30679db99390f9a1d7d529f4aa62e5b2556",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8376,18 +9151,23 @@
     },
     "root_001567": {
       "root_ar": "ن و ق",
+      "qac_roots_ar": [
+        "ن و ق"
+      ],
       "root_id": "root_001567",
-      "root_mapping": {
-        "root_id": "root_001567",
-        "root_norm": "ن و ق",
-        "source_root_norm": "ن و ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 4,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن و ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4bde2bf3beb5636a7c925cdf4a65cbfd859504d1e649c5344bcab7e53fb74f7b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9444,18 +10224,23 @@
     },
     "root_001128": {
       "root_ar": "ف ت ن",
+      "qac_roots_ar": [
+        "ف ت ن"
+      ],
       "root_id": "root_001128",
-      "root_mapping": {
-        "root_id": "root_001128",
-        "root_norm": "ف ت ن",
-        "source_root_norm": "ف ت ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 49,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف ت ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 49
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3281de8601e4fee470443006c5c65dbd5c80d7851f810a31ac6443857a065a0e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11537,18 +12322,23 @@
     },
     "root_000584": {
       "root_ar": "ر ق ب",
+      "qac_roots_ar": [
+        "ر ق ب"
+      ],
       "root_id": "root_000584",
-      "root_mapping": {
-        "root_id": "root_000584",
-        "root_norm": "ر ق ب",
-        "source_root_norm": "ر ق ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 22,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ق ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 22
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f822046adfa3c116eb03665659358d0c00272657ba11286286f059008d4976bb",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15394,18 +16184,23 @@
     },
     "root_000840": {
       "root_ar": "ص ب ر",
+      "qac_roots_ar": [
+        "ص ب ر"
+      ],
       "root_id": "root_000840",
-      "root_mapping": {
-        "root_id": "root_000840",
-        "root_norm": "ص ب ر",
-        "source_root_norm": "ص ب ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 103,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ب ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 103
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7bf30ae198d0e772af33c9eb9b68029c16f017fbf1d86d1b4d333c167a2ab670",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -19872,27 +20667,23 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
       "words_total": 10,
-      "words_resolved": 8,
-      "words_unresolved": 2,
-      "unresolved": [
-        {
-          "word_index": 8,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 9,
-          "surface_ar": "ٱصْطَبِرْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        }
-      ],
+      "words_resolved": 10,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 9,
+        "1": 1
+      },
+      "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -20199,11 +20990,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_27.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_27.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 105590,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -20280,19 +21084,37 @@
           "root_ids": [
             "root_000563"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر س ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000563",
+            "targets": [
+              {
+                "qac_root_norm": "ر س ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000563",
+                "furuq_root_norm": "ر س ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 505,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000563",
-              "root_norm": "ر س ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر س ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 505,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20317,19 +21139,37 @@
           "root_ids": [
             "root_001567"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن و ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001567",
+            "targets": [
+              {
+                "qac_root_norm": "ن و ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_001567",
+                "furuq_root_norm": "ن و ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 4,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001567",
-              "root_norm": "ن و ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن و ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 4,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20354,19 +21194,37 @@
           "root_ids": [
             "root_001128"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف ت ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001128",
+            "targets": [
+              {
+                "qac_root_norm": "ف ت ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001128",
+                "furuq_root_norm": "ف ت ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 49,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001128",
-              "root_norm": "ف ت ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف ت ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 49,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20391,19 +21249,37 @@
           "root_ids": [
             "root_000584"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر ق ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000584",
+            "targets": [
+              {
+                "qac_root_norm": "ر ق ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000584",
+                "furuq_root_norm": "ر ق ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 22,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000584",
-              "root_norm": "ر ق ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر ق ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 22,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 15,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20428,19 +21304,37 @@
           "root_ids": [
             "root_000840"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ب ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000840",
+            "targets": [
+              {
+                "qac_root_norm": "ص ب ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000840",
+                "furuq_root_norm": "ص ب ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 103,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000840",
-              "root_norm": "ص ب ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ب ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 103,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 18,
+              "gloss_branch_count": 18,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -20467,10 +21361,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 59,
+        "dictionary_branches_kept": 59,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 53,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

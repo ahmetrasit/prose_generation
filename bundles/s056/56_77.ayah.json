@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:36.954446+00:00",
+  "generated_at": "2026-08-04T22:30:01.755623+00:00",
   "surah": 56,
   "ayah": 77,
   "ayahRef": "56:77",
@@ -1600,7 +1600,8 @@
         "m-w-s056-a077-w001-01",
         "m-w-s056-a077-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:77:1"
+      "aligned_qac_word_ref_upstream": "56:77:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1614,7 +1615,8 @@
       "morpheme_ids": [
         "m-w-s056-a077-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:77:2"
+      "aligned_qac_word_ref_upstream": "56:77:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1628,7 +1630,8 @@
       "morpheme_ids": [
         "m-w-s056-a077-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:77:3"
+      "aligned_qac_word_ref_upstream": "56:77:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1642,7 +1645,8 @@
       "morpheme_ids": [
         "m-w-s056-a077-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:77:4"
+      "aligned_qac_word_ref_upstream": "56:77:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2121,7 +2125,930 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_77.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:77",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:77",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_recited_intrinsic_honor",
+            "confidence": "strong",
+            "focus_anchor": "قُرْءَانٌ as reading or recitation, modified by كَرِيمٌ as intrinsically honorable and generously praiseworthy, within the emphatic إِنَّهُ لَ construction.",
+            "mechanism": "The named object is an address enacted in reading and recitation; its adjective gives that address an honorable and beneficent character that does not depend on the audience granting it prestige.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading, recitation, and teaching supply the voiced or textual mode of the asserted object."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor, generosity, and every praiseworthy quality supply the recitation's intrinsic character."
+              }
+            ],
+            "changed_reading": {
+              "before": "The clause merely labels the object an important scripture.",
+              "after": "The emphatic clause identifies it as an address for reading and recitation whose own mode is honorable and giving, whether or not its hearers honor it."
+            }
+          },
+          {
+            "model_id": "baseline_gathered_bounty",
+            "confidence": "medium",
+            "focus_anchor": "قُرْءَانٌ through the gathering branch of ق ر ء and كَرِيمٌ through the productive rain, soil, and growth branch of ك ر م.",
+            "mechanism": "Gathering makes the Qur'an a collected and collecting whole, while productive generosity makes that whole yield more than a static store: its assembled form is capable of giving growth.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering and joining supply both the composition of the whole and its power to collect dispersed elements."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B002",
+                "role": "Good rain, fertile soil, and abundant growth turn generosity into productive yield rather than rank alone."
+              }
+            ],
+            "changed_reading": {
+              "before": "Qur'an functions only as a proper name and karim only as a status adjective.",
+              "after": "The name can foreground an assembled whole whose nobility is fecund: it gathers and, like good rain or soil, enables further growth."
+            }
+          },
+          {
+            "model_id": "baseline_strung_order",
+            "confidence": "exploratory",
+            "focus_anchor": "The gathering image of قُرْءَانٌ is paired with the branch-distant necklace image in ك ر م.",
+            "mechanism": "Collected units can be imagined as strung into a valued sequence. On this formal model, nobility arises not only from each unit but from the ordered relation that holds the units together.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering supplies the operation that binds multiple units into one composition."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B003",
+                "role": "A necklace strung around the neck supplies an exploratory image of valuable units held in ordered relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Nobility is an undifferentiated prestige attached to the whole.",
+              "after": "Nobility can also be heard formally: the gathered discourse is precious because its units are held in a deliberate, inspectable order."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_constellated_composition",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق س م",
+              "و ق ع",
+              "ن ج م",
+              "ك ت ب",
+              "ك ن ن"
+            ],
+            "mechanism": "Division and plural stellar locations distribute units; stars make those units discrete and visible; written ordering regathers them into a concealed book. The focus gathering and necklace branches are therefore revised into a constellation-like composition whose honor lies in positioned, connected marks.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering supplies the compositional operation that can regather spatially distributed units."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B003",
+                "role": "The strung necklace supplies a form-distant image of valuable points held in sequence."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Allotting and dividing a thing into shares supplies dispersion before the focus act of gathering."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B011",
+                "role": "A written signature and its trace let location also suggest a fixed, consequential mark."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ن ج م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001475",
+                "branch_id": "B001",
+                "role": "Rising stars supply discrete luminous units occupying the plural locations."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Ordered letters and the written object regather the distributed marks as text."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment makes the ordered composition valuable enough to be covered and preserved."
+              }
+            ],
+            "structural_cues": [
+              "56:75 places plural stellar locations immediately before the singular Qur'an assertion at 56:77.",
+              "56:78 places the asserted Qur'an inside a book and qualifies the container as concealed.",
+              "56:76 and 56:77 repeat إِنَّهُ and emphatic لَ, tightly linking the oath frame to the focus assertion."
+            ],
+            "reader_inference": "The packet supplies division, stellar locations, fixed written traces, ordered letters, and concealment; I supply the analogy that textual units are distributed like stars and regathered like a necklace. A live alternative is that the celestial oath only warrants importance and says nothing about composition.",
+            "changed_reading": {
+              "before": "The Qur'an is a valuable sequence, loosely imagined as units strung together.",
+              "after": "It is a constellated composition: dispersed, positioned signs are gathered into an ordered and protected whole, and that exact relational order is part of its karim quality."
+            }
+          },
+          {
+            "model_id": "delta_descended_nourishment",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ز ل",
+              "ر ب ب",
+              "ج ع ل",
+              "ر ز ق",
+              "ك ذ ب"
+            ],
+            "mechanism": "Delivery from a nurturing and completing lord activates karim as good rain and fertile yield. The next movement calls the response a made provision and then names denial, creating a reversal in which delivered nourishment can be converted by its recipients into rejection.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering supplies the coherent whole that is delivered rather than an unconnected shower of items."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B002",
+                "role": "Good rain and fertile soil supply a literal branch image of productive generosity."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Causing something to descend and reach its recipient supplies the delivery path for the gathered bounty."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing, repairing, and completing supply the source-side purpose of the descent."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making one thing into a state supplies the recipient-side conversion that drives the reversal."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "Rain descending as provision directly reinforces the fertile-rain branch of karim."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the damaged output produced when provision is converted into denial."
+              }
+            ],
+            "structural_cues": [
+              "The nominal تَنزِيلٌ at 56:80 follows the Qur'an, book, and touch sequence without introducing a competing named object.",
+              "56:81 points back with this discourse before 56:82 coordinates making, provision, and denial.",
+              "The sequence moves from source and delivery at 56:80 to human handling at 56:81-82."
+            ],
+            "reader_inference": "The packet supplies descent, nurture, rain-provision, conversion, and denial; I infer that the descended Qur'an functions as nourishment and that denial is a perverse conversion of its gift. A live alternative is that provision at 56:82 denotes gratitude or sustenance broadly rather than the discourse itself.",
+            "changed_reading": {
+              "before": "Karim gives the gathered Qur'an a static metaphor of fertility.",
+              "after": "Karim names productive provision in transit: a gathered discourse descends to nurture and complete, while its audience remains capable of converting that nourishment into denial."
+            }
+          },
+          {
+            "model_id": "delta_integrity_against_oiling",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح د ث",
+              "د ه ن"
+            ],
+            "mechanism": "The recitation is redescribed as speech renewed in telling, then confronted by oiling and soft accommodation. Its karim honor is therefore not decorative sheen or diplomatic smoothness; generosity can preserve the address's integrity rather than making it frictionless.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and recitation supply the address that is encountered as renewed speech."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Praiseworthy honor and generosity supply an ethical quality that can be contrasted with merely smooth treatment."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech that becomes new again as report makes the recitation a present event, not only a stored object."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B001",
+                "role": "Oil and surface coating supply the material image of giving the discourse an altered sheen."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "Soft accommodation and ingratiating treatment supply the social mechanism of smoothing away resistance."
+              }
+            ],
+            "structural_cues": [
+              "56:81 uses a demonstrative for this discourse and immediately addresses the audience with a participial characterization.",
+              "The discourse designation follows directly after the source statement at 56:80.",
+              "The question form turns a property of the audience into a test of how the asserted karim discourse is handled."
+            ],
+            "reader_inference": "The packet supplies renewed speech, literal oil, and conciliatory softness; I infer that the question contrasts the Qur'an's honorable generosity with cosmetic or diplomatic smoothing. A live alternative is that the participle denotes negligence or dissimulation without activating the material coating image.",
+            "changed_reading": {
+              "before": "A noble recitation deserves respectful reception.",
+              "after": "The recitation's nobility includes unslickened integrity: it renews itself as speech, and treating it as a surface to oil or a claim to soften changes rather than honors its gift."
+            }
+          },
+          {
+            "model_id": "delta_deathbed_verification",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ب ل غ",
+              "ح ل ق",
+              "ن ظ ر",
+              "ق ر ب",
+              "ب ص ر",
+              "ر ج ع",
+              "ص د ق"
+            ],
+            "mechanism": "The discourse's claim is followed by a boundary scene: something reaches the throat, observers direct their sight but cannot perceive a nearer agency, and their ability to return what is departing becomes the test of truthful action. The noble recitation thus moves from prestigious object to an address tested where speech, sight, and control fail.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies the voiced claim whose force is tested at the bodily limit of voicing."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Intrinsic honor supplies a dignity capable of surviving the audience's loss of mastery."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Reaching an endpoint establishes the scene as a terminal boundary rather than an abstract claim."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ح ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000350",
+                "branch_id": "B001",
+                "role": "The throat as passage for breath and food localizes the boundary at the channel also used by recitation."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight or insight supplies the observers' attempted mode of knowing."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness supplies an agency more immediate than the observers despite remaining inaccessible to their sight."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Ordinary eyesight supplies the human capacity explicitly shown to be insufficient."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Returning something to its former state supplies the demanded demonstration of control."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Making a claim true in deed converts verbal truthfulness into an empirical challenge."
+              }
+            ],
+            "structural_cues": [
+              "56:83-87 forms one conditional challenge moving from reaching the throat to observation, hidden nearness, and attempted return.",
+              "The throat scene follows the audience's denial at 56:82, so it functions as a test rather than an unrelated description.",
+              "The repeated if you construction at 56:86-87 frames the scene as verification of a claim."
+            ],
+            "reader_inference": "The packet supplies a reached throat, observers, unseen nearness, demanded return, and truth verified by action; I infer that adjacency makes this a limit-test for the preceding Qur'anic assertion. A live alternative is that the passage changes subject completely and confirms the assertion only generally, without activating recitation through the throat.",
+            "changed_reading": {
+              "before": "Karim mainly describes the recitation's literary or sacred status.",
+              "after": "Karim also describes an address whose dignity and truth remain operative at the precise boundary where human voice, vision, and power to reverse events cease."
+            }
+          },
+          {
+            "model_id": "delta_recited_salutation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س ل م",
+              "ص ح ب",
+              "ي م ن"
+            ],
+            "mechanism": "A focus branch in which peace is read or conveyed is activated by the later direct salutation. The karim branch of an answer expressing pleasure and honor makes the discourse reciprocal: it can greet, answer, and establish blessed companionship rather than only transmit propositions.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B007",
+                "role": "Reading or conveying peace supplies a latent speech-act within the focus noun."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B009",
+                "role": "A response of pleasure and honor supplies the reciprocal tone of the karim address."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety and freedom from harm give the direct salutation its promised relational content."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and abiding association identify a community within which the greeting circulates."
+              },
+              {
+                "source_ref": "56:91",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing and good fortune qualify the side or company receiving the salutation."
+              }
+            ],
+            "structural_cues": [
+              "56:91 uses the direct relational formula peace to you rather than a detached report about peace.",
+              "The salutation is explicitly sourced from companions, making speech and social relation inseparable.",
+              "The formula occurs inside the sequence that differentiates the outcomes of distinct groups."
+            ],
+            "reader_inference": "The packet supplies a q-r-ʾ branch for conveying peace, a karim response formula, and an actual greeting among blessed companions; I infer that the noble Qur'an can be modeled as a reciprocal salutation. A live alternative is that the two focus branches are lexicographic neighbors with no active force in the noun and adjective here.",
+            "changed_reading": {
+              "before": "The Qur'an is a one-way noble proclamation.",
+              "after": "One live branch makes it a noble salutation: a recited address that can confer safety, receive an honorable answer, and place the addressee within a blessed companionship."
+            }
+          },
+          {
+            "model_id": "delta_inverted_hospitality",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ز ل",
+              "ح م م",
+              "ص ل ي",
+              "ج ح م"
+            ],
+            "mechanism": "Karim generosity meets nuzul as provisions prepared for a guest, but the offered substance is hot water followed by exposure to blazing fire. This produces an inverted hospitality model: the generous address discloses a reception whose form resembles hosting while its content answers denial.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies the address that announces and thereby offers the contrasting receptions."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Generosity and honor establish the host-like norm against which the later provision is reversed."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared provisions for one who arrives supply the literal hospitality frame."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water supplies the hostile content placed inside the hospitality form."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Encountering fire and its heat extends the offered reception into bodily exposure."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B001",
+                "role": "The alternate mapped root independently preserves direct contact with fire as the operative result."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ج ح م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000225",
+                "branch_id": "B001",
+                "role": "Blazing intensity supplies the terminal condition of the inverted reception."
+              }
+            ],
+            "structural_cues": [
+              "56:92 first identifies the denying and straying group, so 56:93-94 reads as their assigned reception.",
+              "56:93-94 uses two compact nominal provisions rather than narrating an accidental encounter.",
+              "The same ن ز ل root previously described delivery of the Qur'an at 56:80, linking two sharply different kinds of arrival and provision."
+            ],
+            "reader_inference": "The packet supplies karim generosity, guest-provision, hot water, and fire exposure; I infer a deliberate inversion of hospitality that makes reception answer the handling of the address. A live alternative is that nuzul means prepared provision without retaining a social hosting image.",
+            "changed_reading": {
+              "before": "The noble Qur'an generously addresses all hearers in the same way.",
+              "after": "Its generosity also exposes a severe asymmetry of reception: the discourse is a noble offer, yet persistent denial culminates in a grim parody of the hospitality normally associated with karim."
+            }
+          },
+          {
+            "model_id": "delta_woven_certainty_and_response",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق س م",
+              "ح ق ق",
+              "ي ق ن",
+              "س ب ح"
+            ],
+            "mechanism": "The focus assertion is framed by an oath before it and by fixed truth, certainty, and a purifying imperative after it. A branch of haqq describing tightly made speech strengthens the exploratory necklace model: ordered composition becomes an epistemic fabric that leads from sworn assertion to settled knowledge and responsive praise.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Recitation supplies the verbal fabric whose truth is asserted, heard, and answered."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B003",
+                "role": "The necklace image supplies the exploratory formal model of connected units whose order carries value."
+              },
+              {
+                "source_ref": "56:76",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "An oath apportioned to its hearers supplies the opening act that binds the assertion to accountability."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B010",
+                "role": "Tight, well-made weaving in speech supplies formal integrity to the truth claim."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge with doubt removed supplies the epistemic endpoint of the framed recitation."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Purifying and declaring free of defect supply the commanded response produced by certainty."
+              }
+            ],
+            "structural_cues": [
+              "A great oath at 56:76 immediately precedes the focus assertion.",
+              "Truth of certainty at 56:95 echoes the focus's emphatic syntax near the end of the unit.",
+              "The imperative at 56:96 converts the preceding assertions and outcomes into a demanded verbal response."
+            ],
+            "reader_inference": "The packet supplies oath, tightly made true speech, certainty, and purification; I infer that these form an envelope around the focus and turn its ordered beauty into epistemic and performative force. A live alternative is that 56:95 certifies only the outcome sequence, while the final imperative responds to that sequence rather than to the Qur'an's composition.",
+            "changed_reading": {
+              "before": "The strung-order model makes the Qur'an precious mainly as an aesthetic composition.",
+              "after": "Its ordered verbal fabric carries a trajectory: sworn assertion becomes doubt-free recognition and then an uttered act of purification, so formal nobility also performs epistemic work."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_cycle_gated_contact",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the menstrual-period branch of q-r-a is remote from the ordinary noun Qur'an. It remains anchored because the focus inventory explicitly supplies that branch and the immediate context adds protective concealment, touch, and purification from menstruation. Downstream prose should present it only as a phase-and-threshold analogy, not as the lexical meaning of Qur'an and not as a legal ruling.",
+            "focus_anchor": "قُرْءَانٌ through the q-r-a branch for menstrual or purity intervals, with كَرِيمٌ as something dear enough to protect.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B003",
+                "role": "Alternation among menstruation, purity, and the interval between them supplies a temporally gated threshold."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B010",
+                "role": "The dear or cherished thing supplies the value that motivates guarded approach."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective covering supplies the closed phase of the threshold mechanism."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Direct touch supplies the crossing event whose conditions are being regulated."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B002",
+                "role": "Purity after menstruation supplies the phase change that permits movement across the threshold."
+              }
+            ],
+            "changed_reading": {
+              "before": "The noble Qur'an is a continuously available object whose protection is merely spatial.",
+              "after": "As an exploratory analogy, it is an honored reading approached through phases: concealment, purification, and contact form a regulated temporal threshold rather than a permanently open surface."
+            }
+          },
+          {
+            "outlier_id": "outlier_gestational_delivery",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it connects reproductive branch images across q-r-a, touch, and descent. It remains valid as a material analogy because the focus root explicitly includes a womb gathering a pregnancy, while the following verses supply concealment, sexual contact, seminal descent, and nurture. Downstream prose must mark it as a branch-activated model of containment and delivery, never as a claim that the contextual nouns literally denote reproduction.",
+            "focus_anchor": "قُرْءَانٌ through the branch in which a womb gathers what it carries, joined to the fertile-growth branch of كَرِيمٌ.",
+            "activation_trace": [
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B004",
+                "role": "A womb gathering blood or a fetus supplies the core image of contained formation."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B002",
+                "role": "Fertile soil, rain, and abundant growth supply the generative quality of what is carried."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "A preserving cover supplies the protected interior in which formation can occur."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B002",
+                "role": "Sexual contact supplies a branch-level initiating relation within the reproductive analogy."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B009",
+                "role": "Seminal discharge supplies a form-distant material image of generative descent."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurturing and bringing to completion supply the directional movement from containment toward mature delivery."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Qur'an is a completed artifact placed inside a protective container.",
+              "after": "As a contained material analogy, it is a cherished generative carrier: assembled content forms under protection, is nurtured toward completion, and comes forth by descent."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Plural stellar locations and written concealment revised gathering into a constellated, ordered composition.",
+            "Descent, nurture, and rain-provision strongly activated karim as productive nourishment that recipients can convert into denial.",
+            "The later salutation activated a latent q-r-a branch in which the noble recitation greets and receives an honorable answer.",
+            "The deathbed sequence turned the assertion from prestige language into a claim tested where voice, sight, and human control fail.",
+            "Prepared guest-provision followed by heat produced a live inversion of karim hospitality."
+          ],
+          "what_was_special": "Because the focus is only an emphatic noun-adjective assertion, context did not merely disambiguate it; it supplied mechanisms that spatialized gathering, materialized generosity as nourishment, made recitation reciprocal as greeting, and exposed contained reproductive analogies that a conservative reading would likely suppress.",
+          "remaining_uncertainties": [
+            "The analogy between stellar placements and textual marks may be compositional activation or only an external oath of warrant.",
+            "Provision at 56:82 may refer directly to the descended discourse, to gratitude for provision, or to sustenance more broadly.",
+            "The throat sequence may actively recast recitation or may simply change subject and verify the prior assertion at a distance.",
+            "The cyclic and gestational readings are deliberately contained branch analogies; their lexical force in قُرْءَانٌ remains uncertain.",
+            "Nuzul at 56:93 may retain social hospitality or may mean prepared provision without a host-guest relation."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Gathered speech of high value.** `ق ر ء` **B001** has two accepted variants; the **“gathering speech into recitation”** variant is operative here, alongside its broader “collecting and gathering” image. `ك ر م` **B010** supplies a dear or highly valued thing and **B001** nobility. **Abductive move:** I infer that dispersed signs and arguments are collected into recitable coherence. **Reading change:** the Qur'an’s value lies partly in its gathering function.\n\n2. **Recitation as an appointed patterned course.** `ق ر ء` **B002** has “reading and reciting” and “appointed time or cycle” variants; the noun directly anchors the recitation variant, while the immediately preceding stellar positions activate the cycle variant secondarily. `ق ر ء` **B011** adds manner, pattern, and directed course. **Abductive move:** I infer a coexisting patterned-temporal resonance rather than merging the variants. **Reading change:** the recitation can be heard as ordered recurrence.",
@@ -3055,18 +3982,23 @@
   "root_lexicon": {
     "root_001210": {
       "root_ar": "ق ر ء",
+      "qac_roots_ar": [
+        "ق ر ء"
+      ],
       "root_id": "root_001210",
-      "root_mapping": {
-        "root_id": "root_001210",
-        "root_norm": "ق ر ء",
-        "source_root_norm": "ق ر ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ر ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -3074,18 +4006,23 @@
     },
     "root_001294": {
       "root_ar": "ك ر م",
+      "qac_roots_ar": [
+        "ك ر م"
+      ],
       "root_id": "root_001294",
-      "root_mapping": {
-        "root_id": "root_001294",
-        "root_norm": "ك ر م",
-        "source_root_norm": "ك ر م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 44,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ر م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 44
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "35b943bd25cc8008c8ec0e7760762311bb88da3f7295026a6219c808d5e8c0c5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6056,14 +6993,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6316,11 +7259,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_77.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_77.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 92653,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6393,19 +7349,37 @@
           "root_ids": [
             "root_001210"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ر ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001210",
+            "targets": [
+              {
+                "qac_root_norm": "ق ر ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_001210",
+                "furuq_root_norm": "ق ر ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001210",
-              "root_norm": "ق ر ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ر ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 28,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -6417,19 +7391,37 @@
           "root_ids": [
             "root_001294"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ر م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001294",
+            "targets": [
+              {
+                "qac_root_norm": "ك ر م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001294",
+                "furuq_root_norm": "ك ر م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 44,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001294",
-              "root_norm": "ك ر م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ر م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 44,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6456,10 +7448,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 10,
+        "dictionary_branches_kept": 10,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 10,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

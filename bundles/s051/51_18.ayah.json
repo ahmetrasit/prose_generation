@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.022867+00:00",
+  "generated_at": "2026-08-04T22:29:45.824738+00:00",
   "surah": 51,
   "ayah": 18,
   "ayahRef": "51:18",
@@ -1441,7 +1441,8 @@
       "morpheme_ids": [
         "m-w-s051-a018-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:18:1"
+      "aligned_qac_word_ref_upstream": "51:18:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1455,7 +1456,8 @@
       "morpheme_ids": [
         "m-w-s051-a018-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:18:2"
+      "aligned_qac_word_ref_upstream": "51:18:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1471,7 +1473,8 @@
         "m-w-s051-a018-w001-03",
         "m-w-s051-a018-w001-04"
       ],
-      "aligned_qac_word_ref_upstream": "51:18:3"
+      "aligned_qac_word_ref_upstream": "51:18:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1485,7 +1488,8 @@
       "morpheme_ids": [
         "m-w-s051-a018-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:18:4"
+      "aligned_qac_word_ref_upstream": "51:18:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1501,7 +1505,8 @@
         "m-w-s051-a018-w003-01",
         "m-w-s051-a018-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:18:5"
+      "aligned_qac_word_ref_upstream": "51:18:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1860,7 +1865,875 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_18.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:18",
+      "window": [
+        "51:1",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "51:9",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:15",
+        "51:16",
+        "51:17",
+        "51:18",
+        "51:19",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:18",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_dawn_protective_cover",
+            "confidence": "strong",
+            "focus_anchor": "Word 1 fixes the last-night interval, while word 3 is the repeated seeking act.",
+            "mechanism": "At the night's final exposed interval, the subjects repeatedly seek a covering that does not merely hide fault but protects them from its continuing effect.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The final portion of night supplies the recurring temporal threshold for the act."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Covering fault while preserving its bearer from consequence supplies the sought result."
+              }
+            ],
+            "changed_reading": {
+              "before": "They ask pardon during a late-night time.",
+              "after": "They repeatedly use the night's last threshold for exposed self-accounting and seek protection from the afterlife of their faults."
+            }
+          },
+          {
+            "model_id": "base_threshold_crossing",
+            "confidence": "medium",
+            "focus_anchor": "Word 1 can activate an edge where light overtakes darkness; word 3 can activate a preserving cover.",
+            "mechanism": "Edge and cover form a passage mechanism: as one temporal register yields to another, the subjects seek a cover fit for crossing rather than a concealment that arrests disclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B008",
+                "role": "An extremity and the whitening over darkness turn the time noun into a spatially visible boundary."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "A preserving cover supplies what can carry the exposed subject across that boundary."
+              }
+            ],
+            "changed_reading": {
+              "before": "Dawn is only the clock-time of a petition.",
+              "after": "Dawn is a crossing edge, and forgiveness is the protective covering requested for passage into disclosure."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx_burden_processing",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ذ ر و",
+              "ح م ل",
+              "و ق ر",
+              "ج ر ي",
+              "ي س ر",
+              "ق س م"
+            ],
+            "mechanism": "The opening ordered operations activate a logistics model for the focus: accumulated moral load is separated, acknowledged as weight, moved toward release, and apportioned under a protective petition at dawn.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Protection from a fault's consequence anchors the transported load in the focus rather than in the context alone."
+              },
+              {
+                "source_ref": "51:1",
+                "root": "ذ ر و",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000513",
+                "branch_id": "B004",
+                "role": "Wind-driven separation supplies the first operation, disaggregating what had accumulated."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Bearing an entrusted burden or culpable load identifies what must be processed."
+              },
+              {
+                "source_ref": "51:2",
+                "root": "و ق ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001674",
+                "branch_id": "B002",
+                "role": "Literal heaviness gives the acknowledged burden material resistance."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ج ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000240",
+                "branch_id": "B001",
+                "role": "Flow supplies movement instead of leaving the burden fixed in place."
+              },
+              {
+                "source_ref": "51:3",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening into ease supplies the direction of the movement toward release."
+              },
+              {
+                "source_ref": "51:4",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Apportionment supplies the terminal operation by which an undifferentiated load is put in order."
+              }
+            ],
+            "structural_cues": [
+              "51:1-4 presents a four-step ordered sequence: dispersal, weighted carriage, easy motion, then apportionment.",
+              "The focus locates its repeated seeking act in a recurring interval, allowing that sequence to function as a nightly process."
+            ],
+            "reader_inference": "The packet supplies the ordered operations and a focus act concerning fault; I supply the arrow that treats those operations as moral-load processing. A live alternative is that the oath sequence remains cosmological and does not specify the mechanics of seeking forgiveness.",
+            "changed_reading": {
+              "before": "The subjects voice a general plea for pardon.",
+              "after": "Their dawn practice becomes a repeated processing of carried moral weight: separate it, bear it honestly, move it, and submit it for a new apportionment."
+            }
+          },
+          {
+            "model_id": "ctx_pre_settlement",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ع د",
+              "ص د ق",
+              "د ي ن",
+              "و ق ع"
+            ],
+            "mechanism": "Promise, verification, reckoning, and fixity make the temporal edge forensic: the subjects seek protective remission before what has been promised settles into an accomplished account.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The last-night interval supplies the anticipatory moment before the day opens."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Protection from a fault's consequence supplies the requested forensic change."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B001",
+                "role": "A spoken promise that opens expectation supplies the future event toward which the petition faces."
+              },
+              {
+                "source_ref": "51:5",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B004",
+                "role": "Fulfilment in deed removes the option of treating the promise as indefinite rhetoric."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Account and recompense specify the promised event as settlement."
+              },
+              {
+                "source_ref": "51:6",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed make settlement an event that lands rather than a remote abstraction."
+              }
+            ],
+            "structural_cues": [
+              "51:5-6 moves from what is promised, through its truth, to an account declared certain to occur.",
+              "The focus's habitual plural imperfect answers certainty with repeated preparation rather than a single crisis response."
+            ],
+            "reader_inference": "The packet supplies promised fulfilment, account, fixity, and consequence-covering; I infer the arrow from impending settlement to anticipatory dawn petition. The live alternative is that the time marks devotion without functioning as a pre-settlement interval.",
+            "changed_reading": {
+              "before": "Seeking forgiveness is a pious late-night act.",
+              "after": "Seeking forgiveness is disciplined preparation before an account that is already on its way to becoming fixed."
+            }
+          },
+          {
+            "model_id": "ctx_epistemic_unturning",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "خ ل ف",
+              "ء ف ك"
+            ],
+            "mechanism": "Divergent commitments and repeated inversion activate the deceptive-turning branch of the focus time-root as an overlay. The petition then seeks release not only from misconduct but from the distortions by which the self makes misconduct appear otherwise.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B002",
+                "role": "Deceptive redirection supplies an epistemic overlay on the otherwise temporal focus anchor."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Seeking protection from fault anchors the unturning in the focus act."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Speech as held doctrine makes divergence a matter of orientation, not sound alone."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Taking mutually different paths supplies the split trajectories produced by divergent commitments."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Repeated turning away from a proper face supplies the reversible distortion the petition addresses."
+              }
+            ],
+            "structural_cues": [
+              "51:8 places the audience inside divergent speech rather than merely reporting separate statements.",
+              "51:9 repeats one inversion root around the object from which a person is turned."
+            ],
+            "reader_inference": "The packet supplies divergent doctrinal paths, inversion, and a deceptive branch under the focus root; I treat that branch as a diagnostic overlay, not as a replacement translation for the dawn noun. A live alternative confines the focus root to time and reads the epistemic context only as contrast.",
+            "changed_reading": {
+              "before": "They ask protection from acknowledged moral faults.",
+              "after": "They also ask to be unturned from the deceptive framings that keep faults from being acknowledged as faults."
+            }
+          },
+          {
+            "model_id": "ctx_exchange_of_covers",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ م ر",
+              "س ه و",
+              "ف ت ن"
+            ],
+            "mechanism": "The context distinguishes two covers by function: one engulfs perception into heedlessness and leaves the subject exposed to assay, while the focus seeks a cover that preserves after awakened admission. The action is therefore an exchange of covers, not a wish to remain unseen.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "A cover that protects and preserves supplies the desired covering function."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B001",
+                "role": "An engulfing mass that covers supplies the rival covering function."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "غ م ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001105",
+                "branch_id": "B003",
+                "role": "A veil of falsehood and ignorance explains how the rival cover disables recognition."
+              },
+              {
+                "source_ref": "51:11",
+                "root": "س ه و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_003249",
+                "branch_id": "B001",
+                "role": "Heart-level inattention supplies the disabled state produced under engulfment."
+              },
+              {
+                "source_ref": "51:13",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying a person as metal supplies the disclosure event against which a merely concealing cover fails."
+              }
+            ],
+            "structural_cues": [
+              "51:11 joins immersion and heedlessness in one description.",
+              "51:13-14 moves from that disabled state to direct exposure and experienced testing before 51:18 presents active seeking."
+            ],
+            "reader_inference": "The packet supplies an engulfing cover, heedlessness, assay, and a preserving cover; I infer an exchange from the first function to the second. The live alternative is a simpler moral contrast with no shared covering mechanism.",
+            "changed_reading": {
+              "before": "Forgiveness covers fault so that the subject is not punished.",
+              "after": "The dawn act leaves the cover of stupefaction and asks for a different cover, one that protects precisely after fault has been brought into view."
+            }
+          },
+          {
+            "model_id": "ctx_excellence_as_discipline",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ي",
+              "ج ن ن",
+              "ح س ن",
+              "ق ل ل",
+              "ل ي ل"
+            ],
+            "mechanism": "Protection, covered cultivation, prior good-doing, reduced sleep, and the night interval form one subject-sequence. Seeking forgiveness is not a late repair by an otherwise negligent group; it is a constitutive rhythm of people already characterized by protection and excellent action.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The final night interval supplies the endpoint of the described nocturnal discipline."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Continued seeking of protection from fault supplies the discipline's apparently paradoxical final act."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Placing the self in protection characterizes the same people by an active protective posture."
+              },
+              {
+                "source_ref": "51:15",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "Cultivated space covered by growth makes protection fruitful rather than merely defensive."
+              },
+              {
+                "source_ref": "51:16",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "Doing what is good establishes that the petitioners are already agents of excellence."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ق ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001251",
+                "branch_id": "B001",
+                "role": "Small quantity constrains sleep and supplies the cost of the discipline."
+              },
+              {
+                "source_ref": "51:17",
+                "root": "ل ي ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001392",
+                "branch_id": "B001",
+                "role": "Night's darkness supplies the larger interval from which the dawn endpoint emerges."
+              }
+            ],
+            "structural_cues": [
+              "Plural reference remains continuous across 51:15-18, culminating in the explicit pronoun of the focus.",
+              "The branchless root ه ج ع in 51:17 is used only as the sleep predicate governed by the little/night construction, not as invented branch evidence."
+            ],
+            "reader_inference": "The packet supplies protected people, prior excellent action, little night sleep, and dawn seeking; I infer that subject continuity makes these one discipline and that seeking is constitutive rather than remedial only. A live alternative treats each virtue as an independent item in a list.",
+            "changed_reading": {
+              "before": "Seeking forgiveness signals that the speakers are chiefly defined by prior wrongdoing.",
+              "after": "Even people already doing good organize the night around renewed need for protection; admission of insufficiency is itself part of excellence."
+            }
+          },
+          {
+            "model_id": "ctx_petition_becomes_due",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ل",
+              "ح ق ق",
+              "س ء ل",
+              "ح ر م"
+            ],
+            "mechanism": "The sequence pivots from the subjects as seekers of protective remission to their property as the site of another's fixed claim. A vertical petition thus activates a horizontal obligation: the one who asks must recognize both the voiced asker and deprivation that may not voice itself.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "The focus act makes the subjects petitioners for relief from an adverse consequence."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "م و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001457",
+                "branch_id": "B001",
+                "role": "Possessed wealth supplies the concrete domain in which their response to another petition is tested."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "A binding entitlement turns generosity from optional sentiment into a due."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "س ء ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000661",
+                "branch_id": "B001",
+                "role": "Request and demand mirror the petitioning posture of the focus at the human level."
+              },
+              {
+                "source_ref": "51:19",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Missing the sought good extends obligation beyond the person who successfully articulates a request."
+              }
+            ],
+            "structural_cues": [
+              "51:18 and 51:19 use adjacent initial locative constructions and retain the same plural possessors.",
+              "The sequence moves immediately from what they seek to what exists within what they own."
+            ],
+            "reader_inference": "The packet supplies petition, property, fixed entitlement, voiced request, and deprivation; I supply the arrow from receiving-seeking to answering others' claims. The live alternative is that private devotion and distributive conduct are adjacent virtues without a causal relation.",
+            "changed_reading": {
+              "before": "Dawn forgiveness is a private relation between petitioners and God.",
+              "after": "Their private request rehearses the posture by which they detect and answer claims on their wealth, including deprivation that does not manage to ask."
+            }
+          },
+          {
+            "model_id": "ctx_inward_sign_reading",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ي ي",
+              "ي ق ن",
+              "ن ف س",
+              "ب ص ر"
+            ],
+            "mechanism": "The movement from signs in the earth to signs within the self turns dawn seeking into an act of perception: the self is read as evidence, fault becomes visible, and protective remission is requested in response to what inward sight discovers.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "Protection from fault anchors inward perception in the focus's requested outcome."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the evidentiary mode of reading."
+              },
+              {
+                "source_ref": "51:20",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Stable knowledge after doubt supplies the possible result of attending to evidence."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B012",
+                "role": "The thing's own self relocates the field of evidence from external terrain to the petitioners themselves."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B002",
+                "role": "Insight of the heart supplies the faculty by which internal signs become morally legible."
+              }
+            ],
+            "structural_cues": [
+              "51:20-21 repeats the same locative frame while moving from earth to selves.",
+              "The rhetorical question about seeing makes failure of perception, not absence of evidence, the pressure point."
+            ],
+            "reader_inference": "The packet supplies external and internal signs, stable knowing, insight, and a focus petition about fault; I infer that dawn stillness is used to read the self as evidence. The live alternative is that the sign sequence concerns cosmological recognition without specifying introspective confession.",
+            "changed_reading": {
+              "before": "The petition is a fixed verbal formula recited at a favored time.",
+              "after": "The petition is the voiced result of inward evidence-gathering: at dawn they see the self more clearly and ask protection from what that sight discloses."
+            }
+          },
+          {
+            "model_id": "ctx_cover_as_received_provision",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ر ز ق",
+              "و ع د",
+              "ح ق ق",
+              "ن ط ق"
+            ],
+            "mechanism": "Provision, promise, established truth, and speech recast forgiveness as received rather than self-produced. The petitioners' utterance becomes an enacted dependence on an apportioned protective gift whose reality exceeds their ability to manufacture it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B002",
+                "role": "The sought protection from fault supplies the gift whose source is at issue."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "An apportioned grant supplies the received-not-manufactured structure."
+              },
+              {
+                "source_ref": "51:22",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B001",
+                "role": "A promise opening expectation makes the requested gift depend on another's pledged action."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality matching truth stabilizes dependence against suspicion that the promise is empty."
+              },
+              {
+                "source_ref": "51:23",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B001",
+                "role": "Ordinary speech supplies the immediate experiential analogue by which that reality is asserted."
+              }
+            ],
+            "structural_cues": [
+              "51:22 locates provision and promise beyond the speakers' possession.",
+              "51:23 grounds the asserted reality by comparison with the speakers' own act of speaking."
+            ],
+            "reader_inference": "The packet supplies apportioned provision, promise, truth, speech, and a sought protective result; I infer that forgiveness participates in the same received-gift structure. A live alternative restricts provision to sustenance and the promise to the announced future without applying either to forgiveness.",
+            "changed_reading": {
+              "before": "Repeated petition is an effort by which the subjects repair themselves.",
+              "after": "Their speech performs dependence: the protection they seek is approached as apportioned provision they can request and receive but cannot manufacture."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_somatic_dawn",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the focus noun's ordinary temporal activation is much nearer than its upper-chest and breathway branch. It remains anchored in the same focus root and gains context support from the self-root's breath and dawn-opening branches. Render it only as a somatic overlay on the dawn reading, never as a replacement lexical translation.",
+            "focus_anchor": "Word 1 has a branch tied to the upper chest and internal breathway, while word 3 supplies a protecting cover.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B001",
+                "role": "The vulnerable upper interior of the body supplies a somatic location for the focus's exposure."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "A preserving cover supplies what the exposed interior seeks."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B001",
+                "role": "Breath emerging from inside the body activates the focus root's chest-and-breathway image."
+              },
+              {
+                "source_ref": "51:21",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B009",
+                "role": "The opening of dawn joins bodily breath to the temporal opening without collapsing one into the other."
+              }
+            ],
+            "changed_reading": {
+              "before": "The act occurs at a time outside the body.",
+              "after": "Exploratorily, dawn seeking is also embodied: the interior opens with breath, acknowledges vulnerability, and asks to be protectively covered."
+            }
+          },
+          {
+            "outlier_id": "outlier_color_reversal",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a color-switching play-object is branch-distant from the plural dawn noun. It remains traceable through the focus root and the context's divergent paths and repeated inversion. Render it only as a mechanical analogy for reorientation, explicitly qualified as exploratory.",
+            "focus_anchor": "Word 1 has a branch in which pulling from opposite sides changes the displayed color; word 3 supplies covering as the requested transformation.",
+            "activation_trace": [
+              {
+                "source_ref": "51:18",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B006",
+                "role": "A side-dependent change of visible color supplies a compact mechanism for reversible appearance."
+              },
+              {
+                "source_ref": "51:18",
+                "root": "غ ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001096",
+                "branch_id": "B001",
+                "role": "Covering the visible surface supplies the focus-side action in the analogy."
+              },
+              {
+                "source_ref": "51:8",
+                "root": "خ ل ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000433",
+                "branch_id": "B004",
+                "role": "Opposed paths supply the two sides from which the self's presentation can be pulled."
+              },
+              {
+                "source_ref": "51:9",
+                "root": "ء ف ك",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000041",
+                "branch_id": "B001",
+                "role": "Turning a thing away from its face supplies the reversal that makes a changed display possible."
+              }
+            ],
+            "changed_reading": {
+              "before": "The petition asks that an unchanged self simply be covered.",
+              "after": "As a contained analogy, the dawn act pulls from the other side of a distorted orientation so that what the self displays can change rather than merely disappear."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Reckoning and fixity turn the dawn petition into anticipatory preparation before settlement.",
+            "Engulfing heedlessness versus preserving forgiveness makes the act an exchange of covers rather than further concealment.",
+            "Continuous reference through protection, prior good-doing, little night sleep, and dawn seeking makes the petition a discipline of excellence.",
+            "The adjacent fixed claim of the asker and deprived converts private petition into a model for recognizing social obligation."
+          ],
+          "what_was_special": "The focus roots form an edge-and-cover mechanism that context repeatedly reactivates through burden, inversion, rival coverings, protection, request, entitlement, inward sight, and received provision. The body and color-switch branches remain live only as explicitly contained overlays.",
+          "remaining_uncertainties": [
+            "The burden-processing sequence in 51:1-4 may be a productive analogy rather than an intended causal model.",
+            "The deceptive, bodily, and color-switch branches of the time-root may be latent overlays with no lexical force in the focus occurrence.",
+            "The arrow from seeking divine protection to answering human claims is inferred from adjacency and parallel structure, not stated.",
+            "Treating forgiveness as provision extends the grant structure of 51:22-23 beyond what those verses explicitly name."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Predawn becomes a recurring shelter-seeking interval.** `س ح ر/B004` supplies the last part of night before morning; `غ ف ر/B002` gives forgiveness as shielding from consequence, with B001 the underlying protective cover. Placed after curtailed sleep and before material right-giving, seeking forgiveness is one phase in a disciplined cycle. I infer **wakeful predawn exposure -> seeking protective pardon**. The act reads as entering cover precisely as night-cover recedes.\n2. **Inner repair precedes social payment.** The sequence 51:18-19 joins forgiveness-seeking to giving a due share. The packet does not state causation; I infer **acknowledged liability -> repaired relation -> recognition of others' claims**. `غ ف ر/B002` performs the repair role within the fixed ayah.",
@@ -2720,18 +3593,23 @@
   "root_lexicon": {
     "root_000682": {
       "root_ar": "س ح ر",
+      "qac_roots_ar": [
+        "س ح ر"
+      ],
       "root_id": "root_000682",
-      "root_mapping": {
-        "root_id": "root_000682",
-        "root_norm": "س ح ر",
-        "source_root_norm": "س ح ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 57,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ح ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 57
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "c625561069c20b20533089f909377758f22e08474d67f472c9735b69fa1cd498",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5502,18 +6380,23 @@
     },
     "root_001096": {
       "root_ar": "غ ف ر",
+      "qac_roots_ar": [
+        "غ ف ر"
+      ],
       "root_id": "root_001096",
-      "root_mapping": {
-        "root_id": "root_001096",
-        "root_norm": "غ ف ر",
-        "source_root_norm": "غ ف ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 214,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "غ ف ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 214
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7b83cefc4ef91b7c7e34fd1a75772a1569082342c1e866fc80c4cf8684834b0d",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8802,14 +9685,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9071,11 +9960,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_18.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_18.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 103443,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9148,19 +10050,37 @@
           "root_ids": [
             "root_000682"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ح ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000682",
+            "targets": [
+              {
+                "qac_root_norm": "س ح ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000682",
+                "furuq_root_norm": "س ح ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 57,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000682",
-              "root_norm": "س ح ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ح ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 57,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9185,19 +10105,37 @@
           "root_ids": [
             "root_001096"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "غ ف ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001096",
+            "targets": [
+              {
+                "qac_root_norm": "غ ف ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001096",
+                "furuq_root_norm": "غ ف ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 214,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001096",
-              "root_norm": "غ ف ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "غ ف ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 214,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9224,10 +10162,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 16,
+        "dictionary_branches_kept": 16,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 16,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

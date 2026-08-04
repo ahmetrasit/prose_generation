@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.960842+00:00",
+  "generated_at": "2026-08-04T22:29:58.502629+00:00",
   "surah": 56,
   "ayah": 15,
   "ayahRef": "56:15",
@@ -801,7 +801,8 @@
       "morpheme_ids": [
         "m-w-s056-a015-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:15:1"
+      "aligned_qac_word_ref_upstream": "56:15:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -815,7 +816,8 @@
       "morpheme_ids": [
         "m-w-s056-a015-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:15:2"
+      "aligned_qac_word_ref_upstream": "56:15:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -829,7 +831,8 @@
       "morpheme_ids": [
         "m-w-s056-a015-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:15:3"
+      "aligned_qac_word_ref_upstream": "56:15:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1337,7 +1340,553 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_15.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:15",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:15",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_integrated_repose",
+            "confidence": "strong",
+            "focus_anchor": "The plural resting places and their woven modifier operate together.",
+            "mechanism": "A place that bears reclining bodies gains its stability from tightly interlaced parts; comfort is presented as engineered cohesion rather than ornament alone.",
+            "activation_trace": [
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "Supplies the literal support on which occupants settle and recline."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Makes interlacing the load-bearing construction of that support."
+              }
+            ],
+            "changed_reading": {
+              "before": "Luxurious couches distinguished chiefly by decoration.",
+              "after": "Repose borne by a deliberately integrated, mutually reinforcing construction."
+            }
+          },
+          {
+            "model_id": "baseline_embodied_felicity",
+            "confidence": "medium",
+            "focus_anchor": "The couch noun shares its focus root with inward gladness and concealed interiority.",
+            "mechanism": "The resting place can externalize an inward condition: latent ease becomes a durable woven environment that holds and displays it without exhausting its interior depth.",
+            "activation_trace": [
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B010",
+                "role": "Adds inward gladness and ease to the literal place of repose."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B001",
+                "role": "Keeps an interior, not-fully-exposed dimension alive within the couch lexeme."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Turns that inward ease into a coherent material surround."
+              }
+            ],
+            "changed_reading": {
+              "before": "Furniture located outside its occupants.",
+              "after": "A woven spatial embodiment of the occupants' inward ease and gladness."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_cohesion_after_dispersal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ج ج",
+              "ب س س",
+              "ب ث ث"
+            ],
+            "mechanism": "The earlier sequence destabilizes, comminutes, and scatters the world's massive supports; the focus then supplies a support whose firmness comes from binding many parts together. The couches enact a material reversal from disaggregation to composed cohesion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "Anchors the reversal in an actual place of bodily support."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Supplies tight interconnection as the focus-side counterforce to dispersal."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Introduces violent motion that removes the reliability of the former ground."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Contributes the breaking and mixing stage between stable mass and particles."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Completes the destructive trajectory by distributing the particles apart."
+              }
+            ],
+            "structural_cues": [
+              "The ordered movement in 56:4-6 is from ground instability through pulverization to dispersion.",
+              "The focus places bodily support after that collapse and after the human sorting of 56:7-14."
+            ],
+            "reader_inference": "The packet supplies shaking, fragmentation, scattering, support, and interweaving; I infer a directional reversal from cosmic disassembly to constructed cohesion. A live alternative is simple contrast between destruction and luxury with no reconstructive arrow.",
+            "changed_reading": {
+              "before": "Woven couches as static luxury after the judgment scene.",
+              "after": "New supports whose interconnection materially answers the prior world's shaking and dispersal."
+            }
+          },
+          {
+            "model_id": "delta_installed_elevation",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ف ض",
+              "ر ف ع",
+              "س ب ق",
+              "ق ر ب"
+            ],
+            "mechanism": "The lowering-and-raising polarity becomes socially determinate when precedence leads to privileged nearness. Being placed upon the couches therefore materializes a reassigned rank and admitted proximity, not leisure in an unmarked location.",
+            "activation_trace": [
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "Provides the installed station on which the newly ranked occupants settle."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Supplies downward reassignment as one pole of the scene's rank reversal."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Contributes elevation of standing, allowing the focus support to mark rank."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Identifies precedence as the occupants' differentiating relation."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Sharpens nearness into favored access, giving the couches a court-like positional force."
+              }
+            ],
+            "structural_cues": [
+              "The indefinite lowering and raising of 56:3 is specified by the named forerunners and near ones in 56:10-11.",
+              "The preposition in the focus locates those occupants upon, rather than merely beside, the supports."
+            ],
+            "reader_inference": "The packet supplies rank reversal, precedence, favored nearness, and placement on supports; I infer that the furniture installs the resulting status. It may instead mark comfort without carrying institutional rank.",
+            "changed_reading": {
+              "before": "Couches as interchangeable amenities of bliss.",
+              "after": "Installed stations that make elevation, precedence, and admitted nearness spatially visible."
+            }
+          },
+          {
+            "model_id": "delta_reciprocal_seating_network",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ك ء",
+              "ق ب ل",
+              "ط و ف"
+            ],
+            "mechanism": "The following ayat assign the couches three functions: they bear bodily reliance, orient occupants face-to-face, and serve as centers of circulation. Their interweaving can thus characterize a relational topology in which stable nodes support mutual visibility and moving service.",
+            "activation_trace": [
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B011",
+                "role": "Supplies the plural stable nodes around which the social arrangement forms."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Offers interconnection as the focus image for joining those nodes into one arrangement."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "و ك ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001678",
+                "branch_id": "B004",
+                "role": "Confirms that the supports receive the occupants' bodily weight and reliance."
+              },
+              {
+                "source_ref": "56:16",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B009",
+                "role": "Turns plural occupants toward one another as an interacting group."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "ط و ف",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000957",
+                "branch_id": "B001",
+                "role": "Adds an orbit of service around the seated group instead of a static furniture display."
+              }
+            ],
+            "structural_cues": [
+              "The pronoun in 56:16 refers bodily reliance back to the focus couches.",
+              "Mutual facing immediately follows the focus, and circulation around the occupants follows next."
+            ],
+            "reader_inference": "The packet supplies support, mutual orientation, and encircling movement; I extend the focus's material weave into a spatial and social network. The adjective may remain purely artisanal while the same geometry still follows from 56:16-17.",
+            "changed_reading": {
+              "before": "A collection of individually occupied luxury couches.",
+              "after": "A coordinated seating network that joins repose, reciprocal encounter, and circulating provision."
+            }
+          },
+          {
+            "model_id": "delta_speech_safe_interior",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "The focus root's interior and private-speech potential is activated by a later auditory boundary: mixed futile noise is excluded, while spoken peace alone circulates. The woven setting becomes a socially maintained interior whose safety is produced by what may pass between occupants.",
+            "activation_trace": [
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B001",
+                "role": "Anchors the model in the focus root's protected interior and confidential register."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Supplies the binding image for a setting held together by regulated exchange."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Defines the boundary through the occupants' actual auditory field."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Names the mixed noise excluded from the shared interior."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Supplies voiced utterance as the permitted medium moving among occupants."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Makes freedom from harm the repeated content of that permitted speech."
+              }
+            ],
+            "structural_cues": [
+              "The exclusion formula of 56:25 is followed by the exception formula of 56:26.",
+              "The doubled peace utterance answers the face-to-face arrangement established in 56:16."
+            ],
+            "reader_inference": "The packet supplies an interior focus-root branch, interweaving, auditory exclusion, and repeated safe speech; I infer a speech-governed social enclosure. A live alternative is that 56:25-26 describes the garden generally, not the couches' immediate zone.",
+            "changed_reading": {
+              "before": "A visually elaborate seating surface.",
+              "after": "The physical anchor of a protected conversational interior woven from harmless reciprocal speech."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_protected_pearl_interior",
+            "confidence": "exploratory",
+            "containment": "This transfers the protected-pearl image onto the couches and is therefore cross-object and surprising. It remains anchored by the focus root's concealment branch and the woven construction, with the pearl sequence supplying both a discrete luminous unit and its shelter; downstream prose should mark it as a material analogy, not identify the couches with the companions.",
+            "focus_anchor": "Concealed interiority in the couch root combines with the modifier's interlaced envelope.",
+            "activation_trace": [
+              {
+                "source_ref": "56:15",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B001",
+                "role": "Provides an inwardly kept dimension within the focus noun."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Provides an interlaced exterior capable of holding protected units."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ل ء ل ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001337",
+                "branch_id": "B002",
+                "role": "Contributes localized brilliance within the later comparison."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Contributes a sheltering cover that preserves what shines inside."
+              }
+            ],
+            "changed_reading": {
+              "before": "An exposed ornamental weave.",
+              "after": "A protective weave whose value lies in preserving luminous interiority."
+            }
+          },
+          {
+            "outlier_id": "outlier_reward_as_textile_yield",
+            "confidence": "exploratory",
+            "containment": "This reading uses the non-dominant split mapping from the reward root to cutting and hanging fiber, so its lexical route is form-distant and should never replace the direct recompense sense. It remains anchored in the focus's woven modifier and in the explicit deed-reward construction; render it only as a tentative craft analogy in which action yields material for the final support.",
+            "focus_anchor": "The focus support is explicitly constituted by interwoven material.",
+            "activation_trace": [
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Anchors the outlier in an artifact made by joining many strands or units."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000242",
+                "branch_id": "B004",
+                "role": "The split-root branch contributes cut fiber or suspended ornament as possible craft material."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Keeps the inferred material yield tied to intentional deeds rather than free imagery."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Retains the dominant act-for-return relation that contains the textile analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The couches are finished objects granted as recompense.",
+              "after": "Exploratorily, the final support is woven from the gathered material yield of prior deeds."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Tight interweaving becomes a constructive answer to the earlier sequence of shaking, fragmentation, and dispersal.",
+            "Placement on the couches installs elevation and favored proximity rather than merely supplying comfort.",
+            "The following bodily, face-to-face, and circular motions turn plural couches into a coordinated social topology.",
+            "The final speech restriction activates a protected interior maintained by harmless reciprocal utterance."
+          ],
+          "what_was_special": "Material opposition and post-focus grammar made the woven modifier operational: it could bear bodies, reverse dispersal, organize relations, and bound a speech environment instead of functioning as decoration alone.",
+          "remaining_uncertainties": [
+            "The social and auditory extensions of material interweaving may exceed the adjective's immediate artisanal scope.",
+            "The protected-pearl transfer is cross-object and should remain analogical.",
+            "The textile-yield outlier depends on a deliberately retained non-dominant split-root branch."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Support made by close interweaving.** `س ر ر` **B011** supplies a place of settled support; `و ض ن` **B001** supplies closely interwoven work and **B005** a woven implement or seat. The next ayah’s leaning makes the construction functional. **Abductive move:** I infer that the woven structure distributes bodily weight and enables stable repose. **Reading change:** the couches are engineered supports, not inert ornament.\n\n2. **A protected inward joy given material form.** `س ر ر` **B001** supplies inward concealment and **B010** joy and ease; the visible seat overlays these branches without erasing its nominal sense. **Abductive move:** the packet supplies repeated protected interiors; I infer that the couch externalizes secure inward ease. **Reading change:** furnishing becomes the bodily architecture of unthreatened joy.",
@@ -2237,18 +2786,23 @@
   "root_lexicon": {
     "root_000697": {
       "root_ar": "س ر ر",
+      "qac_roots_ar": [
+        "س ر ر"
+      ],
       "root_id": "root_000697",
-      "root_mapping": {
-        "root_id": "root_000697",
-        "root_norm": "س ر ر",
-        "source_root_norm": "س ر ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 37,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ر ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 37
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "dc1627d5f9c136f8b2b0c814357dc8067e9653578174847ea445ccd0f146a8fb",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5014,18 +5568,23 @@
     },
     "root_001658": {
       "root_ar": "و ض ن",
+      "qac_roots_ar": [
+        "و ض ن"
+      ],
       "root_id": "root_001658",
-      "root_mapping": {
-        "root_id": "root_001658",
-        "root_norm": "و ض ن",
-        "source_root_norm": "و ض ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ض ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3a9614c0967b7ae6fe2ddff757b5c09f1fa5b84504d865e433889134b5c1e387",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6461,14 +7020,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6784,11 +7349,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_15.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_15.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 98679,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6861,19 +7439,37 @@
           "root_ids": [
             "root_000697"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ر ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000697",
+            "targets": [
+              {
+                "qac_root_norm": "س ر ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000697",
+                "furuq_root_norm": "س ر ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 37,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000697",
-              "root_norm": "س ر ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ر ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 37,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 15,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6898,19 +7494,37 @@
           "root_ids": [
             "root_001658"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ض ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001658",
+            "targets": [
+              {
+                "qac_root_norm": "و ض ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001658",
+                "furuq_root_norm": "و ض ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001658",
-              "root_norm": "و ض ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ض ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6937,10 +7551,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 21,
+        "dictionary_branches_kept": 21,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 21,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

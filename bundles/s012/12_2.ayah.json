@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T05:42:10.451680+00:00",
+  "generated_at": "2026-08-04T22:28:17.406880+00:00",
   "surah": 12,
   "ayah": 2,
   "ayahRef": "12:2",
@@ -2300,7 +2300,8 @@
         "m-w-s012-a002-w001-01",
         "m-w-s012-a002-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:2:1"
+      "aligned_qac_word_ref_upstream": "12:2:1",
+      "morpheme_skip_count": 0
     },
     null,
     null,
@@ -3472,7 +3473,933 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s12/packets/12_2.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "12:2",
+      "window": [
+        "12:1",
+        "12:2",
+        "12:3",
+        "12:4",
+        "12:5",
+        "12:6",
+        "12:7",
+        "12:8",
+        "12:9",
+        "12:10",
+        "12:11",
+        "12:12",
+        "12:13",
+        "12:14",
+        "12:15",
+        "12:16",
+        "12:17",
+        "12:18"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "12:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-conveyed-articulation",
+            "confidence": "strong",
+            "focus_anchor": "The sequence أَنزَلْنَاهُ قُرْآنًا عَرَبِيًّا ... تَعْقِلُونَ joins conveyance, recitability, articulation, and a hoped-for cognitive result.",
+            "mechanism": "What is conveyed becomes publicly recitable and explicitly articulated, allowing the hearer to distinguish relations and inhibit error; the purpose clause makes disciplined reception an effect of the verbal form.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "The causative delivery image supplies the transfer that brings the communication within the audience's reach."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "The reading-and-recitation image makes repeatable voiced reception the medium of the transfer."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B001",
+                "role": "The disclosure and explicit-expression image makes the Arabic form function as an opening of the communication rather than a bare language label."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "The discerning restraint image supplies understanding that both recognizes relations and checks movement into error."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse merely identifies a revelation as an Arabic-language Qur'an intended to be understood.",
+              "after": "The verse presents conveyance, recitability, explicit articulation, and error-checking discernment as one reception mechanism."
+            }
+          },
+          {
+            "model_id": "baseline-placed-gathering",
+            "confidence": "medium",
+            "focus_anchor": "أَنزَلْنَاهُ, قُرْآنًا, عَرَبِيًّا, and تَعْقِلُونَ can each describe an operation performed on relations, not only labels attached to an object.",
+            "mechanism": "Dispersed content is gathered, put into an apt verbal station, and made explicit; the hearer then fastens its parts into a bounded pattern. Understanding is constructive binding rather than passive decoding.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B004",
+                "role": "The image of putting something in its proper station makes descent an ordering operation within a communicative arrangement."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "The gathering image makes the Qur'an an assembly of dispersed elements into a recitable whole."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B001",
+                "role": "The explicit-expression image makes the assembled whole inspectable in articulated speech."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B002",
+                "role": "The tethering image turns cognition into fastening the articulated parts so they do not scatter into unrelated impressions."
+              }
+            ],
+            "changed_reading": {
+              "before": "A complete text descends and listeners simply extract its already settled meaning.",
+              "after": "Revelation places gathered material into an apt articulated order, while listeners complete the operation by binding its relations."
+            }
+          },
+          {
+            "model_id": "baseline-articulation-with-restraint",
+            "confidence": "exploratory",
+            "focus_anchor": "The movement from عَرَبِيًّا to تَعْقِلُونَ places expressive speech immediately before a root that can also inhibit speech.",
+            "mechanism": "Explicit expression creates the capacity to answer, correct, or object, but understanding may also appear as holding the tongue. The hoped-for result is governed speech, not maximal speech.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B011",
+                "role": "The answering-and-correcting image gives articulated language an active capacity to challenge a received claim."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B003",
+                "role": "The held-tongue image makes deliberate non-utterance one possible outcome of understanding."
+              }
+            ],
+            "changed_reading": {
+              "before": "Understanding the clear message naturally licenses its immediate repetition.",
+              "after": "Clear expression equips both corrective speech and deliberate silence; understanding governs when an intelligible account should travel."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-signs-joined-and-distinguished",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ي ي",
+              "ك ت ب",
+              "ب ي ن"
+            ],
+            "mechanism": "The preceding signs are visible markers, the book joins and orders them, and manifestation exposes their distinctions. The focus verse then names the next operations: gather them as recitation, articulate them, and bind their relations in cognition.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "The gathering image receives the preceding marked elements as parts of one recitable configuration."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B001",
+                "role": "The explicit-expression image turns the joined configuration outward for inspection."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B002",
+                "role": "The tethering image assigns the listener the work of holding differentiated signs in a stable relation."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The visible-marker image supplies discrete evidentiary units rather than an undifferentiated message."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B001",
+                "role": "The joining image supplies composition by bringing separate units together."
+              },
+              {
+                "source_ref": "12:1",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "The meaning-disclosing image supplies the exposure that lets the joined units be compared and distinguished."
+              }
+            ],
+            "structural_cues": [
+              "12:1 places marked signs, joined writing, and manifestation immediately before the focus clause.",
+              "The focus root order moves from emplacement through gathering and articulation to cognitive restraint."
+            ],
+            "reader_inference": "The packet supplies visible signs, joining, disclosure, gathering, and tethering; I infer a staged passage from separate marks to a held relational pattern. A live alternative is that these are overlapping predicates of textual clarity without a processual order.",
+            "changed_reading": {
+              "before": "Arabic makes the already unified book easy to understand.",
+              "after": "Arabic disclosure is one stage in converting distinguishable signs into a joined recitation whose relations the listener must actively hold together."
+            }
+          },
+          {
+            "model_id": "delta-trace-sequence-recovery",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ص ص",
+              "و ح ي",
+              "غ ف ل"
+            ],
+            "mechanism": "Narration follows traces and drives reports in sequence; revelation inserts hidden knowledge into that sequence, reversing a prior state in which the relevant pattern lay outside attention. Qur'anic gathering is therefore evidentiary reconstruction, and understanding is recovery of a relation across successive traces.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "The gathering image makes the recitation collect successive traces into a single field of inference."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "The discerning-restraint image makes understanding the disciplined recognition of relations within the collected sequence."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "ق ص ص",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001232",
+                "branch_id": "B001",
+                "role": "The trace-following image supplies a method of pursuing effects back through their sequence rather than merely hearing a tale."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "The covert imparting of knowledge supplies information that was not recoverable from unaided surface access."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "غ ف ل",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_001097",
+                "branch_id": "B001",
+                "role": "The image of something left outside alert attention supplies the initial epistemic deficit that sequential tracing reverses."
+              }
+            ],
+            "structural_cues": [
+              "12:3 repeats the tracing root as both the act of recounting and the recounted sequence.",
+              "Revelation, this Qur'an, and prior inattention are placed in one causal sentence."
+            ],
+            "reader_inference": "The packet supplies trace-following, sequential report, covert knowledge, and inattention; I infer that the recitation repairs inattention by arranging evidence for retrospective linkage. The live alternative is a simpler transfer of previously unknown information with no special inferential method.",
+            "changed_reading": {
+              "before": "The audience understands because revelation tells an unknown story in its language.",
+              "after": "The audience is trained to understand by following and gathering a sequence of traces that makes a previously unattended pattern recoverable."
+            }
+          },
+          {
+            "model_id": "delta-clear-speech-needs-restraint",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ء ي",
+              "ق ص ص",
+              "ك ي د"
+            ],
+            "mechanism": "The first articulated account in the sequence is a true dream, yet its narration is prohibited because a clear report can become actionable material for a plot. The purpose of understanding now includes judging when disclosure should be restrained.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B001",
+                "role": "The explicit-expression image supplies a report clear enough to transmit the dream's relational structure."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B003",
+                "role": "The held-tongue image makes withholding an intelligible report a positive cognitive act."
+              },
+              {
+                "source_ref": "12:4",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "7",
+                  "13"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B003",
+                "role": "The dream-vision image supplies true but symbolically compressed content whose circulation has consequences."
+              },
+              {
+                "source_ref": "12:5",
+                "root": "ق ص ص",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001232",
+                "branch_id": "B002",
+                "role": "The sequential-report image supplies the prohibited act of converting the private vision into a transmissible account."
+              },
+              {
+                "source_ref": "12:5",
+                "root": "ك ي د",
+                "source_word_indices": [
+                  "8",
+                  "10"
+                ],
+                "mapped_root_id": "root_001334",
+                "branch_id": "B002",
+                "role": "The plotting image supplies the harmful use to which a lucidly transmitted relation can be put."
+              }
+            ],
+            "structural_cues": [
+              "The first post-focus speech event moves from a twice-stated vision in 12:4 to an explicit prohibition on recounting it in 12:5.",
+              "The prohibition is grammatically connected to the risk of plotting."
+            ],
+            "reader_inference": "The packet supplies a true dream, its possible narration, and the resulting plot; I infer that increased intelligibility increases actionability and therefore requires restraint. The live alternative is that the danger comes only from envy, with no general implication for articulated disclosure.",
+            "changed_reading": {
+              "before": "A clear Arabic account should be repeated as widely as possible because understanding is an unqualified good.",
+              "after": "Clarity makes a relation usable, so the hoped-for understanding includes restraint about when, how, and to whom a true account is disclosed."
+            }
+          },
+          {
+            "model_id": "delta-events-returned-to-outcomes",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ل م",
+              "ء و ل",
+              "ح د ث"
+            ],
+            "mechanism": "Teaching interpretation joins distinguishing marks to the return of reports and events toward their outcomes. The focus purpose clause becomes temporally abductive: one understands by holding an event's present form together with the end to which it may return.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "The gathering image supplies the field in which reports from different moments can be compared."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "The discerning-restraint image holds an initial appearance open until its later relation becomes visible."
+              },
+              {
+                "source_ref": "12:6",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4",
+                  "24"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "The distinguishing-mark image supplies features by which an event can be tracked toward its interpretation."
+              },
+              {
+                "source_ref": "12:6",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "6",
+                  "12"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "The return-to-outcome image supplies the temporal operation that carries an event beyond its first appearance."
+              },
+              {
+                "source_ref": "12:6",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "The renewing-report image supplies narrated events whose meaning changes as later moments arrive."
+              }
+            ],
+            "structural_cues": [
+              "12:6 names teaching the interpretation of reports immediately after the dream and warning.",
+              "The interpretation term occurs twice, framing both instruction and inherited completion."
+            ],
+            "reader_inference": "The packet supplies marks, reports that renew, and return to outcome; I infer an abductive loop from present sign to eventual configuration and back. The live alternative is that interpretation names a specialized gift and does not define the audience's تَعْقِلُونَ.",
+            "changed_reading": {
+              "before": "Understanding is immediate comprehension of an explicitly worded statement.",
+              "after": "Understanding can be provisional and temporal: gather present marks, withhold premature closure, and return to them as events disclose their outcomes."
+            }
+          },
+          {
+            "model_id": "delta-descent-into-hidden-receptacle",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ل ق ي",
+              "غ ي ب",
+              "ج ب ب",
+              "ج م ع",
+              "ج ع ل",
+              "و ح ي"
+            ],
+            "mechanism": "The focus descent is replayed materially when Yusuf is cast into a concealed hollow, while hidden knowledge is imparted to him there. Descent becomes placement of communication inside a low, unseen receptacle from which later events will draw out and articulate its significance.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B004",
+                "role": "The proper-placement image permits descent to function as emplacement within a mechanism, not only vertical motion."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "The gathering image makes later retrieval and assembly of the hidden event part of the recitation's work."
+              },
+              {
+                "source_ref": "12:10",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B005",
+                "role": "The casting image supplies the downward transfer that materially echoes the focus's emplacement."
+              },
+              {
+                "source_ref": "12:10",
+                "root": "غ ي ب",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001117",
+                "branch_id": "B002",
+                "role": "The sunken hiding-place image makes concealment and low position one joint condition."
+              },
+              {
+                "source_ref": "12:10",
+                "root": "ج ب ب",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000214",
+                "branch_id": "B004",
+                "role": "The receiving-hollow image supplies a bounded receptacle into which the cast object enters."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The joining of dispersed parts supplies the brothers' convergent decision and contrasts with the recitation's later gathering of what they conceal."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "The transformation-into-a-state image supplies deliberate placement of Yusuf within the hidden condition."
+              },
+              {
+                "source_ref": "12:15",
+                "root": "و ح ي",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001633",
+                "branch_id": "B001",
+                "role": "The covert imparting of knowledge places communication inside the same scene of concealment."
+              }
+            ],
+            "structural_cues": [
+              "12:10 proposes casting Yusuf into the hidden depth of the well; 12:15 repeats the hidden well as the enacted placement.",
+              "The enactment pivots immediately from concealment to revelation addressed to Yusuf."
+            ],
+            "reader_inference": "The packet supplies casting, a sunken hollow, deliberate placement, collective concealment, and covert knowledge; I infer a narrative-scale replay of أَنزَلْنَاهُ in which descent can preserve a message inside hiddenness. The live alternative is that physical descent and revelatory descent are merely adjacent uses of spatial imagery.",
+            "changed_reading": {
+              "before": "Descent simply moves a complete scripture from above to an already receptive audience.",
+              "after": "Descent can place communication within concealment, where its import survives before later sequence and articulation retrieve it into understanding."
+            }
+          },
+          {
+            "model_id": "delta-articulation-versus-fabricated-evidence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص د ق",
+              "ق م ص",
+              "د م و",
+              "ك ذ ب",
+              "و ص ف"
+            ],
+            "mechanism": "The brothers produce an articulate description and a material display, explicitly claim truth, and yet the blood is marked false. Arabic explicitness therefore cannot be a truth guarantee by itself; عقل must bind words to material traces and test whether the assembled account coheres.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "The gathering image supplies the assembly of verbal and material signs into one candidate account."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B001",
+                "role": "The explicit-expression image makes claims legible and examinable without making their content automatically true."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "The discerning-restraint image supplies the check that prevents a vivid account from carrying judgment away."
+              },
+              {
+                "source_ref": "12:17",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B001",
+                "role": "The truthful-speech image supplies the brothers' explicit self-characterization as a claim requiring assessment."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ق م ص",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001256",
+                "branch_id": "B001",
+                "role": "The garment image supplies a portable material surface staged as corroborating evidence."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "د م و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000490",
+                "branch_id": "B001",
+                "role": "The ordinary-blood image supplies the visually forceful mark meant to make the verbal account seem concrete."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The falsehood image explicitly breaks the assumed entailment from vivid material display to truth."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "و ص ف",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_001654",
+                "branch_id": "B001",
+                "role": "The descriptive-display image identifies their act as making a version present through selected attributes."
+              }
+            ],
+            "structural_cues": [
+              "12:17 anticipates disbelief while asserting truth; 12:18 then pairs a shirt and blood with explicit falsehood.",
+              "Jacob's reply targets what they describe rather than treating the staged surface as self-interpreting."
+            ],
+            "reader_inference": "The packet supplies a truth claim, garment, blood, falsehood, and description; I infer that the focus purpose clause commissions cross-checking among articulated and material signs. The live alternative is that the episode condemns these speakers only and does not generalize into a reception discipline.",
+            "changed_reading": {
+              "before": "Once an account is clear and sensorially supported, understanding consists in accepting what it plainly says.",
+              "after": "Clarity makes an account testable, not self-authenticating; understanding binds speech to evidence and can reject a coherent description whose traces do not hold."
+            }
+          },
+          {
+            "model_id": "delta-reason-as-held-open-judgment",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ن ف س",
+              "ص ب ر",
+              "ج م ل"
+            ],
+            "mechanism": "When evidence is marked false and motive lies within the selves that shaped it, the response is to hold the self against panic while refusing the offered closure. عقل becomes a disciplined interval in which several causal readings can remain live until further traces arrive.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "The restraint-from-error image makes cognition a governed pause rather than a rush to settle the account."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B002",
+                "role": "The tethering image gives the pause a positive structure: competing signs are held within bounds while their relations remain unresolved."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The falsehood image supplies a decisive reason not to let the presented surface close inquiry."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B013",
+                "role": "The image of reason and alarm within the self locates both fabrication and its critical resistance inside motivated cognition."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ص ب ر",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000840",
+                "branch_id": "B001",
+                "role": "The self-restraint image supplies the affective holding action that keeps uncertainty from collapsing into panic."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ج م ل",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000260",
+                "branch_id": "B004",
+                "role": "The beauty-in-action image values this restrained posture as an apt response rather than mere delay."
+              }
+            ],
+            "structural_cues": [
+              "The diagnosis of fabricated evidence is followed not by a complete counter-story but by self-restraint and appeal for help.",
+              "The local window closes while the event remains unresolved for its participants."
+            ],
+            "reader_inference": "The packet supplies false evidence, motivated selves, self-restraint, and valued composure; I infer an epistemic practice of holding judgment open under pressure. The live alternative is that patience here is only emotional endurance and does not specify how تَعْقِلُونَ operates.",
+            "changed_reading": {
+              "before": "Reasoning ends uncertainty by selecting the most intelligible account as quickly as possible.",
+              "after": "Reasoning can preserve uncertainty responsibly: restrain reaction, reject a failed surface, and keep multiple causal possibilities tethered until the sequence yields more evidence."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-gestational-gathering",
+            "confidence": "exploratory",
+            "containment": "The reproductive image is surprising and form-distant, but it remains anchored in the focus noun's own root inventory and coheres with gathering plus delayed understanding. Render it only as a material analogy for carried, not-yet-emergent meaning, never as a lexical replacement for قُرْآنًا.",
+            "focus_anchor": "قُرْآنًا can activate a container that gathers and carries something before its eventual emergence, while تَعْقِلُونَ names the later stabilization of its relations.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B004",
+                "role": "The carrying-womb image supplies a bounded gathering in which content can be present before it becomes outwardly manifest."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "The discerning-restraint image supplies maturation from carried potential to stabilized relation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Every relevant meaning is fully exposed at the instant the recitation is heard.",
+              "after": "The recitation may carry gathered relations whose intelligibility matures through continued restraint, sequence, and eventual emergence."
+            }
+          },
+          {
+            "outlier_id": "outlier-pruned-composition",
+            "confidence": "exploratory",
+            "containment": "Pruning and even cutting are cross-domain branch images, but both attach to focus articulation and the immediately following act of narration, producing a coherent selection mechanism. Render this as an editorial-material analogy for shaped narration, not as an etymological definition of Arabic or story.",
+            "focus_anchor": "عَرَبِيًّا modifies the gathered recitation, allowing explicit form to be imagined as selective pruning that makes a tracked sequence graspable.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "The gathering image supplies the compositional whole into which selected narrative pieces are assembled."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B018",
+                "role": "The pruning image supplies selective removal as a way an articulated form can expose a more legible structure."
+              },
+              {
+                "source_ref": "12:3",
+                "root": "ق ص ص",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001232",
+                "branch_id": "B004",
+                "role": "The even-cutting image supplies a second material operation that shapes the best narration from a larger field of events."
+              }
+            ],
+            "changed_reading": {
+              "before": "Arabic is only the language in which an exhaustive story is delivered.",
+              "after": "Exploratorily, Arabic articulation is a pruned and evenly shaped selection of tracked events whose very composition enables relational understanding."
+            }
+          },
+          {
+            "outlier_id": "outlier-surface-that-narrates-falsely",
+            "confidence": "medium",
+            "containment": "A garment that lies by its condition is an unusually exact but branch-distant image beside the bloody shirt. It remains anchored to the focus contrast between articulation and discernment and to actual roots in 12:18. Render it as a warning that nonverbal surfaces can make articulate claims, not as a claim that عَرَبِيًّا itself implies deception.",
+            "focus_anchor": "The path from عَرَبِيًّا to تَعْقِلُونَ can include reading visible surfaces as speech-like claims and restraining assent when their state is fabricated.",
+            "activation_trace": [
+              {
+                "source_ref": "12:2",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B001",
+                "role": "The explicit-expression image supplies the category of a claim made inspectably present."
+              },
+              {
+                "source_ref": "12:2",
+                "root": "ع ق ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001036",
+                "branch_id": "B001",
+                "role": "The discerning-restraint image supplies resistance to a surface whose apparent statement outruns its truth."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ق م ص",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001256",
+                "branch_id": "B001",
+                "role": "The garment image identifies the material carrier whose condition is staged as testimony."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The deceptive-garment image makes a nonverbal surface function like an account that lies by how it has been arranged."
+              },
+              {
+                "source_ref": "12:18",
+                "root": "و ص ف",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_001654",
+                "branch_id": "B001",
+                "role": "The attribute-display image confirms that selected visible features can present a constructed version of an event."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only spoken propositions require interpretive scrutiny; visible evidence simply confirms them.",
+              "after": "A surface can narrate as forcefully as speech and can be made to lie, so understanding must test both verbal and material articulation."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus sequence becomes a mechanism: place, gather, articulate, then bind relations rather than merely label a text and its language.",
+            "The true dream and warning make restraint of disclosure a positive form of understanding.",
+            "Interpretation of reports makes understanding temporal and abductive, returning present signs to later outcomes.",
+            "The well scene materially replays descent as preservation of hidden communication inside a receptacle.",
+            "The fabricated shirt makes explicitness testable rather than self-authenticating, while beautiful patience keeps judgment open."
+          ],
+          "what_was_special": "The local sequence turns 12:2 into a compact theory of reception with several coexisting operations: gather traces, expose their relations, govern their circulation, infer across time, test articulate surfaces, and preserve uncertainty. The descent into the hidden well, gestational carrying, pruned composition, and lying garment remain distinct activations rather than being merged into one final interpretation.",
+          "remaining_uncertainties": [
+            "The descent-well parallel may be a reader-supplied spatial analogy rather than an intended causal model.",
+            "The held-tongue sense of عقل is strongly activated by 12:5 but remains less direct than discernment in the focus syntax.",
+            "The gestational and pruning readings depend on form-distant branches and should remain material analogies.",
+            "The forensic reading may be local to the brothers' fabrication rather than a general account of Arabic articulation."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Revelation as gathered speech made restrainingly intelligible.** ن ز ل B002 (bringing down), ق ر ء B001 (collecting speech into recitation), ع ر ب B001 (clear articulation), and ع ق ل B001/B002 (understanding as restraint; tethering) form a descent–gathering–articulation–restraint chain. I infer that articulated collection enables the hearer to bind scattered impressions into judgment. `تعقلون` therefore reads as disciplined integration, not bare cognition.",
@@ -4537,18 +5464,23 @@
   "root_lexicon": {
     "root_001492": {
       "root_ar": "ن ز ل",
+      "qac_roots_ar": [
+        "ن ز ل"
+      ],
       "root_id": "root_001492",
-      "root_mapping": {
-        "root_id": "root_001492",
-        "root_norm": "ن ز ل",
-        "source_root_norm": "ن ز ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 290,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ز ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 290
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5dbdaf2c3388278774634594211df0962a92f772611c61b9a5b8cf7cf042a91b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8008,18 +8940,23 @@
     },
     "root_001210": {
       "root_ar": "ق ر ء",
+      "qac_roots_ar": [
+        "ق ر ء"
+      ],
       "root_id": "root_001210",
-      "root_mapping": {
-        "root_id": "root_001210",
-        "root_norm": "ق ر ء",
-        "source_root_norm": "ق ر ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 28,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ر ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 28
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -8027,18 +8964,23 @@
     },
     "root_000996": {
       "root_ar": "ع ر ب",
+      "qac_roots_ar": [
+        "ع ر ب"
+      ],
       "root_id": "root_000996",
-      "root_mapping": {
-        "root_id": "root_000996",
-        "root_norm": "ع ر ب",
-        "source_root_norm": "ع ر ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 22,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ر ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 22
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e6ca7ac0bda790edf11457f7fcd824a59c3b9e4605d6fb2f2367f7c65b13dee2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11846,18 +12788,23 @@
     },
     "root_001036": {
       "root_ar": "ع ق ل",
+      "qac_roots_ar": [
+        "ع ق ل"
+      ],
       "root_id": "root_001036",
-      "root_mapping": {
-        "root_id": "root_001036",
-        "root_norm": "ع ق ل",
-        "source_root_norm": "ع ق ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 49,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ق ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 49
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e1ce1db8ed963e0ad54c3981f489f0a49759eda71e3f656ca257e0de9b4fca2b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14972,6 +15919,11 @@
       "words_total": 6,
       "words_resolved": 1,
       "words_unresolved": 5,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 1
+      },
       "unresolved": [
         {
           "word_index": 1,
@@ -15002,10 +15954,11 @@
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2932,
+        "ayah_count": 111,
+        "row_count": 2925,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15508,11 +16461,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s012"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s12/packets/12_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s12/readers/reader_hft_a/12_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 178260,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -15586,19 +16552,37 @@
           "root_ids": [
             "root_001492"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ز ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001492",
+            "targets": [
+              {
+                "qac_root_norm": "ن ز ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001492",
+                "furuq_root_norm": "ن ز ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 290,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001492",
-              "root_norm": "ن ز ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ز ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 290,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15623,19 +16607,37 @@
           "root_ids": [
             "root_001210"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ر ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001210",
+            "targets": [
+              {
+                "qac_root_norm": "ق ر ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_001210",
+                "furuq_root_norm": "ق ر ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001210",
-              "root_norm": "ق ر ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ر ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 28,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -15647,19 +16649,37 @@
           "root_ids": [
             "root_000996"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ر ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000996",
+            "targets": [
+              {
+                "qac_root_norm": "ع ر ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000996",
+                "furuq_root_norm": "ع ر ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 22,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000996",
-              "root_norm": "ع ر ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ر ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 22,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 20,
+              "gloss_branch_count": 20,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15684,19 +16704,37 @@
           "root_ids": [
             "root_001036"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ق ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001036",
+            "targets": [
+              {
+                "qac_root_norm": "ع ق ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001036",
+                "furuq_root_norm": "ع ق ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 49,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001036",
-              "root_norm": "ع ق ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ق ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 49,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15723,10 +16761,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 45,
+        "dictionary_branches_kept": 45,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 45,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

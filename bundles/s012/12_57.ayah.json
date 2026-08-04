@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T05:42:21.634795+00:00",
+  "generated_at": "2026-08-04T22:28:27.107497+00:00",
   "surah": 12,
   "ayah": 57,
   "ayahRef": "12:57",
@@ -2603,7 +2603,8 @@
       "morpheme_ids": [
         "m-w-s012-a057-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:57:1"
+      "aligned_qac_word_ref_upstream": "12:57:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2617,7 +2618,8 @@
       "morpheme_ids": [
         "m-w-s012-a057-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:57:2"
+      "aligned_qac_word_ref_upstream": "12:57:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2631,7 +2633,8 @@
       "morpheme_ids": [
         "m-w-s012-a057-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "12:57:3"
+      "aligned_qac_word_ref_upstream": "12:57:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2647,7 +2650,8 @@
         "m-w-s012-a057-w002-01",
         "m-w-s012-a057-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:57:4"
+      "aligned_qac_word_ref_upstream": "12:57:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2661,7 +2665,8 @@
       "morpheme_ids": [
         "m-w-s012-a057-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:57:5"
+      "aligned_qac_word_ref_upstream": "12:57:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2675,13 +2680,60 @@
       "morpheme_ids": [
         "m-w-s012-a057-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:57:6"
+      "aligned_qac_word_ref_upstream": "12:57:6",
+      "morpheme_skip_count": 0
     },
     null,
     null,
-    null,
-    null,
-    null
+    {
+      "word_index": 8,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s012-a057-w006"
+      ],
+      "qac_refs": [
+        "12:57:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a057-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:57:9",
+      "morpheme_skip_count": 3
+    },
+    {
+      "word_index": 9,
+      "surface_ar": "كَانُوا",
+      "word_ids": [
+        "w-s012-a057-w006"
+      ],
+      "qac_refs": [
+        "12:57:6:2",
+        "12:57:6:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a057-w006-02",
+        "m-w-s012-a057-w006-03"
+      ],
+      "aligned_qac_word_ref_upstream": "12:57:10",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 10,
+      "surface_ar": "يَتَّقُونَ",
+      "word_ids": [
+        "w-s012-a057-w007"
+      ],
+      "qac_refs": [
+        "12:57:7:1",
+        "12:57:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a057-w007-01",
+        "m-w-s012-a057-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:57:11",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3234,7 +3286,947 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s12/packets/12_57.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "12:57",
+      "window": [
+        "12:36",
+        "12:37",
+        "12:38",
+        "12:39",
+        "12:40",
+        "12:41",
+        "12:42",
+        "12:43",
+        "12:44",
+        "12:45",
+        "12:46",
+        "12:47",
+        "12:48",
+        "12:49",
+        "12:50",
+        "12:51",
+        "12:52",
+        "12:53",
+        "12:54",
+        "12:55",
+        "12:56",
+        "12:57"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "12:57",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_deferred_recompense",
+            "confidence": "strong",
+            "focus_anchor": "The nominal sequence at words 1-3 is qualified by the believing and guarding predicates at words 5-7.",
+            "mechanism": "A return for action belongs to the order that comes after and is the more beneficial good; trusting assent makes that delayed return credible, while self-protection supplies the conduct fitted to it.",
+            "activation_trace": [
+              {
+                "source_ref": "12:57",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "Recompense or hire supplies the return-on-action pole of the model."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "What comes after the first supplies the distinct temporal order in which the return belongs."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial good supplies the positive criterion by which the later return is ranked."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settling assent supplies confidence in a return that is not yet present."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Putting oneself into protection supplies the practical disposition paired with assent."
+              }
+            ],
+            "changed_reading": {
+              "before": "The afterlife has a better reward for believers who fear God.",
+              "after": "The verse compares orders of return: the genuinely beneficial recompense lies later for people whose trusting assent issues in active self-protection."
+            }
+          },
+          {
+            "model_id": "baseline_protective_continuance",
+            "confidence": "medium",
+            "focus_anchor": "The construction at words 5-7 joins completed believing to an ongoing guarding predicate through a verb of temporal being.",
+            "mechanism": "Belief settles the heart, then becomes instantiated across time as repeated guarding; eligibility is a maintained mode of being rather than a pair of static labels.",
+            "activation_trace": [
+              {
+                "source_ref": "12:57",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and trust supply the inwardly settled starting condition."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence and presence in time turn guarding into a durative condition."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Blocking harm with protection supplies the recurring action that gives the condition content."
+              }
+            ],
+            "changed_reading": {
+              "before": "Believers and the God-fearing are two descriptions of the recipients.",
+              "after": "Trust is shown becoming a durable protective practice: they came to trust and kept inhabiting a harm-guarding way."
+            }
+          },
+          {
+            "model_id": "baseline_restorative_recompense",
+            "confidence": "exploratory",
+            "focus_anchor": "The reward noun at word 1 can activate its repair branch, while words 2 and 7 supply delay and protection.",
+            "mechanism": "The later recompense may be imagined not only as payment but as repair of fractures left crooked in the present; guarding prevents further damage while repair remains deferred.",
+            "activation_trace": [
+              {
+                "source_ref": "12:57",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B002",
+                "role": "Mending a fracture supplies a restorative rather than merely transactional image for recompense."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Deferral to a later time supplies the interval in which present crookedness remains unresolved."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "A protective barrier supplies preservation from added harm before the deferred repair."
+              }
+            ],
+            "changed_reading": {
+              "before": "Reward is a later payment for correct conduct.",
+              "after": "Exploratorily, the later reward is also restorative: it repairs what faithful guarding could preserve but could not set right within the present order."
+            }
+          },
+          {
+            "model_id": "baseline_choiceworthy_good",
+            "confidence": "medium",
+            "focus_anchor": "The comparative at word 3 stands between the later recompense and the believing-guarding recipients.",
+            "mechanism": "Goodness carries selection and choice, so the assertion can rank the later recompense as the good to be chosen, not only as a larger quantity of the same commodity.",
+            "activation_trace": [
+              {
+                "source_ref": "12:57",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Excellence and selection supply qualitative precedence over bare increase."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Seeking and choosing the good supplies a decision structure for the comparison."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The later rather than the first supplies the option being preferred."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Assent supplies the commitment by which the later good is chosen despite present invisibility."
+              }
+            ],
+            "changed_reading": {
+              "before": "The future reward is quantitatively better than the present reward.",
+              "after": "The later recompense is the choiceworthy good: the verse asks for a reordering of preference, not merely a higher payout."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_allegiance_comparative",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م ن",
+              "ء خ ر",
+              "ك ف ر",
+              "خ ي ر",
+              "و ح د"
+            ],
+            "mechanism": "Earlier, refusal of trusting assent is coupled specifically to covering the latter life, and the same good/better term then adjudicates between fragmented lords and the One. Their recurrence makes the focus comparison a verdict between rival orders of reliance and return, not a free-floating promise of more.",
+            "activation_trace": [
+              {
+                "source_ref": "12:37",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "21"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Trusting assent, here negated, establishes the earlier failure that the focus recipients reverse."
+              },
+              {
+                "source_ref": "12:37",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "24"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The later order is the specific object from which the earlier group is alienated."
+              },
+              {
+                "source_ref": "12:37",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "26"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Covering truth supplies the negative pole opposed to the focus's settled assent."
+              },
+              {
+                "source_ref": "12:39",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial superiority performs an earlier adjudication between competing objects of service."
+              },
+              {
+                "source_ref": "12:39",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B004",
+                "role": "Exclusive divine oneness identifies the allegiance selected by that earlier comparison."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "The repeated beneficial-good branch carries the earlier adjudicative force into the focus."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Positive assent anchors the focus recipients as the reversal of the earlier denial."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The later order anchors the object of return now affirmed and ranked."
+              }
+            ],
+            "structural_cues": [
+              "12:37 couples nonbelief with rejection of the latter life; 12:39 uses the same comparative root in an explicit either-or; 12:57 recombines assent, the latter order, and beneficial superiority."
+            ],
+            "reader_inference": "The packet supplies the root recurrences and the earlier either-or; I infer that their polemical force carries into 12:57. A live alternative is that the focus uses a conventional comparative without importing the earlier allegiance structure.",
+            "changed_reading": {
+              "before": "The verse says that one reward is better than another.",
+              "after": "The comparative also adjudicates allegiances: confidence in the later divine return is better than organizing value around rival present powers."
+            }
+          },
+          {
+            "model_id": "delta_grace_within_wage",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ض ل",
+              "ر ح م"
+            ],
+            "mechanism": "The context repeatedly frames benefit as surplus gift and mercy, while the focus names recompense and activates good as generosity. The earned-wage model therefore remains live but is opened from within: the return can exceed a closed equivalence between deed and payment.",
+            "activation_trace": [
+              {
+                "source_ref": "12:38",
+                "root": "ف ض ل",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_001163",
+                "branch_id": "B001",
+                "role": "Surplus and remainder supply an excess beyond strict equivalence."
+              },
+              {
+                "source_ref": "12:38",
+                "root": "ف ض ل",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_001163",
+                "branch_id": "B003",
+                "role": "Benefaction and gift supply a non-contractual mode of divine giving."
+              },
+              {
+                "source_ref": "12:53",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "10",
+                  "15"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tender mercy interrupts self-sufficiency and makes moral preservation dependent on received care."
+              },
+              {
+                "source_ref": "12:56",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Mercy names the mode by which the immediately preceding worldly benefit reaches its recipient."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "Recompense and hire retain the real action-return structure that grace qualifies."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B005",
+                "role": "Generosity and gift make the superior good capable of exceeding wages."
+              }
+            ],
+            "structural_cues": [
+              "Divine surplus appears before the prison discourse closes, mercy qualifies both moral survival and worldly success, and the focus then names a superior recompense."
+            ],
+            "reader_inference": "The packet supplies gift, mercy, and wage fields; I infer that juxtaposition makes reward grace-inflected rather than purely contractual. The alternative is coexistence without mutual qualification: mercy grants opportunity while reward remains strictly earned.",
+            "changed_reading": {
+              "before": "The later reward is an exact wage earned by belief and guarding.",
+              "after": "The later reward still answers conduct, but it arrives within surplus gift and mercy and need not be reducible to an equal wage."
+            }
+          },
+          {
+            "model_id": "delta_delayed_truth_repair",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن س ي",
+              "ل ب ث",
+              "ر ج ع",
+              "ح ص ح ص",
+              "غ ي ب"
+            ],
+            "mechanism": "Human remembrance fails and confinement persists; when release approaches, the messenger is sent back, truth becomes public, and fidelity in absence is tested. The later recompense consequently acquires a narrative form of delayed vindication and repair rather than simple postponed payment.",
+            "activation_trace": [
+              {
+                "source_ref": "12:42",
+                "root": "ن س ي",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001501",
+                "branch_id": "B002",
+                "role": "Abandonment and neglect supply the human failure through which due recognition is delayed."
+              },
+              {
+                "source_ref": "12:42",
+                "root": "ل ب ث",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001339",
+                "branch_id": "B001",
+                "role": "Remaining in place supplies the extended interval during which vindication is withheld."
+              },
+              {
+                "source_ref": "12:50",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Return and sending back delay immediate extraction so the unresolved matter can be revisited."
+              },
+              {
+                "source_ref": "12:51",
+                "root": "ح ص ح ص",
+                "source_word_indices": [
+                  "21"
+                ],
+                "mapped_root_id": "root_000326",
+                "branch_id": "B001",
+                "role": "Truth's disclosure supplies the public rectification that mere release would not provide."
+              },
+              {
+                "source_ref": "12:52",
+                "root": "غ ي ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001117",
+                "branch_id": "B001",
+                "role": "Concealment from sight supplies the unseen setting in which fidelity must persist without recognition."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Deferral to a later time gathers the narrative delays into the focus's temporal claim."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B002",
+                "role": "Repair of a fracture turns eventual vindication into restoration, not merely compensation."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protective restraint anchors the capacity to preserve integrity through the delay."
+              }
+            ],
+            "structural_cues": [
+              "A multi-year delay leads not directly to release but to a return for inquiry, public emergence of truth, and a statement about fidelity outside another's sight."
+            ],
+            "reader_inference": "The packet supplies delay, return, disclosure, and unseen fidelity; I infer that accepting an extra interval enables fuller repair. The alternative is a purely procedural clearance with no intended analogy to the later recompense.",
+            "changed_reading": {
+              "before": "The later reward compensates endurance after a wait.",
+              "after": "The later reward can vindicate and repair what premature relief would leave crooked; guarding includes preserving fidelity while recognition is absent."
+            }
+          },
+          {
+            "model_id": "delta_taqwa_as_reserve_strategy",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ء ب",
+              "و ذ ر",
+              "ش د د",
+              "ق د م",
+              "ح ص ن",
+              "غ ي ث"
+            ],
+            "mechanism": "Continuous cultivation, leaving produce protected, advancing provision before hard years, and fortifying a reserve turn guarding into anticipatory risk practice. The focus's sustained self-protection can thus be read as moral reserve-building that preserves life and value across a future reversal.",
+            "activation_trace": [
+              {
+                "source_ref": "12:47",
+                "root": "د ء ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000456",
+                "branch_id": "B001",
+                "role": "Persistent effort supplies the repeated labor needed before danger becomes visible."
+              },
+              {
+                "source_ref": "12:47",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "Leaving something in place supplies deliberate non-consumption as preservation."
+              },
+              {
+                "source_ref": "12:48",
+                "root": "ش د د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000782",
+                "branch_id": "B002",
+                "role": "Hard strength supplies the adverse future against which the reserve is designed."
+              },
+              {
+                "source_ref": "12:48",
+                "root": "ق د م",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001207",
+                "branch_id": "B004",
+                "role": "Advancing something ahead supplies pre-positioning rather than reactive rescue."
+              },
+              {
+                "source_ref": "12:48",
+                "root": "ح ص ن",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000331",
+                "branch_id": "B001",
+                "role": "Preservation inside an enclosing fort supplies the material analogue of protected reserve."
+              },
+              {
+                "source_ref": "12:49",
+                "root": "غ ي ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001118",
+                "branch_id": "B004",
+                "role": "Relief of the distressed supplies the later release made survivable by prior protection."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Presence through time anchors reserve-building as a sustained condition rather than one precaution."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Interposing protection against harm receives the context's concrete storage mechanism."
+              }
+            ],
+            "structural_cues": [
+              "The ordered forecast moves from sustained abundance through consuming hardship to relief, and survival depends on restraint and protected carryover before the crisis."
+            ],
+            "reader_inference": "The packet supplies a material preservation system and the focus supplies self-protection; I supply the analogy from stored grain to stored moral capacity. The alternative is that the food policy illustrates prudence only and does not modify the ethical predicate.",
+            "changed_reading": {
+              "before": "Taqwa is chiefly fear, avoidance, or a general pious quality.",
+              "after": "Taqwa is also anticipatory preservation: sustained restraint builds and fortifies a reserve before future pressure arrives."
+            }
+          },
+          {
+            "model_id": "delta_trustworthy_custodianship",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ و ن",
+              "ء م ن",
+              "خ ز ن",
+              "ح ف ظ"
+            ],
+            "mechanism": "A deficit of fidelity is denied, public trustworthiness is affirmed, and custodianship of stored resources is requested through vigilance. Believing and guarding therefore expand from inward states into a social capacity: being safe to entrust with what must be preserved for others.",
+            "activation_trace": [
+              {
+                "source_ref": "12:52",
+                "root": "خ و ن",
+                "source_word_indices": [
+                  "5",
+                  "12"
+                ],
+                "mapped_root_id": "root_000449",
+                "branch_id": "B001",
+                "role": "Deficient fidelity and trust supply the negative social condition explicitly rejected."
+              },
+              {
+                "source_ref": "12:54",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and trust become a public judgment that makes responsibility transferable."
+              },
+              {
+                "source_ref": "12:55",
+                "root": "خ ز ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000406",
+                "branch_id": "B003",
+                "role": "The custodian who stands over preservation supplies the office in which trust must operate."
+              },
+              {
+                "source_ref": "12:55",
+                "root": "ح ف ظ",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000342",
+                "branch_id": "B001",
+                "role": "Attentive guarding supplies the active stewardship paired with public trust."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "The focus's security-and-trust branch now includes becoming reliable for others."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protective interposition anchors custodianship as an outward enactment of guarding."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from denying betrayal in absence to being declared trustworthy and then volunteering to guard the land's stores."
+            ],
+            "reader_inference": "The packet supplies the betrayal/trust/guardianship sequence; I infer that it socializes the focus predicates into entrusted stewardship. The alternative is that these are protagonist-specific credentials rather than a changed reading of the recipient class.",
+            "changed_reading": {
+              "before": "Belief is inward conviction and taqwa is private self-restraint.",
+              "after": "Their tested social form is trustworthy custodianship: one becomes safe to entrust and vigilant in preserving goods on which others depend."
+            }
+          },
+          {
+            "model_id": "delta_worldly_reward_rescaled",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ك ن",
+              "ر ح م",
+              "ض ي ع",
+              "ء ج ر"
+            ],
+            "mechanism": "The immediately preceding ayah supplies real empowerment, mercy, protection from lost recompense, and a worldly return for good action. Repetition of recompense followed by the latter order and beneficial superiority does not cancel that first tier; it explicitly rescales it beneath a second horizon.",
+            "activation_trace": [
+              {
+                "source_ref": "12:56",
+                "root": "م ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001439",
+                "branch_id": "B005",
+                "role": "Empowerment supplies the visible worldly success that could otherwise appear conclusive."
+              },
+              {
+                "source_ref": "12:56",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Mercy supplies the mode of the present benefit and preserves its positive reality."
+              },
+              {
+                "source_ref": "12:56",
+                "root": "ض ي ع",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000923",
+                "branch_id": "B001",
+                "role": "Loss and disappearance supply what the negation excludes: the good actor's return is not allowed to vanish."
+              },
+              {
+                "source_ref": "12:56",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "The first recompense names a real action-return relation inside worldly emplacement."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B001",
+                "role": "Immediate lexical repetition carries the first return forward for explicit comparison."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The order after the present adds a second horizon rather than replacing the first event."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B001",
+                "role": "Beneficial superiority ranks the two horizons while allowing both to remain good."
+              }
+            ],
+            "structural_cues": [
+              "12:56 ends with a non-lost recompense after concrete emplacement; 12:57 immediately repeats the recompense noun, adds the latter order, and predicates beneficial superiority."
+            ],
+            "reader_inference": "The packet supplies adjacency, repetition, and the comparative; I infer a two-tier ranking in which present mercy is real but nonfinal. The alternative is a generic moral coda whose reward has no direct referential relation to 12:56.",
+            "changed_reading": {
+              "before": "The focus adds a generic afterlife reminder after a completed worldly success story.",
+              "after": "The focus deliberately reopens that success: worldly empowerment is genuine mercy and recompense, yet it is neither the final measure nor the superior return."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_open_surface_after_enclosure",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the remote exposed-surface branch of the reward root against a context of confinement and fortification. It remains root-anchored in the focus and gains a coherent spatial contrast from the context, but downstream prose should present it only as a speculative afterimage, never as the lexical gloss of the reward noun.",
+            "focus_anchor": "The reward root at word 1 activates an exposed spatial branch beside the protection root at word 7.",
+            "activation_trace": [
+              {
+                "source_ref": "12:42",
+                "root": "س ج ن",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_000678",
+                "branch_id": "B001",
+                "role": "Confinement within a holding place supplies the bounded spatial pole."
+              },
+              {
+                "source_ref": "12:48",
+                "root": "ح ص ن",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000331",
+                "branch_id": "B001",
+                "role": "Preservation inside an enclosure makes protective boundedness materially vivid."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء ج ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000015",
+                "branch_id": "B003",
+                "role": "An exposed upper surface supplies an unbounded destination image rather than the ordinary payment sense."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B001",
+                "role": "Protective interposition anchors the paradox that disciplined guarding may open beyond present enclosures."
+              }
+            ],
+            "changed_reading": {
+              "before": "The later reward is an item delivered after earthly confinement.",
+              "after": "Speculatively, disciplined protection within the present opens onto an unbounded later horizon beyond the enclosures that made protection necessary."
+            }
+          },
+          {
+            "outlier_id": "outlier_khayr_as_exit_activation",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it uses the animal-extraction branch of the good root. It remains anchored at the focus comparative and is activated by confinement followed by extraction and special access, but it should be rendered only as an exploratory exit-image, not as an etymology or a claim that 'better' literally means release.",
+            "focus_anchor": "The good/better root at word 3 activates its unusual drawing-out branch.",
+            "activation_trace": [
+              {
+                "source_ref": "12:42",
+                "root": "س ج ن",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_000678",
+                "branch_id": "B001",
+                "role": "Confinement supplies the hidden interior from which movement must occur."
+              },
+              {
+                "source_ref": "12:54",
+                "root": "خ ل ص",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000430",
+                "branch_id": "B002",
+                "role": "Release from entanglement supplies the context's decisive outward transition."
+              },
+              {
+                "source_ref": "12:54",
+                "root": "خ ل ص",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000430",
+                "branch_id": "B004",
+                "role": "Being singled out from shared claims supplies the new protected access reached after extraction."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B006",
+                "role": "Drawing a creature from a burrow supplies the strange image of good as an exit-provoking lure."
+              },
+              {
+                "source_ref": "12:57",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The order that comes after supplies the outside destination toward which the image points."
+              }
+            ],
+            "changed_reading": {
+              "before": "The later good is statically superior.",
+              "after": "Exploratorily, the superior later good also exerts an outward pull, drawing commitment beyond the enclosed value-system of the present."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The immediate repetition of recompense turns 12:57 into an explicit rescaling of real worldly mercy and success, not a detached coda.",
+            "The famine plan makes sustained guarding legible as anticipatory preservation and reserve-building rather than fear alone.",
+            "The betrayal, trustworthiness, storage, and vigilance sequence gives belief and guarding a public form as trustworthy custodianship.",
+            "Delay, return, truth-disclosure, and unseen fidelity strengthen a restorative reading of later recompense as vindication and repair.",
+            "Earlier uses of belief, the latter life, and beneficial comparison give 'better' an allegiance-ordering force, while surplus and mercy keep wage language open to grace."
+          ],
+          "what_was_special": "The focus's compact chain of recompense, laterness, good, trust, temporal being, and protection was activated by three different mechanisms at once: theological adjudication, material preservation, and social custody. The branch inventories also preserved two remote spatial/exit images that a conservative synthesis would likely erase.",
+          "remaining_uncertainties": [
+            "The reserve-strategy reading is a strong narrative analogy, but the packet does not establish that the food policy lexically defines the focus's guarding predicate.",
+            "Gift and mercy may qualify the recompense as grace, or they may coexist with a strictly earned return without changing its transaction structure.",
+            "The delayed-repair model depends on reading the returned messenger as an accepted delay for fuller vindication rather than only procedural clearance.",
+            "The exposed-surface and exit-lure outliers are intentionally branch-distant and should remain contained images rather than asserted senses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Present enablement does not exhaust recompense.** ء ج ر B001, ء خ ر B001 (later/other than the first), and خ ي ر B001/B002 (inclined-to good; chosen excellence) place a better return beyond the achieved office. ء م ن B002 and و ق ي B002 (self-protective caution) identify enduring dispositions. The ayah reads as temporal non-equivalence between worldly outcome and final reward.",
@@ -4987,18 +5979,23 @@
   "root_lexicon": {
     "root_000015": {
       "root_ar": "ء ج ر",
+      "qac_roots_ar": [
+        "ء ج ر"
+      ],
       "root_id": "root_000015",
-      "root_mapping": {
-        "root_id": "root_000015",
-        "root_norm": "ء ج ر",
-        "source_root_norm": "أ ج ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 105,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ج ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 105
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9b33d716e7a31fc1083a4a0ee97f35c8e3b56aee76db6a0457c27d94f4bc652b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6408,18 +7405,23 @@
     },
     "root_000019": {
       "root_ar": "ء خ ر",
+      "qac_roots_ar": [
+        "ء خ ر"
+      ],
       "root_id": "root_000019",
-      "root_mapping": {
-        "root_id": "root_000019",
-        "root_norm": "ء خ ر",
-        "source_root_norm": "أ خ ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 234,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء خ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 234
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7ca0038c23b5555e3f1906a1f2ac7a137361e982ce8251880dc698210d6557d2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8355,18 +9357,23 @@
     },
     "root_000452": {
       "root_ar": "خ ي ر",
+      "qac_roots_ar": [
+        "خ ي ر"
+      ],
       "root_id": "root_000452",
-      "root_mapping": {
-        "root_id": "root_000452",
-        "root_norm": "خ ي ر",
-        "source_root_norm": "خ ي ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 184,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ي ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 184
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4b0820a29681116c61f76738749514e890dcfbe7271970382ff931cc30fe8163",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10386,18 +11393,23 @@
     },
     "root_000054": {
       "root_ar": "ء م ن",
+      "qac_roots_ar": [
+        "ء م ن"
+      ],
       "root_id": "root_000054",
-      "root_mapping": {
-        "root_id": "root_000054",
-        "root_norm": "ء م ن",
-        "source_root_norm": "أ م ن",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 365,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء م ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 365
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "46a1073a81403723f1ed8217c48f1f17374b0aa980e74f97a87ee94406ba5a2b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12854,18 +13866,23 @@
     },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -13985,18 +15002,23 @@
     },
     "root_001677": {
       "root_ar": "و ق ي",
+      "qac_roots_ar": [
+        "و ق ي"
+      ],
       "root_id": "root_001677",
-      "root_mapping": {
-        "root_id": "root_001677",
-        "root_norm": "و ق ي",
-        "source_root_norm": "و ق ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 149,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ق ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 149
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "760979c4494e6d17cdea17d0a7f09d461d4668e643db239ab7b57ecaa64fa14e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15352,8 +16374,14 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
       "words_total": 11,
-      "words_resolved": 6,
-      "words_unresolved": 5,
+      "words_resolved": 9,
+      "words_unresolved": 2,
+      "morpheme_skip_total": 3,
+      "morpheme_skip_max": 3,
+      "morpheme_skip_histogram": {
+        "0": 8,
+        "3": 1
+      },
       "unresolved": [
         {
           "word_index": 6,
@@ -15364,30 +16392,16 @@
           "word_index": 7,
           "surface_ar": "آمَنُوا",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 9,
-          "surface_ar": "كَانُوا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 10,
-          "surface_ar": "يَتَّقُونَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2932,
+        "ayah_count": 111,
+        "row_count": 2925,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15900,11 +16914,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s012"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s12/packets/12_57.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s12/readers/reader_hft_a/12_57.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 222040,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -15980,19 +17007,37 @@
           "root_ids": [
             "root_000015"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ج ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000015",
+            "targets": [
+              {
+                "qac_root_norm": "ء ج ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000015",
+                "furuq_root_norm": "ء ج ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 105,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000015",
-              "root_norm": "ء ج ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ج ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 105,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -16017,19 +17062,37 @@
           "root_ids": [
             "root_000019"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء خ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000019",
+            "targets": [
+              {
+                "qac_root_norm": "ء خ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000019",
+                "furuq_root_norm": "ء خ ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 234,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000019",
-              "root_norm": "ء خ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء خ ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 234,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -16054,19 +17117,37 @@
           "root_ids": [
             "root_000452"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ي ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000452",
+            "targets": [
+              {
+                "qac_root_norm": "خ ي ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000452",
+                "furuq_root_norm": "خ ي ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 184,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000452",
-              "root_norm": "خ ي ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ي ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 184,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -16091,19 +17172,37 @@
           "root_ids": [
             "root_000054"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء م ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000054",
+            "targets": [
+              {
+                "qac_root_norm": "ء م ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000054",
+                "furuq_root_norm": "ء م ن",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 365,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000054",
-              "root_norm": "ء م ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء م ن",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 365,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -16128,19 +17227,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -16152,19 +17269,37 @@
           "root_ids": [
             "root_001677"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ق ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001677",
+            "targets": [
+              {
+                "qac_root_norm": "و ق ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001677",
+                "furuq_root_norm": "و ق ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 149,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001677",
-              "root_norm": "و ق ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ق ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 149,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -16191,10 +17326,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 27,
+        "dictionary_branches_kept": 27,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 16,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

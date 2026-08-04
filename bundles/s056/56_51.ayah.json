@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.200914+00:00",
+  "generated_at": "2026-08-04T22:30:00.297136+00:00",
   "surah": 56,
   "ayah": 51,
   "ayahRef": "56:51",
@@ -1592,7 +1592,8 @@
       "morpheme_ids": [
         "m-w-s056-a051-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:51:1"
+      "aligned_qac_word_ref_upstream": "56:51:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1608,7 +1609,8 @@
         "m-w-s056-a051-w002-01",
         "m-w-s056-a051-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:51:2"
+      "aligned_qac_word_ref_upstream": "56:51:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1622,7 +1624,8 @@
       "morpheme_ids": [
         "m-w-s056-a051-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:51:3"
+      "aligned_qac_word_ref_upstream": "56:51:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1638,7 +1641,8 @@
         "m-w-s056-a051-w004-01",
         "m-w-s056-a051-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:51:4"
+      "aligned_qac_word_ref_upstream": "56:51:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1654,7 +1658,8 @@
         "m-w-s056-a051-w005-01",
         "m-w-s056-a051-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:51:5"
+      "aligned_qac_word_ref_upstream": "56:51:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2018,7 +2023,650 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_51.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:51",
+      "window": [
+        "56:41",
+        "56:42",
+        "56:43",
+        "56:44",
+        "56:45",
+        "56:46",
+        "56:47",
+        "56:48",
+        "56:49",
+        "56:50",
+        "56:51",
+        "56:52",
+        "56:53",
+        "56:54",
+        "56:55",
+        "56:56"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:51",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_route_to_rejection",
+            "confidence": "strong",
+            "focus_anchor": "The direct address joins two plural active-participle labels in sequence.",
+            "mechanism": "The first label marks departure from a guiding course; the second adds the active act of assigning falsehood. The pair therefore moves from failed orientation to maintained repudiation rather than listing two unrelated defects.",
+            "activation_trace": [
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from guidance supplies the failed course and functions as the diagnosis's first stage."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsehood supplies an active verdict and functions as misorientation hardened into rejection."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two conventional condemnatory labels.",
+              "after": "A direct diagnosis of people whose failed orientation has become an active practice of declaring the disclosed claim false."
+            }
+          },
+          {
+            "model_id": "baseline_absence_to_falsehood",
+            "confidence": "exploratory",
+            "focus_anchor": "The first focus root can image hiddenness or loss, while the second names contradiction or false attribution.",
+            "mechanism": "The paired labels permit an epistemic shortcut: what is no longer locatable or visible is treated as unreal, then declared false.",
+            "activation_trace": [
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness supplies absence from view and functions as the condition mistakenly equated with nonexistence."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss supplies failure to locate a thing and functions as the mistaken inference that it cannot be recovered."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the negative verdict placed upon what has disappeared from view."
+              }
+            ],
+            "changed_reading": {
+              "before": "Error and denial are independent faults.",
+              "after": "The addressees convert absence from their field of recovery into evidence that the promised reality is false."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_cohort_stabilization",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ش م ل"
+            ],
+            "mechanism": "Repeated companionship and a shared side turn the plural address from an aggregate into an affiliation. Misorientation and denial become a company-defining position sustained by belonging and enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation supplies the shared orientation by which the addressed company is characterized."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "False attribution supplies the collective stance that stabilizes the company's identity."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies durable association and functions as the social carrier of the shared stance."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B001",
+                "role": "Enclosure from multiple sides supplies a bounded grouping and functions as the cohort's containing frame."
+              }
+            ],
+            "structural_cues": [
+              "56:41 repeats both the companion designation and the side designation before 56:51 addresses the same plural group."
+            ],
+            "reader_inference": "The packet supplies companionship, enclosure, and plural address; I infer that association stabilizes a shared rejecting orientation. A live alternative is that the cohort merely classifies the outcome and does not help produce the stance.",
+            "changed_reading": {
+              "before": "Separate individuals happen to share error and denial.",
+              "after": "The address names a company whose shared placement and association make misorientation a durable group position."
+            }
+          },
+          {
+            "model_id": "delta_released_then_bound",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ر ف",
+              "ص ر ر",
+              "ح ن ث",
+              "ق و ل"
+            ],
+            "mechanism": "Abundance first releases restraint, but persistence then binds the group to grave breach; their resurrection challenge gives that fastening a voiced doctrine. The focus labels consequently describe cultivated continuity, not passive confusion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from the intended course supplies the chosen direction that repeated conduct consolidates."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Assigning falsehood supplies the settled verdict voiced after the behavioral pattern."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Expansive ease supplies released restraint and functions as the enabling condition for unchecked conduct."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Binding and knotting supply the paradoxical self-fastening that follows released restraint."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ح ن ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000359",
+                "branch_id": "B001",
+                "role": "Grave fault supplies the object of persistence and functions as the moral content of the fastening."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B013",
+                "role": "Speech as adopted belief supplies the voiced resurrection challenge and functions as the doctrine of the pattern."
+              }
+            ],
+            "structural_cues": [
+              "The sequence marks prior ease, repeated persistence, repeated speech, and then the focus address."
+            ],
+            "reader_inference": "The packet supplies released ease, binding persistence, grave breach, and voiced belief; I infer a causal hardening from unrestrained life into settled denial. A live alternative is that ease is only an antecedent circumstance while persistence alone carries causality.",
+            "changed_reading": {
+              "before": "The addressees are simply confused and verbally unbelieving.",
+              "after": "They are people whose unrestrained ease became self-binding repetition until denial acquired the continuity of a practiced doctrine."
+            }
+          },
+          {
+            "model_id": "delta_hiddenness_recovered",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ت",
+              "ت ر ب",
+              "ع ظ م",
+              "ب ع ث",
+              "ج م ع",
+              "و ق ت",
+              "ع ل م"
+            ],
+            "mechanism": "Death, dust, and bone supply disappearance and dispersal; arousal, gathering, fixed appointment, and knowledge reverse the inference that hidden material is irretrievably lost. The first focus label becomes a failure to navigate from concealment to recoverability, and the second becomes the verdict built on that failure.",
+            "activation_trace": [
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Disappearance into concealment supplies the state that the objection mistakes for extinction."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss supplies failure to locate and functions as the objection's mistaken model of irrecoverability."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Assigning falsehood supplies the conclusion drawn from the mistaken model of loss."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of life and force supplies the apparent terminal point from which the objection begins."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B001",
+                "role": "Earth and dust supply material dispersal and function as the visible basis for the irrecoverability claim."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ع ظ م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001029",
+                "branch_id": "B005",
+                "role": "Hard bone supplies the residual body and functions as the objection's last locatable remainder."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Arousing what is still supplies the first reversal of the supposedly terminal state."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining dispersed parts supplies recoverability and functions as the direct answer to imagined loss."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B003",
+                "role": "A fixed appointment supplies temporal determination and removes indefinite delay as evidence of failure."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Known disclosure supplies epistemic determination against the addressees' conclusion from nonvisibility."
+              }
+            ],
+            "structural_cues": [
+              "The quoted objection moves from death to dust and bone; the reply answers with total gathering at a fixed known appointment."
+            ],
+            "reader_inference": "The packet supplies disappearance, material dispersal, arousal, gathering, and a known appointment; I infer that the deniers equate present invisibility with permanent irrecoverability. A live alternative is that the first focus label remains primarily ethical while this mechanism explains only the denial.",
+            "changed_reading": {
+              "before": "They deny resurrection as an unsupported proposition.",
+              "after": "They deny by misclassifying burial and dispersal as ontological loss, failing to see hidden remains as material scheduled for reassembly."
+            }
+          },
+          {
+            "model_id": "delta_unsated_wandering",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ك ل",
+              "م ل ء",
+              "ش ر ب",
+              "ه ي م"
+            ],
+            "mechanism": "Eating leads to filling, yet filling leads to duplicated drinking, while severe thirst and aimless roaming prevent arrival at satiety. The post-focus sequence embodies misorientation as repeated motion without resolution and makes denial resemble a self-renewing appetite.",
+            "activation_trace": [
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure without right direction supplies the pattern that the consumption sequence reenacts bodily."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the rejecting stance that remains unresolved through repeated intake."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Taking food supplies the loop's initial intake and functions as attempted satisfaction."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling to the vessel's measure supplies apparent completion that nevertheless fails to end desire."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B001",
+                "role": "Repeated liquid intake supplies renewed motion after fullness and functions as evidence that completion was false."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Unquenchable thirst supplies the engine that keeps the intake cycle from reaching closure."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B004",
+                "role": "Aimless roaming supplies a direct spatial echo of the focus misorientation and functions as its embodied consequence."
+              }
+            ],
+            "structural_cues": [
+              "The same plural group proceeds through eating, filling, drinking, and repeated drinking immediately after the direct address."
+            ],
+            "reader_inference": "The packet supplies sequential intake, apparent fullness, repeated drinking, severe thirst, and aimless roaming; I map that bodily loop back to the focus's cognitive and moral labels. A live alternative is that the sequence mirrors the prior stance as consequence without explaining how the stance formed.",
+            "changed_reading": {
+              "before": "The address names wrong belief before an unrelated punishment.",
+              "after": "The address names a rejecting orientation whose structure is reenacted as compulsive motion that cannot reach satiety or closure."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_inverted_reception",
+            "confidence": "medium",
+            "containment": "This is surprising because reception vocabulary belongs to the surrounding sequence rather than the focus labels themselves. It remains anchored in the direct address and in the paired focus roots, bracketed by failed shelter and prepared lodging; render it as rhetorical staging, not as a lexical translation of either label.",
+            "focus_anchor": "The direct address stands between a failed-refuge description and the provision sequence later named as the group's prepared lodging.",
+            "activation_trace": [
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from the right course supplies the condition of arriving at the wrong reception."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Assigning falsehood supplies the stance by which the recipients are named at the threshold."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "Covering shade supplies the expected refuge whose protective function is immediately undone."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Cooling supplies an expected benefit explicitly absent from the supposed refuge."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honorable generosity supplies the hospitality norm explicitly withheld."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared lodging for an arrival supplies the reception frame and functions as its punitive inversion."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense supply the legal reason that inverted hospitality fits its recipients."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse interrupts the punishment scene to insult its subjects.",
+              "after": "The verse functions as an arrival-address naming the recipients just before their anti-provision is served as a reckoned lodging."
+            }
+          },
+          {
+            "outlier_id": "outlier_inference_stops_early",
+            "confidence": "exploratory",
+            "containment": "This reading uses a branch-distant motion image from the denial root, so it must not replace the ordinary sense of denial. It remains worth carrying because the quoted reasoning advances to death, dust, and ancestors, then refuses the next stated step of arousal and gathering; render it only as an echo of prematurely halted inference.",
+            "focus_anchor": "The two focus roots can jointly image a course that loses direction and a movement that runs for a stretch before stopping.",
+            "activation_trace": [
+              {
+                "source_ref": "56:51",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Departure from the intended course supplies the misdirected path of the addressees' reasoning."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "Running and then stopping supplies a branch-distant image for inference that halts before its required continuation."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Death supplies the first stopping point accepted by the objection."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B001",
+                "role": "Dust supplies the furthest material stage to which the objection willingly follows the body."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Arousal from stillness supplies the next movement that the objection refuses to make."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Rejoining what was dispersed supplies the continuation that completes the sequence beyond the premature stop."
+              }
+            ],
+            "changed_reading": {
+              "before": "The deniers reject the proposition at its outset.",
+              "after": "Their reasoning travels through decomposition, stops there, and is called misdirected because it refuses the sequence's stated continuation into arousal and gathering."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Death and dust are recast from disappearance into recoverable material awaiting arousal and gathering at a fixed known time.",
+            "Released ease followed by binding persistence turns apparent confusion into a cultivated, self-maintaining denial.",
+            "Eating, filling, and repeated thirst externalize misorientation as an unsated feedback loop."
+          ],
+          "what_was_special": "The strongest activation came from literal branch reversals: hiddenness and loss are answered by arousal and gathering, while severe thirst and aimless roaming repeat the focus's misorientation inside its consequence.",
+          "remaining_uncertainties": [
+            "Prior ease may be a causal enabler of denial or only an antecedent circumstance.",
+            "The consumption loop may explain the focus labels or may only mirror them after judgment.",
+            "The stopped-motion denial echo is form-distant and must remain exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Lost orientation joined to active falsification.** `ض ل ل` **B001** supplies going astray from guidance and aim; `ك ذ ب` **B002** supplies declaring something false. The paired vocatives diagnose both navigational failure and speech-act. **Abductive move:** I infer that denial sustains misdirection, while the packet does not state which causes which. **Reading change:** the addressees are characterized by a coupled failure of direction and truth-recognition.\n\n2. **Those who treated the hidden as lost.** `ض ل ل` **B002** supplies being hidden or disappearing and **B003** losing something. Their question about dust, bones, and ancestors assumed disappeared bodies could not return. **Abductive move:** I infer that their falsification rests on confusing invisibility with irretrievable loss. **Reading change:** “astray” also exposes an error about hidden matter.",
@@ -2864,18 +3512,23 @@
   "root_lexicon": {
     "root_000913": {
       "root_ar": "ض ل ل",
+      "qac_roots_ar": [
+        "ض ل ل"
+      ],
       "root_id": "root_000913",
-      "root_mapping": {
-        "root_id": "root_000913",
-        "root_norm": "ض ل ل",
-        "source_root_norm": "ض ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 153,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ض ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 153
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "830cbc3e12d9740d071db1050eb7b44ba7cfd9859c773d390c1a6330701137e2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5123,18 +5776,23 @@
     },
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6907,14 +7565,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7181,11 +7845,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_51.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_51.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 75574,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7257,19 +7934,37 @@
           "root_ids": [
             "root_000913"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ض ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000913",
+            "targets": [
+              {
+                "qac_root_norm": "ض ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000913",
+                "furuq_root_norm": "ض ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 153,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000913",
-              "root_norm": "ض ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ض ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 153,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7294,19 +7989,37 @@
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7333,10 +8046,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 14,
+        "dictionary_branches_kept": 14,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 5,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

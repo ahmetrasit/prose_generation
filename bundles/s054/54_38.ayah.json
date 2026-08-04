@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.621187+00:00",
+  "generated_at": "2026-08-04T22:29:53.999964+00:00",
   "surah": 54,
   "ayah": 38,
   "ayahRef": "54:38",
@@ -1882,7 +1882,8 @@
       "morpheme_ids": [
         "m-w-s054-a038-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:38:1"
+      "aligned_qac_word_ref_upstream": "54:38:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1896,7 +1897,8 @@
       "morpheme_ids": [
         "m-w-s054-a038-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:38:2"
+      "aligned_qac_word_ref_upstream": "54:38:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1910,7 +1912,8 @@
       "morpheme_ids": [
         "m-w-s054-a038-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:38:3"
+      "aligned_qac_word_ref_upstream": "54:38:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1926,7 +1929,8 @@
         "m-w-s054-a038-w002-01",
         "m-w-s054-a038-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:38:4"
+      "aligned_qac_word_ref_upstream": "54:38:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1940,7 +1944,8 @@
       "morpheme_ids": [
         "m-w-s054-a038-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:38:5"
+      "aligned_qac_word_ref_upstream": "54:38:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1954,7 +1959,8 @@
       "morpheme_ids": [
         "m-w-s054-a038-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:38:6"
+      "aligned_qac_word_ref_upstream": "54:38:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -1968,7 +1974,8 @@
       "morpheme_ids": [
         "m-w-s054-a038-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:38:7"
+      "aligned_qac_word_ref_upstream": "54:38:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2684,7 +2691,721 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_38.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:38",
+      "window": [
+        "54:33",
+        "54:34",
+        "54:35",
+        "54:36",
+        "54:37",
+        "54:38",
+        "54:39",
+        "54:40",
+        "54:41",
+        "54:42",
+        "54:43",
+        "54:44",
+        "54:45"
+      ],
+      "ayah_count": 13,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:38",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_dawn_threshold",
+            "confidence": "strong",
+            "focus_anchor": "صَبَّحَهُم بُكْرَةً",
+            "mechanism": "The verb of morning arrival and the explicit first-morning adverb reinforce one another, narrowing the punishment's onset to a marked first-light threshold rather than supplying a casual date.",
+            "activation_trace": [
+              {
+                "source_ref": "54:38",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B002",
+                "role": "The image of coming in the morning makes the punishment an arrival at first light."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B001",
+                "role": "The image of early morning and prompt departure sharpens that arrival into the day's opening threshold."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "The literal image of painful punishment identifies what crosses the dawn threshold."
+              }
+            ],
+            "changed_reading": {
+              "before": "A punishment happened to reach them one morning.",
+              "after": "The doubled morning marking presents first light as the deliberately fixed onset of the punitive event."
+            }
+          },
+          {
+            "model_id": "baseline_installed_condition",
+            "confidence": "strong",
+            "focus_anchor": "عَذَابٌ مُّسْتَقِرٌّ",
+            "mechanism": "The stable predicate converts a punctual dawn strike into an installed condition: what arrives at morning does not pass through but takes up fixed residence.",
+            "activation_trace": [
+              {
+                "source_ref": "54:38",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "The punishment branch supplies the painful event that is predicated as stable."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "The image of fixing in a place turns the event into a condition that remains where it lands."
+              }
+            ],
+            "changed_reading": {
+              "before": "The punishment was lasting.",
+              "after": "The dawn blow installs punishment as their fixed condition, joining sudden onset to settled continuance."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_predawn_sorting_to_dawn_closure",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ح ص ب",
+              "ن ج و",
+              "س ح ر"
+            ],
+            "mechanism": "The context divides the night into directed trajectories: a stone-bearing wind is dispatched while the protected household is extracted by separation at predawn. The focus morning then closes that sorting process by fixing the destructive trajectory on those left behind.",
+            "activation_trace": [
+              {
+                "source_ref": "54:38",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B002",
+                "role": "Morning arrival supplies the endpoint at which the destructive trajectory reaches its subjects."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B001",
+                "role": "The first-morning image marks the boundary immediately after the predawn rescue interval."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixing in place makes dawn the closure of the two trajectories rather than another passing moment."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch and outward motion initiate the destructive trajectory that the focus later closes."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ح ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000325",
+                "branch_id": "B003",
+                "role": "The stone-bearing wind gives that dispatched trajectory a concrete projectile medium."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Rescue by separation supplies the selective extraction that precedes punishment's settlement."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B004",
+                "role": "The predawn time image establishes the earlier temporal slot from which the focus advances to morning."
+              }
+            ],
+            "structural_cues": [
+              "54:34 locates selective rescue at predawn, while 54:38 advances explicitly to morning.",
+              "The destructive dispatch and the rescue extraction are stated before the focus names the resulting stable condition."
+            ],
+            "reader_inference": "The packet supplies dispatch, a stone-bearing wind, rescue by separation at predawn, and a fixed punishment at morning; I infer one ordered sorting operation whose destructive branch closes at dawn. A live alternative is simple chronology without a sorting mechanism.",
+            "changed_reading": {
+              "before": "Morning merely dates when punishment arrived.",
+              "after": "Morning is the closure point of an overnight sorting operation: rescue has already been peeled away, and the dispatched punishment now fixes the remainder's condition."
+            }
+          },
+          {
+            "model_id": "delta_dispute_to_experiential_fact",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ن ذ ر",
+              "م ر ي",
+              "ذ و ق"
+            ],
+            "mechanism": "Denial and argumentative oscillation keep the warnings epistemically unsettled for their hearers; the repeated command to taste turns warning into experience. Against that movement, مُّسْتَقِرٌّ acquires an evidentiary edge: the disputed warning becomes a fixed and acknowledged fact.",
+            "activation_trace": [
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Literal stability supplies the endpoint opposed to the context's doubt and oscillation."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B007",
+                "role": "The image of establishing and acknowledging a matter lets settlement function epistemically as well as temporally."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the initial refusal that the settled event answers."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning meant to awaken caution supplies the proposition repeatedly offered before it becomes experience."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001416",
+                "branch_id": "B005",
+                "role": "The image of denying truth through dispute supplies the contested epistemic state."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001456",
+                "branch_id": "B001",
+                "role": "The alternate mapped image of oscillation makes their response dynamically unstable against the focus's settlement."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential tasting converts the warned-about matter from claim into undergone knowledge immediately before the focus."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "The repeated experiential command after the focus confirms that the stable event is the realization of warning."
+              }
+            ],
+            "structural_cues": [
+              "54:37 and 54:39 place the same taste-punishment-warning formula on both sides of the focus.",
+              "The sequence moves from rejected warnings to disputed warnings to an event enclosed by commands of direct experience."
+            ],
+            "reader_inference": "The packet supplies denial, warning, verbal dispute, oscillation, experiential tasting, and the focus branches of stability and acknowledgment; I infer a transition from contested report to fixed experiential fact. The materially live alternative is that مُّسْتَقِرٌّ denotes duration alone.",
+            "changed_reading": {
+              "before": "The punishment remains after it arrives.",
+              "after": "What they kept disputing is made to settle as undeniable experience: the punishment fixes both their condition and the truth-status of the warning."
+            }
+          },
+          {
+            "model_id": "delta_fixed_deprivation_of_favor",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ج و",
+              "ن ع م",
+              "ش ك ر"
+            ],
+            "mechanism": "The rescued household is separated into favor, while gratitude is named as the relation that receives good condition. The withholding branch of ع ذ ب therefore activates a second punitive mechanism: the remainder are not only hurt but fixed outside protective favor.",
+            "activation_trace": [
+              {
+                "source_ref": "54:38",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B003",
+                "role": "The literal image of withholding, prevention, and weaning recasts punishment as deprivation from a sustaining relation."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "The ordinary pain-and-punishment image keeps deprivation tied to the actual punitive noun."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Stability makes exclusion from favor a fixed condition rather than a momentary lack."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Rescue by separation creates the protected side of the context's relational divide."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and favor name what accompanies the rescued side and can therefore be withheld from the other."
+              },
+              {
+                "source_ref": "54:35",
+                "root": "ش ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000810",
+                "branch_id": "B001",
+                "role": "Recognition of favor supplies the relational response whose absence helps define the punitive exclusion."
+              }
+            ],
+            "structural_cues": [
+              "54:34-35 pair rescue with favor and gratitude before 54:36-39 turn to warning and punishment."
+            ],
+            "reader_inference": "The packet supplies selective rescue, favor, gratitude, punishment, and a withholding branch; I infer that exclusion from protective favor is one mechanism of the punishment. The alternative is a simple reward-punishment contrast with no privative force in عَذَاب.",
+            "changed_reading": {
+              "before": "Punishment is only pain inflicted on those who remained.",
+              "after": "Punishment also fixes them on the deprived side of a completed separation, outside the favor into which the rescued household was drawn."
+            }
+          },
+          {
+            "model_id": "delta_local_event_to_settled_precedent",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ك ل ل",
+              "ء خ ذ",
+              "ق د ر",
+              "ب ر ء",
+              "ز ب ر",
+              "ه ز م"
+            ],
+            "mechanism": "After the Lot episode, the sequence restarts with Pharaoh's warnings, total rejection, and overpowering seizure, then tests the present audience for a written exemption before announcing defeat. This recurrence expands the focus settlement from one locality into a procedurally stable precedent.",
+            "activation_trace": [
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixed stability lets the local outcome serve as a durable pattern across the following cases."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B007",
+                "role": "Establishing a matter as acknowledged fact gives the event the force of precedent."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warnings arriving in the next historical case restart the same caution-to-outcome procedure."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "The image of complete inclusion makes the rejection exhaustive before seizure follows."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Being taken to account for guilt supplies the judicial transition from rejected signs to consequence."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effective capacity explains why the repeated procedure reaches its announced outcome."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B002",
+                "role": "The image of acquittal and separation frames the audience's question as a search for exception from the precedent."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and books supply the imagined documentary location of such an exemption."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "Breaking and repelling a battle line supplies the projected outcome when no exemption interrupts the pattern."
+              }
+            ],
+            "structural_cues": [
+              "The window moves from Lot in 54:33-40 to Pharaoh in 54:41-42 and then directly addresses the present group in 54:43-45.",
+              "Each movement retains the warning-rejection-consequence sequence while changing its historical subject."
+            ],
+            "reader_inference": "The packet supplies successive cases, exhaustive rejection, punitive taking, a challenge about written acquittal, and projected defeat; I infer that the focus's settlement also names a stable precedent. A live alternative is rhetorical juxtaposition of separate examples without semantic pressure on مُّسْتَقِرٌّ.",
+            "changed_reading": {
+              "before": "A stable punishment belonged to Lot's people alone.",
+              "after": "Their dawn outcome settles into a precedent: warning rejected without exemption repeatedly matures into an effectuated sentence across groups."
+            }
+          },
+          {
+            "model_id": "delta_dawn_raid_breaks_collective",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ج م ع",
+              "ن ص ر",
+              "ه ز م",
+              "و ل ي",
+              "د ب ر"
+            ],
+            "mechanism": "The focus branch of a morning raid is activated by the later boast of a united victorious body and the immediate image of its battle line breaking and turning its back. The morning punishment can therefore be carried as a tactical reversal that converts collective confidence into collective rout.",
+            "activation_trace": [
+              {
+                "source_ref": "54:38",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B004",
+                "role": "The literal image of a morning raid supplies the tactical frame for punishment's dawn arrival."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B007",
+                "role": "The image of a group coming all together or in succession makes the dawn impact collective."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixing in place makes rout the installed outcome of the tactical reversal."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Gathering dispersed members into one body supplies the formation that imagines itself secure."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid that produces visible victory supplies the collective's claimed expectation."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "Breaking and repelling the battle line reverses the claim of collective victory."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the movement by which the broken formation becomes a rout."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B001",
+                "role": "The literal back makes the rout bodily visible and completes the raid image."
+              }
+            ],
+            "structural_cues": [
+              "54:44's first-person collective boast is overturned immediately by 54:45's passive defeat and exposed backs."
+            ],
+            "reader_inference": "The packet supplies a focus branch explicitly associated with morning raids and a later claim-to-rout battle sequence; I infer backward resonance from that projected rout onto the focus dawn. The live alternative is that the later battle scene concerns a distinct audience and should not color the Lot episode.",
+            "changed_reading": {
+              "before": "Punishment simply arrived early and remained.",
+              "after": "The dawn arrival also evokes a surprise raid: a self-secure collectivity is caught together, its formation reversed into rout, and that reversal made fixed."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_anti_morning_draught",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it coordinates remote beverage, sweetness, pouring, and sediment branches rather than the direct senses of the surface forms. It remains anchored in three focus roots and in the flanking commands to taste; downstream prose should present it only as an exploratory material analogy, never as the lexical translation.",
+            "focus_anchor": "صَبَّحَهُم بُكْرَةً عَذَابٌ مُّسْتَقِرٌّ",
+            "activation_trace": [
+              {
+                "source_ref": "54:38",
+                "root": "ص ب ح",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000839",
+                "branch_id": "B003",
+                "role": "The literal morning drink or feed supplies an expected first-light portion that can be inverted."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B001",
+                "role": "The first-morning image fixes the imagined serving time of that inverted portion."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B001",
+                "role": "Sweet potable water supplies the refreshment whose expectation the punitive noun reverses."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful punishment performs the reversal from a sweet morning portion to an afflictive one."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B005",
+                "role": "Pouring at once into a vessel gives the punitive portion a material mode of delivery."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B006",
+                "role": "What settles at the bottom supplies the residue image for a punishment that remains after delivery."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B001",
+                "role": "Literal tasting immediately before the focus makes the imagined punitive portion sensorially available."
+              },
+              {
+                "source_ref": "54:39",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B001",
+                "role": "Repeated literal tasting after the focus encloses the morning portion within an ingestion frame."
+              }
+            ],
+            "changed_reading": {
+              "before": "They received a lasting punishment in the morning.",
+              "after": "As a contained material analogy, the verse offers an anti-morning draught: punishment replaces sweetness, is served to be tasted, and settles as residue rather than refreshment."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Predawn rescue and dawn punishment form a selective temporal sorting process rather than unrelated timestamps.",
+            "The focus is bracketed by commands to taste, so settlement turns disputed warning into fixed experiential fact.",
+            "The move from Lot to Pharaoh to the addressed collective lets the local dawn outcome function as a stable precedent."
+          ],
+          "what_was_special": "The doubled dawn marking and the stable predicate make 54:38 a hinge: it closes a predawn separation, materializes a warning between repeated taste commands, and then remains available as the pattern for later groups.",
+          "remaining_uncertainties": [
+            "The epistemic force from the acknowledgment branch of ق ر ر may be activation rather than a direct sense of مُّسْتَقِرٌّ.",
+            "The dawn-raid model depends on allowing 54:44-45 to resonate backward across a change of historical subject.",
+            "The anti-morning-draught model is a branch-driven analogy and should not be promoted to lexical equivalence."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Early arrival becomes settled consequence.** `ص ب ح` B002 is coming in the morning and B004 a morning raid/alarm; `ب ك ر` B001 is early morning; `ع ذ ب` B005 is punishment; `ق ر ر` B003 is settling and remaining fixed. The first two roots compress arrival into the day’s opening, while the last marks the outcome as no longer movable. I infer a temporal transformation from sudden onset to durable state. The punishment reads as both an early assault and the settlement promised by 54:3’s `كُلُّ أَمْرٍ مُّسْتَقِرٌّ`.\n\n2. **`مُّسْتَقِرٌّ` can mark fixed destination and continuing residence.** `ق ر ر` B003 includes both settling and remaining. The event “comes upon them” in the morning but is then described as settled. I infer that arrival and persistence are distinct phases: what reaches them takes up residence as their outcome. This preserves terminal placement and duration without collapsing them.",
@@ -3681,18 +4402,23 @@
   "root_lexicon": {
     "root_000839": {
       "root_ar": "ص ب ح",
+      "qac_roots_ar": [
+        "ص ب ح"
+      ],
       "root_id": "root_000839",
-      "root_mapping": {
-        "root_id": "root_000839",
-        "root_norm": "ص ب ح",
-        "source_root_norm": "ص ب ح",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 41,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ب ح",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 41
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "79f4ab81190461f4fad3d37979c21799ac1dc6b1f59d732ca7b330d7d27ff90f",
         "branches": [
@@ -5175,18 +5901,23 @@
     },
     "root_000143": {
       "root_ar": "ب ك ر",
+      "qac_roots_ar": [
+        "ب ك ر"
+      ],
       "root_id": "root_000143",
-      "root_mapping": {
-        "root_id": "root_000143",
-        "root_norm": "ب ك ر",
-        "source_root_norm": "ب ك ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 10,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ك ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 10
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "d052a932810c215e0f57257627c18e8bd7cf7d3b58e92efd6e23980f4a873608",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7548,18 +8279,23 @@
     },
     "root_000994": {
       "root_ar": "ع ذ ب",
+      "qac_roots_ar": [
+        "ع ذ ب"
+      ],
       "root_id": "root_000994",
-      "root_mapping": {
-        "root_id": "root_000994",
-        "root_norm": "ع ذ ب",
-        "source_root_norm": "ع ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 372,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 372
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "51108e6a196357bcef2fb095a8013cd0b5662aeca84ff34a23472408615bc073",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10645,18 +11381,23 @@
     },
     "root_001215": {
       "root_ar": "ق ر ر",
+      "qac_roots_ar": [
+        "ق ر ر"
+      ],
       "root_id": "root_001215",
-      "root_mapping": {
-        "root_id": "root_001215",
-        "root_norm": "ق ر ر",
-        "source_root_norm": "ق ر ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 38,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ق ر ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 38
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "84a44cfebfb30b5cc9890d9d391d1c01cff93fa86915f28349f4786138ca6eeb",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14580,14 +15321,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -14855,11 +15602,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_38.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_38.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 103216,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -14933,19 +15693,37 @@
           "root_ids": [
             "root_000839"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ب ح",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000839",
+            "targets": [
+              {
+                "qac_root_norm": "ص ب ح",
+                "target_rank": 1,
+                "furuq_root_id": "root_000839",
+                "furuq_root_norm": "ص ب ح",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 41,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000839",
-              "root_norm": "ص ب ح",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ب ح",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 41,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -14957,19 +15735,37 @@
           "root_ids": [
             "root_000143"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ك ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000143",
+            "targets": [
+              {
+                "qac_root_norm": "ب ك ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000143",
+                "furuq_root_norm": "ب ك ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 10,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000143",
-              "root_norm": "ب ك ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ك ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 10,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14994,19 +15790,37 @@
           "root_ids": [
             "root_000994"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000994",
+            "targets": [
+              {
+                "qac_root_norm": "ع ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000994",
+                "furuq_root_norm": "ع ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 372,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000994",
-              "root_norm": "ع ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 372,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15031,19 +15845,37 @@
           "root_ids": [
             "root_001215"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ق ر ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001215",
+            "targets": [
+              {
+                "qac_root_norm": "ق ر ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001215",
+                "furuq_root_norm": "ق ر ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 38,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001215",
-              "root_norm": "ق ر ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ق ر ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 38,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 15,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15070,10 +15902,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 41,
+        "dictionary_branches_kept": 41,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 31,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.815096+00:00",
+  "generated_at": "2026-08-04T22:29:59.138088+00:00",
   "surah": 56,
   "ayah": 28,
   "ayahRef": "56:28",
@@ -973,7 +973,8 @@
       "morpheme_ids": [
         "m-w-s056-a028-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:28:1"
+      "aligned_qac_word_ref_upstream": "56:28:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -987,7 +988,8 @@
       "morpheme_ids": [
         "m-w-s056-a028-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:28:2"
+      "aligned_qac_word_ref_upstream": "56:28:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1001,7 +1003,8 @@
       "morpheme_ids": [
         "m-w-s056-a028-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:28:3"
+      "aligned_qac_word_ref_upstream": "56:28:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1358,7 +1361,669 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_28.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:28",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:28",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_safe_access",
+            "confidence": "strong",
+            "focus_anchor": "The adjective rooted in خ ض د directly modifies the sidr noun inside the locative phrase.",
+            "mechanism": "The modification removes or blunts the plant's injurious points while leaving the plant available for approach and contact.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "This branch makes neutralization of thorns or sharpness the adjective's concrete operation on the sidr."
+              }
+            ],
+            "changed_reading": {
+              "before": "A place containing sidr described by an otherwise unresolved adjective.",
+              "after": "A sidr whose dangerous contact points have been intentionally neutralized, making nearness safe."
+            }
+          },
+          {
+            "model_id": "base_pliant_canopy",
+            "confidence": "medium",
+            "focus_anchor": "The noun rooted in س د ر and its خ ض د adjective can both carry non-severing spatial movement.",
+            "mechanism": "A hanging or trailing form combines with pliant bending that does not break apart, yielding a bowed living cover rather than damaged vegetation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "س د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000688",
+                "branch_id": "B004",
+                "role": "The branch's hanging-cloth or trailing-hair image supplies a draped spatial profile."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B001",
+                "role": "Pliant bending without complete fracture supplies the way that profile is formed."
+              }
+            ],
+            "changed_reading": {
+              "before": "Makhdud suggests vegetation that has simply been cut or damaged.",
+              "after": "The sidr is supplely bowed and draped into cover while its continuity remains intact."
+            }
+          },
+          {
+            "model_id": "base_softened_perception",
+            "confidence": "exploratory",
+            "focus_anchor": "The س د ر inventory includes disturbed or veiled sight, while خ ض د includes loss of an edge.",
+            "mechanism": "Visual sharpness and tactile sharpness are jointly reduced, so the phrase can register a softened sensory field as well as a botanical object.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "س د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000688",
+                "branch_id": "B003",
+                "role": "The visual branch permits sidr to mark haze, weakened sight, or perceptual bewilderment."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "The loss of a cutting edge extends softening from vision to bodily contact."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase reports only a kind and condition of vegetation.",
+              "after": "The phrase also evokes an environment in which glare, edges, and sensory harshness are subdued."
+            }
+          },
+          {
+            "model_id": "base_tender_harvest",
+            "confidence": "exploratory",
+            "focus_anchor": "The adjective's خ ض د branches include handling, cutting, and eating moist tender material.",
+            "mechanism": "Makhdud can profile the sidr as succulent and hand-harvestable, with tenderness rather than thorn-removal carrying the description.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B003",
+                "role": "The branch supplies the manual cutting of fresh, moist growth."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B004",
+                "role": "The eating branch makes tenderness and ready consumption part of the possible mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "The adjective marks only safety from thorns.",
+              "after": "The adjective may instead mark tender growth prepared for immediate hand-harvest and eating."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "ctx_hospitable_allotment",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن"
+            ],
+            "mechanism": "The repeated companion-and-right frame turns physical de-thorning into hospitality: a protected cohort is given a setting whose points of injury have already been removed.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Removal of sharpness supplies the concrete preparation that makes the place hospitable."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship identifies the setting with an abiding cohort rather than an isolated observer."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessedness assigns a favorable value to the cohort and its prepared environment."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B002",
+                "role": "Protective accompaniment at the list's return reinforces care as the environment's social function."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "The right-side branch adds strength and entitlement to the cohort's relation to the provision."
+              }
+            ],
+            "structural_cues": [
+              "56:27 names the cohort before the landscape and 56:38 repeats the designation after the provision sequence, forming a social bracket."
+            ],
+            "reader_inference": "The packet supplies companionship, favor, protection, and de-thorning; I infer that the alteration serves the bracketed cohort. The live alternative is that the cohort label and plant condition are associated but not purposively linked.",
+            "changed_reading": {
+              "before": "A physically harmless tree stands as an unassigned scenic object.",
+              "after": "The harmless sidr is prepared hospitality, a protected allotment fitted to the companions framed around it."
+            }
+          },
+          {
+            "model_id": "ctx_subtractive_additive_order",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ط ل ح",
+              "ن ض د"
+            ],
+            "mechanism": "The adjacent plant pair presents complementary operations: sharpness is subtracted from the sidr, while neighboring plant matter is joined into ordered density. Safety and fullness are designed together.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "This supplies the subtractive operation: dangerous points are removed or blunted."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "A second plant supplies the parallel material on which the neighboring operation acts."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Orderly joining supplies the additive operation, producing coherent abundance rather than clutter."
+              }
+            ],
+            "structural_cues": [
+              "56:28 and 56:29 are adjacent plant-plus-passive-adjective phrases, and the rhyming adjectives invite operational comparison."
+            ],
+            "reader_inference": "The packet supplies de-thorning, a second plant, and ordered joining; I infer a coordinated subtractive/additive design. The alternative is a catalogue of independent plant conditions with no shared production logic.",
+            "changed_reading": {
+              "before": "The sidr is a single tree made safe.",
+              "after": "The sidr is one half of a curated system: harm is removed here while abundance is densely ordered beside it."
+            }
+          },
+          {
+            "model_id": "ctx_continuous_canopy_flow",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ظ ل ل",
+              "م د د",
+              "م و ه",
+              "س ك ب"
+            ],
+            "mechanism": "Pliantly bowed, hanging sidr is activated as an overhead form; extended shade and delivered, pouring water then turn that form into a continuous shelter-and-flow environment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "س د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000688",
+                "branch_id": "B004",
+                "role": "The draping branch gives the sidr an overhanging profile capable of becoming cover."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B001",
+                "role": "Non-severing pliancy provides a way for the cover to bend into place without being destroyed."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B003",
+                "role": "The overhead-cover branch identifies the spatial result of the bowed vegetation."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Lengthening until connection turns local cover into an uninterrupted span."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Conveyed water supplies servicing and refreshment within the covered space."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B001",
+                "role": "Pouring supplies the downward motion that links the static canopy to active circulation."
+              }
+            ],
+            "structural_cues": [
+              "The sequence 56:28-31 advances through similarly shaped indefinite noun-adjective units from vegetation to shade to water."
+            ],
+            "reader_inference": "The packet supplies pliant draping, overhead shade, extension, water delivery, and pouring; I infer that the sidr participates in one connected microenvironment. The alternative is that shade and water are independent amenities rather than effects or partners of the vegetation.",
+            "changed_reading": {
+              "before": "A supple sidr forms only a local botanical canopy.",
+              "after": "The bowed sidr opens a continuous zone of overhead shelter and moving refreshment, functioning as environmental infrastructure."
+            }
+          },
+          {
+            "model_id": "ctx_selective_not_destructive",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ك ه",
+              "ك ث ر",
+              "ق ط ع",
+              "م ن ع"
+            ],
+            "mechanism": "The focus adjective's live possibility of cutting moist growth is checked by abundant fruit that is neither ended nor barred. The intervention becomes selective preparation: remove injury, preserve yield, and eliminate temporal and social obstruction.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B003",
+                "role": "Fresh cutting supplies the potentially destructive baseline that the later negations force into revision."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "De-thorning supplies a selective intervention that can remove harm without ending productivity."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Edible fruit identifies yield as the material preserved by the intervention."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Numerical increase makes the preserved yield abundant rather than merely surviving."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Under negation, cessation and ending are explicitly excluded from the fruit's availability."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "Under negation, a barrier between recipient and desired provision is also excluded."
+              }
+            ],
+            "structural_cues": [
+              "Abundance in 56:32 is followed by the paired negation 'not ended and not withheld' in 56:33."
+            ],
+            "reader_inference": "The packet supplies moist cutting, de-thorning, abundant fruit, and two negated restrictions; I infer selective rather than destructive cultivation. The alternative is that the fruit clauses describe a separate item and do not constrain makhdud.",
+            "changed_reading": {
+              "before": "Makhdud may mean that tender growth has been cut or consumed.",
+              "after": "Makhdud marks careful removal of harm without interruption of yield; provision remains plentiful, continuous, and unobstructed."
+            }
+          },
+          {
+            "model_id": "ctx_restorative_transformation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ش ء",
+              "ج ع ل",
+              "ب ك ر"
+            ],
+            "mechanism": "Later creation and state-making reactivate the non-breaking خ ض د branch: the sidr's altered condition can be read as deliberate renewal into a pristine usable state, not mutilation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B001",
+                "role": "Bending without complete fracture supplies continuity through alteration."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Fresh bringing-into-being supplies a restorative production process."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Transformation into a specified condition supplies deliberate state assignment."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B002",
+                "role": "Firstness supplies the pristine or newly begun endpoint of transformation."
+              }
+            ],
+            "structural_cues": [
+              "56:35 emphatically repeats the creation root, and 56:36 follows with a result-marking making clause."
+            ],
+            "reader_inference": "The packet supplies non-breaking alteration followed later by creation, making, and firstness; I infer a feedback analogy of restorative transformation. The live alternative is strong: the later feminine pronouns may govern a different referent, leaving no direct botanical remaking.",
+            "changed_reading": {
+              "before": "The sidr has undergone a merely subtractive cut or bend.",
+              "after": "The sidr appears intentionally reconditioned into a pristine, usable form while its living continuity is preserved."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_textile_architecture",
+            "confidence": "medium",
+            "containment": "This is surprising because it crosses from botany into textiles and furnishing, but it remains anchored in the focus noun's draping branch and adjective's non-breaking bend, then gains spatial support from spread-and-raised furnishings. Render it only as an exploratory architectural resonance, not as a replacement lexical translation.",
+            "focus_anchor": "The س د ر noun can evoke hanging cloth, and the خ ض د adjective can evoke pliant bending without severance.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "س د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000688",
+                "branch_id": "B004",
+                "role": "The draped-material image lets the vegetation outline a hanging enclosure."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B001",
+                "role": "Pliant shaping allows the enclosure to be formed without a broken frame."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and preparing a surface supplies the horizontal furnishing operation."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Elevation supplies the vertical operation that completes a furnished enclosure."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus depicts only vegetation occupying a place.",
+              "after": "The sidr tentatively reads as draped spatial architecture, shaped into the upper fabric of a furnished habitat."
+            }
+          },
+          {
+            "outlier_id": "outlier_equal_access_across_cohorts",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain transfer from physical de-thorning to social debarriering. It remains anchored in the focus operation and is activated by affection, peer equality, gathered groups, and the first/later pairing; downstream prose should call it a social analogy, never the direct sense of makhdud.",
+            "focus_anchor": "The خ ض د adjective supplies removal of an obstructive or injurious edge from the sidr.",
+            "activation_trace": [
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Physical de-thorning provides the anchored operation later transferred analogically to social access."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B005",
+                "role": "Affection supplies a non-hostile relation among those inhabiting the prepared setting."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "Peer equality supplies the leveling dimension of the social analogy."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The gathered-group branch scales access from individuals to a collective."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence identify one temporal edge of the included collectives."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Succession supplies continuity from one collective to another rather than a closed first group."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "Repetition of the gathered group confirms that collectivity exists on both temporal sides."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the second temporal edge, extending the analogy beyond the first cohort."
+              }
+            ],
+            "changed_reading": {
+              "before": "De-thorning changes only the physical contact between a person and a plant.",
+              "after": "Exploratorily, the de-thorned sidr figures a hospitable field stripped of rank-like injury or exclusion for equal successive cohorts."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The adjacent ordered plant turns de-thorning into the subtractive half of a coordinated design that adds density elsewhere.",
+            "Extended shade and poured water activate the pliantly bent sidr as part of a continuous shelter-and-flow environment.",
+            "Abundant fruit that is neither ended nor withheld revises cutting into selective harm-removal that preserves unrestricted yield.",
+            "The repeated companion-and-right frame recasts the prepared sidr as hospitality assigned to a protected cohort."
+          ],
+          "what_was_special": "The focus inventory offered no ordinary tree branch for س د ر, so its draping, perceptual, and movement images had to interact with the unusually concrete خ ض د operations. The neighboring passive-adjective sequence then exposed a production logic: bend without breaking, subtract danger, add order, extend cover, deliver water, and preserve access.",
+          "remaining_uncertainties": [
+            "The shade, water, and fruit clauses may be independent catalogue items rather than effects or constraints on the focus vegetation.",
+            "The later creation-and-making sequence may concern a different referent, making its restorative feedback onto the sidr analogical only.",
+            "The perceptual, textile, and social readings are branch-anchored but remain more form-distant than the de-thorning model."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Growth made accessible by removing what wounds.** `خ ض د` **B002** supplies removing or breaking off thorns and **B003** clipping wet green growth. In the following sequence of stacked produce, extended shade, and unblocked fruit, pruning has the role of eliminating injury without eliminating fertility. **Abductive move:** the packet supplies the participle and abundant provision; I infer selective removal rather than destruction. **Reading change:** the tree is cultivated into harmless accessibility.\n\n2. **Bewilderment itself is pruned away.** The fixed `سدر` activates `س د ر` **B002**, bewilderment and disturbed judgment, beside `خ ض د` **B001**, bending without a clean break. **Abductive move:** I infer an exploratory cognitive image from the root branch: what would disturb judgment is rendered pliant and non-injurious. **Reading change:** the scene can also signal an environment from which cognitive disturbance has been removed.",
@@ -2223,18 +2888,23 @@
   "root_lexicon": {
     "root_000688": {
       "root_ar": "س د ر",
+      "qac_roots_ar": [
+        "س د ر"
+      ],
       "root_id": "root_000688",
-      "root_mapping": {
-        "root_id": "root_000688",
-        "root_norm": "س د ر",
-        "source_root_norm": "س د ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س د ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3f4010515ac8d852de90f68ac91d79836877718b5d1cfcb74809768b47769f7b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4211,18 +4881,23 @@
     },
     "root_000417": {
       "root_ar": "خ ض د",
+      "qac_roots_ar": [
+        "خ ض د"
+      ],
       "root_id": "root_000417",
-      "root_mapping": {
-        "root_id": "root_000417",
-        "root_norm": "خ ض د",
-        "source_root_norm": "خ ض د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ض د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "d5003167c564d29636f66da58723ed08b87a94e2edb7c0fb70299ae3db4ff615",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6087,14 +6762,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6380,11 +7061,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_28.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_28.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 69539,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6457,19 +7151,37 @@
           "root_ids": [
             "root_000688"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س د ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000688",
+            "targets": [
+              {
+                "qac_root_norm": "س د ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000688",
+                "furuq_root_norm": "س د ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000688",
-              "root_norm": "س د ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س د ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6494,19 +7206,37 @@
           "root_ids": [
             "root_000417"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ض د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000417",
+            "targets": [
+              {
+                "qac_root_norm": "خ ض د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000417",
+                "furuq_root_norm": "خ ض د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000417",
-              "root_norm": "خ ض د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ ض د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6533,10 +7263,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 13,
+        "dictionary_branches_kept": 13,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 13,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

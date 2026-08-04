@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T07:26:05.282744+00:00",
+  "generated_at": "2026-08-04T22:29:25.676602+00:00",
   "surah": 18,
   "ayah": 100,
   "ayahRef": "18:100",
@@ -2275,7 +2275,8 @@
       "morpheme_ids": [
         "m-w-s018-a100-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:100:1"
+      "aligned_qac_word_ref_upstream": "18:100:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2291,7 +2292,8 @@
         "m-w-s018-a100-w001-02",
         "m-w-s018-a100-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "18:100:2"
+      "aligned_qac_word_ref_upstream": "18:100:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2305,7 +2307,8 @@
       "morpheme_ids": [
         "m-w-s018-a100-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:100:3"
+      "aligned_qac_word_ref_upstream": "18:100:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2319,7 +2322,8 @@
       "morpheme_ids": [
         "m-w-s018-a100-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:100:4"
+      "aligned_qac_word_ref_upstream": "18:100:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2333,10 +2337,25 @@
       "morpheme_ids": [
         "m-w-s018-a100-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "18:100:5"
+      "aligned_qac_word_ref_upstream": "18:100:5",
+      "morpheme_skip_count": 0
     },
     null,
-    null
+    {
+      "word_index": 6,
+      "surface_ar": "عَرْضًا",
+      "word_ids": [
+        "w-s018-a100-w005"
+      ],
+      "qac_refs": [
+        "18:100:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s018-a100-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "18:100:7",
+      "morpheme_skip_count": 2
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -2849,7 +2868,634 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s18/packets/18_100.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "18:100",
+      "window": [
+        "18:99",
+        "18:100",
+        "18:101",
+        "18:102",
+        "18:103",
+        "18:104",
+        "18:105",
+        "18:106",
+        "18:107",
+        "18:108",
+        "18:109",
+        "18:110"
+      ],
+      "ayah_count": 12,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "18:100",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_forced_uncovering",
+            "confidence": "strong",
+            "focus_anchor": "The cognate pair عرضنا ... عرضا at words 1 and 5 presents جهنم specifically to الكافرين at word 4.",
+            "mechanism": "The display branch of عرض and the covering branch of كفر form a reversal: the named coverers become recipients of an emphatic making-visible.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B002",
+                "role": "Displaying and bringing something out for sight supplies the explicit unveiling action; the verb and verbal noun make that action emphatic."
+              },
+              {
+                "source_ref": "18:100",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B001",
+                "role": "Covering supplies the recipients' defining image and makes their forced exposure a reversal rather than a neutral viewing."
+              }
+            ],
+            "changed_reading": {
+              "before": "Hell is shown to disbelievers.",
+              "after": "The showing is a forced uncovering calibrated to people characterized by covering."
+            }
+          },
+          {
+            "model_id": "b2_blocking_confrontation",
+            "confidence": "exploratory",
+            "focus_anchor": "The repeated عرض construction governs Hell as the object placed before the recipients.",
+            "mechanism": "The interception branch of عرض lets confrontation accompany visibility: Hell is set across the route of continued evasion, while كفر as obstruction of truth explains what is being terminated.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B004",
+                "role": "Interposition, obstruction, and encounter in a path supply the form-distant image of Hell placed across further escape."
+              },
+              {
+                "source_ref": "18:100",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Obstruction and denial of truth supply the evasion that the confronting placement ends."
+              }
+            ],
+            "changed_reading": {
+              "before": "Hell is a scene offered to view.",
+              "after": "Hell is also a confronting barrier placed before those whose truth-blocking can no longer continue."
+            }
+          },
+          {
+            "model_id": "b3_horizon_front",
+            "confidence": "medium",
+            "focus_anchor": "عرضنا ... عرضا can activate the branch of something becoming visible from a direction while still naming an act of display.",
+            "mechanism": "The directional apparition branch of عرض and the engulfing-cover branch of كفر turn the scene into a horizon-filling front emerging against an audience habituated to enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B003",
+                "role": "An apparition approaching from a direction, like a cloud, swarm, or mountain filling sight, supplies the scale and frontal arrival."
+              },
+              {
+                "source_ref": "18:100",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B002",
+                "role": "An engulfing cover such as night or a vast sea supplies the field of enclosure against which the apparition becomes overwhelming."
+              }
+            ],
+            "changed_reading": {
+              "before": "A bounded object is displayed before an audience.",
+              "after": "Hell comes on as an overwhelming front that occupies the viewers' horizon."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1_assembled_exposure",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ج",
+              "ج م ع"
+            ],
+            "mechanism": "Turbulent interpenetration is compressed into one gathered totality immediately before the display, so the recipients are not merely a plural class but a deliberately assembled audience.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B002",
+                "role": "The emphatic act of display supplies the second stage of the sequence: the assembled body is made to see."
+              },
+              {
+                "source_ref": "18:99",
+                "root": "م و ج",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001455",
+                "branch_id": "B001",
+                "role": "Intermingled turbulence supplies the dispersed and unstable condition from which the audience is formed."
+              },
+              {
+                "source_ref": "18:99",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "10",
+                  "11"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining what was scattered into one collected thing supplies the staging operation before exposure."
+              }
+            ],
+            "structural_cues": [
+              "18:99 moves from reciprocal بعضهم ... في بعض to جمعناهم جمعا, followed immediately by 18:100's عرضنا ... عرضا.",
+              "The adjacent verb-plus-verbal-noun constructions make gathering and display read as consecutive totalizing operations."
+            ],
+            "reader_inference": "The packet supplies turbulence, emphatic gathering, then emphatic display; I infer that gathering stages one audience for exposure. A live alternative is that the clauses only list separate resurrection events.",
+            "changed_reading": {
+              "before": "A plural class happens to see Hell.",
+              "after": "A dispersed, turbulent mass is deliberately consolidated into one audience and then exposed to Hell as a total body."
+            }
+          },
+          {
+            "model_id": "d2_sensory_reversal",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ي ن",
+              "غ ط و",
+              "ذ ك ر",
+              "س م ع"
+            ],
+            "mechanism": "The next ayah specifies covered eyes, distance from remembrance, and failed hearing. That sequence turns the display into a compulsory sensory disclosure aimed at the channels through which prior disclosure did not enter.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B002",
+                "role": "Visible presentation supplies the disclosure now directed at the recipients."
+              },
+              {
+                "source_ref": "18:100",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B001",
+                "role": "Covering supplies the focus ayah's latent description of the recipients and is made concrete by the following ocular cover."
+              },
+              {
+                "source_ref": "18:101",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B002",
+                "role": "Direct seeing supplies the sensory capacity that the cover had prevented and that the display now addresses."
+              },
+              {
+                "source_ref": "18:101",
+                "root": "غ ط و",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001095",
+                "branch_id": "B001",
+                "role": "A literal covering over the eyes concretizes the concealment that the displayed object reverses."
+              },
+              {
+                "source_ref": "18:101",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall after or against forgetting supplies the prior content from which covered vision had been turned away."
+              },
+              {
+                "source_ref": "18:101",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "Literal hearing supplies the alternate intake channel explicitly marked as unavailable."
+              }
+            ],
+            "structural_cues": [
+              "The relative clause in 18:101 directly defines the الكافرين who receive the display in 18:100.",
+              "Sight under a cover and inability to hear follow a verse whose governing action is visual presentation."
+            ],
+            "reader_inference": "The packet supplies a displayed object, covered eyes, distance from remembrance, and unavailable hearing; I infer a corrective shift from mediated reception to unavoidable sight. Alternatively, 18:101 may only describe the recipients without assigning a corrective function to the display.",
+            "changed_reading": {
+              "before": "Hell is generally made visible as punishment.",
+              "after": "What could not enter through covered sight or hearing is converted into an unavoidable visual address."
+            }
+          },
+          {
+            "model_id": "d3_counter_hospitality",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ت د",
+              "ن ز ل",
+              "ج ن ن",
+              "خ ل د",
+              "ح و ل"
+            ],
+            "mechanism": "Hell and the gardens are each called prepared reception for their respective groups, while the garden is sheltered and permanent. The display therefore functions as a threshold presentation into an assigned reception, not only as a spectacle.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B002",
+                "role": "Presentation supplies the threshold at which the punitive reception is made immediately present."
+              },
+              {
+                "source_ref": "18:100",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B001",
+                "role": "Covering supplies the irony that those defined by concealment receive exposed Hell rather than the garden's shelter."
+              },
+              {
+                "source_ref": "18:102",
+                "root": "ع ت د",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000978",
+                "branch_id": "B001",
+                "role": "Something present and readied supplies deliberate preparation of the punitive reception."
+              },
+              {
+                "source_ref": "18:102",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Provision prepared for one who arrives supplies the ironic hospitality register for Hell."
+              },
+              {
+                "source_ref": "18:107",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden sheltered by its trees supplies the protected counterpart to exposed Hell."
+              },
+              {
+                "source_ref": "18:107",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "The repeated prepared-reception image makes the garden and Hell formally opposed accommodations."
+              },
+              {
+                "source_ref": "18:108",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Stable continuance supplies the permanence of the positive reception."
+              },
+              {
+                "source_ref": "18:108",
+                "root": "ح و ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000373",
+                "branch_id": "B001",
+                "role": "Change from one condition to another supplies the transfer that the garden's inhabitants do not seek."
+              }
+            ],
+            "structural_cues": [
+              "18:102 says جهنم للكافرين نزلا, while 18:107 says جنات الفردوس نزلا.",
+              "The identical closing noun assigns opposed receptions; 18:108 then denies any desire to transfer from the garden."
+            ],
+            "reader_inference": "The packet supplies prepared Hell, mirrored نزلا labels, a sheltered garden, permanence, and no sought transfer; I infer that display introduces an assigned reception. A live alternative is that نزلا marks provision or destination without a developed hospitality scene.",
+            "changed_reading": {
+              "before": "Hell is revealed before punishment.",
+              "after": "Hell is presented as the prepared reception of the coverers, opposite the sheltered and unexchanged reception of the faithful."
+            }
+          },
+          {
+            "model_id": "d4_audit_countervalue",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ س ر",
+              "ق و م",
+              "و ز ن",
+              "ج ز ي"
+            ],
+            "mechanism": "The sequence of trading loss, failed valuation, absent weight, and recompense activates عرض as goods or substitute. Hell becomes the countervalue displayed when confidently appraised works prove weightless.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B008",
+                "role": "Worldly goods, a substitute, or an allotted share supplies the exchange register within the emphatic presentation."
+              },
+              {
+                "source_ref": "18:103",
+                "root": "خ س ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000409",
+                "branch_id": "B002",
+                "role": "Commercial loss supplies the failed-return frame for the works under review."
+              },
+              {
+                "source_ref": "18:105",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "10",
+                  "13"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B010",
+                "role": "Valuation and pricing supply the denied act of assigning worth to their works."
+              },
+              {
+                "source_ref": "18:105",
+                "root": "و ز ن",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001645",
+                "branch_id": "B001",
+                "role": "Estimating by weight supplies the metric whose result is explicitly absent."
+              },
+              {
+                "source_ref": "18:106",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Answering an act with its recompense supplies the settlement that links failed works to Hell."
+              }
+            ],
+            "structural_cues": [
+              "18:103 names the greatest losers in works; 18:104 says they thought their making good; 18:105 voids the works and denies them weight; 18:106 names Hell their recompense.",
+              "The work-assessment sequence follows the initial display and repeatedly shifts from self-estimate to imposed valuation."
+            ],
+            "reader_inference": "The packet supplies commercial loss, denied valuation and weight, then recompense; I infer that Hell is the displayed return or countervalue at settlement. Alternatively, the commodity branch of عرض may be lexical resonance while the primary scene remains visual.",
+            "changed_reading": {
+              "before": "Hell is displayed as the consequence of disbelief.",
+              "after": "Hell is the countervalue brought forward when the recipients' apparently successful works are audited down to no weight."
+            }
+          },
+          {
+            "model_id": "d5_sign_becomes_exhibit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ي ي",
+              "ر س ل",
+              "ه ز ء"
+            ],
+            "mechanism": "Visible signs and transmitted messages had remained mockable at a distance. The direct display of Hell converts mediated warning into an immediate exhibit whose referent and sign can no longer be separated.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B002",
+                "role": "Bringing something out for direct sight supplies the terminal exhibit."
+              },
+              {
+                "source_ref": "18:100",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Denial and obstruction of truth supply the failed response to prior mediation."
+              },
+              {
+                "source_ref": "18:106",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign supplies the earlier visible evidence whose force was rejected."
+              },
+              {
+                "source_ref": "18:106",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message supply the mediated warning channel."
+              },
+              {
+                "source_ref": "18:106",
+                "root": "ه ز ء",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001587",
+                "branch_id": "B001",
+                "role": "Mockery supplies the distancing response that an immediate exhibit removes."
+              }
+            ],
+            "structural_cues": [
+              "18:106 coordinates the taking of signs and messengers as mockery after 18:100 has already made Hell directly visible.",
+              "The focus ayah uses presentation rather than reported speech, while the later causal clause names rejected sign and messenger media."
+            ],
+            "reader_inference": "The packet supplies direct display plus mocked signs and messengers; I infer a shift from mediated warning to immediate exhibit. A live alternative is that display and mockery are linked only as punishment and cause, without a communication-mode reversal.",
+            "changed_reading": {
+              "before": "Hell is shown as a penalty after rejected warnings.",
+              "after": "Hell itself becomes the terminal sign: warning is no longer carried by a messenger but made present as its own referent."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_cross_axis_breadth",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it lets the later sea-and-ink analogy activate the width branch inside a focus form whose ordinary local force is display. It remains anchored in the repeated عرض root and in 18:109's explicit breadth, extension, and exhaustion images. Downstream prose should treat it as a spatial echo and must not translate عرضا straightforwardly as width.",
+            "focus_anchor": "The repeated عرض at focus words 1 and 5 can carry a subordinate width-versus-length image while retaining the act of presentation.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B001",
+                "role": "Width opposed to length supplies a lateral dimension latent in the repeated focus root."
+              },
+              {
+                "source_ref": "18:109",
+                "root": "ب ح ر",
+                "source_word_indices": [
+                  "4",
+                  "9"
+                ],
+                "mapped_root_id": "root_000086",
+                "branch_id": "B002",
+                "role": "The sea's breadth and spread supply the scale of a full visual field."
+              },
+              {
+                "source_ref": "18:109",
+                "root": "م د د",
+                "source_word_indices": [
+                  "5",
+                  "18"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Lengthwise drawing and extension supply the contrasting axis against which عرض can resonate as breadth."
+              },
+              {
+                "source_ref": "18:109",
+                "root": "ن ف د",
+                "source_word_indices": [
+                  "8",
+                  "12"
+                ],
+                "mapped_root_id": "root_001530",
+                "branch_id": "B001",
+                "role": "Exhaustion and ending supply the limit-pressure that makes the field-versus-extension contrast consequential."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verbal noun only intensifies the fact of display.",
+              "after": "The emphatic display also flickers as a full-width field, set against the later image of lengthening media that still run out."
+            }
+          },
+          {
+            "outlier_id": "o2_split_root_flame_front",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it uses the packet's non-dominant م ر ج target for the QAC root ر ج و in 18:110. It remains anchored by Hell as the displayed object and by عرض's directional-apparition branch. Downstream prose may retain a faint flame-front echo but must not claim that يرجوا lexically means flame or displace its ordinary hope sense.",
+            "focus_anchor": "Displayed Hell is anchored as an apparition coming into the recipients' field of sight.",
+            "activation_trace": [
+              {
+                "source_ref": "18:100",
+                "root": "ع ر ض",
+                "source_word_indices": [
+                  "1",
+                  "5"
+                ],
+                "mapped_root_id": "root_001001",
+                "branch_id": "B003",
+                "role": "An apparition emerging from a direction supplies the frontal visual shape of the displayed Hell."
+              },
+              {
+                "source_ref": "18:110",
+                "root": "ر ج و",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001411",
+                "branch_id": "B003",
+                "role": "The packet's non-dominant م ر ج target contributes flame imagery that colors, but does not redefine, the literal hope occurrence."
+              }
+            ],
+            "changed_reading": {
+              "before": "Hell appears as an overwhelming but unspecified visible front.",
+              "after": "A contained cross-root echo lets the front appear specifically as a flame-front at the edge of anticipated meeting."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Covered vision and failed hearing turn display into forced sensory disclosure.",
+            "Loss, valuation, weightlessness, and recompense turn display into an audit that brings forward a countervalue.",
+            "Mirrored نزلا phrases turn display into the threshold of opposed receptions."
+          ],
+          "what_was_special": "The focus root repeats as verb plus verbal noun, allowing display, confrontation, apparition, and value registers to remain visibly anchored. The sharpest activation is the reversal between كفر as covering and the next ayah's covered eyes, with جمعناهم جمعا immediately before عرضنا ... عرضا supplying an equally strong staging sequence.",
+          "remaining_uncertainties": [
+            "Whether the interception and commodity branches of عرض are active mechanisms or only secondary resonances beside direct display.",
+            "Whether نزلا supports a full counter-hospitality mechanism or only names prepared provision and destination.",
+            "Whether the 18:109 spatial-axis echo and the non-dominant ر ج و to م ر ج flame echo should remain outliers only."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **What was denied is made the object of direct presentation.** `ع ر ض` B002 (“presenting a thing to view”) is repeated as verb and cognate object. This display reverses the demand in 18:55 for punishment to arrive face-to-face and the criminals’ sight in 18:53. I infer that judgment removes interpretive distance through emphatic exposure. Presentation itself becomes the event.",
@@ -3945,18 +4591,23 @@
   "root_lexicon": {
     "root_001001": {
       "root_ar": "ع ر ض",
+      "qac_roots_ar": [
+        "ع ر ض"
+      ],
       "root_id": "root_001001",
-      "root_mapping": {
-        "root_id": "root_001001",
-        "root_norm": "ع ر ض",
-        "source_root_norm": "ع ر ض",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 75,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ر ض",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 75
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3658c671aabf9d708f903b08fd0e06eabf8ab06b64f86f59114fd587cf6d8ae4",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7509,18 +8160,23 @@
     },
     "root_001307": {
       "root_ar": "ك ف ر",
+      "qac_roots_ar": [
+        "ك ف ر"
+      ],
       "root_id": "root_001307",
-      "root_mapping": {
-        "root_id": "root_001307",
-        "root_norm": "ك ف ر",
-        "source_root_norm": "ك ف ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 416,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ف ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 416
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cf94a0f36d304ffba0cddb3bb9019f2426aaa362cd5f28a65d3ebd98c7e73c9f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10115,27 +10771,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s018/linguistic/morphemes.tsv",
       "words_total": 7,
-      "words_resolved": 5,
-      "words_unresolved": 2,
+      "words_resolved": 6,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 2,
+      "morpheme_skip_max": 2,
+      "morpheme_skip_histogram": {
+        "0": 5,
+        "2": 1
+      },
       "unresolved": [
         {
           "word_index": 5,
           "surface_ar": "الْكَافِرِينَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "عَرْضًا",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s018/linguistic/morphemes.tsv",
-        "ayah_count": 111,
-        "row_count": 2582,
+        "ayah_count": 110,
+        "row_count": 2575,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10607,11 +11265,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s018"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s18/packets/18_100.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s18/readers/reader_hft_a/18_100.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 182535,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10683,19 +11354,37 @@
           "root_ids": [
             "root_001001"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ر ض",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001001",
+            "targets": [
+              {
+                "qac_root_norm": "ع ر ض",
+                "target_rank": 1,
+                "furuq_root_id": "root_001001",
+                "furuq_root_norm": "ع ر ض",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 75,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001001",
-              "root_norm": "ع ر ض",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ر ض",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 75,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10720,19 +11409,37 @@
           "root_ids": [
             "root_001307"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ف ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001307",
+            "targets": [
+              {
+                "qac_root_norm": "ك ف ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001307",
+                "furuq_root_norm": "ك ف ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 416,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001307",
-              "root_norm": "ك ف ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ف ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 416,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10759,10 +11466,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 29,
+        "dictionary_branches_kept": 29,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 14,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

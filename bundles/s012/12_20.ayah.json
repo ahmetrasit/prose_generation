@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T05:42:13.568533+00:00",
+  "generated_at": "2026-08-04T22:28:20.097646+00:00",
   "surah": 12,
   "ayah": 20,
   "ayahRef": "12:20",
@@ -2842,7 +2842,8 @@
       "morpheme_ids": [
         "m-w-s012-a020-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:20:1"
+      "aligned_qac_word_ref_upstream": "12:20:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2860,7 +2861,8 @@
         "m-w-s012-a020-w001-03",
         "m-w-s012-a020-w001-04"
       ],
-      "aligned_qac_word_ref_upstream": "12:20:2"
+      "aligned_qac_word_ref_upstream": "12:20:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2874,7 +2876,8 @@
       "morpheme_ids": [
         "m-w-s012-a020-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:20:3"
+      "aligned_qac_word_ref_upstream": "12:20:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2888,7 +2891,8 @@
       "morpheme_ids": [
         "m-w-s012-a020-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "12:20:4"
+      "aligned_qac_word_ref_upstream": "12:20:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2902,15 +2906,106 @@
       "morpheme_ids": [
         "m-w-s012-a020-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "12:20:5"
+      "aligned_qac_word_ref_upstream": "12:20:5",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 6,
+      "surface_ar": "مَعْدُودَةٍ",
+      "word_ids": [
+        "w-s012-a020-w005"
+      ],
+      "qac_refs": [
+        "12:20:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a020-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:20:7",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s012-a020-w006"
+      ],
+      "qac_refs": [
+        "12:20:6:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a020-w006-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:20:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "كَانُوا",
+      "word_ids": [
+        "w-s012-a020-w006"
+      ],
+      "qac_refs": [
+        "12:20:6:2",
+        "12:20:6:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a020-w006-02",
+        "m-w-s012-a020-w006-03"
+      ],
+      "aligned_qac_word_ref_upstream": "12:20:9",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 9,
+      "surface_ar": "فِيهِ",
+      "word_ids": [
+        "w-s012-a020-w007"
+      ],
+      "qac_refs": [
+        "12:20:7:1",
+        "12:20:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a020-w007-01",
+        "m-w-s012-a020-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:20:10",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 10,
+      "surface_ar": "مِنَ",
+      "word_ids": [
+        "w-s012-a020-w008"
+      ],
+      "qac_refs": [
+        "12:20:8:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a020-w008-01"
+      ],
+      "aligned_qac_word_ref_upstream": "12:20:11",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 11,
+      "surface_ar": "ٱلزَّٰهِدِينَ",
+      "word_ids": [
+        "w-s012-a020-w009"
+      ],
+      "qac_refs": [
+        "12:20:9:1",
+        "12:20:9:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s012-a020-w009-01",
+        "m-w-s012-a020-w009-02"
+      ],
+      "aligned_qac_word_ref_upstream": "12:20:12",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3611,7 +3706,879 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s12/packets/12_20.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "12:20",
+      "window": [
+        "12:19",
+        "12:20",
+        "12:21",
+        "12:22",
+        "12:23",
+        "12:24",
+        "12:25",
+        "12:26",
+        "12:27",
+        "12:28",
+        "12:29",
+        "12:30",
+        "12:31",
+        "12:32",
+        "12:33",
+        "12:34",
+        "12:35"
+      ],
+      "ayah_count": 17,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "12:20",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-undervalued-exchange",
+            "confidence": "strong",
+            "focus_anchor": "The sequence of exchange, price, diminution, dirhams, and counting, closed by the sellers' detachment.",
+            "mechanism": "The verse calibrates a transaction and then marks the calibration as defective: exchange is reduced to a readily enumerable cash amount that falls below the person's due measure.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ش ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The literal buy-sell exchange supplies the transfer and makes valuation operative."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ث م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000206",
+                "branch_id": "B001",
+                "role": "Sale consideration supplies the explicit value assigned in the exchange."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ب خ س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000087",
+                "branch_id": "B001",
+                "role": "Diminution from a due right or measure turns the stated consideration into underpayment."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration bounds the payment as a small, surveyable quantity."
+              }
+            ],
+            "changed_reading": {
+              "before": "They disposed of him for a low stated price because they had little interest.",
+              "after": "They liquidated a person through an explicitly miscalibrated exchange, substituting an easily counted sum for a value the sum fails to meet."
+            }
+          },
+          {
+            "model_id": "baseline-failed-equivalence",
+            "confidence": "medium",
+            "focus_anchor": "The tight coupling of exchange, price, diminution, and a counted amount.",
+            "mechanism": "The transaction proposes an equivalence between Yusuf and the coins, while the diminution term invalidates that equivalence from inside the pricing phrase. Counting does not merely report smallness; it exposes the attempted equation.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ش ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Matching and counterpart imagery casts the sale as an attempted equivalence."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ث م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000206",
+                "branch_id": "B001",
+                "role": "The price is the proposed monetary counterpart in that equation."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ب خ س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000087",
+                "branch_id": "B001",
+                "role": "The deficit branch declares the proposed counterpart short of its due measure."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B006",
+                "role": "A thing counted against another sharpens the mechanism of failed commensuration."
+              }
+            ],
+            "changed_reading": {
+              "before": "The few coins are an incidental description of a cheap sale.",
+              "after": "The counted coins stage a failed equation: the verse displays the monetary counterpart and simultaneously labels it deficient."
+            }
+          },
+          {
+            "model_id": "baseline-withdrawn-stewardship",
+            "confidence": "exploratory",
+            "focus_anchor": "The exchange and the construction that they were, regarding him, among the detached.",
+            "mechanism": "A care-bearing branch of being makes the sellers' detachment relational rather than merely emotional: the low-price transfer records withdrawal from keeping or standing for him.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B003",
+                "role": "Standing for or taking charge of someone supplies the stewardship relation that their detachment vacates."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ش ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "Exchange provides the concrete means by which responsibility is transferred away."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ب خ س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000087",
+                "branch_id": "B001",
+                "role": "The diminished amount marks how little responsibility the transferors retain in their valuation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Their lack of desire merely explains why they accepted little money.",
+              "after": "Their lack of desire is a withdrawal from stewardship, with the cheap exchange functioning as a rapid transfer of both custody and concern."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-secret-windfall-liquidation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د ل و",
+              "س ر ر",
+              "ب ض ع"
+            ],
+            "mechanism": "The preceding sequence moves from extraction out of a well to concealment and commercial inventory. That makes the deficient price less like a calm appraisal and more like fast monetization of an unplanned, hidden acquisition.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ش ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The focus exchange is the liquidation event whose motive the prior sequence revises."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ب خ س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000087",
+                "branch_id": "B001",
+                "role": "The deficient valuation is recast as the cost of quick disposal."
+              },
+              {
+                "source_ref": "12:19",
+                "root": "د ل و",
+                "source_word_indices": [
+                  "5",
+                  "6"
+                ],
+                "mapped_root_id": "root_000485",
+                "branch_id": "B001",
+                "role": "The well-bucket extraction supplies an accidental acquisition rather than cultivated stock."
+              },
+              {
+                "source_ref": "12:19",
+                "root": "س ر ر",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000697",
+                "branch_id": "B001",
+                "role": "Concealment supplies secrecy and makes prolonged possession costly or risky."
+              },
+              {
+                "source_ref": "12:19",
+                "root": "ب ض ع",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000123",
+                "branch_id": "B002",
+                "role": "A piece of capital made into merchandise supplies the conversion of person into liquidable inventory."
+              }
+            ],
+            "structural_cues": [
+              "12:19 immediately orders discovery, concealment as merchandise, and divine knowledge before the sale in 12:20.",
+              "The same object pronoun carries the found boy through concealment and exchange."
+            ],
+            "reader_inference": "The packet supplies accidental extraction, concealment, and merchandising; the reader supplies the arrow that secrecy creates pressure for rapid cheap liquidation. A live alternative is that the small price reflects ordinary bargaining rather than concealment risk.",
+            "changed_reading": {
+              "before": "The sellers simply judged him to have little market value.",
+              "after": "They priced a secretly acquired windfall for quick conversion into cash, so the deficit reflects their disposal conditions as much as their judgment of him."
+            }
+          },
+          {
+            "model_id": "delta-transfer-to-care-and-standing",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش ر ي",
+              "ك ر م",
+              "ث و ي",
+              "ن ف ع",
+              "ء خ ذ",
+              "و ل د",
+              "م ك ن"
+            ],
+            "mechanism": "The next buyer imagines honorable lodging, benefit, and filiation, while the narrative names Yusuf's establishment. The sale therefore becomes a hinge between incompatible regimes of relation: disposable hidden stock on one side, a person worth housing, adopting, and establishing on the other.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B003",
+                "role": "The stewardship branch supplies the care relation that changes hands across the sale."
+              },
+              {
+                "source_ref": "12:21",
+                "root": "ش ر ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The repeated exchange root identifies the purchaser's response as the immediate other side of the focus transaction."
+              },
+              {
+                "source_ref": "12:21",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor and generosity reverse the sellers' diminished treatment."
+              },
+              {
+                "source_ref": "12:21",
+                "root": "ث و ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000211",
+                "branch_id": "B002",
+                "role": "Lodging and guest-space turn the purchased object into someone to be housed."
+              },
+              {
+                "source_ref": "12:21",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Expected benefit supplies a countervaluation that already exceeds indifference."
+              },
+              {
+                "source_ref": "12:21",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Taking or acquiring supplies the deliberate shift from purchase toward a durable relation."
+              },
+              {
+                "source_ref": "12:21",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "The child relation supplies the strongest possible reversal from anonymous merchandise to kin-like standing."
+              },
+              {
+                "source_ref": "12:21",
+                "root": "م ك ن",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_001439",
+                "branch_id": "B005",
+                "role": "Empowerment and establishment detach Yusuf's eventual standing from the sellers' price."
+              }
+            ],
+            "structural_cues": [
+              "12:21 repeats the exchange root and immediately changes the speech register from price to lodging, benefit, and child relation.",
+              "The narrator's establishment clause exceeds both sellers' and buyer's stated intentions."
+            ],
+            "reader_inference": "The packet supplies purchase followed by honor, possible benefit or adoption, and establishment; the reader supplies the arrow that the sale transfers Yusuf between valuation and stewardship regimes. A live alternative is that the buyer's care remains appropriative or utility-driven rather than purely honoring.",
+            "changed_reading": {
+              "before": "The cheap sale terminates the sellers' brief possession.",
+              "after": "The cheap sale is a relational hinge: detached sellers relinquish Yusuf into a household that can imagine honor and filiation, while his later standing proves independent of their price."
+            }
+          },
+          {
+            "model_id": "delta-nonmonetary-countervalue",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ك م",
+              "ع ل م",
+              "ج ز ي",
+              "ح س ن"
+            ],
+            "mechanism": "The focus verse measures Yusuf by deficient cash; 12:22 measures his maturation within judgment, disclosed knowledge, and recompense for excellence. The second measure does not furnish a higher market quote but exposes the first measure's category error.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ث م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000206",
+                "branch_id": "B001",
+                "role": "Monetary consideration supplies the narrow measure challenged by the later endowment."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B006",
+                "role": "Counting one thing against another frames the focus as an attempted commensuration."
+              },
+              {
+                "source_ref": "12:22",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B003",
+                "role": "Sound judgment and wisdom supply a nonmonetary capacity omitted by the sellers' measure."
+              },
+              {
+                "source_ref": "12:22",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies an epistemic value invisible in the cash exchange."
+              },
+              {
+                "source_ref": "12:22",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Recompense that answers an act supplies a rival economy of fitting return."
+              },
+              {
+                "source_ref": "12:22",
+                "root": "ح س ن",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000323",
+                "branch_id": "B002",
+                "role": "Excellent action supplies the quality to which the later recompense is proportioned."
+              }
+            ],
+            "structural_cues": [
+              "12:22 follows the low-price transfer with maturation and a gift-recompense construction.",
+              "The later measure concerns capacities and conduct rather than possession or cash."
+            ],
+            "reader_inference": "The packet supplies a counted price and then judgment, knowledge, excellence, and recompense; the reader supplies the contrast as a countervaluation that reveals category error. A live alternative is that divine endowment and market price are sequential but not intended as competing measures.",
+            "changed_reading": {
+              "before": "The sale assigns Yusuf too little monetary value.",
+              "after": "The sale uses the wrong kind of measure: countable consideration is set against capacities and fitting recompense that cannot be reduced to a market counterpart."
+            }
+          },
+          {
+            "model_id": "delta-detachment-is-relation-specific",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر و د",
+              "ه م م",
+              "ش غ ف",
+              "ح ب ب"
+            ],
+            "mechanism": "The sellers' detachment is followed by solicitation, inwardly formed intention, and love reaching and adhering to the heart. This sharp reversal makes their detachment a local relation and strategy, not a stable description of Yusuf's desirability.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "A state occurring in time makes the sellers' detachment available for later reversal."
+              },
+              {
+                "source_ref": "12:23",
+                "root": "ر و د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000610",
+                "branch_id": "B002",
+                "role": "Active solicitation supplies the first direct opposite of seller indifference."
+              },
+              {
+                "source_ref": "12:24",
+                "root": "ه م م",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_001602",
+                "branch_id": "B001",
+                "role": "An intention forming within the self intensifies the reversal from detachment to inward engagement."
+              },
+              {
+                "source_ref": "12:30",
+                "root": "ش غ ف",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000800",
+                "branch_id": "B001",
+                "role": "Love reaching the heart's covering supplies an image of desire penetrating to the center."
+              },
+              {
+                "source_ref": "12:30",
+                "root": "ح ب ب",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000286",
+                "branch_id": "B002",
+                "role": "Love adhering to the heart makes the later valuation sustained rather than momentary."
+              }
+            ],
+            "structural_cues": [
+              "The focus closes with seller detachment; 12:23-24 and 12:30 repeatedly intensify desire toward the same person.",
+              "The reversal crosses economic, bodily, and affective domains without changing the focus referent."
+            ],
+            "reader_inference": "The packet supplies seller detachment followed by solicitation and heart-penetrating love; the reader supplies the retrospective arrow that later desire localizes and destabilizes the sellers' valuation. A live alternative is that morally disordered desire is no reliable evidence of worth.",
+            "changed_reading": {
+              "before": "Their detachment reports that Yusuf was generally unwanted.",
+              "after": "Their detachment reports only their own situated relation to him; the ensuing excess of desire exposes it as contingent, strategic, and sharply reversible."
+            }
+          },
+          {
+            "model_id": "delta-counted-category-collapse",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ح د",
+              "ك ب ر",
+              "م ل ك",
+              "ك ر م"
+            ],
+            "mechanism": "In 12:31 each observer is individually equipped, yet their sight of Yusuf produces magnification and a negation of ordinary human classification in favor of noble angelic comparison. The counted cash in the focus becomes a foil for a person whom observers cannot keep within an ordinary category.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Finite enumeration supplies the focus scene's confidence that Yusuf can be measured."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ش ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B002",
+                "role": "Counterpart imagery makes the coins an attempted equivalent whose adequacy can later collapse."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "One-by-one numerical distribution echoes the focus's controlled enumeration before perception breaks control."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B003",
+                "role": "Magnification within the observers supplies the immediate expansion beyond the earlier small measure."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "31"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B009",
+                "role": "Angelic comparison supplies the explicit displacement of ordinary human classification."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "32"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Nobility and honor reverse the focus's diminished monetary counterpart."
+              }
+            ],
+            "structural_cues": [
+              "12:31 first distributes one knife to each woman, then records a collective failure of bodily and categorical control on seeing Yusuf.",
+              "The utterance negates ordinary human classification before supplying an elevated comparison."
+            ],
+            "reader_inference": "The packet supplies controlled one-by-one distribution followed by magnification and category displacement; the reader supplies the arrow that this scene retrospectively collapses the focus's monetary commensuration. A live alternative is that the speech is shock-hyperbole and does not establish an objective counterprice.",
+            "changed_reading": {
+              "before": "A few countable coins are simply an inadequate price.",
+              "after": "The coins become an ironic attempt to keep Yusuf measurable; later perception drives observers beyond ordinary classification, exposing the earlier equivalence as narratively untenable."
+            }
+          },
+          {
+            "model_id": "delta-sale-opens-contested-disposition",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر و د",
+              "ع ص م",
+              "ء م ر",
+              "س ج ن",
+              "ص غ ر"
+            ],
+            "mechanism": "The sale transfers control once, but later solicitation, self-protective holding, command, prison, and threatened humiliation repeatedly contest who may dispose of Yusuf. Under the split mapping of solicitation into a sale-return branch, the later demand can be carried as a coercive counter-transaction rather than merged with the affection reading.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ش ر ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000792",
+                "branch_id": "B001",
+                "role": "The literal sale supplies the initial transfer of control that later claims reenact."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ر و د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000610",
+                "branch_id": "B002",
+                "role": "Solicitation supplies an attempted acquisition of Yusuf's compliance."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ر و د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000555",
+                "branch_id": "B004",
+                "role": "The split sale-return branch lets the renewed solicitation function as an exploratory counter-transaction."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ع ص م",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001021",
+                "branch_id": "B001",
+                "role": "Protective self-holding supplies resistance to being disposed of by another's demand."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "15"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Binding demand converts solicitation into an asserted right to command."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "س ج ن",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_000678",
+                "branch_id": "B001",
+                "role": "Confinement supplies the threatened enforcement mechanism when compliance cannot be acquired."
+              },
+              {
+                "source_ref": "12:32",
+                "root": "ص غ ر",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_000865",
+                "branch_id": "B002",
+                "role": "Humiliation supplies the status penalty attached to refusing the imposed disposition."
+              }
+            ],
+            "structural_cues": [
+              "12:32 joins solicitation, refusal, command, imprisonment, and abasement in one conditional threat.",
+              "The sequence distinguishes Yusuf's self-disposition from household power over his body and status."
+            ],
+            "reader_inference": "The packet supplies a sale, renewed solicitation, resistance, command, and confinement; the reader supplies the arrow that these are successive contests over disposition and treats the split sale-return branch as a counter-transaction. A live alternative is that the later coercion is only a new episode enabled by household power, not a structural replay of the sale.",
+            "changed_reading": {
+              "before": "The focus sale is a completed transfer of ownership for too little money.",
+              "after": "The sale opens a continuing struggle over who can classify, command, and dispose of Yusuf; later coercion attempts to purchase compliance with avoidance of prison and humiliation."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-rain-fed-windfall",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the focus root's branch for unirrigated land or crop rather than its ordinary deficit sense. It remains anchored in the focus adjective and is contextually triggered by well extraction followed by merchandising. Render it only as an ecological-commercial analogy: the packet does not say Yusuf is produce or that this branch controls the syntax.",
+            "focus_anchor": "The adjective on the price, activated through its no-irrigation land and crop branch.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ب خ س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000087",
+                "branch_id": "B003",
+                "role": "Yield without deliberate watering supplies the image of value obtained without investment."
+              },
+              {
+                "source_ref": "12:19",
+                "root": "د ل و",
+                "source_word_indices": [
+                  "5",
+                  "6"
+                ],
+                "mapped_root_id": "root_000485",
+                "branch_id": "B001",
+                "role": "The literal well extraction gives the ecological branch a visible water-and-retrieval trigger."
+              },
+              {
+                "source_ref": "12:19",
+                "root": "ب ض ع",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000123",
+                "branch_id": "B002",
+                "role": "Merchandise capital converts the retrieved windfall into an immediately saleable yield."
+              }
+            ],
+            "changed_reading": {
+              "before": "The deficient adjective only says that the price was reduced.",
+              "after": "Exploratorily, the sale monetizes an uncultivated windfall: the traders invest no formation or care, retrieve value unexpectedly, and therefore accept a low return."
+            }
+          },
+          {
+            "outlier_id": "outlier-counting-as-staged-readiness",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries the focus counting root through its preparation branch and then uses the packet's split mapping of a later preparation root back into the same mapped inventory. It remains formally auditable at both occurrences and produces a staging mechanism. Render it as branch resonance, not as a claim that the focus adjective grammatically means prepared.",
+            "focus_anchor": "The counted dirhams, through the focus root's branch of making provisions ready.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B002",
+                "role": "Preparing a reserve makes the counted coins available as a hand-ready means of closing the transaction."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "ع ت د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B002",
+                "role": "The split mapping reactivates the same readiness branch in a deliberately prepared viewing scene."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "ع ت د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000978",
+                "branch_id": "B001",
+                "role": "The primary prepared-and-present branch grounds the later scene in actual staging rather than sound resemblance alone."
+              }
+            ],
+            "changed_reading": {
+              "before": "Counted only limits the number of coins.",
+              "after": "Exploratorily, the coins are also a ready instrument that stages a rapid transfer, later echoed by another actor's prepared objects staging a coercive revelation."
+            }
+          },
+          {
+            "outlier_id": "outlier-eye-hand-measure-failure",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the focus deficit root's eye and finger branches together, then links them to explicit seeing and cut hands. It remains anchored in two supplied focus branches and a concrete later eye-hand event, but the link from counted coins to manual counting is reader-supplied. Render it as an imagistic reversal of valuation, never as the lexical sense of the focus adjective.",
+            "focus_anchor": "The deficient price and counted dirhams, through the focus root's eye and finger branches.",
+            "activation_trace": [
+              {
+                "source_ref": "12:20",
+                "root": "ب خ س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000087",
+                "branch_id": "B004",
+                "role": "The damaged-eye branch supplies a contained image of valuation that fails to see."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ب خ س",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000087",
+                "branch_id": "B005",
+                "role": "The finger branch joins the deficit term to the bodily means by which coins can be counted."
+              },
+              {
+                "source_ref": "12:20",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Enumeration supplies the controlled manual measure that the later scene disrupts."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Actual sight supplies the perceptual trigger absent from the sellers' deficient measure."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B001",
+                "role": "Severing supplies the loss of bodily control that interrupts calm measurement."
+              },
+              {
+                "source_ref": "12:31",
+                "root": "ي د ي",
+                "source_word_indices": [
+                  "21"
+                ],
+                "mapped_root_id": "root_001693",
+                "branch_id": "B001",
+                "role": "The literal hands complete the eye-to-hand reversal of the earlier counting scene."
+              }
+            ],
+            "changed_reading": {
+              "before": "The sellers' hands calmly count a deficient monetary measure.",
+              "after": "Exploratorily, the low price is an eye-hand failure of valuation: later direct sight so overwhelms manual control that the very hands associated with measure are cut."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The preceding concealment-as-merchandise sequence revises the low price into secrecy-driven liquidation of an accidental acquisition.",
+            "The purchaser's honor, lodging, possible filiation, and Yusuf's establishment separate transaction price from relational standing and future capacity.",
+            "Later wisdom, fitting recompense, intense desire, and category-breaking astonishment turn the counted price into a failed kind of measure rather than merely a small amount.",
+            "The sale remains readable both as transfer into care and as the opening of repeated coercive contests over Yusuf's disposition."
+          ],
+          "what_was_special": "The focus supports coexisting economic, relational, epistemic, and bodily readings. Especially live were the failed-equivalence mechanism, the reversal from detachment to desire, the split mapping from later preparation back into the focus counting inventory, and the contained ecological and eye-hand outliers.",
+          "remaining_uncertainties": [
+            "The exchange root itself permits buy-sell directionality; the local sequence resolves roles narratively but the branch does not encode direction.",
+            "The buyer's honor and adoption language may represent care, appropriation, utility, or a mixture of all three.",
+            "Later desire and astonishment destabilize the sellers' valuation but are not automatically reliable measures of intrinsic worth.",
+            "The ecological, preparation, and eye-hand models are auditable branch activations, not grammatical replacements for the focus words' ordinary senses."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Counting contracts value rather than securing it.** ع د د B001 (enumerating), paired with the few coins, is governed by ز ه د B001/B002 (scant amount; turning away in desire while accepting little). I infer that enumeration gives transactional closure to a radically deficient valuation. The ayah reads as a critique of calculability: what can be counted is not thereby adequately valued.",
@@ -4474,18 +5441,23 @@
   "root_lexicon": {
     "root_000792": {
       "root_ar": "ش ر ي",
+      "qac_roots_ar": [
+        "ش ر ي"
+      ],
       "root_id": "root_000792",
-      "root_mapping": {
-        "root_id": "root_000792",
-        "root_norm": "ش ر ي",
-        "source_root_norm": "ش ر ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 14,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ر ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 14
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "b1e67aed8668faa1f9a5a11b6da8b9de472920f5f70c581c87338a9e37a1dc73",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7179,18 +8151,23 @@
     },
     "root_000206": {
       "root_ar": "ث م ن",
+      "qac_roots_ar": [
+        "ث م ن"
+      ],
       "root_id": "root_000206",
-      "root_mapping": {
-        "root_id": "root_000206",
-        "root_norm": "ث م ن",
-        "source_root_norm": "ث م ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 19,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ث م ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 19
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "d870309b97016de75a52d86a4be1ca670655bbe2b26023b92323a6b7c1011084",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8247,18 +9224,23 @@
     },
     "root_000087": {
       "root_ar": "ب خ س",
+      "qac_roots_ar": [
+        "ب خ س"
+      ],
       "root_id": "root_000087",
-      "root_mapping": {
-        "root_id": "root_000087",
-        "root_norm": "ب خ س",
-        "source_root_norm": "ب خ س",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب خ س",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "bd9174c7fadeed66dc44939b68a842c2877fab209fc0d1166e05cab15622782f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9846,18 +10828,23 @@
     },
     "root_000989": {
       "root_ar": "ع د د",
+      "qac_roots_ar": [
+        "ع د د"
+      ],
       "root_id": "root_000989",
-      "root_mapping": {
-        "root_id": "root_000989",
-        "root_norm": "ع د د",
-        "source_root_norm": "ع د د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 49,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع د د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 49
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a802ff22c0561ef5e4fa5805af2b48e524aaacb77018540ac6c1220c74d85315",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12122,18 +13109,23 @@
     },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -13264,52 +14256,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
       "words_total": 12,
-      "words_resolved": 5,
-      "words_unresolved": 7,
+      "words_resolved": 11,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 10,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 5,
           "surface_ar": "دَرَاهِمَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "مَعْدُودَةٍ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "كَانُوا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 9,
-          "surface_ar": "فِيهِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 10,
-          "surface_ar": "مِنَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 11,
-          "surface_ar": "ٱلزَّٰهِدِينَ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s012/linguistic/morphemes.tsv",
-        "ayah_count": 112,
-        "row_count": 2932,
+        "ayah_count": 111,
+        "row_count": 2925,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13809,11 +14778,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s012"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s12/packets/12_20.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s12/readers/reader_hft_a/12_20.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 209319,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -13890,19 +14872,37 @@
           "root_ids": [
             "root_000792"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ر ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000792",
+            "targets": [
+              {
+                "qac_root_norm": "ش ر ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000792",
+                "furuq_root_norm": "ش ر ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 14,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000792",
-              "root_norm": "ش ر ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ر ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 14,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13927,19 +14927,37 @@
           "root_ids": [
             "root_000206"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ث م ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000206",
+            "targets": [
+              {
+                "qac_root_norm": "ث م ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000206",
+                "furuq_root_norm": "ث م ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 19,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000206",
-              "root_norm": "ث م ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ث م ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 19,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 2,
+              "gloss_branch_count": 2,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13964,19 +14982,37 @@
           "root_ids": [
             "root_000087"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب خ س",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000087",
+            "targets": [
+              {
+                "qac_root_norm": "ب خ س",
+                "target_rank": 1,
+                "furuq_root_id": "root_000087",
+                "furuq_root_norm": "ب خ س",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000087",
-              "root_norm": "ب خ س",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب خ س",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13999,9 +15035,15 @@
         "د ر ه م": {
           "root_id": null,
           "root_ids": [],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "د ر ه م",
+            "mapping_status": "no_frozen_rooted_surface_match",
+            "primary_root_id": "",
+            "targets": []
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "targets": [],
           "note": "no root_id mapping found for this QAC root"
         },
         "ع د د": {
@@ -14009,19 +15051,37 @@
           "root_ids": [
             "root_000989"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع د د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000989",
+            "targets": [
+              {
+                "qac_root_norm": "ع د د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000989",
+                "furuq_root_norm": "ع د د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 49,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000989",
-              "root_norm": "ع د د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 49,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -14046,19 +15106,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -14068,9 +15146,15 @@
         "ز ه د": {
           "root_id": null,
           "root_ids": [],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ز ه د",
+            "mapping_status": "no_frozen_rooted_surface_match",
+            "primary_root_id": "",
+            "targets": []
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "targets": [],
           "note": "no root_id mapping found for this QAC root"
         }
       },
@@ -14080,10 +15164,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 31,
+        "dictionary_branches_kept": 31,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 25,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

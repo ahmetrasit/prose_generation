@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.361260+00:00",
+  "generated_at": "2026-08-04T22:29:54.662412+00:00",
   "surah": 54,
   "ayah": 48,
   "ayahRef": "54:48",
@@ -2618,7 +2618,8 @@
       "morpheme_ids": [
         "m-w-s054-a048-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:48:1"
+      "aligned_qac_word_ref_upstream": "54:48:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2634,15 +2635,106 @@
         "m-w-s054-a048-w002-01",
         "m-w-s054-a048-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:48:2"
+      "aligned_qac_word_ref_upstream": "54:48:2",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 3,
+      "surface_ar": "ٱلنَّارِ",
+      "word_ids": [
+        "w-s054-a048-w004"
+      ],
+      "qac_refs": [
+        "54:48:4:1",
+        "54:48:4:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a048-w004-01",
+        "m-w-s054-a048-w004-02"
+      ],
+      "aligned_qac_word_ref_upstream": "54:48:4",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "عَلَىٰ",
+      "word_ids": [
+        "w-s054-a048-w005"
+      ],
+      "qac_refs": [
+        "54:48:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a048-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "54:48:5",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "وُجُوهِهِمْ",
+      "word_ids": [
+        "w-s054-a048-w006"
+      ],
+      "qac_refs": [
+        "54:48:6:1",
+        "54:48:6:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a048-w006-01",
+        "m-w-s054-a048-w006-02"
+      ],
+      "aligned_qac_word_ref_upstream": "54:48:6",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 6,
+      "surface_ar": "ذُوقُوا۟",
+      "word_ids": [
+        "w-s054-a048-w007"
+      ],
+      "qac_refs": [
+        "54:48:7:1",
+        "54:48:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a048-w007-01",
+        "m-w-s054-a048-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "54:48:7",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "مَسَّ",
+      "word_ids": [
+        "w-s054-a048-w008"
+      ],
+      "qac_refs": [
+        "54:48:8:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a048-w008-01"
+      ],
+      "aligned_qac_word_ref_upstream": "54:48:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "سَقَرَ",
+      "word_ids": [
+        "w-s054-a048-w009"
+      ],
+      "qac_refs": [
+        "54:48:9:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s054-a048-w009-01"
+      ],
+      "aligned_qac_word_ref_upstream": "54:48:9",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3528,7 +3620,957 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_48.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:48",
+      "window": [
+        "54:46",
+        "54:47",
+        "54:48",
+        "54:49",
+        "54:50",
+        "54:51",
+        "54:52",
+        "54:53",
+        "54:54",
+        "54:55"
+      ],
+      "ayah_count": 10,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:48",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_forced_reorientation",
+            "confidence": "strong",
+            "focus_anchor": "يُسْحَبُونَ فِى ٱلنَّارِ عَلَىٰ وُجُوهِهِمْ",
+            "mechanism": "Passive dragging removes locomotor agency. The face/front, normally the body's organ of encounter and orientation, becomes the bearing surface by which the whole person is conveyed inside fire.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging and extension supply compelled motion; the passive form assigns the moving force elsewhere."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The face/front supplies the literal leading surface, turning upright encounter into face-first conveyance."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and destination make the face not only anatomy but the axis along which the coerced route is imposed."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled, moving fire supplies the medium within which the forced route occurs, not merely a point reached afterward."
+              }
+            ],
+            "changed_reading": {
+              "before": "They are subjected to punishment in fire.",
+              "after": "They are bodily reoriented and conveyed without agency, face-first through fire; abasement is built into the geometry of motion."
+            }
+          },
+          {
+            "model_id": "b_contact_as_verification",
+            "confidence": "strong",
+            "focus_anchor": "ذُوقُوا۟ مَسَّ سَقَرَ",
+            "mechanism": "The imperative of tasting converts a seemingly limited touch into acquired, inescapable experience. Two contact senses collapse together: Saqar is not observed at a distance but known by the effect that reaches the body.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experience and ordeal expand tasting beyond the mouth and make the imperative a demand for experiential verification."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Literal bodily contact supplies the minimal tactile event that the command magnifies into total experience."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "The arrival of a harmful effect makes touch consequential rather than a neutral meeting of surfaces."
+              }
+            ],
+            "changed_reading": {
+              "before": "They feel the heat of Saqar.",
+              "after": "They are ordered to verify Saqar through direct embodied experience: its slightest contact arrives as a fully knowable harmful effect."
+            }
+          },
+          {
+            "model_id": "b_calamitous_process",
+            "confidence": "medium",
+            "focus_anchor": "يَوْمَ ... يُسْحَبُونَ فِى ٱلنَّارِ",
+            "mechanism": "The day can name the severe occurrence itself, while dragging and the locative construction give that occurrence extension and internal movement. The verse presents an event-process rather than a static tableau.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe event or descending calamity lets the day denote the occurrence's force, not only its calendar location."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging and extension give the severe event duration, trajectory, and bodily sequence."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The kindled fire is the event's enclosing medium."
+              }
+            ],
+            "changed_reading": {
+              "before": "A punishment happens on a particular day.",
+              "after": "The day is itself the severe unfolding event: bodies are moved along a trajectory within its fiery medium."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_appointment_tasted",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ع د",
+              "م ر ر"
+            ],
+            "mechanism": "The preceding fixed appointment closes off temporal escape, and its comparative bitterness is immediately embodied by the command to taste. Time, evaluation, and sensation become one encounter.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe event anchors the appointed encounter in the focus ayah."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential tasting turns the prior assessment into bodily knowledge."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "An appointment bounded by time or place supplies the fixed rendezvous that the focus day realizes."
+              },
+              {
+                "source_ref": "54:46",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B003",
+                "role": "Bitterness supplies a literal sensory register that the later command to taste activates."
+              }
+            ],
+            "structural_cues": [
+              "54:46 repeats ٱلسَّاعَةُ, calls it their مَوْعِد, and grades it أَدْهَىٰ وَأَمَرُّ immediately before the focus ayah."
+            ],
+            "reader_inference": "The packet supplies a fixed appointment and bitterness; I take the adjacent tasting command as the bodily realization of that bitterness. A live alternative is that أَمَرُّ remains purely evaluative and does not feed the taste image.",
+            "changed_reading": {
+              "before": "The focus depicts a severe event and direct contact.",
+              "after": "The event is a rendezvous that cannot be missed, and its previously announced bitterness is no longer descriptive: it is tasted."
+            }
+          },
+          {
+            "model_id": "d_misdirection_forced_route",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ض ل ل",
+              "س ع ر"
+            ],
+            "mechanism": "The state of being in misdirection and burning is spatially recast as an imposed route in literal fire. A lost direction becomes exact direction: their own faces bear the route while another force drags them.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging and extension convert an errant state into externally controlled locomotion."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and destination anchor the reversal in the focus ayah's faces."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Literal kindled fire materializes the preceding burning condition as the route's medium."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B001",
+                "role": "Deviation from guidance and intended direction supplies the self-lost orientation that the forced route reverses."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B001",
+                "role": "Ignition and blazing bridge the prior state of سُعُر to the focus ayah's literal fire."
+              }
+            ],
+            "structural_cues": [
+              "The adjacent clauses echo فِى: the criminals are فِى ضَلَٰلٍ وَسُعُرٍ, then are dragged فِى ٱلنَّارِ and placed عَلَىٰ وُجُوهِهِمْ."
+            ],
+            "reader_inference": "The packet supplies misdirection, burning, dragging, and face-direction; I supply the reversal from self-lost movement to imposed route. The locative echo could alternatively juxtapose two states without making one the trajectory of the other.",
+            "changed_reading": {
+              "before": "The bodies are externally dragged into punishment.",
+              "after": "Their prior misdirection is reversed into exact coerced direction: wandering and burning become a face-borne route through fire."
+            }
+          },
+          {
+            "model_id": "d_measured_contact",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل",
+              "خ ل ق",
+              "ق د ر"
+            ],
+            "mechanism": "Universal inclusion, creation as measuring, and a quantity that reaches its limit place the violent scene under exact specification. The drag, route, and arriving effect need not be chaotic or limitless to be total.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Extended dragging supplies the motion whose path and duration can be read as measured."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "An effect reaching the body supplies the intensity or dose that measure can delimit without making it ineffective."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total inclusion extends the measure claim to every thing, supporting application to the immediately preceding scene."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Estimating and measuring a thing supply design rather than uncontrolled excess."
+              },
+              {
+                "source_ref": "54:49",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B001",
+                "role": "A quantity reaching its proper limit supplies exact extent to the focus ayah's motion and contact."
+              }
+            ],
+            "structural_cues": [
+              "54:49 follows the sensory command without a scene change and states that every thing was created بِقَدَرٍ."
+            ],
+            "reader_inference": "The packet supplies universal measured creation; I extend that measure to the focus scene's path and contact. The materially live alternative is that 54:49 asserts a universal principle without specifying punishment's dosage or geometry.",
+            "changed_reading": {
+              "before": "The dragging and touch suggest an uncontrolled, indefinitely intense ordeal.",
+              "after": "The ordeal is no less total for being exact: movement and contact can be calibrated to a limit that fully reaches the body."
+            }
+          },
+          {
+            "model_id": "d_instant_command_long_experience",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء م ر",
+              "و ح د",
+              "ل م ح",
+              "ب ص ر"
+            ],
+            "mechanism": "One obligatory command operating like a glance supplies instantaneous causation, while the focus supplies an extended drag and tasted contact. The causal act and the sufferers' lived duration occupy different temporal scales.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "A duration of time supplies the experiential span within which the scene unfolds."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging and extension give the experienced event sequence and length."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ء م ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000051",
+                "branch_id": "B002",
+                "role": "Demand and compulsion supply the efficient command behind the focus ayah's passive motion."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "Numerical oneness compresses causation into a single act."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ل م ح",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001375",
+                "branch_id": "B002",
+                "role": "A fleeting glance supplies the near-instant temporal comparison."
+              },
+              {
+                "source_ref": "54:50",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Visual perception completes the glance image and contrasts with the focus ayah's face reduced to a bearing surface."
+              }
+            ],
+            "structural_cues": [
+              "54:50 restricts the command to وَٰحِدَةٌ and compares it to لَمْحٍ بِٱلْبَصَرِ, whereas 54:48 uses a processive passive verb."
+            ],
+            "reader_inference": "The packet supplies a single glance-fast command beside extended dragging; I treat that command as the cause of this scene. It may instead describe general efficacy, leaving the specific drag's onset unstated.",
+            "changed_reading": {
+              "before": "The severe day and dragging share one undifferentiated duration.",
+              "after": "The scene distinguishes instantaneous execution from extended experience: one command suffices, but those dragged undergo a trajectory and taste its contact."
+            }
+          },
+          {
+            "model_id": "d_precedent_strips_collective_support",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ه ل ك",
+              "ش ي ع",
+              "ذ ك ر"
+            ],
+            "mechanism": "Destroyed counterparts and the demand to remember convert the plural bodies into a repeatable social precedent. The face as public standing and the party as mutual reinforcement both fail: the collective does not carry them; each is carried on the face.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B006",
+                "role": "Face as rank and public standing supplies the social dimension of face-first abasement."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Compelled dragging replaces any support the plural group might have supplied."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ه ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001596",
+                "branch_id": "B001",
+                "role": "Falling into destruction supplies the established fate of prior counterparts."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ش ي ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000836",
+                "branch_id": "B002",
+                "role": "Followers, reinforcement, and supporting group supply the social resource shown unable to avert the focus scene."
+              },
+              {
+                "source_ref": "54:51",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder supplies the conversion of prior destruction into a present, reusable precedent."
+              }
+            ],
+            "structural_cues": [
+              "54:51 addresses the focus audience through أَشْيَاعَكُمْ and immediately asks whether anyone will take reminder."
+            ],
+            "reader_inference": "The packet supplies destroyed counterparts, group reinforcement, and reminder; I infer that the focus plural enacts the same pattern and loses public standing and support. أَشْيَاع may alternatively mean only predecessors or likes, without an active support relation.",
+            "changed_reading": {
+              "before": "A plural group suffers the same bodily motion.",
+              "after": "The scene dismantles collective protection and standing: prior allied or like groups become a remembered precedent, while present faces carry abasement."
+            }
+          },
+          {
+            "model_id": "d_record_becomes_sensation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل",
+              "ف ع ل",
+              "ز ب ر"
+            ],
+            "mechanism": "The complete written record provides an evidentiary layer for the sensory imperative. What was enacted as deeds and stabilized as writing is now encountered as an effect that reaches and teaches the body.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experience and ordeal turn the command to taste into embodied verification."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "An effect reaching the body supplies the record's proposed material realization."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total inclusion closes the possibility that only selected acts enter the evidentiary frame."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ف ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001167",
+                "branch_id": "B001",
+                "role": "The production of an act supplies the human action that precedes record and experienced effect."
+              },
+              {
+                "source_ref": "54:52",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and book supply the durable record against which the focus ayah's experience can function as verification."
+              }
+            ],
+            "structural_cues": [
+              "54:52 states that everything they did is in the records; the shared third-person plural links فَعَلُوهُ back to those dragged in 54:48."
+            ],
+            "reader_inference": "The packet supplies acts, comprehensive writing, and bodily experience; I draw the arrow from recorded deed to experienced consequence. The record may instead be only evidentiary, with no claim here that each sensation maps to a deed.",
+            "changed_reading": {
+              "before": "The taste command verifies only that Saqar is present.",
+              "after": "The tasted touch can also verify the now-material consequence of an action history already fixed in writing."
+            }
+          },
+          {
+            "model_id": "d_scale_complete_exposure",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ل ل",
+              "ص غ ر",
+              "ك ب ر",
+              "س ط ر"
+            ],
+            "mechanism": "Small and great are equally included in an arranged written line. That scale completeness prevents the terse word touch from implying insignificance: a minimal contact can be exact, recorded, and fully consequential.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "The arrival of an effect anchors scale completeness in the focus ayah's compact contact noun."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiential tasting makes even a small-seeming contact epistemically complete."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total enclosure and completeness supply the no-omission rule."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ص غ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000865",
+                "branch_id": "B001",
+                "role": "Smallness supplies the lower bound that remains included."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "ك ب ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001281",
+                "branch_id": "B001",
+                "role": "Greatness supplies the upper bound, completing the scale."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "An arranged written line supplies stable inscription across the full scale."
+              }
+            ],
+            "structural_cues": [
+              "54:53 coordinates صَغِير and كَبِير under كُلّ and predicates a single written status of both."
+            ],
+            "reader_inference": "The packet supplies exhaustive scale and inscription; I apply that precision to the focus ayah's apparently minimal touch. The alternative is that 54:53 concerns documentary completeness only, without grading the contact's intensity.",
+            "changed_reading": {
+              "before": "Touch may sound like a brief or minor degree of contact.",
+              "after": "The smallest contact need not be minor: under an all-scale inscription it can be precisely bounded yet experientially complete."
+            }
+          },
+          {
+            "model_id": "d_inverse_habitats",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ي",
+              "ج ن ن",
+              "ن ه ر"
+            ],
+            "mechanism": "The repeated locative frame yields inverse habitats. One group is unshielded, face-first, and forcibly circulated inside kindled fire; the other is protected within a tree-covered garden and flowing water.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "Kindled fire supplies the exposed, consuming habitat."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging supplies forced circulation within that habitat."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B001",
+                "role": "The literal face as bearing surface marks maximal bodily exposure."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Placing oneself in protection supplies the opposed condition of shelter."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B003",
+                "role": "A garden sheltered by trees supplies the protected living enclosure."
+              },
+              {
+                "source_ref": "54:54",
+                "root": "ن ه ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001559",
+                "branch_id": "B001",
+                "role": "A river cutting the earth with flowing water supplies sustaining movement opposed to fiery dragging."
+              }
+            ],
+            "structural_cues": [
+              "54:48 places them فِى ٱلنَّارِ; 54:54 places the protected فِى جَنَّٰتٍ وَنَهَرٍ, preserving the same locative frame while reversing its material contents."
+            ],
+            "reader_inference": "The packet supplies two adjacent in-conditions, protection, garden, river, fire, and dragging; I organize them as inverse habitats. They may alternatively be a simple contrast of destinations without implying opposed modes of circulation and exposure.",
+            "changed_reading": {
+              "before": "Fire is the location of an isolated punishment scene.",
+              "after": "Fire is an anti-habitat of exposed forced circulation, legible against protected, planted, and flowing enclosure."
+            }
+          },
+          {
+            "model_id": "d_postural_social_reversal",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ع د",
+              "ص د ق",
+              "ع ن د",
+              "م ل ك",
+              "ق د ر"
+            ],
+            "mechanism": "The closing seat, stability, proximity, sovereignty, and capability reveal the focus as a complete postural and social reversal. Dragged faces have neither stable place nor self-direction nor standing; the contrasting group sits securely near power.",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Compelled dragging supplies unstable posture and externally imposed movement."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B006",
+                "role": "Face as rank and standing makes the bodily inversion simultaneously social."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق ع د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001244",
+                "branch_id": "B001",
+                "role": "Sitting and remaining fixed in a place supply the exact postural opposite of dragging."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ص د ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000852",
+                "branch_id": "B003",
+                "role": "Complete soundness and stability qualify the seat as secure rather than temporary."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ع ن د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001052",
+                "branch_id": "B004",
+                "role": "Nearness and presence supply privileged proximity in contrast to forced conveyance."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Kingship and sovereignty locate the stable seat in relation to governing power."
+              },
+              {
+                "source_ref": "54:55",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B003",
+                "role": "Effective capability supplies the power asymmetry behind both secure placement and compelled motion."
+              }
+            ],
+            "structural_cues": [
+              "The sequence opposes عَلَىٰ وُجُوهِهِمْ with فِى مَقْعَدِ and forced passive motion with stable presence عِندَ a sovereign capable one."
+            ],
+            "reader_inference": "The packet supplies opposed posture, proximity, rank, sovereignty, and capability; I treat the closing scene as exposing all dimensions of the focus ayah's reversal. It may instead contrast final conditions without assigning social significance to وجوه.",
+            "changed_reading": {
+              "before": "Face-first dragging intensifies physical pain and humiliation.",
+              "after": "It removes every privilege displayed by the closing seat: posture, place, direction, standing, proximity, and agency are reversed at once."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_madness_touch",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it reads مَسَّ through derangement or seizure rather than only tactile heat. It remains anchored in the focus root's explicit madness branch and the adjacent سُعُر branch of madness and affliction. Downstream prose should mark it as a secondary lexical activation, not replace the verse's direct fire-contact reading.",
+            "focus_anchor": "ذُوقُوا۟ مَسَّ سَقَرَ",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "م س س",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B003",
+                "role": "The touch associated with madness or derangement supplies a possible non-tactile effect of Saqar's contact."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experience and ordeal keep the proposed derangement embodied and anchored in the imperative."
+              },
+              {
+                "source_ref": "54:47",
+                "root": "س ع ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000708",
+                "branch_id": "B004",
+                "role": "Madness and affliction in the immediately preceding سُعُر activate the focus root's madness-touch branch."
+              }
+            ],
+            "changed_reading": {
+              "before": "Saqar's touch is tactile burning alone.",
+              "after": "Exploratorily, the tasted touch also names a contact that seizes or disorganizes the person, joining burning with derangement."
+            }
+          },
+          {
+            "outlier_id": "o_inscribed_drag_line",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading is surprising because it maps a written row onto bodily trajectory. It remains anchored in dragging, direction, and the nearby arranged-line branch of مُّسْتَطَر. The graphic analogy should be qualified as reader-supplied: it may illuminate a fixed path but must not be stated as the lexical meaning of the focus clause.",
+            "focus_anchor": "يُسْحَبُونَ ... عَلَىٰ وُجُوهِهِمْ",
+            "activation_trace": [
+              {
+                "source_ref": "54:48",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B001",
+                "role": "Dragging and extending supply the bodily line traced through motion."
+              },
+              {
+                "source_ref": "54:48",
+                "root": "و ج ه",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001630",
+                "branch_id": "B002",
+                "role": "Direction and route give the proposed line an oriented path in the focus ayah."
+              },
+              {
+                "source_ref": "54:53",
+                "root": "س ط ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000704",
+                "branch_id": "B001",
+                "role": "The arranged written row supplies the graphic image that activates an inscribed-path analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The drag follows an unspecified route through fire.",
+              "after": "Exploratorily, the dragged trajectory enacts a line already inscribed: bodies are made to follow the record's fixed direction."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "54:46 turns a severe day into a fixed appointment whose announced bitterness is bodily tasted.",
+            "54:47 turns misdirection into an externally imposed face-borne route and burning into literal fiery medium.",
+            "54:49-53 frame movement and contact as measured embodiment of a complete written record.",
+            "54:50 separates glance-fast causation from the extended duration of dragging and experience.",
+            "54:54-55 expose inverse habitat, posture, proximity, standing, and agency."
+          ],
+          "what_was_special": "The focus ayah fuses motion, direction, and contact senses. Its context independently activates temporal appointment, route reversal, calibrated execution, documentary realization, and opposed modes of inhabiting and being positioned.",
+          "remaining_uncertainties": [
+            "The application of universal measure to the exact path or intensity of punishment is an inference, not an explicit packet arrow.",
+            "The written record may witness deeds without mapping each deed causally onto a particular sensation.",
+            "Madness-touch and inscribed-drag-line are branch-anchored but should remain qualified exploratory activations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Orientation is forcibly inverted through dragging on the face.** `س ح ب` B001 is dragging and extending; `ن و ر` B002 is burning fire; `و ج ه` B001 is face/front, B002 orientation, and B003 confronting. The passive dragging places what normally leads and confronts against the ground of movement. I infer that punishment reverses bodily and moral orientation: those who turned aside are moved face-first without control. The ayah reads the face as both organ and defeated direction.\n\n2. **Minimal contact expands into total experience.** `ذ و ق` B002 is experiencing/testing; `م س س` B001 is contact by touch and B004 being touched by an effect. The imperative says “taste” the “touch,” joining two threshold senses. I infer that even what is lexically only contact with Saqar is sufficient to become full experiential knowledge. `مَسَّ` can remain a touch while naming an effect that takes hold.",
@@ -4806,18 +5848,23 @@
   "root_lexicon": {
     "root_001700": {
       "root_ar": "ي و م",
+      "qac_roots_ar": [
+        "ي و م"
+      ],
       "root_id": "root_001700",
-      "root_mapping": {
-        "root_id": "root_001700",
-        "root_norm": "ي و م",
-        "source_root_norm": "ي و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 414,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ي و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 414
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e76145ff9db215c969fb749d8f4011fa704b398c30ebc90862161f0e4604a786",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6136,18 +7183,23 @@
     },
     "root_000680": {
       "root_ar": "س ح ب",
+      "qac_roots_ar": [
+        "س ح ب"
+      ],
       "root_id": "root_000680",
-      "root_mapping": {
-        "root_id": "root_000680",
-        "root_norm": "س ح ب",
-        "source_root_norm": "س ح ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 9,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "س ح ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 9
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "65af82bb851482c45c910bb4e45a29aeca7434c9491596ffd64b166707a4f4c7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7756,18 +8808,23 @@
     },
     "root_001564": {
       "root_ar": "ن و ر",
+      "qac_roots_ar": [
+        "ن و ر"
+      ],
       "root_id": "root_001564",
-      "root_mapping": {
-        "root_id": "root_001564",
-        "root_norm": "ن و ر",
-        "source_root_norm": "ن و ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 194,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن و ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 194
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "a790f899441962609b1667f18185556ad5a6d687441a3c1e14a20ff22b2c36eb",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9703,18 +10760,23 @@
     },
     "root_001630": {
       "root_ar": "و ج ه",
+      "qac_roots_ar": [
+        "و ج ه"
+      ],
       "root_id": "root_001630",
-      "root_mapping": {
-        "root_id": "root_001630",
-        "root_norm": "و ج ه",
-        "source_root_norm": "و ج ه",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 78,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ج ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 78
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7242622c30abc961edd1fd77cd98b82308201a1d3ee03a22b7515aa6c9f93d48",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12719,18 +13781,23 @@
     },
     "root_000526": {
       "root_ar": "ذ و ق",
+      "qac_roots_ar": [
+        "ذ و ق"
+      ],
       "root_id": "root_000526",
-      "root_mapping": {
-        "root_id": "root_000526",
-        "root_norm": "ذ و ق",
-        "source_root_norm": "ذ و ق",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 45,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ذ و ق",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 45
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "0f8a8391ea5450ede93dee10cc636fa0094bbb7f864854358a8cc466bd70fc40",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15111,18 +16178,23 @@
     },
     "root_001423": {
       "root_ar": "م س س",
+      "qac_roots_ar": [
+        "م س س"
+      ],
       "root_id": "root_001423",
-      "root_mapping": {
-        "root_id": "root_001423",
-        "root_norm": "م س س",
-        "source_root_norm": "م س س",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 49,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م س س",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 49
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "be95bfd4fa798c6cf631977f3ec99eceece5779a23e9bc85f685a34db371eb3b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -16852,52 +17924,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
       "words_total": 9,
-      "words_resolved": 2,
-      "words_unresolved": 7,
+      "words_resolved": 8,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 7,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 2,
           "surface_ar": "فِي",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "ٱلنَّارِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "عَلَىٰ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "وُجُوهِهِمْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "ذُوقُوا۟",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "مَسَّ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "سَقَرَ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -17227,11 +18276,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_48.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_48.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 80649,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -17308,19 +18370,37 @@
           "root_ids": [
             "root_001700"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ي و م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001700",
+            "targets": [
+              {
+                "qac_root_norm": "ي و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001700",
+                "furuq_root_norm": "ي و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 414,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001700",
-              "root_norm": "ي و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ي و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 414,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17345,19 +18425,37 @@
           "root_ids": [
             "root_000680"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "س ح ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000680",
+            "targets": [
+              {
+                "qac_root_norm": "س ح ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000680",
+                "furuq_root_norm": "س ح ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 9,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000680",
-              "root_norm": "س ح ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "س ح ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 9,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17382,19 +18480,37 @@
           "root_ids": [
             "root_001564"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن و ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001564",
+            "targets": [
+              {
+                "qac_root_norm": "ن و ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001564",
+                "furuq_root_norm": "ن و ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 194,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001564",
-              "root_norm": "ن و ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن و ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 194,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17419,19 +18535,37 @@
           "root_ids": [
             "root_001630"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ج ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001630",
+            "targets": [
+              {
+                "qac_root_norm": "و ج ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_001630",
+                "furuq_root_norm": "و ج ه",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 78,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001630",
-              "root_norm": "و ج ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ج ه",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 78,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 15,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17456,19 +18590,37 @@
           "root_ids": [
             "root_000526"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ذ و ق",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000526",
+            "targets": [
+              {
+                "qac_root_norm": "ذ و ق",
+                "target_rank": 1,
+                "furuq_root_id": "root_000526",
+                "furuq_root_norm": "ذ و ق",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 45,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000526",
-              "root_norm": "ذ و ق",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ذ و ق",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 45,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17493,19 +18645,37 @@
           "root_ids": [
             "root_001423"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م س س",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001423",
+            "targets": [
+              {
+                "qac_root_norm": "م س س",
+                "target_rank": 1,
+                "furuq_root_id": "root_001423",
+                "furuq_root_norm": "م س س",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 49,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001423",
-              "root_norm": "م س س",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م س س",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 49,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -17532,10 +18702,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 53,
+        "dictionary_branches_kept": 53,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 42,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

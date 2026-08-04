@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.509539+00:00",
+  "generated_at": "2026-08-04T22:29:46.219957+00:00",
   "surah": 51,
   "ayah": 24,
   "ayahRef": "51:24",
@@ -1917,7 +1917,8 @@
       "morpheme_ids": [
         "m-w-s051-a024-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:24:1"
+      "aligned_qac_word_ref_upstream": "51:24:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1933,7 +1934,8 @@
         "m-w-s051-a024-w002-01",
         "m-w-s051-a024-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:24:2"
+      "aligned_qac_word_ref_upstream": "51:24:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1947,7 +1949,8 @@
       "morpheme_ids": [
         "m-w-s051-a024-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:24:3"
+      "aligned_qac_word_ref_upstream": "51:24:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1961,7 +1964,8 @@
       "morpheme_ids": [
         "m-w-s051-a024-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:24:4"
+      "aligned_qac_word_ref_upstream": "51:24:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1975,7 +1979,8 @@
       "morpheme_ids": [
         "m-w-s051-a024-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:24:5"
+      "aligned_qac_word_ref_upstream": "51:24:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -1991,7 +1996,8 @@
         "m-w-s051-a024-w006-01",
         "m-w-s051-a024-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:24:6"
+      "aligned_qac_word_ref_upstream": "51:24:6",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2666,7 +2672,733 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_24.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:24",
+      "window": [
+        "51:24",
+        "51:25",
+        "51:26",
+        "51:27",
+        "51:28",
+        "51:29",
+        "51:30",
+        "51:31",
+        "51:32",
+        "51:33",
+        "51:34",
+        "51:35",
+        "51:36",
+        "51:37"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:24",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_nested_arrival",
+            "confidence": "strong",
+            "focus_anchor": "The interrogative هَلْ أَتَىٰكَ binds the coming of حَدِيث to the named ضَيْف.",
+            "mechanism": "Coming, renewed speech, descending as a guest, and honor form a nested transmission: the report reaches its addressee while recounting strangers reaching Abraham and entering an honor relation.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming and arrival make the report's reaching the addressee mirror the visitors' reaching Abraham."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Speech that renews itself as news makes the old encounter present again in transmission."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ض ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000924",
+                "branch_id": "B002",
+                "role": "A person who inclines toward and descends upon a host supplies the social arrival nested inside the report's arrival."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Commendable honor and generosity establish the reception frame through which the arriving strangers are first viewed."
+              }
+            ],
+            "changed_reading": {
+              "before": "A conventional question introducing a past report about Abraham's honored guests.",
+              "after": "The ayah performs the event it names: a renewed report now arrives about an arrival, making transmission itself a second act of hospitality."
+            }
+          },
+          {
+            "model_id": "baseline_honored_pressure",
+            "confidence": "medium",
+            "focus_anchor": "The adjacency of ضَيْف and ٱلْمُكْرَمِينَ holds guesthood and honor together without yet disclosing what the visit carries.",
+            "mechanism": "The guest root can picture both a visitor who inclines toward a host and a severity that leans upon and constrains its bearer. Coupled with an honored status and a reportable event, the visit remains simultaneously gracious and weight-bearing.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ض ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000924",
+                "branch_id": "B004",
+                "role": "A descending severity that presses and constrains keeps latent danger inside the apparently gracious visitation."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B005",
+                "role": "A sudden event or temporal adversity lets حديث denote more than neutral narration."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor contains the threatening potential without erasing it, producing a deliberately unstable first designation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The adjective simply assures that the visitors are honorable or well hosted.",
+              "after": "The focus initially names a visitation whose honor and pressure coexist; the courteous surface does not settle whether the arrival bears gift, demand, or danger."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_honor_before_recognition",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "د خ ل",
+              "س ل م",
+              "ن ك ر"
+            ],
+            "mechanism": "Entry and reciprocal peace establish a hospitality relation before Abraham identifies the entrants as unknown. This decouples their being honored from prior recognition: honor can be an ethical reception of the stranger, or a status known by the narrator but not yet by the host.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ض ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000924",
+                "branch_id": "B002",
+                "role": "The outsider who descends upon a host makes nonrecognition intrinsic to, rather than incompatible with, guesthood."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor becomes a relation extended or disclosed before identity is secure."
+              },
+              {
+                "source_ref": "51:25",
+                "root": "د خ ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000464",
+                "branch_id": "B005",
+                "role": "An entrant who mixes with people while remaining an outsider supplies the social ambiguity of the scene."
+              },
+              {
+                "source_ref": "51:25",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B004",
+                "role": "Mutual peace suspends hostility and creates a provisional bond before recognition."
+              },
+              {
+                "source_ref": "51:25",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B001",
+                "role": "The explicit opposite of knowledge and recognition prevents 'honored' from meaning merely familiar or socially known."
+              }
+            ],
+            "structural_cues": [
+              "51:25 places exchanged peace before Abraham's assessment that the entrants are unknown."
+            ],
+            "reader_inference": "The packet supplies entry, mutual peace, and nonrecognition; I infer that the sequence makes honor prior to stable identification. A live alternative is that ٱلْمُكْرَمِينَ names only a divine or narratorial rank, not Abraham's conduct.",
+            "changed_reading": {
+              "before": "Known dignitaries arrive and are treated according to an already established rank.",
+              "after": "Honor is enacted or announced under uncertainty: the visitors are guests precisely while still unrecognized, so hospitality precedes epistemic control."
+            }
+          },
+          {
+            "model_id": "delta_hospitality_to_generative_news",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ي ء",
+              "ق ر ب",
+              "ء ك ل",
+              "ب ش ر",
+              "ع ق م"
+            ],
+            "mechanism": "Abraham brings a material gift near, but it does not enter the guests through eating; the visitors then deliver a verbal gift that opens a future where barrenness had closed it. The focus roots allow this asymmetrical exchange to be heard as bestowal and new occurrence, not only arrival and report.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B002",
+                "role": "Giving and bringing let the visitors' coming function as bestowal rather than locomotion alone."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B001",
+                "role": "The coming-to-be of what was absent turns the promised child into the event inside the report."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B008",
+                "role": "A gift oriented toward return activates an exchange structure within the guests' honored relation."
+              },
+              {
+                "source_ref": "51:26",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B004",
+                "role": "Bringing an object into presence supplies Abraham's concrete side of the exchange."
+              },
+              {
+                "source_ref": "51:27",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness moves the offered food to the threshold of acceptance."
+              },
+              {
+                "source_ref": "51:27",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "The questioned act of consuming food marks the failed material completion of hospitality."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "ب ش ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000120",
+                "branch_id": "B005",
+                "role": "News that visibly opens the face with joy supplies the visitors' nonmaterial return."
+              },
+              {
+                "source_ref": "51:29",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B001",
+                "role": "Blocked generation makes the announced child a genuine emergence rather than routine continuation."
+              }
+            ],
+            "structural_cues": [
+              "51:26-28 orders the sequence as food brought, food not eaten, fear, then good news.",
+              "51:29 places age and barrenness directly against the announced future."
+            ],
+            "reader_inference": "The packet supplies the offered food, its nonconsumption, the following good news, and barrenness; I supply the arrow that treats the announcement as an asymmetrical return within hospitality. The live alternative is that the meal and announcement are adjacent but not reciprocal.",
+            "changed_reading": {
+              "before": "The guests are honored because Abraham serves them lavishly.",
+              "after": "The honored encounter transforms exchange: Abraham's nourishment is declined, yet the arrival bestows generative news and makes a previously absent future occur."
+            }
+          },
+          {
+            "model_id": "delta_authorized_affliction",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ط ب",
+              "ر س ل",
+              "ح ج ر",
+              "ط ي ن",
+              "س و م",
+              "ر ب ب",
+              "س ر ف"
+            ],
+            "mechanism": "Once the guests are identified as sent agents carrying marked clay stones for those beyond the limit, the pressure latent in ضيف and the destructive arrival latent in أتى become operational. Their honor now reads as authorization and controlled commission alongside, not instead of, Abraham's hospitality.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B011",
+                "role": "An arriving calamity exposes the destructive potential concealed in the neutral question of what has come."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ض ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000924",
+                "branch_id": "B004",
+                "role": "A severity that leans upon and constrains its bearer turns guesthood into the first phase of pressure."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Intrinsic honor supports the agents' commissioned standing rather than describing table manners alone."
+              },
+              {
+                "source_ref": "51:31",
+                "root": "خ ط ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000421",
+                "branch_id": "B003",
+                "role": "A grave matter converts Abraham's inquiry from social uncertainty into a question about mission."
+              },
+              {
+                "source_ref": "51:31",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message disclose an assigned identity beneath the temporary guest role."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone gives the visitors' pressure a concrete terminal instrument."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B003",
+                "role": "Clay used for sealing contributes the sense of a fixed and assigned payload."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000764",
+                "branch_id": "B004",
+                "role": "A distinguishing mark makes the destructive objects targeted rather than indiscriminate."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and authority ground the commission signaled by the agents' honored status."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س ر ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000699",
+                "branch_id": "B001",
+                "role": "Crossing the limit supplies the criterion toward which the marked pressure is directed."
+              }
+            ],
+            "structural_cues": [
+              "51:31 changes the social label from guests to sent agents.",
+              "51:33-34 specifies a marked payload, an authorizing source, and a bounded recipient class."
+            ],
+            "reader_inference": "The packet supplies mission, payload, mark, authority, and targets; I infer that guesthood is an operational phase and that 'honored' can signal authorization. A live alternative keeps their commissioned honor and Abraham's hospitality as separate layers.",
+            "changed_reading": {
+              "before": "An honored social visit happens to precede a separate punitive mission.",
+              "after": "The guests are liminal agents: gracious and generative inside Abraham's house, yet carriers of measured pressure outside it; their honor includes controlled authority."
+            }
+          },
+          {
+            "model_id": "delta_selective_safe_passage",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ر ج",
+              "ء م ن",
+              "ب ي ت",
+              "س ل م"
+            ],
+            "mechanism": "The mission removes secure believers and locates safety in one house before destruction. The honored guest encounter therefore develops a boundary effect: the same arrival that bears pressure also mediates protected passage, extending honor from the agents' status into the outcome they effect.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ض ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000924",
+                "branch_id": "B002",
+                "role": "Descending upon a host localizes the wider mission at a household threshold."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor supplies the positive value that the later extraction makes effective as protection."
+              },
+              {
+                "source_ref": "51:35",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Movement out from an interior supplies the mechanism of safe passage."
+              },
+              {
+                "source_ref": "51:35",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and settled trust characterize the people selected for removal."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B001",
+                "role": "Dwelling and refuge contract the protected field to a single domestic unit."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Safety from harm names the condition preserved within that household."
+              }
+            ],
+            "structural_cues": [
+              "51:35-36 follows the punitive commission with extraction and then narrows the surviving community to one house."
+            ],
+            "reader_inference": "The packet supplies extraction, secure believers, and a single safe household; I infer that the guest encounter marks the boundary through which selective protection operates. A live alternative is that extraction is independently administered and does not refract the focus adjective.",
+            "changed_reading": {
+              "before": "The guests alone possess or receive honor.",
+              "after": "Their honored arrival also has an honoring effect: it distinguishes a vulnerable household for safe passage while the same mission exposes the surrounding field."
+            }
+          },
+          {
+            "model_id": "delta_residue_to_report",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ر ك",
+              "ء ي ي",
+              "خ و ف",
+              "ع ذ ب"
+            ],
+            "mechanism": "The episode ends with an enduring sign left for later fear, while the focus begins by asking whether its report has arrived. Retained trace and renewed speech become two stages of one evidentiary transmission: an event leaves a sign, and the sign's significance travels as حديث.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Arrival carries the episode's evidentiary force from its site to a later addressee."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B004",
+                "role": "Becoming something people continue to tell gives the event a transmissible afterlife."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "An effect deliberately remaining after departure supplies the durable substrate of later testimony."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest sign converts residue into something readable and communicable."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Anticipatory fear identifies the later audience in whom the retained evidence becomes active."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Painful punishment fixes the warning-content carried from sign into report."
+              }
+            ],
+            "structural_cues": [
+              "The pericope opens with a report arriving in 51:24 and closes with a sign deliberately left in 51:37."
+            ],
+            "reader_inference": "The packet supplies the opening report and closing residual sign; I infer a trace-to-report arrow in which material remainder becomes transmissible warning. A live alternative treats sign and report as parallel witnesses without making one causally generate the other.",
+            "changed_reading": {
+              "before": "حديث is a verbal retelling detached from the event's physical remainder.",
+              "after": "The arriving report is the mobile afterlife of a sign left behind: the event persists materially, becomes tellable, and reaches a new hearer."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_broken_commensality",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the food-tasting branch of و ج س is distant from the syntax, which explicitly makes fear the inward object. It remains anchored because the guests' non-eating immediately precedes أَوْجَسَ and the focus has already made guest honor central. Render it only as a secondary lexical resonance: failed tasting triggers apprehension, not as a replacement translation for أَوْجَسَ.",
+            "focus_anchor": "The designation ضَيْفِ ... ٱلْمُكْرَمِينَ carries an expectation of feeding and commensality that the next actions can either complete or break.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ض ي ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000924",
+                "branch_id": "B002",
+                "role": "A guest who is lodged and fed establishes eating as a social test of the designation."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Generous honor raises the stakes of whether the offered meal creates mutuality."
+              },
+              {
+                "source_ref": "51:27",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "The direct question about consuming food marks the missing act that would ratify guesthood."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "و ج س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001627",
+                "branch_id": "B004",
+                "role": "The rare image of tasting food only slightly echoes the immediately failed meal and links it to the onset of unease."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "3",
+                  "6"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Fear of expected harm contains the echo within the explicit affective reading."
+              }
+            ],
+            "changed_reading": {
+              "before": "The honored guests simply fail to eat, after which Abraham independently feels fear.",
+              "after": "Their refusal breaks commensality and makes 'guest' unstable; the lexical tasting echo lets the failed meal itself register as the threshold of apprehension."
+            }
+          },
+          {
+            "outlier_id": "outlier_fertility_crossing",
+            "confidence": "exploratory",
+            "containment": "This cross-domain reading is surprising because it draws on water-and-soil branches rather than the immediate human senses of أتى and كرم. It remains visibly anchored in those two focus roots and is activated by good news set against explicit barrenness. Render it as a material analogy for the visit's generative effect, never as a lexical substitution for 'came' or 'honored.'",
+            "focus_anchor": "أَتَىٰ and ٱلْمُكْرَمِينَ can jointly carry an arrival from elsewhere and life-bearing abundance.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B005",
+                "role": "A flood arriving from a rain-struck country into one without rain supplies the transfer geometry of fertility from elsewhere."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B002",
+                "role": "Good rain, soil, and vegetation let honor carry a latent image of fecund abundance."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "ب ش ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000120",
+                "branch_id": "B005",
+                "role": "Joy-opening news supplies the human form taken by the incoming abundance."
+              },
+              {
+                "source_ref": "51:29",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B001",
+                "role": "A blocked womb supplies the dry receiving field across which the fertility analogy becomes active."
+              }
+            ],
+            "changed_reading": {
+              "before": "The honored visitors merely announce a child to a barren household.",
+              "after": "Their arrival can be carried as fertility crossing a boundary like remote rain reaching dry ground: the visitors bear abundance into a site defined by generative closure."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Honor precedes recognition in 51:25, so the focus adjective can name hospitality under uncertainty or a rank not yet visible to Abraham.",
+            "The guests' arrival bifurcates into generative bestowal within the house and measured affliction outside it without collapsing either reading.",
+            "The sign left in 51:37 turns the arriving حديث of 51:24 into the mobile afterlife of retained evidence."
+          ],
+          "what_was_special": "The four focus roots create a compact hinge: an arriving report about arriving outsiders can be gift and pressure, while honor shifts from reception to authorization and protective effect. The later sequence activates these values one after another instead of forcing a single identity for the guests.",
+          "remaining_uncertainties": [
+            "The source of the passive honor in ٱلْمُكْرَمِينَ remains open among Abraham's treatment, narratorial evaluation, and commissioned rank.",
+            "The reciprocity, food-tasting, and fertility-water models depend on abductive branch resonance rather than direct syntactic entailment.",
+            "The closing sign may generate the later report, or sign and report may remain parallel evidentiary forms."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A report arrives about those who arrived.** `ء ت ي/B001` gives coming/arrival; `ح د ث/B003` gives report or conversation; `ض ي ف/B002` the one who turns in as guest. The interrogative makes narration replicate event structure: the report comes just as the guests came. I infer **guest-arrival -> event -> report-arrival to a new hearer**. The verse activates transmission as renewed hospitality to the event.\n2. **Honor is tested through hosting.** `ك ر م/B001` supplies nobility/generosity and `ض ي ف/B002` includes lodging and feeding a guest. Subsequent food preparation and refusal to eat (51:26-28) supply the social test. I infer **honored status -> hospitality obligation -> recognition problem when food is untouched**. *Mukramīn* describes both received honor and the conduct their arrival elicits.",
@@ -3672,18 +4404,23 @@
   "root_lexicon": {
     "root_000009": {
       "root_ar": "ء ت ي",
+      "qac_roots_ar": [
+        "ء ت ي"
+      ],
       "root_id": "root_000009",
-      "root_mapping": {
-        "root_id": "root_000009",
-        "root_norm": "ء ت ي",
-        "source_root_norm": "أ ت ي",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 362,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ت ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 362
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1b60652566fc89c76f9f42198dcec07e0f8abfc31edee8ec512bb789f83bbfb5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7383,18 +8120,23 @@
     },
     "root_000299": {
       "root_ar": "ح د ث",
+      "qac_roots_ar": [
+        "ح د ث"
+      ],
       "root_id": "root_000299",
-      "root_mapping": {
-        "root_id": "root_000299",
-        "root_norm": "ح د ث",
-        "source_root_norm": "ح د ث",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 35,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ح د ث",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 35
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "908e2d4353070d5d759bb35b736cb000bbafdb91026fbc23aff00066a903b946",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10061,18 +10803,23 @@
     },
     "root_000924": {
       "root_ar": "ض ي ف",
+      "qac_roots_ar": [
+        "ض ي ف"
+      ],
       "root_id": "root_000924",
-      "root_mapping": {
-        "root_id": "root_000924",
-        "root_norm": "ض ي ف",
-        "source_root_norm": "ض ي ف",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 5,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ض ي ف",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 5
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "bfd6d3b77cf581add9adad50a39068246e66a2b1c57184feaf087d1f52e45e85",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11888,18 +12635,23 @@
     },
     "root_001294": {
       "root_ar": "ك ر م",
+      "qac_roots_ar": [
+        "ك ر م"
+      ],
       "root_id": "root_001294",
-      "root_mapping": {
-        "root_id": "root_001294",
-        "root_norm": "ك ر م",
-        "source_root_norm": "ك ر م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 44,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ر م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 44
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "35b943bd25cc8008c8ec0e7760762311bb88da3f7295026a6219c808d5e8c0c5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14870,14 +15622,20 @@
       "words_total": 6,
       "words_resolved": 6,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 6
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15148,11 +15906,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_24.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_24.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 97984,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -15226,19 +15997,37 @@
           "root_ids": [
             "root_000009"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ت ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000009",
+            "targets": [
+              {
+                "qac_root_norm": "ء ت ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000009",
+                "furuq_root_norm": "ء ت ي",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 362,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000009",
-              "root_norm": "ء ت ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ت ي",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 362,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15263,19 +16052,37 @@
           "root_ids": [
             "root_000299"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ح د ث",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000299",
+            "targets": [
+              {
+                "qac_root_norm": "ح د ث",
+                "target_rank": 1,
+                "furuq_root_id": "root_000299",
+                "furuq_root_norm": "ح د ث",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 35,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000299",
-              "root_norm": "ح د ث",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ح د ث",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 35,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15300,19 +16107,37 @@
           "root_ids": [
             "root_000924"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ض ي ف",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000924",
+            "targets": [
+              {
+                "qac_root_norm": "ض ي ف",
+                "target_rank": 1,
+                "furuq_root_id": "root_000924",
+                "furuq_root_norm": "ض ي ف",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 5,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000924",
-              "root_norm": "ض ي ف",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ض ي ف",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 5,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15337,19 +16162,37 @@
           "root_ids": [
             "root_001294"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ر م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001294",
+            "targets": [
+              {
+                "qac_root_norm": "ك ر م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001294",
+                "furuq_root_norm": "ك ر م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 44,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001294",
-              "root_norm": "ك ر م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ر م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 44,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15376,10 +16219,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 35,
+        "dictionary_branches_kept": 35,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 35,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

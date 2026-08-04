@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.906400+00:00",
+  "generated_at": "2026-08-04T22:30:00.877605+00:00",
   "surah": 56,
   "ayah": 61,
   "ayahRef": "56:61",
@@ -2333,7 +2333,8 @@
       "morpheme_ids": [
         "m-w-s056-a061-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:61:1"
+      "aligned_qac_word_ref_upstream": "56:61:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2347,7 +2348,8 @@
       "morpheme_ids": [
         "m-w-s056-a061-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:61:2"
+      "aligned_qac_word_ref_upstream": "56:61:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2361,15 +2363,90 @@
       "morpheme_ids": [
         "m-w-s056-a061-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:61:3"
+      "aligned_qac_word_ref_upstream": "56:61:3",
+      "morpheme_skip_count": 0
     },
     null,
+    {
+      "word_index": 4,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s056-a061-w005"
+      ],
+      "qac_refs": [
+        "56:61:5:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a061-w005-01"
+      ],
+      "aligned_qac_word_ref_upstream": "56:61:5",
+      "morpheme_skip_count": 2
+    },
+    {
+      "word_index": 5,
+      "surface_ar": "نُنْشِئَكُمْ",
+      "word_ids": [
+        "w-s056-a061-w005"
+      ],
+      "qac_refs": [
+        "56:61:5:2",
+        "56:61:5:3"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a061-w005-02",
+        "m-w-s056-a061-w005-03"
+      ],
+      "aligned_qac_word_ref_upstream": "56:61:6",
+      "morpheme_skip_count": 0
+    },
     null,
-    null,
-    null,
-    null,
-    null,
-    null
+    {
+      "word_index": 7,
+      "surface_ar": "مَا",
+      "word_ids": [
+        "w-s056-a061-w007"
+      ],
+      "qac_refs": [
+        "56:61:7:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a061-w007-01"
+      ],
+      "aligned_qac_word_ref_upstream": "56:61:8",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "لَا",
+      "word_ids": [
+        "w-s056-a061-w008"
+      ],
+      "qac_refs": [
+        "56:61:8:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a061-w008-01"
+      ],
+      "aligned_qac_word_ref_upstream": "56:61:9",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 9,
+      "surface_ar": "تَعْلَمُونَ",
+      "word_ids": [
+        "w-s056-a061-w009"
+      ],
+      "qac_refs": [
+        "56:61:9:1",
+        "56:61:9:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s056-a061-w009-01",
+        "m-w-s056-a061-w009-02"
+      ],
+      "aligned_qac_word_ref_upstream": "56:61:10",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3214,7 +3291,860 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_61.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:61",
+      "window": [
+        "56:57",
+        "56:58",
+        "56:59",
+        "56:60",
+        "56:61",
+        "56:62",
+        "56:63",
+        "56:64",
+        "56:65",
+        "56:66",
+        "56:67",
+        "56:68",
+        "56:69",
+        "56:70",
+        "56:71",
+        "56:72",
+        "56:73",
+        "56:74"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:61",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "B1_form_recomposition",
+            "confidence": "strong",
+            "focus_anchor": "The addressed object remains كُمْ across نبدل أمثالكم and ننشئكم, while في ما لا تعلمون withholds the resulting mode.",
+            "mechanism": "Changing an image without necessarily replacing its substance, followed by fresh origination, permits continuity of the addressed identity through discontinuity of its present embodiment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B002",
+                "role": "Change of a thing's image while its substance remains makes the first verb a transformation of embodiment."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B008",
+                "role": "The pictured exemplar supplies the form or representation that can be changed."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Fresh bringing-into-being supplies the second operation after alteration of form."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Negated cognitive disclosure keeps the new condition genuinely unspecified."
+              }
+            ],
+            "changed_reading": {
+              "before": "One present body is simply removed and another is supplied.",
+              "after": "The present likeness can be reconfigured while the same addressed 'you' is freshly brought into an unknown mode."
+            }
+          },
+          {
+            "model_id": "B2_counterpart_succession",
+            "confidence": "medium",
+            "focus_anchor": "نبدل أمثالكم combines substitution with the plural 'your counterparts,' then distinguishes that act from ننشئكم.",
+            "mechanism": "One person or group can be displaced by analogous successors, while the conjunction opens a second horizon in which the displaced addressees themselves are originated anew.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B001",
+                "role": "One thing taking another's place supplies literal succession."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Similarity and counterpart status define the successors as analogues rather than identical returns."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Fresh creation prevents collective replacement from exhausting the promise made to 'you.'"
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse speaks only of each individual's later recreation.",
+              "after": "It can hold collective succession by counterparts and the addressees' own later origination together without collapsing them."
+            }
+          },
+          {
+            "model_id": "B3_developmental_origination",
+            "confidence": "exploratory",
+            "focus_anchor": "ننشئكم can carry growth and elevation as well as initial creation, and it is followed by في ما.",
+            "mechanism": "Origination may be staged maturation or rising into a condition, so the unknown concerns an unfolding order rather than only an instantaneous manufacture.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B002",
+                "role": "The growth and upbringing of the young supplies a developmental trajectory."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B001",
+                "role": "Rising and elevation give that trajectory a movement into another level or condition."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "The withheld knowledge leaves the stages and destination outside present experience."
+              }
+            ],
+            "changed_reading": {
+              "before": "ننشئكم denotes a single completed act of recreation.",
+              "after": "It may denote being raised or grown into an unknown condition whose process is as undisclosed as its result."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_measured_reinstantiation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "م ن ي",
+              "ق د ر"
+            ],
+            "mechanism": "Measured creation, form-bearing reproductive material, and apportioned death turn 'likenesses' into reproducible configurations: a present instantiation can end without exhausting the agency that measured it.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B008",
+                "role": "The represented form is the focus-ayah anchor for a configuration that can be instantiated again."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Fresh origination realizes the measured configuration beyond its current instance."
+              },
+              {
+                "source_ref": "56:59",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning creation supplies a reproducible ordering operation."
+              },
+              {
+                "source_ref": "56:58",
+                "root": "م ن ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001450",
+                "branch_id": "B002",
+                "role": "Reproductive material from which form is measured supplies an observed small-origin-to-shaped-being transition."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Deliberate apportioning makes death part of the same ordered agency rather than a failure of creation."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from reproductive material (56:58), through disputed creative agency (56:59), to apportioned death (56:60) and then replacement plus origination (56:61)."
+            ],
+            "reader_inference": "The packet supplies measured creation, form-bearing reproductive material, and planned death; I infer that the same measuring agency can instantiate the addressed identity beyond death. Alternatively, the examples prove power without specifying continuity, and أمثالكم may mean successor people.",
+            "changed_reading": {
+              "before": "Replacement is an arbitrary exchange of one shape for another.",
+              "after": "Replacement can be a measured re-instantiation: the current realization ends, while its ordering and addressed identity remain available to fresh origination."
+            }
+          },
+          {
+            "model_id": "D2_apportioned_cohort_turnover",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق د ر",
+              "ب ي ن",
+              "م و ت",
+              "س ب ق"
+            ],
+            "mechanism": "Death is deliberately distributed among a plural community and cannot escape its administrator; substitution by counterparts therefore reads as regulated cohort turnover, alongside rather than instead of later origination.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B001",
+                "role": "Taking another's place supplies the succession operation."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Counterpart likeness identifies the incoming cohort as analogous to those displaced."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "ق د ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001205",
+                "branch_id": "B005",
+                "role": "Planned apportionment turns mortality into an administered process."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B003",
+                "role": "A relation joining plural parties makes death a distributed event within the group."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of life supplies the removals through which cohort succession operates."
+              },
+              {
+                "source_ref": "56:60",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B004",
+                "role": "Failure to get beyond the pursuer makes the replacement process unoutstrippable."
+              }
+            ],
+            "structural_cues": [
+              "The repeated plural suffixes and بينكم place death and replacement at community scale before ننشئكم returns the claim to the addressees."
+            ],
+            "reader_inference": "The packet supplies apportioned death among a plural group, unavoidable agency, and counterpart substitution; I infer population-level turnover. Alternatively, every plural may still refer only to the same individuals at resurrection.",
+            "changed_reading": {
+              "before": "أمثالكم names only the addressees' replacement bodies.",
+              "after": "It can also name counterpart cohorts installed through apportioned mortality, while the following verb preserves a distinct promise concerning the addressees themselves."
+            }
+          },
+          {
+            "model_id": "D3_known_precedent_unknown_mode",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ل م",
+              "ن ش ء",
+              "ء و ل",
+              "ذ ك ر"
+            ],
+            "mechanism": "The next ayah opposes present ignorance to already-known first origination and commands recollection, relocating uncertainty from whether origination occurs to the mode into which it occurs.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Negated knowledge marks the undisclosed part of the focus claim."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Origination is the operation whose future mode remains unknown."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Affirmed knowledge immediately limits what the preceding negation can deny."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "The same creation image labels the known first instance and establishes a precedent."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Priority marks present creation as the first case rather than the only conceivable case."
+              },
+              {
+                "source_ref": "56:62",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recollection converts the known first case into evidence for the undisclosed one."
+              }
+            ],
+            "structural_cues": [
+              "لا تعلمون in 56:61 is answered immediately by ولقد علمتم in 56:62, with ن ش ء repeated across the boundary."
+            ],
+            "reader_inference": "The packet supplies an unknown future setting and a known first origination; I infer that ignorance attaches to modality, not to agency or possibility. Alternatively, 56:62 may offer only a general proof and leave every detail of 56:61 open.",
+            "changed_reading": {
+              "before": "The addressees have no basis for knowing whether another origination is possible.",
+              "after": "They know an origination has already occurred and are asked to reason from it, but cannot project its familiar mode onto the future one."
+            }
+          },
+          {
+            "model_id": "D4_seeded_development_or_fragmentation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ر ث",
+              "ز ر ع",
+              "ش ي ء",
+              "ج ع ل",
+              "ح ط م"
+            ],
+            "mechanism": "Tilling supplies prepared material, but growth belongs to another agency and the same crop can instead be rendered fragments; this makes origination a directed developmental process whose outcome is not controlled by its visible preparers.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B002",
+                "role": "Growth and upbringing anchor the focus verb to staged development."
+              },
+              {
+                "source_ref": "56:63",
+                "root": "ح ر ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000303",
+                "branch_id": "B002",
+                "role": "Casting seed and cultivating supply the preparatory human action."
+              },
+              {
+                "source_ref": "56:64",
+                "root": "ز ر ع",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000630",
+                "branch_id": "B001",
+                "role": "Germination and growth supply the emergent process denied to the human cultivator."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ش ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000831",
+                "branch_id": "B002",
+                "role": "Effective will selects which potential state becomes actual."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Rendering a thing into a condition supplies the directional state-change."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Dry matter broken into fragments supplies the live alternative to growth."
+              }
+            ],
+            "structural_cues": [
+              "The أأنتم... أم نحن agency question in 56:64 repeats the creation contrast of 56:59, then 56:65 presents a counterfactual state-change."
+            ],
+            "reader_inference": "The packet supplies sowing, nonhuman causation of growth, and the alternative of fragmentation; I map that process onto ننشئكم as an analogy for directed emergence. Alternatively, the crop is only a separate providential proof and says nothing about the mechanics of human origination.",
+            "changed_reading": {
+              "before": "Future origination is best imagined as immediate fabrication of a finished body.",
+              "after": "It may be a directed emergence from prepared but powerless material, with development rather than visible input determining the resulting form."
+            }
+          },
+          {
+            "model_id": "D5_unknown_valence",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ط م",
+              "غ ر م",
+              "ح ر م"
+            ],
+            "mechanism": "The nearby transformation of viable growth into fragments, binding loss, and deprivation prevents the unspecified future condition from being filled automatically with positive value.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B002",
+                "role": "Alteration of condition anchors the possibility that transformation can change valence as well as form."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Negated knowledge leaves the future condition unevaluated."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Crushing a mature crop demonstrates a sovereign transformation with destructive value."
+              },
+              {
+                "source_ref": "56:66",
+                "root": "غ ر م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001081",
+                "branch_id": "B003",
+                "role": "Inescapably attached loss supplies the affective and judicial consequence of that transformation."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Missing the desired good names the resulting state as deprivation."
+              }
+            ],
+            "structural_cues": [
+              "The unknown claim is followed within four ayat by a will-conditioned destructive transformation and a two-step lament of loss and deprivation."
+            ],
+            "reader_inference": "The packet supplies an unspecified future and a neighboring negative state-change; I infer that the focus ayah itself does not license an automatically favorable outcome. Alternatively, crop loss concerns present gratitude only and does not qualify the future creation.",
+            "changed_reading": {
+              "before": "Being created in an unknown condition implicitly means elevation to a better condition.",
+              "after": "The condition is sovereignly determined but valence-open in this ayah; unfamiliarity may include exposure to deprivation or judgment, not only enhancement."
+            }
+          },
+          {
+            "model_id": "D6_water_identity_under_state_change",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م و ه",
+              "ج ع ل",
+              "ء ج ج"
+            ],
+            "mechanism": "The same pronominally continuous water can be rendered bitter without ceasing to be the referenced water; this gives a concrete local analogue for continuity of 'you' through replacement of a present likeness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B002",
+                "role": "Image-change without necessary substance replacement anchors identity-preserving transformation."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B008",
+                "role": "The represented form identifies what can vary while reference persists."
+              },
+              {
+                "source_ref": "56:68",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B001",
+                "role": "Ordinary water supplies the stable referent before the proposed alteration."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Rendering the same thing into another condition supplies the transformation operator."
+              },
+              {
+                "source_ref": "56:70",
+                "root": "ء ج ج",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000014",
+                "branch_id": "B003",
+                "role": "Salty bitterness supplies the radically altered property carried by the continuing referent."
+              }
+            ],
+            "structural_cues": [
+              "The object introduced as الماء in 56:68 remains the object of أنزلتموه in 56:69 and جعلناه in 56:70 despite its counterfactual property-change."
+            ],
+            "reader_inference": "The packet supplies pronominal continuity across a proposed change from potable water to bitter water; I use that as a local analogy for personal reference across altered likeness. Alternatively, the water example is independent and replacement in 56:61 remains literal substitution.",
+            "changed_reading": {
+              "before": "A changed likeness implies a numerically different occupant.",
+              "after": "Reference can persist across radical state-change, so the continuing كُمْ need not be identified with continuity of its current likeness."
+            }
+          },
+          {
+            "model_id": "D7_latent_fire_emergence",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن و ر",
+              "و ر ي",
+              "ن ش ء",
+              "ش ج ر",
+              "ذ ك ر"
+            ],
+            "mechanism": "Fire latent in a firestick emerges as an unlike manifest state from a tree whose origination is claimed by the same verb as the focus ayah, and the result is explicitly made a reminder; unknown origination can therefore involve concealed capacity becoming a qualitatively discontinuous manifestation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Fresh origination anchors the hidden-to-manifest analogy in the focus ayah."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B002",
+                "role": "Transformation of appearance allows the manifested result to differ sharply from its source."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "ن و ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001564",
+                "branch_id": "B002",
+                "role": "The burning fire names the manifest outcome."
+              },
+              {
+                "source_ref": "56:71",
+                "root": "و ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001642",
+                "branch_id": "B002",
+                "role": "A fire concealed in the firestick and drawn out supplies the latent-to-manifest transition."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "6"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Repeated origination attributes the carrier tree and its capacity to the same creating agency."
+              },
+              {
+                "source_ref": "56:72",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B001",
+                "role": "The ordinary trunked tree supplies a material source unlike the fire that issues from it."
+              },
+              {
+                "source_ref": "56:73",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A thing made to remind explicitly licenses the preceding fire process as analogical evidence."
+              }
+            ],
+            "structural_cues": [
+              "The sequence asks about kindled fire (56:71), repeats إنشاء over its tree (56:72), and calls the result تذكرة (56:73)."
+            ],
+            "reader_inference": "The packet supplies latent fire, a created tree, repeated ن ش ء, and an explicit reminder; I infer that hidden-to-manifest emergence can model unknown human origination. Alternatively, the reminder concerns divine provision or final fire without encoding a transformation mechanism.",
+            "changed_reading": {
+              "before": "The unknown creation is merely a new object externally substituted for the old one.",
+              "after": "It may be the manifestation of a presently concealed capacity, continuous in source yet as qualitatively unlike the present form as fire is unlike its tree."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_punitive_exemplarity",
+            "confidence": "exploratory",
+            "containment": "This is surprising because أمثال normally activates likeness rather than exemplary mutilation; it remains root-anchored through the م ث ل punishment branch and gains local support from crushing and deprivation. Downstream prose should present it only as a faint punitive overtone, not as the lexical sense required by the construction.",
+            "focus_anchor": "The plural أمثالكم can carry a remote echo of persons or forms made exemplary under transformation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B002",
+                "role": "Punitive exemplarity contributes the possibility that a transformed form serves as a warning."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ب د ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000095",
+                "branch_id": "B002",
+                "role": "Alteration of image supplies the bodily or visible transformation on which the warning would depend."
+              },
+              {
+                "source_ref": "56:65",
+                "root": "ح ط م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000337",
+                "branch_id": "B001",
+                "role": "Crushing into fragments supplies a nearby punitive material image."
+              },
+              {
+                "source_ref": "56:67",
+                "root": "ح ر م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000313",
+                "branch_id": "B008",
+                "role": "Deprivation supplies the warning's negative consequence."
+              }
+            ],
+            "changed_reading": {
+              "before": "The unknown transformation is semantically neutral.",
+              "after": "At the far edge of the root inventory, transformed likenesses may also carry exemplary or admonitory force."
+            }
+          },
+          {
+            "outlier_id": "O2_unfamiliar_sign_system",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it shifts علم from cognition to marks and uses the non-dominant و س م mapping of اسم; both are packet-resolved and the focus remains لا تعلمون. Downstream prose should qualify it as a semiotic metaphor: the future condition may lack familiar identifying signs, while the closing divine name remains the orienting sign.",
+            "focus_anchor": "لا تعلمون can be heard against the root's image of a mark that identifies and guides.",
+            "activation_trace": [
+              {
+                "source_ref": "56:61",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "An identifying and guiding mark recasts unknownness as absence of presently readable signs."
+              },
+              {
+                "source_ref": "56:61",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Fresh origination supplies the new order whose signs need not match current ones."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "A visible identifying mark, reached through the packet's split mapping for اسم, supplies an orienting sign at the sequence's close."
+              },
+              {
+                "source_ref": "56:74",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Transcendent disassociation cautions against forcing present creaturely categories onto the unknown order."
+              }
+            ],
+            "changed_reading": {
+              "before": "لا تعلمون means only that factual information is missing.",
+              "after": "It may also suggest an order not indexed by familiar marks of identity, requiring orientation by the named creator rather than projection from present signs."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The first-origination echo in 56:62 confines ignorance chiefly to future mode rather than creative possibility.",
+            "Measured generation and the water counterfactual support continuity of the addressed identity through discontinuity of present form.",
+            "Crop growth and latent fire turn origination from static replacement into directed emergence from an unpromising or unlike source.",
+            "Crushing, attached loss, and deprivation keep the unspecified future condition valence-open."
+          ],
+          "what_was_special": "The tightest activation came from the water and fire sequences: water retains reference across radical property-change, while fire emerges from a created tree and is explicitly made a reminder. Together they separate continuity of 'you' from continuity of the present likeness without pretending to describe the unknown result.",
+          "remaining_uncertainties": [
+            "أمثالكم may designate successor persons, embodied forms, or likeness-patterns; the focus construction does not force one.",
+            "في ما may leave an unknown state, domain, process, or created configuration unspecified.",
+            "The agricultural, water, and fire passages may prove agency without mapping the mechanism of human origination.",
+            "The developmental and sign-system activations depend on form-distant branches and should remain exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Replacement by counterparts and origination beyond present knowledge.** `ب د ل` **B001** supplies substitution; `م ث ل` **B001** likeness and counterpart; `ن ش ء` **B006** bringing into being; `ع ل م` **B001** knowing as clear. The two verbs distinguish exchanging present forms from initiating in an unknown domain. **Abductive move:** I infer that measured death clears a position for transformation and re-origination. **Reading change:** resurrection is framed as controlled continuity-through-difference.\n\n2. **Transformation follows a model without being mere duplication.** `ب د ل` **B002** supplies alteration or transformation and `م ث ل` **B010** compliance with a model. **Abductive move:** I infer that `أمثالكم` preserves pattern while `ننشئكم` permits a mode not presently known. **Reading change:** likeness becomes a rule of continuity, not proof of identical material form.",
@@ -4596,18 +5526,23 @@
   "root_lexicon": {
     "root_000095": {
       "root_ar": "ب د ل",
+      "qac_roots_ar": [
+        "ب د ل"
+      ],
       "root_id": "root_000095",
-      "root_mapping": {
-        "root_id": "root_000095",
-        "root_norm": "ب د ل",
-        "source_root_norm": "ب د ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 39,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب د ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 39
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "659cda7c69124eb35997190f5177d0be274ea4847b4383c5ef393991824ea3fc",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6208,18 +7143,23 @@
     },
     "root_001397": {
       "root_ar": "م ث ل",
+      "qac_roots_ar": [
+        "م ث ل"
+      ],
       "root_id": "root_001397",
-      "root_mapping": {
-        "root_id": "root_001397",
-        "root_norm": "م ث ل",
-        "source_root_norm": "م ث ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 158,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م ث ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 158
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "71f84d93908f2eb34ca037a074a2cbcbad01df72330cd5ad79a7042895c880a2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9032,18 +9972,23 @@
     },
     "root_001502": {
       "root_ar": "ن ش ء",
+      "qac_roots_ar": [
+        "ن ش ء"
+      ],
       "root_id": "root_001502",
-      "root_mapping": {
-        "root_id": "root_001502",
-        "root_norm": "ن ش ء",
-        "source_root_norm": "ن ش أ",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 22,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ش ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 22
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5d592d623d01a6c7696b653e9340c2d56b83994ab56cd09db0c53097a60c0742",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11652,18 +12597,23 @@
     },
     "root_001040": {
       "root_ar": "ع ل م",
+      "qac_roots_ar": [
+        "ع ل م"
+      ],
       "root_id": "root_001040",
-      "root_mapping": {
-        "root_id": "root_001040",
-        "root_norm": "ع ل م",
-        "source_root_norm": "ع ل م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 771,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 771
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8cfacfe87682b0ea79a8459f834938bbff910f60c9504afde93dae299ea41d5e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14703,8 +15653,15 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
       "words_total": 10,
-      "words_resolved": 3,
-      "words_unresolved": 7,
+      "words_resolved": 8,
+      "words_unresolved": 2,
+      "morpheme_skip_total": 3,
+      "morpheme_skip_max": 2,
+      "morpheme_skip_histogram": {
+        "0": 6,
+        "2": 1,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 3,
@@ -14712,43 +15669,19 @@
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         },
         {
-          "word_index": 4,
-          "surface_ar": "وَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 5,
-          "surface_ar": "نُنْشِئَكُمْ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
           "word_index": 6,
           "surface_ar": "فِي",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "مَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "لَا",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 9,
-          "surface_ar": "تَعْلَمُونَ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15101,11 +16034,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_61.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_61.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 97013,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -15179,19 +16125,37 @@
           "root_ids": [
             "root_000095"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب د ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000095",
+            "targets": [
+              {
+                "qac_root_norm": "ب د ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000095",
+                "furuq_root_norm": "ب د ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 39,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000095",
-              "root_norm": "ب د ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب د ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 39,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15216,19 +16180,37 @@
           "root_ids": [
             "root_001397"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م ث ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001397",
+            "targets": [
+              {
+                "qac_root_norm": "م ث ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_001397",
+                "furuq_root_norm": "م ث ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 158,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001397",
-              "root_norm": "م ث ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م ث ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 158,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15253,19 +16235,37 @@
           "root_ids": [
             "root_001502"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ش ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001502",
+            "targets": [
+              {
+                "qac_root_norm": "ن ش ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_001502",
+                "furuq_root_norm": "ن ش ء",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 22,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001502",
-              "root_norm": "ن ش ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ش ء",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 22,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15290,19 +16290,37 @@
           "root_ids": [
             "root_001040"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001040",
+            "targets": [
+              {
+                "qac_root_norm": "ع ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001040",
+                "furuq_root_norm": "ع ل م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 771,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001040",
-              "root_norm": "ع ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ل م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 771,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15329,10 +16347,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 33,
+        "dictionary_branches_kept": 33,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 33,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

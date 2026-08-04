@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:37.063656+00:00",
+  "generated_at": "2026-08-04T22:30:01.844997+00:00",
   "surah": 56,
   "ayah": 79,
   "ayahRef": "56:79",
@@ -1710,7 +1710,8 @@
       "morpheme_ids": [
         "m-w-s056-a079-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:79:1"
+      "aligned_qac_word_ref_upstream": "56:79:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1726,7 +1727,8 @@
         "m-w-s056-a079-w002-01",
         "m-w-s056-a079-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:79:2"
+      "aligned_qac_word_ref_upstream": "56:79:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1740,7 +1742,8 @@
       "morpheme_ids": [
         "m-w-s056-a079-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:79:3"
+      "aligned_qac_word_ref_upstream": "56:79:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1756,7 +1759,8 @@
         "m-w-s056-a079-w004-01",
         "m-w-s056-a079-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:79:4"
+      "aligned_qac_word_ref_upstream": "56:79:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2025,7 +2029,737 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_79.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:79",
+      "window": [
+        "56:75",
+        "56:76",
+        "56:77",
+        "56:78",
+        "56:79",
+        "56:80",
+        "56:81",
+        "56:82",
+        "56:83",
+        "56:84",
+        "56:85",
+        "56:86",
+        "56:87",
+        "56:88",
+        "56:89",
+        "56:90",
+        "56:91",
+        "56:92",
+        "56:93",
+        "56:94",
+        "56:95",
+        "56:96"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:79",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_guarded_contact",
+            "confidence": "strong",
+            "focus_anchor": "The exclusive construction around يَمَسُّهُ and the passive plural ٱلْمُطَهَّرُونَ.",
+            "mechanism": "Tactile contact is admitted only for a class already made clean; purity functions as fitness to cross the touched object's boundary, with practical cleansing remaining one possible realization.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Hand-contact supplies the literal boundary crossing and makes restricted handling the baseline mechanism."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Removal of defilement supplies the qualifying state that permits contact."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B003",
+                "role": "Cleansing by washing supplies a concrete, though not exclusive, route into the qualifying state."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic prohibition on touching while unclean.",
+              "after": "An exclusive access relation: contact with the referent occurs only through agents who have been made fit for its boundary."
+            }
+          },
+          {
+            "model_id": "baseline_effective_encounter",
+            "confidence": "medium",
+            "focus_anchor": "The semantic range of يَمَسُّهُ and the ethical branch of ٱلْمُطَهَّرُونَ.",
+            "mechanism": "Touch can be contact that lands an effect, so the exception can mark the people capable of an uncorrupted, consequential encounter rather than merely those whose hands reach a surface.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "An effect reaching its object turns touch into consequential encounter rather than bare adjacency."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B005",
+                "role": "Purifying self and action from wrong supplies the receptive condition that keeps the encounter uncorrupted."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only clean people make physical contact.",
+              "after": "Only those made ethically clean achieve the kind of contact in which the referent truly reaches and changes its receiver."
+            }
+          },
+          {
+            "model_id": "baseline_unmixed_apprehension",
+            "confidence": "exploratory",
+            "focus_anchor": "The contrast between the entanglement branch of م س س and the cleansing force of ط ه ر.",
+            "mechanism": "If touch shades into confused intermixture, purification is what allows approach without conflating or adulterating what is encountered.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B009",
+                "role": "Entangled mixture supplies the failure mode hidden inside an undisciplined touching."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Clearing away impurity supplies the separation that prevents confused mixture."
+              }
+            ],
+            "changed_reading": {
+              "before": "Purity merely licenses approach.",
+              "after": "Purity makes non-confusing apprehension possible: the qualified touch without mixing the encountered thing with foreign matter."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "context_custodial_transmission",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ع",
+              "ن ج م",
+              "ق ر ء",
+              "ك ت ب",
+              "ك ن ن",
+              "ن ز ل"
+            ],
+            "mechanism": "Fixed points of occurrence and emergence lead into gathered recitation, joined writing, protective concealment, and delivered descent. Within that ordered transfer, touch becomes the controlled interface between a guarded register and what is conveyed outward.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Literal contact supplies the interface at which custody or transfer can occur."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Freedom from defilement supplies the fitness of those admitted to the guarded interface."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling and becoming fixed supplies determinate transfer points rather than diffuse movement."
+              },
+              {
+                "source_ref": "56:75",
+                "root": "ن ج م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001475",
+                "branch_id": "B002",
+                "role": "Emergence into visibility supplies the outward manifestation side of the transfer."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B001",
+                "role": "Gathering supplies the integration of what is transmitted into a coherent whole."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Ordered letters and the written object supply the stable register being guarded."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment supplies the guarded boundary on which selective touch operates."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Delivery downward supplies the outward movement that requires a trustworthy interface."
+              }
+            ],
+            "structural_cues": [
+              "56:77-80 places the focus between an honored recitation in a protected book and its delivery from the Lord of the worlds.",
+              "The movement from fixed stellar positions to emergence and then descent gives the passage a controlled spatial sequence."
+            ],
+            "reader_inference": "The packet supplies fixed occurrence, emergence, gathering, writing, protective concealment, and delivery; I infer a custodial chain and assign touch to its guarded interface. Literal handling without a transfer model remains live.",
+            "changed_reading": {
+              "before": "Purified people alone may handle a sacred object.",
+              "after": "Those made pure are the admissible interface in a protected transmission, touching where concealed registration becomes delivered recitation."
+            }
+          },
+          {
+            "model_id": "context_uncoated_reception",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ه ن",
+              "ك ذ ب"
+            ],
+            "mechanism": "The audience can coat the discourse with smooth compromise or oppose it with falsehood. Purified touch is therefore a reception that neither smears the encountered message nor blocks its effect.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "Effect-bearing contact supplies the receptive encounter whose success is being tested."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B005",
+                "role": "Purity of self and action supplies resistance to corrupting the encounter."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B001",
+                "role": "Oil or coating supplies a material image for overlaying the discourse with foreign matter."
+              },
+              {
+                "source_ref": "56:81",
+                "root": "د ه ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000497",
+                "branch_id": "B002",
+                "role": "Soft compromise supplies the social mode by which an apparently smooth reception evades the message."
+              },
+              {
+                "source_ref": "56:82",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth supplies the terminal form of failed reception."
+              }
+            ],
+            "structural_cues": [
+              "56:81-82 turns immediately from the delivered discourse to the audience's compromising and denying response."
+            ],
+            "reader_inference": "The packet supplies coating, conciliatory softness, and falsehood; I infer that these are modes of contaminating contact and that purification names unadulterated reception. The lines may alternatively remain a general rebuke unrelated to the touch image.",
+            "changed_reading": {
+              "before": "Purity is a condition possessed before contact.",
+              "after": "Purity is also visible in the contact itself: the receiver lets the discourse arrive without coating it in compromise or converting provision into denial."
+            }
+          },
+          {
+            "model_id": "context_effective_threshold_access",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ل غ",
+              "ن ظ ر",
+              "ق ر ب",
+              "ب ص ر",
+              "ر ج ع"
+            ],
+            "mechanism": "At death something reaches the throat while observers look, remain less near than an unseen presence, and cannot return what is departing. The sequence separates visual or bodily proximity from effective access, sharpening touch into operative reach across a hidden boundary.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "An effect that reaches supplies the focus's stronger sense of operative rather than superficial contact."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "Purified fitness supplies the capacity assigned to the exceptional group at the boundary."
+              },
+              {
+                "source_ref": "56:83",
+                "root": "ب ل غ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000151",
+                "branch_id": "B001",
+                "role": "Arrival at an endpoint supplies the throat as a terminal threshold."
+              },
+              {
+                "source_ref": "56:84",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B001",
+                "role": "Directed sight supplies perceptual presence that proves insufficient for effective access."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B001",
+                "role": "Nearness supplies a proximity deeper than that of the visible observers."
+              },
+              {
+                "source_ref": "56:85",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Eyesight supplies the explicitly denied channel, distinguishing seeing from boundary access."
+              },
+              {
+                "source_ref": "56:87",
+                "root": "ر ج ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000544",
+                "branch_id": "B001",
+                "role": "Restoring something to its former state supplies the impossible control test for human contact."
+              }
+            ],
+            "structural_cues": [
+              "56:83-87 forms a continuous threshold scene: reaching, watching, unseen nearness, and failed return.",
+              "The challenge to return the departing entity tests agency rather than mere spatial closeness."
+            ],
+            "reader_inference": "The packet supplies endpoint-reaching, sight, nearness, non-seeing, and attempted return; I infer that touch in 56:79 can denote effective boundary access. The death scene may instead function only as a later analogy and not specify the focus referent.",
+            "changed_reading": {
+              "before": "Touch means being physically close enough to make contact.",
+              "after": "Touch means effective reach at a concealed threshold; ordinary observers may be present and looking yet still lack the access possessed by the purified."
+            }
+          },
+          {
+            "model_id": "context_conferred_nearness",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق ر ب"
+            ],
+            "mechanism": "The later passive class of those brought near mirrors the focus's people made pure. The shared conferred-state pattern makes access look granted through transformation and favor, not claimed through self-certified cleanliness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B001",
+                "role": "Contact supplies the privilege whose source of authorization is being reconsidered."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B001",
+                "role": "A state of purity supplies the passively conferred qualification for contact."
+              },
+              {
+                "source_ref": "56:88",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "Favored intimates brought near supply a second conferred class whose status grants privileged proximity."
+              }
+            ],
+            "structural_cues": [
+              "The passive forms ٱلْمُطَهَّرُونَ in 56:79 and ٱلْمُقَرَّبِينَ in 56:88 describe classes acted upon rather than self-appointed."
+            ],
+            "reader_inference": "The packet supplies purified and brought-near passive classes plus the favored-intimate branch; I infer a common logic of granted fitness and access. The two classes need not be extensionally identical.",
+            "changed_reading": {
+              "before": "People gain permission by cleaning themselves.",
+              "after": "Access belongs to people made fit and brought into privileged proximity; purification is received status before it is a human credential."
+            }
+          },
+          {
+            "model_id": "context_water_not_sufficient",
+            "status": "weakened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ز ل",
+              "ح م م",
+              "ص ل ي"
+            ],
+            "mechanism": "The repeated descent/reception root moves from delivered revelation to a prepared reception of hot water followed by meeting fire. Because water-contact can belong to punishment, the practical-washing branch cannot by itself exhaust what makes the exceptional group purified.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "Contact that delivers an effect supplies the common mechanism whose outcome can differ."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B003",
+                "role": "Washing supplies the concrete purity model that the later hot-water contact limits."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B005",
+                "role": "Ethical cleansing supplies the broader qualification left standing after washing alone proves insufficient."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Delivery supplies the first, revelatory mode of something arriving to a receiver."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Provision prepared for an arrival supplies the punitive counter-reception."
+              },
+              {
+                "source_ref": "56:93",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water and washing supply the counterexample in which a washing medium does not purify."
+              },
+              {
+                "source_ref": "56:94",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Meeting the heat of fire supplies the harmful consequence of the wrong mode of reception."
+              }
+            ],
+            "structural_cues": [
+              "The root ن ز ل frames both 56:80 and 56:93, but the first arrival is revelation and the second is punitive provision.",
+              "56:93-94 couples hot water with direct exposure to fire."
+            ],
+            "reader_inference": "The packet supplies revelatory delivery, prepared reception, hot-water washing, and meeting fire; I infer polar outcomes of encounter and therefore deny that water exposure alone defines focus-purity. The two uses of ن ز ل may remain rhetorically parallel without sharing one reception mechanism.",
+            "changed_reading": {
+              "before": "Practical washing is sufficient to identify the purified touchers.",
+              "after": "The decisive purity precedes and governs contact: a medium associated with washing can itself become punitive, so bodily washing cannot exhaust the qualification."
+            }
+          },
+          {
+            "model_id": "context_certain_tanzih",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح ق ق",
+              "ي ق ن",
+              "س ب ح",
+              "س م و"
+            ],
+            "mechanism": "The close identifies fixed truth, certainty without doubt, and the clearing of the Lord's named designation from defect. This gives purified touch an epistemic and verbal form: contact with truth is maintained by removing false attribution.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B004",
+                "role": "Effect-bearing contact supplies the passage from truth encountered to truth settled in the receiver."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B005",
+                "role": "Purifying self and act from wrong supplies the ethical analogue of clearing speech from defect."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Reality fixed against falsehood supplies the object of an uncorrupted encounter."
+              },
+              {
+                "source_ref": "56:95",
+                "root": "ي ق ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001696",
+                "branch_id": "B001",
+                "role": "Knowledge stabilized after doubt supplies the settled effect of that encounter."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س ب ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000666",
+                "branch_id": "B002",
+                "role": "Clearing from defect supplies a verbal purification that answers the focus's ethical purity."
+              },
+              {
+                "source_ref": "56:96",
+                "root": "س م و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "The name as designation supplies the linguistic site on which that clearing is enacted."
+              }
+            ],
+            "structural_cues": [
+              "56:95-96 closes the unit by moving from truth and certainty to an imperative of tanzih directed through the Lord's name."
+            ],
+            "reader_inference": "The packet supplies fixed truth, certainty, clearing from defect, and naming; I infer an analogy between tanzih of designation and purification of the receiver. Bodily purity and epistemic purity can still coexist rather than exclude one another.",
+            "changed_reading": {
+              "before": "Purified touch is chiefly a bodily access condition.",
+              "after": "Purified touch culminates as truthful apprehension and undefiling speech: certainty is contacted by a receiver who clears rather than falsifies the named source."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_guarded_gestation",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates reproductive side branches beneath overtly scriptural surfaces. It remains anchored in the focus through intimate م س س and menstrual or washing ط ه ر, and the nearby womb-gathering, protective enclosure, and seminal descent branches make a coherent material analogy. Render only as an exploratory image of protected generative transmission, never as a translation, legal ruling, or claim that the passage's referent is sexual.",
+            "focus_anchor": "The intimate-contact branch of يَمَسُّهُ beside the menstrual-purity and washing branches of ٱلْمُطَهَّرُونَ.",
+            "activation_trace": [
+              {
+                "source_ref": "56:79",
+                "root": "م س س",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001423",
+                "branch_id": "B002",
+                "role": "Intimate contact supplies the generative boundary-crossing image."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B002",
+                "role": "Menstrual cessation and purity supply the cyclical bodily qualification around generative contact."
+              },
+              {
+                "source_ref": "56:79",
+                "root": "ط ه ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000953",
+                "branch_id": "B003",
+                "role": "Washing supplies the enacted transition into bodily readiness."
+              },
+              {
+                "source_ref": "56:77",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B004",
+                "role": "A womb gathering a pregnancy supplies the interior collection and formation stage."
+              },
+              {
+                "source_ref": "56:78",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment supplies the guarded enclosure around what is forming."
+              },
+              {
+                "source_ref": "56:80",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B009",
+                "role": "Seminal outflow supplies the form-distant material image of generative transmission or descent."
+              }
+            ],
+            "changed_reading": {
+              "before": "The line restricts handling of a protected text.",
+              "after": "As a contained material analogy, the line can image protected generation: prepared intimate contact admits a gathered content into or out of a guarded interior."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The immediate context revises touch from isolated handling into the controlled interface of a concealed-to-delivered transmission.",
+            "The death scene distinguishes effective access from looking or bodily proximity, making touch operative reach across a hidden threshold.",
+            "The passive class of those brought near makes the purified class look conferred and admitted rather than self-authorized.",
+            "The later hot-water reception weakens any reduction of purification to washing alone."
+          ],
+          "what_was_special": "The focus's two compact roots became a hinge among custody, reception, threshold agency, and conferred proximity; the packet also sustained a clearly contained gestational material analogy that a conservative reading would likely suppress.",
+          "remaining_uncertainties": [
+            "The pronoun's precise referent is not settled by the focus line alone.",
+            "Physical handling, effective reception, and mediated transmission may coexist, but the trace cannot determine their relative priority.",
+            "The reproductive outlier is branch-coherent yet highly form-distant and must remain explicitly exploratory."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Contact is restricted to those made free of defilement.** `م س س` **B001** supplies contact by touch; `ط ه ر` **B001** supplies purity with defilement removed. The passive `المطهرون` parallels the passive `المقربون`: status is received before access. **Abductive move:** I infer that purification enables protected contact. **Reading change:** touching is an admitted relation, not mere physical reach.\n\n2. **Only the purified receive its effect.** `م س س` **B004** supplies being touched by an effect; `ط ه ر` **B005** supplies cleansing conduct from blame. **Abductive move:** I infer a bidirectional contact: they touch the text and its effect touches them. **Reading change:** `يمسه` can describe transformative reception as well as handling.",
@@ -2915,18 +3649,23 @@
   "root_lexicon": {
     "root_001423": {
       "root_ar": "م س س",
+      "qac_roots_ar": [
+        "م س س"
+      ],
       "root_id": "root_001423",
-      "root_mapping": {
-        "root_id": "root_001423",
-        "root_norm": "م س س",
-        "source_root_norm": "م س س",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 49,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "م س س",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 49
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "be95bfd4fa798c6cf631977f3ec99eceece5779a23e9bc85f685a34db371eb3b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4645,18 +5384,23 @@
     },
     "root_000953": {
       "root_ar": "ط ه ر",
+      "qac_roots_ar": [
+        "ط ه ر"
+      ],
       "root_id": "root_000953",
-      "root_mapping": {
-        "root_id": "root_000953",
-        "root_norm": "ط ه ر",
-        "source_root_norm": "ط ه ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 27,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ط ه ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 27
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "eb23318aba27821ff98aad9a4650896abea43d0efe763d82ff3039a26fe49bd8",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6990,14 +7734,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7243,11 +7993,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_79.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_79.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 90561,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7320,19 +8083,37 @@
           "root_ids": [
             "root_001423"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "م س س",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001423",
+            "targets": [
+              {
+                "qac_root_norm": "م س س",
+                "target_rank": 1,
+                "furuq_root_id": "root_001423",
+                "furuq_root_norm": "م س س",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 49,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001423",
-              "root_norm": "م س س",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "م س س",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 49,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7357,19 +8138,37 @@
           "root_ids": [
             "root_000953"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ط ه ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000953",
+            "targets": [
+              {
+                "qac_root_norm": "ط ه ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000953",
+                "furuq_root_norm": "ط ه ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 27,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000953",
-              "root_norm": "ط ه ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ط ه ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 27,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7396,10 +8195,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 16,
+        "dictionary_branches_kept": 16,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 16,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

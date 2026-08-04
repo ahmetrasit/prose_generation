@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.644114+00:00",
+  "generated_at": "2026-08-04T22:29:48.867999+00:00",
   "surah": 51,
   "ayah": 55,
   "ayahRef": "51:55",
@@ -2139,7 +2139,8 @@
       "morpheme_ids": [
         "m-w-s051-a055-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:55:1"
+      "aligned_qac_word_ref_upstream": "51:55:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2153,7 +2154,8 @@
       "morpheme_ids": [
         "m-w-s051-a055-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:55:2"
+      "aligned_qac_word_ref_upstream": "51:55:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2167,7 +2169,8 @@
       "morpheme_ids": [
         "m-w-s051-a055-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:55:3"
+      "aligned_qac_word_ref_upstream": "51:55:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2181,7 +2184,8 @@
       "morpheme_ids": [
         "m-w-s051-a055-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:55:4"
+      "aligned_qac_word_ref_upstream": "51:55:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2197,7 +2201,8 @@
         "m-w-s051-a055-w003-01",
         "m-w-s051-a055-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:55:5"
+      "aligned_qac_word_ref_upstream": "51:55:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2211,7 +2216,8 @@
       "morpheme_ids": [
         "m-w-s051-a055-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:55:6"
+      "aligned_qac_word_ref_upstream": "51:55:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2227,7 +2233,8 @@
         "m-w-s051-a055-w005-01",
         "m-w-s051-a055-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:55:7"
+      "aligned_qac_word_ref_upstream": "51:55:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2518,7 +2525,799 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_55.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:55",
+      "window": [
+        "51:38",
+        "51:39",
+        "51:40",
+        "51:41",
+        "51:42",
+        "51:43",
+        "51:44",
+        "51:45",
+        "51:46",
+        "51:47",
+        "51:48",
+        "51:49",
+        "51:50",
+        "51:51",
+        "51:52",
+        "51:53",
+        "51:54",
+        "51:55",
+        "51:56",
+        "51:57",
+        "51:58",
+        "51:59",
+        "51:60"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:55",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_represented_truth",
+            "confidence": "strong",
+            "focus_anchor": "The doubled ذ ك ر root links the imperative at word 1 to the reminder at word 3, followed by benefit and believers.",
+            "mechanism": "An external prompting act makes something already held present again; that renewed presence produces good where the message is inwardly assented to.",
+            "activation_trace": [
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recall after absence supplies the transition from latent knowledge to renewed presence."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder as an eliciting means makes the imperative an operation, not merely repeated information."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Good opposed to harm supplies the observable result of renewed presence."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Heart-settled assent supplies the receptive condition in which the reminder becomes efficacious."
+              }
+            ],
+            "changed_reading": {
+              "before": "The imperative asks for another delivery of religious information.",
+              "after": "The imperative re-presents held truth, and the verse names renewed presence as concretely effective within assenting hearers."
+            }
+          },
+          {
+            "model_id": "baseline_voiced_security",
+            "confidence": "medium",
+            "focus_anchor": "The imperative of ذ ك ر can be voiced, while the stated beneficiaries are named through the security and trust root ء م ن.",
+            "mechanism": "Reminder moves from tongue to heart: voiced mention repeatedly restores a stable field of trust rather than remaining private recollection.",
+            "activation_trace": [
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention running on the tongue supplies the public carrier of the reminder."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Benefit supplies the positive change produced by repeated voiced contact."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and trust supply the inner state maintained by the circulating utterance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Reminder is chiefly an individual's silent act of recollection.",
+              "after": "Reminder is also voiced circulation whose benefit is the repeated stabilization of trust among believers."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_recollection_through_pairs",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ز و ج",
+              "ذ ك ر"
+            ],
+            "mechanism": "Created counterparts form a comparison structure that culminates in remembering at 51:49; the focus renews that same root as an imperative, so reminder trains recognition through relations already present in creation.",
+            "activation_trace": [
+              {
+                "source_ref": "51:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Creative bringing-forth supplies the field in which mnemonic relations can be encountered."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B001",
+                "role": "A counterpart joined to its counterpart supplies comparison as the recognition mechanism."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recollection explicitly names the cognitive result of attending to the paired field."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The focus turns that earlier recollective result into a renewed prompting practice."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Benefit names the positive effect of learning to read those relations."
+              }
+            ],
+            "structural_cues": [
+              "51:49 ends its created-pairs construction with remembering; 51:55 repeats ذ ك ر twice after the intervening warning sequence."
+            ],
+            "reader_inference": "The packet supplies created pairs followed by recollection; I infer that comparison between paired terms is the activating arrow, while the broader alternative that creation as a whole functions as a sign remains live.",
+            "changed_reading": {
+              "before": "Reminder supplies detached verbal content to a hearer.",
+              "after": "Reminder reactivates a comparative way of seeing, teaching believers to recognize truth through relations already built into creation."
+            }
+          },
+          {
+            "model_id": "delta_warning_as_directed_refuge",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ر ر",
+              "ن ذ ر",
+              "ب ي ن"
+            ],
+            "mechanism": "Clear warning does not merely produce fear: it directs flight toward God. In the focus, the security of believers becomes an oriented refuge-state, and reminder benefits by repeatedly converting alarm into intelligible movement.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies urgent motion whose stated direction prevents warning from ending in undirected panic."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that awakens caution supplies the pressure initiating that motion."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "Meaning disclosed through speech or sign makes the destination and danger intelligible."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security supplies the settled destination produced by correctly directed warning."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Benefit lies in converting arousal into protective orientation."
+              }
+            ],
+            "structural_cues": [
+              "The imperative to flee in 51:50 is immediately aimed toward God and followed by the repeated self-description as a clear warner in 51:50-51."
+            ],
+            "reader_inference": "The packet supplies flight, warning, clarity, and heart-security; I infer that warning benefits by directing fear into refuge, while the alternative of simple wakeful caution remains possible.",
+            "changed_reading": {
+              "before": "Reminder reassures a group that is already secure.",
+              "after": "Reminder repeatedly turns warning into directed refuge, so believing security is active orientation rather than passive insulation."
+            }
+          },
+          {
+            "model_id": "delta_counter_inheritance",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "و ص ي",
+              "ط غ ي"
+            ],
+            "mechanism": "The same dismissive saying recurs across separated peoples, and 51:53 frames that recurrence as if mutually transmitted. The focus answers with another transmissible speech-act: reminder circulates a counter-script among believers.",
+            "activation_trace": [
+              {
+                "source_ref": "51:39",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "A saying spreading among people supplies the first visible instance of the inherited refusal-script."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "The same socially circulating saying reappears, exposing patterned recurrence rather than an isolated objection."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Reciprocal bequest supplies the proposed transmission mechanism for the repeated response."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B001",
+                "role": "Boundary-crossing rebellion supplies the alternative common cause of the recurring script."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B004",
+                "role": "Mention carried on tongues supplies a rival circulation capable of interrupting inherited refusal."
+              }
+            ],
+            "structural_cues": [
+              "51:52 repeats the two accusations already voiced in 51:39; 51:53 asks whether predecessors transmitted this response; 51:55 commands a counter-utterance."
+            ],
+            "reader_inference": "The packet supplies repeated accusations and a rhetorical question about bequest; I infer a socially reproduced refusal-script and reminder as counter-transmission, while the stated alternative is independent recurrence from shared transgression.",
+            "changed_reading": {
+              "before": "Reminder addresses isolated individual forgetfulness.",
+              "after": "Reminder interrupts a socially recurring script by circulating a different remembered account among believers."
+            }
+          },
+          {
+            "model_id": "delta_withdrawal_without_silence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ل ي",
+              "ل و م"
+            ],
+            "mechanism": "Turning away from refractory opponents removes blame for their response, but the next verse restores the imperative to remind and names receptive beneficiaries. Withdrawal therefore limits futile confrontation rather than silencing reminder.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies a real break in confrontational engagement."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Removal of blame separates faithful address from control over the opponents' reception."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The renewed imperative preserves prompting immediately after disengagement."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Assenting believers supply the explicitly receptive horizon of the continued practice."
+              }
+            ],
+            "structural_cues": [
+              "The command to turn away in 51:54 is immediately followed by 'and remind' in 51:55, with a shift from the pronoun 'them' to named beneficiaries."
+            ],
+            "reader_inference": "The packet supplies withdrawal, exculpation, renewed command, and named beneficiaries; I infer a shift of audience or mode, while temporary disengagement followed by still-general reminder remains live.",
+            "changed_reading": {
+              "before": "The withdrawal command closes the work of admonition.",
+              "after": "Withdrawal ends fruitless confrontation but not cultivation: reminder continues where reception can produce benefit."
+            }
+          },
+          {
+            "model_id": "delta_nonextractive_benefit",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د",
+              "ر و د",
+              "ر ز ق",
+              "ط ع م",
+              "ق و ي",
+              "م ت ن"
+            ],
+            "mechanism": "The following verses link creaturely purpose to worship while denying any divine desire for provision or feeding and naming God as the strong provider. The focus's benefit is therefore recipient-side alignment, not an upward transfer that fills a lack.",
+            "activation_trace": [
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the creaturely orientation into which reminder aligns its beneficiaries."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ر و د",
+                "source_word_indices": [
+                  "2",
+                  "7"
+                ],
+                "mapped_root_id": "root_000610",
+                "branch_id": "B001",
+                "role": "The doubled negation of divine desire blocks an extractive arrow from beneficiaries to God."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B002",
+                "role": "Sustaining provision supplies what is explicitly not demanded from the creatures."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another supplies the rejected model of worship as meeting divine need."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Apportioned giving reverses the flow: provision originates with God rather than the reminded."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Concentrated strength removes any premise that divine benefit depends on creaturely support."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "م ت ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001396",
+                "branch_id": "B001",
+                "role": "Extended solidity completes the image of provision from inexhaustible strength."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Benefit is reassigned to the believers as the positive result of alignment."
+              }
+            ],
+            "structural_cues": [
+              "51:56 states a purpose for creation; 51:57 twice negates divine wanting; 51:58 identifies the provider before the consequence sequence begins."
+            ],
+            "reader_inference": "The packet supplies worship-purpose, negated desire for provision and food, and self-sufficient provision; I infer that benefit cannot mean filling a divine lack, while communal and material benefits to creatures remain compatible.",
+            "changed_reading": {
+              "before": "Reminder benefits God by securing worship or payment from creatures.",
+              "after": "Reminder benefits believers by aligning them with creaturely purpose without supplying, feeding, or strengthening God."
+            }
+          },
+          {
+            "model_id": "delta_deferred_allotment_interval",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ن ب",
+              "م ث ل",
+              "ع ج ل",
+              "ي و م",
+              "و ع د"
+            ],
+            "mechanism": "Wrongdoers receive a measured share like earlier companions, yet are told not to hasten a promised day. Reminder's benefit gains a temporal edge: it makes the interval before an allotted consequence usable for response.",
+            "activation_trace": [
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B006",
+                "role": "A fixed share supplies the allotted character of the coming consequence."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Likeness binds the present wrongdoers' share to the recurrent historical pattern."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "The prohibition of haste supplies delay as a meaningful interval rather than cancellation."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "A severe bounded day supplies the terminal horizon of the interval."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "A promise fixed to time supplies certainty without immediate arrival."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Prompting makes the open interval actionable rather than empty delay."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Benefit includes a changed use of time before the promised horizon."
+              }
+            ],
+            "structural_cues": [
+              "The reminder at 51:55 stands before the allotted-share and promised-day closure of 51:59-60."
+            ],
+            "reader_inference": "The packet supplies an allotted share, historical likeness, forbidden haste, and a promised day; I infer that reminder operationalizes the delay for response, while the alternative that it only confirms inevitable reckoning remains live.",
+            "changed_reading": {
+              "before": "Reminder offers only an immediate psychological benefit.",
+              "after": "Reminder also converts deferred time into a usable interval before an allotted and promised consequence."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_staff_for_standing",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the rare concrete staff branch rather than the default sense of benefit; it remains anchored in تَنفَعُ and is functionally reinforced by the contextual loss of standing and aid. Render only as a material analogy, never as a translation.",
+            "focus_anchor": "The rare ن ف ع branch at focus word 4 can concretize what reminder does for believers.",
+            "activation_trace": [
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B003",
+                "role": "The staff sense turns abstract usefulness into a supporting instrument."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily standing supplies the failed capacity that a support-image counterposes."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "The absence of aid sharpens reminder's exploratory role as support before collapse."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "The prompting act identifies what functions analogically as the support."
+              }
+            ],
+            "changed_reading": {
+              "before": "Benefit is an unspecified abstract advantage.",
+              "after": "Exploratorily, reminder acts like a staff that helps believers maintain moral standing where the contextual counterexample cannot stand or find aid."
+            }
+          },
+          {
+            "outlier_id": "outlier_added_carrying_capacity",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it uses the side-piece sense of ن ف ع; it remains anchored in focus word 4 and is activated by the nearby provision and feeding cluster. Render as a capacity analogy, not as the lexical meaning of تَنفَعُ.",
+            "focus_anchor": "The focus verb at word 4 carries a rare branch image of an added side-piece on a carrying vessel.",
+            "activation_trace": [
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B002",
+                "role": "The added side-piece supplies an image of expanded carrying or retaining capacity."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B002",
+                "role": "Sustaining provision supplies what a strengthened receptacle could receive and retain."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding supplies the transfer image that distinguishes provision from capacity to hold it."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Apportioned giving identifies the external supply whose reception reminder may enlarge."
+              }
+            ],
+            "changed_reading": {
+              "before": "Reminder benefits by adding more informational content.",
+              "after": "Exploratorily, reminder adds carrying capacity: it helps believers retain and use provision already supplied rather than becoming the provision itself."
+            }
+          },
+          {
+            "outlier_id": "outlier_recurrence_interrupt",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a return branch from the packet's mapping of the proper name in 51:41; it remains worth carrying because the two accusation scenes visibly recur and focus recollection answers recurrence. Render as packet-licensed wordplay or latent activation, never as the proper name's translation.",
+            "focus_anchor": "The focus's recollection branch can function as deliberate return that exposes and interrupts contextual repetition.",
+            "activation_trace": [
+              {
+                "source_ref": "51:41",
+                "root": "ع و د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001058",
+                "branch_id": "B001",
+                "role": "Return after departure supplies a form-distant recurrence cue from the mapped proper-name occurrence."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "The first circulating accusation supplies the pattern's earlier instance."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B007",
+                "role": "The later identical accusation makes return structurally visible."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Deliberate recollection supplies a conscious return capable of exposing automatic recurrence."
+              }
+            ],
+            "changed_reading": {
+              "before": "Reminder repeats content within a stable present.",
+              "after": "Exploratorily, deliberate return through reminder interrupts the unexamined return of inherited accusations across peoples."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The paired-creation cue makes reminder a trained recognition of relations, not detached verbal content.",
+            "The repeated accusations and reciprocal-bequest question make reminder a counter-transmission against socially recurring refusal.",
+            "The adjacency of withdrawal and renewed reminder separates ending futile confrontation from ending cultivation.",
+            "The provision sequence fixes benefit on the believers' side and excludes any model of worship as supplying a divine lack."
+          ],
+          "what_was_special": "The focus becomes a hinge: it preserves address after withdrawal, converts recurring speech into a contest of transmissions, and redirects benefit toward receptive creatures before the text denies divine need. Rare material branches additionally expose reminder as support or added capacity without displacing the ordinary lexical reading.",
+          "remaining_uncertainties": [
+            "The directed-refuge model may describe warning more directly than reminder, although the adjacent imperatives and faith root keep the transfer live.",
+            "The usable-delay reading depends on an inferred opportunity arrow; the closing verses may instead stress certainty alone.",
+            "The staff, carrying-capacity, and proper-name recurrence activations must remain explicitly analogical or paronomastic."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Withdrawal does not cancel selective reminder.** Repeated `ذ ك ر/B009` supplies admonition/reminder; `ن ف ع/B001` benefit; `ء م ن/B002` trusting assent. The conjunction reverses any reading of 51:54 as absolute silence. I infer **general disengagement + continued reminder -> benefit where assent makes reception possible**. Communication becomes audience-sensitive.\n2. **Remembering repairs the failed sign-process.** `ذ ك ر/B003` supplies bringing to mind, while earlier viewers looked without insight (51:44). I infer **reminder re-presents signs -> receptive memory reconnects event and consequence**. The benefit is cognitive and ethical, not merely informational.",
@@ -3596,18 +4395,23 @@
   "root_lexicon": {
     "root_000516": {
       "root_ar": "ذ ك ر",
+      "qac_roots_ar": [
+        "ذ ك ر"
+      ],
       "root_id": "root_000516",
-      "root_mapping": {
-        "root_id": "root_000516",
-        "root_norm": "ذ ك ر",
-        "source_root_norm": "ذ ك ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 277,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ذ ك ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 277
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9e1ac4e24b425fdb7ad3bf1a72543af44c5ebca087ae33fa01fd168eb8a28cec",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7161,18 +7965,23 @@
     },
     "root_001536": {
       "root_ar": "ن ف ع",
+      "qac_roots_ar": [
+        "ن ف ع"
+      ],
       "root_id": "root_001536",
-      "root_mapping": {
-        "root_id": "root_001536",
-        "root_norm": "ن ف ع",
-        "source_root_norm": "ن ف ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 50,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ف ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 50
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "3ac517f6481f17ac0516dff39bae58d339e102cfe018afafbb33417d35abf483",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8128,18 +8937,23 @@
     },
     "root_000054": {
       "root_ar": "ء م ن",
+      "qac_roots_ar": [
+        "ء م ن"
+      ],
       "root_id": "root_000054",
-      "root_mapping": {
-        "root_id": "root_000054",
-        "root_norm": "ء م ن",
-        "source_root_norm": "أ م ن",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 365,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء م ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 365
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "46a1073a81403723f1ed8217c48f1f17374b0aa980e74f97a87ee94406ba5a2b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -10609,14 +11423,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -10876,11 +11696,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_55.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_55.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 120198,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -10954,19 +11787,37 @@
           "root_ids": [
             "root_000516"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ذ ك ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000516",
+            "targets": [
+              {
+                "qac_root_norm": "ذ ك ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000516",
+                "furuq_root_norm": "ذ ك ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 277,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000516",
-              "root_norm": "ذ ك ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ذ ك ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 277,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -10991,19 +11842,37 @@
           "root_ids": [
             "root_001536"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ف ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001536",
+            "targets": [
+              {
+                "qac_root_norm": "ن ف ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_001536",
+                "furuq_root_norm": "ن ف ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 50,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001536",
-              "root_norm": "ن ف ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ف ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 50,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11028,19 +11897,37 @@
           "root_ids": [
             "root_000054"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء م ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000054",
+            "targets": [
+              {
+                "qac_root_norm": "ء م ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000054",
+                "furuq_root_norm": "ء م ن",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 365,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000054",
-              "root_norm": "ء م ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء م ن",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 365,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 3,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -11067,10 +11954,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 15,
+        "dictionary_branches_kept": 15,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 15,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

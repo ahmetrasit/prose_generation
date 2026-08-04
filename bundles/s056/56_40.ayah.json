@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.424109+00:00",
+  "generated_at": "2026-08-04T22:29:59.631967+00:00",
   "surah": 56,
   "ayah": 40,
   "ayahRef": "56:40",
@@ -1158,7 +1158,8 @@
       "morpheme_ids": [
         "m-w-s056-a040-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:40:1"
+      "aligned_qac_word_ref_upstream": "56:40:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1172,7 +1173,8 @@
       "morpheme_ids": [
         "m-w-s056-a040-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:40:2"
+      "aligned_qac_word_ref_upstream": "56:40:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1186,7 +1188,8 @@
       "morpheme_ids": [
         "m-w-s056-a040-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:40:3"
+      "aligned_qac_word_ref_upstream": "56:40:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1202,7 +1205,8 @@
         "m-w-s056-a040-w003-01",
         "m-w-s056-a040-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:40:4"
+      "aligned_qac_word_ref_upstream": "56:40:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1520,7 +1524,544 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_40.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:40",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:40",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_temporal_cohort",
+            "confidence": "strong",
+            "focus_anchor": "ثُلَّةٌ (ث ل ل) and ٱلْءَاخِرِينَ (ء خ ر).",
+            "mechanism": "The partitive construction selects an assembled subset from people marked as after or other than an earlier set.",
+            "activation_trace": [
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "An assembled human group supplies the collective nucleus and makes the line a cohort statement."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Being after the first or being other supplies the cohort's temporal and relational horizon."
+              }
+            ],
+            "changed_reading": {
+              "before": "A flat count of many later people.",
+              "after": "A bounded, assembled cohort drawn from those who come after or are other than the first."
+            }
+          },
+          {
+            "model_id": "b_rear_contingent",
+            "confidence": "medium",
+            "focus_anchor": "The group noun ثُلَّةٌ is qualified by the rearward branch of ٱلْءَاخِرِينَ.",
+            "mechanism": "The latter term can organize the group spatially as a contingent gathered from those behind or at the rear, without requiring a historical-generation reading.",
+            "activation_trace": [
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The gathered-group image supplies a coherent contingent rather than isolated individuals."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B003",
+                "role": "The rear or back of a thing supplies a positional alternative to purely chronological laterness."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse refers only to people of a later era.",
+              "after": "It can also picture a gathered contingent brought in from the rearward ranks."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "c_paired_cohorts",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ث ل ل",
+              "ء و ل"
+            ],
+            "mechanism": "The exact recurrence of the same group noun and partitive frame pairs a first cohort with a later cohort; firstness and succession make the latter a coordinate body rather than a residue.",
+            "activation_trace": [
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The assembled-group image names the later member of the pair."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The after-first relation supplies the second pole of the contrast."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The identical assembled-group image supplies the formally matched first member."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence establish the first cohort against which the focus cohort is paired."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "One thing following another supplies sequential continuity between the first and later cohorts."
+              }
+            ],
+            "structural_cues": [
+              "56:39 and 56:40 repeat the same indefinite ثُلَّةٌ/min construction, with 56:40 joined by wa- and only the temporal classifier changed."
+            ],
+            "reader_inference": "The packet supplies exact syntactic repetition plus first/later contrast; I infer parity of cohort category, not equal headcount, while the indefinite nouns leave relative sizes open.",
+            "changed_reading": {
+              "before": "A later contingent appears as an isolated afterthought.",
+              "after": "The later group is the coordinated counterpart of the first group within one two-part population."
+            }
+          },
+          {
+            "model_id": "c_mutual_support_body",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن",
+              "ن ض د"
+            ],
+            "mechanism": "Companionship, right-associated strength, and an ordered group by which a person gains strength turn the thulla from a headcount into a mutually sustaining constituency.",
+            "activation_trace": [
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The assembled group is the focus anchor that receives the social-support mechanism."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Later or other people locate this sustaining body beyond the first cohort."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and abiding association make the beneficiaries a relational collective."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "Right as strength and claim gives the associated collective full standing rather than secondary status."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B005",
+                "role": "A group through which one gains strength supplies the functional image of mutual reinforcement."
+              }
+            ],
+            "structural_cues": [
+              "56:27 opens by repeating the companions of the right, and 56:38 restates them immediately before the paired cohort lines.",
+              "The provision sequence repeatedly arranges separate items into ordered, supportive abundance."
+            ],
+            "reader_inference": "The packet supplies companionship, right-strength, and a strength-conferring group; I transfer the nadd support image from arranged provision to the human thulla, while the live alternative keeps nadd wholly material.",
+            "changed_reading": {
+              "before": "The latter thulla is only a numerical demographic category.",
+              "after": "It is also a later constituency whose members accompany and reinforce one another with full standing among the companions of the right."
+            }
+          },
+          {
+            "model_id": "c_renewed_coeval_cohort",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ش ء",
+              "ج ع ل",
+              "ب ك ر",
+              "ت ر ب"
+            ],
+            "mechanism": "Deliberate re-creation and making into an untouched, equal-aged condition turn laterness into provenance before transformation, not an enduring rank inside the renewed cohort.",
+            "activation_trace": [
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The assembled group supplies the collective that can share one renewed condition."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Temporal after-ness marks the cohort's origin before the equalizing transformation."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Bringing something newly into being supplies the renewal operation."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Making something assume a condition supplies directed transformation rather than passive chronology."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B004",
+                "role": "Untouched first-condition imagery supplies restored freshness."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "Equality in age and companionship supplies the levelling result."
+              }
+            ],
+            "structural_cues": [
+              "56:35-37 form a creation-making-result sequence; 56:38 assigns its benefit to the companions of the right before 56:39-40 distribute those companions across first and later cohorts."
+            ],
+            "reader_inference": "The packet supplies new creation, directed making, first-condition imagery, and age equality; I infer that this sequence can neutralize chronological rank in the population named next, while the pronouns may instead refer more narrowly to companions or rewards.",
+            "changed_reading": {
+              "before": "Being later implies a permanently secondary temporal status.",
+              "after": "Laterness names provenance, while re-creation gathers the cohort into an equalized present condition."
+            }
+          },
+          {
+            "model_id": "c_unbroken_later_access",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "م د د",
+              "ك ث ر",
+              "ق ط ع",
+              "م ن ع"
+            ],
+            "mechanism": "The sequence of temporal extension, abundance, denied ending, and denied barrier activates the later cohort as evidence that access continues through time instead of being exhausted by the first cohort.",
+            "activation_trace": [
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "A substantial assembled group is the result that requires continued access."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B002",
+                "role": "Deferral to a later time supplies the temporal span across which access persists."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B004",
+                "role": "An extended duration supplies continuity into later time."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Numerical growth supplies abundance rather than a dwindling remainder."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Ending and disappearance, explicitly negated in the source, supply the interruption that is denied."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "A barrier to what one seeks, explicitly negated in the source, supplies the exclusion that is denied."
+              }
+            ],
+            "structural_cues": [
+              "56:30-33 moves from extended and abundant provision to the coordinated negations 'not cut off' and 'not forbidden,' before the population formula in 56:38-40."
+            ],
+            "reader_inference": "The packet supplies continuity and unobstructed abundance in the provision field; I map that pattern onto cohort access, while the materially live alternative confines every adjective to paradise goods.",
+            "changed_reading": {
+              "before": "The later group is merely whoever remains after the first.",
+              "after": "Its substantial presence figures admission and provision as still open in later time, neither exhausted nor barred."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_earth_reassembly",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the soil-from-well-or-grave branch of ث ل ل and the dust branch behind أتراب rather than their surface senses; it remains anchored through the focus group root plus the packet's raising and creating sequence, but downstream prose should label it a resurrection-material analogy, not a translation.",
+            "focus_anchor": "ثُلَّةٌ activates gathered well or grave earth, while ٱلْءَاخِرِينَ keeps the image attached to the later cohort.",
+            "activation_trace": [
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B003",
+                "role": "Earth removed from or heaped around a well or grave supplies the material-reassembly image at the focus noun."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The later people retain the image's required population anchor."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Physical raising supplies upward recovery from the earth image."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "New creation supplies reconstitution rather than mere excavation."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B001",
+                "role": "Earth and dust echo the material from which the gathered cohort is exploratorily reconstituted."
+              }
+            ],
+            "changed_reading": {
+              "before": "A group is counted among later people.",
+              "after": "Exploratorily, a later cohort is pictured as earth gathered, raised, and newly reconstituted."
+            }
+          },
+          {
+            "outlier_id": "o_later_outpouring",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it links the focus root's pouring-of-coins branch to poured water and abundance; the repeated discharge image remains focus-anchored and changes a static count into an influx, but it should be rendered only as a material analogy rather than as the lexical meaning of ثُلَّةٌ.",
+            "focus_anchor": "ثُلَّةٌ carries a pouring branch, and ٱلْءَاخِرِينَ confines the resulting influx to the later people.",
+            "activation_trace": [
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B006",
+                "role": "Pouring out coins supplies a discharged-plenitude image directly from the focus root."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "The after-first relation fixes that outpouring to the later cohort."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B001",
+                "role": "Pouring and flowing repeat the focus root's discharge image in the immediate environment."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Growth in number makes the discharge an abundant influx rather than a sparse trickle."
+              }
+            ],
+            "changed_reading": {
+              "before": "The later cohort is a static quantity.",
+              "after": "Exploratorily, it arrives as an abundant outpouring of later people."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The exact 56:39-40 parallel makes the later thulla a coordinate cohort rather than a residual afterthought.",
+            "The 56:35-37 transformation sequence allows chronological lateness to become provenance before renewal into a coeval present.",
+            "Companionship, right-strength, and ordered mutual support recast the thulla as a sustaining body rather than a headcount."
+          ],
+          "what_was_special": "The focus's two roots admit temporal, positional, material, and restorative activations; the immediate pericope repeatedly assembles, extends, removes barriers, creates, and equalizes, so laterness can become inclusion in a formed collective rather than mere chronology.",
+          "remaining_uncertainties": [
+            "Parallel thulla labels establish categorical symmetry, not equal numerical size.",
+            "Creation and equal-age language may describe companions or rewards rather than transforming the cohorts themselves.",
+            "Continuity, earth-reassembly, and outpouring readings are cross-domain activations and should not be presented as lexical translations."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A full gathered company from the later people.** `ث ل ل` **B001** supplies a gathered company and `ء خ ر` **B001** later than the first. Exact repetition of `ثلة` across 56:39–40 replaces the asymmetry of 56:13–14. **Abductive move:** I infer that equal lexical quantity signals broader temporal inclusion for this group. **Reading change:** later arrival does not reduce membership among the companions of the right.\n\n2. **The deferred brought into the assembly.** `ء خ ر` **B002** supplies postponing or deferring to a later time. **Abductive move:** I infer that what is temporally deferred is not excluded but eventually gathered. **Reading change:** `الآخرين` carries a completion of delayed inclusion.",
@@ -2314,18 +2855,23 @@
   "root_lexicon": {
     "root_000204": {
       "root_ar": "ث ل ل",
+      "qac_roots_ar": [
+        "ث ل ل"
+      ],
       "root_id": "root_000204",
-      "root_mapping": {
-        "root_id": "root_000204",
-        "root_norm": "ث ل ل",
-        "source_root_norm": "ث ل ل",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ث ل ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9dd57acb01d7e418dc5bcebc7db1af88bd5e7fa2a7cfea9c96b77b94ff39a512",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4124,18 +4670,23 @@
     },
     "root_000019": {
       "root_ar": "ء خ ر",
+      "qac_roots_ar": [
+        "ء خ ر"
+      ],
       "root_id": "root_000019",
-      "root_mapping": {
-        "root_id": "root_000019",
-        "root_norm": "ء خ ر",
-        "source_root_norm": "أ خ ر",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 234,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء خ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 234
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7ca0038c23b5555e3f1906a1f2ac7a137361e982ce8251880dc698210d6557d2",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6084,14 +6635,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6373,11 +6930,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_40.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_40.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 66006,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6449,19 +7019,37 @@
           "root_ids": [
             "root_000204"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ث ل ل",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000204",
+            "targets": [
+              {
+                "qac_root_norm": "ث ل ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000204",
+                "furuq_root_norm": "ث ل ل",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000204",
-              "root_norm": "ث ل ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ث ل ل",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6486,19 +7074,37 @@
           "root_ids": [
             "root_000019"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء خ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000019",
+            "targets": [
+              {
+                "qac_root_norm": "ء خ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000019",
+                "furuq_root_norm": "ء خ ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 234,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000019",
-              "root_norm": "ء خ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء خ ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 234,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6525,10 +7131,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 13,
+        "dictionary_branches_kept": 13,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 13,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

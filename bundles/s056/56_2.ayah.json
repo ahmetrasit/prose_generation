@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:32.267806+00:00",
+  "generated_at": "2026-08-04T22:29:57.966125+00:00",
   "surah": 56,
   "ayah": 2,
   "ayahRef": "56:2",
@@ -1710,7 +1710,8 @@
       "morpheme_ids": [
         "m-w-s056-a002-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:2:1"
+      "aligned_qac_word_ref_upstream": "56:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1724,7 +1725,8 @@
       "morpheme_ids": [
         "m-w-s056-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:2:2"
+      "aligned_qac_word_ref_upstream": "56:2:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1740,7 +1742,8 @@
         "m-w-s056-a002-w002-02",
         "m-w-s056-a002-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "56:2:3"
+      "aligned_qac_word_ref_upstream": "56:2:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1754,7 +1757,8 @@
       "morpheme_ids": [
         "m-w-s056-a002-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:2:4"
+      "aligned_qac_word_ref_upstream": "56:2:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2341,7 +2345,978 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_2.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:2",
+      "window": [
+        "56:1",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "56:8",
+        "56:9",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:14",
+        "56:15",
+        "56:16",
+        "56:17",
+        "56:18",
+        "56:19",
+        "56:20",
+        "56:21",
+        "56:22",
+        "56:23",
+        "56:24",
+        "56:25",
+        "56:26"
+      ],
+      "ayah_count": 26,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_self_attesting_occurrence",
+            "confidence": "strong",
+            "focus_anchor": "The whole construction joins present negation, the event's وقوع, and كاذبة.",
+            "mechanism": "Negation removes any bearer of falsity while وقوع presents a fall that fixes itself in place; the event's realization is therefore its own evidence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Present-state negation excludes any instance in which falsity could hold."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Falling into place and becoming fixed makes occurrence realized rather than merely alleged."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contrariety to truth names precisely what the construction excludes."
+              }
+            ],
+            "changed_reading": {
+              "before": "A future event is asserted against possible denial.",
+              "after": "Once the event falls into place, its occurrence is self-attesting: no state of affairs can make it false."
+            }
+          },
+          {
+            "model_id": "b_unarrested_arrival",
+            "confidence": "medium",
+            "focus_anchor": "وقعتها is an awaited arrival, and كاذبة can image delay or motion that breaks off.",
+            "mechanism": "The negation reaches beyond verbal falsehood to temporal failure: what is expected neither tarries nor starts and then stops.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Negation blocks the failure modes attached to the awaited occurrence."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B012",
+                "role": "Expectation supplies the temporal horizon from which arrival is watched."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B005",
+                "role": "Not lingering or delaying turns truthfulness into prompt execution."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "A run that stops and looks back supplies the interrupted course that is negated."
+              }
+            ],
+            "changed_reading": {
+              "before": "The prediction will prove true eventually.",
+              "after": "The awaited event neither tarries nor breaks stride once its course begins."
+            }
+          },
+          {
+            "model_id": "b_nonfailing_impact",
+            "confidence": "medium",
+            "focus_anchor": "وقعة can be an audible impact or battle collision, while كذب can mark a charge that fails.",
+            "mechanism": "The phrase denies a feint or spent blow: the event's impact fully carries through.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Negation removes failure from the event's impact."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B004",
+                "role": "The heard force of a blow gives وقوع a concrete impact profile."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge is true when it presses through and false when it falters."
+              }
+            ],
+            "changed_reading": {
+              "before": "No report about the event is false.",
+              "after": "The event itself is no feint: its blow lands and its charge does not fail."
+            }
+          },
+          {
+            "model_id": "b_authentic_trace",
+            "confidence": "exploratory",
+            "focus_anchor": "وقعتها can leave a written impress, and كاذبة can be a decorated cloth that misrepresents its condition.",
+            "mechanism": "The event is read as an authentic impress opposed to counterfeit display: its actual mark cannot be replaced by a surface that lies about what is beneath.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B001",
+                "role": "Negation disallows a counterfeit representative of the event."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B011",
+                "role": "A signature or written trace supplies the event's durable, inspectable impress."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A cloth that lies by its appearance supplies the counterfeit surface being excluded."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse rejects a false proposition.",
+              "after": "The verse rejects a false surface: the event leaves an impress that no decorative appearance can counterfeit."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_reduplicated_actualization",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ق ع"
+            ],
+            "mechanism": "The preceding verb-noun repetition performs the passage from falling to the named Event; 56:2 then closes off falsification of that enacted occurrence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "The focus noun retains the image of a fall becoming fixed."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Falsity is excluded from the now-enacted occurrence."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "The repeated verb and noun move from falling to a fixed event and thus dramatize actualization."
+              },
+              {
+                "source_ref": "56:1",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B002",
+                "role": "The named severe event identifies the fall as a decisive visitation rather than a generic happening."
+              }
+            ],
+            "structural_cues": [
+              "56:1 places a finite وقوع and a cognate event-noun immediately before the focus's وقعتها."
+            ],
+            "reader_inference": "The packet supplies cognate repetition; I read its direction as enactment becoming self-evidence, though it could function only as emphatic naming.",
+            "changed_reading": {
+              "before": "The occurrence is said to be undeniable.",
+              "after": "The text first makes the Event happen in language and then declares that enacted happening impossible to falsify."
+            }
+          },
+          {
+            "model_id": "d_inversion_as_verification",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ف ض",
+              "ر ف ع"
+            ],
+            "mechanism": "The event verifies itself by operating on relative position and rank: what was high is lowered and what was low is raised, so truth appears as visible redistribution.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "A fall that settles supplies the event's realized operation."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "The excluded untruth becomes a condition contradicted by observable reversal."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "خ ف ض",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000426",
+                "branch_id": "B001",
+                "role": "Lowering after height supplies the downward half of the event's verification."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising supplies the opposed upward operation."
+              },
+              {
+                "source_ref": "56:3",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of standing extends physical reversal into a reversal of rank."
+              }
+            ],
+            "structural_cues": [
+              "56:3 consists of two opposed active descriptions with no intervening explanation."
+            ],
+            "reader_inference": "The packet supplies paired lowering and raising; I infer that their visible effects verify 56:2, while a live alternative treats them simply as two attributes of the Event.",
+            "changed_reading": {
+              "before": "No speaker can successfully deny the event.",
+              "after": "The event makes denial untenable by visibly reversing position and rank."
+            }
+          },
+          {
+            "model_id": "d_material_truth_test",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ج ج",
+              "ء ر ض",
+              "ب س س",
+              "ج ب ل",
+              "ه ب و",
+              "ب ث ث"
+            ],
+            "mechanism": "Ground and mountain cease to support their former appearance: agitation, crushing and dispersal expose apparent solidity as contingent. The event's 'no lie' becomes a material truth-test.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Settling and fixation provide the physical register that the context overturns."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A surface that misstates its condition frames stable appearance as potentially deceptive."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ر ج ج",
+                "source_word_indices": [
+                  "2",
+                  "4"
+                ],
+                "mapped_root_id": "root_000541",
+                "branch_id": "B001",
+                "role": "Violent agitation removes the ground's apparent rest."
+              },
+              {
+                "source_ref": "56:4",
+                "root": "ء ر ض",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000025",
+                "branch_id": "B001",
+                "role": "The lower surface opposite heaven supplies the supposedly stable base under test."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ب س س",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000115",
+                "branch_id": "B003",
+                "role": "Breaking, wetting and mixing turn coherent mass into worked material."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Elevated solid gathering supplies the strongest emblem of durable form."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine scattered dust is the disclosed condition of the former mass."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ب ث ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000083",
+                "branch_id": "B001",
+                "role": "Dispersal completes the loss of a surface able to maintain the old appearance."
+              }
+            ],
+            "structural_cues": [
+              "56:4-6 moves in sequence from shaking a base, through pulverizing elevated solids, to airborne dispersal."
+            ],
+            "reader_inference": "The packet supplies the material sequence; I infer that disintegration exposes prior solidity as a misleading surface, while the live alternative is destruction without an epistemic claim.",
+            "changed_reading": {
+              "before": "كاذبة concerns false speech about an event.",
+              "after": "كاذبة also concerns false material appearance: the event tests forms until what looked immovable can no longer misstate its condition."
+            }
+          },
+          {
+            "model_id": "d_truthful_sorting",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ز و ج",
+              "ث ل ث",
+              "ي م ن",
+              "ش ء م",
+              "س ب ق",
+              "ق ر ب"
+            ],
+            "mechanism": "The event converts an undifferentiated 'you' into disclosed cohorts, directions, precedence and nearness; no inherited or asserted status can falsify the resulting placement.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing falsity supplies the problem of a false label or status."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B005",
+                "role": "Peers gathered by shared form or work supply classification by actual affinity."
+              },
+              {
+                "source_ref": "56:7",
+                "root": "ث ل ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000203",
+                "branch_id": "B001",
+                "role": "The explicit number fixes the disclosed social partition."
+              },
+              {
+                "source_ref": "56:8",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "Right-side force and right supply one pole of assigned standing."
+              },
+              {
+                "source_ref": "56:9",
+                "root": "ش ء م",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000772",
+                "branch_id": "B001",
+                "role": "The left side supplies the opposed positional pole."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Repeated precedence identifies a cohort through enacted advance."
+              },
+              {
+                "source_ref": "56:11",
+                "root": "ق ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001212",
+                "branch_id": "B004",
+                "role": "The privileged nearness of intimates converts precedence into relational standing."
+              }
+            ],
+            "structural_cues": [
+              "56:7 addresses the audience collectively, then 56:8-11 names distinct groups through repeated relational labels."
+            ],
+            "reader_inference": "The packet supplies partition, side, precedence and nearness; I infer that the Event reveals rather than invents their fitting relations, while an alternative reads the sequence as assignment without prior hidden identity.",
+            "changed_reading": {
+              "before": "The event cannot be falsely denied.",
+              "after": "The event cannot be falsified by social self-description: it discloses each affiliation and standing through placement."
+            }
+          },
+          {
+            "model_id": "d_nonexhausting_settlement",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ض ن",
+              "خ ل د",
+              "ع ي ن",
+              "ص د ع"
+            ],
+            "mechanism": "The settled result is tightly constituted, persistent, sourced and unfractured. كاذبة therefore also excludes an outcome that promises continuance but decays, stops or runs dry.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "Milk expected to continue but failing supplies the image of a provision that breaks its promise."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "Motion that runs and then stops supplies interrupted duration."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tight interweaving supplies a result whose parts hold together."
+              },
+              {
+                "source_ref": "56:17",
+                "root": "خ ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000429",
+                "branch_id": "B001",
+                "role": "Persistence not quickly reached by decay directly counters temporal failure."
+              },
+              {
+                "source_ref": "56:18",
+                "root": "ع ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B006",
+                "role": "A flowing source gives provision a continuing origin rather than a finite stock."
+              },
+              {
+                "source_ref": "56:19",
+                "root": "ص د ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000850",
+                "branch_id": "B001",
+                "role": "The ayah's negation of splitting removes fracture from the enjoyed result."
+              }
+            ],
+            "structural_cues": [
+              "56:15-19 accumulates support, circulation and continuity, then explicitly negates splitting and depletion.",
+              "The branchless root ن ز ف at 56:19 word 5 structurally marks the negated exhaustion."
+            ],
+            "reader_inference": "The packet supplies durable construction, persistence, a source, and negated fracture/depletion; I infer these describe the Event's nonfailing settlement, while they may more narrowly describe only the drink and its setting.",
+            "changed_reading": {
+              "before": "The event will not fail to arrive.",
+              "after": "What the event settles will not belie itself afterward by fraying, stopping or being exhausted."
+            }
+          },
+          {
+            "model_id": "d_exact_correspondence",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ي ر",
+              "ش ه و",
+              "ج ز ي",
+              "ع م ل"
+            ],
+            "mechanism": "Choice and desire establish inward orientation; recompense then answers intentional work. Truth becomes exact correspondence between agency and settled outcome, not only correctness of prediction.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B001",
+                "role": "Fixing in place supplies the final settlement whose fit is at issue."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Opposition to truth becomes mismatch between action and result."
+              },
+              {
+                "source_ref": "56:20",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B003",
+                "role": "Choosing by seeking the good supplies deliberate preference."
+              },
+              {
+                "source_ref": "56:21",
+                "root": "ش ه و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000825",
+                "branch_id": "B001",
+                "role": "The soul's movement toward what it wants supplies inward desire."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ج ز ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000244",
+                "branch_id": "B001",
+                "role": "Answering an act with its recompense provides the correspondence arrow."
+              },
+              {
+                "source_ref": "56:24",
+                "root": "ع م ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001046",
+                "branch_id": "B001",
+                "role": "Intentional action supplies what the recompense answers."
+              }
+            ],
+            "structural_cues": [
+              "56:20-21 repeats 'from what they choose/desire,' and 56:24 closes the sequence with recompense for what they did."
+            ],
+            "reader_inference": "The packet supplies preference, desire, action and recompense; I infer an exact-fit relation that interprets falsity as mismatch, while an alternative keeps provision and recompense as separate relations.",
+            "changed_reading": {
+              "before": "The event is true because it occurs.",
+              "after": "The event is true in correspondence: its settlement answers inward orientation and intentional action without mismatch."
+            }
+          },
+          {
+            "model_id": "d_speech_without_null_residue",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م ع",
+              "ل غ و",
+              "ق و ل",
+              "س ل م"
+            ],
+            "mechanism": "The closing soundscape removes discarded or harmful utterance and leaves repeated peace. The focus's excluded lie expands into a regime where speech is neither null noise nor injury but an effective declaration of wholeness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "False speech supplies the focus anchor for the later purification of what is heard."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Hearing as understanding and compliance makes the soundscape consequential rather than merely acoustic."
+              },
+              {
+                "source_ref": "56:25",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B001",
+                "role": "The ayah negates speech discarded as weightless residue."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B014",
+                "role": "A thing's saying as its indication lets the remaining utterance manifest the state it names."
+              },
+              {
+                "source_ref": "56:26",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Repeated freedom from harm supplies the content and achieved condition of the utterance."
+              }
+            ],
+            "structural_cues": [
+              "56:25 negates two classes of utterance; 56:26 answers with an exception and doubles a single word."
+            ],
+            "reader_inference": "The packet supplies exclusion followed by repeated peace; I read the repetition performatively as speech matching state, while it may instead be only the content of a greeting.",
+            "changed_reading": {
+              "before": "No false assertion can attach to the event.",
+              "after": "The event culminates in speech that no longer misfires: null and injurious utterance falls away, and the remaining word manifests wholeness."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_level_field",
+            "confidence": "exploratory",
+            "containment": "This uses the packet's non-dominant ق و ع mapping for focus و ق ع, so it is form-distant and should be rendered as a spatial activation, not a lexical gloss. It remains anchored by the supplied split-root branch and by the context's conversion of elevated solidity into dispersed dust.",
+            "focus_anchor": "The split mapping of وقعتها supplies a level expanse, while كاذبة supplies appearance that misstates condition.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001270",
+                "branch_id": "B001",
+                "role": "A flat open expanse activates leveling inside the focus root's supplied split mapping."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "A lying surface turns topography into a possible misleading display."
+              },
+              {
+                "source_ref": "56:5",
+                "root": "ج ب ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000217",
+                "branch_id": "B001",
+                "role": "Raised solid mass supplies the topography to be undone."
+              },
+              {
+                "source_ref": "56:6",
+                "root": "ه ب و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001576",
+                "branch_id": "B002",
+                "role": "Fine dispersed dust supplies the loss of raised form."
+              }
+            ],
+            "changed_reading": {
+              "before": "Its occurrence cannot be denied.",
+              "after": "Its falling admits no lying topography: raised solidity is opened into an exposed, level field."
+            }
+          },
+          {
+            "outlier_id": "o_fearless_charge",
+            "confidence": "exploratory",
+            "containment": "This cross-activates derived-person and battle branches rather than the ordinary syntax of ليس and كاذبة. It remains anchored in all three focus roots and gains contextual traction from repeated precedence; downstream prose should mark it as a martial image of inevitability, not a translation.",
+            "focus_anchor": "ليس supplies the fighter who does not flinch, وقعة the battle collision, and كاذبة the charge that fails or holds true.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "ل ي س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001390",
+                "branch_id": "B004",
+                "role": "The fearless fighter who does not leave his opponent personifies unflinching advance."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "و ق ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001675",
+                "branch_id": "B005",
+                "role": "Battle collision gives the event the form of an assault."
+              },
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A true charge presses through, whereas a false one falters."
+              },
+              {
+                "source_ref": "56:10",
+                "root": "س ب ق",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000671",
+                "branch_id": "B001",
+                "role": "Repeated forward precedence provides the contextual image of those who fully advance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The event is propositionally certain.",
+              "after": "The event advances like an assault with no flinching or false charge, and its full advance discloses the truly foremost."
+            }
+          },
+          {
+            "outlier_id": "o_truth_preserving_cover",
+            "confidence": "exploratory",
+            "containment": "This is a cross-domain textile and enclosure reading. It is surprising because cover usually suggests concealment, yet it remains anchored in كاذبة's lying cloth and is sharpened by later branches for tight weaving and protective covering; render it as a contrast between counterfeit display and faithful preservation.",
+            "focus_anchor": "كاذبة can image a cloth that lies by appearance, making the truth-value of covering itself an anchor.",
+            "activation_trace": [
+              {
+                "source_ref": "56:2",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B009",
+                "role": "The decorated cloth that misstates its condition supplies deceptive covering."
+              },
+              {
+                "source_ref": "56:15",
+                "root": "و ض ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001658",
+                "branch_id": "B001",
+                "role": "Tight interwoven construction supplies a covering whose integrity is real."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ك ن ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001324",
+                "branch_id": "B001",
+                "role": "Protective concealment supplies a cover that preserves rather than counterfeits what it contains."
+              },
+              {
+                "source_ref": "56:23",
+                "root": "ل ء ل ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001337",
+                "branch_id": "B001",
+                "role": "The pearl supplies the real value protected beneath the cover."
+              }
+            ],
+            "changed_reading": {
+              "before": "Every covering is suspect as concealment.",
+              "after": "The event abolishes covering that lies while preserving covering that faithfully guards real value."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated وقوع of 56:1 turns certainty into enacted, self-attesting occurrence.",
+            "Lowering and raising make the event verifiable as reversal of position and rank.",
+            "The shaking-to-dust sequence turns كاذبة from false speech into material appearance exposed under stress.",
+            "Choice, desire, work and recompense recast truth as exact correspondence between agency and outcome."
+          ],
+          "what_was_special": "The focus's compact negation supported several mechanisms at once: self-evidence, uninterrupted execution, nonfailing impact, exposure of counterfeit form, truthful social placement, durable settlement and effective speech. The split ق و ع inventory also produced a contained leveling activation.",
+          "remaining_uncertainties": [
+            "كاذبة may function as falsity, denial, a falsifying agent or a failed action; the focus alone does not force one of these.",
+            "The temporal, martial, textile and split-root readings are branch-supported but remain more form-distant than the self-attesting model.",
+            "The later durable and peaceful states may reveal properties of the Event's settlement, or may only describe one resulting cohort."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **No denial can prevent the landing.** `ل ي س` **B001** provides present-state negation, `ك ذ ب` **B002** declaring something false, and `و ق ع` **B001** fixed reality. The later mock question about being raised (56:47–48) and the repeated `مُكَذِّبون` (56:51, 92) make denial an attempted counter-speech whose role is exposed as powerless before occurrence. **Abductive move:** I infer that the feminine `كَاذِبَة` can function as a denying claim or agency, not only as an abstract lack of falsity. **Reading change:** the ayah says both that the event is unfalsifiable and that no act of denial can make its fall fail.\n\n2. **No failed expectation in its appointed arrival.** `ك ذ ب` **B006** supplies “milk failing expectation,” an exploratory material image sharpened by the later productive tests of semen, crop, rain, and fire. **Abductive move:** the packet does not equate the event with milk; I infer only the shared structure of an expected yield that cannot fail. **Reading change:** its occurrence is guaranteed like a promised production that does not disappoint.",
@@ -3231,18 +4206,23 @@
   "root_lexicon": {
     "root_001390": {
       "root_ar": "ل ي س",
+      "qac_roots_ar": [
+        "ل ي س"
+      ],
       "root_id": "root_001390",
-      "root_mapping": {
-        "root_id": "root_001390",
-        "root_norm": "ل ي س",
-        "source_root_norm": "ل ي س",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 88,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل ي س",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 88
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "2bc41c387e2369d419b1e6f723168e6812405c569dee0a69b2b26f11ca72994f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5223,18 +6203,23 @@
     },
     "root_001675": {
       "root_ar": "و ق ع",
+      "qac_roots_ar": [
+        "و ق ع"
+      ],
       "root_id": "root_001675",
-      "root_mapping": {
-        "root_id": "root_001675",
-        "root_norm": "و ق ع",
-        "source_root_norm": "و ق ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 17,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ق ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 17
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "2e9ea2382bb93230fd8a00b15be91bae3d96b82e3145a6b66b9d8ddfe59ff8f6",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7182,20 +8167,1055 @@
       "gloss": null,
       "gloss_source_file": null
     },
+    "root_001270": {
+      "root_ar": "و ق ع",
+      "qac_roots_ar": [
+        "و ق ع"
+      ],
+      "root_id": "root_001270",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ق ع",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 2
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "7cf5298e3c90a04533c7f7b9f4c159333d3994d87790301fdabe533ae7747192",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_001270",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_001270/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, dalın çekirdeğini düz ve yayvan bir yer olarak kurar; pürüzsüz veya taşsız arazi betimleri ile avlu ve hurma serme yüzeyi kullanımları da bu mekânsal çekirdeğin belirli gerçekleşmeleridir.",
+              "boundary_note": "Dal, düz alan çekirdeğiyle sınırlıdır; avlu ve hurma serme yeri anlamları kendi yapılardan bağımsız genel anlamlar sayılmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Düz arazi bildiren biçimler ile yalnız belirli söz öbeklerinde görülen avlu ve hurma serme yeri kullanımları ayrı tutulur."
+            },
+            "concept_map": {
+              "definition": "Yeryüzünün düz ve yayvan bir bölümü; kimi betimlemelerde pürüzsüz ve çakıl ya da taş içermeyen bir düzlük olarak belirginleşir. Evin açık alanı ve hurmanın serildiği düz yüzey, bu çekirdeğin belirli yapılara bağlı uzantılarıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Temel anlam, arazinin düz biçimde yayılmasıyla oluşan düz ve yayvan yerdir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Düz arazi, pürüzsüz ve çakıl ya da taş bulunmayan bir yüzey olarak da nitelenir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Evin avlusu veya açık iç alanı, düz ve yayvan yer düşüncesinin yapı içindeki uzantısıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "specialization",
+                  "statement": "Hurmanın üzerine serildiği düz yüzey, kullanım amacına göre özelleşmiş bir düz alandır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar düz ve yayvan araziyi ortak çekirdek olarak verir. Pürüzsüzlük ve taşsızlık bu alanın daha belirgin nitelikleri, avlu ile hurma serme yüzeyi ise mekânsal çekirdeğin özel kullanımlarıdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "düz ve yayvan alan",
+              "applicability": "Dalın bütün özel kullanımlarının dayandığı genel mekânsal çekirdeği karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Bir yerin düz biçimde yayılmasıyla oluşan alan çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "pürüzsüz ve taşsız düzlük",
+                "usage_role": "contextual",
+                "applicability": "Yüzeyin düzgünlüğü ile çakıl ve taş bulunmaması özellikle vurgulandığında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Düzlüğün pürüzsüz ve taşsız yüzey özelliklerini birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "avlu",
+                "usage_role": "contextual",
+                "applicability": "Yalnız evin açık iç alanını bildiren yapı içinde doğal karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Eve ait açık ve düz alanı doğal Türkçe kullanımla karşılar.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              },
+              {
+                "text": "hurma serme yeri",
+                "usage_role": "explanatory",
+                "applicability": "Hurmanın üzerine yayıldığı kullanım amaçlı düz yüzey için geçerlidir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Düz yüzeyin hurma sermeye ayrılmış olmasını açıkça korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F004"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "düz, yayvan ve pürüzsüz arazi"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "düzlük veya düzlükler topluluğu"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "düz arazi, düzlük"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "düzlükler, yayvan araziler"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "düzlükler anlamındaki çoğul biçimler"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "küçük düzlük anlamındaki iki küçültme biçimi"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "evin avlusu veya açık iç alanı"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hurmanın üzerine serildiği düz yüzey"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000116/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal pürüzsüzlük ve taşsızlık nitelikleri ile avlu ve hurma serme yüzeyi uzantılarını da içerir.",
+                "neighbor_only": "Komşu dal geniş ve yayvan araziyi ve yere serilen eşyayı da kapsayan daha geniş bir yayılma alanına sahiptir.",
+                "gloss": "düz ve yayvan arazi",
+                "shared_zone": "Her iki dalın merkezinde düz biçimde uzanan ve yayvanlık gösteren bir yer bulunur.",
+                "distinction": "Odak dal belirli bir düz arazi türünü ve ondan gelişen mekânsal kullanımları öne çıkarır; komşu dal ise genişlik ve yayılmışlık özelliğini hem araziye hem de serilen nesnelere taşıyan daha geniş bir alana sahiptir."
+              },
+              {
+                "neighbor_ref": "root_000854/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal genel düz araziyi ve hurma serme amacıyla kullanılan yüzeyi kapsar.",
+                "neighbor_only": "Komşu dal açıklık ve örtüsüzlük niteliğini, ayrıca avlu ve arsa türü yerleri öne çıkarır.",
+                "gloss": "açık ve düz alan",
+                "shared_zone": "Her iki dal düz bir açık alanı ve özellikle ev çevresindeki avlu kullanımını karşılayabilir.",
+                "distinction": "Odak dalın çekirdeği arazinin düz biçimde yayılmasıdır; komşu dalda ise yerin açık ve örtüsüz olması daha belirleyicidir. Avlu anlamındaki kesişme, bütün dal sınırlarını özdeş kılmaz."
+              },
+              {
+                "neighbor_ref": "root_000871/B005",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal avlu ve hurma serme yüzeyi gibi kullanımlara da uzanır.",
+                "neighbor_only": "Komşu dal bitkisizlik veya çıplaklık niteliğini ayrıca taşıyabilir.",
+                "gloss": "düz ve pürüzsüz yer",
+                "shared_zone": "İki dal da düz ve pürüzsüz bir arazi parçasını adlandırabilir.",
+                "distinction": "Odak dalda düz biçimde yayılma temel olup taşsızlık bir betimleme olarak kalır; komşu dal düzlüğü yer yer bitkisiz ve çıplak arazi sınırıyla daraltır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı; yayılan arazi, açık avlu ve çıplak düzlük sınırlarını en iyi açıklayan üç yakın komşu seçildi, yalnız aynı senaryoya değinen uzak adaylar elendi.",
+            "branch_image_ar": "انبساط في مكان مستو",
+            "what_is_ar": "يدخل فيه القاع والقيعة والقيعان والأرض المستوية المنبسطة وساحة الدار والمسطح الذي يبسط فيه التمر.",
+            "what_is_not_ar": "لا يدخل فيه الرمل المخالط الذي لا يمسك الماء بحسب أبي الهيثم، ولا ضراب الفحل المقلوب، ولا أسماء الحيوان الشاذة.",
+            "source_phrase_ar": "أصل يدل على تبسط في مكان (maqayis)؛ القاع الأرض الملساء (maqayis)؛ القوع المسطح الذي يبسط فيه التمر (maqayis)؛ القاع المستوي من الأرض والقيعة مثل القاع وقاعة الدار ساحتها (sihah)؛ القاع ما انبسط من الأرض والقيعة جمع القاع وما استوى من الأرض لا حصى فيه ولا حجارة (tahdhib)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001270/B002",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kaynak ifadesi, erkek hayvanın çiftleşmek üzere dişinin üzerine çıkmasını, erkeğin kızışmasını ve bukalemunun ağaca tırmanmasının bu harekete benzetilmesini birlikte doğrular. Bununla birlikte çiftleşme adı bir kaynakta ters çevrilmiş bir biçim sayıldığı için dal, düz yer anlamından bağımsız ve yapıya bağlı bir kullanım kümesi olarak ele alınmalıdır.",
+              "boundary_note": "Çekirdek, çiftleşme amacıyla dişinin üzerine çıkmadır; kızışma ve ağaca tırmanma kullanımları bununla eş düzeyde genel anlamlar değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Çiftleşme, kızışma ve ağaca tırmanma okumaları kendi biçim ve kuruluşlarına bağlıdır; tek bir yalın fiil anlamıymış gibi genellenmez."
+            },
+            "concept_map": {
+              "definition": "Temel kullanım, erkek hayvanın çiftleşmek üzere dişinin üzerine çıkmasıdır. Erkeğin kızışması ve bukalemunun ağaca tırmanmasının bu harekete benzetilmesi, belirli yapılara bağlı yan kullanımlardır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Erkek hayvan çiftleşmek üzere dişinin üzerine çıkar.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Erkek hayvanın kızışması, çiftleşme eylemine hazırlık bildiren ilişkili bir kullanımdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Bukalemunun ağaca tırmanması, erkek hayvanın dişinin üzerine çıkmasına benzetilerek anlatılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların toplu tanıklığı çiftleşmek için dişinin üzerine çıkma, erkeğin kızışması ve bukalemunun ağaca tırmanmasına aktarılan benzetmeli kullanımı kapsar. Bunun yanında çiftleşme adı, düz yer dalına ait olmayıp ters çevrilmiş bir biçim olarak da değerlendirilir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "çiftleşmek üzere dişinin üzerine çıkma",
+              "applicability": "Dalın kurucu eylemini, erkek hayvanın amacı ve iki katılımcı arasındaki yönlü ilişkiyle birlikte verir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Çiftleşme amacını, erkek katılımcıyı ve dişinin üzerine çıkma hareketini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kızışmak",
+                "usage_role": "contextual",
+                "applicability": "Yalnız erkek hayvanın çiftleşme isteğinin arttığını bildiren yapı için kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Erkek hayvanın çiftleşmeye yönelik uyarılma durumunu korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "ağaca tırmanmak",
+                "usage_role": "contextual",
+                "applicability": "Bukalemunun ağacın üzerine çıkmasını anlatan benzetmeli yapı için geçerlidir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hayvanın ağaca doğru yükselip onun üzerine çıkması hareketini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "erkek devenin dişi deveyle çiftleşmesi"
+              },
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "erkek devenin dişi devenin üzerine çıkıp çiftleşmesi"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "erkek devenin çiftleşme isteğiyle kızışması"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bukalemunun ağaca tırmanması"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000751/B010",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal erkeğin kızışmasını ve ağaca tırmanmaya aktarılan benzetmeli kullanımı da içerir.",
+                "neighbor_only": null,
+                "gloss": "erkek devenin dişiye çıkması",
+                "shared_zone": "İki dal da erkek devenin çiftleşmek üzere dişi devenin üzerine çıkmasını anlatır.",
+                "distinction": "Çiftleşme eyleminde iki dal örtüşür; ancak odak dalın sınırı, erkeğin kızışması ile aynı hareket örneği üzerinden kurulan ağaca tırmanma benzetmesini de içerdiği için daha geniştir."
+              },
+              {
+                "neighbor_ref": "root_000906/B011",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kızışmayı ve bukalemunun ağaca tırmanmasına yönelik benzetmeyi kapsar.",
+                "neighbor_only": "Komşu dal dişinin ya da sahibinin çiftleşme talebini bildiren ettirgen ve isteme yapıları da kapsar.",
+                "gloss": "erkek hayvanın dişiyle çiftleşmesi",
+                "shared_zone": "Her iki dalın merkezinde erkek hayvanın dişinin üzerine çıkıp çiftleşmesi vardır.",
+                "distinction": "Odak dal üzerine çıkma hareketi çevresinde kızışma ve tırmanma benzetmesine açılır; komşu dal ise çiftleşmenin gerçekleşmesi yanında dişinin veya sahibinin bunu istemesini ve sağlamasını da dilbilgiselleştirir."
+              },
+              {
+                "neighbor_ref": "root_000745/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dalda dişinin üzerine çıkmanın amacı çiftleşmedir.",
+                "neighbor_only": "Komşu dal yükselme, atılma ve sürü içindeki dişilerin arasına girme hareketlerini daha genel biçimde içerir.",
+                "gloss": "dişinin üzerine yükselme",
+                "shared_zone": "İki dalda da erkek hayvanın dişiye göre yukarı çıkması veya onun üzerinde yükselmesi bulunur.",
+                "distinction": "Odak dal katılımcıları ve çiftleşme amacı belirlenmiş bir üzerine çıkma eylemidir; komşu dalın yükselme ve atılma çekirdeği aynı amacı zorunlu kılmaz."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; çiftleşme eylemiyle doğrudan örtüşen iki dal ve hareket sınırını açıklayan bir yakın komşu seçildi, yalnız tema veya yön paylaşan adaylar dışarıda bırakıldı.",
+            "branch_image_ar": "علو ووقوع على الأنثى أو الشيء",
+            "what_is_ar": "يدخل فيه قاع الفحل على الناقة إذا نزا، واقتاع الفحل إذا هاج، وتقوع الحرباء الشجرة إذا علاها في تشبيه بتقوع الفحل.",
+            "what_is_not_ar": "ليس من أصل الانبساط المكاني عند ابن فارس، إذ عده مقلوبا وأصله قعوه.",
+            "source_phrase_ar": "القوع وهو ضراب الفحل الناقة فليس من هذا الباب لأنه من المقلوب وأصله قعوه (maqayis)؛ قاع الفحل على الناقة يقوع قوعا وقياعا إذا نزا وهو قلب قعا واقتاع الفحل إذا هاج (sihah)؛ تقوع الحرباء الشجرة إذا علاها كما يتقوع الفحل الناقة (tahdhib)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001270/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi bir biçimi erkek tavşanın adı, buna karşılık gelen öteki biçimi de dişi tavşanın adı olarak açıkça ayırır. Bu hayvan adları düz yer ve çiftleşme dallarından bağımsızdır.",
+              "boundary_note": "Dal yalnız tavşanın cinsiyetine göre kullanılan iki hayvan adını kapsar; başka hayvan adlarına veya mekânsal anlamlara genişletilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Dal, yalın hayvan adlarını cinsiyet ayrımıyla tanımlar; başka yapılara bağlı bir anlam bu çekirdeğe katılmaz."
+            },
+            "concept_map": {
+              "definition": "Tavşanı cinsiyetine göre adlandıran iki yalın hayvan adıdır: temel biçim erkek tavşanı, ona karşılık gelen dişil biçim dişi tavşanı belirtir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Temel hayvan adı erkek tavşanı belirtir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Buna karşılık gelen dişil hayvan adı dişi tavşanı belirtir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar temel biçimin erkek tavşanı adlandırmasında birleşir; toplu tanıklık, buna karşılık gelen dişil biçimin dişi tavşan için kullanıldığını da bildirir. Hayvan adı, mekânsal anlam düzeninin dışında kalan bağımsız bir kullanımdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "erkek ve dişi tavşanı ayrı adlandırma",
+              "applicability": "Dalın erkek tavşan için temel, dişi tavşan için karşılık biçim kuran bütün cinsiyet ayrımını temsil eder.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Tavşan türünü ve iki ad arasındaki erkek ile dişi ayrımını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "erkek tavşan",
+                "usage_role": "contextual",
+                "applicability": "Temel biçim erkek cinsiyetteki tavşanı gösterdiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hayvanın tavşan türünden ve erkek cinsiyette olmasını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "dişi tavşan",
+                "usage_role": "contextual",
+                "applicability": "Dişil karşılık biçimi dişi cinsiyetteki tavşanı gösterdiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hayvanın tavşan türünden ve dişi cinsiyette olmasını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "erkek tavşan"
+              },
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "dişi tavşan"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001270/B004",
+                "relation_type": "other",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal aynı biçimi erkek tavşanın adı olarak kullanır ve dişi tavşan için ayrı bir karşılık da içerir.",
+                "neighbor_only": "Komşu dal aynı biçimi çok uluyan kurdun adı veya niteliği olarak kullanır.",
+                "gloss": "aynı biçimli farklı hayvan adları",
+                "shared_zone": "İki dalda aynı sözcük biçimi bir hayvanı adlandırmak veya nitelemek için kullanılır.",
+                "distinction": "Biçim ortaklığı anlam ortaklığı değildir: odak dalda belirlenen hayvan erkek tavşandır ve dişi karşılığı da vardır; komşu dalda ise belirlenen hayvan, sık ulumasıyla nitelenen kurttur."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar karşılaştırıldı; aynı sözcük biçiminden doğan doğrudan karışıklığı açıklayan kurt dalı seçildi, yalnız cinsiyetli hayvan adı olma alanını paylaşan uzak adaylar yayımlanmadı.",
+            "branch_image_ar": "اسم للأرنب القواع أو القواعة",
+            "what_is_ar": "يدخل فيه القواع للذكر من الأرانب والقواعة للأرنب الأنثى.",
+            "what_is_not_ar": "لا يدخل فيه القاع والقيعة، ولا قوع الفحل؛ وابن فارس عده شاذا عن باب الانبساط.",
+            "source_phrase_ar": "شذ عن هذا الباب قولهم إن القواع الذكر من الأرانب (maqayis)؛ القواع الذكر من الأرانب والقواعة الأرنب الأنثى (tahdhib)",
+            "sources": [
+              "MQ",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001270/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi dalı, sesiyle belirginleşen ve çok uluyan bir kurt adı veya niteliği olarak doğrudan tanımlar. Düz yer ve tavşan anlamları bu kimliğin parçası değildir.",
+              "boundary_note": "Dal yalnız sık ve belirgin biçimde uluyan kurdu karşılar; genel kurt adı ya da bağımsız bir ses adı değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Dal, yalın biçimin çok uluyan kurt için kullanılmasına bağlıdır ve genel bir uluma ya da kurt anlamına genişletilmez."
+            },
+            "concept_map": {
+              "definition": "Sık veya belirgin biçimde ulumasıyla nitelenen kurdun adı ya da sıfatıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kurt, çok uluyan ve sesiyle belirginleşen bir hayvan olarak adlandırılır veya nitelenir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Dal, kurdun uluma davranışına dayalı bir hayvan adı veya niteliğini temsil eder. Bu kullanım için verilen tanıklık, hayvanın sesliliğini ayırt edici özellik yapar.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Tek kaynak tanıklığı, sözcüğü çok uluyan kurdun adı veya niteliği olarak verir."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "çok uluyan kurt",
+              "applicability": "Kurdun kimliğini veya niteliğini onun sık ve belirgin uluma davranışıyla birlikte verir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Kurt referentini ve onu ayırt eden çok uluma özelliğini birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çok uluyan kurt"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000505/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kurdu özellikle çok uluma özelliğiyle sınırlar.",
+                "neighbor_only": "Komşu dal genel kurt adını, dişi kurdu, kurt topluluklarını ve yırtıcılık ya da hırsızlık benzetmelerini kapsar.",
+                "gloss": "kurt",
+                "shared_zone": "İki dal da aynı hayvan türünü, yani kurdu adlandırma alanında buluşur.",
+                "distinction": "Odak dal her kurdu değil, sesi ve sık ulumasıyla ayırt edilen kurdu belirtir; komşu dal ise kurt türünü genel olarak ve bu hayvanın davranışlarına dayanan daha geniş kullanımlarla karşılar."
+              },
+              {
+                "neighbor_ref": "root_000890/B001",
+                "relation_type": "thematic",
+                "boundary_match": "thematic_only",
+                "focus_only": "Odak dal uluyan hayvanı, yani kurdu adlandırır veya niteler.",
+                "neighbor_only": "Komşu dal hayvandan bağımsız olarak işitilen sesi, bağırmayı, şarkıyı ve gürültüyü kapsar.",
+                "gloss": "ses ve uluma",
+                "shared_zone": "Her iki dal işitilebilir ve güçlü bir ses olayının bulunduğu aynı genel senaryoya katılır.",
+                "distinction": "Odak dalın gönderimi bir ses olayı değil, çıkardığı sesle nitelenen kurttur; komşu dal ise sesi ve çeşitli ses üretme olaylarını doğrudan adlandırır."
+              },
+              {
+                "neighbor_ref": "root_000190/B003",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal kurt adını hayvanın çok uluma özelliğiyle gerekçelendirir.",
+                "neighbor_only": "Komşu dal belirli bir dil kullanımında kurda verilen başka bir addır ve uluma koşulu taşımaz.",
+                "gloss": "kurt için hayvan adı",
+                "shared_zone": "Her iki dal da kurdu adlandıran söz varlığı alanına girer.",
+                "distinction": "Odak dal betimleyici olup kurdun çok ulumasını kurucu sınır yapar; komşu dal ise aynı hayvan için kullanılan başka bir addır ve ses davranışını anlam koşulu yapmaz."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; genel kurt anlamı, ses alanı ve başka bir kurt adıyla sınırı açıklayan üç aday seçildi, yalnız aynı hayvan senaryosunda yer alan uzak adlar elendi.",
+            "branch_image_ar": "ذئب كثير الصياح",
+            "what_is_ar": "يدخل فيه القواع صفة أو اسما للذئب الصياح.",
+            "what_is_not_ar": "لا يدخل فيه القاع والقيعة، ولا القواع للأرنب.",
+            "source_phrase_ar": "القواع الذئب الصياح (tahdhib)",
+            "sources": [
+              "TA"
+            ],
+            "source_note": {
+              "TA": "Tek kaynak tanıklığı, sözcüğü çok uluyan kurdun adı veya niteliği olarak verir."
+            }
+          }
+        ],
+        "root_profile": {
+          "summary": "Kök, düz ve yayvan alan anlamının yanında erkek hayvanın çiftleşme hareketini, tavşanın cinsiyete göre adlandırılmasını ve çok uluyan kurt adını taşıyan birbirinden ayrılmış anlam dallarına sahiptir.",
+          "polysemy": "polysemic",
+          "organization": "multi_branch"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 2,
+            "word_count": 2,
+            "ayah_count": 2,
+            "surah_count": 2
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "قَاع",
+              "stem_ar": "قَاعًا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:qaAE|ROOT:qwE|M|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "قِيعَة",
+              "stem_ar": "قِيعَةٍ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:qiyEap|ROOT:qwE|F|INDEF|GEN",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_001270_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_001270",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "initial",
+        "inputs_sha256": "7a5de2b95cdb53bab5c431b032b56c504fe21606ed3342b3b848dcd218d6989e",
+        "review_inputs_sha256": "b85df06f0cdaf3795d319a2da122c7797530a7d241f634bfc57887f20fc96dfb",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_001270/tr/output/root_001270_entry.json",
+          "sha256": "6b6d10212ddfd6b1792e2a941aa0281899baf5fbb9184e65659e4b4c19d8be14",
+          "entry_id": "root_001270/tr",
+          "status": "reviewed",
+          "review_verdict": "editorial_review",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_001270.json",
+          "sha256": "8cbb5a6e451d16d4e69221ec4acd82d42d5b845c07da5cfc98b61cdd68a05a31"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_001270/tr/input/task.json",
+          "sha256": "7236317ca43f4c9710ed984347d0f079531417cd2e19e3aff6f8042e3400f228"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_001270/tr/review/input/task.json",
+          "sha256": "18565dfabe24df125fbc8366d163ea615740102e0bc9720f43ae3d369d12a1a8"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_001270/tr/review/output/review.json",
+          "sha256": "3d88aac27befb8a491a22485fd4362b158d8cad6b99dd3b9692c75a99fa94663"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_001270/B001",
+            "concept_gloss": {
+              "text": "düz ve yayvan arazi veya yüzey",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003",
+                "F004"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "düz, yayvan ve pürüzsüz arazi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_002": {
+                "text": "düzlük veya düzlükler topluluğu",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_003": {
+                "text": "düz arazi, düzlük",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_004": {
+                "text": "düzlükler, yayvan araziler",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_005": {
+                "text": "düzlükler anlamındaki çoğul biçimler",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_006": {
+                "text": "küçük düzlük anlamındaki iki küçültme biçimi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_007": {
+                "text": "evin avlusu veya açık iç alanı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_008": {
+                "text": "hurmanın üzerine serildiği düz yüzey",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001270/B002",
+            "concept_gloss": {
+              "text": "erkek hayvanın çiftleşmek için üzerine çıkması",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_009": {
+                "text": "erkek devenin dişi deveyle çiftleşmesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_010": {
+                "text": "erkek devenin dişi devenin üzerine çıkıp çiftleşmesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_011": {
+                "text": "erkek devenin çiftleşme isteğiyle kızışması",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_012": {
+                "text": "bukalemunun ağaca tırmanması",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001270/B003",
+            "concept_gloss": {
+              "text": "cinsiyete göre tavşan adı",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_013": {
+                "text": "erkek tavşan",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_014": {
+                "text": "dişi tavşan",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001270/B004",
+            "concept_gloss": {
+              "text": "çok uluyan kurt",
+              "facet_ids": [
+                "F001"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_015": {
+                "text": "çok uluyan kurt",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_001270.json"
+    },
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8968,14 +10988,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9215,11 +11241,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 98203,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9293,19 +11332,37 @@
           "root_ids": [
             "root_001390"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ل ي س",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001390",
+            "targets": [
+              {
+                "qac_root_norm": "ل ي س",
+                "target_rank": 1,
+                "furuq_root_id": "root_001390",
+                "furuq_root_norm": "ل ي س",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 88,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001390",
-              "root_norm": "ل ي س",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ل ي س",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 88,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 8,
+              "gloss_branch_count": 8,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9331,19 +11388,46 @@
             "root_001675",
             "root_001270"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ق ع",
+            "mapping_status": "split",
+            "primary_root_id": "root_001675",
+            "targets": [
+              {
+                "qac_root_norm": "و ق ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_001675",
+                "furuq_root_norm": "و ق ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 17,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "و ق ع",
+                "target_rank": 2,
+                "furuq_root_id": "root_001270",
+                "furuq_root_norm": "ق و ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 2,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
-          "gloss_present": false,
-          "split_mapping": true,
+          "gloss_present": true,
           "targets": [
             {
               "root_id": "root_001675",
-              "root_norm": "و ق ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ق ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 17,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9362,37 +11446,70 @@
             },
             {
               "root_id": "root_001270",
-              "root_norm": "ق و ع",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "ق و ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 2,
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 2,
+                  "ayahs": 2
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ك ذ ب": {
           "root_id": "root_001290",
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9419,10 +11536,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 37,
+        "dictionary_branches_kept": 37,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 12,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

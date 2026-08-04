@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.794713+00:00",
+  "generated_at": "2026-08-04T22:29:54.134974+00:00",
   "surah": 54,
   "ayah": 41,
   "ayahRef": "54:41",
@@ -2217,7 +2217,8 @@
       "morpheme_ids": [
         "m-w-s054-a041-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:41:1"
+      "aligned_qac_word_ref_upstream": "54:41:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2231,7 +2232,8 @@
       "morpheme_ids": [
         "m-w-s054-a041-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:41:2"
+      "aligned_qac_word_ref_upstream": "54:41:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2245,7 +2247,8 @@
       "morpheme_ids": [
         "m-w-s054-a041-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:41:3"
+      "aligned_qac_word_ref_upstream": "54:41:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2259,7 +2262,8 @@
       "morpheme_ids": [
         "m-w-s054-a041-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:41:4"
+      "aligned_qac_word_ref_upstream": "54:41:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2273,7 +2277,8 @@
       "morpheme_ids": [
         "m-w-s054-a041-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:41:5"
+      "aligned_qac_word_ref_upstream": "54:41:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2287,7 +2292,8 @@
       "morpheme_ids": [
         "m-w-s054-a041-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:41:6"
+      "aligned_qac_word_ref_upstream": "54:41:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2303,7 +2309,8 @@
         "m-w-s054-a041-w005-01",
         "m-w-s054-a041-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "54:41:7"
+      "aligned_qac_word_ref_upstream": "54:41:7",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2659,7 +2666,835 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_41.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:41",
+      "window": [
+        "54:33",
+        "54:34",
+        "54:35",
+        "54:36",
+        "54:37",
+        "54:38",
+        "54:39",
+        "54:40",
+        "54:41",
+        "54:42",
+        "54:43",
+        "54:44",
+        "54:45"
+      ],
+      "ayah_count": 13,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:41",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_arriving_warning_event",
+            "confidence": "strong",
+            "focus_anchor": "The delayed nominative al-nudhur is the arriving subject of ja'a, while al Fir'awn is the collective reached.",
+            "mechanism": "Coming makes warning an event that obtains in the addressee's world; the fear-bearing warning branch gives that event a caution-awakening function.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Coming and obtaining make the warning itself the event entering the household's world."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B003",
+                "role": "The household and retinue who return to a man supply the leader-centered collective that the event reaches."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Fear-bearing notice that awakens caution supplies the arriving event's preventive purpose."
+              }
+            ],
+            "changed_reading": {
+              "before": "Warnings were delivered to Pharaoh's people.",
+              "after": "Warning itself arrives and becomes present to Pharaoh's people as an event meant to awaken caution."
+            }
+          },
+          {
+            "model_id": "b_leader_centered_alignment",
+            "confidence": "medium",
+            "focus_anchor": "Al Fir'awn names its audience through relation and adjacency to Pharaoh rather than as an undifferentiated crowd.",
+            "mechanism": "The household-return branch identifies a center and dependents, while the split-root proximity and succession branches expose an unbroken alignment network. The warning therefore penetrates a social structure organized around a leader.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B003",
+                "role": "A man's household, followers, and those whose relation returns to him supply the network's organizing center."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B001",
+                "role": "Nearness without an interval turns the named household into contiguous social alignment."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Succession without interruption supplies the chain through which leader-centered belonging extends."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The caution-awakening warning targets this connected alignment rather than an abstract population."
+              }
+            ],
+            "changed_reading": {
+              "before": "Al Fir'awn is merely a conventional label for Pharaoh's people.",
+              "after": "Al Fir'awn is a leader-centered chain of proximity and following into which the warnings enter."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_denial_turns_arrival_into_confrontation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ق و م",
+              "ن ذ ر"
+            ],
+            "mechanism": "The earlier people do not fail to receive al-nudhur; they collectively classify it as false. This revises arrival from neutral delivery into accountable confrontation: reach and acceptance are different stages.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Coming and obtaining establish that the warning reaches its collective endpoint."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "A notice meant to awaken caution defines what the collective must receive or resist."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing a thing or its bearer to falsehood supplies the reception response and turns arrival into confrontation."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "A human collective makes denial a social act, matching the focus's collective addressee."
+              },
+              {
+                "source_ref": "54:33",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The repeated caution-awakening warning links the earlier collective denial directly to the focus noun."
+              }
+            ],
+            "structural_cues": [
+              "54:33 pairs a named people with denial of al-nudhur; 54:41 repeats al-nudhur with a leader-centered al."
+            ],
+            "reader_inference": "The packet supplies collective denial and the repeated warning noun; I supply the arrow that arrival establishes accountable exposure rather than assent. A live alternative is that 54:33 only closes the Lot unit without defining the focus arrival.",
+            "changed_reading": {
+              "before": "The warning reaches a household.",
+              "after": "It reaches enough to be collectively confronted and denied; arrival marks exposure, not acceptance."
+            }
+          },
+          {
+            "model_id": "d_household_as_sorting_boundary",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ح ص ب",
+              "ء و ل",
+              "ن ج و"
+            ],
+            "mechanism": "A destructive agent is dispatched against a people, yet al Lut is excepted and saved by separation. Repetition of the al construction makes household affiliation a fate-bearing boundary, so al Fir'awn is more than an audience label when warning arrives.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B003",
+                "role": "The household and followers related back to Pharaoh supply the focus's corporate boundary."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch and setting-forth supply an incoming agent against which the household boundary matters."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ح ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000325",
+                "branch_id": "B003",
+                "role": "The stone-bearing wind gives the dispatched event a materially destructive trajectory."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B003",
+                "role": "Al Lut supplies the matching household construction whose members form an excepted unit."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Deliverance by separation makes sorting within or from the exposed collective the operative result."
+              }
+            ],
+            "structural_cues": [
+              "54:34 places an exception before al Lut and then predicates rescue of them, making the household construction operational within the incoming event."
+            ],
+            "reader_inference": "The packet supplies dispatch, exception, household, and rescue-by-separation; I transfer that household-sorting mechanism to the repeated al construction in 54:41. A live alternative is that al functions only as a proper collective name in each episode.",
+            "changed_reading": {
+              "before": "Al Fir'awn simply identifies who heard the warnings.",
+              "after": "It marks a relational unit exposed to an arriving event, with affiliation and separation now salient to how fate is distributed."
+            }
+          },
+          {
+            "model_id": "d_warning_actualizes_as_experience",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ب ط ش",
+              "م ر ي",
+              "ذ و ق",
+              "ع ذ ب",
+              "ق ر ر"
+            ],
+            "mechanism": "The sequence moves from warning, through disputation, to overpowering grasp, tasted punishment, and settled consequence. The focus's arrival can therefore denote a warning process crossing from notice into embodied and enduring verification.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Coming and obtaining let the warning arrive through successive modes rather than as speech alone."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The fear-bearing notice opens the sequence as an opportunity for awakened caution."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning appears both as an act and as the plural notice, joining admonition to what follows."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "ب ط ش",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000126",
+                "branch_id": "B001",
+                "role": "Taking with force supplies the threatened consequence toward which warning points."
+              },
+              {
+                "source_ref": "54:36",
+                "root": "م ر ي",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001416",
+                "branch_id": "B005",
+                "role": "Denial of truth through disputation supplies the blocked response between notice and consequence."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ذ و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000526",
+                "branch_id": "B002",
+                "role": "Experiencing and undergoing a thing turns the warning's content into embodied verification."
+              },
+              {
+                "source_ref": "54:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Pain and punishment identify what is experienced when caution fails."
+              },
+              {
+                "source_ref": "54:38",
+                "root": "ق ر ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001215",
+                "branch_id": "B003",
+                "role": "Fixity and settlement extend the consequence from a passing blow into an established condition."
+              }
+            ],
+            "structural_cues": [
+              "54:36 shares the focus's wa-laqad cadence and contains both the warning verb and plural noun; 54:37 and 54:39 repeat tasting punishment with warnings; 54:38 calls the punishment settled."
+            ],
+            "reader_inference": "The packet supplies the ordered states warning, dispute, force, taste, punishment, and settlement; I supply the directional arrow that these are phases of warning becoming actual. A live alternative keeps warning and punishment categorically separate despite their repeated coordination.",
+            "changed_reading": {
+              "before": "Warnings arrive as prior verbal notices.",
+              "after": "Warnings arrive as an escalating process whose resisted notice becomes tasted and settled experience."
+            }
+          },
+          {
+            "model_id": "d_warning_as_replayable_memory",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي س ر",
+              "ق ر ء",
+              "ذ ك ر"
+            ],
+            "mechanism": "Ease, recitation, and recovered remembrance immediately precede the focus. They recast the plural warnings as gathered narrative prompts that can arrive again whenever recitation activates caution in a later hearer.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The warning that awakens caution supplies the content made newly present to later hearers."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening into ease after difficulty supplies accessibility for repeated warning reception."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Reading and recitation supply the repeatable medium through which a past warning arrives anew."
+              },
+              {
+                "source_ref": "54:40",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Bringing something back to mind after forgetfulness makes historical warning an active present recollection."
+              }
+            ],
+            "structural_cues": [
+              "The refrain about ease for remembrance stands immediately before the focus's compact historical notice."
+            ],
+            "reader_inference": "The packet supplies ease, recitation, remembrance, and the adjacent warning report; I supply the arrow that recitation re-delivers the warning to the current hearer. A live alternative treats 54:40 only as closure of the preceding episode.",
+            "changed_reading": {
+              "before": "Warnings came once to Pharaoh's household in the past.",
+              "after": "Their arrival is replayable: gathered recitation makes the historical warning present again as an invitation to remember."
+            }
+          },
+          {
+            "model_id": "d_plural_warning_as_complete_evidence",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ذ ب",
+              "ء ي ي",
+              "ك ل ل",
+              "ء خ ذ"
+            ],
+            "mechanism": "The next ayah specifies denial of all signs and answers it with seizure. This resolves the focus plural as cumulative evidentiary exposure: warnings arrive in a complete series, and total rejection converts the record of caution into grounds for accountability.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Plural caution-awakening notices supply the open set whose extent the next ayah sharpens."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing the signs to falsehood supplies the household's comprehensive rejection response."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "Visible signs give the plural warnings concrete evidentiary instances."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total enclosure and completeness close off the possibility that only one warning channel was refused."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Being taken to account for fault supplies the consequence of completed evidentiary rejection."
+              }
+            ],
+            "structural_cues": [
+              "54:42 immediately resumes the plural household with they, marks all signs as denied, and uses fa before the doubled taking construction."
+            ],
+            "reader_inference": "The packet supplies immediate anaphoric continuity, all signs, denial, and consequential taking; I infer that the signs instantiate or explain the focus warnings. A live alternative allows substantial overlap without making signs and warnings coextensive.",
+            "changed_reading": {
+              "before": "An unspecified plurality of warnings came to Pharaoh's household.",
+              "after": "A cumulative and complete sign-record reached them; denying the whole record made warning evidentiary grounds for seizure."
+            }
+          },
+          {
+            "model_id": "d_household_case_as_transferable_precedent",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ف ر",
+              "خ ي ر",
+              "ب ر ء",
+              "ز ب ر"
+            ],
+            "mechanism": "The later audience is compared with prior rejecters and challenged to produce an exemption in written records. The Pharaoh-centered household therefore becomes a precedent: its received warnings remove any later collective's claim to inherited superiority or textual discharge.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B003",
+                "role": "The leader-centered household supplies the historical collective whose case can be compared with a later one."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Received caution supplies the notice that makes the historical case relevant to accountability."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Veiling truth identifies the later collective by the same failed relation to evidence."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Comparative excellence supplies the challenged claim that the later group might outrank prior cases."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ب ر ء",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000099",
+                "branch_id": "B002",
+                "role": "Separation and exemption supply the imagined release from the precedent's reach."
+              },
+              {
+                "source_ref": "54:43",
+                "root": "ز ب ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000621",
+                "branch_id": "B003",
+                "role": "Writing and books supply the record in which any claimed exemption would need standing."
+              }
+            ],
+            "structural_cues": [
+              "The interrogative comparison moves directly from Pharaoh's household to your rejecters and then asks for a written exemption."
+            ],
+            "reader_inference": "The packet supplies comparison, claimed superiority, exemption, and writings; I supply the legal arrow that the just-told household case functions as precedent and notice. A live alternative takes those as all prior communities collectively, not Pharaoh's household alone.",
+            "changed_reading": {
+              "before": "The focus is a closed report about one ancient household.",
+              "after": "It enters a transferable record that confronts later collectives with precedent and denies ungrounded exemption."
+            }
+          },
+          {
+            "model_id": "d_retinue_cohesion_reversed",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ج م ع",
+              "ن ص ر",
+              "ه ز م",
+              "و ل ي",
+              "د ب ر"
+            ],
+            "mechanism": "A coalition voices confidence in being gathered and self-defending; the next ayah breaks its formation and turns it backward. This activates al Fir'awn as a cohesion structure: warnings address the leader-centered alignment whose solidarity can reverse into retreat.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B003",
+                "role": "Household and followers who return to a leader supply the retinue whose cohesion is tested."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Uninterrupted succession supplies the alignment chain that collective defeat will interrupt."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Voiced assertion makes collective confidence an explicit self-description rather than an inferred attitude."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Joining dispersed parts into one whole supplies the coalition's claimed cohesion."
+              },
+              {
+                "source_ref": "54:44",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Mutual aid and making victory manifest supply the coalition's expected protection."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ه ز م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001590",
+                "branch_id": "B002",
+                "role": "Breaking and driving back a battle line reverses the asserted integrity of the gathered whole."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "The same gathered whole becomes the explicit object of defeat."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away and withdrawing converts proximity and following into abandonment."
+              },
+              {
+                "source_ref": "54:45",
+                "root": "د ب ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000458",
+                "branch_id": "B003",
+                "role": "Presenting the back and turning away gives the social reversal a bodily direction."
+              }
+            ],
+            "structural_cues": [
+              "54:44's first-person claim of gathered strength is followed by 54:45's passive defeat and plural backward turn."
+            ],
+            "reader_inference": "The packet supplies a gathered coalition, expected mutual defense, broken ranks, and retreat; I project that social mechanics back onto the focus's al. A live alternative keeps the later coalition distinct while using Pharaoh's household only as one item in a broader analogy.",
+            "changed_reading": {
+              "before": "Al Fir'awn is a stable dynastic name receiving warnings.",
+              "after": "It is a leader-centered alignment whose apparent continuity and mutual protection are precisely what warning exposes as reversible."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_ma_al_arrives_with_warning",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the return-to-outcome branch behind the surface household sense of al. It remains anchored to focus word 3 and is tightened by the immediate total denial and taking; downstream prose should present it only as a secondary outcome resonance, never as the direct translation.",
+            "focus_anchor": "The mapped ء و ل inventory lets al Fir'awn echo both Pharaoh's household and what that household returns or comes to.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B002",
+                "role": "Return to an end or outcome supplies a prospective resonance inside the household expression."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B001",
+                "role": "Coming and obtaining let that outcome resonance become present with the warning."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Completeness makes the disclosed evidentiary course total rather than partial."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Taking to account supplies the outcome that the warning already makes visible."
+              }
+            ],
+            "changed_reading": {
+              "before": "The warning predicts a later outcome for Pharaoh's household.",
+              "after": "In a contained root resonance, the household's ma'al arrives already in warning form before the taking realizes it."
+            }
+          },
+          {
+            "outlier_id": "o_warning_accumulates_around_enclosure",
+            "confidence": "exploratory",
+            "containment": "This is a branch-distant spatial analogy built from the pooled-water-around-a-fort image of ج ي ء, not the surface verb's direct sense. The focus verb and household keep it anchored, while local gravel and totality make accumulation coherent; downstream prose should qualify it as an image of pressure or saturation, not lexical translation.",
+            "focus_anchor": "Ja'a at focus word 2 has a collateral branch image of matter gathering in a depression or around a fort, while al supplies the social enclosure.",
+            "activation_trace": [
+              {
+                "source_ref": "54:41",
+                "root": "ج ي ء",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000281",
+                "branch_id": "B003",
+                "role": "A pool collecting in a depression or around a fort supplies accumulation and encirclement instead of one-time transit."
+              },
+              {
+                "source_ref": "54:41",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B003",
+                "role": "The Pharaoh-centered household supplies the bounded social enclosure around which pressure gathers."
+              },
+              {
+                "source_ref": "54:34",
+                "root": "ح ص ب",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000325",
+                "branch_id": "B001",
+                "role": "Gravel supplies the local particulate material that thickens the accumulation image."
+              },
+              {
+                "source_ref": "54:42",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Complete enclosure turns repeated pressure into total exposure of the household."
+              }
+            ],
+            "changed_reading": {
+              "before": "Warnings cross a boundary and arrive at the household.",
+              "after": "Warnings can be pictured as accumulating around the Pharaoh-centered enclosure until total exposure replaces defensible distance."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Arrival became accountable confrontation: warning reaches a collective even when that collective answers with denial.",
+            "The warn-dispute-taste-settle sequence turned al-nudhur from speech alone into an event that actualizes as experience.",
+            "The adjacent remembrance refrain and complete sign-record made the plural warnings both replayable for later hearers and cumulative evidence against total rejection."
+          ],
+          "what_was_special": "The focus grammar makes warning the arriving subject, while the split al inventories expose both a leader-centered alignment and an outcome resonance. The later gathered-strength and defeat sequence makes collective cohesion part of what warning tests.",
+          "remaining_uncertainties": [
+            "Al Fir'awn may emphasize family, adherents, administrative retinue, or the whole leader-centered polity in different proportions.",
+            "All signs in 54:42 may instantiate the warnings or only overlap with them as a broader evidentiary category.",
+            "The outcome and accumulation readings are deliberately branch-distant and may be too marked for unqualified downstream prose."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Warnings arrive at a household-system, not only at an individual ruler.** `ج ي ء` B001 is coming/arrival; `ء و ل` B003 is household and dependents; `ن ذ ر` B001 is fear-awakening warning. The subject is the plural warnings, while the receiving field is Pharaoh’s `ءَال`. I infer that the household denotes an organized dependency network through which power and response are shared. The ayah reads the next denial as systemic rather than biographical.",
@@ -3817,18 +4652,23 @@
   "root_lexicon": {
     "root_000281": {
       "root_ar": "ج ي ء",
+      "qac_roots_ar": [
+        "ج ي ء"
+      ],
       "root_id": "root_000281",
-      "root_mapping": {
-        "root_id": "root_000281",
-        "root_norm": "ج ي ء",
-        "source_root_norm": "ج ي ء",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 278,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ج ي ء",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 278
+        }
+      ],
       "dictionary_entry": null,
       "dictionary_source_file": null,
       "gloss": null,
@@ -3836,18 +4676,23 @@
     },
     "root_000067": {
       "root_ar": "ء و ل",
+      "qac_roots_ar": [
+        "ء و ل"
+      ],
       "root_id": "root_000067",
-      "root_mapping": {
-        "root_id": "root_000067",
-        "root_norm": "ء و ل",
-        "source_root_norm": "أ و ل",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 148,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء و ل",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 148
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "330e1f8168e3003f5759c995681c1dcaef6ec3acc1e591052acaff9b7e0efebe",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6745,20 +7590,1957 @@
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000067.json"
     },
+    "root_001684": {
+      "root_ar": "ء و ل",
+      "qac_roots_ar": [
+        "ء و ل"
+      ],
+      "root_id": "root_001684",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء و ل",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 16
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "5f44badba71b06463e3241f3ebe0ce1f27c7f9400d6440ac123cf854d709521f",
+        "branches": [
+          {
+            "branch_ref": "root_001684/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, dalın temelini arada yabancı bir unsur bulunmadan yakın olma, bitişik durma veya yanında bulunma olarak verir. Yer, ilişki ve bir evin başka bir eve bitişik olması gibi kullanımlar bu aynı yakınlık çekirdeğine bağlıdır.",
+              "boundary_note": "Dal, zamansal sıralanma veya yönetim anlamını değil, yakınlık ve bitişiklik sınırını taşır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Çıplak yakınlık değeri ile kalıp içindeki ev veya yanındalık kullanımları ayrılarak korunur."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin başka bir şeye araya yabancı bir unsur girmeden yakın, bitişik veya yanında olmasıdır. Bu yakınlık yer bakımından olabileceği gibi ilişki bakımından da kurulabilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Arada ayırıcı unsur olmadan yakın, bitişik veya yanında olma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, bu dalı yakınlık ve bitişiklik çekirdeği etrafında toplar; kişinin yanındaki şey ve birbirine komşu ev örnekleri bu çekirdeğin uygulamalarıdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "aralıksız yakınlık",
+              "applicability": "Bir şeyin başka bir şeye bitişik ya da hemen yakın olduğunu anlatan genel çekirdek için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yakınlık ve arada ayırıcı bulunmaması çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yanında bulunan",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin hemen yanında veya yakınında bulunan şeyi doğal Türkçe bağlamda karşılar.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yanındalık ve yakın bulunma değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "bitişik komşu",
+                "usage_role": "contextual",
+                "applicability": "Ev veya yer örneklerinde arada mesafe bırakmayan komşuluğu verir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Bitişiklik ve yakın komşuluk sınırını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yakınlık ve bitişiklik"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sana yakın veya yanında olan şey"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir eve bitişik olan ev"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000493/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Arada yabancı bir unsur bulunmaması ve bitişik yanındalık daha belirgindir.",
+                "neighbor_only": "Genel yaklaşma, yakınlaştırma ve iki şey arasında yakınlık kurma alanı daha geniştir.",
+                "gloss": "yakınlık",
+                "shared_zone": "İki dal da yakın olma ve mesafenin azlığı alanında buluşur.",
+                "distinction": "Bu dalda yakınlık çoğu kez şeyin hemen yanında veya onu izleyen konumda bulunmasıyla sınırlanır; komşu dal daha genel yakınlaşma ve yaklaştırma eylemlerine de açıktır."
+              },
+              {
+                "neighbor_ref": "root_001684/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Yakınlık yer veya ilişki bakımından yan yana durma olarak kurulur.",
+                "neighbor_only": "Ardışıklıkta bir şeyin başka bir şeyden sonra gelmesi ve sıra düzeni öne çıkar.",
+                "gloss": "yakınlık ile ardışıklık",
+                "shared_zone": "İkisinde de araya yabancı bir unsur girmemesi önemlidir.",
+                "distinction": "Bu dalın çekirdeği bitişik yakınlıktır; B002 aynı kesintisizlik fikrini zamansal veya eylemsel sıra halinde gerçekleşen öğelere uygular."
+              }
+            ],
+            "neighbor_coverage_note": "Tüm aday komşular yakınlık, yanındalık veya aynı kökün diğer dalları bakımından değerlendirildi; yalnız sınırı gerçekten keskinleştirenler yayımlandı."
+          },
+          {
+            "branch_ref": "root_001684/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, iki veya daha çok şeyin araya başka bir şey girmeden biri diğerinin ardından gelmesini anlatır. Atış, iş, ay ve yazıların peş peşe gelişi örnekleri bu sıra ve kesintisizlik çekirdeğini doğrular.",
+              "boundary_note": "Dal, mekansal yakınlık veya dostça destek anlamına genişletilmeden ardışık gerçekleşme ile sınırlıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Çıplak sıralanma değeri ile iki şey arasında kurulan veya örneklerdeki kalıplı kullanım ayrı tutulur."
+            },
+            "concept_map": {
+              "definition": "İki veya daha çok şeyin ya da eylemin araya ilgisiz bir kesinti girmeden peş peşe gerçekleşmesidir. Düzen, art arda geliş ve süreklilik çekirdeği birlikte korunur.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Şeylerin veya eylemlerin kesintisiz biçimde peş peşe gerçekleşmesi.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı şeyin şeyden sonra gelmesi, işlerin düzenli biçimde sıralanması ve araya yabancı bir kesinti girmemesi etrafında birleştirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kesintisiz ardışıklık",
+              "applicability": "Peş peşe gelen şeyler, eylemler veya dönemler için dalın bütün çekirdeğini verir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Ardışıklık, düzen ve kesintisizlik çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "peş peşe",
+                "usage_role": "contextual",
+                "applicability": "Atış, iş veya haberlerin ardı ardına geldiği bağlamlarda doğal karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Sıra ve kesintisiz takip anlamını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "art arda yapmak",
+                "usage_role": "contextual",
+                "applicability": "İki iş veya iki nesne arasında ardışık düzen kuran eylem bağlamına uyar.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Eylemler arasında sıra kurma değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kesintisiz sıra"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "araya kesinti girmeden peş peşe oluş"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "şeyleri veya işleri peş peşe getirme"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "iki şeyi peş peşe getirmek"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "peş peşe isabet eden üç ok"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000695/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Araya aynı diziden olmayan bir unsur girmemesi özellikle vurgulanır.",
+                "neighbor_only": "Okuma, konuşma veya ayların akışı gibi süreklilik örnekleri daha geniştir.",
+                "gloss": "kesintisiz takip",
+                "shared_zone": "İki dal da şeylerin biri diğerinin ardından gelmesine dayanır.",
+                "distinction": "Bu dal, aynı kökün yakınlık fikrinden gelen aralıksız sıra değerini taşır; komşu dal daha genel takip ve düzenli akış alanını kapsar."
+              },
+              {
+                "neighbor_ref": "root_001684/B004",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Peş peşe gerçekleşme ve düzen anlamı vardır.",
+                "neighbor_only": "Dostça yakınlık, sevgi, destek ve karşıtlığa karşı taraf tutma anlamı vardır.",
+                "gloss": "sıra ile destek",
+                "shared_zone": "İkisi de yakınlık veya bağ kurma alanında aynı kökten ayrılır.",
+                "distinction": "B002 nesne ya da eylemlerin sıra halinde gelişiyle ilgilidir; B004 kişiler veya topluluklar arasında destekleyici bağlılık kurar."
+              }
+            ],
+            "neighbor_coverage_note": "Adaylar ardışıklık, takip ve aynı kökün yakın dalları açısından denetlendi; örnek tekrarı yapan adaylar yayımlanmadı."
+          },
+          {
+            "branch_ref": "root_001684/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bir işin, yerin veya kişinin işlerinin sorumluluğunu üstlenip yürütmeyi açıkça verir. Yönetim, yetki, görev üstlenme ve yetim ya da kadınla ilgili sorumluluk örnekleri aynı idare etme çekirdeğine bağlıdır.",
+              "boundary_note": "Dal, yalnız sevgi ve yardım anlamı değil, bir işin başına geçip onu yürütme anlamıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yönetim adı, görevli kişi ve işi üstlenme kalıbı aynı dalda ama kapsamları ayrılarak tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir işin, yerin veya başkasına ait durumun sorumluluğunu üstlenip onu yönetmek ve yürütmektir. Bu, resmi yönetimden bakım ve gözetim sorumluluğuna kadar uzanır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir işi veya başkasının durumunu üstlenip yönetme ve yürütme.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, bu dalı yönetme, sorumluluk alma, bir yerin veya işin başına geçme ve korunmaya muhtaç kişinin işini yürütme alanında toplar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "bir işi üstlenip yönetme",
+              "applicability": "Yönetim, görev alma ve başkasının işini yürütme bağlamlarının hepsine uygulanabilir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Üstlenme, yönetme ve sorumluluk taşıma çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yönetimini üstlenmek",
+                "usage_role": "contextual",
+                "applicability": "Bir yer, iş veya görevin başına geçme bağlamında doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Başına geçme ve yürütme değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "işlerine bakmak",
+                "usage_role": "contextual",
+                "applicability": "Yetim, kadın veya başka bir kişinin işini gözetme bağlamlarında uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Sorumluluk ve gözetim değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yönetim ve yetki alanı"
+              },
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir yeri veya işi yöneten kişi"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "başkasının işlerinden sorumlu kişi"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir işi üstlenmek"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000051/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Gözetim ve başkasının işlerini yürütme gibi resmi olmayan sorumlulukları da kapsar.",
+                "neighbor_only": "Buyruk sahibi yönetici ve resmen yönetici kılma alanı daha baskındır.",
+                "gloss": "yönetim yetkisi",
+                "shared_zone": "İki dal da yönetim ve işlerin başında bulunma alanında örtüşür.",
+                "distinction": "Bu dal görev üstlenme ve gözetimi birlikte içerir; komşu dal daha çok emir ve resmi yönetici konumunu öne çıkarır."
+              },
+              {
+                "neighbor_ref": "root_001684/B004",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "İşin başına geçme ve onu yürütme vardır.",
+                "neighbor_only": "Sevgi, dostluk ve yardım ederek taraf olma vardır.",
+                "gloss": "yönetim ile destek",
+                "shared_zone": "İkisi de insanlar arası bağlılık ve yakın ilişki alanına dokunur.",
+                "distinction": "B003 sorumluluk ve idare çekirdeğindedir; B004 birini sevmek, desteklemek veya onun yanında yer almakla sınırlıdır."
+              }
+            ],
+            "neighbor_coverage_note": "Yönetim, yetki, yardım ve aynı kökün ilişki dalları karşılaştırıldı; yalnız gerçek kapsam ayrımı veren komşular seçildi."
+          },
+          {
+            "branch_ref": "root_001684/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, düşmanın karşıtı olan yakın tarafı, sevgi, destek, dostluk, inanç veya anlaşma bağıyla yanında olmayı birlikte verir. Bu dalda yakınlık, yönetim değil, taraf tutan ve yardım eden ilişki olarak işler.",
+              "boundary_note": "Dal, resmi yönetim veya özgür bırakmaya bağlı hukuki bağ anlamına indirgenmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Kişi adı, destek ilişkisi ve birini destekleme kalıbı karıştırılmadan aynı ilişki alanında açıklanır."
+            },
+            "concept_map": {
+              "definition": "Bir kişi veya topluluğa sevgi, dostluk, inanç ya da yardım bağıyla yakın durup onun yanında yer almaktır. Karşıtlık ekseninde düşmanın değil desteklenen tarafın yanında olma anlamı taşır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Sevgi, dostluk, inanç veya yardım bağıyla birinin yanında yer alma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı düşmana karşı yakın taraf olmak, sevmek, desteklemek, dost veya anlaşmalı yardımcı olmak ve inanç yahut arkadaşlık bakımından yakınlaşmak etrafında toplar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yakın durup destek olma",
+              "applicability": "Sevgi, dostluk, inanç veya yardım bağıyla bir tarafı tutma bağlamlarında uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yakınlık, sevgi ve destek çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "dost ve destekçi",
+                "usage_role": "contextual",
+                "applicability": "Kişi veya topluluk için düşmanın karşıtı olan yakın destekçi bağlamına uyar.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Dostluk ve destek değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yanında yer almak",
+                "usage_role": "contextual",
+                "applicability": "Birini sevme, kayırma veya yardım ederek destekleme eyleminde doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Taraf olma ve destekleme anlamını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "dost, seven veya destekleyen kişi"
+              },
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "destekçi, anlaşmalı dost veya yakın yoldaş"
+              },
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "birini sevip destekleme veya kayırma"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "birini sevmek, desteklemek veya kayırmak"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000435/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Sevgiyle birlikte yardım, taraf tutma ve düşmanın karşıtı olma vardır.",
+                "neighbor_only": "İçten dostluk ve sevgi bağı daha baskındır; yardım veya taraf tutma zorunlu değildir.",
+                "gloss": "dostluk ve destek",
+                "shared_zone": "İki dal da yakın dostluk ve sevgi ilişkisine dokunur.",
+                "distinction": "Bu dal sevgi bağını destek ve taraf olma ile birlikte kurar; komşu dal daha çok dostluğun içtenlik yönünü anlatır."
+              },
+              {
+                "neighbor_ref": "root_001684/B005",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Destek, sevgi ve taraf olma ilişkisi öne çıkar.",
+                "neighbor_only": "Soy, özgür bırakma, komşuluk veya miras bağlantısı gibi statü bağı öne çıkar.",
+                "gloss": "destek bağı ile statü bağı",
+                "shared_zone": "İki dal da insanlar arasında yakın bağ ve karşılıklı yükümlülük alanına girer.",
+                "distinction": "B004 yardım eden dost tarafı anlatır; B005 hukuki, soyla ilgili veya toplumsal statüden doğan özel bağı anlatır."
+              }
+            ],
+            "neighbor_coverage_note": "Sevgi, dostluk, destek ve akrabalık adayları karşılaştırıldı; yalnız okuyucunun karıştırabileceği sınırlar yayımlandı."
+          },
+          {
+            "branch_ref": "root_001684/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, özgür bırakan ve özgür bırakılan kişi, soy yakınları, destek veren anlaşmalı kişi, komşu, hısım ve bunlardan doğan özel bağları birlikte sayar. Bu dalda anlam genel yardım değil, belirli sosyal veya hukuki yakınlık statüsüdür.",
+              "boundary_note": "Dal, dostça destekten ayrılır; soy, özgür bırakma, komşuluk veya özel bağlılık ilişkisi ister."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Çeşitli kişi adları ve özel bağ adı aynı statü alanında tutulur, genel destek anlamına yayılmaz."
+            },
+            "concept_map": {
+              "definition": "Soy, özgür bırakma, komşuluk, hısımlık veya özel bağlılık sebebiyle kişileri birbirine bağlayan toplumsal ve hukuki yakınlık ilişkisidir. Bağ, miras, destek veya mensubiyet sonucunu doğurabilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Soy, özgür bırakma, komşuluk veya hısımlıktan doğan özel bağlılık.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar bu dalı, soy yakınlığı, özgür bırakma ilişkisi, komşuluk, hısımlık, anlaşmalı bağlılık ve bunlara eşlik eden destek veya miras yükümlülüğü etrafında toplar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "özel yakınlık ve bağlılık bağı",
+              "applicability": "Soy, özgür bırakma, komşuluk veya hısımlıkla kurulan toplumsal ve hukuki bağlar için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Özel statü bağı ve yakınlık değerini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "soy veya özgür bırakma bağı",
+                "usage_role": "explanatory",
+                "applicability": "Akrabalık ve özgür bırakmadan doğan özel ilişkiyi açıklamak için uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Soy ve özgür bırakma kaynaklı bağı korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yakın bağlılar",
+                "usage_role": "contextual",
+                "applicability": "Soydan, anlaşmadan veya özel statüden bağlı kişiler topluluğu için doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Bağlı kişiler ve yakınlık değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "özgür bırakan, özgür bırakılan, soy yakını veya komşu gibi bağlı kişi"
+              },
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "özgür bırakma ilişkisine bağlı özel hak ve mensubiyet"
+              },
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "soy yakınları veya özgür bırakma bağıyla bağlı kişiler"
+              },
+              {
+                "lexical_unit_id": "lu_020",
+                "rendering_kind": "ordinary",
+                "target_gloss": "nimet veya özgür bırakma bağı kuran kişi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001348/B007",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Özgür bırakan ve özgür bırakılan kişi, komşu ve çeşitli bağlı kişi adları da sayılır.",
+                "neighbor_only": "Soy ve bağlılığın dokusu daha genel bir ilişki alanı olarak verilir.",
+                "gloss": "bağlılık bağı",
+                "shared_zone": "İki dal da soy veya benzeri bağlılık ilişkisinin insanları birbirine bağlamasına dayanır.",
+                "distinction": "Bu dal, belirli sözlük birimleriyle özgür bırakma ve statü adlarını da içerir; komşu dal daha genel soy ve bağlılık dokusunu anlatır."
+              },
+              {
+                "neighbor_ref": "root_000552/B002",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Özgür bırakma, komşuluk ve özel mensubiyet bağları da kapsamdadır.",
+                "neighbor_only": "Rahim ve kan bağına dayalı akrabalık çekirdeği öne çıkar.",
+                "gloss": "özel bağ ile akrabalık",
+                "shared_zone": "İki dal da kişiler arasındaki yakın bağ alanındadır.",
+                "distinction": "B005 soy yakınlığını aşarak özgür bırakma ve komşuluk gibi statü bağlarını da içerir; komşu dal kan ve rahim yakınlığına odaklanır."
+              }
+            ],
+            "neighbor_coverage_note": "Soy, hısımlık, özgür bırakma ve aynı kökün destek dalları denetlendi; genel destek adayları ayrı tutuldu."
+          },
+          {
+            "branch_ref": "root_001684/B006",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, yüzü, kulağı veya gözü bir şeye yöneltmeyi ve ona dönük kabul, takip veya razı oluşu verir. Bu dal açıkça uzaklaşma değil, bedensel ya da dikkat yönünden yönelmedir.",
+              "boundary_note": "Dal, iş üstlenme veya yüz çevirme anlamına değil, bir şeye yönelme ve ona dönme anlamına bağlıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yüz, işitme ve dikkat kalıpları yönelme çekirdeğinde tutulur; çıplak yönetim anlamı içeri alınmaz."
+            },
+            "concept_map": {
+              "definition": "Yüzü, gözü, kulağı veya dikkati bir şeye çevirip ona yönelmektir. Bazı kullanımlarda bu yönelme takip etme ya da razı olma tutumunu da taşır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Yüz, duyu veya dikkati bir şeye doğru çevirip ona yönelme.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı yüze, işitmeye veya göze yön verme, bir şeyi karşıya alıp ona dönme ve bu yönelişten doğan takip ya da razı oluş ile açıklar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yüzünü veya dikkatini yöneltme",
+              "applicability": "Bedensel yöneliş, dinleme veya dikkat verme bağlamlarını birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yöneltme, yönelme ve dikkat verme çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yüzünü çevirmek",
+                "usage_role": "contextual",
+                "applicability": "Yüzün belirli bir yöne çevrildiği bağlamda doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yüzle yönelme değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "dikkatini vermek",
+                "usage_role": "contextual",
+                "applicability": "İşitme, görme veya ilginin bir şeye yöneldiği bağlamlarda uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Duyu ve dikkat yönelişini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_021",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yüzünü bir şeye çevirmek"
+              },
+              {
+                "lexical_unit_id": "lu_022",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yüzünü o yöne dönmüş veya ona uyan kişi"
+              },
+              {
+                "lexical_unit_id": "lu_023",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kulağını veya dikkatini bir şeye vermek"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001684/B007",
+                "relation_type": "polarity_pair",
+                "boundary_match": "opposed",
+                "focus_only": "Bir şeye doğru dönme, kabul veya dikkat verme vardır.",
+                "neighbor_only": "Bir şeyden dönüp uzaklaşma, yüz çevirme veya dinlemeyi bırakma vardır.",
+                "gloss": "yönelme ile yüz çevirme",
+                "shared_zone": "İki dal da yön değiştirme ve tutum alma ekseninde durur.",
+                "distinction": "B006 yönelişi ve karşıya dönmeyi anlatır; B007 aynı eksenin tersinde, dönüp gitme veya ilgiyi kesme anlamını taşır."
+              },
+              {
+                "neighbor_ref": "root_001198/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Yüzün yanında işitme, göz ve razı oluş gibi tutum yönelişleri de kapsamdadır.",
+                "neighbor_only": "Karşı karşıya gelme ve genel cephe oluşturma alanı daha geniştir.",
+                "gloss": "yönelme",
+                "shared_zone": "İki dal da bir şeye yüzünü veya yönünü çevirme alanında örtüşür.",
+                "distinction": "Bu dal duyu ve dikkat yönelişini de içerir; komşu dal daha genel karşı karşıya oluş ve cephe yönünü anlatır."
+              }
+            ],
+            "neighbor_coverage_note": "Yönelme, işitme, karşıya dönme ve yüz çevirme adayları değerlendirildi; ters kutup özellikle yayımlandı."
+          },
+          {
+            "branch_ref": "root_001684/B007",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, kişinin dönüp gitmesini, kaçarken arkasını dönmesini, birinden yüz çevirmesini ve dinleme ya da buyruğa uymayı bırakmasını verir. Bu nedenle dal, yönelmenin karşıtı olan uzaklaşma ve ilgiyi kesme anlamındadır.",
+              "boundary_note": "Dal yalnız bedensel dönüp gitme değildir; bedensel uzaklaşma ile tutum olarak yüz çevirme birlikte bulunur."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Anlam kalıplı kullanımlara bağlıdır; çıplak köke yönetim veya destek anlamı yüklenmez."
+            },
+            "concept_map": {
+              "definition": "Bir şeyden bedenen dönüp uzaklaşmak veya ona kulak vermeyi ve uymayı bırakarak yüz çevirmektir. Kaçış, ayrılma ve ilgiyi kesme aynı sınır içinde kalır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Dönüp uzaklaşma, yüz çevirme veya dinleme ve uyma bağını kesme.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı kaçışla dönüp gitme, birinden yüz çevirme ve dinleme ya da buyruğa uyma bağını kesme biçimlerinde açıklar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "dönüp yüz çevirme",
+              "applicability": "Bedensel uzaklaşma ve tutum olarak ilgiyi kesme bağlamlarını birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Dönüp uzaklaşma ve ilgiyi kesme çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "arkasını dönüp kaçmak",
+                "usage_role": "contextual",
+                "applicability": "Kaçış veya bedensel uzaklaşma bağlamlarında doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Dönüp gitme ve uzaklaşma değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yüz çevirmek",
+                "usage_role": "contextual",
+                "applicability": "Birinden, bir işten veya buyruktan ilgiyi kesme bağlamına uyar.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "İlgiyi kesme ve reddedici uzaklaşmayı korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_024",
+                "rendering_kind": "ordinary",
+                "target_gloss": "arkasını dönüp kaçarak uzaklaşmak"
+              },
+              {
+                "lexical_unit_id": "lu_025",
+                "rendering_kind": "ordinary",
+                "target_gloss": "birinden yüz çevirmek ve ilgiyi kesmek"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001684/B006",
+                "relation_type": "polarity_pair",
+                "boundary_match": "opposed",
+                "focus_only": "Bir şeyden dönüp uzaklaşma ve ilgiyi kesme vardır.",
+                "neighbor_only": "Bir şeye doğru dönme, dikkat verme veya razı oluş vardır.",
+                "gloss": "yüz çevirme ile yönelme",
+                "shared_zone": "İki dal da bedenin veya tutumun yön değiştirmesiyle ilgilidir.",
+                "distinction": "B007 uzaklaşma ve reddedici yön değişimini anlatır; B006 kabul edici veya dikkat veren yönelişi anlatır."
+              },
+              {
+                "neighbor_ref": "root_000458/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Dinlemeyi ve buyruğa uymayı bırakma gibi iç tutum boyutu da vardır.",
+                "neighbor_only": "Savaşta arkayı dönme, bozgun ve arka yön vurgusu daha belirgindir.",
+                "gloss": "dönüp uzaklaşma",
+                "shared_zone": "İki dal da arkasını dönme, uzaklaşma ve yüz çevirme alanında örtüşür.",
+                "distinction": "Bu dal bedensel uzaklaşmayı tutum olarak ilgiyi kesmeyle birleştirir; komşu dal arka taraf ve bozgun görüntüsünü daha açık taşır."
+              }
+            ],
+            "neighbor_coverage_note": "Kaçış, reddetme, ilgiyi kesme ve aynı kökün yönelme dalı denetlendi; en keskin karşıtlıklar yayımlandı."
+          },
+          {
+            "branch_ref": "root_001684/B008",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bir kişinin bir şeye daha uygun, daha layık veya daha hak sahibi olmasını anlatır. Dal, tehdit kalıbıyla değil, öncelik ve yerindelik karşılaştırmasıyla tanımlanır.",
+              "boundary_note": "Dal, kötü sonuç tehdidi taşıyan kalıptan ayrılır; burada uygunluk ve haklı öncelik vardır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Karşılaştırmalı uygunluk kalıbı ile iki kişinin daha haklı olması biçimi aynı öncelik sınırında tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir kişinin veya tarafın bir şeye başkasından daha uygun, daha layık ya da daha hak sahibi olmasıdır. Anlam bir tehdit değil, uygunluk ve öncelik yargısıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şeye daha uygun, daha layık veya daha hak sahibi olma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı bir işe veya nesneye daha layık, daha uygun ve daha hak sahibi olma karşılaştırması olarak verir; iki kişinin en haklı olması da bu kapsamdadır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "daha uygun ve hak sahibi olma",
+              "applicability": "Bir işe, şeye veya konuma en layık olanı belirtme bağlamlarında uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Uygunluk, layıklık ve haklı öncelik çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "daha layık",
+                "usage_role": "contextual",
+                "applicability": "Kişinin bir iş veya konuma başkasından daha uygun olduğu bağlamlarda doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Layık olma ve öncelik değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "daha hak sahibi",
+                "usage_role": "contextual",
+                "applicability": "Bir şey üzerinde haklı öncelik veya sahiplik önceliği belirtilirken uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Haklı öncelik ve uygunluk anlamını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_026",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şeye daha uygun, daha layık veya daha hak sahibi olmak"
+              },
+              {
+                "lexical_unit_id": "lu_027",
+                "rendering_kind": "ordinary",
+                "target_gloss": "iki daha haklı veya daha uygun kişi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000347/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Karşılaştırmalı olarak daha layık veya daha uygun olma vurgusu vardır.",
+                "neighbor_only": "Belirli bir hakkın mülk veya talep olarak sabit olması daha baskındır.",
+                "gloss": "haklı öncelik",
+                "shared_zone": "İki dal da hak, uygunluk ve öncelik alanında örtüşür.",
+                "distinction": "Bu dal bir şeye en layık veya daha hak sahibi olmayı karşılaştırmalı verir; komşu dal hakkın kendisini ve ona sahip olmayı daha özel anlatır."
+              },
+              {
+                "neighbor_ref": "root_000064/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Hak sahibi olma ve öncelik karşılaştırması açıkça bulunur.",
+                "neighbor_only": "Bir kişi veya şeyin uygun, ehil ya da yaraşır olması daha genel verilir.",
+                "gloss": "uygun olma",
+                "shared_zone": "İki dal da bir şeye yaraşma ve uygunluk alanında buluşur.",
+                "distinction": "B008 uygunluğu öncelik ve haklılık karşılaştırmasıyla kurar; komşu dal genel ehillik ve yaraşırlık alanında kalabilir."
+              }
+            ],
+            "neighbor_coverage_note": "Hak, uygunluk, öncelik ve aynı yüzey kalıbı adayları denetlendi; tehdit anlamı ayrı dalda bırakıldı."
+          },
+          {
+            "branch_ref": "root_001684/B009",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, kalıbın tehdit, uyarı, yaklaşan kötü sonuç veya kaçırılan şey için acı hatırlatma değeri taşıdığını söyler. Bu nedenle dal, B008'deki uygunluk ve hak sahibi olma anlamından ayrı tutulmalıdır.",
+              "boundary_note": "Dal yalnız belirli tehdit ve uyarı kalıbında geçerlidir; uygunluk karşılaştırması değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "non_bare",
+              "note": "Anlam belirli sözlü kalıba bağlıdır; çıplak öncelik veya yakınlık anlamı olarak genellenmez."
+            },
+            "concept_map": {
+              "definition": "Muhataba kötü bir sonucun yaklaştığını bildiren tehdit ya da uyarı kalıbıdır. Bazı kullanımlarda kaçırılan şey için acı bir hatırlatma veya hayıflanma da taşır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Yaklaşan kötü sonuçla tehdit etme, uyarma veya kaçırılana hayıflandırma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı muhataba kötü ya da yıkıcı bir şeyin yaklaştığını sezdiren tehdit ve uyarı sözü olarak verir; ayrıca kaçırılan şey üzerine acı hatırlatma değeri bulunur.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yaklaşan kötü sonuç tehdidi",
+              "applicability": "Muhataba kötü akıbetin yaklaştığını bildiren uyarı ve tehdit sözü için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Tehdit, yaklaşan zarar ve uyarı çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yazık sana, başına gelecek var",
+                "usage_role": "contextual",
+                "applicability": "Kötü sonucun yaklaştığını sezdiren tehditli hitap bağlamlarında doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Tehdit ve yaklaşan kötü sonuç değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "kaçırdığına hayıflanma",
+                "usage_role": "explanatory",
+                "applicability": "Kaçırılan şey üzerine acı hatırlatma anlamı öne çıktığında uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hayıflandırma ve uyarı değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_028",
+                "rendering_kind": "ordinary",
+                "target_gloss": "tehdit ve uyarı sözü; sana kötü şey yaklaştı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001684/B008",
+                "relation_type": "other",
+                "boundary_match": "field_only",
+                "focus_only": "Tehdit, kötü sonuç ve hayıflanma kalıbı vardır.",
+                "neighbor_only": "Bir şeye daha layık, daha uygun veya daha hak sahibi olma vardır.",
+                "gloss": "tehdit ile öncelik",
+                "shared_zone": "Aynı yüzey kalıbı okuyucuda karışıklık yaratabilir.",
+                "distinction": "B009 kalıplaşmış bir uyarı ve tehdit sözüdür; B008 uygunluk ve haklı öncelik yargısıdır."
+              },
+              {
+                "neighbor_ref": "root_000174/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Kötü sonucun yaklaştığını söyleyen sözlü tehdit vardır.",
+                "neighbor_only": "Gerçek yıkım, yok etme veya bozma eylemi anlatılır.",
+                "gloss": "tehdit ve yıkım",
+                "shared_zone": "İki dal da kötü sonuç ve zarar alanına dokunur.",
+                "distinction": "Bu dal zararın kendisini değil, muhataba yaklaşan zararı bildiren kalıbı anlatır; komşu dal yıkım veya yok oluşun kendisidir."
+              }
+            ],
+            "neighbor_coverage_note": "Tehdit, yıkım ve aynı kalıptan doğan uygunluk adayı denetlendi; söz kalıbı dışındaki zarar dalları ayrı tutuldu."
+          },
+          {
+            "branch_ref": "root_001684/B010",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bu dalı erken mevsim yağmurundan veya önceki yağmurdan sonra gelen yağmur adı olarak verir. Toprağın bu yağmuru alması ve dua kalıbındaki ardışık iyilik ifadesi de aynı izleme ilişkisine bağlıdır.",
+              "boundary_note": "Dal genel yağmur adı değildir; önceki yağmuru izleyen özel yağmurla sınırlıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yağmur adı, toprağın bu yağmuru alması ve dua kalıbındaki özel kullanım ayrı ayrı korunur."
+            },
+            "concept_map": {
+              "definition": "İlk mevsim yağmurundan ya da önceki yağmurdan sonra gelen yağmurdur. Toprağın bu yağmuru alması ve iyiliğin iyilik ardınca gelmesi gibi özel kullanımlar bu izleme fikrine bağlıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Önceki veya erken mevsim yağmurunu izleyen yağmur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı önceki yağmuru veya erken mevsim yağmurunu izleyen yağmur olarak açıklar; toprağın bu yağmuru alması da aynı adlandırmaya bağlanır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "önceki yağmuru izleyen yağmur",
+              "applicability": "Yağmurun özel ad olarak bir önceki yağmurdan sonra gelişini anlatan bağlamlarda uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yağmur olma ve önceki yağmuru izleme çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "sonraki yağmur",
+                "usage_role": "contextual",
+                "applicability": "Önceki mevsim yağmurunu izleyen yağmur bağlamında doğal ve kısa karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "İzleyen yağmur anlamını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "toprak bu yağmuru aldı",
+                "usage_role": "explanatory",
+                "applicability": "Toprağın özel izleyen yağmurla ıslanması bağlamında açıklayıcıdır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Toprağın izleyen yağmuru alması değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_029",
+                "rendering_kind": "ordinary",
+                "target_gloss": "önceki yağmurdan sonra gelen yağmur"
+              },
+              {
+                "lexical_unit_id": "lu_030",
+                "rendering_kind": "ordinary",
+                "target_gloss": "erken mevsim yağmurunu izleyen yağmur adı"
+              },
+              {
+                "lexical_unit_id": "lu_031",
+                "rendering_kind": "ordinary",
+                "target_gloss": "toprağa izleyen yağmurun yağması"
+              },
+              {
+                "lexical_unit_id": "lu_032",
+                "rendering_kind": "ordinary",
+                "target_gloss": "iyilik ardından gelen yağmur veya iyilik"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001055/B007",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Özellikle erken mevsim yağmurunu veya önceki yağmuru izleyen yağmur adı olarak verilir.",
+                "neighbor_only": "Daha önce ıslanmış toprağı tekrar yoklayan yağmur veya erken mevsim yağmuru alanı daha geniştir.",
+                "gloss": "izleyen yağmur",
+                "shared_zone": "İki dal da önceki yağmurla ilişkili sonraki yağmur alanında örtüşür.",
+                "distinction": "Bu dal adlandırmayı önceki yağmurun ardından gelmeye bağlar; komşu dal toprağın tekrar yağmur alması veya erken mevsim zamanı yönünden daha geniştir."
+              },
+              {
+                "neighbor_ref": "root_000274/B002",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Yağmurun önceki yağmuru izlemesi belirleyicidir.",
+                "neighbor_only": "Yağmurun çokluğu ve bereketli oluşu belirleyicidir.",
+                "gloss": "sonraki yağmur ile bol yağmur",
+                "shared_zone": "İki dal da yağmur adlandırması alanındadır.",
+                "distinction": "B010 yağmurun sırasını ve önceki yağmurla ilişkisini tanımlar; komşu dal yağmurun miktarı ve bolluğunu tanımlar."
+              }
+            ],
+            "neighbor_coverage_note": "Yağmur adayları sıralanma, miktar ve toprakla ilişki bakımından değerlendirildi; genel yağmur adları yayımlanmadı."
+          },
+          {
+            "branch_ref": "root_001684/B011",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, dalı devenin sırtına konan, semer veya yük altındaki örtü ya da benzeri parça olarak verir. Bu somut eşya anlamı yönetim, yağmur veya yakınlık dallarından ayrı tutulur.",
+              "boundary_note": "Dal çıplak somut addır; yönetim, yağmur veya başka aynı sesli kullanımlar buna taşınmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Çıplak eşya adı tanımlanır; kalıp dışı soyut anlamlar bu dala alınmaz."
+            },
+            "concept_map": {
+              "definition": "Devenin sırtına, semer ya da yük takımı altına konan örtü, keçe veya benzeri altlıktır. Tekil ve çoğul biçimler aynı eşya sınıfına bağlıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Deve sırtında semer veya yük takımı altında kullanılan örtü ya da altlık.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı devenin sırtında semer veya benzeri takım altında kullanılan örtü, keçe ya da altlık olarak verir; çoğul biçim aynı nesnenin çoğuludur.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "deve sırtı alt örtüsü",
+              "applicability": "Devenin sırtında semer veya yük takımı altında kullanılan örtü için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Nesne, yer ve kullanım amacını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "semer altı örtüsü",
+                "usage_role": "contextual",
+                "applicability": "Deve veya yük hayvanı takımının altında kullanılan örtü bağlamında doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Alt örtü ve semerle ilişkiyi korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_033",
+                "rendering_kind": "ordinary",
+                "target_gloss": "deve sırtında semer altında kullanılan örtü"
+              },
+              {
+                "lexical_unit_id": "lu_034",
+                "rendering_kind": "ordinary",
+                "target_gloss": "semer altı örtüleri"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000766/B010",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Örtünün semer veya takım altında yer alması belirleyicidir.",
+                "neighbor_only": "Deve sırtındaki daha genel örtü, küçük semer veya takım parçası alanı vardır.",
+                "gloss": "semer altı örtüsü",
+                "shared_zone": "İki dal da deve sırtında kullanılan örtü veya takım parçası alanındadır.",
+                "distinction": "Bu dal altlık olarak kullanılan örtüyü tanımlar; komşu dal deve sırtındaki daha genel binek veya örtü takımını kapsar."
+              },
+              {
+                "neighbor_ref": "root_000551/B002",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Semerin altında kalan örtü veya altlık nesnedir.",
+                "neighbor_only": "Devenin asıl binek takımı veya semeri anlatılır.",
+                "gloss": "alt örtü ile semer",
+                "shared_zone": "İki dal da deve üzerinde kullanılan binek takımı alanındadır.",
+                "distinction": "B011 asıl takımın altında kalan örtüyü belirtir; komşu dal semer veya binek takımının kendisini anlatır."
+              }
+            ],
+            "neighbor_coverage_note": "Deve takımı, örtü, yastık ve taşıma araçları adayları denetlendi; nesnenin altlık işlevini ayıranlar yayımlandı."
+          },
+          {
+            "branch_ref": "root_001684/B012",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bir şeyin kişinin eline geçmesini veya onun üzerinde üstün gelmesini ve yarış bağlamında son noktaya varıp onu geçerek elde etmesini verir. Dalda ele geçirme ile hedefe varma aynı üstün gelme sonucuna bağlanır.",
+              "boundary_note": "Dal, görev üstlenme değil, kalıplı olarak bir şeyi ele geçirme veya hedefe varmadır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Anlam belirli kalıplara bağlıdır; çıplak yönetim veya yakınlık anlamına genellenmez."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin kişinin eline geçmesi, onun üzerinde üstünlük kurması veya yarışta hedefe varıp onu elde etmesidir. Sahip olma, galip gelme ve hedefe ulaşma sonuçları birlikte korunur.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şeyi ele geçirip ona üstün gelme veya yarış hedefine ulaşma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı bir şeyin ele geçmesi, mal üzerinde üstünlük kurulması ve yarış ya da mesafe bağlamında hedefe varılıp orada üstün gelinmesi olarak açıklar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "ele geçirip hedefe ulaşma",
+              "applicability": "Bir şeyi kontrol altına alma veya yarışta son noktaya varma bağlamlarında uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Ele geçirme, üstün gelme ve hedefe ulaşma çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "eline geçirmek",
+                "usage_role": "contextual",
+                "applicability": "Mal veya nesne üzerinde üstünlük kurma bağlamlarında doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Ele geçirme ve kontrol değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "hedefe varmak",
+                "usage_role": "contextual",
+                "applicability": "Yarış veya mesafe sonuna ulaşma bağlamlarında uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hedefe ulaşma değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_035",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şeyi ele geçirmek veya ona üstün gelmek"
+              },
+              {
+                "lexical_unit_id": "lu_036",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hedefe varmak veya ona önce ulaşmak"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000368/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Yarış hedefine varma ve hedefi önde alma kullanımı da vardır.",
+                "neighbor_only": "Toplama, kuşatma ve geniş anlamda kontrol altına alma alanı daha geniştir.",
+                "gloss": "ele geçirme",
+                "shared_zone": "İki dal da bir şey üzerinde üstünlük ve kontrol kurma alanında örtüşür.",
+                "distinction": "B012 ele geçirmeyi hedefe varma kullanımıyla birlikte verir; komşu dal daha genel üstünlük, kuşatma ve toplama alanını kapsar."
+              },
+              {
+                "neighbor_ref": "root_000104/B008",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Bir şeyin elde edilmesi veya hedefe varılması belirleyicidir.",
+                "neighbor_only": "Üstünlük, yükseklik veya galiplik niteliği daha genel anlatılır.",
+                "gloss": "ele geçirme ile üstünlük",
+                "shared_zone": "İki dal da galip gelme ve üstün konuma geçme alanına dokunur.",
+                "distinction": "B012 sonuç olarak elde etme veya hedefe ulaşmayı ister; komşu dal üstünlük ve galiplik alanında daha geniştir."
+              }
+            ],
+            "neighbor_coverage_note": "Ele geçirme, üstünlük, hedefe varma ve yönetim adayları denetlendi; görev üstlenme dalları ayrı tutuldu."
+          },
+          {
+            "branch_ref": "root_001684/B013",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, birine bir şey, iyilik, kötülük veya yarar yöneltmeyi ve onu o kişiye ulaştırmayı verir. Dal, görevi üstlenmek veya daha haklı olmak değil, bir şeyi birine tahsis edip ulaştırmaktır.",
+              "boundary_note": "Dal kalıplı verme ve yöneltme anlamındadır; yönetim veya öncelik anlamına genellenmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Anlam birine bir şey, iyilik veya kötülük yöneltme kalıbına bağlı tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir şeyi, iyiliği, yararı veya kötülüğü bir kişiye yöneltip ona ulaştırmak ya da onun payına kılmaktır. Verilen şeyin iyi veya kötü olması dalın kapsamını değiştirmez.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Birine iyi veya kötü bir şeyi yöneltip ulaştırma ya da payına kılma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak anlatımı, dalı bir kişiye iyilik, yarar, kötülük veya herhangi bir şeyi ulaştırma ve onun üzerine yöneltme olarak açıklar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "birine iyi ya da kötü şey yöneltme",
+              "applicability": "Bir kişiye yarar, iyilik, zarar veya başka bir şeyi ulaştırma bağlamlarında uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yöneltme, ulaştırma ve iyi ya da kötü içerik kapsamını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "iyilikte bulunmak",
+                "usage_role": "contextual",
+                "applicability": "Birine iyilik ulaştırma bağlamında doğal Türkçe karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "İyiliği kişiye ulaştırma değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "zarar yöneltmek",
+                "usage_role": "contextual",
+                "applicability": "Birine kötü bir şey yöneltme bağlamında uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Kötü şeyi kişiye yöneltme değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_037",
+                "rendering_kind": "ordinary",
+                "target_gloss": "birine iyilik yapmak veya bir şeyi ona ulaştırmak"
+              },
+              {
+                "lexical_unit_id": "lu_038",
+                "rendering_kind": "ordinary",
+                "target_gloss": "birine iyilik veya kötülük yöneltmek"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000009/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "İyi ya da kötü bir şeyin belirli kişiye yöneltilmesi vurgulanır.",
+                "neighbor_only": "Genel verme, getirme veya bir şeyi birine sunma alanı daha geniştir.",
+                "gloss": "birine verme",
+                "shared_zone": "İki dal da bir şeyi bir kişiye ulaştırma alanında örtüşür.",
+                "distinction": "B013 verilen şeyin kişiye yöneltilmesini ve iyilik ya da kötülük olabilmesini vurgular; komşu dal genel verme ve getirme anlamındadır."
+              },
+              {
+                "neighbor_ref": "root_001296/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Kötülük veya zarar yöneltme de kapsam içindedir.",
+                "neighbor_only": "Başkasına mal veya yarar kazandırma daha özel ve olumlu yöndedir.",
+                "gloss": "yarar ulaştırma",
+                "shared_zone": "İki dal da kişiye bir yarar veya şey kazandırma alanına yaklaşır.",
+                "distinction": "B013 iyi ve kötü yöneltmeyi birlikte kapsar; komşu dal başkasına yarar veya mal kazandırmaya odaklanır."
+              }
+            ],
+            "neighbor_coverage_note": "Verme, ulaştırma, kazandırma ve satış adayları değerlendirildi; yalnız yöneltme çekirdeğini aydınlatanlar yayımlandı."
+          },
+          {
+            "branch_ref": "root_001684/B014",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bir malı bilinen bir fiyatla satın aldıktan sonra aynı fiyatla başka birine devretme işlemini açıkça verir. Bu tekil ticaret terimi, yönetim veya genel verme anlamlarından ayrı tutulmalıdır.",
+              "boundary_note": "Dal yalnız satıştaki özel devir işlemidir; genel alım satım veya bağış anlamına genişletilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "non_bare",
+              "note": "Anlam satış alanındaki belirli terime bağlıdır; çıplak kök anlamına taşınmaz."
+            },
+            "concept_map": {
+              "definition": "Bir malı bilinen bir fiyatla satın aldıktan sonra aynı fiyatla başka birine devretme işlemidir. Anlam, satış içindeki özel fiyat ve devir şartına bağlıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Satın alınan malı bilinen aynı fiyatla başka birine devretme.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Bu dal, satış alanında belirli bir işlem adı olarak sunulur; malın önce bilinen fiyatla alınması ve sonra aynı fiyatla başka kişiye devredilmesi şartı belirleyicidir.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Tek tanık, bu kullanımı bilinen fiyatla alınan malın aynı fiyatla başka kişiye devri olarak verir."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "aldığı fiyatla devretme",
+              "applicability": "Alım satımda malın satın alındığı bilinen fiyat üzerinden devredildiği özel işlem için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Satın alma, aynı fiyat ve devretme şartını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "maliyet fiyatına devretmek",
+                "usage_role": "contextual",
+                "applicability": "Ticari işlem bağlamında malın alındığı fiyatla başkasına geçirilmesini doğal biçimde verir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Aynı fiyatla devir şartını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_039",
+                "rendering_kind": "ordinary",
+                "target_gloss": "satın alınan malı bilinen aynı fiyatla başkasına devretme"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000169/B001",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Malın önce alınması ve aynı bilinen fiyatla devredilmesi şarttır.",
+                "neighbor_only": "Alım ve satımın genel karşılıklı işlem alanı vardır.",
+                "gloss": "özel devir ile alım satım",
+                "shared_zone": "İki dal da ticari alım satım alanındadır.",
+                "distinction": "B014 genel satış değil, alınmış malı alış fiyatıyla devretme terimidir; komşu dal satış ve satın alma işlemini genel olarak anlatır."
+              },
+              {
+                "neighbor_ref": "root_000206/B001",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Aynı fiyatla başka kişiye devir işlemi anlatılır.",
+                "neighbor_only": "Fiyatın, bedelin veya değerin kendisi anlatılır.",
+                "gloss": "devir işlemi ile fiyat",
+                "shared_zone": "İki dal da satışta bedel ve fiyat alanına dokunur.",
+                "distinction": "B014 fiyatı şart olarak kullanan bir işlem adıdır; komşu dal bedel veya fiyat kavramının kendisini verir."
+              }
+            ],
+            "neighbor_coverage_note": "Satış, fiyat, devir ve genel verme adayları denetlendi; yalnız ticari işlem sınırını gösterenler yayımlandı."
+          },
+          {
+            "branch_ref": "root_001684/B015",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, küçük sürü hayvanlarını büyüklerinden ayırmayı ve yavru develeri analarından keserek alıştırmayı verir. Bu dal, peş peşe geliş veya dostça destek anlamından farklı, hayvancılıkta ayırma ve alıştırma işlemidir.",
+              "boundary_note": "Dal hayvan sürüsündeki ayırma ve sütten kesme uygulamasına bağlıdır; genel ardışıklık değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Kalıplı sürü ayırma ve yavruyu anadan kesme kullanımları birlikte ama hayvancılık alanıyla sınırlı tutulur."
+            },
+            "concept_map": {
+              "definition": "Küçük sürü hayvanlarını büyüklerinden veya yavruları analarından ayırarak bağımsızlaşmaya ve yola gelmeye alıştırmaktır. Anlam, hayvancılıktaki ayırma ve sütten kesme uygulamasına bağlıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Küçük sürü hayvanlarını büyüklerinden veya yavruları analarından ayırma.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Bu dal, sürü hayvanlarında küçükleri büyüklerden ayırma ve yavru develeri analarından kesip alışmalarını sağlama biçimindeki özel uygulamayı özetler.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Tek tanık, kullanımı küçük hayvanları büyüklerden ve yavruları analarından ayırma uygulaması olarak verir."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "küçük sürü hayvanlarını ayırma",
+              "applicability": "Küçük hayvanları büyüklerinden veya yavruları analarından ayırma bağlamlarında uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Hayvanları ayırma ve alıştırma çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yavruları anadan ayırmak",
+                "usage_role": "contextual",
+                "applicability": "Yavru develerin analarından kesilmesi ve alıştırılması bağlamında doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Anadan ayırma ve alıştırma değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "küçükleri büyüklerden ayırmak",
+                "usage_role": "contextual",
+                "applicability": "Sürü içindeki küçük hayvanların büyüklerden ayrıldığı bağlamlarda uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Sürü içinde ayırma değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_040",
+                "rendering_kind": "ordinary",
+                "target_gloss": "küçük sürü hayvanlarını büyüklerinden ayırmak"
+              },
+              {
+                "lexical_unit_id": "lu_041",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yavru develeri analarından ayırıp alıştırma"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000160/B004",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Küçüklerin büyüklerden ayrılması veya yavruların anadan kesilmesi eylemi vardır.",
+                "neighbor_only": "Küçük hayvanların adlandırılması ve sınıflanması öne çıkar.",
+                "gloss": "ayırma ile küçük hayvan adı",
+                "shared_zone": "İki dal da küçük sürü hayvanları alanındadır.",
+                "distinction": "B015 hayvancılık uygulaması olarak ayırmayı anlatır; komşu dal küçük hayvanların kendisini adlandırır."
+              },
+              {
+                "neighbor_ref": "root_001684/B002",
+                "relation_type": "other",
+                "boundary_match": "field_only",
+                "focus_only": "Hayvanları ayırma ve alıştırma uygulamasıdır.",
+                "neighbor_only": "Şeylerin peş peşe gelişi ve kesintisiz sıra anlamıdır.",
+                "gloss": "ayırma ile ardışıklık",
+                "shared_zone": "Aynı kökteki benzer yüzey biçimi karışıklık yaratabilir.",
+                "distinction": "B015 sürüde ayırma işlemidir; B002 herhangi bir hayvancılık işlemi gerektirmeyen ardışık sıra anlamıdır."
+              }
+            ],
+            "neighbor_coverage_note": "Küçük hayvan adları, buzağı ve deve yavrusu adayları ile aynı kökün ardışıklık dalı denetlendi."
+          },
+          {
+            "branch_ref": "root_001684/B016",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, taze hurmanın solma, sararma veya kurumaya dönme evresine girmesini ve bu evrenin açık rengini verir. Dal, yüz çevirme değil, meyvenin olgunluk sonrası değişim aşamasıdır.",
+              "boundary_note": "Dal bitki ve meyve olgunlaşma evresine bağlıdır; insana ait uzaklaşma anlamı buraya taşınmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Meyvenin evreye girmesi ve bu evrenin adı birlikte korunur; soyut yüz çevirme anlamına yayılmaz."
+            },
+            "concept_map": {
+              "definition": "Taze hurmanın olgunluk sonrası solup açık renge dönerek kurumaya yönelen evreye girmesidir. Bu evrenin belirgin rengi veya solgunluğu da adlandırılır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Taze hurmanın solup açık renge dönerek kurumaya başlaması.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Bu dal, taze hurmanın solma ve açık renge dönme yoluyla kurumaya başladığı evreyi ve bu evrenin rengini özetler.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Tek tanık, kullanımı taze hurmanın kurumaya dönerken aldığı solgun ve açık renkli evre olarak verir."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "taze hurmanın kurumaya dönmesi",
+              "applicability": "Taze hurmanın solgunlaşıp kurumaya yöneldiği olgunluk sonrası evre için uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Meyve, renk değişimi ve kurumaya başlama çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "solup kurumaya başlamak",
+                "usage_role": "contextual",
+                "applicability": "Taze hurmanın açık renkli kuruma evresine girmesi bağlamında doğaldır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Solma ve kurumaya başlama değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "solgun kuruma rengi",
+                "usage_role": "explanatory",
+                "applicability": "Evrenin rengini veya solgunluğunu açıklamak için uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Renk değişimi ve solgunluk değerini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_042",
+                "rendering_kind": "ordinary",
+                "target_gloss": "taze hurmanın solup kurumaya başlaması"
+              },
+              {
+                "lexical_unit_id": "lu_043",
+                "rendering_kind": "ordinary",
+                "target_gloss": "taze hurmadaki solgun kuruma rengi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001033/B015",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Taze hurmanın belirli solgun kuruma evresine bağlıdır.",
+                "neighbor_only": "Bitkinin veya sapın sararıp kuruması daha genel bir bitki evresidir.",
+                "gloss": "sararıp kurumaya dönme",
+                "shared_zone": "İki dal da bitkisel ürünün sararma veya kuruma evresine girmesi alanında örtüşür.",
+                "distinction": "B016 taze hurmanın özel geçiş evresini anlatır; komşu dal bitki ve sapların daha genel sararıp kuruma durumunu verir."
+              },
+              {
+                "neighbor_ref": "root_000242/B005",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Kurumaya başlama ve solgun renk evresi vurgulanır.",
+                "neighbor_only": "Hurmanın kurumuş olması veya kuruluk durumu öne çıkar.",
+                "gloss": "kurumaya başlama ile kurumuşluk",
+                "shared_zone": "İki dal da hurma veya meyve kuruması alanına yaklaşır.",
+                "distinction": "B016 geçiş evresidir; komşu dal kurumuş olma durumunu daha doğrudan anlatır."
+              }
+            ],
+            "neighbor_coverage_note": "Hurma, meyve olgunlaşması, sararma ve kuruma adayları değerlendirildi; uzaklaşma anlamlı dallar ayrı tutuldu."
+          }
+        ],
+        "root_profile": {
+          "summary": "Bu kökte yakınlık ve aralıksız takip çekirdeğinden yönetme, destek olma, özel toplumsal bağ, yönelme ya da yüz çevirme ve haklı öncelik gibi ilişkisel anlamlar gelişir. Ayrıca yağmur, deve takımı, satış, sürü ayırma ve hurma evresi gibi kalıplaşmış özel adlandırmalar bulunur.",
+          "polysemy": "polysemic",
+          "organization": "mixed"
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_001684_entry.json",
+      "gloss": null,
+      "gloss_source_file": null
+    },
     "root_001488": {
       "root_ar": "ن ذ ر",
+      "qac_roots_ar": [
+        "ن ذ ر"
+      ],
       "root_id": "root_001488",
-      "root_mapping": {
-        "root_id": "root_001488",
-        "root_norm": "ن ذ ر",
-        "source_root_norm": "ن ذ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9b8307ef70c2b201e5cde104a00eae217e678983e73b9dde34cef1bec9a54997",
         "branches": [
@@ -7468,14 +10250,20 @@
       "words_total": 7,
       "words_resolved": 7,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 7
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -7725,11 +10513,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_41.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_41.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 89135,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -7803,19 +10604,37 @@
           "root_ids": [
             "root_000281"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ج ي ء",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000281",
+            "targets": [
+              {
+                "qac_root_norm": "ج ي ء",
+                "target_rank": 1,
+                "furuq_root_id": "root_000281",
+                "furuq_root_norm": "ج ي ء",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 278,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": false,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000281",
-              "root_norm": "ج ي ء",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ج ي ء",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 278,
               "dictionary_present": false,
               "gloss_present": false,
+              "dictionary_branch_count": 0,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no Turkish dictionary entry found for this root_id"
             }
@@ -7828,19 +10647,46 @@
             "root_000067",
             "root_001684"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء و ل",
+            "mapping_status": "split",
+            "primary_root_id": "root_000067",
+            "targets": [
+              {
+                "qac_root_norm": "ء و ل",
+                "target_rank": 1,
+                "furuq_root_id": "root_000067",
+                "furuq_root_norm": "ء و ل",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 148,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ء و ل",
+                "target_rank": 2,
+                "furuq_root_id": "root_001684",
+                "furuq_root_norm": "و ل ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 16,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": true,
           "targets": [
             {
               "root_id": "root_000067",
-              "root_norm": "ء و ل",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء و ل",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 148,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 11,
+              "gloss_branch_count": 11,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7859,37 +10705,57 @@
             },
             {
               "root_id": "root_001684",
-              "root_norm": "و ل ي",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 16,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "note": "no reviewed Turkish gloss found for this root_id"
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         },
         "ن ذ ر": {
           "root_id": "root_001488",
           "root_ids": [
             "root_001488"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ذ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001488",
+            "targets": [
+              {
+                "qac_root_norm": "ن ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001488",
+                "furuq_root_norm": "ن ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001488",
-              "root_norm": "ن ذ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -7903,10 +10769,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 30,
+        "dictionary_branches_kept": 30,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 11,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

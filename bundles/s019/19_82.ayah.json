@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:17.105241+00:00",
+  "generated_at": "2026-08-04T22:29:41.583052+00:00",
   "surah": 19,
   "ayah": 82,
   "ayahRef": "19:82",
@@ -2027,7 +2027,8 @@
       "morpheme_ids": [
         "m-w-s019-a082-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:82:1"
+      "aligned_qac_word_ref_upstream": "19:82:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2045,7 +2046,8 @@
         "m-w-s019-a082-w002-02",
         "m-w-s019-a082-w002-03"
       ],
-      "aligned_qac_word_ref_upstream": "19:82:2"
+      "aligned_qac_word_ref_upstream": "19:82:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2059,7 +2061,8 @@
       "morpheme_ids": [
         "m-w-s019-a082-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:82:3"
+      "aligned_qac_word_ref_upstream": "19:82:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2075,7 +2078,8 @@
         "m-w-s019-a082-w003-02",
         "m-w-s019-a082-w003-03"
       ],
-      "aligned_qac_word_ref_upstream": "19:82:4"
+      "aligned_qac_word_ref_upstream": "19:82:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2089,7 +2093,8 @@
       "morpheme_ids": [
         "m-w-s019-a082-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:82:5"
+      "aligned_qac_word_ref_upstream": "19:82:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2105,7 +2110,8 @@
         "m-w-s019-a082-w004-02",
         "m-w-s019-a082-w004-03"
       ],
-      "aligned_qac_word_ref_upstream": "19:82:6"
+      "aligned_qac_word_ref_upstream": "19:82:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2121,7 +2127,8 @@
         "m-w-s019-a082-w005-01",
         "m-w-s019-a082-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:82:7"
+      "aligned_qac_word_ref_upstream": "19:82:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2135,7 +2142,8 @@
       "morpheme_ids": [
         "m-w-s019-a082-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:82:8"
+      "aligned_qac_word_ref_upstream": "19:82:8",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2895,7 +2903,844 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_82.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:82",
+      "window": [
+        "19:77",
+        "19:78",
+        "19:79",
+        "19:80",
+        "19:81",
+        "19:82",
+        "19:83",
+        "19:84",
+        "19:85",
+        "19:86",
+        "19:87",
+        "19:88",
+        "19:89",
+        "19:90",
+        "19:91",
+        "19:92",
+        "19:93",
+        "19:94",
+        "19:95",
+        "19:96",
+        "19:97",
+        "19:98"
+      ],
+      "ayah_count": 22,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:82",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_reciprocal_disavowal",
+            "confidence": "strong",
+            "focus_anchor": "The coordinated future clauses attach repudiation directly to عِبَادَتِهِمْ and then predicate ضِدًّا of the same plural subject عَلَيْهِمْ.",
+            "mechanism": "The first clause severs recognition of the worship relation; the second stabilizes that severance as an adverse relation. The movement is therefore from refused devotion to active counter-position, not merely from acceptance to indifference.",
+            "activation_trace": [
+              {
+                "source_ref": "19:82",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "The disavowal image supplies the severing act that opens the relational reversal."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the relation being repudiated rather than an isolated proposition."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Occurrence in time makes opposition an ensuing realized state."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Incompatible counter-position gives the severed relation its active adverse form."
+              }
+            ],
+            "changed_reading": {
+              "before": "The plural beings will deny that worship and then be hostile.",
+              "after": "The worship relation itself reverses in two stages: its recipients disown it and then occupy the side opposed to its practitioners."
+            }
+          },
+          {
+            "model_id": "baseline_service_bond_reversal",
+            "confidence": "medium",
+            "focus_anchor": "The possessive عِبَادَتِهِمْ places a service relation between two plural parties, while عَلَيْهِمْ ضِدًّا reverses its direction.",
+            "mechanism": "The service and enslavement branches expose a control claim latent in worship: devotion presumes that the served party can be secured as a patron. Disavowal breaks that presumed bond, and opposition turns attempted dependence into exposure.",
+            "activation_trace": [
+              {
+                "source_ref": "19:82",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "The owned-servant image makes the worship relation legible as an asymmetry of service and control."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B004",
+                "role": "The making-into-a-servant image sharpens the attempted capture of one party for another's use."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal cancels the presumed service bond."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Opposition converts failed control into a relation directed back against the controllers."
+              }
+            ],
+            "changed_reading": {
+              "before": "Acts of devotion go unaccepted.",
+              "after": "The attempted patronage or service bond is itself repudiated, so the relation meant to secure help yields an adverse party."
+            }
+          },
+          {
+            "model_id": "baseline_collective_counterparty",
+            "confidence": "medium",
+            "focus_anchor": "Plural يَكُونُونَ takes the singular predicate ضِدًّا and the directional complement عَلَيْهِمْ.",
+            "mechanism": "The opposition and counterpart branches allow the singular predicate to gather multiple subjects into one counter-side. The verse can therefore present a consolidated counterparty rather than a loose set of private enemies.",
+            "activation_trace": [
+              {
+                "source_ref": "19:82",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Realized being supplies the transition into a defined collective role."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Mutually incompatible opposition defines the adverse side."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B002",
+                "role": "The counterpart image lets the singular predicate function as a counterweight to the worshippers."
+              }
+            ],
+            "changed_reading": {
+              "before": "Each recipient of worship becomes an enemy.",
+              "after": "The plural recipients coalesce into one opposing side or counterweight standing against the worshippers."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "context_purpose_outcome_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ ذ",
+              "ك و ن",
+              "ع ز ز"
+            ],
+            "mechanism": "The acquired gods were intended to become strength for their takers, but the repeated becoming construction realizes the exact inverse: they become opposition against them. The focus is the failure mode of the purpose clause immediately before it.",
+            "activation_trace": [
+              {
+                "source_ref": "19:81",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B010",
+                "role": "Acquisition supplies the deliberate construction of a patron relation."
+              },
+              {
+                "source_ref": "19:81",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Becoming supplies the intended result state and directly matches the focus verb."
+              },
+              {
+                "source_ref": "19:81",
+                "root": "ع ز ز",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001008",
+                "branch_id": "B004",
+                "role": "Reinforcement is the literal benefit the acquired gods were meant to provide."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "The repeated becoming verb converts intended benefit into actual outcome."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Opposition supplies the realized inverse of reinforcement."
+              }
+            ],
+            "structural_cues": [
+              "19:81 and 19:82 repeat ك و ن while the complements reverse لَهُمْ عِزًّا into عَلَيْهِمْ ضِدًّا.",
+              "كَلَّا opens 19:82 as an immediate cancellation of the preceding purpose."
+            ],
+            "reader_inference": "The packet supplies acquisition, intended reinforcement, repeated becoming, and reversed prepositional direction; I infer a designed purpose-to-outcome inversion. A live alternative is simple correction without implying that the worship relation itself causes the reversal.",
+            "changed_reading": {
+              "before": "The worship recipients later reject devotion and become hostile.",
+              "after": "The beings selected to become strength for the worshippers realize the exact opposite function, becoming a consolidated force against them."
+            }
+          },
+          {
+            "model_id": "context_returned_kufr",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ف ر"
+            ],
+            "mechanism": "The same root first marks the human rejection of signs and then marks the plural recipients' disavowal of worship. The shifted subjects turn denial back upon the denier's own devotional claim.",
+            "activation_trace": [
+              {
+                "source_ref": "19:77",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Denial of truth supplies the initiating human act."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal redirects the same root-pattern onto the denier's worship relation."
+              },
+              {
+                "source_ref": "19:83",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "The repeated label keeps the deniers as the receiving party immediately after the focus."
+              }
+            ],
+            "structural_cues": [
+              "ك ف ر occurs with the human as actor in 19:77, with the worship recipients as future actors in 19:82, and as the human group's label in 19:83.",
+              "The كَلَّا plus future-verb pattern in 19:79 and 19:82 frames both the recorded claim and its reversal."
+            ],
+            "reader_inference": "The packet supplies root recurrence with a grammatical subject shift; I infer rhetorical return, where denial rebounds as disavowal. The alternative is lexical recurrence without a reciprocal mechanism.",
+            "changed_reading": {
+              "before": "The focus uses ك ف ر as a generic denial by the worship recipients.",
+              "after": "The denial earlier enacted against signs returns upon the denier as the repudiation of his own worship."
+            }
+          },
+          {
+            "model_id": "context_present_pressure_future_opposition",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ش ط ن",
+              "ء ز ز"
+            ],
+            "mechanism": "The next ayah depicts dispatched rebellious agents exerting boiling, constrictive pressure upon the disbelievers. This makes future opposition in the focus readable as the unveiling or culmination of a relation that already operates coercively while being mistaken for support.",
+            "activation_trace": [
+              {
+                "source_ref": "19:82",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Future realization marks the point when the adverse relation becomes manifest."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Opposition names the relation revealed by the following pressure scene."
+              },
+              {
+                "source_ref": "19:83",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch supplies a directed agency acting upon the disbelievers."
+              },
+              {
+                "source_ref": "19:83",
+                "root": "ش ط ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000796",
+                "branch_id": "B004",
+                "role": "Rebellious agency supplies the active force behind the apparent alliance."
+              },
+              {
+                "source_ref": "19:83",
+                "root": "ء ز ز",
+                "source_word_indices": [
+                  "8",
+                  "9"
+                ],
+                "mapped_root_id": "root_000028",
+                "branch_id": "B002",
+                "role": "Boiling agitation supplies the material image for coercive pressure rather than protection."
+              }
+            ],
+            "structural_cues": [
+              "The focus عَلَيْهِمْ and 19:83 عَلَى ٱلْكَافِرِينَ place adverse agency in the same directional frame.",
+              "19:83 immediately follows the announced future opposition with an active pressure scene."
+            ],
+            "reader_inference": "The packet supplies dispatched rebellious agents, agitation, and the repeated عَلَى frame; I infer that future opposition unmasks a presently coercive dependency. The live alternative is that 19:83 introduces separate agents with no referential overlap with 19:82.",
+            "changed_reading": {
+              "before": "A supportive relation changes into hostility only later.",
+              "after": "The later hostility reveals that the supposed support network was already operating upon its dependents as agitation and pressure."
+            }
+          },
+          {
+            "model_id": "context_recorded_claim_adverse_party",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ك ت ب",
+              "ق و ل",
+              "م ل ك",
+              "ش ف ع",
+              "ع ه د"
+            ],
+            "mechanism": "Speech is fixed into an obligating record, while intercession is not possessed apart from a secured covenant. In that accountability frame, the hoped-for intermediary does not merely fail to advocate; disavowal and opposition place it on the adverse side of the recorded claim.",
+            "activation_trace": [
+              {
+                "source_ref": "19:79",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B003",
+                "role": "Binding inscription turns the claim into accountable evidence rather than passing speech."
+              },
+              {
+                "source_ref": "19:79",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Uttered speech supplies the material entered into that record."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Possession and disposal clarify what the would-be intermediaries do not control."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ش ف ع",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000802",
+                "branch_id": "B002",
+                "role": "An advocate joining another supplies the expected protective role that is denied."
+              },
+              {
+                "source_ref": "19:87",
+                "root": "ع ه د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001055",
+                "branch_id": "B003",
+                "role": "A preserved security-bearing covenant marks the sole stated basis for intercession."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal removes the worshipper's claimed supporting relation."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Opposition places the failed intermediary on the adverse side."
+              }
+            ],
+            "structural_cues": [
+              "19:79 records what is said; 19:87 denies possession of intercession except through covenant; 19:82 places the worship recipients against their worshippers.",
+              "The sequence moves from claimed future benefit to record, solitary arrival, repudiated worship, and restricted intercession."
+            ],
+            "reader_inference": "The packet supplies an obligating record, restricted advocacy, disavowal, and opposition; I supply the forensic arrow that treats these as an accountability scene with an adverse party. A broader social reversal without courtroom force remains live.",
+            "changed_reading": {
+              "before": "The hoped-for patrons simply cannot help.",
+              "after": "The recorded patronage claim loses its advocate and produces an adverse party within the scene of accountability."
+            }
+          },
+          {
+            "model_id": "context_universal_servanthood_reset",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ل د",
+              "د ع و",
+              "ك ل ل",
+              "ع ب د"
+            ],
+            "mechanism": "The kinship attribution is framed as a claimed affiliation, then everyone in the heavens and earth is brought to the Merciful as a servant. Worship recipients therefore cannot retain the elevated patron status projected onto them; their disavowal restores the universal service hierarchy.",
+            "activation_trace": [
+              {
+                "source_ref": "19:91",
+                "root": "د ع و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000478",
+                "branch_id": "B002",
+                "role": "Claimed right or affiliation supplies the asserted kinship status."
+              },
+              {
+                "source_ref": "19:91",
+                "root": "و ل د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001683",
+                "branch_id": "B001",
+                "role": "Lineal offspring supplies the specific elevated relation being asserted."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total enclosure makes the servant status universal rather than exceptional."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B001",
+                "role": "Owned servanthood places every candidate patron beneath one master."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Worship is the misplaced service relation corrected by the universal servant status."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B005",
+                "role": "Disavowal performs the role correction by severing the false elevation."
+              }
+            ],
+            "structural_cues": [
+              "19:88-92 repeatedly rejects a child attribution, and 19:93 answers with the universal status عَبْدًا.",
+              "The root ع ب د shifts from the worship possessed by the focus parties to the servant status encompassing everyone."
+            ],
+            "reader_inference": "The packet supplies claimed filiation and universal servanthood; I infer that beings elevated by worship fall within that universal servant status and must repudiate patronhood. The alternative is that the plural subject in 19:82 names a narrower class not directly identified by 19:93.",
+            "changed_reading": {
+              "before": "The recipients personally reject unwanted devotion.",
+              "after": "Their rejection is an ontological role reset: all projected patrons are servants, so worship directed to them is exposed as a category error."
+            }
+          },
+          {
+            "model_id": "context_didd_wudd_polarity",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ج ع ل",
+              "و د د"
+            ],
+            "mechanism": "The focus announces a future state of opposition against the worshippers, while 19:96 announces that the Merciful will produce affection for believers. The paired outcomes distinguish a devotional relation that cannot manufacture reciprocity from affection that is actively bestowed.",
+            "activation_trace": [
+              {
+                "source_ref": "19:82",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Devotional submission supplies the attempted basis for reciprocal favor."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Future realization produces the adverse relational state."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Opposition supplies the negative relational pole."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Causing a thing to enter a state marks affection as bestowed rather than purchased."
+              },
+              {
+                "source_ref": "19:96",
+                "root": "و د د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001634",
+                "branch_id": "B001",
+                "role": "Love and affection supply the positive relational pole."
+              }
+            ],
+            "structural_cues": [
+              "19:82 and 19:96 use future state-producing clauses ending in compact accusative relation nouns, ضِدًّا and وُدًّا.",
+              "The focus directs the negative state عَلَيْهِمْ, while 19:96 grants the positive state لَهُمُ."
+            ],
+            "reader_inference": "The packet supplies opposed future relation states and different producing agents; I infer a designed polarity between devotion that yields opposition and affection bestowed by the Merciful. They may instead be independent eschatological outcomes linked chiefly by sequence and form.",
+            "changed_reading": {
+              "before": "Opposition is only the punishment attached to false worship.",
+              "after": "Opposition is one pole in a relation-making contrast: worship cannot compel love, whereas the Merciful can create affection for those described in 19:96."
+            }
+          },
+          {
+            "model_id": "context_counted_collective_against_singular",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع د د",
+              "ح ص ي",
+              "ف ر د"
+            ],
+            "mechanism": "Repeated enumeration and exhaustive reckoning culminate in each person's solitary arrival. Against that individuation, the singular predicate ضِدًّا attached to plural subjects reads as a consolidated adverse side confronting worshippers whose imagined coalition has been stripped away.",
+            "activation_trace": [
+              {
+                "source_ref": "19:84",
+                "root": "ع د د",
+                "source_word_indices": [
+                  "5",
+                  "7"
+                ],
+                "mapped_root_id": "root_000989",
+                "branch_id": "B001",
+                "role": "Counting supplies controlled temporal and numerical administration of the reversal."
+              },
+              {
+                "source_ref": "19:94",
+                "root": "ح ص ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000332",
+                "branch_id": "B002",
+                "role": "Exhaustive enumeration closes any gap in the accounted population."
+              },
+              {
+                "source_ref": "19:95",
+                "root": "ف ر د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001141",
+                "branch_id": "B001",
+                "role": "Solitary arrival removes the worshipper's imagined supporting collective."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B002",
+                "role": "The counterpart image consolidates the plural recipients into the opposing side."
+              }
+            ],
+            "structural_cues": [
+              "Counting in 19:84 and exhaustive enumeration in 19:94 bracket the procession scenes and lead to فَرْدًا in 19:95.",
+              "The focus combines plural subjects with singular ضِدًّا, while 19:95 makes every arriving person singular."
+            ],
+            "reader_inference": "The packet supplies counting, total enumeration, solitary arrival, and a singular counterparty predicate; I infer a collective-versus-isolated arrangement. The alternative is that counting concerns timing only and does not specify the geometry of opposition.",
+            "changed_reading": {
+              "before": "Many worship recipients oppose many worshippers.",
+              "after": "An administered process isolates each worshipper while the former objects of dependence stand as one consolidated counter-side."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_cosmic_contradiction",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it extends personal opposition into a structural contradiction. It remains anchored in عِبَادَتِهِمْ and ضِدًّا and is activated by the packet's immediate images of splitting and demolition. Downstream prose should present it as a context-induced material analogy, not as the lexical definition of ضِدًّا.",
+            "focus_anchor": "The worship relation becomes ضِدًّا, an incompatible counter-position, while the following kinship claim is imaged as rupturing the created structure.",
+            "activation_trace": [
+              {
+                "source_ref": "19:82",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B006",
+                "role": "Exaltation supplies the over-raised status embedded in the false worship relation."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B001",
+                "role": "Incompatible opposition anchors the reading as contradiction rather than mere dislike."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "ف ط ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001165",
+                "branch_id": "B001",
+                "role": "Opening and splitting materialize the strain of the contradiction."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "ش ق ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000807",
+                "branch_id": "B001",
+                "role": "Fissuring extends the adverse relation into the surrounding order."
+              },
+              {
+                "source_ref": "19:90",
+                "root": "ه د د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B001",
+                "role": "Severe demolition supplies the terminal material consequence of that strain."
+              }
+            ],
+            "changed_reading": {
+              "before": "The worship recipients become personal enemies of their worshippers.",
+              "after": "False worship generates an incompatible relation whose consequence is pictured as a fault running through the created order and back against its practitioners."
+            }
+          },
+          {
+            "outlier_id": "outlier_space_filling_opposition",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because the vessel-filling sense of ض د د is not the ordinary predicate reading. It remains anchored in the focus's singular ضِدًّا with plural subjects and gains packet-local support from constrictive crowding, gathering, and totality. Render it only as a spatial analogy for exhaustive opposition, never as a replacement translation.",
+            "focus_anchor": "Plural يَكُونُونَ becoming singular ضِدًّا permits a probe in which opposition occupies the whole available relational space.",
+            "activation_trace": [
+              {
+                "source_ref": "19:82",
+                "root": "ك و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001332",
+                "branch_id": "B001",
+                "role": "Realized presence supplies the entry of the plural subjects into one state."
+              },
+              {
+                "source_ref": "19:82",
+                "root": "ض د د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000905",
+                "branch_id": "B003",
+                "role": "Filling a container supplies the exploratory spatial image of opposition leaving no unoccupied support."
+              },
+              {
+                "source_ref": "19:83",
+                "root": "ء ز ز",
+                "source_word_indices": [
+                  "8",
+                  "9"
+                ],
+                "mapped_root_id": "root_000028",
+                "branch_id": "B003",
+                "role": "Crowding until space narrows supplies the constrictive texture of the adverse field."
+              },
+              {
+                "source_ref": "19:85",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Gathering a group toward one destination supplies collective concentration."
+              },
+              {
+                "source_ref": "19:93",
+                "root": "ك ل ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001315",
+                "branch_id": "B003",
+                "role": "Total enclosure supplies exhaustive scope to the spatial analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "Opposition consists of several discrete enemies.",
+              "after": "The former support system condenses into an opposition that fills the relational field, leaving its worshippers no remaining pocket of patronage."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated ك و ن construction turns 19:81's intended strength for the worshippers into 19:82's opposition against them.",
+            "The worshipper's earlier ك ف ر is returned as the recipients' disavowal of his worship.",
+            "Restricted intercession and universal servanthood recast the focus as both an adverse accountability relation and a restoration of the true service hierarchy.",
+            "The later contrast between ضِدًّا and divinely produced وُدًّا makes failed patronage part of a wider polarity of relational outcomes."
+          ],
+          "what_was_special": "The focus is a compact relational hinge: repeated roots, mirrored grammar, and the shift from لَهُمْ to عَلَيْهِمْ turn a deliberately acquired source of strength into disavowal, adverse standing, and role correction without requiring one final identification of the plural subject.",
+          "remaining_uncertainties": [
+            "The packet does not force a single referent for the plural subject and pronouns; gods, rebellious agents, or a wider class of worship recipients remain differently available to the models.",
+            "The forensic and present-pressure readings depend on reader-supplied directional arrows even though their components are packet-local.",
+            "The cosmic and space-filling outliers are material analogies activated by branch and sequence, not ordinary lexical renderings."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -3866,18 +4711,23 @@
   "root_lexicon": {
     "root_001307": {
       "root_ar": "ك ف ر",
+      "qac_roots_ar": [
+        "ك ف ر"
+      ],
       "root_id": "root_001307",
-      "root_mapping": {
-        "root_id": "root_001307",
-        "root_norm": "ك ف ر",
-        "source_root_norm": "ك ف ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 416,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ف ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 416
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cf94a0f36d304ffba0cddb3bb9019f2426aaa362cd5f28a65d3ebd98c7e73c9f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6461,18 +7311,23 @@
     },
     "root_000973": {
       "root_ar": "ع ب د",
+      "qac_roots_ar": [
+        "ع ب د"
+      ],
       "root_id": "root_000973",
-      "root_mapping": {
-        "root_id": "root_000973",
-        "root_norm": "ع ب د",
-        "source_root_norm": "ع ب د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 264,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ب د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 264
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7d9b28a0153e123d5c9f5357b0af79cda95b359e75d0e45f346a776faa85ba55",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9562,18 +10417,23 @@
     },
     "root_001332": {
       "root_ar": "ك و ن",
+      "qac_roots_ar": [
+        "ك و ن"
+      ],
       "root_id": "root_001332",
-      "root_mapping": {
-        "root_id": "root_001332",
-        "root_norm": "ك و ن",
-        "source_root_norm": "ك و ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1233,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك و ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1233
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "01752edd2f5081a2b85f6bb9737b6d9aa581688e02817c8d6ecc11174d96f798",
         "branches": [
@@ -10693,18 +11553,23 @@
     },
     "root_000905": {
       "root_ar": "ض د د",
+      "qac_roots_ar": [
+        "ض د د"
+      ],
       "root_id": "root_000905",
-      "root_mapping": {
-        "root_id": "root_000905",
-        "root_norm": "ض د د",
-        "source_root_norm": "ض د د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ض د د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "0d9cc81f48174cf480afcf86ddcc9509e810b7f4d5a4670f78a4290a42aba479",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12368,14 +13233,20 @@
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 8
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12764,11 +13635,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_82.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_82.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 146346,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -12842,19 +13726,37 @@
           "root_ids": [
             "root_001307"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ف ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001307",
+            "targets": [
+              {
+                "qac_root_norm": "ك ف ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001307",
+                "furuq_root_norm": "ك ف ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 416,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001307",
-              "root_norm": "ك ف ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ف ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 416,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 15,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12879,19 +13781,37 @@
           "root_ids": [
             "root_000973"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ب د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000973",
+            "targets": [
+              {
+                "qac_root_norm": "ع ب د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000973",
+                "furuq_root_norm": "ع ب د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 264,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000973",
-              "root_norm": "ع ب د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ب د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 264,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12916,19 +13836,37 @@
           "root_ids": [
             "root_001332"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك و ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001332",
+            "targets": [
+              {
+                "qac_root_norm": "ك و ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_001332",
+                "furuq_root_norm": "ك و ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1233,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001332",
-              "root_norm": "ك و ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك و ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1233,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -12940,19 +13878,37 @@
           "root_ids": [
             "root_000905"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ض د د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000905",
+            "targets": [
+              {
+                "qac_root_norm": "ض د د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000905",
+                "furuq_root_norm": "ض د د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000905",
-              "root_norm": "ض د د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ض د د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12979,10 +13935,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 39,
+        "dictionary_branches_kept": 39,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 18,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.413450+00:00",
+  "generated_at": "2026-08-04T22:30:00.491100+00:00",
   "surah": 56,
   "ayah": 55,
   "ayahRef": "56:55",
@@ -1388,7 +1388,8 @@
       "morpheme_ids": [
         "m-w-s056-a055-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:55:1"
+      "aligned_qac_word_ref_upstream": "56:55:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1402,7 +1403,8 @@
       "morpheme_ids": [
         "m-w-s056-a055-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:55:2"
+      "aligned_qac_word_ref_upstream": "56:55:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1416,7 +1418,8 @@
       "morpheme_ids": [
         "m-w-s056-a055-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:55:3"
+      "aligned_qac_word_ref_upstream": "56:55:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1432,7 +1435,8 @@
         "m-w-s056-a055-w003-01",
         "m-w-s056-a055-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:55:4"
+      "aligned_qac_word_ref_upstream": "56:55:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1820,7 +1824,608 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_55.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:55",
+      "window": [
+        "56:41",
+        "56:42",
+        "56:43",
+        "56:44",
+        "56:45",
+        "56:46",
+        "56:47",
+        "56:48",
+        "56:49",
+        "56:50",
+        "56:51",
+        "56:52",
+        "56:53",
+        "56:54",
+        "56:55",
+        "56:56"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:55",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_unsated_intake",
+            "confidence": "strong",
+            "focus_anchor": "The doubled ش ر ب at words 1-2 is completed by ه ي م at word 3.",
+            "mechanism": "The active drinkers plus the cognate verbal noun intensify liquid intake, while severe thirst without satiety removes the act's natural stopping point.",
+            "activation_trace": [
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B001",
+                "role": "Liquid intake supplies the concrete act and its doubled wording presents sustained performance."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Severe thirst that does not reach quenching makes the drinking internally non-terminating."
+              }
+            ],
+            "changed_reading": {
+              "before": "A group takes a drink.",
+              "after": "They remain drinkers in an act prolonged by a thirst that drinking cannot end."
+            }
+          },
+          {
+            "model_id": "baseline_absorptive_loss",
+            "confidence": "medium",
+            "focus_anchor": "شُرْبَ is governed by drinkers, while ٱلْهِيمِ can image water-swallowing dry sand.",
+            "mechanism": "Absorption joins drinking to the image of fine dry sand that takes water without retaining a stable, refreshing pool; each draught disappears into the receiver.",
+            "activation_trace": [
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B007",
+                "role": "Absorption and mixing into a material recast drinking as liquid disappearing into its recipient."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B002",
+                "role": "Dry fine sand that swallows water supplies the porous material analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "Liquid enters thirsty bodies.",
+              "after": "The bodies behave like absorbent ground: every draught vanishes into them without becoming relief."
+            }
+          },
+          {
+            "model_id": "baseline_pathological_circuit",
+            "confidence": "medium",
+            "focus_anchor": "The repeated drinking is qualified by the diseased and wandering ranges of ه ي م.",
+            "mechanism": "A thirst disease that drives camels to wander until destruction turns reiterated drinking from purposeful refreshment into a self-propelling pathology.",
+            "activation_trace": [
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B001",
+                "role": "Repeated liquid intake is the observable action around which the pathological circuit turns."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B003",
+                "role": "Camel thirst disease combines inability to be quenched, wandering, and terminal bodily disorder."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B004",
+                "role": "Aimless motion without a governing destination makes the action compulsive rather than restorative."
+              }
+            ],
+            "changed_reading": {
+              "before": "The drinking answers an extreme need.",
+              "after": "The drinking is itself one turn in a disordered circuit whose drive no longer reaches a restorative goal."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_heat_internalized",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م م",
+              "ح م م",
+              "ب ر د"
+            ],
+            "mechanism": "Penetrating heat surrounds them, the available liquid is hot, and cooling stillness is negated; drinking therefore carries the injuring environment inward and renews the thirst that prompted it.",
+            "activation_trace": [
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "A penetrating hot wind supplies heat that invades rather than merely surrounds."
+              },
+              {
+                "source_ref": "56:54",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B002",
+                "role": "Hot water supplies the liquid taken immediately before the focus intensifies the drinking."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B002",
+                "role": "The negated image of cooling as stillness after heat marks the unavailable terminus."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B001",
+                "role": "Liquid intake is the transfer mechanism that brings the hot medium into the body."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Unquenched thirst closes the feedback loop by demanding further intake."
+              }
+            ],
+            "structural_cues": [
+              "56:42-44 establishes heat and explicitly denies cooling; 56:54 places the hot drink directly before the focus repetition."
+            ],
+            "reader_inference": "The packet supplies penetrating heat, hot water, denied cooling, and unquenched thirst; I supply the arrow that ingestion internalizes and renews the heat. A live alternative is simple accumulation of torments without a feedback loop.",
+            "changed_reading": {
+              "before": "The quantity of drinking fails to satisfy thirst.",
+              "after": "Every attempted relief imports more of the injury, so the drink helps regenerate the need to drink."
+            }
+          },
+          {
+            "model_id": "delta_overfull_vessel",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ك ل",
+              "ز ق م",
+              "م ل ء",
+              "ب ط ن",
+              "ش ر ب"
+            ],
+            "mechanism": "Eating becomes swallowing, the interior is filled to the measure of its container, and liquid is then taken on top of that fullness; the focus is an impossible further addition rather than an answer to emptiness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Taking food initiates the ordered bodily intake."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ز ق م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000636",
+                "branch_id": "B002",
+                "role": "Swallowing and gulping make passage into the interior mechanically explicit."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling until contents equal the vessel establishes bodily capacity as already reached."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B001",
+                "role": "The belly as an interior identifies the filled container."
+              },
+              {
+                "source_ref": "56:54",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B001",
+                "role": "Liquid intake follows and is explicitly placed upon the prior contents."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Thirst without satiety forces addition even after the bodily vessel is full."
+              }
+            ],
+            "structural_cues": [
+              "The consecutive فـ clauses in 56:53-55 accelerate filling, drinking upon it, and intensified drinking.",
+              "The pronoun in عَلَيْهِ at 56:54 binds the drink to the already completed eating and filling."
+            ],
+            "reader_inference": "The packet supplies swallowing, a full belly, drinking upon its contents, and unsated thirst; I infer pressure against an already full interior. A live alternative is chronological excess without a pressure or overflow model.",
+            "changed_reading": {
+              "before": "Thirst causes excessive drinking.",
+              "after": "They must keep adding liquid to an interior already at capacity, turning consumption into bodily overfilling."
+            }
+          },
+          {
+            "model_id": "delta_habit_hardens",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ر ف",
+              "ص ر ر"
+            ],
+            "mechanism": "Prior abundance released appetite, repeated persistence bound conduct into a knot, and the focus realizes that bound appetite as pathological thirst; formerly discretionary consumption returns as compulsion.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Abundant ease that releases its possessor supplies the earlier condition of unrestrained appetite."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Binding and knotting give persistence a mechanism of habit hardened into constraint."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B008",
+                "role": "The root's thirst image makes the movement from moral persistence to bodily craving visible."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B001",
+                "role": "Sustained intake is the bodily behavior in which the earlier pattern reappears."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B003",
+                "role": "Thirst disease converts appetite into a drive that continues toward bodily destruction."
+              }
+            ],
+            "structural_cues": [
+              "56:45-46 gives a retrospective causal frame with repeated كَانُوا۟ before 56:52-55 enacts repeated consumption."
+            ],
+            "reader_inference": "The packet supplies prior released ease, persistent binding, thirst, and intake; I infer an inversion in which chosen excess becomes imposed appetite. A live alternative is moral chronology with no continuity between the former habit and present drinking.",
+            "changed_reading": {
+              "before": "The drinking is an isolated imposed penalty.",
+              "after": "The drinking embodies an old appetite returned in inverted form: what was once indulged freely now commands them."
+            }
+          },
+          {
+            "model_id": "delta_corporate_allotment",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ج م ع",
+              "ن ز ل",
+              "د ي ن"
+            ],
+            "mechanism": "A named company is gathered into one body, receives a water-share as a drinking company, and has the whole sequence labeled prepared provision under recompense; the drink becomes a corporate allotment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and lasting association constitute the drinkers as a named cohort."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "ج م ع",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000259",
+                "branch_id": "B001",
+                "role": "Gathering dispersed people into one whole supplies the corporate assembly."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Provision prepared for an arriving guest frames the preceding intake as an inverted reception."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense assign the provision its distributive logic."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "A defined water-share makes the drink legible as an allotted portion."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B003",
+                "role": "The drinking company joins the plural grammar to the assembled cohort."
+              }
+            ],
+            "structural_cues": [
+              "Plural labels and participles run from أَصْحَٰبُ in 56:41 through the consumers in 56:52-55.",
+              "The deictic هَٰذَا in 56:56 packages the preceding sequence as their provision."
+            ],
+            "reader_inference": "The packet supplies cohort, gathering, water-share, prepared provision, and recompense; I infer that the liquid functions as an allotted corporate ration. A live alternative is that نُزُل labels the punishment generally without distribution semantics.",
+            "changed_reading": {
+              "before": "Many individuals happen to perform the same desperate act.",
+              "after": "A gathered company receives and consumes its assigned share in an inverted hospitality of recompense."
+            }
+          },
+          {
+            "model_id": "delta_mouth_reversal",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و ل",
+              "ك ذ ب",
+              "ش ج ر",
+              "ز ق م"
+            ],
+            "mechanism": "The oral apparatus first voices denial, then becomes jaw-space, swallowing passage, and throat channel; the mouth is reversed from an instrument that projects claims into a conduit compelled to receive.",
+            "activation_trace": [
+              {
+                "source_ref": "56:47",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B002",
+                "role": "The tongue as speech instrument establishes the mouth's earlier outward agency."
+              },
+              {
+                "source_ref": "56:51",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B001",
+                "role": "Contradiction of truth identifies the speech act whose bodily reversal follows."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ش ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000777",
+                "branch_id": "B005",
+                "role": "The branch image of the space between the jaws localizes the punitive sequence in the mouth."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ز ق م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000636",
+                "branch_id": "B002",
+                "role": "Gulping and swallowing turn the mouth from output toward forced inward passage."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B006",
+                "role": "Mouth and throat channels provide the final conduit through which the liquid passes."
+              }
+            ],
+            "structural_cues": [
+              "The quoted challenge in 56:47-48 is followed by direct identification as deniers in 56:51 and uninterrupted oral intake in 56:52-55."
+            ],
+            "reader_inference": "The packet supplies speech, denial, jaw-space, swallowing, and throat channels; I supply the organ-level reversal from outward assertion to inward reception. A live alternative is narrative succession without a designed mouth mechanism.",
+            "changed_reading": {
+              "before": "The focus reports the final act in a sequence of eating and drinking.",
+              "after": "The drinking is an embodied counter-utterance: the mouth that issued denial is made a passive channel for what it denied."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_tethered_watering",
+            "confidence": "exploratory",
+            "containment": "This is surprising because ق ب ل is temporal in 56:45 and the neck-rope image is a distant ش ر ب branch. It remains anchored by focus drinking, the camel thirst-disease range of ه ي م, and convergent watering, rope, and knot images; downstream prose should present it only as an exploratory loss-of-agency analogy, never as the lexical translation.",
+            "focus_anchor": "Focus ش ر ب supplies both drinking and a neck-restraint branch, while ه ي م supplies diseased thirsty camels.",
+            "activation_trace": [
+              {
+                "source_ref": "56:45",
+                "root": "ق ب ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001198",
+                "branch_id": "B014",
+                "role": "Watering at camels' mouths supplies the managed-at-the-mouth scene despite the source occurrence's temporal use."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B001",
+                "role": "Binding and knotting makes restraint, rather than free approach to water, mechanically coherent."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B008",
+                "role": "A rope placed around the neck supplies the tether linking drinking to constrained bodily posture."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B003",
+                "role": "Diseased thirsty camels provide the focus-anchored herd body and its inability to reach satiety."
+              }
+            ],
+            "changed_reading": {
+              "before": "They drink with the intensity of pathologically thirsty camels.",
+              "after": "Exploratorily, they resemble a diseased herd tethered and driven to water at the mouth, making loss of agency part of the drinking image."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The hot drink is not failed relief only; it internalizes the surrounding heat and helps renew thirst.",
+            "The sequence fills the belly before adding liquid, turning drinking into impossible addition to an already full bodily vessel.",
+            "Group, share, provision, and recompense cues recast the plural drinking as a corporate allotment in inverted hospitality."
+          ],
+          "what_was_special": "The focus repetition supported three simultaneous scales: an unending physiological loop, a material absorption model, and a social ration. Context then exposed reversals of remedy into injury, appetite into compulsion, hospitality into recompense, and speech into forced intake.",
+          "remaining_uncertainties": [
+            "The heat feedback arrow may be stronger than a simpler reading in which distinct torments merely accumulate.",
+            "The allotted-share model depends on connecting the focus water-share branch to the later provision label.",
+            "The tethered-watering outlier is deliberately branch-distant and should remain an analogy rather than enter an unqualified synthesis."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Repeated drinking driven by thirst that cannot terminate itself.** The verb-cognate noun activates `ش ر ب` **B001** as an intensified process; `ه ي م` **B001** supplies raging thirst and **B003** camel thirst-sickness. **Abductive move:** I infer a feedback loop in which drinking fails to quench and therefore causes more drinking. **Reading change:** the line depicts compulsive consumption rather than a single draught.\n\n2. **Water swallowed like by thirsty sand.** `ه ي م` **B002** supplies sand that swallows water. The earlier earth-to-dust sequence and the later cultivation sequence supply a material contrast: water here disappears without fertility. **Abductive move:** I infer that the drinkers function like an absorbent waste that yields nothing. **Reading change:** unquenchable bodies become barren terrain.",
@@ -2737,18 +3342,23 @@
   "root_lexicon": {
     "root_000783": {
       "root_ar": "ش ر ب",
+      "qac_roots_ar": [
+        "ش ر ب"
+      ],
       "root_id": "root_000783",
-      "root_mapping": {
-        "root_id": "root_000783",
-        "root_norm": "ش ر ب",
-        "source_root_norm": "ش ر ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 36,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ش ر ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 36
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9c11f1d834d86a7199b2ca4d4e5bb435158f9be9841ae7da82bf14c12b600407",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6167,18 +6777,23 @@
     },
     "root_001614": {
       "root_ar": "ه ي م",
+      "qac_roots_ar": [
+        "ه ي م"
+      ],
       "root_id": "root_001614",
-      "root_mapping": {
-        "root_id": "root_001614",
-        "root_norm": "ه ي م",
-        "source_root_norm": "ه ي م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ه ي م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "f7f7d27aff263327f4acc8ccb2052d33d37d30fc60c663f283ea694b3304283b",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7951,14 +8566,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -8210,11 +8831,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_55.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_55.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 1
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 81063,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -8287,19 +8921,37 @@
           "root_ids": [
             "root_000783"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ش ر ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000783",
+            "targets": [
+              {
+                "qac_root_norm": "ش ر ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000783",
+                "furuq_root_norm": "ش ر ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 36,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000783",
-              "root_norm": "ش ر ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ش ر ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 36,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 14,
+              "gloss_branch_count": 14,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8324,19 +8976,37 @@
           "root_ids": [
             "root_001614"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ه ي م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001614",
+            "targets": [
+              {
+                "qac_root_norm": "ه ي م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001614",
+                "furuq_root_norm": "ه ي م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001614",
-              "root_norm": "ه ي م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ه ي م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -8363,10 +9033,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 19,
+        "dictionary_branches_kept": 19,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 19,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

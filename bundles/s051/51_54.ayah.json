@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.577019+00:00",
+  "generated_at": "2026-08-04T22:29:48.813767+00:00",
   "surah": 51,
   "ayah": 54,
   "ayahRef": "51:54",
@@ -2023,7 +2023,8 @@
       "morpheme_ids": [
         "m-w-s051-a054-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:54:1"
+      "aligned_qac_word_ref_upstream": "51:54:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2037,7 +2038,8 @@
       "morpheme_ids": [
         "m-w-s051-a054-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:54:2"
+      "aligned_qac_word_ref_upstream": "51:54:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2053,7 +2055,8 @@
         "m-w-s051-a054-w002-01",
         "m-w-s051-a054-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:54:3"
+      "aligned_qac_word_ref_upstream": "51:54:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2067,7 +2070,8 @@
       "morpheme_ids": [
         "m-w-s051-a054-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:54:4"
+      "aligned_qac_word_ref_upstream": "51:54:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2081,7 +2085,8 @@
       "morpheme_ids": [
         "m-w-s051-a054-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:54:5"
+      "aligned_qac_word_ref_upstream": "51:54:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2095,7 +2100,8 @@
       "morpheme_ids": [
         "m-w-s051-a054-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:54:6"
+      "aligned_qac_word_ref_upstream": "51:54:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2109,7 +2115,8 @@
       "morpheme_ids": [
         "m-w-s051-a054-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:54:7"
+      "aligned_qac_word_ref_upstream": "51:54:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2123,7 +2130,8 @@
       "morpheme_ids": [
         "m-w-s051-a054-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:54:8"
+      "aligned_qac_word_ref_upstream": "51:54:8",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2533,7 +2541,968 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_54.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:54",
+      "window": [
+        "51:38",
+        "51:39",
+        "51:40",
+        "51:41",
+        "51:42",
+        "51:43",
+        "51:44",
+        "51:45",
+        "51:46",
+        "51:47",
+        "51:48",
+        "51:49",
+        "51:50",
+        "51:51",
+        "51:52",
+        "51:53",
+        "51:54",
+        "51:55",
+        "51:56",
+        "51:57",
+        "51:58",
+        "51:59",
+        "51:60"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:54",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_authorized_disengagement",
+            "confidence": "strong",
+            "focus_anchor": "Focus word 1 is an imperative of و ل ي governed by عنهم, while word 5 is a negated passive predicate from ل و م.",
+            "mechanism": "The command establishes a relational boundary, and the negated blame predicate removes culpability from obeying it. Withdrawal is therefore authorized rather than negligent abandonment.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal and turning aside supply the commanded disengagement from the addressed group."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Deserved reproach supplies the liability category canceled by the focus negation."
+              }
+            ],
+            "changed_reading": {
+              "before": "Continued confrontation appears obligatory, so leaving might look blameworthy.",
+              "after": "The messenger may withdraw from their refusal, and this withdrawal itself carries no blame."
+            }
+          },
+          {
+            "model_id": "baseline_reversed_proximity",
+            "confidence": "medium",
+            "focus_anchor": "The و ل ي imperative is paired with a complement of separation, activating both the root's nearness and withdrawal branches.",
+            "mechanism": "The root first supplies adjacency without an interval, then its withdrawal branch and the separating complement reverse that adjacency. The verse marks the deliberate end of close engagement, not mere bodily rotation.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B001",
+                "role": "Uninterrupted nearness supplies the prior relational adjacency that the command reverses."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the active conversion of adjacency into distance."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Reproach supplies the moral risk that is explicitly excluded from the new boundary."
+              }
+            ],
+            "changed_reading": {
+              "before": "The imperative denotes a simple turn of the body or attention.",
+              "after": "The imperative deliberately reverses sustained proximity and closes an unproductive relational interval without moral fault."
+            }
+          },
+          {
+            "model_id": "baseline_release_from_caretaking",
+            "confidence": "exploratory",
+            "focus_anchor": "The focus imperative can hold together the و ل ي branches of taking charge and withdrawing, under an explicit negation of blame.",
+            "mechanism": "Withdrawal from them can also mean relinquishing practical oversight of their response. The messenger is released from acting as guardian or manager of an outcome he cannot own.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "Taking charge of an affair supplies the managerial responsibility from which the command releases the messenger."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal supplies the act that ends continued management of their response."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Blame supplies the performance liability that the negation removes."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse only permits the messenger to avert attention.",
+              "after": "The verse releases the messenger from managerial ownership of whether the audience responds."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_clear_warning_discharge",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "س ل ط",
+              "ب ي ن",
+              "ن ذ ر"
+            ],
+            "mechanism": "The window frames commissioned transmission, compelling warrant, disclosure, and repeated warning before the focus command. Negated blame therefore reads as discharge after communication has been made inspectable, not permission to omit it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal supplies the terminal boundary after the warning sequence."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Reproach supplies the liability removed once the commissioned communication has been discharged."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message supply the commissioned transmission whose completion precedes release."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "س ل ط",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000732",
+                "branch_id": "B002",
+                "role": "Compelling proof supplies authoritative warrant rather than unsupported assertion."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "Disclosure and emergence into view make the prior communication publicly manifest."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning that awakens caution supplies the notice repeatedly delivered before withdrawal."
+              }
+            ],
+            "structural_cues": [
+              "51:38 opens with dispatch and manifest authority; 51:50-51 repeat the first-person clear-warning formula before 51:54."
+            ],
+            "reader_inference": "The packet supplies commission, warrant, disclosure, and warning; I infer a liability boundary after delivery. A live alternative is that the sequence offers consolation without defining a procedural threshold.",
+            "changed_reading": {
+              "before": "Turn away simply because persuasion has failed.",
+              "after": "Turn away because the commissioned warning has been made clear; responsibility for its reception no longer attaches to the messenger."
+            }
+          },
+          {
+            "model_id": "delta_pharaoh_moral_mirror",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ل ي",
+              "ر ك ن",
+              "ل و م"
+            ],
+            "mechanism": "The Pharaoh sequence and the focus reuse the roots of turning and blame with opposite polarity. Pharaoh turns away while relying on a strong support and ends blameworthy; the messenger is commanded to turn away and is declared unblamed.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal supplies the focus action whose moral polarity must be distinguished from Pharaoh's."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Deserved reproach supplies the category explicitly denied of the messenger."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Pharaoh's turning away supplies the formally matching but culpable counterpart."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "ر ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000596",
+                "branch_id": "B001",
+                "role": "A strong side used for support supplies the power base behind Pharaoh's refusal."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Culpable reproach supplies the positive verdict on Pharaoh that the focus negates for the messenger."
+              }
+            ],
+            "structural_cues": [
+              "51:39-40 place a turning-away form and a positive blame predicate in one episode; 51:54 repeats the turn while negating blame."
+            ],
+            "reader_inference": "The packet supplies the repeated roots, opposite blame polarity, and Pharaoh's support; I infer a deliberate moral mirror. The live alternative is a local contrast with no broader role reversal.",
+            "changed_reading": {
+              "before": "The verse grants generic permission to disengage.",
+              "after": "The verse reverses Pharaoh's pattern: outwardly similar withdrawal becomes obedient and blameless because culpable refusal already belongs to the other side."
+            }
+          },
+          {
+            "model_id": "delta_recursive_accusation_script",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ق و ل",
+              "س ح ر",
+              "ج ن ن",
+              "و ص ي",
+              "ط غ ي"
+            ],
+            "mechanism": "The same paired accusations recur across separated messenger episodes. The question of mutual transmission is answered by excess beyond the limit, relocating the recurrence from messenger defect to a self-reproducing audience pattern.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal supplies disengagement from a recurrent accusation pattern rather than from a single failed exchange."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Reproach supplies the misallocated liability that the focus returns to the accusing pattern."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B005",
+                "role": "Attributing what is not so supplies the mechanism of recurrent misclassification."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B002",
+                "role": "Diversion and deception supply one pole of the accusation used to dismiss disclosure."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "Veiling of intellect supplies the second pole of the repeated dismissal."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Mutual transmission of counsel supplies the proposed inherited-script mechanism."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B001",
+                "role": "Exceeding the limit in disobedience supplies the packet's alternative cause of the recurring script."
+              }
+            ],
+            "structural_cues": [
+              "51:39 and 51:52 repeat the same binary accusation; 51:53 immediately tests transmission and then supplies a shared disposition."
+            ],
+            "reader_inference": "The packet supplies recurrence, a transmission question, and a transgression diagnosis; I infer a self-reproducing attributional script whose persistence is not messenger failure. A live alternative is simple narrative repetition.",
+            "changed_reading": {
+              "before": "Withdraw from the present group after their rejection.",
+              "after": "Withdraw from a recurrent accusation script whose cross-generational persistence diagnoses its users, not the messenger."
+            }
+          },
+          {
+            "model_id": "delta_release_from_outcome_timing",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "م ت ع",
+              "ح ي ن",
+              "ن ظ ر",
+              "ع ج ل"
+            ],
+            "mechanism": "The context repeatedly fixes respite and blocks haste. The focus blame root also carries a waiting branch, allowing a secondary reading in which withdrawal releases the messenger from forcing the chronology of response or consequence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal supplies relinquishment of active pressure on the outcome."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B002",
+                "role": "Tarrying and waiting supply a secondary temporal layer beneath the controlling blame sense."
+              },
+              {
+                "source_ref": "51:43",
+                "root": "م ت ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001395",
+                "branch_id": "B007",
+                "role": "Extended preservation for enjoyment supplies an allotted interval before consequence."
+              },
+              {
+                "source_ref": "51:43",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B003",
+                "role": "Assigning a known time supplies a chronology not controlled by the messenger."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ن ظ ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001520",
+                "branch_id": "B002",
+                "role": "Waiting and granting respite supply delayed realization within the historical sequence."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Acceleration supplies the pressure explicitly prohibited near the window's close."
+              }
+            ],
+            "structural_cues": [
+              "51:43 sets enjoyment until a time, while 51:59 closes with a prohibition on seeking haste."
+            ],
+            "reader_inference": "The packet supplies allotted respite and prohibited acceleration; I infer that the messenger may stop forcing resolution. A live alternative confines all timing language to the judged communities and leaves 51:54 purely relational.",
+            "changed_reading": {
+              "before": "Withdrawal follows a failed warning and awaits no further dimension.",
+              "after": "Withdrawal also releases the messenger from demanding immediate resolution; delay in response or consequence is not his culpability."
+            }
+          },
+          {
+            "model_id": "delta_toward_god_reorientation",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ر ر",
+              "ء ل ه"
+            ],
+            "mechanism": "The earlier imperative supplies an explicit movement toward God, while the focus supplies movement away from them. The two vectors make withdrawal an oriented transfer of allegiance rather than an empty retreat.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B006",
+                "role": "Turning the face toward a destination supplies the positive orientation latent within the focus root."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the negative vector explicitly directed from the resistant group."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies urgent directional movement rather than passive cessation."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one supplies the destination that gives the away-movement positive orientation."
+              }
+            ],
+            "structural_cues": [
+              "51:50 gives an explicit destination with إلى; 51:54 gives an explicit point of departure with عنهم."
+            ],
+            "reader_inference": "The packet supplies opposite prepositional vectors in imperatives addressed to different subjects; I transfer their directional logic to the focus. A live alternative keeps the audience's flight and the messenger's withdrawal entirely separate.",
+            "changed_reading": {
+              "before": "The messenger simply steps back from them.",
+              "after": "The away-movement is a reorientation of allegiance toward God, not withdrawal into vacancy."
+            }
+          },
+          {
+            "model_id": "delta_selective_reminder_after_withdrawal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ذ ك ر",
+              "ن ف ع",
+              "ء م ن"
+            ],
+            "mechanism": "The next ayah immediately commands reminder and names the group that benefits. Withdrawal therefore changes mode and effective audience: unproductive contention ends, while beneficial reminder continues where trust can receive it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal supplies cessation of the unproductive engagement named in the focus."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Unbroken succession supplies adjacent phases in which withdrawal is followed by another communicative act."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that makes one remember supplies the continuing communicative act after withdrawal."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Benefit opposed to harm supplies the criterion for continuing the reminder."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Trusting assent supplies the receptive audience for whom reminder remains effective."
+              }
+            ],
+            "structural_cues": [
+              "The next ayah begins with another imperative and explicitly identifies believers as the beneficiaries of reminder."
+            ],
+            "reader_inference": "The packet supplies adjacent commands and a named beneficiary; I infer a shift of mode or audience rather than total silence. A live alternative reads the commands as temporal alternation without audience partition.",
+            "changed_reading": {
+              "before": "Turn away means cease addressing everyone.",
+              "after": "Leave blame-producing contention with the resistant group while preserving reminder wherever trusting reception makes it beneficial."
+            }
+          },
+          {
+            "model_id": "delta_divine_ownership_of_response",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ل ق",
+              "ع ب د",
+              "ر و د",
+              "ر ز ق",
+              "ق و ي"
+            ],
+            "mechanism": "The post-focus sequence assigns creation, the worship purpose, non-need, provision, and sufficient power to God. This strengthens the focus release from caretaking: the messenger transmits and reminds but does not create, provision, or administratively produce the audience's worship-response.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B003",
+                "role": "Taking charge of an affair supplies the managerial role denied to the messenger over audience response."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Reproach supplies the performance liability removed from that non-managerial role."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Bringing creation into being assigns the audience's existence to divine agency."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the purpose whose realization the messenger does not manufacture."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ر و د",
+                "source_word_indices": [
+                  "2",
+                  "7"
+                ],
+                "mapped_root_id": "root_000610",
+                "branch_id": "B001",
+                "role": "Will and desire supply the demand axis that the verse twice negates toward the audience."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Apportioned provision assigns sustaining agency to God rather than messenger or audience."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Concentrated strength supplies sufficient divine capacity behind purpose and provision."
+              }
+            ],
+            "structural_cues": [
+              "51:56 states the creation-purpose relation; 51:57 negates any requested provision or feeding; 51:58 identifies the provider and strength."
+            ],
+            "reader_inference": "The packet supplies divine creation, purpose, non-need, provision, and power; I infer that producing response is outside messenger ownership. A live alternative treats these verses as theology with no direct allocation of messenger responsibility.",
+            "changed_reading": {
+              "before": "The messenger may stop trying to persuade this audience.",
+              "after": "The messenger is released from governing or provisioning their worship-response because purpose and sustaining agency belong to God."
+            }
+          },
+          {
+            "model_id": "delta_consequence_remains_their_portion",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ن ب",
+              "م ث ل",
+              "ص ح ب",
+              "ع ج ل"
+            ],
+            "mechanism": "The closing sequence apportions wrongdoers a share matching their companions and forbids haste. Their historical consequence remains their assigned burden and timing; it does not migrate into messenger blame.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Withdrawal supplies the messenger's refusal to carry or accelerate the audience's assigned outcome."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Reproach supplies the burden that is not transferred from wrongdoers to messenger."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B006",
+                "role": "A person's share or allotment supplies consequence as their assigned portion."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Likeness supplies the matching relation between the present wrongdoers and prior counterparts."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies the historical cohort with whom their portion is grouped."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Acceleration supplies the attempt to force distribution that the verse prohibits."
+              }
+            ],
+            "structural_cues": [
+              "51:59 assigns the wrongdoers a matching portion and immediately blocks demands for haste."
+            ],
+            "reader_inference": "The packet supplies an apportioned analogue and prohibited haste; I infer that burden and timing remain with the offenders. A live alternative treats the portion solely as a punishment image without reallocating responsibility.",
+            "changed_reading": {
+              "before": "The messenger is merely unblamed for withdrawing.",
+              "after": "Their due remains assigned to their historical cohort; neither its burden nor its timing transfers to the messenger."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_counter_acquittal_from_madness",
+            "confidence": "medium",
+            "containment": "This is surprising because it uses the focus blame root's non-dominant split mapping and is form-distant. It remains anchored at focus word 5 and answers the repeated madness accusation through a packet-supplied branch. Downstream prose must retain blamelessness as the controlling sense and label this only as a secondary resonance, never as a translation.",
+            "focus_anchor": "Focus word 5 has a dominant blame inventory and a split-root branch involving a touch of madness; the preceding accusation refrain supplies the matching context.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001386",
+                "branch_id": "B001",
+                "role": "Deserved reproach preserves the controlling surface acquittal from blame."
+              },
+              {
+                "source_ref": "51:54",
+                "root": "ل و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001378",
+                "branch_id": "B004",
+                "role": "A touch of madness supplies a split-root echo under the focus predicate rather than its direct gloss."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "Veiling of intellect by madness supplies the explicit allegation that the secondary echo counters."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus acquits the messenger only of culpability.",
+              "after": "The focus acquits him of culpability while a contained split-root echo also refuses to validate the recurring madness label."
+            }
+          },
+          {
+            "outlier_id": "outlier_pastoral_audience_sorting",
+            "confidence": "exploratory",
+            "containment": "This is surprising because a livestock-separation branch is materially remote from the imperative's ordinary syntax. It remains anchored in the focus و ل ي inventory, receives a second livestock cue in 51:48, and fits the beneficiary distinction in 51:55. Downstream prose should present it only as a pastoral analogy for audience sorting, not as lexical meaning.",
+            "focus_anchor": "A branch under the focus و ل ي root depicts separating smaller livestock from larger stock until they become tractable; the next command preserves reminder for a receptive group.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B015",
+                "role": "Separating young stock from larger animals supplies a pastoral sorting image for differentiated engagement."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B004",
+                "role": "Small livestock supply a second material cue that activates the focus branch's pastoral domain."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ن ف ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001536",
+                "branch_id": "B001",
+                "role": "Benefit supplies the functional test for where continued communicative care is retained."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Trusting assent supplies the receptive cohort distinguished from those left in resistance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The command abandons the addressed group wholesale.",
+              "after": "As a contained pastoral analogy, the command sorts resistant engagement away while continuing formative reminder where receptivity exists."
+            }
+          },
+          {
+            "outlier_id": "outlier_following_rain_sequence",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines a rare rain branch of the focus root with a non-dominant split mapping from 51:47. It remains packet-anchored through the exact sequence of first marking rain, follow-up rain, reminder, and provisioning rain. Downstream prose must call it a meteorological material analogy, not a lexical rendering of the imperative.",
+            "focus_anchor": "A focus و ل ي branch names rain that follows the first marking rain, making the apparent withdrawal-reminder tension available as a staged watering sequence.",
+            "activation_trace": [
+              {
+                "source_ref": "51:54",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B010",
+                "role": "Rain following the first seasonal marking rain supplies a sequence image for renewed address after withdrawal."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B003",
+                "role": "The first rain that marks earth with growth supplies the initial shower through the packet's split mapping."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder supplies the renewed communicative watering that follows apparent cessation."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B003",
+                "role": "Rain descending as provision keeps the material image tied to beneficial giving."
+              }
+            ],
+            "changed_reading": {
+              "before": "51:54 ends address and 51:55 restarts it without an internal relation.",
+              "after": "As a contained rain analogy, an initial address marks the ground, withdrawal intervenes, and reminder follows as a second beneficial watering of receptive soil."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The Pharaoh episode turns the focus into a moral mirror: his supported withdrawal is blameworthy, while the messenger's commanded withdrawal is explicitly unblamed.",
+            "Commission, manifest warrant, and repeated warning recast the focus as discharge after completed communication rather than permission to omit communication.",
+            "The immediate reminder command revises total abandonment into cessation of futile contention with continued benefit-oriented address to believers.",
+            "The post-focus purpose and provision sequence removes managerial ownership of audience response from the messenger."
+          ],
+          "what_was_special": "Exact root reversal, repeated accusation syntax, and the abrupt withdrawal-reminder sequence carried the strongest changes. Split-root inventories also exposed contained madness, pastoral sorting, and following-rain resonances that a conservative synthesis would likely erase.",
+          "remaining_uncertainties": [
+            "The focus alone does not decide whether withdrawal is temporary, audience-selective, or a permanent end to direct contention.",
+            "The caretaking and outcome-timing readings are coherent but depend on secondary branches beyond the imperative's ordinary withdrawal sense.",
+            "The split-root and material outliers are packet-grounded resonances, not lexical translations, and should remain explicitly qualified."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Withdrawal marks discharged responsibility.** `و ل ي/B007` supplies turning away; `ل و م/B001` blame. Following clear warning and persistent transgression, the imperative removes continued engagement while negating liability. I infer **warning delivered -> obligation discharged -> withdrawal without blame**. Turning away here differs morally from Pharaoh's withdrawal in 51:39 because the prior causal conditions differ.\n2. **Blame has been correctly reassigned.** Pharaoh was *mulīm* after rejecting proof (51:40), whereas the messenger is not blameworthy after disclosure. I infer **response to clear message determines blame-bearing**. The fixed `ل و م/B001` anchors a retrospective legal contrast across the two scenes.",
@@ -3418,18 +4387,23 @@
   "root_lexicon": {
     "root_001684": {
       "root_ar": "و ل ي",
+      "qac_roots_ar": [
+        "و ل ي"
+      ],
       "root_id": "root_001684",
-      "root_mapping": {
-        "root_id": "root_001684",
-        "root_norm": "و ل ي",
-        "source_root_norm": "و ل ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 190,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ل ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 190
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5f44badba71b06463e3241f3ebe0ce1f27c7f9400d6440ac123cf854d709521f",
         "branches": [
@@ -5345,18 +6319,23 @@
     },
     "root_001386": {
       "root_ar": "ل و م",
+      "qac_roots_ar": [
+        "ل و م"
+      ],
       "root_id": "root_001386",
-      "root_mapping": {
-        "root_id": "root_001386",
-        "root_norm": "ل و م",
-        "source_root_norm": "ل و م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 11,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل و م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 11
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e5ad6a15ca97d6680327db45a07b5a5f7f0484965d41d2c0c1b656c7201ce3a9",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6419,6 +7398,2207 @@
         ]
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_001386.json"
+    },
+    "root_001378": {
+      "root_ar": "ل و م",
+      "qac_roots_ar": [
+        "ل و م"
+      ],
+      "root_id": "root_001378",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ل و م",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "f8f704dd3ca6fc4b52c93e0264c8b82a92d9605d8fc1b156cdd02b5189e34642",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_001378",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_001378/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, dağılmış olanı bir araya getirip düzeltmeyi; insanları ya da birliği toplamayı ve bir şeyin tamamını almayı aynı toplama ekseninde açıkça destekler.",
+              "boundary_note": "Anlam yalnız verilen söz kalıplarına bağlıdır; genel ve sınırsız bir toplama anlamı olarak ele alınmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Tanım, yalnız kanıtta verilen söz kalıplarındaki toplama, düzeltme ve bütünü alma kullanımlarını kapsar."
+            },
+            "concept_map": {
+              "definition": "Belirli söz kalıplarında, dağılmış parçaları bir araya getirip düzensizliği gidermek, insanları ya da birliği toplamak veya bir şeyin tamamını sonuna kadar almaktır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Dağılmış parçalar bir araya getirilir ve oluşmuş düzensizlik giderilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "İnsanların ya da bir asker birliğinin parçaları toplanmış bir bütün oluşturur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Bir şey eksik bırakılmadan, son parçasına kadar alınır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak çizgisi, dağınıklığı gideren bir araya getirme işlemidir; insan topluluğu, asker birliği ve bütünün eksiksiz alınması bunun bağlama bağlı görünümleridir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "dağınık olanı bütünüyle bir araya getirip düzenleme",
+              "applicability": "Verilen söz kalıplarındaki düzeltici toplama, birlik oluşturma ve eksiksiz alma çekirdeğinin tümünü karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Bir araya getirme, düzensizliği giderme ve bütünleme özelliklerini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "dağınıklığını giderip toparlamak",
+                "usage_role": "contextual",
+                "applicability": "Dağılmış bir işin ya da durumun parçalarını yeniden düzene koyma bağlamında kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Dağılmış parçaları toplama ve düzeltme işlemini korur.",
+                  "loses": "İnsan ya da birlik toplama ve bir şeyin tamamını alma kullanımlarını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "hepsini sonuna kadar almak",
+                "usage_role": "contextual",
+                "applicability": "Bir şeyin hiçbir parçasını bırakmadan tamamını alma bağlamında kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bütünün eksiksiz alınması sonucunu korur.",
+                  "loses": "Dağınıklığı düzeltme ve topluluk oluşturma görünümlerini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "dağınıklığını giderip toparladı"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "insanları bir araya toplayan ev"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bölükleri birleşmiş kalabalık birlik"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hepsini sonuna kadar aldı"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kendi payıyla arkadaşının payını birlikte yiyiş"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000797/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Belirli kalıplarda topluluğu bir araya getirme ve bütünün sonuna kadar alınması da bulunur.",
+                "neighbor_only": "Yarılmış ya da çatlamış bir nesnenin yeniden kaynaştırılması özellikle kapsanır.",
+                "gloss": "dağınığı toplama ile yarığı kaynaştırma",
+                "shared_zone": "Her ikisi de ayrılmış parçaların yeniden bir araya gelmesini ve bozukluğun giderilmesini anlatır.",
+                "distinction": "Odak dalı verilen kalıplarda dağınık işleri, insanları ve bütünün alınmasını kapsarken komşu dal, ayrılmış nesnenin ya da çatlağın yeniden tutturulmasını belirginleştirir."
+              },
+              {
+                "neighbor_ref": "root_001210/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Düzensizliği onarma ve bir şeyin tamamını alma, belirli kalıplarla sınırlı görünümlerdir.",
+                "neighbor_only": "Su, yiyecek ve konuk gibi çok çeşitli nesneleri kapsayan genel toplama alanı vardır.",
+                "gloss": "kalıba bağlı toparlama ile genel toplama",
+                "shared_zone": "İki dalda da ayrı duran parçaları ya da kişileri bir araya getirme çekirdeği bulunur.",
+                "distinction": "Odak dalının anlamı kanıttaki kalıplarla sınırlı ve yer yer düzeltici ya da eksiksizleştiricidir; komşu dal ise nesne türleri bakımından daha genel bir toplama anlamına sahiptir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün komşu adayları değerlendirildi; yalnız toplama ve onarma sınırını doğrudan aydınlatan iki karşılaştırma seçildi.",
+            "branch_image_ar": "جمع المتفرق وضمه",
+            "what_is_ar": "ضم المتفرق وإصلاح شعثه واجتماع الناس أو الكتيبة وأخذ الشيء كله",
+            "what_is_not_ar": "لا يدخل حرف النفي ولا اسم الموضع",
+            "source_phrase_ar": "لممت شعثه إذا ضممت ما كان متشعثا منتشرا (maqayis)؛ لم الله شعثه أي أصلح وجمع ما تفرق من أموره (sihah)؛ داركم لمومة أي تلم الناس وتربهم وتجمعهم (sihah)؛ كتيبة ملمومة كثر عددها واجتمع المقنب فيها إلى المقنب (maqayis)؛ كتيبة ململمة وملمومة أي مجتمعة مضموم بعضها إلى بعض (sihah)؛ لممته أجمع حتى أتيت على آخره (sihah)",
+            "sources": [
+              "MQ",
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001378/B002",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kaynak ifadesi birine inip yanında bulunma, bir sınıra yaklaşma ve ara sıra ziyaret etme kullanımlarını destekler; bunlar yakınlık ekseninde bağlı olsa da tek ve özdeş bir işlem değildir.",
+              "boundary_note": "Yaklaşma, yanına inme ve seyrek ziyaret etme ayrı görünümler olarak korunmalı; biri ötekine indirgenmemelidir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, tek başına yaklaşma kullanımını belirli kalıplara bağlı yanına inme, ergenliğe yaklaşma ve ara sıra ziyaret etmeden ayırır."
+            },
+            "concept_map": {
+              "definition": "Bir kişinin ya da şeyin yanına inip yakınında bulunmak veya belirli bir sınıra ulaşmadan ona yaklaşmaktır. Ziyaret bağlamında, zaman zaman uğramayı da anlatır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir kişi ya da şeyin yanına gelinir ve yakınında bulunulur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Bir gelişim, sonuç ya da tehlike sınırına ulaşmadan yaklaşılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Ziyaretler sürekli değil, ayrı zamanlarda ve ara sıra gerçekleşir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıt, yakınında bulunma ile bir sonuca varmadan yaklaşmayı aynı dalda toplar; ara sıra ziyaret etme ise bu yakınlaşma alanına bağlı özel bir zamanlama kullanımıdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yanına gelip yakınında bulunma veya bir sınıra yaklaşma",
+              "applicability": "Yanına inme ve ulaşmadan yaklaşma çekirdeğini karşılar; seyrek ziyaret görünümü bağlamsal bir uzantı olarak kalır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yakına gelme, yakınında bulunma ve sınıra ulaşmadan yaklaşma ayrımını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yanına gelip konmak",
+                "usage_role": "contextual",
+                "applicability": "Birinin yanına inme ve onun yakınında bulunma bağlamına uygundur.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yanına gelme ve yakınında bulunma özelliklerini korur.",
+                  "loses": "Bir sınıra yaklaşma ile ara sıra ziyaret etme görünümlerini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "neredeyse ulaşmak",
+                "usage_role": "contextual",
+                "applicability": "Ergenlik ya da ölümcül sonuç gibi bir sınıra varmaya çok yaklaşma bağlamında kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bir sınıra yaklaşırken henüz ona ulaşmama özelliğini korur.",
+                  "loses": "Yanına inme ve ara sıra ziyaret etme görünümlerini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "ara sıra uğramak",
+                "usage_role": "contextual",
+                "applicability": "Ziyaretin sürekli değil, kimi zaman gerçekleştiği bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Ziyaretin aralıklı oluşunu ve uğrama niteliğini korur.",
+                  "loses": "Genel yakınlık ve bir sınıra yaklaşma görünümlerini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yanına gelip yakınında bulundu"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ergenliğe yaklaşmış oğlan"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "o sonuca ulaşmadan yaklaşır"
+              },
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bizi ara sıra ziyaret eder"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001291/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Birinin yanına inip yakınında bulunma ve ara sıra ziyaret etme kullanımları vardır.",
+                "neighbor_only": "Güneşin batması ve kabın dolması gibi çok çeşitli tamamlanma eşikleri açıkça kapsanır.",
+                "gloss": "yakına gelme ile eşiğe yaklaşma",
+                "shared_zone": "Her iki dal da bir eylem ya da durumun gerçekleşme sınırına yaklaşmasını anlatabilir.",
+                "distinction": "Odak dalı yakınında bulunma ve seyrek ziyaret gibi özel kullanımları da taşır; komşu dal ise farklı olayların tamamlanma eşiğine yaklaşmasını daha geniş biçimde kapsar."
+              },
+              {
+                "neighbor_ref": "root_000151/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Sınıra yaklaşma gerçekleşir, fakat o sınıra ulaşmak zorunlu değildir.",
+                "neighbor_only": "Hedefe, yere ya da belirlenmiş sona ulaşma ve tamamlanma çekirdektir.",
+                "gloss": "yaklaşma ile hedefe ulaşma",
+                "shared_zone": "İki dal da bir hedefe ya da gelişim sınırına doğru ilerlemeyi konu edinir.",
+                "distinction": "Odak dalı çoğu kez ulaşmadan önceki yakınlığı bildirir; komşu dalın ayırt edici yönü hedefe varma veya belirlenmiş sona erişmedir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar incelendi; yaklaşma ile ulaşma arasındaki sınırı ve dalın özel yakınlık kullanımlarını gösteren iki aday yayımlandı.",
+            "branch_image_ar": "الدنو والنزول القريب",
+            "what_is_ar": "النزول بالمرء أو الشيء ومقاربة البلوغ أو الهلاك والزيارة في الأحايين",
+            "what_is_not_ar": "لا يدخل اللمم بمعنى صغار الذنوب إلا من جهة المقاربة",
+            "source_phrase_ar": "ألممت بالرجل إلماما إذا نزلت به وضاممته (maqayis)؛ الإلمام النزول وقد ألم به أي نزل به (sihah)؛ غلام ملم أي قارب البلوغ (sihah)؛ ما يقتل حبطا أو يلم أي يقرب من ذلك (sihah)؛ فلان يزورنا لماما أي في الأحايين (sihah)",
+            "sources": [
+              "MQ",
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001378/B003",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kaynak ifadesi hem küçük yanlışları hem de yanlışa girişmeden ona yaklaşıp geri durmayı verir. Bu iki görünüm birbiriyle bağlantılıdır, ancak işlenmiş küçük yanlış ile gerçekleşmemiş yaklaşma özdeş değildir.",
+              "boundary_note": "Küçük bir yanlışı işleme ile yanlışa yalnız yaklaşma arasındaki kaynak farkı tanımda açık tutulmalıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, adlaşmış küçük yanlış anlamını belirli eylem kalıbındaki yanlışa yaklaşma kullanımından ayırır."
+            },
+            "concept_map": {
+              "definition": "Ağır ve açık bir kötülüğe varmayan küçük yanlışları veya kişi yanlışı gerçekleştirmeden ona yaklaşmışken kendini geri çekmesini anlatır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Ağır kötülüklerden ayrı tutulan küçük yanlışlar söz konusudur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Bir başka anlatımda kişi yanlışı işlemez; yalnız ona yaklaşır ve sonra geri durur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıt iki bağlı sınır çizer: küçük ölçekteki yanlışlar ve yanlışın kendisini gerçekleştirmeden ona yaklaşma. İkinci anlatımda geri durma, eylemin tamamlanmamasını özellikle belirtir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "küçük yanlış veya yanlışı işlemeden ona yaklaşma",
+              "applicability": "İşlenmiş küçük yanlış ile gerçekleşmeden kalan yaklaşma arasındaki kaynak sınırını birlikte korur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Küçüklük derecesini, yaklaşmayı ve bazı anlatımlarda eylemin gerçekleşmemesini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "küçük yanlışlar",
+                "usage_role": "contextual",
+                "applicability": "Ağır kötülüklerden ayrı tutulan düşük dereceli yanlışların adlandırıldığı bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yanlışın küçük sayılan derecesini korur.",
+                  "loses": "Yanlışı gerçekleştirmeden yaklaşma ve geri durma görünümünü dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yanlışa yaklaşsa da geri durmak",
+                "usage_role": "explanatory",
+                "applicability": "Kişinin yanlışın sınırına geldiği, fakat onu gerçekleştirmediği anlatımda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yaklaşmayı, gerçekleştirmemeyi ve sonradan geri durmayı korur.",
+                  "loses": "İşlenmiş küçük yanlışların ad olarak belirtilmesi görünümünü dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "küçük yanlışlar veya yanlışı işlemeden ona yaklaşma"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "küçük yanlışlara bulaştı veya yanlışa yaklaştı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000359/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Küçük dereceli yanlış ya da eylemi gerçekleştirmeden ona yaklaşma söz konusudur.",
+                "neighbor_only": "Büyük yanlış, ortak koşma, gerçekten sapma ve doğru olmayan söz gibi ağır içerikler kapsanır.",
+                "gloss": "küçük yanlışa yaklaşma ile ağır kötülük",
+                "shared_zone": "Her iki dal da ahlaken yanlış sayılan davranışlar alanında yer alır.",
+                "distinction": "Odak dalı küçüklük ve kimi anlatımda gerçekleşmemiş yaklaşma sınırını taşır; komşu dal ise ağır ya da açıkça işlenmiş kötülükleri kapsar."
+              },
+              {
+                "neighbor_ref": "root_000420/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Yanlışı işlemeden ona yaklaşma ve ardından geri durma görünümü bulunur.",
+                "neighbor_only": "Kasıtlı olarak uygunsuz davranan kişi ve sorumluluk doğuran işlenmiş yanlış açıkça kapsanır.",
+                "gloss": "küçük yaklaşma ile işlenmiş yanlış",
+                "shared_zone": "İki dal da kişiye yüklenen yanlış davranışı adlandırabilir.",
+                "distinction": "Odak dalında yanlış küçük olabilir veya yalnız yaklaşma düzeyinde kalabilir; komşu dal işlenmiş yanlış ve bunu yapan kişi çevresinde daha geniştir."
+              }
+            ],
+            "neighbor_coverage_note": "Adayların tümü değerlendirildi; küçüklük, gerçekleşmeme ve ağır yanlış sınırlarını en açık gösteren iki karşılaştırma seçildi.",
+            "branch_image_ar": "مقاربة الذنب الصغير",
+            "what_is_ar": "صغار الذنوب ومقاربة المعصية من غير مواقعة",
+            "what_is_not_ar": "لا يدخل ارتكاب الكبيرة ولا الفاحشة",
+            "source_phrase_ar": "اللمم ليس بمواقعة الذنب وإنما هو مقاربته ثم ينحجز عنه (maqayis)؛ اللمم وهو صغار الذنوب (sihah)؛ مقاربة المعصية من غير مواقعة (sihah)",
+            "sources": [
+              "MQ",
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001378/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, görünmeyen varlıkların dokunmasına bağlanan etkilenmeyi, hafif bir akıl bozukluğu görünümünü ve bu durumdaki kişiyi aynı dalda açıkça verir.",
+              "boundary_note": "Bu dal zararlı bakıştan ve yaşamın ağır olaylarından ayrıdır; yalnız atfedilen dokunma ve akıl etkilenmesi alanındadır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, adlaşmış hafif akıl bozukluğu görünümünü dokunma ve etkilenmiş kişi bildiren kalıplardan ayırarak korur."
+            },
+            "concept_map": {
+              "definition": "Görünmeyen bir varlığın dokunmasına bağlanan ruhsal ya da zihinsel etkilenme ve bunun hafif bir akıl bozukluğu görünümü olarak belirmesidir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kişinin durumu görünmeyen bir varlığın dokunmasıyla açıklanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Durum, hafif ya da başlangıç düzeyinde bir akıl bozukluğu görünümü olarak anlatılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Bu etkilenmeyi taşıdığı düşünülen kişi ayrıca adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, görünmeyen bir varlığa bağlanan dokunma ile hafif akıl bozukluğu görünümünü bir arada sunar ve bu durumdaki kişi için de bir niteleme verir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "görünmeyen bir varlığın dokunmasına bağlanan zihinsel etkilenme",
+              "applicability": "Atfedilen dokunma, hafif akıl bozukluğu görünümü ve etkilenmiş kişi çevresindeki anlam alanını karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Atfedilen nedeni, dokunma düşüncesini ve zihinsel etkilenme sonucunu korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "görünmeyen bir varlığın etkisine uğrama",
+                "usage_role": "explanatory",
+                "applicability": "Durumun görünmeyen bir varlığın dokunmasına bağlandığı anlatımda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Görünmeyen varlığa bağlanan etkilenme düşüncesini korur.",
+                  "loses": "Hafif akıl bozukluğu derecesini ve etkilenmiş kişinin adlandırılmasını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "hafif akıl bozukluğu",
+                "usage_role": "contextual",
+                "applicability": "Etkilenmenin düşük dereceli bir zihinsel bozukluk olarak anlatıldığı bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Zihinsel bozulmanın hafif ya da başlangıç düzeyini korur.",
+                  "loses": "Görünmeyen varlığın dokunmasına bağlanan neden anlatımını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "görünmeyen bir varlığın dokunması sayılan etki"
+              },
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hafif akıl bozukluğu"
+              },
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "böyle bir etkilenmesi bulunan adam"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001423/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Hafif akıl bozukluğu görünümü ve bu durumdaki kişinin özel nitelemesi de kapsanır.",
+                "neighbor_only": "Dokunma düşüncesi, genel akıl karışıklığı ve zihin bozulmasıyla açıklanan daha geniş bir alanı kapsar.",
+                "gloss": "atfedilen dokunma ve hafif zihinsel etkilenme",
+                "shared_zone": "Her iki dal da görünmeyen bir varlığın dokunmasına bağlanan zihinsel etkilenmeyi anlatır.",
+                "distinction": "Odak dalı bu etkilenmenin hafif görünümünü ve etkilenmiş kişiyi belirginleştirir; komşu dal dokunma ve akıl karışıklığı alanını daha genel sunar."
+              },
+              {
+                "neighbor_ref": "root_000390/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Belirli bir dokunma atfı ve hafiflik derecesi öne çıkar.",
+                "neighbor_only": "Aklın, düşüncenin ve gönlün bozulması; hastalık ya da sevgi gibi başka nedenler de kapsanır.",
+                "gloss": "hafif dokunma etkisi ile genel akıl bozulması",
+                "shared_zone": "İki dal da zihinsel düzenin bozulduğu durumları kapsayabilir.",
+                "distinction": "Odak dalı görünmeyen varlığın dokunmasına bağlanan özel ve hafif bir görünümü anlatır; komşu dal neden ve derece bakımından daha geniş bir zihinsel bozulma alanıdır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; dokunma atfını ve hafiflik derecesini genel zihinsel bozulmadan ayıran iki aday seçildi.",
+            "branch_image_ar": "مس الجن وطرف الجنون",
+            "what_is_ar": "اللمة من الجن والمس وطرف الجنون والرجل الملموم",
+            "what_is_not_ar": "لا تدخل العين اللامة ولا نوازل الدهر",
+            "source_phrase_ar": "أصابت فلانا من الجن لمة وذلك كالمس (maqayis)؛ اللمم أيضا طرف من الجنون (sihah)؛ رجل ملموم أي به لمم (sihah)؛ أصابت فلانا من الجن لمة وهو المس (sihah)",
+            "sources": [
+              "MQ",
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001378/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi saçın kulak memesini geçmesini, omuzlara yaklaşmasını ve omuzlara ulaştığında başka bir adla anılmasını açık bir uzunluk sınırı olarak verir.",
+              "boundary_note": "Saç kulak memesini geçer, fakat omuzlara ulaştığı aşama bu dalın dışında kalır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalnız saçın belirli uzunluk derecesini verir; komşu saç biçimlerini ya da başka yapılardaki kullanımları içeri almaz."
+            },
+            "concept_map": {
+              "definition": "Kulak memesini geçmiş ve omuzlara yaklaşmış, ancak henüz omuzlara ulaşmamış uzunluktaki saçtır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Saçın alt ucu kulak memesini geçmiştir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Saç omuzlara yaklaşır, fakat omuzlara ulaştığı uzunluk ayrı tutulur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar aynı uzunluk aralığını verir: saç kulak memesini aşar ve omuzlara yaklaşır; omuzlara ulaşması ise bu adlandırmanın üst sınırıdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kulak memesini geçip omuzlara yaklaşan saç",
+              "applicability": "Saçın alt ve üst uzunluk sınırlarını birlikte ve doğal biçimde ifade eder.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Kulak memesini geçme, omuzlara yaklaşma ve henüz ulaşmama sınırlarını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "omuzlara yaklaşan uzun saç",
+                "usage_role": "contextual",
+                "applicability": "Saç uzunluğunun omuzlara yakın olduğu açık bir betimleme bağlamında kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Saçın uzunluğunu ve omuzlara yakın oluşunu korur.",
+                  "loses": "Kulak memesini geçmiş olma alt sınırını açıkça belirtmez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kulak memesini geçip omuzlara yaklaşan saç"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bu uzunluktaki saçlar"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001666/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Saçın kulak memesini geçip omuzlara yaklaşması gibi dar bir uzunluk aralığı belirlenir.",
+                "neighbor_only": "Saçın bolluğu ve kulak ya da kulak memesi düzeyine ulaşan başka uzunluk dereceleri kapsanır.",
+                "gloss": "belirli saç uzunluğu ile saç bolluğu",
+                "shared_zone": "Her iki dal da saçın miktarını ya da eriştiği düzeyi betimler.",
+                "distinction": "Odak dalı kulak memesi ile omuz arasındaki belirli uzunluk aralığıdır; komşu dal bolluk ve daha genel kulak düzeyi ölçülerini kapsar."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; uzunluk aralığını saç bolluğundan en açık ayıran tek karşılaştırma yeterli bulundu.",
+            "branch_image_ar": "شعر اللمّة",
+            "what_is_ar": "الشعر إذا جاوز شحمة الأذن وقارب المنكبين",
+            "what_is_not_ar": "لا تدخل الجمة إذا بلغت المنكبين",
+            "source_phrase_ar": "اللمة بكسر اللام الشعر إذا جاوز شحمة الأذنين (maqayis)؛ لأنه شام المنكبين وقاربهما (maqayis)؛ اللمة بالكسر الشعر يجاوز شحمة الأذن فإذا بلغت المنكبين فهي جمة (sihah)",
+            "sources": [
+              "MQ",
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001378/B006",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi dünyada başa gelen ağır olayı, sıkıntıyı ve zamanın sert dönüşlerini aynı olumsuz olay alanında açıkça destekler.",
+              "boundary_note": "Dal, zihinsel etkilenme ya da zararlı bakış değil; kişinin başına gelen ağır olay ve zamanın sertliğidir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, tek başına ağır olay adını zamanın olayları ve sertliği bildiren söz kalıbından ayırarak birlikte korur."
+            },
+            "concept_map": {
+              "definition": "Dünya yaşamında kişinin başına gelen ağır ve sıkıntı verici olaydır; zamanın sert dönüşleri ve bunların getirdiği zorluk da bu alanda anlatılır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kişinin başına dünyadaki ağır ve sıkıntı verici bir olay gelir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Zamanın değişimleri, insanı zorlayan sert olaylar dizisi olarak düşünülür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, başa gelen ağır dünya olayını ortak çekirdek olarak verir; zamanın sertliği ve değişen dönemlerin getirdiği sıkıntılar bu çekirdeğin genişletilmiş görünümüdür.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "başa gelen ağır olay ve zamanın sertliği",
+              "applicability": "Tekil ağır olayı ve zamanın sıkıntı getiren dönüşlerini birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Başa gelme, ağırlık, sıkıntı ve zamanın sert dönüşleri özelliklerini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "başa gelen ağır olay",
+                "usage_role": "contextual",
+                "applicability": "Kişinin dünyada karşılaştığı tekil ve ciddi bir sıkıntı anlatılırken kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Olayın kişiye yönelmesini, ağırlığını ve sıkıntı verişini korur.",
+                  "loses": "Zamanın dönüşleri ve art arda gelen olaylar görünümünü dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "zamanın sert olayları",
+                "usage_role": "contextual",
+                "applicability": "Zamanın değişimleriyle gelen zorlukların topluca anlatıldığı bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Zamanın getirdiği sertlik ve olaylar dizisi görünümünü korur.",
+                  "loses": "Tek bir ağır olayın kişiye doğrudan gelmesi görünümünü arka plana iter.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "dünyada başa gelen ağır olay"
+              },
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "zamanın ağır olayları ve sertliği"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001562/B004",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Zamanın sertliği ve dönemsel dönüşleri özel bir görünüm olarak bulunur.",
+                "neighbor_only": "Yinelenen ateşli hastalık ve kişinin yerine geçen ya da sırası gelen olay gibi daha geniş kullanımlar vardır.",
+                "gloss": "ağır olay ile başa gelen olay",
+                "shared_zone": "Her iki dal da kişinin başına gelen olay, sıkıntı ya da yıkımı anlatabilir.",
+                "distinction": "Odak dalı olayın ağırlığını ve zamanın sert dönüşlerini öne çıkarır; komşu dal başa gelme alanını hastalık ve yinelenme gibi daha geniş yönlere taşır."
+              },
+              {
+                "neighbor_ref": "root_000884/B005",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Dünya olayının kişiye gelmesi ve zamanın dönüşleri belirleyicidir.",
+                "neighbor_only": "Çıkış yolu bırakmayan kapalı ve ezici sertlik özel bir nitelik olarak bulunur.",
+                "gloss": "başa gelen ağır olay ile çıkışsız sertlik",
+                "shared_zone": "İki dal da ağır, korkutucu ve sıkıntı veren durumları anlatır.",
+                "distinction": "Odak dalı başa gelen olay ve zamanın değişimleri çevresindedir; komşu dalın ayırt edici yönü durumun çıkışsız ve bütünüyle kapalı sayılmasıdır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; başa gelme, zamanın dönüşü ve çıkışsız sertlik sınırlarını gösteren iki aday seçildi.",
+            "branch_image_ar": "نازلة الدهر وشدته",
+            "what_is_ar": "الملمة واللمة في النازلة والشدة وصروف الدهر",
+            "what_is_not_ar": "لا تدخل لمة الجن ولا العين اللامة",
+            "source_phrase_ar": "الملمة النازلة من نوازل الدنيا (maqayis)؛ الملمة النازلة من نوازل الدنيا (sihah)؛ حادثات اللمة فهو الدهر ويقال الشدة (sihah)؛ صروف الدهر أو دولاتها اللمة من لماتها (sihah)",
+            "sources": [
+              "MQ",
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001378/B007",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bakışıyla kötülük verdiğine inanılan gözü ve ondan korunma sözünü açıkça verir; dalın kimliği zararlı bakışla sınırlıdır.",
+              "boundary_note": "Bu dal görünmeyen varlık etkisinden ve genel zarardan ayrıdır; kötülüğün bakış yoluyla geldiği düşünülen kullanımdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Tanım yalnız kanıtta verilen göz nitelemesine bağlı zararlı bakış anlamını kapsar; yalın biçime genellenmez."
+            },
+            "concept_map": {
+              "definition": "Bakışıyla bir kişiye ya da şeye kötülük verdiğine inanılan gözdür.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kötü etkinin gözün bakışı aracılığıyla ulaştığı düşünülür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Bu zararlı bakıştan korunma isteği belirli bir söz kalıbında dile getirilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, gözü kötülük veren bir bakışın taşıyıcısı olarak niteler; korunma sözü bu temel inanca bağlı bir kullanımdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kötülük verdiğine inanılan bakış",
+              "applicability": "Gözün bakışıyla zarar verdiği düşüncesini ve buna karşı korunma bağlamını karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Bakış, kötülük verme inancı ve korunma gereksinimi özelliklerini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "zarar veren bakış",
+                "usage_role": "contextual",
+                "applicability": "Bir bakışın kişiye ya da şeye kötülük verdiğine inanıldığı bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bakış aracılığıyla zarar geldiği düşüncesini korur.",
+                  "loses": "Bu bakıştan korunma isteğinin belirli söz kalıbındaki görünümünü dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kötülük verdiğine inanılan göz"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001069/B004",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Zarar verdiği düşünülen gözün kendisi belirli bir niteleme içinde adlandırılır.",
+                "neighbor_only": "Bakışla zarar verme olayı, zarar veren kişi ve etkilenen kişi ya da nesne birlikte kapsanır.",
+                "gloss": "zararlı göz ile bakıştan etkilenme",
+                "shared_zone": "Her iki dal da gözün bakışıyla bir kişiye ya da şeye zarar geldiği inancını anlatır.",
+                "distinction": "Odak dalı zararlı sayılan gözü niteleyen kalıba bağlıdır; komşu dal ise zarar verme olayını ve olayın katılanlarını daha geniş biçimde kapsar."
+              },
+              {
+                "neighbor_ref": "root_000824/B004",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Zarar verdiğine inanılan göz kalıcı bir niteleme olarak öne çıkar.",
+                "neighbor_only": "Gözün birine açılması ya da yönelmesiyle tehlikenin doğduğu belirli eylem anlatılır.",
+                "gloss": "zararlı göz ile gözü yöneltme",
+                "shared_zone": "İki dal da bakışın hedef üzerindeki kötü etkisi düşüncesine dayanır.",
+                "distinction": "Odak dalı gözü zararlı diye niteler; komşu dal bakışın hedefe yöneltilmesi ve o anda zarar tehlikesinin belirmesi eylemini anlatır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar incelendi; zararlı gözün niteliğini zarar verme olayından ve bakışı yöneltme eyleminden ayıran iki aday seçildi.",
+            "branch_image_ar": "العين المصيبة بالسوء",
+            "what_is_ar": "العين اللامة أو الملمة التي تصيب بالسوء",
+            "what_is_not_ar": "لا تدخل لمة الجن ولا نازلة الدهر",
+            "source_phrase_ar": "العين اللامة الأصل ملمة لما قرنت بالسامة قيل لامة وهي التي تصيب بالسوء (maqayis)؛ العين اللامة التى تصيب بسوء (sihah)؛ أعيذه من كل هامة ولامة (sihah)",
+            "sources": [
+              "MQ",
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001378/B008",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi kayanın hem sert hem yuvarlak olduğunu iki biçim için de açıkça bildirir; geçici dal çerçevesi kaynakla tam uyumludur.",
+              "boundary_note": "Sertlik ve yuvarlaklık birlikte kurucudur; yalnız büyük, düz ya da kaba bir taş bu dalı karşılamaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Tanım yalnız kaya ile kurulan iki niteleme kalıbındaki sert ve yuvarlak olma birleşimini kapsar."
+            },
+            "concept_map": {
+              "definition": "Hem sert hem de yuvarlak biçimli olan kayadır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kaya sert ve dayanıklı yapıdadır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "core",
+                  "statement": "Kayanın dış biçimi yuvarlaktır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar iki niteleme biçiminde de aynı özellik birleşimini verir: kayanın yapısı sert, biçimi yuvarlaktır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "sert ve yuvarlak kaya",
+              "applicability": "Kayanın iki kurucu özelliğini de kısa ve doğal biçimde birlikte ifade eder.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Sertlik ve yuvarlak biçim özelliklerinin ikisini de korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yuvarlak, sert kaya",
+                "usage_role": "general",
+                "applicability": "Kayanın biçimiyle yapısının birlikte betimlendiği her kanıt bağlamında kullanılabilir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yuvarlak biçimi ve sert yapıyı eksiksiz biçimde korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_020",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sert, yuvarlak kaya"
+              },
+              {
+                "lexical_unit_id": "lu_021",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yuvarlak, sert kaya"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000847/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Yuvarlak biçim kurucu bir özelliktir.",
+                "neighbor_only": "Taşın ya da kayanın büyük oluşu kurucu bir özelliktir.",
+                "gloss": "yuvarlak sert kaya ile büyük sert kaya",
+                "shared_zone": "Her iki dal da sert yapılı kaya ya da taşı anlatır.",
+                "distinction": "Odak dalı sertliğe yuvarlak biçimi ekler; komşu dal ise biçim yerine büyüklüğü belirginleştirir."
+              },
+              {
+                "neighbor_ref": "root_000873/B006",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Kayanın yuvarlak olması gerekir.",
+                "neighbor_only": "Kayanın geniş, düz ve pürüzsüz olması; toprak ve çamurdan arınmış görünmesi gerekir.",
+                "gloss": "yuvarlak kaya ile düz pürüzsüz kaya",
+                "shared_zone": "İki dal da sert bir kayanın dış biçimini ayırt edici özelliklerle betimler.",
+                "distinction": "Odak dalında belirleyici biçim yuvarlaklıktır; komşu dalda genişlik, düzlük, pürüzsüzlük ve temiz yüzey öne çıkar."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yuvarlaklığı büyüklükten ve düz pürüzsüz yüzeyden ayıran iki karşılaştırma seçildi.",
+            "branch_image_ar": "صخرة صلبة مستديرة",
+            "what_is_ar": "الملمومة والململمة في الصخرة الصلبة المستديرة",
+            "what_is_not_ar": "لا يدخل خرطوم الفيل ولا الكتيبة المجموعة",
+            "source_phrase_ar": "صخرة ململمة أي صلبة مستديرة وملمومة أيضا (maqayis)؛ صخرة ملمومة وململمة أي مستديرة صلبة (sihah)",
+            "sources": [
+              "MQ",
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001378/B009",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Tek kaynak ifadesi bu özel söz kalıbını doğrudan filin uzun burnu olarak açıklar; dal çerçevesinde ek ya da çelişkili bir içerik yoktur.",
+              "boundary_note": "Anlam yalnız filin uzun burnunu adlandıran kalıba bağlıdır; genel burun ya da başka hayvan organlarına yayılmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Tanım, yalnız fil için kullanılan bu özel organ adını kapsar ve yalın biçime genel bir anlam yüklemez."
+            },
+            "concept_map": {
+              "definition": "Belirli bir söz kalıbında filin uzamış burnunu adlandırır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Adlandırılan organ filin uzun ve uzantı biçimindeki burnudur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tek kaynak, söz kalıbını doğrudan filin uzun burnuna eşler ve başka bir anlam ya da kullanım sınırı vermez.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "filin uzun burnu",
+              "applicability": "Kalıbın adlandırdığı organı hayvan türü ve organ bakımından tam olarak karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Fil türünü ve adlandırılan uzun burun organını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "fil burnu",
+                "usage_role": "general",
+                "applicability": "Bu özel organın adlandırıldığı bütün kanıt bağlamlarında doğrudan kullanılabilir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hayvanı ve onun uzun burun organını eksiksiz biçimde korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_022",
+                "rendering_kind": "ordinary",
+                "target_gloss": "filin uzun burnu"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000404/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Yalnız filin uzun burnunu belirli bir kalıp içinde adlandırır.",
+                "neighbor_only": "İnsan burnu ile başka hayvanların burun ve yüz uzantıları daha genel biçimde kapsanır.",
+                "gloss": "filin uzun burnu ile genel burun",
+                "shared_zone": "İki dal da filin uzun burun organını adlandırabilir.",
+                "distinction": "Odak dalı yalnız file ve belirli söz kalıbına bağlıdır; komşu dal insanı ve farklı hayvanları kapsayan genel bir burun alanına sahiptir."
+              },
+              {
+                "neighbor_ref": "root_000060/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Filin uzamış burun organı türsel olarak sınırlandırılır.",
+                "neighbor_only": "İnsan ve başka canlıların burnu, burnun büyüklüğü, kokusu, ağrısı ve çeşitli eylemleri kapsanır.",
+                "gloss": "filin uzun burnu ile burun organı",
+                "shared_zone": "Her iki dal da başın ön bölümündeki koku ve solunum organı alanında buluşur.",
+                "distinction": "Odak dalı filin özel uzun burun organını adlandırır; komşu dal organın kendisini ve onunla ilgili durumları türler arasında genişçe kapsar."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; özel fil organını genel burun alanından ayıran iki yakın aday seçildi.",
+            "branch_image_ar": "خرطوم الفيل",
+            "what_is_ar": "ململمة الفيل أي خرطومه",
+            "what_is_not_ar": "لا يدخل معنى الصخرة المستديرة إلا بجامع اللفظ",
+            "source_phrase_ar": "ململمة الفيل خرطومه (sihah)",
+            "sources": [
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_001378/B010",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi iki biçimin aynı yeri ve Yemen halkı için belirlenmiş durak noktasını anlattığını açıkça belirtir; başka bir genel anlam ileri sürmez.",
+              "boundary_note": "Bu dal belirli bir yer adlandırmasıdır; kökün genel anlamları ya da benzer yazılışlı görev sözcükleri buraya girmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "non_bare",
+              "note": "Tanım yalnız iki sözlük biçimiyle gösterilen belirli yeri ve Yemen halkı için taşıdığı durak işlevini kapsar."
+            },
+            "concept_map": {
+              "definition": "İki ayrı sözlük biçimiyle anılan belirli bir yer ve Yemen halkı için belirlenmiş durak noktasıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "İfade belirli bir yeri adlandırır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bu yer Yemen halkı için belirlenmiş bir durak noktasıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "source_variant",
+                  "statement": "Aynı yer kaynakta iki ayrı sözlük biçimiyle gösterilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Tek kaynak, iki sözlük biçimini aynı belirli yere bağlar ve bu yerin Yemen halkı için belirlenmiş durak noktası olduğunu bildirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "Yemen halkı için belirlenmiş durak yeri",
+              "applicability": "Yer olma niteliğini ve Yemen halkı için belirlenmiş işlevini, adın yüzey biçimini üretmeden karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Belirli yer olma ve Yemen halkına ayrılmış durak işlevini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "Yemenlilerin belirlenmiş durak yeri",
+                "usage_role": "explanatory",
+                "applicability": "Yer adının işlevinin okuyucuya açıklanması gereken bağlamda kullanılabilir.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yemen halkına ayrılmış belirli bir durak yeri oluşunu korur.",
+                  "loses": "Kaynakta aynı yer için iki ayrı sözlük biçimi bulunması bilgisini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_023",
+                "rendering_kind": "ordinary",
+                "target_gloss": "Yemen halkı için belirlenmiş durak olan yer"
+              },
+              {
+                "lexical_unit_id": "lu_024",
+                "rendering_kind": "ordinary",
+                "target_gloss": "Yemen halkı için belirlenmiş durak olan yer"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [],
+            "neighbor_coverage_note": "Bütün adaylar yalnız başka yer adları veya yer türleri olarak kaldı; dalın sınırını keskinleştiren güvenilir bir anlam karşılaştırması bulunmadı.",
+            "branch_image_ar": "موضع يلملم",
+            "what_is_ar": "يلملم وألملم موضع وميقات أهل اليمن",
+            "what_is_not_ar": "لا يدخل القياس اللغوي العام ولا أدوات لم ولما",
+            "source_phrase_ar": "يلملم وألملم موضع وهو ميقات أهل اليمن (sihah)",
+            "sources": [
+              "SI"
+            ],
+            "source_note": {}
+          }
+        ],
+        "root_profile": {
+          "summary": "Kök, bir araya getirme ve yaklaşma çevresindeki anlamların yanında küçük yanlış, zihinsel etkilenme, belirli saç uzunluğu, ağır olay, zararlı bakış, yuvarlak kaya, filin uzun burnu ve belirli bir yer gibi birbirinden ayrılmış dallar taşır.",
+          "polysemy": "polysemic",
+          "organization": "mixed"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 4,
+            "word_count": 4,
+            "ayah_count": 4,
+            "surah_count": 4
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "لُمَّ",
+              "stem_ar": "لُمَّ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPV|LEM:lum~a|ROOT:lmm|2MP",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "لَّمَم",
+              "stem_ar": "لَّمَمَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:l~amam|ROOT:lmm|M|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "لَّمّ",
+              "stem_ar": "لَّمًّا",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|VN|LEM:l~am~|ROOT:lmm|M|INDEF|ACC",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_001378_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_001378",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "initial",
+        "inputs_sha256": "b54540019f36cde1a94a81d3033220e601fc874f8f1b8bef97b0185236564927",
+        "review_inputs_sha256": "f7ed15f6a0c37b773bc28d39f4b81e799d0ba4239941c699f99f1e812f49f065",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_001378/tr/output/root_001378_entry.json",
+          "sha256": "f378bc797ea9b17656f18c8627dd60bf6362de2ba1c068120e1279aed9dbf272",
+          "entry_id": "root_001378/tr",
+          "status": "reviewed",
+          "review_verdict": "pass",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_001378.json",
+          "sha256": "19cab4db2a94e7ac211eb6be40fc66cbf932132f39cdd399e54dbfb874aeb062"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_001378/tr/input/task.json",
+          "sha256": "b5a26c82290ae370577f996cb0726af6b219311752cd0b7ab5f3350d71741aaa"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_001378/tr/review/input/task.json",
+          "sha256": "69cecb906d88b15d6ad3ba457aabb1b05f26fd5260d729841129fb1784e424ae"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_001378/tr/review/output/review.json",
+          "sha256": "de3dd92a53512ef35cb265f94b3139f315f039d9f8cecdbd0699f05a1e9ac25d"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_001378/B001",
+            "concept_gloss": {
+              "text": "dağınığı toparlama ve tamamını alma",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "dağınığı toparlama ve tamamını alma",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_001",
+                  "lu_002",
+                  "lu_003",
+                  "lu_004",
+                  "lu_005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "dağınıklığını giderip toparladı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_002": {
+                "text": "insanları bir araya toplayan ev",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_003": {
+                "text": "bölükleri birleşmiş kalabalık birlik",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_004": {
+                "text": "hepsini sonuna kadar aldı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_005": {
+                "text": "kendi payıyla arkadaşının payını birlikte yiyiş",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001378/B002",
+            "concept_gloss": {
+              "text": "yakınına gelme veya sınıra yaklaşma",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "yakınına gelme veya sınıra yaklaşma",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_006",
+                  "lu_007",
+                  "lu_008",
+                  "lu_009"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_006": {
+                "text": "yanına gelip yakınında bulundu",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_007": {
+                "text": "ergenliğe yaklaşmış oğlan",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_008": {
+                "text": "o sonuca ulaşmadan yaklaşır",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_009": {
+                "text": "bizi ara sıra ziyaret eder",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001378/B003",
+            "concept_gloss": {
+              "text": "küçük yanlış veya yanlışa yaklaşma",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "küçük yanlış veya yanlışa yaklaşma",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_010",
+                  "lu_011"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_010": {
+                "text": "küçük yanlışlar veya yanlışı işlemeden ona yaklaşma",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_011": {
+                "text": "küçük yanlışlara bulaştı veya yanlışa yaklaştı",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001378/B004",
+            "concept_gloss": {
+              "text": "görünmeyen varlık dokunuşuna bağlanan etkilenme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "görünmeyen varlık dokunuşuna bağlanan etkilenme",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_012",
+                  "lu_013",
+                  "lu_014"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_012": {
+                "text": "görünmeyen bir varlığın dokunması sayılan etki",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_013": {
+                "text": "hafif akıl bozukluğu",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_014": {
+                "text": "böyle bir etkilenmesi bulunan adam",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001378/B005",
+            "concept_gloss": {
+              "text": "kulak memesini geçip omuza yaklaşan saç",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "kulak memesini geçip omuza yaklaşan saç",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_015",
+                  "lu_016"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_015": {
+                "text": "kulak memesini geçip omuzlara yaklaşan saç",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_016": {
+                "text": "bu uzunluktaki saçlar",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001378/B006",
+            "concept_gloss": {
+              "text": "dünyada başa gelen ağır olay",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "dünyada başa gelen ağır olay",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_017",
+                  "lu_018"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_017": {
+                "text": "dünyada başa gelen ağır olay",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_018": {
+                "text": "zamanın ağır olayları ve sertliği",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001378/B007",
+            "concept_gloss": {
+              "text": "zarar verdiğine inanılan göz",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "zarar verdiğine inanılan göz",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_019"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_019": {
+                "text": "kötülük verdiğine inanılan göz",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001378/B008",
+            "concept_gloss": {
+              "text": "sert ve yuvarlak kaya",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "sert ve yuvarlak kaya",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_020",
+                  "lu_021"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_020": {
+                "text": "sert, yuvarlak kaya",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_021": {
+                "text": "yuvarlak, sert kaya",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001378/B009",
+            "concept_gloss": {
+              "text": "fil hortumu",
+              "facet_ids": [
+                "F001"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "fil hortumu",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_022"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_022": {
+                "text": "filin uzun burnu",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_001378/B010",
+            "concept_gloss": {
+              "text": "Yemen halkı için durak yeri",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "Yemen halkı için durak yeri",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_023",
+                  "lu_024"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_023": {
+                "text": "Yemen halkı için belirlenmiş durak olan yer",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_024": {
+                "text": "Yemen halkı için belirlenmiş durak olan yer",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_001378.json"
     }
   },
   "coverage": {
@@ -6435,14 +9615,20 @@
       "words_total": 8,
       "words_resolved": 8,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 8
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6707,11 +9893,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_54.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_54.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 120042,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6784,19 +9983,37 @@
           "root_ids": [
             "root_001684"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ل ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001684",
+            "targets": [
+              {
+                "qac_root_norm": "و ل ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001684",
+                "furuq_root_norm": "و ل ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 190,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001684",
-              "root_norm": "و ل ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 190,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -6809,19 +10026,46 @@
             "root_001386",
             "root_001378"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ل و م",
+            "mapping_status": "split",
+            "primary_root_id": "root_001386",
+            "targets": [
+              {
+                "qac_root_norm": "ل و م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001386",
+                "furuq_root_norm": "ل و م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 11,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ل و م",
+                "target_rank": 2,
+                "furuq_root_id": "root_001378",
+                "furuq_root_norm": "ل م م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": true,
           "targets": [
             {
               "root_id": "root_001386",
-              "root_norm": "ل و م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ل و م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 11,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 2,
+              "gloss_branch_count": 2,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6840,18 +10084,33 @@
             },
             {
               "root_id": "root_001378",
-              "root_norm": "ل م م",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "ل م م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 4,
+                  "ayahs": 4
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         }
       },
       "occurrence_evidence_trim": {
@@ -6860,10 +10119,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 12,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

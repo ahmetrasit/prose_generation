@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:35.152894+00:00",
+  "generated_at": "2026-08-04T22:29:48.491764+00:00",
   "surah": 51,
   "ayah": 50,
   "ayahRef": "51:50",
@@ -2314,7 +2314,8 @@
       "morpheme_ids": [
         "m-w-s051-a050-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:50:1"
+      "aligned_qac_word_ref_upstream": "51:50:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2330,7 +2331,8 @@
         "m-w-s051-a050-w001-02",
         "m-w-s051-a050-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:50:2"
+      "aligned_qac_word_ref_upstream": "51:50:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2344,7 +2346,8 @@
       "morpheme_ids": [
         "m-w-s051-a050-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:50:3"
+      "aligned_qac_word_ref_upstream": "51:50:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2358,7 +2361,8 @@
       "morpheme_ids": [
         "m-w-s051-a050-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:50:4"
+      "aligned_qac_word_ref_upstream": "51:50:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2374,7 +2378,8 @@
         "m-w-s051-a050-w004-01",
         "m-w-s051-a050-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:50:5"
+      "aligned_qac_word_ref_upstream": "51:50:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2390,7 +2395,8 @@
         "m-w-s051-a050-w005-01",
         "m-w-s051-a050-w005-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:50:6"
+      "aligned_qac_word_ref_upstream": "51:50:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2406,7 +2412,8 @@
         "m-w-s051-a050-w006-01",
         "m-w-s051-a050-w006-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:50:7"
+      "aligned_qac_word_ref_upstream": "51:50:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2420,7 +2427,8 @@
       "morpheme_ids": [
         "m-w-s051-a050-w007-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:50:8"
+      "aligned_qac_word_ref_upstream": "51:50:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2434,7 +2442,8 @@
       "morpheme_ids": [
         "m-w-s051-a050-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:50:9"
+      "aligned_qac_word_ref_upstream": "51:50:9",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2992,7 +3001,1328 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_50.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:50",
+      "window": [
+        "51:38",
+        "51:39",
+        "51:40",
+        "51:41",
+        "51:42",
+        "51:43",
+        "51:44",
+        "51:45",
+        "51:46",
+        "51:47",
+        "51:48",
+        "51:49",
+        "51:50",
+        "51:51",
+        "51:52",
+        "51:53",
+        "51:54",
+        "51:55",
+        "51:56",
+        "51:57",
+        "51:58",
+        "51:59",
+        "51:60"
+      ],
+      "ayah_count": 23,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:50",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_directed_transfer",
+            "confidence": "strong",
+            "focus_anchor": "The imperative ففروا, its goal phrase إلى الله, and the speaker's نذير مبين.",
+            "mechanism": "A danger-report awakens caution, but the goal phrase prevents flight from becoming aimless withdrawal: the commanded motion transfers direction and dependence toward the worshiped One, while disclosure makes the danger and route intelligible.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Escape and flight supply the imperative's kinetic departure and the model's transfer of position."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and the worshiped One supply the stated destination and recast motion as transferred allegiance."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning of what is feared supplies the alarm that awakens caution and makes departure urgent."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "Disclosure by speech or sign supplies an intelligible route rather than an unexplained panic."
+              }
+            ],
+            "changed_reading": {
+              "before": "Run away from an unspecified danger because a clear warner says so.",
+              "after": "Transfer direction and dependence toward Allah; the warning both generates caution and discloses why this is the viable destination."
+            }
+          },
+          {
+            "model_id": "baseline_warning_as_boundary",
+            "confidence": "medium",
+            "focus_anchor": "The motion from ففروا إلى and the separating and interval-bearing possibilities of مبين.",
+            "mechanism": "The clear warning does more than explain content. It marks a separation between the hearer's present attachment and the named destination, so flight becomes a boundary crossing through a disclosed interval.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies the act that crosses out of the hearer's present position."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped One supplies the far side of the boundary as a positive destination."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning supplies the threshold signal that demands a choice before danger arrives."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B001",
+                "role": "Separation after connection supplies the boundary that the commanded flight enacts."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "The interval between two sides supplies spatial thickness to the move from present location to stated goal."
+              }
+            ],
+            "changed_reading": {
+              "before": "The adjective مبين says only that the warner is easy to understand.",
+              "after": "The warning makes a decisive boundary visible, and ففروا commands the hearer to cross it toward Allah."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_reverse_pharaonic_vector",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س ل ط",
+              "ب ي ن",
+              "و ل ي",
+              "ر ك ن"
+            ],
+            "mechanism": "Moses arrives with manifest, compelling warrant, but Pharaoh turns away while leaning on his strong side. Against that scene, the focus imperative reverses both vector and support: leave the posture that turns with a worldly الركن and move toward Allah.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies the voluntary counter-motion to Pharaoh's refusal."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped One supplies the replacement support and destination."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "س ل ط",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000732",
+                "branch_id": "B002",
+                "role": "Compelling proof supplies warranted grounds for movement rather than unreasoning fear."
+              },
+              {
+                "source_ref": "51:38",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "Manifest disclosure makes the earlier authority parallel the focus warning in clarity."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B007",
+                "role": "Turning away supplies the rejected directional response that the focus imperative reverses."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "ر ك ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000596",
+                "branch_id": "B001",
+                "role": "A strong side leaned upon supplies the rival support from which dependence is transferred."
+              }
+            ],
+            "structural_cues": [
+              "51:38 and 51:50 both pair a directional إلى phrase with a form of manifest clarity.",
+              "The ف-initial turning of 51:39 and ف-initial flight of 51:50 present opposed responses to disclosed warning."
+            ],
+            "reader_inference": "The packet supplies compelling clarity, Pharaoh's turning, and his leaned-on support; I infer a vector reversal from that reliance toward Allah. A live alternative is that the history supplies only a punishment example and no deliberate directional contrast.",
+            "changed_reading": {
+              "before": "Flee toward divine safety in a general sense.",
+              "after": "Reverse Pharaoh's movement: stop turning away while leaning on coercive support, and transfer reliance toward Allah on the basis of disclosed warrant."
+            }
+          },
+          {
+            "model_id": "delta_choose_before_capture",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ ذ",
+              "ن ب ذ",
+              "ي م م"
+            ],
+            "mechanism": "Pharaoh's party does not choose its final movement: seizure is followed by being thrown into the great water. The focus command preserves the remaining alternative, voluntary self-displacement toward a named destination before agency is replaced by capture and forced displacement.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies voluntary motion while the addressee can still choose."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped One supplies the chosen goal that distinguishes directed flight from mere ejection."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B003",
+                "role": "Capture and confinement supply the loss of self-directed agency."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ن ب ذ",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001466",
+                "branch_id": "B001",
+                "role": "Throwing away supplies involuntary displacement as the negative counterpart to commanded flight."
+              },
+              {
+                "source_ref": "51:40",
+                "root": "ي م م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001697",
+                "branch_id": "B003",
+                "role": "The great water supplies the imposed terminal destination of the captured movement."
+              }
+            ],
+            "structural_cues": [
+              "The chained ف verbs in 51:40 compress seizure and throwing into an irreversible sequence.",
+              "The focus also begins with ف, but gives the audience an imperative and an explicit goal."
+            ],
+            "reader_inference": "The packet supplies capture, throwing, and a terminal location; I infer that the focus contrasts chosen direction with later imposed movement. A live alternative is that the sea episode intensifies danger without specifying a theory of agency.",
+            "changed_reading": {
+              "before": "Escape before punishment reaches you.",
+              "after": "Choose your destination toward Allah while choice remains, before judgment turns movement into capture and ejection."
+            }
+          },
+          {
+            "model_id": "delta_non_lateral_refuge",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر و ح",
+              "ع ق م",
+              "و ذ ر",
+              "ء ت ي",
+              "ج ع ل",
+              "ر م م"
+            ],
+            "mechanism": "The sterile wind reaches every encountered thing, leaves nothing, and converts it to decay. That totalized material field removes the easy reading of flight as relocation to another worldly shelter; the distinctive force lies in the non-lateral destination, إلى الله.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Escape supplies the motion whose possible kind is revised by the context's total reach."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped One supplies a destination not reducible to another object inside the devastated field."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "Wind and moving air supply the destructive medium that traverses locations."
+              },
+              {
+                "source_ref": "51:41",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B002",
+                "role": "The sterile wind supplies a force that produces no sheltering or fruitful remainder."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "Leaving a thing behind, under negation, supplies the claim that no material remainder escapes."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B011",
+                "role": "The arrival of calamity supplies the wind's reaching relation to whatever lies in its path."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Transformation into a state supplies the irreversible material conversion."
+              },
+              {
+                "source_ref": "51:42",
+                "root": "ر م م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000601",
+                "branch_id": "B004",
+                "role": "Decay and worn remains supply the terminal state that ordinary relocation cannot evade."
+              }
+            ],
+            "structural_cues": [
+              "The ما...من شيء...إلا construction in 51:42 totalizes the wind's reach and result.",
+              "The focus names a destination rather than naming a safer terrestrial place."
+            ],
+            "reader_inference": "The packet supplies an all-reaching destructive medium and conversion to decay; I infer that إلى الله shifts refuge from lateral relocation to transferred ultimate reliance. A live alternative is that the totalization serves urgency alone and leaves physical flight imagery intact.",
+            "changed_reading": {
+              "before": "Find a safer place outside the danger zone.",
+              "after": "No merely lateral shelter answers an all-reaching field; flee by transferring ultimate refuge to Allah."
+            }
+          },
+          {
+            "model_id": "delta_warning_window",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ت ع",
+              "ح ي ن",
+              "ع ت و",
+              "ء خ ذ",
+              "ط و ع",
+              "ق و م",
+              "ن ص ر"
+            ],
+            "mechanism": "A granted interval of use is followed by arrogant refusal, seizure, and inability either to rise or obtain aid. The focus warning therefore marks a live decision window: urgency comes from the coming loss of capacity, not from rhetorical intensity alone.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies the action that remains possible inside the warning interval."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Alarm that awakens caution supplies the temporal signal to act before capacity closes."
+              },
+              {
+                "source_ref": "51:43",
+                "root": "م ت ع",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001395",
+                "branch_id": "B007",
+                "role": "Extended remaining use supplies a temporary reprieve rather than permanent safety."
+              },
+              {
+                "source_ref": "51:43",
+                "root": "ح ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000382",
+                "branch_id": "B001",
+                "role": "An appointed span supplies the finite boundary of the available response."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ع ت و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000981",
+                "branch_id": "B001",
+                "role": "Arrogant refusal of obedience supplies the choice that consumes the reprieve."
+              },
+              {
+                "source_ref": "51:44",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B003",
+                "role": "Capture supplies the transition from available action to imposed consequence."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ط و ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000956",
+                "branch_id": "B003",
+                "role": "Capacity and ability, under negation, supply the closed state after warning."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily rising, denied in the scene, supplies the lost possibility of self-recovery."
+              },
+              {
+                "source_ref": "51:45",
+                "root": "ن ص ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001510",
+                "branch_id": "B001",
+                "role": "Aid and vindication, also denied, supply the absence of an external recovery route."
+              }
+            ],
+            "structural_cues": [
+              "51:43 gives an until-clause; 51:44-45 then move from refusal to seizure to inability.",
+              "The focus imperative follows these completed examples while addressing a still-capable audience."
+            ],
+            "reader_inference": "The packet supplies reprieve, refusal, capture, and inability; I infer that warning defines the interval in which voluntary flight is still executable. A live alternative is that the sequence illustrates culpability without making temporal agency the focus.",
+            "changed_reading": {
+              "before": "The imperative sounds urgent because the speaker uses forceful rhetoric.",
+              "after": "The imperative is urgent because warning occupies the last interval in which the hearer can still rise and choose a destination."
+            }
+          },
+          {
+            "model_id": "delta_creation_to_creator",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ب ن ي",
+              "ء ي د",
+              "و س ع",
+              "ف ر ش",
+              "م ه د",
+              "خ ل ق",
+              "ز و ج",
+              "ذ ك ر"
+            ],
+            "mechanism": "Built and expanding heaven, spread and prepared earth, created pairhood, and the summons to remember form a readable environment. The following ف turns that recognition into movement: flight is not disgust with creation but passage from composite, paired signs toward their source.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies the transition from reading created signs to reorienting toward their source."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped One supplies the sourceward destination beyond created pairhood."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ب ن ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000156",
+                "branch_id": "B001",
+                "role": "Joining parts into a building supplies ordered construction rather than an opaque backdrop."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "ء ي د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000071",
+                "branch_id": "B001",
+                "role": "Concentrated supporting strength supplies the capacity behind the constructed environment."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "و س ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001647",
+                "branch_id": "B001",
+                "role": "Expansion against constriction supplies an opening field through which recognition can move."
+              },
+              {
+                "source_ref": "51:47",
+                "root": "و س ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000760",
+                "branch_id": "B002",
+                "role": "The non-dominant image of going neglected and directionless supplies a contrast: the focus gives expansion a definite goal."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and leveling supply an inhabitable, legible ground rather than a rejected evil realm."
+              },
+              {
+                "source_ref": "51:48",
+                "root": "م ه د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001451",
+                "branch_id": "B003",
+                "role": "Preparing and setting an affair straight supply the world's readiness to function as a sign-bearing route."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination supplies the causal relation from created multiplicity back to a source."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ز و ج",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000652",
+                "branch_id": "B001",
+                "role": "A counterpart joined to its mate supplies the paired structure from which the singular destination stands apart."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recovery into awareness supplies the cognitive hinge between observing pairhood and obeying the next imperative."
+              }
+            ],
+            "structural_cues": [
+              "51:47-49 move from heaven to earth to every created thing, then 51:50 begins with inferentially available ف.",
+              "The explicit pair structure immediately precedes a singular named destination."
+            ],
+            "reader_inference": "The packet supplies construction, strength, expansion, preparation, pairhood, and remembrance; I infer that the ف of 51:50 converts cosmological recognition into sourceward allegiance. A live alternative is that 51:50 starts a new exhortation and the preceding creation sequence supplies only general warrant.",
+            "changed_reading": {
+              "before": "Escape the created world as though material existence itself were the problem.",
+              "after": "Read the prepared, paired world as a route: move through recognition of its signs toward the One who originates them."
+            }
+          },
+          {
+            "model_id": "delta_exclusive_destination",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ج ع ل",
+              "ء ل ه",
+              "ء خ ر",
+              "ن ذ ر",
+              "ب ي ن"
+            ],
+            "mechanism": "The next ayah repeats the warning formula exactly while prohibiting the placement of another deity alongside Allah. That controlled repetition glosses the goal phrase: flight is the removal of rival coordinates and the concentration of worship on a single destination.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies departure from competing attachments."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and its object supply the singular positive destination."
+              },
+              {
+                "source_ref": "51:51",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Causing something to occupy a state supplies the prohibited act of installing a rival coordinate."
+              },
+              {
+                "source_ref": "51:51",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "4",
+                  "5"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped and what is made worshiped supply the exact field in which exclusivity is demanded."
+              },
+              {
+                "source_ref": "51:51",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Otherness beside the first supplies the rival term that the focus destination excludes."
+              },
+              {
+                "source_ref": "51:51",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The repeated danger-warning binds the exclusivity gloss to the same urgency as the focus command."
+              },
+              {
+                "source_ref": "51:51",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "Repeated manifestness makes the prohibition an explicit clarification of the preceding destination."
+              }
+            ],
+            "structural_cues": [
+              "إني لكم منه نذير مبين is repeated verbatim across 51:50-51.",
+              "The first half changes from a positive motion command to a negative prohibition on a co-deity."
+            ],
+            "reader_inference": "The packet supplies exact refrain repetition and the prohibition of another deity; I infer that 51:51 functions as a negative gloss on 51:50's positive direction. A live alternative is that the two commands are coordinated but independently motivated.",
+            "changed_reading": {
+              "before": "Seek Allah as one source of safety.",
+              "after": "Make Allah the exclusive coordinate of worship by leaving every installed rival; the next ayah specifies what the flight leaves behind."
+            }
+          },
+          {
+            "model_id": "delta_exit_inherited_labels",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "س ح ر",
+              "ج ن ن",
+              "و ص ي",
+              "ط غ ي",
+              "ذ ك ر",
+              "ء م ن"
+            ],
+            "mechanism": "The same sorcerer-or-madman dismissal recurs across separated peoples, then is exposed as if mutually transmitted and rooted in boundary-breaking. In that setting, flight also becomes an epistemic and social exit from inherited labeling toward a warning that discloses meaning and a reminder that can be received in settled trust.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies departure from a socially reproduced interpretive posture."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "Meaning disclosed by speech supplies the epistemic destination opposed to dismissive labels."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message supply the repeatedly misclassified object."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "س ح ر",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000682",
+                "branch_id": "B002",
+                "role": "Diversion and deception supply one stock label used to neutralize disclosure."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "Covered reason supplies the second stock label and its claim that the message lacks intelligibility."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "و ص ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001656",
+                "branch_id": "B003",
+                "role": "Mutually transmitting counsel supplies the image of a dismissal reproduced across communities."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000937",
+                "branch_id": "B001",
+                "role": "Exceeding the boundary in rebellion supplies the deeper continuity beneath the repeated labels."
+              },
+              {
+                "source_ref": "51:53",
+                "root": "ط غ ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000936",
+                "branch_id": "B001",
+                "role": "The alternate mapped root likewise supplies boundary transgression, preserving the split root's convergent contribution."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "Reminder as what reawakens supplies the counter-practice to inherited dismissal."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B002",
+                "role": "Assent in which the heart settles supplies the receptive condition in which reminder becomes useful."
+              }
+            ],
+            "structural_cues": [
+              "The exact sorcerer-or-madman pair appears in both 51:39 and 51:52.",
+              "51:53 asks whether the communities transmitted the formula, then substitutes shared transgression as the explanation.",
+              "51:54-55 move from turning away from the hardened group to continuing reminder for receptive hearers."
+            ],
+            "reader_inference": "The packet supplies recurrent labels, the question of mutual counsel, transgression, and beneficial reminder; I infer that flight includes exit from a socially inherited reading habit. A live alternative is that the recurrence proves prophetic continuity but does not define the object of فرار.",
+            "changed_reading": {
+              "before": "The hearer must move away from punishment as an isolated individual.",
+              "after": "The hearer must also leave a transhistorical social script that renames disclosure as sorcery or madness and move toward receptive clarity."
+            }
+          },
+          {
+            "model_id": "delta_nontransactional_service",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ل ق",
+              "ع ب د",
+              "ر ز ق",
+              "ط ع م",
+              "ء ل ه",
+              "ق و ي",
+              "م ت ن"
+            ],
+            "mechanism": "Creation is ordered to worship, but the Creator disclaims any need for provision or feeding and is named the strong, firm Provider. Flight toward Allah therefore leaves a transactional deity-model: it is movement into dependent service of the source who supplies rather than needs support.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies departure from a reciprocal bargain model of worship."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Worship and its object supply the destination whose relation is clarified downstream."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination supplies the asymmetry between created servants and their source."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the positive mode of life reached by the flight."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "An allotted gift, explicitly not sought from creatures, supplies the rejected payment model."
+              },
+              {
+                "source_ref": "51:57",
+                "root": "ط ع م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000934",
+                "branch_id": "B002",
+                "role": "Feeding another, explicitly disclaimed, supplies the rejected idea that worship sustains God."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The named worshiped One identifies the same destination as the independently sufficient Provider."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ر ز ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000560",
+                "branch_id": "B001",
+                "role": "Allotted giving supplies the direction of provision from destination to fugitive, not the reverse."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "ق و ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001274",
+                "branch_id": "B001",
+                "role": "Strength gathered like strands of a rope supplies independence from creaturely reinforcement."
+              },
+              {
+                "source_ref": "51:58",
+                "root": "م ت ن",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001396",
+                "branch_id": "B001",
+                "role": "Extended firmness supplies stable sufficiency at the destination."
+              }
+            ],
+            "structural_cues": [
+              "51:56 states creaturely purpose; 51:57 negates divine need; 51:58 positively names provision, strength, and firmness.",
+              "The repeated من in the focus warning and the provision denial keeps source relations prominent."
+            ],
+            "reader_inference": "The packet supplies worship-purpose, denied divine need, and divine provision and strength; I infer that flight removes a reciprocal-support model and establishes asymmetric dependence. A live alternative is that these verses define worship and providence without revising the motion metaphor.",
+            "changed_reading": {
+              "before": "Move toward a deity whose favor must be secured by supplying religious payment.",
+              "after": "Leave that transactional model and enter worshipful dependence on the Provider who needs neither sustenance nor reinforcement."
+            }
+          },
+          {
+            "model_id": "delta_urgency_without_hastening",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ذ ن ب",
+              "م ث ل",
+              "ص ح ب",
+              "ع ج ل",
+              "ك ف ر",
+              "ي و م"
+            ],
+            "mechanism": "The focus root inventory itself contains foolish hurry, yet the command's ordinary flight branch demands prompt action. Downstream, wrongdoers receive a matching share with their companions and are told not to hasten the severe day. The juxtaposition distinguishes timely reorientation from impulsively demanding that consequence accelerate.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B001",
+                "role": "Flight supplies the valid prompt action required by the warning."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B005",
+                "role": "Light, foolish hurry supplies an internal caution against equating urgency with impulsiveness."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Warning supplies the reasoned timing signal that differentiates promptness from rash acceleration."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ذ ن ب",
+                "source_word_indices": [
+                  "4",
+                  "6"
+                ],
+                "mapped_root_id": "root_000521",
+                "branch_id": "B006",
+                "role": "An allotted share supplies the measured consequence that does not need human acceleration."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "م ث ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001397",
+                "branch_id": "B001",
+                "role": "Matching likeness supplies the patterned correspondence between present wrongdoers and predecessors."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and association supply the social continuity by which a matching share is inherited."
+              },
+              {
+                "source_ref": "51:59",
+                "root": "ع ج ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000987",
+                "branch_id": "B001",
+                "role": "Acceleration and bringing forward, under prohibition, supply the explicit limit on rash urgency."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "ك ف ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001307",
+                "branch_id": "B003",
+                "role": "Blocking the truth supplies the settled posture whose consequence is not to be summoned early."
+              },
+              {
+                "source_ref": "51:60",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "A severe event-day supplies the fixed horizon toward which reckless hastening points."
+              }
+            ],
+            "structural_cues": [
+              "51:50 commands immediate-seeming movement, while 51:59 explicitly prohibits hastening.",
+              "The matching share and severe day make consequence measured and scheduled rather than produced by the hearer's urgency."
+            ],
+            "reader_inference": "The packet supplies a hurry branch within فرر, an explicit hastening prohibition, and a measured matching share; I infer a contrast between timely conversion and rash acceleration. A live alternative is that the prohibition concerns only mockery of judgment and does not qualify the imperative's manner.",
+            "changed_reading": {
+              "before": "Fleeing well means maximizing speed and emotional intensity.",
+              "after": "Respond promptly to warning, but do not confuse decisive reorientation with the foolish haste that tries to pull consequence forward."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_recovered_reason",
+            "confidence": "exploratory",
+            "containment": "This is surprising because rational recovery after slackening is a rare branch far from the ordinary imperative sense of فرر. It remains anchored in the focus root and is sharpened by the repeated context label مجنون against مبين; downstream prose should present it as an inverse resonance, not as a replacement translation.",
+            "focus_anchor": "ففروا through the rational-recovery branch of ف ر ر, held against مبين.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B015",
+                "role": "Becoming rational after slackening supplies a second-order sense of flight as recovered judgment."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "Manifest appearance supplies the clarity into which recovered judgment opens."
+              },
+              {
+                "source_ref": "51:39",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "Reason covered by madness supplies the first contextual inverse of rational recovery."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B006",
+                "role": "The repeated madness label turns covered reason into a transhistorical foil for the focus command."
+              }
+            ],
+            "changed_reading": {
+              "before": "The imperative concerns only outward escape from danger.",
+              "after": "It may also activate recovery of judgment from lax or covered reason, moving into manifest clarity toward Allah."
+            }
+          },
+          {
+            "outlier_id": "outlier_return_to_origin",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the return-to-beginning branch of فرر is form-distant from ordinary flight. It remains anchored in the focus root and gains a coherent origin-purpose path from creation, remembrance, and worship; downstream prose should call it an etymological activation rather than make رجوع the verse's direct gloss.",
+            "focus_anchor": "ففروا through the branch in which an affair returns to its beginning, with إلى الله naming the terminus.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B003",
+                "role": "An affair returning to its beginning supplies flight as restoration to an originary orientation."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshiped One supplies the originward terminus rather than a merely backward motion."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination supplies the beginning to which the rare flight branch can point."
+              },
+              {
+                "source_ref": "51:49",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recovering what was forgotten supplies the cognitive mode of return."
+              },
+              {
+                "source_ref": "51:56",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the restored purpose toward which origin-return moves."
+              }
+            ],
+            "changed_reading": {
+              "before": "Flight means increasing distance from what threatens.",
+              "after": "At branch level, flight may paradoxically be return: recover the created purpose of worship by moving back toward the originating relation."
+            }
+          },
+          {
+            "outlier_id": "outlier_exposing_flight",
+            "confidence": "exploratory",
+            "containment": "This is surprising because exposure, search, and drawing out inner speech invert the concealment expected from flight. It remains anchored in a supplied ف ر ر branch and coheres with مبين as meaning-disclosure and the context's contrast between covered reason and reminder; downstream prose should frame it as a paradoxical search-image, not a lexical substitution.",
+            "focus_anchor": "ففروا through the exposing and searching branch of ف ر ر, joined to مبين as disclosed meaning.",
+            "activation_trace": [
+              {
+                "source_ref": "51:50",
+                "root": "ف ر ر",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001142",
+                "branch_id": "B002",
+                "role": "Exposure, investigation, and drawing out what is within supply a paradoxical inward-search dimension to flight."
+              },
+              {
+                "source_ref": "51:50",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B005",
+                "role": "Revealing meaning by speech or sign supplies the disclosed result of the search."
+              },
+              {
+                "source_ref": "51:52",
+                "root": "ج ن ن",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000266",
+                "branch_id": "B010",
+                "role": "What is hidden in the breast supplies the interior that the exposing branch can draw into the open."
+              },
+              {
+                "source_ref": "51:55",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "1",
+                  "3"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder that makes one remember supplies the operation that brings latent recognition forward."
+              }
+            ],
+            "changed_reading": {
+              "before": "Flight protects the self by withdrawing and concealing it.",
+              "after": "A live branch resonance makes flight toward Allah an exposing search in which warning and reminder draw concealed recognition into clarity."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The historical sequence turns generic refuge into a reversal of Pharaoh's reliance and a choice of destination before capture imposes one.",
+            "The warning defines a finite agency window: after refusal, neither rising nor aid remains available.",
+            "The creation sequence makes flight a sourceward reading of prepared, paired signs, and 51:51 makes that destination exclusive.",
+            "51:56-58 removes a transactional deity-model, while 51:59 distinguishes prompt reorientation from reckless hastening."
+          ],
+          "what_was_special": "The trace preserved voluntary versus forced movement, the route from paired creation to its source, and the rare return, rational-recovery, and exposure branches of ف ر ر instead of collapsing the ayah into generic fear or piety.",
+          "remaining_uncertainties": [
+            "The inferential force assigned to the initial ف in 51:50 may be weaker than the creation-to-Creator model requires.",
+            "The vector parallels with Pharaoh and the agency contrast with forced throwing are reader-supplied arrows, not explicit equations in the packet.",
+            "The rare ف ر ر outliers are branch resonances and should not displace the ordinary escape sense.",
+            "The social-label model may describe the warning's reception more directly than the commanded flight itself."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Flight is redirected toward the only secure destination.** `ف ر ر/B001` supplies flight/escape; `ء ل ه/B002` the fixed divine name; `ن ذ ر/B001` warning that awakens caution; `ب ي ن/B004` clarity. The preceding ruins show flight from harm, but *ilā* supplies a positive target. I infer **clear warning -> danger recognized -> escape toward divine protection**. The verse converts fear into directed movement.\n2. **Flight uncovers what warning probes.** `ف ر ر/B002` supplies probing and drawing out what is hidden, while `ب ي ن/B005` supplies disclosed meaning. Exploratorily, I infer **warning examines attachments -> false refuges exposed -> movement toward God**. This inward diagnostic reading coexists with urgent escape.",
@@ -4165,18 +5495,23 @@
   "root_lexicon": {
     "root_001142": {
       "root_ar": "ف ر ر",
+      "qac_roots_ar": [
+        "ف ر ر"
+      ],
       "root_id": "root_001142",
-      "root_mapping": {
-        "root_id": "root_001142",
-        "root_norm": "ف ر ر",
-        "source_root_norm": "ف ر ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 10,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف ر ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 10
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "ba1f69b39afcdda596528f32fadb4cc0c386b5b1efbe73ed1c9a5b51a4e4b84e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7167,18 +8502,23 @@
     },
     "root_000047": {
       "root_ar": "ء ل ه",
+      "qac_roots_ar": [
+        "ء ل ه"
+      ],
       "root_id": "root_000047",
-      "root_mapping": {
-        "root_id": "root_000047",
-        "root_norm": "ء ل ه",
-        "source_root_norm": "أ ل ه",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 2849,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ل ه",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 2849
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "cddc3fb013629dbf62551cacd0717511b2ef7f01105f035350a417ade740cf38",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8506,18 +9846,23 @@
     },
     "root_001488": {
       "root_ar": "ن ذ ر",
+      "qac_roots_ar": [
+        "ن ذ ر"
+      ],
       "root_id": "root_001488",
-      "root_mapping": {
-        "root_id": "root_001488",
-        "root_norm": "ن ذ ر",
-        "source_root_norm": "ن ذ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9b8307ef70c2b201e5cde104a00eae217e678983e73b9dde34cef1bec9a54997",
         "branches": [
@@ -9214,18 +10559,23 @@
     },
     "root_000170": {
       "root_ar": "ب ي ن",
+      "qac_roots_ar": [
+        "ب ي ن"
+      ],
       "root_id": "root_000170",
-      "root_mapping": {
-        "root_id": "root_000170",
-        "root_norm": "ب ي ن",
-        "source_root_norm": "ب ي ن",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 485,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ي ن",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 485
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "2b4a49bd04f2db888f6809da07212867d9635bd0efb6d1ad0b10f3460939b55e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12753,14 +14103,20 @@
       "words_total": 9,
       "words_resolved": 9,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 9
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -13007,11 +14363,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_50.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_50.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 9,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 118601,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -13087,19 +14456,37 @@
           "root_ids": [
             "root_001142"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف ر ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001142",
+            "targets": [
+              {
+                "qac_root_norm": "ف ر ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001142",
+                "furuq_root_norm": "ف ر ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 10,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001142",
-              "root_norm": "ف ر ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف ر ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 10,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13124,19 +14511,37 @@
           "root_ids": [
             "root_000047"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ل ه",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000047",
+            "targets": [
+              {
+                "qac_root_norm": "ء ل ه",
+                "target_rank": 1,
+                "furuq_root_id": "root_000047",
+                "furuq_root_norm": "ء ل ه",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 2849,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000047",
-              "root_norm": "ء ل ه",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ل ه",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 2849,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 2,
+              "gloss_branch_count": 2,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13161,19 +14566,37 @@
           "root_ids": [
             "root_001488"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ذ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001488",
+            "targets": [
+              {
+                "qac_root_norm": "ن ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001488",
+                "furuq_root_norm": "ن ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001488",
-              "root_norm": "ن ذ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -13185,19 +14608,37 @@
           "root_ids": [
             "root_000170"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ي ن",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000170",
+            "targets": [
+              {
+                "qac_root_norm": "ب ي ن",
+                "target_rank": 1,
+                "furuq_root_id": "root_000170",
+                "furuq_root_norm": "ب ي ن",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 485,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000170",
-              "root_norm": "ب ي ن",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ي ن",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 485,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 13,
+              "gloss_branch_count": 13,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -13224,10 +14665,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 34,
+        "dictionary_branches_kept": 34,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 31,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

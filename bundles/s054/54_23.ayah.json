@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.368680+00:00",
+  "generated_at": "2026-08-04T22:29:52.979672+00:00",
   "surah": 54,
   "ayah": 23,
   "ayahRef": "54:23",
@@ -1687,7 +1687,8 @@
       "morpheme_ids": [
         "m-w-s054-a023-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:23:1"
+      "aligned_qac_word_ref_upstream": "54:23:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1701,7 +1702,8 @@
       "morpheme_ids": [
         "m-w-s054-a023-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:23:2"
+      "aligned_qac_word_ref_upstream": "54:23:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1715,7 +1717,8 @@
       "morpheme_ids": [
         "m-w-s054-a023-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "54:23:3"
+      "aligned_qac_word_ref_upstream": "54:23:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1731,7 +1734,8 @@
         "m-w-s054-a023-w003-02",
         "m-w-s054-a023-w003-03"
       ],
-      "aligned_qac_word_ref_upstream": "54:23:4"
+      "aligned_qac_word_ref_upstream": "54:23:4",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1956,7 +1960,709 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s54/packets/54_23.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "54:23",
+      "window": [
+        "54:18",
+        "54:19",
+        "54:20",
+        "54:21",
+        "54:22",
+        "54:23",
+        "54:24",
+        "54:25",
+        "54:26",
+        "54:27",
+        "54:28",
+        "54:29",
+        "54:30",
+        "54:31",
+        "54:32"
+      ],
+      "ayah_count": 15,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "54:23",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1-active-counterclassification",
+            "confidence": "strong",
+            "focus_anchor": "كَذَّبَتْ and بِٱلنُّذُرِ",
+            "mechanism": "Form-II denial actively assigns falsity to danger-bearing alerts or their bearer, neutralizing the caution those alerts seek to awaken.",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attribution of lying makes the focus verb an active counter-classification rather than passive uncertainty."
+              },
+              {
+                "source_ref": "54:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Danger communicated to awaken caution supplies the rejected object's practical function."
+              }
+            ],
+            "changed_reading": {
+              "before": "Thamud did not believe the warnings.",
+              "after": "Thamud actively classified danger-bearing alerts, and by implication their bearer, as false so that the alerts would not awaken caution."
+            }
+          },
+          {
+            "model_id": "b2-aborted-response",
+            "confidence": "medium",
+            "focus_anchor": "The coupling of كَذَّبَتْ with the caution-producing نُّذُرِ",
+            "mechanism": "A warning begins a response trajectory toward precaution; the failed-charge branch of ك ذ ب recasts denial as hearing the alert but not carrying its demanded response through.",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "A charge that fails to hold or carry through models denial as an aborted response trajectory."
+              },
+              {
+                "source_ref": "54:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The alert's literal aim of producing caution supplies the response that is aborted."
+              }
+            ],
+            "changed_reading": {
+              "before": "They rejected warning statements.",
+              "after": "Their denial names a failed response to warning: the alert is encountered, but its movement into precaution is stopped."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "c1-recurring-case",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع و د",
+              "م ر ر"
+            ],
+            "mechanism": "The proper-name occurrence عَادٌ activates return and repetition, while مُّسْتَمِرٍّ activates temporal recurrence; together with the repeated denial-warning frame, they place Thamud inside a returning, countable circuit rather than an isolated episode.",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The focus act of assigning falsity is the response that recurs across cases."
+              },
+              {
+                "source_ref": "54:18",
+                "root": "ع و د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001058",
+                "branch_id": "B001",
+                "role": "Return after departure and repetition after a beginning make the preceding proper name activate a cyclical frame."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "م ر ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001414",
+                "branch_id": "B002",
+                "role": "Temporal occurrence and repetition extend the cycle through time."
+              }
+            ],
+            "structural_cues": [
+              "54:18 places كَذَّبَتْ and نُذُرِ before the focus, and 54:21 and 54:30 repeat the punishment-warning refrain."
+            ],
+            "reader_inference": "The packet supplies return and recurrence branches plus repeated framing; I infer that the frames form a serial warning-response circuit. A live alternative is that عَادٌ functions only as a proper name and مُّسْتَمِرٍّ describes only one day.",
+            "changed_reading": {
+              "before": "Thamud committed one historical act of denial.",
+              "after": "Thamud's denial is another return of a recurring warning-response circuit, and the plural warnings gather repeated passes through that circuit."
+            }
+          },
+          {
+            "model_id": "c2-accessible-reminder",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ي س ر",
+              "ذ ك ر"
+            ],
+            "mechanism": "The focus is bracketed by a refrain of opening/ease and recovered remembrance, so the warnings are presented as cognitively available prompts rather than inaccessible information.",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "A warning seeks to awaken caution, the practical uptake made easier by the refrain."
+              },
+              {
+                "source_ref": "54:22",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "Opening and ease after difficulty characterize the warning material as accessible."
+              },
+              {
+                "source_ref": "54:22",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Bringing something back to presence after forgetfulness gives the accessible warning its mnemonic aim."
+              },
+              {
+                "source_ref": "54:32",
+                "root": "ي س ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001694",
+                "branch_id": "B001",
+                "role": "The repeated opening/ease branch closes the episode with the same accessibility claim."
+              },
+              {
+                "source_ref": "54:32",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "4",
+                  "7"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B009",
+                "role": "A reminder as that which makes one remember turns the closing refrain into renewed warning uptake."
+              }
+            ],
+            "structural_cues": [
+              "The identical remembrance refrain at 54:22 and 54:32 brackets the entire Thamud unit."
+            ],
+            "reader_inference": "The packet supplies ease, recollection, and an exact bracket; I infer that accessibility heightens agency in the focus denial. A live alternative is that the refrain frames recitation without specifying Thamud's cognitive access.",
+            "changed_reading": {
+              "before": "They rejected warnings whose accessibility is unspecified.",
+              "after": "They resisted warnings placed inside an easy-to-recall loop, refusing to let an available reminder become present as caution."
+            }
+          },
+          {
+            "model_id": "c3-status-counterverdict",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ح د",
+              "ت ب ع",
+              "ب ي ن",
+              "ك ذ ب",
+              "ع ل م"
+            ],
+            "mechanism": "Their objection to following one human from among themselves becomes the accusation كَذَّابٌ, then future disclosure reverses the question of who owns that label; the focus denial is therefore a social counter-verdict over authority and rank.",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Attributing lying supplies the adjudicative act compressed by the collective focus verb."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B001",
+                "role": "Singularity and separation sharpen their objection that one peer should stand apart."
+              },
+              {
+                "source_ref": "54:24",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following behind makes warning uptake a contested relation of rank and direction."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B002",
+                "role": "The interval or middle between parties locates selection inside their peer group."
+              },
+              {
+                "source_ref": "54:25",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "The explicit liar label instantiates the attribution of falsity named by the focus verb."
+              },
+              {
+                "source_ref": "54:26",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Future disclosure promises to reopen and reverse their verdict."
+              }
+            ],
+            "structural_cues": [
+              "54:24-26 stages direct speech from refusal to follow a peer, through the liar accusation, to promised exposure of the true liar."
+            ],
+            "reader_inference": "The packet supplies the peer objection, follow relation, liar label, and reversal; I infer that status protection drives the counter-verdict. A live alternative is that the speech expresses doctrinal skepticism without a rank motive.",
+            "changed_reading": {
+              "before": "The group simply judges the warnings false.",
+              "after": "The group protects peer-level autonomy by transferring the lie-label to the one human they refuse to follow, a verdict the next day will reverse."
+            }
+          },
+          {
+            "model_id": "c4-dispatched-warning-media",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر س ل",
+              "ص ي ح"
+            ],
+            "mechanism": "The same sending root governs the preceding wind, the local she-camel test, and the final cry, expanding نُّذُرِ from verbal notices into a sequence of dispatched media: precedent, embodied test, and terminal signal.",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Communicated danger that awakens caution is the focus category expanded across media."
+              },
+              {
+                "source_ref": "54:19",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch of the wind supplies a narrated precedent as warning medium."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch of the she-camel turns warning into a living and observable test."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch of the final event completes the sequence."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ص ي ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000895",
+                "branch_id": "B002",
+                "role": "The terrifying cry makes the terminal dispatch itself an audible danger signal."
+              }
+            ],
+            "structural_cues": [
+              "Around the focus, ر س ل recurs at 54:19, 54:27, and 54:31 while its dispatched object changes from wind to she-camel to cry."
+            ],
+            "reader_inference": "The packet supplies the repeated sending construction and changing objects; I infer that they are phases resolving the plural warnings. A live alternative is that they are independent divine acts rather than one warning system.",
+            "changed_reading": {
+              "before": "The plural warnings are repeated verbal admonitions.",
+              "after": "The plural warnings form a dispatched system whose media range from remembered precedent to a living test and finally an inescapable cry."
+            }
+          },
+          {
+            "model_id": "c5-organized-breach",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ت ن",
+              "ق س م",
+              "ش ر ب",
+              "ن د و",
+              "ص ح ب",
+              "ع ق ر"
+            ],
+            "mechanism": "The warning becomes an executable compliance test: a she-camel is an assay, water is allotted, each drinking share is due, and the group calls a companion who disables the animal. Collective denial is enacted as coordinated breach.",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B004",
+                "role": "Failure to carry a charge through anchors denial as the abortion of compliant action."
+              },
+              {
+                "source_ref": "54:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The warning calls for the caution that the test makes behaviorally observable."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ف ت ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001128",
+                "branch_id": "B001",
+                "role": "Assaying metal or a person makes the she-camel an observable test of response."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Allocation of a distinct share supplies the test's rule."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "A water allotment makes compliance concrete and scheduled."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B001",
+                "role": "Raised calling supplies the group's mobilizing signal."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001486",
+                "branch_id": "B001",
+                "role": "The split root's assembly branch makes the call a collective operation."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and attachment identify the actor as socially continuous with the group."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B002",
+                "role": "Hamstringing an animal is the concrete breach that disables the embodied warning."
+              }
+            ],
+            "structural_cues": [
+              "54:27-29 proceeds from test, to announced allocation, to group call, delegated action, and hamstringing."
+            ],
+            "reader_inference": "The packet supplies the test, schedule, call, companion, and injury; I infer that the action sequence operationalizes the collective verb in 54:23. A live alternative is that the later crime follows denial without defining its mechanism.",
+            "changed_reading": {
+              "before": "Denial is a collective verbal or mental stance.",
+              "after": "Denial becomes organized noncompliance: the group converts a clear test into a rule to violate, mobilizes one of its own, and disables the warning-sign."
+            }
+          },
+          {
+            "model_id": "c6-many-to-one-finalization",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ح د",
+              "ص ي ح",
+              "ه ش م",
+              "ح ظ ر"
+            ],
+            "mechanism": "The plural warnings permit repeated, still-reversible occasions for caution, but one terrifying cry converts warning into an irreversible event and leaves only broken enclosure matter.",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The plural caution-awakening alerts supply the many side of the temporal contrast."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "و ح د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001631",
+                "branch_id": "B002",
+                "role": "Numerical oneness compresses the endpoint into a single event."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ص ي ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000895",
+                "branch_id": "B002",
+                "role": "The terrifying cry turns communicated danger into the event feared."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ه ش م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_001592",
+                "branch_id": "B002",
+                "role": "Dry broken vegetation supplies the irreversible material residue."
+              },
+              {
+                "source_ref": "54:31",
+                "root": "ح ظ ر",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000338",
+                "branch_id": "B001",
+                "role": "The enclosure that gathers and confines supplies the residue's bounded setting."
+              }
+            ],
+            "structural_cues": [
+              "The focus plural نُّذُرِ is answered at 54:31 by صَيْحَةً وَاحِدَةً, an explicit many-to-one contrast."
+            ],
+            "reader_inference": "The packet supplies plural warnings, one cry, and broken residue; I infer a temporal arrow from repeated opportunity to finalization. A live alternative is that 'one' marks only the cry's number, not the warning sequence's closure.",
+            "changed_reading": {
+              "before": "They denied several equivalent warnings.",
+              "after": "They spent multiple reversible occasions for caution until the many warnings converged on one irreversible cry."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1-interrupted-carrier",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates rare material ك ذ ب senses of milk ceasing and an animal stopping rather than ordinary denial. It remains anchored in كَذَّبَتْ and is reinforced by the sent she-camel, allotted drink, and hamstringing; downstream prose should present it only as an interrupted-continuity overlay, never as a replacement translation.",
+            "focus_anchor": "كَذَّبَتْ through the cessation branches B006 and B007",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B006",
+                "role": "Milk expected to continue but ceasing anchors a material sense of failed provision."
+              },
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B007",
+                "role": "An animal running and then stopping anchors interrupted movement in the focus verb."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B006",
+                "role": "Successive milk flow links sending to sustained provision."
+              },
+              {
+                "source_ref": "54:27",
+                "root": "ن و ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001567",
+                "branch_id": "B002",
+                "role": "The literal she-camel makes the milk and animal-motion branches context-visible."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B002",
+                "role": "The allotted drink supplies a recurring provision whose continuity matters."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B002",
+                "role": "Hamstringing supplies the act that forcibly ends the warning-carrier's movement."
+              }
+            ],
+            "changed_reading": {
+              "before": "They declared the warning false.",
+              "after": "Exploratorily, their takdhib overlays forced cessation: they make an embodied warning's movement and sustaining flow fail to continue."
+            }
+          },
+          {
+            "outlier_id": "o2-wound-liability",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because نُّذُرِ ordinarily presents warnings, not wound compensation. It remains anchored in the focus root's explicit wound-due branch and the later hamstringing; downstream prose should render it as a legal afterimage of incurred liability, not a lexical substitution.",
+            "focus_anchor": "بِٱلنُّذُرِ through the obligatory wound-compensation branch B003",
+            "activation_trace": [
+              {
+                "source_ref": "54:23",
+                "root": "ك ذ ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001290",
+                "branch_id": "B002",
+                "role": "Active attribution of falsity supplies refusal of the claim that liability makes."
+              },
+              {
+                "source_ref": "54:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B003",
+                "role": "A wound carrying obligatory compensation gives the warnings a latent liability register."
+              },
+              {
+                "source_ref": "54:28",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B003",
+                "role": "Allocation of due shares supplies the episode's juridical structure."
+              },
+              {
+                "source_ref": "54:29",
+                "root": "ع ق ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001035",
+                "branch_id": "B001",
+                "role": "Wounding and defeat provide the injury that can incur a due."
+              }
+            ],
+            "changed_reading": {
+              "before": "They rejected advance alerts of danger.",
+              "after": "Exploratorily, the warnings carry a legal afterimage: denial anticipates refusal of the due incurred when the warning-sign is wounded."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Denial becomes an active counter-classification that disables caution, not mere absence of belief.",
+            "Repeated sending expands the plural warnings into narrated, living, and terminal media.",
+            "The camel-water sequence turns collective denial into organized breach of an observable test.",
+            "Many warning opportunities converge on one irreversible cry."
+          ],
+          "what_was_special": "The two-word focus opened simultaneous speech-act, response-process, social-verdict, and material-legal readings; the context made several coexist without requiring one final disambiguation.",
+          "remaining_uncertainties": [
+            "The recurrence model depends partly on allowing the proper-name root ع و د to activate return rather than remain only a name.",
+            "The ر س ل sequence may be one warning system or several independent acts.",
+            "The interrupted-carrier and wound-liability readings depend on distant branches and should remain contained overlays."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **A whole warning system is rejected in one compressed act.** `ك ذ ب` B002 is declaring false and `ن ذ ر` B001 warnings that awaken caution. The plural `ٱلنُّذُرِ` follows two fully narrated demonstrations and precedes another. I infer that Thamud’s denial targets not an isolated utterance but a cumulative class of warning signals. The brevity reads as diagnostic compression: the same refusal mechanism is already recognizable.",
@@ -2970,18 +3676,23 @@
   "root_lexicon": {
     "root_001290": {
       "root_ar": "ك ذ ب",
+      "qac_roots_ar": [
+        "ك ذ ب"
+      ],
       "root_id": "root_001290",
-      "root_mapping": {
-        "root_id": "root_001290",
-        "root_norm": "ك ذ ب",
-        "source_root_norm": "ك ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 246,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 246
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8629e663c3ccfee9115e9a58518afccf79bca3ac3857679feeb8c03a9b9314fd",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4741,18 +5452,23 @@
     },
     "root_001488": {
       "root_ar": "ن ذ ر",
+      "qac_roots_ar": [
+        "ن ذ ر"
+      ],
       "root_id": "root_001488",
-      "root_mapping": {
-        "root_id": "root_001488",
-        "root_norm": "ن ذ ر",
-        "source_root_norm": "ن ذ ر",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 113,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "9b8307ef70c2b201e5cde104a00eae217e678983e73b9dde34cef1bec9a54997",
         "branches": [
@@ -5462,14 +6178,20 @@
       "words_total": 4,
       "words_resolved": 4,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s054/linguistic/morphemes.tsv",
-        "ayah_count": 56,
-        "row_count": 586,
+        "ayah_count": 55,
+        "row_count": 579,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -5710,11 +6432,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s054"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s54/packets/54_23.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s54/readers/reader_hft_a/54_23.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 98174,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -5787,19 +6522,37 @@
           "root_ids": [
             "root_001290"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001290",
+            "targets": [
+              {
+                "qac_root_norm": "ك ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_001290",
+                "furuq_root_norm": "ك ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 246,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001290",
-              "root_norm": "ك ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 246,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -5824,19 +6577,37 @@
           "root_ids": [
             "root_001488"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ذ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001488",
+            "targets": [
+              {
+                "qac_root_norm": "ن ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001488",
+                "furuq_root_norm": "ن ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001488",
-              "root_norm": "ن ذ ر",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -5850,10 +6621,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 12,
+        "dictionary_branches_kept": 12,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 0,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

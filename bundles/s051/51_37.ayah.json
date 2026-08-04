@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.010933+00:00",
+  "generated_at": "2026-08-04T22:29:47.457626+00:00",
   "surah": 51,
   "ayah": 37,
   "ayahRef": "51:37",
@@ -2360,7 +2360,8 @@
       "morpheme_ids": [
         "m-w-s051-a037-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:37:1"
+      "aligned_qac_word_ref_upstream": "51:37:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2376,7 +2377,8 @@
         "m-w-s051-a037-w001-02",
         "m-w-s051-a037-w001-03"
       ],
-      "aligned_qac_word_ref_upstream": "51:37:2"
+      "aligned_qac_word_ref_upstream": "51:37:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2392,7 +2394,8 @@
         "m-w-s051-a037-w002-01",
         "m-w-s051-a037-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "51:37:3"
+      "aligned_qac_word_ref_upstream": "51:37:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2406,7 +2409,8 @@
       "morpheme_ids": [
         "m-w-s051-a037-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:37:4"
+      "aligned_qac_word_ref_upstream": "51:37:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2420,12 +2424,61 @@
       "morpheme_ids": [
         "m-w-s051-a037-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "51:37:5"
+      "aligned_qac_word_ref_upstream": "51:37:5",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null,
-    null
+    {
+      "word_index": 6,
+      "surface_ar": "يَخَافُونَ",
+      "word_ids": [
+        "w-s051-a037-w005"
+      ],
+      "qac_refs": [
+        "51:37:5:1",
+        "51:37:5:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s051-a037-w005-01",
+        "m-w-s051-a037-w005-02"
+      ],
+      "aligned_qac_word_ref_upstream": "51:37:7",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 7,
+      "surface_ar": "ٱلْعَذَابَ",
+      "word_ids": [
+        "w-s051-a037-w006"
+      ],
+      "qac_refs": [
+        "51:37:6:1",
+        "51:37:6:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s051-a037-w006-01",
+        "m-w-s051-a037-w006-02"
+      ],
+      "aligned_qac_word_ref_upstream": "51:37:8",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 8,
+      "surface_ar": "ٱلْأَلِيمَ",
+      "word_ids": [
+        "w-s051-a037-w007"
+      ],
+      "qac_refs": [
+        "51:37:7:1",
+        "51:37:7:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s051-a037-w007-01",
+        "m-w-s051-a037-w007-02"
+      ],
+      "aligned_qac_word_ref_upstream": "51:37:9",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3072,7 +3125,872 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s51/packets/51_37.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "51:37",
+      "window": [
+        "51:24",
+        "51:25",
+        "51:26",
+        "51:27",
+        "51:28",
+        "51:29",
+        "51:30",
+        "51:31",
+        "51:32",
+        "51:33",
+        "51:34",
+        "51:35",
+        "51:36",
+        "51:37"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "51:37",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_residual_warning",
+            "confidence": "strong",
+            "focus_anchor": "تَرَكْنَا ... ءَايَةً ... يَخَافُونَ ٱلْعَذَابَ ٱلْأَلِيمَ",
+            "mechanism": "Deliberate leaving preserves an aftermath as a visible indicator; that indicator lets a later observer infer a still-relevant painful outcome and therefore fear it.",
+            "activation_trace": [
+              {
+                "source_ref": "51:37",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "A kept aftermath makes the sign an intentionally persisting residue rather than an accidental survival."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest marker gives the retained residue its evidentiary form."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Expectation of harm from an indicator supplies the observer-side inference generated by the sign."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Punitive injury identifies the feared outcome to which the residue points."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ل م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000046",
+                "branch_id": "B002",
+                "role": "Pain-inflicting force intensifies the prospective consequence encoded by the warning."
+              }
+            ],
+            "changed_reading": {
+              "before": "A generic warning sign was left at the place.",
+              "after": "An aftermath was intentionally preserved as evidence from which later observers can project a painful consequence onto their own future."
+            }
+          },
+          {
+            "model_id": "b_resultative_inscription",
+            "confidence": "medium",
+            "focus_anchor": "تَرَكْنَا فِيهَا ءَايَةً",
+            "mechanism": "The leaving construction can describe ending an action with something in a resulting state, so the place is not merely abandoned with a sign inside it; the completed action renders what remains sign-like.",
+            "activation_trace": [
+              {
+                "source_ref": "51:37",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B003",
+                "role": "Leaving something in a resulting condition supplies the transition by which the aftermath becomes a sign."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "Visible mark is the resulting condition imposed on the spatial remainder."
+              }
+            ],
+            "changed_reading": {
+              "before": "A pre-existing sign happened to remain in the location.",
+              "after": "The terminal act itself leaves the location in the condition of being legible as a sign."
+            }
+          },
+          {
+            "model_id": "b_deprivation_contour",
+            "confidence": "exploratory",
+            "focus_anchor": "ٱلْعَذَابَ ٱلْأَلِيمَ",
+            "mechanism": "The direct punitive sense remains controlling, but adjacent branches of ع ذ ب add a secondary contour of abstention and enforced withholding: painful punishment may be experienced not only as applied injury but as being cut off from what sustains or satisfies.",
+            "activation_trace": [
+              {
+                "source_ref": "51:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "The direct punishment branch controls the reading and prevents the exploratory resonance from replacing the surface sense."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B002",
+                "role": "A body refraining from food and drink contributes an abstention-shaped mode of suffering."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B003",
+                "role": "Withholding and weaning supply deprivation as a possible functional component of punishment."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ل م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000046",
+                "branch_id": "B002",
+                "role": "Painful effect keeps the deprivation contour attached to actual affliction."
+              }
+            ],
+            "changed_reading": {
+              "before": "The punishment is imagined only as pain actively imposed.",
+              "after": "Without displacing that sense, the focus branches permit punishment also to carry the pain of enforced abstention and withheld sustenance."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_calibrated_fear",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ك ر",
+              "و ج س",
+              "خ و ف",
+              "ب ش ر"
+            ],
+            "mechanism": "The earlier episode stages fear arising inwardly before unrecognized visitors, then cancels it by speech and reverses the surface toward gladness. The focus instead retains fear whose object is specified as painful punishment and whose warrant is a sign. Fear is thus calibrated by what the evidence actually indicates, not praised indiscriminately.",
+            "activation_trace": [
+              {
+                "source_ref": "51:25",
+                "root": "ن ك ر",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001550",
+                "branch_id": "B001",
+                "role": "Failure of recognition supplies the epistemic deficit from which the first fear arises."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "و ج س",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001627",
+                "branch_id": "B002",
+                "role": "Fear falling into the interior locates the first response as an unverified inward apprehension."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "3",
+                  "6"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Expected harm links the felt fear and its prohibition, showing that this expectation can be corrected."
+              },
+              {
+                "source_ref": "51:28",
+                "root": "ب ش ر",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000120",
+                "branch_id": "B005",
+                "role": "News that opens the complexion with joy supplies the explicit reversal of the first fear."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A manifest indicator gives the final fear an external warrant."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Expectation of the specified punishment becomes the warranted counterpart to the earlier corrected expectation."
+              }
+            ],
+            "structural_cues": [
+              "51:28 moves from خِيفَةً through the imperative لَا تَخَفْ to glad tidings, whereas 51:37 predicates continuing fear of a specified punishment in a defined audience."
+            ],
+            "reader_inference": "The packet supplies two fear episodes, cancellation and glad tidings in the first, and sign plus specified punishment in the second; I infer that evidence and object sort misdirected from warranted fear. A live alternative is that the two fears characterize unrelated audiences without a calibration contrast.",
+            "changed_reading": {
+              "before": "Those who fear are simply people possessing a valued fearful disposition.",
+              "after": "They are readers whose fear has been correctly aimed by a legible indicator at a specified consequence, unlike the earlier fear that speech removes."
+            }
+          },
+          {
+            "model_id": "d_report_reactivates_residue",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ت ي",
+              "ح د ث"
+            ],
+            "mechanism": "The pericope opens by making a renewed report come to the addressee and closes by leaving a sign. The report is a transport mechanism that repeatedly brings the retained evidence into a new reader's present, so the sign's persistence is textual as well as spatial.",
+            "activation_trace": [
+              {
+                "source_ref": "51:24",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming and arrival make the past event reach a presently addressed hearer."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B003",
+                "role": "Renewed speech as report supplies the repeatable carrier of the event."
+              },
+              {
+                "source_ref": "51:24",
+                "root": "ح د ث",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000299",
+                "branch_id": "B006",
+                "role": "Disclosure gives the arriving report the function of exposing what the residue means."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "Preserved aftermath supplies the durable content that can be reactivated."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest marker is what the arriving report makes newly present to interpretation."
+              }
+            ],
+            "structural_cues": [
+              "The interrogative frame هَلْ أَتَىٰكَ حَدِيثُ begins the unit, while وَتَرَكْنَا فِيهَا ءَايَةً closes it."
+            ],
+            "reader_inference": "The packet supplies an arriving report at the opening and a retained sign at the close; I supply the arrow that narration reactivates spatial evidence for remote hearers. The report may alternatively be only a frame, with the sign restricted to a physical remnant.",
+            "changed_reading": {
+              "before": "The sign is a mute relic available only to someone at the location.",
+              "after": "The retained relic is repeatedly made present when its report arrives, so narrative transmission participates in the sign's endurance."
+            }
+          },
+          {
+            "model_id": "d_mark_transfer",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ح ج ر",
+              "ط ي ن",
+              "س و م",
+              "س ر ف"
+            ],
+            "mechanism": "A directed dispatch carries hard clay objects that are themselves marked and assigned to limit-crossers; after the action, a visible mark is left in the same place. The focus sign can therefore be read as the public, durable afterlife of a prior object-level marking operation.",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Directed dispatch supplies movement of the punitive payload toward its recipients."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone gives the dispatched marks a durable material carrier."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B001",
+                "role": "Mixed clay specifies the payload's worked earthly material."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "A conspicuous brand makes each punitive object legible as assigned rather than random."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000764",
+                "branch_id": "B004",
+                "role": "The non-dominant mapped branch independently contributes a recognition mark, preserving the split root's convergent evidence."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س ر ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000699",
+                "branch_id": "B001",
+                "role": "Exceeding a limit identifies the recipients and makes the marking operation morally discriminating."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B002",
+                "role": "A preserved aftermath transfers the short-lived assignment into a durable public residue."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The visible sign is the aggregate legibility produced after the marked payload has acted."
+              }
+            ],
+            "structural_cues": [
+              "The sequence runs from sending, to stones, to clay, to passive marking and specified recipients, then through evacuation to leaving a sign."
+            ],
+            "reader_inference": "The packet supplies dispatched clay stones, their marking, their recipients, and a later retained sign; I infer transfer from marks on the payload to marked aftermath. A live alternative is that the final sign is a separate remnant with no material continuity to the stones.",
+            "changed_reading": {
+              "before": "The sign is an undifferentiated relic of destruction.",
+              "after": "It is the public residue of a directed marking process: assigned marks act on particular recipients and leave the whole site legible afterward."
+            }
+          },
+          {
+            "model_id": "d_subtractive_sign",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ر ج",
+              "ء م ن",
+              "و ج د",
+              "غ ي ر",
+              "ب ي ت",
+              "س ل م"
+            ],
+            "mechanism": "The closing sequence evacuates protected persons, inventories only one household, then leaves a sign in the repeatedly named space. Extraction and exception shape an absence, so the sign may consist not only in surviving matter but in the spatial difference produced by selective removal.",
+            "activation_trace": [
+              {
+                "source_ref": "51:35",
+                "root": "خ ر ج",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000400",
+                "branch_id": "B001",
+                "role": "Passage to the outside supplies the subtractive operation performed on the place."
+              },
+              {
+                "source_ref": "51:35",
+                "root": "ء م ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000054",
+                "branch_id": "B001",
+                "role": "Security and settled trust identify the class selectively removed from exposure."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "و ج د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001626",
+                "branch_id": "B001",
+                "role": "Finding supplies an inspection of what the extraction leaves available to count."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Exception and exclusion compress the protected presence to a single remainder."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "Household turns the counted remainder into a social unit, not merely a building."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "س ل م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000737",
+                "branch_id": "B001",
+                "role": "Freedom from harm characterizes the lone household against the exposed place."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B001",
+                "role": "Vacating and leaving supplies the complementary operation to bringing the protected people out."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "A visible indicator makes the selectively emptied spatial field readable."
+              }
+            ],
+            "structural_cues": [
+              "The same locative فِيهَا recurs in 51:35, 51:36, and 51:37 under the first-person plural verbs أَخْرَجْنَا, وَجَدْنَا, and تَرَكْنَا.",
+              "The progression from whoever was in it, to no other than one house, to a sign narrows living presence into evidentiary remainder."
+            ],
+            "reader_inference": "The packet supplies evacuation, inspection, a one-house exception, repeated location, and a left sign; I supply the arrow that subtraction itself produces legibility. A live alternative is that an independent physical object alone constitutes the sign.",
+            "changed_reading": {
+              "before": "The sign is a positive object deposited among ruins.",
+              "after": "The sign is also negative space: selective extraction, the lone protected household, and the emptied location jointly make the outcome readable."
+            }
+          },
+          {
+            "model_id": "d_deprivation_materialized",
+            "status": "strengthened",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ء ك ل",
+              "ح ج ر",
+              "ط ي ن"
+            ],
+            "mechanism": "The sequence first presents food and registers non-eating, then replaces offered nourishment with an inedible mineral payload. This gives the focus punishment's withholding and abstention branches a concrete narrative contrast, while its direct punitive branch remains primary.",
+            "activation_trace": [
+              {
+                "source_ref": "51:27",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B001",
+                "role": "Taking food supplies the nourishment action whose non-occurrence is foregrounded by the question."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B003",
+                "role": "Hard stone replaces edible material with an injurious and inassimilable payload."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B001",
+                "role": "Clay reinforces the material reversal from prepared food to earth-made punishment."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B005",
+                "role": "Direct punitive injury remains the controlling endpoint of the material reversal."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B002",
+                "role": "Abstention from food and drink receives contextual support from the explicitly uneaten offering."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ع ذ ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000994",
+                "branch_id": "B003",
+                "role": "Withholding and weaning convert the food contrast into a secondary deprivation mechanism."
+              }
+            ],
+            "structural_cues": [
+              "The hospitality sequence culminates in أَلَا تَأْكُلُونَ, whereas the mission sequence culminates in stones made from clay."
+            ],
+            "reader_inference": "The packet supplies an uneaten offering, a later mineral payload, and punishment branches for pain, abstention, and withholding; I infer a food-to-stone reversal that materializes deprivation. The live alternative is that the hospitality and punitive materials have no functional cross-link.",
+            "changed_reading": {
+              "before": "The abstention and withholding branches were only remote lexical resonances inside the focus.",
+              "after": "The movement from uneaten nourishment to injurious clay gives those resonances a visible narrative mechanism, though they remain subordinate to punishment's direct sense."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_sealed_verdict",
+            "confidence": "exploratory",
+            "containment": "Reading the aftermath as a sealed verdict is surprising because it links a clay-seal branch to the marked stones and the final sign. It remains anchored in the clay material, explicit marking, judgment vocabulary, and the resultative leaving of a sign; downstream prose should call this a material analogy, not claim that the stones literally function as documentary seals.",
+            "focus_anchor": "تَرَكْنَا فِيهَا ءَايَةً",
+            "activation_trace": [
+              {
+                "source_ref": "51:30",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B002",
+                "role": "Judgment supplies the verdict whose outcome becomes materially inspectable."
+              },
+              {
+                "source_ref": "51:30",
+                "root": "ح ك م",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000348",
+                "branch_id": "B004",
+                "role": "Firm precision gives the verdict an executed and settled quality."
+              },
+              {
+                "source_ref": "51:33",
+                "root": "ط ي ن",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000963",
+                "branch_id": "B003",
+                "role": "Sealing with clay supplies the cross-domain material analogy."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "A conspicuous impressed mark makes the payload resemble authenticated execution of the verdict."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000764",
+                "branch_id": "B004",
+                "role": "The split target's recognition mark reinforces legibility without collapsing the two mapped roots."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B003",
+                "role": "Leaving in a resulting state lets the executed outcome stand as the verdict's durable record."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The visible sign is the record-like surface read by later observers."
+              }
+            ],
+            "changed_reading": {
+              "before": "The ruin is evidence that a judgment once happened.",
+              "after": "Exploratorily, marked clay and settled outcome make the ruin resemble the judgment's seal: not merely evidence after the verdict, but its materially authenticated record."
+            }
+          },
+          {
+            "outlier_id": "o_boundary_marker",
+            "confidence": "medium",
+            "containment": "Treating the sign as a prospective boundary marker is less direct than treating it as retrospective evidence, because it activates the preventive branch of stone. It remains validly anchored in stone, explicit limit-crossers, marking, fear from an indicator, and the focus sign; downstream prose should present prevention as a function the residue acquires for readers, not as the lexical meaning of every stone.",
+            "focus_anchor": "ءَايَةً لِّلَّذِينَ يَخَافُونَ",
+            "activation_trace": [
+              {
+                "source_ref": "51:33",
+                "root": "ح ج ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000296",
+                "branch_id": "B001",
+                "role": "Prevention and enclosure let the punitive material function analogically as a hard limit."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س ر ف",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000699",
+                "branch_id": "B001",
+                "role": "Crossing a limit identifies the behavior against which the retained boundary warns."
+              },
+              {
+                "source_ref": "51:34",
+                "root": "س و م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000764",
+                "branch_id": "B004",
+                "role": "A recognition mark makes the limit publicly legible."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest sign carries the boundary forward to later observers."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "خ و ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000447",
+                "branch_id": "B001",
+                "role": "Expectation of harm turns retrospective evidence into prospective restraint."
+              }
+            ],
+            "changed_reading": {
+              "before": "The sign only reports where a past limit was crossed.",
+              "after": "For those who fear, the hard marked residue redraws that limit in the present and discourages crossing it again."
+            }
+          },
+          {
+            "outlier_id": "o_anti_inheritance",
+            "confidence": "exploratory",
+            "containment": "The anti-inheritance reading is surprising because it activates the estate-after-death branch of ت ر ك and compares two household futures. It remains anchored in the promised boy to an aged barren woman, cutting language around the criminal collective, the single household, and the sign left afterward; downstream prose should frame this as a pericope-level contrast, not a claim that ءَايَةً grammatically means inheritance.",
+            "focus_anchor": "وَتَرَكْنَا ... ءَايَةً",
+            "activation_trace": [
+              {
+                "source_ref": "51:28",
+                "root": "غ ل م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001103",
+                "branch_id": "B001",
+                "role": "Youth supplies living futurity for the first household."
+              },
+              {
+                "source_ref": "51:29",
+                "root": "ع ج ز",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000985",
+                "branch_id": "B003",
+                "role": "Advanced age makes that granted futurity unexpected."
+              },
+              {
+                "source_ref": "51:29",
+                "root": "ع ق م",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001037",
+                "branch_id": "B001",
+                "role": "Blocked offspring supplies the condition that the promise reverses."
+              },
+              {
+                "source_ref": "51:32",
+                "root": "ج ر م",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000239",
+                "branch_id": "B001",
+                "role": "Cutting gives the second collective's outcome a severed-continuity contour."
+              },
+              {
+                "source_ref": "51:36",
+                "root": "ب ي ت",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000166",
+                "branch_id": "B002",
+                "role": "Household provides the shared social unit across the contrast in futures."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ت ر ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000180",
+                "branch_id": "B006",
+                "role": "What remains after death recasts the sign as the destroyed collective's only legacy."
+              },
+              {
+                "source_ref": "51:37",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "The manifest marker is the nonliving legacy set against promised offspring."
+              }
+            ],
+            "changed_reading": {
+              "before": "The sign is simply what survives a destroyed population.",
+              "after": "Exploratorily, the pericope contrasts living inheritance granted to an apparently closed household with an anti-inheritance left by a cut-off collective: its durable offspring is only a warning sign."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The marked clay payload and the final sign form a transfer from assigned object-level marks to a durable public aftermath.",
+            "The repeated in-it sequence makes selective extraction, the lone household, and spatial absence part of the sign's evidence.",
+            "The earlier canceled fear revises the final fear into an evidence-calibrated response rather than an undifferentiated disposition."
+          ],
+          "what_was_special": "The focus became legible as an operation rather than a static relic: marks are dispatched, a population is selectively subtracted, the place is left in a sign-bearing state, and a transmitted report reactivates it. Split س و م mappings converged without being collapsed, while the clay-seal, boundary, deprivation, and anti-inheritance readings preserved branch-distant surprise under explicit containment.",
+          "remaining_uncertainties": [
+            "The final sign may be materially continuous with the marked stones, or may be an independent remnant produced by the event.",
+            "Negative space and the emptied household may constitute the sign, or may only sharpen how a separate visible object is read.",
+            "The deprivation, seal, boundary, and inheritance contours are abductive branch activations and should not displace the direct senses of punishment, clay, stone, sign, or leaving."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Destruction leaves a durable warning trace.** `ت ر ك/B002` supplies leaving an effect to remain; `ء ي ي/B003` visible sign; `خ و ف/B001` anticipated harm; `ع ذ ب/B005` punishment; `ء ل م/B002` pain-causing. I infer **past painful event -> remaining material trace -> future precaution**. The sign transfers consequence across time without repeating the event for every observer.\n2. **Fear becomes perceptual competence.** The dative restricts the sign's effective audience to those who fear. `خ و ف/B001` includes expecting harm from a sign and moving toward precaution. I infer **fearful anticipation -> attention to trace -> changed conduct**. Fear here is not mere affect but a mechanism by which terrain becomes legible.",
@@ -4049,18 +4967,23 @@
   "root_lexicon": {
     "root_000180": {
       "root_ar": "ت ر ك",
+      "qac_roots_ar": [
+        "ت ر ك"
+      ],
       "root_id": "root_000180",
-      "root_mapping": {
-        "root_id": "root_000180",
-        "root_norm": "ت ر ك",
-        "source_root_norm": "ت ر ك",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 43,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ت ر ك",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 43
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e574c5f89c378ec3d50ba92e4b948bdf2e14a458ff2b0273d7332d3710c20251",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6263,18 +7186,23 @@
     },
     "root_000074": {
       "root_ar": "ء ي ي",
+      "qac_roots_ar": [
+        "ء ي ي"
+      ],
       "root_id": "root_000074",
-      "root_mapping": {
-        "root_id": "root_000074",
-        "root_norm": "ء ي ي",
-        "source_root_norm": "أ ي ي",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 159,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ي ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 159
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "4b1ba46e164304530f91e793757db75e6eb436887eae53bef8ad91e28c7c14a7",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9070,18 +9998,23 @@
     },
     "root_000447": {
       "root_ar": "خ و ف",
+      "qac_roots_ar": [
+        "خ و ف"
+      ],
       "root_id": "root_000447",
-      "root_mapping": {
-        "root_id": "root_000447",
-        "root_norm": "خ و ف",
-        "source_root_norm": "خ و ف",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 120,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ و ف",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 120
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "29a746672b2840316f0fdb1cc0dd8e259d822550eea03799ef28d791b9cd195f",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11418,18 +12351,23 @@
     },
     "root_000994": {
       "root_ar": "ع ذ ب",
+      "qac_roots_ar": [
+        "ع ذ ب"
+      ],
       "root_id": "root_000994",
-      "root_mapping": {
-        "root_id": "root_000994",
-        "root_norm": "ع ذ ب",
-        "source_root_norm": "ع ذ ب",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 372,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ذ ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 372
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "51108e6a196357bcef2fb095a8013cd0b5662aeca84ff34a23472408615bc073",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -14515,18 +15453,23 @@
     },
     "root_000046": {
       "root_ar": "ء ل م",
+      "qac_roots_ar": [
+        "ء ل م"
+      ],
       "root_id": "root_000046",
-      "root_mapping": {
-        "root_id": "root_000046",
-        "root_norm": "ء ل م",
-        "source_root_norm": "أ ل م",
-        "resolution": "root_norm_unique",
-        "target_rank": 1,
-        "target_occurrences": 72,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ء ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 72
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "fbc751fa09c8425e86f2a55b5854680423205a0f2fec1efc05420609ca9a0399",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -15351,37 +16294,29 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
       "words_total": 9,
-      "words_resolved": 5,
-      "words_unresolved": 4,
+      "words_resolved": 8,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 7,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 5,
           "surface_ar": "الَّذِينَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 6,
-          "surface_ar": "يَخَافُونَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 7,
-          "surface_ar": "ٱلْعَذَابَ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 8,
-          "surface_ar": "ٱلْأَلِيمَ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s051/linguistic/morphemes.tsv",
-        "ayah_count": 61,
-        "row_count": 612,
+        "ayah_count": 60,
+        "row_count": 605,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -15637,11 +16572,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s051"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s51/packets/51_37.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s51/readers/reader_hft_a/51_37.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 99119,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -15716,19 +16664,37 @@
           "root_ids": [
             "root_000180"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ت ر ك",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000180",
+            "targets": [
+              {
+                "qac_root_norm": "ت ر ك",
+                "target_rank": 1,
+                "furuq_root_id": "root_000180",
+                "furuq_root_norm": "ت ر ك",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 43,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000180",
-              "root_norm": "ت ر ك",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ت ر ك",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 43,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15753,19 +16719,37 @@
           "root_ids": [
             "root_000074"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ي ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000074",
+            "targets": [
+              {
+                "qac_root_norm": "ء ي ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000074",
+                "furuq_root_norm": "ء ي ي",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 159,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000074",
-              "root_norm": "ء ي ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ي ي",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 159,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15790,19 +16774,37 @@
           "root_ids": [
             "root_000447"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ و ف",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000447",
+            "targets": [
+              {
+                "qac_root_norm": "خ و ف",
+                "target_rank": 1,
+                "furuq_root_id": "root_000447",
+                "furuq_root_norm": "خ و ف",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 120,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000447",
-              "root_norm": "خ و ف",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "خ و ف",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 120,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15827,19 +16829,37 @@
           "root_ids": [
             "root_000994"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ذ ب",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000994",
+            "targets": [
+              {
+                "qac_root_norm": "ع ذ ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000994",
+                "furuq_root_norm": "ع ذ ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 372,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000994",
-              "root_norm": "ع ذ ب",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ذ ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 372,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15864,19 +16884,37 @@
           "root_ids": [
             "root_000046"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ء ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000046",
+            "targets": [
+              {
+                "qac_root_norm": "ء ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_000046",
+                "furuq_root_norm": "ء ل م",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 72,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000046",
-              "root_norm": "ء ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ء ل م",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 72,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 2,
+              "gloss_branch_count": 2,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -15903,10 +16941,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 37,
+        "dictionary_branches_kept": 37,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 37,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

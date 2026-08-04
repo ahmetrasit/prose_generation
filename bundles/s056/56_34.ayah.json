@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.121225+00:00",
+  "generated_at": "2026-08-04T22:29:59.384547+00:00",
   "surah": 56,
   "ayah": 34,
   "ayahRef": "56:34",
@@ -1249,7 +1249,8 @@
       "morpheme_ids": [
         "m-w-s056-a034-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:34:1"
+      "aligned_qac_word_ref_upstream": "56:34:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1263,7 +1264,8 @@
       "morpheme_ids": [
         "m-w-s056-a034-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:34:2"
+      "aligned_qac_word_ref_upstream": "56:34:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1277,7 +1279,8 @@
       "morpheme_ids": [
         "m-w-s056-a034-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:34:3"
+      "aligned_qac_word_ref_upstream": "56:34:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1872,7 +1875,639 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_34.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:34",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:34",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline-elevated-resting-surfaces",
+            "confidence": "strong",
+            "focus_anchor": "Word 1 names prepared resting furnishings, while word 2 predicates physical elevation of them.",
+            "mechanism": "A surface made by spreading for bodily rest is displaced upward, joining horizontal readiness to conspicuous vertical placement.",
+            "activation_trace": [
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "The concrete furnished resting place supplies the object whose position is transformed."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Bodily raising supplies the upward displacement that distinguishes these furnishings."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase merely adds unspecified bedding to a list of amenities.",
+              "after": "It presents prepared places of repose whose defining feature is actual elevation."
+            }
+          },
+          {
+            "model_id": "baseline-exalted-preparation",
+            "confidence": "medium",
+            "focus_anchor": "The spreading and preparation potential of word 1 combines with the rank-elevation potential of word 2.",
+            "mechanism": "The prepared surface is not only high in space; the act of making repose ready is itself raised in standing, turning rest into an honored condition.",
+            "activation_trace": [
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "Spreading and making ready supply deliberate preparation rather than an incidental object."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of standing converts prepared repose into a marker of honor."
+              }
+            ],
+            "changed_reading": {
+              "before": "Raised describes only the furniture's measurable height.",
+              "after": "Raised also dignifies the condition of repose and those admitted to it."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta-bracketed-group-allocation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن"
+            ],
+            "mechanism": "Repeated companionship and right-side blessing bracket the amenity sequence, converting the elevated resting places from anonymous decor into a socially allocated station.",
+            "activation_trace": [
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "The furnished resting place is the concrete provision being assigned."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation in rank makes the assigned provision a social station as well as furniture."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and abiding association define the recipient body at the sequence's opening."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing supplies the favorable value attached to that recipient body."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "The repeated association closes the sequence by returning its amenities to the same collective."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B004",
+                "role": "Right-side strength and entitlement sharpen elevation into an authorized place."
+              }
+            ],
+            "structural_cues": [
+              "The same two-root group designation occurs at 56:27 and 56:38, enclosing 56:34 within its provision list."
+            ],
+            "reader_inference": "The packet supplies a repeated recipient label, companionship, blessing, and right-side strength; I infer that the enclosure allocates the intervening furnishings to that body. A live alternative is that both labels merely identify the audience without assigning social force to the furnishings.",
+            "changed_reading": {
+              "before": "The elevated furnishings are an unassigned feature of a pleasant scene.",
+              "after": "They function as the blessed collective's elevated and authorized place of repose."
+            }
+          },
+          {
+            "model_id": "delta-layered-habitat",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ض د",
+              "ن ض د",
+              "ظ ل ل",
+              "م د د"
+            ],
+            "mechanism": "Softening sharpness, ordered stacking, an upper cover, and longitudinal extension build a layered environment; the raised resting surface occupies a protected middle level rather than standing as an isolated luxury item.",
+            "activation_trace": [
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "A spread and prepared plane supplies the inhabitable layer within the environment."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Physical elevation locates that plane vertically among the surrounding layers."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Removal of points and sharpness supplies a cleared, non-injuring lower environment."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Ordered adjacency and stacking supply deliberate vertical organization."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B003",
+                "role": "An overhead covering supplies the upper protective layer."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Continuous extension enlarges the cover into a sustained spatial field."
+              }
+            ],
+            "structural_cues": [
+              "Ayat 56:28-34 repeatedly pair an amenity with a transformed or extended state, culminating in the raised resting surfaces."
+            ],
+            "reader_inference": "The packet supplies softened, stacked, overhead, extended, spread, and raised material relations; I infer that they cooperate as one vertical habitat. They could instead remain independent catalog items with no architectural relation.",
+            "changed_reading": {
+              "before": "The phrase depicts separate high couches.",
+              "after": "It locates repose on an elevated, protected plane within a deliberately layered habitat."
+            }
+          },
+          {
+            "model_id": "delta-elevation-without-exclusion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ك ث ر",
+              "ق ط ع",
+              "م ن ع"
+            ],
+            "mechanism": "Abundance followed by explicit cancellation of ending and barrier prevents elevation from implying scarcity, remoteness, or restricted admission; height becomes honor joined to uninterrupted access.",
+            "activation_trace": [
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "The resting furnishings are the next amenity to inherit the sequence's access logic."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Rank elevation preserves distinction while allowing the reading to release physical inaccessibility."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Numerical growth supplies plenitude rather than a scarce elevated reserve."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "The branch supplies cessation and ending, whose explicit negation establishes continuity."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "The branch supplies an obstructing barrier, whose explicit negation establishes unblocked availability."
+              }
+            ],
+            "structural_cues": [
+              "The paired negations at 56:33 immediately precede the focus phrase and complete the fruit description begun at 56:32."
+            ],
+            "reader_inference": "The packet supplies abundance and negated cessation and obstruction; I carry that availability pattern one item forward to constrain the sense of raised. The grammatical alternative confines both negations to fruit and leaves the furnishings' accessibility unstated.",
+            "changed_reading": {
+              "before": "Elevation risks suggesting remote or exclusive furnishings.",
+              "after": "The furnishings are elevated in dignity while remaining part of an abundant, uninterrupted, and unobstructed provision."
+            }
+          },
+          {
+            "model_id": "delta-created-companion-relay",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ش ء",
+              "ج ع ل",
+              "ب ك ر",
+              "ع ر ب",
+              "ت ر ب"
+            ],
+            "mechanism": "The following feminine plural objects undergo origination and transformation into untouched, loving, equal-age persons; this activates a metonymic relay from elevated bedding to the companions who occupy or constitute its intimate human provision.",
+            "activation_trace": [
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "Bedding supplies the concrete nearest antecedent and the material side of the proposed metonymic relay."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of standing allows the relay to carry honor from the furnishings to their personal occupants."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Origination supplies the explicit creative action applied to the feminine plural referents."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B001",
+                "role": "Rising and growing echo the focus's elevation and make that state dynamically achieved."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Transformation into a condition supplies the causal hinge from creation to personal predicates."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B004",
+                "role": "Untouched maidenhood forces the emerging referents into a personal and intimate domain."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B005",
+                "role": "The loving-woman branch specifies an affectionate personal relation rather than an inert furnishing."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "Equality in age and companionship completes the social identity of the feminine plural referents."
+              }
+            ],
+            "structural_cues": [
+              "The singular feminine modifier at 56:34 is followed by feminine plural object suffixes and then plural predicates denoting personal states at 56:35-37."
+            ],
+            "reader_inference": "The packet supplies nearest-positioned bedding, feminine plural suffixes, creation, transformation, and personal predicates; I infer a metonymic relay between furnishing and companion. The materially live alternative is an unexpressed new personal antecedent, leaving the focus phrase wholly literal.",
+            "changed_reading": {
+              "before": "The focus ends with elevated inanimate bedding.",
+              "after": "It can also serve as the threshold of an intimate human provision, with the elevation extending metonymically to newly formed companions."
+            }
+          },
+          {
+            "model_id": "delta-common-level-across-cohorts",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ت ر ب",
+              "ث ل ل",
+              "ء و ل",
+              "ء خ ر"
+            ],
+            "mechanism": "Equal-age companionship is followed by assembled groups from earlier and later peoples; the raised places can therefore image a common level of dignity that gathers temporally separated cohorts.",
+            "activation_trace": [
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B001",
+                "role": "A prepared spread supplies a shared plane on which the social leveling can be imagined."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B002",
+                "role": "Elevation of rank supplies the common dignity assigned to that plane."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "Equality in age and companionship introduces parity rather than hierarchy."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "An assembled company broadens the intimate setting into collective occupancy."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Temporal precedence supplies the earlier edge of the gathered population."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The repeated assembled company establishes a second collective rather than an isolated person."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness supplies the other temporal edge joined to the elevated condition."
+              }
+            ],
+            "structural_cues": [
+              "Equal-age companionship at 56:37 is followed by recipient identification at 56:38 and parallel group statements for the earlier and later at 56:39-40."
+            ],
+            "reader_inference": "The packet supplies parity, assembled companies, and both temporal edges; I infer that the raised plane figures shared rank across cohorts. The alternative is purely demographic enumeration with no leveling function for the focus phrase.",
+            "changed_reading": {
+              "before": "Each raised resting place signifies private elevation.",
+              "after": "The raised surfaces can also figure a common plane of dignity spanning assembled earlier and later cohorts."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier-fluid-textile-drape",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it crosses from poured water into textile feel, but it remains anchored in the focus's bedding and in a packet branch that explicitly connects pouring with thin cloth immediately before the focus. Render it only as a tactile or visual echo, not as a replacement translation.",
+            "focus_anchor": "The bedding sense of word 1 permits a textile realization, while physical raising permits folds or coverings to hang from an elevated support.",
+            "activation_trace": [
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "The furnishing branch supplies the textile object that can receive the water-like material analogy."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Elevation supplies a support from which fine material may fall or drape."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Delivery by watering and pouring supplies the local fluid motion."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B003",
+                "role": "The thin-cloth branch supplies the explicit cross-material bridge from pouring to delicate drape."
+              }
+            ],
+            "changed_reading": {
+              "before": "The raised furnishings are visually solid and static.",
+              "after": "They may carry a secondary image of fine elevated textiles falling with the fluid ease of poured water."
+            }
+          },
+          {
+            "outlier_id": "outlier-lifting-away-undertone",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates a distant cessation sense inside the furnishing noun, but it remains anchored in the exact focus root and is reinforced by the adjacent explicit raising root. Render it as a lexical undertone of release, never as the phrase's primary denotation.",
+            "focus_anchor": "A focus branch of word 1 can denote lifting or ceasing from something, directly beside the ordinary physical raising predicate in word 2.",
+            "activation_trace": [
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B013",
+                "role": "Cessation or being lifted from something supplies a secondary release motion within the noun."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Explicit physical raising anchors and intensifies that otherwise distant release motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase reports only that resting places have been lifted.",
+              "after": "Beneath that primary sense, it can faintly suggest repose from which an affliction or weight has itself lifted away."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The repeated right-hand companion designation turns the furnishings into an allocated collective station.",
+            "Softening, stacking, overhead cover, and extension recast the raised surfaces as one level of a layered habitat.",
+            "Negated cessation and obstruction constrain elevation toward honored accessibility rather than remoteness.",
+            "The following creation and personal predicates activate a metonymic relay from bedding to elevated companions."
+          ],
+          "what_was_special": "The focus's horizontal-spread and vertical-raising tension became a hinge for architectural layering, social allocation, open access, and a grammatical shift toward persons without forcing those readings into one resolution.",
+          "remaining_uncertainties": [
+            "The feminine plural suffixes may resume the nearest furnishings metonymically or begin from an unexpressed personal antecedent.",
+            "Physical height and elevated rank remain simultaneously available in the focus predicate.",
+            "The common-level and fluid-textile readings depend on explicit but exploratory reader-supplied cross-domain arrows."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Spread bedding raised into rank and support.** `ف ر ش` **B002** supplies bedding or furnishing, while `ر ف ع` **B001** supplies raising upward and **B002** high rank. The phrase reprises 56:3’s raising after a sequence of low-spread shade and water. **Abductive move:** I infer that physical elevation materializes assigned dignity. **Reading change:** the furnishings locate their users in the event’s upward redistribution.\n\n2. **What is laid out is brought near for presentation.** `ف ر ش` **B001** supplies spreading and laying out, and `ر ف ع` **B004** bringing near or presenting. **Abductive move:** I infer a service action that prepares and presents the resting place. **Reading change:** the passive adjective suggests provision actively arranged for reception.",
@@ -2706,18 +3341,23 @@
   "root_lexicon": {
     "root_001143": {
       "root_ar": "ف ر ش",
+      "qac_roots_ar": [
+        "ف ر ش"
+      ],
       "root_id": "root_001143",
-      "root_mapping": {
-        "root_id": "root_001143",
-        "root_norm": "ف ر ش",
-        "source_root_norm": "ف ر ش",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 6,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ف ر ش",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 6
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "e88cac02eb3940182ec7f187bd6d2e2b02e0a79b0e4a62fd76e5b5c6bd4f9570",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6369,18 +7009,23 @@
     },
     "root_000582": {
       "root_ar": "ر ف ع",
+      "qac_roots_ar": [
+        "ر ف ع"
+      ],
       "root_id": "root_000582",
-      "root_mapping": {
-        "root_id": "root_000582",
-        "root_norm": "ر ف ع",
-        "source_root_norm": "ر ف ع",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 29,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ف ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 29
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "2c55e64167fc91d3d63ecbf6acc5068a6acf4ae3dd443b37d32413b4fd20d5f4",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -9533,14 +10178,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9834,11 +10485,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_34.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_34.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 5,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 75441,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9911,19 +10575,37 @@
           "root_ids": [
             "root_001143"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ف ر ش",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001143",
+            "targets": [
+              {
+                "qac_root_norm": "ف ر ش",
+                "target_rank": 1,
+                "furuq_root_id": "root_001143",
+                "furuq_root_norm": "ف ر ش",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 6,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001143",
-              "root_norm": "ف ر ش",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ف ر ش",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 6,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 16,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9948,19 +10630,37 @@
           "root_ids": [
             "root_000582"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر ف ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000582",
+            "targets": [
+              {
+                "qac_root_norm": "ر ف ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_000582",
+                "furuq_root_norm": "ر ف ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 29,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000582",
-              "root_norm": "ر ف ع",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ر ف ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 29,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9987,10 +10687,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 28,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

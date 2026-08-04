@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:33.863174+00:00",
+  "generated_at": "2026-08-04T22:29:59.175752+00:00",
   "surah": 56,
   "ayah": 29,
   "ayahRef": "56:29",
@@ -1184,7 +1184,8 @@
       "morpheme_ids": [
         "m-w-s056-a029-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:29:1"
+      "aligned_qac_word_ref_upstream": "56:29:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1198,7 +1199,8 @@
       "morpheme_ids": [
         "m-w-s056-a029-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:29:2"
+      "aligned_qac_word_ref_upstream": "56:29:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1212,7 +1214,8 @@
       "morpheme_ids": [
         "m-w-s056-a029-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:29:3"
+      "aligned_qac_word_ref_upstream": "56:29:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1652,7 +1655,847 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_29.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:29",
+      "window": [
+        "56:27",
+        "56:28",
+        "56:29",
+        "56:30",
+        "56:31",
+        "56:32",
+        "56:33",
+        "56:34",
+        "56:35",
+        "56:36",
+        "56:37",
+        "56:38",
+        "56:39",
+        "56:40"
+      ],
+      "ayah_count": 14,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:29",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b01_layered_tree_body",
+            "confidence": "strong",
+            "focus_anchor": "طَلْحٍ at word 1 is directly modified by مَّنضُودٍ at word 2.",
+            "mechanism": "The plant noun supplies a tree or crop body; the passive adjective pictures its natural units packed one above another, making vertical continuity rather than mere quantity the organizing feature.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The known ṭalḥ tree supplies the concrete botanical body whose growth or produce is described."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B004",
+                "role": "Layered natural bodies, explicitly including packed ṭalḥ, supply the vertical packing mechanism."
+              }
+            ],
+            "changed_reading": {
+              "before": "A named tree carrying a generally favorable adjective.",
+              "after": "A tree whose growth or produce forms a continuous vertical body, layer pressed upon layer."
+            }
+          },
+          {
+            "model_id": "b02_curated_provision",
+            "confidence": "medium",
+            "focus_anchor": "The passive form مَّنضُودٍ makes prior ordering visible within the description of طَلْحٍ.",
+            "mechanism": "Joining items in an ordered series and stacking household stores shift the plant from spontaneous scenery toward provision already gathered, sorted, and presented.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The tree supplies the botanical material that can be treated as prepared provision."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Joining thing to thing in orderly sequence supplies deliberate arrangement rather than undifferentiated plenty."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B002",
+                "role": "Household goods piled in readiness supply the presentation-and-provision analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "Vegetation simply encountered in a landscape.",
+              "after": "Botanical provision already ordered and presented with the readiness of household stores."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d01_blessed_collective",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ح ب",
+              "ي م ن"
+            ],
+            "mechanism": "The immediately preceding repeated group label activates the social branch of ن ض د: packed units can form a company whose adjacency gives strength, while ي م ن marks that association as blessed.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B005",
+                "role": "A gathered company by which one gains strength turns packing into a social relation."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Repeated companionship and close association supply the beneficiaries as a cohesive company."
+              },
+              {
+                "source_ref": "56:27",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing supplies the positive value carried by that clustered company."
+              }
+            ],
+            "structural_cues": [
+              "56:27 repeats the recipient label immediately before the paired plant descriptions begin."
+            ],
+            "reader_inference": "The packet supplies companionship, blessing, and a focus branch in which an assembled group lends strength; I infer that botanical packing can iconically model the beneficiaries' cohesion, while the live alternative is that 56:27 only names recipients.",
+            "changed_reading": {
+              "before": "The packed units relate only as plant matter.",
+              "after": "The packed growth can also figure a blessed company in which adjacency creates mutual support rather than crowding."
+            }
+          },
+          {
+            "model_id": "d02_safe_density",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "خ ض د"
+            ],
+            "mechanism": "The adjacent plant's soft bending and removal of thorns qualify the focus plant's tight packing: density is made yielding and non-injurious rather than becoming an obstructive thicket.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The ṭalḥ tree keeps the changed reading attached to the focus plant."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B004",
+                "role": "Natural layers pressed together supply the density whose tactile quality is revised."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B001",
+                "role": "Soft bending without a clean break supplies yielding contact rather than brittle obstruction."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Removing thorns and breaking their sharpness supplies the de-barbing of the dense plant environment."
+              }
+            ],
+            "structural_cues": [
+              "56:28 and 56:29 are adjacent noun-plus-passive-participle plant phrases with matching cadence."
+            ],
+            "reader_inference": "The packet supplies a de-sharpened neighboring plant and a densely layered focus plant; I let the first phrase control how the second density is experienced, while the alternative is that each adjective remains local to its own plant.",
+            "changed_reading": {
+              "before": "Dense growth could still imply an obstructive thicket.",
+              "after": "The growth is compact but yielding and de-barbed: fullness without a hostile edge."
+            }
+          },
+          {
+            "model_id": "d03_canopy_extension",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ظ ل ل",
+              "م د د"
+            ],
+            "mechanism": "The following extended shade gives the packed tree a spatial function: vertical layering builds an overhead body whose cover continues outward without a gap.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The tree supplies the physical source from which a canopy can project."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B004",
+                "role": "Stacked natural bodies supply a continuous, load-bearing vertical mass."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B003",
+                "role": "An overhead shade structure supplies the functional destination of the packed growth."
+              },
+              {
+                "source_ref": "56:30",
+                "root": "م د د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001407",
+                "branch_id": "B001",
+                "role": "Drawing something lengthwise until it connects supplies the canopy's uninterrupted horizontal reach."
+              }
+            ],
+            "structural_cues": [
+              "56:30 immediately continues the chain of coordinated indefinite nouns with passive modifiers."
+            ],
+            "reader_inference": "The packet supplies a packed tree followed by connected overhead shade; I infer a plant-to-canopy functional arrow, while the live alternative treats shade as an independent item in the catalogue.",
+            "changed_reading": {
+              "before": "Vertical density is the endpoint of the image.",
+              "after": "Vertical density becomes canopy infrastructure that projects unbroken cover outward."
+            }
+          },
+          {
+            "model_id": "d04_irrigated_replenishment",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "م و ه",
+              "س ك ب"
+            ],
+            "mechanism": "Poured water converts the focus from a static stock of packed produce into a living serial crop with an available means of replenishment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The tree supplies the living body that can receive irrigation and renew growth."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Orderly item-after-item joining supplies the serial crop whose layers can be replenished."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Delivering water by irrigation or pouring supplies the sustaining input to the crop."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B001",
+                "role": "Pouring and free flow supply the movement by which water reaches the growth."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "س ك ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000723",
+                "branch_id": "B008",
+                "role": "Continuance supplies the temporal persistence of that watering rather than a single discharge."
+              }
+            ],
+            "structural_cues": [
+              "56:31 places poured water two coordinated phrases after the focus plant."
+            ],
+            "reader_inference": "The packet supplies a living tree and continuously poured water; I supply the botanical causal arrow that water maintains its ordered yield, while the alternative is that water is only a separate amenity.",
+            "changed_reading": {
+              "before": "A finite display already stacked in place.",
+              "after": "A maintained growth system whose ordered layers can continually renew under available water."
+            }
+          },
+          {
+            "model_id": "d05_unending_unbarred_supply",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ف ك ه",
+              "ك ث ر",
+              "ق ط ع",
+              "م ن ع"
+            ],
+            "mechanism": "Fruit and numerical increase identify the likely value of the packed units, while the negated interruption and barrier extend ن ض د from spatial sequence into temporal continuity and unrestricted access.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The tree supplies the botanical source whose packed units can enter the fruit sequence."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Thing joined to thing in order supplies the serial structure extended across space, time, and access."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ف ك ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001174",
+                "branch_id": "B002",
+                "role": "Pleasant fruit supplies the edible-provision class into which the packed growth is drawn."
+              },
+              {
+                "source_ref": "56:32",
+                "root": "ك ث ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001286",
+                "branch_id": "B001",
+                "role": "Growth in number supplies quantitative abundance beyond the focus phrase's spatial density."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "ق ط ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001240",
+                "branch_id": "B005",
+                "role": "Interruption and ending, explicitly negated in the source construction, supply the continuity test."
+              },
+              {
+                "source_ref": "56:33",
+                "root": "م ن ع",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001448",
+                "branch_id": "B002",
+                "role": "A barrier between a person and what is wanted, explicitly negated, supplies unrestricted approach."
+              }
+            ],
+            "structural_cues": [
+              "56:32-33 follow the focus with fruit plus abundance and then two parallel negated passive descriptors."
+            ],
+            "reader_inference": "The packet supplies packed tree growth, much fruit, no ending, and no barrier; I infer that the later controls scope backward over the focus provision, while the alternative confines 56:32-33 to fruit other than ṭalḥ.",
+            "changed_reading": {
+              "before": "A spatially abundant stack.",
+              "after": "Spatial, temporal, and distributive abundance: layer after layer, without exhaustion or gatekeeping."
+            }
+          },
+          {
+            "model_id": "d06_furnished_grove",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ف ر ش",
+              "ر ف ع"
+            ],
+            "mechanism": "The household and support-surface branches of ن ض د become active when raised furnishings follow: botanical layering and elevated bedding are parallel acts of preparing a habitable environment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B002",
+                "role": "Stacked household goods and cushions supply a furnishing register inside the focus adjective."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B003",
+                "role": "A stand or bed on which goods are arranged supplies the supporting-surface topology."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ف ر ش",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001143",
+                "branch_id": "B002",
+                "role": "Furnishings and household effects confirm the domestic preparation register."
+              },
+              {
+                "source_ref": "56:34",
+                "root": "ر ف ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000582",
+                "branch_id": "B001",
+                "role": "Raising an object supplies the shared vertical axis of stacked growth and elevated furnishing."
+              }
+            ],
+            "structural_cues": [
+              "56:34 remains in the coordinated noun-plus-passive-modifier chain while shifting from vegetation and provisions to furnishings."
+            ],
+            "reader_inference": "The packet supplies household senses within ن ض د and an explicit raised furnishing; I infer an analogy by which the grove is prepared like an interior, while the alternative keeps vegetation and bedding as unrelated catalogue items.",
+            "changed_reading": {
+              "before": "A plant whose yield is neatly displayed.",
+              "after": "A deliberately furnished grove in which layered vegetation and raised bedding form coordinated habitable surfaces."
+            }
+          },
+          {
+            "model_id": "d07_renewed_first_yield",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ن ش ء",
+              "ج ع ل",
+              "ب ك ر"
+            ],
+            "mechanism": "The later sequence of originating, causing a state, and firstness activates a renewal reading: the ordered layers need not be stale accumulation but can arrive repeatedly with first-yield freshness.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The tree supplies the crop body on which renewal and first-yield imagery can operate."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Ordered succession supplies recurring layer after layer rather than one inert heap."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "Bringing something newly into being supplies the renewal operation."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Causing a thing to enter a state supplies the transformation arrow from existing layer to renewed layer."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ب ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000143",
+                "branch_id": "B002",
+                "role": "The first of a thing and its first fruit supply freshness at every arrival."
+              }
+            ],
+            "structural_cues": [
+              "After the object catalogue, 56:35-36 switches to explicit acts of originating and making."
+            ],
+            "reader_inference": "The packet supplies creation, state-making, and a first-fruit branch after the provision sequence; I project those operations backward onto the crop, while the live alternative restricts them to the later pronominal referent.",
+            "changed_reading": {
+              "before": "A completed heap whose freshness is unspecified.",
+              "after": "An ordered yield repeatedly renewed so that layer after layer has the quality of first fruit."
+            }
+          },
+          {
+            "model_id": "d08_layered_cohorts",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ت ر ب",
+              "ص ح ب",
+              "ي م ن",
+              "ث ل ل",
+              "ء و ل",
+              "ء خ ر"
+            ],
+            "mechanism": "Equal companionship, the repeated beneficiary label, assembled groups, and first-to-later succession activate both the collective-strength and serial-order branches of ن ض د. The botanical layers can therefore act as a spatial analogue for cohorts gathered across time.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Thing following thing in an ordered series supplies the temporal layering of cohorts."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B005",
+                "role": "A gathered company that lends strength supplies the social cohesion of each layer."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ت ر ب",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000178",
+                "branch_id": "B004",
+                "role": "Equality in age and companionship supplies cohort-level parity."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship supplies the explicit social bond after the provision sequence."
+              },
+              {
+                "source_ref": "56:38",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B001",
+                "role": "Blessing supplies the shared positive status of the assembled cohorts."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "An assembled group supplies the first explicit human cluster."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ث ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000204",
+                "branch_id": "B001",
+                "role": "The repeated assembled group supplies a second parallel cluster."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000067",
+                "branch_id": "B001",
+                "role": "Beginning and precedence supply the temporal identity of the first cluster."
+              },
+              {
+                "source_ref": "56:39",
+                "root": "ء و ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "The split root's non-dominant target, succession one thing after another, supplies the serial link between cohorts."
+              },
+              {
+                "source_ref": "56:40",
+                "root": "ء خ ر",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000019",
+                "branch_id": "B001",
+                "role": "Laterness after what came first supplies the terminal temporal layer."
+              }
+            ],
+            "structural_cues": [
+              "56:38 repeats the label from 56:27 after the provision sequence, bracketing that sequence.",
+              "56:39-40 are parallel clauses distinguished by first and later."
+            ],
+            "reader_inference": "The packet supplies equal companions, a repeated recipient frame, assembled groups, beginning, succession, and laterness; I infer that the focus plant's spatial ordering iconically models social-temporal ordering, while the alternative treats the closing groups only as beneficiary counts.",
+            "changed_reading": {
+              "before": "Layering describes only the plant's internal geometry.",
+              "after": "The layered plant can also map a community assembled in successive cohorts, first and later held together without losing their distinctions."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o01_regulated_horticulture",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates branch-distant agricultural senses from ع ر ب in a phrase whose local surface role is not horticultural. It remains anchored in the focus tree and its ordered adjective, with poured water nearby; downstream prose should present it only as a horticultural systems echo, not as a lexical replacement for 56:37.",
+            "focus_anchor": "The model operates on طَلْحٍ as a tree and on مَّنضُودٍ as the result of orderly arrangement.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B001",
+                "role": "The ṭalḥ tree supplies the actual plant subjected to horticultural ordering."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Deliberate orderly joining supplies the visible result of cultivation."
+              },
+              {
+                "source_ref": "56:31",
+                "root": "م و ه",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001458",
+                "branch_id": "B003",
+                "role": "Irrigating and delivering water supply one maintenance process."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B017",
+                "role": "Irrigation becoming regular after variation supplies hydraulic regulation."
+              },
+              {
+                "source_ref": "56:37",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B018",
+                "role": "Pruning palm fronds supplies canopy management as the second maintenance process."
+              }
+            ],
+            "changed_reading": {
+              "before": "A miraculously complete tree presented without process.",
+              "after": "A branch-led glimpse of regulated horticulture: water is regularized and growth pruned into an ordered, accessible yield."
+            }
+          },
+          {
+            "outlier_id": "o02_reordered_deficit",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it carries the weariness and corruption branches of ط ل ح beside the primary tree sense rather than translating the noun by them. The reading remains focus-anchored in that same root and gains a visible reversal from de-sharpening, re-creation, and state-change cues; downstream prose should label it a lexical-shadow transformation, not the verse's botanical denotation.",
+            "focus_anchor": "The polysemy belongs to focus word طَلْحٍ, while مَّنضُودٍ supplies the ordered end-state.",
+            "activation_trace": [
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B003",
+                "role": "Weariness and emaciation supply a deficit shadow carried by the focus root."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ط ل ح",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000944",
+                "branch_id": "B005",
+                "role": "Corruption opposed to soundness supplies the stronger negative pole of that shadow."
+              },
+              {
+                "source_ref": "56:29",
+                "root": "ن ض د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001515",
+                "branch_id": "B001",
+                "role": "Orderly joining supplies the repaired end-state into which the deficit is imaginatively reversed."
+              },
+              {
+                "source_ref": "56:28",
+                "root": "خ ض د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000417",
+                "branch_id": "B002",
+                "role": "Removal of thorns and sharpness supplies an immediately adjacent subtraction of harm."
+              },
+              {
+                "source_ref": "56:35",
+                "root": "ن ش ء",
+                "source_word_indices": [
+                  "2",
+                  "3"
+                ],
+                "mapped_root_id": "root_001502",
+                "branch_id": "B006",
+                "role": "New creation supplies replacement of the depleted condition."
+              },
+              {
+                "source_ref": "56:36",
+                "root": "ج ع ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000248",
+                "branch_id": "B002",
+                "role": "Causing a new state supplies the directional transformation into ordered abundance."
+              }
+            ],
+            "changed_reading": {
+              "before": "Only a flourishing botanical image with no remembered deficit.",
+              "after": "At the level of lexical shadow, weariness and corruption are carried into a de-harmed, newly made, ordered abundance."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The 56:28-33 sequence turns spatial stacking into safe, irrigated, abundant, uninterrupted, and unbarred availability.",
+            "The household senses of ن ض د and the raised furnishing of 56:34 recast the grove as a deliberately prepared habitat.",
+            "The closing group and first-to-later cues activate a social-temporal analogue in which packed layers mirror mutually supporting cohorts."
+          ],
+          "what_was_special": "The focus begins as a compact two-word geometry, but the ordered context progressively assigns that geometry tactile, ecological, distributive, domestic, regenerative, and social functions without dislodging the tree-and-layer anchor.",
+          "remaining_uncertainties": [
+            "The packet's ط ل ح inventory permits a known tree and mentions banana-like interpretation within its scope, but the exact botanical referent remains unresolved.",
+            "Projecting later creation, firstness, and cohort structure backward onto the focus is an abductive mechanism rather than a grammatical entailment.",
+            "The furnished-grove, regulated-horticulture, and reordered-deficit readings should remain explicitly analogical or branch-led."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Tree-produce arranged in reachable layers.** `ط ل ح` **B001** supplies the talh tree and `ن ض د` **B001** ordered stacking or joining. The prior pruning and later non-prevention create a cultivation sequence: obstruction removed, yield ordered, access guaranteed. **Abductive move:** I infer that stacking serves availability rather than mere visual density. **Reading change:** abundance appears as carefully organized provision.\n\n2. **Weariness reversed into assembled support.** `ط ل ح` **B003** supplies weariness and emaciation, while `ن ض د` **B005** supplies assembled social backing. **Abductive move:** I infer a latent reversal because the fixed tree-name carries the weariness branch within a scene of repose and support. **Reading change:** the ayah can resonate as the transformation of exhaustion into sustaining abundance.",
@@ -2554,18 +3397,23 @@
   "root_lexicon": {
     "root_000944": {
       "root_ar": "ط ل ح",
+      "qac_roots_ar": [
+        "ط ل ح"
+      ],
       "root_id": "root_000944",
-      "root_mapping": {
-        "root_id": "root_000944",
-        "root_norm": "ط ل ح",
-        "source_root_norm": "ط ل ح",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 1,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ط ل ح",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "24e959eb89009a95df3270b7e042d7a2964197e83e2b009d1d8ae9e69f60f5e1",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -4765,18 +5613,23 @@
     },
     "root_001515": {
       "root_ar": "ن ض د",
+      "qac_roots_ar": [
+        "ن ض د"
+      ],
       "root_id": "root_001515",
-      "root_mapping": {
-        "root_id": "root_001515",
-        "root_norm": "ن ض د",
-        "source_root_norm": "ن ض د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 3,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ض د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "47a6ce9d14987e427857f13d12572b361fdf5a6e16e2da5cc9e5e65fcf33b252",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -6534,14 +7387,20 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -6865,11 +7724,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_29.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_29.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 8,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 68715,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -6942,19 +7814,37 @@
           "root_ids": [
             "root_000944"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ط ل ح",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000944",
+            "targets": [
+              {
+                "qac_root_norm": "ط ل ح",
+                "target_rank": 1,
+                "furuq_root_id": "root_000944",
+                "furuq_root_norm": "ط ل ح",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000944",
-              "root_norm": "ط ل ح",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ط ل ح",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -6979,19 +7869,37 @@
           "root_ids": [
             "root_001515"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ض د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001515",
+            "targets": [
+              {
+                "qac_root_norm": "ن ض د",
+                "target_rank": 1,
+                "furuq_root_id": "root_001515",
+                "furuq_root_norm": "ن ض د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001515",
-              "root_norm": "ن ض د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ن ض د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -7018,10 +7926,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 12,
+        "dictionary_branches_kept": 12,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 12,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

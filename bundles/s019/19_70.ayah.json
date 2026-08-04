@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:16:15.167341+00:00",
+  "generated_at": "2026-08-04T22:29:39.861436+00:00",
   "surah": 19,
   "ayah": 70,
   "ayahRef": "19:70",
@@ -2311,7 +2311,8 @@
       "morpheme_ids": [
         "m-w-s019-a070-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:1"
+      "aligned_qac_word_ref_upstream": "19:70:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -2325,7 +2326,8 @@
       "morpheme_ids": [
         "m-w-s019-a070-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:2"
+      "aligned_qac_word_ref_upstream": "19:70:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -2339,7 +2341,8 @@
       "morpheme_ids": [
         "m-w-s019-a070-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:3"
+      "aligned_qac_word_ref_upstream": "19:70:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -2353,7 +2356,8 @@
       "morpheme_ids": [
         "m-w-s019-a070-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:4"
+      "aligned_qac_word_ref_upstream": "19:70:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -2367,7 +2371,8 @@
       "morpheme_ids": [
         "m-w-s019-a070-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:5"
+      "aligned_qac_word_ref_upstream": "19:70:5",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 5,
@@ -2381,7 +2386,8 @@
       "morpheme_ids": [
         "m-w-s019-a070-w004-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:6"
+      "aligned_qac_word_ref_upstream": "19:70:6",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 6,
@@ -2395,7 +2401,8 @@
       "morpheme_ids": [
         "m-w-s019-a070-w005-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:7"
+      "aligned_qac_word_ref_upstream": "19:70:7",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 7,
@@ -2409,7 +2416,8 @@
       "morpheme_ids": [
         "m-w-s019-a070-w006-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:8"
+      "aligned_qac_word_ref_upstream": "19:70:8",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 8,
@@ -2425,7 +2433,8 @@
         "m-w-s019-a070-w007-01",
         "m-w-s019-a070-w007-02"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:9"
+      "aligned_qac_word_ref_upstream": "19:70:9",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 9,
@@ -2439,7 +2448,8 @@
       "morpheme_ids": [
         "m-w-s019-a070-w008-01"
       ],
-      "aligned_qac_word_ref_upstream": "19:70:10"
+      "aligned_qac_word_ref_upstream": "19:70:10",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3185,7 +3195,884 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s19/packets/19_70.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "19:70",
+      "window": [
+        "19:59",
+        "19:60",
+        "19:61",
+        "19:62",
+        "19:63",
+        "19:64",
+        "19:65",
+        "19:66",
+        "19:67",
+        "19:68",
+        "19:69",
+        "19:70",
+        "19:71",
+        "19:72",
+        "19:73",
+        "19:74",
+        "19:75",
+        "19:76"
+      ],
+      "ayah_count": 18,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "19:70",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_relational_desert",
+            "confidence": "strong",
+            "focus_anchor": "Words 3, 6, and 8 form an epistemic superlative, a relational superlative, and a fire-contact complement.",
+            "mechanism": "Knowing discloses and identifies; priority or entitlement ranks who has the strongest relation to the feminine referent; fire-contact supplies that relation's concrete endpoint. The clause asserts exact person-to-outcome fit rather than generic foreknowledge.",
+            "activation_trace": [
+              {
+                "source_ref": "19:70",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies the epistemic basis for distinguishing the ranked persons."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B008",
+                "role": "Priority and entitlement supply the comparative relation by which one person is more fitted than another."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Encountering fire supplies the concrete outcome to which the comparative relation points."
+              }
+            ],
+            "changed_reading": {
+              "before": "God knows who should burn.",
+              "after": "The assertion maps each person to the degree of claim or fitness for fire-contact, with divine knowledge grounding the ranking."
+            }
+          },
+          {
+            "model_id": "b2_marked_procession",
+            "confidence": "medium",
+            "focus_anchor": "The identifying knowledge at word 3 precedes a nearness or succession term at word 6 and a term at word 8 that can image both fire-contact and a follower in a race.",
+            "mechanism": "Knowledge as an identifying mark, succession without a gap, and the runner immediately following a predecessor combine into a marked procession. The known candidates can be heard as ordered by who stands next or nearest for encounter with fire.",
+            "activation_trace": [
+              {
+                "source_ref": "19:70",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing mark makes each member of the procession individually identifiable."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Unbroken succession supplies the ordering of one candidate immediately after another."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B001",
+                "role": "Nearness without an interval turns priority into spatial adjacency to the outcome."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B007",
+                "role": "The race-follower image supplies the position of one who comes directly behind a predecessor."
+              }
+            ],
+            "changed_reading": {
+              "before": "The verse gives only a moral ranking of deservingness.",
+              "after": "It also permits a processional reading in which identified persons are ordered by nextness and proximity to the fiery endpoint."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d1_chosen_following_to_imposed_following",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ل و",
+              "ت ب ع",
+              "ل ق ي"
+            ],
+            "mechanism": "The earlier sequence moves from losing binding worship, through following appetite, to meeting an adverse result. The focus root family pivots worship toward fire-contact, while succession and race-following recast a chosen following as an imposed eschatological order.",
+            "activation_trace": [
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Succession supplies the imposed order that answers the earlier chosen pursuit."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Fire-contact supplies the terminal encounter produced by the reversal."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B007",
+                "role": "The follower immediately behind a leader supplies a second, processional sense of following."
+              },
+              {
+                "source_ref": "19:59",
+                "root": "ص ل و",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000879",
+                "branch_id": "B003",
+                "role": "Specified worship supplies the binding practice that was abandoned and then reversed into another kind of contact."
+              },
+              {
+                "source_ref": "19:59",
+                "root": "ت ب ع",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000175",
+                "branch_id": "B001",
+                "role": "Following and tracking supply the voluntary direction that precedes the imposed sequence."
+              },
+              {
+                "source_ref": "19:59",
+                "root": "ل ق ي",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001372",
+                "branch_id": "B007",
+                "role": "What a person meets as good or harm supplies the consequence-link between pursuit and final contact."
+              }
+            ],
+            "structural_cues": [
+              "19:59 orders loss, following, and encounter; 19:70 later uses another emphatic sequential turn before the ranking."
+            ],
+            "reader_inference": "The packet supplies worship, chosen following, encounter, succession, and fire branches; I infer a reversal from chosen pursuit to imposed following. A live alternative is that the root overlap is only an acoustic link and the focus remains strictly juridical.",
+            "changed_reading": {
+              "before": "The focus independently identifies those most deserving of fire.",
+              "after": "It can close the trajectory begun by abandoned worship: what was freely followed becomes an ordered following toward the encounter one has made oneself fit to meet."
+            }
+          },
+          {
+            "model_id": "d2_nonarbitrary_allocation",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ظ ل م",
+              "و ر ث",
+              "و ق ي"
+            ],
+            "mechanism": "The context pairs non-misplacement with transfer of the garden to the self-protecting. Against that allocation, the focus term of entitlement assigns the fiery relation by fit or claim. Nearness is therefore sharpened into exact placement rather than arbitrary proximity.",
+            "activation_trace": [
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B008",
+                "role": "Entitlement supplies the criterion for placing each class with the outcome to which it has the stronger claim."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Fire-contact supplies one side of the paired allocation."
+              },
+              {
+                "source_ref": "19:60",
+                "root": "ظ ل م",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000967",
+                "branch_id": "B004",
+                "role": "Putting something outside its proper place supplies the negated error that exact allocation avoids."
+              },
+              {
+                "source_ref": "19:63",
+                "root": "و ر ث",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001639",
+                "branch_id": "B001",
+                "role": "Transfer from a predecessor to an heir supplies the contrasting allocation of the garden."
+              },
+              {
+                "source_ref": "19:63",
+                "root": "و ق ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001677",
+                "branch_id": "B002",
+                "role": "Placing oneself under protection supplies the disposition associated with the alternative destination."
+              }
+            ],
+            "structural_cues": [
+              "19:60 opens an exception from the preceding trajectory, and 19:63 closes the garden unit with a restricted heir class."
+            ],
+            "reader_inference": "The packet supplies non-misplacement, inheritance, self-protection, entitlement, and fire-contact; I infer a paired allocation system. The alternative is that garden inheritance and fire priority are adjacent but asymmetric images with no shared legal mechanism.",
+            "changed_reading": {
+              "before": "Priority means merely being closer to the fire.",
+              "after": "Priority names an exact, non-misplacing allocation: the fire relation is assigned by claim or fit just as the protected are assigned the inherited garden."
+            }
+          },
+          {
+            "model_id": "d3_unbroken_identity_knowledge",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن س ي",
+              "ع ل م",
+              "ذ ك ر",
+              "خ ل ق"
+            ],
+            "mechanism": "Negated forgetting, bounded human knowing, failed human recollection, and creation from nothing turn the focus knowledge into uninterrupted identity-tracking. The gathered persons are not assessed as an anonymous mass at the scene; their identity and formation have remained disclosed throughout.",
+            "activation_trace": [
+              {
+                "source_ref": "19:70",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to the knower supplies continuous access to the persons being ranked."
+              },
+              {
+                "source_ref": "19:64",
+                "root": "ن س ي",
+                "source_word_indices": [
+                  "18"
+                ],
+                "mapped_root_id": "root_001501",
+                "branch_id": "B001",
+                "role": "Loss of a remembered item supplies the explicitly negated break in divine tracking."
+              },
+              {
+                "source_ref": "19:65",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Human knowing posed as a question supplies the bounded comparator to the focus claim of superior knowing."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Recovering something after forgetfulness supplies the human discontinuity that contrasts with unbroken knowledge."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B002",
+                "role": "Origination supplies the earliest point from which the ranked person's identity is already known."
+              }
+            ],
+            "structural_cues": [
+              "19:64 explicitly denies forgetting; 19:66-67 stage death, re-emergence, and failed human recollection immediately before the gathering."
+            ],
+            "reader_inference": "The packet supplies the memory contrast and creation-to-gathering sequence; I infer a continuous identity ledger rather than knowledge acquired at judgment. The alternative is the ordinary assertion of omniscience without a specific continuity mechanism.",
+            "changed_reading": {
+              "before": "God observes the assembled crowd and knows which members rank highest for punishment.",
+              "after": "The ranking rests on unbroken knowledge of each person's identity from origination through death and reassembly, with no loss or rediscovery."
+            }
+          },
+          {
+            "model_id": "d4_fixed_itinerary",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "و ع د",
+              "ء ت ي",
+              "و ر د",
+              "ح ت م",
+              "ق ض ي"
+            ],
+            "mechanism": "A promise bounded like an appointment is said to come, while persons later arrive in succession under a binding, decisive decree. This turns the baseline procession into a fixed itinerary: outcomes come to fulfillment and persons come to them, with the focus ranking locating who is next within that convergence.",
+            "activation_trace": [
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B002",
+                "role": "Unbroken succession supplies the internal order of the itinerary."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B007",
+                "role": "The race-follower supplies a concrete image for the next person in the ordered approach."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "و ع د",
+                "source_word_indices": [
+                  "4",
+                  "10"
+                ],
+                "mapped_root_id": "root_001662",
+                "branch_id": "B003",
+                "role": "A promise fixed to time or place supplies the appointment structure of the promised outcome."
+              },
+              {
+                "source_ref": "19:61",
+                "root": "ء ت ي",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000009",
+                "branch_id": "B001",
+                "role": "Coming and arrival make the promise itself an approaching fulfillment."
+              },
+              {
+                "source_ref": "19:71",
+                "root": "و ر د",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001640",
+                "branch_id": "B007",
+                "role": "Sequential entry supplies the movement of persons toward the appointed site."
+              },
+              {
+                "source_ref": "19:71",
+                "root": "ح ت م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000292",
+                "branch_id": "B001",
+                "role": "A binding and settled decree removes contingency from the itinerary."
+              },
+              {
+                "source_ref": "19:71",
+                "root": "ق ض ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_001237",
+                "branch_id": "B001",
+                "role": "Decisive judgment supplies the authorization and closure of the appointed movement."
+              }
+            ],
+            "structural_cues": [
+              "The garden promise is described as coming in 19:61, while 19:71 describes universal arrival as a settled decree."
+            ],
+            "reader_inference": "The packet supplies coming promise, sequential arrival, binding decree, and focus succession; I infer a common itinerary in which 19:70 specifies internal order. The alternative is that the two comings are parallel assurances rather than one process.",
+            "changed_reading": {
+              "before": "The verse statically compares degrees of desert.",
+              "after": "It also locates ranked persons within a scheduled convergence of promised outcomes and arriving subjects."
+            }
+          },
+          {
+            "model_id": "d5_operational_sorting_gate",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح ش ر",
+              "ح ض ر",
+              "ن ز ع",
+              "ش ي ع",
+              "ش د د",
+              "ع ت و",
+              "ن ج و",
+              "و ذ ر"
+            ],
+            "mechanism": "Collective driving and near presentation create the input population; extraction from each faction by maximum rebellious strength creates a first sort; the focus combines exhaustive knowledge with entitlement to state the ranking criterion; rescue by separation and deliberate leaving create the output partition. The focus is thus the decision gate between aggregation and separation.",
+            "activation_trace": [
+              {
+                "source_ref": "19:68",
+                "root": "ح ش ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000324",
+                "branch_id": "B001",
+                "role": "Driving and collecting a group toward one destination supplies the unsorted input population."
+              },
+              {
+                "source_ref": "19:68",
+                "root": "ح ض ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000333",
+                "branch_id": "B001",
+                "role": "Presence, witnessing, and nearness place the gathered population at the site of classification."
+              },
+              {
+                "source_ref": "19:69",
+                "root": "ن ز ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001489",
+                "branch_id": "B001",
+                "role": "Pulling an item from its settled place supplies the extraction operation applied to each group."
+              },
+              {
+                "source_ref": "19:69",
+                "root": "ش ي ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000836",
+                "branch_id": "B002",
+                "role": "A mutually supporting follower-group supplies the partitions from which representatives are extracted."
+              },
+              {
+                "source_ref": "19:69",
+                "root": "ش د د",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000782",
+                "branch_id": "B002",
+                "role": "Intensity and strength supply the maximization axis used in the preceding selection."
+              },
+              {
+                "source_ref": "19:69",
+                "root": "ع ت و",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000981",
+                "branch_id": "B001",
+                "role": "Rebellion against obedience supplies the behavior whose intensity is ranked."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Full disclosure to the knower supplies authoritative access to every candidate and ranking feature."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B008",
+                "role": "Priority and entitlement convert the preceding maximum into a person-to-outcome ranking."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B003",
+                "role": "Fire-contact supplies the classified outcome."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "ن ج و",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001476",
+                "branch_id": "B001",
+                "role": "Rescue by separation supplies one output class after the ranking."
+              },
+              {
+                "source_ref": "19:72",
+                "root": "و ذ ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001638",
+                "branch_id": "B003",
+                "role": "Leaving something in place supplies the contrasting output class that remains at the site."
+              }
+            ],
+            "structural_cues": [
+              "Repeated sequential turns place 19:70 after gathering and extraction and before universal arrival and the rescue-versus-leaving split."
+            ],
+            "reader_inference": "The packet supplies explicit collection, extraction, maximization, ranking, rescue, and leaving operations; I infer that the focus assertion names the criterion and authority of the sort. A live alternative is that it reassures omniscience without describing a procedural gate.",
+            "changed_reading": {
+              "before": "The verse is an epistemic aside explaining that God already knows the worst offenders.",
+              "after": "The verse is the operational hinge of the scene: exhaustive knowledge authorizes a ranked sort that turns a gathered mass into separated outcomes."
+            }
+          },
+          {
+            "model_id": "d6_competing_scoreboards",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "خ ي ر",
+              "ق و م",
+              "ن د و",
+              "ء ث ث",
+              "ر ء ي",
+              "ع ل م",
+              "ش ر ر",
+              "ض ع ف",
+              "ج ن د",
+              "ث و ب"
+            ],
+            "mechanism": "Human parties rank themselves by station, assembly, possessions, and appearance. The later sequence replaces that visible scoreboard with knowledge of worse station and weaker support, then with better returning recompense. The focus pair of superior knowing and true entitlement becomes the pivot that overturns the metric of superiority.",
+            "activation_trace": [
+              {
+                "source_ref": "19:70",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to the superior knower supplies the authority that can overturn visible social judgment."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B008",
+                "role": "True priority and entitlement supply the corrected comparative metric."
+              },
+              {
+                "source_ref": "19:73",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Claimed excellence and selection supply the human side of the metric contest."
+              },
+              {
+                "source_ref": "19:73",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B006",
+                "role": "Residence or station supplies the first visible measure of claimed superiority."
+              },
+              {
+                "source_ref": "19:73",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B003",
+                "role": "The social gathering-place supplies the second visible measure of status."
+              },
+              {
+                "source_ref": "19:74",
+                "root": "ء ث ث",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000010",
+                "branch_id": "B002",
+                "role": "Abundant possessions supply a historically disproven proxy for worth."
+              },
+              {
+                "source_ref": "19:74",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B006",
+                "role": "Visible appearance supplies the inspectable surface that misleads the human ranking."
+              },
+              {
+                "source_ref": "19:75",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Eventual disclosure to human knowers stages the later correction of their present claim."
+              },
+              {
+                "source_ref": "19:75",
+                "root": "ش ر ر",
+                "source_word_indices": [
+                  "22"
+                ],
+                "mapped_root_id": "root_000787",
+                "branch_id": "B001",
+                "role": "Badness supplies the reversed valuation of the supposedly superior party."
+              },
+              {
+                "source_ref": "19:75",
+                "root": "ض ع ف",
+                "source_word_indices": [
+                  "24"
+                ],
+                "mapped_root_id": "root_000909",
+                "branch_id": "B001",
+                "role": "Lack of strength reverses the boast of social power."
+              },
+              {
+                "source_ref": "19:75",
+                "root": "ج ن د",
+                "source_word_indices": [
+                  "25"
+                ],
+                "mapped_root_id": "root_000264",
+                "branch_id": "B001",
+                "role": "A mutually supporting force supplies the collective resource revealed to be weak."
+              },
+              {
+                "source_ref": "19:76",
+                "root": "خ ي ر",
+                "source_word_indices": [
+                  "8",
+                  "12"
+                ],
+                "mapped_root_id": "root_000452",
+                "branch_id": "B002",
+                "role": "Genuine excellence supplies the corrected comparison applied to lasting deeds."
+              },
+              {
+                "source_ref": "19:76",
+                "root": "ث و ب",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000209",
+                "branch_id": "B002",
+                "role": "A worker's deed returning as recompense supplies the non-visual metric that replaces display."
+              }
+            ],
+            "structural_cues": [
+              "The comparative chain moves from which party is better in station and assembly, through former peoples better in goods and appearance, to worse station and weaker support, then better recompense and return."
+            ],
+            "reader_inference": "The packet supplies a sustained contest of comparatives around the focus superlatives; I infer that 19:70 establishes the authoritative scoreboard that the later boasts expose and reverse. The alternative is that 19:70 remains local to fire while 19:73-76 independently reuse comparative rhetoric.",
+            "changed_reading": {
+              "before": "The focus compares only degrees of liability for fire.",
+              "after": "It inaugurates a reversal of scoreboards: visible station, assembly, goods, and force lose authority to a divinely known ranking of entitlement and returning deeds."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_faction_as_fuel",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the source speaks of human factions and rebellion, while the activating branch images a faction-root as stoking fire with wood. It remains anchored in the focus fire term and the extraction-plus-priority sequence, but downstream prose should present it only as a material analogy for intensified culpability, never as the lexical sense of the verse.",
+            "focus_anchor": "The entitlement term at word 6 selects among persons, and the fire term at word 8 also carries an ignition and fire-straightening branch.",
+            "activation_trace": [
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B008",
+                "role": "Entitlement supplies the selection of those most strongly related to the fiery outcome."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Igniting and straightening by fire supply the material endpoint of the analogy."
+              },
+              {
+                "source_ref": "19:69",
+                "root": "ن ز ع",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001489",
+                "branch_id": "B001",
+                "role": "Extraction from a settled place supplies the act of drawing selected material from each group."
+              },
+              {
+                "source_ref": "19:69",
+                "root": "ش ي ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000836",
+                "branch_id": "B005",
+                "role": "Stoking a fire with wood supplies the strange fuel-image for factions whose strongest rebels are extracted."
+              }
+            ],
+            "changed_reading": {
+              "before": "The worst member is selected from each social faction for punishment.",
+              "after": "Exploratorily, each faction becomes a fuel-cluster from which the most intensifying member is drawn for fire-contact."
+            }
+          },
+          {
+            "outlier_id": "o2_fire_reveals_formed_fit",
+            "confidence": "exploratory",
+            "containment": "This is surprising and potentially deterministic because it combines creation's measuring and aptitude branches with fire's straightening branch. It remains anchored in the focus language of known fitness for fire, but the surrounding behavior-based ranking constrains it: downstream prose should call it a material analogy for disposition being exposed, not a claim that persons were created for punishment.",
+            "focus_anchor": "The focus joins an identifying knowledge-mark, comparative fitness, and a fire branch that can straighten material by heat.",
+            "activation_trace": [
+              {
+                "source_ref": "19:70",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing mark supplies the legible disposition known before exposure."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "و ل ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001684",
+                "branch_id": "B008",
+                "role": "Comparative fitness supplies the relation between a formed disposition and its revealing medium."
+              },
+              {
+                "source_ref": "19:70",
+                "root": "ص ل ي",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000880",
+                "branch_id": "B004",
+                "role": "Fire used to straighten material supplies the testing and exposure analogy."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B001",
+                "role": "Measuring and proportioning supplies the image of an already formed configuration."
+              },
+              {
+                "source_ref": "19:67",
+                "root": "خ ل ق",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000434",
+                "branch_id": "B005",
+                "role": "Aptitude or readiness for something supplies the risky but traceable notion of material fit."
+              }
+            ],
+            "changed_reading": {
+              "before": "A deserved penalty is assigned on the basis of known conduct.",
+              "after": "As a contained material analogy, the ranking can picture exact knowledge of which formed dispositions will be most fully exposed when brought into fire-contact."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The 19:59 worship-following-encounter sequence activates a reversal from abandoned binding worship and chosen pursuit to imposed following toward fire-contact.",
+            "The 19:68-72 operation chain makes the focus a sorting gate between collective gathering, ranked extraction, and the rescue-versus-leaving partition.",
+            "The 19:73-76 comparative chain turns superior knowing and true entitlement into a counter-scoreboard against station, assembly, possessions, appearance, and force."
+          ],
+          "what_was_special": "The packet made one short clause carry three mechanisms at once: exact desert, ordered proximity, and metric reversal. The split mapping around the prayer and fire root family, plus the follower-in-a-race branch, kept juridical, ritual, and processional readings simultaneously live.",
+          "remaining_uncertainties": [
+            "The antecedent of the feminine pronoun is not explicit in the focus-only baseline, although the retained context strongly orients it toward the fire scene.",
+            "The processional use of the race-follower branch may be a productive branch echo rather than an intended lexical layer.",
+            "The paired-allocation model is strong structurally but does not prove that garden inheritance and fire priority use one symmetrical legal scheme.",
+            "The fuel and formed-material readings are branch-backed discoveries but should remain exploratory analogies."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {},
   "v12_reader_walks_wide": {},
   "v12_cross_run_publication": {
@@ -4768,18 +5655,23 @@
   "root_lexicon": {
     "root_001040": {
       "root_ar": "ع ل م",
+      "qac_roots_ar": [
+        "ع ل م"
+      ],
       "root_id": "root_001040",
-      "root_mapping": {
-        "root_id": "root_001040",
-        "root_norm": "ع ل م",
-        "source_root_norm": "ع ل م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 771,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ع ل م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 771
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "8cfacfe87682b0ea79a8459f834938bbff910f60c9504afde93dae299ea41d5e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -7808,18 +8700,23 @@
     },
     "root_001684": {
       "root_ar": "و ل ي",
+      "qac_roots_ar": [
+        "و ل ي"
+      ],
       "root_id": "root_001684",
-      "root_mapping": {
-        "root_id": "root_001684",
-        "root_norm": "و ل ي",
-        "source_root_norm": "و ل ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 190,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "و ل ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 190
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5f44badba71b06463e3241f3ebe0ce1f27c7f9400d6440ac123cf854d709521f",
         "branches": [
@@ -9735,18 +10632,23 @@
     },
     "root_000880": {
       "root_ar": "ص ل ي",
+      "qac_roots_ar": [
+        "ص ل ي"
+      ],
       "root_id": "root_000880",
-      "root_mapping": {
-        "root_id": "root_000880",
-        "root_norm": "ص ل ي",
-        "source_root_norm": "ص ل ي",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 6,
-        "is_dominant": true,
-        "mapping_status": "split",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ل ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 6
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "dcab3069028f5b908880c463b6891d905f96c07d08c08088b0225be762c44280",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -12306,6 +13208,2701 @@
         ]
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000880.json"
+    },
+    "root_000879": {
+      "root_ar": "ص ل ي",
+      "qac_roots_ar": [
+        "ص ل ي"
+      ],
+      "root_id": "root_000879",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ص ل ي",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 3
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "53ec3414612f2b0a1b348dbb015f8efdee3b3529cb4348e8c43c3215c496c1a5",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000879",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000879/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi ateşin sıcaklığına maruz kalmayı, ateş yanında ısınmayı, bir şeyi ateşle pişirip yakmayı, ateşe atmayı, yakacağı ve zorluğa katlanma aktarımını birlikte doğrular.",
+              "boundary_note": "Ateşle doğrudan karşılaşma çekirdektir; pişirme, yakma, düzeltme, yakacak ve zorluğa katlanma kullanımları ayrı tutulur."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım, yalın biçimlerin ateş ve yakacak anlamlarını korurken yalnız belirli kuruluşlarda görülen ısınma, düzeltme ve zorluğa katlanma anlamlarını genelleştirmez."
+            },
+            "concept_map": {
+              "definition": "Ateşin içine girerek ya da yanında bulunarak onun yakıcı sıcaklığına maruz kalmayı anlatır; ateşte eti pişirme ile değneği ateşte yumuşatıp düzeltme gibi ateşle işleme anlamları belirli kuruluşlara bağlıdır. Ateşi besleyen yakacak adı ile bir işin ağır sıkıntısını çekme anlamı bu çekirdeğe bağlı özel kullanımlardır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir varlık ateşe girer, ateşin yanında kalır veya onun yakıcı sıcaklığını ve şiddetini çeker.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Kişi ateşin yanında durarak onun sıcaklığıyla ısınır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Belirli kuruluşlarda et ateşte pişirilir veya değnek ateşte yumuşatılıp düzeltilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "source_variant",
+                  "statement": "Ad biçimi ateşi tutuşturup sürdürmeye yarayan yakacağı, ayrıca ateşte pişirme işini belirtebilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F005",
+                  "role": "extension",
+                  "statement": "Ateşin yakıcılığı, bir işin ağırlığını ve sıkıntısını çekmeye aktarılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım, ateşin sıcaklığını çekme ve ateşle işleme çekirdeğini; ısınma, pişirme, yakma, değnek düzeltme, yakacak ve ağır bir işe katlanma yönleriyle genişletir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme",
+              "applicability": "Ateşe girme veya onun ısısını çekme çekirdeğini, ateşle pişirme, yakma ve biçim verme işlemleriyle birlikte temsil eder.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Ateşle karşılaşmayı, yakıcı ısıyı çekmeyi ve ateşle bir nesne üzerinde işlem yapmayı birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "ateşe girip yanmak",
+                "usage_role": "contextual",
+                "applicability": "Canlının ateşin içine girdiği, orada kaldığı veya onun yakıcı sıcaklığını çektiği bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Ateşe doğrudan maruz kalma ve yanıcı sıcaklığı çekme yönünü korur.",
+                  "loses": "Ateş yanında ısınma, nesneyi ateşle işleme, yakacak ve zorluğa katlanma yönlerini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "ateşte pişirmek veya yakmak",
+                "usage_role": "contextual",
+                "applicability": "Et ya da başka bir nesnenin ateşe tutulduğu veya başka birinin ateşe atıldığı geçişli kullanımlara uygundur.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Ateşle bir nesne üzerinde pişirme veya yakma işlemi yapılmasını korur.",
+                  "loses": "Öznenin ateş sıcaklığını çekmesi, ısınması, yakacak anlamı ve sıkıntıya katlanması kaybolur.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              },
+              {
+                "text": "bir işin sıkıntısını çekmek",
+                "usage_role": "contextual",
+                "applicability": "Ateşin yakıcılığının ağır bir işin eziyetine aktarıldığı mecazlı kuruluşlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yakıcı şiddete katlanma düşüncesinin zorlu bir işe aktarılmasını korur.",
+                  "loses": "Gerçek ateş, ısınma, pişirme, yakma, düzeltme ve yakacak anlamlarını dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F005"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ateşe girip onun yakıcı sıcaklığını çekmek"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ateşin yanında ısınmak"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "eti ateşte pişirmek"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ateşte pişirilmiş"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "birini ateşe atıp yakmak"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ateşi besleyen yakacak; ateşte pişirme"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "değneği ateşte yumuşatıp düzeltmek"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir işin güçlüğünü ve yorgunluğunu çekmek"
+              },
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "onun sertliğine kimse yanaşamaz"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000880/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odun ve yiyeceği ateşle işleme, yakacak ve zorluğa katlanma gibi bağlı kullanımları da kapsar.",
+                "neighbor_only": null,
+                "gloss": "ateşe ve onun yakıcı sıcaklığına maruz kalma",
+                "shared_zone": "İki dal da ateşe girme, ateş yanında bulunma ve onun yakıcı sıcaklığını çekme çekirdeğinde birleşir.",
+                "distinction": "Komşu dal doğrudan ateşle karşılaşma ve ateşe sokma sınırında kalır; odun düzeltme, pişirme, yakacak ve sıkıntıya katlanma gibi ek kullanımlar yalnız odak dalda açıkça yer alır."
+              },
+              {
+                "neighbor_ref": "root_000880/B004",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Ateşe girme, ateşin sıcaklığını çekme ve ağır bir sıkıntıya katlanma yönlerini içerir.",
+                "neighbor_only": "Ateşi yakıp tutuşturma eylemi komşu dalda açıkça bulunur.",
+                "gloss": "ateşi yakma ve ateşle düzeltme",
+                "shared_zone": "İki dal da yakacak, ateşte pişirme ve değneği ateşte yumuşatıp düzeltme kullanımlarını paylaşır.",
+                "distinction": "Komşu dal ateşi yakma ve nesneyi ateşle işleme çevresinde toplanır; odak dal buna ek olarak ateşe maruz kalan kişinin yaşadığı ısı ve sıkıntıyı da kapsar."
+              }
+            ],
+            "neighbor_coverage_note": "İki yakın komşu, dalın ateşe maruz kalma ve ateşle işleme taraflarını ayrı ayrı sınırlar; öteki adaylar yalnız ateş alanını ya da uzak eşadlı dalları paylaşır.",
+            "branch_image_ar": "ملاقاة النار وحرها",
+            "what_is_ar": "يدخل فيه الاصطلاء بالنار والشواء والإحراق والوقود ومقاساة الحر والشدة",
+            "what_is_not_ar": "ليس الدعاء ولا العبادة ولا مواضعها ولا الصَّلا من الظهر",
+            "source_phrase_ar": "صليت العود بالنار (maqayis); اصطليت بالنار (maqayis;sihah); الصلا النار وصلى الكافر نارا (ayn); صليت اللحم شويته (ayn;sihah;tahdhib); الصلاء يقال للوقود وللشواء (mufradat); صلي بالأمر إذا قاسى حره وشدته (sihah;tahdhib)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000879/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi insanlar için başkasına iyilik dileme anlamını, Tanrı için esirgeme, övme, bağışlama ve değer verme anlamlarını, melekler içinse bağışlanma dileğini açıkça ayırır.",
+              "boundary_note": "Özneye göre gerçekleşme biçimi değişir: insan ve melek diler, Tanrı ise esirger, över ve değer verir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yalın iyilik dileme anlamı korunur; Tanrı ve meleklerle kurulan özel özne yapılarının anlamları bütün dala yayılmaz."
+            },
+            "concept_map": {
+              "definition": "Bir başkası için iyilik istemeyi anlatır; özne Tanrı olduğunda esirgeme, güzel sözle anma, bağışlama ve değerini onaylama, melekler olduğunda ise bağışlanma ve iyilik isteme anlamı kazanır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir kişi başkası için iyilik, esenlik ve iyi sonuç diler.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Özne Tanrı olduğunda eylem esirgeme, güzel sözle anma, bağışlama ve değer verme olarak gerçekleşir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Özne melekler olduğunda başkası için bağışlanma ve iyilik isteme anlamı öne çıkar.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım başkası için iyilik dilemeyi temel alır ve özneye göre Tanrı'nın esirgemesi, övmesi, bağışlaması ve değer vermesi ile meleklerin bağışlanma istemesini ayırır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "başkası için iyilik dileme; esirgeme, övme ve değer verme",
+              "applicability": "İnsan ve meleklerin dileğini, Tanrı'nın ise dilekten farklı olarak esirgeme, övme ve değer verme eylemini kapsayan üst anlatımdır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "İyilik dileme çekirdeğini ve özne Tanrı olduğunda ortaya çıkan esirgeme, övme ve değer verme ayrımını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "onun için iyilik dilemek",
+                "usage_role": "general",
+                "applicability": "Bir insanın başka biri için iyi sonuç, esenlik veya bağışlanma istediği bağlamlarda doğal karşılıktır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bir başkası yararına sözle iyi sonuç isteme yönünü korur.",
+                  "loses": "Tanrı'nın esirgeme, övme ve değer verme eylemini doğrudan anlatmaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "Tanrı'nın esirgemesi ve övmesi",
+                "usage_role": "explanatory",
+                "applicability": "Öznenin Tanrı olduğu ve eylemin esirgeme, güzel sözle anma, bağışlama ya da değer verme bildirdiği bağlamlara özgüdür.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Tanrı'ya özgü esirgeme ve övgü yönlerini açık biçimde korur.",
+                  "loses": "İnsanların ve meleklerin başkası için iyilik ya da bağışlanma istemesini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "başkası için iyilik ve esenlik dileme"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "biri için iyilik dilemek, onu övmek veya esirgenmesini istemek"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "Tanrı'nın esirgemesi, övmesi, bağışlaması ve değer vermesi"
+              },
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "meleklerin bağışlanma ve iyilik dilemesi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000880/B002",
+                "relation_type": "synonym",
+                "boundary_match": "exact",
+                "focus_only": null,
+                "neighbor_only": null,
+                "gloss": "iyilik dileme, esirgeme ve övme",
+                "shared_zone": "Her iki dal da insan, melek ve Tanrı öznesine göre ayrılan iyilik dileme, esirgeme, övme ve bağışlanma anlamlarını kapsar.",
+                "distinction": "Sunulan kartlarda çekirdek, özne ayrımı ve kapsam bakımından anlamlı bir sınır farkı bulunmaz."
+              }
+            ],
+            "neighbor_coverage_note": "Tam eşleşen komşu dal yayımlandı; diğer adaylar yalnız belirli dilek türlerini, iyi karşılamayı veya bağışlamayı paylaşır ve dal sınırını ayrıca keskinleştirmez.",
+            "branch_image_ar": "الدعاء والثناء والرحمة",
+            "what_is_ar": "يدخل فيه الدعاء للغير والتبريك والاستغفار وصلاة الله بمعنى الرحمة والثناء والتزكية",
+            "what_is_not_ar": "ليست العبادة ذات الركوع والسجود ولا مواضع العبادة ولا النار والشواء",
+            "source_phrase_ar": "الصلاة وهي الدعاء (maqayis;sihah); صلوات الرسول للمسلمين دعاؤه لهم (ayn); الصلاة من الله تعالى الرحمة (maqayis;sihah;tahdhib); صلوات الله حسن ثنائه عليهم وقيل مغفرته لهم (ayn); صلاة الملائكة الاستغفار (ayn;tahdhib;mufradat); صلاة الله للمسلمين تزكيته إياهم (mufradat)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000879/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi ayakta durma, eğilme, yere kapanma, dilek ve yüceltme bölümleri bulunan, kuralları belirlenmiş tapınmayı ve bu tapınmanın bütün gereklerini yerine getirmeyi açıkça destekler.",
+              "boundary_note": "Burada genel iyilik dileği değil, bölümleri ve yerine getirilmesi gereken koşulları bulunan belirli tapınma eylemi tanımlanır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yalın biçimin kurallı tapınma anlamı korunur; bütün hak ve koşulları yerine getirme vurgusu yalnız bunu bildiren özel kuruluşta tutulur."
+            },
+            "concept_map": {
+              "definition": "Ayakta durma, eğilme, yere kapanma, dilekte bulunma ve yüceltme gibi belirli bölümleri bulunan kurallı bir tapınma eylemidir. Onu yerine getirmek, yalnız hareketleri yapmak değil, bütün gerek ve koşullarını gözetmektir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kuralları belirlenmiş tapınma, ayakta durma, eğilme, yere kapanma, dilek ve yüceltme bölümlerini içerir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bu tapınmanın yerine getirilmesi, ona ait bütün gerekleri ve koşulları eksiksiz gözetmeyi gerektirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım, ayakta durma, eğilme ve yere kapanma başta olmak üzere belirli bölümleri bulunan kurallı tapınmayı ve onun gereklerini eksiksiz yerine getirmeyi bildirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma",
+              "applicability": "Belirli hareket, söz ve koşulları bulunan tapınma eyleminin tamamını belirtir; yalnız genel bir dileği anlatmaz.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Tapınmanın kurallı niteliğini, temel beden duruşlarını ve bütün olarak yerine getirilmesini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "namaz",
+                "usage_role": "general",
+                "applicability": "Kuralları belirli, ayakta durma, eğilme ve yere kapanma bölümleri bulunan tapınmanın Türkçedeki doğal kısa adıdır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Belirli bölümleri, kuralları ve bütün olarak yerine getirilişi bulunan tapınmayı doğal biçimde karşılar.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "namaz"
+              },
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "namazı bütün gerek ve koşullarını yerine getirerek kılmak"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000880/B001",
+                "relation_type": "synonym",
+                "boundary_match": "exact",
+                "focus_only": null,
+                "neighbor_only": null,
+                "gloss": "kuralları belirli namaz ibadeti",
+                "shared_zone": "İki dal da ayakta durma, eğilme ve yere kapanma bölümleri bulunan, gerekleri gözetilerek yerine getirilen namaz ibadetini tanımlar.",
+                "distinction": "Sunulan kartlar, eylemin türü, temel bölümleri veya yerine getirme sınırı bakımından bir ayrım göstermemektedir."
+              }
+            ],
+            "neighbor_coverage_note": "Tam eşleşen komşu dal yeterli karşılaştırmayı sağlar; öteki adaylar tapınmanın yalnız bir duruşunu, genel kulluğu, yerini veya aracını paylaşır.",
+            "branch_image_ar": "العبادة المخصوصة",
+            "what_is_ar": "يدخل فيه الصلاة الشرعية ذات الركوع والسجود والقيام بحدودها وإقامتها",
+            "what_is_not_ar": "ليست مطلق الدعاء ولا صلاة الله والملائكة ولا الكنائس",
+            "source_phrase_ar": "الصلاة التي جاء بها الشرع من الركوع والسجود وسائر حدود الصلاة (maqayis); الصلاة واحدة الصلوات المفروضة (sihah); الصلاة من المخلوقين القيام والركوع والسجود والدعاء والتسبيح (tahdhib); الصلاة التي هي العبادة المخصوصة أصلها الدعاء (mufradat); إقامة الصلاة (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000879/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi avı ya da başka bir şeyi yakalamak için kurulan tuzakları ve buradan türeyen, bir kimseyi yıkıma düşürmek amacıyla iş çevirme kullanımını birlikte destekler.",
+              "boundary_note": "Kurulan yakalama aracı çekirdektir; bir kişiyi zarara düşürmek için düzen kurma anlamı bu çekirdeğin insana aktarılmasıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yalın biçimlerin tuzak adı korunur; bir kişi için gizlice düzen kurma anlamı yalnız onu bildiren özel kuruluşla sınırlı tutulur."
+            },
+            "concept_map": {
+              "definition": "Avın ya da başka bir hedefin içine düşüp yakalanması için kurulan tuzaktır. Bir kimseyi zarara veya yıkıma düşürmek amacıyla gizlice iş çevirme anlamı bu araçtan türeyen bağlı kullanımdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir hedefin içine düşerek yakalanması için tuzak veya benzeri bir araç kurulur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Tuzak düşüncesi, bir kimseyi zarara veya yıkıma düşürmek için gizlice düzen kurmaya aktarılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım, avı veya başka bir hedefi yakalamak üzere kurulan tuzağı temel alır ve aynı yapıyı bir kişiyi yıkıma sürükleyecek düzen kurmaya taşır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yakalamak için kurulan tuzak",
+              "applicability": "Av veya başka bir hedefin içine düşerek yakalanacağı somut araç çekirdeğini doğal ve eksiksiz biçimde karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Aracın önceden kurulmasını, hedefin ona düşmesini ve yakalanma sonucunu korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "birini tuzağa düşürmek için düzen kurmak",
+                "usage_role": "contextual",
+                "applicability": "Somut av aracının bir kişiyi zarara veya yıkıma götürecek gizli girişime aktarıldığı bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Hedefi önceden hazırlanmış bir düzenle zarara düşürme düşüncesini korur.",
+                  "loses": "Av veya başka bir hedef için kurulan somut yakalama aracını doğrudan adlandırmaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "av için kurulan tuzak"
+              },
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "avı veya başka hedefleri yakalayan tuzaklar"
+              },
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "birini yıkıma düşürmek için gizlice düzen kurmak"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000880/B005",
+                "relation_type": "synonym",
+                "boundary_match": "exact",
+                "focus_only": null,
+                "neighbor_only": null,
+                "gloss": "yakalamak için kurulan tuzaklar",
+                "shared_zone": "İki dal da avı veya başka bir hedefi içine düşürüp yakalamak için kurulan tuzakları temel anlam olarak taşır.",
+                "distinction": "Odak daldaki kişiye yönelik düzen kurma, tuzak çekirdeğinden türeyen bağımlı bir kullanımdır ve kartların temel sınırını değiştirmez."
+              }
+            ],
+            "neighbor_coverage_note": "Tam eşleşen komşu dal yayımlandı; diğer adaylar belirli tuzak türlerini, tuzağa yakalanma sonucunu veya avlanma sahnesindeki başka araçları gösterir.",
+            "branch_image_ar": "الشرك المنصوبة",
+            "what_is_ar": "يدخل فيه المصالي والمصلاة التي تنصب شركا للصيد أو الإيقاع",
+            "what_is_not_ar": "ليست الصلاة الدعاء ولا النار ولا الصَّلا من الجسد",
+            "source_phrase_ar": "مصالي هي الأشراك واحدتها مصلاة (maqayis); المصلاة أن تنصب شركا ونحوه ليقع فيه شيء فيصطاد (ayn); المصالي شبيهة بالشرك تنصب للطير وغيرها (tahdhib); صليت لفلان إذا عملت له في أمر تريد أن توقعه في هلكة (tahdhib)",
+            "sources": [
+              "MQ",
+              "AY",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000879/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi hem insan ve dört ayaklılarda sırtın orta bölümünü hem de kuyruğun iki yanındaki bölgeleri belirtir; dişinin doğumunda bu bölgenin açılması ve devenin doğuma yaklaşması da açıkça desteklenir.",
+              "boundary_note": "Anatomik bölge çekirdektir; doğum sırasında açılma ve yavrunun bu bölgeye inmesi aynı bölgeye bağlı durumları anlatır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yalın anatomik adlar temel alınır; doğum sırasında bölgenin açılması ve devenin doğuma yaklaşması yalnız ilgili kuruluşlarda korunur."
+            },
+            "concept_map": {
+              "definition": "İnsan veya dört ayaklı bir hayvanda sırtın orta bölümünü ve özellikle kuyruk kökünün iki yanını kapsayan anatomik bölgedir. Dişide doğum sırasında bu bölgenin açılması ve yavrunun oraya inerek doğumun yaklaşması, bölgeye bağlı durumlardır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "İnsan ve dört ayaklılarda sırtın orta bölümü ile kuyruk kökünün iki yanı adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Dişinin doğumunda bu bölge açılır; devede yavrunun buraya inmesi doğumun yaklaştığını gösterir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım sırtın ortası ile kuyruk kökünün iki yanındaki anatomik bölgeyi tanımlar; doğum sırasında açılmayı ve yavrunun bu bölgeye inmesini ona bağlı durumlar olarak verir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "sırtın ortası ve kuyruk kökünün iki yanı",
+              "applicability": "İnsan veya dört ayaklı hayvanın sırt ve kuyruk kökü çevresindeki anatomik bölgesini birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Sırtın orta bölümünü ve kuyruğun sağ ile sol yanındaki eşlenik bölgeleri birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "doğumda kuyruk kökü çevresinin açılması",
+                "usage_role": "explanatory",
+                "applicability": "Dişinin doğumu sırasında anatomik bölgenin gevşeyip açıldığı veya yavrunun oraya indiği bağlamlara özgüdür.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Anatomik bölgenin doğum sırasında açılması ve doğumun yaklaşmasıyla ilişkisini korur.",
+                  "loses": "Bölgenin insan ve hayvandaki genel anatomik adını bağımsız olarak karşılamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sırtın orta bölümü veya kuyruk kökünün iki yanı"
+              },
+              {
+                "lexical_unit_id": "lu_020",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kuyruk kökünün iki yanı"
+              },
+              {
+                "lexical_unit_id": "lu_021",
+                "rendering_kind": "ordinary",
+                "target_gloss": "doğum sırasında kuyruk kökü çevresinin açılması"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000880/B006",
+                "relation_type": "synonym",
+                "boundary_match": "exact",
+                "focus_only": null,
+                "neighbor_only": null,
+                "gloss": "sırtın ortası ve kuyruk kökü çevresi",
+                "shared_zone": "İki dal da sırtın orta bölgesini, kuyruğun iki yanını ve bu bölgenin doğum sırasında açılmasını kapsar.",
+                "distinction": "Sunulan kartlarda anatomik yer veya doğuma bağlı durum bakımından anlamlı bir kapsam farkı yoktur."
+              }
+            ],
+            "neighbor_coverage_note": "Tam eşleşen komşu dal yayımlandı; diğer adaylar sırt, kuyruk sokumu, yan bölge veya doğumdaki gevşeme gibi yalnız tek bir parçayı paylaşır.",
+            "branch_image_ar": "الصَّلا من الظهر والجنب",
+            "what_is_ar": "يدخل فيه وسط الظهر ومكتنفا الذنب وجانبا صلا الحيوان وما يتصل بولادة الأنثى عند انفرج الصلا",
+            "what_is_not_ar": "ليس الصلاة ولا النار ولا المصلي في السباق إلا من جهة الاشتقاق",
+            "source_phrase_ar": "الصلا وسط الظهر لكل ذي أربع وللناس (ayn); كل أنثى إذا ولدت انفرج صلاها (ayn); الصلوين وهما مكتنفا الذنب من الناقة وغيرها (tahdhib); أصلت الناقة فهي مصلية إذا وقع ولدها في صلاها وقرب نتاجها (tahdhib)",
+            "sources": [
+              "AY",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000879/B006",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi yarışta birincinin ardından gelen ikinciyi ve atın başının öndeki atın kuyruk kökü hizasına gelmesini adlandırmanın nedeni olarak açıkça belirtir.",
+              "boundary_note": "Genel olarak önde gitme değil, birincinin hemen ardındaki ikinci sıra ve bu yakın takip konumu tanımlanır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yalın yarışçı adı ikinci sırayı belirtir; atın bu konumda gelmesini anlatan eylem yalnız ilgili kuruluşta tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir yarışta birincinin hemen ardından gelen ikinci yarışmacıdır; özellikle at yarışında başının öndeki atın kuyruk kökü hizasına gelmesi bu adı açıklayan yakın takip konumudur.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Yarışmacı, birincinin hemen ardından gelerek yarışı ikinci sırada sürdürür veya bitirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "At yarışında ikinci atın başı, öndeki atın kuyruk kökü hizasına gelecek kadar onu yakından izler.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım yarıştaki ikinciyi, birincinin hemen ardındaki yarışmacı olarak tanımlar ve atın başının öndeki atın kuyruk kökü hizasında bulunmasını adın gerekçesi sayar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yarışta birincinin hemen ardındaki ikinci",
+              "applicability": "Özellikle at yarışında lideri yakından izleyen ve sıralamada ikinci olan yarışmacıyı belirtir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "İkinci sırayı, birinciyi doğrudan izlemeyi ve aradaki yakın konumsal ilişkiyi korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "liderin hemen ardından ikinci gelmek",
+                "usage_role": "contextual",
+                "applicability": "Atın bir yarışta öndeki atı yakından izleyerek ikinci sırada geldiğini anlatan eylem bağlamına uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yarış eylemini, ikinci sırayı ve liderin hemen ardından gelme ilişkisini eksiksiz korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_022",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yarışta birincinin ardından gelen ikinci"
+              },
+              {
+                "lexical_unit_id": "lu_023",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yarışta liderin hemen ardından ikinci gelmek"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000880/B007",
+                "relation_type": "synonym",
+                "boundary_match": "exact",
+                "focus_only": null,
+                "neighbor_only": null,
+                "gloss": "yarışta lideri izleyen ikinci",
+                "shared_zone": "İki dal da yarışta birincinin hemen ardında bulunan ikinciyi ve atın başının öndeki atın kuyruk kökünü izlemesini tanımlar.",
+                "distinction": "Sunulan kartlarda sıra, katılımcı veya yakın takip koşulu bakımından bir sınır farkı bulunmaz."
+              },
+              {
+                "neighbor_ref": "root_000724/B006",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Birincinin hemen ardından gelen ikinci yarışmacıyı belirtir.",
+                "neighbor_only": "Yarış grubunun sonunda, bazı düzenlerde onuncu sırada gelen atı belirtir.",
+                "gloss": "yarışın sonundaki at",
+                "shared_zone": "Her iki dal da at yarışındaki bitiriş sırasına göre belirlenen bir yarışmacıyı adlandırır.",
+                "distinction": "Odak dal liderin hemen ardındaki ikinciyi, komşu dal ise grubun en sonunda gelen atı belirtir; aynı yarış alanında karşıt uçlarda yer alırlar."
+              }
+            ],
+            "neighbor_coverage_note": "Tam eşleşen dal ile ikinci ve sonuncu sıra karşıtlığını gösteren aday yayımlandı; diğerleri yarış, hız veya başlangıç düzenini paylaşsa da aynı sıra adını karşılamaz.",
+            "branch_image_ar": "تلو السابق في السباق",
+            "what_is_ar": "يدخل فيه المصلي من الخيل أو السابق الثاني الذي يأتي رأسه عند صلا السابق",
+            "what_is_not_ar": "ليس مطلق السبق ولا الصلاة ولا الشرك المنصوبة",
+            "source_phrase_ar": "قد صلى وجاء مصليا لأن رأسه يتلو الصلا الذي بين يديه (ayn); المصلى تالي السابق (sihah); السابق الأول والمصلي الثاني (tahdhib); يكون عند صلا الأول (tahdhib)",
+            "sources": [
+              "AY",
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000879/B007",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi sözcüğü bir din topluluğunun kiliseleri, başka bir topluluğun tapınma yerleri ve daha genel olarak tapınma yeri adı şeklinde verir; sağlanan çerçeve bu çeşitliliği doğru yansıtır.",
+              "boundary_note": "Eylemin kendisi değil, tapınmaya ayrılmış yer adlandırılır; topluluğa özgü kilise kullanımı genel yer anlamına bağlıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Dal yalnız yalın yer adlarını içerir ve başka dallardaki tapınma eylemi ya da dilek anlamlarını tanıma katmaz."
+            },
+            "concept_map": {
+              "definition": "Bir topluluğun tapınmasına ayrılmış yerin adıdır; özellikle Yahudilerin kiliseleri için kullanılır, bazı anlatımlarda Sabiilerin tapınma yerlerini de kapsar.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir din topluluğunun topluca veya düzenli biçimde tapındığı yer adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Ad özellikle Yahudilerin kiliseleri için verilir; bazı anlatımlarda Sabiilerin tapınma yerlerine de uygulanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım sözcüğü tapınma yeri adı olarak açıklar; topluluğa özgü kullanım Yahudi kiliselerini öne çıkarırken başka bir aktarım Sabiilerin tapınma yerlerini de kapsar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "tapınma yeri; kilise",
+              "applicability": "Genel tapınma yeri anlamını ve özellikle belirli din topluluklarının kiliseleri için kullanılan yer adını birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Tapınmaya ayrılmış yer çekirdeğini ve kilise olarak özelleşen kullanımını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "Yahudilerin kiliseleri",
+                "usage_role": "contextual",
+                "applicability": "Çoğul biçimin özellikle Yahudi topluluğunun kiliselerini adlandırdığı tarihsel bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Belirli bir topluluğa ait kiliseleri ve bunların tapınma yeri oluşunu korur.",
+                  "loses": "Genel tapınma yeri anlamını ve Sabiilerin tapınma yerlerine uzanan aktarımı dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_024",
+                "rendering_kind": "ordinary",
+                "target_gloss": "Yahudilerin kiliseleri veya bir din topluluğunun tapınma yerleri"
+              },
+              {
+                "lexical_unit_id": "lu_025",
+                "rendering_kind": "ordinary",
+                "target_gloss": "tapınma yeri"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000880/B008",
+                "relation_type": "synonym",
+                "boundary_match": "exact",
+                "focus_only": null,
+                "neighbor_only": null,
+                "gloss": "tapınma yerleri ve kiliseler",
+                "shared_zone": "İki dal da tapınma yerini, özellikle Yahudilerin kiliselerini ve bazı anlatımlarda Sabiilerin tapınma yerlerini kapsar.",
+                "distinction": "Sunulan kartlar yer türü, topluluklara uzanım veya eylem ile yer ayrımı bakımından bir sınır farkı göstermez."
+              }
+            ],
+            "neighbor_coverage_note": "Tam eşleşen komşu dal yayımlandı; diğer adaylar kilisenin belirli bir türünü, tapınma yerindeki kişiyi veya genel din alanını paylaşır.",
+            "branch_image_ar": "مواضع الصلاة ودور العبادة",
+            "what_is_ar": "يدخل فيه الصلوات بمعنى كنائس اليهود أو مواضع صلوات الصابئين واسم موضع العبادة",
+            "what_is_not_ar": "ليست فعل الصلاة ولا الدعاء ولا الرحمة",
+            "source_phrase_ar": "صلوات اليهود كنائسهم واحدها صلاة (ayn); الصلوات كنائس اليهود (tahdhib); قيل إنها مواضع صلوات الصابئين (tahdhib); يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات (mufradat)",
+            "sources": [
+              "AY",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000879/B008",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi geniş bir dövme taşını, üzerinde güzel kokulu maddelerin veya kurutulmuş yemişin dövülmesini ve taşın kaba, kalın bir levha görünümünü açıkça destekler.",
+              "boundary_note": "Çekirdek, malzemenin üstünde dövüldüğü geniş taş yüzeyidir; genel olarak her taş veya her dövme aracı kastedilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Dal yalın taş adlarıyla sınırlıdır; ateş, tapınma, anatomi veya yalnız başka bir araçta görülen dövme anlamları içeri alınmaz."
+            },
+            "concept_map": {
+              "definition": "Güzel kokulu maddeler veya kurutulmuş yemiş gibi malzemelerin üzerinde dövüldüğü geniş, kalın ve kaba taş yüzeyidir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Geniş ve sert bir taş, malzemenin üstünde dövülüp ezildiği çalışma yüzeyi olarak kullanılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "example",
+                  "statement": "Taşın üzerinde güzel kokulu maddeler veya kurutulmuş yemiş dövülebilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "source_variant",
+                  "statement": "Nesne kaba ve kalın bir taş levha görünümüyle de betimlenir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım, üzerinde malzeme dövülen geniş taşı tanımlar; güzel kokulu madde ve kurutulmuş yemiş örneklerini verir ve taşın kaba, kalın yüzeyini belirtir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "üzerinde dövme yapılan geniş taş",
+              "applicability": "Malzemenin içine değil üstüne konup dövüldüğü geniş, sert ve çoğu kez kaba taş yüzeyi için kullanılır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Geniş taş yüzeyini, malzemenin onun üstünde dövülmesini ve araç işlevini birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "dövme taşı",
+                "usage_role": "general",
+                "applicability": "Güzel kokulu madde, kurutulmuş yemiş veya benzeri malzemenin üstünde ezildiği taş araç için doğal kısa karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Taşın malzemeyi dövüp ezmeye ayrılmış bir çalışma yüzeyi olmasını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_026",
+                "rendering_kind": "ordinary",
+                "target_gloss": "üzerinde malzeme dövülen geniş taş"
+              },
+              {
+                "lexical_unit_id": "lu_027",
+                "rendering_kind": "ordinary",
+                "target_gloss": "dövme taşı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000880/B009",
+                "relation_type": "synonym",
+                "boundary_match": "exact",
+                "focus_only": null,
+                "neighbor_only": null,
+                "gloss": "üzerinde malzeme dövülen geniş taş",
+                "shared_zone": "İki dal da güzel kokulu madde veya kurutulmuş yemiş gibi malzemelerin üstünde dövüldüğü geniş ve kaba taşı tanımlar.",
+                "distinction": "Komşu karttaki kaba ve geniş nesne benzetmesi, odak kaynağındaki kalın taş levha betiminden doğar ve temel sınırı değiştirmez."
+              },
+              {
+                "neighbor_ref": "root_001608/B004",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Malzemenin üstünde dövüldüğü geniş ve çoğunlukla düz bir taş yüzeyidir.",
+                "neighbor_only": "Malzemenin içine konarak dövüldüğü çukur kap biçimli aracı veya bazı anlatımlarda döven aracı belirtir.",
+                "gloss": "havan",
+                "shared_zone": "Her iki dal da bir malzemeyi vurarak ezme ve inceltme işinde kullanılan araçları adlandırır.",
+                "distinction": "Odak dal geniş taşın üst yüzeyini çalışma alanı yapar; komşu dal ise çoğunlukla malzemenin içine konduğu kap biçimli bir dövme aracıdır."
+              }
+            ],
+            "neighbor_coverage_note": "Tam eşleşen dal ve sık karışabilecek havan karşılaştırması yayımlandı; diğer adaylar yalnız geniş taş, sert taş veya belirli bir maddeyi dövme alanını paylaşır.",
+            "branch_image_ar": "الصَّلاية حجر الدق",
+            "what_is_ar": "يدخل فيه الصلاية والصلاءة وهي حجر عريض أو فهر يدق عليه العطر أو الهبيد",
+            "what_is_not_ar": "ليس النار ولا الصلاة ولا الصَّلا من الظهر",
+            "source_phrase_ar": "الصلاية الفهر (sihah); الصلاءة بالهمز مثله (sihah); الصلاية كل حجر عريض يدق عليه عطر أو هبيد (tahdhib); الصلاية سريحة خشنة غليظة من القف (tahdhib)",
+            "sources": [
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000879/B009",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi iri bir başak veya kamış başına benzeyen tepe taşıyan bitkiyi ve develerin onu otlaması nedeniyle verilen deve yiyeceği benzetmesini doğrular.",
+              "boundary_note": "Belirli bitki çekirdektir; develerin onu otlaması ve bu bitkinin yetiştiği arazi adı çekirdeğe bağlıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yalın biçim belirli bitkiyi adlandırır; o bitkinin bulunduğu arazi anlamı yalnız ilgili ad kuruluşuyla sınırlı tutulur."
+            },
+            "concept_map": {
+              "definition": "Kamış başına benzeyen iri bir başak veya tepe taşıyan ve develerin otladığı belirli bir bitkidir. Bu bitkinin yetiştiği araziyi belirten ad, bitki çekirdeğine bağlı bir yer kullanımıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Belirli bitki, kamış başına benzeyen iri bir başak veya belirgin bir tepe taşır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Bitki develer tarafından otlanır ve onların yiyeceği sayılacak kadar bu hayvanlarla ilişkilendirilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Bu bitkinin yetiştiği arazi, bitkinin varlığına göre ayrıca adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak anlatım iri başaklı veya tepeli belirli bir bitkiyi tanımlar, kamış başına benzeyen görünüşünü belirtir ve develerin onu otlamasıyla kurulan yiyecek ilişkisini aktarır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "iri başaklı, develerin otladığı bir bitki",
+              "applicability": "Kamış başına benzeyen iri başağı veya tepesiyle ayırt edilen ve deve yemi olan belirli bitkiyi betimleyerek karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Bitkinin ayırt edici iri başağını ve develer tarafından otlanma özelliğini birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "bu bitkinin yetiştiği arazi",
+                "usage_role": "explanatory",
+                "applicability": "Arazinin söz konusu iri başaklı bitkiyi taşımasına göre adlandırıldığı yer bildiren kuruluşta kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Arazi ile orada yetişen belirli bitki arasındaki varlık ilişkisini korur.",
+                  "loses": "Bitkinin kendisini, iri başaklı görünüşünü ve deve yemi oluşunu doğrudan adlandırmaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_028",
+                "rendering_kind": "ordinary",
+                "target_gloss": "iri başaklı, develerin otladığı bir bitki"
+              },
+              {
+                "lexical_unit_id": "lu_029",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bu bitkinin yetiştiği arazi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000880/B010",
+                "relation_type": "synonym",
+                "boundary_match": "exact",
+                "focus_only": null,
+                "neighbor_only": null,
+                "gloss": "iri başaklı deve yemi bitkisi",
+                "shared_zone": "İki dal da iri başağı veya tepesi bulunan, develerin otladığı ve onların yiyeceği sayılan aynı bitkiyi tanımlar.",
+                "distinction": "Sunulan kartlarda bitkinin görünüşü, otlayan hayvan veya kullanım kapsamı bakımından anlamlı bir sınır farkı yoktur."
+              }
+            ],
+            "neighbor_coverage_note": "Tam eşleşen komşu dal yayımlandı; diğer adaylar deve yemi, otlak veya benzer görünümlü bitki alanını paylaşır ancak aynı bitkiyi göstermez.",
+            "branch_image_ar": "الصِّليان نبت ترعاه الإبل",
+            "what_is_ar": "يدخل فيه الصليان وهو نبت له سنمة أو سبطة عظيمة وتسمية العرب له خبزة الإبل",
+            "what_is_not_ar": "ليس الصلاة ولا النار ولا الصلاية",
+            "source_phrase_ar": "الصليان نبت (ayn;tahdhib); له سنمة عظيمة كأنها رأس القصبة (ayn); له سبطة عظيمة كأنها رأس القصبة (tahdhib); تسميها العرب خبزة الإبل (ayn;tahdhib)",
+            "sources": [
+              "AY",
+              "TA"
+            ],
+            "source_note": {}
+          }
+        ],
+        "root_profile": {
+          "summary": "Bu söz ailesi ateş ve sıcaklıkla karşılaşma, iyilik dileme, kurallı tapınma, tuzak, sırt ve kuyruk çevresi, yarışta ikincilik, tapınma yeri, dövme taşı ve deve yemi bir bitki olmak üzere büyük ölçüde ayrı dokuz anlam dalına ayrılır; bazı dallar kendi içinde somut çekirdekten eylem, yer veya durum kullanımlarına uzanır.",
+          "polysemy": "polysemic",
+          "organization": "multi_branch"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 99,
+            "word_count": 99,
+            "ayah_count": 90,
+            "surah_count": 37
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَّلَوٰةَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|ACC",
+              "occurrence_count": 47
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَّلَوٰةِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|GEN",
+              "occurrence_count": 17
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "مُصَلًّى",
+              "stem_ar": "مُصَلًّى",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:muSal~FY|ROOT:Slw|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F004",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَلَوَٰتٌ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|FP|INDEF|NOM",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F005",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَّلَوَٰتِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|FP|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F006",
+              "lemma_ar": "صَلَّىٰ",
+              "stem_ar": "يُصَلِّى",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|IMPF|(II)|LEM:Sal~aY`|ROOT:Slw|3MS",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F007",
+              "lemma_ar": "صَلَّىٰ",
+              "stem_ar": "يُصَلُّ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|IMPF|(II)|LEM:Sal~aY`|ROOT:Slw|3MP|MOOD:JUS",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F008",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَلَاتِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|GEN",
+              "occurrence_count": 6
+            },
+            {
+              "form_id": "F009",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَلَاتِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F010",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَلَاتُ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|NOM",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F011",
+              "lemma_ar": "صَلَّىٰ",
+              "stem_ar": "تُصَلِّ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|IMPF|(II)|LEM:Sal~aY`|ROOT:Slw|3FS|MOOD:JUS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F012",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَلَوَٰتِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|FP|GEN",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F013",
+              "lemma_ar": "صَلَّىٰ",
+              "stem_ar": "صَلِّ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|IMPV|(II)|LEM:Sal~aY`|ROOT:Slw|2MS",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F014",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَلَوٰتَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F015",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَلَوٰتُ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|NOM",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F016",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَلَاتَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F017",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَلَوٰةِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|GEN",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F018",
+              "lemma_ar": "صَلَّىٰ",
+              "stem_ar": "يُصَلُّ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|IMPF|(II)|LEM:Sal~aY`|ROOT:Slw|3MP",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F019",
+              "lemma_ar": "صَلَّىٰ",
+              "stem_ar": "صَلُّ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|IMPV|(II)|LEM:Sal~aY`|ROOT:Slw|2MP",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F020",
+              "lemma_ar": "صَلَوٰة",
+              "stem_ar": "صَّلَوٰةُ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Salaw`p|ROOT:Slw|F|NOM",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F021",
+              "lemma_ar": "مُصَلِّين",
+              "stem_ar": "مُصَلِّينَ",
+              "pos": "N",
+              "measure": "II",
+              "morph_features": "STEM|POS:N|ACT|PCPL|(II)|LEM:muSal~iyn|ROOT:Slw|MP|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F022",
+              "lemma_ar": "مُصَلِّين",
+              "stem_ar": "مُصَلِّينَ",
+              "pos": "N",
+              "measure": "II",
+              "morph_features": "STEM|POS:N|ACT|PCPL|(II)|LEM:muSal~iyn|ROOT:Slw|MP|GEN",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F023",
+              "lemma_ar": "صَلَّىٰ",
+              "stem_ar": "صَلَّىٰ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|PERF|(II)|LEM:Sal~aY`|ROOT:Slw|3MS",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F024",
+              "lemma_ar": "صَلَّىٰ",
+              "stem_ar": "صَلَّىٰٓ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|PERF|(II)|LEM:Sal~aY`|ROOT:Slw|3MS",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000879_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000879",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "editorial_repair",
+        "inputs_sha256": "0e9b31981ec87529de44b70739532c58bc2b1ae7b0043161770a8b20653f9874",
+        "review_inputs_sha256": "644e4559748e081684e9de9a5d59b2b4879870f76de693924f87fa96143946aa",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000879/tr/output/root_000879_entry.json",
+          "sha256": "d90a31606bd9fb5e5b7a8b1dd310b3ecef3ff21148c33f37e483a8a0d27635c8",
+          "entry_id": "root_000879/tr",
+          "status": "reviewed",
+          "review_verdict": "repair",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000879.json",
+          "sha256": "c21f164041f3516b289b85c28b8728a1672c4b6d87444e8fa60da67c8a793763"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000879/tr/repair/editorial/input/task.json",
+          "sha256": "607ecc71c93e46e9eee2afe6a849e6e199969a016572a7ae173a22dcf8dbc561"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000879/tr/repair/editorial/review/input/task.json",
+          "sha256": "c68e6446c965950e3b27625700b10e2d5b248a04a3bc61c4539879986973e6d6"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000879/tr/repair/editorial/review/output/review.json",
+          "sha256": "f7cc37ed5c94267f55e15587f38989e4c4208115b8a78efd525750ffc95b0406"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000879/B001",
+            "concept_gloss": {
+              "text": "ateşin yakıcı etkisine maruz kalma ve buna bağlı ısınma, pişirme, yakacak ya da ağır sıkıntı kullanımları",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003",
+                "F004",
+                "F005"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "ateşe girip onun yakıcı sıcaklığını çekmek",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "ateşin yanında ısınmak",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F003",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001, F003, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "eti ateşte pişirmek",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "ateşte pişirilmiş",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "birini ateşe atıp yakmak",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_005"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "ateşi besleyen yakacak; ateşte pişirme",
+                "facet_ids": [
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_006"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F003",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F004 yüzünü kapsar; F001, F002, F003, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "ateşe girip onun yakıcı sıcaklığını çekmek",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_002": {
+                "text": "ateşin yanında ısınmak",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F003",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001, F003, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_003": {
+                "text": "eti ateşte pişirmek",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_004": {
+                "text": "ateşte pişirilmiş",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_005": {
+                "text": "birini ateşe atıp yakmak",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_006": {
+                "text": "ateşi besleyen yakacak; ateşte pişirme",
+                "facet_ids": [
+                  "F004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F003",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F004 yüzünü kapsar; F001, F002, F003, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_007": {
+                "text": "değneği ateşte yumuşatıp düzeltmek",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F004",
+                    "F005"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002, F004, F005 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_008": {
+                "text": "bir işin güçlüğünü ve yorgunluğunu çekmek",
+                "facet_ids": [
+                  "F005"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F005 yüzünü kapsar; F001, F002, F003, F004 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_009": {
+                "text": "onun sertliğine kimse yanaşamaz",
+                "facet_ids": [
+                  "F005"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F005 yüzünü kapsar; F001, F002, F003, F004 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000879/B002",
+            "concept_gloss": {
+              "text": "esenlik ve rahmet dileme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "başkası için iyilik ve esenlik dileme",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_010"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "biri için iyilik dilemek, onu övmek veya esirgenmesini istemek",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_011"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "Tanrı'nın esirgemesi, övmesi, bağışlaması ve değer vermesi",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_012"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "meleklerin bağışlanma ve iyilik dilemesi",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_013"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_010": {
+                "text": "başkası için iyilik ve esenlik dileme",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_011": {
+                "text": "biri için iyilik dilemek, onu övmek veya esirgenmesini istemek",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_012": {
+                "text": "Tanrı'nın esirgemesi, övmesi, bağışlaması ve değer vermesi",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_013": {
+                "text": "meleklerin bağışlanma ve iyilik dilemesi",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000879/B003",
+            "concept_gloss": {
+              "text": "namaz kılma",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "namaz",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_014"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "namazı bütün gerek ve koşullarını yerine getirerek kılmak",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_015"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_014": {
+                "text": "namaz",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_015": {
+                "text": "namazı bütün gerek ve koşullarını yerine getirerek kılmak",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000879/B004",
+            "concept_gloss": {
+              "text": "av tuzağı ve gizli düzen",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "av için kurulan tuzak",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_016"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "avı veya başka hedefleri yakalayan tuzaklar",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_017"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "birini yıkıma düşürmek için gizlice düzen kurmak",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_018"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_016": {
+                "text": "av için kurulan tuzak",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_017": {
+                "text": "avı veya başka hedefleri yakalayan tuzaklar",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_018": {
+                "text": "birini yıkıma düşürmek için gizlice düzen kurmak",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000879/B005",
+            "concept_gloss": {
+              "text": "sırt ortası ve kuyruk kökü çevresi",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "sırtın orta bölümü veya kuyruk kökünün iki yanı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_019"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "kuyruk kökünün iki yanı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_020"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "doğum sırasında kuyruk kökü çevresinin açılması",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_021"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_019": {
+                "text": "sırtın orta bölümü veya kuyruk kökünün iki yanı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_020": {
+                "text": "kuyruk kökünün iki yanı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_021": {
+                "text": "doğum sırasında kuyruk kökü çevresinin açılması",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000879/B006",
+            "concept_gloss": {
+              "text": "yarışta liderin ardından ikinci gelme",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "yarışta birincinin ardından gelen ikinci",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_022"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "yarışta liderin hemen ardından ikinci gelmek",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_023"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_022": {
+                "text": "yarışta birincinin ardından gelen ikinci",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_023": {
+                "text": "yarışta liderin hemen ardından ikinci gelmek",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000879/B007",
+            "concept_gloss": {
+              "text": "tapınma yeri",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "Yahudilerin kiliseleri veya bir din topluluğunun tapınma yerleri",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_024"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "tapınma yeri",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_025"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_024": {
+                "text": "Yahudilerin kiliseleri veya bir din topluluğunun tapınma yerleri",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F002 yüzünü kapsar; F001 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_025": {
+                "text": "tapınma yeri",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000879/B008",
+            "concept_gloss": {
+              "text": "dövme taşı",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "üzerinde malzeme dövülen geniş taş",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_026"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "dövme taşı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_027"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_026": {
+                "text": "üzerinde malzeme dövülen geniş taş",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_027": {
+                "text": "dövme taşı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001 yüzünü kapsar; F002, F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000879/B009",
+            "concept_gloss": {
+              "text": "iri başaklı deve otu",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "iri başaklı, develerin otladığı bir bitki",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_028"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001, F002 yüzünü kapsar; F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "bu bitkinin yetiştiği arazi",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_029"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_028": {
+                "text": "iri başaklı, develerin otladığı bir bitki",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F001, F002 yüzünü kapsar; F003 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_029": {
+                "text": "bu bitkinin yetiştiği arazi",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss yalnız F003 yüzünü kapsar; F001, F002 bu dar kullanımda temsil edilmiyor.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000879.json"
     }
   },
   "coverage": {
@@ -12322,14 +15919,20 @@
       "words_total": 10,
       "words_resolved": 10,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 10
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s019/linguistic/morphemes.tsv",
-        "ayah_count": 98,
-        "row_count": 1558,
+        "ayah_count": 97,
+        "row_count": 1551,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12760,11 +16363,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s019"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s19/packets/19_70.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s19/readers/reader_hft_a/19_70.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 168756,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": false,
@@ -12837,19 +16453,37 @@
           "root_ids": [
             "root_001040"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ع ل م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001040",
+            "targets": [
+              {
+                "qac_root_norm": "ع ل م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001040",
+                "furuq_root_norm": "ع ل م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 771,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001040",
-              "root_norm": "ع ل م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ع ل م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 771,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12874,19 +16508,37 @@
           "root_ids": [
             "root_001684"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "و ل ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001684",
+            "targets": [
+              {
+                "qac_root_norm": "و ل ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_001684",
+                "furuq_root_norm": "و ل ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 190,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": false,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001684",
-              "root_norm": "و ل ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "و ل ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 190,
               "dictionary_present": true,
               "gloss_present": false,
+              "dictionary_branch_count": 16,
+              "gloss_branch_count": 0,
               "occurrence_evidence_trimmed": null,
               "note": "no reviewed Turkish gloss found for this root_id"
             }
@@ -12899,19 +16551,46 @@
             "root_000880",
             "root_000879"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ص ل ي",
+            "mapping_status": "split",
+            "primary_root_id": "root_000880",
+            "targets": [
+              {
+                "qac_root_norm": "ص ل ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000880",
+                "furuq_root_norm": "ص ل ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 6,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ص ل ي",
+                "target_rank": 2,
+                "furuq_root_id": "root_000879",
+                "furuq_root_norm": "ص ل و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 3,
+                "is_dominant": 0
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": true,
           "targets": [
             {
               "root_id": "root_000880",
-              "root_norm": "ص ل ي",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "split",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ص ل ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 6,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -12930,18 +16609,33 @@
             },
             {
               "root_id": "root_000879",
-              "root_norm": "ص ل و",
               "target_rank": 2,
               "is_dominant": false,
-              "mapping_status": "split",
-              "dictionary_inlined": false,
+              "furuq_root_norm": "ص ل و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 3,
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": null,
-              "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 99,
+                  "ayahs": 90
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
             }
           ],
-          "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
+          "note": null
         }
       },
       "occurrence_evidence_trim": {
@@ -12950,10 +16644,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 42,
+        "dictionary_branches_kept": 42,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 26,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

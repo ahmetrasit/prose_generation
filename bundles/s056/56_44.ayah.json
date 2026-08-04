@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-30T12:14:34.622624+00:00",
+  "generated_at": "2026-08-04T22:29:59.805228+00:00",
   "surah": 56,
   "ayah": 44,
   "ayahRef": "56:44",
@@ -1532,7 +1532,8 @@
       "morpheme_ids": [
         "m-w-s056-a044-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:44:1"
+      "aligned_qac_word_ref_upstream": "56:44:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1546,7 +1547,8 @@
       "morpheme_ids": [
         "m-w-s056-a044-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:44:2"
+      "aligned_qac_word_ref_upstream": "56:44:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1560,7 +1562,8 @@
       "morpheme_ids": [
         "m-w-s056-a044-w003-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:44:3"
+      "aligned_qac_word_ref_upstream": "56:44:3",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 3,
@@ -1574,7 +1577,8 @@
       "morpheme_ids": [
         "m-w-s056-a044-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "56:44:4"
+      "aligned_qac_word_ref_upstream": "56:44:4",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 4,
@@ -1588,7 +1592,8 @@
       "morpheme_ids": [
         "m-w-s056-a044-w004-01"
       ],
-      "aligned_qac_word_ref_upstream": "56:44:5"
+      "aligned_qac_word_ref_upstream": "56:44:5",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2096,7 +2101,613 @@
     }
   },
   "v12_reader_responses": {},
-  "v12_focus_trace_hermetic": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s56/packets/56_44.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "56:44",
+      "window": [
+        "56:41",
+        "56:42",
+        "56:43",
+        "56:44",
+        "56:45",
+        "56:46",
+        "56:47",
+        "56:48",
+        "56:49",
+        "56:50",
+        "56:51",
+        "56:52",
+        "56:53",
+        "56:54",
+        "56:55",
+        "56:56"
+      ],
+      "ayah_count": 16,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "56:44",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_dual_failure",
+            "confidence": "strong",
+            "focus_anchor": "The coordinated negation in لَا بَارِدٍ وَلَا كَرِيمٍ joins a thermal predicate to a value predicate.",
+            "mechanism": "The first branch tests whether the referent cools; the second tests whether it gives any praiseworthy, generous benefit. Failure on both axes excludes relief that is merely apparent or nominal.",
+            "activation_trace": [
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Cooling as the opposite of heat supplies the sensory test that the first negation fails."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Praiseworthy generosity supplies the beneficial-value test that the second negation fails."
+              }
+            ],
+            "changed_reading": {
+              "before": "The referent is neither cool nor noble.",
+              "after": "The referent provides neither physical cooling nor any redeeming or generous benefit; the second negation closes the loophole of useless semblance."
+            }
+          },
+          {
+            "model_id": "b_no_repose",
+            "confidence": "medium",
+            "focus_anchor": "بَارِدٍ can activate settling and stillness after heat or motion, while كَرِيمٍ names honored treatment.",
+            "mechanism": "The pair can deny both a bodily transition into rest and a social transition into dignified reception.",
+            "activation_trace": [
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B002",
+                "role": "Stillness and fixation after heat or movement make cooling a transition into repose, here negated."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor and generosity make reception into dignity the parallel outcome, also negated."
+              }
+            ],
+            "changed_reading": {
+              "before": "No pleasant temperature and no honorable quality are present.",
+              "after": "No process of settling into repose occurs, and no dignity compensates for that unrest."
+            }
+          },
+          {
+            "model_id": "b_sterile_climate",
+            "confidence": "exploratory",
+            "focus_anchor": "The two focus roots each carry a climatic-life branch: cooling or cooling precipitation under ب ر د and good rain, soil, and growth under ك ر م.",
+            "mechanism": "Their paired negation can withhold both climatic moderation and the fecundity normally produced by a generous environment.",
+            "activation_trace": [
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Cooling, cooling water, and precipitation supply climatic moderation, which the focus denies."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B002",
+                "role": "Good rain, soil, and vegetation supply environmental fecundity, which the parallel negation denies."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two unfavorable qualities are denied.",
+              "after": "The phrase sketches a climate that neither moderates heat nor converts moisture and ground into life."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_counterfeit_shelter",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ش م ل",
+              "س م م",
+              "ح م م",
+              "ظ ل ل"
+            ],
+            "mechanism": "Cooling-associated direction, penetrating heat, blackness, and shade assemble an enclosure that has the form of shelter but performs the opposite function. The focus pair becomes a verdict on counterfeit refuge: it covers without cooling and therefore has no praiseworthy protective value.",
+            "activation_trace": [
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Literal cooling is the failed function against which the surrounding shelter is tested."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Praiseworthy benefit is the second failed function, turning deficient shelter into anti-shelter."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B007",
+                "role": "The north-wind branch and what it cools raise a cooling expectation at the cohort's repeated directional label."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "س م م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000743",
+                "branch_id": "B004",
+                "role": "A hot penetrating wind reverses the expected cooling by carrying heat through the enclosure."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B001",
+                "role": "Blackness, coal, and smoke make the apparent shade a heat-bearing dark medium rather than refuge."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B001",
+                "role": "Shade as covering supplies the shelter-form whose function the focus negations audit."
+              }
+            ],
+            "structural_cues": [
+              "56:41-44 moves from the named cohort through hot wind and liquid into smoky shade, then ends with two coordinated negations."
+            ],
+            "reader_inference": "The packet supplies cooling-associated شمال, penetrating hot wind, black smoke, and covering shade; I infer that cover creates an expectation of refuge which the focus pair then cancels. A live alternative is the narrower reading that 56:44 only inventories two sensory defects.",
+            "changed_reading": {
+              "before": "The smoky shade is neither cool nor pleasant.",
+              "after": "The environment is a counterfeit shelter: enclosure remains, but both cooling and protective beneficence have been reversed."
+            }
+          },
+          {
+            "model_id": "d_inverse_hospitality",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ت ر ف",
+              "ء ك ل",
+              "ن ز ل",
+              "د ي ن"
+            ],
+            "mechanism": "Former expansive luxury is answered by an allotted meal and a prepared نُزُل explicitly situated in recompense. The negated كَرِيم turns from a generic value judgment into a hospitality judgment: provision is present, but welcome, honor, and gift-like generosity are inverted.",
+            "activation_trace": [
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Honor and generosity define the hospitality quality explicitly absent from the focus referent."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B008",
+                "role": "A gift seeking return supplies a reciprocal-gift frame that later recompense darkly reverses."
+              },
+              {
+                "source_ref": "56:45",
+                "root": "ت ر ف",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000179",
+                "branch_id": "B001",
+                "role": "Expansive luxury supplies the prior mode of reception whose ease is being reversed."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B003",
+                "role": "A food-share or edible provision supplies the meal component of the hostile reception."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B005",
+                "role": "Prepared guest provision makes hospitality the sequence's explicit closing frame."
+              },
+              {
+                "source_ref": "56:56",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense convert the prepared provision into an answering return rather than a generous gift."
+              }
+            ],
+            "structural_cues": [
+              "56:45 gives a former condition, while 56:52-56 supplies food, drink, and the closing label نُزُلُهُمْ on the day of recompense."
+            ],
+            "reader_inference": "The packet supplies former luxury, edible allotment, guest provision, and recompense; I infer a reversal from self-indulgent reception to punitive anti-hospitality and let negated كَرِيم name its missing honor. The live alternative is that كَرِيم merely means pleasant or useful.",
+            "changed_reading": {
+              "before": "The focus object has no noble or pleasant quality.",
+              "after": "It belongs to a fully provisioned but inverted hospitality: a reception with meal and drink from which generosity, honor, and gift have been removed."
+            }
+          },
+          {
+            "model_id": "d_reactivated_unrest",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ص ر ر",
+              "م و ت",
+              "ب ع ث",
+              "و ق ت",
+              "ه ي م"
+            ],
+            "mechanism": "Persistence leads through death's stillness to reactivation, fixed-time gathering, and thirst that never settles. Negated بَارِد therefore reaches beyond temperature: no terminal cooling, sleep-like cessation, or achieved equilibrium ends the sequence.",
+            "activation_trace": [
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B002",
+                "role": "Stillness after heat or motion makes بارد an available image of achieved repose, here denied."
+              },
+              {
+                "source_ref": "56:46",
+                "root": "ص ر ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000856",
+                "branch_id": "B002",
+                "role": "Persistence supplies the initial refusal to release or settle."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B012",
+                "role": "Death as stillness, extinction, sleep, or decay supplies an apparent terminal rest."
+              },
+              {
+                "source_ref": "56:47",
+                "root": "ب ع ث",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000129",
+                "branch_id": "B001",
+                "role": "Arousing what was still reverses that apparent terminal rest into renewed motion."
+              },
+              {
+                "source_ref": "56:50",
+                "root": "و ق ت",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001671",
+                "branch_id": "B002",
+                "role": "A fixed temporal limit routes reactivation toward an appointed convergence rather than release."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Thirst that cannot be quenched supplies the final bodily form of equilibrium never reached."
+              }
+            ],
+            "structural_cues": [
+              "56:46-55 runs from persistence through death and raising to appointed gathering and unquenchable drinking."
+            ],
+            "reader_inference": "The packet supplies persistence, death-like stillness, arousal, a fixed time, and unquenched thirst; I infer that the denied settling branch of ب ر د recurs as a no-termination mechanism. The live alternative confines بارد to the heat of 56:42-43.",
+            "changed_reading": {
+              "before": "The focus denies a cool state within a hot scene.",
+              "after": "The focus also denies termination: neither death nor consumption lets motion, heat, and need settle into repose."
+            }
+          },
+          {
+            "model_id": "d_consumption_without_regulation",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء ك ل",
+              "م ل ء",
+              "ب ط ن",
+              "ش ر ب",
+              "ه ي م"
+            ],
+            "mechanism": "Eating, vessel-like filling, abdominal loading, aversive drinking, and unquenchable thirst form a failed regulatory loop. Material enters and fills the body but neither cools it nor benefits it; abundance of intake is severed from nourishment and satiation.",
+            "activation_trace": [
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B001",
+                "role": "Cooling supplies the regulatory outcome that repeated intake never achieves."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B001",
+                "role": "Whatever is praiseworthy in its category supplies the benefit test that the food and drink fail."
+              },
+              {
+                "source_ref": "56:52",
+                "root": "ء ك ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000043",
+                "branch_id": "B003",
+                "role": "An edible share or provision introduces intake that should nourish."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling until contents equal the vessel makes quantity and capacity, not benefit, the governing result."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B005",
+                "role": "The belly's condition of fullness or illness locates the failed process inside the body."
+              },
+              {
+                "source_ref": "56:54",
+                "root": "ش ر ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000783",
+                "branch_id": "B005",
+                "role": "Water drunk with aversion makes drinking an imposed continuation rather than relief."
+              },
+              {
+                "source_ref": "56:55",
+                "root": "ه ي م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001614",
+                "branch_id": "B001",
+                "role": "Severe thirst that does not quench proves that volume consumed never becomes regulation."
+              }
+            ],
+            "structural_cues": [
+              "56:52-55 chains eating, filling, drinking, and repeated drinking, yet ends by specifying an unquenchable mode."
+            ],
+            "reader_inference": "The packet supplies edible provision, vessel-level filling, abdominal condition, aversive water, and unquenched thirst; I infer a physiological feedback loop whose expected outputs are cooling and benefit. A live alternative reads the sequence only as escalating quantities of punishment.",
+            "changed_reading": {
+              "before": "The focus describes an unpleasant medium outside the body.",
+              "after": "The focus predicts a system-wide failure: what surrounds and enters the body can fill it indefinitely without cooling, nourishing, or satisfying it."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_relational_heat",
+            "confidence": "exploratory",
+            "containment": "This is surprising because حَمِيمٍ in 56:42 is most immediately hot liquid, not kinship; it remains packet-anchored through the ح م م intimacy branch, the repeated cohort label, and focus ك ر م as the dear or honored one. Render only as a secondary relational resonance, not as a replacement gloss.",
+            "focus_anchor": "كَرِيمٍ can denote the dear or honored person, so its negation can remove relational preciousness as well as pleasant quality.",
+            "activation_trace": [
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B010",
+                "role": "The dear person whom one honors anchors the focus phrase in relational value."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ص ح ب",
+                "source_word_indices": [
+                  "1",
+                  "4"
+                ],
+                "mapped_root_id": "root_000844",
+                "branch_id": "B001",
+                "role": "Companionship and continued association supply the social grouping around the focus scene."
+              },
+              {
+                "source_ref": "56:42",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B011",
+                "role": "Intimate kinship latent in حميم lets a heat-word carry a displaced relation-image."
+              }
+            ],
+            "changed_reading": {
+              "before": "No pleasant or noble property belongs to the smoky environment.",
+              "after": "As a contained echo, the scene also offers company without companionship and a حميم that burns instead of acting as a dear protective relation."
+            }
+          },
+          {
+            "outlier_id": "o_nested_vessel",
+            "confidence": "exploratory",
+            "containment": "This is branch-distant because it activates ب ر د as cloth and ك ر م as a vessel lid rather than their adjectival defaults; it remains anchored by both focus roots and by wrapping, canopy, filling, and interior branches in the packet. Render as a material analogy of enclosure, never as the lexical translation of 56:44.",
+            "focus_anchor": "The focus pair has material branches for patterned covering under ب ر د and a lid placed over a vessel under ك ر م.",
+            "activation_trace": [
+              {
+                "source_ref": "56:44",
+                "root": "ب ر د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000103",
+                "branch_id": "B003",
+                "role": "Cloth and patterned covering make the first focus adjective latent as a protective layer."
+              },
+              {
+                "source_ref": "56:44",
+                "root": "ك ر م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001294",
+                "branch_id": "B005",
+                "role": "A lid on a vessel makes the second focus adjective latent as a fitting protective closure."
+              },
+              {
+                "source_ref": "56:41",
+                "root": "ش م ل",
+                "source_word_indices": [
+                  "2",
+                  "5"
+                ],
+                "mapped_root_id": "root_000819",
+                "branch_id": "B003",
+                "role": "Wrapping in cloth supplies an enclosing outer layer."
+              },
+              {
+                "source_ref": "56:43",
+                "root": "ظ ل ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000966",
+                "branch_id": "B003",
+                "role": "An overhead canopy supplies the geometry of a lid above the enclosed subject."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "م ل ء",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001441",
+                "branch_id": "B001",
+                "role": "Filling to the measure of a vessel turns enclosure into saturated capacity."
+              },
+              {
+                "source_ref": "56:53",
+                "root": "ب ط ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000128",
+                "branch_id": "B001",
+                "role": "The inside of a thing locates a second, bodily container nested within the outer canopy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The referent lacks two favorable attributes.",
+              "after": "As a material analogy, outer shade and inner belly become nested vessels that enclose and fill without functioning as protective cover or fitting lid."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The paired negation audits a counterfeit shelter: cover is present, but cooling and protective benefit are absent.",
+            "The later meal, drink, and نُزُل recast كَرِيم as failed hospitality and punitive recompense.",
+            "Repeated intake without quenching turns the focus phrase into a physiological failure of regulation, not only a description of ambient heat."
+          ],
+          "what_was_special": "The focus ayah's brevity works as a two-axis diagnostic: ب ر د tests cooling, settling, and regulation, while ك ر م tests benefit, honor, fecundity, and hospitality. Context repeatedly preserves the form of a good thing—shade, provision, drinking, company—while reversing its function.",
+          "remaining_uncertainties": [
+            "The no-repose model depends on carrying the stillness branch of ب ر د beyond immediate thermal contrast.",
+            "The reciprocal-gift branch of ك ر م sharpens recompense but is less direct than its honor and generosity branch.",
+            "Relational and nested-vessel readings should remain secondary echoes because their activating branches are materially farther from the surface syntax."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Neither thermal relief nor valued hospitality.** `ب ر د` **B001** supplies cold and cooling; `ك ر م` **B001** supplies nobility and generosity and **B010** a highly valued thing. The double negation diagnoses the preceding shade as failing both physical and social functions. **Abductive move:** I infer that genuine shelter should cool and honor its guest. **Reading change:** the line exposes the punitive scene as counterfeit hospitality.\n\n2. **No settling after heat.** `ب ر د` **B002** supplies stillness and fixed settling after heat or motion. **Abductive move:** I infer that the negation denies even the transition by which heat normally subsides. **Reading change:** suffering has no cooling endpoint or settled respite.",
@@ -2988,18 +3599,23 @@
   "root_lexicon": {
     "root_000103": {
       "root_ar": "ب ر د",
+      "qac_roots_ar": [
+        "ب ر د"
+      ],
       "root_id": "root_000103",
-      "root_mapping": {
-        "root_id": "root_000103",
-        "root_norm": "ب ر د",
-        "source_root_norm": "ب ر د",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 5,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ب ر د",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 5
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "7a936a52b97dfacd6407632e2e5af94361f399e8992eb453239a853de33ceb24",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5748,18 +6364,23 @@
     },
     "root_001294": {
       "root_ar": "ك ر م",
+      "qac_roots_ar": [
+        "ك ر م"
+      ],
       "root_id": "root_001294",
-      "root_mapping": {
-        "root_id": "root_001294",
-        "root_norm": "ك ر م",
-        "source_root_norm": "ك ر م",
-        "resolution": "source_root_norm",
-        "target_rank": 1,
-        "target_occurrences": 44,
-        "is_dominant": true,
-        "mapping_status": "unique",
-        "source": "qac-furuq-v4-root-map.sqlite.gz"
-      },
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ك ر م",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 44
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "35b943bd25cc8008c8ec0e7760762311bb88da3f7295026a6219c808d5e8c0c5",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8730,14 +9351,20 @@
       "words_total": 5,
       "words_resolved": 5,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 5
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
         "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s056/linguistic/morphemes.tsv",
-        "ayah_count": 97,
-        "row_count": 632,
+        "ayah_count": 96,
+        "row_count": 625,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -9061,11 +9688,24 @@
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
     "v12_focus_trace_hermetic": {
-      "present": false,
-      "packet_present": false,
-      "packet_source_file": null,
-      "readers": {},
-      "note": "no Hermetic Focus Trace packet or responses under /Users/ahmetrasit/projects/latent_activation/focus_trace/runs/s056"
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s56/packets/56_44.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s56/readers/reader_hft_a/56_44.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 4,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 80759,
+      "split_root_count": 0,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
@@ -9138,19 +9778,37 @@
           "root_ids": [
             "root_000103"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ب ر د",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000103",
+            "targets": [
+              {
+                "qac_root_norm": "ب ر د",
+                "target_rank": 1,
+                "furuq_root_id": "root_000103",
+                "furuq_root_norm": "ب ر د",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 5,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_000103",
-              "root_norm": "ب ر د",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ب ر د",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 5,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 5,
+              "gloss_branch_count": 5,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9175,19 +9833,37 @@
           "root_ids": [
             "root_001294"
           ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ك ر م",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001294",
+            "targets": [
+              {
+                "qac_root_norm": "ك ر م",
+                "target_rank": 1,
+                "furuq_root_id": "root_001294",
+                "furuq_root_norm": "ك ر م",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 44,
+                "is_dominant": 1
+              }
+            ]
+          },
           "dictionary_present": true,
           "gloss_present": true,
-          "split_mapping": false,
           "targets": [
             {
               "root_id": "root_001294",
-              "root_norm": "ك ر م",
               "target_rank": 1,
               "is_dominant": true,
-              "mapping_status": "unique",
-              "dictionary_inlined": true,
+              "furuq_root_norm": "ك ر م",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 44,
               "dictionary_present": true,
               "gloss_present": true,
+              "dictionary_branch_count": 10,
+              "gloss_branch_count": 10,
               "occurrence_evidence_trimmed": {
                 "dropped_keys": [
                   "ayahs",
@@ -9214,10 +9890,21 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
       },
-      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
-      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 15,
+        "dictionary_branches_kept": 15,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 15,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }
