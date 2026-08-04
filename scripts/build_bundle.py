@@ -82,6 +82,7 @@ KNOWN_VARIANT_DIR_NAMES = {"left_first", "right_first"}
 USE_PER_AYAH_FOCUS_RUNS = False
 INCLUDE_HERMETIC_FOCUS_TRACE = False
 REQUIRE_HERMETIC_FOCUS_TRACE = False
+ALLOW_MISSING_FOCUS_TRACE = False
 FOCUS_TRACE_VARIANT: str | None = None
 
 BUNDLE_SCHEMA_VERSION = "input-bundle-v3"
@@ -2409,6 +2410,32 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
                         f"Hermetic Focus Trace usable reader response missing "
                         f"for {surah}:{a}: {coverage.get('note') or coverage.get('readers')}"
                     )
+        elif ft_usable_readers == 0 and not ALLOW_MISSING_FOCUS_TRACE:
+            # Asking for the trace and receiving none of it is an environment
+            # error far more often than a real absence. S12, S17, S18, S19,
+            # S51, S54 and S56 were all built this way from a checkout where
+            # the sibling latent_activation tree was unreachable: the run data
+            # existed, the coverage note recorded its absence, and 1356
+            # surprising outliers silently never reached Layer 2.
+            problems.append(
+                f"Hermetic Focus Trace was requested but resolved zero usable "
+                f"reader responses for surah {surah} under {focus_trace_dir}. "
+                f"Check that ../latent_activation is present and populated. "
+                f"Pass --allow-missing-focus-trace to build without it anyway."
+            )
+        elif any(not c.get("present") for c in ft_coverage_by_ayah.values()):
+            absent = sorted(
+                a for a, c in ft_coverage_by_ayah.items() if not c.get("present")
+            )
+            print(
+                f"WARNING: Hermetic Focus Trace missing for {len(absent)} of "
+                f"{len(ft_coverage_by_ayah)} target ayahs "
+                f"({', '.join(f'{surah}:{a}' for a in absent[:8])}"
+                f"{', ...' if len(absent) > 8 else ''}). "
+                f"Those bundles will reach Layer 2 without latent activation "
+                f"material. Use --require-focus-trace to make this fatal.",
+                file=sys.stderr,
+            )
 
     cross_path = V12_CROSS_RUN_TR_DIR / f"{surah}_ayah_findings_publication.json"
     rows.append(_row("V12 cross-run publication", cross_path, False, cross_path.exists(),
@@ -2753,6 +2780,7 @@ def discover_ayah_numbers(surah: int, quran_text: dict) -> list:
 
 def main() -> int:
     global INCLUDE_HERMETIC_FOCUS_TRACE, REQUIRE_HERMETIC_FOCUS_TRACE, FOCUS_TRACE_VARIANT
+    global ALLOW_MISSING_FOCUS_TRACE
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--surah", type=int, required=True)
@@ -2775,6 +2803,15 @@ def main() -> int:
         ),
     )
     parser.add_argument(
+        "--allow-missing-focus-trace",
+        action="store_true",
+        help=(
+            "build even when --include-focus-trace resolves nothing at all; "
+            "without this, a total miss fails preflight as a likely "
+            "environment error rather than a real absence"
+        ),
+    )
+    parser.add_argument(
         "--focus-trace-variant",
         default=None,
         help=(
@@ -2790,6 +2827,7 @@ def main() -> int:
         or args.focus_trace_variant is not None
     )
     REQUIRE_HERMETIC_FOCUS_TRACE = args.require_focus_trace
+    ALLOW_MISSING_FOCUS_TRACE = args.allow_missing_focus_trace
     FOCUS_TRACE_VARIANT = args.focus_trace_variant
 
     surah = args.surah
