@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T15:42:37.272343+00:00",
+  "generated_at": "2026-08-06T19:18:22.249085+00:00",
   "surah": 1,
   "ayah": 4,
   "ayahRef": "1:4",
@@ -1399,7 +1399,8 @@
       "morpheme_ids": [
         "m-w-s001-a004-w001-01"
       ],
-      "aligned_qac_word_ref_upstream": "1:4:1"
+      "aligned_qac_word_ref_upstream": "1:4:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1413,7 +1414,8 @@
       "morpheme_ids": [
         "m-w-s001-a004-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "1:4:2"
+      "aligned_qac_word_ref_upstream": "1:4:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1429,7 +1431,8 @@
         "m-w-s001-a004-w003-01",
         "m-w-s001-a004-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "1:4:3"
+      "aligned_qac_word_ref_upstream": "1:4:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -2924,6 +2927,1459 @@
     }
   },
   "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s1/packets/1_4.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "1:4",
+      "window": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ع و ن",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001064",
+              "furuq_root_norm": "ع و ن",
+              "furuq_source_root_norm": "ع و ن",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001069",
+              "furuq_root_norm": "ع ي ن",
+              "furuq_source_root_norm": "ع ي ن",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "1:4",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b_sovereign_reckoning_event",
+            "confidence": "strong",
+            "focus_anchor": "The full genitive chain, with مَٰلِكِ governing يَوْمِ and ٱلدِّينِ specifying the event.",
+            "mechanism": "Kingship becomes executable in a marked event: the severe-event branch of day concentrates sovereignty into an occasion when reckoning and recompense are carried out.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Kingship and public dominion supply the governing authority exercised in the event."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "A severe event-day turns time from a calendar label into the occasion on which authority becomes manifest."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense specify what the sovereign event does."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase merely assigns ownership of a future date.",
+              "after": "The phrase stages a sovereign public event in which authority becomes operative as reckoning and recompense."
+            }
+          },
+          {
+            "model_id": "b_debt_maturity",
+            "confidence": "medium",
+            "focus_anchor": "مَٰلِكِ as holder with power of disposal, joined to the temporal and financial branches of يَوْمِ ٱلدِّينِ.",
+            "mechanism": "Ownership, an open span of time, and deferred debt form a maturity mechanism: the owner controls both the liability and the interval at whose end it is settled.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership and disposal make the focus figure the holder of the claim and its settlement."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "An open span of time supplies the interval through which a deferred obligation matures."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt and credit make the final relation one of liability coming due."
+              }
+            ],
+            "changed_reading": {
+              "before": "Dīn is only a religious label or a judicial verdict.",
+              "after": "The focus can depict the holder of every deferred liability and of the very interval in which it comes due."
+            }
+          },
+          {
+            "model_id": "b_obedience_regime",
+            "confidence": "medium",
+            "focus_anchor": "The sovereignty of مَٰلِكِ, the durative possibility of يَوْمِ, and the obedience branch of ٱلدِّينِ.",
+            "mechanism": "Sovereignty extends across a duration organized by obedience, worship, and law; the phrase can name an enacted regime rather than only a terminal courtroom.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Dominion supplies the authority that orders a lived regime."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "A span of time allows dīn to organize an age or duration, not just one daylight period."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience, worship, and followed law provide the regime's recurring practice."
+              }
+            ],
+            "changed_reading": {
+              "before": "The phrase concerns only authority exercised after present life.",
+              "after": "It can also name sovereignty over every duration constituted by worship, allegiance, and followed law."
+            }
+          },
+          {
+            "model_id": "b_mainstay_of_customary_order",
+            "confidence": "exploratory",
+            "focus_anchor": "مَٰلِكِ through its cohesion and mainstay branches, with يَوْمِ as duration and ٱلدِّينِ as customary or civic order.",
+            "mechanism": "The owner is read systemically as what holds an order together; time is the field, and dīn is the repeated custom or organized authority sustained within it.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Strength and cohesion supply the material image of an order being held together."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay of a matter turns ownership into structural support."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "An open temporal span is the duration across which the order persists."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Habit and customary state make dīn the repeated order being sustained."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B006",
+                "role": "The city of ordered authority gives the customary order a civic and institutional form."
+              }
+            ],
+            "changed_reading": {
+              "before": "Mālik is only an external ruler over an event.",
+              "after": "Mālik can be the mainstay that keeps a temporal, customary, and civic order coherent."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d_named_worshipped_jurisdiction",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م و",
+              "ء ل ه"
+            ],
+            "mechanism": "The preceding act of designation identifies the sovereign as the worshipped one; this brings the obedience sense of dīn forward and makes the focus a named jurisdiction of worship.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Dominion is the jurisdiction that the preceding naming identifies."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and worship make the jurisdiction one enacted by allegiance."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "Name as designation and indication makes the opening naming act point toward the focus sovereign."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped object identifies whose obedience the focus dīn can describe."
+              }
+            ],
+            "structural_cues": [
+              "The divine name is introduced before the sequence of attributes culminating in the focus genitive chain.",
+              "The same divine designation recurs at 1:2 before مَٰلِكِ."
+            ],
+            "reader_inference": "The packet supplies designation, worship, dominion, and obedience; I infer that naming identifies the jurisdiction and activates dīn as allegiance. Alternatively, the name may only identify the referent while dīn remains exclusively reckoning.",
+            "changed_reading": {
+              "before": "An otherwise generic sovereign owns an obedience-day.",
+              "after": "The named worshipped one is sovereign of an order already enacted whenever allegiance and worship are given."
+            }
+          },
+          {
+            "model_id": "d_mercy_framed_account",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر ح م"
+            ],
+            "mechanism": "Repeated tenderness and kinship surround the move into ownership and reckoning, recasting exact account as an exercise of relational authority rather than affectless possession.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership and disposal provide the potentially severe authority whose mode is revised by the context."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense remain exact but are placed inside a relational frame."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Mercy and tenderness supply the affective frame for sovereignty."
+              },
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B002",
+                "role": "Kinship makes the relation of ruler and accountable subject more than a detached legal encounter."
+              }
+            ],
+            "structural_cues": [
+              "The paired mercy attributes occur at 1:1 and are repeated immediately before 1:4.",
+              "The focus follows the repeated pair without an intervening change of referent."
+            ],
+            "reader_inference": "The packet supplies repeated tenderness, kinship, ownership, and reckoning; I infer that adjacency and repetition govern how the account is exercised. A live alternative is simple attribute accumulation with no constraint of mercy upon judgment.",
+            "changed_reading": {
+              "before": "The owner of reckoning appears as a detached punitive sovereign.",
+              "after": "The same exact reckoning is held within repeatedly asserted tenderness and relational nearness."
+            }
+          },
+          {
+            "model_id": "d_praiseworthy_valuation",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح م د"
+            ],
+            "mechanism": "Praise versus blame and the image of a praised ultimate end turn reckoning into valuation: the event discloses what is worthy and carries the account toward an evaluative end.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The event-day supplies the occasion when valuation becomes decisive."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense provide the evaluative operation."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B001",
+                "role": "Praise as the opposite of blame supplies the account's positive and negative valuation."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B004",
+                "role": "The ultimate praised end turns the event from bare penalty into a telos of disclosed worth."
+              }
+            ],
+            "structural_cues": [
+              "Praise opens 1:2 and the sequence reaches reckoning at 1:4."
+            ],
+            "reader_inference": "The packet supplies praise, blame, an ultimate praised end, and reckoning; I infer an evaluative trajectory from praise to account. Alternatively, praise may concern the sovereign independently of what the reckoning evaluates.",
+            "changed_reading": {
+              "before": "The day of dīn is only a tribunal imposing outcomes.",
+              "after": "It is also the terminal valuation in which praiseworthiness and blameworthiness become manifest."
+            }
+          },
+          {
+            "model_id": "d_cultivated_maturity",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ب ب"
+            ],
+            "mechanism": "Nurture, completion, and growth turn the debt model into a developmental process: the owner sustains the interval in which persons and liabilities mature before settlement.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay of a matter supplies continuing support through the maturation process."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "The temporal span is the interval in which formation and obligation develop."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Deferred debt supplies the liability that comes to maturity."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Cultivation, repair, and completion make the interval formative rather than empty waiting."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant mapped image of nourishment and growth reinforces maturation as the mechanism."
+              }
+            ],
+            "structural_cues": [
+              "The nurturing title in 1:2 precedes the ownership title in 1:4 for the same referent."
+            ],
+            "reader_inference": "The packet supplies cultivation, growth, temporal duration, and debt; I infer that nurture is the process by which the eventual account matures. Alternatively, lordly nurture and financial debt may remain separate branch images without a causal link.",
+            "changed_reading": {
+              "before": "A debt abruptly falls due at an externally fixed date.",
+              "after": "The sovereign is also the mainstay of the developmental interval through which the account itself is brought to maturity."
+            }
+          },
+          {
+            "model_id": "d_legible_disclosed_account",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "س م و",
+              "ع ل م"
+            ],
+            "mechanism": "Visible marking and disclosure turn the event of reckoning into an epistemic operation: what was only possessed or recorded becomes recognizable, distinguishable, and known.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership supplies the inventory whose contents become legible."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The event-day concentrates disclosure into a manifest occasion."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning provides the operation that requires evidence to become legible."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "The split-root image of a visible mark that makes a thing known supplies forensic legibility."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure of a thing to a knower makes revelation, not only sentencing, part of the account."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing sign supplies the mechanism by which identities and conditions are told apart."
+              }
+            ],
+            "structural_cues": [
+              "The sequence moves from naming and designation to the worlds, then to the focus event of account."
+            ],
+            "reader_inference": "The packet supplies a visible mark, disclosure, distinction, possession, and reckoning; I infer that the account makes its objects legible. Alternatively, the split mapping from name to mark and the root activation from worlds may be associative rather than operative.",
+            "changed_reading": {
+              "before": "Reckoning only applies a verdict to already transparent facts.",
+              "after": "The owned event is itself a disclosure in which hidden identities, conditions, and values become distinguishably known."
+            }
+          },
+          {
+            "model_id": "d_present_avowed_obedience",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د"
+            ],
+            "mechanism": "First-person worship after the focus realizes the obedience branch of dīn in the present; ownership is answered by avowed, honoring service rather than left as a future coercive relation.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership supplies the asymmetrical relation that the speakers actively acknowledge."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B001",
+                "role": "Obedience and worship make dīn performable before the event of final account."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive worship supplies the speakers' present enactment of the focus relation."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B006",
+                "role": "Honor and magnification keep the enactment from collapsing into merely coerced servitude."
+              }
+            ],
+            "structural_cues": [
+              "The discourse turns immediately after 1:4 from third-person titles to direct second-person address.",
+              "The fronted exclusive object at 1:5 makes the allegiance explicit and selective."
+            ],
+            "reader_inference": "The packet supplies ownership, obedience, worship, and honor; I infer that direct first-person worship presently ratifies the focus sovereignty. Alternatively, the worship response may follow the titles without changing the temporal scope of yawm al-dīn.",
+            "changed_reading": {
+              "before": "Subjection belongs only to a future day when choice has ended.",
+              "after": "The speakers enact dīn now as exclusive, honoring obedience to the one who owns its eventual account."
+            }
+          },
+          {
+            "model_id": "d_aided_liability",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع و ن"
+            ],
+            "mechanism": "The creditor-like owner is also the source of assistance, creating a non-zero-sum account in which the one to whom liability is owed supplies help for meeting it.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership and disposal make the sovereign the holder of the claim."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt and credit frame accountability as a liability to be met."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Aid and active support supply the means by which the liable speaker can answer the claim."
+              }
+            ],
+            "structural_cues": [
+              "At 1:5 the same exclusively addressed referent receives worship and is asked for aid.",
+              "The request for aid immediately follows the focus statement of ownership."
+            ],
+            "reader_inference": "The packet supplies debt, ownership, and aid directed to one referent; I infer a creditor-helper circuit in which authority enables fulfillment. Alternatively, assistance may concern guidance generally and not the financial branch of dīn.",
+            "changed_reading": {
+              "before": "The owner stands over debtors only to collect what they cannot supply.",
+              "after": "The holder of the account is also approached as the giver of the capacity needed to answer it."
+            }
+          },
+          {
+            "model_id": "d_guiding_owner_of_approach",
+            "status": "new",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "ه د ي",
+              "ص ر ط"
+            ],
+            "mechanism": "Latent road and leader branches within ملك activate when guidance and path appear: the owner of the reckoning event also controls the main course and leads those approaching it.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B006",
+                "role": "The center or main course of a road or valley spatializes the owner's control as control of the route."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B008",
+                "role": "The leading forepart that others follow turns static ownership into directional leadership."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The event-day is the consequential occasion toward which the route leads."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning supplies the route's accountable destination."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward road and truth supplies the mode of leading."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B003",
+                "role": "The advanced guide and first part mirrors the leading branch activated in ملك."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The straight road turns the approach to the focus event into a traversable spatial mechanism."
+              }
+            ],
+            "structural_cues": [
+              "The request for guidance onto a path follows the ownership-of-account statement through the intervening direct address.",
+              "The path is repeated at 1:7, extending the approach across both following ayat."
+            ],
+            "reader_inference": "The packet supplies a main road-course and leader under ملك plus guidance and path in context; I infer that sovereignty includes conducting the approach to account. Alternatively, the road and animal-leader branches of ملك may be too form-distant to alter the active participle in context.",
+            "changed_reading": {
+              "before": "The owner waits only at the terminal event as judge.",
+              "after": "The owner can also be encountered as leader and controller of the main course by which subjects approach the account."
+            }
+          },
+          {
+            "model_id": "d_rectifying_appraisal",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ق و م"
+            ],
+            "mechanism": "Straightness, valuation, and equal measure make reckoning a rectification process: authority establishes a standard, appraises against it, and restores proportion.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay of a matter supplies the stable standard on which appraisal depends."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense provide the operation being recast as calibration."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness, balance, and evenness provide the norm of rectification."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B010",
+                "role": "Valuation and appraisal turn account into the assignment of true measure."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B015",
+                "role": "Equal weight and moderate measure supply the image of proportionate recompense."
+              }
+            ],
+            "structural_cues": [
+              "The requested path is grammatically qualified by the form carrying the ق و م root.",
+              "The standard of straightness is introduced after the focus has named reckoning."
+            ],
+            "reader_inference": "The packet supplies straightness, appraisal, equal measure, a mainstay, and reckoning; I infer that the path's norm reveals the mechanics of the account. Alternatively, straightness may guide conduct without describing how dīn is administered.",
+            "changed_reading": {
+              "before": "Reckoning is an opaque sovereign decision.",
+              "after": "Reckoning becomes a transparent act of appraisal against a stable standard and restoration to proportionate measure."
+            }
+          },
+          {
+            "model_id": "d_forked_recompense",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ع م",
+              "غ ي ر",
+              "غ ض ب",
+              "ض ل ل"
+            ],
+            "mechanism": "The final ayah gives recompense differentiated states: favorable condition, explicit exclusion, retaliatory anger, and loss. The focus event becomes a sovereign sorting rather than one undifferentiated penalty.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Public dominion supplies authority to distinguish and assign outcomes."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The event-day is the occasion when differentiated outcomes become manifest."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Recompense provides the causal relation between prior course and resulting condition."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and blessing supply the favorable outcome pole."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Difference, exception, and negation draw the boundary between outcome classes."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ض ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001092",
+                "branch_id": "B001",
+                "role": "Intensified anger directed toward requital supplies the adverse responsive pole."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss supplies a second adverse condition distinct from retaliatory anger."
+              }
+            ],
+            "structural_cues": [
+              "At 1:7 a favored group is followed by an exclusion and two separately coordinated adverse descriptions.",
+              "The repeated path construction links the outcome classes to distinct courses of movement."
+            ],
+            "reader_inference": "The packet supplies favorable condition, exclusion, requital-like anger, loss, and recompense; I infer that the 1:7 sequence unfolds the differentiated results of dīn. Alternatively, the states may describe present routes and relations without being assigned at the focus event.",
+            "changed_reading": {
+              "before": "The day of recompense delivers one homogeneous punitive result.",
+              "after": "It is a sovereign sorting into qualitatively different conditions, with favorable, retaliatory, and lost states kept distinct."
+            }
+          },
+          {
+            "model_id": "d_customary_regime_change",
+            "status": "revised",
+            "confidence": "exploratory",
+            "trigger_roots": [
+              "غ ي ر"
+            ],
+            "mechanism": "The change-and-substitution branch of غ ي ر activates dīn as habitual state: the severe event belongs to the sovereign precisely because it can replace the customary order with another.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B003",
+                "role": "Sovereignty supplies the power to replace one operative order with another."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The major event-day is the rupture at which replacement occurs."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Habit and customary state supply the old order vulnerable to transformation."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B003",
+                "role": "Changing an image or substituting one thing for another supplies the regime-shift mechanism."
+              }
+            ],
+            "structural_cues": [
+              "The exclusion marker at 1:7 interrupts the description of one path-group before introducing others."
+            ],
+            "reader_inference": "The packet supplies customary state, a major event, sovereignty, and substitution; I infer a transition from one operative order to another. Alternatively, the غ ي ر branch may only distinguish groups and leave dīn in its reckoning sense.",
+            "changed_reading": {
+              "before": "Dīn is the stable custom governing an ordinary span.",
+              "after": "Yawm al-dīn can be the sovereign rupture in which the habitual order is replaced and a new order becomes operative."
+            }
+          },
+          {
+            "model_id": "d_recovery_of_hidden_account",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ل م",
+              "ض ل ل"
+            ],
+            "mechanism": "Disclosure meets hiddenness, loss, and failed preservation: the owner of the account recovers into knowledge what appeared absent from possession or memory.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership supplies the inventory from which nothing can finally remain missing."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning requires the recovery and presentation of what is to be assessed."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies the recovery into manifest knowledge."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness supplies what the account must bring out of absence."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B003",
+                "role": "Loss supplies the apparent removal from inventory that ownership reverses."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B004",
+                "role": "Loss of preservation supplies the failure of memory or keeping that final reckoning repairs."
+              }
+            ],
+            "structural_cues": [
+              "The worlds root appears before the focus, while the lost are named at the end of the context window.",
+              "The final negative class closes the sequence that the focus account must encompass."
+            ],
+            "reader_inference": "The packet supplies disclosure, hiddenness, loss, failed preservation, ownership, and reckoning; I infer an inventory-recovery mechanism. Alternatively, loss may describe direction alone, with no implication that hidden deeds or persons are recovered at account.",
+            "changed_reading": {
+              "before": "The owner judges only what remains visibly present in an account.",
+              "after": "The event of dīn recovers into disclosure whatever seemed hidden, lost, or no longer preserved."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o_gestated_settlement",
+            "confidence": "exploratory",
+            "containment": "This is surprising because womb and cultivation are cross-domain images, not claims that yawm is literally gestation. It remains anchored in yawm as a span, dīn as deferred debt, and mālik as mainstay. Downstream prose should present it only as an exploratory analogy of an account brought to term.",
+            "focus_anchor": "The temporal span and debt senses of يَوْمِ ٱلدِّينِ, supported by the mainstay sense latent in مَٰلِكِ.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "A matter's mainstay supplies what carries the developing account."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "An open span of time supplies the period of development."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Deferred debt supplies what is eventually brought due."
+              },
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb supplies the contained space in which something is carried toward emergence."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and completion provide the developmental process that brings the liability to term."
+              }
+            ],
+            "changed_reading": {
+              "before": "The account arrives from outside at an arbitrary due date.",
+              "after": "Exploratorily, the account is carried and formed across its span until the sovereign brings it to term as a settled liability."
+            }
+          },
+          {
+            "outlier_id": "o_advance_from_the_creditor",
+            "confidence": "exploratory",
+            "containment": "This uses the packet's non-dominant ع ي ن mapping for the ع و ن cue, so it must not be stated as the lexical meaning of نَسْتَعِينُ. It remains anchored in the explicit focus branch of debt and the owner-creditor relation. Render it as a material financial analogy in which the claimant advances the means of repayment.",
+            "focus_anchor": "مَٰلِكِ as holder of a claim and ٱلدِّينِ as debt or credit.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Ownership and disposal make the focus figure holder of the liability."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Debt and credit anchor the financial mechanism directly in the focus."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Aid supplies the functional premise that needed capacity comes from the addressee."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B011",
+                "role": "The split-root image of ready cash materializes immediately available capacity."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B012",
+                "role": "The split-root image of an advance or credit makes assistance resemble capital supplied before settlement."
+              }
+            ],
+            "changed_reading": {
+              "before": "The creditor demands settlement from resources wholly external to the creditor.",
+              "after": "Exploratorily, the owner of the debt also advances the very capacity by which the debtor can answer it."
+            }
+          },
+          {
+            "outlier_id": "o_decisive_passage",
+            "confidence": "exploratory",
+            "containment": "The swallowing-passage and sword images are remote branches of the contextual path root, so they should not replace the ordinary road reading. They remain anchored through mālik's own road-course branch, yawm as severe event, and dīn as reckoning. Render this only as a threshold analogy: the account is a passage that both carries through and decisively separates.",
+            "focus_anchor": "The road-course branch of مَٰلِكِ joined to the severe event and reckoning branches of يَوْمِ ٱلدِّينِ.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B006",
+                "role": "The central course of road or valley anchors the threshold image inside the focus root."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The severe event-day makes passage consequential rather than ordinary transit."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense supply what the threshold decides."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B002",
+                "role": "Passage with disappearance or swallowing makes the route an engulfing transition."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B003",
+                "role": "The cutting sword makes the same transition a decisive separation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The account is a static hearing at the end of a road.",
+              "after": "Exploratorily, it is an owned threshold-event whose passage engulfs the old state and cuts trajectories into distinct outcomes."
+            }
+          },
+          {
+            "outlier_id": "o_rising_event",
+            "confidence": "medium",
+            "containment": "The resurrection image belongs to the ق و م inventory activated by مُسْتَقِيمَ; it does not make that surface itself mean resurrection. It remains tightly anchored in yawm as a major event and dīn as reckoning. Downstream prose may say the context evokes a rising-event reading, not that it lexically proves one.",
+            "focus_anchor": "يَوْمِ as a major event and ٱلدِّينِ as reckoning and recompense.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B003",
+                "role": "The major event-day supplies the temporal occasion for rising."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning and recompense specify why the rising event matters."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B013",
+                "role": "Resurrection and rising activate an embodied event beneath the otherwise abstract account."
+              }
+            ],
+            "changed_reading": {
+              "before": "Yawm names an unspecified occasion of judgment.",
+              "after": "The straightness root also evokes an embodied rising-event at which reckoning occurs."
+            }
+          },
+          {
+            "outlier_id": "o_hardened_boundary",
+            "confidence": "exploratory",
+            "containment": "This is a material analogy built from cohesion, rock-hardness, and exclusion; it does not identify wrath with stone or sovereignty with masonry. It remains anchored in mālik's cohesion branch and dīn's reckoning branch. Render it as an exploratory image of the account making outcome boundaries resistant to collapse or mixing.",
+            "focus_anchor": "The cohesion branch of مَٰلِكِ and the reckoning branch of ٱلدِّينِ.",
+            "activation_trace": [
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Strength and cohesion supply the focus-side image of a structure that holds."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Reckoning supplies the operation whose distinctions must remain stable."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Exception and negation draw a categorical boundary between paths and outcomes."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ض ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001092",
+                "branch_id": "B004",
+                "role": "Rock-hardness and cohesion materialize the boundary as resistant to deformation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The account merely labels already separate groups.",
+              "after": "Exploratorily, sovereign reckoning constructs and holds firm the distinctions that keep divergent outcomes from collapsing into one another."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "Repeated mercy changes bare sovereign reckoning into exact account exercised within tenderness and relational nearness.",
+            "Worship and aid make the focus relation present and reciprocal in an asymmetric way: subjects avow obedience, while the owner supplies capacity to answer the account.",
+            "Guidance, path, and straightness turn static ownership at an endpoint into conducted approach and proportionate appraisal.",
+            "The final path sequence unfolds dīn as differentiated recompense while also activating regime change and recovery of what seemed hidden or lost."
+          ],
+          "what_was_special": "The three-word genitive chain behaved as a hinge among several live mechanisms: sovereign event, debt maturity, lived obedience, customary order, disclosure, route, and calibration. Context did not collapse these into one interpretation; it redistributed force among them and exposed cross-domain models that remain anchored in the focus.",
+          "remaining_uncertainties": [
+            "The obedience, reckoning, debt, custom, and civic branches of dīn coexist here without a packet-internal rule that selects one.",
+            "Several directional claims depend on adjacency, repetition, or sequence; those structures support but do not compel the inferred causal arrows.",
+            "The non-dominant mappings from name to visible mark and from aid to eye, cash, or advance are intentionally exploratory and must not be rendered as lexical equivalences.",
+            "The road-course, leader, cohesion, and mainstay branches of ملك are visibly productive but form-distant from the ordinary active-participle reading."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Ownership of reckoning as custody of the whole account.** Lexical evidence: م ل ك B002, ownership and disposal; د ي ن B002, reckoning and recompense; ن ع م B001 in 1:7, bestowed favor; غ ض ب B001 in 1:7, anger toward retaliation. Structural cue: the ayah sits before the worship/help pledge and before the sorting of favored, angered, and astray. Assigned role: مالك holds the account in which favor and liability are settled. Abductive move: the packet supplies ownership, recompense, favor, and wrath; I infer an accounting mechanism whose final disposal belongs to the owner. Reading change: the Day of dīn reads as custodial settlement, not only a scene of sovereignty.\n\n2. **Dīn as obedience now and recompense later.** Lexical evidence: د ي ن B001, obedience/submission/law; د ي ن B002, reckoning/recompense; ع ب د B003 in 1:5, worship and submissive obedience. Structural cue: “Day of dīn” is immediately followed by “You we worship.” Assigned role: dīn links the present act of submission to a later order of reckoning. Abductive move: the packet supplies the adjacency; I infer a temporal arrow from present obedience to future accounting. Reading change: the ayah reads not as an isolated eschatological line but as the horizon under which 1:5 becomes intelligible.\n\n3. **Debt and favor as an unsettled economy of dependence.** Lexical evidence: د ي ن B003, financial debt/credit; ن ع م B001, benefaction given to another; ع و ن B001 in 1:5, seeking help. Structural cue: the speaker asks for help and later names people upon whom favor was bestowed. Assigned role: dīn’s debt branch makes favor and help feel like obligations that cannot be self-settled. Abductive move: the packet supplies debt, help, and favor; I infer that dependence creates an account held by the مالك. Reading change: “Day of dīn” also reads as the day when received aid and favor are accounted for.\n\n4. **Malik as mainstay and center of the path-order.** Lexical evidence: م ل ك B005, mainstay of a matter; م ل ك B006, center/main course of road or valley; ص ر ط B001 in 1:6–1:7, straight road; ق و م B009 in 1:6, support/mainstay. Structural cue: the path appears after this ayah, and “straight” is built from standing/support. Assigned role: مالك becomes the central controlling support that keeps the road-order from scattering. Abductive move: the packet supplies road/center/mainstay; I infer that judgment is the axis around which the requested path is stabilized. Reading change: the ayah reads as the structural center of the surah’s movement, not only as a title of rule.\n\n5. **The “day” as severe event rather than mere date.** Lexical evidence: ي و م B003, event-day or severe occasion; غ ض ب B001 in 1:7, intensified anger toward retaliation; ض ل ل B002/B003, disappearance/loss. Structural cue: the day is defined by dīn and later by contrasted destinies. Assigned role: يوم marks the crisis-time when hidden loss and provoked anger become manifest. Abductive move: the packet supplies severe occasion and later moral outcomes; I infer that the “day” is an event of exposure and sorting. Reading change: the ayah reads as an occurrence of decisive manifestation, not merely a calendrical period.",
@@ -11759,6 +13215,11 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
@@ -11766,7 +13227,8 @@
         "ayah_count": 7,
         "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out",
+        "dropped_preface_rows": 0
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -12071,6 +13533,26 @@
       "present": false,
       "variants": {},
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s1/packets/1_4.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s1/readers/reader_hft_a/1_4.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 12,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 91598,
+      "split_root_count": 4,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

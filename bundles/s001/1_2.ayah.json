@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T15:42:37.236030+00:00",
+  "generated_at": "2026-08-06T19:18:22.150787+00:00",
   "surah": 1,
   "ayah": 2,
   "ayahRef": "1:2",
@@ -1282,7 +1282,8 @@
         "m-w-s001-a002-w001-01",
         "m-w-s001-a002-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "1:2:1"
+      "aligned_qac_word_ref_upstream": "1:2:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1296,11 +1297,42 @@
       "morpheme_ids": [
         "m-w-s001-a002-w002-01"
       ],
-      "aligned_qac_word_ref_upstream": "1:2:2"
+      "aligned_qac_word_ref_upstream": "1:2:2",
+      "morpheme_skip_count": 0
     },
     null,
-    null,
-    null
+    {
+      "word_index": 3,
+      "surface_ar": "رَبِّ",
+      "word_ids": [
+        "w-s001-a002-w003"
+      ],
+      "qac_refs": [
+        "1:2:3:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s001-a002-w003-01"
+      ],
+      "aligned_qac_word_ref_upstream": "1:2:4",
+      "morpheme_skip_count": 1
+    },
+    {
+      "word_index": 4,
+      "surface_ar": "ٱلْعَٰلَمِينَ",
+      "word_ids": [
+        "w-s001-a002-w004"
+      ],
+      "qac_refs": [
+        "1:2:4:1",
+        "1:2:4:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s001-a002-w004-01",
+        "m-w-s001-a002-w004-02"
+      ],
+      "aligned_qac_word_ref_upstream": "1:2:5",
+      "morpheme_skip_count": 0
+    }
   ],
   "branch_inventories": {
     "full_context_packet": {
@@ -3134,6 +3166,1013 @@
     }
   },
   "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s1/packets/1_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "1:2",
+      "window": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ع و ن",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001064",
+              "furuq_root_norm": "ع و ن",
+              "furuq_source_root_norm": "ع و ن",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001069",
+              "furuq_root_norm": "ع ي ن",
+              "furuq_source_root_norm": "ع ي ن",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "1:2",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b1_praise_as_tested_verdict",
+            "confidence": "strong",
+            "focus_anchor": "The construction al-hamdu lillah joined to rabb al-alamin.",
+            "mechanism": "Hamd is both praise opposed to blame and the finding of something satisfactory after testing. Joined to divine lordship, it reads as an evaluative verdict grounded in the Lord's relation to all worlds, not as unexamined applause.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B001",
+                "role": "Praise opposed to blame supplies the evaluative polarity of the declaration."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B002",
+                "role": "Finding something satisfactory after testing makes the praise a considered verdict."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one identifies the exclusive recipient of the evaluative response."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship, ownership, and authority provide the relation whose exercise is being judged praiseworthy."
+              }
+            ],
+            "changed_reading": {
+              "before": "A general declaration that praise belongs to God.",
+              "after": "A considered verdict that the worshipped Lord proves praiseworthy across the full scope of lordship."
+            }
+          },
+          {
+            "model_id": "b2_stagewise_world_cultivation",
+            "confidence": "medium",
+            "focus_anchor": "Rabb directly governs the plural alamin.",
+            "mechanism": "The dominant Rabb branch supplies repair, nurture, and completion, while the non-dominant mapped growth branch supplies increase and growing up. The worlds are therefore not merely possessed domains but developing orders brought toward completion stage by stage.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion turn lordship into an ongoing developmental operation."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The split-root image of nourishment and growing up sharpens the stagewise motion within nurture."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "Distinguishing marks let the cultivated plurality appear as differentiated, recognizable orders."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B001",
+                "role": "Praise is the response to the worlds' sustained repair and maturation."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Lord statically owns all worlds.",
+              "after": "The Lord continually raises, repairs, differentiates, and completes many developing worlds."
+            }
+          },
+          {
+            "model_id": "b3_worlds_as_legibility_field",
+            "confidence": "medium",
+            "focus_anchor": "Al-alamin is attached to Rabb and shares the packet root inventory of knowing and marking.",
+            "mechanism": "Alamin activates both disclosure to a knower and a mark that points beyond itself. Rabbani knowledge formed by care links that legibility to lordly cultivation, so the worlds function as disclosed signs through which lordship becomes recognizable.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower makes the worlds an intelligible rather than opaque plurality."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing mark that points onward makes each world evidential."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B003",
+                "role": "Knowledge cultivated by care connects the worlds' signs to the activity of Rabb."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B002",
+                "role": "Recognition after encounter turns readable signs into warranted praise."
+              }
+            ],
+            "changed_reading": {
+              "before": "Alamin names the total collection of worlds.",
+              "after": "Alamin also presents a field of differentiating signs through which caring lordship can be known and praised."
+            }
+          },
+          {
+            "model_id": "b4_credit_claim_reversal",
+            "confidence": "exploratory",
+            "focus_anchor": "Al-hamdu is assigned lillah while Rabb carries a benefaction branch.",
+            "mechanism": "A live Hamd branch describes claiming praise over others through benefaction. Assigning hamd to God reverses that social economy: the ultimate nurturer does not leave creatures able to convert derivative favors into absolute claims of credit over one another.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B005",
+                "role": "Claiming praise by favor exposes the coercive credit economy that the attribution can reverse."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "Exclusive devotion relocates ultimate credit away from intermediate benefactors."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B016",
+                "role": "Need, binding, and benefaction place praise inside a concrete relation of dependence and favor."
+              }
+            ],
+            "changed_reading": {
+              "before": "The clause directs positive speech toward God.",
+              "after": "The clause also interrupts human claims to own others' gratitude by returning the ground of every benefaction to the Lord."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "c1_named_and_marked_praise",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م و",
+              "ء ل ه"
+            ],
+            "mechanism": "The preceding name is both an indication and, through a split mapping, a visible mark; the repeated divine name is also an invocation formula. Together they turn the focus declaration into recognition made possible by prior naming and marking.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "The worlds' distinguishing marks provide the focus-side field made readable by naming."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B002",
+                "role": "Finding the object praiseworthy supplies the recognition that naming enables."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "A name as renown and indication supplies the public identifier that precedes praise."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "The split-root visible mark converts naming into a legibility mechanism."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The fixed name in invocation makes the repeated recipient personally addressable."
+              }
+            ],
+            "structural_cues": [
+              "1:1 places the name before the focus declaration and repeats the same divine name found at 1:2."
+            ],
+            "reader_inference": "The packet supplies naming, visible marking, and invocation; I infer that prior identification enables warranted recognition in 1:2. A live alternative is that 1:1 is only a formulaic preface and leaves the semantics of praise unchanged.",
+            "changed_reading": {
+              "before": "The worlds are signs and praise recognizes their Lord.",
+              "after": "Prior naming marks the addressee and makes the sign-bearing worlds readable enough for praise to become recognition and invocation."
+            }
+          },
+          {
+            "model_id": "c2_gestational_lordship",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ر ح م"
+            ],
+            "mechanism": "Mercy, kinship, and the womb recast Rabb's repair and growth as protected formation from within an enclosing relation. The plural worlds can coexist as differently developing dependents rather than merely governed territories.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Stagewise nurture and completion supply the focus-side developmental process."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "Nourishment and growing up make the developmental process explicitly organic."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "Differentiating marks preserve the plurality of worlds within shared care."
+              },
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Mercy and tenderness set the affective quality of the Lord's nurture."
+              },
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb supplies an enclosing material analogy for protected formation."
+              }
+            ],
+            "structural_cues": [
+              "The doubled رحم forms occur before the focus in 1:1 and immediately after it in 1:3."
+            ],
+            "reader_inference": "The packet supplies repeated mercy, womb, nurture, and growth; I supply the arrow from enclosure to protected world-formation. The alternative is non-spatial mercy that qualifies lordship without a gestational mechanism.",
+            "changed_reading": {
+              "before": "Rabb repairs and matures the worlds stage by stage.",
+              "after": "Rabb's maturation of the worlds can be heard as merciful, enclosing formation that protects difference while bringing dependents to completion."
+            }
+          },
+          {
+            "model_id": "c3_praise_at_the_end_of_account",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ل ك",
+              "ي و م",
+              "د ي ن"
+            ],
+            "mechanism": "Ownership, an extended temporal span, and accounting or recompense make the focus praise eschatological and forensic. Hamd as finding something satisfactory after testing becomes a verdict capable of looking across the whole process and its settlement.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B002",
+                "role": "Satisfactory finding after testing supplies the evaluative process completed by accounting."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B001",
+                "role": "Lordship and ownership provide the focus-side authority later specified by the account."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Possession with power of disposal makes the final evaluation effective rather than merely observational."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "A duration of time stretches the test beyond an instantaneous judgment."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense close the evaluative process with settlement."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt gives the settlement a concrete image of outstanding claims being resolved."
+              }
+            ],
+            "structural_cues": [
+              "1:4 combines owner, temporal span, and account in a single genitive chain immediately after the focus and mercy."
+            ],
+            "reader_inference": "The packet supplies tested satisfaction, ownership, duration, and settlement; I infer that the later account retrospectively warrants the praise. Alternatively, praise may be prior and unconditional while 1:4 only adds a separate title.",
+            "changed_reading": {
+              "before": "Praise is an immediate response to present lordship.",
+              "after": "Praise anticipates the verdict of a complete history in which every outstanding claim is finally accounted for."
+            }
+          },
+          {
+            "model_id": "c4_praise_performed_as_dependence",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د",
+              "ع و ن"
+            ],
+            "mechanism": "Worship and sought aid convert nominal praise into enacted dependence. The non-dominant eye mapping adds watchful care, so Rabb's nurturance is not only assistance supplied on demand but attentive preservation of the worshippers.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B001",
+                "role": "The worshipped one makes the focus attribution inherently relational."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Nurture and administration supply the care on which the speakers depend."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Humble worship and obedience enact the praise as allegiance."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Aid and backing make dependence operational rather than merely confessed."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "The split-root eye of protection adds vigilant preservation to the requested help."
+              }
+            ],
+            "structural_cues": [
+              "1:5 shifts from third-person nominal declaration to exclusive second-person address and first-person plural action."
+            ],
+            "reader_inference": "The packet supplies worship, aid, and an eye of care; I infer that the grammatical shift performs the dependence already latent in Rabb. The eye branch may instead be an accidental split-root resonance with no bearing on aid.",
+            "changed_reading": {
+              "before": "The speakers state that the Lord deserves praise.",
+              "after": "The speakers perform that praise by entering exclusive service, asking for backing, and placing themselves under watchful care."
+            }
+          },
+          {
+            "model_id": "c5_worlds_as_navigable_signs",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ه د ي",
+              "ص ر ط",
+              "ق و م"
+            ],
+            "mechanism": "The focus world's distinguishing marks become landmarks on a gently indicated road. Straightness and structural support make Rabb's cultivation navigable: praise responds not only to a created field of signs but to a maintained route through it.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A mark that guides toward something supplies the focus-side landmarks."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Administration and repair make route maintenance an aspect of lordly care."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward road and truth activates movement through the focus sign-field."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The straight road gives the signs a continuous spatial mechanism."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Straightness, balance, and evenness specify the route's reliable alignment."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Support and subsistence make straightness something sustained, not merely geometrical."
+              }
+            ],
+            "structural_cues": [
+              "1:6 orders a request for guidance, a route, and the route's stabilizing quality."
+            ],
+            "reader_inference": "The packet supplies pointing marks, gentle indication, road, alignment, and support; I infer that Rabb maintains a traversable correspondence among them. Alternatively, alamin may remain a simple plural noun with no landmark function.",
+            "changed_reading": {
+              "before": "The worlds disclose signs of their Lord.",
+              "after": "The worlds form a navigable sign-field whose aligned route is continually indicated, repaired, and upheld by their Lord."
+            }
+          },
+          {
+            "model_id": "c6_praise_as_differential_diagnosis",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ع م",
+              "غ ي ر",
+              "غ ض ب",
+              "ض ل ل"
+            ],
+            "mechanism": "Benefaction, explicit exclusion, hardening, and hiddenness make Hamd's opposition to blame diagnostic. Nurture produces recognizable good condition; its negative contrasts appear as hardened or lost legibility, so praise discriminates among trajectories rather than flattening every condition into approval.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B001",
+                "role": "Praise opposed to blame supplies the evaluative distinction sharpened by the closing contrasts."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B002",
+                "role": "Finding after testing turns distinction among trajectories into diagnosis."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "Visible marks establish the legibility that can later be preserved or lost."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and benefaction provide the positive outcome of nurture."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Difference, exception, and negation introduce an explicit sorting operation."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ض ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001092",
+                "branch_id": "B004",
+                "role": "Rocklike hardness supplies a material image for a trajectory resistant to cultivation."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Disappearance and hiddenness reverse the focus image of a distinguishing, guiding mark."
+              }
+            ],
+            "structural_cues": [
+              "1:7 identifies the desired road through recipients of benefaction and then defines it against two excluded trajectories."
+            ],
+            "reader_inference": "The packet supplies good condition, exception, hardness, hiddenness, and focus-side marking; I infer a causal contrast in which cultivation preserves legibility while resistant or lost trajectories obscure it. The alternative is a purely social classification with no material hardening or visibility mechanism.",
+            "changed_reading": {
+              "before": "Praise affirms the Lord of all worlds without internal contrast.",
+              "after": "Praise is a discriminating judgment that recognizes successful nurture while refusing to confuse hardening or lost orientation with the same outcome."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o1_ecological_water_cycle",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it composes marginal cloud, water, rain-mark, and wind images into an ecological cycle. It remains anchored in Rabb and alamin through their own cloud and gathered-water branches, with context supplying recurrence. Downstream prose should present it as a cross-domain material activation, not as the lexical translation of Rabb al-alamin.",
+            "focus_anchor": "Rabb and alamin carry low-cloud, abundant-water, and gathered-water branches inside the focus inventory.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B008",
+                "role": "A low layered cloud supplies the elevated reservoir in the ecological mechanism."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B013",
+                "role": "Abundant collected water supplies accumulation under lordly care."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B005",
+                "role": "A large gathered body of water lets alamin take on a material field as well as a social plurality."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B003",
+                "role": "First rain marking earth with vegetation joins water flow to visible signs."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B010",
+                "role": "The split-root eye of cloud and rain recasts aid as replenishing flow."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B009",
+                "role": "A gentle wind supplies circulation that carries the nurturing cycle."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Lord governs a collection of worlds.",
+              "after": "Exploratorily, praise rises from a world-system in which gathered water, layered cloud, rain, wind, and vegetative marks circulate as forms of continuous nurture."
+            }
+          },
+          {
+            "outlier_id": "o2_guidance_through_breakage",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the breakage image comes from the non-dominant h-d-d mapping of the guidance root and is form-distant. It remains anchored because the focus Rabb explicitly carries repair and completion, while the same context occurrence also carries gentle guidance. Downstream prose should retain it only as counterpressure: guidance may include repair after rupture, not that ihdina means destruction.",
+            "focus_anchor": "Rabb in the focus carries repair and completion, which can receive the later breakage counter-image.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair and completion anchor the model directly in the focus description of Rabb."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication supplies the ordinary forward motion of guidance."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B001",
+                "role": "Severe breaking and demolition supply the form-distant rupture that makes repair consequential."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Restored straightness and balance provide the possible result of repair."
+              }
+            ],
+            "changed_reading": {
+              "before": "The Lord's nurture proceeds as smooth guidance toward completion.",
+              "after": "Exploratorily, the praised repair of Rabb may include restoring alignment after structures or orientations have broken."
+            }
+          },
+          {
+            "outlier_id": "o3_covenantal_bundle_of_worlds",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it links a quiver-like bundle, covenant, debt, and cutting path across distant material and legal branches. It remains focus-anchored in two Rabb branches whose shared function is gathering under a bond, while later context supplies settlement and decisive passage. Downstream prose should qualify it as an abductive covenantal model, not equate worlds with arrows or the path with a sword.",
+            "focus_anchor": "Rabb in 1:2 carries both a gathered-arrow container and a binding covenant branch.",
+            "activation_trace": [
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B010",
+                "role": "A container gathering arrows supplies the material operation of holding plurality together."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B011",
+                "role": "A covenant or pact turns material gathering into a binding social relation."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "Distinctive marks preserve identifiable members within the gathered plurality."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt supplies obligations that make a covenant answerable."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B003",
+                "role": "The decisive cutting stroke adds the risky image of a path that separates fulfilled from failed trajectories."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B015",
+                "role": "Equal weight and measured balance provide a standard for settling the bound plurality."
+              }
+            ],
+            "changed_reading": {
+              "before": "Rabb names authority over many worlds.",
+              "after": "Exploratorily, Rabb gathers distinguishable worlds into a binding order whose obligations are measured, traversed, and finally settled."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The tested-quality branch of Hamd becomes a whole-history verdict when activated by ownership, duration, and accounting.",
+            "The mark branch of alamin becomes a navigable sign-field when activated by guidance, road, straightness, and support.",
+            "Rabb's nurture becomes enacted dependence through worship and aid, with a live split-root image of watchful care.",
+            "The final contrasts revise praise into differential diagnosis rather than indiscriminate affirmation."
+          ],
+          "what_was_special": "The trace preserved simultaneous evaluative, developmental, semiotic, social-credit, gestational, forensic, navigational, and ecological readings. Non-dominant mapped roots were most productive when they sharpened an already anchored focus mechanism rather than replacing it.",
+          "remaining_uncertainties": [
+            "The gestational model depends on a reader-supplied spatial arrow from womb to world-formation.",
+            "The eye-of-care, breakage, rain-mark, and covenantal-bundle activations are live but mapping-distant and should remain explicitly exploratory.",
+            "Alamin may support the mark and knowledge activations without making those branches a direct lexical gloss of worlds."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Praise as an evaluative verdict after testing the order.** Lexical evidence: ح م د B001, praise opposite blame; ح م د B002, finding something satisfactory after testing; ع ل م B001, knowing as clarity. Structural cue: praise follows the named mercy and precedes the list of lordship, judgment, worship, and guidance. Assigned role: الحمد is both spoken praise and a judgment that the whole disclosed order proves praiseworthy. Abductive move: the packet gives praise/testing/clarity; I infer that the following ayat function as the evidentiary field that makes praise intelligible. Reading change: “all praise” reads less like a formula and more like the verdict produced by seeing the whole mechanism.\n\n2. **Lordship as stage-by-stage cultivation of worlds.** Lexical evidence: ر ب ب B001, lordship/ownership/authority; ر ب ب B002, repair, nurture, completion; ع ل م B002, distinguishing signs and road markers. Structural cue: “Lord” is attached to “worlds,” while later 1:6 asks for a road and 1:7 identifies the path by people marked by favor. Assigned role: رب is the maintainer who forms worlds into legible, navigable fields. Abductive move: the packet supplies nurture and markers; I infer that the worlds are not merely objects owned but terrains cultivated into guidance-bearing order. Reading change: “Lord of the worlds” reads as “caretaker and completer of sign-marked realms.”\n\n3. **The worlds as signs, not only domains.** Lexical evidence: ع ل م B002, a distinguishing mark that points to something; ه د ي B001 in 1:6, guidance to road/truth; ص ر ط B001 in 1:6–1:7, road. Structural cue: عَٰلَمِينَ sits immediately after رب and later the path request asks for orientation. Assigned role: worlds act as marked surfaces through which lordship becomes knowable and directional. Abductive move: the packet supplies “worlds” through the root علم and “path/guidance” later; I infer that visibility of marks enables movement. Reading change: the ayah’s cosmology becomes semiotic: the worlds are readable signs under رب, not inert scenery.\n\n4. **Praise resists benefaction-credit rivalry.** Lexical evidence: ح م د B005, claiming praise by favor; ن ع م B001 in 1:7, bestowed favor; ء ل ه B001, worshipped object. Structural cue: 1:7 mentions favor bestowed by “You,” while 1:5 confines worship and help to “You.” Assigned role: الحمد prevents favor from becoming a human credit-claim. Abductive move: the packet supplies favor and exclusive address; I infer that all benefaction-credit is redirected to Allah. Reading change: praise is not only gratitude; it blocks rival ownership of benefaction.",
@@ -17226,22 +18265,18 @@
       "present": true,
       "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
       "words_total": 5,
-      "words_resolved": 2,
-      "words_unresolved": 3,
+      "words_resolved": 4,
+      "words_unresolved": 1,
+      "morpheme_skip_total": 1,
+      "morpheme_skip_max": 1,
+      "morpheme_skip_histogram": {
+        "0": 3,
+        "1": 1
+      },
       "unresolved": [
         {
           "word_index": 2,
           "surface_ar": "ٱللَّهِ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 3,
-          "surface_ar": "رَبِّ",
-          "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
-        },
-        {
-          "word_index": 4,
-          "surface_ar": "ٱلْعَٰلَمِينَ",
           "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
         }
       ],
@@ -17251,7 +18286,8 @@
         "ayah_count": 7,
         "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out",
+        "dropped_preface_rows": 0
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -17569,6 +18605,26 @@
       "present": false,
       "variants": {},
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s1/packets/1_2.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s1/readers/reader_hft_a/1_2.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 110023,
+      "split_root_count": 4,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

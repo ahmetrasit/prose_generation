@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T15:42:37.316929+00:00",
+  "generated_at": "2026-08-06T19:18:22.382167+00:00",
   "surah": 1,
   "ayah": 6,
   "ayahRef": "1:6",
@@ -1522,7 +1522,8 @@
         "m-w-s001-a006-w001-01",
         "m-w-s001-a006-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "1:6:1"
+      "aligned_qac_word_ref_upstream": "1:6:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -1538,7 +1539,8 @@
         "m-w-s001-a006-w002-01",
         "m-w-s001-a006-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "1:6:2"
+      "aligned_qac_word_ref_upstream": "1:6:2",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 2,
@@ -1554,7 +1556,8 @@
         "m-w-s001-a006-w003-01",
         "m-w-s001-a006-w003-02"
       ],
-      "aligned_qac_word_ref_upstream": "1:6:3"
+      "aligned_qac_word_ref_upstream": "1:6:3",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -3559,6 +3562,1205 @@
     }
   },
   "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s1/packets/1_6.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "1:6",
+      "window": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ع و ن",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001064",
+              "furuq_root_norm": "ع و ن",
+              "furuq_source_root_norm": "ع و ن",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001069",
+              "furuq_root_norm": "ع ي ن",
+              "furuq_source_root_norm": "ع ي ن",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "1:6",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "base_gentle_upright_alignment",
+            "confidence": "strong",
+            "focus_anchor": "The imperative at word 1 governs the path noun at word 2, which word 3 qualifies through the root ق و م.",
+            "mechanism": "Guidance initiates movement by gentle indication and enabling; the path supplies a traversable course, while its qualifier makes straightness an active condition of uprightness, evenness, and just proportion.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward a true way supplies the initiating guidance and enabling, not merely destination data."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "A straight traversable road supplies the concrete course into which the plural object asks to be led."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Uprightness, evenness, and justness make the road's straightness a maintained norm of alignment."
+              }
+            ],
+            "changed_reading": {
+              "before": "Tell us which road is correct.",
+              "after": "Gently enable us into and along a real course whose correctness consists in sustained uprightness and even measure."
+            }
+          },
+          {
+            "model_id": "base_embodied_supported_motion",
+            "confidence": "medium",
+            "focus_anchor": "The plural object on the imperative and the standing-derived qualifier allow the request to concern the travelers' capacity to move, not only their knowledge of a route.",
+            "mechanism": "The guidance root's supported, swaying gait and the qualifier's bodily rising form a locomotor sequence: unstable travelers are accompanied until they can stand and proceed on the road.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B008",
+                "role": "Walking while leaning on others contributes assisted, unstable motion and casts guidance as accompaniment."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The road supplies the surface and direction on which assisted movement becomes actual travel."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily rising and standing supply the regained posture that stabilizes the travelers' motion."
+              }
+            ],
+            "changed_reading": {
+              "before": "Supply us with information about a straight route.",
+              "after": "Support our unstable gait until we can rise, remain aligned, and actually travel the route."
+            }
+          },
+          {
+            "model_id": "base_sustaining_course",
+            "confidence": "medium",
+            "focus_anchor": "The guidance verb can set a manner and intended direction, while the standing-derived adjective can denote what keeps a thing or a life in operation.",
+            "mechanism": "The path is not merely a line between points. It is an ordered manner of proceeding that serves as a mainstay, continually holding conduct and life together.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course, manner, and intended direction turn guidance into the shaping of a durable way of proceeding."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The road keeps this manner anchored as a traversable course rather than an abstract virtue."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Mainstay, order, and subsistence make the qualifying straightness the support by which life and practice continue."
+              }
+            ],
+            "changed_reading": {
+              "before": "Point us toward a geometrically direct line.",
+              "after": "Set our intention and manner within a course that functions as the supporting order of life and conduct."
+            }
+          },
+          {
+            "model_id": "base_following_into_passage",
+            "confidence": "exploratory",
+            "focus_anchor": "The imperative, the route noun, and the standing-derived qualifier can be read as a temporal sequence of lead, entry, and committed rising.",
+            "mechanism": "A leading front goes ahead; the route receives and carries the travelers out of their prior position; resolve then converts entry into continued passage. The model emphasizes irreversible transition rather than static orientation.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B003",
+                "role": "The leading front part contributes an advance element to follow and gives the imperative temporal direction."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B002",
+                "role": "Disappearance through passage or swallowing contributes a channel that takes entrants beyond their prior location."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B003",
+                "role": "Rising with resolve supplies the travelers' committed continuation once the passage has received them."
+              }
+            ],
+            "changed_reading": {
+              "before": "Identify the already visible road.",
+              "after": "Put a lead before us, take us through a passage that leaves the old position behind, and raise in us the resolve to continue."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "base_gentle_upright_alignment_marked",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م و",
+              "ر ح م"
+            ],
+            "mechanism": "Naming and visible marking make the path publicly recognizable, while repeated tenderness constrains how guidance operates. Straightness becomes a legible sequence of merciful signs rather than an unmarked line imposed by force.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication remains the focus action and receives a more specific semiotic and affective mechanism from context."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The traversable road is the focus object on which names and marks can function as wayfinding signs."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Upright evenness supplies the stable criterion by which successive signs remain mutually coherent."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "Naming as indication contributes an addressable designation and makes the route recognizable in discourse."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "A visible identifying mark contributes the material wayfinding cue carried by the act of naming."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tenderness and mercy supply the non-coercive manner in which the signs guide."
+              },
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "The repeated tenderness cue strengthens mercy as an enveloping condition rather than a single incidental modifier."
+              }
+            ],
+            "structural_cues": [
+              "At 1:1 designation precedes paired mercy forms, and 1:3 repeats the mercy pair without other roots.",
+              "The focus imperative addresses a plural recipient and binds guidance to a specifically qualified path."
+            ],
+            "reader_inference": "The packet supplies designation, visible marking, gentle indication, and repeated tenderness; I infer marks -> recognition -> non-coercive movement along the focus road. A live alternative is that the opening designation only identifies the speaker and does not describe a wayfinding process.",
+            "changed_reading": {
+              "before": "Gently direct us onto the upright road.",
+              "after": "Let the upright road become legible to us through coherent, mercifully given signs that invite rather than compel movement."
+            }
+          },
+          {
+            "model_id": "base_sustaining_course_nurtured",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ح م د",
+              "ر ب ب",
+              "ع ل م"
+            ],
+            "mechanism": "A praiseworthy end gives direction, nurturing repair and growth provide propulsion, and distinguishing marks disclose progress. The sustaining course is therefore developmental: travelers are formed into the capacity to remain on it.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Course, manner, and intention anchor development in the focus verb as a shaped way of proceeding."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Support and subsistence supply the durable structure within which gradual formation can continue."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B004",
+                "role": "A praiseworthy end contributes the attractor by which the developmental course gains direction."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, nurture, and completion contribute the gradual formative work performed along the course."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant growth image adds feeding and maturation as a material analogy for formation."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B002",
+                "role": "A distinguishing trace that guides contributes feedback markers by which travelers recognize development and direction."
+              }
+            ],
+            "structural_cues": [
+              "The 1:2 root sequence moves from praise through lordship to the plural worlds before the focus request.",
+              "The focus places the directing action before the path and its stabilizing qualifier, allowing formation to precede stable alignment."
+            ],
+            "reader_inference": "The packet supplies a praiseworthy end, nurture and completion, growth, and guiding marks; I infer nurture -> increased capacity and marks -> feedback during travel. A live alternative is that praise, lordship, and worlds remain titles of the addressee without specifying how guidance occurs.",
+            "changed_reading": {
+              "before": "Place us on a supportively ordered course.",
+              "after": "Nurture and repair us toward a praiseworthy end, using recognizable marks until we acquire the capacity to sustain the course."
+            }
+          },
+          {
+            "model_id": "ctx_accountable_calibration",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ل ك",
+              "ي و م",
+              "د ي ن"
+            ],
+            "mechanism": "Ownership of the mainstay, a bounded time, and eventual accounting turn the road into a temporally measured trajectory. The standing-derived qualifier activates valuation and equal weight: straight conduct is what can be appraised without imbalance at settlement.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Intended course anchors the model in the focus request as a trajectory of conduct."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B010",
+                "role": "Valuation and appraisal contribute the process by which moments of the course are assessed."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B015",
+                "role": "Exact, non-overweight measure supplies calibration as a concrete sense of straightness."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B005",
+                "role": "The mainstay or controlling core of an affair contributes authority over the standard by which the course holds."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B001",
+                "role": "A delimited day contributes a bounded horizon within which the trajectory reaches disclosure."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply the final settlement that tests whether the course balances."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt contributes the ledger analogy through which conduct accumulates obligations across time."
+              }
+            ],
+            "structural_cues": [
+              "The compact 1:4 chain joins possessor, bounded day, and settlement before the request for a qualified course.",
+              "The first-person commitment of 1:5 follows the temporal-accounting frame, making the focus road a course of accountable action."
+            ],
+            "reader_inference": "The packet supplies mainstay, bounded time, accounting, debt, valuation, and equal measure; I infer conduct across time -> accumulated account -> final calibration. A live alternative is that the standing root contributes ordinary uprightness and that debt is only a remote analogy for recompense.",
+            "changed_reading": {
+              "before": "The straight path is spatially direct.",
+              "after": "Guide us through a bounded course whose conduct is continually calibratable and can stand in balance at final settlement."
+            }
+          },
+          {
+            "model_id": "ctx_habituated_service",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "د ي ن",
+              "ع ب د"
+            ],
+            "mechanism": "The same context that permits a forensic account also permits a practice reading: customary manner and repeated submissive service make the path a stable habitation of action. Guidance installs a way of living rather than delivering a one-time answer.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "Manner and habitual course anchor the focus verb as formation of a repeatable practice."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B006",
+                "role": "Station and residence contribute durability, making practice a place one remains rather than an isolated act."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B005",
+                "role": "Customary manner contributes repetition and regularity as the temporal texture of the path."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive service contributes the concrete recurring action through which the customary course is inhabited."
+              }
+            ],
+            "structural_cues": [
+              "The nominal settlement frame of 1:4 turns into first-person plural service in 1:5 and then a first-person plural request in 1:6.",
+              "The focus adjective can qualify a continuing manner as well as a geometric road."
+            ],
+            "reader_inference": "The packet supplies custom, submissive service, manner, and residence; I infer repetition -> habituation -> stable inhabiting of the focus course. A live alternative is the coexisting accountable-calibration reading in which د ي ن points to settlement rather than custom.",
+            "changed_reading": {
+              "before": "Reveal the correct answer to us once.",
+              "after": "Install us in a repeatable practice of service until the right course becomes our stable manner of living."
+            }
+          },
+          {
+            "model_id": "base_embodied_guidance_coactive",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع ب د",
+              "ع و ن"
+            ],
+            "mechanism": "Service contributes leveling and preparation, while sought aid contributes active support. The focus request becomes cooperative locomotion: the travelers participate in making the course walkable and ask for the help that lets them rise and continue.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B008",
+                "role": "Supported, swaying walking keeps the focus action embodied and identifies where assistance enters."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The literal road is the material object that can be prepared and then traveled."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B002",
+                "role": "Bodily rising supplies the transition from dependence to capable movement."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B005",
+                "role": "Leveling and making passable contribute the travelers' preparatory labor on the route."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Aid and mutual backing contribute the enabling support without which preparation does not become travel."
+              }
+            ],
+            "structural_cues": [
+              "The two first-person plural verbs of 1:5 immediately precede the plural object suffix on the focus imperative.",
+              "The repeated exclusive addressee in 1:5 places both service and aid in one relation before the request for movement."
+            ],
+            "reader_inference": "The packet supplies leveling, assistance, supported walking, and rising; I infer service -> prepared surface and aid -> enabled locomotion. A live alternative is that service names only devotional posture and contributes no roadwork analogy.",
+            "changed_reading": {
+              "before": "Carry passive recipients onto the route.",
+              "after": "Let our service help prepare the course, and supply the support by which our unsteady collective can rise and walk it."
+            }
+          },
+          {
+            "model_id": "base_sustaining_course_inhabited",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ص ر ط",
+              "ن ع م"
+            ],
+            "mechanism": "The repeated road is identified through people who have received benefit, while softness, good condition, and agreeable dwelling supply material tests of that benefit. Straightness is revised from visual geometry to a course proven habitable and sustaining in lived relation.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The focus road supplies the route whose quality is being revised by the following specification."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B006",
+                "role": "Station and residence let the qualifying straightness be tested as a viable place to remain."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Support and subsistence make the viable station materially sustaining rather than merely comfortable."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "Repetition of the road carries the focus object forward into a relational specification."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Good condition and benefit contribute flourishing as one outcome by which the route is recognized."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease of living contribute non-destructive habitability to the route's quality."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B011",
+                "role": "An agreeable place of residence contributes the spatial endpoint at which a sustaining course becomes inhabitable."
+              }
+            ],
+            "structural_cues": [
+              "The path noun is repeated at the start of 1:7 and then specified through a plural human relation.",
+              "The pronoun sequence in 1:7 describes conditions borne by people, not abstract properties of a line."
+            ],
+            "reader_inference": "The packet supplies a repeated road, good condition, softness, agreeable dwelling, station, and subsistence; I infer lived benefit -> evidence of route quality. A live alternative is that benefit identifies prior travelers while straightness itself remains purely normative.",
+            "changed_reading": {
+              "before": "Choose the line that is formally straight.",
+              "after": "Guide us into the course whose uprightness is evidenced by the sustaining, non-destructive life it makes possible among people."
+            }
+          },
+          {
+            "model_id": "ctx_dynamic_between_failures",
+            "status": "new",
+            "confidence": "medium",
+            "trigger_roots": [
+              "غ ي ر",
+              "غ ض ب",
+              "ض ل ل"
+            ],
+            "mechanism": "The closing exclusion frame supplies two contrasting breakdowns of travel: hardening into arrested resistance and losing visibility or orientation. The focus qualifier becomes dynamic viability, preserving both coherent form and continued motion between rigidity and disappearance.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B002",
+                "role": "Disappearance through passage contributes the road's live ambiguity: a channel can carry the traveler or erase orientation."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Upright evenness supplies coherent form between the two breakdowns."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B016",
+                "role": "Stoppage, freezing, and exhausted immobility contribute the focus root's own warning that standing can cease to be viable motion."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Exclusion, difference, and negation supply the boundary operation that keeps the desired course distinct from its failures."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ض ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001092",
+                "branch_id": "B004",
+                "role": "Rock-like hardness contributes the material image of rigid arrest and refusal to adapt."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ض ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001092",
+                "branch_id": "B003",
+                "role": "Contentious opposition contributes the social mechanism by which rigidity blocks shared travel."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness and disappearance contribute the opposite breakdown in which the course can no longer be perceived."
+              }
+            ],
+            "structural_cues": [
+              "The 1:7 sequence uses an exclusion term and a coordinated negation to set two undesired conditions against the repeated path.",
+              "The repeated relational pronoun locates both outcomes in lived states borne by travelers."
+            ],
+            "reader_inference": "The packet supplies exclusion, hard solidity, opposition, hiddenness, and focus-root stoppage; I infer rigidity -> arrested motion and hiddenness -> lost orientation, with viable straightness between them. A live alternative is that the two closing groups are moral contrasts with no shared material continuum.",
+            "changed_reading": {
+              "before": "Straightness means rigidly never bending.",
+              "after": "Keep us in a course that preserves orientation and forward viability between arrested hardness and vanishing loss."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_restored_sight",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it combines the non-dominant ع و ن to ع ي ن mapping with a rare focus-root image of an intact but unseeing eye and a bodily swelling image. It remains valid as an ocular analogy because the focus asks for orientation and its qualifier itself supplies the loss-of-sight anchor. Downstream prose should call it a branch-activated perceptual model, never a lexical translation.",
+            "focus_anchor": "The guidance imperative names orientation, while the focus adjective's root inventory contains the intact standing eye whose vision is absent.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Guidance toward a way anchors the ocular material in the focus need for successful orientation."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B021",
+                "role": "An intact standing eye without sight contributes the central diagnostic: sound outward form can lack orienting perception."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B001",
+                "role": "The non-dominant seeing-eye image contributes perception as one surprising mode of the requested aid."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001069",
+                "branch_id": "B003",
+                "role": "The guarding eye contributes preservation of perception, not only its momentary restoration."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ض ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001092",
+                "branch_id": "B006",
+                "role": "Swelling around the eye contributes an affective-bodily mechanism by which perception becomes obstructed."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B002",
+                "role": "Hiddenness supplies the perceptual outcome when the course remains present but is no longer visible."
+              }
+            ],
+            "changed_reading": {
+              "before": "Show us an external road.",
+              "after": "Restore and guard the faculty by which an outwardly intact self can actually see the course when swelling and hiddenness occlude it."
+            }
+          },
+          {
+            "outlier_id": "outlier_anti_scattering_collective",
+            "confidence": "exploratory",
+            "containment": "The dispersal image is branch-distant from the contextual blessing form, so the model is surprising and cannot define that word. It remains anchored in the plural object of the focus imperative, the focus root's people branch, and the request for a shared course. Render it only as an anti-fragmentation activation carried by the collective grammar.",
+            "focus_anchor": "The object suffix in the focus imperative is plural, and the focus qualifier's root inventory can denote a human group.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B002",
+                "role": "A shared manner and intended direction supply the coordination needed to keep the plural recipients together."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B001",
+                "role": "A group of people contributes the social body whose continuity is at stake in the focus request."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B008",
+                "role": "Sudden flight and dispersal of a group contribute the branch-distant failure condition that shared guidance counters."
+              }
+            ],
+            "changed_reading": {
+              "before": "Guide each of us as an independent traveler.",
+              "after": "Give the plural body a common course that keeps its members from scattering into unrelated directions."
+            }
+          },
+          {
+            "outlier_id": "outlier_gift_return_circuit",
+            "confidence": "medium",
+            "containment": "This reading reactivates gift and sanctuary-offering nouns inside the focus verb, so it is morphologically indirect but rooted in the same supplied inventory. Contextual benefit and service make the exchange coherent: guidance can be imagined as a gift received and embodied service as its return. Downstream prose should present a symbolic gift circuit, not replace the ordinary guidance sense.",
+            "focus_anchor": "The focus verb's root inventory contains both a gracious gift sent toward intimacy and an offering sent toward a sanctuary.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B004",
+                "role": "A graciously sent gift contributes reception: the requested course arrives as relational generosity."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B005",
+                "role": "An offering sent toward a sanctuary contributes return movement, turning receipt into devoted response."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Support and subsistence make the received gift life-sustaining rather than ornamental."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Submissive service contributes the enacted return through which the gift is carried back as practice."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B001",
+                "role": "Benefit and good condition contribute the experiential content of what is received."
+              }
+            ],
+            "changed_reading": {
+              "before": "Transmit correct directions to us.",
+              "after": "Bestow a sustaining course as a relational gift, and make our lived service the movement by which that gift is answered."
+            }
+          },
+          {
+            "outlier_id": "outlier_incisive_passage",
+            "confidence": "exploratory",
+            "containment": "A sword edge meeting rock or shield is a martial and material cross-domain activation, not a claim that the focus commands violence. It remains anchored in the path root's own cutting branch and the standing root's opposition branch, while the closing context supplies hardened resistance and exclusion. Render it as an incisive criterion or passage through obstruction, with explicit figurative qualification.",
+            "focus_anchor": "The focus path root includes a penetrating cutting edge, and the qualifier's root can involve facing resistance.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle guidance prevents the cutting material analogy from becoming an independent violent theme."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B003",
+                "role": "A penetrating cutting edge contributes decisiveness and the capacity to open passage through obstruction."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B014",
+                "role": "Facing off against resistance contributes the encounter in which an incisive course must remain aligned."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Exclusion and distinction contribute the discriminating function of the edge-like course."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ض ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001092",
+                "branch_id": "B008",
+                "role": "Hard folded hide or shield contributes the resistant material through which the figurative course must pass."
+              }
+            ],
+            "changed_reading": {
+              "before": "Follow a road that avoids every obstruction.",
+              "after": "Give us a gently governed but incisive criterion that distinguishes the course and opens passage through hardened resistance."
+            }
+          },
+          {
+            "outlier_id": "outlier_reconstruction_after_collapse",
+            "confidence": "exploratory",
+            "containment": "The collapse image comes from the non-dominant ه د ي to ه د د mapping, so it is highly form-distant and must not be asserted as the verb's sense. It remains structurally useful because the focus also supplies a road and a sustaining mainstay, while context supplies repair and cohesion. Render it only as a reconstruction analogy activated by the sealed split mapping.",
+            "focus_anchor": "The focus joins the split-mapped imperative to a road qualified by the root that can denote the support by which a structure or life stands.",
+            "activation_trace": [
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B001",
+                "role": "Severe breaking and collapse contribute the non-dominant structural failure from which this analogy begins."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The road keeps reconstruction attached to the focus object as restoration of viable passage."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B009",
+                "role": "Mainstay and support contribute the rebuilt structure by which the route and its travelers can continue."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair and completion contribute the restorative process between collapse and renewed support."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B001",
+                "role": "Cohesion and structural firmness contribute the recovered integrity of the repaired course."
+              }
+            ],
+            "changed_reading": {
+              "before": "Show us the road while leaving our damaged supports unchanged.",
+              "after": "Repair what has collapsed, restore the supports that hold a viable passage together, and thereby make continued travel possible."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The focus-only road shifted from geometric correctness to gentle enabling, embodied locomotion, and a sustaining order that keeps life and practice standing.",
+            "Naming, visible marks, mercy, nurture, growth, and service made guidance a legible formative process in which travelers are changed and participate.",
+            "Bounded time and settlement activated calibration, while the final exclusions reframed straightness as viable motion between rigid arrest and perceptual disappearance.",
+            "The repeated road and benefit roots made lived habitability and communal flourishing possible evidence of the course's uprightness."
+          ],
+          "what_was_special": "The same three-word focus sustained coexisting spatial, bodily, developmental, economic, habitual, social, and perceptual mechanisms. Non-dominant mappings were not silently discarded: they produced contained ocular and reconstruction outliers without being promoted to lexical meanings.",
+          "remaining_uncertainties": [
+            "The swallowing, cutting, blind-eye, and collapse branches may function only as material analogies; their downstream value depends on preserving explicit containment.",
+            "The accounting and customary-practice activations of د ي ن coexist in the packet but pull the temporal reading in different directions.",
+            "It remains uncertain whether benefit proves the route's quality or only identifies its prior travelers.",
+            "The coactive road-preparation reading depends on a reader-supplied arrow from leveling service to a prepared route."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Guidance as leading from the front, not only informing.** Lexical evidence: ه د ي B001, gentle guidance toward way/truth; ه د ي B003, leading front part; ص ر ط B001, road; ق و م B008, straightness/uprightness. Structural cue: the imperative “guide us” asks for a road, not merely knowledge. Assigned role: هدى is the forward guide; صراط is the traversable field; مستقيم is the upright shape of movement. Abductive move: the packet supplies guide/front/road/straightness; I infer that guidance includes being led ahead. Reading change: the ayah reads as a request for conducted movement, not just instruction.\n\n2. **The straight path as maintained support.** Lexical evidence: ق و م B004, care/guardianship/preservation; ق و م B009, support/mainstay/subsistence; م ل ك B005 in 1:4, mainstay; ر ب ب B002 in 1:2, nurturing/completion. Structural cue: مستقيم is built from ق و م and appears after Lordship, ownership, worship, and help. Assigned role: straightness is the maintained condition by which the path keeps standing. Abductive move: the packet supplies nurture, mainstay, support, and straightness; I infer that the path remains straight because it is upheld, not because it is merely geometrically direct. Reading change: “straight” reads as sustained uprightness and managed stability.\n\n3. **The path as passage that can swallow the traveler.** Lexical evidence: ص ر ط B002, disappearing in passage and swallowing; ض ل ل B002 in 1:7, hiddenness/disappearance; ض ل ل B003, loss. Structural cue: the same صراط is repeated in 1:7 and then contrasted with lost/astray groups. Assigned role: صراط carries an ambivalent passage-image: movement can be safe traversal or disappearance. Abductive move: the packet supplies swallowing and later disappearance/loss; I infer that the prayer asks for a passage that does not erase or lose the traveler. Reading change: the road becomes perilous and absorbing, not merely a clear line.\n\n4. **Guidance as gift/favor.** Lexical evidence: ه د ي B004, gracious gift sent to one close; ن ع م B001 in 1:7, bestowed favor; ر ح م B002/B003 in 1:1–1:3, kinship/womb relation. Structural cue: the next ayah identifies the desired path by those on whom “You bestowed favor.” Assigned role: guidance is a gracious transfer that places the receiver within a favored relation. Abductive move: the packet supplies gift, favor, and relational mercy; I infer that being guided is a received benefaction, not a self-generated achievement. Reading change: “Guide us” reads as “grant us the path as a favoring gift.”\n\n5. **Guidance as composed, non-panicked bearing.** Lexical evidence: ه د ي B010, calm stillness and composed bearing; ع و ن B001 in 1:5, help/backing; غ ض ب B001 and ض ل ل B001 in 1:7, anger and deviation. Structural cue: the request for help precedes the request for guidance, and the following ayah names destabilizing alternatives. Assigned role: الهداية steadies the petitioner against panic, anger, and drift. Abductive move: the packet supplies calm bearing and later destabilizing states; I infer that guidance has an affective-postural dimension. Reading change: the ayah asks for a composed way of moving, not only the correct route.",
@@ -16182,6 +17384,11 @@
       "words_total": 3,
       "words_resolved": 3,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 3
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
@@ -16189,7 +17396,8 @@
         "ayah_count": 7,
         "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out",
+        "dropped_preface_rows": 0
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -16508,6 +17716,26 @@
       "present": false,
       "variants": {},
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s1/packets/1_6.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s1/readers/reader_hft_a/1_6.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 4,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 5
+        }
+      },
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 116293,
+      "split_root_count": 4,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,

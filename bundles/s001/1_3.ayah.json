@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T15:42:37.255919+00:00",
+  "generated_at": "2026-08-06T19:18:22.199548+00:00",
   "surah": 1,
   "ayah": 3,
   "ayahRef": "1:3",
@@ -790,7 +790,8 @@
         "m-w-s001-a003-w001-01",
         "m-w-s001-a003-w001-02"
       ],
-      "aligned_qac_word_ref_upstream": "1:3:1"
+      "aligned_qac_word_ref_upstream": "1:3:1",
+      "morpheme_skip_count": 0
     },
     {
       "word_index": 1,
@@ -806,7 +807,8 @@
         "m-w-s001-a003-w002-01",
         "m-w-s001-a003-w002-02"
       ],
-      "aligned_qac_word_ref_upstream": "1:3:2"
+      "aligned_qac_word_ref_upstream": "1:3:2",
+      "morpheme_skip_count": 0
     }
   ],
   "branch_inventories": {
@@ -1443,6 +1445,771 @@
     }
   },
   "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s1/packets/1_3.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "1:3",
+      "window": [
+        "1:1",
+        "1:2",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7"
+      ],
+      "ayah_count": 7,
+      "split_root_mappings": [
+        {
+          "qac_root": "س م و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000745",
+              "furuq_root_norm": "س م و",
+              "furuq_source_root_norm": "س م و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 190,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001650",
+              "furuq_root_norm": "و س م",
+              "furuq_source_root_norm": "و س م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 2,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_000743",
+              "furuq_root_norm": "س م م",
+              "furuq_source_root_norm": "س م م",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ع و ن",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001064",
+              "furuq_root_norm": "ع و ن",
+              "furuq_source_root_norm": "ع و ن",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 10,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001069",
+              "furuq_root_norm": "ع ي ن",
+              "furuq_source_root_norm": "ع ي ن",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ه د ي",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_001583",
+              "furuq_root_norm": "ه د ي",
+              "furuq_source_root_norm": "ه د ي",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 251,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_001580",
+              "furuq_root_norm": "ه د د",
+              "furuq_source_root_norm": "ه د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "1:3",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "b-mercy-double-register",
+            "confidence": "strong",
+            "focus_anchor": "The two adjacent adjectives at words 1-2 repeat one root in two forms.",
+            "mechanism": "The pair does more than duplicate a quality: the first form can present mercy at full reach, while the second presents it as settled and repeatedly operative. The sequence moves from amplitude to continuance.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tenderness and beneficent mercy supply the shared substance, while the doubled morphology distributes it across expansive reach and durable action."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two near-synonymous titles both say that God is merciful.",
+              "after": "The pair stages one mercy in two temporal registers: overflowing in scope and remaining available in action."
+            }
+          },
+          {
+            "model_id": "b-mercy-as-kinship",
+            "confidence": "medium",
+            "focus_anchor": "Both focus words carry the root whose inventory includes binding near relations.",
+            "mechanism": "Repeated mercy can be heard relationally: not only an emotion directed at a remote recipient, but a bond that establishes nearness and carries an obligation not to sever connection.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B002",
+                "role": "The kinship bond supplies durable attachment, functioning as the relational architecture beneath the two mercy epithets."
+              }
+            ],
+            "changed_reading": {
+              "before": "Mercy is a favorable disposition toward an otherwise separate recipient.",
+              "after": "Mercy creates and maintains a near bond, making the recipient one whose connection is actively kept."
+            }
+          },
+          {
+            "model_id": "b-mercy-as-womb",
+            "confidence": "exploratory",
+            "focus_anchor": "The repeated focus root directly shares the inventory that names the womb.",
+            "mechanism": "The two forms can carry a spatial-material model: encompassing protection together with ongoing nourishment. Mercy is then an environment in which dependent life is formed, not merely an intervention from outside.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb supplies an enclosing, life-forming vessel, functioning as a material analogy for mercy's encompassing and sustaining aspects."
+              }
+            ],
+            "changed_reading": {
+              "before": "Mercy arrives as a discrete gift to an already formed recipient.",
+              "after": "Mercy is the enclosing and nourishing condition within which the recipient can become and endure."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "d-name-discloses-mercy",
+            "status": "strengthened",
+            "confidence": "medium",
+            "trigger_roots": [
+              "س م و",
+              "ء ل ه",
+              "ر ح م"
+            ],
+            "mechanism": "The opening naming construction and its exact repetition of the pair turn the focus adjectives into an invoked disclosure of identity. Their recurrence makes mercy the threshold through which the named deity is approached.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tender mercy supplies the disclosed quality, functioning as the content carried by both names."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000745",
+                "branch_id": "B005",
+                "role": "A name as public indication supplies the act of making known, functioning as the disclosure frame for the mercy pair."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "ء ل ه",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000047",
+                "branch_id": "B002",
+                "role": "The divine name used in invocation supplies address, functioning to make the pair relationally uttered rather than merely predicated."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "The earlier identical mercy pair supplies recurrence, functioning as a framing refrain that the focus ayah renews."
+              }
+            ],
+            "structural_cues": [
+              "1:1 places the same two forms after the naming construction, and 1:3 repeats them as a complete ayah."
+            ],
+            "reader_inference": "The packet supplies naming, invocation, and exact recurrence; I infer that recurrence promotes mercy from description to access-point. A live alternative is simple liturgical emphasis without an identity-level claim.",
+            "changed_reading": {
+              "before": "The two adjectives report attributes.",
+              "after": "The repeated pair is an invoked doorway into how the named deity becomes known and approached."
+            }
+          },
+          {
+            "model_id": "d-mercy-as-nurturing-rule",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ح م د",
+              "ر ب ب",
+              "ع ل م"
+            ],
+            "mechanism": "Praise, lordly repair and completion, the split image of feeding and growth, and the plurality of worlds expand the womb model into cosmic formation. Mercy becomes the governing labor by which dependent domains are nourished toward a praiseworthy state.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb supplies protected formation, functioning as the focus-side matrix for a developmental account of mercy."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B002",
+                "role": "Existence found praiseworthy supplies the developmental outcome, functioning as evidence of completed nurturing."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000532",
+                "branch_id": "B002",
+                "role": "Repair, upbringing, and completion supply an active process, functioning as the governing work performed by mercy."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ر ب ب",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000537",
+                "branch_id": "B005",
+                "role": "The non-dominant image of feeding and growth supplies organic development, functioning as the bridge from womb enclosure to world formation."
+              },
+              {
+                "source_ref": "1:2",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to a knower supplies manifestation, functioning to make formed worlds the field in which nurturing mercy becomes legible."
+              }
+            ],
+            "structural_cues": [
+              "1:2 immediately precedes the focus pair and places lordship over a plural field before mercy is named."
+            ],
+            "reader_inference": "The packet supplies praise, repair, completion, growth, disclosure, and worlds; I infer a developmental arrow from nurturing to praiseworthy formed existence. The alternative is that lordship and mercy remain adjacent attributes without a causal relation.",
+            "changed_reading": {
+              "before": "Womb-like mercy shelters individual dependent life.",
+              "after": "Mercy is cosmological gestation: a ruling practice of feeding, repairing, and bringing many worlds toward manifest completion."
+            }
+          },
+          {
+            "model_id": "d-mercy-frames-accounting",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "م ل ك",
+              "ي و م",
+              "د ي ن"
+            ],
+            "mechanism": "Ownership and disposal, a bounded duration, and reckoning place the mercy pair directly before an administered temporal judgment. Mercy does not erase accounting; it becomes the prior frame and governing manner in which accounting is held.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Beneficent tenderness supplies the focus quality, functioning as the disposition carried into the following scene of rule and reckoning."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "م ل ك",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001444",
+                "branch_id": "B002",
+                "role": "Possession with power of disposal supplies administration, functioning as the agency that can enact mercy within judgment."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "ي و م",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001700",
+                "branch_id": "B002",
+                "role": "A delimited span supplies temporal concentration, functioning as the horizon at which mercy and accountability meet."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B002",
+                "role": "Accounting and recompense supply juridical consequence, functioning as the pressure that prevents mercy from being reduced to softness."
+              }
+            ],
+            "structural_cues": [
+              "The mercy pair is immediately followed by the compact genitive chain naming ownership of the day of accounting."
+            ],
+            "reader_inference": "The packet supplies sequence, ownership, bounded time, and reckoning; I infer that the preceding pair frames how the owner administers the reckoning. The alternative is a deliberate contrast between mercy and judgment rather than mercy's governance of it.",
+            "changed_reading": {
+              "before": "Mercy is leniency opposed to judgment.",
+              "after": "Mercy names the governing disposition of the one who owns and administers the full event of accountability."
+            }
+          },
+          {
+            "model_id": "d-mercy-enables-dependent-service",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ع ب د",
+              "ع و ن"
+            ],
+            "mechanism": "Humble service and requested assistance convert kinship-like mercy into a reciprocal but asymmetric bond: maintained nearness elicits service, while dependence can openly ask the bond-holder for aid.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B002",
+                "role": "Maintained kinship supplies durable relation, functioning as the bond within which response and appeal become possible."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع ب د",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000973",
+                "branch_id": "B003",
+                "role": "Humble worship and obedience supply the human response, functioning as enacted acknowledgment of the mercy bond."
+              },
+              {
+                "source_ref": "1:5",
+                "root": "ع و ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001064",
+                "branch_id": "B001",
+                "role": "Assistance and active support supply the answering movement, functioning as mercy translated into help."
+              }
+            ],
+            "structural_cues": [
+              "1:5 changes from third-person naming to direct second-person address and repeats the exclusive object before both verbs."
+            ],
+            "reader_inference": "The packet supplies a mercy bond, humble service, help, and a turn to direct address; I infer that mercy enables rather than merely rewards dependent response. The alternative is that worship and aid are independent duties and requests.",
+            "changed_reading": {
+              "before": "Mercy is one-way beneficence toward a passive recipient.",
+              "after": "Mercy establishes a relation in which the recipient can answer through service and expose dependence through a direct request for aid."
+            }
+          },
+          {
+            "model_id": "d-mercy-guides-and-maintains",
+            "status": "new",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ه د ي",
+              "ص ر ط",
+              "ق و م"
+            ],
+            "mechanism": "Gentle indication, a traversable straight route, and the paired images of guardianship and balanced uprightness turn mercy into continuous navigation. It both shows a direction and maintains the traveler and route in viable alignment.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tender beneficence supplies the manner of action, functioning as the gentleness and care within guidance."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001583",
+                "branch_id": "B001",
+                "role": "Gentle indication toward path and truth supplies direction, functioning as mercy's guiding operation."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B001",
+                "role": "The straight road supplies spatial continuity, functioning as the medium through which guidance can be lived."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B004",
+                "role": "Care, preservation, and guardianship supply maintenance, functioning as protection against collapse while traveling."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Balance and upright alignment supply path quality, functioning as the maintained condition rather than a one-time direction."
+              }
+            ],
+            "structural_cues": [
+              "The imperative for guidance is followed by a route and then an adjective of sustained alignment."
+            ],
+            "reader_inference": "The packet supplies gentle direction, road, guardianship, and balance; I infer a process in which mercy both points and keeps upright. The alternative is that mercy motivates the request but does not itself perform the guidance.",
+            "changed_reading": {
+              "before": "Mercy is a compassionate state or isolated favor.",
+              "after": "Mercy is navigational infrastructure: gentle direction plus the ongoing care that keeps a life aligned and moving."
+            }
+          },
+          {
+            "model_id": "d-mercy-softens-against-loss",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ن ع م",
+              "غ ي ر",
+              "غ ض ب",
+              "ض ل ل"
+            ],
+            "mechanism": "Blessed softness, grammatical exclusion, stony hardness, and loss of preservation define an outcome field around mercy. Mercy now appears as a keeping medium that preserves responsiveness and visibility against hardening, severance, and disappearance.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tenderness supplies responsive softness, functioning as the positive medium whose contrary outcomes are later exposed."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ن ع م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001525",
+                "branch_id": "B002",
+                "role": "Softness and ease supply a lived condition, functioning as the embodied outcome of received mercy."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ي ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001119",
+                "branch_id": "B005",
+                "role": "Difference, exception, and negation supply a boundary, functioning to separate mercy's viable path from opposed conditions."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "غ ض ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001092",
+                "branch_id": "B004",
+                "role": "Rock-like hardness supplies material resistance, functioning as the anti-tender condition that no longer receives or transmits mercy."
+              },
+              {
+                "source_ref": "1:7",
+                "root": "ض ل ل",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000913",
+                "branch_id": "B004",
+                "role": "Loss of preservation supplies failed keeping, functioning as the terminal opposite of mercy's sustaining bond."
+              }
+            ],
+            "structural_cues": [
+              "1:7 places bestowed good condition and two excluded outcomes inside one repeated path construction."
+            ],
+            "reader_inference": "The packet supplies softness, exclusion, hardness, and failed preservation; I infer a causal-material contrast in which mercy keeps a traveler receptive and held. The alternative is purely classificatory contrast with no softening or preserving mechanism.",
+            "changed_reading": {
+              "before": "Mercy is a positive quality with no specified failure mode.",
+              "after": "Mercy is what keeps a life soft enough to be guided and held enough not to harden, vanish, or lose its course."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "o-mercy-as-visible-mark",
+            "confidence": "exploratory",
+            "containment": "This reading uses a non-dominant split mapping from the word for name, so it is form-distant and must be presented as an activation rather than an etymology. It remains anchored because the focus pair supplies the mercy content while the context branch supplies only the idea of a recognizable trace.",
+            "focus_anchor": "The paired focus adjectives are the content that could become recognizable in actions and relations.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Beneficent tenderness supplies what is recognized, functioning as the semantic content of the proposed mark."
+              },
+              {
+                "source_ref": "1:1",
+                "root": "س م و",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001650",
+                "branch_id": "B001",
+                "role": "A visible mark that makes its bearer known supplies recognizability, functioning as an exploratory model for how mercy identifies divine action."
+              }
+            ],
+            "changed_reading": {
+              "before": "The epithets verbally describe their bearer.",
+              "after": "The pair proposes mercy as the visible signature by which otherwise ambiguous acts can be recognized."
+            }
+          },
+          {
+            "outlier_id": "o-mercy-enters-the-ledger-as-kinship",
+            "confidence": "exploratory",
+            "containment": "The move from kinship to financial debt is cross-domain and must not be rendered as a legal doctrine. It remains live because both branches are explicit and the focus anchor is the binding relation, while the reader supplies only the analogy that such a relation can appear as a claim at accounting.",
+            "focus_anchor": "The mercy root at words 1-2 can carry a maintained kinship bond rather than optional sentiment.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B002",
+                "role": "Kinship supplies a binding relational claim, functioning as the obligation-bearing side of mercy."
+              },
+              {
+                "source_ref": "1:4",
+                "root": "د ي ن",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000504",
+                "branch_id": "B003",
+                "role": "Financial debt supplies a ledger-like claim, functioning as the context activator that makes mercy relationally consequential at reckoning."
+              }
+            ],
+            "changed_reading": {
+              "before": "Mercy is a voluntary benefit that leaves no durable claim.",
+              "after": "Mercy establishes a kinship-like claim whose preservation or severance can matter when relations are accounted for."
+            }
+          },
+          {
+            "outlier_id": "o-womb-pathway-delivery",
+            "confidence": "exploratory",
+            "containment": "The birth-passage model is a material analogy, not a lexical equation between mercy and path. It remains anchored in the focus womb branch and gains a visible mechanism from passage plus upright arrival; downstream prose should retain the language of possibility.",
+            "focus_anchor": "The focus root's womb image makes enclosing formation and emergence available within the mercy pair.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B003",
+                "role": "The womb supplies enclosure and formation, functioning as the origin space for a delivery model of mercy."
+              },
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B004",
+                "role": "Post-birth womb pain supplies costly aftermath, functioning to prevent the delivery model from becoming frictionless sentiment."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ص ر ط",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000858",
+                "branch_id": "B002",
+                "role": "Passage through and swallowing supply constrained transit, functioning as the channel from protected formation into a new state."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ق و م",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001273",
+                "branch_id": "B008",
+                "role": "Upright balance supplies the condition of arrival, functioning as the state into which mercy's passage delivers."
+              }
+            ],
+            "changed_reading": {
+              "before": "Womb-like mercy is static shelter.",
+              "after": "Mercy may enclose, form, and then press life through a costly passage toward upright independent standing."
+            }
+          },
+          {
+            "outlier_id": "o-mercy-as-soothing-performance",
+            "confidence": "exploratory",
+            "containment": "This activation depends on the non-dominant split mapping of the guidance root and on the audible doubling of the focus epithets, so it is intentionally strange. It remains anchored in the focus pair's tenderness and cadence; it should be qualified as a performative possibility, not a lexical gloss.",
+            "focus_anchor": "The focus ayah is a compact, rhythmically doubled utterance of tender mercy.",
+            "activation_trace": [
+              {
+                "source_ref": "1:3",
+                "root": "ر ح م",
+                "source_word_indices": [
+                  "1",
+                  "2"
+                ],
+                "mapped_root_id": "root_000552",
+                "branch_id": "B001",
+                "role": "Tenderness supplies the affective content, functioning as the quality enacted by the pair's repeated cadence."
+              },
+              {
+                "source_ref": "1:6",
+                "root": "ه د ي",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001580",
+                "branch_id": "B006",
+                "role": "Rocking a child toward sleep supplies rhythmic calming, functioning as an exploratory account of what reciting the doubled pair can do before the plea for guidance."
+              }
+            ],
+            "changed_reading": {
+              "before": "The pair only states two propositions about mercy.",
+              "after": "The doubled utterance may perform mercy by settling the dependent speaker into enough trust to ask for guidance."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The pair shifts from duplicated description to expansive-and-continuing mercy.",
+            "Lordly nurturing expands womb-like mercy into a developmental governance of worlds.",
+            "The following reckoning makes mercy the manner of accountable rule rather than judgment's opposite.",
+            "Guidance, path, and maintenance operationalize mercy as direction plus sustained alignment.",
+            "The final contrasts expose mercy as preservation against hardening and loss."
+          ],
+          "what_was_special": "One repeated root supported simultaneous affective, relational, spatial, developmental, juridical, and navigational models. The most productive surprises came from retaining split mappings and material branches as contained activators instead of forcing them into a single lexical gloss.",
+          "remaining_uncertainties": [
+            "The amplitude-to-continuance distinction between the two forms is morphologically plausible but not supplied as an explicit packet branch.",
+            "Sequence supports mercy framing judgment, but contrast remains a live alternative.",
+            "The visible-mark, debt, birth-passage, and soothing models depend on cross-domain or non-dominant activations and should remain exploratory.",
+            "The causal arrows from mercy to nurturing, worship, guidance, and preservation are abductive rather than grammatically asserted."
+          ]
+        }
+      }
+    }
+  },
   "v12_reader_walks": {
     "reader_a": {
       "activated_readings_md": "1. **Mercy repeated as bridge between cosmic lordship and legal reckoning.** Lexical evidence: ر ح م B001, mercy and beneficence; ر ب ب B001/B002 in 1:2, authority and nurture; د ي ن B002 in 1:4, reckoning/recompense. Structural cue: this ayah repeats 1:1’s mercy immediately after “Lord of the worlds” and immediately before “Owner of the Day of dīn.” Assigned role: mercy is the hinge that prevents lordship from reading as bare power and reckoning from reading as bare penalty. Abductive move: the packet supplies the adjacency; I infer that repetition performs a framing function across the transition. Reading change: the ayah reads as a structural brace in the surah’s sequence, not only as a restated attribute.\n\n2. **Mercy as kinship-like continuity across the prayer.** Lexical evidence: ر ح م B002, kinship bond; ر ح م B003, womb; ع ب د B003 in 1:5, worship/submissive obedience; ه د ي B004 in 1:6, gracious gift; ن ع م B001 in 1:7, favor. Structural cue: the prayer moves from divine names to “we worship,” “guide us,” and “those You favored.” Assigned role: mercy supplies the relational continuity that lets command, help, guidance, and favor belong to one household of dependence. Abductive move: the packet supplies kinship/womb, worship, gift, and favor; I infer a dependency-system rather than isolated attributes. Reading change: the double mercy reads as the generative bond within which the worshipping “we” can speak.\n\n3. **Mercy as softening force against later hardening.** Lexical evidence: ر ح م B001, tenderness; ن ع م B002 in 1:7, softness/easeful living; غ ض ب B004/B005 in 1:7, hard compact rock and thick intense redness. Structural cue: tenderness and mercy precede the negative images of anger and deviation. Assigned role: mercy supplies material softness before the packet later shows hardened wrath. Abductive move: the packet supplies tenderness/softness and hardness/anger; I infer a material contrast in the moral landscape. Reading change: the ayah reads as a softening condition that keeps the path from becoming only a hard juridical surface.",
@@ -4712,6 +5479,11 @@
       "words_total": 2,
       "words_resolved": 2,
       "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 2
+      },
       "unresolved": [],
       "morphemes_tsv": {
         "present": true,
@@ -4719,7 +5491,8 @@
         "ayah_count": 7,
         "row_count": 48,
         "malformed_rows": 0,
-        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out",
+        "dropped_preface_rows": 0
       },
       "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
     },
@@ -4947,6 +5720,26 @@
       "present": false,
       "variants": {},
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s1/packets/1_3.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s1/readers/reader_hft_a/1_3.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 3,
+          "context_deltas": 6,
+          "surprising_valid_outliers": 4
+        }
+      },
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 82586,
+      "split_root_count": 4,
+      "reader_count": 1
     },
     "v12_reader_walks": {
       "present": true,
