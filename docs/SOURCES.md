@@ -199,5 +199,12 @@ non-branch evidence are copied unchanged. The exact tier counts, interest-source
 coverage, resolution gaps, and trim contract are recorded under
 `coverage.root_lexicon.branch_policy`.
 
+Malformed citations and unresolved citations whose Arabic root exists in the
+bundle's root lexicon or branch inventory are hard errors. A valid Arabic
+citation to a contextual root absent from both resolution surfaces cannot be
+promoted; it remains explicit under
+`resolution.unresolved_out_of_scope_arabic_citations` rather than disappearing
+silently.
+
 Grammar attachments remain folded into word-analysis `prose`/`topics[]` through
 `evidence_checked` tags and are unaffected by branch tiering.

@@ -79,6 +79,12 @@ to develop every materially distinct, anchored surprise that changes the
 reader's understanding, while omitting repetition, fluff, and available lexical
 material with no significant payoff.
 
+The projection fails on malformed citations and unresolved citations for roots
+present in its resolution surfaces. Valid Arabic citations to contextual roots
+absent from both the ayah root lexicon and branch inventory are recorded under
+`coverage.root_lexicon.branch_policy.resolution` as out of scope; they are never
+silently treated as resolved interest.
+
 That admission threshold is density-invariant: a qualifying finding receives the
 same voice whether its ayah has three roots or twenty-six. Longer ayat do not get
 a fixed prose budget divided among more findings.

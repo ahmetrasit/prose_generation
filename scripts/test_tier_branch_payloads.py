@@ -204,6 +204,21 @@ class TierBranchPayloadTests(unittest.TestCase):
         self.assertEqual(len(ledger.ambiguous), 1)
         self.assertEqual(ledger.ambiguous[0]["resolution"], "promote_all_candidates")
 
+    def test_contextual_arabic_citation_outside_resolution_scope_is_recorded(self):
+        source = valid_bundle()
+        source["v12_reader_walks_wide"] = {
+            "reader": {"text": "س ر ر:B001 is contextual"}
+        }
+        source["coverage"]["v12_reader_walks_wide"]["present"] = True
+
+        _tiered, policy = tiering.tier_bundle(source)
+
+        unresolved = policy["resolution"][
+            "unresolved_out_of_scope_arabic_citations"
+        ]
+        self.assertEqual(unresolved[0]["token"], "س ر ر:B001")
+        self.assertEqual(policy["resolution"]["unresolved_citations"], [])
+
     def test_missing_required_source_field_fails(self):
         source = valid_bundle()
         del source["word_analysis"]

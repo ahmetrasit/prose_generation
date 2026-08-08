@@ -118,6 +118,7 @@ class InterestLedger:
     )
     ambiguous: list[dict] = field(default_factory=list)
     unresolved: list[dict] = field(default_factory=list)
+    unresolved_out_of_scope: list[dict] = field(default_factory=list)
 
     def add(self, source: str, root_id: str, branch_id: str, raw_token: str) -> None:
         ref = f"{root_id}/{branch_id}"
@@ -137,6 +138,7 @@ class ResolutionMaps:
     branch_refs: set[str]
     root_lexicon_ids: set[str]
     inventory_root_ids: set[str]
+    inventory_arabic_roots: set[str]
     inventory_by_arabic_branch: dict[tuple[str, str], set[str]]
     root_lexicon_by_qac_root: dict[str, set[str]]
 
@@ -159,11 +161,14 @@ def build_resolution_maps(bundle: dict) -> ResolutionMaps:
 
     inventory_by_branch: dict[tuple[str, str], set[str]] = defaultdict(set)
     inventory_ids: set[str] = set()
+    inventory_arabic_roots: set[str] = set()
     packet = (
         (bundle.get("branch_inventories") or {}).get("full_context_packet") or {}
     )
     for inventory in packet.get("branch_inventories", []) or []:
         root_key = normalize_root(inventory.get("root") or "")
+        if root_key:
+            inventory_arabic_roots.add(root_key)
         for branch in inventory.get("branches", []) or []:
             branch_id = branch.get("branch_id")
             if not root_key or not branch_id:
@@ -178,6 +183,7 @@ def build_resolution_maps(bundle: dict) -> ResolutionMaps:
         branch_refs=branch_refs,
         root_lexicon_ids=set(root_lexicon),
         inventory_root_ids=inventory_ids,
+        inventory_arabic_roots=inventory_arabic_roots,
         inventory_by_arabic_branch=dict(inventory_by_branch),
         root_lexicon_by_qac_root=dict(by_qac),
     )
@@ -476,11 +482,20 @@ def collect_text_citations(
                 seen.add(key)
                 candidates = resolve_arabic_citation(root, branch_id, maps)
                 if not candidates:
-                    ledger.unresolved.append({
+                    item = {
                         "source": source,
                         "token": match.group(0),
                         "reason": "unresolved_arabic_root_branch",
-                    })
+                    }
+                    root_key = normalize_root(root)
+                    if (
+                        root_key in maps.root_lexicon_by_qac_root
+                        or root_key in maps.inventory_arabic_roots
+                    ):
+                        ledger.unresolved.append(item)
+                    else:
+                        item["reason"] = "arabic_root_outside_resolution_scope"
+                        ledger.unresolved_out_of_scope.append(item)
                     continue
                 if len(candidates) > 1:
                     ledger.ambiguous.append({
@@ -656,6 +671,7 @@ def classify_resolution(ledger: InterestLedger, maps: ResolutionMaps) -> dict:
         "missing_dictionary_payload": missing_payload,
         "ambiguous_multi_target": ledger.ambiguous,
         "unresolved_citations": ledger.unresolved,
+        "unresolved_out_of_scope_arabic_citations": ledger.unresolved_out_of_scope,
     }
 
 

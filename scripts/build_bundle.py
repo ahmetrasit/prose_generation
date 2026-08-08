@@ -2260,7 +2260,8 @@ def print_preflight_table(surah: int, rows: list) -> None:
     print()
 
 
-def preflight(surah: int, ayah_filter: int = None) -> dict:
+def preflight(surah: int, ayah_filter: int = None,
+              ayah_from: int = None, ayah_to: int = None) -> dict:
     """Enumerates every expected source for `surah` (or just `ayah_filter`'s
     per-ayah sources if given), prints a full present/missing table, and
     raises RequiredSourceMissing (after printing, listing every gap at once)
@@ -2298,7 +2299,26 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
         problems.append(str(exc))
 
     ayah_numbers = discover_ayah_numbers(surah, quran_text) if quran_text else []
-    target_ayahs = [ayah_filter] if ayah_filter is not None else ayah_numbers
+    if ayah_filter is not None:
+        target_ayahs = [ayah_filter]
+    elif ayah_from is not None or ayah_to is not None:
+        lo = ayah_from if ayah_from is not None else min(ayah_numbers)
+        hi = ayah_to if ayah_to is not None else max(ayah_numbers)
+        missing_bounds = [a for a in (lo, hi) if a not in ayah_numbers]
+        if missing_bounds:
+            raise RequiredSourceMissing(
+                f"Span bound(s) outside surah {surah}: "
+                f"{', '.join(str(a) for a in missing_bounds)}. "
+                f"Valid ayah range is {min(ayah_numbers)}-{max(ayah_numbers)}"
+            )
+        target_ayahs = [a for a in ayah_numbers if lo <= a <= hi]
+    else:
+        target_ayahs = ayah_numbers
+    if not target_ayahs:
+        raise RequiredSourceMissing(
+            f"No ayahs selected for surah {surah}"
+            + (f" in span {ayah_from}-{ayah_to}" if ayah_from is not None or ayah_to is not None else "")
+        )
 
     for a in target_ayahs:
         focus_dir = V12_TR_DIR / f"s{surah:03d}" / f"focus_{surah}_{a}"
@@ -2785,6 +2805,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--surah", type=int, required=True)
     parser.add_argument("--ayah", type=int, default=None)
+    parser.add_argument("--ayah-from", type=int, default=None)
+    parser.add_argument("--ayah-to", type=int, default=None)
+    parser.add_argument("--pericope", type=int, default=None)
+    parser.add_argument("--pericope-label", default=None)
     parser.add_argument("--out", type=Path, default=None)
     parser.add_argument(
         "--include-focus-trace",
@@ -2820,6 +2844,16 @@ def main() -> int:
         ),
     )
     args = parser.parse_args()
+    if args.ayah is not None and (args.ayah_from is not None or args.ayah_to is not None):
+        parser.error("--ayah cannot be combined with --ayah-from/--ayah-to")
+    if (args.ayah_from is None) != (args.ayah_to is None):
+        parser.error("--ayah-from and --ayah-to must be passed together")
+    if args.ayah_from is not None and args.ayah_from > args.ayah_to:
+        parser.error("--ayah-from must be <= --ayah-to")
+    if args.pericope is not None and args.ayah_from is None:
+        parser.error("--pericope requires --ayah-from/--ayah-to")
+    if args.pericope_label is not None and args.ayah_from is None:
+        parser.error("--pericope-label requires --ayah-from/--ayah-to")
 
     INCLUDE_HERMETIC_FOCUS_TRACE = (
         args.include_focus_trace
@@ -2834,13 +2868,23 @@ def main() -> int:
     out_dir = args.out or (PROSE_GEN_ROOT / "bundles" / f"s{surah:03d}")
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    loaded = preflight(surah, args.ayah)
+    loaded = preflight(surah, args.ayah, args.ayah_from, args.ayah_to)
     quran_text = loaded["quran_text"]
     word_analysis = loaded["word_analysis"]
     qac_by_ayah = loaded["qac_by_ayah"]
     root_id_map = loaded["root_id_map"]
     pericopes = loaded["pericopes"]
     alignment = loaded.get("alignment")
+    if args.ayah_from is not None:
+        pericopes = [{
+            "surah": surah,
+            "pericope": args.pericope or 1,
+            "ayah_from": args.ayah_from,
+            "ayah_to": args.ayah_to,
+            "label": args.pericope_label or f"Ayahs {args.ayah_from}-{args.ayah_to}",
+            "synthesized": False,
+            "source": "cli-span",
+        }]
 
     if args.ayah is not None:
         bundle = build_ayah_bundle(surah, args.ayah, quran_text, word_analysis, qac_by_ayah,
@@ -2851,6 +2895,8 @@ def main() -> int:
         return 0
 
     ayah_numbers = discover_ayah_numbers(surah, quran_text)
+    if args.ayah_from is not None:
+        ayah_numbers = [a for a in ayah_numbers if args.ayah_from <= a <= args.ayah_to]
     ayah_bundles = []
     filenames = []
     for a in ayah_numbers:
@@ -2861,6 +2907,9 @@ def main() -> int:
         ayah_bundles.append(bundle)
         filenames.append(fname)
         print(f"wrote {out_dir / fname}")
+
+    if args.ayah_from is not None:
+        return 0
 
     surah_bundle = build_surah_bundle(surah, ayah_bundles, filenames, pericopes)
     surah_out_path = out_dir / f"{surah}.surah.json"
