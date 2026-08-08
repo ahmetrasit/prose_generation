@@ -119,9 +119,10 @@ branch source resolves, the run now aborts.
 
 Hermetic Focus Trace is opt-in because it reads a sibling generation workspace,
 `../latent_activation/focus_trace`, instead of the frozen `quran-data` source
-root. Use `--include-focus-trace` while packets exist but reader responses may
-still be absent. Use `--require-focus-trace` for the final focused commentary
-run; preflight fails if any target ayah lacks a reader response.
+root. The run directory is zero-padded only (`runs/s012`, not `runs/s12`). Use
+`--include-focus-trace` while packets exist but reader responses may still be
+absent. Use `--require-focus-trace` for the final focused commentary run;
+preflight fails if any target ayah lacks a reader response.
 
 If multiple HFT responses exist for the same ayah, `--focus-trace-variant`
 selects one filename variant. The unlabelled file is `default`; a file named
@@ -240,27 +241,36 @@ commentary task and governing documents. New Layer-2 runs must pass the tiered
 directory with `--bundles-dir`; do not point this command at the full base
 bundle directory.
 
+Prompt files are immutable snapshots. Regenerate them after every base-bundle,
+tiered-bundle, or HFT response change; do not rely on an existing prompt
+filename to imply freshness. For focused pilots, verify the prompt itself
+contains `v12_focus_trace_hermetic`, `baseline_models`, `context_deltas`,
+`surprising_valid_outliers`, and at least one reader before sending it to a
+model.
+
 ### Run it
 
 ```sh
 # Base ayah prompts for a whole surah
 python3 scripts/instantiate.py --surah 100 --layer ayah --bundles-dir bundles-layer2 --language tr --date 2026-07-27
 
-# One active v2 pilot prompt
+# One focus-aware comparator prompt
 python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2 --profile v2.5.6-sol-high --language tr --date 2026-07-27
 
-# Comparator profiles, when needed
+# Comparator output labels, when needed. These labels use the same prompt
+# contract; they only create separate filenames/manifests for model runs.
 python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2 --profile v2.5.5-high --language tr --date 2026-07-27
 python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2 --profile v2.5.6-sol-max --language tr --date 2026-07-27
 ```
 
 Without `--profile`, outputs are named like `{S}_{A}.ayah.prompt.md` and
-`{S}_{A}.ayah.manifest.json`. With `--profile`, the profile label is appended:
-`{S}_{A}.ayah.v2.5.6-sol-high.prompt.md` and matching manifest.
+`{S}_{A}.ayah.manifest.json`. With `--profile`, the comparator label is
+appended: `{S}_{A}.ayah.v2.5.6-sol-high.prompt.md` and matching manifest.
 
-The current reader-facing S100 pilot default is `v2.5.6-sol-high`. Keep only that
-profile prompt in the active `_commentary/inputs/s{NNN}/` path; archive
-comparator prompts under `_commentary/inputs/archive/s{NNN}/` after use.
+The normal comparator labels (`v2.5.5-high`, `v2.5.6-sol-high`, and
+`v2.5.6-sol-max`) all use the same focus-aware default prompt contract. Do not
+tailor prompt instructions to a model name or reasoning level; vary only the
+runtime model/reasoning configuration outside the prompt.
 
 ### Combined Layer 3 + Layer 2.5
 

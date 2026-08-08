@@ -730,13 +730,7 @@ def load_v12_reader_responses(surah: int, ayah: int) -> tuple:
 # ---------------------------------------------------------------------------
 
 def focus_trace_run_dir(surah: int) -> Path:
-    padded = FOCUS_TRACE_RUNS_DIR / f"s{surah:03d}"
-    if padded.exists():
-        return padded
-    unpadded = FOCUS_TRACE_RUNS_DIR / f"s{surah}"
-    if unpadded.exists():
-        return unpadded
-    return padded
+    return FOCUS_TRACE_RUNS_DIR / f"s{surah:03d}"
 
 
 def focus_trace_packet_path(surah: int, ayah: int) -> Path:

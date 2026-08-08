@@ -1,7 +1,8 @@
 # Hermetic Focus Trace Integration
 
 Hermetic Focus Trace is an upstream workflow in
-`../latent_activation/focus_trace/`. It recovers the useful part of the retired
+`../latent_activation/focus_trace/`. Production run directories are zero-padded:
+`runs/s012`, not `runs/s12`. It recovers the useful part of the retired
 per-ayah focus runs: an ayah read first on its own, then read again as later
 ayat activate surprising latent possibilities.
 
@@ -102,3 +103,13 @@ jq '.coverage.v12_focus_trace_hermetic' bundles/s100/100_1.ayah.json
 Then rerun `scripts/tier_branch_payloads.py` for every target ayah before
 instantiating Layer 2. An older tiered bundle must never be reused after its full
 source bundle or HFT response changes.
+
+An older instantiated prompt must also never be reused after any bundle changes.
+Prompt files inline a snapshot of the JSON; the path in the manifest is
+provenance, not a live link. For focused pilots, verify the instantiated prompt
+itself before sending it to a model:
+
+```sh
+rg -n '"v12_focus_trace_hermetic"|reader_hft_|baseline_models|context_deltas|surprising_valid_outliers' \
+  _commentary/inputs/s100/100_1.ayah.*.prompt.md
+```

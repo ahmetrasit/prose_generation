@@ -33,6 +33,7 @@ Standard library only.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -111,6 +112,14 @@ def _ayah_bundle_path(surah: int, ayah: int) -> Path:
     return BUNDLES_DIR / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json"
 
 
+def _bundle_label(path: Path) -> str:
+    """Return the prompt-facing path for the actual configured bundle file."""
+    try:
+        return path.resolve().relative_to(ROOT.resolve()).as_posix()
+    except ValueError:
+        return path.as_posix()
+
+
 def _surah_bundle_path(surah: int) -> Path:
     return BUNDLES_DIR / f"s{surah:03d}" / f"{surah}.surah.json"
 
@@ -118,7 +127,7 @@ def _surah_bundle_path(surah: int) -> Path:
 def _ayah_bundle_files(surah: int, ayah: int | None) -> list[tuple[str, Path]]:
     assert ayah is not None
     path = _ayah_bundle_path(surah, ayah)
-    return [(f"bundles/s{surah:03d}/{path.name}", path)]
+    return [(_bundle_label(path), path)]
 
 
 def _surah_bundle_files(surah: int, ayah: int | None) -> list[tuple[str, Path]]:
@@ -131,13 +140,14 @@ def _surah_bundle_files(surah: int, ayah: int | None) -> list[tuple[str, Path]]:
     for reproducing the measurement in `PLAN.md`."""
     surah_path = _surah_bundle_path(surah)
     files: list[tuple[str, Path]] = [
-        (f"bundles/s{surah:03d}/{surah_path.name}", surah_path)
+        (_bundle_label(surah_path), surah_path)
     ]
     if INLINE_AYAH_BUNDLES and surah_path.exists():
         with surah_path.open(encoding="utf-8") as fh:
             surah_bundle = json.load(fh)
         for fname in surah_bundle.get("ayah_bundle_files", []):
-            files.append((f"bundles/s{surah:03d}/{fname}", BUNDLES_DIR / f"s{surah:03d}" / fname))
+            ayah_path = BUNDLES_DIR / f"s{surah:03d}" / fname
+            files.append((_bundle_label(ayah_path), ayah_path))
     return files
 
 
@@ -446,9 +456,10 @@ clear with the evidence surface closed.""",
     "v2.5.6-sol-max": PromptProfile(
         name="v2.5.6-sol-max",
         layer="ayah",
-        title="V2 Rendering Profile — 5.6 Sol Max",
-        body="""This run tests whether `5.6-sol-max` can preserve full lexical depth while
-meeting or exceeding the reader-facing clarity of the high-effort runs.
+        title="V2 Rendering Profile — Focus-Aware Default",
+        body="""This run uses the shared focus-aware rendering contract for every comparator
+model. Preserve full lexical depth while keeping the prose reader-facing and
+clear.
 
 Preserve every non-equivalent lexical distinction and every materially distinct,
 anchored surprise; do not preserve source-level repetition. "Full field" means
@@ -603,6 +614,16 @@ compensating with speculative breadth.""",
 }
 
 
+_SHARED_FOCUS_AWARE_PROFILE = PROMPT_PROFILES["v2.5.6-sol-max"]
+for _profile_name in ("v2.5.5-high", "v2.5.6-sol-high", "v2.5.6-sol-max"):
+    PROMPT_PROFILES[_profile_name] = PromptProfile(
+        name=_profile_name,
+        layer=_SHARED_FOCUS_AWARE_PROFILE.layer,
+        title=_SHARED_FOCUS_AWARE_PROFILE.title,
+        body=_SHARED_FOCUS_AWARE_PROFILE.body,
+    )
+
+
 # ---------------------------------------------------------------------------
 # Assembly
 # ---------------------------------------------------------------------------
@@ -645,6 +666,7 @@ def build_prompt(
     language: str,
     run_date: str,
     profile: PromptProfile | None = None,
+    require_focus_trace: bool = False,
 ) -> tuple[str, dict]:
     """Return (assembled prompt text, manifest dict) for one unit."""
 
@@ -660,12 +682,31 @@ def build_prompt(
         governing.append((rel, p, read_text(p)))
 
     bundle_entries = layer.bundle_files(surah, ayah)
-    bundles: list[tuple[str, Path, str, str]] = []
+    bundles: list[tuple[str, Path, str, str, dict]] = []
     for label, path in bundle_entries:
         if not path.exists():
             raise SystemExit(f"error: bundle file not found: {path}")
         source_text = path.read_text(encoding="utf-8")
-        bundles.append((label, path, source_text, compact_json_text(path, source_text)))
+        try:
+            bundle_json = json.loads(source_text)
+        except json.JSONDecodeError as exc:
+            raise SystemExit(f"error: bundle file is not valid JSON: {path}: {exc}") from exc
+        if require_focus_trace and layer.name == "ayah":
+            hft_coverage = (bundle_json.get("coverage") or {}).get(
+                "v12_focus_trace_hermetic"
+            ) or {}
+            hft_readers = (
+                (bundle_json.get("v12_focus_trace_hermetic") or {}).get("readers")
+                or {}
+            )
+            if not hft_coverage.get("present") or not hft_readers:
+                raise SystemExit(
+                    "error: --require-focus-trace requested, but bundle lacks "
+                    f"HFT readers: {path}"
+                )
+        bundles.append(
+            (label, path, source_text, compact_json_text(path, source_text), bundle_json)
+        )
 
     upstream: list[UpstreamDoc] = []
     upstream_coverage: dict = {}
@@ -677,7 +718,7 @@ def build_prompt(
     sources.append((layer.task_prompt_rel, len(task_text.encode("utf-8"))))
     for rel, _, text in governing:
         sources.append((rel, len(text.encode("utf-8"))))
-    for label, _, source_text, prompt_text in bundles:
+    for label, _, source_text, prompt_text, _ in bundles:
         if source_text == prompt_text:
             sources.append((label, len(prompt_text.encode("utf-8"))))
         else:
@@ -761,7 +802,7 @@ def build_prompt(
             "them may be cited."
         )
     lines.append("")
-    for label, path, _source_text, prompt_text in bundles:
+    for label, path, _source_text, prompt_text, _bundle_json in bundles:
         lines.append(f"### Bundle file — `{label}`")
         lines.append("")
         lines.append("```json")
@@ -900,18 +941,32 @@ def build_prompt(
         "governing_documents": [
             {"path": rel, "bytes": len(text.encode("utf-8"))} for rel, _, text in governing
         ],
-        "bundle_files": [
-            {
-                "path": label,
-                "source_bytes": len(source_text.encode("utf-8")),
-                "inlined_bytes": len(prompt_text.encode("utf-8")),
-                "rendering": "compact-json",
-            }
-            for label, _, source_text, prompt_text in bundles
-        ],
+        "bundle_files": [],
         "bundle_root": str(BUNDLES_DIR),
         "output_bytes": len(prompt_text.encode("utf-8")),
     }
+    for label, _, source_text, inlined_text, bundle_json in bundles:
+        hft_coverage = (bundle_json.get("coverage") or {}).get(
+            "v12_focus_trace_hermetic"
+        )
+        hft_readers = (
+            (bundle_json.get("v12_focus_trace_hermetic") or {}).get("readers")
+            or {}
+        )
+        manifest["bundle_files"].append(
+            {
+                "path": label,
+                "source_bytes": len(source_text.encode("utf-8")),
+                "inlined_bytes": len(inlined_text.encode("utf-8")),
+                "sha256": hashlib.sha256(source_text.encode("utf-8")).hexdigest(),
+                "bundle_generated_at": bundle_json.get("generated_at"),
+                "hft_present": bool(
+                    isinstance(hft_coverage, dict) and hft_coverage.get("present")
+                ),
+                "hft_reader_keys": sorted(hft_readers),
+                "rendering": "compact-json",
+            }
+        )
 
     if layer.upstream_docs is not None:
         manifest["upstream_layer"] = {
@@ -998,6 +1053,12 @@ def main() -> None:
         "layer-2 outputs. Reproduces the pre-2026-07-28 prompt; ~907k tokens "
         "for an 11-ayah surah, so viable only for the shortest surahs.",
     )
+    parser.add_argument(
+        "--require-focus-trace",
+        action="store_true",
+        help="Ayah prompts only. Refuse to instantiate unless each inlined "
+        "bundle has v12_focus_trace_hermetic.present=true and at least one reader.",
+    )
     args = parser.parse_args()
 
     global BUNDLES_DIR, LAYER2_DIR, LAYER2_LABEL, INLINE_AYAH_BUNDLES
@@ -1029,6 +1090,8 @@ def main() -> None:
             f"error: profile {profile.name!r} is for layer {profile.layer!r}, "
             f"not {layer.name!r}"
         )
+    if args.require_focus_trace and layer.name != "ayah":
+        raise SystemExit("error: --require-focus-trace applies only to --layer ayah")
 
     out_dir = args.out or (DEFAULT_OUT_ROOT / f"s{args.surah:03d}")
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -1045,7 +1108,13 @@ def main() -> None:
     )
     for ayah in ayahs:
         prompt_text, manifest = build_prompt(
-            layer, args.surah, ayah, args.language, run_date, profile
+            layer,
+            args.surah,
+            ayah,
+            args.language,
+            run_date,
+            profile,
+            args.require_focus_trace,
         )
         stem = layer.output_stem(args.surah, ayah)
         output_stem = f"{stem}.{profile.name}" if profile else stem

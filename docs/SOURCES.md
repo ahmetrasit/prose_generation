@@ -36,7 +36,7 @@ checkout and then consumed optionally by this repo.
 | v12 surah packet | `quran-data/data/analysis/ayah-activation/v12-tr/s{NNN}/full_context_packet.json` | **Exists for all 114 surahs.** Carries `branch_inventories` plus `missing_branch_inventories`. Scope is the whole surah's roots, unstaged. This is the required branch source for the current default lane. |
 | retired v12 input packets | `quran-data/data/analysis/ayah-activation/v12-tr/s{NNN}/focus_{S}_{A}/stage_{NN}_*.json` | Same `branch_inventories` structure, but scoped to the focus ayah's own roots at stage 0 and staged by reveal order. **Exists for 6 ayahs corpus-wide** — see §5. |
 | retired v12 reader responses | `quran-data/data/analysis/ayah-activation/v12-tr/s{NNN}/focus_{S}_{A}/responses/reader_{x}/stage_{NN}.json` | **Retired from the default lane and usually absent.** Each has `models[]` with `model_id`, `status`, `confidence`, `mechanism`, `activation_trace[]`, `structural_cues[]`, `abductive_moves[]`, `changed_reading{before,after}`, `minimal_triggers[]`, `ablation`. |
-| Hermetic Focus Trace | `latent_activation/focus_trace/runs/s{NNN}/packets/{S}_{A}.packet.json`; `latent_activation/focus_trace/runs/s{NNN}/readers/{reader_id}/{S}_{A}.focus_trace.json` | New one-call reconstructed focus workflow. Packets are generated upstream in `latent_activation`, not `quran-data`. Responses enter bundles under `v12_focus_trace_hermetic` with `baseline_models`, `context_deltas`, and `surprising_valid_outliers`. Packets use `qac-furuq-v4-root-map.sqlite.gz`; split roots preserve `mapped_root_id` with `branch_id`. |
+| Hermetic Focus Trace | `latent_activation/focus_trace/runs/s{NNN}/packets/{S}_{A}.packet.json`; `latent_activation/focus_trace/runs/s{NNN}/readers/{reader_id}/{S}_{A}.focus_trace.json` | New one-call reconstructed focus workflow. Packets are generated upstream in `latent_activation`, not `quran-data`. The run directory is zero-padded only (`s012`, not `s12`). Responses enter bundles under `v12_focus_trace_hermetic` with `baseline_models`, `context_deltas`, and `surprising_valid_outliers`. Packets use `qac-furuq-v4-root-map.sqlite.gz`; split roots preserve `mapped_root_id` with `branch_id`. |
 | v12 reader walks | `quran-data/data/analysis/ayah-activation/v12-tr/s{NNN}/full_context_control/reader_s{NNN}_{a,b}_ayah_walk.md` | Markdown. Per ayah: numbered *Activated readings* with lexical evidence and `Reading change:`, then *Retrospective surprises*. **Highest-value whole-surah reader source; do not skip.** |
 | v12 plus/minus-5 reader walks | `quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s{NNN}/full_context_control/reader_s{NNN}_{a,b}_ayah_walk.md` | Markdown in the same ayah-walk shape, generated with wider local context. Bundled separately as `v12_reader_walks_wide`. |
 | v12 cross-run publication | `quran-data/data/analysis/ayah-activation/v12-cross-run/tr/{S}_ayah_findings_publication.json` | Compact reconciled findings derived from regular and plus/minus-5 reader walks. Use as coverage/priority check, not prose to copy. |
@@ -137,6 +137,12 @@ It is optional at the full base-build layer, but required by the production
 `tier_branch_payloads.py` contract. A no-HFT base bundle remains useful for
 coverage review or a controlled ablation; it is not accepted as a new canonical
 Layer-2 tiered bundle.
+
+**Focus Trace run directories are zero-padded.** Production tooling reads only
+`latent_activation/focus_trace/runs/s{NNN}`. If an upstream run exists under an
+unpadded directory such as `s12`, rename or regenerate it before building. Do
+not add fallback lookup paths; duplicate source locations make prompt
+provenance ambiguous.
 
 **Whole-surah reading filenames are inconsistently zero-padded.** S103 is
 `103-0-3-butuncul-okuma.md` but S1 is `1-0-7-...` and S87–S99 are unpadded too.
