@@ -1,9 +1,9 @@
 # Sources
 
 Paths, formats, and verified gotchas for every upstream source read by this
-repository. Shared contract for both bundle builders —
-`_translation/v1/tools/build_bundle.py` (layer 1) and `scripts/build_bundle.py`
-(layers 2–3).
+repository. Shared contract for `_translation/v1/tools/build_bundle.py` (layer
+1), `scripts/build_bundle.py` (full commentary base bundles), and
+`scripts/tier_branch_payloads.py` (the required pre-Layer-2 projection).
 
 All paths are relative to the sibling-repo root `/Volumes/OZTURK/_projects`.
 
@@ -133,6 +133,11 @@ exist before any model response. In that state the bundle records
 `present: false`; once reader JSON exists, responses are loaded under
 `v12_focus_trace_hermetic.readers`.
 
+It is optional at the full base-build layer, but required by the production
+`tier_branch_payloads.py` contract. A no-HFT base bundle remains useful for
+coverage review or a controlled ablation; it is not accepted as a new canonical
+Layer-2 tiered bundle.
+
 **Whole-surah reading filenames are inconsistently zero-padded.** S103 is
 `103-0-3-butuncul-okuma.md` but S1 is `1-0-7-...` and S87–S99 are unpadded too.
 Of the 30 files that exist, 15 are unpadded. Glob both forms — matching only
@@ -165,8 +170,10 @@ per source, per ayah. A missing v12 response set is a first-class fact the write
 must be able to state (`PRINCIPLES.md` §7).
 
 **Fail loud on required sources.** Quran text, the word-analysis record, QAC
-morphemes, and every variant's stage_00 branch-inventory packet are structurally
-expected for every canonical numbered ayah; their absence aborts the build.
+morphemes, and branch inventories are structurally expected for every canonical
+numbered ayah; their absence aborts the base build. The pre-Layer-2 tierer also
+requires a consistent coverage block, HFT reader payload, and well-formed branch
+identities/citations; it aborts rather than treating a missing field as empty.
 
 **Degrade gracefully on optional sources.** retired v12 reader responses,
 Hermetic Focus Trace responses, reader-walk entries, the whole-surah reading
@@ -176,19 +183,21 @@ continues.
 
 ---
 
-## 8. Not currently bundled
+## 8. Furuq projection in Layer 2
 
-The full Furuq/V4 sqlite, the QAC↔V4 form bridge, and grammar
-attachments/contextual are documented above but **not** carried wholesale in the
-commentary bundle, by scope decision. Branch data is sourced from v12 packets
-and focus-trace responses; the root-level QAC↔Furuq bridge is used to join
-`root_lexicon` and focus-trace branch identities but is represented only through
-the mapped target metadata the bundle needs. For split roots, `root_lexicon`
-lists all mapped `root_id` values in coverage and inlines the dominant target's
-dictionary/gloss payload; secondary branch images and activations enter through
-Hermetic Focus Trace so prompts do not duplicate large lexical envelopes.
-Grammar attachments are already folded into word-analysis `prose`/`topics[]`
-through `evidence_checked` tags.
+The full Furuq/V4 sqlite and QAC↔V4 form bridge are not copied wholesale. The
+base ayah bundle uses the root bridge to inline Turkish dictionary/gloss entries
+for every mapped dominant and non-dominant Furuq target. It keeps every branch
+in those entries and records the complete target mapping in coverage.
 
-Revisit if a writer needs branch `status` or bridge `match_status` directly, or
-if channel work needs review-status branches.
+`scripts/tier_branch_payloads.py` then projects only the dictionary/gloss branch
+records for Layer 2. Explicitly cited branches remain full except for
+`what_is_not_ar` and `identity_judgment.boundary_note`; uncited B001/B002 branches
+receive the rich-lite safety payload; all others receive the compact payload.
+No root or dictionary branch identity is filtered. Branch inventories and all
+non-branch evidence are copied unchanged. The exact tier counts, interest-source
+coverage, resolution gaps, and trim contract are recorded under
+`coverage.root_lexicon.branch_policy`.
+
+Grammar attachments remain folded into word-analysis `prose`/`topics[]` through
+`evidence_checked` tags and are unaffected by branch tiering.

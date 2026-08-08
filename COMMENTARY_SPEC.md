@@ -197,8 +197,26 @@ Contracts and schemas are under `_channel/layer3/`.
 
 ## 6. Input bundle
 
-Layer 2 continues to use one bundle per ayah. Layer 3 builds a separate hermetic
-source packet from Quran text, the completed Layer-2 prose/evidence, and whatever
-network-v3, V12, and V11 sources are available. Missing optional source families
-are warnings, not build failures. See
+Layer 2 continues to use one bundle per ayah. The production bundle is the
+output of `scripts/tier_branch_payloads.py`, run against the full ayah bundle
+from `scripts/build_bundle.py` before `scripts/instantiate.py`. The tierer may
+project only `root_lexicon` dictionary/gloss branch payloads and its recorded
+branch policy. It must preserve every root target, every dictionary branch
+identity, and every non-branch field. Its required-source, malformed-citation,
+and semantic-payload checks fail loudly; it never falls back to dictionary
+source files.
+
+Branch payload tiers are transport projections, not finding ranks or prose
+budgets. Layer 2 has no root, paragraph, or word-count quota. It must state every
+materially distinct, anchored latent activation or surprise with a significant
+reader payoff, including one supported by a compact branch; it must also avoid
+repetition, filler, and available branches that do not change understanding.
+The admission threshold is density-invariant: a finding receives the same test
+in a three-root and a twenty-six-root ayah. Findings may share prose only when
+their mechanism and payoff are the same and every admitted ref still has an
+identifiable landing.
+
+Layer 3 builds a separate hermetic source packet from Quran text, the completed
+Layer-2 prose/evidence, and whatever network-v3, V12, and V11 sources are
+available. Missing optional source families are warnings, not build failures. See
 [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).

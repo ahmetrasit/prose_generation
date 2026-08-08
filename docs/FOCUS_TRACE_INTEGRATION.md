@@ -28,6 +28,23 @@ Use `--focus-trace-variant` to select one labelled response for a comparison
 run. The unlabelled file is variant `default`; for example
 `100_1.5.6-sol-high.focus_trace.json` is variant `5.6-sol-high`.
 
+The full bundle from `build_bundle.py` is an auditable source artifact, not the
+production Layer-2 input. After a required-focus build, create the separate
+tiered bundle and instantiate from that directory:
+
+```sh
+mkdir -p bundles-layer2/s100
+python3 scripts/tier_branch_payloads.py bundles/s100/100_1.ayah.json \
+  --output bundles-layer2/s100/100_1.ayah.json --compact-output
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah \
+  --bundles-dir bundles-layer2
+```
+
+The tierer reads the inlined HFT activation traces as one of its explicit branch
+interest sources and fails if required HFT or any required source field is
+missing or malformed. It retains all root/branch identities and all non-branch
+evidence; only dictionary/gloss branch payload detail is tiered.
+
 The bundle field is:
 
 ```text
@@ -81,3 +98,7 @@ After upstream reader JSON validates, rebuild S100 with:
 python3 scripts/build_bundle.py --surah 100 --require-focus-trace
 jq '.coverage.v12_focus_trace_hermetic' bundles/s100/100_1.ayah.json
 ```
+
+Then rerun `scripts/tier_branch_payloads.py` for every target ayah before
+instantiating Layer 2. An older tiered bundle must never be reused after its full
+source bundle or HFT response changes.

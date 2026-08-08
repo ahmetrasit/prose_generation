@@ -67,8 +67,21 @@ shown connecting. When secondary resonances cohere, the prose states the
 resulting local surprise clearly: what it makes newly visible and whether it
 supports the primary reading or shifts its frame.
 
-Layer 2 does not select. It carries the full field, including readings no thesis
-could use.
+Layer 2 does not select among activated readings. Its production input is made
+by running `scripts/tier_branch_payloads.py` on the full `build_bundle.py`
+output before prompt instantiation. The transport payload is tiered, but every
+dominant/non-dominant root and every dictionary branch identity remains present;
+all non-branch evidence remains unchanged. Payload tiering is not permission to
+drop an activated reading or reader payoff.
+
+The tier labels impose no prose length or priority ranking. Layer 2 remains free
+to develop every materially distinct, anchored surprise that changes the
+reader's understanding, while omitting repetition, fluff, and available lexical
+material with no significant payoff.
+
+That admission threshold is density-invariant: a qualifying finding receives the
+same voice whether its ayah has three roots or twenty-six. Longer ayat do not get
+a fixed prose budget divided among more findings.
 
 ### Layer 3 — the whole image (`_channel/layer3/`)
 
@@ -101,8 +114,8 @@ COMMENTARY_SPEC.md    rules specific to commentary (both levels)
 PLAN.md               numbered actions, in execution order — start here
 STATUS.md             per-surah coverage
 docs/                 sources, available data, channels, open questions
-scripts/              shared bundle builder for both commentary levels
-bundles/              generated commentary input bundles
+scripts/              base builder, pre-L2 branch tierer, and instantiators
+bundles/              generated base and tiered commentary input bundles
 _commentary/          hermetic Layer-2 prompts and authored ayah outputs
 _translation/         layer 1 — the spine
 _ayah_commentary/v1/  layer 2 — function and resonance, per ayah
@@ -128,8 +141,8 @@ they are planned, not because they exist.
 - Running ayah commentary Layer 2: [`_ayah_commentary/v1/`](_ayah_commentary/v1/)
   is the active authoring path. [`_commentary/ORCHESTRATION.md`](_commentary/ORCHESTRATION.md)
   remains the run contract for existing ayah prompts and agent-authored outputs;
-  [`scripts/README.md`](scripts/README.md) documents the bundle builder behind
-  those prompts.
+  [`scripts/README.md`](scripts/README.md) documents the required
+  `build_bundle.py` -> `tier_branch_payloads.py` -> `instantiate.py` sequence.
 - Running surah commentary Layer 3:
   [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
 - What evidence exists: [`docs/SOURCES.md`](docs/SOURCES.md) for paths and

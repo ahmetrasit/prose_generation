@@ -48,15 +48,17 @@ _commentary/
     {NNN}.surah.evidence.md
     {NNN}.channel.friction.md
 
-bundles/s{NNN}/             builder output — generated, never edited
+bundles/s{NNN}/             full base builder output — generated, never edited
   {S}_{A}.ayah.json
   {NNN}.surah.json
   {NNN}.channel.json
+bundles-layer2/s{NNN}/      tiered ayah bundles consumed by Layer 2
+  {S}_{A}.ayah.json
 ```
 
-Everything under `bundles/`, and every ayah prompt under `inputs/`, is
-reproducible from `../quran-data/` by re-running stages 1 and 2. Only `outputs/`
-is authored, and only by an agent.
+Everything under `bundles/` and `bundles-layer2/`, and every ayah prompt under
+`inputs/`, is reproducible from `../quran-data/` by re-running stages 1, 1B, and
+2. Only `outputs/` is authored, and only by an agent.
 
 **The combined surah prompt is the exception**: it is built from `outputs/` as well, so
 reproducing it needs the same layer-2 outputs, not just `quran-data`. Its
@@ -82,7 +84,7 @@ an earlier prompt file byte-for-byte.
 
 ---
 
-## Stage 1 — Build the bundle
+## Stage 1 — Build the full base bundle
 
 ```
 python3 scripts/build_bundle.py --surah 100
@@ -118,9 +120,14 @@ never reported as absent.
 Required sources raise loudly. Optional sources record their absence in
 `coverage`, which the writing agent then reports in its coverage note.
 
+The result of this stage is an auditable source bundle with full
+dictionary/gloss branch arrays. It is not the production Layer-2 input.
+
 **Check before continuing:** read the `coverage` block of one ayah bundle. If a
 source you expect to be present is marked absent, resolve that before
-instantiating. Absence propagates silently into prose otherwise.
+running Stage 1B. The tierer independently validates required fields and
+coverage/payload consistency and exits non-zero rather than converting a gap
+into an empty payload.
 
 Current ayah bundles distinguish these V12 reader-derived families:
 
@@ -167,6 +174,53 @@ Focus Trace is an evidence source for the ayah's before/after experience. Use a
 separate bundle/output directory only when running controlled comparisons, such
 as HFT versus no-HFT or no-reader ablations.
 
+## Stage 1B — Tier branch payloads for Layer 2
+
+New production Layer-2 prompts must use `scripts/tier_branch_payloads.py`.
+Never instantiate them directly from `bundles/s{NNN}/`, and never overwrite the
+full base bundles.
+
+```sh
+mkdir -p bundles-layer2/s100
+for bundle in bundles/s100/*.ayah.json; do
+  python3 scripts/tier_branch_payloads.py "$bundle" \
+    --output "bundles-layer2/s100/$(basename "$bundle")" --compact-output
+done
+```
+
+The collector uses generation-time signals only: HFT activation traces,
+cross-run `findings[].anchors`, regular and wide reader walks, channel review
+blocks, and explicit branch references in `word_analysis`, inter-ayah, and
+whole-surah text. `root_lexicon` and `branch_inventories` are availability
+surfaces and never create interest themselves.
+
+The policy preserves all dominant/non-dominant root entries, every dictionary
+`branch_ref`, every reviewed-gloss identity as at least a stub, all branch
+inventories, and every non-branch field. `explicit_interest` remains full except
+for `what_is_not_ar` and `identity_judgment.boundary_note`; unpromoted B001/B002
+branches use `local_low_branch_safety`; all remaining branches use
+`compact_rest`, with a semantic fallback when both Arabic semantic fields are
+empty. Exact counts, sources, resolution gaps, and tier contracts are written to
+`coverage.root_lexicon.branch_policy`.
+
+These tiers control bytes, not prose priority or length. They create neither a
+paragraph quota nor an instruction to prefer explicit branches in the final
+reading. The writer must express every materially distinct anchored surprise
+with significant reader payoff, including one supported by a compact branch,
+while omitting filler, repetition, and availability with no changed
+understanding.
+
+Admission is density-invariant. A 26-root ayah does not receive a smaller
+per-finding attention budget than a 3-root ayah. Each admitted ref must appear in
+the findings index and have an identifiable prose landing; shared prose is valid
+only for the same mechanism and the same reader payoff. The mandatory `Density
+audit` at the end of friction records those counts and any shared landings.
+
+This step fails loudly on a missing/malformed source field, coverage
+contradiction, missing HFT, malformed/unresolved citation, duplicate or
+gloss-only reference, missing status, or semantically empty projected branch.
+Do not continue to prompt instantiation after any non-zero exit.
+
 ### Optional upstream focus-trace generation
 
 If focused Layer 2 is required and reader JSONs do not exist yet, generate them
@@ -205,8 +259,8 @@ are selected with the label after `{S}_{A}.`, such as `5.5-high` or
 
 Validate each response with
 `focus_trace/scripts/validate_focus_trace.py`, then rerun
-`python3 scripts/build_bundle.py --surah {S} --require-focus-trace` so the
-commentary bundle sees `coverage.v12_focus_trace_hermetic.present: true`. The
+`python3 scripts/build_bundle.py --surah {S} --require-focus-trace` and Stage 1B
+so the Layer-2 bundle sees `coverage.v12_focus_trace_hermetic.present: true`. The
 S100 continuation runbook is
 `../latent_activation/focus_trace/runs/s100/COLD_HANDOFF.md`.
 
@@ -236,8 +290,8 @@ focus_trace/runs/sNNN/readers/<reader_id>/{S}_{A}.focus_trace.json
 ```
 
 Validate each response with
-`focus_trace/scripts/validate_focus_trace.py`, then rerun
-`python3 scripts/build_bundle.py --surah {S}` so the commentary bundle sees
+`focus_trace/scripts/validate_focus_trace.py`, then rerun the required-focus
+base build and Stage 1B so the Layer-2 bundle sees
 `coverage.v12_focus_trace_hermetic.present: true`. The S100 continuation runbook
 is `../latent_activation/focus_trace/runs/s100/COLD_HANDOFF.md`.
 
@@ -251,10 +305,10 @@ provenance, not hidden ayah renumbering.
 ## Stage 2 — Instantiate the prompt
 
 ```
-python3 scripts/instantiate.py --surah 100 --layer ayah              # all ayahs
-python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah
-python3 scripts/instantiate.py --surah 100 --layer ayah --language tr --date 2026-07-27
-python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --profile v2.5.6-sol-high
+python3 scripts/instantiate.py --surah 100 --layer ayah --bundles-dir bundles-layer2
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2
+python3 scripts/instantiate.py --surah 100 --layer ayah --bundles-dir bundles-layer2 --language tr --date 2026-07-27
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2 --profile v2.5.6-sol-high
 ```
 
 Writes `_commentary/inputs/s{NNN}/`. One prompt file plus one manifest per unit.
@@ -262,9 +316,9 @@ With `--profile`, the profile label is appended before `.prompt.md`, for example
 `100_1.ayah.v2.5.6-sol-high.prompt.md`.
 
 The prompt is **hermetic by default**: the task document, every governing
-document, every cross-reference between them, and the bundle are inlined in
-full. A filename in the text is normally an in-document pointer, not an
-instruction to go find a file.
+document, every cross-reference between them, and the tiered Layer-2 bundle are
+inlined in full. A filename in the text is normally an in-document pointer, not
+an instruction to go find a file.
 
 The exception is an explicit source manifest inside the bundle. Today this is
 `channel_generated_outputs.files[]`: if the run gives the agent read access, it
@@ -485,7 +539,7 @@ edit them.
 | `{unit}.prose.md` | continuous prose, target language, single voice, no provenance markers, no wrapper label such as `=== THE PROSE ===` |
 | `{unit}.evidence.md` | phrase → bundle ref, with inference marked distinctly from bundle-traceable claims, plus a coverage note listing what was missing |
 | `{unit}.index.md` | one line per reading the prose carries — `` - `<ref>` — <clause> `` — with `[inference]` on the writer's own readings; plus one `surprise:<id>` synthesis row per earned local surprise, marked `[supports-primary]` or `[shifts-primary]`. Checked by `scripts/check_index.py` |
-| `{unit}.friction.md` | every point where the instructions were ambiguous, contradictory, unsatisfiable, or silent |
+| `{unit}.friction.md` | every point where the instructions were ambiguous, contradictory, unsatisfiable, or silent; ends with the density audit required by the ayah prompt |
 
 For the active Turkish reader-facing lane, use the language-labelled filenames
 already established in completed surahs: `{unit}.prose.tr.md`,
@@ -532,23 +586,24 @@ friction has completed half the task.
 
 For a surah, in order:
 
-1. `build_bundle.py --surah N` — one process
-2. `instantiate.py --surah N --layer ayah` — one process, writes every unit
-3. verify manifest byte counts against the working tree
-4. spawn one agent per ayah, in parallel, each with one prompt file
-5. collect each agent's files into `_commentary/outputs/s{NNN}/`
-6. `check_index.py --surah N` — mechanical, before any reading (ayah units);
+1. `build_bundle.py --surah N --require-focus-trace` — one full base build
+2. `tier_branch_payloads.py` — transform every ayah into `bundles-layer2/sNNN/`
+3. `instantiate.py --surah N --layer ayah --bundles-dir bundles-layer2` — write every unit
+4. verify manifest byte counts against the working tree
+5. spawn one agent per ayah, in parallel, each with one prompt file
+6. collect each agent's files into `_commentary/outputs/s{NNN}/`
+7. `check_index.py --surah N` — mechanical, before any reading (ayah units);
    add `--require-surprise` only when the run criterion requires an explicit
    local surprise in every unit
-7. read the friction reports **before** reading the prose
-8. `build_channel_bundle.py --surah N`; validate the compact reviewed-channel bundle
-9. `instantiate_channel.py --surah N` — reads only Layer-2 prose from step 5
-10. spawn one combined Layer 3 + 2.5 agent with that prompt
-11. validate `{S}.surah.channels.reviewed.json`
-12. validate `{S}.ayah-channel-overlays.json` against the reviewed plan
-13. read the overlay preview and friction before accepting the surah prose
+8. read the friction reports **before** reading the prose
+9. `build_channel_bundle.py --surah N`; validate the compact reviewed-channel bundle
+10. `instantiate_channel.py --surah N` — reads only Layer-2 prose from step 6
+11. spawn one combined Layer 3 + 2.5 agent with that prompt
+12. validate `{S}.surah.channels.reviewed.json`
+13. validate `{S}.ayah-channel-overlays.json` against the reviewed plan
+14. read the overlay preview and friction before accepting the surah prose
 
-The ordering of steps 6 and 7 is deliberate. Prose reads as authoritative whether
+The ordering of steps 7 and 8 is deliberate. Prose reads as authoritative whether
 or not it is, so both the mechanical check and the friction report — where the
 instructions' failures are visible — come first.
 

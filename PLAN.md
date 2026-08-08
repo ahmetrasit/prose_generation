@@ -32,7 +32,7 @@ the same prompt serves both.
 **Layer 2's output is the compression step:**
 
 ```
-layer 2    per ayah      ayah bundle (~300 KB)          → prose + evidence (~1.5k words)
+layer 2    per ayah      tiered ayah bundle             → prose + evidence (~1.5k words)
 layer 2P   per pericope  layer-2 OUTPUTS + surah scope  → pericope reading
 combined   per surah     reviewed channels + layer-2/pericope prose → argument + channels + overlays
 ```
@@ -54,6 +54,11 @@ self-contained bytes — governing docs and bundle inlined, no repo paths to
 follow. This is what makes a cold agent runnable, makes Claude and gpt-5.6
 comparable, and closes friction #4 (the S1 run reached outside the bundle because
 it could).
+
+The accepted Layer-2 input path is now explicit: `build_bundle.py` produces the
+full auditable source bundle; `tier_branch_payloads.py` creates a separate
+interest-tiered branch projection while retaining every root/branch identity and
+all non-branch evidence; `instantiate.py --bundles-dir` consumes that projection.
 
 ```
 _commentary/
@@ -228,10 +233,12 @@ variables, five stages, output contract, batch order, cross-model runs,
 decisions, completion-state limitation. Records State B, the two unsatisfiable
 exclusion instructions, and the three open friction items.
 
-## 3. Write `scripts/instantiate.py`
+## 3. Build and instantiate the Layer-2 input
 
-Bundle + governing docs → one self-contained prompt file per unit, into
-`_commentary/inputs/s{NNN}/`. Model-agnostic.
+`scripts/tier_branch_payloads.py` transforms each full ayah bundle into the
+required Layer-2 bundle. `scripts/instantiate.py` then combines that bundle with
+the governing docs into one self-contained prompt file per unit under
+`_commentary/inputs/s{NNN}/`. Both steps are model-agnostic.
 
 ## 4. Add the optional pericope compression pass to the principles
 

@@ -71,17 +71,34 @@ channel-family or path detail is necessary. Do not browse the repository
 generally. If your run is hermetic and the files are not inlined, treat the
 manifest as awareness and do not invent their contents.
 
-`root_lexicon` is full, not branch-filtered. It carries Turkish dictionary/gloss
-records for QAC roots in this ayah after mapping them to Furuq `root_XXXXXX`
-IDs. When the QAC-to-Furuq root map marks a root as split, non-dominant Furuq
-targets are included as additional root entries and recorded in coverage. If
-multiple QAC roots map to the same Furuq root in this ayah, that shared entry
+`root_lexicon` is identity-complete but payload-tiered by the required pre-Layer-2
+`tier_branch_payloads.py` pass. Every mapped dominant and non-dominant Furuq root
+target and every dictionary `branch_ref` remains present; the tier is recorded as
+`payload_tier`. `explicit_interest` branches retain the full branch package except
+for the globally removed `what_is_not_ar` and `identity_judgment.boundary_note`.
+`local_low_branch_safety` and `compact_rest` carry progressively smaller support;
+`semantic_fallback` appears only when both Arabic semantic fields were empty.
+Compact reviewed-gloss records may be branch-reference stubs. Treat a trimmed
+branch as present but intentionally compact, not as evidence that no richer
+upstream dictionary record exists.
+
+If multiple QAC roots map to the same Furuq root in this ayah, the shared entry
 lists its source roots in `qac_roots_ar` / `qac_root_mappings`; use those fields
 for evidence attribution when present, not the legacy single `root_ar` alone.
 Dictionary/gloss branches are evidence support, not independent obligations,
 unless tied to this ayah's word, topic, reader payoff, or cited relation. Full
-field means all distinct reader payoffs from the activated material; it does not
-oblige you to turn every dictionary branch into prose.
+field means all distinct reader payoffs from activated material; it does not
+oblige you to turn every dictionary branch into prose or to infer details absent
+from a compact payload.
+
+`payload_tier` is a storage decision, not an editorial rank. An
+`explicit_interest` branch is not automatically prose-worthy, and a
+`compact_rest` branch is not forbidden when its retained semantics combine with
+the other bundle evidence into a significant finding. There is no root quota,
+paragraph quota, or target length. Write every materially distinct, anchored
+latent activation or surprise that changes understanding; synthesize related
+findings naturally, and omit repetition, filler, and material with no significant
+reader payoff.
 
 ## You must not select
 
@@ -364,10 +381,11 @@ ayah plainly says." Do not rely on paragraph order or repeated imagery to imply
 the relation.
 
 Concrete lexical images should make an evidence-supported relation visible.
-Compress them around a shared action or shape when the evidence permits, while
-keeping the local sense intact. Such compression is interpretive synthesis, not
-a claim that every derivative possesses one historical essence; mark the
-synthesis as inference in the evidence surface.
+Related images may be synthesized around a shared action or shape only when no
+distinct mechanism or reader payoff disappears. Every qualifying finding must
+remain separately identifiable in the prose even when it shares a paragraph.
+Such synthesis is not a claim that every derivative possesses one historical
+essence; mark it as inference in the evidence surface.
 
 Use Turkish lexical or cultural associations only when the bundle supports the
 relation. Distinguish cognates, semantic shifts, and reception associations.
@@ -384,6 +402,13 @@ carrying the full field outranks brevity at this level. Compression still
 matters: repetition does not discharge coverage, and surprise alone does not
 justify a candidate reading.
 
+Apply the same admission threshold independently to every word and candidate
+finding before drafting. A longer ayah or a larger root inventory receives no
+smaller per-finding attention budget. Root count, source density, paragraph
+count, and anticipated output length may not raise the threshold or justify
+merging findings. Merge only findings with the same mechanism and the same
+reader payoff; "the ayah already has many findings" is never a merge reason.
+
 Absence goes in the coverage note, never in the prose. If a source is missing,
 the reader does not learn that; the reviewer does.
 
@@ -393,6 +418,9 @@ the reader does not learn that; the reviewer does.
   surah reading, you have produced nothing new.
 - **Selecting.** Choosing the most interesting activated reading and dropping the
   rest. This is the one unrecoverable error.
+- **Density compression.** Giving each qualifying finding less voice because the
+  ayah has more words, roots, or activations, or hiding several distinct payoffs
+  inside one general movement.
 - **Cataloguing.** Correct, complete, unconnected. The reader is exactly where
   they started.
 - **Ungrounded reveal.** True, contained, traceable, and delivered before the
@@ -421,10 +449,10 @@ without reading the whole commentary.
 It is a table of contents for the field. It is **not** a summary, and it is not
 somewhere to put things.
 
-**Compress the prose, never the field.** A summary drops whatever is least
-interesting, and this level is precisely the one forbidden to decide what is
-least interesting. So the index shortens how each reading is *said*, and shortens
-nothing about how many there are. A dense ayah has a long index; that is correct.
+**Synthesize expression, never coverage.** The index shortens how each reading is
+*named* and shortens nothing about how many qualifying readings receive a prose
+landing. A dense ayah has a long index and may require long prose; that is
+correct.
 
 Two rules make that concrete, and both are checked mechanically:
 
@@ -493,3 +521,10 @@ Also write a friction report naming every point where the instructions were
 ambiguous, contradictory, unsatisfiable, or silent. Profile-specific style audits
 may be included there when the prompt profile asks for them, but they should be
 labelled as style audit rather than friction.
+
+End the friction file with a `Density audit` style-audit block: count admitted
+finding refs, non-`surprise:` findings-index refs, and admitted refs with an
+identifiable prose landing. Those three counts must agree. List refs that share a
+prose landing and state the shared mechanism and reader payoff that justified
+the synthesis. Source density or desired length is never an acceptable
+explanation for a gap.

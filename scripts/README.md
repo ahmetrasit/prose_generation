@@ -5,10 +5,10 @@ Shared tooling for the two commentary levels. Layer 1 has its own builder under
 
 ## build_bundle.py
 
-Assembles the input bundle consumed by `_ayah_commentary/v1/PROMPT.md` (layer 2)
-and `_surah_commentary/PROMPT.md` (layer 3). Governed by `COMMENTARY_SPEC.md` §6;
-sources, formats, and gotchas in `docs/SOURCES.md`; output shape in
-`bundles/schema.json`.
+Assembles the full, auditable base bundle. Layer 2 does not instantiate this
+bundle directly: `tier_branch_payloads.py` creates the production Layer-2
+projection first. Governed by `COMMENTARY_SPEC.md` §6; sources, formats, and
+gotchas in `docs/SOURCES.md`; output shape in `bundles/schema.json`.
 
 ### Run it
 
@@ -89,10 +89,10 @@ ayah bundle filenames rather than duplicating them and carries surah-scope
 material with no single-ayah home: every Quran-text row for the surah including
 the `S:0` basmalah, the full whole-surah reading, and a coverage rollup.
 
-`instantiate.py` compacts bundle JSON when inlining it into prompts. The on-disk
-bundle stays pretty-printed for diffs and review; the agent-facing prompt drops
-insignificant JSON whitespace and records both `source_bytes` and
-`inlined_bytes` in the manifest.
+`build_bundle.py` deliberately leaves the base ayah bundle pretty-printed and
+its `root_lexicon` branch arrays full. Run `tier_branch_payloads.py` before
+`instantiate.py`; the instantiator then compacts the tiered JSON while inlining
+it and records both `source_bytes` and `inlined_bytes` in the manifest.
 
 ### Branch inventories: focus run, else surah packet
 
@@ -104,9 +104,11 @@ only the cited branches. Coverage records `scope:
 "surah-fallback-scoped-to-ayah"` and the scoping report.
 
 This is separate from `root_lexicon`. Branch inventories remain the compact
-branch map and are ayah-scoped here. The heavier Turkish dictionary/gloss records
-are not branch-filtered: every branch is kept for every included Furuq root
-target, including non-dominant targets of split QAC roots.
+branch map and are ayah-scoped here. The base bundle keeps every Turkish
+dictionary/gloss branch for every included Furuq root target, including
+non-dominant targets of split QAC roots. The required pre-L2 tierer does not
+change `branch_inventories` and does not remove any root or dictionary branch
+identity.
 
 Before this fallback/scoping path existed the builder emitted a bundle with
 `branch_inventories: {}` for most surahs and exited 0 — a healthy-looking bundle
@@ -176,36 +178,80 @@ via a zero-padding mismatch in the filename glob).
 
 Measured counts for S103 are recorded in `STATUS.md`.
 
-## Not in the bundle by design
+## tier_branch_payloads.py
 
-The Furuq/V4 lexicon, the QAC↔V4 bridge, and grammar attachments/contextual
-profiles are documented in `docs/SOURCES.md` but not carried: branch data comes
-from the v12 packets (themselves built from furuq's `branch_images` filtered to
-`status='accepted'`), and grammar attachments are already folded into
-word-analysis `prose`/`topics[]` via `evidence_checked` tags.
+This is the required pre-Layer-2 step for new production prompts. It reads one
+full ayah bundle, collects explicit branch interest from HFT activation traces,
+cross-run anchors, regular/wide reader walks, channel review blocks,
+`word_analysis`, inter-ayah rows, and whole-surah reading text, then writes a
+separate bundle. It never overwrites its input.
 
-Revisit if a writer needs branch `status` or bridge `match_status` directly, or
-if channel work needs review-status branches. `docs/SOURCES.md` §7 names the
-tables to start from.
+```sh
+# One ayah: validate and inspect projected compact size
+python3 scripts/tier_branch_payloads.py bundles/s100/100_1.ayah.json --check
+
+# One production Layer-2 bundle
+python3 scripts/tier_branch_payloads.py bundles/s100/100_1.ayah.json \
+  --output bundles-layer2/s100/100_1.ayah.json --compact-output
+
+# Whole surah
+mkdir -p bundles-layer2/s100
+for bundle in bundles/s100/*.ayah.json; do
+  python3 scripts/tier_branch_payloads.py "$bundle" \
+    --output "bundles-layer2/s100/$(basename "$bundle")" --compact-output
+done
+```
+
+Payload tiers are recorded in `coverage.root_lexicon.branch_policy` and on each
+projected branch:
+
+- `explicit_interest`: full branch payload except `what_is_not_ar` and
+  `identity_judgment.boundary_note`;
+- `local_low_branch_safety`: B001/B002 branches not already explicit, retaining
+  identity, Arabic image/definition, status, branch kind, and reviewed or
+  dictionary concept/context gloss text;
+- `compact_rest`: identity, Arabic image/definition, and status, with a semantic
+  fallback only when both Arabic semantic fields are empty.
+
+Every dominant and non-dominant root target remains. Every dictionary branch
+reference remains. Compact reviewed-gloss records remain as branch-reference
+stubs. `branch_inventories`, `word_analysis`, reader evidence, inter-ayah data,
+and all other non-branch fields are unchanged.
+
+Tier names are storage contracts, not finding ranks or prose budgets. A compact
+branch may support a significant finding, and an explicit branch creates no
+automatic prose obligation. Layer 2 has no target paragraph or word count; it
+retains every distinct anchored surprise with reader payoff and rejects only
+repetition, fluff, or material that does not change understanding.
+The admission threshold is identical for sparse and dense ayat; root count never
+reduces the explanatory space available to a qualifying finding.
+
+The transform fails non-zero on a missing input, invalid JSON, missing required
+field, coverage/payload contradiction, missing HFT, malformed or unresolved
+branch citation, duplicate/gloss-only branch reference, missing status, or a
+branch with no usable semantic payload. Source-path strings inside a hermetic
+bundle are provenance, not files this step rereads; the inlined payload is the
+source of truth.
 
 ## instantiate.py
 
-Assembles hermetic prompt files from the generated bundles plus the commentary
-task and governing documents. A changed bundle does not reach an agent until
-this stage is run.
+Assembles hermetic prompt files from the tiered Layer-2 bundles plus the
+commentary task and governing documents. New Layer-2 runs must pass the tiered
+directory with `--bundles-dir`; do not point this command at the full base
+bundle directory.
 
 ### Run it
 
 ```sh
 # Base ayah prompts for a whole surah
-python3 scripts/instantiate.py --surah 100 --layer ayah --language tr --date 2026-07-27
+python3 scripts/instantiate.py --surah 100 --layer ayah --bundles-dir bundles-layer2 --language tr --date 2026-07-27
 
 # One active v2 pilot prompt
-python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --profile v2.5.6-sol-high --language tr --date 2026-07-27
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2 --profile v2.5.6-sol-high --language tr --date 2026-07-27
 
 # Comparator profiles, when needed
-python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --profile v2.5.5-high --language tr --date 2026-07-27
-python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --profile v2.5.6-sol-max --language tr --date 2026-07-27
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2 --profile v2.5.5-high --language tr --date 2026-07-27
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2 --profile v2.5.6-sol-max --language tr --date 2026-07-27
 ```
 
 Without `--profile`, outputs are named like `{S}_{A}.ayah.prompt.md` and
