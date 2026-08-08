@@ -138,6 +138,14 @@ It is optional at the full base-build layer, but required by the production
 coverage review or a controlled ablation; it is not accepted as a new canonical
 Layer-2 tiered bundle.
 
+For focused production refreshes, keep the strict sequence:
+`build_bundle.py --require-focus-trace`,
+`tier_branch_payloads.py --compact-output`, and
+`instantiate.py --require-focus-trace`. This gives three failure points for the
+same class of regression: source build, Layer-2 projection, and prompt
+instantiation. Optional source absence is allowed only when recorded in
+coverage; required focused evidence must fail rather than degrade quietly.
+
 **Focus Trace run directories are zero-padded.** Production tooling reads only
 `latent_activation/focus_trace/runs/s{NNN}`. If an upstream run exists under an
 unpadded directory such as `s12`, rename or regenerate it before building. Do

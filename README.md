@@ -144,7 +144,7 @@ they are planned, not because they exist.
 - Rules first: [`PRINCIPLES.md`](PRINCIPLES.md), then
   [`COMMENTARY_SPEC.md`](COMMENTARY_SPEC.md).
 - Running layer 1: [`_translation/v1/README.md`](_translation/v1/README.md).
-- Running ayah commentary Layer 2: [`_ayah_commentary/v1/`](_ayah_commentary/v1/)
+- Running ayah commentary Layer 2: [`_ayah_commentary/PROMPT.md`](_ayah_commentary/PROMPT.md)
   is the active authoring path. [`_commentary/ORCHESTRATION.md`](_commentary/ORCHESTRATION.md)
   remains the run contract for existing ayah prompts and agent-authored outputs;
   [`scripts/README.md`](scripts/README.md) documents the required

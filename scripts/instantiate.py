@@ -4,12 +4,18 @@ instantiate.py — assemble ONE self-contained prompt file per commentary unit.
 
 Turns a bundle (for Layer 2, the required `scripts/tier_branch_payloads.py`
 output derived from the full `scripts/build_bundle.py` bundle) plus its governing
-documents into a single file a cold agent — Claude, GPT, anything — can execute without
-general filesystem access or repo browsing. Explicit source manifests inside a
-bundle may name extra files the agent can read if the run grants file access;
-otherwise the prompt remains self-contained. This is what makes runs
+documents into a single file a cold agent — Claude, GPT, anything — can execute
+without general filesystem access or repo browsing. Explicit source manifests
+inside a bundle may name extra files the agent can read if the run grants file
+access; otherwise the prompt remains self-contained. This is what makes runs
 reproducible and makes two different models comparable on verifiably identical
 input. See `PLAN.md` decisions D-e and D-f, and action 3.
+
+The ayah task document is `_ayah_commentary/PROMPT.md`. The normal comparator
+profile labels (`v2.5.5-high`, `v2.5.6-sol-high`, and `v2.5.6-sol-max`) are
+filename/manifest labels only; they all inline the canonical
+`v2.5.6-sol-high` instruction body. Do not tailor prompt instructions to model
+name or reasoning level.
 
 Usage:
     python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2
@@ -269,7 +275,7 @@ def _layer2_outputs(surah: int) -> tuple[list[UpstreamDoc], dict]:
 LAYER_REGISTRY: dict[str, LayerSpec] = {
     "ayah": LayerSpec(
         name="ayah",
-        task_prompt_rel="_ayah_commentary/v1/PROMPT.md",
+        task_prompt_rel="_ayah_commentary/PROMPT.md",
         per_ayah=True,
         output_stem=lambda surah, ayah: f"{surah}_{ayah}.ayah",
         bundle_files=_ayah_bundle_files,
@@ -302,58 +308,6 @@ class PromptProfile:
 
 
 PROMPT_PROFILES: dict[str, PromptProfile] = {
-    "v2.5.5-high": PromptProfile(
-        name="v2.5.5-high",
-        layer="ayah",
-        title="V2 Rendering Profile — 5.5 High",
-        body="""This run tests whether `5.5-high` can meet the `5.6-sol-high` reader-facing
-quality bar while preserving enough lexical depth for this workflow.
-
-Before drafting, silently build one matrix:
-
-`word -> grammar -> local sense -> root pressure -> unique payoff -> later change`
-
-Render every row exactly once in Turkish. Do not expose the matrix as a list.
-
-Required checks before writing:
-
-- include every `must_integrate` topic;
-- include every `candidate` that adds a unique reader payoff;
-- collapse all revisions of one v12 `model_id` into one before/after trajectory;
-- use branch inventories only when they clarify a word's local effect;
-- if `channel_generated_outputs` lists quran-data files and this run gives you
-  file access, read only those listed files when channel-family/path detail is
-  necessary; they are candidate evidence, not an adjudicated channel ledger;
-- keep all artifacts in Turkish;
-- explain every technical term in the same sentence.
-
-At first mention of an ayah word, use a structured Arabic surface span:
-`{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
-Use the same full span again when the prose returns to that word after moving to
-another word or another paragraph. Inside one short local sequence, after a full
-span has just been given, a Turkish label or transliteration is enough. Use
-stable terminology for the same word across prose and evidence. Keep raw roots,
-root skeletons, letter-by-letter root transliterations, and branch IDs in the
-evidence surface. In prose, attach root discussion to the surface word:
-`{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
-olduğu kök alanı...`, not `ʿ-d-v kökü...`.
-
-The prose should stay reader-facing: one main movement per paragraph, concrete
-meaning first, technical precision second. Do not open a paragraph with a
-grammar label before the reader knows what is happening. Do not let later ayahs
-take over the commentary for 100:1.
-
-Use an explicit negative predicate only to correct a likely misconception,
-protect the primary sense from replacement, or preserve live counter-evidence.
-Default ceiling for this ayah: three. Never stack two negatives in one sentence.
-During final revision, rewrite all other negatives as positive predication.
-Do not drive negation to zero by default: if no explicit negative is needed,
-include a profile-specific style audit in friction confirming that there was no
-live misconception, replacement risk, or counter-evidence requiring one.
-
-Pass only if the evidence surface could be closed and the prose would still be
-understandable to a Turkish reader with almost no Arabic grammar.""",
-    ),
     "v2.5.6-sol-high": PromptProfile(
         name="v2.5.6-sol-high",
         layer="ayah",
@@ -361,15 +315,12 @@ understandable to a Turkish reader with almost no Arabic grammar.""",
         body="""This run tests whether `5.6-sol-high` can increase lexical depth while preserving
 reader-facing clarity.
 
-Increase depth through semantic precision. Add as much prose as distinct,
-significant reader payoffs require, but no bulk that merely repeats evidence.
+Increase depth through semantic precision, not additional bulk.
 
 Before drafting, silently build a coverage ledger:
 
 - include every `must_integrate` topic;
 - include every `candidate` with a reader payoff not already expressed;
-- judge each candidate independently before synthesis. The number of words,
-  roots, or already admitted findings must not raise its admission threshold;
 - if `v12_reader_responses` is absent because the default workflow retired
   per-ayah focus runs, do not infer a `stage_00` isolated response or
   confidence movement;
@@ -385,18 +336,6 @@ Before drafting, silently build a coverage ledger:
   prose obligation. When fallback inventories are present, treat them as
   restricted to this ayah's roots and anchored citations, not as a whole-surah
   obligation.
-- treat `root_lexicon` as identity-complete but payload-tiered by the required
-  pre-Layer-2 transform. Every dominant/non-dominant root and dictionary
-  `branch_ref` remains; inspect `payload_tier` and
-  `coverage.root_lexicon.branch_policy`. `explicit_interest` is full except for
-  the globally removed `what_is_not_ar` and boundary note; safety/compact tiers
-  intentionally carry less detail and may use `semantic_fallback`. If multiple
-  QAC roots map to the same Furuq root, use `qac_roots_ar` /
-  `qac_root_mappings` for attribution. Branches remain evidence support, not
-  independent prose obligations. Full field means all distinct reader payoffs
-  from activated material, not every dictionary branch for the root. A payload
-  tier controls storage only: it is neither prose priority nor permission to
-  suppress a qualifying compact-branch finding.
 - if `channel_generated_outputs` lists quran-data files and this run gives you
   file access, read only those listed files when channel-family/path detail is
   necessary. Treat them as candidate/family/path evidence, not as an adjudicated
@@ -406,10 +345,9 @@ For each critical word, preserve these distinct layers when available:
 
 1. local grammatical work;
 2. locally selected sense;
-3. coherent pressure supplied by activated or cited root branches;
+3. coherent pressure supplied by related root branches;
 4. one form, sound, rarity, or variant observation with a unique payoff;
-5. later contextual change, integrated into its reader-visible result without
-   dropping a distinct surprise.
+5. later contextual change, compressed to its final reader-visible result.
 
 Do not flatten these layers into a general metaphor. Deepen generic summaries by
 naming the exact lexical mechanism. Ordering grammar and local meaning first is
@@ -426,17 +364,13 @@ In prose, attach root discussion to the surface word:
 `{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
 olduğu kök alanı...`, not `ʿ-d-v kökü...`.
 
-A paragraph may begin with the ayah's surface, a concrete image, or a
-reader-facing claim. It may not begin with a bare grammar label or stacked
-abstractions. Prefer "Âyet önce hamdi Allah'a verir; sabit ad cümlesi bu hamdi
-yerleşik bir hüküm olarak taşır" over "Bu âyet, tek bir isim cümlesiyle yerleşik
-bir hüküm kurar."
+Start each paragraph with reader meaning before grammar. Prefer "Âyet önce hamdi
+Allah'a verir; bunu fiille değil, sabit bir ad cümlesiyle yapar" over "Bu âyet,
+tek bir isim cümlesiyle yerleşik bir hüküm kurar."
 
-Keep the ayah's own wording as the grounding surface. There is no paragraph or
-word-count ceiling: let the number of paragraphs follow the number of materially
-distinct findings. Synthesize related later developments, but retain every
-anchored latent activation or surprise with a significant reader payoff. Omit
-fluff, repetition, and findings that do not change understanding.
+For this short ayah, keep at least two-thirds of the prose on its own wording.
+Compress all later developments into at most three paragraphs and end with one
+plain synthesis paragraph.
 
 Use `v12_cross_run_publication`, if present, only as a compact coverage/priority
 check derived from regular and plus/minus-5 reader runs. Do not copy it as prose,
@@ -447,90 +381,11 @@ protect the primary sense from replacement, or preserve live counter-evidence.
 Default ceiling for this ayah: three. Never stack two negatives in one sentence.
 During final revision, rewrite all other negatives as positive predication.
 Do not drive negation to zero by default: if no explicit negative is needed,
-include a profile-specific style audit in friction confirming that there was no
-live misconception, replacement risk, or counter-evidence requiring one.
+confirm in friction that there was no live misconception, replacement risk, or
+counter-evidence requiring one.
 
 Pass only if every paragraph has one distinct reader payoff and the prose remains
 clear with the evidence surface closed.""",
-    ),
-    "v2.5.6-sol-max": PromptProfile(
-        name="v2.5.6-sol-max",
-        layer="ayah",
-        title="V2 Rendering Profile — Focus-Aware Default",
-        body="""This run uses the shared focus-aware rendering contract for every comparator
-model. Preserve full lexical depth while keeping the prose reader-facing and
-clear.
-
-Preserve every non-equivalent lexical distinction and every materially distinct,
-anchored surprise; do not preserve source-level repetition. "Full field" means
-all distinct reader payoffs, not every available branch, stage, caveat, or
-alternative formulation.
-
-The evidence surface remains exhaustive. It carries stage history, alternative
-causes, counter-evidence, identity problems, and inference qualifications.
-Technical support may remain there, but a finding with a significant reader
-payoff must remain intelligible in prose; apparatus is not a place to hide a
-surprising reading merely to shorten the commentary.
-
-Collapse:
-
-- one `model_id` across all stages into one before/after trajectory;
-- repeated reminders that the primary sense survives into one positive anchor;
-- multiple branches into one concrete image only when they explain the same
-  mechanism and have the same reader payoff.
-
-The prose order is:
-
-1. plain translation and speech act;
-2. local grammar;
-3. word-level lexical depth;
-4. an explicit account of every distinct reading, synthesized only where no
-   mechanism or reader payoff is lost;
-5. integrated later illumination;
-6. plain concluding synthesis.
-
-Later ayahs may deepen the focus ayah but may not become a sequential retelling
-of the surah.
-
-If `channel_generated_outputs` lists quran-data files and this run gives you file
-access, read only those listed files when channel-family/path detail is
-necessary. Treat them as candidate/family/path evidence, not as an adjudicated
-channel ledger. State B channel restrictions still apply.
-
-If `v12_focus_trace_hermetic` is present, treat it as a reconstructed focus
-trace: baseline models show what the ayah can yield on its own, context deltas
-show changed reading after later context, and `surprising_valid_outliers` are
-live anchored readings to express when they have a significant payoff rather
-than audit away. Do not call it a
-`stage_00` / `stage_01` staged run.
-
-At first mention of an ayah word, use a structured Arabic surface span:
-`{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
-Use the same full span again when the prose returns to that word after moving to
-another word or another paragraph. Inside one short local sequence, after a full
-span has just been given, a Turkish label or transliteration is enough. Keep raw
-roots, root skeletons, letter-by-letter root transliterations, and branch IDs in
-the evidence surface. In prose, attach root discussion to the surface word:
-`{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
-olduğu kök alanı...`, not `ʿ-d-v kökü...`.
-
-Lead each paragraph with reader meaning before grammar; place technical
-precision after it. Prefer one interpretive move per sentence. There is no
-paragraph count or target word count. Length follows the distinct significant
-findings; repetition, filler, and findings without a changed understanding do
-not justify length.
-
-Use an explicit negative predicate only to correct a likely misconception,
-protect the primary sense from replacement, or preserve live counter-evidence.
-Default ceiling for this ayah: three explicit negative predicates. Run a final
-audit for `-maz/-mez`, `değil/değildir`, and `yok/yoktur`. Do not drive negation
-to zero by default: if no explicit negative is needed, include a
-profile-specific style audit in friction confirming that there was no live
-misconception, replacement risk, or counter-evidence requiring one.
-
-Before submitting, perform a semantic checksum: every distinct reading remains,
-but no sentence merely repeats coverage, containment, or uncertainty already
-expressed elsewhere.""",
     ),
     "v2.5.6-sol-high-no-focus": PromptProfile(
         name="v2.5.6-sol-high-no-focus",
@@ -614,13 +469,13 @@ compensating with speculative breadth.""",
 }
 
 
-_SHARED_FOCUS_AWARE_PROFILE = PROMPT_PROFILES["v2.5.6-sol-max"]
+_CANONICAL_AYAH_PROFILE = PROMPT_PROFILES["v2.5.6-sol-high"]
 for _profile_name in ("v2.5.5-high", "v2.5.6-sol-high", "v2.5.6-sol-max"):
     PROMPT_PROFILES[_profile_name] = PromptProfile(
         name=_profile_name,
-        layer=_SHARED_FOCUS_AWARE_PROFILE.layer,
-        title=_SHARED_FOCUS_AWARE_PROFILE.title,
-        body=_SHARED_FOCUS_AWARE_PROFILE.body,
+        layer=_CANONICAL_AYAH_PROFILE.layer,
+        title=_CANONICAL_AYAH_PROFILE.title,
+        body=_CANONICAL_AYAH_PROFILE.body,
     )
 
 

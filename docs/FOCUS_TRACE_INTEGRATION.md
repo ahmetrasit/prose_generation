@@ -79,11 +79,48 @@ the tension in evidence when both remain anchored.
 ## Workflow Boundary
 
 This does not need a separate ayah-commentary writer workflow. Focus Trace is an
-optional Layer-2 evidence source, so the same `_ayah_commentary/v1/PROMPT.md`
-task should write from it.
+optional Layer-2 evidence source, so the same canonical
+`_ayah_commentary/PROMPT.md` task should write from it. Normal comparator labels
+such as `v2.5.5-high`, `v2.5.6-sol-high`, and `v2.5.6-sol-max` are filename and
+manifest labels only; they all use the canonical `v2.5.6-sol-high` instruction
+profile.
 
 Use a separate bundle/output directory only for controlled comparisons, such as
 HFT versus no-HFT or no-reader ablations.
+
+## Current Production Regeneration
+
+For the focused ayah-commentary workflow, the active path is:
+
+```text
+build_bundle.py --require-focus-trace
+  -> tier_branch_payloads.py --compact-output
+  -> instantiate.py --bundles-dir bundles-layer2 --require-focus-trace
+```
+
+All three gates are intentional. `build_bundle.py --require-focus-trace` fails
+when any target ayah lacks a usable HFT reader. `tier_branch_payloads.py` fails
+when HFT, required coverage, branch inventories, or branch citations are absent
+or malformed. `instantiate.py --require-focus-trace` fails if the tiered bundle
+being inlined no longer has HFT readers. Optional sources may be absent only as
+explicit coverage notes; they should not disappear silently.
+
+S12, S18, and S5 use explicit pericope source directories:
+`bundles/s012-pericopes/`, `bundles/s018-pericopes/`, and
+`bundles/s005-pericopes/`. The tiered production prompt input remains the single
+zero-padded directory for each surah under `bundles-layer2/`. Do not create
+duplicate `s5`/`s005`, `s18`/`s018`, or `s12`/`s012` workflows.
+
+The current pericope intervals are:
+
+- S12: 1-18, 19-35, 36-57, 58-76, 77-93, 94-111.
+- S18: 1-26, 27-44, 45-59, 60-82, 83-98, 99-110.
+- S5: 1-11, 12-26, 27-40, 41-56, 57-71, 72-86, 87-108, 109-120.
+
+The production prompt source is `_ayah_commentary/PROMPT.md`, restored to the
+canonical S12_v1 `v2.5.6-sol-high` instruction body. Regenerate every normal
+profile label from that same source; the profile label changes only the prompt
+filename and manifest `profile` value.
 
 ## S100 Handoff
 

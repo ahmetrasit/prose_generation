@@ -3,11 +3,11 @@
   "ayah": 74,
   "layer": "ayah",
   "language": "tr",
-  "generated": "2026-08-01",
+  "generated": "2026-08-09",
   "profile": "v2.5.6-sol-high",
   "task_document": {
-    "path": "_ayah_commentary/v1/PROMPT.md",
-    "bytes": 24965
+    "path": "_ayah_commentary/PROMPT.md",
+    "bytes": 14971
   },
   "governing_documents": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "path": "COMMENTARY_SPEC.md",
-      "bytes": 9769
+      "bytes": 10926
     },
     {
       "path": "docs/CHANNELS.md",
@@ -25,13 +25,19 @@
   ],
   "bundle_files": [
     {
-      "path": "bundles/s005/5_74.ayah.json",
-      "source_bytes": 642316,
-      "inlined_bytes": 411353,
+      "path": "bundles-layer2/s005/5_74.ayah.json",
+      "source_bytes": 301957,
+      "inlined_bytes": 301956,
+      "sha256": "26336c8c115f05192e6f404c003e763dab6822ea74b3051870fd64590bc1ac5b",
+      "bundle_generated_at": "2026-08-08T22:48:37.558699+00:00",
+      "hft_present": true,
+      "hft_reader_keys": [
+        "reader_hft_a"
+      ],
       "rendering": "compact-json"
     }
   ],
-  "bundle_root": "/Users/ahmetrasit/projects/prose_generation/bundles",
-  "output_bytes": 477314,
+  "bundle_root": "bundles-layer2",
+  "output_bytes": 358180,
   "output_file": "5_74.ayah.v2.5.6-sol-high.prompt.md"
 }

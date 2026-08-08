@@ -221,11 +221,12 @@ and all other non-branch fields are unchanged.
 
 Tier names are storage contracts, not finding ranks or prose budgets. A compact
 branch may support a significant finding, and an explicit branch creates no
-automatic prose obligation. Layer 2 has no target paragraph or word count; it
-retains every distinct anchored surprise with reader payoff and rejects only
-repetition, fluff, or material that does not change understanding.
-The admission threshold is identical for sparse and dense ayat; root count never
-reduces the explanatory space available to a qualifying finding.
+automatic prose obligation. Prose length and selection remain governed by the
+single canonical ayah-commentary prompt profile; Layer 2 retains every distinct
+anchored surprise with reader payoff and rejects only repetition, fluff, or
+material that does not change understanding. The admission threshold is
+identical for sparse and dense ayat; root count never reduces the explanatory
+space available to a qualifying finding.
 
 The transform fails non-zero on a missing input, invalid JSON, missing required
 field, coverage/payload contradiction, missing HFT, malformed or unresolved
@@ -241,6 +242,8 @@ commentary task and governing documents. New Layer-2 runs must pass the tiered
 directory with `--bundles-dir`; do not point this command at the full base
 bundle directory.
 
+The active ayah-commentary task source is `_ayah_commentary/PROMPT.md`.
+
 Prompt files are immutable snapshots. Regenerate them after every base-bundle,
 tiered-bundle, or HFT response change; do not rely on an existing prompt
 filename to imply freshness. For focused pilots, verify the prompt itself
@@ -254,7 +257,7 @@ model.
 # Base ayah prompts for a whole surah
 python3 scripts/instantiate.py --surah 100 --layer ayah --bundles-dir bundles-layer2 --language tr --date 2026-07-27
 
-# One focus-aware comparator prompt
+# One focus-aware canonical prompt
 python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir bundles-layer2 --profile v2.5.6-sol-high --language tr --date 2026-07-27
 
 # Comparator output labels, when needed. These labels use the same prompt
@@ -268,9 +271,22 @@ Without `--profile`, outputs are named like `{S}_{A}.ayah.prompt.md` and
 appended: `{S}_{A}.ayah.v2.5.6-sol-high.prompt.md` and matching manifest.
 
 The normal comparator labels (`v2.5.5-high`, `v2.5.6-sol-high`, and
-`v2.5.6-sol-max`) all use the same focus-aware default prompt contract. Do not
-tailor prompt instructions to a model name or reasoning level; vary only the
-runtime model/reasoning configuration outside the prompt.
+`v2.5.6-sol-max`) all use the canonical `v2.5.6-sol-high` prompt contract from
+`_ayah_commentary/PROMPT.md`. Do not tailor prompt instructions to a model name
+or reasoning level; vary only the runtime model/reasoning configuration outside
+the prompt.
+
+For S12/S18/S5 focused production refreshes, rebuild each pericope span with
+`build_bundle.py --require-focus-trace`, project each ayah through
+`tier_branch_payloads.py --compact-output`, then instantiate from
+`bundles-layer2` with `--require-focus-trace`. Source spans live under
+`bundles/s012-pericopes/`, `bundles/s018-pericopes/`, and
+`bundles/s005-pericopes/`; the production prompt inputs live under
+`bundles-layer2/s012`, `bundles-layer2/s018`, and `bundles-layer2/s005`.
+The repeated HFT checks are part of the contract: build fails on missing focus
+trace readers, tiering fails on missing HFT or malformed required evidence, and
+instantiation fails if a tiered bundle has lost HFT readers. Optional source
+absence must appear in coverage; it should not be silently erased.
 
 ### Combined Layer 3 + Layer 2.5
 

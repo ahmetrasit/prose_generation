@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 build_bundle.py — assemble the per-ayah / per-surah input bundle consumed by
-`_ayah_commentary/v1/PROMPT.md` and `_surah_commentary/PROMPT.md`.
+`_ayah_commentary/PROMPT.md` and `_surah_commentary/PROMPT.md`.
 
 See `COMMENTARY_SPEC.md` §9 for the source inventory this script implements,
 and `scripts/README.md` for usage.
