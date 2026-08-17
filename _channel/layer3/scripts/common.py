@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import json
+import hashlib
+import re
 from pathlib import Path
 from typing import Any
 
@@ -59,6 +61,60 @@ def write_json(path: Path, value: Any, *, compact: bool = False) -> None:
     )
 
 
+def canonical_json(value: Any) -> str:
+    return json.dumps(
+        value,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+
+
+def sha256_text(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
+
+
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def content_hash(value: Any) -> str:
+    return sha256_text(canonical_json(value))
+
+
+def normalize_language(value: str) -> str:
+    language = value.strip().replace("_", "-").lower()
+    if not re.fullmatch(r"[a-z]{2,8}(?:-[a-z0-9]{1,8})*", language):
+        raise SystemExit(f"error: invalid language tag: {value!r}")
+    return language
+
+
+def immutable_write_text(path: Path, text: str) -> bool:
+    """Write a generated artifact once; identical reruns are idempotent."""
+    if path.exists():
+        existing = path.read_text(encoding="utf-8")
+        if existing == text:
+            return False
+        raise SystemExit(
+            f"error: refusing to overwrite immutable Layer-3 artifact: {path}"
+        )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    return True
+
+
+def immutable_write_json(path: Path, value: Any, *, compact: bool = False) -> bool:
+    if compact:
+        rendered = json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+    else:
+        rendered = json.dumps(value, ensure_ascii=False, indent=2)
+    return immutable_write_text(path, rendered + "\n")
+
+
 def source_base(source_ref: str) -> str:
     return source_ref.split("#", 1)[0]
 
@@ -81,6 +137,18 @@ def portable_path(
         except ValueError:
             continue
     return str(resolved)
+
+
+def resolve_portable_path(path: str) -> Path:
+    prefixes = {
+        "prose_generation/": REPO_ROOT,
+        "quran-data/": REPO_ROOT.parent / "quran-data",
+        "latent_activation/": REPO_ROOT.parent / "latent_activation",
+    }
+    for prefix, root in prefixes.items():
+        if path.startswith(prefix):
+            return root / path[len(prefix) :]
+    return Path(path)
 
 
 def require_keys(value: dict[str, Any], keys: set[str], context: str) -> list[str]:
