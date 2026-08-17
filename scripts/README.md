@@ -19,14 +19,14 @@ python3 scripts/build_bundle.py --surah 103 --ayah 1
 # Every ayah bundle for the surah, plus the surah-level bundle
 python3 scripts/build_bundle.py --surah 103
 
-# Include Hermetic Focus Trace from ../latent_activation/focus_trace
-python3 scripts/build_bundle.py --surah 100 --include-focus-trace
+# Default build includes and requires Hermetic Focus Trace
+python3 scripts/build_bundle.py --surah 100
 
-# Focused run after reader JSON exists; fail if any target ayah is missing it
-python3 scripts/build_bundle.py --surah 100 --require-focus-trace
+# Explicit no-HFT build; coverage records the intentional exclusion
+python3 scripts/build_bundle.py --surah 100 --exclude-focus-trace
 
 # Use one labelled HFT response for a comparison run
-python3 scripts/build_bundle.py --surah 100 --ayah 1 --require-focus-trace --focus-trace-variant 5.5-high
+python3 scripts/build_bundle.py --surah 100 --ayah 1 --focus-trace-variant 5.5-high
 
 # Custom output directory (default is bundles/s{NNN}/)
 python3 scripts/build_bundle.py --surah 103 --out _commentary/work/some_dir
@@ -52,9 +52,9 @@ matching the v12 run layout, which has no `focus_{S}_0`:
   builder to roots this ayah can justify;
 - `v12_reader_responses` as an explicit retired/absent coverage field; per-ayah
   focus-run responses are no longer consumed by the default commentary lane;
-- `v12_focus_trace_hermetic`, when explicitly requested with
-  `--include-focus-trace` or `--require-focus-trace`, carrying Hermetic Focus
-  Trace packet summaries and reader JSONs from `../latent_activation`;
+- `v12_focus_trace_hermetic`, required by default unless
+  `--exclude-focus-trace` is passed, carrying Hermetic Focus Trace packet
+  summaries and reader JSONs from `../latent_activation`;
 - the per-ayah excerpt of each `reader_s{NNN}_{a,b}_ayah_walk.md` (Activated
   readings + Retrospective surprises, plus the separate Turkish Prose Synthesis
   block where the reader's file has one);
@@ -117,12 +117,12 @@ branch source resolves, the run now aborts.
 
 ### Hermetic Focus Trace
 
-Hermetic Focus Trace is opt-in because it reads a sibling generation workspace,
-`../latent_activation/focus_trace`, instead of the frozen `quran-data` source
-root. The run directory is zero-padded only (`runs/s012`, not `runs/s12`). Use
-`--include-focus-trace` while packets exist but reader responses may still be
-absent. Use `--require-focus-trace` for the final focused commentary run;
-preflight fails if any target ayah lacks a reader response.
+Hermetic Focus Trace is required by default even though it reads a sibling
+generation workspace, `../latent_activation/focus_trace`, instead of the frozen
+`quran-data` source root. The builder probes both run directory spellings
+(`runs/s012` and `runs/s12`) and fails if both contain material for the same
+target ayah. Use `--exclude-focus-trace` only for an intentional no-HFT build;
+coverage records that exclusion.
 
 If multiple HFT responses exist for the same ayah, `--focus-trace-variant`
 selects one filename variant. The unlabelled file is `default`; a file named
@@ -278,7 +278,7 @@ or reasoning level; vary only the runtime model/reasoning configuration outside
 the prompt.
 
 For S12/S18/S5 focused production refreshes, rebuild each pericope span with
-`build_bundle.py --require-focus-trace`, project each ayah through
+`build_bundle.py`, project each ayah through
 `tier_branch_payloads.py --compact-output`, then instantiate from
 `bundles-layer2` with `--require-focus-trace`. Source spans live under
 `bundles/s012-pericopes/`, `bundles/s018-pericopes/`, and

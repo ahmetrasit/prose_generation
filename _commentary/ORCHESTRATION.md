@@ -89,14 +89,14 @@ an earlier prompt file byte-for-byte.
 ```
 python3 scripts/build_bundle.py --surah 100
 python3 scripts/build_bundle.py --surah 100 --ayah 1     # one ayah
-python3 scripts/build_bundle.py --surah 100 --require-focus-trace
-python3 scripts/build_bundle.py --surah 100 --ayah 1 --require-focus-trace --focus-trace-variant 5.6-sol-high
+python3 scripts/build_bundle.py --surah 100 --exclude-focus-trace     # intentional no-HFT build
+python3 scripts/build_bundle.py --surah 100 --ayah 1 --focus-trace-variant 5.6-sol-high
 ```
 
-Reads `../quran-data/data/` by default (D-a). With `--include-focus-trace` or
-`--require-focus-trace`, it also reads the explicitly requested Hermetic Focus
-Trace run under `../latent_activation/focus_trace/runs/s{NNN}/`. Writes
-`bundles/s{NNN}/`.
+Reads `../quran-data/data/` by default (D-a). It also reads Hermetic Focus Trace
+from `../latent_activation/focus_trace/runs/`, probing both `s{NNN}` and `sN`
+run directories. HFT is required unless `--exclude-focus-trace` is passed.
+Writes `bundles/s{NNN}/`.
 
 The builder runs a **preflight** that enumerates every expected source for the
 surah and aborts with the complete gap list. It does not abort on the first
@@ -134,7 +134,7 @@ Current ayah bundles distinguish these V12 reader-derived families:
 | bundle field | source | use |
 | --- | --- | --- |
 | `v12_reader_responses` | retired per-ayah focus runs | explicit absent/retired coverage field in the default lane |
-| `v12_focus_trace_hermetic` | opt-in one-call reconstructed focus trace from `../latent_activation/focus_trace` | baseline/context-delta/outlier evidence for surprise and changed reading |
+| `v12_focus_trace_hermetic` | required-by-default reconstructed focus trace from `../latent_activation/focus_trace` | baseline/context-delta/outlier evidence for surprise and changed reading |
 | `v12_reader_walks` | regular full-context ayah walks | retrospective/full-context reader evidence |
 | `v12_reader_walks_wide` | plus/minus-5 / 11-ayah-context walks | wider-window retrospective reader evidence |
 | `v12_cross_run_publication` | compact final cross-run findings | coverage/priority check derived from regular plus wide readers |
@@ -156,11 +156,11 @@ bundles use the surah `full_context_packet.json` branch inventory scoped to this
 ayah's roots and anchored citations, plus regular/wide reader walks and
 cross-run publication findings when present.
 
-Hermetic Focus Trace is the replacement ayah-level signal when a run explicitly
-asks for it. Use `--include-focus-trace` to surface packet/readiness coverage
-without failing on missing reader JSON. Use `--require-focus-trace` for the
-actual focused commentary run after upstream readers are complete; it fails
-preflight unless every target ayah has a reader response.
+Hermetic Focus Trace is the replacement ayah-level signal and is required by
+default. The builder checks both `runs/sNNN` and `runs/sN`, fails on ambiguity,
+and fails preflight unless every target ayah has a usable packet plus reader
+response. Use `--exclude-focus-trace` only for an intentional no-HFT build; the
+coverage block records that exclusion.
 
 Use `--focus-trace-variant` when the same focus ayah has multiple HFT response
 files. The unlabelled filename is variant `default`; labelled filenames such as
@@ -259,7 +259,7 @@ are selected with the label after `{S}_{A}.`, such as `5.5-high` or
 
 Validate each response with
 `focus_trace/scripts/validate_focus_trace.py`, then rerun
-`python3 scripts/build_bundle.py --surah {S} --require-focus-trace` and Stage 1B
+`python3 scripts/build_bundle.py --surah {S}` and Stage 1B
 so the Layer-2 bundle sees `coverage.v12_focus_trace_hermetic.present: true`. The
 S100 continuation runbook is
 `../latent_activation/focus_trace/runs/s100/COLD_HANDOFF.md`.
@@ -586,7 +586,7 @@ friction has completed half the task.
 
 For a surah, in order:
 
-1. `build_bundle.py --surah N --require-focus-trace` — one full base build
+1. `build_bundle.py --surah N` — one full base build with required HFT
 2. `tier_branch_payloads.py` — transform every ayah into `bundles-layer2/sNNN/`
 3. `instantiate.py --surah N --layer ayah --bundles-dir bundles-layer2` — write every unit
 4. verify manifest byte counts against the working tree

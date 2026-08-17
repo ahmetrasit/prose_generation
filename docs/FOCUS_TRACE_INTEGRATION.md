@@ -1,8 +1,9 @@
 # Hermetic Focus Trace Integration
 
 Hermetic Focus Trace is an upstream workflow in
-`../latent_activation/focus_trace/`. Production run directories are zero-padded:
-`runs/s012`, not `runs/s12`. It recovers the useful part of the retired
+`../latent_activation/focus_trace/`. The bundle builder probes both production
+run directory spellings, `runs/s012` and `runs/s12`, and fails on ambiguity
+rather than choosing silently. It recovers the useful part of the retired
 per-ayah focus runs: an ayah read first on its own, then read again as later
 ayat activate surprising latent possibilities.
 
@@ -10,27 +11,28 @@ It is cheaper than strict staged focus runs. The reader receives one sealed
 packet and writes one JSON response. That means it is a reconstructed trace, not
 a blind reveal transcript. Layer 2 must label and use it accordingly.
 
-## Bundle Opt-In
+## Bundle Requirement
 
-The default commentary bundle does not read `../latent_activation`. To add
-Hermetic Focus Trace, build the ayah bundles explicitly:
+The default commentary bundle reads `../latent_activation` and requires usable
+Hermetic Focus Trace for every target ayah:
 
 ```sh
-python3 scripts/build_bundle.py --surah 100 --include-focus-trace
-python3 scripts/build_bundle.py --surah 100 --require-focus-trace
-python3 scripts/build_bundle.py --surah 100 --ayah 1 --require-focus-trace --focus-trace-variant 5.6-sol-high
+python3 scripts/build_bundle.py --surah 100
+python3 scripts/build_bundle.py --surah 100 --ayah 1 --focus-trace-variant 5.6-sol-high
 ```
 
-Use `--include-focus-trace` while packets exist but reader JSON may still be
-missing. Use `--require-focus-trace` for the final focused Layer-2 run; it fails
-preflight unless every target ayah has a reader response.
+Use `--exclude-focus-trace` only for an intentional no-HFT build. Coverage then
+records the exclusion explicitly so it cannot be mistaken for a lookup miss.
+The old `--include-focus-trace` and `--require-focus-trace` flags are
+compatibility no-ops because HFT is already included and required by default.
+`--allow-missing-focus-trace` is removed.
 
 Use `--focus-trace-variant` to select one labelled response for a comparison
 run. The unlabelled file is variant `default`; for example
 `100_1.5.6-sol-high.focus_trace.json` is variant `5.6-sol-high`.
 
 The full bundle from `build_bundle.py` is an auditable source artifact, not the
-production Layer-2 input. After a required-focus build, create the separate
+production Layer-2 input. After the required-HFT build, create the separate
 tiered bundle and instantiate from that directory:
 
 ```sh
@@ -79,7 +81,7 @@ the tension in evidence when both remain anchored.
 ## Workflow Boundary
 
 This does not need a separate ayah-commentary writer workflow. Focus Trace is an
-optional Layer-2 evidence source, so the same active
+required Layer-2 evidence source by default, so the same active
 `_ayah_commentary/v2/PROMPT.md` task should write from it. Normal comparator labels
 such as `v2.5.5-high`, `v2.5.6-sol-high`, and `v2.5.6-sol-max` are filename and
 manifest labels only; they all use the canonical `v2.5.6-sol-high` instruction
@@ -93,12 +95,12 @@ HFT versus no-HFT or no-reader ablations.
 For the focused ayah-commentary workflow, the active path is:
 
 ```text
-build_bundle.py --require-focus-trace
+build_bundle.py
   -> tier_branch_payloads.py --compact-output
   -> instantiate.py --bundles-dir bundles-layer2 --require-focus-trace
 ```
 
-All three gates are intentional. `build_bundle.py --require-focus-trace` fails
+All three gates are intentional. `build_bundle.py` fails
 when any target ayah lacks a usable HFT reader. `tier_branch_payloads.py` fails
 when HFT, required coverage, branch inventories, or branch citations are absent
 or malformed. `instantiate.py --require-focus-trace` fails if the tiered bundle
@@ -133,7 +135,7 @@ The live continuation runbook is:
 After upstream reader JSON validates, rebuild S100 with:
 
 ```sh
-python3 scripts/build_bundle.py --surah 100 --require-focus-trace
+python3 scripts/build_bundle.py --surah 100
 jq '.coverage.v12_focus_trace_hermetic' bundles/s100/100_1.ayah.json
 ```
 
