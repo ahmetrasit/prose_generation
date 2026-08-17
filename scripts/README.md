@@ -242,7 +242,7 @@ commentary task and governing documents. New Layer-2 runs must pass the tiered
 directory with `--bundles-dir`; do not point this command at the full base
 bundle directory.
 
-The active ayah-commentary task source is `_ayah_commentary/PROMPT.md`.
+The active ayah-commentary task source is `_ayah_commentary/v2/PROMPT.md`.
 
 Prompt files are immutable snapshots. Regenerate them after every base-bundle,
 tiered-bundle, or HFT response change; do not rely on an existing prompt
@@ -271,8 +271,9 @@ Without `--profile`, outputs are named like `{S}_{A}.ayah.prompt.md` and
 appended: `{S}_{A}.ayah.v2.5.6-sol-high.prompt.md` and matching manifest.
 
 The normal comparator labels (`v2.5.5-high`, `v2.5.6-sol-high`, and
-`v2.5.6-sol-max`) all use the canonical `v2.5.6-sol-high` prompt contract from
-`_ayah_commentary/PROMPT.md`. Do not tailor prompt instructions to a model name
+`v2.5.6-sol-max`) all use the active task from
+`_ayah_commentary/v2/PROMPT.md` plus the canonical `v2.5.6-sol-high` rendering
+profile. Do not tailor prompt instructions to a model name
 or reasoning level; vary only the runtime model/reasoning configuration outside
 the prompt.
 

@@ -11,7 +11,7 @@ access; otherwise the prompt remains self-contained. This is what makes runs
 reproducible and makes two different models comparable on verifiably identical
 input. See `PLAN.md` decisions D-e and D-f, and action 3.
 
-The ayah task document is `_ayah_commentary/PROMPT.md`. The normal comparator
+The ayah task document is `_ayah_commentary/v2/PROMPT.md`. The normal comparator
 profile labels (`v2.5.5-high`, `v2.5.6-sol-high`, and `v2.5.6-sol-max`) are
 filename/manifest labels only; they all inline the canonical
 `v2.5.6-sol-high` instruction body. Do not tailor prompt instructions to model
@@ -275,7 +275,7 @@ def _layer2_outputs(surah: int) -> tuple[list[UpstreamDoc], dict]:
 LAYER_REGISTRY: dict[str, LayerSpec] = {
     "ayah": LayerSpec(
         name="ayah",
-        task_prompt_rel="_ayah_commentary/PROMPT.md",
+        task_prompt_rel="_ayah_commentary/v2/PROMPT.md",
         per_ayah=True,
         output_stem=lambda surah, ayah: f"{surah}_{ayah}.ayah",
         bundle_files=_ayah_bundle_files,
@@ -315,7 +315,8 @@ PROMPT_PROFILES: dict[str, PromptProfile] = {
         body="""This run tests whether `5.6-sol-high` can increase lexical depth while preserving
 reader-facing clarity.
 
-Increase depth through semantic precision, not additional bulk.
+Increase depth through semantic precision. Add no bulk without a distinct
+reader payoff, but do not compress a significant finding for brevity.
 
 Before drafting, silently build a coverage ledger:
 
@@ -339,7 +340,8 @@ Before drafting, silently build a coverage ledger:
 - if `channel_generated_outputs` lists quran-data files and this run gives you
   file access, read only those listed files when channel-family/path detail is
   necessary. Treat them as candidate/family/path evidence, not as an adjudicated
-  channel ledger. State B channel restrictions still apply.
+  channel ledger. They do not license recurrence, maturity, or a surah-wide
+  channel name.
 
 For each critical word, preserve these distinct layers when available:
 
@@ -347,7 +349,8 @@ For each critical word, preserve these distinct layers when available:
 2. locally selected sense;
 3. coherent pressure supplied by related root branches;
 4. one form, sound, rarity, or variant observation with a unique payoff;
-5. later contextual change, compressed to its final reader-visible result.
+5. later contextual change, developed through its final reader-visible result
+   in proportion to its significance.
 
 Do not flatten these layers into a general metaphor. Deepen generic summaries by
 naming the exact lexical mechanism. Ordering grammar and local meaning first is
@@ -368,9 +371,12 @@ Start each paragraph with reader meaning before grammar. Prefer "Âyet önce ham
 Allah'a verir; bunu fiille değil, sabit bir ad cümlesiyle yapar" over "Bu âyet,
 tek bir isim cümlesiyle yerleşik bir hüküm kurar."
 
-For this short ayah, keep at least two-thirds of the prose on its own wording.
-Compress all later developments into at most three paragraphs and end with one
-plain synthesis paragraph.
+Keep the prose anchored in this ayah's own wording without imposing a paragraph
+or length quota. Give every significant finding enough space to make its
+mechanism and reader payoff clear, even when it arrives through later context;
+never compress it merely to keep the commentary short. Preserve every member of
+the resonance set, and use a plain closing synthesis only when the ayah benefits
+from one.
 
 Use `v12_cross_run_publication`, if present, only as a compact coverage/priority
 check derived from regular and plus/minus-5 reader runs. Do not copy it as prose,
@@ -421,7 +427,8 @@ Still write full ayah commentary. Use the remaining sources normally:
 - `channel_generated_outputs`, if present, only as a file-access manifest for
   generated candidate/family/path evidence; read only listed files when needed,
   and do not treat them as an adjudicated channel ledger;
-- channel review material under the normal State B limits.
+- channel review material only as a nomination of local connections; it does
+  not license recurrence, maturity, or a surah-wide channel name.
 
 Keep the normal v2 reader-facing controls: structured Arabic spans at first
 mention and again after paragraph/word shifts when the word does fresh work, no
@@ -462,9 +469,9 @@ inside `inter_ayah_rows` or by the ayah's own lexical field.
 Keep the normal v2 reader-facing controls: structured Arabic spans at first
 mention and again after paragraph/word shifts when the word does fresh work, no
 raw roots in prose, positive predication, meaning before grammar, no wrapper
-label in prose, and every paragraph with one clear reader payoff. Because the
-late-arriving reader trajectory is removed, prefer a tighter commentary over
-compensating with speculative breadth.""",
+label in prose, and every paragraph with one clear reader payoff. Do not
+compensate for the missing reader trajectory with speculative breadth, and do
+not compress any significant finding supported by the remaining evidence.""",
     ),
 }
 
@@ -746,7 +753,7 @@ def build_prompt(
         )
     else:
         lines.append(
-            f"Write in {language}. Produce your response as three parts, in this "
+            f"Write in {language}. Produce your response as four parts, in this "
             "order. If you return one combined response, label the parts clearly. "
             "If an orchestrator asks you to write the parts into separate files, "
             "omit wrapper labels from the prose and evidence files; the file path "
@@ -763,12 +770,19 @@ def build_prompt(
             "per phrase, per `PRINCIPLES.md` §12."
         )
         lines.append(
-            "3. A section headed exactly `=== PROMPT FRICTION ===` reporting "
+            "3. **The findings index** — one line per reading carried by the "
+            "prose, under its bundle ref, with `[inference]` on the writer's own "
+            "readings. Include each required `surprise:<id>` synthesis row and "
+            "its `[supports-primary]` or `[shifts-primary]` relation."
+        )
+        lines.append(
+            "4. A section headed exactly `=== PROMPT FRICTION ===` reporting "
             "honestly where the specification above was unclear, "
             "self-contradictory, underspecified, or impossible to follow, and any "
             "point where you had to invent a rule to proceed. Report this "
             "section every time, even if the run went cleanly — say so explicitly "
-            "if you found nothing. This is how the specification gets improved."
+            "if you found nothing — and end it with the density audit required "
+            "by the task document. This is how the specification gets improved."
         )
     lines.append("")
 

@@ -48,9 +48,11 @@ handed forward — see [`PRINCIPLES.md`](PRINCIPLES.md) §6.
 
 ### Layer 2 — function and resonance, per ayah (`_ayah_commentary/`)
 
-Active work continues in [`_ayah_commentary/v1/`](_ayah_commentary/v1/). The
-incompatible v2 experiment has been removed from the active workflow tree and
-archived under [`archive/_commentary/v2/`](archive/_commentary/v2/).
+Active work uses
+[`_ayah_commentary/v2/PROMPT.md`](_ayah_commentary/v2/PROMPT.md). Earlier ayah
+prompt versions remain for historical reproduction, not new runs. Do not confuse
+this active ayah prompt with the separate multi-stage workflow archived under
+[`archive/_commentary/v2/`](archive/_commentary/v2/).
 
 Two jobs.
 
@@ -124,7 +126,7 @@ scripts/              base builder, pre-L2 branch tierer, and instantiators
 bundles/              generated base and tiered commentary input bundles
 _commentary/          hermetic Layer-2 prompts and authored ayah outputs
 _translation/         layer 1 — the spine
-_ayah_commentary/v1/  layer 2 — function and resonance, per ayah
+_ayah_commentary/v2/  active layer 2 — function and resonance, per ayah
 _channel/layer3/      active layer 3 — surah-wide resonance systems
 _channel/*.md         retired combined layer 3 + 2.5 experiment
 _channel_review/      retired review experiment
@@ -144,7 +146,7 @@ they are planned, not because they exist.
 - Rules first: [`PRINCIPLES.md`](PRINCIPLES.md), then
   [`COMMENTARY_SPEC.md`](COMMENTARY_SPEC.md).
 - Running layer 1: [`_translation/v1/README.md`](_translation/v1/README.md).
-- Running ayah commentary Layer 2: [`_ayah_commentary/PROMPT.md`](_ayah_commentary/PROMPT.md)
+- Running ayah commentary Layer 2: [`_ayah_commentary/v2/PROMPT.md`](_ayah_commentary/v2/PROMPT.md)
   is the active authoring path. [`_commentary/ORCHESTRATION.md`](_commentary/ORCHESTRATION.md)
   remains the run contract for existing ayah prompts and agent-authored outputs;
   [`scripts/README.md`](scripts/README.md) documents the required

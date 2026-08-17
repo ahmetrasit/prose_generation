@@ -5,10 +5,10 @@
 > retired. New surah-wide work uses
 > [`../_channel/layer3/ORCHESTRATION.md`](../_channel/layer3/ORCHESTRATION.md).
 
-How to produce commentary for any ayah or any surah, in any target language,
-from a cold start. One file covers all passes because they are dependent: the
-combined Layer 3 + 2.5 pass consumes cold Layer-2 prose and the reviewed channel
-source, then writes both the whole-surah reading and its gradual ayah additions.
+How to produce Layer-2 commentary for any ayah, in any target language, from a
+cold start. The ayah build, instantiation, run, and output sections remain
+active. Combined Layer 3 + 2.5 material is retained only as historical context;
+do not use those commands for new surah-wide work.
 
 Rules are in [`../PRINCIPLES.md`](../PRINCIPLES.md). What commentary is for is in
 [`../COMMENTARY_SPEC.md`](../COMMENTARY_SPEC.md). This file is the run contract:
@@ -340,8 +340,8 @@ Inlined per layer:
 
 | layer | task document | governing | bundle | upstream |
 | --- | --- | --- | --- | --- |
-| ayah | `_ayah_commentary/v1/PROMPT.md` | `PRINCIPLES.md`, `COMMENTARY_SPEC.md`, `docs/CHANNELS.md` | `{S}_{A}.ayah.json` | — |
-| combined 3 + 2.5 | `_channel/PROMPT.md` | selected excerpts + both schemas | `{NNN}.channel.json` | every Layer-2 `prose` file |
+| ayah | `_ayah_commentary/v2/PROMPT.md` | `PRINCIPLES.md`, `COMMENTARY_SPEC.md`, `docs/CHANNELS.md` | `{S}_{A}.ayah.json` | — |
+| combined 3 + 2.5 (retired) | `_channel/PROMPT.md` | selected excerpts + both schemas | `{NNN}.channel.json` | every Layer-2 `prose` file |
 
 **The combined pass consumes Layer-2 prose, not raw ayah bundles.** Exact channel
 identity comes from the compact reviewed-channel bundle, so Layer-2 evidence and
@@ -414,8 +414,8 @@ primary. The index repeats the synthesis under `surprise:<id>` with
 
 `channel_subchannels_anchored_here` and `channel_generated_outputs` may help the
 agent notice local evidence. They do not license recurrence, maturity, or a
-surah-wide name. Even when a reviewed plan later exists, the canonical cold
-Layer-2 pass remains unchanged; channel disclosure is a Layer-2.5 overlay.
+surah-wide name. Layer 2 makes every grounded local resonance explicit; only
+Layer 3 may establish and name a recurring surah-wide channel.
 
 ## Stage 4P — Optional pericope compression (`2P`)
 
@@ -641,7 +641,7 @@ with `scripts/instantiate.py --profile`.
 **Never evaluate on S1.** The governing documents inlined into every prompt
 contain worked answers for 1:6 — `docs/CHANNELS.md:48` and `:216` state the
 `sırât` finding and its branch id, `:132` gives the same finding in ready-made
-Turkish, and `_ayah_commentary/v1/PROMPT.md:33` asserts the doubled-article point.
+Turkish, and `_ayah_commentary/v2/PROMPT.md:33` asserts the doubled-article point.
 Those are legitimate few-shot teaching of register and should stay. They make S1
 useless as an eval surah.
 
@@ -698,18 +698,12 @@ to work, and what is not:
 | 4 pericope | not implemented; needed for long surahs, not for these four |
 | 5 layer 3 | instantiates; **never run** |
 
-Two instructions in the inlined prompts are currently **unsatisfiable**, and
-agents should be expected to report them:
-
-- Layer 2 is told to pick up layer 3's excluded readings. No layer 3 output
-  exists, so there is nothing to pick up.
-- Layer 2 is told to pick up layer 1's `consideredNotPrimary` rejections. Only
-  `s100.1-5.primary-anchors.json` records that field; the S1 and S103 seeds have
-  none and S100:6–11 have none, so those rejections are being destroyed rather
-  than handed forward.
-Both are real gaps in the pipeline, not errors in the prompt. They are named here
-so a friction report that reports them is confirming a known state rather than
-discovering a new one.
+One upstream evidence family remains incomplete. Layer 1's
+`consideredNotPrimary` rejections are recorded only in
+`s100.1-5.primary-anchors.json`; the S1 and S103 seeds have none and S100:6–11
+have none. The v2 ayah prompt treats this as a conditional input and requires an
+explicit coverage gap when it is absent; it does not infer the missing
+rejections. This is a pipeline gap rather than a prompt contradiction.
 
 Three further items from the S1 baseline remain open: what counts as an
 activated reading is now answered by `commentary_obligation` in the bundle, but

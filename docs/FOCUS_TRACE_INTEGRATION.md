@@ -79,8 +79,8 @@ the tension in evidence when both remain anchored.
 ## Workflow Boundary
 
 This does not need a separate ayah-commentary writer workflow. Focus Trace is an
-optional Layer-2 evidence source, so the same canonical
-`_ayah_commentary/PROMPT.md` task should write from it. Normal comparator labels
+optional Layer-2 evidence source, so the same active
+`_ayah_commentary/v2/PROMPT.md` task should write from it. Normal comparator labels
 such as `v2.5.5-high`, `v2.5.6-sol-high`, and `v2.5.6-sol-max` are filename and
 manifest labels only; they all use the canonical `v2.5.6-sol-high` instruction
 profile.
@@ -117,9 +117,9 @@ The current pericope intervals are:
 - S18: 1-26, 27-44, 45-59, 60-82, 83-98, 99-110.
 - S5: 1-11, 12-26, 27-40, 41-56, 57-71, 72-86, 87-108, 109-120.
 
-The production prompt source is `_ayah_commentary/PROMPT.md`, restored to the
-canonical S12_v1 `v2.5.6-sol-high` instruction body. Regenerate every normal
-profile label from that same source; the profile label changes only the prompt
+The production task source is `_ayah_commentary/v2/PROMPT.md`.
+`scripts/instantiate.py` appends the canonical `v2.5.6-sol-high` rendering
+profile for every normal comparator label; the label changes only the prompt
 filename and manifest `profile` value.
 
 ## S100 Handoff
