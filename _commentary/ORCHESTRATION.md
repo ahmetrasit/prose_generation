@@ -34,10 +34,18 @@ _commentary/
     {S}_{A}.evidence.md
     {S}_{A}.index.md
     {S}_{A}.friction.md
+    {S}_{A}.prose.editorial.md
+    {S}_{A}.evidence.editorial.md
+    {S}_{A}.index.editorial.md
+    {S}_{A}.friction.editorial.md
     {S}_{A}.prose.{agent-type}.md       comparative runs
     {S}_{A}.evidence.{agent-type}.md
     {S}_{A}.index.{agent-type}.md
     {S}_{A}.friction.{agent-type}.md
+    {S}_{A}.prose.{agent-type}.editorial.md
+    {S}_{A}.evidence.{agent-type}.editorial.md
+    {S}_{A}.index.{agent-type}.editorial.md
+    {S}_{A}.friction.{agent-type}.editorial.md
     {NNN}.surah.prose.md
     {NNN}.surah.thesis.md
     {NNN}.surah.channels.reviewed.json
@@ -380,15 +388,74 @@ built, not how to write from it, and its content is already resolved into the
 bundle. The dangling filename reference is left for the friction report to
 surface if it disorients a writer.
 
-## Stage 3 — Run layer 2, one agent per ayah
+## Stage 3 — Run Layer 2 in two steps, one Luna agent per ayah
 
-Feed one prompt file to one cold agent as its **entire** prompt. No system
-prompt, no other context, no conversation history. Repo/file reads are limited to
-explicit external-source manifests in the bundle, currently
+A cold orchestration agent owns the complete two-step lifecycle below for each
+target ayah. Different ayahs may run in parallel, but each ayah keeps its own
+agent and conversation. Never place more than one ayah in an agent's context.
+
+### Step 1 — First-pass Layer-2 files
+
+Spawn one cold **5.6 Luna Max** agent: use the Luna family with `gpt-5.6-sol` at
+`max` reasoning. Do not set a service-tier override. Feed the target ayah's
+single prompt file to the agent as its **entire** prompt: no added system prompt,
+other context, or conversation history. Repo/file reads are limited to explicit
+external-source manifests in the bundle, currently
 `channel_generated_outputs.files[]`.
-Do not set a service-tier override when spawning these agents; use the model and
-reasoning effort only. The current default commentary family is recorded under
-Cross-model runs below; its reasoning effort is `max`.
+
+Wait until the agent has completed all four first-pass files: prose, evidence,
+index, and friction. Confirm that every file exists and is non-empty. Record their
+byte counts or hashes so Step 2 can prove they were not modified. **Keep this same
+agent open.** Do not spawn a separate editor. A truncated or visibly incomplete
+file does not satisfy Step 1 merely because it is present and non-empty.
+
+### Step 2 — Editorial Layer-2 files
+
+Send the message below verbatim to the same agent. Do not prepend or append
+commentary, re-send the instantiated prompt or bundle, or paste the first-pass
+files into the message. They remain in the agent's conversation and workspace.
+
+```text
+Please revise your Layer 2 output editorially without reducing its interpretive yield or changing its evidentiary judgments.
+
+Create exactly one new editorial counterpart for each of the four first-pass files: prose, evidence, findings index, and friction. Do not edit, replace, append to, or rename the first-pass files. Derive each new filename by inserting `.editorial` immediately before the target-language suffix when one is present, and otherwise immediately before `.md`. For example, `{unit}.prose.tr.md` becomes `{unit}.prose.editorial.tr.md`, while `{unit}.prose.luna-max.tr.md` becomes `{unit}.prose.luna-max.editorial.tr.md`. Apply the same rule to evidence, index, and friction. Write exactly four new files and modify nothing else.
+
+Preserve the ayah’s plain meaning and every accepted resonance with a distinct mechanism or reader payoff. Let compatible or countervailing resonances remain alive together; do not rank, disambiguate, or select among them. If the ayah has no earned local resonance, do not invent one: its linguistic, grammatical, formal, or acoustic force may carry the commentary. Do not introduce Layer 3, surah-wide channels, or network claims.
+
+Use no length, paragraph, section, or heading quota. Do not compress merely to shorten the commentary. Merge material only when it performs the same work and gives the reader the same payoff.
+
+Rewrite the prose as fluent, contemporary Turkish for a regular reader. Remove English expressions, analyst shorthand, workflow language, and stiff technical calques. Retain a linguistic term only when it genuinely helps the reader: first explain its concrete effect in natural Turkish, then name it if still useful. Preserve the underlying linguistic finding while naturalizing its expression.
+
+Apply the structured Arabic span consistently:
+
+{ar:<Arabic surface>, tr:<Turkish-readable transliteration>, gloss:<Turkish meaning>}
+
+Whenever an Arabic ayah word becomes active in a new paragraph, or the prose returns to it after discussing another word, give its full structured span again. Never let bare transliteration be the only representation of an Arabic word in a paragraph. Within the same immediate sequence, later references may use its Turkish meaning or a natural pronoun. Audit every paragraph for this requirement.
+
+Use short, reader-facing subtitles only where the reading genuinely changes movement. Let the ayah determine their number and placement. Subtitles should create an expectation about what becomes visible next; they must not name words, roots, findings, evidence categories, resonances, or workflow stages.
+
+Create cinematic continuity without adding drama or interpretation. Each section should inherit a concrete image, question, tension, relation, or motion from the preceding section and carry it somewhere new. Use transitions to change the reader’s viewpoint or deepen what is already present. Avoid restarting every paragraph as an independent finding or repeatedly announcing another image. Hooks must arise from the ayah and its accepted findings.
+
+Keep distinct findings recoverable even when they belong to one larger movement. Let the ending return naturally to the ayah’s plain force and show what has become newly visible, rather than listing all findings again.
+
+Create the editorial evidence, findings index, and friction files so that they exactly match the editorial prose and every retained finding still has an identifiable landing.
+```
+
+Wait until all four editorial files exist and are non-empty. Confirm that the
+four first-pass files still match their recorded byte counts or hashes. Step 2 is
+complete only when the editorial index is mechanically valid and the editorial
+friction report ends with the required density audit. Then close the ayah agent;
+do not leave it running for a later layer or derived output.
+
+Keeping the same agent avoids explicitly re-injecting the large prompt, bundle,
+and first-pass files, and gives the runtime the best opportunity to reuse the
+shared context prefix. It does not make the earlier context free: Step 2 still
+retains or processes that history, depending on the runtime, and the complete
+conversation plus the editorial output must fit the model's context window. The
+second full set also costs output tokens roughly in proportion to the rewritten
+files. That cost is intentional because an independent editorial set remains
+auditable, comparable, and directly consumable without reconstructing a patch.
+Do not spend additional tokens asking the agent to narrate its edits in chat.
 
 **One agent per ayah is a correctness requirement, not a preference.** An agent
 holding the whole surah writes ayah readings that are slices of a thesis it has
@@ -397,7 +464,8 @@ not read 100:11. The isolation is what layer 3 later depends on: it reads
 commentary written without knowledge of the argument, and therefore cannot be
 retro-fitted to one.
 
-Agents at this stage do not communicate. Run them in parallel.
+Agents at this stage do not communicate. Run ayah lifecycles in parallel, but
+preserve Step 1 then Step 2 ordering within each lifecycle.
 
 The defining constraint the agent operates under is that **layer 2 does not
 select** (`PRINCIPLES.md` §6). It carries the full field, including readings
@@ -478,7 +546,13 @@ python3 scripts/check_channel_overlays.py \
 The completed preview is the human gate: the whole-surah channel prose should
 feel like recognition, while every original local surprise remains intact.
 
-## Stage 8 — Optional derived ayah orientation (`Dinle`)
+## Retired Stage 8 — Optional derived ayah orientation (`Dinle`)
+
+**Historical only; do not run this stage in the active Layer-2 workflow.** It
+assumed that the ayah agent would remain open while a later surah pass completed.
+The active lifecycle now closes each ayah agent as soon as its Step-2 editorial
+set is complete. Any future orientation workflow must operate from files and be
+specified separately; it must not keep the Layer-2 agent alive.
 
 This is a derived reader surface, not a change to canonical Layer 2. The cold
 Layer-2 agent first completes its normal ayah work with no surah thesis or
@@ -530,9 +604,10 @@ Your canonical Layer 2 work for this ayah is complete and frozen.
 
 ## Output contract — agent-owned
 
-An ayah unit produces four files. The combined surah unit produces the artifacts
-named in `_channel/PROMPT.md`. The agent writes them; the orchestrator does not
-edit them.
+A completed ayah unit produces two four-file sets: an untouched first pass and
+its editorial counterpart. The same ayah agent writes both sets; the orchestrator
+does not edit them. The combined surah unit produces the artifacts named in
+`_channel/PROMPT.md`.
 
 | file | content |
 | --- | --- |
@@ -544,25 +619,34 @@ edit them.
 For the active Turkish reader-facing lane, use the language-labelled filenames
 already established in completed surahs: `{unit}.prose.tr.md`,
 `{unit}.evidence.tr.md`, `{unit}.index.tr.md`, and `{unit}.friction.tr.md`.
-The prompt profile remains recorded in the input prompt/manifest; it is not
-duplicated in the active output filename.
+Their editorial counterparts are `{unit}.prose.editorial.tr.md`,
+`{unit}.evidence.editorial.tr.md`, `{unit}.index.editorial.tr.md`, and
+`{unit}.friction.editorial.tr.md`. The prompt profile remains recorded in the
+input prompt/manifest; it is not duplicated in the active output filename.
 
-For comparative runs, append a stable agent label before `.md`, for example
-`100_1.prose.5.6-sol-high.md`. The label records the model/run class; it does
-not change the content contract.
+For comparative runs, place a stable agent label before the language suffix, for
+example `100_1.prose.luna-max.tr.md`. Insert `editorial` after that label for the
+derived set: `100_1.prose.luna-max.editorial.tr.md`. The label records the
+model/run class; it does not change the content contract. The editorial set is
+the reader-facing Layer-2 deliverable; the first pass remains an immutable audit
+and comparison surface. Downstream consumers must select the editorial label
+explicitly rather than relying on a glob when both sets are present.
 
-Arabic lexical items in prose may be authored as structured spans:
+Arabic lexical items in prose must be authored as structured spans whenever the
+word itself is active in the explanation:
 
 ```
 {ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar}
 ```
 
-Use the full span at first mention of an ayah word, and again when the prose
-returns to that word after another word or another paragraph. Renderers can then
-produce a reader edition with transliteration first, a listener/TTS edition with
-the Arabic surface form, or a Turkish-only edition with the gloss. Raw root
-skeletons, branch IDs, and letter-by-letter root transliterations stay in
-evidence. Prose should attach root discussion to the surface word, for example
+Use the full span at first mention of an ayah word in every paragraph where it is
+active, and again when the prose returns to that word after another word. Bare
+transliteration must never be the only representation of an active Arabic word
+in a paragraph. Renderers can then produce a reader edition with transliteration
+first, a listener/TTS edition with the Arabic surface form, or a Turkish-only
+edition with the gloss. Raw root skeletons, branch IDs, and letter-by-letter root
+transliterations stay in evidence. Prose should attach root discussion to the
+surface word, for example
 `{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
 olduğu kök alanı...`.
 
@@ -584,33 +668,32 @@ friction has completed half the task.
 
 ## Batch orchestration
 
-For a surah, in order:
+For active Layer 2, in order:
 
 1. `build_bundle.py --surah N` — one full base build with required HFT
 2. `tier_branch_payloads.py` — transform every ayah into `bundles-layer2/sNNN/`
 3. `instantiate.py --surah N --layer ayah --bundles-dir bundles-layer2` — write every unit
 4. verify manifest byte counts against the working tree
-5. spawn one agent per ayah, in parallel, each with one prompt file
-6. collect each agent's files into `_commentary/outputs/s{NNN}/`
-7. `check_index.py --surah N` — mechanical, before any reading (ayah units);
-   add `--require-surprise` only when the run criterion requires an explicit
-   local surprise in every unit
-8. read the friction reports **before** reading the prose
-9. `build_channel_bundle.py --surah N`; validate the compact reviewed-channel bundle
-10. `instantiate_channel.py --surah N` — reads only Layer-2 prose from step 6
-11. spawn one combined Layer 3 + 2.5 agent with that prompt
-12. validate `{S}.surah.channels.reviewed.json`
-13. validate `{S}.ayah-channel-overlays.json` against the reviewed plan
-14. read the overlay preview and friction before accepting the surah prose
+5. spawn one cold 5.6 Luna Max agent (`gpt-5.6-sol`, `max`) per ayah, in
+   parallel, each with one prompt file
+6. wait for each four-file first pass, verify it, record byte counts or hashes,
+   and keep that ayah's agent open
+7. send the Stage-3 Step-2 message verbatim to each same agent
+8. verify each four-file editorial set, verify the first-pass hashes are
+   unchanged, and mechanically check the editorial index; close that ayah's
+   agent only after these checks pass
+9. read the editorial friction reports **before** reading the editorial prose
+10. begin any Layer-3 work only under
+    [`../_channel/layer3/ORCHESTRATION.md`](../_channel/layer3/ORCHESTRATION.md)
 
-The ordering of steps 7 and 8 is deliberate. Prose reads as authoritative whether
-or not it is, so both the mechanical check and the friction report — where the
-instructions' failures are visible — come first.
+For the default Turkish editorial filename, validate with
+`check_index.py --surah N --profile editorial.tr`. A comparative Luna-labelled
+set uses `--profile luna-max.editorial.tr`. Add `--require-surprise` only when the
+run criterion requires an explicit local surprise in every unit.
 
-Step 9 is where the layers join, and the join is a file read: whatever Layer-2
-prose is in `_commentary/outputs/s{NNN}/` at that moment is what the combined
-pass sees. Re-running Layer 2 afterward requires re-instantiation. The channel
-manifest records every source with byte count and hash.
+The ordering of the mechanical check and friction read is deliberate. Prose
+reads as authoritative whether or not it is, so validate the index and inspect
+friction before accepting the reader-facing commentary.
 
 Stages 1 and 2 are idempotent. Re-running with the same `--date` overwrites with
 identical bytes.
@@ -621,22 +704,26 @@ The hermetic prompt is what makes this possible. To compare Claude against
 another model, hand both the same `.prompt.md` file, unmodified, with no system
 prompt. Any difference in output is attributable to the model.
 
-Current S100 ayah pilot default:
+Current Layer-2 ayah default:
 
 ```
+agent_family: luna
 model: gpt-5.6-sol
 reasoning_effort: max
 prompt_profile: v2.5.6-sol-high
-output_label: tr
+first_pass_output_label: tr
+editorial_output_label: editorial.tr
 per_ayah_focus_runs: retired
 ```
 
-The default reader-facing prose lane uses `gpt-5.6-sol` at `max` reasoning. The
-historical `v2.5.6-sol-high` prompt/output label remains the active lane label
-until a later pilot changes this record. Keep only the current default profile
-prompt in the active `_commentary/inputs/s{NNN}/` path. Move comparator profile
-prompts to `_commentary/inputs/archive/s{NNN}/` after use; they are reproducible
-with `scripts/instantiate.py --profile`.
+The default reader-facing prose lane uses **5.6 Luna Max**: the Luna family with
+`gpt-5.6-sol` at `max` reasoning. It requires the same-agent editorial follow-up.
+Do not silently substitute Terra or another agent family. The historical `v2.5.6-sol-high`
+prompt/output label remains the active lane label until a later pilot changes
+this record. Keep only the current default profile prompt in the active
+`_commentary/inputs/s{NNN}/` path. Move comparator profile prompts to
+`_commentary/inputs/archive/s{NNN}/` after use; they are reproducible with
+`scripts/instantiate.py --profile`.
 
 **Never evaluate on S1.** The governing documents inlined into every prompt
 contain worked answers for 1:6 — `docs/CHANNELS.md:48` and `:216` state the
@@ -684,6 +771,7 @@ python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir _
 | D-e | input/output split, prompts hermetic | cold-agent runnable, cross-model comparable |
 | D-f | S100 is the test surah, not S1 | contamination, above |
 | D-g | do not generate the remaining 84 whole-surah readings | all long, none a candidate until layers 2/3 are validated |
+| D-h | editorial output is a second immutable four-file set made by the same Luna agent | preserves findings and auditability while using the original context without re-sending the bundle |
 
 ## Completion-state limitation
 
@@ -694,7 +782,7 @@ to work, and what is not:
 | --- | --- |
 | 1 build | runs; rewritten 2026-07-27 for `quran-data`-only, preflight, pericopes, gloss join |
 | 2 instantiate | runs for both layers; verified deterministic by double-run diff |
-| 3 layer 2 | complete for S1 (7), S87 (19), S100 (11), S103 (3) in the default lane; S87 predates explicit channel rows |
+| 3 layer 2 | first-pass runs exist for S1 (7), S87 (19), S100 (11), S103 (3); the mandatory same-agent Luna editorial lifecycle is documented but has not yet been run end to end |
 | 4 pericope | not implemented; needed for long surahs, not for these four |
 | 5 layer 3 | instantiates; **never run** |
 
